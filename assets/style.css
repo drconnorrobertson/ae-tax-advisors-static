@@ -165,7 +165,7 @@ header {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 8px;
+    padding: 12px;
 }
 .mobile-toggle span {
     display: block;
@@ -786,8 +786,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background: rgba(255,255,255,0.1);
     color: rgba(255,255,255,0.7);
@@ -870,8 +870,8 @@ footer {
 }
 .lead-modal-close {
     position: absolute;
-    top: 12px;
-    right: 16px;
+    top: 8px;
+    right: 8px;
     background: none;
     border: none;
     font-size: 28px;
@@ -879,6 +879,11 @@ footer {
     cursor: pointer;
     transition: color var(--transition);
     line-height: 1;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .lead-modal-close:hover { color: var(--dark); }
 .lead-modal-icon { font-size: 48px; margin-bottom: 16px; }
@@ -917,7 +922,7 @@ footer {
         overflow-y: auto;
     }
     .nav-links.open { display: flex; }
-    .nav-link { padding: 12px 0; }
+    .nav-link { padding: 16px 0; }
     .nav-cta { margin-left: 0; margin-top: 8px; text-align: center; }
     .dropdown-content { position: static; box-shadow: none; padding-left: 16px; display: block; border: none; }
     .nav-dropdown:hover .dropdown-content { display: block; }
@@ -938,6 +943,7 @@ footer {
     section h2 { font-size: 28px; }
 
     .sticky-cta { display: block; }
+    input, button, select, textarea, .btn { min-height: 44px; }
     footer { padding-bottom: 60px; }
 
     .lead-modal-content { padding: 28px 20px; }
