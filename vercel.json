@@ -11,7 +11,17 @@
     { "source": "/category/trusts-family-strategy/", "destination": "/trusts-family-strategy/", "statusCode": 301 },
     { "source": "/category/tax-deadlines-year-end-checklists/", "destination": "/tax-deadlines-year-end-checklists/", "statusCode": 301 },
     { "source": "/category/audit-defense-compliance/", "destination": "/audit-defense-compliance/", "statusCode": 301 },
-    { "source": "/category/modern-tax-education-strategy-insights/", "destination": "/modern-tax-education-strategy-insights/", "statusCode": 301 }
+    { "source": "/category/modern-tax-education-strategy-insights/", "destination": "/modern-tax-education-strategy-insights/", "statusCode": 301 },
+    { "source": "/category/:path*", "destination": "/blog/", "statusCode": 301 },
+    { "source": "/tag/:path*", "destination": "/blog/", "statusCode": 301 },
+    { "source": "/author/:path*", "destination": "/about/", "statusCode": 301 },
+    { "source": "/page/:num", "destination": "/blog/", "statusCode": 301 },
+    { "source": "/feed/", "destination": "/blog/", "statusCode": 301 },
+    { "source": "/feed/:path*", "destination": "/blog/", "statusCode": 301 },
+    { "source": "/wp-content/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/wp-json/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/wp-login.php", "destination": "/", "statusCode": 301 },
+    { "source": "/wp-admin/:path*", "destination": "/", "statusCode": 301 }
   ],
   "headers": [
     {
