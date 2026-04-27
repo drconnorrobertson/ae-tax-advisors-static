@@ -55,8 +55,135 @@
   "description": "Advanced tax strategies for high-net-worth individuals and business owners."
 }
     </script>
-    
-    
+
+    <style>
+    /* Team Bios Page Styles */
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 48px;
+        margin-top: 40px;
+        max-width: 1100px;
+    }
+
+    .team-member {
+        background: var(--white);
+        padding: 0;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow-sm);
+        overflow: hidden;
+        transition: transform var(--transition), box-shadow var(--transition);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+
+    .team-member:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-md);
+    }
+
+    .team-member-image {
+        position: relative;
+        overflow: hidden;
+        background: var(--light-bg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 320px;
+    }
+
+    .team-member-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .team-member-content {
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .team-member h2 {
+        font-family: var(--font-heading);
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0 0 4px 0;
+        color: var(--dark);
+        line-height: 1.3;
+    }
+
+    .team-member-title {
+        color: var(--accent);
+        font-weight: 600;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 16px;
+    }
+
+    .team-member-credential {
+        color: var(--medium);
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+
+    .team-member p {
+        font-size: 14px;
+        line-height: 1.7;
+        color: var(--medium);
+        margin: 0;
+    }
+
+    .team-member-links {
+        margin-top: 20px;
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .team-member-links a {
+        font-size: 13px;
+        font-weight: 600;
+        padding: 8px 14px;
+        border-radius: 4px;
+        transition: all var(--transition);
+    }
+
+    .team-member-links .btn-cta {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 1024px) {
+        .team-grid {
+            grid-template-columns: 1fr;
+            gap: 32px;
+        }
+
+        .team-member {
+            grid-template-columns: 1fr;
+        }
+
+        .team-member-image {
+            min-height: 280px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .team-member-content {
+            padding: 24px;
+        }
+
+        .team-member h2 {
+            font-size: 20px;
+        }
+    }
+    </style>
 </head>
 <body>
         <header>
@@ -99,17 +226,111 @@
     </header>
 
     <main>
-        
+
     <section class="page-header">
         <div class="container">
             <h1>Meet Our Advisors</h1>
-            <p>The AE Tax Advisors team brings deep expertise in tax planning for high-income professionals.</p>
+            <p>Our team of experienced CPAs, Enrolled Agents, and strategic advisors combines technical tax expertise with real-world experience serving business owners, real estate investors, and high-income professionals.</p>
         </div>
     </section>
+
     <section class="content-section fade-in-section">
         <div class="container">
-            <p>Our team of advisors combines technical tax expertise with real-world experience serving executives, physicians, attorneys, business owners, and real estate investors. Every member of our advisory team is committed to delivering proactive, compliant tax strategies that make a measurable difference.</p>
-            <div class="center-cta">
+            <div class="team-grid">
+                <!-- Christina Nortman -->
+                <div class="team-member">
+                    <div class="team-member-image">
+                        <img src="/assets/images/team/christina-nortman.svg" alt="Christina Nortman, CPA">
+                    </div>
+                    <div class="team-member-content">
+                        <h2>Christina Nortman, CPA</h2>
+                        <div class="team-member-title">Managing Partner, Northeast Region</div>
+                        <p>Certified Public Accountant and Partner leading the Northeast division from Maryland. Christina brings a foundation of Big Four experience from PwC and CohnReznick, combining large-firm sophistication with client-centered, accessible service.</p>
+                        <p style="margin-top: 12px;"><strong>Background:</strong> Bachelor's and Master of Science in Accounting from University of Baltimore.</p>
+                        <p style="margin-top: 12px;"><strong>Specialty:</strong> Proactive tax planning for high-income business owners and real estate investors seeking to level up from their current CPA.</p>
+                    </div>
+                </div>
+
+                <!-- Mark Simonsen -->
+                <div class="team-member">
+                    <div class="team-member-image">
+                        <img src="/assets/images/team/mark-simonsen.svg" alt="Mark Simonsen, CPA">
+                    </div>
+                    <div class="team-member-content">
+                        <h2>Mark Simonsen, CPA</h2>
+                        <div class="team-member-title">Founding Principal, Mountain West Region</div>
+                        <p>CPA and Founding Principal based in Montana with deep roots in the local business community. Mark brings a hands-on, client-first mentality focused on proactive, advanced tax planning for high-income business owners and real estate professionals.</p>
+                        <p style="margin-top: 12px;"><strong>Specialty:</strong> Advanced tax strategy for business owners, real estate investors, and entrepreneurs who need sophisticated planning to reduce their tax burden.</p>
+                    </div>
+                </div>
+
+                <!-- Adam West -->
+                <div class="team-member">
+                    <div class="team-member-image">
+                        <img src="/assets/images/team/adam-west.svg" alt="Adam West, EA">
+                    </div>
+                    <div class="team-member-content">
+                        <h2>Adam West, EA</h2>
+                        <div class="team-member-title">Resolution and Compliance, Southeast Region</div>
+                        <p>Enrolled Agent and Partner at both Gonser, West &amp; Associates and AE Tax Advisors, based in Macon, Georgia. Adam leads the Southeast division, combining personalized local service with national-caliber tax planning and IRS representation.</p>
+                        <p style="margin-top: 12px;"><strong>Services:</strong> Accounting, consulting, tax compliance, and IRS representation for business owners and high-income professionals across the Southeast.</p>
+                    </div>
+                </div>
+
+                <!-- Sidhartha Sen -->
+                <div class="team-member">
+                    <div class="team-member-image">
+                        <img src="/assets/images/team/sidhartha-sen.svg" alt="Sidhartha Sen">
+                    </div>
+                    <div class="team-member-content">
+                        <h2>Sidhartha Sen</h2>
+                        <div class="team-member-title">Strategic Advisory</div>
+                        <p>Strategic advisor focused on finance, operations, and business development at AE Tax Advisors. Sidhartha brings expertise in structuring complex financial arrangements and optimizing operational efficiency for tax planning success.</p>
+                        <p style="margin-top: 12px;"><strong>Focus:</strong> Financial strategy, business operations, and growth initiatives for the firm and its clients.</p>
+                    </div>
+                </div>
+
+                <!-- Brett Watts -->
+                <div class="team-member">
+                    <div class="team-member-image">
+                        <img src="/assets/images/team/brett-watts.svg" alt="Brett Watts">
+                    </div>
+                    <div class="team-member-content">
+                        <h2>Brett Watts</h2>
+                        <div class="team-member-title">Lending Partner, Swift Line Capital</div>
+                        <p>Lending partner through Swift Line Capital specializing in real estate financing across the full spectrum: fix-and-flip projects, long-term rental properties, and new construction funding. Brett bridges tax planning and deal execution for real estate investors.</p>
+                        <p style="margin-top: 12px;"><strong>Specialty:</strong> Real estate financing coordinated with strategic tax planning to maximize returns for investors.</p>
+                    </div>
+                </div>
+
+                <!-- Avatar Tripathi -->
+                <div class="team-member">
+                    <div class="team-member-image">
+                        <img src="/assets/images/team/avatar-tripathi.svg" alt="Avatar Tripathi">
+                    </div>
+                    <div class="team-member-content">
+                        <h2>Avatar Tripathi</h2>
+                        <div class="team-member-title">Head of Social Media</div>
+                        <p>Head of Social Media at AE Tax Advisors, leading the firm's digital presence and thought leadership across platforms. Avatar manages content strategy, engagement, and brand visibility for business owners and real estate investors seeking advanced tax planning.</p>
+                        <p style="margin-top: 12px;"><strong>Focus:</strong> Digital marketing, content strategy, and community engagement.</p>
+                    </div>
+                </div>
+
+                <!-- Ashik Zaman -->
+                <div class="team-member">
+                    <div class="team-member-image">
+                        <img src="/assets/images/team/ashik-zaman.svg" alt="Ashik Zaman">
+                    </div>
+                    <div class="team-member-content">
+                        <h2>Ashik Zaman</h2>
+                        <div class="team-member-title">Head of Development &amp; Technology</div>
+                        <p>Head of Development and Technology at AE Tax Advisors, building and maintaining the technical infrastructure that powers the firm's tax planning, compliance, and client portal systems.</p>
+                        <p style="margin-top: 12px;"><strong>Focus:</strong> Technology infrastructure, platform development, and digital tools for tax advisory.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center-cta" style="margin-top: 60px;">
                 <a href="/discovery/" class="btn-cta">Work With Our Team</a>
             </div>
         </div>
