@@ -286,22 +286,32 @@ header {
     gap: 16px;
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-bottom: 16px;
+}
+
+.hero-tagline {
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+    font-style: italic;
+    margin: 0;
+    line-height: 1.6;
 }
 
 .hero-service-card {
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(200,169,74,0.25);
+    background: #FFFFFF;
+    border: 1px solid #e0e0e0;
     padding: 24px;
     border-radius: 12px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
     transition: all var(--transition);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    position: relative;
 }
 
 .hero-service-card:hover {
-    background: rgba(255,255,255,0.12);
-    border-color: rgba(200,169,74,0.5);
+    background: #FFFFFF;
+    border-color: #C8A94A;
     transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(200,169,74,0.2);
 }
 
 .hero-service-card h3 {
@@ -309,14 +319,23 @@ header {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 8px;
-    color: var(--white);
+    color: #1B2A4A;
 }
 
 .hero-service-card p {
     font-size: 14px;
-    opacity: 0.85;
+    color: #555555;
     line-height: 1.5;
     margin: 0;
+}
+
+.card-arrow {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 24px;
+    color: #C8A94A;
+    font-weight: 300;
 }
 
 /* ===== FEATURED / AS SEEN IN BAR ===== */

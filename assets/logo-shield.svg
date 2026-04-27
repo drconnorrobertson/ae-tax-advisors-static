@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120">
+  <!-- Shield shape -->
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B2A4A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1620;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shieldShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Shield background with gradient -->
+  <path d="M 50 10 L 80 30 L 80 60 Q 80 95 50 110 Q 20 95 20 60 L 20 30 Z"
+        fill="url(#shieldGradient)"
+        stroke="#C8A94A"
+        stroke-width="1.5"
+        filter="url(#shieldShadow)"/>
+
+  <!-- Gold accent border on inside -->
+  <path d="M 50 15 L 75 32 L 75 60 Q 75 90 50 103 Q 25 90 25 60 L 25 32 Z"
+        fill="none"
+        stroke="#C8A94A"
+        stroke-width="1"
+        opacity="0.5"/>
+
+  <!-- "AE" text -->
+  <text x="50" y="65"
+        font-family="Georgia, serif"
+        font-size="32"
+        font-weight="700"
+        fill="#C8A94A"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        letter-spacing="-1">AE</text>
+</svg>
