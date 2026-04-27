@@ -57,50 +57,58 @@
     </script>
 
     <style>
-    /* Team Bios Page Styles */
+    /* Team Bios Page Styles - Full-width layout matching WordPress */
     .team-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 48px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
         margin-top: 40px;
-        max-width: 1100px;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .team-member {
-        background: var(--white);
-        padding: 0;
-        border-radius: var(--radius);
-        box-shadow: var(--shadow-sm);
-        overflow: hidden;
-        transition: transform var(--transition), box-shadow var(--transition);
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 0;
+        grid-template-columns: 1fr 350px;
+        gap: 40px;
+        align-items: start;
+        padding-bottom: 60px;
+        border-bottom: 1px solid #e5e7eb;
     }
 
-    .team-member:hover {
-        transform: translateY(-4px);
-        box-shadow: var(--shadow-md);
+    .team-member:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    /* Alternate layout: even members flip photo to left */
+    .team-member:nth-child(even) {
+        grid-template-columns: 350px 1fr;
+    }
+    .team-member:nth-child(even) .team-member-image {
+        order: -1;
     }
 
     .team-member-image {
         position: relative;
         overflow: hidden;
-        background: var(--light-bg);
+        background: #f0f2f5;
+        border-radius: 8px;
         display: flex;
         align-items: center;
         justify-content: center;
-        min-height: 320px;
+        min-height: 350px;
     }
 
     .team-member-image img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: 8px;
     }
 
     .team-member-content {
-        padding: 32px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -108,38 +116,31 @@
 
     .team-member h2 {
         font-family: var(--font-heading);
-        font-size: 24px;
+        font-size: 28px;
         font-weight: 700;
         margin: 0 0 4px 0;
-        color: var(--dark);
+        color: #1B2A4A;
         line-height: 1.3;
     }
 
     .team-member-title {
-        color: var(--accent);
+        color: #C8A94A;
         font-weight: 600;
-        font-size: 13px;
+        font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        margin-bottom: 16px;
-    }
-
-    .team-member-credential {
-        color: var(--medium);
-        font-size: 14px;
-        font-weight: 500;
-        margin-bottom: 16px;
+        margin-bottom: 20px;
     }
 
     .team-member p {
-        font-size: 14px;
-        line-height: 1.7;
-        color: var(--medium);
+        font-size: 15px;
+        line-height: 1.8;
+        color: #555;
         margin: 0;
     }
 
     .team-member-links {
-        margin-top: 20px;
+        margin-top: 24px;
         display: flex;
         gap: 12px;
         flex-wrap: wrap;
@@ -148,39 +149,42 @@
     .team-member-links a {
         font-size: 13px;
         font-weight: 600;
-        padding: 8px 14px;
-        border-radius: 4px;
-        transition: all var(--transition);
+        padding: 10px 18px;
+        border-radius: 6px;
+        transition: all 0.2s ease;
     }
 
     .team-member-links .btn-cta {
-        padding: 8px 14px;
+        padding: 10px 18px;
         font-size: 13px;
     }
 
     /* Responsive adjustments */
     @media (max-width: 1024px) {
-        .team-grid {
+        .team-member,
+        .team-member:nth-child(even) {
             grid-template-columns: 1fr;
-            gap: 32px;
+            gap: 24px;
         }
 
-        .team-member {
-            grid-template-columns: 1fr;
+        .team-member:nth-child(even) .team-member-image {
+            order: 0;
         }
 
         .team-member-image {
-            min-height: 280px;
+            min-height: 300px;
+            max-width: 400px;
         }
     }
 
     @media (max-width: 768px) {
-        .team-member-content {
-            padding: 24px;
+        .team-member h2 {
+            font-size: 22px;
         }
 
-        .team-member h2 {
-            font-size: 20px;
+        .team-member-image {
+            min-height: 250px;
+            max-width: 100%;
         }
     }
     </style>
@@ -240,7 +244,7 @@
                 <!-- Christina Nortman -->
                 <div class="team-member">
                     <div class="team-member-image">
-                        <img src="/assets/images/team/christina-nortman.svg" alt="Christina Nortman, CPA">
+                        <img src="https://aetaxadvisors.com/wp-content/uploads/2026/03/Christina-Nortman-CPA.png" alt="Christina Nortman, CPA">
                     </div>
                     <div class="team-member-content">
                         <h2>Christina Nortman, CPA</h2>
@@ -254,7 +258,7 @@
                 <!-- Mark Simonsen -->
                 <div class="team-member">
                     <div class="team-member-image">
-                        <img src="/assets/images/team/mark-simonsen.svg" alt="Mark Simonsen, CPA">
+                        <img src="https://aetaxadvisors.com/wp-content/uploads/2026/03/Mark-Simonsen-CPA.png" alt="Mark Simonsen, CPA">
                     </div>
                     <div class="team-member-content">
                         <h2>Mark Simonsen, CPA</h2>
