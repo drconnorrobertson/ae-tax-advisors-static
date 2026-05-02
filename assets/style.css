@@ -1073,3 +1073,26 @@ footer {
     .stat-number { font-size: 36px; }
     .page-header h1 { font-size: 26px; }
 }
+
+@media print {
+    * { background: transparent !important; color: black !important; box-shadow: none !important; text-shadow: none !important; }
+    html, body { width: 100%; margin: 0; padding: 0; }
+    body { font-size: 12pt; line-height: 1.5; color: #000; }
+
+    header, footer, .sticky-cta, nav, .nav-links, .btn-cta, .mobile-toggle { display: none !important; }
+
+    article, .blog-post { margin: 0; padding: 0; }
+    .container { max-width: 100%; padding: 0; }
+
+    h1, h2, h3, h4, h5, h6 { margin-top: 12pt; margin-bottom: 6pt; page-break-after: avoid; }
+    p { margin: 0 0 8pt 0; orphans: 3; widows: 3; }
+    a { color: #000; text-decoration: underline; }
+    a[href]:after { content: none; }
+
+    img { max-width: 100%; page-break-inside: avoid; }
+    table { border-collapse: collapse; margin: 12pt 0; page-break-inside: avoid; }
+    tr, td { border-bottom: 1px solid #ddd; padding: 6pt 8pt; }
+
+    .related-articles, .post-cta { page-break-before: avoid; margin-top: 24pt; padding: 12pt; border: 1px solid #ddd; }
+    .post-meta { font-size: 10pt; color: #666; margin-bottom: 12pt; }
+}
