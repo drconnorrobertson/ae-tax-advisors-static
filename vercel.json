@@ -2,26 +2,111 @@
   "cleanUrls": true,
   "trailingSlash": true,
   "redirects": [
-    { "source": "/category/tax-basics-that-build-trust/", "destination": "/tax-basics-that-build-trust/", "statusCode": 301 },
-    { "source": "/category/focused-strategies/", "destination": "/focused-strategies/", "statusCode": 301 },
-    { "source": "/category/business-owner-tax-planning/", "destination": "/business-owner-tax-planning/", "statusCode": 301 },
-    { "source": "/category/advanced-tax-strategies/", "destination": "/advanced-tax-strategies/", "statusCode": 301 },
-    { "source": "/category/real-estate-depreciation/", "destination": "/real-estate-depreciation/", "statusCode": 301 },
-    { "source": "/category/retirement-legacy-planning/", "destination": "/retirement-legacy-planning/", "statusCode": 301 },
-    { "source": "/category/trusts-family-strategy/", "destination": "/trusts-family-strategy/", "statusCode": 301 },
-    { "source": "/category/tax-deadlines-year-end-checklists/", "destination": "/tax-deadlines-year-end-checklists/", "statusCode": 301 },
-    { "source": "/category/audit-defense-compliance/", "destination": "/audit-defense-compliance/", "statusCode": 301 },
-    { "source": "/category/modern-tax-education-strategy-insights/", "destination": "/modern-tax-education-strategy-insights/", "statusCode": 301 },
-    { "source": "/category/:path*", "destination": "/blog/", "statusCode": 301 },
-    { "source": "/tag/:path*", "destination": "/blog/", "statusCode": 301 },
-    { "source": "/author/:path*", "destination": "/about/", "statusCode": 301 },
-    { "source": "/page/:num", "destination": "/blog/", "statusCode": 301 },
-    { "source": "/feed/", "destination": "/blog/", "statusCode": 301 },
-    { "source": "/feed/:path*", "destination": "/blog/", "statusCode": 301 },
-    { "source": "/wp-content/:path*", "destination": "/", "statusCode": 301 },
-    { "source": "/wp-json/:path*", "destination": "/", "statusCode": 301 },
-    { "source": "/wp-login.php", "destination": "/", "statusCode": 301 },
-    { "source": "/wp-admin/:path*", "destination": "/", "statusCode": 301 }
+    {
+      "source": "/category/tax-basics-that-build-trust/",
+      "destination": "/tax-basics-that-build-trust/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/focused-strategies/",
+      "destination": "/focused-strategies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/business-owner-tax-planning/",
+      "destination": "/business-owner-tax-planning/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/advanced-tax-strategies/",
+      "destination": "/advanced-tax-strategies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/real-estate-depreciation/",
+      "destination": "/real-estate-depreciation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/retirement-legacy-planning/",
+      "destination": "/retirement-legacy-planning/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/trusts-family-strategy/",
+      "destination": "/trusts-family-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/tax-deadlines-year-end-checklists/",
+      "destination": "/tax-deadlines-year-end-checklists/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/audit-defense-compliance/",
+      "destination": "/audit-defense-compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/modern-tax-education-strategy-insights/",
+      "destination": "/modern-tax-education-strategy-insights/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/:path*",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/author/:path*",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/page/:num",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/feed/",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/feed/:path*",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/:path*",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-json/:path*",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-login.php",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-admin/:path*",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/connor-zoom",
+      "destination": "https://us02web.zoom.us/j/87405350263",
+      "statusCode": 301
+    }
   ],
   "headers": [
     {
