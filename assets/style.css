@@ -1096,3 +1096,202 @@ footer {
     .related-articles, .post-cta { page-break-before: avoid; margin-top: 24pt; padding: 12pt; border: 1px solid #ddd; }
     .post-meta { font-size: 10pt; color: #666; margin-bottom: 12pt; }
 }
+
+/* ===== MOBILE OPTIMIZATION FIXES (May 2026) ===== */
+
+/* -- Discovery page: stack two-column grid on mobile -- */
+@media (max-width: 768px) {
+    .discovery-grid {
+        grid-template-columns: 1fr !important;
+        gap: 32px !important;
+    }
+
+    .discovery-grid > div:last-child > div {
+        padding: 24px !important;
+    }
+
+    .ghl-calendar-iframe {
+        width: 100% !important;
+        min-height: 600px;
+    }
+
+    #ghl-calendar {
+        min-height: 500px !important;
+    }
+}
+
+/* -- Case studies: ensure grid doesn't overflow on small screens -- */
+@media (max-width: 480px) {
+    .case-study-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+
+    .case-study-card {
+        padding: 20px !important;
+    }
+}
+
+/* -- Sticky CTA: stack on very small screens -- */
+@media (max-width: 480px) {
+    .sticky-inner {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .sticky-cta p {
+        font-size: 13px;
+    }
+}
+
+/* -- Global: prevent horizontal overflow -- */
+html, body {
+    overflow-x: hidden;
+}
+
+/* -- Global: ensure all iframes are responsive -- */
+iframe {
+    max-width: 100%;
+}
+
+/* -- Touch target minimum sizes -- */
+@media (max-width: 768px) {
+    .btn-cta, .btn-secondary {
+        min-height: 44px;
+        min-width: 44px;
+        padding: 12px 24px;
+    }
+
+    .footer-col a {
+        padding: 8px 0;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+
+    .blog-filter {
+        min-height: 44px;
+        padding: 10px 18px;
+    }
+
+    .dropdown-item {
+        padding: 12px 20px;
+        min-height: 44px;
+    }
+
+    /* Ensure process steps don't break on small screens */
+    .process-step {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    /* Blog index responsive */
+    .blog-index-grid {
+        gap: 16px;
+    }
+
+    /* Contact form improvements */
+    .contact-info-card {
+        padding: 20px;
+    }
+
+    /* FAQ section padding */
+    .faq-item {
+        padding: 20px;
+    }
+
+    /* Hero CTA buttons stack */
+    .hero-ctas {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-ctas .btn-cta,
+    .hero-ctas .btn-secondary {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Center CTA buttons stack */
+    .center-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* CTA section buttons */
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Footer brand section */
+    .footer-trust-badges {
+        flex-direction: column;
+    }
+
+    /* Section padding reduction on mobile */
+    .segments, .at-a-glance, .services-overview, .why-us,
+    .case-studies-preview, .testimonials-section, .blog-preview {
+        padding: 48px 16px;
+    }
+
+    .content-section {
+        padding: 40px 16px;
+    }
+
+    .how-it-works {
+        padding: 48px 16px;
+    }
+
+    .stats-bar {
+        padding: 40px 16px;
+    }
+
+    .page-header {
+        padding: 48px 16px 40px;
+    }
+
+    /* Testimonial cards */
+    .testimonial-card {
+        padding: 24px;
+    }
+
+    /* Section descriptions */
+    .section-desc {
+        font-size: 15px;
+    }
+
+    /* Lead text */
+    .lead-text {
+        font-size: 16px;
+    }
+}
+
+/* -- Small phone adjustments -- */
+@media (max-width: 380px) {
+    .hero h1 { font-size: 24px; }
+    .page-header h1 { font-size: 24px; }
+    section h2 { font-size: 24px; }
+    .stat-number { font-size: 32px; }
+    .container { padding: 0 16px; }
+    .hero-badge { font-size: 11px; padding: 4px 10px; }
+
+    .discovery-grid {
+        gap: 24px !important;
+    }
+}
+
+/* -- Booking embed pages: full-width on mobile -- */
+@media (max-width: 768px) {
+    .booking-embed-wrapper {
+        max-width: 100% !important;
+        margin: 24px auto !important;
+        padding: 0 8px;
+    }
+
+    .booking-embed-wrapper iframe {
+        min-height: 600px !important;
+    }
+}
