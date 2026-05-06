@@ -4,61 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Your Onboarding - AE Tax Advisors</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="description" content="Schedule your onboarding call with AE Tax Advisors. Select your preferred date and time to get started with proactive tax planning.">
+    <link rel="canonical" href="https://aetaxadvisors.com/onboarding/">
+    <meta property="og:title" content="Book Your Onboarding - AE Tax Advisors">
+    <meta property="og:description" content="Schedule your onboarding call with AE Tax Advisors.">
+    <meta property="og:url" content="https://aetaxadvisors.com/onboarding/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AE Tax Advisors">
+    <meta property="og:image" content="https://aetaxadvisors.com/assets/logo.svg">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #333;
-            line-height: 1.6;
-            background-color: #f8f9fa;
-        }
-        
-        header {
-            background: white;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        
-        .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #1a5a8a;
-        }
-        
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 2rem;
-        }
-        
-        nav a {
-            text-decoration: none;
-            color: #333;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        
-        nav a:hover {
-            color: #1a5a8a;
-        }
-        
         .onboarding-section {
             max-width: 1000px;
             margin: 2rem auto;
@@ -67,79 +26,32 @@
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
-        
         .onboarding-section h1 {
             color: #1a5a8a;
             margin-bottom: 0.5rem;
             font-size: 2rem;
         }
-        
         .onboarding-section .subtitle {
             color: #666;
             margin-bottom: 2rem;
             font-size: 1.1rem;
         }
-        
         .calendar-container {
             margin: 2rem 0;
         }
-        
         .calendar-container iframe {
             border: none;
             width: 100%;
             height: 600px;
         }
-        
-        .sticky-cta {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: linear-gradient(135deg, #1a5a8a 0%, #2a7aaa 100%);
-            padding: 1rem 2rem;
-            text-align: center;
-            box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
-            z-index: 999;
-        }
-        
-        .sticky-cta p {
-            color: white;
-            margin: 0;
-            font-weight: 500;
-        }
-        
-        footer {
-            background-color: #1a1a1a;
-            color: white;
-            padding: 3rem 2rem;
-            margin-top: 2rem;
-            text-align: center;
-        }
-        
-        footer p {
-            margin: 0.5rem 0;
-        }
-        
         @media (max-width: 768px) {
-            .header-content {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
-            nav ul {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
             .onboarding-section {
                 margin: 1rem;
                 padding: 1rem;
             }
-            
             .onboarding-section h1 {
                 font-size: 1.5rem;
             }
-            
             .calendar-container iframe {
                 height: 400px;
             }
@@ -147,15 +59,44 @@
     </style>
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <div class="logo">AE Tax Advisors</div>
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/execupgrades/">ExecUpgrades</a></li>
-                    <li><a href="/about/">About</a></li>
-                </ul>
+        <header>
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="/assets/logo-shield.svg" alt="AE Tax Advisors" width="45" height="45">
+            </a>
+            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+<a href="/about/" class="nav-link">About Us</a>
+<div class="nav-dropdown">
+                <a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+<a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+<a href="/individual-tax-planning-high-earners/" class="dropdown-item">High-Income W-2 Tax Planning</a>
+<a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+<a href="/crypto-mining-tax-strategy/" class="dropdown-item">Crypto Mining Tax Strategy</a>
+<a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+<a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies</a>
+<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+<a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+<a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+</div>
+            </div>
+<a href="/case-studies/" class="nav-link">Case Studies</a>
+<div class="nav-dropdown">
+                <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
+<a href="/faq/" class="dropdown-item">FAQ</a>
+<a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+<a href="/glossary/" class="dropdown-item">Glossary</a>
+</div>
+            </div>
+<a href="/contact/" class="nav-link">Contact Us</a>
+
+                <a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
             </nav>
         </div>
     </header>
@@ -172,13 +113,87 @@
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 AE Tax Advisors. All rights reserved.</p>
-        <p>Questions? Contact us at <a href="mailto:info@aetaxadvisors.com" style="color: #1a5a8a;">info@aetaxadvisors.com</a></p>
+        <footer>
+        <div class="footer-inner">
+            <div class="footer-col footer-brand">
+                <a href="/" class="footer-logo"><img src="/assets/logo-white.svg" alt="AE Tax Advisors" width="180" height="40"></a>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Twitter/X">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                </div>
+                <div class="footer-trust-badges">
+                    <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
+                    <span class="trust-badge">&#9989; Licensed CPAs</span>
+                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+                <a href="/discovery/">Request a Consultation</a>
+                <a href="/about/">About Us</a>
+                <a href="/bios/">Our Team</a>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="/business-owner-small-business-tax/">Business Tax Services</a>
+                <a href="/individual-tax-planning-high-earners/">W-2 Income Optimization</a>
+                <a href="/deferred-equity-compensation/">Equity Compensation</a>
+                <a href="/multi-state-global-tax/">Multi-State &amp; Global Tax</a>
+                <a href="/estate-trust-wealth-transfer/">Estate &amp; Wealth Transfer</a>
+                <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
+                <a href="/tax-compliance-irs-representation/">Tax Compliance &amp; IRS</a>
+                <a href="/cost-segregation-studies-for-real-estate-investors/">Cost Segregation Studies</a>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <a href="/blog/">Blog</a>
+                <a href="/case-studies/">Case Studies</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/guides/">Guides &amp; Whitepapers</a>
+                <a href="/glossary/">Glossary of Tax Terms</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p class="footer-address">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
+                <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
+                <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+                <h4 style="margin-top:20px">Legal</h4>
+                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/terms-of-service/">Terms of Service</a>
+                <a href="/disclaimer/">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762</p>
+        </div>
     </footer>
 
-    <div class="sticky-cta">
-        <p>Ready to get started? Select a time above to schedule your onboarding call.</p>
-    </div>
+    <section class="sticky-cta">
+        <div class="sticky-inner">
+            <p>Ready to get started? Select a time above to schedule your onboarding call.</p>
+            <a href="/discovery/" class="btn-cta">Get Your Free Tax Assessment</a>
+        </div>
+    </section>
+
+    <script>
+    (function(){
+        var observer = new IntersectionObserver(function(entries){
+            entries.forEach(function(e){
+                if(e.isIntersecting){
+                    e.target.classList.add('fade-in-visible');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'});
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelectorAll('.fade-in-section').forEach(function(el){ observer.observe(el); });
+        });
+    })();
+    </script>
 </body>
 </html>
