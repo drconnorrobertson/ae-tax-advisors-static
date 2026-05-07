@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aetaxadvisors.com/</loc>
@@ -2444,4 +2444,4 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-</urlset>
+<url><loc>https://aetaxadvisors.com/feed.xml</loc><lastmod>2026-05-07</lastmod><changefreq>daily</changefreq></url></urlset>
