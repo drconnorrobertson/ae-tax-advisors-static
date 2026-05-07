@@ -11,7 +11,7 @@ for root, dirs, files in os.walk('.'):
         if path == '.':
             url_path = '/'
         else:
-            url_path = '/' + path.replace('./', '').replace(os.sep, '/')
+            url_path = '/' + path.replace('./', '').replace(os.sep, '/') + '/'
         html_files.append(url_path)
 
 # Sort the URLs
