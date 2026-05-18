@@ -19,7 +19,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/why-your-cpa-is-costing-you-thousands/index.html",
       "url": "https://aetaxadvisors.com/blog/why-your-cpa-is-costing-you-thousands/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-18"
     },
     {
       "slug": "real-cost-of-not-doing-cost-segregation",
@@ -29,7 +31,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/real-cost-of-not-doing-cost-segregation/index.html",
       "url": "https://aetaxadvisors.com/blog/real-cost-of-not-doing-cost-segregation/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-18"
     },
     {
       "slug": "why-7800-tax-advisory-saves-50k",
