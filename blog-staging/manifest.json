@@ -43,7 +43,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/why-7800-tax-advisory-saves-50k/index.html",
       "url": "https://aetaxadvisors.com/blog/why-7800-tax-advisory-saves-50k/",
-      "status": "staged"
+      "status": "staged",
+      "published": true,
+      "published_date": "2026-05-22"
     },
     {
       "slug": "ai-tax-advice-vs-professional-strategy",
@@ -53,7 +55,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/ai-tax-advice-vs-professional-strategy/index.html",
       "url": "https://aetaxadvisors.com/blog/ai-tax-advice-vs-professional-strategy/",
-      "status": "staged"
+      "status": "staged",
+      "published": true,
+      "published_date": "2026-05-22"
     },
     {
       "slug": "5-signs-cpa-doesnt-understand-real-estate-tax",
