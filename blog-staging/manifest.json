@@ -67,7 +67,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/5-signs-cpa-doesnt-understand-real-estate-tax/index.html",
       "url": "https://aetaxadvisors.com/blog/5-signs-cpa-doesnt-understand-real-estate-tax/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-23"
     },
     {
       "slug": "why-waiting-until-next-year-costs-thousands",
@@ -77,7 +79,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/why-waiting-until-next-year-costs-thousands/index.html",
       "url": "https://aetaxadvisors.com/blog/why-waiting-until-next-year-costs-thousands/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-23"
     },
     {
       "slug": "hidden-cost-of-cheap-tax-preparation",
