@@ -91,7 +91,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/hidden-cost-of-cheap-tax-preparation/index.html",
       "url": "https://aetaxadvisors.com/blog/hidden-cost-of-cheap-tax-preparation/",
-      "status": "staged"
+      "status": "staged",
+      "published": true,
+      "published_date": "2026-05-24"
     },
     {
       "slug": "bookkeeper-and-tax-strategist-same-team",
@@ -101,7 +103,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/bookkeeper-and-tax-strategist-same-team/index.html",
       "url": "https://aetaxadvisors.com/blog/bookkeeper-and-tax-strategist-same-team/",
-      "status": "staged"
+      "status": "staged",
+      "published": true,
+      "published_date": "2026-05-24"
     },
     {
       "slug": "form-3115-tax-strategy-cpa-not-telling-you",
