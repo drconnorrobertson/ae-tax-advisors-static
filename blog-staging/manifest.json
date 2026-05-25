@@ -115,7 +115,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/form-3115-tax-strategy-cpa-not-telling-you/index.html",
       "url": "https://aetaxadvisors.com/blog/form-3115-tax-strategy-cpa-not-telling-you/",
-      "status": "staged"
+      "status": "staged",
+      "published": true,
+      "published_date": "2026-05-25"
     },
     {
       "slug": "cost-segregation-myths-costing-you-money",
@@ -125,7 +127,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/cost-segregation-myths-costing-you-money/index.html",
       "url": "https://aetaxadvisors.com/blog/cost-segregation-myths-costing-you-money/",
-      "status": "staged"
+      "status": "staged",
+      "published": true,
+      "published_date": "2026-05-25"
     },
     {
       "slug": "diy-entity-structuring-tax-bomb",
