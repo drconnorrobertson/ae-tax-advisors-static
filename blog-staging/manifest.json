@@ -139,7 +139,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/diy-entity-structuring-tax-bomb/index.html",
       "url": "https://aetaxadvisors.com/blog/diy-entity-structuring-tax-bomb/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-26"
     },
     {
       "slug": "tax-preparation-vs-tax-strategy-difference",
@@ -149,7 +151,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/tax-preparation-vs-tax-strategy-difference/index.html",
       "url": "https://aetaxadvisors.com/blog/tax-preparation-vs-tax-strategy-difference/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-26"
     },
     {
       "slug": "real-estate-investors-lose-30k-waiting-one-year",
