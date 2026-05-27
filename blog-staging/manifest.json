@@ -163,7 +163,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/real-estate-investors-lose-30k-waiting-one-year/index.html",
       "url": "https://aetaxadvisors.com/blog/real-estate-investors-lose-30k-waiting-one-year/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-27"
     },
     {
       "slug": "comparing-tax-advisory-fees-apples-to-oranges",
@@ -173,7 +175,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/comparing-tax-advisory-fees-apples-to-oranges/index.html",
       "url": "https://aetaxadvisors.com/blog/comparing-tax-advisory-fees-apples-to-oranges/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-27"
     },
     {
       "slug": "what-you-actually-get-with-ae-tax-advisors",
