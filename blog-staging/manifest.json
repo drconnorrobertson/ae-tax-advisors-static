@@ -187,7 +187,9 @@
       "category": "Objection Destroyers",
       "path": "/blog-staging/what-you-actually-get-with-ae-tax-advisors/index.html",
       "url": "https://aetaxadvisors.com/blog/what-you-actually-get-with-ae-tax-advisors/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-28"
     },
     {
       "slug": "cost-segregation-study-str-properties-guide",
@@ -197,7 +199,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/cost-segregation-study-str-properties-guide/index.html",
       "url": "https://aetaxadvisors.com/blog/cost-segregation-study-str-properties-guide/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-28"
     },
     {
       "slug": "bonus-depreciation-2025-2026-real-estate-investors",
