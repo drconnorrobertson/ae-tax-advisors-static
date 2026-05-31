@@ -211,7 +211,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/bonus-depreciation-2025-2026-real-estate-investors/index.html",
       "url": "https://aetaxadvisors.com/blog/bonus-depreciation-2025-2026-real-estate-investors/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-31"
     },
     {
       "slug": "s-corp-to-c-corp-conversion-when-it-makes-sense",
@@ -221,7 +223,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/s-corp-to-c-corp-conversion-when-it-makes-sense/index.html",
       "url": "https://aetaxadvisors.com/blog/s-corp-to-c-corp-conversion-when-it-makes-sense/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-05-31"
     },
     {
       "slug": "how-w2-earners-use-real-estate-pay-zero-tax",
