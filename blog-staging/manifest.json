@@ -235,7 +235,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/how-w2-earners-use-real-estate-pay-zero-tax/index.html",
       "url": "https://aetaxadvisors.com/blog/how-w2-earners-use-real-estate-pay-zero-tax/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-01"
     },
     {
       "slug": "real-estate-professional-status-qualification-guide",
@@ -245,7 +247,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/real-estate-professional-status-qualification-guide/index.html",
       "url": "https://aetaxadvisors.com/blog/real-estate-professional-status-qualification-guide/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-01"
     },
     {
       "slug": "material-participation-str-investors",
