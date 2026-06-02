@@ -259,7 +259,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/material-participation-str-investors/index.html",
       "url": "https://aetaxadvisors.com/blog/material-participation-str-investors/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-02"
     },
     {
       "slug": "partial-asset-disposition-overlooked-tax-strategy",
@@ -269,7 +271,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/partial-asset-disposition-overlooked-tax-strategy/index.html",
       "url": "https://aetaxadvisors.com/blog/partial-asset-disposition-overlooked-tax-strategy/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-02"
     },
     {
       "slug": "irc-section-168-accelerated-depreciation-explained",
