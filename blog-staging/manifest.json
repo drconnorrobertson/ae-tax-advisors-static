@@ -283,7 +283,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/irc-section-168-accelerated-depreciation-explained/index.html",
       "url": "https://aetaxadvisors.com/blog/irc-section-168-accelerated-depreciation-explained/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-03"
     },
     {
       "slug": "reduce-800k-w2-income-real-estate-losses",
@@ -293,7 +295,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/reduce-800k-w2-income-real-estate-losses/index.html",
       "url": "https://aetaxadvisors.com/blog/reduce-800k-w2-income-real-estate-losses/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-03"
     },
     {
       "slug": "entity-restructuring-multi-property-portfolios",

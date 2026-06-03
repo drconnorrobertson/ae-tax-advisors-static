@@ -2881,4 +2881,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+    <url>
+        <loc>https://aetaxadvisors.com/blog/irc-section-168-accelerated-depreciation-explained/</loc>
+        <lastmod>2026-06-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://aetaxadvisors.com/blog/reduce-800k-w2-income-real-estate-losses/</loc>
+        <lastmod>2026-06-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
