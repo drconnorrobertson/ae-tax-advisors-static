@@ -307,7 +307,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/entity-restructuring-multi-property-portfolios/index.html",
       "url": "https://aetaxadvisors.com/blog/entity-restructuring-multi-property-portfolios/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-05"
     },
     {
       "slug": "3115-change-accounting-method-playbook",
@@ -317,7 +319,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/3115-change-accounting-method-playbook/index.html",
       "url": "https://aetaxadvisors.com/blog/3115-change-accounting-method-playbook/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-05"
     },
     {
       "slug": "lookback-depreciation-recovering-missed-deductions",

@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://aetaxadvisors.com/blog/entity-restructuring-multi-property-portfolios/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aetaxadvisors.com/blog/3115-change-accounting-method-playbook/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aetaxadvisors.com/</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
