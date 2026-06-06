@@ -331,7 +331,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/lookback-depreciation-recovering-missed-deductions/index.html",
       "url": "https://aetaxadvisors.com/blog/lookback-depreciation-recovering-missed-deductions/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-06"
     },
     {
       "slug": "cost-segregation-new-construction-vs-existing",
@@ -341,7 +343,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/cost-segregation-new-construction-vs-existing/index.html",
       "url": "https://aetaxadvisors.com/blog/cost-segregation-new-construction-vs-existing/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-06"
     },
     {
       "slug": "tax-strategies-airbnb-vrbo-operators",
