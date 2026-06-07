@@ -355,7 +355,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/tax-strategies-airbnb-vrbo-operators/index.html",
       "url": "https://aetaxadvisors.com/blog/tax-strategies-airbnb-vrbo-operators/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-07"
     },
     {
       "slug": "structure-llcs-asset-protection-tax-benefit",
@@ -365,7 +367,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/structure-llcs-asset-protection-tax-benefit/index.html",
       "url": "https://aetaxadvisors.com/blog/structure-llcs-asset-protection-tax-benefit/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-07"
     },
     {
       "slug": "qbi-deduction-optimization-real-estate",
