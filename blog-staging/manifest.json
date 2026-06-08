@@ -379,7 +379,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/qbi-deduction-optimization-real-estate/index.html",
       "url": "https://aetaxadvisors.com/blog/qbi-deduction-optimization-real-estate/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-08"
     },
     {
       "slug": "1031-exchange-alternatives",
@@ -389,7 +391,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/1031-exchange-alternatives/index.html",
       "url": "https://aetaxadvisors.com/blog/1031-exchange-alternatives/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-08"
     },
     {
       "slug": "tax-planning-real-estate-portfolios-over-5m",
