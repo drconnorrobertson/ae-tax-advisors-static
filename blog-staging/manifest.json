@@ -403,7 +403,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/tax-planning-real-estate-portfolios-over-5m/index.html",
       "url": "https://aetaxadvisors.com/blog/tax-planning-real-estate-portfolios-over-5m/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-09"
     },
     {
       "slug": "depreciation-recapture-planning",
@@ -413,7 +415,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/depreciation-recapture-planning/index.html",
       "url": "https://aetaxadvisors.com/blog/depreciation-recapture-planning/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-09"
     },
     {
       "slug": "year-end-tax-planning-checklist-real-estate-investors",
