@@ -1,6 +1,6 @@
 {
   "generated": "2026-05-14 22:50:14",
-  "total_posts": 50,
+  "total_posts": 48,
   "categories": {
     "Objection Destroyers": 15,
     "High-Intent Tax Strategy": 20,
@@ -228,18 +228,6 @@
       "published_date": "2026-05-31"
     },
     {
-      "slug": "how-w2-earners-use-real-estate-pay-zero-tax",
-      "title": "How W-2 Earners Use Real Estate to Pay Zero Federal Tax",
-      "date": "2026-05-23",
-      "description": "High-income W-2 earners can legally reduce their federal tax bill to zero using real estate losses. Here is the strategy and the IRC provisions that make it work.",
-      "category": "High-Intent Tax Strategy",
-      "path": "/blog-staging/how-w2-earners-use-real-estate-pay-zero-tax/index.html",
-      "url": "https://aetaxadvisors.com/blog/how-w2-earners-use-real-estate-pay-zero-tax/",
-      "status": "published",
-      "published": true,
-      "published_date": "2026-06-04"
-    },
-    {
       "slug": "real-estate-professional-status-qualification-guide",
       "title": "Real Estate Professional Status: Qualification Guide",
       "date": "2026-05-23",
@@ -283,18 +271,6 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/irc-section-168-accelerated-depreciation-explained/index.html",
       "url": "https://aetaxadvisors.com/blog/irc-section-168-accelerated-depreciation-explained/",
-      "status": "published",
-      "published": true,
-      "published_date": "2026-06-03"
-    },
-    {
-      "slug": "reduce-800k-w2-income-real-estate-losses",
-      "title": "How to Legally Reduce $800K W-2 Income with Real Estate Losses",
-      "date": "2026-05-25",
-      "description": "High W-2 earners can offset hundreds of thousands in income using real estate losses. Here is the specific strategy, including REPS, cost segregation, and STR rules.",
-      "category": "High-Intent Tax Strategy",
-      "path": "/blog-staging/reduce-800k-w2-income-real-estate-losses/index.html",
-      "url": "https://aetaxadvisors.com/blog/reduce-800k-w2-income-real-estate-losses/",
       "status": "published",
       "published": true,
       "published_date": "2026-06-03"
