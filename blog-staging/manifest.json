@@ -403,7 +403,9 @@
       "category": "High-Intent Tax Strategy",
       "path": "/blog-staging/year-end-tax-planning-checklist-real-estate-investors/index.html",
       "url": "https://aetaxadvisors.com/blog/year-end-tax-planning-checklist-real-estate-investors/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-10"
     },
     {
       "slug": "investor-saved-127k-cost-segregation-study",
@@ -413,7 +415,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/investor-saved-127k-cost-segregation-study/index.html",
       "url": "https://aetaxadvisors.com/blog/investor-saved-127k-cost-segregation-study/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-10"
     },
     {
       "slug": "from-62k-tax-bill-to-zero",
