@@ -427,7 +427,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/from-62k-tax-bill-to-zero/index.html",
       "url": "https://aetaxadvisors.com/blog/from-62k-tax-bill-to-zero/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-11"
     },
     {
       "slug": "first-year-investor-guide-tax-optimized-real-estate",
@@ -437,7 +439,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/first-year-investor-guide-tax-optimized-real-estate/index.html",
       "url": "https://aetaxadvisors.com/blog/first-year-investor-guide-tax-optimized-real-estate/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-11"
     },
     {
       "slug": "why-best-investors-hire-tax-strategists",
