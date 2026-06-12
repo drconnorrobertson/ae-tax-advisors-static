@@ -451,7 +451,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/why-best-investors-hire-tax-strategists/index.html",
       "url": "https://aetaxadvisors.com/blog/why-best-investors-hire-tax-strategists/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-12"
     },
     {
       "slug": "what-to-look-for-real-estate-tax-advisor",
@@ -461,7 +463,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/what-to-look-for-real-estate-tax-advisor/index.html",
       "url": "https://aetaxadvisors.com/blog/what-to-look-for-real-estate-tax-advisor/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-12"
     },
     {
       "slug": "building-tax-efficient-portfolio-from-scratch",
