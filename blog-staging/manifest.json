@@ -475,7 +475,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/building-tax-efficient-portfolio-from-scratch/index.html",
       "url": "https://aetaxadvisors.com/blog/building-tax-efficient-portfolio-from-scratch/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-13"
     },
     {
       "slug": "str-operators-beating-traditional-landlords-taxes",
@@ -485,7 +487,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/str-operators-beating-traditional-landlords-taxes/index.html",
       "url": "https://aetaxadvisors.com/blog/str-operators-beating-traditional-landlords-taxes/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-13"
     },
     {
       "slug": "real-estate-investor-annual-tax-calendar",
