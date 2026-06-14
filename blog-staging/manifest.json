@@ -499,7 +499,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/real-estate-investor-annual-tax-calendar/index.html",
       "url": "https://aetaxadvisors.com/blog/real-estate-investor-annual-tax-calendar/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-14"
     },
     {
       "slug": "insurance-entity-structure-asset-protection-guide",
@@ -509,7 +511,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/insurance-entity-structure-asset-protection-guide/index.html",
       "url": "https://aetaxadvisors.com/blog/insurance-entity-structure-asset-protection-guide/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-14"
     },
     {
       "slug": "how-to-evaluate-cost-segregation-study",
