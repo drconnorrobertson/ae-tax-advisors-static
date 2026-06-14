@@ -161,6 +161,16 @@
         font-size: 13px;
     }
 
+    /* Board of Advisors heading class */
+    .board-heading {
+        font-family: var(--font-heading);
+        font-size: 32px;
+        font-weight: 700;
+        color: #1B2A4A;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
     /* Responsive adjustments */
     @media (max-width: 1024px) {
         .team-member,
@@ -174,22 +184,82 @@
         }
 
         .team-member-image {
-            width: 350px;
-            height: 400px;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            aspect-ratio: 4/5;
             margin: 0 auto;
         }
     }
 
     @media (max-width: 768px) {
+        .team-grid {
+            gap: 40px;
+            margin-top: 24px;
+        }
+
+        .team-member {
+            gap: 20px;
+            padding-bottom: 40px;
+        }
+
         .team-member h2 {
             font-size: 22px;
         }
 
+        .team-member p {
+            line-height: 1.7;
+        }
+
         .team-member-image {
             width: 100%;
-            max-width: 350px;
-            height: 400px;
-            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: 4/5;
+            margin: 0;
+        }
+
+        .team-member-links {
+            flex-direction: column;
+        }
+
+        .team-member-links a {
+            text-align: center;
+            width: 100%;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .board-heading {
+            font-size: 26px !important;
+        }
+
+        /* Ensure touch targets are min 44px */
+        .nav-dropdown .dropdown-item {
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .team-member h2 {
+            font-size: 20px;
+        }
+
+        .team-member p {
+            font-size: 14px;
+        }
+
+        .team-member-image {
+            aspect-ratio: 1/1;
+            max-height: 350px;
+        }
+
+        .board-heading {
+            font-size: 22px !important;
         }
     }
     </style>
@@ -255,7 +325,7 @@
                 <!-- Christina Nortman -->
                 <div class="team-member">
                     <div class="team-member-image">
-                        <img src="/assets/images/team/christina-nortman.jpg" alt="Christina Nortman, CPA">
+                        <img src="/assets/images/team/christina-nortman.jpg" alt="Christina Nortman, CPA" onerror="this.onerror=null;this.src='/assets/images/team/christina-nortman.svg'">
                     </div>
                     <div class="team-member-content">
                         <h2>Christina Nortman, CPA</h2>
@@ -269,7 +339,7 @@
                 <!-- Mark Simonsen -->
                 <div class="team-member">
                     <div class="team-member-image">
-                        <img src="/assets/images/team/mark-simonsen.jpg" alt="Mark Simonsen, CPA">
+                        <img src="/assets/images/team/mark-simonsen.jpg" alt="Mark Simonsen, CPA" onerror="this.onerror=null;this.src='/assets/images/team/mark-simonsen.svg'">
                     </div>
                     <div class="team-member-content">
                         <h2>Mark Simonsen, CPA</h2>
@@ -282,7 +352,7 @@
                 <!-- Adam West -->
                 <div class="team-member">
                     <div class="team-member-image">
-                        <img src="/assets/images/team/adam-west.jpg" alt="Adam West, EA">
+                        <img src="/assets/images/team/adam-west.jpg" alt="Adam West, EA" onerror="this.onerror=null;this.src='/assets/images/team/adam-west.svg'">
                     </div>
                     <div class="team-member-content">
                         <h2>Adam West, EA</h2>
@@ -295,7 +365,7 @@
                 <!-- Sidhartha Sen -->
                 <div class="team-member">
                     <div class="team-member-image">
-                        <img src="/assets/images/team/sidhartha-sen.jpg" alt="Sidhartha Sen">
+                        <img src="/assets/images/team/sidhartha-sen.jpg" alt="Sidhartha Sen" onerror="this.onerror=null;this.src='/assets/images/team/sidhartha-sen.svg'">
                     </div>
                     <div class="team-member-content">
                         <h2>Sidhartha Sen</h2>
@@ -309,7 +379,7 @@
                 <!-- Jacques Snyman -->
                 <div class="team-member">
                     <div class="team-member-image">
-                        <img src="/assets/images/team/jacques-snyman.jpg" alt="Jacques Snyman">
+                        <img src="/assets/images/team/jacques-snyman.jpg" alt="Jacques Snyman" onerror="this.onerror=null;this.src='/assets/images/team/jacques-snyman.svg'">
                     </div>
                     <div class="team-member-content">
                         <h2>Jacques Snyman</h2>
@@ -322,7 +392,7 @@
                 <!-- Brett Watts -->
                 <div class="team-member">
                     <div class="team-member-image">
-                        <img src="/assets/images/team/brett-watts.jpg" alt="Brett Watts">
+                        <img src="/assets/images/team/brett-watts.jpg" alt="Brett Watts" onerror="this.onerror=null;this.src='/assets/images/team/brett-watts.svg'">
                     </div>
                     <div class="team-member-content">
                         <h2>Brett Watts</h2>
@@ -335,7 +405,7 @@
                 <!-- Avatar Tripathi -->
                 <div class="team-member">
                     <div class="team-member-image">
-                        <img src="/assets/images/team/avatar-tripathi.jpg" alt="Avatar Tripathi">
+                        <img src="/assets/images/team/avatar-tripathi.jpg" alt="Avatar Tripathi" onerror="this.onerror=null;this.src='/assets/images/team/avatar-tripathi.svg'">
                     </div>
                     <div class="team-member-content">
                         <h2>Avatar Tripathi</h2>
@@ -348,7 +418,7 @@
                 <!-- Ashik Zaman -->
                 <div class="team-member">
                     <div class="team-member-image">
-                        <img src="/assets/images/team/ashik-zaman.jpg" alt="Ashik Zaman">
+                        <img src="/assets/images/team/ashik-zaman.jpg" alt="Ashik Zaman" onerror="this.onerror=null;this.src='/assets/images/team/ashik-zaman.svg'">
                     </div>
                     <div class="team-member-content">
                         <h2>Ashik Zaman</h2>
@@ -362,7 +432,7 @@
                 <!-- Alicia Orellana -->
                 <div class="team-member">
                     <div class="team-member-image">
-                        <img src="/assets/images/team/alicia-orellana.jpg" alt="Alicia Orellana">
+                        <img src="/assets/images/team/alicia-orellana.jpg" alt="Alicia Orellana" onerror="this.onerror=null;this.src='/assets/images/team/alicia-orellana.svg'">
                     </div>
                     <div class="team-member-content">
                         <h2>Alicia Orellana</h2>
@@ -378,7 +448,7 @@
 
     <section class="content-section fade-in-section">
         <div class="container">
-            <h2 style="font-family: var(--font-heading); font-size: 32px; font-weight: 700; color: #1B2A4A; text-align: center; margin-bottom: 8px;">Board of Advisors</h2>
+            <h2 class="board-heading">Board of Advisors</h2>
             <p style="text-align: center; color: #555; font-size: 16px; max-width: 700px; margin: 0 auto 40px;">Our advisory board members provide specialized legal counsel to AE Tax Advisors and our clients in their respective practice areas.</p>
             <div class="team-grid">
                 <!-- Jacob Simany -->
