@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing | AE Tax Advisors - Transparent Tax Advisory Fees</title>
+    <meta name="description" content="Transparent pricing for AE Tax Advisors services. Strategic tax advisory, amended returns, business tax returns, and individual tax preparation for business owners and real estate investors.">
+    <link rel="canonical" href="https://aetaxadvisors.com/pricing/">
+    <meta property="og:title" content="Pricing | AE Tax Advisors - Transparent Tax Advisory Fees">
+    <meta property="og:description" content="Transparent pricing for strategic tax advisory, amended returns, business and individual tax preparation. Serving business owners and real estate investors nationwide.">
+    <meta property="og:url" content="https://aetaxadvisors.com/pricing/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AE Tax Advisors">
+    <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Pricing | AE Tax Advisors">
+    <meta name="twitter:description" content="Transparent pricing for strategic tax advisory, amended returns, business and individual tax returns for business owners and real estate investors.">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aetaxadvisors.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://aetaxadvisors.com/pricing/"}
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "provider": {
+    "@type": "ProfessionalService",
+    "name": "AE Tax Advisors",
+    "url": "https://aetaxadvisors.com"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Tax Advisory Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Strategic Tax Advisory",
+        "price": "7800",
+        "priceCurrency": "USD",
+        "description": "Comprehensive tax strategy for business owners and real estate investors including 3-year lookback analysis, IRC-cited optimization plan, and ongoing support."
+      },
+      {
+        "@type": "Offer",
+        "name": "Amended Returns",
+        "price": "2500",
+        "priceCurrency": "USD",
+        "description": "Full amended return preparation and filing per year, per business. Available for all open tax years with IRC-cited analysis."
+      },
+      {
+        "@type": "Offer",
+        "name": "Business Tax Returns",
+        "price": "1500",
+        "priceCurrency": "USD",
+        "description": "S-Corp, C-Corp, and Partnership returns with full compliance and strategic filing. Multi-state filing available."
+      },
+      {
+        "@type": "Offer",
+        "name": "Individual Tax Returns (Married Filing Jointly)",
+        "price": "1000",
+        "priceCurrency": "USD",
+        "description": "Comprehensive personal return preparation with Schedule C, E, K-1 integration and capital gains optimization."
+      }
+    ]
+  }
+}
+    </script>
+    <link rel="alternate" hreflang="en" href="https://aetaxadvisors.com/pricing/">
+    <style>
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .pricing-card {
+            background: var(--white);
+            border: 1px solid rgba(0,0,0,0.08);
+            border-radius: var(--radius);
+            padding: 40px 36px;
+            position: relative;
+            transition: all var(--transition);
+            box-shadow: var(--shadow-sm);
+        }
+        .pricing-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px);
+        }
+        .pricing-card.featured {
+            border: 2px solid var(--accent);
+            box-shadow: var(--shadow-md);
+        }
+        .pricing-card.featured::before {
+            content: 'Most Popular';
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent);
+            color: var(--primary);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 20px;
+            border-radius: 20px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+        .pricing-card h3 {
+            font-family: var(--font-heading);
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        .pricing-amount {
+            font-size: 48px;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1.1;
+            margin-bottom: 4px;
+        }
+        .pricing-amount span {
+            font-size: 18px;
+            font-weight: 500;
+            color: var(--medium);
+        }
+        .pricing-qualifier {
+            font-size: 14px;
+            color: var(--medium);
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid rgba(0,0,0,0.08);
+        }
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 32px 0;
+        }
+        .pricing-features li {
+            padding: 8px 0;
+            font-size: 15px;
+            color: #444;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            line-height: 1.5;
+        }
+        .pricing-features li::before {
+            content: '\2713';
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 16px;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+        .pricing-card .btn-cta {
+            width: 100%;
+            text-align: center;
+        }
+        .pricing-note {
+            max-width: 700px;
+            margin: 48px auto 0;
+            text-align: center;
+            font-size: 15px;
+            color: var(--medium);
+            line-height: 1.7;
+            padding: 0 24px;
+        }
+        .pricing-section {
+            padding: 80px 0 96px;
+            background: var(--light-bg);
+        }
+        .pricing-section-title {
+            text-align: center;
+            margin-bottom: 56px;
+            padding: 0 24px;
+        }
+        .pricing-section-title h2 {
+            font-family: var(--font-heading);
+            font-size: 36px;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+        .pricing-section-title p {
+            font-size: 18px;
+            color: var(--medium);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .pricing-cta-section {
+            padding: 80px 24px;
+            text-align: center;
+            background: linear-gradient(135deg, #0f1620 0%, #1B2A4A 30%, #2a4060 100%);
+            color: var(--white);
+        }
+        .pricing-cta-section h2 {
+            font-family: var(--font-heading);
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        .pricing-cta-section p {
+            font-size: 18px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 32px;
+        }
+        @media (max-width: 800px) {
+            .pricing-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            .pricing-card {
+                padding: 32px 28px;
+            }
+            .pricing-amount {
+                font-size: 38px;
+            }
+            .pricing-card h3 {
+                font-size: 22px;
+            }
+            .pricing-section {
+                padding: 56px 0 64px;
+            }
+            .pricing-section-title h2 {
+                font-size: 28px;
+            }
+            .pricing-cta-section h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
+            </a>
+            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+<div class="nav-dropdown">
+                <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax</a>
+<a href="/bios/" class="dropdown-item">Our Team</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+<a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+<a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
+<a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+<a href="/crypto-mining-tax-strategy/" class="dropdown-item">Crypto Mining Tax Strategy</a>
+<a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+<a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies</a>
+<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+<a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+<a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+</div>
+            </div>
+<a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link active">Pricing</a>
+<div class="nav-dropdown">
+                <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
+<a href="/faq/" class="dropdown-item">FAQ</a>
+<a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+<a href="/glossary/" class="dropdown-item">Glossary</a>
+</div>
+            </div>
+<a href="/contact/" class="nav-link">Contact Us</a>
+
+                <a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+    <section class="page-header">
+        <div class="page-header-icon">&#128176;</div>
+        <h1>Transparent Pricing</h1>
+        <p>Straightforward fees for proactive tax strategy. No hidden costs, no hourly billing surprises.</p>
+    </section>
+
+    <section class="pricing-section">
+        <div class="pricing-section-title">
+            <h2>Our Services</h2>
+            <p>Every engagement is built around measurable tax savings for business owners and real estate investors.</p>
+        </div>
+
+        <div class="pricing-grid">
+
+            <!-- Strategic Tax Advisory -->
+            <div class="pricing-card featured fade-in-section">
+                <h3>Strategic Tax Advisory</h3>
+                <div class="pricing-amount">$7,800</div>
+                <div class="pricing-qualifier">2 payments of $3,900, 30 days apart</div>
+                <ul class="pricing-features">
+                    <li>Comprehensive tax strategy for business owners and real estate investors</li>
+                    <li>3-year lookback analysis of prior returns</li>
+                    <li>IRC-cited optimization plan</li>
+                    <li>Entity structuring and restructuring guidance</li>
+                    <li>Implementation guidance and timeline</li>
+                    <li>Ongoing advisory support</li>
+                </ul>
+                <a href="/discovery/" class="btn-cta">Book a Consultation</a>
+            </div>
+
+            <!-- Amended Returns -->
+            <div class="pricing-card fade-in-section">
+                <h3>Amended Returns</h3>
+                <div class="pricing-amount">$2,500 <span>/ year, per business</span></div>
+                <div class="pricing-qualifier">Available for all open tax years</div>
+                <ul class="pricing-features">
+                    <li>Full amended return preparation and filing</li>
+                    <li>Available for all open tax years</li>
+                    <li>IRC-cited analysis of missed deductions and credits</li>
+                    <li>Coordination with existing CPA if applicable</li>
+                    <li>IRS correspondence handling</li>
+                </ul>
+                <a href="/discovery/" class="btn-cta">Book a Consultation</a>
+            </div>
+
+            <!-- Business Tax Returns -->
+            <div class="pricing-card fade-in-section">
+                <h3>Business Tax Returns</h3>
+                <div class="pricing-amount">$1,500<span>+</span></div>
+                <div class="pricing-qualifier">Starting price varies by complexity</div>
+                <ul class="pricing-features">
+                    <li>S-Corp, C-Corp, and Partnership returns</li>
+                    <li>Full compliance and strategic filing</li>
+                    <li>Multi-state filing available</li>
+                    <li>Quarterly estimated tax planning</li>
+                    <li>Year-round advisory access</li>
+                </ul>
+                <a href="/discovery/" class="btn-cta">Book a Consultation</a>
+            </div>
+
+            <!-- Individual Tax Returns -->
+            <div class="pricing-card fade-in-section">
+                <h3>Individual Tax Returns</h3>
+                <div class="pricing-amount">$1,000<span>+</span></div>
+                <div class="pricing-qualifier">Married Filing Jointly &mdash; starting price varies by complexity</div>
+                <ul class="pricing-features">
+                    <li>Comprehensive personal return preparation</li>
+                    <li>Schedule C, E, and K-1 integration</li>
+                    <li>Capital gains and investment income optimization</li>
+                    <li>Rental income and real estate reporting</li>
+                    <li>Multi-state filing if needed</li>
+                </ul>
+                <a href="/discovery/" class="btn-cta">Book a Consultation</a>
+            </div>
+
+        </div>
+
+        <p class="pricing-note">All pricing reflects standard engagements. Complex multi-entity structures, international filings, or specialized projects may be quoted separately after an initial consultation. No engagement begins without a clear scope and fee agreement.</p>
+    </section>
+
+    <section class="pricing-cta-section fade-in-section">
+        <h2>Ready to Lower Your Tax Burden?</h2>
+        <p>Schedule a consultation with our team. We will review your situation and show you exactly where the savings are.</p>
+        <a href="/discovery/" class="btn-cta btn-lg">Request a Free Consultation</a>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col footer-brand">
+                <a href="/" class="footer-logo"><img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="60" style="object-fit: contain;"></a>
+                <p>Advanced tax strategies for business owners and real estate investors.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/company/ae-tax-advisors" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Twitter/X">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                </div>
+                <div class="footer-trust-badges">
+                    <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
+                    <span class="trust-badge">&#9989; Licensed CPAs</span>
+                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+                <a href="/discovery/">Request a Consultation</a>
+                <a href="/about/">About Us</a>
+                <a href="/bios/">Our Team</a>
+                <a href="/pricing/">Pricing</a>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="/business-owner-small-business-tax/">Business Tax Services</a>
+                <a href="/individual-tax-planning-high-earners/">Income &amp; Entity Optimization</a>
+                <a href="/deferred-equity-compensation/">Equity Compensation</a>
+                <a href="/multi-state-global-tax/">Multi-State &amp; Global Tax</a>
+                <a href="/estate-trust-wealth-transfer/">Estate &amp; Wealth Transfer</a>
+                <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
+                <a href="/tax-compliance-irs-representation/">Tax Compliance &amp; IRS</a>
+                <a href="/cost-segregation-studies-for-real-estate-investors/">Cost Segregation Studies</a>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <a href="/blog/">Blog</a>
+                <a href="/case-studies/">Case Studies</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/guides/">Guides &amp; Whitepapers</a>
+                <a href="/glossary/">Glossary of Tax Terms</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p class="footer-address">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
+                <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
+                <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+                <h4 style="margin-top:20px">Legal</h4>
+                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/terms-of-service/">Terms of Service</a>
+                <a href="/disclaimer/">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762</p>
+        </div>
+    </footer>
+
+    <section class="sticky-cta">
+        <div class="sticky-inner">
+            <p>Are You Leaving Tax Savings on the Table?</p>
+            <a href="/discovery/" class="btn-cta">Get Your Free Tax Assessment</a>
+        </div>
+    </section>
+
+    <script>
+    (function(){
+        var observer = new IntersectionObserver(function(entries){
+            entries.forEach(function(e){
+                if(e.isIntersecting){
+                    e.target.classList.add('fade-in-visible');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'});
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelectorAll('.fade-in-section').forEach(function(el){ observer.observe(el); });
+        });
+    })();
+    </script>
+</body>
+</html>
