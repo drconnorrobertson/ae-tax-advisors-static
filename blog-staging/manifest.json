@@ -523,7 +523,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/how-to-evaluate-cost-segregation-study/index.html",
       "url": "https://aetaxadvisors.com/blog/how-to-evaluate-cost-segregation-study/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-15"
     },
     {
       "slug": "when-to-fire-your-cpa-7-red-flags",
@@ -533,7 +535,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/when-to-fire-your-cpa-7-red-flags/index.html",
       "url": "https://aetaxadvisors.com/blog/when-to-fire-your-cpa-7-red-flags/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-15"
     },
     {
       "slug": "tax-strategies-top-1-percent-real-estate-investors",

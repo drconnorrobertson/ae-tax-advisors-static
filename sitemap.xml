@@ -3116,4 +3116,16 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+  <url>
+    <loc>https://aetaxadvisors.com/blog/how-to-evaluate-cost-segregation-study/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aetaxadvisors.com/blog/when-to-fire-your-cpa-7-red-flags/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
