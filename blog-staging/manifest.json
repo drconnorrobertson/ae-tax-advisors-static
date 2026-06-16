@@ -547,7 +547,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/tax-strategies-top-1-percent-real-estate-investors/index.html",
       "url": "https://aetaxadvisors.com/blog/tax-strategies-top-1-percent-real-estate-investors/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-16"
     },
     {
       "slug": "how-much-should-you-pay-tax-advisory",
@@ -557,7 +559,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/how-much-should-you-pay-tax-advisory/index.html",
       "url": "https://aetaxadvisors.com/blog/how-much-should-you-pay-tax-advisory/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-16"
     },
     {
       "slug": "discovery-call-what-to-expect-ae-tax",
