@@ -571,7 +571,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/discovery-call-what-to-expect-ae-tax/index.html",
       "url": "https://aetaxadvisors.com/blog/discovery-call-what-to-expect-ae-tax/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-17"
     },
     {
       "slug": "multi-property-portfolio-restructuring-saves-200k",
@@ -581,7 +583,9 @@
       "category": "Client-Attracting Content",
       "path": "/blog-staging/multi-property-portfolio-restructuring-saves-200k/index.html",
       "url": "https://aetaxadvisors.com/blog/multi-property-portfolio-restructuring-saves-200k/",
-      "status": "staged"
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-17"
     }
   ]
 }
