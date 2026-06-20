@@ -601,9 +601,9 @@
       "category": "Selling Your Business",
       "path": "/blog-staging/purchase-price-allocation-optimization-business-sale/index.html",
       "url": "https://aetaxadvisors.com/blog/purchase-price-allocation-optimization-business-sale/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-20"
     },
     {
       "slug": "irc-1060-asset-classification-business-sellers",
@@ -613,9 +613,9 @@
       "category": "Selling Your Business",
       "path": "/blog-staging/irc-1060-asset-classification-business-sellers/index.html",
       "url": "https://aetaxadvisors.com/blog/irc-1060-asset-classification-business-sellers/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-20"
     },
     {
       "slug": "stock-sale-vs-asset-sale-tax-implications",

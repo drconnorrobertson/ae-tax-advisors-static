@@ -3417,4 +3417,16 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+  <url>
+    <loc>https://aetaxadvisors.com/blog/irc-1060-asset-classification-business-sellers/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aetaxadvisors.com/blog/purchase-price-allocation-optimization-business-sale/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
