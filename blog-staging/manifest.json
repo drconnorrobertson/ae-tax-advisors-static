@@ -625,9 +625,9 @@
       "category": "Selling Your Business",
       "path": "/blog-staging/stock-sale-vs-asset-sale-tax-implications/index.html",
       "url": "https://aetaxadvisors.com/blog/stock-sale-vs-asset-sale-tax-implications/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-21"
     },
     {
       "slug": "clean-up-books-before-selling-business",
@@ -637,9 +637,9 @@
       "category": "Selling Your Business",
       "path": "/blog-staging/clean-up-books-before-selling-business/index.html",
       "url": "https://aetaxadvisors.com/blog/clean-up-books-before-selling-business/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-21"
     },
     {
       "slug": "shareholder-basis-tracking-before-exit",
