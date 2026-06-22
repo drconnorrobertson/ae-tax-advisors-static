@@ -649,9 +649,9 @@
       "category": "Selling Your Business",
       "path": "/blog-staging/shareholder-basis-tracking-before-exit/index.html",
       "url": "https://aetaxadvisors.com/blog/shareholder-basis-tracking-before-exit/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-22"
     },
     {
       "slug": "qualified-opportunity-zone-business-sale-proceeds",
@@ -661,9 +661,9 @@
       "category": "Selling Your Business",
       "path": "/blog-staging/qualified-opportunity-zone-business-sale-proceeds/index.html",
       "url": "https://aetaxadvisors.com/blog/qualified-opportunity-zone-business-sale-proceeds/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-22"
     },
     {
       "slug": "non-compete-allocation-tax-treatment",
