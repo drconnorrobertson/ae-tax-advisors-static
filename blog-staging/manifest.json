@@ -673,9 +673,9 @@
       "category": "Selling Your Business",
       "path": "/blog-staging/non-compete-allocation-tax-treatment/index.html",
       "url": "https://aetaxadvisors.com/blog/non-compete-allocation-tax-treatment/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-23"
     },
     {
       "slug": "tax-planning-timeline-before-selling-business",
@@ -685,9 +685,9 @@
       "category": "Selling Your Business",
       "path": "/blog-staging/tax-planning-timeline-before-selling-business/index.html",
       "url": "https://aetaxadvisors.com/blog/tax-planning-timeline-before-selling-business/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-23"
     },
     {
       "slug": "reasonable-compensation-s-corp-analysis",
