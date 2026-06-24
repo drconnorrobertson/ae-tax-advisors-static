@@ -697,9 +697,9 @@
       "category": "S-Corp Tax Strategy",
       "path": "/blog-staging/reasonable-compensation-s-corp-analysis/index.html",
       "url": "https://aetaxadvisors.com/blog/reasonable-compensation-s-corp-analysis/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-24"
     },
     {
       "slug": "qbi-deduction-optimization-irc-199a",
@@ -709,9 +709,9 @@
       "category": "S-Corp Tax Strategy",
       "path": "/blog-staging/qbi-deduction-optimization-irc-199a/index.html",
       "url": "https://aetaxadvisors.com/blog/qbi-deduction-optimization-irc-199a/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-24"
     },
     {
       "slug": "accountable-plan-setup-s-corp-benefits",
