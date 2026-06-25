@@ -721,9 +721,9 @@
       "category": "S-Corp Tax Strategy",
       "path": "/blog-staging/accountable-plan-setup-s-corp-benefits/index.html",
       "url": "https://aetaxadvisors.com/blog/accountable-plan-setup-s-corp-benefits/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-25"
     },
     {
       "slug": "home-office-deduction-s-corp-owners",
@@ -733,9 +733,9 @@
       "category": "S-Corp Tax Strategy",
       "path": "/blog-staging/home-office-deduction-s-corp-owners/index.html",
       "url": "https://aetaxadvisors.com/blog/home-office-deduction-s-corp-owners/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-25"
     },
     {
       "slug": "merp-medical-expense-reimbursement-plan-s-corp",
