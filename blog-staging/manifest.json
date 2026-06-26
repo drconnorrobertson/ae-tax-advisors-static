@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-19 12:00:00",
-  "total_posts": 96,
+  "generated": "2026-06-26 12:00:00",
+  "total_posts": 116,
   "categories": {
     "Objection Destroyers": 15,
     "High-Intent Tax Strategy": 18,
@@ -8,13 +8,13 @@
     "Selling Your Business": 8,
     "S-Corp Tax Strategy": 8,
     "IRS Audit and Resolution": 8,
-    "Real Estate Investor Tax": 8,
-    "Entity Structuring and Planning": 8,
+    "Real Estate Investor Tax": 27,
+    "Entity Structuring and Planning": 9,
     "Divorce and Business": 8
   },
   "date_range": {
     "start": "2026-05-14",
-    "end": "2026-08-05"
+    "end": "2026-08-25"
   },
   "posts": [
     {
@@ -1168,6 +1168,226 @@
       "status": "staged",
       "published": false,
       "published_date": null
+    },
+    {
+      "slug": "material-participation-tests-str-owners-irc-469",
+      "title": "Material Participation Tests for STR Owners Under IRC 469",
+      "date": "2026-08-06",
+      "description": "Learn the seven material participation tests under IRC 469 that allow STR owners to treat rental losses as non-passive and offset active income.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/material-participation-tests-str-owners-irc-469/index.html",
+      "url": "https://aetaxadvisors.com/blog/material-participation-tests-str-owners-irc-469/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "str-loophole-7-day-rule-explained",
+      "title": "The STR Loophole Explained: How the 7-Day Rule Saves Thousands",
+      "date": "2026-08-07",
+      "description": "The average rental period exception under IRC 469 lets short-term rental owners bypass passive activity rules. Here is exactly how the 7-day rule works.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/str-loophole-7-day-rule-explained/index.html",
+      "url": "https://aetaxadvisors.com/blog/str-loophole-7-day-rule-explained/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "cost-segregation-airbnb-year-1-depreciation",
+      "title": "Cost Segregation for Airbnb Properties: Year 1 Depreciation Guide",
+      "date": "2026-08-08",
+      "description": "How Airbnb and short-term rental owners can accelerate depreciation through cost segregation studies, capturing massive Year 1 deductions.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/cost-segregation-airbnb-year-1-depreciation/index.html",
+      "url": "https://aetaxadvisors.com/blog/cost-segregation-airbnb-year-1-depreciation/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "real-estate-professional-status-2026",
+      "title": "Real Estate Professional Status: Does It Still Work in 2026?",
+      "date": "2026-08-09",
+      "description": "A current analysis of real estate professional status under IRC 469(c)(7), including hour requirements, qualifying activities, and audit defense strategies.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/real-estate-professional-status-2026/index.html",
+      "url": "https://aetaxadvisors.com/blog/real-estate-professional-status-2026/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "deducting-str-losses-against-w2-income",
+      "title": "How to Deduct STR Losses Against W-2 Income",
+      "date": "2026-08-10",
+      "description": "Strategies for real estate investors to use short-term rental losses to offset W-2 and active income through the IRC 469 STR exception and material participation.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/deducting-str-losses-against-w2-income/index.html",
+      "url": "https://aetaxadvisors.com/blog/deducting-str-losses-against-w2-income/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "entity-structuring-rental-property-portfolios-guide",
+      "title": "Entity Structuring for Rental Property Portfolios",
+      "date": "2026-08-11",
+      "description": "How real estate investors should structure LLCs, S-Corps, and holding companies to protect assets, optimize taxes, and scale rental portfolios efficiently.",
+      "category": "Entity Structuring and Planning",
+      "path": "/blog-staging/entity-structuring-rental-property-portfolios-guide/index.html",
+      "url": "https://aetaxadvisors.com/blog/entity-structuring-rental-property-portfolios-guide/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "1031-exchange-planning-timing-rules-mistakes",
+      "title": "1031 Exchange Planning: Timing, Rules, and Common Mistakes",
+      "date": "2026-08-12",
+      "description": "A complete guide to IRC 1031 like-kind exchanges for real estate investors, covering identification periods, qualified intermediaries, and costly errors to avoid.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/1031-exchange-planning-timing-rules-mistakes/index.html",
+      "url": "https://aetaxadvisors.com/blog/1031-exchange-planning-timing-rules-mistakes/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "landlord-guide-depreciation-27-5-vs-39-year",
+      "title": "The Landlord's Guide to Depreciation (27.5 vs 39 Year Recovery)",
+      "date": "2026-08-13",
+      "description": "Understanding the difference between 27.5-year residential and 39-year nonresidential depreciation under IRC 168, and how classification affects your tax bill.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/landlord-guide-depreciation-27-5-vs-39-year/index.html",
+      "url": "https://aetaxadvisors.com/blog/landlord-guide-depreciation-27-5-vs-39-year/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "cost-segregation-six-figure-tax-savings",
+      "title": "How Cost Segregation Creates Six-Figure Tax Savings",
+      "date": "2026-08-14",
+      "description": "A detailed breakdown of how cost segregation studies reclassify building components into accelerated MACRS classes, generating six-figure first-year deductions.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/cost-segregation-six-figure-tax-savings/index.html",
+      "url": "https://aetaxadvisors.com/blog/cost-segregation-six-figure-tax-savings/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "passive-activity-loss-rules-investor-guide",
+      "title": "Passive Activity Loss Rules Every Investor Must Know",
+      "date": "2026-08-15",
+      "description": "The complete guide to passive activity loss limitations under IRC 469, including exceptions, grouping strategies, and how to unlock suspended losses.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/passive-activity-loss-rules-investor-guide/index.html",
+      "url": "https://aetaxadvisors.com/blog/passive-activity-loss-rules-investor-guide/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "self-rental-rules-business-rents-from-you",
+      "title": "Self-Rental Rules: When Your Business Rents From You",
+      "date": "2026-08-16",
+      "description": "Understanding the IRC 469 self-rental recharacterization rule that converts passive rental income to non-passive when you rent property to your own business.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/self-rental-rules-business-rents-from-you/index.html",
+      "url": "https://aetaxadvisors.com/blog/self-rental-rules-business-rents-from-you/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "grouping-elections-real-estate-irc-469",
+      "title": "Grouping Elections for Real Estate Under IRC 469",
+      "date": "2026-08-17",
+      "description": "How strategic activity grouping elections under IRC 469 and Treas. Reg. 1.469-4 can help real estate investors meet material participation and unlock passive losses.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/grouping-elections-real-estate-irc-469/index.html",
+      "url": "https://aetaxadvisors.com/blog/grouping-elections-real-estate-irc-469/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "bonus-depreciation-obbba-real-estate-changes",
+      "title": "Bonus Depreciation Under OBBBA: What Changed for Real Estate",
+      "date": "2026-08-18",
+      "description": "How the One Big Beautiful Bill Act restored 100% bonus depreciation permanently and what it means for real estate investors doing cost segregation studies.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/bonus-depreciation-obbba-real-estate-changes/index.html",
+      "url": "https://aetaxadvisors.com/blog/bonus-depreciation-obbba-real-estate-changes/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "form-3115-cost-segregation-catch-up",
+      "title": "How to Use Form 3115 for Cost Segregation Catch-Up",
+      "date": "2026-08-19",
+      "description": "A guide to filing Form 3115 to claim missed depreciation deductions from prior years through a cost segregation catch-up study under IRC 446 and Rev. Proc. 2015-13.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/form-3115-cost-segregation-catch-up/index.html",
+      "url": "https://aetaxadvisors.com/blog/form-3115-cost-segregation-catch-up/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "augusta-rule-real-estate-investors-irc-280a",
+      "title": "The Augusta Rule for Real Estate Investors (IRC 280A(g))",
+      "date": "2026-08-20",
+      "description": "How real estate investors and business owners can use the Augusta Rule under IRC 280A(g) to rent their home to their business for up to 14 days tax-free.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/augusta-rule-real-estate-investors-irc-280a/index.html",
+      "url": "https://aetaxadvisors.com/blog/augusta-rule-real-estate-investors-irc-280a/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "str-vs-ltr-which-saves-more-tax",
+      "title": "Short-Term Rental vs Long-Term Rental: Which Saves More Tax?",
+      "date": "2026-08-21",
+      "description": "A side-by-side comparison of short-term and long-term rental tax treatment, covering depreciation recovery periods, passive activity rules, and overall tax savings.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/str-vs-ltr-which-saves-more-tax/index.html",
+      "url": "https://aetaxadvisors.com/blog/str-vs-ltr-which-saves-more-tax/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "qualified-opportunity-zones-real-estate-2026",
+      "title": "Qualified Opportunity Zones for Real Estate Investors in 2026",
+      "date": "2026-08-22",
+      "description": "How real estate investors can use Qualified Opportunity Zone funds under IRC 1400Z-2 to defer and reduce capital gains taxes on property sales in 2026.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/qualified-opportunity-zones-real-estate-2026/index.html",
+      "url": "https://aetaxadvisors.com/blog/qualified-opportunity-zones-real-estate-2026/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "convert-primary-residence-to-rental-property",
+      "title": "How to Convert Your Primary Residence to a Rental Property",
+      "date": "2026-08-23",
+      "description": "Step-by-step tax planning guide for converting a primary residence into a rental property, covering basis calculations, depreciation start dates, and IRC 121 exclusion planning.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/convert-primary-residence-to-rental-property/index.html",
+      "url": "https://aetaxadvisors.com/blog/convert-primary-residence-to-rental-property/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "real-estate-investor-estimated-tax-payments",
+      "title": "The Real Estate Investor's Guide to Estimated Tax Payments",
+      "date": "2026-08-24",
+      "description": "How real estate investors should calculate and time quarterly estimated tax payments to avoid underpayment penalties under IRC 6654 while maximizing cash flow.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/real-estate-investor-estimated-tax-payments/index.html",
+      "url": "https://aetaxadvisors.com/blog/real-estate-investor-estimated-tax-payments/",
+      "status": "staged",
+      "published": false
+    },
+    {
+      "slug": "why-your-cpa-costing-money-rental-properties",
+      "title": "Why Your CPA Is Costing You Money on Your Rental Properties",
+      "date": "2026-08-25",
+      "description": "Common mistakes traditional CPAs make on rental property returns, from missed cost segregation to incorrect passive activity treatment, and how proactive tax advisory solves them.",
+      "category": "Real Estate Investor Tax",
+      "path": "/blog-staging/why-your-cpa-costing-money-rental-properties/index.html",
+      "url": "https://aetaxadvisors.com/blog/why-your-cpa-costing-money-rental-properties/",
+      "status": "staged",
+      "published": false
     }
   ]
 }
