@@ -745,9 +745,9 @@
       "category": "S-Corp Tax Strategy",
       "path": "/blog-staging/merp-medical-expense-reimbursement-plan-s-corp/index.html",
       "url": "https://aetaxadvisors.com/blog/merp-medical-expense-reimbursement-plan-s-corp/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-26"
     },
     {
       "slug": "s-corp-vs-c-corp-comparison-high-earners",
@@ -757,9 +757,9 @@
       "category": "S-Corp Tax Strategy",
       "path": "/blog-staging/s-corp-vs-c-corp-comparison-high-earners/index.html",
       "url": "https://aetaxadvisors.com/blog/s-corp-vs-c-corp-comparison-high-earners/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-26"
     },
     {
       "slug": "shareholder-basis-tracking-s-corp-essentials",
