@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/style.css" as="style">
+    <link rel="preload" href="/assets/ae-tax-logo.png" as="image">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Cost Segregation Calculator: Estimate Your Tax Savings | AE Tax Advisors</title>
+    <meta name="description" content="Use our cost segregation calculator to estimate your Year 1 tax savings. See how the AE Tax formula accelerates 35% of your purchase price into immediate deductions under IRC Sec. 168.">
+    <link rel="canonical" href="https://aetaxadvisors.com/cost-segregation-calculator/">
+    <meta property="og:title" content="Cost Segregation Calculator: Estimate Your Tax Savings | AE Tax Advisors">
+    <meta property="og:description" content="Estimate your Year 1 tax savings with our cost segregation calculator. See real examples for STR and LTR properties with detailed before/after depreciation schedules.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://aetaxadvisors.com/cost-segregation-calculator/">
+    <meta property="og:site_name" content="AE Tax Advisors">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cost Segregation Calculator: Estimate Your Tax Savings">
+    <meta name="twitter:description" content="Estimate your Year 1 tax savings with cost segregation. Real examples, IRC citations, and the AE Tax formula explained.">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://aetaxadvisors.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Cost Segregation",
+                "item": "https://aetaxadvisors.com/cost-segregation-airbnb/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Cost Seg Calculator",
+                "item": "https://aetaxadvisors.com/cost-segregation-calculator/"
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How does the cost segregation formula work for estimating Year 1 savings?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The AE Tax formula accelerates 35% of your property's purchase price into Year 1 deductions by reclassifying building components into 5-year, 7-year, and 15-year MACRS recovery periods under IRC Sec. 168(e). An additional 5% is accelerated in each of Years 2 through 4, capturing a total of 50% of the purchase price into shorter-lived asset classes over the first four years of ownership."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between STR and LTR cost segregation calculations?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Short-term rentals (STRs) with average rental periods of 7 days or less are classified under IRC Sec. 168(e)(2)(B) with a 39-year nonresidential recovery period for the structural shell. Long-term rentals (LTRs) with lease terms exceeding 30 days fall under IRC Sec. 168(e)(2)(A) with a 27.5-year residential recovery period. Because STRs start with a longer base recovery period, the relative acceleration from cost segregation is proportionally greater."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does 100% bonus depreciation under OBBBA affect cost segregation savings?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The One Big Beautiful Bill Act (OBBBA) restored 100% bonus depreciation permanently for qualifying property placed in service. Under IRC Sec. 168(k), all components reclassified into 5-year, 7-year, and 15-year MACRS classes through a cost segregation study can be deducted in full during the year the property is placed in service, maximizing Year 1 tax savings."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do property improvements and renovations increase the cost segregation basis?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Under IRC Sec. 1016(a)(1), capital improvements such as renovations, additions, new HVAC systems, roofing, landscaping, and furnishings purchased for the property increase your adjusted basis. The cost segregation formula applies to 100% of qualifying improvements in addition to the original purchase price, meaning renovation spending directly increases your accelerated depreciation deductions."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I use cost segregation on a property I purchased in a prior year?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. If you placed a property in service in a prior tax year, you can file IRS Form 3115 (Application for Change in Accounting Method) to claim the cumulative catch-up depreciation in a single year. This is treated as a Section 481(a) adjustment and does not require amending prior returns. AE Tax Advisors handles Form 3115 filings as part of our advisory engagement."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How much does a professional cost segregation study cost with AE Tax Advisors?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AE Tax Advisors offers cost segregation studies as part of our comprehensive advisory services. Our full advisory engagement is $7,800, which includes tax planning, entity structuring, and cost segregation analysis. Prior-year amendment services for catch-up depreciation are available at $2,500 per year. Contact us for a free assessment to see your estimated savings before committing."
+                }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Cost Segregation Calculator: Estimate Your Tax Savings",
+        "author": {
+            "@type": "Organization",
+            "name": "AE Tax Advisors",
+            "url": "https://aetaxadvisors.com/"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "AE Tax Advisors",
+            "url": "https://aetaxadvisors.com/"
+        },
+        "datePublished": "2026-06-27",
+        "dateModified": "2026-06-27",
+        "description": "Use our cost segregation calculator to estimate Year 1 tax savings. Includes the AE Tax formula, real examples for STR and LTR properties, and detailed before/after depreciation schedules."
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50">
+            </a>
+            <button class="mobile-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+<div class="nav-dropdown">
+                <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax</a>
+<a href="/bios/" class="dropdown-item">Our Team</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+<a href="/real-estate-tax-planning/" class="dropdown-item">Real Estate Tax Planning</a>
+<a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+<a href="/rental-property-tax-planning/" class="dropdown-item">Rental Property Tax Planning</a>
+<a href="/cost-segregation-study/" class="dropdown-item">Cost Segregation Study</a>
+<a href="/real-estate-investor-cpa/" class="dropdown-item">CPA for Real Estate Investors</a>
+<a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+<a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
+<a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+<a href="/crypto-mining-tax-strategy/" class="dropdown-item">Crypto Mining Tax Strategy</a>
+<a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies (Detailed)</a>
+<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+<a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+<a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/cost-segregation-airbnb/" class="nav-link">Cost Segregation <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/cost-segregation-airbnb/" class="dropdown-item">Cost Seg for Airbnb/STR</a>
+<a href="/str-tax-loophole/" class="dropdown-item">STR Tax Loophole</a>
+<a href="/cost-segregation-calculator/" class="dropdown-item">Cost Seg Calculator</a>
+<a href="/bonus-depreciation-rental-property/" class="dropdown-item">Bonus Depreciation</a>
+<a href="/form-3115-cost-segregation/" class="dropdown-item">Form 3115 Catch-Up</a>
+<a href="/str-vs-ltr-tax-treatment/" class="dropdown-item">STR vs LTR Tax Treatment</a>
+</div>
+            </div>
+<a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
+<div class="nav-dropdown">
+                <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
+<a href="/faq/" class="dropdown-item">FAQ</a>
+<a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+<a href="/glossary/" class="dropdown-item">Glossary</a>
+</div>
+            </div>
+<a href="/contact/" class="nav-link">Contact Us</a>
+                <a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <article class="blog-post">
+        <div class="container narrow">
+            <div class="breadcrumbs">
+                <a href="/">Home</a> &raquo; <a href="/cost-segregation-airbnb/">Cost Segregation</a> &raquo; Cost Seg Calculator
+            </div>
+            <h1>Cost Segregation Calculator: Estimate Your Tax Savings</h1>
+            <div class="post-meta">
+                <span>AE Tax Advisors</span> &middot; <span>Cost Segregation</span>
+            </div>
+            <div class="post-content">
+
+                <p>Most rental property owners are overpaying their taxes by tens of thousands of dollars each year because they depreciate their entire building over a single, straight-line recovery period. A <a href="/cost-segregation-airbnb/">cost segregation study</a> changes that by reclassifying individual building components into shorter MACRS recovery periods under IRC Sec. 168(e), accelerating your depreciation deductions and putting real cash back in your pocket starting in Year 1.</p>
+
+                <p>This page walks you through the exact formula AE Tax Advisors uses to estimate cost segregation savings, with detailed before-and-after depreciation schedules for both short-term rental (STR) and long-term rental (LTR) properties. You will see precisely how much you can save and why <a href="/bonus-depreciation-rental-property/">100% bonus depreciation</a> under the One Big Beautiful Bill Act (OBBBA) makes this strategy more powerful than ever.</p>
+
+                <h2>The AE Tax Cost Segregation Formula</h2>
+
+                <p>After completing hundreds of cost segregation studies across residential, commercial, and mixed-use properties, AE Tax Advisors has developed a reliable estimation formula that consistently tracks within a narrow margin of the final engineered study results:</p>
+
+                <ul>
+                    <li><strong>Year 1:</strong> 35% of the purchase price (plus 100% of qualifying improvements) is eligible for accelerated depreciation through reclassification into 5-year, 7-year, and 15-year MACRS personal property and land improvement categories under IRC Sec. 168(e)(3).</li>
+                    <li><strong>Years 2 through 4:</strong> An additional 5% of the purchase price is accelerated in each subsequent year, capturing components that phase in through partial-year conventions and placed-in-service timing.</li>
+                    <li><strong>Total over 4 years:</strong> Approximately 50% of the purchase price is reclassified from long-lived structural property into shorter recovery period classes.</li>
+                </ul>
+
+                <p>This formula applies to both STR and LTR properties, though the baseline recovery period differs significantly between the two categories, which affects the magnitude of the acceleration benefit.</p>
+
+                <h2>Understanding the Baseline: STR vs. LTR Recovery Periods</h2>
+
+                <p>Before calculating your savings, you need to understand which baseline recovery period applies to your property. The IRS classifies rental properties into two distinct categories under <a href="/str-vs-ltr-tax-treatment/">IRC Sec. 168(e)(2)</a>:</p>
+
+                <h3>Short-Term Rentals (STR): 39-Year Nonresidential Property</h3>
+
+                <p>Properties with an average rental period of 7 days or less (such as Airbnb, VRBO, and vacation rentals) are classified under IRC Sec. 168(e)(2)(B) as nonresidential real property. Without cost segregation, the entire building (excluding land) is depreciated straight-line over 39 years. For a $400,000 property with $60,000 allocated to land, that means only $8,718 per year in depreciation deductions ($340,000 / 39 years).</p>
+
+                <h3>Long-Term Rentals (LTR): 27.5-Year Residential Property</h3>
+
+                <p>Properties with lease terms exceeding 30 days are classified under IRC Sec. 168(e)(2)(A) as residential rental property. Without cost segregation, the building is depreciated straight-line over 27.5 years. For a $600,000 property with $90,000 allocated to land, that produces $18,545 per year in depreciation ($510,000 / 27.5 years).</p>
+
+                <p>Because STRs start with a longer baseline recovery period, the proportional benefit of reclassifying components into 5-year and 7-year classes is even greater. You are pulling deductions forward from 39 years instead of 27.5 years.</p>
+
+                <h2>Detailed Example 1: $400,000 Short-Term Rental Property</h2>
+
+                <p>Consider a $400,000 STR property (Airbnb) placed in service this year. The owner is in the 37% marginal federal tax bracket. Here is how the numbers break down with and without cost segregation.</p>
+
+                <h3>Without Cost Segregation (Straight-Line over 39 Years)</h3>
+
+                <table style="width:100%;border-collapse:collapse;margin:20px 0;">
+                    <thead>
+                        <tr style="background:#1a365d;color:#fff;">
+                            <th style="padding:12px;text-align:left;">Year</th>
+                            <th style="padding:12px;text-align:right;">Depreciable Basis</th>
+                            <th style="padding:12px;text-align:right;">Annual Depreciation</th>
+                            <th style="padding:12px;text-align:right;">Tax Savings (37%)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid #e2e8f0;">
+                            <td style="padding:10px;">Year 1</td>
+                            <td style="padding:10px;text-align:right;">$340,000</td>
+                            <td style="padding:10px;text-align:right;">$8,718</td>
+                            <td style="padding:10px;text-align:right;">$3,226</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #e2e8f0;background:#f7fafc;">
+                            <td style="padding:10px;">Year 2</td>
+                            <td style="padding:10px;text-align:right;">$340,000</td>
+                            <td style="padding:10px;text-align:right;">$8,718</td>
+                            <td style="padding:10px;text-align:right;">$3,226</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #e2e8f0;">
+                            <td style="padding:10px;">Year 3</td>
+                            <td style="padding:10px;text-align:right;">$340,000</td>
+                            <td style="padding:10px;text-align:right;">$8,718</td>
+                            <td style="padding:10px;text-align:right;">$3,226</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #e2e8f0;background:#f7fafc;">
+                            <td style="padding:10px;">Year 4</td>
+                            <td style="padding:10px;text-align:right;">$340,000</td>
+                            <td style="padding:10px;text-align:right;">$8,718</td>
+                            <td style="padding:10px;text-align:right;">$3,226</td>
+                        </tr>
+                        <tr style="font-weight:bold;background:#edf2f7;">
+                            <td style="padding:10px;">4-Year Total</td>
+                            <td style="padding:10px;text-align:right;"></td>
+                            <td style="padding:10px;text-align:right;">$34,872</td>
+                            <td style="padding:10px;text-align:right;">$12,903</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>With Cost Segregation (AE Tax Formula + 100% Bonus Depreciation)</h3>
+
+                <p>Applying the AE Tax formula, 35% of the $400,000 purchase price ($140,000) is reclassified into 5-year, 7-year, and 15-year MACRS classes. Under <a href="/bonus-depreciation-rental-property/">IRC Sec. 168(k)</a> with OBBBA's permanent 100% bonus depreciation, all $140,000 is deductible in Year 1. The remaining depreciable basis ($200,000 after land allocation) continues on the 39-year straight-line schedule.</p>
+
+                <table style="width:100%;border-collapse:collapse;margin:20px 0;">
+                    <thead>
+                        <tr style="background:#1a365d;color:#fff;">
+                            <th style="padding:12px;text-align:left;">Year</th>
+                            <th style="padding:12px;text-align:right;">Accelerated Deduction</th>
+                            <th style="padding:12px;text-align:right;">Remaining Straight-Line</th>
+                            <th style="padding:12px;text-align:right;">Total Depreciation</th>
+                            <th style="padding:12px;text-align:right;">Tax Savings (37%)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid #e2e8f0;">
+                            <td style="padding:10px;">Year 1</td>
+                            <td style="padding:10px;text-align:right;">$140,000</td>
+                            <td style="padding:10px;text-align:right;">$5,128</td>
+                            <td style="padding:10px;text-align:right;">$145,128</td>
+                            <td style="padding:10px;text-align:right;color:#2b6cb0;font-weight:bold;">$53,697</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #e2e8f0;background:#f7fafc;">
+                            <td style="padding:10px;">Year 2</td>
+                            <td style="padding:10px;text-align:right;">$20,000</td>
+                            <td style="padding:10px;text-align:right;">$5,128</td>
+                            <td style="padding:10px;text-align:right;">$25,128</td>
+                            <td style="padding:10px;text-align:right;">$9,297</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #e2e8f0;">
+                            <td style="padding:10px;">Year 3</td>
+                            <td style="padding:10px;text-align:right;">$20,000</td>
+                            <td style="padding:10px;text-align:right;">$5,128</td>
+                            <td style="padding:10px;text-align:right;">$25,128</td>
+                            <td style="padding:10px;text-align:right;">$9,297</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #e2e8f0;background:#f7fafc;">
+                            <td style="padding:10px;">Year 4</td>
+                            <td style="padding:10px;text-align:right;">$20,000</td>
+                            <td style="padding:10px;text-align:right;">$5,128</td>
+                            <td style="padding:10px;text-align:right;">$25,128</td>
+                            <td style="padding:10px;text-align:right;">$9,297</td>
+                        </tr>
+                        <tr style="font-weight:bold;background:#edf2f7;">
+                            <td style="padding:10px;">4-Year Total</td>
+                            <td style="padding:10px;text-align:right;">$200,000</td>
+                            <td style="padding:10px;text-align:right;">$20,512</td>
+                            <td style="padding:10px;text-align:right;">$220,512</td>
+                            <td style="padding:10px;text-align:right;color:#2b6cb0;">$81,589</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p><strong>Year 1 tax savings with cost segregation: $53,697 vs. $3,226 without.</strong> That is over $50,000 in additional cash flow in the first year alone. Over four years, the total benefit reaches $81,589 compared to just $12,903 under straight-line depreciation, a difference of $68,686 in tax savings.</p>
+
+                <p>When combined with the <a href="/str-tax-loophole/">STR tax loophole</a> and <a href="/str-material-participation/">material participation</a> qualification, these losses can offset W-2 income, active business income, and other non-passive sources under IRC Sec. 469(c)(7).</p>
+
+                <h2>Detailed Example 2: $600,000 Long-Term Rental Property</h2>
+
+                <p>Now consider a $600,000 LTR property (traditional 12-month lease) purchased by an investor in the 35% marginal federal tax bracket. Land is allocated at $90,000, leaving a depreciable basis of $510,000.</p>
+
+                <h3>Without Cost Segregation (Straight-Line over 27.5 Years)</h3>
+
+                <p>Annual depreciation: $510,000 / 27.5 = $18,545. Annual tax savings at 35%: $6,491. Over four years, total tax savings equal $25,964.</p>
+
+                <h3>With Cost Segregation (AE Tax Formula + 100% Bonus Depreciation)</h3>
+
+                <p>Applying the formula, 35% of the $600,000 purchase price ($210,000) is reclassified and deducted in Year 1 under IRC Sec. 168(k). An additional $30,000 (5% of $600,000) is accelerated in each of Years 2 through 4. The remaining structural basis ($300,000) continues at the 27.5-year straight-line rate of $10,909 per year.</p>
+
+                <table style="width:100%;border-collapse:collapse;margin:20px 0;">
+                    <thead>
+                        <tr style="background:#1a365d;color:#fff;">
+                            <th style="padding:12px;text-align:left;">Year</th>
+                            <th style="padding:12px;text-align:right;">Accelerated Deduction</th>
+                            <th style="padding:12px;text-align:right;">Remaining Straight-Line</th>
+                            <th style="padding:12px;text-align:right;">Total Depreciation</th>
+                            <th style="padding:12px;text-align:right;">Tax Savings (35%)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid #e2e8f0;">
+                            <td style="padding:10px;">Year 1</td>
+                            <td style="padding:10px;text-align:right;">$210,000</td>
+                            <td style="padding:10px;text-align:right;">$10,909</td>
+                            <td style="padding:10px;text-align:right;">$220,909</td>
+                            <td style="padding:10px;text-align:right;color:#2b6cb0;font-weight:bold;">$77,318</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #e2e8f0;background:#f7fafc;">
+                            <td style="padding:10px;">Year 2</td>
+                            <td style="padding:10px;text-align:right;">$30,000</td>
+                            <td style="padding:10px;text-align:right;">$10,909</td>
+                            <td style="padding:10px;text-align:right;">$40,909</td>
+                            <td style="padding:10px;text-align:right;">$14,318</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #e2e8f0;">
+                            <td style="padding:10px;">Year 3</td>
+                            <td style="padding:10px;text-align:right;">$30,000</td>
+                            <td style="padding:10px;text-align:right;">$10,909</td>
+                            <td style="padding:10px;text-align:right;">$40,909</td>
+                            <td style="padding:10px;text-align:right;">$14,318</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #e2e8f0;background:#f7fafc;">
+                            <td style="padding:10px;">Year 4</td>
+                            <td style="padding:10px;text-align:right;">$30,000</td>
+                            <td style="padding:10px;text-align:right;">$10,909</td>
+                            <td style="padding:10px;text-align:right;">$40,909</td>
+                            <td style="padding:10px;text-align:right;">$14,318</td>
+                        </tr>
+                        <tr style="font-weight:bold;background:#edf2f7;">
+                            <td style="padding:10px;">4-Year Total</td>
+                            <td style="padding:10px;text-align:right;">$300,000</td>
+                            <td style="padding:10px;text-align:right;">$43,636</td>
+                            <td style="padding:10px;text-align:right;">$343,636</td>
+                            <td style="padding:10px;text-align:right;color:#2b6cb0;">$120,273</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p><strong>Year 1 tax savings with cost segregation: $77,318 vs. $6,491 without.</strong> Over the first four years, the total benefit is $120,273 compared to $25,964 under straight-line, a difference of $94,309 in accelerated tax savings.</p>
+
+                <h2>How 100% Bonus Depreciation Under OBBBA Amplifies Your Savings</h2>
+
+                <p>The One Big Beautiful Bill Act (OBBBA) made 100% bonus depreciation permanent for qualifying property under IRC Sec. 168(k). This is the single most important multiplier for cost segregation savings. Here is why it matters so much.</p>
+
+                <p>Without bonus depreciation, reclassified components would still need to be depreciated over their respective 5-year, 7-year, or 15-year MACRS recovery periods using accelerated methods (200% declining balance for 5-year and 7-year property, 150% declining balance for 15-year property under IRC Sec. 168(b)). While faster than 27.5 or 39 years, this still spreads the deduction across multiple years.</p>
+
+                <p>With 100% bonus depreciation, every dollar reclassified through cost segregation is deducted immediately in Year 1. That turns a multi-year benefit into a single, massive tax deduction that generates immediate cash flow. For the $400,000 STR example above, the difference between 100% bonus and standard MACRS timing is approximately $38,000 in additional Year 1 savings.</p>
+
+                <p>This makes the current environment the most favorable for cost segregation studies in the history of the tax code. Property owners who act now lock in 100% bonus depreciation permanently under OBBBA, maximizing the front-loaded benefit of every cost segregation study.</p>
+
+                <h2>What Improvements Add to Your Cost Segregation Basis</h2>
+
+                <p>Your cost segregation basis is not limited to the original purchase price. Under IRC Sec. 1016(a)(1), capital improvements increase your adjusted basis and qualify for the same accelerated depreciation treatment. Common improvements that expand your cost segregation deductions include:</p>
+
+                <ul>
+                    <li><strong>Kitchen and bathroom renovations:</strong> Cabinets, countertops, plumbing fixtures, appliances, and tile work are reclassifiable into 5-year and 7-year MACRS classes.</li>
+                    <li><strong>HVAC systems:</strong> Central air conditioning, ductwork, and heating equipment qualify as IRC Sec. 1245 personal property with 5-year or 7-year recovery periods.</li>
+                    <li><strong>Landscaping and site improvements:</strong> Driveways, walkways, patios, fencing, retaining walls, and outdoor lighting fall under the 15-year land improvement category per IRC Sec. 168(e)(3)(E).</li>
+                    <li><strong>Furnishings and appliances:</strong> Furniture, window treatments, carpeting, and all removable fixtures qualify as 5-year or 7-year personal property.</li>
+                    <li><strong>Electrical and plumbing upgrades:</strong> Dedicated circuits, upgraded panels, specialty plumbing, and water heaters are reclassifiable into shorter recovery periods.</li>
+                    <li><strong>Roof replacements and additions:</strong> While the structural roof shell remains on the longer recovery period, components such as gutters, downspouts, and flashing can be reclassified into 15-year land improvement classes.</li>
+                </ul>
+
+                <p>For example, if you purchased a $400,000 STR and then invested $75,000 in renovations and furnishings, your total cost segregation basis becomes $475,000. Applying the 35% Year 1 formula: $475,000 x 0.35 = $166,250 in accelerated Year 1 depreciation. At a 37% marginal rate, that equals $61,513 in Year 1 tax savings from the combined basis.</p>
+
+                <h2>How to Calculate Your Own Estimated Savings</h2>
+
+                <p>Follow these steps to estimate your cost segregation savings using the AE Tax formula:</p>
+
+                <ol>
+                    <li><strong>Determine your total basis:</strong> Add your purchase price to any capital improvements. Exclude the land value (typically 15% of purchase price for residential properties).</li>
+                    <li><strong>Calculate Year 1 acceleration:</strong> Multiply your purchase price (including improvements) by 35%. This is the amount eligible for immediate deduction under IRC Sec. 168(k) with 100% bonus depreciation.</li>
+                    <li><strong>Calculate Years 2 through 4:</strong> Multiply by 5% for each additional year, representing components with phased placed-in-service dates.</li>
+                    <li><strong>Apply your marginal tax rate:</strong> Multiply the accelerated deduction amount by your highest federal tax rate (22%, 24%, 32%, 35%, or 37%) to determine your actual tax savings in dollars.</li>
+                    <li><strong>Add state tax savings:</strong> If your state has an income tax, multiply the accelerated deduction by your state rate for additional savings. Most states conform to federal MACRS depreciation schedules.</li>
+                </ol>
+
+                <p>Keep in mind that these calculations are estimates. A professional cost segregation study conducted by AE Tax Advisors includes an engineering-based analysis that identifies every qualifying component, ensuring you capture the maximum allowable deduction under IRC Sec. 168. Many properties exceed the 35% threshold when specialty components and site improvements are properly identified.</p>
+
+                <h2>Catch-Up Depreciation for Properties Purchased in Prior Years</h2>
+
+                <p>If you already own rental properties that were placed in service in prior tax years, you are not out of luck. You can file <a href="/form-3115-cost-segregation/">IRS Form 3115</a> (Application for Change in Accounting Method) to claim all of the cumulative missed depreciation in a single tax year. This Section 481(a) adjustment does not require amending prior returns, and it captures every dollar of depreciation you should have taken but did not.</p>
+
+                <p>For a property placed in service three years ago, the catch-up can be substantial: you would claim three years of missed accelerated depreciation in a single lump sum on your current return. AE Tax Advisors handles <a href="/form-3115-cost-segregation/">Form 3115 filings</a> as part of our advisory engagement, and prior-year amendment services are available at $2,500 per year for returns that need correction.</p>
+
+                <h2>Maximizing <a href="/airbnb-tax-deductions/">Airbnb Tax Deductions</a> with Cost Segregation</h2>
+
+                <p>Cost segregation is the single largest deduction available to Airbnb and VRBO operators, but it works best when combined with a complete <a href="/airbnb-tax-deductions/">tax deduction strategy</a>. Beyond depreciation, STR operators can deduct cleaning fees, property management software, guest supplies, insurance, mortgage interest, repairs, and dozens of other operating expenses. When cost segregation generates a large enough paper loss to offset all rental income and create excess losses, those losses can flow through to offset your W-2 or business income if you qualify under the <a href="/str-material-participation/">material participation</a> rules of IRC Sec. 469.</p>
+
+                <p>This layered approach is exactly what AE Tax Advisors builds into every client engagement. Our $7,800 advisory fee covers comprehensive tax planning, entity structuring, cost segregation analysis, and ongoing strategy, not just a single study in isolation.</p>
+
+                <h2>Why Professional Analysis Outperforms DIY Estimates</h2>
+
+                <p>While this calculator gives you a reliable ballpark estimate, a professional cost segregation study consistently identifies additional qualifying components that increase the accelerated basis beyond the 35% formula. Engineered studies performed by AE Tax Advisors include on-site or desktop property analysis, component-by-component classification per the IRS Cost Segregation Audit Techniques Guide, and complete documentation that withstands IRS examination.</p>
+
+                <p>The typical property owner who moves from a DIY estimate to a professional study discovers an additional 5% to 10% in qualifying basis, translating to thousands of dollars in additional savings. Combined with strategic <a href="/str-vs-ltr-tax-treatment/">entity structuring for STR vs. LTR tax treatment</a>, the full advisory engagement pays for itself many times over.</p>
+
+                <p>Ready to see what your specific property qualifies for? <a href="/discovery/">Request a free assessment</a> from AE Tax Advisors. We will run your property through a detailed cost segregation analysis and show you the exact dollar savings before you commit to anything.</p>
+
+            </div>
+            <div class="cta-box" style="background:#f8f9fa;border:2px solid #1a365d;border-radius:12px;padding:40px;text-align:center;margin:40px 0;">
+                <h3 style="color:#1a365d;margin-bottom:10px;">Want a Professional Cost Segregation Estimate?</h3>
+                <p>Our team will run your property through a detailed cost segregation analysis and show you exactly how much you can save this year.</p>
+                <a href="/discovery/" class="btn-cta btn-lg" style="margin-top:15px;display:inline-block;">Request Your Free Assessment</a>
+            </div>
+        </div>
+    </article>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col footer-brand">
+                <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" class="footer-logo" height="50">
+                <p class="footer-tagline">Strategic tax planning for business owners and real estate investors.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/company/ae-tax-advisors" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Twitter/X">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                </div>
+                <div class="footer-trust-badges">
+                    <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
+                    <span class="trust-badge">&#9989; Licensed CPAs</span>
+                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+                <a href="/discovery/">Request a Consultation</a>
+                <a href="/about/">About Us</a>
+                <a href="/bios/">Our Team</a>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="/business-owner-small-business-tax/">Business Tax Services</a>
+                <a href="/real-estate-tax-planning/">Real Estate Tax Planning</a>
+                <a href="/short-term-rental-tax-strategy/">STR Tax Strategy</a>
+                <a href="/rental-property-tax-planning/">Rental Property Tax Planning</a>
+                <a href="/cost-segregation-study/">Cost Segregation Study</a>
+                <a href="/real-estate-investor-cpa/">CPA for RE Investors</a>
+                <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
+                <a href="/tax-compliance-irs-representation/">Tax Compliance &amp; IRS</a>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <a href="/blog/">Blog</a>
+                <a href="/case-studies/">Case Studies</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/guides/">Guides &amp; Whitepapers</a>
+                <a href="/glossary/">Glossary of Tax Terms</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p class="footer-address">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
+                <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
+                <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+                <h4 style="margin-top:20px">Legal</h4>
+                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/terms-of-service/">Terms of Service</a>
+                <a href="/disclaimer/">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762</p>
+        </div>
+    </footer>
+    <section class="sticky-cta">
+        <div class="sticky-inner">
+            <p>Are You Leaving Tax Savings on the Table?</p>
+            <a href="/discovery/" class="btn-cta">Get Your Free Tax Assessment</a>
+        </div>
+    </section>
+    <script>
+    (function(){
+        var observer = new IntersectionObserver(function(entries){
+            entries.forEach(function(e){
+                if(e.isIntersecting){
+                    e.target.classList.add('fade-in-visible');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'});
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelectorAll('.fade-in-section').forEach(function(el){ observer.observe(el); });
+        });
+    })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STR vs LTR Tax Treatment: Which Saves More?</title>
+    <meta name="description" content="Compare short-term rental vs long-term rental tax treatment side by side. Recovery periods, passive loss rules, material participation, cost segregation impact, and which strategy saves more for real estate investors.">
+    <link rel="canonical" href="https://aetaxadvisors.com/str-vs-ltr-tax-treatment/">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="icon" href="/favicon.ico">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aetaxadvisors.com/"},
+            {"@type": "ListItem", "position": 2, "name": "Cost Segregation", "item": "https://aetaxadvisors.com/cost-segregation-airbnb/"},
+            {"@type": "ListItem", "position": 3, "name": "STR vs LTR Tax Treatment", "item": "https://aetaxadvisors.com/str-vs-ltr-tax-treatment/"}
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the depreciation recovery period for a short-term rental vs a long-term rental?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Short-term rentals with an average rental period of 7 days or less are classified as nonresidential real property under IRC Sec. 168(e)(2)(B), carrying a 39-year recovery period. Long-term rentals are classified as residential rental property under IRC Sec. 168(e)(2)(A) with a 27.5-year recovery period. However, cost segregation reclassifies components into 5, 7, and 15-year property regardless of the building classification, and those components qualify for 100% bonus depreciation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can STR losses offset my W-2 income?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, if you meet two conditions. First, the average rental period must be 7 days or less, which removes the activity from the rental classification under IRC Sec. 469(j)(8). Second, you must materially participate in the STR activity. When both conditions are met, the losses are non-passive and can offset W-2 wages, business income, and other active income with no dollar limit."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can LTR losses offset my W-2 income?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Generally, no. LTR activities are passive under IRC Sec. 469, so losses can only offset passive income. The exception is if you qualify as a Real Estate Professional (REPS) under IRC Sec. 469(c)(7), which requires spending 750+ hours per year in real property trades or businesses, with more than half of your total personal services in those activities. There is also a $25,000 allowance for active participants with AGI under $100,000 (phases out by $150,000)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Which is better for a high-income W-2 earner, STR or LTR?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For high-income W-2 earners specifically seeking tax benefits, short-term rentals typically provide greater value. The STR loophole allows non-passive loss treatment through material participation and the 7-day rule, meaning cost segregation and bonus depreciation losses can directly offset W-2 income. LTR losses are trapped as passive for most W-2 earners unless they qualify as a Real Estate Professional, which is difficult with a full-time job."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do both STR and LTR properties benefit from cost segregation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Both property types benefit from cost segregation studies that reclassify components into shorter-lived asset classes eligible for 100% bonus depreciation under IRC Sec. 168(k). The difference is not in the cost seg itself but in how the resulting losses are treated: STR losses can be non-passive (offsetting W-2 income) while LTR losses are passive (offsetting only passive income, unless you are a REPS)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the 7-day rule for short-term rentals?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under IRC Sec. 469(j)(8) and Treasury Reg. 1.469-1T(e)(3)(ii)(A), a rental activity where the average period of customer use is 7 days or less is not treated as a rental activity for passive loss purposes. This means it is treated as a regular trade or business, and if the owner materially participates, the income or loss is non-passive. This is the foundation of the STR tax loophole."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Should I use an LLC or S-Corp for my rental property?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Most rental property investors use a single-member LLC taxed as a disregarded entity for liability protection without added tax complexity. An S-Corp election may make sense for STR owners with high net rental income (typically $50,000+ after expenses) because it can reduce self-employment tax on the portion paid as distributions rather than salary. However, an S-Corp adds payroll requirements and can complicate the material participation analysis. Consult with a tax advisor before making the election."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50">
+            </a>
+            <nav class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+<div class="nav-dropdown">
+                <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax</a>
+<a href="/bios/" class="dropdown-item">Our Team</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+<a href="/real-estate-tax-planning/" class="dropdown-item">Real Estate Tax Planning</a>
+<a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+<a href="/rental-property-tax-planning/" class="dropdown-item">Rental Property Tax Planning</a>
+<a href="/cost-segregation-study/" class="dropdown-item">Cost Segregation Study</a>
+<a href="/real-estate-investor-cpa/" class="dropdown-item">CPA for Real Estate Investors</a>
+<a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+<a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
+<a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+<a href="/crypto-mining-tax-strategy/" class="dropdown-item">Crypto Mining Tax Strategy</a>
+<a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies (Detailed)</a>
+<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+<a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+<a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/cost-segregation-airbnb/" class="nav-link">Cost Segregation <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/cost-segregation-airbnb/" class="dropdown-item">Cost Seg for Airbnb/STR</a>
+<a href="/str-tax-loophole/" class="dropdown-item">STR Tax Loophole</a>
+<a href="/cost-segregation-calculator/" class="dropdown-item">Cost Seg Calculator</a>
+<a href="/bonus-depreciation-rental-property/" class="dropdown-item">Bonus Depreciation</a>
+<a href="/form-3115-cost-segregation/" class="dropdown-item">Form 3115 Catch-Up</a>
+<a href="/str-vs-ltr-tax-treatment/" class="dropdown-item">STR vs LTR Tax Treatment</a>
+</div>
+            </div>
+<a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
+<div class="nav-dropdown">
+                <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
+<a href="/faq/" class="dropdown-item">FAQ</a>
+<a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+<a href="/glossary/" class="dropdown-item">Glossary</a>
+</div>
+            </div>
+<a href="/contact/" class="nav-link">Contact Us</a>
+                <a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <article class="blog-post">
+        <div class="container narrow">
+            <div class="breadcrumbs">
+                <a href="/">Home</a> &raquo; <a href="/cost-segregation-airbnb/">Cost Segregation</a> &raquo; STR vs LTR Tax Treatment
+            </div>
+            <h1>STR vs LTR Tax Treatment: Which Saves More?</h1>
+            <div class="post-meta">
+                <span>AE Tax Advisors</span> &middot; <span>Real Estate Tax Strategy</span>
+            </div>
+            <div class="post-content">
+
+                <p>Short-term rentals (STRs) and long-term rentals (LTRs) are both proven paths to building wealth through real estate. But the IRS treats them very differently, and understanding those differences can mean tens of thousands of dollars in tax savings each year. This guide breaks down the tax treatment of STRs versus LTRs side by side, covering recovery periods, passive loss rules, <a href="/str-material-participation/">material participation</a>, <a href="/cost-segregation-airbnb/">cost segregation</a>, and entity structuring, so you can make the right choice for your portfolio.</p>
+
+                <h2>Recovery Period: 39 Years vs. 27.5 Years</h2>
+
+                <p>The first difference shows up in how the IRS classifies the building itself for depreciation purposes.</p>
+
+                <h3>Long-Term Rentals: 27.5-Year Residential Property</h3>
+
+                <p>Under IRC Sec. 168(e)(2)(A), residential rental property is any building where 80% or more of the gross rental income comes from dwelling units. If your tenants sign leases of one year or longer, you clearly meet this test. The building depreciates over 27.5 years using the straight-line method under MACRS.</p>
+
+                <p>For a property with a depreciable basis of $400,000, the annual straight-line depreciation is approximately $14,545 per year ($400,000 / 27.5).</p>
+
+                <h3>Short-Term Rentals: 39-Year Nonresidential Property</h3>
+
+                <p>Here is where many investors are surprised. Under IRC Sec. 168(e)(2)(B), if the average rental period is 30 days or less, the property may not meet the "dwelling unit" test for residential classification. Airbnb and VRBO properties with average stays of 3 to 5 nights are classified as nonresidential real property, carrying a 39-year recovery period.</p>
+
+                <p>That same $400,000 depreciable basis produces only $10,256 per year in straight-line depreciation ($400,000 / 39), which is $4,289 less per year than the LTR.</p>
+
+                <p>At first glance, this makes LTRs look better for depreciation. But the recovery period of the building structure becomes far less important once you factor in <a href="/cost-segregation-airbnb/">cost segregation</a> and <a href="/bonus-depreciation-rental-property/">bonus depreciation</a>, which reclassify 25% to 40% of the basis into 5, 7, and 15-year property eligible for 100% first-year expensing regardless of whether the building is classified as residential or nonresidential.</p>
+
+                <h2>Passive vs. Non-Passive: The Critical Distinction</h2>
+
+                <p>The recovery period difference is a footnote compared to the passive activity rules. This is where the real tax savings diverge.</p>
+
+                <h3>LTRs Are Passive by Default</h3>
+
+                <p>Under IRC Sec. 469(c)(2), rental activities are treated as passive regardless of the taxpayer's participation level. For LTR owners, this means rental losses can only offset passive income (income from other rental properties, limited partnerships, or passive business interests). Losses cannot offset W-2 wages, business income, or investment income.</p>
+
+                <p>There are two exceptions for LTR owners:</p>
+
+                <ul>
+                    <li><strong>The $25,000 allowance:</strong> Under IRC Sec. 469(i), taxpayers who actively participate in a rental activity can deduct up to $25,000 in rental losses against non-passive income, but this phases out between $100,000 and $150,000 of adjusted gross income (AGI). For high earners, this exception is worthless.</li>
+                    <li><strong>Real Estate Professional Status (REPS):</strong> Under IRC Sec. 469(c)(7), a taxpayer who spends 750+ hours per year in real property trades or businesses, with more than half of their total personal services in those activities, can treat rental income and losses as non-passive. This is extremely difficult for anyone with a full-time W-2 job.</li>
+                </ul>
+
+                <h3>STRs Can Be Non-Passive</h3>
+
+                <p>This is the foundation of the <a href="/str-tax-loophole/">STR tax loophole</a>. Under IRC Sec. 469(j)(8) and Treasury Reg. 1.469-1T(e)(3)(ii)(A), a rental activity with an average period of customer use of 7 days or less is not treated as a "rental activity" for passive loss purposes. Instead, it is treated as a regular trade or business.</p>
+
+                <p>Once the activity is classified as a non-rental trade or business, the owner only needs to <a href="/str-material-participation/">materially participate</a> to make the income or losses non-passive. Material participation for a non-rental activity has seven tests, and most STR owners can meet Test 3: spending at least 100 hours on the activity during the year, with no other individual spending more time.</p>
+
+                <p>The result: STR losses, including the large depreciation deductions from cost segregation and bonus depreciation, can offset W-2 wages, business income, and any other active income. There is no dollar cap on this benefit.</p>
+
+                <h2>Material Participation: Different Paths for STR and LTR</h2>
+
+                <table style="width:100%;border-collapse:collapse;margin:20px 0;">
+                    <thead>
+                        <tr style="background:#1a365d;color:#fff;">
+                            <th style="padding:12px;text-align:left;">Requirement</th>
+                            <th style="padding:12px;text-align:left;">STR (7-Day Rule)</th>
+                            <th style="padding:12px;text-align:left;">LTR (REPS)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid #ddd;">
+                            <td style="padding:10px;">Minimum Hours</td>
+                            <td style="padding:10px;">100 hours (Test 3)</td>
+                            <td style="padding:10px;">750 hours in real property trades/businesses</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #ddd;">
+                            <td style="padding:10px;">Comparative Test</td>
+                            <td style="padding:10px;">More than any other individual</td>
+                            <td style="padding:10px;">More than half of total personal services</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #ddd;">
+                            <td style="padding:10px;">W-2 Employee Feasible?</td>
+                            <td style="padding:10px;">Yes, very common</td>
+                            <td style="padding:10px;">Extremely difficult with a full-time job</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #ddd;">
+                            <td style="padding:10px;">Activities Counted</td>
+                            <td style="padding:10px;">Each STR property individually (or grouped)</td>
+                            <td style="padding:10px;">All real property trades or businesses combined</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #ddd;">
+                            <td style="padding:10px;">Documentation</td>
+                            <td style="padding:10px;">Time log of guest communications, cleaning, maintenance, pricing, listing management</td>
+                            <td style="padding:10px;">Time log of all real estate activities: management, maintenance, acquisition, development</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>For a W-2 earner making $300,000+, meeting 100 hours on an STR is straightforward. Meeting the 750-hour REPS requirement while working a full-time job is nearly impossible.</p>
+
+                <h2>Cost Segregation: Both Benefit, But STR + Material Participation Wins</h2>
+
+                <p>Both STRs and LTRs benefit from <a href="/cost-segregation-airbnb/">cost segregation studies</a>. A cost seg study reclassifies building components from the default recovery period (27.5 or 39 years) into shorter-lived asset classes:</p>
+
+                <ul>
+                    <li><strong>5-year property:</strong> Appliances, carpeting, vinyl flooring, cabinetry, decorative fixtures</li>
+                    <li><strong>7-year property:</strong> Furniture, office equipment, certain land improvements</li>
+                    <li><strong>15-year property:</strong> Driveways, sidewalks, landscaping, fencing, parking areas, exterior lighting</li>
+                </ul>
+
+                <p>Under IRC Sec. 168(k), as restored by the OBBBA, these reclassified components qualify for 100% <a href="/bonus-depreciation-rental-property/">bonus depreciation</a> in Year 1. A typical study reclassifies 25% to 40% of the depreciable basis.</p>
+
+                <p>The difference between STR and LTR is not in the cost segregation itself. It is in what you can do with the resulting losses:</p>
+
+                <ul>
+                    <li><strong>STR + material participation:</strong> Losses are non-passive. They offset your W-2, business income, capital gains, and any other active income.</li>
+                    <li><strong>LTR (no REPS):</strong> Losses are passive. They can only offset passive income from other rentals or passive business interests. Excess losses carry forward.</li>
+                </ul>
+
+                <h2>Side-by-Side Comparison: Same $500,000 Property</h2>
+
+                <p>Let us compare the Year 1 tax impact of a $500,000 property (depreciable basis: $425,000 after subtracting $75,000 for land) operated as an STR versus an LTR. The investor earns $350,000 in W-2 income, has no other passive income, and performs a cost segregation study reclassifying 35% of the basis.</p>
+
+                <table style="width:100%;border-collapse:collapse;margin:20px 0;">
+                    <thead>
+                        <tr style="background:#1a365d;color:#fff;">
+                            <th style="padding:12px;text-align:left;">Tax Item</th>
+                            <th style="padding:12px;text-align:right;">STR (Materially Participates)</th>
+                            <th style="padding:12px;text-align:right;">LTR (No REPS)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid #ddd;">
+                            <td style="padding:10px;">Gross Rental Income</td>
+                            <td style="padding:10px;text-align:right;">$65,000</td>
+                            <td style="padding:10px;text-align:right;">$30,000</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #ddd;">
+                            <td style="padding:10px;">Operating Expenses</td>
+                            <td style="padding:10px;text-align:right;">($35,000)</td>
+                            <td style="padding:10px;text-align:right;">($12,000)</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #ddd;">
+                            <td style="padding:10px;">Straight-Line Depreciation (Structure)</td>
+                            <td style="padding:10px;text-align:right;">($7,083)</td>
+                            <td style="padding:10px;text-align:right;">($10,045)</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #ddd;">
+                            <td style="padding:10px;">Bonus Depreciation (Cost Seg Components)</td>
+                            <td style="padding:10px;text-align:right;">($148,750)</td>
+                            <td style="padding:10px;text-align:right;">($148,750)</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #ddd;font-weight:bold;">
+                            <td style="padding:10px;">Net Rental Loss</td>
+                            <td style="padding:10px;text-align:right;">($125,833)</td>
+                            <td style="padding:10px;text-align:right;">($140,795)</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #ddd;">
+                            <td style="padding:10px;">Loss Classification</td>
+                            <td style="padding:10px;text-align:right;"><strong>Non-Passive</strong></td>
+                            <td style="padding:10px;text-align:right;"><strong>Passive</strong></td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #ddd;">
+                            <td style="padding:10px;">Usable Against W-2 Income?</td>
+                            <td style="padding:10px;text-align:right;">Yes, full amount</td>
+                            <td style="padding:10px;text-align:right;">No (AGI too high for $25K allowance)</td>
+                        </tr>
+                        <tr style="background:#f0f7ff;font-weight:bold;">
+                            <td style="padding:10px;">Federal Tax Savings (Year 1, 37% Rate)</td>
+                            <td style="padding:10px;text-align:right;">$46,558</td>
+                            <td style="padding:10px;text-align:right;">$0 (carries forward)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>The STR investor saves $46,558 in federal taxes in Year 1. The LTR investor generates a larger paper loss, but it sits unused as a passive loss carryforward until the investor has passive income to offset or sells the property. For a high-earning W-2 employee, the STR strategy delivers immediate, real-dollar tax savings.</p>
+
+                <h2>Entity Structuring: LLC and S-Corp Considerations</h2>
+
+                <p>Both STR and LTR investors should hold properties inside a limited liability company (LLC) for asset protection. The default tax treatment for a single-member LLC is a disregarded entity, meaning the rental income and expenses flow directly to your personal return (Schedule E for rentals, Schedule C if the STR is a non-rental trade or business).</p>
+
+                <h3>When to Consider an S-Corp Election</h3>
+
+                <p>An S-Corp election (filing Form 2553) may reduce self-employment taxes for STR owners with high net income. Because STRs treated as non-rental activities under the 7-day rule may be subject to self-employment tax under IRC Sec. 1402, an S-Corp allows you to split income between a reasonable salary (subject to FICA) and distributions (not subject to FICA).</p>
+
+                <p>General guideline: if your STR net income exceeds $50,000 after all expenses and depreciation, the S-Corp election is worth modeling. Below that threshold, the added payroll and filing costs typically outweigh the savings.</p>
+
+                <p>LTR owners rarely benefit from an S-Corp election because rental income is not subject to self-employment tax under IRC Sec. 1402(a)(1).</p>
+
+                <h2>Which Strategy Is Better for You?</h2>
+
+                <h3>Choose STR If:</h3>
+
+                <ul>
+                    <li>You are a high-income W-2 earner (AGI above $150,000) looking to offset active income with rental losses</li>
+                    <li>You can commit 100+ hours per year to <a href="/str-material-participation/">material participation</a> in the property</li>
+                    <li>You are willing to handle higher turnover, furnishing, and guest management (or hire a co-host)</li>
+                    <li>You want to maximize Year 1 tax benefits through the <a href="/str-tax-loophole/">STR loophole</a> combined with <a href="/cost-segregation-airbnb/">cost segregation</a></li>
+                    <li>You are in a market where short-term rental demand supports strong gross revenue</li>
+                </ul>
+
+                <h3>Choose LTR If:</h3>
+
+                <ul>
+                    <li>You prefer stable, predictable cash flow with less management overhead</li>
+                    <li>You have other passive income sources that rental losses can offset</li>
+                    <li>You qualify or can qualify for Real Estate Professional Status (REPS)</li>
+                    <li>You want the faster 27.5-year straight-line depreciation on the building structure</li>
+                    <li>You are building a portfolio focused on long-term equity appreciation rather than immediate tax arbitrage</li>
+                </ul>
+
+                <h3>The Hybrid Approach</h3>
+
+                <p>Many investors run both strategies in parallel. They use STRs for aggressive Year 1 tax savings through cost segregation, bonus depreciation, and the non-passive loss treatment, while holding LTRs for consistent cash flow and long-term wealth building. The passive losses from LTRs can be banked and used when you eventually sell a property (they release upon disposition under IRC Sec. 469(g)), while the STR losses provide immediate tax relief year after year.</p>
+
+                <h2>The <a href="/airbnb-tax-deductions/">Deductions</a> Both Strategies Share</h2>
+
+                <p>Regardless of whether you operate an STR or LTR, you can deduct:</p>
+
+                <ul>
+                    <li>Mortgage interest (Schedule E or Schedule A, depending on classification)</li>
+                    <li>Property taxes</li>
+                    <li>Insurance premiums</li>
+                    <li>Repairs and maintenance</li>
+                    <li>Property management fees</li>
+                    <li>Depreciation (straight-line on the structure, accelerated on cost seg components)</li>
+                    <li>Travel to and from the property for management purposes</li>
+                    <li>Professional fees (tax preparation, legal, cost segregation study fees)</li>
+                </ul>
+
+                <p>STR-specific deductions also include furnishing costs, cleaning fees, platform commissions (Airbnb, VRBO), supplies, amenities, and photography for listings.</p>
+
+                <h2>Already Own a Property? Catch Up with Form 3115</h2>
+
+                <p>If you own an LTR or STR and never performed a cost segregation study, you can still capture years of missed accelerated depreciation in a single tax year through <a href="/form-3115-cost-segregation/">Form 3115 (Change in Accounting Method)</a>. The Section 481(a) adjustment lets you claim all the depreciation you should have been taking, without amending prior-year returns. This works for both STRs and LTRs.</p>
+
+                <h2>How AE Tax Advisors Can Help</h2>
+
+                <p>Choosing between STR and LTR, or structuring a portfolio that includes both, requires modeling the specific tax impact for your income level, filing status, and investment goals. At AE Tax Advisors, our $7,800 advisory engagement includes a full analysis of your current and planned properties, cost segregation studies, entity structuring recommendations, and ongoing tax planning. Amendment work for prior years is $2,500 per year.</p>
+
+                <p>We work exclusively with real estate investors and business owners. Use our <a href="/cost-segregation-calculator/">cost segregation calculator</a> to estimate your potential savings, then <a href="/discovery/">book your free assessment</a> to build a strategy tailored to your portfolio.</p>
+
+            </div>
+
+            <div class="cta-box" style="background:#f8f9fa;border:2px solid #1a365d;border-radius:12px;padding:40px;text-align:center;margin:40px 0;">
+                <h3 style="color:#1a365d;margin-bottom:10px;">Not Sure Whether STR or LTR Saves You More?</h3>
+                <p>We will model both strategies against your specific income, portfolio, and goals. Our advisory engagement ($7,800) includes cost segregation analysis, entity structuring, and a complete tax plan.</p>
+                <a href="/discovery/" class="btn-cta btn-lg" style="margin-top:15px;display:inline-block;">Request Your Free Assessment</a>
+            </div>
+        </div>
+    </article>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col footer-brand">
+                <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" class="footer-logo" height="50">
+                <p class="footer-tagline">Strategic tax planning for business owners and real estate investors.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/company/ae-tax-advisors" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Twitter/X">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                </div>
+                <div class="footer-trust-badges">
+                    <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
+                    <span class="trust-badge">&#9989; Licensed CPAs</span>
+                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+                <a href="/discovery/">Request a Consultation</a>
+                <a href="/about/">About Us</a>
+                <a href="/bios/">Our Team</a>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="/business-owner-small-business-tax/">Business Tax Services</a>
+                <a href="/real-estate-tax-planning/">Real Estate Tax Planning</a>
+                <a href="/short-term-rental-tax-strategy/">STR Tax Strategy</a>
+                <a href="/rental-property-tax-planning/">Rental Property Tax Planning</a>
+                <a href="/cost-segregation-study/">Cost Segregation Study</a>
+                <a href="/real-estate-investor-cpa/">CPA for RE Investors</a>
+                <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
+                <a href="/tax-compliance-irs-representation/">Tax Compliance &amp; IRS</a>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <a href="/blog/">Blog</a>
+                <a href="/case-studies/">Case Studies</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/guides/">Guides &amp; Whitepapers</a>
+                <a href="/glossary/">Glossary of Tax Terms</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p class="footer-address">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
+                <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
+                <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+                <h4 style="margin-top:20px">Legal</h4>
+                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/terms-of-service/">Terms of Service</a>
+                <a href="/disclaimer/">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762</p>
+        </div>
+    </footer>
+    <section class="sticky-cta">
+        <div class="sticky-inner">
+            <p>Are You Leaving Tax Savings on the Table?</p>
+            <a href="/discovery/" class="btn-cta">Get Your Free Tax Assessment</a>
+        </div>
+    </section>
+    <script>
+    (function(){
+        var observer = new IntersectionObserver(function(entries){
+            entries.forEach(function(e){
+                if(e.isIntersecting){
+                    e.target.classList.add('fade-in-visible');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'});
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelectorAll('.fade-in-section').forEach(function(el){ observer.observe(el); });
+        });
+    })();
+    </script>
+</body>
+</html>
