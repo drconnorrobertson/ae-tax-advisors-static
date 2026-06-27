@@ -769,9 +769,9 @@
       "category": "S-Corp Tax Strategy",
       "path": "/blog-staging/shareholder-basis-tracking-s-corp-essentials/index.html",
       "url": "https://aetaxadvisors.com/blog/shareholder-basis-tracking-s-corp-essentials/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-27"
     },
     {
       "slug": "late-s-corp-election-form-2553-strategies",
@@ -781,9 +781,9 @@
       "category": "S-Corp Tax Strategy",
       "path": "/blog-staging/late-s-corp-election-form-2553-strategies/index.html",
       "url": "https://aetaxadvisors.com/blog/late-s-corp-election-form-2553-strategies/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-27"
     },
     {
       "slug": "what-triggers-irs-audit-s-corp",

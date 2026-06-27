@@ -3526,4 +3526,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+    <url>
+        <loc>https://aetaxadvisors.com/blog/shareholder-basis-tracking-s-corp-essentials/</loc>
+        <lastmod>2026-06-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://aetaxadvisors.com/blog/late-s-corp-election-form-2553-strategies/</loc>
+        <lastmod>2026-06-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
