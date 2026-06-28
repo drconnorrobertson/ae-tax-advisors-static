@@ -793,9 +793,9 @@
       "category": "IRS Audit and Resolution",
       "path": "/blog-staging/what-triggers-irs-audit-s-corp/index.html",
       "url": "https://aetaxadvisors.com/blog/what-triggers-irs-audit-s-corp/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-28"
     },
     {
       "slug": "first-time-penalty-abatement-irs",
@@ -805,9 +805,9 @@
       "category": "IRS Audit and Resolution",
       "path": "/blog-staging/first-time-penalty-abatement-irs/index.html",
       "url": "https://aetaxadvisors.com/blog/first-time-penalty-abatement-irs/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-28"
     },
     {
       "slug": "how-to-respond-irs-notice",
