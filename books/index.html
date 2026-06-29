@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books | Entity Tax Strategy Series | AE Tax Advisors</title>
+    <meta name="description" content="AE Tax Advisors publishes the Entity Tax Strategy series -- practical tax knowledge for business owners, investors, and entrepreneurs covering partnerships, S-Corps, C-Corps, and real estate.">
+    <link rel="canonical" href="https://aetaxadvisors.com/books/">
+    <meta property="og:title" content="Books | Entity Tax Strategy Series | AE Tax Advisors">
+    <meta property="og:description" content="Practical tax knowledge written for business owners, investors, and entrepreneurs. Each book covers a different entity structure in plain language with real-world case studies.">
+    <meta property="og:url" content="https://aetaxadvisors.com/books/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AE Tax Advisors">
+    <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Books | Entity Tax Strategy Series | AE Tax Advisors">
+    <meta name="twitter:description" content="Practical tax knowledge written for business owners, investors, and entrepreneurs. Four books covering partnerships, S-Corps, C-Corps, and real estate.">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://aetaxadvisors.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Books",
+      "item": "https://aetaxadvisors.com/books/"
+    }
+  ]
+}
+    </script>
+    <link rel="alternate" hreflang="en" href="https://aetaxadvisors.com/books/">
+    <style>
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+            margin-top: 48px;
+        }
+        .book-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(0,0,0,0.04);
+            overflow: hidden;
+            transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+            text-decoration: none;
+            color: var(--dark);
+            display: flex;
+            flex-direction: column;
+        }
+        .book-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--accent);
+            color: var(--dark);
+        }
+        .book-cover {
+            background: linear-gradient(135deg, #0f1620 0%, #1B2A4A 40%, #2a4060 100%);
+            padding: 48px 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            min-height: 280px;
+            position: relative;
+        }
+        .book-cover::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 50% 100%, rgba(200,169,74,0.15) 0%, transparent 60%);
+            pointer-events: none;
+        }
+        .book-cover-label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+            margin-bottom: 16px;
+            font-weight: 600;
+            position: relative;
+            z-index: 1;
+        }
+        .book-cover-title {
+            font-family: var(--font-heading);
+            font-size: 26px;
+            font-weight: 800;
+            color: var(--white);
+            line-height: 1.3;
+            margin-bottom: 16px;
+            position: relative;
+            z-index: 1;
+        }
+        .book-cover-divider {
+            width: 48px;
+            height: 3px;
+            background: var(--accent);
+            border-radius: 2px;
+            margin-bottom: 16px;
+            position: relative;
+            z-index: 1;
+        }
+        .book-cover-edition {
+            font-size: 12px;
+            color: rgba(255,255,255,0.5);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            position: relative;
+            z-index: 1;
+        }
+        .book-details {
+            padding: 28px 28px 32px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .book-subtitle {
+            font-size: 15px;
+            color: var(--medium);
+            line-height: 1.7;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+        .book-meta {
+            font-size: 13px;
+            color: var(--medium);
+            margin-bottom: 20px;
+        }
+        .book-meta span {
+            display: inline-block;
+            margin-right: 16px;
+        }
+        .book-link {
+            margin-top: auto;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 14px;
+            transition: color var(--transition);
+        }
+        .book-card:hover .book-link {
+            color: var(--primary);
+        }
+        .books-intro {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .books-intro p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: var(--medium);
+        }
+        @media (max-width: 768px) {
+            .books-grid {
+                grid-template-columns: 1fr;
+            }
+            .book-cover {
+                min-height: 220px;
+                padding: 36px 24px;
+            }
+            .book-cover-title {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
+            </a>
+            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+<div class="nav-dropdown">
+                <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax</a>
+<a href="/bios/" class="dropdown-item">Our Team</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+<a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+<a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
+<a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+<a href="/crypto-mining-tax-strategy/" class="dropdown-item">Crypto Mining Tax Strategy</a>
+<a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+<a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies</a>
+<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+<a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+<a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+</div>
+            </div>
+<a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
+<div class="nav-dropdown">
+                <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
+<a href="/faq/" class="dropdown-item">FAQ</a>
+<a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+<a href="/glossary/" class="dropdown-item">Glossary</a>
+</div>
+            </div>
+<a href="/books/" class="nav-link active">Books</a>
+<a href="/contact/" class="nav-link">Contact Us</a>
+
+                <a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Entity Tax Strategy Series</h1>
+            <p>Practical tax knowledge written for business owners, investors, and entrepreneurs</p>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container">
+            <div class="books-intro">
+                <p>AE Tax Advisors publishes the Entity Tax Strategy series -- practical tax knowledge written for business owners, investors, and entrepreneurs. Each book covers a different entity structure in plain language with real-world case studies.</p>
+            </div>
+
+            <div class="books-grid">
+
+                <!-- Partnership Tax Strategies -->
+                <a href="https://partnershiptaxbook.com" target="_blank" rel="noopener" class="book-card">
+                    <div class="book-cover">
+                        <div class="book-cover-label">Entity Tax Strategy Series</div>
+                        <div class="book-cover-title">Partnership Tax Strategies</div>
+                        <div class="book-cover-divider"></div>
+                        <div class="book-cover-edition">First Edition 2026</div>
+                    </div>
+                    <div class="book-details">
+                        <p class="book-subtitle">How Business Partners Reduce Taxes, Share Profits, and Build Wealth Together</p>
+                        <p class="book-meta">
+                            <span>13 Chapters</span>
+                            <span>First Edition 2026</span>
+                        </p>
+                        <span class="book-link">Read more at partnershiptaxbook.com &rarr;</span>
+                    </div>
+                </a>
+
+                <!-- C Corporation Tax Strategy -->
+                <a href="https://ccorptaxbook.com" target="_blank" rel="noopener" class="book-card">
+                    <div class="book-cover">
+                        <div class="book-cover-label">Entity Tax Strategy Series</div>
+                        <div class="book-cover-title">C Corporation Tax Strategy</div>
+                        <div class="book-cover-divider"></div>
+                        <div class="book-cover-edition">First Edition 2026</div>
+                    </div>
+                    <div class="book-details">
+                        <p class="book-subtitle">How Business Owners Use the 21% Corporate Rate to Build Wealth and Fund Growth</p>
+                        <p class="book-meta">
+                            <span>13 Chapters</span>
+                            <span>44 Pages</span>
+                            <span>First Edition 2026</span>
+                        </p>
+                        <span class="book-link">Read more at ccorptaxbook.com &rarr;</span>
+                    </div>
+                </a>
+
+                <!-- Real Estate Investor Tax Playbook -->
+                <a href="https://therealestatetaxbook.com" target="_blank" rel="noopener" class="book-card">
+                    <div class="book-cover">
+                        <div class="book-cover-label">Entity Tax Strategy Series</div>
+                        <div class="book-cover-title">Real Estate Investor Tax Playbook</div>
+                        <div class="book-cover-divider"></div>
+                        <div class="book-cover-edition">First Edition 2026</div>
+                    </div>
+                    <div class="book-details">
+                        <p class="book-subtitle">Cost Segregation, Bonus Depreciation, and Tax Secrets for Short-Term and Long-Term Rental Owners</p>
+                        <p class="book-meta">
+                            <span>13 Chapters</span>
+                            <span>First Edition 2026</span>
+                        </p>
+                        <span class="book-link">Read more at therealestatetaxbook.com &rarr;</span>
+                    </div>
+                </a>
+
+                <!-- S Corporation Tax Savings -->
+                <a href="https://thescorptaxbook.com" target="_blank" rel="noopener" class="book-card">
+                    <div class="book-cover">
+                        <div class="book-cover-label">Entity Tax Strategy Series</div>
+                        <div class="book-cover-title">S Corporation Tax Savings</div>
+                        <div class="book-cover-divider"></div>
+                        <div class="book-cover-edition">First Edition 2026</div>
+                    </div>
+                    <div class="book-details">
+                        <p class="book-subtitle">How Small Business Owners Slash Self-Employment Tax and Keep More of What They Earn</p>
+                        <p class="book-meta">
+                            <span>13 Chapters</span>
+                            <span>44 Pages</span>
+                            <span>First Edition 2026</span>
+                        </p>
+                        <span class="book-link">Read more at thescorptaxbook.com &rarr;</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section" style="background: var(--light-bg);">
+        <div class="container center-text">
+            <h2 style="text-align: center; margin-bottom: 16px;">Need a Custom Tax Strategy?</h2>
+            <p style="max-width: 600px; margin: 0 auto 32px; color: var(--medium); font-size: 17px;">The books cover general strategies. For a tax plan tailored to your business, properties, and income, schedule a consultation with the AE Tax Advisors team.</p>
+            <a href="/discovery/" class="btn-cta btn-lg">Request Your Free Tax Assessment</a>
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col footer-brand">
+                <a href="/" class="footer-logo"><img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="60" style="object-fit: contain;"></a>
+                <p>Advanced tax strategies for business owners and real estate investors.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/company/ae-tax-advisors" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Twitter/X">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                </div>
+                <div class="footer-trust-badges">
+                    <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
+                    <span class="trust-badge">&#9989; Licensed CPAs</span>
+                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+                <a href="/discovery/">Request a Consultation</a>
+                <a href="/about/">About Us</a>
+                <a href="/bios/">Our Team</a>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="/business-owner-small-business-tax/">Business Tax Services</a>
+                <a href="/individual-tax-planning-high-earners/">Income &amp; Entity Optimization</a>
+                <a href="/deferred-equity-compensation/">Equity Compensation</a>
+                <a href="/multi-state-global-tax/">Multi-State &amp; Global Tax</a>
+                <a href="/estate-trust-wealth-transfer/">Estate &amp; Wealth Transfer</a>
+                <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
+                <a href="/tax-compliance-irs-representation/">Tax Compliance &amp; IRS</a>
+                <a href="/cost-segregation-studies-for-real-estate-investors/">Cost Segregation Studies</a>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <a href="/blog/">Blog</a>
+                <a href="/case-studies/">Case Studies</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/guides/">Guides &amp; Whitepapers</a>
+                <a href="/glossary/">Glossary of Tax Terms</a>
+                <a href="/books/">Books</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p class="footer-address">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
+                <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
+                <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+                <h4 style="margin-top:20px">Legal</h4>
+                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/terms-of-service/">Terms of Service</a>
+                <a href="/disclaimer/">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762</p>
+        </div>
+    </footer>
+
+    <section class="sticky-cta">
+        <div class="sticky-inner">
+            <p>Are You Leaving Tax Savings on the Table?</p>
+            <a href="/discovery/" class="btn-cta">Get Your Free Tax Assessment</a>
+        </div>
+    </section>
+
+    <script>
+    // Scroll fade-in animations
+    (function(){
+        var observer = new IntersectionObserver(function(entries){
+            entries.forEach(function(e){
+                if(e.isIntersecting){
+                    e.target.classList.add('fade-in-visible');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'});
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelectorAll('.fade-in-section').forEach(function(el){ observer.observe(el); });
+        });
+    })();
+    </script>
+</body>
+</html>
