@@ -817,9 +817,9 @@
       "category": "IRS Audit and Resolution",
       "path": "/blog-staging/how-to-respond-irs-notice/index.html",
       "url": "https://aetaxadvisors.com/blog/how-to-respond-irs-notice/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-30"
     },
     {
       "slug": "voluntary-correction-vs-waiting-for-audit",
@@ -829,9 +829,9 @@
       "category": "IRS Audit and Resolution",
       "path": "/blog-staging/voluntary-correction-vs-waiting-for-audit/index.html",
       "url": "https://aetaxadvisors.com/blog/voluntary-correction-vs-waiting-for-audit/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-06-30"
     },
     {
       "slug": "personal-expenses-through-business-irs-risk",
