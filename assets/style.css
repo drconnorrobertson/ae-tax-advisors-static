@@ -1448,3 +1448,26 @@ iframe {
         padding: 24px;
     }
 }
+
+/* ===== TABLE MOBILE OVERFLOW FIX ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.blog-post table,
+.content-section table,
+article table,
+main table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+}
+
+/* ===== CASE STUDY TAG MOBILE FONT-SIZE FIX ===== */
+@media (max-width: 768px) {
+    .case-study-card span[style*="font-size:0.7rem"] {
+        font-size: 0.8rem !important;
+    }
+}
