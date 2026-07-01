@@ -841,9 +841,9 @@
       "category": "IRS Audit and Resolution",
       "path": "/blog-staging/personal-expenses-through-business-irs-risk/index.html",
       "url": "https://aetaxadvisors.com/blog/personal-expenses-through-business-irs-risk/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-01"
     },
     {
       "slug": "unfiled-tax-returns-strategy",
@@ -853,9 +853,9 @@
       "category": "IRS Audit and Resolution",
       "path": "/blog-staging/unfiled-tax-returns-strategy/index.html",
       "url": "https://aetaxadvisors.com/blog/unfiled-tax-returns-strategy/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-01"
     },
     {
       "slug": "offer-in-compromise-myths-reality",
