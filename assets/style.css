@@ -1121,7 +1121,7 @@ footer {
 }
 
 /* -- Case studies: ensure grid doesn't overflow on small screens -- */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .case-study-grid {
         grid-template-columns: 1fr !important;
         gap: 16px !important;
@@ -1129,6 +1129,14 @@ footer {
 
     .case-study-card {
         padding: 20px !important;
+    }
+
+    .case-study-card h3 {
+        font-size: 1rem !important;
+    }
+
+    .case-study-card p {
+        font-size: 0.95rem !important;
     }
 }
 
