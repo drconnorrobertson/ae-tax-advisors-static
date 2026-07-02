@@ -865,9 +865,9 @@
       "category": "IRS Audit and Resolution",
       "path": "/blog-staging/offer-in-compromise-myths-reality/index.html",
       "url": "https://aetaxadvisors.com/blog/offer-in-compromise-myths-reality/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-02"
     },
     {
       "slug": "statute-of-limitations-tax-amendments",
@@ -877,9 +877,9 @@
       "category": "IRS Audit and Resolution",
       "path": "/blog-staging/statute-of-limitations-tax-amendments/index.html",
       "url": "https://aetaxadvisors.com/blog/statute-of-limitations-tax-amendments/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-02"
     },
     {
       "slug": "cost-segregation-basics-rental-properties",
