@@ -889,9 +889,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/cost-segregation-basics-rental-properties/index.html",
       "url": "https://aetaxadvisors.com/blog/cost-segregation-basics-rental-properties/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-03"
     },
     {
       "slug": "str-vs-ltr-tax-treatment-differences",
@@ -901,9 +901,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/str-vs-ltr-tax-treatment-differences/index.html",
       "url": "https://aetaxadvisors.com/blog/str-vs-ltr-tax-treatment-differences/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-03"
     },
     {
       "slug": "irc-469-passive-activity-loss-rules-real-estate",
