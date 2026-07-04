@@ -913,9 +913,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/irc-469-passive-activity-loss-rules-real-estate/index.html",
       "url": "https://aetaxadvisors.com/blog/irc-469-passive-activity-loss-rules-real-estate/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-04"
     },
     {
       "slug": "material-participation-tests-str-owners",
@@ -925,9 +925,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/material-participation-tests-str-owners/index.html",
       "url": "https://aetaxadvisors.com/blog/material-participation-tests-str-owners/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-04"
     },
     {
       "slug": "1031-exchange-planning-timing",
