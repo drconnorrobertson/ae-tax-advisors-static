@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works | AE Tax Advisors</title>
+    <meta name="description" content="From your first call to ongoing advisory -- here is exactly how AE Tax Advisors builds and implements your custom tax strategy in 6 clear steps.">
+    <link rel="canonical" href="https://aetaxadvisors.com/how-it-works/">
+    <meta property="og:title" content="How It Works | AE Tax Advisors">
+    <meta property="og:description" content="From your first call to ongoing advisory -- here is exactly how AE Tax Advisors builds and implements your custom tax strategy.">
+    <meta property="og:url" content="https://aetaxadvisors.com/how-it-works/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AE Tax Advisors">
+    <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="How It Works | AE Tax Advisors">
+    <meta name="twitter:description" content="From your first call to ongoing advisory -- here is exactly how AE Tax Advisors builds and implements your custom tax strategy.">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+    <style>
+        /* ===== VERTICAL TIMELINE ===== */
+        .timeline-section {
+            padding: 80px 24px;
+            background: var(--light-bg);
+        }
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 48px auto 0;
+            padding-left: 60px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 27px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, var(--accent) 0%, rgba(200,169,74,0.2) 100%);
+            border-radius: 3px;
+        }
+        .timeline-step {
+            position: relative;
+            padding: 0 0 48px 40px;
+        }
+        .timeline-step:last-child {
+            padding-bottom: 0;
+        }
+        .timeline-number {
+            position: absolute;
+            left: -33px;
+            top: 0;
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 22px;
+            font-family: var(--font-heading);
+            box-shadow: 0 4px 12px rgba(27,42,74,0.3);
+            z-index: 2;
+            border: 4px solid var(--light-bg);
+        }
+        .timeline-content {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 32px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(0,0,0,0.04);
+            transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+        }
+        .timeline-content:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--accent);
+        }
+        .timeline-content h3 {
+            font-family: var(--font-heading);
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--dark);
+        }
+        .timeline-content p {
+            color: var(--medium);
+            font-size: 15px;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        /* ===== DIFFERENTIATORS SECTION ===== */
+        .differentiators-section {
+            padding: 80px 24px;
+            background: var(--white);
+        }
+        .differentiator-card {
+            background: var(--white);
+            padding: 32px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(0,0,0,0.04);
+            transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+        }
+        .differentiator-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--accent);
+        }
+        .differentiator-card h3 {
+            font-family: var(--font-heading);
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--dark);
+        }
+        .differentiator-card p {
+            color: var(--medium);
+            font-size: 15px;
+            line-height: 1.7;
+            margin: 0;
+        }
+        .differentiator-icon {
+            font-size: 36px;
+            margin-bottom: 16px;
+            line-height: 1;
+        }
+
+        /* ===== HORIZONTAL TIMELINE GRAPHIC ===== */
+        .h-timeline-section {
+            padding: 80px 24px;
+            background: var(--light-bg);
+        }
+        .h-timeline {
+            max-width: var(--max-width);
+            margin: 48px auto 0;
+            display: flex;
+            align-items: flex-start;
+            position: relative;
+        }
+        .h-timeline::before {
+            content: '';
+            position: absolute;
+            top: 16px;
+            left: 24px;
+            right: 24px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent) 0%, rgba(200,169,74,0.3) 100%);
+            border-radius: 3px;
+        }
+        .h-timeline-item {
+            flex: 1;
+            text-align: center;
+            position: relative;
+            padding: 0 8px;
+        }
+        .h-timeline-dot {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border: 4px solid var(--light-bg);
+            border-radius: 50%;
+            margin: 0 auto 16px;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 2px 8px rgba(27,42,74,0.25);
+        }
+        .h-timeline-label {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--accent);
+            margin-bottom: 4px;
+        }
+        .h-timeline-desc {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--dark);
+            line-height: 1.4;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .timeline {
+                padding-left: 50px;
+            }
+            .timeline::before {
+                left: 22px;
+            }
+            .timeline-number {
+                left: -28px;
+                width: 48px;
+                height: 48px;
+                font-size: 18px;
+            }
+            .timeline-content {
+                padding: 24px;
+            }
+            .timeline-content h3 {
+                font-size: 19px;
+            }
+
+            /* Horizontal timeline goes vertical on mobile */
+            .h-timeline {
+                flex-direction: column;
+                align-items: flex-start;
+                padding-left: 40px;
+            }
+            .h-timeline::before {
+                top: 12px;
+                bottom: 12px;
+                left: 14px;
+                right: auto;
+                width: 3px;
+                height: auto;
+            }
+            .h-timeline-item {
+                text-align: left;
+                padding: 0 0 28px 24px;
+                position: relative;
+            }
+            .h-timeline-item:last-child {
+                padding-bottom: 0;
+            }
+            .h-timeline-dot {
+                position: absolute;
+                left: -26px;
+                top: 0;
+                margin: 0;
+                width: 24px;
+                height: 24px;
+                border-width: 3px;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://aetaxadvisors.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "How It Works",
+      "item": "https://aetaxadvisors.com/how-it-works/"
+    }
+  ]
+}
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
+            </a>
+            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+<div class="nav-dropdown">
+                <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax</a>
+<a href="/bios/" class="dropdown-item">Our Team</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+<a href="/real-estate-tax-planning/" class="dropdown-item">Real Estate Tax Planning</a>
+<a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+<a href="/rental-property-tax-planning/" class="dropdown-item">Rental Property Tax Planning</a>
+<a href="/cost-segregation-study/" class="dropdown-item">Cost Segregation Study</a>
+<a href="/real-estate-investor-cpa/" class="dropdown-item">CPA for Real Estate Investors</a>
+<a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+<a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
+<a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+<a href="/crypto-mining-tax-strategy/" class="dropdown-item">Crypto Mining Tax Strategy</a>
+<a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies (Detailed)</a>
+<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+<a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+<a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/cost-segregation-airbnb/" class="nav-link">Cost Segregation <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/cost-segregation-airbnb/" class="dropdown-item">Cost Seg for Airbnb/STR</a>
+<a href="/str-tax-loophole/" class="dropdown-item">STR Tax Loophole</a>
+<a href="/cost-segregation-calculator/" class="dropdown-item">Cost Seg Calculator</a>
+<a href="/bonus-depreciation-rental-property/" class="dropdown-item">Bonus Depreciation</a>
+<a href="/form-3115-cost-segregation/" class="dropdown-item">Form 3115 Catch-Up</a>
+<a href="/str-vs-ltr-tax-treatment/" class="dropdown-item">STR vs LTR Tax Treatment</a>
+</div>
+            </div>
+<a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
+<div class="nav-dropdown">
+                <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
+<a href="/faq/" class="dropdown-item">FAQ</a>
+<a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+<a href="/glossary/" class="dropdown-item">Glossary</a>
+</div>
+            </div>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/contact/" class="nav-link">Contact Us</a>
+                <a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-icon">&#128736;</div>
+            <h1>How It Works</h1>
+            <p>From your first call to ongoing advisory -- here is exactly how AE Tax Advisors builds and implements your custom tax strategy.</p>
+        </div>
+    </section>
+
+    <!-- 6-STEP VERTICAL TIMELINE -->
+    <section class="timeline-section fade-in-section">
+        <div class="container">
+            <h2>Your Path to Tax Savings</h2>
+            <p class="section-desc">A proven 6-step process that has helped hundreds of business owners and real estate investors reduce their tax burden.</p>
+            <div class="timeline">
+
+                <div class="timeline-step">
+                    <div class="timeline-number">1</div>
+                    <div class="timeline-content">
+                        <h3>Free Discovery Call</h3>
+                        <p>30-minute confidential call to understand your current tax situation, business structure, income sources, and goals. We identify the biggest opportunities and determine whether our advisory services are a fit. No obligation, no pressure -- just a straightforward conversation about your taxes.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-number">2</div>
+                    <div class="timeline-content">
+                        <h3>Document Collection</h3>
+                        <p>We request your last 3 years of tax returns, K-1s, W-2s, 1099s, closing statements, and any relevant financial documents. Our secure client portal makes uploading easy. We handle all the organization -- you just send us what you have.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-number">3</div>
+                    <div class="timeline-content">
+                        <h3>3-Year Lookback Analysis</h3>
+                        <p>Our team conducts a comprehensive review of your last 3 years of filed returns. We identify every missed deduction, overlooked credit, improper classification, and optimization opportunity. This analysis typically uncovers $50,000 to $500,000+ in potential savings from prior years alone.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-number">4</div>
+                    <div class="timeline-content">
+                        <h3>Custom Tax Plan</h3>
+                        <p>We build your personalized tax optimization strategy with exact dollar savings for each recommendation. Your plan covers entity structuring, retirement plan design, cost segregation, accountable plans, Augusta Rule, income timing, and every applicable IRC-compliant strategy. Every recommendation includes the specific IRC section and implementation steps.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-number">5</div>
+                    <div class="timeline-content">
+                        <h3>Implementation</h3>
+                        <p>We handle all the paperwork. Amended returns, entity elections, S-Corp filings, cost segregation studies, retirement plan establishment, bookkeeping cleanup -- whatever your plan calls for, we execute it. You approve, we implement. No loose ends.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-number">6</div>
+                    <div class="timeline-content">
+                        <h3>Ongoing Advisory</h3>
+                        <p>Quarterly check-ins to review your financial position and adjust strategy. Mid-year tax projections to avoid surprises. Year-end planning sessions to lock in deductions before December 31. Your dedicated advisor knows your situation and is available when you need them. Our goal: keep your tax bill as close to $0 as legally possible.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT MAKES US DIFFERENT -->
+    <section class="differentiators-section fade-in-section">
+        <div class="container">
+            <h2>What Makes Us Different</h2>
+            <p class="section-desc">Three principles that set AE Tax Advisors apart from every other tax firm.</p>
+            <div class="card-grid-3">
+                <div class="differentiator-card">
+                    <div class="differentiator-icon">&#9889;</div>
+                    <h3>Proactive, Not Reactive</h3>
+                    <p>We build strategy before tax season, not after. Most CPAs look backward. We look forward to create deductions before the year ends.</p>
+                </div>
+                <div class="differentiator-card">
+                    <div class="differentiator-icon">&#9997;</div>
+                    <h3>Full Implementation</h3>
+                    <p>We do not hand you a plan and wish you luck. We handle every filing, election, and amendment ourselves.</p>
+                </div>
+                <div class="differentiator-card">
+                    <div class="differentiator-icon">&#128200;</div>
+                    <h3>Guaranteed ROI</h3>
+                    <p>Our average client saves 20x their advisory fee. If we cannot find savings that exceed your investment, we will tell you upfront.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HORIZONTAL TIMELINE GRAPHIC -->
+    <section class="h-timeline-section fade-in-section">
+        <div class="container">
+            <h2>Your Engagement Timeline</h2>
+            <p class="section-desc">From first contact to ongoing partnership -- here is what to expect and when.</p>
+            <div class="h-timeline">
+                <div class="h-timeline-item">
+                    <div class="h-timeline-dot"></div>
+                    <div class="h-timeline-label">Week 1</div>
+                    <div class="h-timeline-desc">Discovery Call</div>
+                </div>
+                <div class="h-timeline-item">
+                    <div class="h-timeline-dot"></div>
+                    <div class="h-timeline-label">Week 2-3</div>
+                    <div class="h-timeline-desc">Document Collection</div>
+                </div>
+                <div class="h-timeline-item">
+                    <div class="h-timeline-dot"></div>
+                    <div class="h-timeline-label">Week 3-4</div>
+                    <div class="h-timeline-desc">Lookback Analysis</div>
+                </div>
+                <div class="h-timeline-item">
+                    <div class="h-timeline-dot"></div>
+                    <div class="h-timeline-label">Week 4-5</div>
+                    <div class="h-timeline-desc">Tax Plan Delivery</div>
+                </div>
+                <div class="h-timeline-item">
+                    <div class="h-timeline-dot"></div>
+                    <div class="h-timeline-label">Week 5+</div>
+                    <div class="h-timeline-desc">Implementation Begins</div>
+                </div>
+                <div class="h-timeline-item">
+                    <div class="h-timeline-dot"></div>
+                    <div class="h-timeline-label">Ongoing</div>
+                    <div class="h-timeline-desc">Quarterly Advisory</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section fade-in-section">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>The first step is a free 30-minute discovery call. No obligation, no pressure -- just a straightforward conversation about your tax situation and how we can help.</p>
+            <div class="cta-buttons">
+                <a href="/discovery/" class="btn-cta btn-lg">Schedule Your Free Discovery Call</a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col footer-brand">
+                <a href="/" class="footer-logo"><img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="60" style="object-fit: contain;"></a>
+                <p>Advanced tax strategies for business owners and real estate investors.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/company/ae-tax-advisors" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Twitter/X">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="https://www.reddit.com/r/AETaxAdvisors/" target="_blank" rel="noopener" aria-label="Join our community on Reddit">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+                    </a>
+                </div>
+                <div class="footer-trust-badges">
+                    <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
+                    <span class="trust-badge">&#9989; Licensed CPAs</span>
+                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+                <a href="/discovery/">Request a Consultation</a>
+                <a href="/about/">About Us</a>
+                <a href="/bios/">Our Team</a>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="/business-owner-small-business-tax/">Business Tax Services</a>
+                <a href="/real-estate-tax-planning/">Real Estate Tax Planning</a>
+                <a href="/short-term-rental-tax-strategy/">STR Tax Strategy</a>
+                <a href="/rental-property-tax-planning/">Rental Property Tax Planning</a>
+                <a href="/cost-segregation-study/">Cost Segregation Study</a>
+                <a href="/real-estate-investor-cpa/">CPA for RE Investors</a>
+                <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
+                <a href="/tax-compliance-irs-representation/">Tax Compliance &amp; IRS</a>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <a href="/blog/">Blog</a>
+                <a href="/case-studies/">Case Studies</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/guides/">Guides &amp; Whitepapers</a>
+                <a href="/glossary/">Glossary of Tax Terms</a>
+                <a href="/books/">Books</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p class="footer-address">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
+                <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
+                <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+                <h4 style="margin-top:20px">Legal</h4>
+                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/terms-of-service/">Terms of Service</a>
+                <a href="/disclaimer/">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762</p>
+        </div>
+    </footer>
+
+    <section class="sticky-cta">
+        <div class="sticky-inner">
+            <p>Are You Leaving Tax Savings on the Table?</p>
+            <a href="/discovery/" class="btn-cta">Get Your Free Tax Assessment</a>
+        </div>
+    </section>
+
+    <script>
+    (function(){
+        var observer = new IntersectionObserver(function(entries){
+            entries.forEach(function(e){
+                if(e.isIntersecting){
+                    e.target.classList.add('fade-in-visible');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'});
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelectorAll('.fade-in-section').forEach(function(el){ observer.observe(el); });
+        });
+    })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Savings Calculator | AE Tax Advisors</title>
+    <meta name="description" content="Estimate your potential tax savings in under 2 minutes. See what proactive tax planning, cost segregation, S-Corp election, and retirement optimization could mean for your bottom line.">
+    <link rel="canonical" href="https://aetaxadvisors.com/tax-savings-calculator/">
+    <meta property="og:title" content="Tax Savings Calculator | AE Tax Advisors">
+    <meta property="og:description" content="Estimate your potential tax savings in under 2 minutes. See what proactive tax planning could mean for your bottom line.">
+    <meta property="og:url" content="https://aetaxadvisors.com/tax-savings-calculator/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AE Tax Advisors">
+    <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Tax Savings Calculator | AE Tax Advisors">
+    <meta name="twitter:description" content="Estimate your potential tax savings in under 2 minutes. See what proactive tax planning could mean for your bottom line.">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+    <style>
+        .calc-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            align-items: start;
+        }
+
+        .calc-form-panel {
+            background: var(--white, #FFFFFF);
+            border-radius: var(--radius, 12px);
+            padding: 32px;
+            box-shadow: var(--shadow-md, 0 4px 16px rgba(0,0,0,0.08));
+        }
+
+        .calc-form-panel h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary, #1B2A4A);
+            margin: 0 0 8px 0;
+        }
+
+        .calc-form-panel .form-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            color: var(--medium, #666666);
+            margin: 0 0 28px 0;
+            line-height: 1.5;
+        }
+
+        .calc-form-group {
+            margin-bottom: 20px;
+        }
+
+        .calc-form-group label {
+            display: block;
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--primary, #1B2A4A);
+            margin-bottom: 6px;
+        }
+
+        .calc-form-group input,
+        .calc-form-group select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            color: var(--primary, #1B2A4A);
+            background: var(--white, #FFFFFF);
+            transition: var(--transition, 0.3s cubic-bezier(0.4,0,0.2,1));
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+
+        .calc-form-group select {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23666' d='M1.41 0L6 4.58 10.59 0 12 1.41l-6 6-6-6z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            padding-right: 40px;
+        }
+
+        .calc-form-group input:focus,
+        .calc-form-group select:focus {
+            outline: none;
+            border-color: var(--accent, #C8A94A);
+            box-shadow: 0 0 0 3px rgba(200, 169, 74, 0.15);
+        }
+
+        .calc-form-group input::placeholder {
+            color: #9ca3af;
+        }
+
+        .calc-btn-wrap {
+            margin-top: 28px;
+        }
+
+        .calc-btn {
+            display: block;
+            width: 100%;
+            padding: 16px 32px;
+            background: var(--accent, #C8A94A);
+            color: var(--white, #FFFFFF);
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: var(--transition, 0.3s cubic-bezier(0.4,0,0.2,1));
+            text-transform: none;
+            letter-spacing: 0.01em;
+        }
+
+        .calc-btn:hover {
+            background: #b8993a;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(200, 169, 74, 0.35);
+        }
+
+        .calc-results-panel {
+            background: var(--white, #FFFFFF);
+            border-radius: var(--radius, 12px);
+            padding: 32px;
+            box-shadow: var(--shadow-md, 0 4px 16px rgba(0,0,0,0.08));
+            position: sticky;
+            top: 100px;
+        }
+
+        .calc-results-panel h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary, #1B2A4A);
+            margin: 0 0 24px 0;
+        }
+
+        .results-placeholder {
+            text-align: center;
+            padding: 48px 24px;
+            color: var(--medium, #666666);
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .results-placeholder .placeholder-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .results-content {
+            display: none;
+        }
+
+        .results-content.visible {
+            display: block;
+        }
+
+        .results-hero {
+            text-align: center;
+            padding: 28px 20px;
+            background: linear-gradient(135deg, var(--primary, #1B2A4A) 0%, #2a3f6e 100%);
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        .results-hero .hero-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(255,255,255,0.8);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin: 0 0 8px 0;
+        }
+
+        .results-hero .hero-amount {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            font-weight: 800;
+            color: var(--accent, #C8A94A);
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .results-summary-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .summary-card {
+            padding: 16px;
+            background: var(--light-bg, #F8F9FA);
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #e5e7eb;
+        }
+
+        .summary-card .sc-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--medium, #666666);
+            margin: 0 0 6px 0;
+            line-height: 1.3;
+        }
+
+        .summary-card .sc-value {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--primary, #1B2A4A);
+            margin: 0;
+        }
+
+        .results-breakdown {
+            margin-bottom: 24px;
+        }
+
+        .results-breakdown h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--primary, #1B2A4A);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            margin: 0 0 12px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--accent, #C8A94A);
+        }
+
+        .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .breakdown-item:last-child {
+            border-bottom: none;
+        }
+
+        .breakdown-item .bi-label {
+            font-size: 14px;
+            color: var(--primary, #1B2A4A);
+            font-weight: 500;
+        }
+
+        .breakdown-item .bi-value {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--primary, #1B2A4A);
+        }
+
+        .breakdown-item .bi-value.has-savings {
+            color: #16a34a;
+        }
+
+        .results-roi {
+            background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+            border: 1px solid #bbf7d0;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .results-roi .roi-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--medium, #666666);
+            margin: 0 0 6px 0;
+        }
+
+        .results-roi .roi-value {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 800;
+            color: #16a34a;
+            margin: 0 0 4px 0;
+        }
+
+        .results-roi .roi-sub {
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            color: var(--medium, #666666);
+            margin: 0;
+        }
+
+        .calc-disclaimer {
+            max-width: 1200px;
+            margin: 32px auto 0;
+            padding: 0 24px;
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            color: var(--medium, #666666);
+            line-height: 1.6;
+            text-align: center;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .calc-layout {
+                grid-template-columns: 1fr;
+                gap: 24px;
+                padding: 0 16px;
+            }
+
+            .calc-form-panel,
+            .calc-results-panel {
+                padding: 24px;
+            }
+
+            .calc-results-panel {
+                position: static;
+            }
+
+            .results-hero .hero-amount {
+                font-size: 34px;
+            }
+
+            .results-summary-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .summary-card .sc-value {
+                font-size: 20px;
+            }
+
+            .results-roi .roi-value {
+                font-size: 24px;
+            }
+
+            .calc-disclaimer {
+                padding: 0 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
+            </a>
+            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+<div class="nav-dropdown">
+                <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax</a>
+<a href="/bios/" class="dropdown-item">Our Team</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+<a href="/real-estate-tax-planning/" class="dropdown-item">Real Estate Tax Planning</a>
+<a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+<a href="/rental-property-tax-planning/" class="dropdown-item">Rental Property Tax Planning</a>
+<a href="/cost-segregation-study/" class="dropdown-item">Cost Segregation Study</a>
+<a href="/real-estate-investor-cpa/" class="dropdown-item">CPA for Real Estate Investors</a>
+<a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+<a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
+<a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+<a href="/crypto-mining-tax-strategy/" class="dropdown-item">Crypto Mining Tax Strategy</a>
+<a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies (Detailed)</a>
+<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+<a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+<a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/cost-segregation-airbnb/" class="nav-link">Cost Segregation <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/cost-segregation-airbnb/" class="dropdown-item">Cost Seg for Airbnb/STR</a>
+<a href="/str-tax-loophole/" class="dropdown-item">STR Tax Loophole</a>
+<a href="/cost-segregation-calculator/" class="dropdown-item">Cost Seg Calculator</a>
+<a href="/bonus-depreciation-rental-property/" class="dropdown-item">Bonus Depreciation</a>
+<a href="/form-3115-cost-segregation/" class="dropdown-item">Form 3115 Catch-Up</a>
+<a href="/str-vs-ltr-tax-treatment/" class="dropdown-item">STR vs LTR Tax Treatment</a>
+</div>
+            </div>
+<a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
+<div class="nav-dropdown">
+                <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
+<a href="/faq/" class="dropdown-item">FAQ</a>
+<a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+<a href="/glossary/" class="dropdown-item">Glossary</a>
+</div>
+            </div>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/contact/" class="nav-link">Contact Us</a>
+
+                <a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="page-header-icon">&#128200;</div>
+        <h1>Tax Savings Calculator</h1>
+        <p>Estimate your potential tax savings in under 2 minutes. See what proactive tax planning could mean for your bottom line.</p>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="calc-layout">
+            <div class="calc-form-panel">
+                <h2>Your Tax Profile</h2>
+                <p class="form-subtitle">Fill in the details below to estimate your potential savings through proactive tax planning.</p>
+
+                <form id="taxCalcForm" onsubmit="return false;">
+                    <div class="calc-form-group">
+                        <label for="filingStatus">Filing Status</label>
+                        <select id="filingStatus">
+                            <option value="mfj">Married Filing Jointly</option>
+                            <option value="single">Single</option>
+                            <option value="hoh">Head of Household</option>
+                        </select>
+                    </div>
+
+                    <div class="calc-form-group">
+                        <label for="annualIncome">Annual Income ($)</label>
+                        <input type="number" id="annualIncome" placeholder="e.g. 250000" min="0" step="1000">
+                    </div>
+
+                    <div class="calc-form-group">
+                        <label for="entityType">Business Entity Type</label>
+                        <select id="entityType">
+                            <option value="none">None</option>
+                            <option value="schedC">Schedule C (Sole Prop)</option>
+                            <option value="scorp">S-Corp</option>
+                            <option value="ccorp">C-Corp</option>
+                            <option value="partnership">Partnership</option>
+                        </select>
+                    </div>
+
+                    <div class="calc-form-group">
+                        <label for="rentalProperties">Number of Rental Properties</label>
+                        <select id="rentalProperties">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20+</option>
+                        </select>
+                    </div>
+
+                    <div class="calc-form-group">
+                        <label for="propertyValue">Total Rental Property Value ($)</label>
+                        <input type="number" id="propertyValue" placeholder="e.g. 500000" min="0" step="1000">
+                    </div>
+
+                    <div class="calc-form-group">
+                        <label for="retirementContrib">Current Retirement Contributions ($)</label>
+                        <input type="number" id="retirementContrib" placeholder="e.g. 23000" min="0" step="500">
+                    </div>
+
+                    <div class="calc-form-group">
+                        <label for="accountablePlan">Do you have an accountable plan?</label>
+                        <select id="accountablePlan">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                    </div>
+
+                    <div class="calc-form-group">
+                        <label for="augustaRule">Do you use the Augusta Rule?</label>
+                        <select id="augustaRule">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                    </div>
+
+                    <div class="calc-form-group">
+                        <label for="costSegDone">Has a cost segregation study been done?</label>
+                        <select id="costSegDone">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                    </div>
+
+                    <div class="calc-btn-wrap">
+                        <button type="button" class="calc-btn" onclick="calculateSavings()">Calculate My Savings</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="calc-results-panel">
+                <h2>Your Estimated Savings</h2>
+
+                <div id="resultsPlaceholder" class="results-placeholder">
+                    <span class="placeholder-icon">&#128202;</span>
+                    Enter your information and click Calculate to see your estimated tax savings.
+                </div>
+
+                <div id="resultsContent" class="results-content">
+                    <div class="results-hero">
+                        <p class="hero-label">Estimated Annual Tax Savings</p>
+                        <p class="hero-amount" id="heroSavings">$0</p>
+                    </div>
+
+                    <div class="results-summary-cards">
+                        <div class="summary-card">
+                            <p class="sc-label">3-Year Amendment Recovery</p>
+                            <p class="sc-value" id="amendmentRecovery">$0</p>
+                        </div>
+                        <div class="summary-card">
+                            <p class="sc-label">Total First-Year Benefit</p>
+                            <p class="sc-value" id="firstYearBenefit">$0</p>
+                        </div>
+                    </div>
+
+                    <div class="results-breakdown">
+                        <h3>Savings Breakdown</h3>
+                        <div class="breakdown-item">
+                            <span class="bi-label">Cost Segregation Savings</span>
+                            <span class="bi-value" id="bCostSeg">$0</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="bi-label">S-Corp Election Savings</span>
+                            <span class="bi-value" id="bSCorp">$0</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="bi-label">Retirement Optimization</span>
+                            <span class="bi-value" id="bRetirement">$0</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="bi-label">Accountable Plan Savings</span>
+                            <span class="bi-value" id="bAccountable">$0</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="bi-label">Augusta Rule Savings</span>
+                            <span class="bi-value" id="bAugusta">$0</span>
+                        </div>
+                    </div>
+
+                    <div class="results-roi">
+                        <p class="roi-label">ROI on $7,800 Advisory Fee</p>
+                        <p class="roi-value" id="roiValue">0:1</p>
+                        <p class="roi-sub" id="roiPercent">0% return</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="calc-disclaimer">This calculator provides estimates for educational purposes only. Actual tax savings depend on your complete financial situation and may vary. Consult a qualified tax professional before making tax decisions.</p>
+    </section>
+
+    <section class="cta-section fade-in-section">
+        <h2>Ready to See Your Exact Savings?</h2>
+        <p>This calculator provides estimates based on general tax rules. Your actual savings depend on your complete financial picture. Schedule a free consultation with our team to get a personalized analysis.</p>
+        <a href="/discovery/" class="btn-cta btn-lg">Schedule Your Free Consultation</a>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col footer-brand">
+                <a href="/" class="footer-logo"><img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="60" style="object-fit: contain;"></a>
+                <p>Advanced tax strategies for business owners and real estate investors.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/company/ae-tax-advisors" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Twitter/X">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="https://www.reddit.com/r/AETaxAdvisors/" target="_blank" rel="noopener" aria-label="Join our community on Reddit">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+                    </a>
+                </div>
+                <div class="footer-trust-badges">
+                    <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
+                    <span class="trust-badge">&#9989; Licensed CPAs</span>
+                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+                <a href="/discovery/">Request a Consultation</a>
+                <a href="/about/">About Us</a>
+                <a href="/bios/">Our Team</a>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="/business-owner-small-business-tax/">Business Tax Services</a>
+                <a href="/real-estate-tax-planning/">Real Estate Tax Planning</a>
+                <a href="/short-term-rental-tax-strategy/">STR Tax Strategy</a>
+                <a href="/rental-property-tax-planning/">Rental Property Tax Planning</a>
+                <a href="/cost-segregation-study/">Cost Segregation Study</a>
+                <a href="/real-estate-investor-cpa/">CPA for RE Investors</a>
+                <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
+                <a href="/tax-compliance-irs-representation/">Tax Compliance &amp; IRS</a>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <a href="/blog/">Blog</a>
+                <a href="/case-studies/">Case Studies</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/guides/">Guides &amp; Whitepapers</a>
+                <a href="/glossary/">Glossary of Tax Terms</a>
+                <a href="/books/">Books</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p class="footer-address">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
+                <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
+                <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+                <h4 style="margin-top:20px">Legal</h4>
+                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/terms-of-service/">Terms of Service</a>
+                <a href="/disclaimer/">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762</p>
+        </div>
+    </footer>
+
+    <section class="sticky-cta">
+        <div class="sticky-inner">
+            <p>Are You Leaving Tax Savings on the Table?</p>
+            <a href="/discovery/" class="btn-cta">Get Your Free Tax Assessment</a>
+        </div>
+    </section>
+
+    <script>
+    // Scroll fade-in animations
+    (function(){
+        var observer = new IntersectionObserver(function(entries){
+            entries.forEach(function(e){
+                if(e.isIntersecting){
+                    e.target.classList.add('fade-in-visible');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'});
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelectorAll('.fade-in-section').forEach(function(el){ observer.observe(el); });
+        });
+    })();
+
+    function getMarginalRate(income, status) {
+        var brackets;
+        if (status === 'mfj') {
+            brackets = [
+                [23200, 0.10],
+                [94300, 0.12],
+                [201050, 0.22],
+                [383900, 0.24],
+                [487450, 0.32],
+                [731200, 0.35],
+                [Infinity, 0.37]
+            ];
+        } else if (status === 'single') {
+            brackets = [
+                [11600, 0.10],
+                [47150, 0.12],
+                [100525, 0.22],
+                [191950, 0.24],
+                [243725, 0.32],
+                [609350, 0.35],
+                [Infinity, 0.37]
+            ];
+        } else {
+            brackets = [
+                [16550, 0.10],
+                [63100, 0.12],
+                [100500, 0.22],
+                [191950, 0.24],
+                [243700, 0.32],
+                [609350, 0.35],
+                [Infinity, 0.37]
+            ];
+        }
+
+        for (var i = 0; i < brackets.length; i++) {
+            if (income <= brackets[i][0]) {
+                return brackets[i][1];
+            }
+        }
+        return 0.37;
+    }
+
+    function formatCurrency(num) {
+        if (num < 0) num = 0;
+        return '$' + Math.round(num).toLocaleString('en-US');
+    }
+
+    function calculateSavings() {
+        var filingStatus = document.getElementById('filingStatus').value;
+        var income = parseFloat(document.getElementById('annualIncome').value) || 0;
+        var entityType = document.getElementById('entityType').value;
+        var rentalProps = parseInt(document.getElementById('rentalProperties').value) || 0;
+        var propertyValue = parseFloat(document.getElementById('propertyValue').value) || 0;
+        var retirementContrib = parseFloat(document.getElementById('retirementContrib').value) || 0;
+        var hasAccountable = document.getElementById('accountablePlan').value === 'yes';
+        var usesAugusta = document.getElementById('augustaRule').value === 'yes';
+        var costSegDone = document.getElementById('costSegDone').value === 'yes';
+
+        if (income <= 0) {
+            alert('Please enter your annual income to calculate savings.');
+            return;
+        }
+
+        var marginalRate = getMarginalRate(income, filingStatus);
+
+        // Cost Segregation Savings
+        var costSegSavings = 0;
+        if (!costSegDone && rentalProps > 0 && propertyValue > 0) {
+            costSegSavings = propertyValue * 0.35 * marginalRate;
+        }
+
+        // S-Corp Election Savings
+        var sCorpSavings = 0;
+        if (entityType === 'schedC' && income > 80000) {
+            sCorpSavings = (income - 80000) * 0.153;
+        }
+
+        // Retirement Optimization Savings
+        var maxContrib = 69000;
+        var retirementSavings = Math.max(0, (maxContrib - retirementContrib)) * marginalRate;
+        retirementSavings = Math.min(retirementSavings, income * marginalRate);
+
+        // Accountable Plan Savings
+        var accountableSavings = 0;
+        if (!hasAccountable && entityType !== 'none') {
+            accountableSavings = 13000 * marginalRate;
+        }
+
+        // Augusta Rule Savings
+        var augustaSavings = 0;
+        if (!usesAugusta && entityType !== 'none') {
+            augustaSavings = 21000 * marginalRate;
+        }
+
+        // Totals
+        var annualSavings = costSegSavings + sCorpSavings + retirementSavings + accountableSavings + augustaSavings;
+        var amendmentRecovery = (costSegSavings + sCorpSavings + retirementSavings + accountableSavings + augustaSavings) * 2;
+        var firstYearBenefit = annualSavings + amendmentRecovery;
+        var roi = firstYearBenefit / 7800;
+        var roiPercent = Math.round((firstYearBenefit / 7800) * 100);
+
+        // Update the UI
+        document.getElementById('resultsPlaceholder').style.display = 'none';
+        document.getElementById('resultsContent').classList.add('visible');
+
+        document.getElementById('heroSavings').textContent = formatCurrency(annualSavings);
+        document.getElementById('amendmentRecovery').textContent = formatCurrency(amendmentRecovery);
+        document.getElementById('firstYearBenefit').textContent = formatCurrency(firstYearBenefit);
+
+        var bCostSeg = document.getElementById('bCostSeg');
+        bCostSeg.textContent = formatCurrency(costSegSavings);
+        bCostSeg.className = 'bi-value' + (costSegSavings > 0 ? ' has-savings' : '');
+
+        var bSCorp = document.getElementById('bSCorp');
+        bSCorp.textContent = formatCurrency(sCorpSavings);
+        bSCorp.className = 'bi-value' + (sCorpSavings > 0 ? ' has-savings' : '');
+
+        var bRetirement = document.getElementById('bRetirement');
+        bRetirement.textContent = formatCurrency(retirementSavings);
+        bRetirement.className = 'bi-value' + (retirementSavings > 0 ? ' has-savings' : '');
+
+        var bAccountable = document.getElementById('bAccountable');
+        bAccountable.textContent = formatCurrency(accountableSavings);
+        bAccountable.className = 'bi-value' + (accountableSavings > 0 ? ' has-savings' : '');
+
+        var bAugusta = document.getElementById('bAugusta');
+        bAugusta.textContent = formatCurrency(augustaSavings);
+        bAugusta.className = 'bi-value' + (augustaSavings > 0 ? ' has-savings' : '');
+
+        document.getElementById('roiValue').textContent = roi.toFixed(1) + ':1';
+        document.getElementById('roiPercent').textContent = roiPercent.toLocaleString('en-US') + '% return';
+
+        // Scroll to results on mobile
+        if (window.innerWidth <= 768) {
+            document.getElementById('resultsContent').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
+    </script>
+</body>
+</html>
