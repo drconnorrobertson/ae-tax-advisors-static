@@ -937,9 +937,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/1031-exchange-planning-timing/index.html",
       "url": "https://aetaxadvisors.com/blog/1031-exchange-planning-timing/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-05"
     },
     {
       "slug": "bonus-depreciation-obbba-permanent-100-percent",
@@ -949,9 +949,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/bonus-depreciation-obbba-permanent-100-percent/index.html",
       "url": "https://aetaxadvisors.com/blog/bonus-depreciation-obbba-permanent-100-percent/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-05"
     },
     {
       "slug": "how-to-depreciate-furnished-rentals",
