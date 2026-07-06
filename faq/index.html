@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frequently Asked Questions | AE Tax Advisors</title>
-    <meta name="description" content="Answers to common questions about AE Tax Advisors' tax planning, cost segregation, entity structuring, real estate tax strategies, and advisory services for business owners and real estate investors.">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/style.css" as="style">
+    <link rel="preload" href="/assets/ae-tax-logo.png" as="image">
     <link rel="stylesheet" href="/assets/style.css">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="alternate" hreflang="en" href="https://aetaxadvisors.com/faq/">
+    <title>Frequently Asked Questions | AE Tax Advisors</title>
+    <meta name="description" content="Answers to common questions about AE Tax Advisors' tax planning, cost segregation, entity structuring, real estate tax strategies, and advisory services for business owners and real estate investors.">
+    <link rel="canonical" href="https://aetaxadvisors.com/faq/">
+    <meta property="og:title" content="Frequently Asked Questions | AE Tax Advisors">
+    <meta property="og:description" content="Answers to common questions about AE Tax Advisors' tax planning, cost segregation, entity structuring, real estate tax strategies, and advisory services.">
+    <meta property="og:url" content="https://aetaxadvisors.com/faq/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AE Tax Advisors">
+    <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Frequently Asked Questions | AE Tax Advisors">
+    <meta name="twitter:description" content="Answers to common questions about AE Tax Advisors' tax planning, cost segregation, entity structuring, real estate tax strategies, and advisory services.">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -658,569 +671,827 @@
         ]
     }
     </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://aetaxadvisors.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FAQ",
+      "item": "https://aetaxadvisors.com/faq/"
+    }
+  ]
+}
+    </script>
     <style>
-        :root {
-            --primary: #1a3a5c;
-            --secondary: #c9a84c;
-            --text: #333;
-            --bg: #f8f8f8;
-            --white: #fff;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { color: var(--text); background: var(--bg); }
-        .header {
-            background: var(--primary);
-            color: var(--white);
-            padding: 20px 40px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .header h1 { font-size: 24px; color: var(--secondary); }
-        .header nav a { color: var(--white); text-decoration: none; margin-left: 20px; font-size: 14px; }
-        .hero {
-            background: linear-gradient(135deg, var(--primary), #2a5a8c);
+        /* FAQ page-specific styles */
+        .faq-hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #2a4a6e 100%);
             color: var(--white);
             text-align: center;
-            padding: 60px 20px;
+            padding: 80px 24px 60px;
         }
-        .hero h1 { font-size: 42px; margin-bottom: 15px; }
-        .hero p { font-size: 18px; opacity: 0.9; max-width: 700px; margin: 0 auto; }
-        .faq-section {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
+        .faq-hero h1 {
+            font-family: var(--font-heading);
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 16px;
         }
-        .faq-section h2 {
-            color: var(--primary);
-            font-size: 28px;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid var(--secondary);
-        }
-        .faq-item {
-            background: var(--white);
-            border-radius: 8px;
-            padding: 25px 30px;
-            margin-bottom: 15px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        }
-        .faq-item h3 {
-            color: var(--primary);
+        .faq-hero p {
             font-size: 18px;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+        }
+        .faq-category {
+            margin-bottom: 48px;
+        }
+        .faq-category-title {
+            color: var(--primary);
+            font-family: var(--font-heading);
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid var(--accent);
+        }
+        .faq-accordion {
+            background: var(--white);
+            border-radius: var(--radius);
             margin-bottom: 12px;
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.06);
+            transition: box-shadow var(--transition);
         }
-        .faq-item p {
-            color: #555;
-            line-height: 1.7;
+        .faq-accordion:hover {
+            box-shadow: var(--shadow-md);
+        }
+        .faq-question {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 24px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-family: var(--font-body);
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--dark);
+            line-height: 1.5;
+            gap: 16px;
+            transition: background var(--transition);
+        }
+        .faq-question:hover {
+            background: var(--light-bg);
+        }
+        .faq-question .faq-icon {
+            flex-shrink: 0;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: var(--light-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: var(--accent);
+            transition: transform var(--transition), background var(--transition);
+        }
+        .faq-accordion.active .faq-question .faq-icon {
+            transform: rotate(45deg);
+            background: var(--accent);
+            color: var(--white);
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out, padding 0.3s ease-out;
+        }
+        .faq-answer-inner {
+            padding: 0 24px 24px;
+            color: var(--medium);
             font-size: 15px;
+            line-height: 1.8;
         }
-        .cta-section {
-            background: var(--primary);
+        .faq-accordion.active .faq-answer {
+            max-height: 800px;
+            transition: max-height 0.5s ease-in;
+        }
+        .faq-cta {
+            background: linear-gradient(135deg, var(--primary) 0%, #2a4a6e 100%);
             color: var(--white);
             text-align: center;
-            padding: 60px 20px;
-            margin-top: 60px;
+            padding: 80px 24px;
         }
-        .cta-section h2 { font-size: 32px; margin-bottom: 15px; color: var(--secondary); }
-        .cta-section p { font-size: 16px; margin-bottom: 25px; opacity: 0.9; }
-        .cta-button {
-            display: inline-block;
-            background: var(--secondary);
-            color: var(--primary);
-            padding: 15px 40px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            font-size: 16px;
+        .faq-cta h2 {
+            font-family: var(--font-heading);
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--accent);
         }
-        .footer {
-            background: #111;
-            color: #aaa;
-            text-align: center;
-            padding: 30px;
-            font-size: 13px;
+        .faq-cta p {
+            font-size: 17px;
+            opacity: 0.9;
+            margin-bottom: 28px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media (max-width: 768px) {
+            .faq-hero { padding: 60px 20px 40px; }
+            .faq-hero h1 { font-size: 30px; }
+            .faq-hero p { font-size: 16px; }
+            .faq-category-title { font-size: 22px; }
+            .faq-question { font-size: 15px; padding: 16px 20px; }
+            .faq-answer-inner { padding: 0 20px 20px; font-size: 14px; }
+            .faq-cta h2 { font-size: 26px; }
+            .faq-cta p { font-size: 15px; }
         }
     </style>
 </head>
 <body>
-    <header class="header">
-        <h1>AE Tax Advisors</h1>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/services">Services</a>
-            <a href="/faq">FAQ</a>
-            <a href="/contact">Contact</a>
-        </nav>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
+            </a>
+            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+<div class="nav-dropdown">
+                <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax</a>
+<a href="/bios/" class="dropdown-item">Our Team</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+<a href="/real-estate-tax-planning/" class="dropdown-item">Real Estate Tax Planning</a>
+<a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+<a href="/rental-property-tax-planning/" class="dropdown-item">Rental Property Tax Planning</a>
+<a href="/cost-segregation-study/" class="dropdown-item">Cost Segregation Study</a>
+<a href="/real-estate-investor-cpa/" class="dropdown-item">CPA for Real Estate Investors</a>
+<a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+<a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
+<a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+<a href="/crypto-mining-tax-strategy/" class="dropdown-item">Crypto Mining Tax Strategy</a>
+<a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies (Detailed)</a>
+<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+<a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+<a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/cost-segregation-airbnb/" class="nav-link">Cost Segregation <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/cost-segregation-airbnb/" class="dropdown-item">Cost Seg for Airbnb/STR</a>
+<a href="/str-tax-loophole/" class="dropdown-item">STR Tax Loophole</a>
+<a href="/cost-segregation-calculator/" class="dropdown-item">Cost Seg Calculator</a>
+<a href="/bonus-depreciation-rental-property/" class="dropdown-item">Bonus Depreciation</a>
+<a href="/form-3115-cost-segregation/" class="dropdown-item">Form 3115 Catch-Up</a>
+<a href="/str-vs-ltr-tax-treatment/" class="dropdown-item">STR vs LTR Tax Treatment</a>
+</div>
+            </div>
+<a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
+<div class="nav-dropdown">
+                <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
+<a href="/faq/" class="dropdown-item active">FAQ</a>
+<a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+<a href="/glossary/" class="dropdown-item">Glossary</a>
+</div>
+            </div>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/contact/" class="nav-link">Contact Us</a>
+
+                <a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
+            </nav>
+        </div>
     </header>
 
-    <section class="hero">
+    <main>
+
+    <section class="faq-hero">
         <h1>Frequently Asked Questions</h1>
         <p>Everything you need to know about working with AE Tax Advisors. If your question is not answered here, call us at (631) 614-5762.</p>
     </section>
 
-    <div class="faq-section">
-        <h2>About AE Tax Advisors</h2>
+    <div class="faq-container">
 
-        <div class="faq-item">
-            <h3>What is AE Tax Advisors?</h3>
-            <p>AE Tax Advisors is a strategic tax advisory firm based in Billings, Montana that specializes in serving business owners and real estate investors. The firm provides proactive tax planning, cost segregation studies, entity structuring, and ongoing advisory services designed to minimize tax liability through legitimate, IRC-cited strategies. AE Tax Advisors operates from 935 Lake Elmo Dr, Suite B, Billings, MT 59105.</p>
+        <!-- About AE Tax Advisors -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">About AE Tax Advisors</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is AE Tax Advisors?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">AE Tax Advisors is a strategic tax advisory firm based in Billings, Montana that specializes in serving business owners and real estate investors. The firm provides proactive tax planning, cost segregation studies, entity structuring, and ongoing advisory services designed to minimize tax liability through legitimate, IRC-cited strategies. AE Tax Advisors operates from 935 Lake Elmo Dr, Suite B, Billings, MT 59105.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Who leads the AE Tax Advisors team?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Christina Nortman leads the AE Tax Advisors team. The firm is staffed by experienced tax professionals who specialize in working with business owners and real estate investors. Each client is assigned a dedicated advisor who understands their specific tax situation and goals.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Where is AE Tax Advisors located?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">AE Tax Advisors is located at 935 Lake Elmo Dr, Suite B, Billings, MT 59105. While the firm is based in Montana, it serves clients nationwide. Most client interactions are conducted virtually through video calls, secure document portals, and phone consultations, making location irrelevant for the quality of service provided.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How do I contact AE Tax Advisors?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">You can reach AE Tax Advisors by phone at (631) 614-5762 or by email at team@aetaxadvisors.com. The office is located at 935 Lake Elmo Dr, Suite B, Billings, MT 59105. You can also schedule a free discovery call directly through the website. The team typically responds to inquiries within one business day.</div></div>
+            </div>
         </div>
 
-        <div class="faq-item">
-            <h3>Who leads the AE Tax Advisors team?</h3>
-            <p>Christina Nortman leads the AE Tax Advisors team. The firm is staffed by experienced tax professionals who specialize in working with business owners and real estate investors. Each client is assigned a dedicated advisor who understands their specific tax situation and goals.</p>
+        <!-- Services -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">Services</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What services does AE Tax Advisors provide?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">AE Tax Advisors provides comprehensive tax advisory services including strategic tax planning, cost segregation studies, entity structuring (S-Corp elections, LLCs, C-Corps), 3-Year Tax Lookback reviews, amended return preparation, retirement plan optimization, real estate tax strategy, bookkeeping, and ongoing quarterly advisory check-ins. Every strategy is grounded in specific IRC sections and designed to withstand IRS scrutiny.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is a 3-Year Tax Lookback?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">A 3-Year Tax Lookback is AE Tax Advisors' proprietary review process where the team examines your last three years of filed tax returns to identify missed deductions, incorrect entity elections, improperly classified income, overlooked credits, and other errors. This review often uncovers tens of thousands of dollars in potential savings through amended returns and corrective filings. It forms the foundation of every new client engagement.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is a cost segregation study?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">A cost segregation study is an engineering-based analysis that reclassifies components of a building from the standard 27.5-year or 39-year depreciation schedule into shorter recovery periods of 5, 7, or 15 years. This accelerates depreciation deductions, significantly reducing taxable income in the early years of property ownership. Under current law with 100% bonus depreciation, qualifying components can be fully deducted in the first year. AE Tax produces audit-ready cost segregation studies with detailed engineering reports.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is bonus depreciation?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Bonus depreciation allows taxpayers to deduct a large percentage of the cost of eligible assets in the first year they are placed in service, rather than depreciating them over their full recovery period. Under the One Big Beautiful Bill Act (OBBBA), 100% bonus depreciation has been made permanent, meaning qualifying property can be fully deducted in year one. This is a powerful tool when combined with cost segregation studies to maximize first-year deductions on real estate investments.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How does S-Corp election save taxes?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">An S-Corp election allows business owners to split their income between reasonable compensation (subject to payroll taxes) and distributions (not subject to self-employment tax). For a business owner earning $300,000, setting reasonable compensation at $120,000 means $180,000 avoids the 15.3% SE tax, saving over $27,000 annually. AE Tax performs formal reasonable compensation analysis and handles the entire S-Corp election process including Form 2553 filing.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the Qualified Business Income (QBI) deduction?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The Qualified Business Income (QBI) deduction under IRC section 199A allows eligible business owners to deduct up to 20% of their qualified business income from pass-through entities. This deduction is subject to income phase-outs for specified service trades or businesses (SSTBs) and W-2 wage and property limitations for higher-income taxpayers. AE Tax Advisors structures entities and income to maximize the QBI deduction while staying compliant with all IRC requirements.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Can AE Tax help with retirement plan setup?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Yes. AE Tax Advisors helps business owners select and implement the optimal retirement plan structure for their situation, whether that is a Solo 401(k), SEP-IRA, SIMPLE IRA, or defined benefit plan. A properly structured retirement plan can shelter $60,000 to $300,000+ annually from taxation depending on the plan type and the owner's age and income. The team coordinates with third-party administrators and custodians to handle the full implementation.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the difference between tax preparation and tax planning?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Tax preparation is the backward-looking process of filing your tax return after the year ends. Tax planning is the forward-looking, proactive process of structuring your business, income, and investments throughout the year to minimize tax liability before it accrues. AE Tax Advisors focuses on tax planning -- identifying strategies, implementing entity changes, accelerating deductions, and timing income and expenses to reduce your effective tax rate. A good tax plan saves multiples of what a good tax return ever could.</div></div>
+            </div>
         </div>
 
-        <div class="faq-item">
-            <h3>Where is AE Tax Advisors located?</h3>
-            <p>AE Tax Advisors is located at 935 Lake Elmo Dr, Suite B, Billings, MT 59105. While the firm is based in Montana, it serves clients nationwide. Most client interactions are conducted virtually through video calls, secure document portals, and phone consultations, making location irrelevant for the quality of service provided.</p>
+        <!-- Pricing and Engagement -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">Pricing and Engagement</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How much does AE Tax Advisors charge?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The annual advisory engagement fee is $7,800 per year. This covers the complete 3-Year Tax Lookback, custom strategic tax plan with IRC-cited strategies, quarterly check-ins, mid-year projections, direct advisor access, and ongoing tax law monitoring. Cost segregation studies are priced separately based on property complexity. Most clients see a 3x to 10x return on the advisory fee in the first year alone.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How do I get started with AE Tax Advisors?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Getting started begins with a free discovery call where the team learns about your business, income sources, real estate portfolio, and tax goals. If AE Tax is a good fit, you will receive a non-disclosure agreement followed by a formal engagement letter. Once signed, the onboarding process begins with document collection and your 3-Year Tax Lookback. Call (631) 614-5762 or email team@aetaxadvisors.com to schedule your discovery call.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How often will I hear from my advisor?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">AE Tax Advisors operates on a quarterly check-in model. You will have a scheduled strategy session every quarter to review your financials, assess progress on implemented strategies, adjust projections, and address any new developments. Between quarterly calls, your advisor is available by email and phone for questions. Mid-year projections ensure you are on track and allow time to make adjustments before year-end deadlines.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is included in the $7,800 annual advisory fee?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The $7,800 annual advisory fee covers a comprehensive suite of services: the 3-Year Tax Lookback reviewing your last three years of filed returns for missed opportunities, a custom strategic tax plan with IRC-cited strategies tailored to your specific situation, quarterly check-in calls with your dedicated advisor, mid-year tax projections and estimated payment calculations, direct advisor access by email and phone between scheduled calls, ongoing monitoring of tax law changes that affect your situation, and implementation support for entity elections, retirement plan setup, and other strategic recommendations. Cost segregation studies are priced separately based on property type and complexity. The fee represents a fraction of the tax savings most clients realize in the first year alone.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Do you offer payment plans for the advisory fee?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Yes. AE Tax Advisors offers flexible payment options for the annual advisory engagement fee. The firm understands that a $7,800 annual investment, while highly cost-effective relative to the tax savings it generates, may benefit from structured payment terms for some clients. Details on available payment plans are discussed during the discovery call and are outlined in the engagement letter. The team works with each client to find an arrangement that fits their cash flow while ensuring the advisory work can begin promptly.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the typical ROI on the advisory engagement?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Most AE Tax Advisors clients see a return on investment of 3x to 10x or more on the advisory fee in the first year alone. For example, a business owner paying the $7,800 annual fee who saves $40,000 in taxes through entity restructuring, cost segregation, and retirement plan optimization realizes approximately a 5x ROI. First-year savings are often the largest because the 3-Year Tax Lookback identifies both current-year and prior-year opportunities, including amended return refunds and catch-up depreciation via Form 3115. The firm provides estimated savings projections before engagement so prospective clients can evaluate the expected return before committing.</div></div>
+            </div>
         </div>
 
-        <div class="faq-item">
-            <h3>How do I contact AE Tax Advisors?</h3>
-            <p>You can reach AE Tax Advisors by phone at (631) 614-5762 or by email at team@aetaxadvisors.com. The office is located at 935 Lake Elmo Dr, Suite B, Billings, MT 59105. You can also schedule a free discovery call directly through the website. The team typically responds to inquiries within one business day.</p>
+        <!-- Who We Serve -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">Who We Serve</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What types of clients does AE Tax Advisors work with?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">AE Tax Advisors works exclusively with business owners and real estate investors. This includes owners of LLCs, S-Corps, C-Corps, sole proprietorships, and partnerships, as well as investors who own rental properties including short-term rentals (STRs) and long-term rentals (LTRs). The firm does not provide services for individual W-2 employees without business or investment income. Ideal clients have annual gross income above $200,000 and are looking for proactive, strategic tax planning rather than simple return preparation.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Do you work with clients outside of Montana?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Yes. AE Tax Advisors serves clients in all 50 states. The firm handles multi-state tax compliance, state-specific entity elections, and state tax planning as part of the advisory engagement. Most client interactions are conducted virtually, so geographic location does not limit the firm's ability to provide comprehensive tax advisory services. The team has deep experience with state-specific issues including Pass-Through Entity Tax elections, state conformity to federal depreciation rules, and nonresident filing requirements.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What if I already have a CPA?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Many AE Tax clients retain their existing CPA for return preparation while using AE Tax for strategic tax planning and advisory services. The two roles are complementary -- your CPA handles compliance and filing while AE Tax identifies and implements the strategies that reduce your tax liability. AE Tax can also serve as your full-service provider handling both planning and preparation. The firm regularly coordinates with clients' existing CPAs to ensure strategies are properly implemented on the filed returns.</div></div>
+            </div>
         </div>
+
+        <!-- Cost Segregation -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">Cost Segregation</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What types of building components qualify for cost segregation reclassification?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Cost segregation reclassifies building components into shorter MACRS recovery periods based on their function and attachment to the structure. Five-year property includes carpeting, appliances, decorative fixtures, and certain electrical outlets dedicated to equipment. Seven-year property covers office furniture, specialized equipment, and certain telecommunications infrastructure. Fifteen-year property encompasses landscaping, parking lots, fencing, sidewalks, and site improvements. The IRS Cost Segregation Audit Technique Guide provides detailed guidance on how components are classified, and AE Tax follows this framework to ensure every reclassification is defensible under audit.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the difference between cost segregation for short-term rentals vs. long-term rentals?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The primary difference lies in the base recovery period used before reclassification. Short-term rentals (STRs) with an average rental period of 7 days or less are classified as nonresidential real property under IRC section 168(e)(2)(A)(ii) and use a 39-year base recovery period. Long-term rentals (LTRs) are classified as residential rental property and use a 27.5-year base recovery period. Both property types benefit significantly from cost segregation because the reclassified components -- 5-year, 7-year, and 15-year property -- are the same regardless of the base period. With 100% bonus depreciation now permanent under the OBBBA, the first-year deduction impact is substantial for both STR and LTR investors.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Is there a minimum property value for a cost segregation study to be worthwhile?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">As a general guideline, cost segregation studies are most cost-effective for properties with a purchase price of $200,000 or more, but the analysis depends on several factors including property type, age, and the extent of improvements. The return on investment for a properly conducted cost segregation study is typically 10:1 or better, meaning for every dollar spent on the study, the client receives ten dollars or more in tax savings. AE Tax Advisors evaluates each property individually during the advisory engagement and will only recommend a study when the projected tax benefit clearly justifies the cost. For properties below the $200,000 threshold, alternative depreciation strategies may still be available.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the One Big Beautiful Bill Act (OBBBA) and how does it affect bonus depreciation?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The One Big Beautiful Bill Act (OBBBA) is landmark legislation that made 100% bonus depreciation permanent, reversing the phase-down schedule originally enacted under the Tax Cuts and Jobs Act (TCJA). Under the TCJA, bonus depreciation was set to decline from 100% to 80%, 60%, 40%, 20%, and eventually 0% over a multi-year period. The OBBBA eliminated this phase-down entirely, ensuring that all qualifying property placed in service receives a full 100% first-year deduction indefinitely. This is a transformative development for real estate investors and business owners who rely on accelerated depreciation as a core tax strategy, and it makes cost segregation studies more valuable than ever.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Can I do a cost segregation study on a property I purchased years ago?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Yes. You do not need to have purchased the property recently to benefit from a cost segregation study. For properties already in service, AE Tax files Form 3115 (Application for Change in Accounting Method) to claim the accumulated catch-up depreciation in the current tax year as a section 481(a) adjustment. This means you do not need to amend prior-year returns. The entire benefit of the missed depreciation is captured in a single year, which can result in a very large deduction. This is one of the most powerful strategies AE Tax implements for clients who have owned rental or commercial property for years without ever having a cost segregation study performed.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Will a cost segregation study trigger an IRS audit?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">There is no evidence that a properly conducted cost segregation study increases your risk of an IRS audit. In fact, the IRS maintains its own Cost Segregation Audit Technique Guide, which demonstrates that cost segregation is a recognized and legitimate tax planning strategy. AE Tax Advisors produces audit-ready studies with engineering-based analysis, component-level detail, photographic documentation, and supporting schedules that conform to IRS standards. The key to avoiding issues is ensuring the study is performed by qualified professionals using accepted methodologies, which is exactly what AE Tax delivers. Clients can proceed with confidence that their cost segregation deductions are fully defensible.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How much does a cost segregation study cost?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Cost segregation study pricing varies based on property type, size, and complexity, but most studies for residential rental and commercial properties range from $2,500 to $7,500. The return on investment is typically 10:1 or better, meaning the tax savings generated far exceed the cost of the study. AE Tax Advisors provides a cost estimate during the advisory engagement and will only recommend a study when the projected benefit clearly justifies the expense. Call (631) 614-5762 or visit our contact page to get a quote for your property.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is Form 3115?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Form 3115, Application for Change in Accounting Method, is the IRS form used to switch your depreciation method on a property that has already been placed in service. When a cost segregation study is performed on an existing property, Form 3115 allows you to claim all of the previously missed accelerated depreciation in a single year as a section 481(a) adjustment -- without amending prior returns. This makes it one of the most powerful tools in real estate tax planning. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How long does a cost segregation study take?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">A typical cost segregation study takes 2 to 4 weeks from start to finish, depending on property complexity and how quickly documentation is provided. The process includes an initial property assessment, detailed engineering analysis, component classification, and preparation of the final audit-ready report with supporting schedules. AE Tax Advisors manages the entire process and keeps clients informed at each stage. Call (631) 614-5762 or visit our contact page to get started.</div></div>
+            </div>
+        </div>
+
+        <!-- Entity Structure -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">Entity Structure</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>S-Corp vs LLC -- which is better for tax purposes?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">An LLC is a legal entity type that provides liability protection, while an S-Corp is a tax election that determines how your business income is taxed. Many business owners operate an LLC that elects S-Corp taxation to get the best of both worlds -- liability protection plus self-employment tax savings on distributions above reasonable compensation. The right choice depends on your net income level, state rules, and business structure. AE Tax Advisors evaluates every client's situation to recommend the optimal entity and tax election. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What are the tax benefits of an S-Corp?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The primary tax benefit of an S-Corp is the ability to split business income between reasonable compensation (subject to payroll taxes) and distributions (not subject to self-employment tax). For business owners with net income above approximately $80,000, this can save $10,000 to $40,000 or more annually in self-employment taxes. S-Corps also provide a clean framework for retirement plan contributions, accountable plans, and health insurance deductions. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>When should I convert my LLC to an S-Corp?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The general rule of thumb is that an S-Corp election becomes beneficial when your business consistently earns net profit above $80,000 to $100,000 per year. At that level, the self-employment tax savings from splitting income between salary and distributions exceed the added compliance costs of running payroll and filing an S-Corp return. AE Tax Advisors performs a breakeven analysis for each client to identify the optimal timing. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is reasonable compensation for S-Corp owners?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Reasonable compensation is the salary an S-Corp owner-employee must pay themselves for the services they perform for the business. The IRS requires that this amount be based on what comparable businesses pay for similar work, taking into account the owner's duties, training, experience, and industry standards. Setting compensation too low is a common audit trigger, as the IRS views it as an attempt to avoid payroll taxes. AE Tax Advisors performs a formal reasonable compensation analysis using Bureau of Labor Statistics data, industry salary surveys, and comparable company benchmarks to determine a defensible salary that maximizes tax savings while meeting IRS requirements.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Can I elect S-Corp status retroactively?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">In many cases, yes. Late S-Corp election relief is available under Revenue Procedure 2013-30, which allows the IRS to accept elections filed within 3 years and 75 days of the intended effective date, provided reasonable cause exists and the entity has been operating consistently as an S-Corp. AE Tax Advisors regularly files late elections and has a strong track record of obtaining IRS approval. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>S-Corp vs C-Corp -- which is better?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">S-Corps pass income through to owners and avoid double taxation, making them ideal for most small to mid-size businesses. C-Corps pay corporate tax at a flat 21% rate and are subject to double taxation on dividends, but they offer advantages for businesses planning to retain significant earnings, raise venture capital, or take advantage of certain fringe benefits. AE Tax Advisors models both scenarios for clients to determine which structure produces the lowest overall tax liability based on their specific income and goals. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What are the QBI deduction phase-out thresholds for 2026?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">For specified service trades or businesses (SSTBs) -- including law, medicine, consulting, accounting, and financial services -- the Qualified Business Income deduction under IRC section 199A begins to phase out at $191,950 of taxable income for single filers and $383,900 for married filing jointly. The deduction is fully eliminated at $241,950 (single) and $483,900 (MFJ). Non-SSTB businesses do not face these phase-outs, though they are subject to W-2 wage and property basis limitations at higher income levels. AE Tax Advisors helps clients implement strategies to manage income levels relative to these thresholds, including entity restructuring, retirement plan contributions, and income timing techniques.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How much does S-Corp payroll cost to set up and maintain?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Annual payroll costs for an S-Corp owner-employee typically range from $500 to $2,000 per year depending on the payroll provider, state requirements, and whether the business has additional employees. This cost is minimal compared to the self-employment tax savings an S-Corp election generates, which commonly range from $15,000 to $40,000 or more annually for business owners with net income above $150,000. AE Tax Advisors coordinates the entire payroll setup process as part of the advisory engagement, including provider selection, state registration, and ongoing quarterly payroll tax filing to ensure full compliance.</div></div>
+            </div>
+        </div>
+
+        <!-- Real Estate Tax Strategies -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">Real Estate Tax Strategies</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How many hours do I need to qualify for Real Estate Professional Status (REPS)?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">To qualify for Real Estate Professional Status under IRC section 469(c)(7), you must meet two tests. First, you must spend more than 750 hours during the tax year in real property trades or businesses in which you materially participate. Second, you must spend more time in real estate activities than in any other occupation. Both tests must be satisfied. Qualifying hours include property management, maintenance, tenant screening, lease negotiations, property inspections, bookkeeping for rental properties, and supervising contractors. AE Tax Advisors recommends maintaining detailed contemporaneous time logs documenting specific activities, dates, and hours to substantiate your REPS claim in the event of an IRS examination.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What are the key STR tax court cases I should know about?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Several important cases and IRS guidance documents shape the tax treatment of short-term rentals. Razavi v. Commissioner is significant for its analysis of how the average rental period is calculated for STR classification under IRC section 168(e)(2)(A)(ii). Chief Counsel Advice 202151005 provides the IRS position on STR classification and when a property qualifies for nonresidential treatment. These authorities establish that the average rental period -- not the intent of the owner -- determines whether a property is classified as residential or nonresidential. AE Tax Advisors stays current on all relevant case law and IRS guidance to ensure every STR tax strategy is built on solid legal footing, and the firm emphasizes the importance of proper contemporaneous records to support material participation claims.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What are the 1031 exchange deadlines I need to know?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">A 1031 like-kind exchange under IRC section 1031 has two critical and strictly enforced deadlines. The first is the 45-day identification period: you must identify potential replacement properties in writing within 45 calendar days of closing on the relinquished property. The second is the 180-day exchange period: you must close on the replacement property within 180 calendar days of the sale. Both deadlines are measured in calendar days, not business days, and there are no extensions except in federally declared disaster areas. Missing either deadline disqualifies the entire exchange, resulting in full recognition of gain. AE Tax Advisors coordinates with qualified intermediaries and advises clients on identification strategies to ensure compliance with these time-sensitive requirements.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Can I convert a primary residence to an STR and do cost segregation?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Yes, you can convert a primary residence to a short-term rental and then perform a cost segregation study on the property. However, several important rules apply. You must account for personal use days versus rental days under IRC section 280A, which limits deductions when a property is used personally for more than the greater of 14 days or 10% of rental days. For maximum tax benefit, the property should be converted fully to rental use with no personal use. Additionally, the depreciable basis is the lower of your adjusted cost basis or the fair market value at the time of conversion. AE Tax Advisors evaluates these factors for each client and determines the optimal timing and structure for conversion to maximize the cost segregation benefit.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the material participation safe harbor for short-term rentals?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Material participation in a short-term rental activity can be established through several tests under IRC section 469 and the related Treasury Regulations. The most commonly used safe harbors for STR owners are the 500-hour test (you participate in the activity for 500 or more hours during the tax year) and the 100-hour/most-participation test (you participate for at least 100 hours and no other individual participates more than you). Meeting material participation is critical because it determines whether rental losses are passive or nonpassive, which affects whether they can offset other income. AE Tax Advisors recommends maintaining detailed time logs with specific activities documented -- including guest communication, cleaning coordination, property maintenance, marketing, and financial management -- to substantiate participation hours.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How do I reduce taxes on rental income?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The most effective strategies for reducing taxes on rental income include cost segregation studies to accelerate depreciation, properly structuring entities to maximize deductions, qualifying for Real Estate Professional Status (REPS) to unlock passive loss deductions against other income, and leveraging 1031 exchanges to defer capital gains. AE Tax Advisors builds a customized real estate tax plan for every investor client. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the short-term rental tax loophole?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The so-called STR loophole allows short-term rental owners who materially participate in their rental activity to use accelerated depreciation from a cost segregation study to offset W-2 or business income -- not just rental income. Because STRs with an average rental period of 7 days or less are classified as nonresidential property, they fall outside the standard passive activity rules when material participation is met. This combination of cost segregation plus material participation can generate large paper losses that reduce your overall tax bill significantly. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How does the Augusta Rule work?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The Augusta Rule, under IRC section 280A(g), allows you to rent your personal residence for up to 14 days per year and exclude all of the rental income from your tax return. For business owners, this means your business can rent your home for board meetings, team retreats, or planning sessions, pay you fair market rent, and deduct the payment as a business expense -- while you receive the income tax-free. Proper documentation including a rental agreement, fair market value analysis, and meeting minutes is essential. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is a 1031 exchange?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">A 1031 exchange, named after IRC section 1031, allows you to defer capital gains taxes when you sell an investment property by reinvesting the proceeds into a like-kind replacement property. The exchange must be completed through a qualified intermediary, and strict deadlines apply -- 45 days to identify replacement properties and 180 days to close. When executed properly, a 1031 exchange lets you grow your real estate portfolio without paying taxes on each sale. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Can I deduct Airbnb expenses?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Yes. If you operate an Airbnb or other short-term rental as a business, you can deduct ordinary and necessary expenses including cleaning fees, supplies, furniture, repairs, insurance, property management fees, utilities, and platform fees. You can also deduct depreciation on the property and any improvements. Proper record-keeping and separation of personal versus rental use are essential for maximizing and defending these deductions. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Is bonus depreciation still available?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Yes. Under the One Big Beautiful Bill Act (OBBBA), 100% bonus depreciation has been made permanent. This means qualifying property placed in service in any year can be fully deducted in the first year, with no phase-down. This is a major benefit for real estate investors who combine bonus depreciation with cost segregation studies to generate substantial first-year deductions. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How do passive activity loss rules work?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Under IRC section 469, losses from passive activities -- including most rental properties -- can generally only offset passive income, not active income like wages or business profits. However, exceptions exist for real estate professionals (REPS), short-term rental owners who materially participate, and taxpayers with adjusted gross income under $100,000 who may deduct up to $25,000 in rental losses. AE Tax Advisors analyzes each client's situation to determine the best path for unlocking passive losses. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+        </div>
+
+        <!-- Retirement and Benefits -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">Retirement and Benefits</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is a Solo 401(k)?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">A Solo 401(k), also known as an individual 401(k), is a retirement plan designed for self-employed individuals and business owners with no full-time employees other than a spouse. It allows both employee deferrals (up to $23,500 in 2025, or $31,000 if age 50+) and employer profit-sharing contributions, for a combined maximum of $70,000 or more per year depending on age. This makes it one of the most powerful retirement savings vehicles available to business owners. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Solo 401(k) vs SEP-IRA -- which is better?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Both plans offer high contribution limits, but the Solo 401(k) is generally more flexible. It allows both employee deferrals and employer contributions, offers a Roth option, and permits loan provisions -- none of which are available in a SEP-IRA. A SEP-IRA is simpler to administer and may be sufficient for business owners who only need employer contributions. AE Tax Advisors evaluates your income level, cash flow, and retirement goals to recommend the right plan. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is a defined benefit plan?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">A defined benefit plan is a type of retirement plan that allows significantly higher annual contributions than a 401(k) or SEP-IRA -- often $100,000 to $300,000+ per year depending on age and income. These plans are ideal for high-income business owners over age 40 who want to shelter large amounts of income from taxation. Contributions are tax-deductible, and the plan assets grow tax-deferred. AE Tax Advisors coordinates with third-party administrators to design and implement defined benefit plans tailored to each client. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is an accountable plan?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">An accountable plan is a formal arrangement that allows an S-Corp to reimburse its owner-employee for legitimate business expenses -- such as home office costs, vehicle use, cell phone, and internet -- tax-free. The reimbursements are deductible to the business and not taxable to the employee, effectively converting personal expenses into business deductions. Proper documentation and a written plan are required. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is a Medical Expense Reimbursement Plan (MERP)?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">A MERP allows a C-Corp or qualifying business to reimburse employees (including owner-employees) for medical expenses, premiums, dental, vision, and other healthcare costs on a tax-free basis. The business deducts the reimbursements, and the employee receives them free of income and payroll taxes. A MERP can cover expenses not paid by insurance, making it a valuable supplement to existing health coverage. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+        </div>
+
+        <!-- State Tax Planning -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">State Tax Planning</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the Pass-Through Entity Tax (PTET) and which states offer it?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The Pass-Through Entity Tax (PTET) is an elective tax that allows S-Corporations and partnerships to pay state income tax at the entity level rather than passing it through to individual owners. This generates a federal income tax deduction at the entity level that effectively bypasses the $10,000 SALT (State and Local Tax) deduction cap imposed by the TCJA. PTET elections are currently available in 36 or more states, including California, New York, Georgia, Maryland, Montana, New Jersey, Illinois, and many others. The specific rules, deadlines, and mechanics vary by state. AE Tax Advisors evaluates PTET elections for every applicable client and handles the election filings as part of the advisory engagement.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How does Montana's lack of sales tax affect business planning?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Montana is one of only five states with no statewide sales tax, which eliminates the burden of sales tax collection, remittance, and compliance for businesses operating in the state. This is a meaningful advantage for product-based businesses and e-commerce companies. However, Montana does impose individual income tax with a top marginal rate of 5.9% and corporate income tax, so income tax planning remains essential. AE Tax Advisors helps Montana-based business owners take full advantage of the state's favorable tax structure while implementing strategies to minimize state income tax liability through entity structuring, retirement plan contributions, and other IRC-cited approaches.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Do I need to file in every state where I have rental property?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Generally, yes. Most states require nonresident income tax returns for rental income sourced to that state, regardless of where you live. This means if you own rental properties in three different states, you will likely need to file a return in each of those states plus your state of residence. Some states have minimum filing thresholds or de minimis exceptions, but these vary widely. Multi-state filing also creates potential issues with double taxation, which is typically resolved through resident state credits for taxes paid to other states. AE Tax Advisors handles multi-state compliance as part of the advisory engagement, ensuring all required returns are filed correctly and that you receive full credit for taxes paid to nonresident states.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What states have no income tax, and should I consider relocating?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Nine states impose no income tax on wages and investment income: Alaska, Florida, Nevada, South Dakota, Tennessee, Texas, Washington, Wyoming, and New Hampshire (which taxes only interest and dividends, with that tax being phased out). Relocating to a no-income-tax state can result in significant tax savings, particularly for high-income business owners and real estate investors. However, you must establish genuine domicile in the new state, which the IRS and your former state may scrutinize closely. Factors include where you spend the majority of your time, where your business operates, voter registration, driver's license, and other ties. AE Tax Advisors can model the projected savings from relocation and advise on how to establish domicile properly to withstand a residency audit.</div></div>
+            </div>
+        </div>
+
+        <!-- Amended Returns and IRS -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">Amended Returns and IRS</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How far back can I amend my tax returns?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Under IRC section 6511, you can generally amend a tax return within 3 years from the date of filing or 2 years from the date of payment, whichever is later. For most taxpayers who file on time, this means you can amend returns for the prior three tax years. However, certain strategies have no time limit -- most notably, depreciation changes filed on Form 3115 (Application for Change in Accounting Method) can capture catch-up depreciation from any prior year and apply it as a section 481(a) adjustment in the current year without amending prior returns. AE Tax Advisors' 3-Year Tax Lookback is specifically designed to identify amendable opportunities within the statute of limitations window and to apply Form 3115 strategies where applicable.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How long does the IRS take to process amended returns?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The IRS typically takes 16 to 20 weeks to process an electronically filed Form 1040-X (Amended U.S. Individual Income Tax Return). Paper-filed amendments can take longer, sometimes exceeding 6 months during periods of high volume. Refunds resulting from amended returns are issued after processing is complete and may be delivered by check or direct deposit depending on how the amendment was filed. AE Tax Advisors tracks all amendments through completion and monitors IRS processing status on behalf of clients to ensure timely resolution. If additional information is requested by the IRS, the team responds promptly to avoid delays.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Can I amend state returns as well as federal?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Yes. In most cases, when a federal return is amended, the corresponding state returns must also be amended to reflect the changes. Each state has its own amendment form, filing deadline, and processing timeline. Some states require the amendment to be filed within a specific period (often 90 days to one year) after the federal change is finalized. Failure to amend state returns when required can result in penalties, interest, and inconsistencies that may trigger state audit inquiries. AE Tax Advisors files all necessary state amendments alongside federal amendments as a standard part of the engagement, ensuring full compliance across all jurisdictions.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What if my prior CPA made errors on my returns?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">AE Tax Advisors regularly identifies errors from prior preparers during the 3-Year Tax Lookback process. Common errors include missed deductions for home office, vehicle use, and business expenses; incorrect entity elections or failure to elect S-Corp status when beneficial; improper income classification between ordinary income and self-employment income; overlooked tax credits such as the R&D credit or energy-efficient property credits; and failure to perform cost segregation studies on eligible properties. When errors are found, AE Tax files corrective amended returns and, where applicable, Form 3115 for accounting method changes to capture the full benefit of previously missed depreciation. Many clients recover tens of thousands of dollars through this process.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Can I amend my tax return for a bigger refund?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Yes. If your original return contained errors, missed deductions, or overlooked credits, you can file an amended return (Form 1040-X) to claim a larger refund. Common reasons for amending include missed cost segregation deductions, failure to claim retirement plan contributions, incorrect entity elections, and overlooked business expenses. AE Tax Advisors' 3-Year Tax Lookback is specifically designed to find these opportunities. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What triggers an IRS audit?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Common IRS audit triggers for business owners include high deduction-to-income ratios that fall outside statistical norms, unreported income (especially when third-party forms like 1099s do not match the return), large charitable contributions relative to income, aggressive home office deductions, cash-intensive businesses with limited documentation, and Schedule C losses claimed year after year. Filing certain forms such as Form 3115 or claiming the Research and Development credit can also attract scrutiny, though neither is a reason to avoid legitimate strategies. The best defense against an audit is proper documentation, consistent record-keeping, and tax positions supported by specific IRC authority. AE Tax Advisors builds every strategy with audit defensibility as a core requirement.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What should I do if I get audited?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The most important step is to get professional representation before responding to the IRS. Do not attempt to handle an audit on your own. AE Tax Advisors provides full audit defense through enrolled agents and CPAs authorized to practice before the IRS under Treasury Circular 230. The team responds to all IRS requests, prepares supporting documentation, and represents you throughout the examination process so you do not have to interact with the IRS directly. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the QBI deduction?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The Qualified Business Income (QBI) deduction under IRC section 199A allows eligible owners of pass-through entities -- including S-Corps, partnerships, and sole proprietorships -- to deduct up to 20% of their qualified business income. The deduction is subject to income limits for specified service trades or businesses (SSTBs) and W-2 wage/property basis limitations at higher income levels. AE Tax Advisors structures entities and income to maximize the QBI deduction for every eligible client. Call (631) 614-5762 or visit our contact page to learn more.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How does AE Tax Advisors defend cost segregation studies in an audit?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">AE Tax Advisors produces audit-ready cost segregation studies that are built to withstand IRS examination. Each study includes engineering-based analysis performed according to accepted methodologies, component-level detail with individual asset identification and classification, photographic documentation of the property and its components, supporting depreciation schedules with MACRS class life assignments, and references to the IRS Cost Segregation Audit Technique Guide. In the event of an audit, the firm provides full audit defense support, including responding to IRS information requests, preparing supporting documentation, and representing the client throughout the examination process. The firm's studies are designed to meet the same standards the IRS itself uses to evaluate cost segregation claims.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the difference between an IRS audit and a notice?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">An IRS notice is typically an automated letter generated by the IRS computer system regarding a specific item on your return. Common notices include the CP2000 (proposed changes due to income discrepancies), CP504 (balance due), and CP2501 (information request). These are generally narrow in scope and can often be resolved with a written response and supporting documentation. An audit (formally called an examination) is a comprehensive review of your return by an IRS agent that may cover multiple items, require extensive documentation, and involve in-person meetings. AE Tax Advisors handles both types of IRS contact. Most notices can be resolved quickly through proper documentation without escalation to a full examination.</div></div>
+            </div>
+        </div>
+
+        <!-- Bookkeeping Services -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">Bookkeeping Services</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Does AE Tax Advisors offer bookkeeping services?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Yes. AE Tax Advisors provides monthly bookkeeping and financial statement preparation as part of or in addition to the annual advisory engagement. Clean, accurate books are essential for effective tax planning because they provide the real-time financial data needed to make informed strategic decisions throughout the year. The bookkeeping service includes transaction categorization, bank and credit card reconciliation, monthly profit and loss statements, and balance sheet preparation. Having bookkeeping and tax planning under one roof ensures that every transaction is classified with your tax strategy in mind from day one.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Do you use QuickBooks Online or Xero?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">AE Tax Advisors primarily works with QuickBooks Online (QBO), which is the preferred platform for its robust integration capabilities, real-time reporting features, and compatibility with the firm's advisory tools. The team can also support clients using Xero or other cloud-based accounting platforms. If a client is currently using a different system, the team will evaluate the platform and recommend the best fit based on the client's business type, complexity, and reporting needs. For new clients without an existing accounting system, AE Tax will set up and configure QuickBooks Online as part of the onboarding process.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How does your bookkeeping integrate with tax planning?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">AE Tax Advisors' bookkeeping service is strategy-aware, meaning the team classifies every transaction with your specific tax plan in mind. This includes proper categorization of deductible expenses, accurate tracking of basis in assets for depreciation and disposition purposes, segregation of personal versus business expenses, and documentation of IRC-cited strategies such as the home office deduction, vehicle use, and meals and entertainment. The result is a set of books that not only produces accurate financial statements but also supports your tax return positions and makes quarterly tax planning sessions more efficient and actionable. This integrated approach eliminates the disconnect that often exists when bookkeeping and tax planning are handled by separate providers.</div></div>
+            </div>
+        </div>
+
+        <!-- Client Onboarding -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">Client Onboarding</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What documents do I need for the discovery call?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">No documents are needed for the initial discovery call. The first conversation is focused on understanding your business structure, income sources, real estate portfolio, current tax situation, and financial goals. It is a two-way conversation designed to determine whether AE Tax Advisors is the right fit for your needs. After the discovery call, if you choose to move forward with the engagement, the team will request specific documents including your last 3 years of federal and state tax returns, K-1 schedules, property closing statements (HUD-1 or settlement statements), entity formation documents, and any existing cost segregation studies or appraisals.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>How long does onboarding take?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">From signing the engagement letter to receiving your completed strategic tax plan, the onboarding process typically takes 2 to 4 weeks. During this time, you will upload your tax documents through a secure portal, complete an onboarding questionnaire detailing your business operations and financial goals, and participate in an in-depth strategy session with your dedicated advisor. The timeline depends primarily on how quickly documents are provided -- clients who have their records organized and submit documents promptly often receive their tax plan within 2 weeks. AE Tax Advisors provides a clear onboarding checklist and the team follows up to keep the process on track.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What should I expect in the first 90 days as a client?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">The first 90 days of your AE Tax Advisors engagement are structured for maximum impact. Within the first 30 days, your 3-Year Tax Lookback will be completed and your custom strategic tax plan will be delivered, identifying every actionable opportunity across entity structuring, depreciation, retirement plans, and prior-year amendments. Within 60 days, implementation of your first-priority strategies begins -- this may include S-Corp elections (Form 2553), accounting method changes (Form 3115), retirement plan establishment, amended return filings, and cost segregation study initiation. Within 90 days, you will have your first quarterly check-in with your advisor to review progress, assess implemented strategies, and adjust projections for the remainder of the year.</div></div>
+            </div>
+        </div>
+
+        <!-- Year-End Tax Planning -->
+        <div class="faq-category">
+            <h2 class="faq-category-title">Year-End Tax Planning</h2>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>When should I start year-end tax planning?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Ideally, year-end tax planning should begin by September or October at the latest, but the earlier you start, the more options are available. AE Tax Advisors' quarterly check-in model means that year-end planning is not a last-minute scramble but rather a natural progression of the ongoing advisory relationship. Key year-end considerations include maximizing retirement plan contributions, evaluating whether to accelerate or defer income and expenses, making S-Corp distribution decisions, finalizing estimated tax payments, and identifying assets eligible for bonus depreciation. Waiting until December severely limits the strategies available, so proactive planning throughout the year is essential.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the deadline for estimated tax payments?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Estimated tax payments for individuals and most business owners are due quarterly on April 15, June 15, September 15, and January 15 of the following year. If any deadline falls on a weekend or holiday, it moves to the next business day. Underpayment penalties under IRC section 6654 apply if you do not pay at least 90% of your current-year tax liability or 110% of your prior-year tax liability (the 110% threshold applies to taxpayers with adjusted gross income exceeding $150,000, or $75,000 if married filing separately). AE Tax Advisors calculates estimated payments as part of the quarterly check-in process and provides vouchers with specific payment amounts to ensure clients remain in compliance and avoid penalties.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What is the deadline to make an S-Corp election?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Form 2553 (Election by a Small Business Corporation) must be filed by March 15 for a calendar-year corporation to have the S-Corp election effective for that tax year. For newly formed entities, the election must be filed within 75 days of the entity's formation date. If the deadline is missed, late election relief is available under Revenue Procedure 2013-30, which allows the election to be filed within 3 years and 75 days of the intended effective date, provided the entity has been reporting consistently as an S-Corp and reasonable cause exists for the late filing. AE Tax Advisors regularly files both timely and late S-Corp elections and has extensive experience obtaining IRS approval under the late election relief provisions.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>What retirement plan contribution deadlines should I know?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Retirement plan contribution deadlines vary by plan type and contribution category. For Solo 401(k) and SEP-IRA plans, employer contributions are due by the tax return filing deadline, including extensions (typically October 15 for calendar-year filers who extend). Employee elective deferrals into a Solo 401(k) must be made by December 31 of the plan year. Defined benefit plans must be established by December 31 of the year for which contributions will be claimed, but the contributions themselves can be made up to the tax filing deadline including extensions. SIMPLE IRA employer matches are due by the tax filing deadline. AE Tax Advisors coordinates contribution timing with each client's overall tax strategy to ensure maximum deductions are captured within the applicable deadlines.</div></div>
+            </div>
+
+            <div class="faq-accordion">
+                <button class="faq-question"><span>Can I still reduce my taxes after December 31?</span><span class="faq-icon">+</span></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Yes, several strategies remain available after the calendar year ends. Retirement plan contributions for SEP-IRA and Solo 401(k) employer contributions can be made up to the tax return filing deadline, including extensions. Cost segregation studies can be performed retroactively on properties placed in service in any prior year, with catch-up depreciation claimed in the current year through Form 3115. Health Savings Account (HSA) contributions for the prior year can be made up to the April 15 filing deadline. Amended returns can be filed to correct errors on previously filed returns within the statute of limitations. AE Tax Advisors' engagement begins with identifying both current-year and prior-year opportunities, ensuring that no available strategy is left on the table regardless of when the engagement starts.</div></div>
+            </div>
+        </div>
+
     </div>
 
-    <div class="faq-section">
-        <h2>Services</h2>
+    </main>
 
-        <div class="faq-item">
-            <h3>What services does AE Tax Advisors provide?</h3>
-            <p>AE Tax Advisors provides comprehensive tax advisory services including strategic tax planning, cost segregation studies, entity structuring (S-Corp elections, LLCs, C-Corps), 3-Year Tax Lookback reviews, amended return preparation, retirement plan optimization, real estate tax strategy, bookkeeping, and ongoing quarterly advisory check-ins. Every strategy is grounded in specific IRC sections and designed to withstand IRS scrutiny.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is a 3-Year Tax Lookback?</h3>
-            <p>A 3-Year Tax Lookback is AE Tax Advisors' proprietary review process where the team examines your last three years of filed tax returns to identify missed deductions, incorrect entity elections, improperly classified income, overlooked credits, and other errors. This review often uncovers tens of thousands of dollars in potential savings through amended returns and corrective filings. It forms the foundation of every new client engagement.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is a cost segregation study?</h3>
-            <p>A cost segregation study is an engineering-based analysis that reclassifies components of a building from the standard 27.5-year or 39-year depreciation schedule into shorter recovery periods of 5, 7, or 15 years. This accelerates depreciation deductions, significantly reducing taxable income in the early years of property ownership. Under current law with 100% bonus depreciation, qualifying components can be fully deducted in the first year. AE Tax produces audit-ready cost segregation studies with detailed engineering reports.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is bonus depreciation?</h3>
-            <p>Bonus depreciation allows taxpayers to deduct a large percentage of the cost of eligible assets in the first year they are placed in service, rather than depreciating them over their full recovery period. Under the One Big Beautiful Bill Act (OBBBA), 100% bonus depreciation has been made permanent, meaning qualifying property can be fully deducted in year one. This is a powerful tool when combined with cost segregation studies to maximize first-year deductions on real estate investments.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How does S-Corp election save taxes?</h3>
-            <p>An S-Corp election allows business owners to split their income between reasonable compensation (subject to payroll taxes) and distributions (not subject to self-employment tax). For a business owner earning $300,000, setting reasonable compensation at $120,000 means $180,000 avoids the 15.3% SE tax, saving over $27,000 annually. AE Tax performs formal reasonable compensation analysis and handles the entire S-Corp election process including Form 2553 filing.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is the Qualified Business Income (QBI) deduction?</h3>
-            <p>The Qualified Business Income (QBI) deduction under IRC section 199A allows eligible business owners to deduct up to 20% of their qualified business income from pass-through entities. This deduction is subject to income phase-outs for specified service trades or businesses (SSTBs) and W-2 wage and property limitations for higher-income taxpayers. AE Tax Advisors structures entities and income to maximize the QBI deduction while staying compliant with all IRC requirements.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Can AE Tax help with retirement plan setup?</h3>
-            <p>Yes. AE Tax Advisors helps business owners select and implement the optimal retirement plan structure for their situation, whether that is a Solo 401(k), SEP-IRA, SIMPLE IRA, or defined benefit plan. A properly structured retirement plan can shelter $60,000 to $300,000+ annually from taxation depending on the plan type and the owner's age and income. The team coordinates with third-party administrators and custodians to handle the full implementation.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is the difference between tax preparation and tax planning?</h3>
-            <p>Tax preparation is the backward-looking process of filing your tax return after the year ends. Tax planning is the forward-looking, proactive process of structuring your business, income, and investments throughout the year to minimize tax liability before it accrues. AE Tax Advisors focuses on tax planning -- identifying strategies, implementing entity changes, accelerating deductions, and timing income and expenses to reduce your effective tax rate. A good tax plan saves multiples of what a good tax return ever could.</p>
-        </div>
-    </div>
-
-    <div class="faq-section">
-        <h2>Pricing and Engagement</h2>
-
-        <div class="faq-item">
-            <h3>How much does AE Tax Advisors charge?</h3>
-            <p>The annual advisory engagement fee is $7,800 per year. This covers the complete 3-Year Tax Lookback, custom strategic tax plan with IRC-cited strategies, quarterly check-ins, mid-year projections, direct advisor access, and ongoing tax law monitoring. Cost segregation studies are priced separately based on property complexity. Most clients see a 3x to 10x return on the advisory fee in the first year alone.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How do I get started with AE Tax Advisors?</h3>
-            <p>Getting started begins with a free discovery call where the team learns about your business, income sources, real estate portfolio, and tax goals. If AE Tax is a good fit, you will receive a non-disclosure agreement followed by a formal engagement letter. Once signed, the onboarding process begins with document collection and your 3-Year Tax Lookback. Call (631) 614-5762 or email team@aetaxadvisors.com to schedule your discovery call.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How often will I hear from my advisor?</h3>
-            <p>AE Tax Advisors operates on a quarterly check-in model. You will have a scheduled strategy session every quarter to review your financials, assess progress on implemented strategies, adjust projections, and address any new developments. Between quarterly calls, your advisor is available by email and phone for questions. Mid-year projections ensure you are on track and allow time to make adjustments before year-end deadlines.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is included in the $7,800 annual advisory fee?</h3>
-            <p>The $7,800 annual advisory fee covers a comprehensive suite of services: the 3-Year Tax Lookback reviewing your last three years of filed returns for missed opportunities, a custom strategic tax plan with IRC-cited strategies tailored to your specific situation, quarterly check-in calls with your dedicated advisor, mid-year tax projections and estimated payment calculations, direct advisor access by email and phone between scheduled calls, ongoing monitoring of tax law changes that affect your situation, and implementation support for entity elections, retirement plan setup, and other strategic recommendations. Cost segregation studies are priced separately based on property type and complexity. The fee represents a fraction of the tax savings most clients realize in the first year alone.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Do you offer payment plans for the advisory fee?</h3>
-            <p>Yes. AE Tax Advisors offers flexible payment options for the annual advisory engagement fee. The firm understands that a $7,800 annual investment, while highly cost-effective relative to the tax savings it generates, may benefit from structured payment terms for some clients. Details on available payment plans are discussed during the discovery call and are outlined in the engagement letter. The team works with each client to find an arrangement that fits their cash flow while ensuring the advisory work can begin promptly.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is the typical ROI on the advisory engagement?</h3>
-            <p>Most AE Tax Advisors clients see a return on investment of 3x to 10x or more on the advisory fee in the first year alone. For example, a business owner paying the $7,800 annual fee who saves $40,000 in taxes through entity restructuring, cost segregation, and retirement plan optimization realizes approximately a 5x ROI. First-year savings are often the largest because the 3-Year Tax Lookback identifies both current-year and prior-year opportunities, including amended return refunds and catch-up depreciation via Form 3115. The firm provides estimated savings projections before engagement so prospective clients can evaluate the expected return before committing.</p>
-        </div>
-    </div>
-
-    <div class="faq-section">
-        <h2>Who We Serve</h2>
-
-        <div class="faq-item">
-            <h3>What types of clients does AE Tax Advisors work with?</h3>
-            <p>AE Tax Advisors works exclusively with business owners and real estate investors. This includes owners of LLCs, S-Corps, C-Corps, sole proprietorships, and partnerships, as well as investors who own rental properties including short-term rentals (STRs) and long-term rentals (LTRs). The firm does not provide services for individual W-2 employees without business or investment income. Ideal clients have annual gross income above $200,000 and are looking for proactive, strategic tax planning rather than simple return preparation.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Do you work with clients outside of Montana?</h3>
-            <p>Yes. AE Tax Advisors serves clients in all 50 states. The firm handles multi-state tax compliance, state-specific entity elections, and state tax planning as part of the advisory engagement. Most client interactions are conducted virtually, so geographic location does not limit the firm's ability to provide comprehensive tax advisory services. The team has deep experience with state-specific issues including Pass-Through Entity Tax elections, state conformity to federal depreciation rules, and nonresident filing requirements.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What if I already have a CPA?</h3>
-            <p>Many AE Tax clients retain their existing CPA for return preparation while using AE Tax for strategic tax planning and advisory services. The two roles are complementary -- your CPA handles compliance and filing while AE Tax identifies and implements the strategies that reduce your tax liability. AE Tax can also serve as your full-service provider handling both planning and preparation. The firm regularly coordinates with clients' existing CPAs to ensure strategies are properly implemented on the filed returns.</p>
-        </div>
-    </div>
-
-    <div class="faq-section">
-        <h2>Cost Segregation</h2>
-
-        <div class="faq-item">
-            <h3>What types of building components qualify for cost segregation reclassification?</h3>
-            <p>Cost segregation reclassifies building components into shorter MACRS recovery periods based on their function and attachment to the structure. Five-year property includes carpeting, appliances, decorative fixtures, and certain electrical outlets dedicated to equipment. Seven-year property covers office furniture, specialized equipment, and certain telecommunications infrastructure. Fifteen-year property encompasses landscaping, parking lots, fencing, sidewalks, and site improvements. The IRS Cost Segregation Audit Technique Guide provides detailed guidance on how components are classified, and AE Tax follows this framework to ensure every reclassification is defensible under audit.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is the difference between cost segregation for short-term rentals vs. long-term rentals?</h3>
-            <p>The primary difference lies in the base recovery period used before reclassification. Short-term rentals (STRs) with an average rental period of 7 days or less are classified as nonresidential real property under IRC section 168(e)(2)(A)(ii) and use a 39-year base recovery period. Long-term rentals (LTRs) are classified as residential rental property and use a 27.5-year base recovery period. Both property types benefit significantly from cost segregation because the reclassified components -- 5-year, 7-year, and 15-year property -- are the same regardless of the base period. With 100% bonus depreciation now permanent under the OBBBA, the first-year deduction impact is substantial for both STR and LTR investors.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Is there a minimum property value for a cost segregation study to be worthwhile?</h3>
-            <p>As a general guideline, cost segregation studies are most cost-effective for properties with a purchase price of $200,000 or more, but the analysis depends on several factors including property type, age, and the extent of improvements. The return on investment for a properly conducted cost segregation study is typically 10:1 or better, meaning for every dollar spent on the study, the client receives ten dollars or more in tax savings. AE Tax Advisors evaluates each property individually during the advisory engagement and will only recommend a study when the projected tax benefit clearly justifies the cost. For properties below the $200,000 threshold, alternative depreciation strategies may still be available.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is the One Big Beautiful Bill Act (OBBBA) and how does it affect bonus depreciation?</h3>
-            <p>The One Big Beautiful Bill Act (OBBBA) is landmark legislation that made 100% bonus depreciation permanent, reversing the phase-down schedule originally enacted under the Tax Cuts and Jobs Act (TCJA). Under the TCJA, bonus depreciation was set to decline from 100% to 80%, 60%, 40%, 20%, and eventually 0% over a multi-year period. The OBBBA eliminated this phase-down entirely, ensuring that all qualifying property placed in service receives a full 100% first-year deduction indefinitely. This is a transformative development for real estate investors and business owners who rely on accelerated depreciation as a core tax strategy, and it makes cost segregation studies more valuable than ever.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Can I do a cost segregation study on a property I purchased years ago?</h3>
-            <p>Yes. You do not need to have purchased the property recently to benefit from a cost segregation study. For properties already in service, AE Tax files Form 3115 (Application for Change in Accounting Method) to claim the accumulated catch-up depreciation in the current tax year as a section 481(a) adjustment. This means you do not need to amend prior-year returns. The entire benefit of the missed depreciation is captured in a single year, which can result in a very large deduction. This is one of the most powerful strategies AE Tax implements for clients who have owned rental or commercial property for years without ever having a cost segregation study performed.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Will a cost segregation study trigger an IRS audit?</h3>
-            <p>There is no evidence that a properly conducted cost segregation study increases your risk of an IRS audit. In fact, the IRS maintains its own Cost Segregation Audit Technique Guide, which demonstrates that cost segregation is a recognized and legitimate tax planning strategy. AE Tax Advisors produces audit-ready studies with engineering-based analysis, component-level detail, photographic documentation, and supporting schedules that conform to IRS standards. The key to avoiding issues is ensuring the study is performed by qualified professionals using accepted methodologies, which is exactly what AE Tax delivers. Clients can proceed with confidence that their cost segregation deductions are fully defensible.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How much does a cost segregation study cost?</h3>
-            <p>Cost segregation study pricing varies based on property type, size, and complexity, but most studies for residential rental and commercial properties range from $2,500 to $7,500. The return on investment is typically 10:1 or better, meaning the tax savings generated far exceed the cost of the study. AE Tax Advisors provides a cost estimate during the advisory engagement and will only recommend a study when the projected benefit clearly justifies the expense. Call (631) 614-5762 or visit our contact page to get a quote for your property.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is Form 3115?</h3>
-            <p>Form 3115, Application for Change in Accounting Method, is the IRS form used to switch your depreciation method on a property that has already been placed in service. When a cost segregation study is performed on an existing property, Form 3115 allows you to claim all of the previously missed accelerated depreciation in a single year as a section 481(a) adjustment -- without amending prior returns. This makes it one of the most powerful tools in real estate tax planning. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How long does a cost segregation study take?</h3>
-            <p>A typical cost segregation study takes 2 to 4 weeks from start to finish, depending on property complexity and how quickly documentation is provided. The process includes an initial property assessment, detailed engineering analysis, component classification, and preparation of the final audit-ready report with supporting schedules. AE Tax Advisors manages the entire process and keeps clients informed at each stage. Call (631) 614-5762 or visit our contact page to get started.</p>
-        </div>
-    </div>
-
-    <div class="faq-section">
-        <h2>Entity Structure</h2>
-
-        <div class="faq-item">
-            <h3>S-Corp vs LLC -- which is better for tax purposes?</h3>
-            <p>An LLC is a legal entity type that provides liability protection, while an S-Corp is a tax election that determines how your business income is taxed. Many business owners operate an LLC that elects S-Corp taxation to get the best of both worlds -- liability protection plus self-employment tax savings on distributions above reasonable compensation. The right choice depends on your net income level, state rules, and business structure. AE Tax Advisors evaluates every client's situation to recommend the optimal entity and tax election. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What are the tax benefits of an S-Corp?</h3>
-            <p>The primary tax benefit of an S-Corp is the ability to split business income between reasonable compensation (subject to payroll taxes) and distributions (not subject to self-employment tax). For business owners with net income above approximately $80,000, this can save $10,000 to $40,000 or more annually in self-employment taxes. S-Corps also provide a clean framework for retirement plan contributions, accountable plans, and health insurance deductions. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>When should I convert my LLC to an S-Corp?</h3>
-            <p>The general rule of thumb is that an S-Corp election becomes beneficial when your business consistently earns net profit above $80,000 to $100,000 per year. At that level, the self-employment tax savings from splitting income between salary and distributions exceed the added compliance costs of running payroll and filing an S-Corp return. AE Tax Advisors performs a breakeven analysis for each client to identify the optimal timing. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is reasonable compensation for S-Corp owners?</h3>
-            <p>Reasonable compensation is the salary an S-Corp owner-employee must pay themselves for the services they perform for the business. The IRS requires that this amount be based on what comparable businesses pay for similar work, taking into account the owner's duties, training, experience, and industry standards. Setting compensation too low is a common audit trigger, as the IRS views it as an attempt to avoid payroll taxes. AE Tax Advisors performs a formal reasonable compensation analysis using Bureau of Labor Statistics data, industry salary surveys, and comparable company benchmarks to determine a defensible salary that maximizes tax savings while meeting IRS requirements.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Can I elect S-Corp status retroactively?</h3>
-            <p>In many cases, yes. Late S-Corp election relief is available under Revenue Procedure 2013-30, which allows the IRS to accept elections filed within 3 years and 75 days of the intended effective date, provided reasonable cause exists and the entity has been operating consistently as an S-Corp. AE Tax Advisors regularly files late elections and has a strong track record of obtaining IRS approval. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>S-Corp vs C-Corp -- which is better?</h3>
-            <p>S-Corps pass income through to owners and avoid double taxation, making them ideal for most small to mid-size businesses. C-Corps pay corporate tax at a flat 21% rate and are subject to double taxation on dividends, but they offer advantages for businesses planning to retain significant earnings, raise venture capital, or take advantage of certain fringe benefits. AE Tax Advisors models both scenarios for clients to determine which structure produces the lowest overall tax liability based on their specific income and goals. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What are the QBI deduction phase-out thresholds for 2026?</h3>
-            <p>For specified service trades or businesses (SSTBs) -- including law, medicine, consulting, accounting, and financial services -- the Qualified Business Income deduction under IRC section 199A begins to phase out at $191,950 of taxable income for single filers and $383,900 for married filing jointly. The deduction is fully eliminated at $241,950 (single) and $483,900 (MFJ). Non-SSTB businesses do not face these phase-outs, though they are subject to W-2 wage and property basis limitations at higher income levels. AE Tax Advisors helps clients implement strategies to manage income levels relative to these thresholds, including entity restructuring, retirement plan contributions, and income timing techniques.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How much does S-Corp payroll cost to set up and maintain?</h3>
-            <p>Annual payroll costs for an S-Corp owner-employee typically range from $500 to $2,000 per year depending on the payroll provider, state requirements, and whether the business has additional employees. This cost is minimal compared to the self-employment tax savings an S-Corp election generates, which commonly range from $15,000 to $40,000 or more annually for business owners with net income above $150,000. AE Tax Advisors coordinates the entire payroll setup process as part of the advisory engagement, including provider selection, state registration, and ongoing quarterly payroll tax filing to ensure full compliance.</p>
-        </div>
-    </div>
-
-    <div class="faq-section">
-        <h2>Real Estate Tax Strategies</h2>
-
-        <div class="faq-item">
-            <h3>How many hours do I need to qualify for Real Estate Professional Status (REPS)?</h3>
-            <p>To qualify for Real Estate Professional Status under IRC section 469(c)(7), you must meet two tests. First, you must spend more than 750 hours during the tax year in real property trades or businesses in which you materially participate. Second, you must spend more time in real estate activities than in any other occupation. Both tests must be satisfied. Qualifying hours include property management, maintenance, tenant screening, lease negotiations, property inspections, bookkeeping for rental properties, and supervising contractors. AE Tax Advisors recommends maintaining detailed contemporaneous time logs documenting specific activities, dates, and hours to substantiate your REPS claim in the event of an IRS examination.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What are the key STR tax court cases I should know about?</h3>
-            <p>Several important cases and IRS guidance documents shape the tax treatment of short-term rentals. Razavi v. Commissioner is significant for its analysis of how the average rental period is calculated for STR classification under IRC section 168(e)(2)(A)(ii). Chief Counsel Advice 202151005 provides the IRS position on STR classification and when a property qualifies for nonresidential treatment. These authorities establish that the average rental period -- not the intent of the owner -- determines whether a property is classified as residential or nonresidential. AE Tax Advisors stays current on all relevant case law and IRS guidance to ensure every STR tax strategy is built on solid legal footing, and the firm emphasizes the importance of proper contemporaneous records to support material participation claims.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What are the 1031 exchange deadlines I need to know?</h3>
-            <p>A 1031 like-kind exchange under IRC section 1031 has two critical and strictly enforced deadlines. The first is the 45-day identification period: you must identify potential replacement properties in writing within 45 calendar days of closing on the relinquished property. The second is the 180-day exchange period: you must close on the replacement property within 180 calendar days of the sale. Both deadlines are measured in calendar days, not business days, and there are no extensions except in federally declared disaster areas. Missing either deadline disqualifies the entire exchange, resulting in full recognition of gain. AE Tax Advisors coordinates with qualified intermediaries and advises clients on identification strategies to ensure compliance with these time-sensitive requirements.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Can I convert a primary residence to an STR and do cost segregation?</h3>
-            <p>Yes, you can convert a primary residence to a short-term rental and then perform a cost segregation study on the property. However, several important rules apply. You must account for personal use days versus rental days under IRC section 280A, which limits deductions when a property is used personally for more than the greater of 14 days or 10% of rental days. For maximum tax benefit, the property should be converted fully to rental use with no personal use. Additionally, the depreciable basis is the lower of your adjusted cost basis or the fair market value at the time of conversion. AE Tax Advisors evaluates these factors for each client and determines the optimal timing and structure for conversion to maximize the cost segregation benefit.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is the material participation safe harbor for short-term rentals?</h3>
-            <p>Material participation in a short-term rental activity can be established through several tests under IRC section 469 and the related Treasury Regulations. The most commonly used safe harbors for STR owners are the 500-hour test (you participate in the activity for 500 or more hours during the tax year) and the 100-hour/most-participation test (you participate for at least 100 hours and no other individual participates more than you). Meeting material participation is critical because it determines whether rental losses are passive or nonpassive, which affects whether they can offset other income. AE Tax Advisors recommends maintaining detailed time logs with specific activities documented -- including guest communication, cleaning coordination, property maintenance, marketing, and financial management -- to substantiate participation hours.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How do I reduce taxes on rental income?</h3>
-            <p>The most effective strategies for reducing taxes on rental income include cost segregation studies to accelerate depreciation, properly structuring entities to maximize deductions, qualifying for Real Estate Professional Status (REPS) to unlock passive loss deductions against other income, and leveraging 1031 exchanges to defer capital gains. AE Tax Advisors builds a customized real estate tax plan for every investor client. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is the short-term rental tax loophole?</h3>
-            <p>The so-called STR loophole allows short-term rental owners who materially participate in their rental activity to use accelerated depreciation from a cost segregation study to offset W-2 or business income -- not just rental income. Because STRs with an average rental period of 7 days or less are classified as nonresidential property, they fall outside the standard passive activity rules when material participation is met. This combination of cost segregation plus material participation can generate large paper losses that reduce your overall tax bill significantly. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How does the Augusta Rule work?</h3>
-            <p>The Augusta Rule, under IRC section 280A(g), allows you to rent your personal residence for up to 14 days per year and exclude all of the rental income from your tax return. For business owners, this means your business can rent your home for board meetings, team retreats, or planning sessions, pay you fair market rent, and deduct the payment as a business expense -- while you receive the income tax-free. Proper documentation including a rental agreement, fair market value analysis, and meeting minutes is essential. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is a 1031 exchange?</h3>
-            <p>A 1031 exchange, named after IRC section 1031, allows you to defer capital gains taxes when you sell an investment property by reinvesting the proceeds into a like-kind replacement property. The exchange must be completed through a qualified intermediary, and strict deadlines apply -- 45 days to identify replacement properties and 180 days to close. When executed properly, a 1031 exchange lets you grow your real estate portfolio without paying taxes on each sale. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Can I deduct Airbnb expenses?</h3>
-            <p>Yes. If you operate an Airbnb or other short-term rental as a business, you can deduct ordinary and necessary expenses including cleaning fees, supplies, furniture, repairs, insurance, property management fees, utilities, and platform fees. You can also deduct depreciation on the property and any improvements. Proper record-keeping and separation of personal versus rental use are essential for maximizing and defending these deductions. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Is bonus depreciation still available?</h3>
-            <p>Yes. Under the One Big Beautiful Bill Act (OBBBA), 100% bonus depreciation has been made permanent. This means qualifying property placed in service in any year can be fully deducted in the first year, with no phase-down. This is a major benefit for real estate investors who combine bonus depreciation with cost segregation studies to generate substantial first-year deductions. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How do passive activity loss rules work?</h3>
-            <p>Under IRC section 469, losses from passive activities -- including most rental properties -- can generally only offset passive income, not active income like wages or business profits. However, exceptions exist for real estate professionals (REPS), short-term rental owners who materially participate, and taxpayers with adjusted gross income under $100,000 who may deduct up to $25,000 in rental losses. AE Tax Advisors analyzes each client's situation to determine the best path for unlocking passive losses. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-    </div>
-
-    <div class="faq-section">
-        <h2>Retirement and Benefits</h2>
-
-        <div class="faq-item">
-            <h3>What is a Solo 401(k)?</h3>
-            <p>A Solo 401(k), also known as an individual 401(k), is a retirement plan designed for self-employed individuals and business owners with no full-time employees other than a spouse. It allows both employee deferrals (up to $23,500 in 2025, or $31,000 if age 50+) and employer profit-sharing contributions, for a combined maximum of $70,000 or more per year depending on age. This makes it one of the most powerful retirement savings vehicles available to business owners. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Solo 401(k) vs SEP-IRA -- which is better?</h3>
-            <p>Both plans offer high contribution limits, but the Solo 401(k) is generally more flexible. It allows both employee deferrals and employer contributions, offers a Roth option, and permits loan provisions -- none of which are available in a SEP-IRA. A SEP-IRA is simpler to administer and may be sufficient for business owners who only need employer contributions. AE Tax Advisors evaluates your income level, cash flow, and retirement goals to recommend the right plan. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is a defined benefit plan?</h3>
-            <p>A defined benefit plan is a type of retirement plan that allows significantly higher annual contributions than a 401(k) or SEP-IRA -- often $100,000 to $300,000+ per year depending on age and income. These plans are ideal for high-income business owners over age 40 who want to shelter large amounts of income from taxation. Contributions are tax-deductible, and the plan assets grow tax-deferred. AE Tax Advisors coordinates with third-party administrators to design and implement defined benefit plans tailored to each client. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is an accountable plan?</h3>
-            <p>An accountable plan is a formal arrangement that allows an S-Corp to reimburse its owner-employee for legitimate business expenses -- such as home office costs, vehicle use, cell phone, and internet -- tax-free. The reimbursements are deductible to the business and not taxable to the employee, effectively converting personal expenses into business deductions. Proper documentation and a written plan are required. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is a Medical Expense Reimbursement Plan (MERP)?</h3>
-            <p>A MERP allows a C-Corp or qualifying business to reimburse employees (including owner-employees) for medical expenses, premiums, dental, vision, and other healthcare costs on a tax-free basis. The business deducts the reimbursements, and the employee receives them free of income and payroll taxes. A MERP can cover expenses not paid by insurance, making it a valuable supplement to existing health coverage. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-    </div>
-
-    <div class="faq-section">
-        <h2>State Tax Planning</h2>
-
-        <div class="faq-item">
-            <h3>What is the Pass-Through Entity Tax (PTET) and which states offer it?</h3>
-            <p>The Pass-Through Entity Tax (PTET) is an elective tax that allows S-Corporations and partnerships to pay state income tax at the entity level rather than passing it through to individual owners. This generates a federal income tax deduction at the entity level that effectively bypasses the $10,000 SALT (State and Local Tax) deduction cap imposed by the TCJA. PTET elections are currently available in 36 or more states, including California, New York, Georgia, Maryland, Montana, New Jersey, Illinois, and many others. The specific rules, deadlines, and mechanics vary by state. AE Tax Advisors evaluates PTET elections for every applicable client and handles the election filings as part of the advisory engagement.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How does Montana's lack of sales tax affect business planning?</h3>
-            <p>Montana is one of only five states with no statewide sales tax, which eliminates the burden of sales tax collection, remittance, and compliance for businesses operating in the state. This is a meaningful advantage for product-based businesses and e-commerce companies. However, Montana does impose individual income tax with a top marginal rate of 5.9% and corporate income tax, so income tax planning remains essential. AE Tax Advisors helps Montana-based business owners take full advantage of the state's favorable tax structure while implementing strategies to minimize state income tax liability through entity structuring, retirement plan contributions, and other IRC-cited approaches.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Do I need to file in every state where I have rental property?</h3>
-            <p>Generally, yes. Most states require nonresident income tax returns for rental income sourced to that state, regardless of where you live. This means if you own rental properties in three different states, you will likely need to file a return in each of those states plus your state of residence. Some states have minimum filing thresholds or de minimis exceptions, but these vary widely. Multi-state filing also creates potential issues with double taxation, which is typically resolved through resident state credits for taxes paid to other states. AE Tax Advisors handles multi-state compliance as part of the advisory engagement, ensuring all required returns are filed correctly and that you receive full credit for taxes paid to nonresident states.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What states have no income tax, and should I consider relocating?</h3>
-            <p>Nine states impose no income tax on wages and investment income: Alaska, Florida, Nevada, South Dakota, Tennessee, Texas, Washington, Wyoming, and New Hampshire (which taxes only interest and dividends, with that tax being phased out). Relocating to a no-income-tax state can result in significant tax savings, particularly for high-income business owners and real estate investors. However, you must establish genuine domicile in the new state, which the IRS and your former state may scrutinize closely. Factors include where you spend the majority of your time, where your business operates, voter registration, driver's license, and other ties. AE Tax Advisors can model the projected savings from relocation and advise on how to establish domicile properly to withstand a residency audit.</p>
-        </div>
-    </div>
-
-    <div class="faq-section">
-        <h2>Amended Returns and IRS</h2>
-
-        <div class="faq-item">
-            <h3>How far back can I amend my tax returns?</h3>
-            <p>Under IRC section 6511, you can generally amend a tax return within 3 years from the date of filing or 2 years from the date of payment, whichever is later. For most taxpayers who file on time, this means you can amend returns for the prior three tax years. However, certain strategies have no time limit -- most notably, depreciation changes filed on Form 3115 (Application for Change in Accounting Method) can capture catch-up depreciation from any prior year and apply it as a section 481(a) adjustment in the current year without amending prior returns. AE Tax Advisors' 3-Year Tax Lookback is specifically designed to identify amendable opportunities within the statute of limitations window and to apply Form 3115 strategies where applicable.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How long does the IRS take to process amended returns?</h3>
-            <p>The IRS typically takes 16 to 20 weeks to process an electronically filed Form 1040-X (Amended U.S. Individual Income Tax Return). Paper-filed amendments can take longer, sometimes exceeding 6 months during periods of high volume. Refunds resulting from amended returns are issued after processing is complete and may be delivered by check or direct deposit depending on how the amendment was filed. AE Tax Advisors tracks all amendments through completion and monitors IRS processing status on behalf of clients to ensure timely resolution. If additional information is requested by the IRS, the team responds promptly to avoid delays.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Can I amend state returns as well as federal?</h3>
-            <p>Yes. In most cases, when a federal return is amended, the corresponding state returns must also be amended to reflect the changes. Each state has its own amendment form, filing deadline, and processing timeline. Some states require the amendment to be filed within a specific period (often 90 days to one year) after the federal change is finalized. Failure to amend state returns when required can result in penalties, interest, and inconsistencies that may trigger state audit inquiries. AE Tax Advisors files all necessary state amendments alongside federal amendments as a standard part of the engagement, ensuring full compliance across all jurisdictions.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What if my prior CPA made errors on my returns?</h3>
-            <p>AE Tax Advisors regularly identifies errors from prior preparers during the 3-Year Tax Lookback process. Common errors include missed deductions for home office, vehicle use, and business expenses; incorrect entity elections or failure to elect S-Corp status when beneficial; improper income classification between ordinary income and self-employment income; overlooked tax credits such as the R&D credit or energy-efficient property credits; and failure to perform cost segregation studies on eligible properties. When errors are found, AE Tax files corrective amended returns and, where applicable, Form 3115 for accounting method changes to capture the full benefit of previously missed depreciation. Many clients recover tens of thousands of dollars through this process.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Can I amend my tax return for a bigger refund?</h3>
-            <p>Yes. If your original return contained errors, missed deductions, or overlooked credits, you can file an amended return (Form 1040-X) to claim a larger refund. Common reasons for amending include missed cost segregation deductions, failure to claim retirement plan contributions, incorrect entity elections, and overlooked business expenses. AE Tax Advisors' 3-Year Tax Lookback is specifically designed to find these opportunities. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What triggers an IRS audit?</h3>
-            <p>Common IRS audit triggers for business owners include high deduction-to-income ratios that fall outside statistical norms, unreported income (especially when third-party forms like 1099s do not match the return), large charitable contributions relative to income, aggressive home office deductions, cash-intensive businesses with limited documentation, and Schedule C losses claimed year after year. Filing certain forms such as Form 3115 or claiming the Research and Development credit can also attract scrutiny, though neither is a reason to avoid legitimate strategies. The best defense against an audit is proper documentation, consistent record-keeping, and tax positions supported by specific IRC authority. AE Tax Advisors builds every strategy with audit defensibility as a core requirement.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What should I do if I get audited?</h3>
-            <p>The most important step is to get professional representation before responding to the IRS. Do not attempt to handle an audit on your own. AE Tax Advisors provides full audit defense through enrolled agents and CPAs authorized to practice before the IRS under Treasury Circular 230. The team responds to all IRS requests, prepares supporting documentation, and represents you throughout the examination process so you do not have to interact with the IRS directly. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is the QBI deduction?</h3>
-            <p>The Qualified Business Income (QBI) deduction under IRC section 199A allows eligible owners of pass-through entities -- including S-Corps, partnerships, and sole proprietorships -- to deduct up to 20% of their qualified business income. The deduction is subject to income limits for specified service trades or businesses (SSTBs) and W-2 wage/property basis limitations at higher income levels. AE Tax Advisors structures entities and income to maximize the QBI deduction for every eligible client. Call (631) 614-5762 or visit our contact page to learn more.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How does AE Tax Advisors defend cost segregation studies in an audit?</h3>
-            <p>AE Tax Advisors produces audit-ready cost segregation studies that are built to withstand IRS examination. Each study includes engineering-based analysis performed according to accepted methodologies, component-level detail with individual asset identification and classification, photographic documentation of the property and its components, supporting depreciation schedules with MACRS class life assignments, and references to the IRS Cost Segregation Audit Technique Guide. In the event of an audit, the firm provides full audit defense support, including responding to IRS information requests, preparing supporting documentation, and representing the client throughout the examination process. The firm's studies are designed to meet the same standards the IRS itself uses to evaluate cost segregation claims.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is the difference between an IRS audit and a notice?</h3>
-            <p>An IRS notice is typically an automated letter generated by the IRS computer system regarding a specific item on your return. Common notices include the CP2000 (proposed changes due to income discrepancies), CP504 (balance due), and CP2501 (information request). These are generally narrow in scope and can often be resolved with a written response and supporting documentation. An audit (formally called an examination) is a comprehensive review of your return by an IRS agent that may cover multiple items, require extensive documentation, and involve in-person meetings. AE Tax Advisors handles both types of IRS contact. Most notices can be resolved quickly through proper documentation without escalation to a full examination.</p>
-        </div>
-    </div>
-
-    <div class="faq-section">
-        <h2>Bookkeeping Services</h2>
-
-        <div class="faq-item">
-            <h3>Does AE Tax Advisors offer bookkeeping services?</h3>
-            <p>Yes. AE Tax Advisors provides monthly bookkeeping and financial statement preparation as part of or in addition to the annual advisory engagement. Clean, accurate books are essential for effective tax planning because they provide the real-time financial data needed to make informed strategic decisions throughout the year. The bookkeeping service includes transaction categorization, bank and credit card reconciliation, monthly profit and loss statements, and balance sheet preparation. Having bookkeeping and tax planning under one roof ensures that every transaction is classified with your tax strategy in mind from day one.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Do you use QuickBooks Online or Xero?</h3>
-            <p>AE Tax Advisors primarily works with QuickBooks Online (QBO), which is the preferred platform for its robust integration capabilities, real-time reporting features, and compatibility with the firm's advisory tools. The team can also support clients using Xero or other cloud-based accounting platforms. If a client is currently using a different system, the team will evaluate the platform and recommend the best fit based on the client's business type, complexity, and reporting needs. For new clients without an existing accounting system, AE Tax will set up and configure QuickBooks Online as part of the onboarding process.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How does your bookkeeping integrate with tax planning?</h3>
-            <p>AE Tax Advisors' bookkeeping service is strategy-aware, meaning the team classifies every transaction with your specific tax plan in mind. This includes proper categorization of deductible expenses, accurate tracking of basis in assets for depreciation and disposition purposes, segregation of personal versus business expenses, and documentation of IRC-cited strategies such as the home office deduction, vehicle use, and meals and entertainment. The result is a set of books that not only produces accurate financial statements but also supports your tax return positions and makes quarterly tax planning sessions more efficient and actionable. This integrated approach eliminates the disconnect that often exists when bookkeeping and tax planning are handled by separate providers.</p>
-        </div>
-    </div>
-
-    <div class="faq-section">
-        <h2>Client Onboarding</h2>
-
-        <div class="faq-item">
-            <h3>What documents do I need for the discovery call?</h3>
-            <p>No documents are needed for the initial discovery call. The first conversation is focused on understanding your business structure, income sources, real estate portfolio, current tax situation, and financial goals. It is a two-way conversation designed to determine whether AE Tax Advisors is the right fit for your needs. After the discovery call, if you choose to move forward with the engagement, the team will request specific documents including your last 3 years of federal and state tax returns, K-1 schedules, property closing statements (HUD-1 or settlement statements), entity formation documents, and any existing cost segregation studies or appraisals.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How long does onboarding take?</h3>
-            <p>From signing the engagement letter to receiving your completed strategic tax plan, the onboarding process typically takes 2 to 4 weeks. During this time, you will upload your tax documents through a secure portal, complete an onboarding questionnaire detailing your business operations and financial goals, and participate in an in-depth strategy session with your dedicated advisor. The timeline depends primarily on how quickly documents are provided -- clients who have their records organized and submit documents promptly often receive their tax plan within 2 weeks. AE Tax Advisors provides a clear onboarding checklist and the team follows up to keep the process on track.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What should I expect in the first 90 days as a client?</h3>
-            <p>The first 90 days of your AE Tax Advisors engagement are structured for maximum impact. Within the first 30 days, your 3-Year Tax Lookback will be completed and your custom strategic tax plan will be delivered, identifying every actionable opportunity across entity structuring, depreciation, retirement plans, and prior-year amendments. Within 60 days, implementation of your first-priority strategies begins -- this may include S-Corp elections (Form 2553), accounting method changes (Form 3115), retirement plan establishment, amended return filings, and cost segregation study initiation. Within 90 days, you will have your first quarterly check-in with your advisor to review progress, assess implemented strategies, and adjust projections for the remainder of the year.</p>
-        </div>
-    </div>
-
-    <div class="faq-section">
-        <h2>Year-End Tax Planning</h2>
-
-        <div class="faq-item">
-            <h3>When should I start year-end tax planning?</h3>
-            <p>Ideally, year-end tax planning should begin by September or October at the latest, but the earlier you start, the more options are available. AE Tax Advisors' quarterly check-in model means that year-end planning is not a last-minute scramble but rather a natural progression of the ongoing advisory relationship. Key year-end considerations include maximizing retirement plan contributions, evaluating whether to accelerate or defer income and expenses, making S-Corp distribution decisions, finalizing estimated tax payments, and identifying assets eligible for bonus depreciation. Waiting until December severely limits the strategies available, so proactive planning throughout the year is essential.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is the deadline for estimated tax payments?</h3>
-            <p>Estimated tax payments for individuals and most business owners are due quarterly on April 15, June 15, September 15, and January 15 of the following year. If any deadline falls on a weekend or holiday, it moves to the next business day. Underpayment penalties under IRC section 6654 apply if you do not pay at least 90% of your current-year tax liability or 110% of your prior-year tax liability (the 110% threshold applies to taxpayers with adjusted gross income exceeding $150,000, or $75,000 if married filing separately). AE Tax Advisors calculates estimated payments as part of the quarterly check-in process and provides vouchers with specific payment amounts to ensure clients remain in compliance and avoid penalties.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is the deadline to make an S-Corp election?</h3>
-            <p>Form 2553 (Election by a Small Business Corporation) must be filed by March 15 for a calendar-year corporation to have the S-Corp election effective for that tax year. For newly formed entities, the election must be filed within 75 days of the entity's formation date. If the deadline is missed, late election relief is available under Revenue Procedure 2013-30, which allows the election to be filed within 3 years and 75 days of the intended effective date, provided the entity has been reporting consistently as an S-Corp and reasonable cause exists for the late filing. AE Tax Advisors regularly files both timely and late S-Corp elections and has extensive experience obtaining IRS approval under the late election relief provisions.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>What retirement plan contribution deadlines should I know?</h3>
-            <p>Retirement plan contribution deadlines vary by plan type and contribution category. For Solo 401(k) and SEP-IRA plans, employer contributions are due by the tax return filing deadline, including extensions (typically October 15 for calendar-year filers who extend). Employee elective deferrals into a Solo 401(k) must be made by December 31 of the plan year. Defined benefit plans must be established by December 31 of the year for which contributions will be claimed, but the contributions themselves can be made up to the tax filing deadline including extensions. SIMPLE IRA employer matches are due by the tax filing deadline. AE Tax Advisors coordinates contribution timing with each client's overall tax strategy to ensure maximum deductions are captured within the applicable deadlines.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Can I still reduce my taxes after December 31?</h3>
-            <p>Yes, several strategies remain available after the calendar year ends. Retirement plan contributions for SEP-IRA and Solo 401(k) employer contributions can be made up to the tax return filing deadline, including extensions. Cost segregation studies can be performed retroactively on properties placed in service in any prior year, with catch-up depreciation claimed in the current year through Form 3115. Health Savings Account (HSA) contributions for the prior year can be made up to the April 15 filing deadline. Amended returns can be filed to correct errors on previously filed returns within the statute of limitations. AE Tax Advisors' engagement begins with identifying both current-year and prior-year opportunities, ensuring that no available strategy is left on the table regardless of when the engagement starts.</p>
-        </div>
-    </div>
-
-    <section class="cta-section">
+    <section class="faq-cta">
         <h2>Ready to Reduce Your Tax Burden?</h2>
         <p>Schedule a free discovery call to learn how AE Tax Advisors can help you keep more of what you earn.</p>
-        <a href="/contact" class="cta-button">Schedule Your Free Discovery Call</a>
+        <a href="/discovery/" class="btn-cta btn-lg">Schedule Your Free Discovery Call</a>
     </section>
 
-    <footer class="footer">
-        <p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762 | team@aetaxadvisors.com</p>
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col footer-brand">
+                <a href="/" class="footer-logo"><img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="60" style="object-fit: contain;"></a>
+                <p>Advanced tax strategies for business owners and real estate investors.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/company/ae-tax-advisors" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Twitter/X">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="https://www.reddit.com/r/AETaxAdvisors/" target="_blank" rel="noopener" aria-label="Join our community on Reddit">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+                    </a>
+                </div>
+                <div class="footer-trust-badges">
+                    <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
+                    <span class="trust-badge">&#9989; Licensed CPAs</span>
+                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+                    <a href="https://gusto.com/partners/directory/profiles/ae-tax-advisors" target="_blank" rel="noopener" class="trust-badge" style="text-decoration:none;color:rgba(255,255,255,0.5);">&#9989; Gusto Partner</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+                <a href="/discovery/">Request a Consultation</a>
+                <a href="/about/">About Us</a>
+                <a href="/bios/">Our Team</a>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="/business-owner-small-business-tax/">Business Tax Services</a>
+                <a href="/real-estate-tax-planning/">Real Estate Tax Planning</a>
+                <a href="/short-term-rental-tax-strategy/">STR Tax Strategy</a>
+                <a href="/rental-property-tax-planning/">Rental Property Tax Planning</a>
+                <a href="/cost-segregation-study/">Cost Segregation Study</a>
+                <a href="/real-estate-investor-cpa/">CPA for RE Investors</a>
+                <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
+                <a href="/tax-compliance-irs-representation/">Tax Compliance &amp; IRS</a>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <a href="/blog/">Blog</a>
+                <a href="/case-studies/">Case Studies</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/guides/">Guides &amp; Whitepapers</a>
+                <a href="/glossary/">Glossary of Tax Terms</a>
+                <a href="/books/">Books</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p class="footer-address">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
+                <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
+                <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+                <h4 style="margin-top:20px">Legal</h4>
+                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/terms-of-service/">Terms of Service</a>
+                <a href="/disclaimer/">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762</p>
+        </div>
     </footer>
+
+    <section class="sticky-cta">
+        <div class="sticky-inner">
+            <p>Are You Leaving Tax Savings on the Table?</p>
+            <a href="/discovery/" class="btn-cta">Get Your Free Tax Assessment</a>
+        </div>
+    </section>
+
+    <script>
+    // FAQ Accordion functionality
+    (function(){
+        document.addEventListener('DOMContentLoaded', function(){
+            var accordions = document.querySelectorAll('.faq-accordion');
+            accordions.forEach(function(acc){
+                var btn = acc.querySelector('.faq-question');
+                btn.addEventListener('click', function(){
+                    var isActive = acc.classList.contains('active');
+                    // Close all others in the same category
+                    var category = acc.closest('.faq-category');
+                    if(category){
+                        category.querySelectorAll('.faq-accordion.active').forEach(function(other){
+                            if(other !== acc){
+                                other.classList.remove('active');
+                            }
+                        });
+                    }
+                    acc.classList.toggle('active');
+                });
+            });
+        });
+    })();
+    </script>
+
+    <script>
+    // Scroll fade-in animations
+    (function(){
+        var observer = new IntersectionObserver(function(entries){
+            entries.forEach(function(e){
+                if(e.isIntersecting){
+                    e.target.classList.add('fade-in-visible');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'});
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelectorAll('.fade-in-section').forEach(function(el){ observer.observe(el); });
+        });
+    })();
+    </script>
 </body>
 </html>
