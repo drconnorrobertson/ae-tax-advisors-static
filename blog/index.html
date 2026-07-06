@@ -154,7 +154,7 @@
     <section class="blog-index-section">
         <div class="container">
             <div class="blog-filter-bar">
-                <button class="blog-filter active" data-filter="all">All Articles (440)</button>
+                <button class="blog-filter active" data-filter="all">All Articles (465)</button>
                 <button class="blog-filter" data-filter="Tax Planning &amp; Strategy">Tax Strategy</button>
                 <button class="blog-filter" data-filter="Real Estate &amp; Depreciation">Real Estate</button>
                 <button class="blog-filter" data-filter="Business Tax Strategy">Business Tax</button>
@@ -173,7 +173,7 @@
                 <button class="blog-filter" onclick="filterBlog('Business Owners')">Business Owners</button>
                 <button class="blog-filter" onclick="filterBlog('IRS Compliance')">IRS Compliance</button>
             </div>
-            <div class="blog-index-grid" id="blogGrid" id="blogGrid">
+            <div class="blog-index-grid" id="blogGrid">
                 <a href="/blog/mid-year-tax-planning-business-owners-2026/" class="blog-index-card" data-categories="Business Tax Strategy Business Owners">
                     <div class="blog-card-category blog-badge">Business Tax Strategy</div>
                     <h3>Mid-Year Tax Planning for Business Owners: The Moves That Matter in the Second Half of 2026</h3>
@@ -2972,9 +2972,6 @@
                     <span class="blog-card-date">June 5, 2023</span>
                 </a>
             </div>
-            <div class="blog-load-more" id="loadMore" style="display:none;">
-                <button class="btn-secondary" onclick="loadMorePosts()">Load More Articles</button>
-            </div>
         </div>
     </section>
 
@@ -3867,12 +3864,10 @@
     (function(){
         var grid = document.getElementById('blogGrid');
         var cards = Array.from(grid.children);
-        var VISIBLE = 24;
-        var showing = VISIBLE;
 
         function filterCards(category){
-            showing = VISIBLE;
             cards.forEach(function(c){
+                var cats = (c.getAttribute('data-categories') || '').toLowerCase();
                 var cat = c.querySelector('.blog-card-category');
                 var catText = cat ? cat.textContent : '';
                 if(category === 'all'){
@@ -3880,119 +3875,34 @@
                 } else if(category === 'Case Study'){
                     c.style.display = cat && cat.classList.contains('case-study-badge') ? '' : 'none';
                 } else {
-                    c.style.display = catText === category ? '' : 'none';
+                    c.style.display = (catText === category || cats.indexOf(category.toLowerCase()) !== -1) ? '' : 'none';
                 }
             });
-            updateVisibility();
         }
-
-        function updateVisibility(){
-            var visibleCards = cards.filter(function(c){ return c.style.display !== 'none'; });
-            visibleCards.forEach(function(c, i){
-                c.style.display = i < showing ? '' : 'none';
-            });
-            document.getElementById('loadMore').style.display = visibleCards.length > showing ? '' : 'none';
-        }
-
-        window.loadMorePosts = function(){
-            showing += VISIBLE;
-            updateVisibility();
-        };
 
         document.querySelectorAll('.blog-filter').forEach(function(btn){
             btn.addEventListener('click', function(){
                 document.querySelectorAll('.blog-filter').forEach(function(b){ b.classList.remove('active'); });
                 btn.classList.add('active');
-                // Reset visibility first
-                cards.forEach(function(c){ c.style.display = ''; });
                 var filter = btn.getAttribute('data-filter');
-                filterCards(filter === 'all' ? 'all' : btn.textContent.includes('Case') ? 'Case Study' : filter);
+                if(filter){
+                    filterCards(filter);
+                } else {
+                    var cat = btn.textContent.trim();
+                    filterCards(cat === 'All' ? 'all' : cat);
+                }
             });
         });
 
-        // Initial limit
-        updateVisibility();
-    })();
-    </script>
-
-    <script>
-    (function() {
-        var POSTS_PER_PAGE = 30;
-        var currentPage = 1;
-        var currentFilter = 'all';
-        
-        function filterBlog(category) {
-            currentFilter = category;
-            currentPage = 1;
-            var cards = document.querySelectorAll('.blog-index-card');
-            var shown = 0;
-            cards.forEach(function(card) {
-                var cats = (card.getAttribute('data-categories') || '').toLowerCase();
-                var match = category === 'all' || cats.indexOf(category.toLowerCase()) !== -1;
-                if (match && shown < POSTS_PER_PAGE) {
-                    card.style.display = '';
-                    shown++;
-                } else if (match) {
-                    card.style.display = 'none';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-            // Update active filter button
+        window.filterBlog = function(category) {
+            filterCards(category === 'all' ? 'all' : category);
             document.querySelectorAll('.blog-filter').forEach(function(btn) {
                 btn.classList.remove('active');
-                if (btn.textContent.trim() === category || (category === 'all' && btn.textContent.trim() === 'All')) {
+                if(btn.textContent.trim() === category || (category === 'all' && (btn.textContent.trim() === 'All' || btn.textContent.indexOf('All Articles') !== -1))) {
                     btn.classList.add('active');
                 }
             });
-            // Show/hide load more
-            var total = document.querySelectorAll('.blog-index-card[data-categories' + (category === 'all' ? '' : '*="' + category + '"') + ']').length;
-            var loadMoreBtn = document.getElementById('blogLoadMore');
-            if (loadMoreBtn) {
-                loadMoreBtn.style.display = shown < countMatching(category) ? '' : 'none';
-            }
-        }
-        
-        function countMatching(category) {
-            var cards = document.querySelectorAll('.blog-index-card');
-            var count = 0;
-            cards.forEach(function(card) {
-                var cats = (card.getAttribute('data-categories') || '').toLowerCase();
-                if (category === 'all' || cats.indexOf(category.toLowerCase()) !== -1) count++;
-            });
-            return count;
-        }
-        
-        function loadMore() {
-            currentPage++;
-            var cards = document.querySelectorAll('.blog-index-card');
-            var matching = 0;
-            var shown = 0;
-            cards.forEach(function(card) {
-                var cats = (card.getAttribute('data-categories') || '').toLowerCase();
-                var match = currentFilter === 'all' || cats.indexOf(currentFilter.toLowerCase()) !== -1;
-                if (match) {
-                    matching++;
-                    if (matching <= currentPage * POSTS_PER_PAGE) {
-                        card.style.display = '';
-                        shown++;
-                    }
-                }
-            });
-            var loadMoreBtn = document.getElementById('blogLoadMore');
-            if (loadMoreBtn && shown >= countMatching(currentFilter)) {
-                loadMoreBtn.style.display = 'none';
-            }
-        }
-        
-        // Initial page load: show first batch
-        window.addEventListener('DOMContentLoaded', function() {
-            filterBlog('all');
-        });
-        
-        // Expose functions globally
-        window.filterBlog = filterBlog;
-        window.loadMore = loadMore;
+        };
     })();
     </script>
 
