@@ -961,9 +961,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/how-to-depreciate-furnished-rentals/index.html",
       "url": "https://aetaxadvisors.com/blog/how-to-depreciate-furnished-rentals/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-06"
     },
     {
       "slug": "entity-structuring-rental-property-portfolios",
@@ -973,9 +973,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/entity-structuring-rental-property-portfolios/index.html",
       "url": "https://aetaxadvisors.com/blog/entity-structuring-rental-property-portfolios/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-06"
     },
     {
       "slug": "when-to-convert-llc-to-s-corp",
