@@ -985,9 +985,9 @@
       "category": "Entity Structuring and Planning",
       "path": "/blog-staging/when-to-convert-llc-to-s-corp/index.html",
       "url": "https://aetaxadvisors.com/blog/when-to-convert-llc-to-s-corp/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-07"
     },
     {
       "slug": "multi-entity-structures-liability-protection",
@@ -997,9 +997,9 @@
       "category": "Entity Structuring and Planning",
       "path": "/blog-staging/multi-entity-structures-liability-protection/index.html",
       "url": "https://aetaxadvisors.com/blog/multi-entity-structures-liability-protection/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-07"
     },
     {
       "slug": "operating-agreement-asset-protection-provisions",
