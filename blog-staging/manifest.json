@@ -1009,9 +1009,9 @@
       "category": "Entity Structuring and Planning",
       "path": "/blog-staging/operating-agreement-asset-protection-provisions/index.html",
       "url": "https://aetaxadvisors.com/blog/operating-agreement-asset-protection-provisions/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-08"
     },
     {
       "slug": "augusta-rule-irc-280a-business-owners",
@@ -1021,9 +1021,9 @@
       "category": "Entity Structuring and Planning",
       "path": "/blog-staging/augusta-rule-irc-280a-business-owners/index.html",
       "url": "https://aetaxadvisors.com/blog/augusta-rule-irc-280a-business-owners/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-08"
     },
     {
       "slug": "retirement-plan-strategies-s-corp-owners",
