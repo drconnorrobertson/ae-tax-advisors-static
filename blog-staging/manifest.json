@@ -1033,9 +1033,9 @@
       "category": "Entity Structuring and Planning",
       "path": "/blog-staging/retirement-plan-strategies-s-corp-owners/index.html",
       "url": "https://aetaxadvisors.com/blog/retirement-plan-strategies-s-corp-owners/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-09"
     },
     {
       "slug": "estimated-tax-payment-strategies-business-owners",
@@ -1045,9 +1045,9 @@
       "category": "Entity Structuring and Planning",
       "path": "/blog-staging/estimated-tax-payment-strategies-business-owners/index.html",
       "url": "https://aetaxadvisors.com/blog/estimated-tax-payment-strategies-business-owners/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-09"
     },
     {
       "slug": "tax-planning-is-not-tax-preparation",

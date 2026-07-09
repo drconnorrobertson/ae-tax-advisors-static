@@ -4330,4 +4330,16 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+  <url>
+    <loc>https://aetaxadvisors.com/blog/retirement-plan-strategies-s-corp-owners/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aetaxadvisors.com/blog/estimated-tax-payment-strategies-business-owners/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
