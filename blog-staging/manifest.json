@@ -1057,9 +1057,9 @@
       "category": "Entity Structuring and Planning",
       "path": "/blog-staging/tax-planning-is-not-tax-preparation/index.html",
       "url": "https://aetaxadvisors.com/blog/tax-planning-is-not-tax-preparation/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-10"
     },
     {
       "slug": "how-to-evaluate-tax-advisor",
@@ -1069,9 +1069,9 @@
       "category": "Entity Structuring and Planning",
       "path": "/blog-staging/how-to-evaluate-tax-advisor/index.html",
       "url": "https://aetaxadvisors.com/blog/how-to-evaluate-tax-advisor/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-10"
     },
     {
       "slug": "irc-1041-tax-free-spousal-transfers",
