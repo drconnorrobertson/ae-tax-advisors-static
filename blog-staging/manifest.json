@@ -1081,9 +1081,9 @@
       "category": "Divorce and Business",
       "path": "/blog-staging/irc-1041-tax-free-spousal-transfers/index.html",
       "url": "https://aetaxadvisors.com/blog/irc-1041-tax-free-spousal-transfers/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-11"
     },
     {
       "slug": "filing-status-optimization-during-separation",
@@ -1093,9 +1093,9 @@
       "category": "Divorce and Business",
       "path": "/blog-staging/filing-status-optimization-during-separation/index.html",
       "url": "https://aetaxadvisors.com/blog/filing-status-optimization-during-separation/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-11"
     },
     {
       "slug": "mfs-vs-mfj-analysis-divorcing-couples",
