@@ -4366,4 +4366,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://aetaxadvisors.com/blog/mfs-vs-mfj-analysis-divorcing-couples/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aetaxadvisors.com/blog/innocent-spouse-relief-irc-6015/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

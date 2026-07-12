@@ -1106,8 +1106,8 @@
       "path": "/blog-staging/mfs-vs-mfj-analysis-divorcing-couples/index.html",
       "url": "https://aetaxadvisors.com/blog/mfs-vs-mfj-analysis-divorcing-couples/",
       "status": "staged",
-      "published": false,
-      "published_date": null
+      "published": true,
+      "published_date": "2026-07-12"
     },
     {
       "slug": "innocent-spouse-relief-irc-6015",
@@ -1118,8 +1118,8 @@
       "path": "/blog-staging/innocent-spouse-relief-irc-6015/index.html",
       "url": "https://aetaxadvisors.com/blog/innocent-spouse-relief-irc-6015/",
       "status": "staged",
-      "published": false,
-      "published_date": null
+      "published": true,
+      "published_date": "2026-07-12"
     },
     {
       "slug": "business-valuation-divorce-proceedings",
