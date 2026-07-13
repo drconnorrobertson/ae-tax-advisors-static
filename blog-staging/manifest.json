@@ -1129,9 +1129,9 @@
       "category": "Divorce and Business",
       "path": "/blog-staging/business-valuation-divorce-proceedings/index.html",
       "url": "https://aetaxadvisors.com/blog/business-valuation-divorce-proceedings/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-13"
     },
     {
       "slug": "protecting-s-corp-basis-during-divorce",
@@ -1141,9 +1141,9 @@
       "category": "Divorce and Business",
       "path": "/blog-staging/protecting-s-corp-basis-during-divorce/index.html",
       "url": "https://aetaxadvisors.com/blog/protecting-s-corp-basis-during-divorce/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-13"
     },
     {
       "slug": "community-property-vs-separate-property-business",
