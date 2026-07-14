@@ -1153,9 +1153,9 @@
       "category": "Divorce and Business",
       "path": "/blog-staging/community-property-vs-separate-property-business/index.html",
       "url": "https://aetaxadvisors.com/blog/community-property-vs-separate-property-business/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-14"
     },
     {
       "slug": "post-divorce-entity-restructuring",
@@ -1165,9 +1165,9 @@
       "category": "Divorce and Business",
       "path": "/blog-staging/post-divorce-entity-restructuring/index.html",
       "url": "https://aetaxadvisors.com/blog/post-divorce-entity-restructuring/",
-      "status": "staged",
-      "published": false,
-      "published_date": null
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-14"
     },
     {
       "slug": "material-participation-tests-str-owners-irc-469",
