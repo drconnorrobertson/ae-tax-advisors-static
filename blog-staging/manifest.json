@@ -1177,8 +1177,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/material-participation-tests-str-owners-irc-469/index.html",
       "url": "https://aetaxadvisors.com/blog/material-participation-tests-str-owners-irc-469/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-15"
     },
     {
       "slug": "str-loophole-7-day-rule-explained",
@@ -1188,8 +1189,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/str-loophole-7-day-rule-explained/index.html",
       "url": "https://aetaxadvisors.com/blog/str-loophole-7-day-rule-explained/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-15"
     },
     {
       "slug": "cost-segregation-airbnb-year-1-depreciation",
