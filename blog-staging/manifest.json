@@ -1202,7 +1202,8 @@
       "path": "/blog-staging/cost-segregation-airbnb-year-1-depreciation/index.html",
       "url": "https://aetaxadvisors.com/blog/cost-segregation-airbnb-year-1-depreciation/",
       "status": "staged",
-      "published": false
+      "published": true,
+      "published_date": "2026-07-20"
     },
     {
       "slug": "real-estate-professional-status-2026",
@@ -1213,7 +1214,8 @@
       "path": "/blog-staging/real-estate-professional-status-2026/index.html",
       "url": "https://aetaxadvisors.com/blog/real-estate-professional-status-2026/",
       "status": "staged",
-      "published": false
+      "published": true,
+      "published_date": "2026-07-20"
     },
     {
       "slug": "deducting-str-losses-against-w2-income",
