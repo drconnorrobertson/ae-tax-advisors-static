@@ -4423,4 +4423,17 @@
         <loc>https://aetaxadvisors.com/blog/real-estate-professional-status-2026/</loc>
         <lastmod>2026-07-20</lastmod>
     </url>
+
+  <url>
+    <loc>https://aetaxadvisors.com/blog/deducting-str-losses-against-w2-income/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aetaxadvisors.com/blog/entity-structuring-rental-property-portfolios-guide/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

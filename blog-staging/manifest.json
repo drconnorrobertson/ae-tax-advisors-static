@@ -1225,8 +1225,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/deducting-str-losses-against-w2-income/index.html",
       "url": "https://aetaxadvisors.com/blog/deducting-str-losses-against-w2-income/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-21"
     },
     {
       "slug": "entity-structuring-rental-property-portfolios-guide",
@@ -1236,8 +1237,9 @@
       "category": "Entity Structuring and Planning",
       "path": "/blog-staging/entity-structuring-rental-property-portfolios-guide/index.html",
       "url": "https://aetaxadvisors.com/blog/entity-structuring-rental-property-portfolios-guide/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-21"
     },
     {
       "slug": "1031-exchange-planning-timing-rules-mistakes",
