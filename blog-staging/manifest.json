@@ -1249,8 +1249,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/1031-exchange-planning-timing-rules-mistakes/index.html",
       "url": "https://aetaxadvisors.com/blog/1031-exchange-planning-timing-rules-mistakes/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-22"
     },
     {
       "slug": "landlord-guide-depreciation-27-5-vs-39-year",
@@ -1260,8 +1261,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/landlord-guide-depreciation-27-5-vs-39-year/index.html",
       "url": "https://aetaxadvisors.com/blog/landlord-guide-depreciation-27-5-vs-39-year/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-22"
     },
     {
       "slug": "cost-segregation-six-figure-tax-savings",
