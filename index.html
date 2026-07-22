@@ -819,39 +819,6 @@
         </div>
     </section>
 
-    <!-- Lead Magnet Modal -->
-    <div id="leadModal" class="lead-modal" style="display:none;">
-        <div class="lead-modal-overlay" onclick="closeLeadModal()"></div>
-        <div class="lead-modal-content">
-            <button class="lead-modal-close" onclick="closeLeadModal()" aria-label="Close">&times;</button>
-            <div class="lead-modal-icon">&#128214;</div>
-            <h3>Free: 7 Tax Strategies Business Owners and Real Estate Investors Should Know</h3>
-            <p>Download our complimentary guide covering the entity structuring, depreciation, and income offset strategies our clients use to reduce six-figure tax bills legally and compliantly.</p>
-            <a href="/discovery/" class="btn-cta btn-lg" style="width:100%;text-align:center;">Get the Free Guide</a>
-            <p class="lead-modal-disclaimer">No spam. Unsubscribe anytime. Your information is kept confidential.</p>
-        </div>
-    </div>
-    <script>
-    (function(){
-        var shown = false;
-        function showModal(){
-            if(shown) return;
-            shown = true;
-            document.getElementById('leadModal').style.display = 'flex';
-            document.body.style.overflow = 'hidden';
-        }
-        // Show after 8 seconds or 40% scroll
-        setTimeout(showModal, 8000);
-        window.addEventListener('scroll', function(){
-            if(window.scrollY > document.body.scrollHeight * 0.4) showModal();
-        });
-        window.closeLeadModal = function(){
-            document.getElementById('leadModal').style.display = 'none';
-            document.body.style.overflow = '';
-        };
-    })();
-    </script>
-
     <script>
     // Scroll fade-in animations
     (function(){

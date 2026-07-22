@@ -965,54 +965,6 @@ footer {
 }
 .sticky-cta p { font-weight: 600; color: var(--dark); font-size: 14px; }
 
-/* ===== LEAD MAGNET MODAL ===== */
-.lead-modal {
-    position: fixed;
-    inset: 0;
-    z-index: 9999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 24px;
-}
-.lead-modal-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.6);
-    backdrop-filter: blur(4px);
-}
-.lead-modal-content {
-    position: relative;
-    background: var(--white);
-    border-radius: 16px;
-    padding: 40px;
-    max-width: 480px;
-    width: 100%;
-    box-shadow: var(--shadow-lg);
-    text-align: center;
-}
-.lead-modal-close {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    background: none;
-    border: none;
-    font-size: 28px;
-    color: var(--medium);
-    cursor: pointer;
-    transition: color var(--transition);
-    line-height: 1;
-    width: 44px;
-    height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.lead-modal-close:hover { color: var(--dark); }
-.lead-modal-icon { font-size: 48px; margin-bottom: 16px; }
-.lead-modal-content h3 { font-family: var(--font-heading); font-size: 24px; margin-bottom: 12px; color: var(--dark); }
-.lead-modal-content p { color: var(--medium); font-size: 15px; margin-bottom: 20px; line-height: 1.6; }
-.lead-modal-disclaimer { font-size: 12px; color: var(--medium); margin-top: 12px; }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1100px) {
@@ -1076,7 +1028,6 @@ footer {
     input, button, select, textarea, .btn { min-height: 44px; }
     footer { padding-bottom: 60px; }
 
-    .lead-modal-content { padding: 28px 20px; }
     .featured-logos { gap: 8px; }
     .featured-sep { display: none; }
     .featured-item { font-size: 12px; }
