@@ -1273,8 +1273,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/cost-segregation-six-figure-tax-savings/index.html",
       "url": "https://aetaxadvisors.com/blog/cost-segregation-six-figure-tax-savings/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-23"
     },
     {
       "slug": "passive-activity-loss-rules-investor-guide",
@@ -1284,8 +1285,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/passive-activity-loss-rules-investor-guide/index.html",
       "url": "https://aetaxadvisors.com/blog/passive-activity-loss-rules-investor-guide/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-23"
     },
     {
       "slug": "self-rental-rules-business-rents-from-you",
