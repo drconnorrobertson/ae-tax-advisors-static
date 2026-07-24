@@ -1297,8 +1297,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/self-rental-rules-business-rents-from-you/index.html",
       "url": "https://aetaxadvisors.com/blog/self-rental-rules-business-rents-from-you/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-24"
     },
     {
       "slug": "grouping-elections-real-estate-irc-469",
@@ -1308,8 +1309,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/grouping-elections-real-estate-irc-469/index.html",
       "url": "https://aetaxadvisors.com/blog/grouping-elections-real-estate-irc-469/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-24"
     },
     {
       "slug": "bonus-depreciation-obbba-real-estate-changes",
