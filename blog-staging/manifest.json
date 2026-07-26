@@ -1345,8 +1345,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/augusta-rule-real-estate-investors-irc-280a/index.html",
       "url": "https://aetaxadvisors.com/blog/augusta-rule-real-estate-investors-irc-280a/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-26"
     },
     {
       "slug": "str-vs-ltr-which-saves-more-tax",
@@ -1356,8 +1357,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/str-vs-ltr-which-saves-more-tax/index.html",
       "url": "https://aetaxadvisors.com/blog/str-vs-ltr-which-saves-more-tax/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-26"
     },
     {
       "slug": "qualified-opportunity-zones-real-estate-2026",
