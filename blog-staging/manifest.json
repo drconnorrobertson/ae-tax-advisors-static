@@ -1369,8 +1369,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/qualified-opportunity-zones-real-estate-2026/index.html",
       "url": "https://aetaxadvisors.com/blog/qualified-opportunity-zones-real-estate-2026/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-27"
     },
     {
       "slug": "convert-primary-residence-to-rental-property",
@@ -1380,8 +1381,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/convert-primary-residence-to-rental-property/index.html",
       "url": "https://aetaxadvisors.com/blog/convert-primary-residence-to-rental-property/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-27"
     },
     {
       "slug": "real-estate-investor-estimated-tax-payments",
@@ -1391,8 +1393,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/real-estate-investor-estimated-tax-payments/index.html",
       "url": "https://aetaxadvisors.com/blog/real-estate-investor-estimated-tax-payments/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-28"
     },
     {
       "slug": "why-your-cpa-costing-money-rental-properties",
@@ -1402,8 +1405,9 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/why-your-cpa-costing-money-rental-properties/index.html",
       "url": "https://aetaxadvisors.com/blog/why-your-cpa-costing-money-rental-properties/",
-      "status": "staged",
-      "published": false
+      "status": "published",
+      "published": true,
+      "published_date": "2026-07-28"
     }
   ]
 }

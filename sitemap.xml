@@ -4695,4 +4695,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+    <url>
+        <loc>https://aetaxadvisors.com/blog/real-estate-investor-estimated-tax-payments/</loc>
+        <lastmod>2026-07-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://aetaxadvisors.com/blog/why-your-cpa-costing-money-rental-properties/</loc>
+        <lastmod>2026-07-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
