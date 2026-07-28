@@ -1369,9 +1369,8 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/qualified-opportunity-zones-real-estate-2026/index.html",
       "url": "https://aetaxadvisors.com/blog/qualified-opportunity-zones-real-estate-2026/",
-      "status": "published",
-      "published": true,
-      "published_date": "2026-07-27"
+      "status": "staged",
+      "published": false
     },
     {
       "slug": "convert-primary-residence-to-rental-property",
@@ -1381,9 +1380,8 @@
       "category": "Real Estate Investor Tax",
       "path": "/blog-staging/convert-primary-residence-to-rental-property/index.html",
       "url": "https://aetaxadvisors.com/blog/convert-primary-residence-to-rental-property/",
-      "status": "published",
-      "published": true,
-      "published_date": "2026-07-27"
+      "status": "staged",
+      "published": false
     },
     {
       "slug": "real-estate-investor-estimated-tax-payments",
