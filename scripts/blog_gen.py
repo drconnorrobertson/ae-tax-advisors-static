@@ -48,6 +48,33 @@ def esc(text):
     return html.escape(strip_tags(text), quote=True)
 
 
+def webpage_ld(a, url):
+    return {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": strip_tags(a["title"]),
+        "description": a["meta_desc"],
+        "url": url,
+        "datePublished": a["date"],
+        "dateModified": a["date"],
+        "inLanguage": "en-US",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "AE Tax Advisors",
+            "url": SITE,
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "AE Tax Advisors",
+            "logo": {"@type": "ImageObject", "url": f"{SITE}/assets/logo.svg"},
+        },
+        "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": f"{SITE}/assets/ae-tax-logo.png",
+        },
+    }
+
+
 def blogposting_ld(a, url):
     return {
         "@context": "https://schema.org",
@@ -124,8 +151,9 @@ def breadcrumb_ld(a):
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home",
              "item": f"{SITE}/"},
-            {"@type": "ListItem", "position": 2, "name": "Blog",
-             "item": f"{SITE}/blog/"},
+            {"@type": "ListItem", "position": 2,
+             "name": a.get("crumb_name", "Blog"),
+             "item": f"{SITE}/{a.get('crumb_path', 'blog')}/"},
             {"@type": "ListItem", "position": 3, "name": strip_tags(a["title"])},
         ],
     }
@@ -147,8 +175,13 @@ def word_count(a):
     return len(strip_tags(" ".join(parts)).split())
 
 
+def page_path(a):
+    """Slug may include a directory, e.g. "compare/foo" for a non-blog page."""
+    return a["slug"] if a.get("standalone") else f"blog/{a['slug']}"
+
+
 def render(a):
-    url = f"{SITE}/blog/{a['slug']}/"
+    url = f"{SITE}/{page_path(a)}/"
     mt = esc(a["meta_title"])
     md = esc(a["meta_desc"])
 
@@ -175,7 +208,8 @@ def render(a):
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/style.css">
 """
-    head += ld_block(blogposting_ld(a, url))
+    head += ld_block(webpage_ld(a, url) if a.get("standalone")
+                     else blogposting_ld(a, url))
     head += ld_block(PROFESSIONAL_SERVICE_LD)
     head += ld_block(faq_ld(a["faqs"]))
     head += ld_block(breadcrumb_ld(a))
@@ -187,10 +221,14 @@ def render(a):
         '    <main>\n',
         '    <section class="page-header"><div class="container">\n',
         f'        <div class="breadcrumbs"><a href="/">Home</a> &raquo; '
-        f'<a href="/blog/">Blog</a> &raquo; {title}</div>\n',
+        f'<a href="/{a.get("crumb_path", "blog")}/">'
+        f'{a.get("crumb_name", "Blog")}</a> &raquo; {title}</div>\n',
         f"            <h1>{title}</h1>\n",
-        f'        <p class="blog-meta">Published on {pretty_date(a["date"])} | '
-        f'{a["category"]} | AE Tax Advisors</p>\n',
+        (f'        <p class="blog-meta">{a["category"]} | Updated '
+         f'{pretty_date(a["date"])} | AE Tax Advisors</p>\n'
+         if a.get("standalone") else
+         f'        <p class="blog-meta">Published on {pretty_date(a["date"])} | '
+         f'{a["category"]} | AE Tax Advisors</p>\n'),
         "    </div></section>\n",
         '    <section class="content-section fade-in-section">'
         '<div class="container narrow">\n\n',
@@ -233,13 +271,13 @@ def render(a):
 
 
 def write(a, verbose=True):
-    out_dir = os.path.join(ROOT, "blog", a["slug"])
+    out_dir = os.path.join(ROOT, *page_path(a).split("/"))
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, "index.html")
     with open(path, "w") as fh:
         fh.write(render(a))
     if verbose:
-        print(f"{word_count(a):5d} words  blog/{a['slug']}/")
+        print(f"{word_count(a):5d} words  {page_path(a)}/")
     return path
 
 
