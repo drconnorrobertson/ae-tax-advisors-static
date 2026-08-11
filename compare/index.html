@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Tax Advisors and Cost Segregation Firms | AE Tax Advisors</title>
+    <meta name="description" content="Honest side-by-side comparisons of the leading tax advisory firms, cost segregation providers, and short-term rental programs, including where AE Tax Advisors is not the best fit.">
+    <link rel="canonical" href="https://aetaxadvisors.com/compare/">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta property="og:title" content="Compare Tax Advisors and Cost Segregation Firms | AE Tax Advisors">
+    <meta property="og:description" content="Honest side-by-side comparisons of the leading tax advisory firms, cost segregation providers, and short-term rental programs, including where AE Tax Advisors is not the best fit.">
+    <meta property="og:url" content="https://aetaxadvisors.com/compare/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="AE Tax Advisors">
+    <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Compare Tax Advisors and Cost Segregation Firms | AE Tax Advisors">
+    <meta name="twitter:description" content="Honest side-by-side comparisons of the leading tax advisory firms, cost segregation providers, and short-term rental programs, including where AE Tax Advisors is not the best fit.">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+    <style>
+    /* Scoped styles for comparison pages */
+    .cmp-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 28px 0; border-radius: var(--radius); box-shadow: var(--shadow-sm); }
+    table.cmp { width: 100%; min-width: 560px; border-collapse: collapse; background: var(--white); font-size: 15px; }
+    table.cmp caption { caption-side: top; text-align: left; font-size: 14px; color: var(--medium); padding: 0 0 10px; }
+    table.cmp th, table.cmp td { padding: 14px 16px; text-align: left; border-bottom: 1px solid #e6e8ec; vertical-align: top; }
+    table.cmp thead th { background: var(--primary); color: var(--white); font-weight: 600; font-size: 14px; letter-spacing: 0.01em; border-bottom: none; }
+    table.cmp thead th:last-child { background: #16233d; }
+    table.cmp tbody tr:nth-child(even) { background: var(--light-bg); }
+    table.cmp tbody td:first-child { font-weight: 600; color: var(--dark); }
+    table.cmp td.yes { color: #1a7f4b; font-weight: 600; }
+    table.cmp td.no { color: #b23b3b; font-weight: 600; }
+    table.cmp td.part { color: #8a6d1f; font-weight: 600; }
+    .cmp-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin: 28px 0 8px; }
+    .cmp-card { background: var(--light-bg); border-radius: var(--radius); padding: 28px; border-top: 4px solid var(--accent); }
+    .cmp-card h3 { font-family: var(--font-heading); font-size: 21px; color: var(--primary); margin-bottom: 4px; }
+    .cmp-card .cmp-role { font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--medium); margin-bottom: 16px; }
+    .cmp-card h4 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin: 18px 0 8px; color: var(--dark); }
+    .cmp-card ul { list-style: none; padding: 0; margin: 0; }
+    .cmp-card li { position: relative; padding: 6px 0 6px 24px; color: var(--medium); font-size: 15px; line-height: 1.6; }
+    .cmp-card li::before { position: absolute; left: 0; top: 6px; font-weight: 700; }
+    .cmp-card ul.pros li::before { content: "+"; color: #1a7f4b; }
+    .cmp-card ul.cons li::before { content: "\2013"; color: #b23b3b; }
+    .verdict { background: var(--light-bg); border-left: 4px solid var(--accent); border-radius: 0 var(--radius) var(--radius) 0; padding: 24px 28px; margin: 28px 0; }
+    .verdict h3 { font-size: 17px; margin-bottom: 8px; color: var(--primary); }
+    .verdict p { margin-bottom: 10px; }
+    .verdict p:last-child { margin-bottom: 0; }
+    .rank-list { list-style: none; padding: 0; margin: 28px 0 0; }
+    .rank-item { display: grid; grid-template-columns: 56px 1fr; gap: 20px; padding: 26px 0; border-top: 1px solid #e6e8ec; }
+    .rank-num { font-family: var(--font-heading); font-size: 32px; font-weight: 700; color: var(--accent); line-height: 1; }
+    .rank-item h3 { font-family: var(--font-heading); font-size: 22px; color: var(--primary); margin-bottom: 2px; }
+    .rank-meta { font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--medium); margin-bottom: 12px; }
+    .rank-item p { color: var(--medium); margin-bottom: 10px; }
+    .rank-item .rank-tag { display: inline-block; background: var(--light-bg); border-radius: 999px; padding: 4px 12px; font-size: 13px; color: var(--dark); margin: 2px 6px 2px 0; }
+    .booking-panel { background: var(--white); border-radius: var(--radius); padding: 36px; box-shadow: var(--shadow-md); max-width: 760px; margin: 32px auto 0; text-align: center; }
+    .booking-panel h3 { font-family: var(--font-heading); font-size: 22px; color: var(--primary); margin-bottom: 8px; }
+    .booking-panel > p { color: var(--medium); font-size: 14px; margin-bottom: 24px; }
+    .booking-panel iframe { width: 100%; height: 700px; border: none; border-radius: 8px; }
+    .related-links { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 24px; list-style: none; padding: 0; }
+    .related-links a { display: block; background: var(--light-bg); border-radius: var(--radius); padding: 16px 20px; color: var(--dark); font-weight: 600; font-size: 15px; transition: background var(--transition), color var(--transition); }
+    .related-links a:hover { background: var(--primary); color: var(--white); }
+    .disclosure { font-size: 13px; color: var(--medium); font-style: italic; border-top: 1px solid #e6e8ec; padding-top: 20px; margin-top: 32px; }
+    @media (max-width: 768px) {
+        .cmp-cards, .related-links { grid-template-columns: 1fr; }
+        .booking-panel { padding: 24px 16px; }
+        .booking-panel iframe { height: 800px; }
+        .rank-item { grid-template-columns: 40px 1fr; gap: 14px; }
+        .rank-num { font-size: 26px; }
+    }
+    </style>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Compare Tax Advisors and Cost Segregation Firms",
+        "description": "Honest side-by-side comparisons of the leading tax advisory firms, cost segregation providers, and short-term rental programs, including where AE Tax Advisors is not the best fit.",
+        "url": "https://aetaxadvisors.com/compare/",
+        "inLanguage": "en-US",
+        "publisher": {
+                "@type": "Organization",
+                "name": "AE Tax Advisors",
+                "url": "https://aetaxadvisors.com/",
+                "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://aetaxadvisors.com/assets/ae-tax-logo.png"
+                }
+        }
+}
+    </script>
+    <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://aetaxadvisors.com/"
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Compare",
+                        "item": "https://aetaxadvisors.com/compare/"
+                }
+        ]
+}
+    </script>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <a href="/" class="logo">
+            <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
+        </a>
+        <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+            <a href="/" class="nav-link">Home</a>
+            <div class="nav-dropdown">
+                <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content">
+                    <a href="/about/" class="dropdown-item">About AE Tax</a>
+                    <a href="/bios/" class="dropdown-item">Our Team</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content">
+                    <a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+                    <a href="/real-estate-tax-planning/" class="dropdown-item">Real Estate Tax Planning</a>
+                    <a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+                    <a href="/rental-property-tax-planning/" class="dropdown-item">Rental Property Tax Planning</a>
+                    <a href="/cost-segregation-study/" class="dropdown-item">Cost Segregation Study</a>
+                    <a href="/real-estate-investor-cpa/" class="dropdown-item">CPA for Real Estate Investors</a>
+                    <a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+                    <a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
+                    <a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+                    <a href="/crypto-mining-tax-strategy/" class="dropdown-item">Crypto Mining Tax Strategy</a>
+                    <a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies (Detailed)</a>
+                    <a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+                    <a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+                    <a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+                    <a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+                </div>
+            </div>
+            <a href="/case-studies/" class="nav-link">Case Studies</a>
+            <a href="/pricing/" class="nav-link">Pricing</a>
+            <div class="nav-dropdown">
+                <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content">
+                    <a href="/blog/" class="dropdown-item">Blog</a>
+                    <a href="/compare/" class="dropdown-item">Compare Firms</a>
+                    <a href="/faq/" class="dropdown-item">FAQ</a>
+                    <a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+                    <a href="/glossary/" class="dropdown-item">Glossary</a>
+                </div>
+            </div>
+            <a href="/contact/" class="nav-link">Contact Us</a>
+            <a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-header">
+        <div class="container narrow">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a> &rsaquo; <span>Compare</span>
+            </nav>
+            <h1>Compare Tax Advisors and Cost Segregation Firms</h1>
+            <p class="subtitle">Choosing a tax advisor is expensive to get wrong. These are honest, side-by-side comparisons of the firms real estate investors and business owners actually consider, including the situations where we are not the right answer.</p>
+            <div class="cta-buttons">
+                <a href="/discovery/" class="btn-cta btn-lg">Request Your Free Tax Assessment</a>
+            </div>
+        </div>
+    </section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Tax Advisory Firms</h2>
+            <div class="cmp-cards">
+                <div class="cmp-card">
+                    <h3><a href="/compare/tax-alchemy-vs-ae-tax/">Tax Alchemy vs AE Tax Advisors</a></h3>
+                    <p>Karlton Dennis's education-led model against a hands-on advisory practice.</p>
+                    <p><a href="/compare/tax-alchemy-vs-ae-tax/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+                <div class="cmp-card">
+                    <h3><a href="/compare/hall-cpa-vs-ae-tax/">Hall CPA vs AE Tax Advisors</a></h3>
+                    <p>The Real Estate CPA compared on cost segregation, pricing, and business-owner depth.</p>
+                    <p><a href="/compare/hall-cpa-vs-ae-tax/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+                <div class="cmp-card">
+                    <h3><a href="/compare/wcg-cpas-vs-ae-tax/">WCG CPAs vs AE Tax Advisors</a></h3>
+                    <p>S-Corp specialists versus real estate plus business owner advisory.</p>
+                    <p><a href="/compare/wcg-cpas-vs-ae-tax/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+                <div class="cmp-card">
+                    <h3><a href="/compare/mark-kohler-vs-ae-tax/">Mark Kohler vs AE Tax Advisors</a></h3>
+                    <p>Attorney-CPA legal structuring against end-to-end tax implementation.</p>
+                    <p><a href="/compare/mark-kohler-vs-ae-tax/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Cost Segregation Providers</h2>
+            <div class="cmp-cards">
+                <div class="cmp-card">
+                    <h3><a href="/compare/kbkg-vs-ae-tax/">KBKG vs AE Tax Advisors</a></h3>
+                    <p>National engineering firm versus in-house studies at $1 per square foot.</p>
+                    <p><a href="/compare/kbkg-vs-ae-tax/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+                <div class="cmp-card">
+                    <h3><a href="/compare/cssi-vs-ae-tax/">CSSI vs AE Tax Advisors</a></h3>
+                    <p>High-volume engineering-based studies versus study plus implementation.</p>
+                    <p><a href="/compare/cssi-vs-ae-tax/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+                <div class="cmp-card">
+                    <h3><a href="/compare/cost-seg-smart-vs-ae-tax/">Cost Seg Smart vs AE Tax Advisors</a></h3>
+                    <p>Online platform speed and price against a full advisory relationship.</p>
+                    <p><a href="/compare/cost-seg-smart-vs-ae-tax/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+                <div class="cmp-card">
+                    <h3><a href="/compare/re-cost-seg-vs-ae-tax/">RE Cost Seg vs AE Tax Advisors</a></h3>
+                    <p>Tech-enabled investor studies compared with study plus Form 3115 and filing.</p>
+                    <p><a href="/compare/re-cost-seg-vs-ae-tax/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Short-Term Rental Programs</h2>
+            <div class="cmp-cards">
+                <div class="cmp-card">
+                    <h3><a href="/compare/bnb-accelerator/">BNB Accelerator Review</a></h3>
+                    <p>What the program covers, and the STR tax strategy that sits alongside it.</p>
+                    <p><a href="/compare/bnb-accelerator/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+                <div class="cmp-card">
+                    <h3><a href="/compare/bnb-mastery-vs-bnb-accelerator/">BNB Mastery vs BNB Accelerator</a></h3>
+                    <p>Two STR programs compared, plus the tax layer neither one includes.</p>
+                    <p><a href="/compare/bnb-mastery-vs-bnb-accelerator/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Rankings</h2>
+            <div class="cmp-cards">
+                <div class="cmp-card">
+                    <h3><a href="/compare/best-cost-segregation-companies/">Best Cost Segregation Companies 2026</a></h3>
+                    <p>Nine providers ranked on pricing, engineering depth, turnaround, and implementation.</p>
+                    <p><a href="/compare/best-cost-segregation-companies/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+                <div class="cmp-card">
+                    <h3><a href="/compare/best-tax-advisors-real-estate/">Best Tax Advisors for Real Estate Investors 2026</a></h3>
+                    <p>Eight firms compared on cost seg, passive activity planning, and execution.</p>
+                    <p><a href="/compare/best-tax-advisors-real-estate/" class="card-link">Read the comparison &rsaquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="disclosure">Disclosure: this page is published by AE Tax Advisors, so we are not a neutral party. We have tried to describe the other firm accurately and fairly using their own public materials, and we say plainly where they are the better fit. Firm details, service menus, and pricing change -- verify anything that matters to your decision directly with the firm before you engage. Nothing here is tax advice for your specific situation.</p>
+        </div>
+    </section>
+    <section class="cta-section fade-in-section">
+        <div class="container">
+            <h2>Still Deciding? Talk to Us First.</h2>
+            <p>Book a free discovery call. We will review your entities, your properties, and your last three returns, and tell you plainly whether we are the right fit -- or which firm is.</p>
+            <div class="cta-buttons">
+                <a href="/discovery/" class="btn-cta btn-lg">Request Your Free Tax Assessment</a>
+                <a href="/contact/" class="btn-secondary btn-hero-secondary">Contact Us</a>
+            </div>
+
+                <div class="booking-panel">
+                    <h3>Book a Free Discovery Call</h3>
+                    <p>Pick a time below. We will review your situation, your entities, and your properties, and tell you plainly whether we can help.</p>
+                    <iframe src="https://api.leadconnectorhq.com/widget/booking/FggCeBoxIuOuZZrTaVV1" title="Book a discovery call with AE Tax Advisors" loading="lazy" scrolling="yes" frameborder="0"></iframe>
+                </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-col footer-brand">
+            <a href="/" class="footer-logo"><img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="60" style="object-fit: contain;"></a>
+            <p>Advanced tax strategies for business owners and real estate investors.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/company/ae-tax-advisors" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+                <a href="https://www.facebook.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Facebook">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </a>
+                <a href="https://twitter.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Twitter/X">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                    <a href="https://www.reddit.com/r/AETaxAdvisors/" target="_blank" rel="noopener" aria-label="Join our community on Reddit">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+                    </a>
+            </div>
+            <div class="footer-trust-badges">
+                <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
+                <span class="trust-badge">&#9989; Licensed CPAs</span>
+                <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+                    <a href="https://gusto.com/partners/directory/profiles/ae-tax-advisors" target="_blank" rel="noopener" class="trust-badge" style="text-decoration:none;color:rgba(255,255,255,0.5);">&#9989; Gusto Partner</a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+            <a href="/discovery/">Request a Consultation</a>
+            <a href="/about/">About Us</a>
+            <a href="/bios/">Our Team</a>
+            <a href="/compare/">Compare Firms</a>
+        </div>
+        <div class="footer-col">
+            <h4>Services</h4>
+            <a href="/business-owner-small-business-tax/">Business Tax Services</a>
+            <a href="/real-estate-tax-planning/">Real Estate Tax Planning</a>
+            <a href="/short-term-rental-tax-strategy/">STR Tax Strategy</a>
+            <a href="/rental-property-tax-planning/">Rental Property Tax Planning</a>
+            <a href="/cost-segregation-study/">Cost Segregation Study</a>
+            <a href="/real-estate-investor-cpa/">CPA for RE Investors</a>
+            <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
+            <a href="/tax-compliance-irs-representation/">Tax Compliance &amp; IRS</a>
+        </div>
+        <div class="footer-col">
+            <h4>Resources</h4>
+            <a href="/blog/">Blog</a>
+            <a href="/case-studies/">Case Studies</a>
+            <a href="/faq/">FAQ</a>
+            <a href="/guides/">Guides &amp; Whitepapers</a>
+            <a href="/glossary/">Glossary of Tax Terms</a>
+        </div>
+        <div class="footer-col">
+            <h4>Contact</h4>
+            <p class="footer-address">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
+            <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
+            <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+            <h4 style="margin-top:20px">Legal</h4>
+            <a href="/privacy-policy/">Privacy Policy</a>
+            <a href="/terms-of-service/">Terms of Service</a>
+            <a href="/disclaimer/">Disclaimer</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762</p>
+    </div>
+</footer>
+
+<section class="sticky-cta">
+    <div class="sticky-inner">
+        <p>Are You Leaving Tax Savings on the Table?</p>
+        <a href="/discovery/" class="btn-cta">Get Your Free Tax Assessment</a>
+    </div>
+</section>
+
+<script>
+(function(){
+    var observer = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){
+            if(e.isIntersecting){
+                e.target.classList.add('fade-in-visible');
+                observer.unobserve(e.target);
+            }
+        });
+    }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'});
+    document.addEventListener('DOMContentLoaded', function(){
+        document.querySelectorAll('.fade-in-section').forEach(function(el){ observer.observe(el); });
+    });
+})();
+</script>
+
+</body>
+</html>
