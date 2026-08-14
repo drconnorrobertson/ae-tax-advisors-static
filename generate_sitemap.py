@@ -1,31 +1,74 @@
-import os
-from datetime import datetime
+#!/usr/bin/env python3
+"""Regenerate sitemap.xml.
+
+Only canonical, indexable URLs are listed. Pages that canonicalize elsewhere
+(the blog-staging duplicates) are excluded so crawl budget goes to the real
+pages. lastmod comes from file mtime; priority and changefreq are derived from
+where the page sits in the site hierarchy.
+"""
+import re
+from datetime import date
 from pathlib import Path
 
-# Find all index.html files
-html_files = []
-for root, dirs, files in os.walk('.'):
-    if 'index.html' in files:
-        # Get the path relative to root
-        path = os.path.relpath(root, '.')
-        if path == '.':
-            url_path = '/'
-        else:
-            url_path = '/' + path.replace('./', '').replace(os.sep, '/') + '/'
-        html_files.append(url_path)
+BASE = "https://aetaxadvisors.com"
+OUT = Path("sitemap.xml")
 
-# Sort the URLs
-html_files.sort()
+PRIORITY = [
+    (re.compile(r"^$"), "1.0", "weekly"),
+    (re.compile(r"^(services|pricing|blog|case-studies|about|contact|discovery)$"), "0.9", "weekly"),
+    (re.compile(r"^(cost-segregation|real-estate|business-owner|advanced-tax|"
+                r"individual-tax|rental-property|tax-compliance)"), "0.9", "monthly"),
+    (re.compile(r"^blog/"), "0.7", "monthly"),
+    (re.compile(r"^(locations|case-studies)/"), "0.6", "monthly"),
+]
+DEFAULT = ("0.7", "monthly")
 
-# Generate sitemap
-print('<?xml version="1.0" encoding="UTF-8"?>')
-print('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
 
-for url_path in html_files:
-    print(f'  <url>')
-    print(f'    <loc>https://aetaxadvisors.com{url_path}</loc>')
-    print(f'    <lastmod>{datetime.now().strftime("%Y-%m-%d")}</lastmod>')
-    print(f'    <changefreq>monthly</changefreq>')
-    print(f'  </url>')
+def classify(slug):
+    for pat, pri, freq in PRIORITY:
+        if pat.match(slug):
+            return pri, freq
+    return DEFAULT
 
-print('</urlset>')
+
+def canonical_of(path, slug):
+    t = path.read_text(errors="ignore")
+    m = re.search(r'<link rel="canonical" href="' + re.escape(BASE) + r'([^"]*)"', t)
+    return m.group(1) if m else "/" + slug + "/" if slug else "/"
+
+
+def main():
+    urls = []
+    skipped = 0
+    for p in sorted(Path(".").rglob("index.html")):
+        if ".git" in p.parts:
+            continue
+        d = str(p.parent).replace("\\", "/")
+        slug = "" if d == "." else d
+        url = "/" if slug == "" else "/" + slug + "/"
+
+        # drop anything that points its canonical at a different URL
+        if canonical_of(p, slug) != url:
+            skipped += 1
+            continue
+
+        pri, freq = classify(slug)
+        lastmod = date.fromtimestamp(p.stat().st_mtime).isoformat()
+        urls.append((url, lastmod, freq, pri))
+
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for url, lastmod, freq, pri in urls:
+        lines += ["  <url>",
+                  f"    <loc>{BASE}{url}</loc>",
+                  f"    <lastmod>{lastmod}</lastmod>",
+                  f"    <changefreq>{freq}</changefreq>",
+                  f"    <priority>{pri}</priority>",
+                  "  </url>"]
+    lines.append("</urlset>")
+    OUT.write_text("\n".join(lines) + "\n")
+    print(f"sitemap.xml: {len(urls)} URLs written, {skipped} non-canonical URLs excluded")
+
+
+if __name__ == "__main__":
+    main()
