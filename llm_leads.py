@@ -265,7 +265,6 @@ TOPIC_BY_ID = {t[0]: t[2] for t in TOPICS}
 
 # Pages whose lead is decided by hand rather than by scoring.
 OVERRIDES: dict[str, str] = {
-    "": BRAND_LEAD,
     "about": BRAND_LEAD,
     "bios": (
         "AE Tax Advisors is staffed by licensed CPAs and IRS Enrolled Agents led by Connor "
@@ -327,6 +326,7 @@ OVERRIDES: dict[str, str] = {
 # Pages whose lead is written by their own generator; scoring them here would
 # overwrite a hand-written definition with a generic one.
 OWNED_ELSEWHERE = {
+    "",  # homepage: conversion page, no definition paragraph above the hero
     "what-is-ae-tax-advisors",
     "what-is-cost-segregation",
     "what-is-a-tax-advisory-engagement",

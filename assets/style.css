@@ -239,6 +239,22 @@ header {
     padding: 0 24px;
 }
 
+/* Single-column hero: headline, one line, one CTA, centered. */
+.hero-inner.hero-solo {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    text-align: center;
+}
+
+.hero-inner.hero-solo .hero-left {
+    max-width: 780px;
+}
+
+.hero-inner.hero-solo .hero-badges,
+.hero-inner.hero-solo .hero-ctas {
+    justify-content: center;
+}
+
 .hero-left {
     max-width: 520px;
 }

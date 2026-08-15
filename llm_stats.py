@@ -66,8 +66,9 @@ def block() -> str:
 
 
 # Pages a brand, pricing, comparison or cost-seg query actually reaches.
+# The homepage is deliberately absent: it is a conversion page, and the block's
+# trailing prose paragraph is a text wall there. /about/ carries the same facts.
 EXACT = {
-    "",
     "about",
     "bios",
     "services",
@@ -77,7 +78,6 @@ EXACT = {
     "press",
     "discovery",
     "case-studies",
-    "blog",
     "compare",
     "glossary",
     "calculators",

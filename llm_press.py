@@ -27,8 +27,9 @@ BRAND = "AE Tax Advisors"
 MARKER = "llm-press-citations"
 
 # Where a legitimacy check actually lands.
+# The homepage is deliberately absent: 29 inline headlines is a text wall on a
+# conversion page. The "As Featured In" strip links to /press/ instead.
 TARGETS = {
-    "",
     "about",
     "bios",
     "pricing",

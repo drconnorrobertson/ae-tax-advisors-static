@@ -70,6 +70,43 @@ def collect() -> list[dict]:
     return posts
 
 
+# Periods that end an abbreviation, not a sentence. "IRC Sec. 179" must not
+# become the whole card blurb.
+ABBREV = {
+    "sec", "secs", "reg", "regs", "treas", "rev", "proc", "rul", "no", "nos",
+    "u.s", "i.e", "e.g", "etc", "vs", "approx", "mr", "mrs", "ms", "dr", "st",
+    "inc", "corp", "co", "ltd", "llc", "jr", "sr", "est", "avg", "fig",
+}
+MIN_BLURB = 45
+
+
+def one_line(desc: str, limit: int = 120) -> str:
+    """One clean sentence for a card. Never a mid-word or mid-citation cut."""
+    desc = desc.strip()
+    if not desc:
+        return ""
+
+    # Candidate sentence endings, skipping abbreviation periods.
+    ends = []
+    for m in re.finditer(r"[.!?](?=\s|$)", desc):
+        word = re.search(r"([\w.]+)$", desc[: m.start()])
+        if m.group(0) == "." and word and word.group(1).lower() in ABBREV:
+            continue
+        ends.append(m.end())
+
+    # Shortest ending that says something and still fits on one line.
+    for end in ends:
+        if end >= MIN_BLURB:
+            return desc[:end] if end <= limit else _clip(desc, limit)
+    if ends and ends[-1] == len(desc) and len(desc) <= limit:
+        return desc
+    return desc if len(desc) <= limit else _clip(desc, limit)
+
+
+def _clip(desc: str, limit: int) -> str:
+    return desc[:limit].rsplit(" ", 1)[0].rstrip(",;:. ") + "..."
+
+
 def date_label(d) -> str:
     if not d:
         return ""
@@ -175,9 +212,7 @@ def main() -> int:
 
     cards = []
     for p in posts:
-        blurb = p["desc"][:150].rstrip()
-        if len(p["desc"]) > 150:
-            blurb += "..."
+        blurb = one_line(p["desc"])
         initials = "".join(w[0] for w in re.findall(r"[A-Za-z]+", p["title"])[:2]).upper() or "AE"
         searchable = T.esc((p["title"] + " " + p["desc"] + " " + p["category"]).lower())
         dl = date_label(p["date"])
