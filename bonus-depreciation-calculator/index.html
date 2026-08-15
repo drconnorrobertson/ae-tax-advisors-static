@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonus Depreciation Calculator (2026) | AE Tax Advisors</title>
+    <meta name="description" content="Compare first-year deductions under 100% bonus depreciation, Section 179 expensing, and regular MACRS for an equipment or asset purchase, and see the tax value of each.">
+    <link rel="canonical" href="https://aetaxadvisors.com/bonus-depreciation-calculator/">
+    <meta name="author" content="Connor Davis">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta property="og:title" content="Bonus Depreciation Calculator (2026) | AE Tax Advisors">
+    <meta property="og:description" content="Compare first-year deductions under 100% bonus depreciation, Section 179 expensing, and regular MACRS for an equipment or asset purchase, and see the tax value of each.">
+    <meta property="og:url" content="https://aetaxadvisors.com/bonus-depreciation-calculator/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="AE Tax Advisors">
+    <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
+    <meta property="article:published_time" content="2026-08-15T00:00:00-06:00">
+    <meta property="article:modified_time" content="2026-08-15T00:00:00-06:00">
+    <meta property="article:author" content="Connor Davis">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bonus Depreciation Calculator (2026) | AE Tax Advisors">
+    <meta name="twitter:description" content="Compare first-year deductions under 100% bonus depreciation, Section 179 expensing, and regular MACRS for an equipment or asset purchase, and see the tax value of each.">
+    <meta name="twitter:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Bonus Depreciation Calculator",
+  "url": "https://aetaxadvisors.com/bonus-depreciation-calculator/",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript",
+  "description": "Compare first-year deductions under 100% bonus depreciation, Section 179 expensing, and regular MACRS for an equipment or asset purchase, and see the tax value of each.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AE Tax Advisors"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is bonus depreciation still 100% in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The One Big Beautiful Bill Act restored the 100% rate on a permanent basis for qualifying property acquired after January 19, 2025, removing the phase-down that would have cut it to 20% in 2026 and zero in 2027."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use Section 179 or bonus depreciation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use bonus depreciation when you need the deduction to create a loss, since Section 179 cannot. Use Section 179 for roofs, HVAC, fire protection, and security systems on nonresidential buildings, which bonus cannot reach, and in states that decouple from bonus depreciation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this calculator handle vehicles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not the luxury auto limits. Passenger automobiles are capped under Section 280F regardless of method. Vehicles above 6,000 pounds gross vehicle weight rating fall outside that definition and have separate rules, and business use must exceed 50% for accelerated methods."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the mid-quarter convention?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If more than 40% of the total basis of personal property placed in service during the year falls in the fourth quarter, the mid-quarter convention replaces the half-year convention for every asset placed in service that year, reducing first-year MACRS deductions. This calculator assumes the half-year convention."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://aetaxadvisors.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Calculators",
+      "item": "https://aetaxadvisors.com/calculators/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Bonus Depreciation Calculator (2026)",
+      "item": "https://aetaxadvisors.com/bonus-depreciation-calculator/"
+    }
+  ]
+}
+</script>
+
+    <style>
+      .calc{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:26px;
+        box-shadow:var(--shadow-sm);margin:8px 0 12px}
+      .calc-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+      .calc-field{display:flex;flex-direction:column;gap:6px;margin-bottom:16px;min-width:0}
+      .calc-field label{font-size:14px;font-weight:600;color:var(--dark)}
+      .calc-field .hint{font-size:12.5px;color:var(--medium);font-weight:400}
+      .calc-field input,.calc-field select{padding:12px 14px;font-size:16px;min-height:48px;
+        border:1px solid #d9dde3;border-radius:8px;font-family:inherit;color:var(--dark);
+        background:#fff;width:100%}
+      .calc-field input:focus,.calc-field select:focus{outline:2px solid var(--accent);
+        outline-offset:1px;border-color:var(--accent)}
+      .calc-out{background:var(--primary);color:#fff;border-radius:12px;padding:24px;margin-top:20px}
+      .calc-out h3{color:#fff;font-size:1.05rem;margin-bottom:16px}
+      .calc-lines{display:grid;gap:10px}
+      .calc-line{display:flex;justify-content:space-between;gap:16px;align-items:baseline;
+        padding-bottom:9px;border-bottom:1px solid rgba(255,255,255,.14);font-size:15px}
+      .calc-line:last-child{border-bottom:none}
+      .calc-line span:first-child{color:rgba(255,255,255,.8)}
+      .calc-line span:last-child{font-weight:700;white-space:nowrap}
+      .calc-line.headline{font-size:20px;padding-top:6px}
+      .calc-line.headline span:last-child{color:var(--accent);font-size:24px}
+      .calc-note{font-size:12.5px;color:var(--medium);line-height:1.6;margin-top:14px}
+      @media (max-width:768px){
+        .calc{padding:20px}
+        .calc-row{grid-template-columns:1fr;gap:0}
+        .calc-line{flex-direction:column;gap:2px}
+        .calc-line span:last-child{font-size:18px}
+        .calc-line.headline span:last-child{font-size:22px}
+      }
+    </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://aetaxadvisors.com/#organization",
+  "name": "AE Tax Advisors",
+  "url": "https://aetaxadvisors.com/",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://aetaxadvisors.com/assets/ae-tax-logo.png",
+    "width": 180,
+    "height": 60
+  },
+  "image": "https://aetaxadvisors.com/assets/ae-tax-logo.png",
+  "description": "Strategic tax advisory for business owners, real estate investors, and high-income professionals nationwide. Cost segregation, entity structuring, retirement plan design, and IRS representation.",
+  "email": "team@aetaxadvisors.com",
+  "telephone": "(631) 614-5762",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "935 Lake Elmo Dr, Suite B",
+    "addressLocality": "Billings",
+    "addressRegion": "MT",
+    "postalCode": "59105",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "knowsAbout": [
+    "Cost Segregation",
+    "Bonus Depreciation",
+    "MACRS Depreciation",
+    "Form 3115",
+    "Real Estate Professional Status",
+    "Material Participation",
+    "Passive Activity Loss Rules",
+    "S Corporation Taxation",
+    "C Corporation Taxation",
+    "Qualified Business Income Deduction",
+    "Cash Balance Plans",
+    "1031 Exchanges",
+    "IRS Representation"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/ae-tax-advisors",
+    "https://www.facebook.com/aetaxadvisors",
+    "https://twitter.com/aetaxadvisors"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://aetaxadvisors.com/#website",
+  "url": "https://aetaxadvisors.com/",
+  "name": "AE Tax Advisors",
+  "publisher": {
+    "@id": "https://aetaxadvisors.com/#organization"
+  },
+  "inLanguage": "en-US"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Primary navigation",
+  "itemListElement": [
+    {
+      "@type": "SiteNavigationElement",
+      "position": 1,
+      "name": "Home",
+      "url": "https://aetaxadvisors.com/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 2,
+      "name": "About",
+      "url": "https://aetaxadvisors.com/about/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 3,
+      "name": "Services",
+      "url": "https://aetaxadvisors.com/services/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 4,
+      "name": "Cost Segregation",
+      "url": "https://aetaxadvisors.com/cost-segregation-study/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 5,
+      "name": "Case Studies",
+      "url": "https://aetaxadvisors.com/case-studies/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 6,
+      "name": "Pricing",
+      "url": "https://aetaxadvisors.com/pricing/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 7,
+      "name": "Compare",
+      "url": "https://aetaxadvisors.com/compare/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 8,
+      "name": "Calculators",
+      "url": "https://aetaxadvisors.com/calculators/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 9,
+      "name": "Blog",
+      "url": "https://aetaxadvisors.com/blog/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 10,
+      "name": "Glossary",
+      "url": "https://aetaxadvisors.com/glossary/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 11,
+      "name": "Press",
+      "url": "https://aetaxadvisors.com/press/"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 12,
+      "name": "Contact",
+      "url": "https://aetaxadvisors.com/contact/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;" loading="eager" fetchpriority="high" decoding="async" width="180">
+            </a>
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links" id="primary-nav">
+                <a href="/" class="nav-link">Home</a>
+<div class="nav-dropdown">
+                <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax</a>
+<a href="/bios/" class="dropdown-item">Our Team</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+<a href="/real-estate-tax-planning/" class="dropdown-item">Real Estate Tax Planning</a>
+<a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+<a href="/rental-property-tax-planning/" class="dropdown-item">Rental Property Tax Planning</a>
+<a href="/cost-segregation-study/" class="dropdown-item">Cost Segregation Study</a>
+<a href="/real-estate-investor-cpa/" class="dropdown-item">CPA for Real Estate Investors</a>
+<a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+<a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
+<a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+<a href="/crypto-mining-tax-strategy/" class="dropdown-item">Crypto Mining Tax Strategy</a>
+<a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies (Detailed)</a>
+<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+<a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+<a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/cost-segregation-airbnb/" class="nav-link">Cost Segregation <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/cost-segregation-airbnb/" class="dropdown-item">Cost Seg for Airbnb/STR</a>
+<a href="/str-tax-loophole/" class="dropdown-item">STR Tax Loophole</a>
+<a href="/cost-segregation-calculator/" class="dropdown-item">Cost Seg Calculator</a>
+<a href="/bonus-depreciation-rental-property/" class="dropdown-item">Bonus Depreciation</a>
+<a href="/form-3115-cost-segregation/" class="dropdown-item">Form 3115 Catch-Up</a>
+<a href="/str-vs-ltr-tax-treatment/" class="dropdown-item">STR vs LTR Tax Treatment</a>
+</div>
+            </div>
+<a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
+<div class="nav-dropdown">
+                <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
+<a href="/compare/" class="dropdown-item">Compare Firms</a>
+<a href="/calculators/" class="dropdown-item">Tax Calculators</a>
+<a href="/faq/" class="dropdown-item">FAQ</a>
+<a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+<a href="/glossary/" class="dropdown-item">Glossary</a>
+<a href="/sitemap/" class="dropdown-item">Site Map</a>
+</div>
+            </div>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/contact/" class="nav-link">Contact Us</a>
+
+                <a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <section class="page-header">
+        <div class="container narrow">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a> &rsaquo; <a href="/calculators/">Calculators</a> &rsaquo; <span>Bonus Depreciation Calculator (2026)</span>
+            </nav>
+            <h1>Bonus Depreciation Calculator</h1>
+            <p class="subtitle">Compare first-year deductions under 100% bonus depreciation, Section 179 expensing, and regular MACRS for an equipment or asset purchase, and see the tax value of each.</p>
+            <div class="cta-buttons">
+                <a href="/discovery/" class="btn-cta btn-lg">Talk to a Tax Strategist</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">A bonus depreciation calculator compares the first-year deduction available under IRC Section 168(k) bonus depreciation, Section 179 expensing, and standard MACRS for a given asset purchase. Under the One Big Beautiful Bill Act, bonus depreciation is 100% and permanent for qualifying property acquired after January 19, 2025, so both bonus and Section 179 generally produce a full first-year deduction, and the choice turns on loss creation, state conformity, and property type.</p>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Run the Numbers</h2>
+            <div class="calc">
+                <div class="calc-row">
+            <div class="calc-field">
+                <label for="bd-cost">Asset cost</label>
+                <span class="hint">Total placed in service this year.</span>
+                <input type="number" id="bd-cost" value="250000" inputmode="decimal" step="500">
+            </div>
+            <div class="calc-field">
+                <label for="bd-life">MACRS recovery period</label>
+                <span class="hint">Bonus depreciation applies to 20 years or less.</span>
+                <select id="bd-life">
+                    <option value="3">3-year</option>
+                    <option value="5" selected>5-year (vehicles, computers, appliances)</option>
+                    <option value="7">7-year (furniture, most equipment)</option>
+                    <option value="15">15-year (land improvements, QIP)</option>
+                    <option value="20">20-year</option>
+                    <option value="27.5">27.5-year (residential rental)</option>
+                    <option value="39">39-year (nonresidential real property)</option>
+                </select>
+            </div>
+            <div class="calc-field">
+                <label for="bd-business">Business use (%)</label>
+                <span class="hint">Below 50% disables accelerated methods on listed property.</span>
+                <input type="number" id="bd-business" value="100" inputmode="decimal" step="1">
+            </div>
+            <div class="calc-field">
+                <label for="bd-income">Business taxable income</label>
+                <span class="hint">Section 179 cannot exceed this. Bonus depreciation can.</span>
+                <input type="number" id="bd-income" value="400000" inputmode="decimal" step="1000">
+            </div>
+            <div class="calc-field">
+                <label for="bd-rate">Combined marginal tax rate (%)</label>
+                <span class="hint">Federal plus state.</span>
+                <input type="number" id="bd-rate" value="37" inputmode="decimal" step="0.1">
+            </div>
+                </div>
+                <div class="calc-out">
+                    <h3>Estimated Result</h3>
+                    <div class="calc-lines">
+                <div class="calc-line"><span>Depreciable basis (after business use)</span><span id="bd-basis">&mdash;</span></div>
+                <div class="calc-line"><span>100% bonus depreciation</span><span id="bd-bonus">&mdash;</span></div>
+                <div class="calc-line"><span>Section 179 expensing</span><span id="bd-179">&mdash;</span></div>
+                <div class="calc-line"><span>Regular MACRS, year 1</span><span id="bd-macrs">&mdash;</span></div>
+                        <div class="calc-line headline"><span>Tax value of the largest deduction</span>
+                        <span id="bd-value">&mdash;</span></div>
+                    </div>
+            <p class="calc-note" id="bd-verdict" style="color:rgba(255,255,255,.85);margin-top:14px;"></p>
+                </div>
+                <p class="calc-note">Section 179 is capped (approximately $2.56 million for 2026, with a phase-out beginning around $4.09 million of purchases) and cannot create or increase a loss. Bonus depreciation is uncapped and can. Passenger automobiles are separately limited by the Section 280F luxury auto caps, which this calculator does not apply. Many states decouple from federal bonus depreciation and require an addback, so confirm your state treatment before relying on the federal result.</p>
+            </div>
+            <div class="center-cta" style="margin-top:22px;">
+                <a href="/discovery/" class="btn-cta btn-lg">Get a Real Estimate for Your Property</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>Is bonus depreciation still 100% in 2026?</h3>
+                <p>Yes. The One Big Beautiful Bill Act restored the 100% rate on a permanent basis for qualifying property acquired after January 19, 2025, removing the phase-down that would have cut it to 20% in 2026 and zero in 2027.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Should I use Section 179 or bonus depreciation?</h3>
+                <p>Use bonus depreciation when you need the deduction to create a loss, since Section 179 cannot. Use Section 179 for roofs, HVAC, fire protection, and security systems on nonresidential buildings, which bonus cannot reach, and in states that decouple from bonus depreciation.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Does this calculator handle vehicles?</h3>
+                <p>Not the luxury auto limits. Passenger automobiles are capped under Section 280F regardless of method. Vehicles above 6,000 pounds gross vehicle weight rating fall outside that definition and have separate rules, and business use must exceed 50% for accelerated methods.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is the mid-quarter convention?</h3>
+                <p>If more than 40% of the total basis of personal property placed in service during the year falls in the fourth quarter, the mid-quarter convention replaces the half-year convention for every asset placed in service that year, reducing first-year MACRS deductions. This calculator assumes the half-year convention.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Related Reading</h2>
+            <ul class="related-links">
+                <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li>
+                <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li>
+                <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+                <li><a href="/section-179-vs-bonus-depreciation-2026/">Section 179 vs Bonus Depreciation</a></li>
+                <li><a href="/calculators/">All Tax Calculators</a></li>
+                <li><a href="/pricing/">Pricing</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="content-section fade-in-section" style="background:var(--light-bg);">
+        <div class="container narrow center-text">
+            <h2>Talk Through Your Situation</h2>
+            <p>Every situation turns on its own facts. Schedule a discovery call and we will
+            walk through what applies to you, what it is worth, and what it would take to
+            put it in place.</p>
+            <div class="center-cta" style="margin-top:20px;">
+                <a href="/discovery/" class="btn-cta btn-lg">Schedule Your Free Discovery Call</a>
+            </div>
+        </div>
+    </section>
+    </main>
+
+<footer>
+        <div class="footer-inner">
+            <div class="footer-col footer-brand">
+                <a href="/" class="footer-logo"><img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" width="180" height="60" loading="lazy" decoding="async" style="object-fit: contain;"></a>
+                <p>Strategic tax advisory for business owners and real estate investors.
+                Headquartered in Billings, Montana, serving clients nationwide.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/company/ae-tax-advisors" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Twitter/X">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                </div>
+                <div class="footer-trust-badges">
+                    <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
+                    <span class="trust-badge">&#9989; Licensed CPAs</span>
+                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+                    <a href="/press/" class="trust-badge" style="text-decoration:none;color:rgba(255,255,255,0.5);">&#128240; As Featured In 29 Publications</a>
+                </div>
+                <p class="footer-address" style="margin-top:16px;">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
+                <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
+                <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="/about/">About AE Tax</a>
+                <a href="/bios/">Our Team</a>
+                <a href="/press/">Press &amp; Media</a>
+                <a href="/ae-tax-advisors-reviews/">Client Reviews</a>
+                <a href="/case-studies/">Case Studies</a>
+                <a href="/pricing/">Pricing</a>
+                <a href="/contact/">Contact Us</a>
+                <a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="/business-owner-small-business-tax/">Business Owner Tax</a>
+                <a href="/real-estate-tax-planning/">Real Estate Tax Planning</a>
+                <a href="/cost-segregation-study/">Cost Segregation Study</a>
+                <a href="/short-term-rental-tax-strategy/">Short-Term Rental Strategy</a>
+                <a href="/rental-property-tax-planning/">Rental Property Planning</a>
+                <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
+                <a href="/estate-trust-wealth-transfer/">Estate &amp; Wealth Transfer</a>
+                <a href="/tax-compliance-irs-representation/">IRS Representation</a>
+            </div>
+            <div class="footer-col">
+                <h4>Popular Guides</h4>
+                <a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026</a>
+                <a href="/short-term-rental-tax-loophole-2026/">STR Tax Loophole 2026</a>
+                <a href="/reps-real-estate-professional-status/">Real Estate Pro Status</a>
+                <a href="/form-3115-cost-segregation-lookback/">Form 3115 Lookback</a>
+                <a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC 2026</a>
+                <a href="/cash-balance-plan-tax-deduction/">Cash Balance Plans</a>
+                <a href="/macrs-depreciation-schedule-2026/">MACRS Schedule 2026</a>
+                <a href="/section-179-vs-bonus-depreciation-2026/">Section 179 vs Bonus</a>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <a href="/blog/">Blog</a>
+                <a href="/compare/">Compare Firms</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/glossary/">Tax Glossary</a>
+                <a href="/guides/">Guides &amp; Whitepapers</a>
+                <a href="/books/">Books</a>
+                <a href="/sitemap/">Site Map</a>
+                <a href="/discovery/">Request a Consultation</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762</p>
+            <p class="footer-legal-links">
+                <a href="/privacy-policy/">Privacy Policy</a> &middot;
+                <a href="/terms-of-service/">Terms of Service</a> &middot;
+                <a href="/disclaimer/">Disclaimer</a> &middot;
+                <a href="/sitemap/">Site Map</a> &middot;
+                <a href="/press/">Press</a>
+            </p>
+            <p class="footer-disclaimer">AE Tax Advisors provides tax advisory and compliance
+            services nationwide. Content on this site is general information, not tax advice
+            for your situation. Strategies depend on facts and circumstances.</p>
+        </div>
+    </footer>
+
+<section class="sticky-cta">
+        <div class="sticky-inner">
+            <p>Are You Leaving Tax Savings on the Table?</p>
+            <a href="/discovery/" class="btn-cta">Get Your Free Tax Assessment</a>
+        </div>
+    </section>
+
+    <script>
+    // Scroll fade-in animations
+    (function(){
+        var observer = new IntersectionObserver(function(entries){
+            entries.forEach(function(e){
+                if(e.isIntersecting){
+                    e.target.classList.add('fade-in-visible');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'});
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelectorAll('.fade-in-section').forEach(function(el){ observer.observe(el); });
+        });
+    })();
+    </script>
+
+    <script>
+    (function(){
+
+      function fmt(n){ return '$' + Math.round(n).toLocaleString('en-US'); }
+      function calc(){
+        var cost = Math.max(+document.getElementById('bd-cost').value || 0, 0);
+        var life = +document.getElementById('bd-life').value || 5;
+        var use = Math.min(Math.max(+document.getElementById('bd-business').value || 100, 0), 100)/100;
+        var income = Math.max(+document.getElementById('bd-income').value || 0, 0);
+        var rate = Math.min(Math.max(+document.getElementById('bd-rate').value || 0, 0), 60)/100;
+
+        var basis = cost * use;
+        var bonusEligible = life <= 20;
+        var s179Eligible = life <= 20;
+
+        var bonus = bonusEligible ? basis : 0;
+        var s179 = s179Eligible ? Math.min(basis, income, 2560000) : 0;
+
+        // Regular MACRS year 1, half-year convention
+        var r1;
+        if (life <= 10) r1 = (2/life) * 0.5;
+        else if (life <= 20) r1 = (1.5/life) * 0.5;
+        else r1 = (1/life) * (11.5/12);
+        var macrs = basis * r1;
+
+        document.getElementById('bd-basis').textContent = fmt(basis);
+        document.getElementById('bd-bonus').textContent = bonusEligible ? fmt(bonus) : 'Not eligible (over 20-year life)';
+        document.getElementById('bd-179').textContent = s179Eligible ? fmt(s179) : 'Not eligible';
+        document.getElementById('bd-macrs').textContent = fmt(macrs);
+        var best = Math.max(bonus, s179, macrs);
+        document.getElementById('bd-value').textContent = fmt(best * rate);
+        var note = document.getElementById('bd-verdict');
+        if (!bonusEligible) note.textContent = 'Real property over a 20-year life is not bonus eligible. Section 179 can still cover roofs, HVAC, fire protection, and security systems on nonresidential buildings.';
+        else if (s179 < bonus) note.textContent = 'Bonus depreciation gives the larger deduction here, and unlike Section 179 it can create a loss.';
+        else note.textContent = 'Both reach the full basis. Prefer Section 179 if your state decouples from bonus depreciation, or if you want asset-level control.';
+      }
+ 
+      var ids = ['bd-cost', 'bd-life', 'bd-business', 'bd-income', 'bd-rate'];
+      ids.forEach(function(id){
+        var el = document.getElementById(id);
+        if(el){ el.addEventListener('input', calc); el.addEventListener('change', calc); }
+      });
+      calc();
+    })();
+    </script>
+</body>
+</html>

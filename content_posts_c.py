@@ -28,9 +28,9 @@ POSTS = [
   "<div class=\"ae-table-scroll\" style=\"overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%\"><table><thead><tr><th>Net profit</th><th>SE tax as LLC</th><th>Reasonable wage</th><th>Payroll tax as S-Corp</th><th>Gross saving</th><th>Net of ~$3,000 costs</th></tr></thead><tbody>"
   "<tr><td>$60,000</td><td>~$8,478</td><td>$40,000</td><td>~$6,120</td><td>~$2,358</td><td>~ -$642</td></tr>"
   "<tr><td>$100,000</td><td>~$14,130</td><td>$60,000</td><td>~$9,180</td><td>~$4,950</td><td>~$1,950</td></tr>"
-  "<tr><td>$180,000</td><td>~$22,300</td><td>$95,000</td><td>~$14,535</td><td>~$7,765</td><td>~$4,765</td></tr>"
-  "<tr><td>$350,000</td><td>~$27,600</td><td>$150,000</td><td>~$20,000</td><td>~$7,600</td><td>~$4,600</td></tr>"
-  "<tr><td>$700,000</td><td>~$38,000</td><td>$220,000</td><td>~$26,300</td><td>~$11,700</td><td>~$8,700</td></tr>"
+  "<tr><td>$180,000</td><td>~$25,433</td><td>$95,000</td><td>~$14,535</td><td>~$10,898</td><td>~$7,898</td></tr>"
+  "<tr><td>$350,000</td><td>~$32,911</td><td>$150,000</td><td>~$22,950</td><td>~$9,961</td><td>~$6,961</td></tr>"
+  "<tr><td>$700,000</td><td>~$45,193</td><td>$220,000</td><td>~$29,258</td><td>~$15,935</td><td>~$12,935</td></tr>"
   "</tbody></table></div>",
   "These are approximations using the 2026 Social Security wage base and standard rates, and they ignore state payroll taxes and unemployment insurance, which reduce the benefit somewhat. Confirm current-year figures before relying on them.",
   "Two patterns are visible. Below roughly $60,000 of profit, the compliance cost exceeds the saving. And the saving does not scale linearly, because above the Social Security wage base only the Medicare portion is at stake, so the marginal benefit per dollar shifted drops from 15.3% to 2.9% or 3.8%.",
@@ -61,7 +61,7 @@ POSTS = [
  ("Is an S-Corp better than an LLC?",
   "<p>The question conflates two different things. An LLC is a state law entity and an S-Corp is a federal tax election, and an LLC can elect S-Corp taxation. The real question is whether to make the election, which generally pays off once net profit exceeds roughly $60,000 to $80,000 per owner.</p>"),
  ("How much does an S-Corp election actually save?",
-  "<p>It saves 15.3% self-employment tax on the profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. On $180,000 of profit with a $95,000 reasonable wage, the gross saving is roughly $7,800 before compliance costs of $2,000 to $4,000.</p>"),
+  "<p>It saves 15.3% self-employment tax on the profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. On $180,000 of profit with a $95,000 reasonable wage, the gross saving is roughly $10,900 before compliance costs of $2,000 to $4,000.</p>"),
  ("Does an S-Corp reduce income tax?",
   "<p>No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only. Any advisor describing S-Corp savings as income tax savings is describing it incorrectly.</p>"),
  ("Should I put rental real estate in an S-Corp?",
