@@ -11,17 +11,17 @@
     <link rel="preload" href="/assets/ae-tax-logo.png" as="image">
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="alternate" hreflang="en" href="https://aetaxadvisors.com/">
-    <title>AE Tax Advisors | Strategic Tax Planning for Business Owners &amp; Real Estate Investors</title>
-    <meta name="description" content="AE Tax Advisors provides strategic tax planning, cost segregation studies, entity structuring, and IRS-compliant tax reduction strategies for business owners, S-Corp and C-Corp operators, real estate investors, and multi-entity holders. Serving clients nationwide from Billings, MT.">
+    <title>AE Tax Advisors | Strategic Tax Planning for Business Owners &amp; Real</title>
+    <meta name="description" content="AE Tax Advisors provides strategic tax planning, cost segregation studies, entity structuring, and IRS-compliant tax reduction strategies for business owners...">
     <link rel="canonical" href="https://aetaxadvisors.com/">
-    <meta property="og:title" content="AE Tax Advisors | Strategic Tax Planning for Business Owners &amp; Real Estate Investors">
+    <meta property="og:title" content="AE Tax Advisors | Strategic Tax Planning for Business Owners &amp; Real">
     <meta property="og:description" content="Strategic tax planning, cost segregation studies, entity structuring, and advanced tax reduction strategies for business owners, S-Corp and C-Corp operators, real estate investors, and multi-entity holders.">
     <meta property="og:url" content="https://aetaxadvisors.com/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="AE Tax Advisors">
     <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="AE Tax Advisors | Strategic Tax Planning for Business Owners &amp; Real Estate Investors">
+    <meta name="twitter:title" content="AE Tax Advisors | Strategic Tax Planning for Business Owners &amp; Real">
     <meta name="twitter:description" content="Strategic tax planning, cost segregation studies, entity structuring, and advanced tax reduction strategies for business owners, S-Corp and C-Corp operators, real estate investors, and multi-entity holders.">
     <script type="application/ld+json">
 {
@@ -151,6 +151,46 @@
     </script>
     <link rel="alternate" hreflang="en" href="https://aetaxadvisors.com/">
     <link rel="alternate" type="application/rss+xml" title="AE Tax Advisors Blog" href="/feed.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which entity structure is right for my business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on profit level, asset type, ownership, and exit plans. An LLC taxed as a partnership suits real estate and businesses needing special allocations; an S election suits profitable operating businesses above roughly $80,000 of profit per owner; a C corporation suits capital-intensive growth aiming at a Section 1202 exit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should real estate be held in a separate entity from operations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually yes. It isolates liability, creates a clean platform for depreciation and cost segregation, and produces rent taxed once without payroll tax. The tradeoff is the self-rental rule of Reg. 1.469-2(f)(6), which is generally addressed with a grouping election under Reg. 1.469-4."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I change my entity structure later?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often, but not always cheaply. Converting an LLC to S-Corp taxation is straightforward, while unwinding a C corporation or removing appreciated real estate from one can be expensive. The cost of reversing a structure should be weighed before adopting it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a pass-through entity tax election?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It allows a partnership or S corporation to pay state income tax at the entity level rather than passing it to owners. The entity-level tax is deductible federally and is not subject to the individual state and local tax cap, restoring a deduction that would otherwise be lost."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -158,10 +198,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link active">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -217,6 +257,12 @@
     </header>
 
     <main>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Estate and wealth transfer planning determines how assets pass to the next generation and at what tax cost, coordinating the basis step-up under IRC Section 1014, transfer tax exposure, and the income tax consequences of holding versus selling appreciated assets.</p>
+        </div>
+    </section>
+
 
     <!-- HERO with gradient background and client badges -->
     <section class="hero">
@@ -764,10 +810,44 @@
     </section>
 
     <!-- LEAD CAPTURE CTA -->
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Which entity structure is right for my business?</h3>
+                    <p>It depends on profit level, asset type, ownership, and exit plans. An LLC taxed as a partnership suits real estate and businesses needing special allocations; an S election suits profitable operating businesses above roughly $80,000 of profit per owner; a C corporation suits capital-intensive growth aiming at a Section 1202 exit.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Should real estate be held in a separate entity from operations?</h3>
+                    <p>Usually yes. It isolates liability, creates a clean platform for depreciation and cost segregation, and produces rent taxed once without payroll tax. The tradeoff is the self-rental rule of Reg. 1.469-2(f)(6), which is generally addressed with a grouping election under Reg. 1.469-4.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I change my entity structure later?</h3>
+                    <p>Often, but not always cheaply. Converting an LLC to S-Corp taxation is straightforward, while unwinding a C corporation or removing appreciated real estate from one can be expensive. The cost of reversing a structure should be weighed before adopting it.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is a pass-through entity tax election?</h3>
+                    <p>It allows a partnership or S corporation to pay state income tax at the entity level rather than passing it to owners. The entity-level tax is deductible federally and is not subject to the individual state and local tax cap, restoring a deduction that would otherwise be lost.</p>
+                </div>
+        </div>
+    </section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Related Reading</h2>
+            <ul class="related-links">
+                    <li><a href="/estate-trust-wealth-transfer/">Estate, Trust and Wealth Transfer</a></li>
+                    <li><a href="/retirement-exit-ma-tax-strategy/">Retirement, Exit and M&amp;A Tax Strategy</a></li>
+                    <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li>
+                    <li><a href="/real-estate-tax-planning/">Real Estate Tax Planning</a></li>
+            </ul>
+        </div>
+    </section>
+
+
     <section class="cta-section fade-in-section">
         <div class="container">
             <h2>Start Your Personalized Tax Plan Today</h2>
-            <p>Your business deserves a tax strategy as sophisticated as your operations. AE Tax Advisors builds forward-looking plans designed to help reduce what you owe &mdash; this year and beyond.</p>
+            <p>Your business deserves a tax strategy as sophisticated as your operations. AE Tax Advisors builds forward-looking plans designed to help reduce what you owe, this year and beyond.</p>
             <div class="cta-buttons">
                 <a href="/discovery/" class="btn-cta btn-lg">Request Your Free Tax Assessment</a>
                 <a href="/case-studies/" class="btn-secondary btn-hero-secondary">View Our Case Studies</a>

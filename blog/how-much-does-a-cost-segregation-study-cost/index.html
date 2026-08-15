@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is a cost segregation study worth the cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally yes once depreciable basis exceeds roughly $500,000, assuming you can actually use the deduction in the current year. The analysis that matters is not the size of the deduction but whether the passive activity loss rules, basis limits, and excess business loss limitation allow you to deduct it now."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a cost segregation study?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A cost segregation study is an engineering-based analysis that separates a building's purchase or construction cost into its components and reassigns them from the default 27.5-year or 39-year recovery period to their correct 5-year, 7-year, and 15-year MACRS classifications. Because those shorter-life categories qualify for bonus depreciation, the reclassified amount is generally deductible in the first year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much of a property typically gets reclassified?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the asset class. Office and warehouse properties commonly reclassify 15% to 25% of depreciable basis, multifamily 20% to 35%, restaurants and self-storage 30% to 40%, and hotels 30% to 45%. Furnished short-term rentals usually land between 25% and 35%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do a study on a property I bought years ago?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A Form 3115 change in accounting method captures every missed deduction from the placed-in-service year in a single Section 481(a) adjustment claimed in the current year. No amended returns are needed and there is no three-year limitation."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,28 +166,34 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Cost segregation is an engineering-based tax study that separates a building's cost into its components and reassigns them from the default 27.5-year or 39-year depreciation schedule to their correct 5-year, 7-year, and 15-year classifications, so that the reclassified portion becomes immediately deductible under 100% bonus depreciation.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
-        <p>The cost of a cost segregation study varies based on several factors, but most property owners can expect to pay between $5,000 and $15,000 for a standard residential rental property study. Commercial properties, larger buildings, and complex construction projects can run $10,000 to $25,000 or more. The key question is not the upfront cost but the return on investment&mdash;and for qualifying properties, the ROI is typically 10:1 or higher.</p>
+        <p>The cost of a cost segregation study varies based on several factors, but most property owners can expect to pay between $5,000 and $15,000 for a standard residential rental property study. Commercial properties, larger buildings, and complex construction projects can run $10,000 to $25,000 or more. The key question is not the upfront cost but the return on investment, and for qualifying properties, the ROI is typically 10:1 or higher.</p>
 
 <h2>Factors That Affect Pricing</h2>
 
 <p>The primary driver of cost is the complexity and size of the property. A single-family rental home purchased for $400,000 requires less engineering analysis than a 50-unit apartment complex or a commercial office building. Other factors include the availability of construction documentation (blueprints, invoices, and contractor records), whether a physical site inspection is required, and the geographic location of the property.</p>
 
-<p>Studies can be performed using several methodologies. A detailed engineering approach&mdash;which involves a full site visit and component-by-component analysis&mdash;is the most thorough and defensible under IRS scrutiny, but it is also the most expensive. Some firms offer desktop studies or sampling-based approaches for smaller properties at lower price points, typically in the $3,000 to $7,000 range. These methods are generally acceptable for residential rental properties but may not hold up as well for large commercial projects if audited.</p>
+<p>Studies can be performed using several methodologies. A detailed engineering approach, which involves a full site visit and component-by-component analysis, is the most thorough and defensible under IRS scrutiny, but it is also the most expensive. Some firms offer desktop studies or sampling-based approaches for smaller properties at lower price points, typically in the $3,000 to $7,000 range. These methods are generally acceptable for residential rental properties but may not hold up as well for large commercial projects if audited.</p>
 
 <h2>Typical Price Ranges by Property Type</h2>
 
-<p>For single-family rental homes and small multifamily properties (2-4 units), studies generally cost between $3,000 and $8,000. Mid-size apartment buildings (5-50 units) typically fall in the $7,000 to $15,000 range. Large commercial properties&mdash;office buildings, retail centers, hotels, and medical facilities&mdash;often cost $15,000 to $30,000 or more depending on the building's size, age, and construction complexity.</p>
+<p>For single-family rental homes and small multifamily properties (2-4 units), studies generally cost between $3,000 and $8,000. Mid-size apartment buildings (5-50 units) typically fall in the $7,000 to $15,000 range. Large commercial properties, office buildings, retail centers, hotels, and medical facilities, often cost $15,000 to $30,000 or more depending on the building's size, age, and construction complexity.</p>
 
-<p>Some firms charge a flat fee while others use a percentage of the tax savings identified. Be cautious with percentage-based pricing&mdash;it can create incentives to be overly aggressive in reclassifications, which could increase audit risk. A reputable firm will charge a fee based on the scope of work rather than the outcome.</p>
+<p>Some firms charge a flat fee while others use a percentage of the tax savings identified. Be cautious with percentage-based pricing, it can create incentives to be overly aggressive in reclassifications, which could increase audit risk. A reputable firm will charge a fee based on the scope of work rather than the outcome.</p>
 
 <h2>Calculating Your Return on Investment</h2>
 
-<p>The ROI calculation is straightforward. Take the total first-year tax savings generated by the study and divide it by the cost of the study. For a property with a $500,000 depreciable basis where the study reclassifies 30% ($150,000) into shorter-lived assets eligible for 100% bonus depreciation under IRC Section 168(k), the additional first-year depreciation deduction could be approximately $135,000 above what standard straight-line depreciation would have provided. At a 37% marginal tax rate, that translates to roughly $50,000 in tax savings&mdash;against a study cost of perhaps $6,000. That is an ROI exceeding 8:1.</p>
+<p>The ROI calculation is straightforward. Take the total first-year tax savings generated by the study and divide it by the cost of the study. For a property with a $500,000 depreciable basis where the study reclassifies 30% ($150,000) into shorter-lived assets eligible for 100% bonus depreciation under IRC Section 168(k), the additional first-year depreciation deduction could be approximately $135,000 above what standard straight-line depreciation would have provided. At a 37% marginal tax rate, that translates to roughly $50,000 in tax savings, against a study cost of perhaps $6,000. That is an ROI exceeding 8:1.</p>
 
-<p>Even for smaller properties, the math often works. A rental home purchased for $300,000 with a depreciable basis of $240,000 might see $72,000 reclassified into bonus-eligible categories. The resulting tax savings at a 32% marginal rate would be approximately $23,000&mdash;well above a $4,000 study fee.</p>
+<p>Even for smaller properties, the math often works. A rental home purchased for $300,000 with a depreciable basis of $240,000 might see $72,000 reclassified into bonus-eligible categories. The resulting tax savings at a 32% marginal rate would be approximately $23,000, well above a $4,000 study fee.</p>
 
 <h2>When It May Not Be Worth the Cost</h2>
 
@@ -179,9 +225,35 @@
             <li><a href="/blog/cost-segregation-study-str-properties-guide/">Cost Segregation Study for STR Properties: Complete Guide</a></li>
             <li><a href="/blog/do-i-need-an-engineering-based-cost-segregation-study/">Do I Need an Engineering Based Cost Segregation Study?</a></li>
             <li><a href="/blog/does-cost-segregation-increase-audit-risk/">Does a Cost Segregation Study Increase My Audit Risk?</a></li>
-        </ul>
+        
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works and What It Costs</a></li>
+            <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li>
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Is a cost segregation study worth the cost?</h3>
+                    <p>Generally yes once depreciable basis exceeds roughly $500,000, assuming you can actually use the deduction in the current year. The analysis that matters is not the size of the deduction but whether the passive activity loss rules, basis limits, and excess business loss limitation allow you to deduct it now.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is a cost segregation study?</h3>
+                    <p>A cost segregation study is an engineering-based analysis that separates a building's purchase or construction cost into its components and reassigns them from the default 27.5-year or 39-year recovery period to their correct 5-year, 7-year, and 15-year MACRS classifications. Because those shorter-life categories qualify for bonus depreciation, the reclassified amount is generally deductible in the first year.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much of a property typically gets reclassified?</h3>
+                    <p>It depends on the asset class. Office and warehouse properties commonly reclassify 15% to 25% of depreciable basis, multifamily 20% to 35%, restaurants and self-storage 30% to 40%, and hotels 30% to 45%. Furnished short-term rentals usually land between 25% and 35%.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I do a study on a property I bought years ago?</h3>
+                    <p>Yes. A Form 3115 change in accounting method captures every missed deduction from the placed-in-service year in a single Section 481(a) adjustment claimed in the current year. No amended returns are needed and there is no three-year limitation.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

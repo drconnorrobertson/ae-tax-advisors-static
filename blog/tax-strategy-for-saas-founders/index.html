@@ -157,10 +157,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -207,6 +207,12 @@
             <h1>Tax Strategy for SaaS Founders</h1>
         <p class="blog-meta">Published on August 10, 2026 | Business Owner Tax Planning | AE Tax Advisors</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">A C corporation is a separate taxpayer subject to a flat 21% federal rate under IRC Section 11. Income retained in the corporation is taxed once at that rate, while distributions to shareholders as dividends add a second layer of tax, which is why the structure suits businesses that reinvest rather than distribute.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
 
@@ -295,7 +301,11 @@
             <li><a href="/c-corp-conversion-strategy/">C-Corporation Conversion Strategy for High-Income Business Owners</a></li>
             <li><a href="/c-corp-tax-strategy/">C-Corporation Tax Strategy</a></li>
             <li><a href="/c-corporation-strategy/">C Corporation Tax Strategy: How Business Owners Use the 21% Corporate Rate to Build Wealth and Fund Growth</a></li>
-        </ul>
+        
+            <li><a href="/reasonable-compensation-s-corp-irs/">Reasonable Compensation for S-Corp Owners</a></li>
+            <li><a href="/retirement-exit-ma-tax-strategy/">Retirement, Exit and M&amp;A Tax Strategy</a></li>
+            <li><a href="/cash-balance-plan-tax-deduction/">Cash Balance Plan Tax Deduction</a></li>
+            <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li></ul>
     </div></section>
 
 </main>

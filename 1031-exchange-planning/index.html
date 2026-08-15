@@ -156,10 +156,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -206,6 +206,12 @@
             <h1>1031 Exchange Planning</h1>
         <p class="blog-meta">Real Estate Tax Planning | Updated August 11, 2026 | AE Tax Advisors</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">A 1031 exchange is a transaction under IRC Section 1031 in which real property held for investment or business use is exchanged for other like-kind real property, deferring all capital gain and depreciation recapture provided the 45-day identification and 180-day closing deadlines are met and proceeds are held by a qualified intermediary.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         <p>A 1031 exchange defers the entire gain on an investment property sale, including depreciation recapture. It is the single most powerful deferral available to a real estate investor and the one most often executed badly.</p>

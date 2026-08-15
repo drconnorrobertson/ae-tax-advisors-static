@@ -149,10 +149,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -199,6 +199,12 @@
             <h1>Cost Segregation on a Single-Family Rental Portfolio: Aggregating for Scale</h1>
         <p class="blog-meta">Published on August 10, 2026 | Cost Segregation | Connor Davis, AE Tax Advisors</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Cost segregation is an engineering-based tax study that separates a building's cost into its components and reassigns them from the default 27.5-year or 39-year depreciation schedule to their correct 5-year, 7-year, and 15-year classifications, so that the reclassified portion becomes immediately deductible under 100% bonus depreciation.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         <p>A single rental house almost never justifies a standalone cost segregation study. A $280,000 house with $230,000 of depreciable basis reclassifies about $46,000, which produces roughly $14,000 of first-year tax value against a study fee of $2,500 to $4,000. Positive, but thin enough that most owners skip it.</p>
@@ -268,7 +274,11 @@
             <li><a href="/blog/cost-segregation-100-unit-apartment-community/">Cost Segregation on a 100-Unit Apartment Community: Institutional-Scale Results</a></li>
             <li><a href="/blog/cost-segregation-mid-size-multifamily-20-100-units/">Cost Segregation for Mid-Size Multifamily (20 to 100 Units): What Changes at Scale</a></li>
             <li><a href="/blog/investor-saved-127k-cost-segregation-study/">How One Investor Saved $127K with a Single Cost Segregation Study</a></li>
-        </ul>
+        
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works and What It Costs</a></li>
+            <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li>
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li></ul>
     </div></section>
 
 </main>

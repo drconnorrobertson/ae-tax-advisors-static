@@ -88,6 +88,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is a cost segregation study worth the cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally yes once depreciable basis exceeds roughly $500,000, assuming you can actually use the deduction in the current year. The analysis that matters is not the size of the deduction but whether the passive activity loss rules, basis limits, and excess business loss limitation allow you to deduct it now."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a cost segregation study?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A cost segregation study is an engineering-based analysis that separates a building's purchase or construction cost into its components and reassigns them from the default 27.5-year or 39-year recovery period to their correct 5-year, 7-year, and 15-year MACRS classifications. Because those shorter-life categories qualify for bonus depreciation, the reclassified amount is generally deductible in the first year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens to the accelerated depreciation when I sell?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Personal property is recaptured as ordinary income under Section 1245 to the extent of gain, and building depreciation is subject to unrecaptured Section 1250 gain taxed at up to 25%. A 1031 exchange defers it, and holding until death eliminates it through the basis step-up under Section 1014."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do a study on a property I bought years ago?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A Form 3115 change in accounting method captures every missed deduction from the placed-in-service year in a single Section 481(a) adjustment claimed in the current year. No amended returns are needed and there is no three-year limitation."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -95,10 +135,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -154,13 +194,19 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Cost segregation is an engineering-based tax study that separates a building's cost into its components and reassigns them from the default 27.5-year or 39-year depreciation schedule to their correct 5-year, 7-year, and 15-year classifications, so that the reclassified portion becomes immediately deductible under 100% bonus depreciation.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         <p>When we tell prospective clients that our comprehensive tax advisory engagement is $7,800, some hesitate. We understand. In a world where tax preparation software costs $100 and many CPAs charge $1,500-$3,000 for a return, $7,800 can feel steep.</p>
 
         <p>Until you see the math.</p>
 
-        <p>The question is never "Can I afford $7,800 for tax advisory?" The real question is "Can I afford NOT to?" And for the vast majority of our clients&mdash;real estate investors, business owners, and high-income professionals, and portfolio holders&mdash;the answer is definitively no.</p>
+        <p>The question is never "Can I afford $7,800 for tax advisory?" The real question is "Can I afford NOT to?" And for the vast majority of our clients, real estate investors, business owners, and high-income professionals, and portfolio holders, the answer is definitively no.</p>
 
         <h2>What $7,800 Actually Buys You</h2>
 
@@ -170,7 +216,7 @@
         <p>We pull your prior three years of tax returns and conduct a line-by-line analysis. We look for missed deductions, incorrect entity classifications, depreciation errors, passive activity mistakes, and unrealized credits. It is common for us to find $20,000-$80,000 in recoverable tax savings in the lookback alone.</p>
 
         <h3>Entity Structure Analysis</h3>
-        <p>We evaluate whether your current entity structure&mdash;sole proprietorship, single-member LLC, multi-member LLC, S-Corp, C-Corp, or combination thereof&mdash;is optimized for your specific income level and investment strategy. Under IRC Section 199A, the wrong structure can cost you the entire 20% QBI deduction. Under IRC Section 1402, the wrong structure can subject income to unnecessary self-employment tax of 15.3%.</p>
+        <p>We evaluate whether your current entity structure, sole proprietorship, single-member LLC, multi-member LLC, S-Corp, C-Corp, or combination thereof, is optimized for your specific income level and investment strategy. Under IRC Section 199A, the wrong structure can cost you the entire 20% QBI deduction. Under IRC Section 1402, the wrong structure can subject income to unnecessary self-employment tax of 15.3%.</p>
 
         <h3>Cost Segregation Coordination</h3>
         <p>For real estate investors, we evaluate every property in your portfolio for cost segregation potential. We coordinate with qualified engineers, review completed studies, implement the deductions, and file Form 3115 for prior-year catch-up when applicable.</p>
@@ -202,7 +248,7 @@
 
         <h2>The Comparison Trap</h2>
 
-        <p>Some prospects compare our fee to competitors who charge $3,000-$5,000. We encourage you to compare&mdash;but compare the deliverables, not just the price. Ask your $3,000 advisor:</p>
+        <p>Some prospects compare our fee to competitors who charge $3,000-$5,000. We encourage you to compare, but compare the deliverables, not just the price. Ask your $3,000 advisor:</p>
 
         <ul>
             <li>Do they perform a three-year lookback analysis?</li>
@@ -220,7 +266,7 @@
 
         <p>We are straightforward about this. Our advisory engagement is not right for everyone. If you have no real estate, no business income, and a simple tax situation, $7,800 is probably not justified. In that case, a good CPA at $1,500-$2,500 is the right choice.</p>
 
-        <p>But if you own real estate, earn $250K+ in business or professional income, operate short-term rentals, have multiple entities, or are considering significant financial transactions&mdash;the $7,800 fee is not a cost. It is the best investment you will make all year.</p>
+        <p>But if you own real estate, earn $250K+ in business or professional income, operate short-term rentals, have multiple entities, or are considering significant financial transactions, the $7,800 fee is not a cost. It is the best investment you will make all year.</p>
 
         <h2>Take the Next Step</h2>
 
@@ -242,9 +288,35 @@
             <li><a href="/blog/str-vs-ltr-which-saves-more-tax/">Short-Term Rental vs Long-Term Rental: Which Saves More Tax?</a></li>
             <li><a href="/blog/tax-strategy-for-franchise-owners/">Tax Strategy for Franchise Owners: Franchise Fees, Multi-Unit Growth, and Build-Out</a></li>
             <li><a href="/blog/tax-strategy-for-pharmacy-owners/">Tax Strategy for Independent Pharmacy Owners: Inventory, DIR Fees, and Thin Margins</a></li>
-        </ul>
+        
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/cost-segregation-for-multifamily/">Cost Segregation for Multifamily Properties</a></li>
+            <li><a href="/macrs-depreciation-schedule-2026/">MACRS Depreciation Schedule 2026</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Is a cost segregation study worth the cost?</h3>
+                    <p>Generally yes once depreciable basis exceeds roughly $500,000, assuming you can actually use the deduction in the current year. The analysis that matters is not the size of the deduction but whether the passive activity loss rules, basis limits, and excess business loss limitation allow you to deduct it now.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is a cost segregation study?</h3>
+                    <p>A cost segregation study is an engineering-based analysis that separates a building's purchase or construction cost into its components and reassigns them from the default 27.5-year or 39-year recovery period to their correct 5-year, 7-year, and 15-year MACRS classifications. Because those shorter-life categories qualify for bonus depreciation, the reclassified amount is generally deductible in the first year.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What happens to the accelerated depreciation when I sell?</h3>
+                    <p>Personal property is recaptured as ordinary income under Section 1245 to the extent of gain, and building depreciation is subject to unrecaptured Section 1250 gain taxed at up to 25%. A 1031 exchange defers it, and holding until death eliminates it through the basis step-up under Section 1014.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I do a study on a property I bought years ago?</h3>
+                    <p>Yes. A Form 3115 change in accounting method captures every missed deduction from the placed-in-service year in a single Section 481(a) adjustment claimed in the current year. No amended returns are needed and there is no three-year limitation.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

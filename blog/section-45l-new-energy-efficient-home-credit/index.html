@@ -157,10 +157,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -207,6 +207,12 @@
             <h1>The Section 45L Credit: $2,500 to $5,000 Per Unit for Residential Builders</h1>
         <p class="blog-meta">Published on August 11, 2026 | Business Owner Tax | AE Tax Advisors</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Tax credits reduce tax liability dollar for dollar rather than reducing taxable income, which makes them substantially more valuable than deductions of the same size, and many of them carry strict certification or filing deadlines that cannot be met retroactively.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         <p>IRC Sec. 45L provides a credit for each qualifying new energy efficient dwelling unit acquired from an eligible contractor. The Inflation Reduction Act restructured it around ENERGY STAR and Zero Energy Ready Home certification and raised the amounts substantially.</p>

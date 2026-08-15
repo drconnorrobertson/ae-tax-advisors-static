@@ -157,10 +157,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -207,6 +207,12 @@
             <h1>Cost Segregation for Parking Garages: Structure, Equipment, and the Freestanding Test</h1>
         <p class="blog-meta">Published on August 11, 2026 | Cost Segregation | AE Tax Advisors</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Cost segregation is an engineering-based tax study that separates a building's cost into its components and reassigns them from the default 27.5-year or 39-year depreciation schedule to their correct 5-year, 7-year, and 15-year classifications, so that the reclassified portion becomes immediately deductible under 100% bonus depreciation.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         <p>Parking garages present one of the more consequential classification questions in commercial real estate. Depending on how a structure is characterized, its recovery period can be 15 years or 39 years, and the difference on a $14,000,000 deck is enormous.</p>

@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does S-Corp salary interact with the QBI deduction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Above the Section 199A taxable income thresholds, the deduction for a non-service business is limited by W-2 wages. Reducing your salary to save payroll tax can therefore reduce the QBI deduction by more than the payroll tax saved, so both effects must be modeled together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if my S-Corp salary is too low?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The IRS recharacterizes distributions as wages, producing back employment taxes for both halves, failure to deposit and failure to file penalties, accuracy-related penalties, and interest across all open years. Adjustments spanning three years frequently exceed six figures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does an S-Corp election reduce income tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can an LLC be taxed as an S-Corp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. An LLC can elect S-Corp taxation by filing Form 2553 without converting to a corporation. The operating agreement, liability protection, and state law status are unaffected; only the federal tax characterization changes."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,6 +166,12 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">An S corporation is a federal tax election under Subchapter S in which a business pays its owner reasonable W-2 wages subject to payroll tax and distributes remaining profit free of self-employment tax, reducing employment tax without changing how the profit is taxed for income tax purposes.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
@@ -133,9 +179,9 @@
 
 <h2>The Two-Step Process</h2>
 
-<p>Step one: the S-Corp pays the health insurance premiums&mdash;either directly to the insurance company or by reimbursing the shareholder for premiums paid personally. The S-Corp then includes the premium amount in the shareholder-employee's W-2 wages in Box 1 as taxable compensation. Critically, the premiums should not be included in Boxes 3 and 5 (Social Security and Medicare wages), which means they are not subject to FICA taxes. The S-Corp also deducts the premium payments as employee compensation expense under IRC Section 162.</p>
+<p>Step one: the S-Corp pays the health insurance premiums, either directly to the insurance company or by reimbursing the shareholder for premiums paid personally. The S-Corp then includes the premium amount in the shareholder-employee's W-2 wages in Box 1 as taxable compensation. Critically, the premiums should not be included in Boxes 3 and 5 (Social Security and Medicare wages), which means they are not subject to FICA taxes. The S-Corp also deducts the premium payments as employee compensation expense under IRC Section 162.</p>
 
-<p>Step two: the shareholder-employee claims the self-employed health insurance deduction on Line 17 of Schedule 1 (Form 1040) under IRC Section 162(l). This deduction reduces adjusted gross income dollar-for-dollar for the amount of health insurance premiums included in W-2 income. The net effect is that the premiums are deductible above the line, reducing AGI and all downstream calculations that depend on AGI&mdash;including the net investment income tax threshold, the Medicare surtax threshold, and various phase-outs.</p>
+<p>Step two: the shareholder-employee claims the self-employed health insurance deduction on Line 17 of Schedule 1 (Form 1040) under IRC Section 162(l). This deduction reduces adjusted gross income dollar-for-dollar for the amount of health insurance premiums included in W-2 income. The net effect is that the premiums are deductible above the line, reducing AGI and all downstream calculations that depend on AGI, including the net investment income tax threshold, the Medicare surtax threshold, and various phase-outs.</p>
 
 <h2>Requirements Under IRS Notice 2008-1</h2>
 
@@ -145,19 +191,19 @@
 
 <h2>What Premiums Qualify</h2>
 
-<p>The Section 162(l) deduction covers health insurance premiums for the shareholder-employee, their spouse, their dependents, and any child under age 27 as of the end of the tax year. This includes medical insurance, dental insurance, vision insurance, and qualified long-term care insurance (subject to age-based limits under IRC Section 213(d)(10)). Medicare premiums&mdash;including Part B, Part D, and Medigap policies&mdash;also qualify if the shareholder is enrolled in Medicare.</p>
+<p>The Section 162(l) deduction covers health insurance premiums for the shareholder-employee, their spouse, their dependents, and any child under age 27 as of the end of the tax year. This includes medical insurance, dental insurance, vision insurance, and qualified long-term care insurance (subject to age-based limits under IRC Section 213(d)(10)). Medicare premiums, including Part B, Part D, and Medigap policies, also qualify if the shareholder is enrolled in Medicare.</p>
 
 <h2>Limitations on the Deduction</h2>
 
 <p>The Section 162(l) deduction cannot exceed the shareholder's earned income from the S-Corp for the year. If your W-2 wages from the S-Corp (excluding the health insurance add-back) are $50,000 and your health insurance premiums are $60,000, you can only deduct $50,000. The remaining $10,000 might be deductible as a medical expense on Schedule A if you itemize and your total medical expenses exceed 7.5% of AGI under IRC Section 213(a).</p>
 
-<p>Additionally, the deduction is not available for any month in which you are eligible to participate in a subsidized health plan maintained by your spouse's employer&mdash;even if you do not enroll. This frequently overlooked limitation can result in partial or full disallowance.</p>
+<p>Additionally, the deduction is not available for any month in which you are eligible to participate in a subsidized health plan maintained by your spouse's employer, even if you do not enroll. This frequently overlooked limitation can result in partial or full disallowance.</p>
 
 <h2>Common Errors to Avoid</h2>
 
 <p>The most common error is failing to include the premiums on the shareholder's W-2. If the S-Corp pays the premiums but does not add them to Box 1 of the W-2, the shareholder has received a tax-free benefit that is not authorized for greater-than-2% shareholders, and the Section 162(l) deduction is not available. Another frequent mistake is including the premiums in FICA wages (Boxes 3 and 5), which creates unnecessary payroll tax liability. The premiums should appear in Box 1 and Box 14 (with a notation such as "S-Corp Health Insurance") but not in Boxes 3 or 5.</p>
 
-<p>A third error involves timing. The S-Corp must pay or reimburse the premiums during the tax year&mdash;not after year-end. If premiums are paid in January for the prior year, they cannot be included on the prior year's W-2 and the deduction is lost for that year.</p>
+<p>A third error involves timing. The S-Corp must pay or reimburse the premiums during the tax year, not after year-end. If premiums are paid in January for the prior year, they cannot be included on the prior year's W-2 and the deduction is lost for that year.</p>
 
 <p>Properly structuring S-Corp health insurance requires coordination between payroll, tax reporting, and benefits administration. AE Tax Advisors ensures that S-Corp owners capture the full deduction while maintaining compliance with IRS Notice 2008-1 and avoiding costly payroll tax errors.</p>
 
@@ -185,9 +231,35 @@
             <li><a href="/how-to-legally-pay-yourself-from-your-business/">How To Legally Pay Yourself From Your Business</a></li>
             <li><a href="/blog/tax-strategy-for-home-health-agency-owners/">Tax Strategy for Home Health Agency Owners: Receivables, Caregivers, and Growth</a></li>
             <li><a href="/blog/insurance-entity-structure-asset-protection-guide/">Insurance, Entity Structure, and Asset Protection: The Complete Guide</a></li>
-        </ul>
+        
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            <li><a href="/cash-balance-plan-tax-deduction/">Cash Balance Plan Tax Deduction</a></li>
+            <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How does S-Corp salary interact with the QBI deduction?</h3>
+                    <p>Above the Section 199A taxable income thresholds, the deduction for a non-service business is limited by W-2 wages. Reducing your salary to save payroll tax can therefore reduce the QBI deduction by more than the payroll tax saved, so both effects must be modeled together.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What happens if my S-Corp salary is too low?</h3>
+                    <p>The IRS recharacterizes distributions as wages, producing back employment taxes for both halves, failure to deposit and failure to file penalties, accuracy-related penalties, and interest across all open years. Adjustments spanning three years frequently exceed six figures.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Does an S-Corp election reduce income tax?</h3>
+                    <p>No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can an LLC be taxed as an S-Corp?</h3>
+                    <p>Yes. An LLC can elect S-Corp taxation by filing Form 2553 without converting to a corporation. The operating agreement, liability protection, and state law status are unaffected; only the federal tax characterization changes.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

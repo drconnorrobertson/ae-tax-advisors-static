@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Owner Saves $94K with Cost Seg + FICA Tip Credit Stacking | AE Tax Advisors</title>
+    <title>Restaurant Owner Saves $94K with Cost Seg + FICA Tip Credit Stacking</title>
     <meta name="description" content="How a restaurant owner with 2 locations used cost segregation on owned buildings plus FICA tip credit stacking to save $94,000 combined.">
     <link rel="canonical" href="https://aetaxadvisors.com/case-studies/restaurant-cost-seg-tip-credit/">
-    <meta property="og:title" content="Restaurant Owner Saves $94K with Cost Seg + FICA Tip Credit Stacking | AE Tax Advisors">
+    <meta property="og:title" content="Restaurant Owner Saves $94K with Cost Seg + FICA Tip Credit Stacking">
     <meta property="og:description" content="How a restaurant owner with 2 locations used cost segregation on owned buildings plus FICA tip credit stacking to save $94,000 combined.">
     <meta property="og:url" content="https://aetaxadvisors.com/case-studies/restaurant-cost-seg-tip-credit/">
     <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
@@ -15,7 +15,7 @@
     <meta property="article:published_time" content="2026-06-16T00:00:00-04:00">
     <meta property="article:modified_time" content="2026-06-16T00:00:00-04:00">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Restaurant Owner Saves $94K with Cost Seg + FICA Tip Credit Stacking | AE Tax Advisors">
+    <meta name="twitter:title" content="Restaurant Owner Saves $94K with Cost Seg + FICA Tip Credit Stacking">
     <meta name="twitter:description" content="How a restaurant owner with 2 locations used cost segregation on owned buildings plus FICA tip credit stacking to save $94,000 combined.">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,10 +55,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <a href="/about/" class="nav-link">About Us</a>
 <div class="nav-dropdown">
@@ -78,6 +78,7 @@
 </div>
             </div>
 <a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
 <div class="nav-dropdown">
                 <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
                 <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
@@ -106,14 +107,14 @@
             <div class="post-content">
                 <div style="background:var(--light-bg);border-radius:12px;padding:24px;margin-bottom:32px;">
                     <h3 style="margin-top:0;">Client Profile</h3>
-                    <table style="width:100%;border-collapse:collapse;">
+                    <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="width:100%;border-collapse:collapse;">
                         <tr><td style="padding:8px 12px;font-weight:600;width:40%;">Industry</td><td style="padding:8px 12px;">Restaurant (2 Locations)</td></tr>
                         <tr><td style="padding:8px 12px;font-weight:600;">Annual Revenue</td><td style="padding:8px 12px;">$4,200,000 (combined)</td></tr>
                         <tr><td style="padding:8px 12px;font-weight:600;">Prior Entity Type</td><td style="padding:8px 12px;">S-Corporation</td></tr>
                         <tr><td style="padding:8px 12px;font-weight:600;">State</td><td style="padding:8px 12px;">Georgia</td></tr>
                         <tr><td style="padding:8px 12px;font-weight:600;">Key Metric</td><td style="padding:8px 12px;">Cost seg on 2 buildings + FICA tip credit = $94K annual savings</td></tr>
                         <tr><td style="padding:8px 12px;font-weight:600;">Annual Tax Savings</td><td style="padding:8px 12px;font-weight:700;color:var(--accent);">$94,000</td></tr>
-                    </table>
+                    </table></div>
                 </div>
 
                 <h2>The Problem</h2>
@@ -122,7 +123,7 @@
 
                 <h2>AE Tax Strategy</h2>
                 <h3>1. Cost Segregation on Two Restaurant Buildings Under IRC &sect;168</h3>
-                <p>We commissioned cost segregation studies on both restaurant buildings. Building 1 ($1.1M): $451,000 reclassified (41% &mdash; restaurants produce high reclassification due to specialized kitchen infrastructure, exhaust systems, decorative finishes, signage, and site improvements). Building 2 ($700,000): $280,000 reclassified (40%). Combined accelerated components: $731,000. Under 100% bonus depreciation, the entire amount was deductible in Year 1, producing $731,000 in accelerated deductions versus the $40,200 that straight-line depreciation would have provided.</p>
+                <p>We commissioned cost segregation studies on both restaurant buildings. Building 1 ($1.1M): $451,000 reclassified (41% , restaurants produce high reclassification due to specialized kitchen infrastructure, exhaust systems, decorative finishes, signage, and site improvements). Building 2 ($700,000): $280,000 reclassified (40%). Combined accelerated components: $731,000. Under 100% bonus depreciation, the entire amount was deductible in Year 1, producing $731,000 in accelerated deductions versus the $40,200 that straight-line depreciation would have provided.</p>
                 <h3>2. FICA Tip Credit Under IRC &sect;45B</h3>
                 <p>We calculated the FICA Tip Credit for all 62 tipped employees. The credit equals the employer's FICA obligation (7.65%) on tips exceeding the amount that would bring each employee's cash wage to the federal minimum wage ($7.25/hour). With $1.1M in total reported tips across 62 employees, and after subtracting the tip credit against minimum wage, the qualifying tip amount was $860,000. The FICA Tip Credit was $860,000 x 7.65% = $65,790. This is a dollar-for-dollar credit against income tax liability, not merely a deduction.</p>
                 <h3>3. Work Opportunity Tax Credit (WOTC) Under IRC &sect;51</h3>
@@ -131,7 +132,7 @@
                 <div style="text-align:center;font-size:1.25rem;font-weight:700;color:var(--accent);margin:32px 0;">Total Annual Tax Savings: $94,000</div>
 
                 <h2>Before &amp; After Comparison</h2>
-                <table style="width:100%;border-collapse:collapse;border:1px solid #e5e7eb;margin-bottom:32px;">
+                <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="width:100%;border-collapse:collapse;border:1px solid #e5e7eb;margin-bottom:32px;">
                     <thead><tr style="background:var(--primary);color:#fff;">
                         <th style="padding:12px;text-align:left;">Tax Category</th>
                         <th style="padding:12px;text-align:right;">Before</th>
@@ -145,13 +146,13 @@
                     <tr><td style="padding:10px 12px;border-bottom:1px solid #e5e7eb;text-align:left;">Combined Annual Tax Savings</td><td style="padding:10px 12px;border-bottom:1px solid #e5e7eb;text-align:right;">$0</td><td style="padding:10px 12px;border-bottom:1px solid #e5e7eb;text-align:right;">$94,000</td><td style="padding:10px 12px;border-bottom:1px solid #e5e7eb;text-align:right;color:var(--accent);font-weight:600;">$94,000</td></tr>
                     <tr style="font-weight:700;"><td style="padding:10px 12px;">Total</td><td style="padding:10px 12px;text-align:right;">$0</td><td style="padding:10px 12px;text-align:right;">$94,000</td><td style="padding:10px 12px;text-align:right;color:var(--accent);">$94,000</td></tr>
                     </tbody>
-                </table>
+                </table></div>
 
                 <h2>Key Takeaways</h2>
                 <ul>
                     <li>Restaurant buildings produce among the highest cost segregation reclassification percentages (38-45%) because of specialized kitchen exhaust, grease traps, walk-in cooler infrastructure, decorative finishes, and extensive site improvements.</li>
-                    <li>The FICA Tip Credit under IRC &sect;45B is one of the most underutilized tax credits available to restaurant owners &mdash; it provides a dollar-for-dollar credit, not just a deduction.</li>
-                    <li>WOTC screening should be integrated into the hiring process for all restaurant employees &mdash; qualifying candidates are common in the hospitality industry.</li>
+                    <li>The FICA Tip Credit under IRC &sect;45B is one of the most underutilized tax credits available to restaurant owners, it provides a dollar-for-dollar credit, not just a deduction.</li>
+                    <li>WOTC screening should be integrated into the hiring process for all restaurant employees, qualifying candidates are common in the hospitality industry.</li>
                     <li>Stacking cost segregation with the FICA Tip Credit and WOTC can produce six-figure annual tax savings for multi-location restaurant operators.</li>
                 </ul>
             </div>

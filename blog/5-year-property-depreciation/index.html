@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5 Year Property Depreciation: Examples and Rules | AE Tax Advisors</title>
-    <meta name="description" content="5 year MACRS property is where cost segregation creates most of its value. What qualifies, the IRS tests that separate personal property from building structure, and the depreciation schedule.">
+    <title>5 Year Property Depreciation: Examples and Rules (2026)</title>
+    <meta name="description" content="5 year MACRS property is where cost segregation creates most of its value. What qualifies, the IRS tests that separate personal property from building structure...">
     <link rel="canonical" href="https://aetaxadvisors.com/blog/5-year-property-depreciation/">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-    <meta property="og:title" content="5 Year Property Depreciation: Examples and Rules | AE Tax Advisors">
+    <meta property="og:title" content="5 Year Property Depreciation: Examples and Rules (2026)">
     <meta property="og:description" content="5 year MACRS property is where cost segregation creates most of its value. What qualifies, the IRS tests that separate personal property from building structure, and the depreciation schedule.">
     <meta property="og:url" content="https://aetaxadvisors.com/blog/5-year-property-depreciation/">
     <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="AE Tax Advisors">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="5 Year Property Depreciation: Examples and Rules | AE Tax Advisors">
+    <meta name="twitter:title" content="5 Year Property Depreciation: Examples and Rules (2026)">
     <meta name="twitter:description" content="5 year MACRS property is where cost segregation creates most of its value. What qualifies, the IRS tests that separate personal property from building structure, and the depreciation schedule.">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -133,10 +133,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -207,7 +207,7 @@
 
         <h2>What Typically Lands in the 5 Year Bucket</h2>
 
-        <table>
+        <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table>
             <thead>
                 <tr><th>Category</th><th>Examples</th></tr>
             </thead>
@@ -221,7 +221,7 @@
                 <tr><td>Furniture and equipment</td><td>Furnishings in a furnished rental, security and AV systems, signage</td></tr>
                 <tr><td>Site items</td><td>Certain removable partitions, specialty millwork, decorative trim</td></tr>
             </tbody>
-        </table>
+        </table></div>
 
         <p>Short term rentals tend to have the highest 5 year allocations because they are delivered furnished. A fully furnished <a href="/cost-segregation-airbnb/">Airbnb or VRBO property</a> often carries 20 to 30 percent of depreciable basis in 5 year property, against roughly 10 to 15 percent for an unfurnished long term rental.</p>
 
@@ -244,7 +244,7 @@
 
         <p>Without bonus depreciation, 5 year property under the half year convention and 200 percent declining balance runs as follows:</p>
 
-        <table>
+        <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table>
             <thead>
                 <tr><th>Year</th><th>Rate</th><th>On $200,000 of basis</th></tr>
             </thead>
@@ -256,7 +256,7 @@
                 <tr><td>5</td><td>11.52%</td><td>$23,040</td></tr>
                 <tr><td>6</td><td>5.76%</td><td>$11,520</td></tr>
             </tbody>
-        </table>
+        </table></div>
 
         <p>With <a href="/blog/bonus-depreciation-2025-2026-real-estate-investors/">100 percent bonus depreciation</a>, the entire $200,000 is deducted in year one and the schedule above becomes irrelevant. The table still matters if you elect out of bonus, if the property was placed in service during a partial bonus year, or if you are modeling a property acquired before January 20, 2025 under the old phase down.</p>
 
@@ -264,7 +264,7 @@
 
         <p>Consider a $1,200,000 short term rental, of which $250,000 is land. Depreciable basis is $950,000.</p>
 
-        <table>
+        <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table>
             <thead>
                 <tr><th></th><th>No study</th><th>With cost segregation</th></tr>
             </thead>
@@ -275,7 +275,7 @@
                 <tr><td><strong>Year 1 depreciation</strong></td><td><strong>~$24,400</strong></td><td><strong>~$348,400</strong></td></tr>
                 <tr><td>Value at 37% marginal rate</td><td>~$9,000</td><td>~$128,900</td></tr>
             </tbody>
-        </table>
+        </table></div>
 
         <p>The deduction is only usable in year one if you can get past the passive loss rules, either through <a href="/blog/what-is-the-7-day-rule-for-short-term-rentals/">the short term rental 7 day exception</a> with material participation, or through <a href="/real-estate-professional-status-reps-how-to-qualify/">real estate professional status</a>.</p>
 
@@ -320,7 +320,11 @@
                 <li><a href="/blog/how-to-evaluate-cost-segregation-study/">How to Evaluate a Cost Segregation Study</a></li>
                 <li><a href="/blog/depreciation-recapture-planning/">Depreciation Recapture Planning</a></li>
                 <li><a href="/blog/partial-asset-disposition-overlooked-tax-strategy/">Partial Asset Disposition</a></li>
-        </ul>
+        
+            <li><a href="/cost-segregation-for-multifamily/">Cost Segregation for Multifamily Properties</a></li>
+            <li><a href="/macrs-depreciation-schedule-2026/">MACRS Depreciation Schedule 2026</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works and What It Costs</a></li></ul>
 
         <div class="cta-box" style="background:#f8f9fa;border:2px solid #1a365d;border-radius:12px;padding:40px;text-align:center;margin:40px 0;">
             <h3 style="color:#1a365d;margin-bottom:10px;">See How Much of Your Property Is Actually 5 Year Property</h3>

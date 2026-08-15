@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Section 1202 qualified small business stock?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A provision allowing exclusion of a substantial portion of gain on the sale of qualifying C corporation stock held for the required period. The OBBBA expanded the regime with tiered exclusions beginning at three years and higher caps, making it the primary exit for growth-oriented C corporations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the accumulated earnings tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 20% penalty tax under Section 531 on earnings accumulated beyond the reasonable needs of the business, with a credit of $250,000, or $150,000 for personal service corporations. It is defended with contemporaneous documentation of expansion plans and working capital requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use a management company to shift income to a C-Corp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if the arrangement has substance. The corporation must actually provide services, the fee must be arm's length, and there must be a written agreement with supporting records. Section 482 permits the IRS to reallocate income between commonly controlled entities where pricing does not reflect economic reality."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should real estate be held in a C-Corp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Almost never. Appreciated property distributed out of a C corporation triggers gain at both the corporate and shareholder level, with no equivalent of the partnership rules permitting tax-free property distributions."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,6 +166,12 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">A C corporation is a separate taxpayer subject to a flat 21% federal rate under IRC Section 11. Income retained in the corporation is taxed once at that rate, while distributions to shareholders as dividends add a second layer of tax, which is why the structure suits businesses that reinvest rather than distribute.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
@@ -133,25 +179,25 @@
 
 <h2>The 21% Rate Advantage</h2>
 
-<p>The flat 21% C corporation rate is lower than the top individual rate of 37%. For business owners whose personal income places them in the 32% bracket or higher, operating through a C corporation can reduce the current-year tax on business profits that will be retained and reinvested. The savings are immediate and tangible&mdash;a business earning $500,000 in net profit pays $105,000 in federal corporate tax at 21%, compared to $170,000 or more if the same income flowed through a pass-through entity to an owner in the 37% bracket.</p>
+<p>The flat 21% C corporation rate is lower than the top individual rate of 37%. For business owners whose personal income places them in the 32% bracket or higher, operating through a C corporation can reduce the current-year tax on business profits that will be retained and reinvested. The savings are immediate and tangible, a business earning $500,000 in net profit pays $105,000 in federal corporate tax at 21%, compared to $170,000 or more if the same income flowed through a pass-through entity to an owner in the 37% bracket.</p>
 
-<p>The critical caveat is that C corporation earnings are subject to a second layer of tax when distributed to shareholders as dividends. Qualified dividends are taxed at preferential rates&mdash;0%, 15%, or 20% depending on the shareholder's taxable income under IRC Section 1(h)(11)&mdash;plus the 3.8% net investment income tax under IRC Section 1411 for high-income taxpayers. When you combine the 21% corporate rate with the 23.8% dividend rate (20% plus 3.8% NIIT), the effective combined rate reaches approximately 39.8%, which exceeds the top individual rate.</p>
+<p>The critical caveat is that C corporation earnings are subject to a second layer of tax when distributed to shareholders as dividends. Qualified dividends are taxed at preferential rates, 0%, 15%, or 20% depending on the shareholder's taxable income under IRC Section 1(h)(11), plus the 3.8% net investment income tax under IRC Section 1411 for high-income taxpayers. When you combine the 21% corporate rate with the 23.8% dividend rate (20% plus 3.8% NIIT), the effective combined rate reaches approximately 39.8%, which exceeds the top individual rate.</p>
 
 <h2>When Double Taxation Is Manageable</h2>
 
-<p>The C corporation structure is most advantageous when the business will retain earnings for an extended period rather than distributing them. If profits are reinvested in equipment, real estate, hiring, or business expansion, the double taxation event is deferred&mdash;potentially indefinitely. The time value of deferring the second layer of tax can be substantial, particularly when retained earnings compound inside the corporation at an after-tax rate that exceeds what the owner could achieve personally after paying pass-through taxes at higher rates.</p>
+<p>The C corporation structure is most advantageous when the business will retain earnings for an extended period rather than distributing them. If profits are reinvested in equipment, real estate, hiring, or business expansion, the double taxation event is deferred, potentially indefinitely. The time value of deferring the second layer of tax can be substantial, particularly when retained earnings compound inside the corporation at an after-tax rate that exceeds what the owner could achieve personally after paying pass-through taxes at higher rates.</p>
 
-<p>Several strategies can further mitigate double taxation. Reasonable compensation paid to shareholder-employees is deductible by the corporation under IRC Section 162, reducing corporate taxable income while providing the shareholder with income that is subject to only one level of tax (plus payroll taxes). Fringe benefits such as health insurance under Section 106, group-term life insurance under Section 79, and educational assistance under Section 127 are deductible by the corporation and excludable from the employee's income&mdash;a benefit not available to more-than-2% shareholders of S corporations.</p>
+<p>Several strategies can further mitigate double taxation. Reasonable compensation paid to shareholder-employees is deductible by the corporation under IRC Section 162, reducing corporate taxable income while providing the shareholder with income that is subject to only one level of tax (plus payroll taxes). Fringe benefits such as health insurance under Section 106, group-term life insurance under Section 79, and educational assistance under Section 127 are deductible by the corporation and excludable from the employee's income, a benefit not available to more-than-2% shareholders of S corporations.</p>
 
 <h2>Qualified Small Business Stock</h2>
 
-<p>One of the most powerful tax incentives available to C corporations is the qualified small business stock (QSBS) exclusion under IRC Section 1202. If the corporation meets the definition of a qualified small business&mdash;generally a domestic C corporation with aggregate gross assets not exceeding $50 million at the time the stock is issued&mdash;shareholders who hold the stock for more than five years can exclude up to the greater of $10 million or ten times their basis in the stock from capital gains upon sale.</p>
+<p>One of the most powerful tax incentives available to C corporations is the qualified small business stock (QSBS) exclusion under IRC Section 1202. If the corporation meets the definition of a qualified small business, generally a domestic C corporation with aggregate gross assets not exceeding $50 million at the time the stock is issued, shareholders who hold the stock for more than five years can exclude up to the greater of $10 million or ten times their basis in the stock from capital gains upon sale.</p>
 
-<p>This exclusion can eliminate federal capital gains tax entirely on a successful exit, making the C corporation the most tax-efficient structure for businesses with high growth potential and an anticipated sale or IPO. The Section 1202 exclusion is not available for S corporations, partnerships, or LLCs&mdash;only C corporations qualify.</p>
+<p>This exclusion can eliminate federal capital gains tax entirely on a successful exit, making the C corporation the most tax-efficient structure for businesses with high growth potential and an anticipated sale or IPO. The Section 1202 exclusion is not available for S corporations, partnerships, or LLCs, only C corporations qualify.</p>
 
 <h2>Accumulated Earnings Tax</h2>
 
-<p>C corporations that retain earnings beyond the reasonable needs of the business may be subject to the accumulated earnings tax under IRC Section 531. This penalty tax of 20% applies to accumulated taxable income&mdash;earnings retained without a legitimate business purpose&mdash;and is designed to prevent shareholders from using the C corporation as a tax shelter to avoid dividend taxation. Maintaining documentation of business reasons for retaining earnings, such as planned capital expenditures, debt reduction, or working capital needs, is essential to defending against this tax.</p>
+<p>C corporations that retain earnings beyond the reasonable needs of the business may be subject to the accumulated earnings tax under IRC Section 531. This penalty tax of 20% applies to accumulated taxable income, earnings retained without a legitimate business purpose, and is designed to prevent shareholders from using the C corporation as a tax shelter to avoid dividend taxation. Maintaining documentation of business reasons for retaining earnings, such as planned capital expenditures, debt reduction, or working capital needs, is essential to defending against this tax.</p>
 
 <h2>Industries Where C Corps Excel</h2>
 
@@ -185,9 +231,35 @@
             <li><a href="/c-corp-conversion-strategy/">C-Corporation Conversion Strategy for High-Income Business Owners</a></li>
             <li><a href="/c-corp-tax-strategy/">C-Corporation Tax Strategy</a></li>
             <li><a href="/c-corporation-strategy/">C Corporation Tax Strategy: How Business Owners Use the 21% Corporate Rate to Build Wealth and Fund Growth</a></li>
-        </ul>
+        
+            <li><a href="/reasonable-compensation-s-corp-irs/">Reasonable Compensation for S-Corp Owners</a></li>
+            <li><a href="/retirement-exit-ma-tax-strategy/">Retirement, Exit and M&amp;A Tax Strategy</a></li>
+            <li><a href="/cash-balance-plan-tax-deduction/">Cash Balance Plan Tax Deduction</a></li>
+            <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What is Section 1202 qualified small business stock?</h3>
+                    <p>A provision allowing exclusion of a substantial portion of gain on the sale of qualifying C corporation stock held for the required period. The OBBBA expanded the regime with tiered exclusions beginning at three years and higher caps, making it the primary exit for growth-oriented C corporations.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the accumulated earnings tax?</h3>
+                    <p>A 20% penalty tax under Section 531 on earnings accumulated beyond the reasonable needs of the business, with a credit of $250,000, or $150,000 for personal service corporations. It is defended with contemporaneous documentation of expansion plans and working capital requirements.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I use a management company to shift income to a C-Corp?</h3>
+                    <p>Yes, if the arrangement has substance. The corporation must actually provide services, the fee must be arm's length, and there must be a written agreement with supporting records. Section 482 permits the IRS to reallocate income between commonly controlled entities where pricing does not reflect economic reality.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Should real estate be held in a C-Corp?</h3>
+                    <p>Almost never. Appreciated property distributed out of a C corporation triggers gain at both the corporate and shareholder level, with no equivalent of the partnership rules permitting tax-free property distributions.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

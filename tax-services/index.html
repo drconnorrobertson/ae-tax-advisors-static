@@ -116,10 +116,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -189,9 +189,39 @@
             <li><a href="/services/bookkeeping/">Bookkeeping Services</a></li>
             <li><a href="/services/tax-planning/">Strategic Tax Planning</a></li>
             <li><a href="/tax-filing-and-compliance-services/">Tax Filing And Compliance Services</a></li>
-        </ul>
+        
+            <li><a href="/pricing/">Pricing and Engagement Options</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            <li><a href="/services/">Our Services</a></li>
+            <li><a href="/discovery/">Request a Consultation</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What tax services does AE Tax Advisors offer?</h3>
+                    <p>AE Tax Advisors provides proactive tax planning, tax preparation, entity structuring, cost segregation studies, IRS audit defense, multi-state tax compliance, and retirement tax strategy for business owners and real estate investors generating $500K or more in annual revenue.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How is tax planning different from tax preparation?</h3>
+                    <p>Tax preparation is backward-looking and focuses on filing accurate returns for the prior year. Tax planning is forward-looking and involves implementing strategies throughout the year to legally minimize your tax liability before filing deadlines.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Who should work with a tax advisor instead of a general CPA?</h3>
+                    <p>Business owners, real estate investors, S-Corp and C-Corp operators, and multi-entity entrepreneurs generating $500K or more in annual revenue benefit most from a specialized tax advisor who focuses on proactive strategies rather than just compliance filing.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much can I expect to save with proactive tax planning?</h3>
+                    <p>Savings vary based on income level, entity structure, and investment activity, but most AE Tax Advisors clients save between $50,000 and $200,000 annually through strategies like entity optimization, cost segregation, and income timing.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I get started with AE Tax Advisors?</h3>
+                    <p>Start with a consultation where AE Tax Advisors reviews your current tax situation, identifies opportunities, and outlines a customized strategy. Contact Christina Nortman at 935 Lake Elmo Dr, Suite B, Billings, MT 59105 to schedule.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
         <footer>

@@ -134,6 +134,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between Section 179 and bonus depreciation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 179 is capped in dollar amount, phases out with total purchases, cannot create a loss, and is elected asset by asset. Bonus depreciation is uncapped, can create a loss, and is elected by class life. Section 179 also covers roofs, HVAC, fire protection, and security systems on nonresidential buildings, which bonus depreciation cannot reach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do states follow federal bonus depreciation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many do not. A number of states decouple entirely and require an addback with a separate state depreciation schedule, while conforming to Section 179 at some level. In those states the federal and state answers differ and both need to be modeled."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What property qualifies for bonus depreciation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Property with a MACRS recovery period of 20 years or less. That includes equipment and machinery, vehicles, furniture, qualified improvement property, and anything a cost segregation study reclassifies into 5-year, 7-year, or 15-year categories. Used property qualifies as well as new."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I always take 100% bonus depreciation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Electing out can be better if you are in an unusually low bracket this year, if you plan to sell soon and want to avoid converting 25% unrecaptured Section 1250 gain into ordinary Section 1245 recapture, or if the deduction would reduce your Section 199A qualified business income deduction."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header>
@@ -141,10 +181,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -185,6 +225,12 @@
         </div>
     </header>
     <main>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Bonus depreciation is a first-year deduction under IRC Section 168(k) that allows the full cost of qualifying property to be deducted immediately rather than over its recovery period. Under the One Big Beautiful Bill Act, the rate is 100% and permanent for property acquired after January 19, 2025.</p>
+        </div>
+    </section>
+
 
     <article class="blog-post">
         <div class="container narrow">
@@ -281,9 +327,35 @@
             <li><a href="/business-owner-cost-segregation/">Cost Segregation for Business Owners: Accelerate Depreciation & Cut Taxes</a></li>
             <li><a href="/eliminating-federal-income-tax-through-a-form-3115-mega-catch-up-long-term-rental-optimization-and-multi-year-sequencing/">Form 3115 Mega Catch-Up, Long-Term Rental</a></li>
             <li><a href="/blog/what-is-bonus-depreciation-and-how-does-it-affect-rental-property/">What Is Bonus Depreciation and How Does It Affect Rental Property?</a></li>
-        </ul>
+        
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li>
+            <li><a href="/section-179-vs-bonus-depreciation-2026/">Section 179 vs Bonus Depreciation in 2026</a></li>
+            <li><a href="/macrs-depreciation-schedule-2026/">MACRS Depreciation Schedule 2026</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What is the difference between Section 179 and bonus depreciation?</h3>
+                    <p>Section 179 is capped in dollar amount, phases out with total purchases, cannot create a loss, and is elected asset by asset. Bonus depreciation is uncapped, can create a loss, and is elected by class life. Section 179 also covers roofs, HVAC, fire protection, and security systems on nonresidential buildings, which bonus depreciation cannot reach.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do states follow federal bonus depreciation?</h3>
+                    <p>Many do not. A number of states decouple entirely and require an addback with a separate state depreciation schedule, while conforming to Section 179 at some level. In those states the federal and state answers differ and both need to be modeled.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What property qualifies for bonus depreciation?</h3>
+                    <p>Property with a MACRS recovery period of 20 years or less. That includes equipment and machinery, vehicles, furniture, qualified improvement property, and anything a cost segregation study reclassifies into 5-year, 7-year, or 15-year categories. Used property qualifies as well as new.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Should I always take 100% bonus depreciation?</h3>
+                    <p>No. Electing out can be better if you are in an unusually low bracket this year, if you plan to sell soon and want to avoid converting 25% unrecaptured Section 1250 gain into ordinary Section 1245 recapture, or if the deduction would reduce your Section 199A qualified business income deduction.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
 <footer>

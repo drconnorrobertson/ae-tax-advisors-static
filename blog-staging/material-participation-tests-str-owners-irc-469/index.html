@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Material Participation Tests for STR Owners Under IRC 469 | AE Tax Advisors</title>
+    <meta name="robots" content="noindex, nofollow">
     <meta name="description" content="Learn the seven material participation tests under IRC 469 that allow STR owners to treat rental losses as non-passive and offset active income.">
     <link rel="canonical" href="https://aetaxadvisors.com/blog/material-participation-tests-str-owners-irc-469/">
     <meta property="og:title" content="Material Participation Tests for STR Owners Under IRC 469 | AE Tax Advisors">
@@ -95,10 +96,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -120,6 +121,7 @@
             </div>
                 <a href="/blog/" class="nav-link">Blog</a>
                 <a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
                 <a href="/discovery/" class="nav-link btn-cta">Free Consultation</a>
             </nav>
         </div>

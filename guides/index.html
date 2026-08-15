@@ -59,6 +59,46 @@
     
     
     <link rel="alternate" hreflang="en" href="https://aetaxadvisors.com/guides/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if I convert a C-Corp back to an S-Corp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The built-in gains tax of Section 1374 applies to gains that existed at conversion and are recognized within the following five-year period. This makes the C election harder to unwind than to make, which is why it should be modeled over a full holding period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a C-Corp actually save tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only on income retained in the corporation. The flat 21% corporate rate beats a 37% individual rate on retained earnings, but distributing those earnings as qualified dividends adds a second layer that pushes the combined federal rate to roughly 39.8%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the accumulated earnings tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 20% penalty tax under Section 531 on earnings accumulated beyond the reasonable needs of the business, with a credit of $250,000, or $150,000 for personal service corporations. It is defended with contemporaneous documentation of expansion plans and working capital requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Section 1202 qualified small business stock?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A provision allowing exclusion of a substantial portion of gain on the sale of qualifying C corporation stock held for the required period. The OBBBA expanded the regime with tiered exclusions beginning at three years and higher caps, making it the primary exit for growth-oriented C corporations."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
         <header>
@@ -66,10 +106,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -113,6 +153,40 @@
     <main>
         
     <section class="page-header"><div class="container"><h1>Guides &amp; Whitepapers</h1></div></section>
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What happens if I convert a C-Corp back to an S-Corp?</h3>
+                    <p>The built-in gains tax of Section 1374 applies to gains that existed at conversion and are recognized within the following five-year period. This makes the C election harder to unwind than to make, which is why it should be modeled over a full holding period.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Does a C-Corp actually save tax?</h3>
+                    <p>Only on income retained in the corporation. The flat 21% corporate rate beats a 37% individual rate on retained earnings, but distributing those earnings as qualified dividends adds a second layer that pushes the combined federal rate to roughly 39.8%.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the accumulated earnings tax?</h3>
+                    <p>A 20% penalty tax under Section 531 on earnings accumulated beyond the reasonable needs of the business, with a credit of $250,000, or $150,000 for personal service corporations. It is defended with contemporaneous documentation of expansion plans and working capital requirements.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is Section 1202 qualified small business stock?</h3>
+                    <p>A provision allowing exclusion of a substantial portion of gain on the sale of qualifying C corporation stock held for the required period. The OBBBA expanded the regime with tiered exclusions beginning at three years and higher caps, making it the primary exit for growth-oriented C corporations.</p>
+                </div>
+        </div>
+    </section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Related Reading</h2>
+            <ul class="related-links">
+                    <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+                    <li><a href="/reasonable-compensation-s-corp-irs/">Reasonable Compensation for S-Corp Owners</a></li>
+                    <li><a href="/retirement-exit-ma-tax-strategy/">Retirement, Exit and M&amp;A Tax Strategy</a></li>
+                    <li><a href="/cash-balance-plan-tax-deduction/">Cash Balance Plan Tax Deduction</a></li>
+            </ul>
+        </div>
+    </section>
+
+
     <section class="content-section fade-in-section"><div class="container narrow">
         <p>In-depth guides on tax planning strategies for high-income professionals and business owners.</p>
 

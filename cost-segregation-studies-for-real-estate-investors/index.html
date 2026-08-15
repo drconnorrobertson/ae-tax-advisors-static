@@ -60,38 +60,7 @@
   "description": "Advanced tax strategies for high-net-worth individuals and business owners."
 }
     </script>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of properties qualify for cost segregation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Any commercial, rental, or investment property with a depreciable basis. Short-term rentals, long-term rentals, office buildings, retail spaces, and mixed-use properties all qualify."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there a minimum property value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We typically recommend cost segregation for properties with a basis of $300,000 or more, though the breakeven point depends on your tax rate and situation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I do a cost segregation study on a property I already own?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. A lookback study with Form 3115 lets you catch up on all missed accelerated depreciation in a single tax year, without amending prior returns."
-      }
-    }
-  ]
-}
-    </script>
+    
 
     <script type="application/ld+json">
 {
@@ -205,10 +174,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <a href="/about/" class="nav-link">About Us</a>
 <div class="nav-dropdown">
@@ -228,6 +197,7 @@
 </div>
             </div>
 <a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
 <div class="nav-dropdown">
                 <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
                 <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
@@ -383,9 +353,39 @@
             <li><a href="/how-to-use-cost-segregation-to-accelerate-real-estate-deductions/">How To Use Cost Segregation To Accelerate Real Estate Deductions</a></li>
             <li><a href="/blog/bonus-depreciation-2025-2026-real-estate-investors/">Bonus Depreciation in 2026: Rules, Rates, and What Changed</a></li>
             <li><a href="/blog/bonus-depreciation-obbba-permanent-100-percent/">Bonus Depreciation Under OBBBA: What 100% Permanent Means for Real Estate Investors</a></li>
-        </ul>
+        
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/cost-segregation-for-multifamily/">Cost Segregation for Multifamily Properties</a></li>
+            <li><a href="/macrs-depreciation-schedule-2026/">MACRS Depreciation Schedule 2026</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What is a cost segregation study?</h3>
+                    <p>A cost segregation study is a detailed engineering and tax analysis that reclassifies real property components into personal property or land improvements. This accelerates depreciation deductions.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Who should consider cost segregation?</h3>
+                    <p>Real estate investors with properties worth $1M+ typically benefit from cost segregation. It's especially valuable for commercial properties, multifamily buildings, and recently acquired or improved properties.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How long does a cost segregation study take?</h3>
+                    <p>Typically 4-8 weeks from start to finish, depending on property complexity and document availability.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What documentation do I need?</h3>
+                    <p>Original construction cost, breakdown of costs by component, property photos, blueprints, and acquisition documents. We guide you on what we need.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I do cost segregation retroactively?</h3>
+                    <p>Yes, you can file an amended return (Form 3115) to implement cost segregation for up to 3 prior years.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

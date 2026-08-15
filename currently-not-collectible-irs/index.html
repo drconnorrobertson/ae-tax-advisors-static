@@ -113,6 +113,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I do if I receive an IRS notice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Read it carefully for the specific issue and the response deadline, and do not ignore it. Many notices are automated matching notices that can be resolved with documentation. Responding within the stated window preserves your appeal rights and prevents automatic assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What triggers an IRS examination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common triggers include large deductions relative to reported income, S-Corp officer compensation that appears low, real estate professional status claims, cryptocurrency reporting, and information return mismatches. Selection is also partly random through the National Research Program."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long can the IRS go back?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally three years from the filing date. That extends to six years where more than 25% of gross income was omitted, and there is no limit for a false or fraudulent return or a failure to file. Employment tax and certain international matters have their own rules."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I represent myself in an audit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is rarely advisable beyond the simplest correspondence matters. Statements made during an examination cannot be retracted, and the scope of an audit frequently expands based on what the examiner learns. Representation by a CPA, enrolled agent, or attorney limits direct contact and keeps the scope defined."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
         <header>
@@ -120,10 +160,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -236,9 +276,34 @@
             <li><a href="/blog/how-to-respond-irs-notice/">How to Respond to an IRS Notice Without Making Things Worse</a></li>
             <li><a href="/blog/how-to-respond-to-an-irs-cp2000-notice/">How Should I Respond to an IRS CP2000 Notice?</a></li>
             <li><a href="/blog/personal-expenses-through-business-irs-risk/">Personal Expenses Through Your Business: The IRS Risk Most Owners Ignore</a></li>
-        </ul>
+        
+            <li><a href="/audit-defense-compliance/">Audit Defense and Compliance</a></li>
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What should I do if I receive an IRS notice?</h3>
+                    <p>Read it carefully for the specific issue and the response deadline, and do not ignore it. Many notices are automated matching notices that can be resolved with documentation. Responding within the stated window preserves your appeal rights and prevents automatic assessment.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What triggers an IRS examination?</h3>
+                    <p>Common triggers include large deductions relative to reported income, S-Corp officer compensation that appears low, real estate professional status claims, cryptocurrency reporting, and information return mismatches. Selection is also partly random through the National Research Program.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How long can the IRS go back?</h3>
+                    <p>Generally three years from the filing date. That extends to six years where more than 25% of gross income was omitted, and there is no limit for a false or fraudulent return or a failure to file. Employment tax and certain international matters have their own rules.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Should I represent myself in an audit?</h3>
+                    <p>It is rarely advisable beyond the simplest correspondence matters. Statements made during an examination cannot be retracted, and the scope of an audit frequently expands based on what the examiner learns. Representation by a CPA, enrolled agent, or attorney limits direct contact and keeps the scope defined.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
         <footer>

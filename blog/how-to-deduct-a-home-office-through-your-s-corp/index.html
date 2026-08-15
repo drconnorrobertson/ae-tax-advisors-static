@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I deduct a home office?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, where a portion of the home is used regularly and exclusively as the principal place of business or for meeting clients. For owner-employees of an S corporation, reimbursement through an accountable plan is generally preferable to claiming the deduction directly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an accountable plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An arrangement under Treasury Regulation 1.62-2 through which a business reimburses employees, including owner-employees, for business expenses without the reimbursement being treated as taxable wages. It requires a business connection, substantiation within a reasonable period, and return of excess amounts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What vehicle deductions are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Either the standard mileage rate or actual expenses including depreciation. Passenger automobiles are subject to the Section 280F luxury auto caps, while vehicles above 6,000 pounds gross vehicle weight rating fall outside that definition and have separate rules. Contemporaneous mileage records are essential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the Augusta Rule work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IRC Section 280A(g) allows a taxpayer to rent a personal residence for 14 days or fewer per year without including the rental income in gross income. A business can deduct the rent if it is reasonable, documented with a rental agreement and a genuine business purpose, and supported by comparable rates."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,6 +166,12 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Business deductions are ordinary and necessary expenses of carrying on a trade or business under IRC Section 162, and their value depends less on identifying them than on documenting them properly and routing them through the correct structure, such as an accountable plan.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
@@ -133,7 +179,7 @@
 
 <h2>Why the Standard Home Office Deduction Does Not Apply</h2>
 
-<p>Sole proprietors and single-member LLC owners deduct home office expenses directly on Schedule C using Form 8829 (Expenses for Business Use of Your Home). However, S-Corp shareholder-employees are treated as employees of the corporation for tax purposes. Before the Tax Cuts and Jobs Act (TCJA), employees could deduct unreimbursed business expenses&mdash;including home office costs&mdash;as miscellaneous itemized deductions on Schedule A, subject to the 2% AGI floor under IRC Section 67(a). The TCJA suspended this deduction entirely for tax years 2018 through 2025 under Section 67(g).</p>
+<p>Sole proprietors and single-member LLC owners deduct home office expenses directly on Schedule C using Form 8829 (Expenses for Business Use of Your Home). However, S-Corp shareholder-employees are treated as employees of the corporation for tax purposes. Before the Tax Cuts and Jobs Act (TCJA), employees could deduct unreimbursed business expenses, including home office costs, as miscellaneous itemized deductions on Schedule A, subject to the 2% AGI floor under IRC Section 67(a). The TCJA suspended this deduction entirely for tax years 2018 through 2025 under Section 67(g).</p>
 
 <p>This means that without an accountable plan, an S-Corp shareholder-employee who pays home office expenses out of pocket receives zero tax benefit. The expense is real, but the deduction is gone. An accountable plan restores the deduction by shifting it from the individual return to the corporate return.</p>
 
@@ -141,7 +187,7 @@
 
 <p>To deduct home office expenses through your S-Corp, the corporation must adopt a written accountable plan that satisfies the three requirements of Treasury Regulation Section 1.62-2(c): business connection, adequate accounting, and return of excess reimbursements. The plan should specifically identify home office expenses as an eligible reimbursement category and describe the substantiation procedure the shareholder-employee must follow.</p>
 
-<p>You must meet the same home office qualification standards that apply to any taxpayer under IRC Section 280A(c). Your home office must be used regularly and exclusively as your principal place of business, or as a place where you meet with clients, customers, or patients in the normal course of business. The "regular and exclusive use" test means the space must be dedicated to business&mdash;a kitchen table used for both dinner and spreadsheets does not qualify.</p>
+<p>You must meet the same home office qualification standards that apply to any taxpayer under IRC Section 280A(c). Your home office must be used regularly and exclusively as your principal place of business, or as a place where you meet with clients, customers, or patients in the normal course of business. The "regular and exclusive use" test means the space must be dedicated to business, a kitchen table used for both dinner and spreadsheets does not qualify.</p>
 
 <h2>Calculating the Reimbursement Amount</h2>
 
@@ -185,9 +231,35 @@
             <li><a href="/home-office-deduction-business-owners/">Home Office Deduction for Business Owners: Maximize Your Deduction Under IRC 280A</a></li>
             <li><a href="/home-office-deduction-the-compliance-first-guide-for-owners/">Home Office Deduction Compliance Guide: Documentation and IRS Audit Defense</a></li>
             <li><a href="/how-to-legally-reimburse-yourself-for-home-office-expenses/">How To Legally Reimburse Yourself For Home Office Expenses</a></li>
-        </ul>
+        
+            <li><a href="/accountable-plan/">Accountable Plans Done Correctly</a></li>
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/section-179-vs-bonus-depreciation-2026/">Section 179 vs Bonus Depreciation in 2026</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Can I deduct a home office?</h3>
+                    <p>Yes, where a portion of the home is used regularly and exclusively as the principal place of business or for meeting clients. For owner-employees of an S corporation, reimbursement through an accountable plan is generally preferable to claiming the deduction directly.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is an accountable plan?</h3>
+                    <p>An arrangement under Treasury Regulation 1.62-2 through which a business reimburses employees, including owner-employees, for business expenses without the reimbursement being treated as taxable wages. It requires a business connection, substantiation within a reasonable period, and return of excess amounts.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What vehicle deductions are available?</h3>
+                    <p>Either the standard mileage rate or actual expenses including depreciation. Passenger automobiles are subject to the Section 280F luxury auto caps, while vehicles above 6,000 pounds gross vehicle weight rating fall outside that definition and have separate rules. Contemporaneous mileage records are essential.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How does the Augusta Rule work?</h3>
+                    <p>IRC Section 280A(g) allows a taxpayer to rent a personal residence for 14 days or fewer per year without including the rental income in gross income. A business can deduct the rent if it is reasonable, documented with a rental agreement and a genuine business purpose, and supported by comparable rates.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

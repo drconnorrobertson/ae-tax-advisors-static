@@ -157,10 +157,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -207,6 +207,12 @@
             <h1>Tax Strategy for Independent Pharmacy Owners: Inventory, DIR Fees, and Thin Margins</h1>
         <p class="blog-meta">Published on August 11, 2026 | Tax Strategy | AE Tax Advisors</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Business deductions are ordinary and necessary expenses of carrying on a trade or business under IRC Section 162, and their value depends less on identifying them than on documenting them properly and routing them through the correct structure, such as an accountable plan.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         <p>An independent pharmacy runs on gross margins that would not sustain most retail businesses, with a balance sheet dominated by inventory and receivables from third-party payers. That combination creates a specific and often large tax opportunity that most pharmacy owners have never been offered.</p>

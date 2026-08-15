@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the requirements for real estate professional status?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Two tests must be met in the same year under IRC Section 469(c)(7): more than half of all personal services performed in all trades or businesses must be in real property trades or businesses in which you materially participate, and you must perform more than 750 hours in those businesses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens to suspended passive losses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They carry forward indefinitely and become deductible when the activity produces income, when other passive income is available, or when the activity's character changes. They are also released in full on a qualifying disposition of the entire interest."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can spouses combine hours to qualify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The qualification tests apply to each spouse individually and cannot be combined, even on a joint return. One spouse must satisfy both tests alone. Once one spouse qualifies, spousal participation may then be combined when testing material participation in the rental activities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the seven material participation tests?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Treasury Regulation 1.469-5T provides seven: more than 500 hours; substantially all participation; more than 100 hours with no one participating more; significant participation activities totaling more than 500 hours; material participation in five of the last ten years; a personal service activity with three prior years; and a facts-and-circumstances test."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,6 +166,12 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Material participation is the standard under Treasury Regulation 1.469-5T that determines whether a taxpayer's involvement in an activity is regular, continuous, and substantial enough to make the activity non-passive, which in turn determines whether losses can offset wages and business income.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
@@ -133,19 +179,19 @@
 
 <h2>What the K-1 Reports</h2>
 
-<p>The Schedule K-1 breaks down your allocable share of the syndication's tax items across multiple boxes. Box 1 reports ordinary business income or loss. Box 2 reports net rental real estate income or loss&mdash;this is where most syndication activity appears. Box 5 reports interest income, Box 6a reports ordinary dividends, and Box 9 reports net Section 1231 gain or loss from property sales. Box 11 may report "other income," and Box 13 reports various deductions. Box 14 reports self-employment earnings (usually not applicable for limited partners), and Box 19 and 20 report distributions and other information.</p>
+<p>The Schedule K-1 breaks down your allocable share of the syndication's tax items across multiple boxes. Box 1 reports ordinary business income or loss. Box 2 reports net rental real estate income or loss, this is where most syndication activity appears. Box 5 reports interest income, Box 6a reports ordinary dividends, and Box 9 reports net Section 1231 gain or loss from property sales. Box 11 may report "other income," and Box 13 reports various deductions. Box 14 reports self-employment earnings (usually not applicable for limited partners), and Box 19 and 20 report distributions and other information.</p>
 
-<p>For a typical real estate syndication, the most important line is Box 2&mdash;net rental real estate income or loss. In the early years of a syndication, this number is often a loss due to accelerated depreciation from cost segregation studies. This paper loss can provide significant tax benefits depending on your overall tax situation.</p>
+<p>For a typical real estate syndication, the most important line is Box 2, net rental real estate income or loss. In the early years of a syndication, this number is often a loss due to accelerated depreciation from cost segregation studies. This paper loss can provide significant tax benefits depending on your overall tax situation.</p>
 
 <h2>Passive Activity Classification</h2>
 
-<p>For most syndication investors, the income or loss reported on the K-1 is classified as passive under IRC Section 469. Limited partners in a syndication generally cannot materially participate in the activity because they have no management authority. This means syndication losses can only offset other passive income&mdash;they cannot offset your W-2 wages or active business income.</p>
+<p>For most syndication investors, the income or loss reported on the K-1 is classified as passive under IRC Section 469. Limited partners in a syndication generally cannot materially participate in the activity because they have no management authority. This means syndication losses can only offset other passive income, they cannot offset your W-2 wages or active business income.</p>
 
-<p>If you have passive income from other sources&mdash;such as rental properties where you are not a Real Estate Professional, or other syndication investments generating positive income&mdash;syndication losses can offset that income. Otherwise, the losses are suspended and carried forward under IRC Section 469(b) until you have passive income to absorb them or until the syndication sells the property and you dispose of your interest.</p>
+<p>If you have passive income from other sources, such as rental properties where you are not a Real Estate Professional, or other syndication investments generating positive income, syndication losses can offset that income. Otherwise, the losses are suspended and carried forward under IRC Section 469(b) until you have passive income to absorb them or until the syndication sells the property and you dispose of your interest.</p>
 
 <h2>The REPS Exception for Syndications</h2>
 
-<p>Even if you qualify as a Real Estate Professional, the benefit may not extend to syndication investments. REPS requires material participation in each activity (or a grouped activity). As a limited partner in a syndication, you typically do not materially participate&mdash;the general partner or sponsor manages the property. Under IRC Section 469(h)(2), limited partners can only satisfy material participation through the 500-hour test or the three-year material participation lookback test, which is nearly impossible for a passive investor in a syndication.</p>
+<p>Even if you qualify as a Real Estate Professional, the benefit may not extend to syndication investments. REPS requires material participation in each activity (or a grouped activity). As a limited partner in a syndication, you typically do not materially participate, the general partner or sponsor manages the property. Under IRC Section 469(h)(2), limited partners can only satisfy material participation through the 500-hour test or the three-year material participation lookback test, which is nearly impossible for a passive investor in a syndication.</p>
 
 <p>Some syndications are structured as LLCs rather than limited partnerships, which may provide more flexibility for material participation claims. However, this is fact-specific and should be carefully analyzed with your CPA.</p>
 
@@ -161,13 +207,13 @@
 
 <h2>Timing of K-1 Delivery</h2>
 
-<p>Syndication K-1s are frequently delivered late&mdash;sometimes in September or October, well past the April filing deadline. Plan to file an extension (Form 4868) if you invest in syndications. Extensions give you until October 15 to file your return and do not affect your tax liability as long as you pay estimated taxes by April 15. Your CPA should factor syndication K-1 timing into your overall filing strategy.</p>
+<p>Syndication K-1s are frequently delivered late, sometimes in September or October, well past the April filing deadline. Plan to file an extension (Form 4868) if you invest in syndications. Extensions give you until October 15 to file your return and do not affect your tax liability as long as you pay estimated taxes by April 15. Your CPA should factor syndication K-1 timing into your overall filing strategy.</p>
 
         <hr style="margin: 3rem 0; border: none; border-top: 1px solid #e5e7eb;">
 
         <div style="background:#f8f9fa;border-left:4px solid #1a3a5c;padding:1.5rem 2rem;border-radius:0 8px 8px 0;margin-bottom:2rem;">
             <p style="margin:0 0 0.75rem;font-weight:600;font-size:1.1rem;">Find Out How Much You Could Save</p>
-            <p style="margin:0 0 1rem;">Our complimentary 3-Year Tax Lookback identifies missed deductions and optimization opportunities. No obligation, no pressure&mdash;just clarity on what you are leaving behind.</p>
+            <p style="margin:0 0 1rem;">Our complimentary 3-Year Tax Lookback identifies missed deductions and optimization opportunities. No obligation, no pressure, just clarity on what you are leaving behind.</p>
             <a href="/discovery/" style="display:inline-block;background:#1a3a5c;color:#fff;padding:0.75rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;">Request Your Free Lookback</a>
         </div>
 
@@ -187,9 +233,34 @@
             <li><a href="/blog/deducting-str-losses-against-w2-income/">How to Deduct STR Losses Against W-2 Income</a></li>
             <li><a href="/blog/do-i-need-to-collect-sales-tax-on-airbnb-rental-income/">Do I Need to Collect Sales Tax on My Airbnb Rental Income?</a></li>
             <li><a href="/blog/do-i-report-airbnb-income-if-i-rent-less-than-14-days/">Do I Report Airbnb Income if I Rent My Property Less Than 14 Days?</a></li>
-        </ul>
+        
+            <li><a href="/short-term-rental-tax-loophole-2026/">The Short-Term Rental Tax Loophole in 2026</a></li>
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li>
+            <li><a href="/reps-real-estate-professional-status/">Real Estate Professional Status: How to Qualify</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What are the requirements for real estate professional status?</h3>
+                    <p>Two tests must be met in the same year under IRC Section 469(c)(7): more than half of all personal services performed in all trades or businesses must be in real property trades or businesses in which you materially participate, and you must perform more than 750 hours in those businesses.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What happens to suspended passive losses?</h3>
+                    <p>They carry forward indefinitely and become deductible when the activity produces income, when other passive income is available, or when the activity's character changes. They are also released in full on a qualifying disposition of the entire interest.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can spouses combine hours to qualify?</h3>
+                    <p>No. The qualification tests apply to each spouse individually and cannot be combined, even on a joint return. One spouse must satisfy both tests alone. Once one spouse qualifies, spousal participation may then be combined when testing material participation in the rental activities.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What are the seven material participation tests?</h3>
+                    <p>Treasury Regulation 1.469-5T provides seven: more than 500 hours; substantially all participation; more than 100 hours with no one participating more; significant participation activities totaling more than 500 hours; material participation in five of the last ten years; a personal service activity with three prior years; and a facts-and-circumstances test.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

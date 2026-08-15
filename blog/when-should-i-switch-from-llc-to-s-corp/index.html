@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does an S-Corp election reduce income tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can an LLC be taxed as an S-Corp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. An LLC can elect S-Corp taxation by filing Form 2553 without converting to a corporation. The operating agreement, liability protection, and state law status are unaffected; only the federal tax characterization changes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does an S-Corp election save?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It saves 15.3% self-employment tax on profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. The election typically starts paying for itself once net profit exceeds roughly $60,000 to $80,000 per owner after compliance costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does S-Corp salary interact with the QBI deduction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Above the Section 199A taxable income thresholds, the deduction for a non-service business is limited by W-2 wages. Reducing your salary to save payroll tax can therefore reduce the QBI deduction by more than the payroll tax saved, so both effects must be modeled together."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,10 +166,16 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">An S corporation is a federal tax election under Subchapter S in which a business pays its owner reasonable W-2 wages subject to payroll tax and distributes remaining profit free of self-employment tax, reducing employment tax without changing how the profit is taxed for income tax purposes.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
-        <p>Switching from LLC taxation to S-Corp taxation is one of the most common&mdash;and most impactful&mdash;tax planning decisions a small business owner makes. The timing of this switch matters because doing it too early wastes money on administrative costs that exceed the tax savings, while doing it too late means years of overpaid self-employment taxes that cannot be recovered.</p>
+        <p>Switching from LLC taxation to S-Corp taxation is one of the most common, and most impactful, tax planning decisions a small business owner makes. The timing of this switch matters because doing it too early wastes money on administrative costs that exceed the tax savings, while doing it too late means years of overpaid self-employment taxes that cannot be recovered.</p>
 
 <h2>The Income Threshold</h2>
 
@@ -137,17 +183,17 @@
 
 <p>Here is the math at $60,000 in net income. As an LLC taxed as a sole proprietorship, SE tax would be approximately $8,478 (15.3% of 92.35% of $60,000). As an S-Corp with a reasonable salary of $40,000, FICA taxes would be approximately $6,120 ($40,000 times 15.3%). The savings is $2,358. Against annual administrative costs of $2,000 to $3,000 for payroll and S-Corp return preparation, the net benefit is marginal at best.</p>
 
-<p>At $100,000 in net income, the picture changes substantially. SE tax as a sole proprietorship: approximately $14,130. FICA on a $60,000 S-Corp salary: $9,180. Savings: approximately $4,950. After subtracting $2,500 in administrative costs, the net benefit is roughly $2,450&mdash;meaningful, and it grows every year as income increases.</p>
+<p>At $100,000 in net income, the picture changes substantially. SE tax as a sole proprietorship: approximately $14,130. FICA on a $60,000 S-Corp salary: $9,180. Savings: approximately $4,950. After subtracting $2,500 in administrative costs, the net benefit is roughly $2,450, meaningful, and it grows every year as income increases.</p>
 
 <h2>Timing the Election: Form 2553 Deadlines</h2>
 
-<p>To elect S-Corp status effective for the current tax year, you must file Form 2553 with the IRS no later than two months and 15 days after the beginning of the tax year. For calendar-year taxpayers, the deadline is March 15. If you miss this deadline, you can file Form 2553 with a late election under Revenue Procedure 2013-30, provided you meet certain requirements&mdash;primarily that you intended to make the election at the start of the year and the entity has been operating consistently with S-Corp treatment.</p>
+<p>To elect S-Corp status effective for the current tax year, you must file Form 2553 with the IRS no later than two months and 15 days after the beginning of the tax year. For calendar-year taxpayers, the deadline is March 15. If you miss this deadline, you can file Form 2553 with a late election under Revenue Procedure 2013-30, provided you meet certain requirements, primarily that you intended to make the election at the start of the year and the entity has been operating consistently with S-Corp treatment.</p>
 
 <p>Alternatively, filing Form 2553 at any time during the current tax year makes the election effective for the following tax year. So if you decide in September that S-Corp election makes sense, you can file Form 2553 and the election will be effective January 1 of the next year.</p>
 
 <h2>Factors Beyond Income Level</h2>
 
-<p>Income level is the primary driver, but several other factors should influence your timing. Consider whether your income is stable&mdash;if your business is in a growth phase with unpredictable revenue, waiting until income consistently exceeds the breakeven point avoids the situation where you are paying payroll and filing S-Corp returns in a year when the election does not produce savings.</p>
+<p>Income level is the primary driver, but several other factors should influence your timing. Consider whether your income is stable, if your business is in a growth phase with unpredictable revenue, waiting until income consistently exceeds the breakeven point avoids the situation where you are paying payroll and filing S-Corp returns in a year when the election does not produce savings.</p>
 
 <p>Consider your state tax environment. Some states impose additional taxes on S-Corps that do not apply to sole proprietorships. California charges a 1.5% S-Corp tax (minimum $800). New York City imposes the Unincorporated Business Tax on sole proprietors but not on S-Corp shareholders. Texas imposes a franchise (margin) tax on S-Corps. These state-level factors can shift the breakeven point significantly.</p>
 
@@ -157,7 +203,7 @@
 
 <p>Switching to S-Corp taxation does not require forming a new entity. Your existing LLC simply files Form 2553 to elect S-Corp treatment. There is no change to your state-level LLC registration, operating agreement, or EIN (in most cases). You will need to set up payroll, establish a reasonable salary, and begin making payroll tax deposits on a monthly or semi-weekly basis depending on your total tax liability (per IRS deposit schedules under IRC Section 6302).</p>
 
-<p>Start with a tax projection that models your specific situation&mdash;including state taxes, retirement plan impacts, and administrative costs&mdash;to determine the optimal timing for your switch.</p>
+<p>Start with a tax projection that models your specific situation, including state taxes, retirement plan impacts, and administrative costs, to determine the optimal timing for your switch.</p>
 
         <hr style="margin: 3rem 0; border: none; border-top: 1px solid #e5e7eb;">
 
@@ -183,9 +229,35 @@
             <li><a href="/blog/s-corp-vs-llc-tax-differences-for-business-owners/">What Are the Tax Differences Between an S-Corp and an LLC?</a></li>
             <li><a href="/blog/when-to-convert-llc-to-s-corp/">When to Convert Your LLC to an S-Corp: The Income Threshold That Changes Everything</a></li>
             <li><a href="/entity-restructuring-tax/">Entity Restructuring for Tax Optimization: LLC to S-Corp, Mergers, and M&A</a></li>
-        </ul>
+        
+            <li><a href="/reasonable-compensation-s-corp-irs/">Reasonable Compensation for S-Corp Owners</a></li>
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            <li><a href="/cash-balance-plan-tax-deduction/">Cash Balance Plan Tax Deduction</a></li>
+            <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Does an S-Corp election reduce income tax?</h3>
+                    <p>No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can an LLC be taxed as an S-Corp?</h3>
+                    <p>Yes. An LLC can elect S-Corp taxation by filing Form 2553 without converting to a corporation. The operating agreement, liability protection, and state law status are unaffected; only the federal tax characterization changes.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much does an S-Corp election save?</h3>
+                    <p>It saves 15.3% self-employment tax on profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. The election typically starts paying for itself once net profit exceeds roughly $60,000 to $80,000 per owner after compliance costs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How does S-Corp salary interact with the QBI deduction?</h3>
+                    <p>Above the Section 199A taxable income thresholds, the deduction for a non-service business is limited by W-2 wages. Reducing your salary to save payroll tax can therefore reduce the QBI deduction by more than the payroll tax saved, so both effects must be modeled together.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

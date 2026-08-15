@@ -11,7 +11,7 @@
     <link rel="preload" href="/assets/ae-tax-logo.png" as="image">
     <link rel="stylesheet" href="/assets/style.css">
     <title>Cost Segregation for Airbnb and Short-Term Rentals | AE Tax Advisors</title>
-    <meta name="description" content="Learn how cost segregation for Airbnb and short-term rentals can accelerate 35% or more of your property value into Year 1 depreciation. Engineering-based studies with 100% bonus depreciation under OBBBA.">
+    <meta name="description" content="Learn how cost segregation for Airbnb and short-term rentals can accelerate 35% or more of your property value into Year 1 depreciation.">
     <link rel="canonical" href="https://aetaxadvisors.com/cost-segregation-airbnb/">
     <meta property="og:title" content="Cost Segregation for Airbnb and Short-Term Rentals | AE Tax Advisors">
     <meta property="og:description" content="Accelerate depreciation on your Airbnb or short-term rental with a cost segregation study. Save $25K to $125K+ in Year 1 taxes with 100% bonus depreciation under OBBBA.">
@@ -260,10 +260,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -625,9 +625,83 @@
             <li><a href="/short-term-rentals/">Turn One Short-Term Rental Into a Six-Figure Deduction</a></li>
             <li><a href="/short-term-rentals/bnb-accelerator/">The Tax Side of the Property BNB Accelerator Helped You Buy</a></li>
             <li><a href="/reducing-a-high-w-2-and-business-owners-tax-liability-to-near-zero-through-short-term-rental-conversion-bonus-depreciation-and-credit-coordination/">Reducing a High Business Owner's Tax Liability to Near Zero Through Short-Term Rental Conversion, Bonus Depreciation, and Credit Coordination</a></li>
-        </ul>
+        
+            <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li>
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/cost-segregation-for-multifamily/">Cost Segregation for Multifamily Properties</a></li>
+            <li><a href="/macrs-depreciation-schedule-2026/">MACRS Depreciation Schedule 2026</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What is a cost segregation study for an Airbnb or short-term rental?</h3>
+                    <p>A cost segregation study is an engineering-based analysis that identifies components of your Airbnb or short-term rental property that can be reclassified from the standard 39-year depreciation schedule into shorter recovery periods of 5, 7, or 15 years. This accelerates your depreciation deductions, generating significantly larger tax savings in the early years of ownership. For STR properties, components like furniture, appliances, cabinetry, flooring, plumbing fixtures, and landscaping can all be reclassified.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much does a cost segregation study cost?</h3>
+                    <p>AE Tax Advisors offers cost segregation studies at $1 per square foot with a $2,000 minimum. This covers the full engineering-based analysis, component classification, Form 3115 catch-up calculation, and delivery of a complete audit-ready report. Our broader advisory engagement is $7,800 per year for comprehensive tax strategy. The investment in a cost seg study typically pays for itself many times over, as the average STR owner saves $25,000 to $125,000 or more in Year 1 taxes depending on property value.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What types of properties qualify for cost segregation?</h3>
+                    <p>Any Airbnb, VRBO, vacation rental, or short-term rental property with an average rental period of 7 days or less qualifies. This includes single-family homes, condos, townhomes, cabins, lake houses, and multi-unit properties used for short-term rentals. Both newly purchased and existing properties qualify. Properties of any value can benefit, though savings are most significant for properties valued at $200,000 or more.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How long does a cost segregation study take?</h3>
+                    <p>A typical cost segregation study takes 2 to 4 weeks from engagement to final report delivery. The process includes property analysis, component identification using engineering-based methodology, depreciation schedule preparation, and comprehensive report generation. AE Tax Advisors handles the entire process and integrates the results directly into your tax return.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is cost segregation worth it for a $200,000 property?</h3>
+                    <p>Yes. A $200,000 short-term rental property can typically accelerate approximately $70,000 (35% of the property value) into Year 1 depreciation. Combined with 100% bonus depreciation under OBBBA, this can generate $25,000 or more in tax savings in the first year alone. The return on investment for the study is substantial even at this property value.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the 7-day rule for short-term rentals?</h3>
+                    <p>Under IRC Section 168(e)(2)(B), a rental property with an average rental period of 7 days or less is classified as nonresidential real property with a 39-year recovery period, rather than the 27.5-year residential rental period that applies to long-term rentals. This classification is what enables the STR tax loophole, because the activity is treated as a business rather than a passive rental, allowing losses to offset W-2 and other active income when material participation tests are met.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I do cost segregation on a property I have owned for years?</h3>
+                    <p>Absolutely. If you have owned your STR property for years and never performed a cost segregation study, you can file Form 3115 (Application for Change in Accounting Method) to claim all the depreciation you missed in prior years as a single catch-up deduction in the current tax year. This is called a Section 481(a) adjustment, and it does not require amending prior returns.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is bonus depreciation and how does it apply to my Airbnb?</h3>
+                    <p>Bonus depreciation allows you to deduct 100% of the cost of qualifying property components in the year they are placed in service. Under the One Big Beautiful Bill Act (OBBBA), 100% bonus depreciation has been made permanent with no phasedown. This means every dollar reclassified by your cost segregation study into 5-year, 7-year, or 15-year property can be fully deducted in Year 1, rather than being spread across multiple years.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How does cost segregation work with the STR tax loophole?</h3>
+                    <p>The STR tax loophole allows short-term rental owners who materially participate in their rental activity to treat the losses as non-passive under IRC Section 469. Cost segregation supercharges this by generating massive Year 1 paper losses through accelerated depreciation. If you materially participate in your STR (meeting one of the seven IRS tests), those losses can offset your W-2 income, business income, and other active income, potentially saving you tens of thousands of dollars.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What components of my Airbnb are reclassified in a cost segregation study?</h3>
+                    <p>A cost segregation study reclassifies property components into shorter depreciation lives. Typical STR components include: 5-year property such as furniture, appliances, cabinetry, carpet, plumbing fixtures, lighting fixtures, and decorative finishes; 7-year property such as hardwood flooring and certain specialized equipment; and 15-year property such as landscaping, driveways, patios, sidewalks, fencing, and other site improvements. On average, 35% or more of a property's value can be reclassified.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need an engineering-based cost segregation study?</h3>
+                    <p>Yes. The IRS Cost Segregation Audit Techniques Guide specifically recommends engineering-based studies as the most reliable methodology. Studies that use rules of thumb or percentage-based estimates without engineering analysis are more likely to be challenged on audit. AE Tax Advisors uses engineering-based methodology for every study, ensuring your results are IRS-compliant and audit-ready.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Will a cost segregation study trigger an IRS audit?</h3>
+                    <p>No. Cost segregation is a well-established, IRS-recognized tax strategy. The IRS has published its own Cost Segregation Audit Techniques Guide, which validates the methodology. A properly conducted engineering-based study actually provides strong audit protection because it documents every reclassified component with detailed analysis. AE Tax Advisors produces fully documented, IRS-compliant reports designed to withstand audit scrutiny.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is Form 3115 and how does it relate to cost segregation?</h3>
+                    <p>Form 3115 is the IRS Application for Change in Accounting Method. When you perform a cost segregation study on a property you have owned for more than one year, Form 3115 allows you to claim all the missed accelerated depreciation from prior years as a single Section 481(a) adjustment in the current tax year. This catch-up deduction can be significant, especially for properties owned for many years that were depreciated using the standard straight-line method.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much can I save with cost segregation on my short-term rental?</h3>
+                    <p>Savings depend on property value and your tax bracket. Typical first-year savings include: $25,000+ for a $200,000 property, $50,000+ for a $400,000 property, $75,000+ for a $600,000 property, and $125,000+ for a $1,000,000 property. These estimates assume 100% bonus depreciation under OBBBA and a combined federal and state tax rate of approximately 35-37%. Actual savings may be higher depending on your specific tax situation.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is OBBBA and how does it affect cost segregation?</h3>
+                    <p>OBBBA stands for the One Big Beautiful Bill Act, which was signed into law and made 100% bonus depreciation permanent. Prior to OBBBA, bonus depreciation was scheduled to phase down from 80% in 2023 to 60% in 2024, 40% in 2025, 20% in 2026, and 0% in 2027 under the Tax Cuts and Jobs Act. OBBBA eliminated this phasedown entirely, restoring and permanently locking in 100% first-year bonus depreciation for all qualifying property. This makes cost segregation more valuable than ever for STR owners.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the difference between cost segregation for STRs vs long-term rentals?</h3>
+                    <p>The key difference is the base recovery period. Short-term rentals with an average rental period of 7 days or less are classified as nonresidential real property under IRC Section 168(e)(2)(B) with a 39-year recovery period. Long-term rentals are classified as residential rental property with a 27.5-year recovery period. Additionally, STR owners who materially participate can use the depreciation losses to offset W-2 and active income, while LTR losses are generally limited to passive income offsets under the passive activity loss rules of IRC Section 469.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

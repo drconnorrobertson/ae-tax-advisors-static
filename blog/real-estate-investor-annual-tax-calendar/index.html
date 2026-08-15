@@ -88,6 +88,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does estate planning interact with real estate depreciation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accelerated depreciation creates recapture exposure on sale. Holding the property until death converts that exposure into a permanent benefit because the basis step-up eliminates the deferred gain, which is why exit planning and depreciation strategy are decided together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should business interests be transferred during life or at death?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on expected appreciation and basis. Transferring an interest expected to appreciate substantially removes future growth from the estate, while holding an appreciated low-basis asset until death captures the step-up. The right answer usually blends both."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the step-up in basis at death?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under IRC Section 1014, most assets included in a decedent's estate receive a basis equal to fair market value at the date of death. This eliminates unrealized appreciation and, for real estate, wipes out accumulated depreciation recapture, which is why holding appreciated property until death is a core planning strategy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a revocable and irrevocable trust?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A revocable trust remains under the grantor's control, is included in the estate, and provides probate avoidance rather than tax reduction. An irrevocable trust generally removes assets from the estate for transfer tax purposes but gives up control and may have its own income tax consequences."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -95,10 +135,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -154,9 +194,15 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Estate and wealth transfer planning determines how assets pass to the next generation and at what tax cost, coordinating the basis step-up under IRC Section 1014, transfer tax exposure, and the income tax consequences of holding versus selling appreciated assets.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
-        <p>For real estate investors, understanding key tax dates and planning milestones throughout the year is not optional&mdash;it is essential for minimizing your tax burden legally and effectively. At AE Tax Advisors, we implement these strategies daily for our clients, and the results consistently demonstrate that proactive tax planning pays for itself many times over.</p>
+        <p>For real estate investors, understanding key tax dates and planning milestones throughout the year is not optional, it is essential for minimizing your tax burden legally and effectively. At AE Tax Advisors, we implement these strategies daily for our clients, and the results consistently demonstrate that proactive tax planning pays for itself many times over.</p>
 
         <p>This guide provides a comprehensive overview of key tax dates and planning milestones throughout the year, including the key strategies, IRC citations, and practical implementation steps that separate theoretical knowledge from real-world tax savings.</p>
 
@@ -173,13 +219,13 @@
 
         <h2>The IRC Framework</h2>
 
-        <p>The strategies outlined above are grounded in established provisions of the Internal Revenue Code: Various IRC deadlines and planning milestones throughout the tax year. These are not loopholes or aggressive positions&mdash;they are provisions that Congress specifically enacted to encourage certain economic activities, and the IRS has published detailed guidance on their proper application.</p>
+        <p>The strategies outlined above are grounded in established provisions of the Internal Revenue Code: Various IRC deadlines and planning milestones throughout the tax year. These are not loopholes or aggressive positions, they are provisions that Congress specifically enacted to encourage certain economic activities, and the IRS has published detailed guidance on their proper application.</p>
 
         <p>Understanding how these provisions interact with each other is critical. For example, <a href="/business-owner-tax-planning/">entity structuring for business owners</a> decisions under IRC Section 7701 directly affect your qualification for the <a href="/blog/qbi-deduction-optimization-real-estate/">QBI deduction optimization</a> under IRC Section 199A, your self-employment tax under IRC Section 1402, and your passive activity classification under IRC Section 469. A change in one area ripples through the others, and optimizing the overall outcome requires modeling all interactions simultaneously.</p>
 
         <h2>Why Professional Implementation Matters</h2>
 
-        <p>The concepts described in this guide are publicly available in the IRC and Treasury Regulations. What is not publicly available is the expertise to apply them correctly to your specific situation. Every investor's circumstances are different&mdash;different income levels, different property types, different state tax environments, different risk tolerances, and different long-term goals.</p>
+        <p>The concepts described in this guide are publicly available in the IRC and Treasury Regulations. What is not publicly available is the expertise to apply them correctly to your specific situation. Every investor's circumstances are different, different income levels, different property types, different state tax environments, different risk tolerances, and different long-term goals.</p>
 
         <p>Professional tax strategy takes these variables into account and produces a customized plan that maximizes your legal deductions while maintaining full compliance and audit defensibility. This is what AE Tax Advisors delivers for our clients.</p>
 
@@ -198,7 +244,7 @@
 
         <h2>Implementation at AE Tax Advisors</h2>
 
-        <p>Our $7,800 advisory engagement includes comprehensive analysis and implementation of all applicable strategies, including key tax dates and planning milestones throughout the year. Christina Nortman and our team do not simply recommend strategies&mdash;we implement them directly, document them for audit defense, and monitor them throughout the year to ensure ongoing optimization.</p>
+        <p>Our $7,800 advisory engagement includes comprehensive analysis and implementation of all applicable strategies, including key tax dates and planning milestones throughout the year. Christina Nortman and our team do not simply recommend strategies, we implement them directly, document them for audit defense, and monitor them throughout the year to ensure ongoing optimization.</p>
 
         <p>For real estate investors, the typical first-year savings from our engagement range from $30,000 to $200,000+, depending on portfolio size, income level, and the number of previously unimplemented strategies we identify in the lookback analysis.</p>
 
@@ -209,7 +255,41 @@
         <p>Your tax situation will not improve by waiting. Every month of delay is money you are choosing to give to the IRS instead of keeping in your portfolio. Take the first step today.</p>
 
     </div></section>
-    </main>
+    
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How does estate planning interact with real estate depreciation?</h3>
+                    <p>Accelerated depreciation creates recapture exposure on sale. Holding the property until death converts that exposure into a permanent benefit because the basis step-up eliminates the deferred gain, which is why exit planning and depreciation strategy are decided together.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Should business interests be transferred during life or at death?</h3>
+                    <p>It depends on expected appreciation and basis. Transferring an interest expected to appreciate substantially removes future growth from the estate, while holding an appreciated low-basis asset until death captures the step-up. The right answer usually blends both.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the step-up in basis at death?</h3>
+                    <p>Under IRC Section 1014, most assets included in a decedent's estate receive a basis equal to fair market value at the date of death. This eliminates unrealized appreciation and, for real estate, wipes out accumulated depreciation recapture, which is why holding appreciated property until death is a core planning strategy.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the difference between a revocable and irrevocable trust?</h3>
+                    <p>A revocable trust remains under the grantor's control, is included in the estate, and provides probate avoidance rather than tax reduction. An irrevocable trust generally removes assets from the estate for transfer tax purposes but gives up control and may have its own income tax consequences.</p>
+                </div>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Related Reading</h2>
+            <ul class="related-links">
+                    <li><a href="/estate-trust-wealth-transfer/">Estate, Trust and Wealth Transfer</a></li>
+                    <li><a href="/retirement-exit-ma-tax-strategy/">Retirement, Exit and M&amp;A Tax Strategy</a></li>
+                    <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li>
+                    <li><a href="/real-estate-tax-planning/">Real Estate Tax Planning</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
 
     <footer>
         <div class="footer-inner">

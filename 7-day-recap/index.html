@@ -72,6 +72,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How is tax planning different from tax preparation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preparation reports what already happened. Planning changes what happens, and nearly every meaningful strategy has a deadline that falls before year end. A return filed in April can only reflect decisions that were made months earlier."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with clients outside Montana?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We work with clients nationwide from our office in Billings, Montana. Federal strategy is identical across states, and we coordinate state-specific issues including pass-through entity tax elections, nexus, and residency wherever clients operate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you charge for advisory work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Advisory engagements are quoted as a fixed fee based on scope, with cost segregation studies and entity return work priced separately. Pricing is set before work begins so the value of a strategy can be weighed against its cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can strategies be implemented?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the strategy. Entity elections, retirement plan adoption, and accountable plans can often be put in place quickly, while cost segregation studies typically take several weeks and material participation positions require a full year of documentation."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
         <header>
@@ -79,10 +119,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -129,6 +169,40 @@
         <div class="breadcrumbs"><a href="/">Home</a> &raquo; <a href="/blog/">Blog</a> &raquo; 7 Day Recap</div>
             <h1>7 Day Recap</h1>
     </div></section>
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How is tax planning different from tax preparation?</h3>
+                    <p>Preparation reports what already happened. Planning changes what happens, and nearly every meaningful strategy has a deadline that falls before year end. A return filed in April can only reflect decisions that were made months earlier.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you work with clients outside Montana?</h3>
+                    <p>Yes. We work with clients nationwide from our office in Billings, Montana. Federal strategy is identical across states, and we coordinate state-specific issues including pass-through entity tax elections, nexus, and residency wherever clients operate.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do you charge for advisory work?</h3>
+                    <p>Advisory engagements are quoted as a fixed fee based on scope, with cost segregation studies and entity return work priced separately. Pricing is set before work begins so the value of a strategy can be weighed against its cost.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How quickly can strategies be implemented?</h3>
+                    <p>It depends on the strategy. Entity elections, retirement plan adoption, and accountable plans can often be put in place quickly, while cost segregation studies typically take several weeks and material participation positions require a full year of documentation.</p>
+                </div>
+        </div>
+    </section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Related Reading</h2>
+            <ul class="related-links">
+                    <li><a href="/pricing/">Pricing and Engagement Options</a></li>
+                    <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+                    <li><a href="/services/">Our Services</a></li>
+                    <li><a href="/discovery/">Request a Consultation</a></li>
+            </ul>
+        </div>
+    </section>
+
+
     <section class="content-section fade-in-section"><div class="container narrow center-text">
         <p>Thank you for your interest in AE Tax Advisors. To learn more about how we can help you reduce your tax liability, schedule a consultation with our team.</p>
         <div class="center-cta">

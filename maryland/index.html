@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cost Segregation Study in Maryland | AE Tax Advisors</title>
-    <meta name="description" content="Cost segregation studies and tax advisory for Maryland real estate investors and business owners. Maryland decouples from bonus depreciation on Form 500DM, caps Section 179 at $25,000, layers county income tax on top of the state rate, and offers an 8% pass-through entity tax.">
+    <meta name="description" content="Cost segregation studies and tax advisory for Maryland real estate investors and business owners.">
     <link rel="canonical" href="https://aetaxadvisors.com/maryland/">
     <meta name="geo.region" content="US-MD">
     <meta name="geo.placename" content="Maryland">
@@ -173,10 +173,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -349,7 +349,11 @@
             <li><a href="/blog/cost-segregation-5-unit-multifamily-property/">Cost Segregation on a 5-Unit Multifamily Property: Is It Worth the Study Fee?</a></li>
             <li><a href="/blog/cost-segregation-study-str-properties-guide/">Cost Segregation Study for STR Properties: Complete Guide</a></li>
             <li><a href="/blog/do-i-need-an-engineering-based-cost-segregation-study/">Do I Need an Engineering Based Cost Segregation Study?</a></li>
-        </ul>
+        
+            <li><a href="/macrs-depreciation-schedule-2026/">MACRS Depreciation Schedule 2026</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works and What It Costs</a></li>
+            <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li></ul>
     </div></section>
 
 </main>

@@ -72,6 +72,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the requirements for real estate professional status?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Two tests must be met in the same year under IRC Section 469(c)(7): more than half of all personal services performed in all trades or businesses must be in real property trades or businesses in which you materially participate, and you must perform more than 750 hours in those businesses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the seven material participation tests?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Treasury Regulation 1.469-5T provides seven: more than 500 hours; substantially all participation; more than 100 hours with no one participating more; significant participation activities totaling more than 500 hours; material participation in five of the last ten years; a personal service activity with three prior years; and a facts-and-circumstances test."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can spouses combine hours to qualify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The qualification tests apply to each spouse individually and cannot be combined, even on a joint return. One spouse must satisfy both tests alone. Once one spouse qualifies, spousal participation may then be combined when testing material participation in the rental activities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an aggregation election?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you own more than one or two rentals, almost certainly. Without the election under Reg. 1.469-9(g), you must materially participate in each property separately, which is rarely achievable. The election groups all rental interests into a single activity so hours aggregate."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
         <header>
@@ -79,10 +119,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -130,6 +170,12 @@
             <h1>Real Estate Professional Status And Material Participation Support</h1>
         <p>Expert tax planning and advisory services from AE Tax Advisors.</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Material participation is the standard under Treasury Regulation 1.469-5T that determines whether a taxpayer's involvement in an activity is regular, continuous, and substantial enough to make the activity non-passive, which in turn determines whether losses can offset wages and business income.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
         <p>AE Tax Advisors provides comprehensive real estate professional status and material participation support services for high-income professionals and business owners. Our approach combines deep technical knowledge of the Internal Revenue Code with practical, real-world application.</p>
         <h2>How We Help</h2>
@@ -153,9 +199,34 @@
             <li><a href="/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status/">The Business Owner's Guide to Passive Loss Rules and Real Estate Professional Status</a></li>
             <li><a href="/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status-reps/">The Business Owners Guide To Passive Loss Rules And Real Estate Professional Status REPS</a></li>
             <li><a href="/blog/how-to-qualify-for-material-participation-on-airbnb-property/">How Do I Qualify for Material Participation on My Airbnb Property?</a></li>
-        </ul>
+        
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li>
+            <li><a href="/reps-real-estate-professional-status/">Real Estate Professional Status: How to Qualify</a></li>
+            <li><a href="/material-participation-short-term-rental-7-day-rule/">Material Participation and the STR 7-Day Rule</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What are the requirements for real estate professional status?</h3>
+                    <p>Two tests must be met in the same year under IRC Section 469(c)(7): more than half of all personal services performed in all trades or businesses must be in real property trades or businesses in which you materially participate, and you must perform more than 750 hours in those businesses.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What are the seven material participation tests?</h3>
+                    <p>Treasury Regulation 1.469-5T provides seven: more than 500 hours; substantially all participation; more than 100 hours with no one participating more; significant participation activities totaling more than 500 hours; material participation in five of the last ten years; a personal service activity with three prior years; and a facts-and-circumstances test.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can spouses combine hours to qualify?</h3>
+                    <p>No. The qualification tests apply to each spouse individually and cannot be combined, even on a joint return. One spouse must satisfy both tests alone. Once one spouse qualifies, spousal participation may then be combined when testing material participation in the rental activities.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need an aggregation election?</h3>
+                    <p>If you own more than one or two rentals, almost certainly. Without the election under Reg. 1.469-9(g), you must materially participate in each property separately, which is rarely achievable. The election groups all rental interests into a single activity so hours aggregate.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
         <footer>

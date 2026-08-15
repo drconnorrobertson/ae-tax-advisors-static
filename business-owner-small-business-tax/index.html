@@ -60,38 +60,7 @@
   "description": "Advanced tax strategies for high-net-worth individuals and business owners."
 }
     </script>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Should I be an S-Corp or C-Corp?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It depends on your income level, state of residence, reinvestment plans, and exit timeline. We model both scenarios with your actual numbers before recommending a structure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is reasonable compensation and why does it matter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The IRS requires S-Corp owners to pay themselves a reasonable salary. Setting it too low triggers audit risk; too high wastes payroll tax. We help you find the defensible sweet spot."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you help me set up a retirement plan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. We design retirement plans (Solo 401k, SEP IRA, Defined Benefit, Cash Balance) that maximize your deductible contributions based on your business income."
-      }
-    }
-  ]
-}
-    </script>
+    
 
     <script type="application/ld+json">
 {
@@ -208,10 +177,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <a href="/about/" class="nav-link">About Us</a>
 <div class="nav-dropdown">
@@ -231,6 +200,7 @@
 </div>
             </div>
 <a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
 <div class="nav-dropdown">
                 <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
                 <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
@@ -255,6 +225,12 @@
             <p>Expert tax planning for business owners. Entity structuring, S-Corp elections, reasonable compensation, and multi-entity coordination.</p>
         </div>
     </section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Business deductions are ordinary and necessary expenses of carrying on a trade or business under IRC Section 162, and their value depends less on identifying them than on documenting them properly and routing them through the correct structure, such as an accountable plan.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section">
         <div class="container narrow">
@@ -364,9 +340,38 @@
             <li><a href="/the-business-owners-guide-to-section-1202-qualified-small-business-stock-qsbs/">The Business Owner's Guide to Section 1202 Qualified Small Business Stock (QSBS) Exclusion</a></li>
             <li><a href="/best-retirement-plan-business-owner-over-500k/">What Is the Best Retirement Plan for a Business Owner Making Over $500K?</a></li>
             <li><a href="/business-owner-deferred-compensation/">Deferred Compensation & Equity Tax Planning for Business Owners</a></li>
-        </ul>
+        
+            <li><a href="/accountable-plan/">Accountable Plans Done Correctly</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/section-179-vs-bonus-depreciation-2026/">Section 179 vs Bonus Depreciation in 2026</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What&#x27;s the best business entity for taxes?</h3>
+                    <p>S-corp, C-corp, LLC, or sole proprietor? It depends on your income, business type, and long-term plans. We analyze your situation to recommend the optimal structure.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How can I reduce self-employment taxes?</h3>
+                    <p>Proper employee compensation, S-corp election, business deductions, and entity structuring can typically save $5,000-$50,000+ annually.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What deductions do small business owners miss?</h3>
+                    <p>Common ones: home office, vehicle/mileage, meals, professional development, equipment, bad debt, and depreciation. We conduct a thorough review.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How should I handle quarterly taxes?</h3>
+                    <p>Estimate and pay quarterly to avoid penalties. We calculate your requirements and help you stay cash-flow positive.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>When should I hire employees vs. contractors?</h3>
+                    <p>IRS classification is strict. We guide proper setup to protect both you and your workers from misclassification penalties.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

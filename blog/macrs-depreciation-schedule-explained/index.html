@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MACRS Depreciation Schedule Explained (2026) | AE Tax Advisors</title>
-    <meta name="description" content="MACRS is the required federal depreciation system. Recovery periods, 200 and 150 percent declining balance, conventions, and the year by year percentage tables for 5, 7, 15, 27.5, and 39 year property.">
+    <meta name="description" content="MACRS is the required federal depreciation system. Recovery periods, 200 and 150 percent declining balance, conventions, and the year by year percentage tables...">
     <link rel="canonical" href="https://aetaxadvisors.com/blog/macrs-depreciation-schedule-explained/">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
     <meta property="og:title" content="MACRS Depreciation Schedule Explained (2026) | AE Tax Advisors">
@@ -141,10 +141,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -208,7 +208,7 @@
 
         <h2>MACRS Property Classes and Recovery Periods</h2>
 
-        <table>
+        <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table>
             <thead>
                 <tr><th>Class</th><th>Method</th><th>Convention</th><th>Common examples</th></tr>
             </thead>
@@ -221,7 +221,7 @@
                 <tr><td>27.5 year</td><td>Straight line</td><td>Mid month</td><td>Residential rental buildings</td></tr>
                 <tr><td>39 year</td><td>Straight line</td><td>Mid month</td><td>Nonresidential real property</td></tr>
             </tbody>
-        </table>
+        </table></div>
 
         <p>Note the dividing line at 20 years. Everything at or below it is eligible for <a href="/blog/bonus-depreciation-2025-2026-real-estate-investors/">100 percent bonus depreciation</a>. Everything above it is not. That single threshold is the entire economic argument for <a href="/cost-segregation-studies-for-real-estate-investors/">cost segregation</a>.</p>
 
@@ -229,7 +229,7 @@
 
         <p>These are the standard half year convention tables for 5, 7, and 15 year property. Multiply the percentage by the asset's original cost basis, not the declining balance.</p>
 
-        <table>
+        <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table>
             <thead>
                 <tr><th>Year</th><th>5 year (200% DB)</th><th>7 year (200% DB)</th><th>15 year (150% DB)</th></tr>
             </thead>
@@ -245,7 +245,7 @@
                 <tr><td>9 through 15</td><td></td><td></td><td>5.90% to 5.91%</td></tr>
                 <tr><td>16</td><td></td><td></td><td>2.95%</td></tr>
             </tbody>
-        </table>
+        </table></div>
 
         <p>Two things surprise people reading these tables for the first time. First, a 5 year asset takes six years to fully depreciate, and a 15 year asset takes sixteen. That is the half year convention at work: you get half a year at the start and half a year at the end. Second, the year 2 percentage is larger than year 1 for declining balance property, for the same reason.</p>
 
@@ -253,7 +253,7 @@
 
         <p>Residential rental property uses straight line over 27.5 years, which is 3.636 percent per full year. Nonresidential uses 39 years, or 2.564 percent per full year. Both use the mid month convention, so the first year depends on which month the property was placed in service.</p>
 
-        <table>
+        <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table>
             <thead>
                 <tr><th>Month placed in service</th><th>27.5 year first year</th><th>39 year first year</th></tr>
             </thead>
@@ -264,7 +264,7 @@
                 <tr><td>October</td><td>0.758%</td><td>0.535%</td></tr>
                 <tr><td>December</td><td>0.152%</td><td>0.107%</td></tr>
             </tbody>
-        </table>
+        </table></div>
 
         <p>A December closing on a $1,000,000 building nets a $1,520 deduction for the year. The same building bought in January nets $34,850. This is why closing dates matter, and why a fourth quarter acquisition often makes a <a href="/cost-segregation-studies-for-real-estate-investors/">cost segregation study</a> more valuable rather than less: the short life components are not subject to the mid month convention and, with bonus depreciation, are deducted in full regardless of the closing month.</p>
 
@@ -336,7 +336,11 @@
                 <li><a href="/cost-segregation-studies-for-real-estate-investors/">Cost Segregation Studies for Real Estate Investors</a></li>
                 <li><a href="/form-3115-cost-segregation/">Form 3115 and Missed Depreciation</a></li>
                 <li><a href="/blog/irc-section-168-accelerated-depreciation-explained/">IRC Section 168 Accelerated Depreciation</a></li>
-        </ul>
+        
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li>
+            <li><a href="/section-179-vs-bonus-depreciation-2026/">Section 179 vs Bonus Depreciation in 2026</a></li>
+            <li><a href="/macrs-depreciation-schedule-2026/">MACRS Depreciation Schedule 2026</a></li></ul>
 
         <div class="cta-box" style="background:#f8f9fa;border:2px solid #1a365d;border-radius:12px;padding:40px;text-align:center;margin:40px 0;">
             <h3 style="color:#1a365d;margin-bottom:10px;">Make Sure Your Depreciation Schedule Is Actually Right</h3>

@@ -149,10 +149,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -199,6 +199,12 @@
             <h1>Cost Segregation for VRBO Vacation Rentals: Whole-Home Properties and Personal Use</h1>
         <p class="blog-meta">Published on August 10, 2026 | Cost Segregation | Connor Davis, AE Tax Advisors</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">A short-term rental is a property with an average period of customer use of seven days or less, which under Treasury Regulation 1.469-1T(e)(3)(ii)(A) is not treated as a rental activity for passive loss purposes. That distinction allows an owner who materially participates to deduct losses against wages and business income.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         <p>VRBO properties differ from typical Airbnb inventory in a way that matters for tax: they are almost always whole-home rentals, frequently in vacation markets, and frequently used personally by the owner. The first two facts improve the cost segregation result. The third can eliminate it entirely.</p>
@@ -267,7 +273,11 @@
             <li><a href="/blog/house-hacking-tax-rules/">House Hacking Tax Rules: Allocating Between Personal Residence and Rental</a></li>
             <li><a href="/blog/mid-term-rental-tax-strategy-30-day/">Mid-Term Rental Tax Strategy: Why 30-Day Stays Are Treated Like Long-Term Rentals</a></li>
             <li><a href="/short-term-rentals/bnb-accelerator/">The Tax Side of the Property BNB Accelerator Helped You Buy</a></li>
-        </ul>
+        
+            <li><a href="/short-term-rental-tax-strategy/">Short-Term Rental Tax Strategy</a></li>
+            <li><a href="/reps-real-estate-professional-status/">Real Estate Professional Status: How to Qualify</a></li>
+            <li><a href="/short-term-rental-tax-loophole-2026/">The Short-Term Rental Tax Loophole in 2026</a></li>
+            <li><a href="/material-participation-short-term-rental-7-day-rule/">Material Participation and the STR 7-Day Rule</a></li></ul>
     </div></section>
 
 </main>

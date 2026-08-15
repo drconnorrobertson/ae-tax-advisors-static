@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reasonable Compensation for S-Corp Owners: How to Set Your Salary Without Triggering the IRS | AE Tax Advisors</title>
+    <meta name="robots" content="noindex, nofollow">
     <meta name="description" content="Learn how S-Corp owners can determine reasonable compensation to minimize self-employment taxes while staying compliant with IRS requirements under IRC Section 3121.">
     <link rel="canonical" href="https://aetaxadvisors.com/blog/reasonable-compensation-s-corp-analysis/">
     <meta property="og:title" content="Reasonable Compensation for S-Corp Owners: How to Set Your Salary Without Triggering the IRS | AE Tax Advisors">
@@ -68,10 +69,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>

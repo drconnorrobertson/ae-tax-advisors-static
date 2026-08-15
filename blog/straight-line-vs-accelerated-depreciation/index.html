@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Straight Line vs Accelerated Depreciation Compared | AE Tax Advisors</title>
-    <meta name="description" content="Straight line spreads deductions evenly, accelerated front loads them. Total deductions are identical. The comparison, the present value math, and the cases where straight line is the better answer.">
+    <title>Straight Line vs Accelerated Depreciation Compared (2026)</title>
+    <meta name="description" content="Straight line spreads deductions evenly, accelerated front loads them. Total deductions are identical.">
     <link rel="canonical" href="https://aetaxadvisors.com/blog/straight-line-vs-accelerated-depreciation/">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-    <meta property="og:title" content="Straight Line vs Accelerated Depreciation Compared | AE Tax Advisors">
+    <meta property="og:title" content="Straight Line vs Accelerated Depreciation Compared (2026)">
     <meta property="og:description" content="Straight line spreads deductions evenly, accelerated front loads them. Total deductions are identical. The comparison, the present value math, and the cases where straight line is the better answer.">
     <meta property="og:url" content="https://aetaxadvisors.com/blog/straight-line-vs-accelerated-depreciation/">
     <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="AE Tax Advisors">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Straight Line vs Accelerated Depreciation Compared | AE Tax Advisors">
+    <meta name="twitter:title" content="Straight Line vs Accelerated Depreciation Compared (2026)">
     <meta name="twitter:description" content="Straight line spreads deductions evenly, accelerated front loads them. Total deductions are identical. The comparison, the present value math, and the cases where straight line is the better answer.">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -133,10 +133,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -184,6 +184,12 @@
         <h1>Straight Line vs Accelerated Depreciation: Which One Actually Saves More</h1>
         <p class="blog-meta">Published August 13, 2026 | Depreciation | AE Tax Advisors</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Cost segregation is an engineering-based tax study that separates a building's cost into its components and reassigns them from the default 27.5-year or 39-year depreciation schedule to their correct 5-year, 7-year, and 15-year classifications, so that the reclassified portion becomes immediately deductible under 100% bonus depreciation.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         <p class="lead-text"><strong>Straight line depreciation deducts an equal amount every year over an asset's recovery period. Accelerated depreciation front loads the deduction into the early years.</strong> Both methods deduct exactly the same total dollars over the life of the asset. The difference is entirely about timing, and timing is worth real money because a dollar deducted today is worth more than a dollar deducted in year twenty.</p>
@@ -192,7 +198,7 @@
 
         <p>A $100,000 asset with a five year recovery period:</p>
 
-        <table>
+        <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table>
             <thead>
                 <tr><th>Year</th><th>Straight line</th><th>200% declining balance (MACRS)</th><th>100% bonus depreciation</th></tr>
             </thead>
@@ -205,7 +211,7 @@
                 <tr><td>6</td><td>$10,000</td><td>$5,760</td><td>$0</td></tr>
                 <tr><td><strong>Total</strong></td><td><strong>$100,000</strong></td><td><strong>$100,000</strong></td><td><strong>$100,000</strong></td></tr>
             </tbody>
-        </table>
+        </table></div>
 
         <p>Every column totals $100,000. The straight line and declining balance columns both reflect the half year convention, which is why year one is half of a full year and the schedule runs into a sixth year.</p>
 
@@ -213,7 +219,7 @@
 
         <p>At a 37 percent marginal rate, the $100,000 deduction is worth $37,000 of tax either way. But the present value differs. Discounted at 8 percent:</p>
 
-        <table>
+        <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table>
             <thead>
                 <tr><th>Method</th><th>Nominal tax benefit</th><th>Present value at 8%</th><th>Difference</th></tr>
             </thead>
@@ -222,7 +228,7 @@
                 <tr><td>200% declining balance</td><td>$37,000</td><td>~$32,700</td><td>+$2,000</td></tr>
                 <tr><td>100% bonus, year one</td><td>$37,000</td><td>$37,000</td><td>+$6,300</td></tr>
             </tbody>
-        </table>
+        </table></div>
 
         <p>Scale that to a real estate acquisition. On a property where <a href="/cost-segregation-studies-for-real-estate-investors/">cost segregation</a> moves $500,000 from a 27.5 year schedule to immediate expensing, the present value gain runs well into six figures. That, and nothing else, is the argument for accelerating depreciation.</p>
 
@@ -230,7 +236,7 @@
 
         <p>You generally do not choose freely. MACRS assigns a method by property class:</p>
 
-        <table>
+        <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table>
             <thead>
                 <tr><th>Property</th><th>Required method</th></tr>
             </thead>
@@ -241,7 +247,7 @@
                 <tr><td>Nonresidential buildings (39 yr)</td><td>Straight line, mid month</td></tr>
                 <tr><td>Anything under ADS</td><td>Straight line, longer life</td></tr>
             </tbody>
-        </table>
+        </table></div>
 
         <p>Note what this means for real estate: <strong>the building is always straight line.</strong> You cannot accelerate the structure. The only way to get accelerated treatment on real estate is to correctly identify the portions of the purchase that are not building, which is what a <a href="/blog/5-year-property-depreciation/">component study</a> does.</p>
 
@@ -313,7 +319,11 @@
                 <li><a href="/cost-segregation-studies-for-real-estate-investors/">Cost Segregation Studies for Real Estate Investors</a></li>
                 <li><a href="/qbi-deduction-guide/">The QBI Deduction Guide</a></li>
                 <li><a href="/blog/depreciation-recapture-planning/">Depreciation Recapture Planning</a></li>
-        </ul>
+        
+            <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li>
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/cost-segregation-for-multifamily/">Cost Segregation for Multifamily Properties</a></li>
+            <li><a href="/macrs-depreciation-schedule-2026/">MACRS Depreciation Schedule 2026</a></li></ul>
 
         <div class="cta-box" style="background:#f8f9fa;border:2px solid #1a365d;border-radius:12px;padding:40px;text-align:center;margin:40px 0;">
             <h3 style="color:#1a365d;margin-bottom:10px;">Not Sure Whether to Accelerate or Slow Down?</h3>

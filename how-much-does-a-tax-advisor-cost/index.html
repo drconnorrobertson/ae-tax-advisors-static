@@ -162,10 +162,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -272,7 +272,29 @@
             </div>
         </div>
     </article>
-    </main>
+    
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What is the typical cost of a tax advisor?</h3>
+                    <p>Tax advisor costs vary widely: hourly rates ($150-$400+/hour), fixed project fees ($500-$5,000+), or annual advisory retainers ($2,000-$25,000+).</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is hiring a tax advisor worth the cost?</h3>
+                    <p>For high-income earners and business owners, a tax advisor typically pays for themselves through tax savings many times over.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What should I expect from a tax advisor?</h3>
+                    <p>Proactive tax planning, quarterly reviews, strategic recommendations, IRS representation, and coordination with your CPA.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I choose the right tax advisor?</h3>
+                    <p>Look for credentials (CPA, EA), experience with your situation, a proactive approach, and a proven track record.</p>
+                </div>
+        </div>
+    </section>
+</main>
 
         <footer>
         <div class="footer-inner">

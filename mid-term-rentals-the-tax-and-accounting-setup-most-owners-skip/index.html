@@ -78,6 +78,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What records should a business keep and for how long?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally at least three years from the filing date, and seven years is the safer practice. Records supporting asset basis, including purchase documents, improvements, and depreciation schedules, should be kept for the life of the asset plus the limitation period after disposition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should bookkeeping and tax strategy be handled by the same team?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It removes a substantial amount of friction. When the people producing the numbers understand what the planning requires, the chart of accounts, fixed asset tracking, and payroll coding are set up to support the strategy rather than needing to be reworked at year end."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does bookkeeping quality affect tax planning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every planning strategy depends on knowing profit accurately and in time to act. Entity elections, reasonable compensation, retirement contributions, and depreciation decisions all require reliable numbers before year end, not after, and reconstructed books eliminate most of the year's opportunities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should books be reconciled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monthly. Reconciling bank, credit card, and loan accounts monthly catches errors while source documents are still available and produces financial statements timely enough to support planning decisions during the year."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!DOCTYPE html>
@@ -150,10 +190,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -245,9 +285,35 @@
             <li><a href="/short-term-rentals/bnb-accelerator/">The Tax Side of the Property BNB Accelerator Helped You Buy</a></li>
             <li><a href="/blog/material-participation-tests-str-owners/">The Seven Material Participation Tests for Short-Term Rental Owners</a></li>
             <li><a href="/short-term-rental-tax-loophole-offset-w2-income/">Short Term Rental Tax Strategy for Business Owners</a></li>
-        </ul>
+        
+            <li><a href="/services/bookkeeping/">Bookkeeping Services</a></li>
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            <li><a href="/reasonable-compensation-s-corp-irs/">Reasonable Compensation for S-Corp Owners</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What records should a business keep and for how long?</h3>
+                    <p>Generally at least three years from the filing date, and seven years is the safer practice. Records supporting asset basis, including purchase documents, improvements, and depreciation schedules, should be kept for the life of the asset plus the limitation period after disposition.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Should bookkeeping and tax strategy be handled by the same team?</h3>
+                    <p>It removes a substantial amount of friction. When the people producing the numbers understand what the planning requires, the chart of accounts, fixed asset tracking, and payroll coding are set up to support the strategy rather than needing to be reworked at year end.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Why does bookkeeping quality affect tax planning?</h3>
+                    <p>Every planning strategy depends on knowing profit accurately and in time to act. Entity elections, reasonable compensation, retirement contributions, and depreciation decisions all require reliable numbers before year end, not after, and reconstructed books eliminate most of the year's opportunities.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How often should books be reconciled?</h3>
+                    <p>Monthly. Reconciling bank, credit card, and loan accounts monthly catches errors while source documents are still available and produces financial statements timely enough to support planning decisions during the year.</p>
+                </div>
+        </div>
+    </section>
 </main>
 <footer>
         <div class="footer-inner">

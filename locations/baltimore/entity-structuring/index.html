@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/assets/style.css">
     <title>Entity Structuring for Maryland Business Owners | AE Tax Advisors</title>
     <link rel="canonical" href="https://aetaxadvisors.com/locations/baltimore/entity-structuring/">
-    <meta name="description" content="Entity structuring and business formation services for Maryland business owners. AE Tax Advisors helps Baltimore-area entrepreneurs choose the right LLC, S-Corp, or C-Corp structure to minimize taxes.">
+    <meta name="description" content="Entity structuring and business formation services for Maryland business owners. AE Tax Advisors helps Baltimore-area entrepreneurs choose the right LLC, S-Corp...">
     <meta name="keywords" content="entity structuring maryland, LLC vs S-Corp maryland, business entity baltimore, business tax advisor baltimore county, maryland business formation, S-Corp election maryland">
     <link rel="canonical" href="https://www.aetaxadvisors.com/locations/baltimore/entity-structuring/">
     <script type="application/ld+json">
@@ -58,6 +58,46 @@
         "serviceType": "Entity Structuring"
     }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should real estate be held in a separate entity from operations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually yes. It isolates liability, creates a clean platform for depreciation and cost segregation, and produces rent taxed once without payroll tax. The tradeoff is the self-rental rule of Reg. 1.469-2(f)(6), which is generally addressed with a grouping election under Reg. 1.469-4."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are multiple entities always better?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Separate entities are appropriate where they isolate genuinely different risks, hold different asset classes, or have different ownership. Entities that accumulate without a plan create duplicate filing fees, inconsistent intercompany charges, and compliance risk with no corresponding benefit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a management company structure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One entity provides genuine management, administrative, or technology services to affiliated operating entities under a written agreement at arm's length rates. It can centralize administration, support benefit plans, and where a C corporation is used, capture rate arbitrage. It fails if the services are not real."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I change my entity structure later?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often, but not always cheaply. Converting an LLC to S-Corp taxation is straightforward, while unwinding a C corporation or removing appreciated real estate from one can be expensive. The cost of reversing a structure should be weighed before adopting it."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -65,10 +105,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -153,6 +193,40 @@
             <p>Our office at 8843 Belair Rd, Nottingham, MD 21236 is open Monday through Friday, 9:00 AM to 5:00 PM ET. We serve business owners throughout Baltimore City, Baltimore County, Harford County, Howard County, Carroll County, Anne Arundel County, and across the state of Maryland. Whether you are launching a new venture, restructuring an existing business, or planning for the next phase of growth, our team is ready to help you build the right foundation.</p>
         </div>
     </section>
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Should real estate be held in a separate entity from operations?</h3>
+                    <p>Usually yes. It isolates liability, creates a clean platform for depreciation and cost segregation, and produces rent taxed once without payroll tax. The tradeoff is the self-rental rule of Reg. 1.469-2(f)(6), which is generally addressed with a grouping election under Reg. 1.469-4.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are multiple entities always better?</h3>
+                    <p>No. Separate entities are appropriate where they isolate genuinely different risks, hold different asset classes, or have different ownership. Entities that accumulate without a plan create duplicate filing fees, inconsistent intercompany charges, and compliance risk with no corresponding benefit.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is a management company structure?</h3>
+                    <p>One entity provides genuine management, administrative, or technology services to affiliated operating entities under a written agreement at arm's length rates. It can centralize administration, support benefit plans, and where a C corporation is used, capture rate arbitrage. It fails if the services are not real.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I change my entity structure later?</h3>
+                    <p>Often, but not always cheaply. Converting an LLC to S-Corp taxation is straightforward, while unwinding a C corporation or removing appreciated real estate from one can be expensive. The cost of reversing a structure should be weighed before adopting it.</p>
+                </div>
+        </div>
+    </section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Related Reading</h2>
+            <ul class="related-links">
+                    <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+                    <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li>
+                    <li><a href="/multi-state-global-tax/">Multi-State and Global Tax Planning</a></li>
+                    <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            </ul>
+        </div>
+    </section>
+
+
 
     <section class="cta-section fade-in-section">
         <div class="container" style="text-align:center;">

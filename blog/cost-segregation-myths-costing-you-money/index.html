@@ -88,6 +88,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is a cost segregation study worth the cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally yes once depreciable basis exceeds roughly $500,000, assuming you can actually use the deduction in the current year. The analysis that matters is not the size of the deduction but whether the passive activity loss rules, basis limits, and excess business loss limitation allow you to deduct it now."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a cost segregation study?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A cost segregation study is an engineering-based analysis that separates a building's purchase or construction cost into its components and reassigns them from the default 27.5-year or 39-year recovery period to their correct 5-year, 7-year, and 15-year MACRS classifications. Because those shorter-life categories qualify for bonus depreciation, the reclassified amount is generally deductible in the first year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do a study on a property I bought years ago?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A Form 3115 change in accounting method captures every missed deduction from the placed-in-service year in a single Section 481(a) adjustment claimed in the current year. No amended returns are needed and there is no three-year limitation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an engineering-based study or is an estimate enough?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The IRS Cost Segregation Audit Techniques Guide identifies the detailed engineering approach as the most reliable method. Rule-of-thumb allocations without site work or construction document review are the first thing challenged on examination, particularly for specialty systems and site improvements."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -95,10 +135,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -154,6 +194,12 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Cost segregation is an engineering-based tax study that separates a building's cost into its components and reassigns them from the default 27.5-year or 39-year depreciation schedule to their correct 5-year, 7-year, and 15-year classifications, so that the reclassified portion becomes immediately deductible under 100% bonus depreciation.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         <p>Cost segregation is one of the most powerful tax strategies available to real estate investors, yet it remains one of the most misunderstood. Myths and misconceptions prevent thousands of property owners from claiming deductions that the IRS has specifically authorized under IRC Section 168.</p>
@@ -162,13 +208,13 @@
 
         <h2>Myth 1: Cost Segregation Is Only for Large Commercial Properties</h2>
 
-        <p>This is probably the most pervasive myth, and it costs residential rental investors the most money. Cost segregation is not limited to large commercial buildings. It applies to any depreciable real property&mdash;residential rentals, multifamily properties, short-term rentals, mixed-use buildings, and yes, commercial properties.</p>
+        <p>This is probably the most pervasive myth, and it costs residential rental investors the most money. Cost segregation is not limited to large commercial buildings. It applies to any depreciable real property, residential rentals, multifamily properties, short-term rentals, mixed-use buildings, and yes, commercial properties.</p>
 
         <p>The general rule of thumb is that cost segregation becomes cost-effective for properties with a depreciable basis (purchase price minus land value) above approximately $500,000. For properties above $1 million, the ROI on a cost segregation study is almost always strong. We have seen excellent results on properties as small as $600,000 in basis.</p>
 
         <h2>Myth 2: Cost Segregation Is Aggressive or Risky</h2>
 
-        <p>Cost segregation is not a loophole, gray area, or aggressive position. It is a well-established methodology that the IRS itself has endorsed. The IRS published a Cost Segregation Audit Technique Guide specifically to help revenue agents evaluate cost segregation studies&mdash;not to discourage them, but to ensure they are performed correctly.</p>
+        <p>Cost segregation is not a loophole, gray area, or aggressive position. It is a well-established methodology that the IRS itself has endorsed. The IRS published a Cost Segregation Audit Technique Guide specifically to help revenue agents evaluate cost segregation studies, not to discourage them, but to ensure they are performed correctly.</p>
 
         <p>When a qualified engineer performs a cost segregation study in accordance with IRS guidelines, the resulting reclassifications are fully supportable under audit. The IRS has never taken the position that cost segregation is inappropriate when properly performed. It is simply the correct application of MACRS depreciation rules under IRC Section 168.</p>
 
@@ -182,7 +228,7 @@
 
         <p>While 100% bonus depreciation has been phasing down under the Tax Cuts and Jobs Act, it has not disappeared. As of 2025, 40% bonus depreciation is still available for qualifying property, and the rate in 2026 is 20%. Even without any bonus depreciation, cost segregation still accelerates depreciation from 27.5 or 39 years to 5, 7, or 15 years. The time value of those accelerated deductions remains substantial.</p>
 
-        <p>Moreover, Congress has repeatedly discussed extending or restoring bonus depreciation. Cost segregation produces value regardless of the bonus depreciation rate&mdash;the bonus just makes it even more powerful.</p>
+        <p>Moreover, Congress has repeatedly discussed extending or restoring bonus depreciation. Cost segregation produces value regardless of the bonus depreciation rate, the bonus just makes it even more powerful.</p>
 
         <h2>Myth 5: My Property Is Too Old for Cost Segregation</h2>
 
@@ -202,7 +248,7 @@
 
         <h2>Stop Believing Myths. Start Saving Money.</h2>
 
-        <p>If any of these myths have been holding you back from pursuing cost segregation on your properties, the only thing standing between you and significant tax savings is a phone call. AE Tax Advisors offers cost segregation studies at <a href="/pricing/">$1 per square foot ($2,000 minimum)</a>&mdash;a fraction of the tens of thousands in Year 1 tax savings most property owners receive. Contact us at <a href="tel:+16316145762">(631) 614-5762</a> or email <a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a>. We will perform a complimentary preliminary analysis and tell you exactly how much cost segregation can save you.</p>
+        <p>If any of these myths have been holding you back from pursuing cost segregation on your properties, the only thing standing between you and significant tax savings is a phone call. AE Tax Advisors offers cost segregation studies at <a href="/pricing/">$1 per square foot ($2,000 minimum)</a>, a fraction of the tens of thousands in Year 1 tax savings most property owners receive. Contact us at <a href="tel:+16316145762">(631) 614-5762</a> or email <a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a>. We will perform a complimentary preliminary analysis and tell you exactly how much cost segregation can save you.</p>
 
     </div></section>
     
@@ -218,9 +264,35 @@
             <li><a href="/blog/5-year-property-depreciation/">5 Year Property: What Cost Segregation Reclassifies and Why It Matters</a></li>
             <li><a href="/blog/can-i-deduct-the-cost-of-a-cost-segregation-study/">Can I Deduct the Cost of a Cost Segregation Study?</a></li>
             <li><a href="/blog/can-i-do-a-cost-segregation-study-on-a-property-i-already-own/">Can I Do a Cost Segregation Study on a Property I Already Own?</a></li>
-        </ul>
+        
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works and What It Costs</a></li>
+            <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li>
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Is a cost segregation study worth the cost?</h3>
+                    <p>Generally yes once depreciable basis exceeds roughly $500,000, assuming you can actually use the deduction in the current year. The analysis that matters is not the size of the deduction but whether the passive activity loss rules, basis limits, and excess business loss limitation allow you to deduct it now.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is a cost segregation study?</h3>
+                    <p>A cost segregation study is an engineering-based analysis that separates a building's purchase or construction cost into its components and reassigns them from the default 27.5-year or 39-year recovery period to their correct 5-year, 7-year, and 15-year MACRS classifications. Because those shorter-life categories qualify for bonus depreciation, the reclassified amount is generally deductible in the first year.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I do a study on a property I bought years ago?</h3>
+                    <p>Yes. A Form 3115 change in accounting method captures every missed deduction from the placed-in-service year in a single Section 481(a) adjustment claimed in the current year. No amended returns are needed and there is no three-year limitation.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need an engineering-based study or is an estimate enough?</h3>
+                    <p>The IRS Cost Segregation Audit Techniques Guide identifies the detailed engineering approach as the most reliable method. Rule-of-thumb allocations without site work or construction document review are the first thing challenged on examination, particularly for specialty systems and site improvements.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

@@ -31,9 +31,15 @@ def classify(slug):
     return DEFAULT
 
 
-def canonical_of(path, slug):
-    t = path.read_text(errors="ignore")
-    m = re.search(r'<link rel="canonical" href="' + re.escape(BASE) + r'([^"]*)"', t)
+NOINDEX = re.compile(r'<meta name="robots" content="[^"]*noindex', re.I)
+
+
+def read(path):
+    return path.read_text(errors="ignore")
+
+
+def canonical_of(text, slug):
+    m = re.search(r'<link rel="canonical" href="' + re.escape(BASE) + r'([^"]*)"', text)
     return m.group(1) if m else "/" + slug + "/" if slug else "/"
 
 
@@ -47,8 +53,9 @@ def main():
         slug = "" if d == "." else d
         url = "/" if slug == "" else "/" + slug + "/"
 
-        # drop anything that points its canonical at a different URL
-        if canonical_of(p, slug) != url:
+        text = read(p)
+        # Drop anything that canonicalizes elsewhere or is explicitly noindexed.
+        if canonical_of(text, slug) != url or NOINDEX.search(text):
             skipped += 1
             continue
 

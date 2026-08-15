@@ -72,6 +72,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who needs to receive a Form 1099?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally non-employee service providers paid $600 or more during the year who are not corporations, with exceptions including attorneys. Collecting a Form W-9 before the first payment is the practical way to avoid a scramble in January."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I file late?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Failure to file penalties accrue at a substantially higher rate than failure to pay penalties, so filing on time matters even when you cannot pay in full. Pass-through entities face per-partner or per-shareholder monthly penalties that accumulate quickly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When are business tax returns due?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Partnership and S corporation returns are generally due the fifteenth day of the third month after year end, and C corporation and individual returns the fifteenth day of the fourth month, with six-month extensions available. An extension extends the filing deadline, not the payment deadline."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to make estimated tax payments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally yes if you expect to owe $1,000 or more. Safe harbor is met by paying 90% of the current year's tax or 100% of the prior year's, rising to 110% for higher-income taxpayers, which avoids underpayment penalties regardless of how the year turns out."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
         <header>
@@ -79,10 +119,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -130,6 +170,12 @@
             <h1>Rental Tax Filing Cleanup And Catch Up Support</h1>
         <p>Expert tax planning and advisory services from AE Tax Advisors.</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Tax compliance is the accurate and timely filing of returns and information reports and the payment of estimated tax, and while it does not reduce tax by itself, failures in this area generate penalties that can exceed the value of the planning they undermine.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
         <p>AE Tax Advisors provides comprehensive rental tax filing cleanup and catch up support services for high-income professionals and business owners. Our approach combines deep technical knowledge of the Internal Revenue Code with practical, real-world application.</p>
         <h2>How We Help</h2>
@@ -153,9 +199,35 @@
             <li><a href="/cost-segregation-analysis-and-implementation-support/">Cost Segregation Analysis And Implementation Support</a></li>
             <li><a href="/real-estate-bookkeeping/">Real Estate Bookkeeping: Building Systems That Support Tax Planning</a></li>
             <li><a href="/blog/filing-status-optimization-during-separation/">Filing Status Optimization During Separation: How the Right Choice Saves Thousands</a></li>
-        </ul>
+        
+            <li><a href="/tax-compliance-irs-representation/">Tax Compliance and IRS Representation</a></li>
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            <li><a href="/services/bookkeeping/">Bookkeeping Services</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Who needs to receive a Form 1099?</h3>
+                    <p>Generally non-employee service providers paid $600 or more during the year who are not corporations, with exceptions including attorneys. Collecting a Form W-9 before the first payment is the practical way to avoid a scramble in January.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What happens if I file late?</h3>
+                    <p>Failure to file penalties accrue at a substantially higher rate than failure to pay penalties, so filing on time matters even when you cannot pay in full. Pass-through entities face per-partner or per-shareholder monthly penalties that accumulate quickly.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>When are business tax returns due?</h3>
+                    <p>Partnership and S corporation returns are generally due the fifteenth day of the third month after year end, and C corporation and individual returns the fifteenth day of the fourth month, with six-month extensions available. An extension extends the filing deadline, not the payment deadline.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need to make estimated tax payments?</h3>
+                    <p>Generally yes if you expect to owe $1,000 or more. Safe harbor is met by paying 90% of the current year's tax or 100% of the prior year's, rising to 110% for higher-income taxpayers, which avoids underpayment penalties regardless of how the year turns out.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
         <footer>

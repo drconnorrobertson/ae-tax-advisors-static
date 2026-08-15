@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/style.css">
     <title>Contact Us | AE Tax Advisors</title>
-    <meta name="description" content="Get in touch with AE Tax Advisors. Exclusively serving business owners, S-Corp and C-Corp operators, and real estate investors generating $500K+ in annual business revenue.">
+    <meta name="description" content="Get in touch with AE Tax Advisors. Exclusively serving business owners, S-Corp and C-Corp operators, and real estate investors generating $500K+ in annual...">
     <link rel="canonical" href="https://aetaxadvisors.com/contact/">
     <meta property="og:title" content="Contact Us | AE Tax Advisors">
     <meta property="og:description" content="Get in touch with AE Tax Advisors. Exclusively serving business owners, S-Corp and C-Corp operators, and real estate investors generating $500K+ in annual business revenue.">
@@ -82,6 +82,46 @@
 }
     </script>
     <link rel="alternate" hreflang="en" href="https://aetaxadvisors.com/contact/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you charge for advisory work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Advisory engagements are quoted as a fixed fee based on scope, with cost segregation studies and entity return work priced separately. Pricing is set before work begins so the value of a strategy can be weighed against its cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can strategies be implemented?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the strategy. Entity elections, retirement plan adoption, and accountable plans can often be put in place quickly, while cost segregation studies typically take several weeks and material participation positions require a full year of documentation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a tax advisory engagement include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A prior year review to identify recoverable overpayments, a forward-looking plan quantifying each recommended strategy, implementation support including entity filings and plan documents, and ongoing coordination so decisions are made during the year rather than reconstructed afterward."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is tax planning different from tax preparation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preparation reports what already happened. Planning changes what happens, and nearly every meaningful strategy has a deadline that falls before year end. A return filed in April can only reflect decisions that were made months earlier."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -89,10 +129,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -228,7 +268,7 @@
     <section class="map-section">
         <div class="container">
             <h2 style="text-align:center; margin-bottom:32px;">Our Offices</h2>
-            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap:24px;">
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr)); gap:24px;">
                 <div>
                     <h3 style="margin-bottom:12px;">Billings, MT (Headquarters)</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2843.1!2d-108.49!3d45.79!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s935+Lake+Elmo+Dr+Suite+B+Billings+MT+59105!5e0!3m2!1sen!2sus!4v1700000000000" width="100%" height="350" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="AE Tax Advisors Billings Office"></iframe>
@@ -241,7 +281,41 @@
         </div>
     </section>
 
-    </main>
+    
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How do you charge for advisory work?</h3>
+                    <p>Advisory engagements are quoted as a fixed fee based on scope, with cost segregation studies and entity return work priced separately. Pricing is set before work begins so the value of a strategy can be weighed against its cost.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How quickly can strategies be implemented?</h3>
+                    <p>It depends on the strategy. Entity elections, retirement plan adoption, and accountable plans can often be put in place quickly, while cost segregation studies typically take several weeks and material participation positions require a full year of documentation.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What does a tax advisory engagement include?</h3>
+                    <p>A prior year review to identify recoverable overpayments, a forward-looking plan quantifying each recommended strategy, implementation support including entity filings and plan documents, and ongoing coordination so decisions are made during the year rather than reconstructed afterward.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How is tax planning different from tax preparation?</h3>
+                    <p>Preparation reports what already happened. Planning changes what happens, and nearly every meaningful strategy has a deadline that falls before year end. A return filed in April can only reflect decisions that were made months earlier.</p>
+                </div>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Related Reading</h2>
+            <ul class="related-links">
+                    <li><a href="/services/">Our Services</a></li>
+                    <li><a href="/discovery/">Request a Consultation</a></li>
+                    <li><a href="/about/">About AE Tax Advisors</a></li>
+                    <li><a href="/pricing/">Pricing and Engagement Options</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
 
     <footer>
         <div class="footer-inner">

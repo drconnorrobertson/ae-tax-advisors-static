@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Can I Get a Refund for Overpaying Self-Employment Tax? | AE Tax Advisors</title>
+    <title>Can I Get a Refund for Overpaying Self-Employment Tax?</title>
     <meta name="description" content="Overpaid self-employment tax? Learn how to recover excess SE tax through amended returns, entity elections, and deduction strategies under IRC Section 1401.">
     <link rel="canonical" href="https://aetaxadvisors.com/blog/can-i-get-a-refund-for-overpaying-self-employment-tax/">
-    <meta property="og:title" content="Can I Get a Refund for Overpaying Self-Employment Tax? | AE Tax Advisors">
+    <meta property="og:title" content="Can I Get a Refund for Overpaying Self-Employment Tax?">
     <meta property="og:description" content="Overpaid self-employment tax? Learn how to recover excess SE tax through amended returns, entity elections, and deduction strategies under IRC Section 1401.">
     <meta property="og:url" content="https://aetaxadvisors.com/blog/can-i-get-a-refund-for-overpaying-self-employment-tax/">
     <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="AE Tax Advisors">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Can I Get a Refund for Overpaying Self-Employment Tax? | AE Tax Advisors">
+    <meta name="twitter:title" content="Can I Get a Refund for Overpaying Self-Employment Tax?">
     <meta name="twitter:description" content="Overpaid self-employment tax? Learn how to recover excess SE tax through amended returns, entity elections, and deduction strategies under IRC Section 1401.">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does S-Corp salary interact with the QBI deduction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Above the Section 199A taxable income thresholds, the deduction for a non-service business is limited by W-2 wages. Reducing your salary to save payroll tax can therefore reduce the QBI deduction by more than the payroll tax saved, so both effects must be modeled together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does an S-Corp election save?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It saves 15.3% self-employment tax on profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. The election typically starts paying for itself once net profit exceeds roughly $60,000 to $80,000 per owner after compliance costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does an S-Corp election reduce income tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a 60/40 rule for S-Corp salary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. There is no safe harbor percentage in the Code, regulations, or IRS guidance. Reasonable compensation is a facts-and-circumstances determination measured against what comparable businesses pay for comparable services, using the nine factors summarized in IRS Fact Sheet FS-2008-25."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,10 +166,16 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">An S corporation is a federal tax election under Subchapter S in which a business pays its owner reasonable W-2 wages subject to payroll tax and distributes remaining profit free of self-employment tax, reducing employment tax without changing how the profit is taxed for income tax purposes.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
-        <p>Self-employment tax is one of the most significant tax burdens facing sole proprietors, freelancers, and independent contractors. At a combined rate of 15.3% on net self-employment earnings&mdash;12.4% for Social Security and 2.9% for Medicare under IRC Section 1401&mdash;even modest errors in calculating self-employment income can result in substantial overpayments. The good news is that overpaid self-employment tax can be recovered.</p>
+        <p>Self-employment tax is one of the most significant tax burdens facing sole proprietors, freelancers, and independent contractors. At a combined rate of 15.3% on net self-employment earnings, 12.4% for Social Security and 2.9% for Medicare under IRC Section 1401, even modest errors in calculating self-employment income can result in substantial overpayments. The good news is that overpaid self-employment tax can be recovered.</p>
 
 <h2>How Overpayments Occur</h2>
 
@@ -143,7 +189,7 @@
 
 <h2>Entity Election Strategies</h2>
 
-<p>For self-employed individuals with consistent net earnings above a reasonable salary threshold, electing S corporation status can significantly reduce self-employment tax going forward&mdash;and in some cases, correcting the entity structure retroactively can provide savings. When an LLC or sole proprietorship elects S corporation treatment by filing Form 2553, the owner pays self-employment tax only on the reasonable salary paid through payroll, not on the entire net profit.</p>
+<p>For self-employed individuals with consistent net earnings above a reasonable salary threshold, electing S corporation status can significantly reduce self-employment tax going forward, and in some cases, correcting the entity structure retroactively can provide savings. When an LLC or sole proprietorship elects S corporation treatment by filing Form 2553, the owner pays self-employment tax only on the reasonable salary paid through payroll, not on the entire net profit.</p>
 
 <p>For example, a business with $200,000 in net profit operated as a sole proprietorship pays self-employment tax on the full amount (subject to the Social Security wage base). The same business operating as an S corporation with a $100,000 salary pays payroll taxes only on the salary, with the remaining $100,000 distributed as a non-SE-tax distribution. The annual SE tax savings can exceed $15,000. While the S election generally cannot be applied retroactively to correct prior years, establishing the election promptly prevents future overpayments.</p>
 
@@ -151,7 +197,7 @@
 
 <p>To recover overpaid self-employment tax from a prior year, you must file Form 1040-X for the year in question. The amendment should include a corrected Schedule C reflecting the additional business expenses, a corrected Schedule SE recalculating the self-employment tax, and any other schedules affected by the changes. The three-year statute of limitations under IRC Section 6511 applies, so you can amend the current year and the two preceding years in most cases.</p>
 
-<p>When amending, recalculate the Section 164(f) deduction as well, since reducing Schedule C income changes the self-employment tax amount, which in turn changes the allowable deduction. This creates a compound benefit&mdash;lower SE tax and lower income tax&mdash;that amplifies the refund.</p>
+<p>When amending, recalculate the Section 164(f) deduction as well, since reducing Schedule C income changes the self-employment tax amount, which in turn changes the allowable deduction. This creates a compound benefit, lower SE tax and lower income tax, that amplifies the refund.</p>
 
 <h2>Estimated Tax Implications</h2>
 
@@ -165,7 +211,7 @@
 
         <div style="background:#f8f9fa;border-left:4px solid #1a3a5c;padding:1.5rem 2rem;border-radius:0 8px 8px 0;margin-bottom:2rem;">
             <p style="margin:0 0 0.75rem;font-weight:600;font-size:1.1rem;">Find Out How Much You Could Save</p>
-            <p style="margin:0 0 1rem;">Our complimentary 3-Year Tax Lookback identifies missed deductions and optimization opportunities. No obligation, no pressure&mdash;just clarity on what you are leaving behind.</p>
+            <p style="margin:0 0 1rem;">Our complimentary 3-Year Tax Lookback identifies missed deductions and optimization opportunities. No obligation, no pressure, just clarity on what you are leaving behind.</p>
             <a href="/discovery/" style="display:inline-block;background:#1a3a5c;color:#fff;padding:0.75rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;">Request Your Free Lookback</a>
         </div>
 
@@ -185,9 +231,35 @@
             <li><a href="/solo-401k-plans-retirement-savings-self-employed/">Solo 401K Plans Retirement Savings Self Employed</a></li>
             <li><a href="/tax-amendments/">Tax Amendments &amp; Refund Recovery</a></li>
             <li><a href="/blog/cost-segregation-self-storage-facilities/">Cost Segregation for Self-Storage Facilities: Where 35 Percent of Basis Is Not the Building</a></li>
-        </ul>
+        
+            <li><a href="/cash-balance-plan-tax-deduction/">Cash Balance Plan Tax Deduction</a></li>
+            <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/reasonable-compensation-s-corp-irs/">Reasonable Compensation for S-Corp Owners</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How does S-Corp salary interact with the QBI deduction?</h3>
+                    <p>Above the Section 199A taxable income thresholds, the deduction for a non-service business is limited by W-2 wages. Reducing your salary to save payroll tax can therefore reduce the QBI deduction by more than the payroll tax saved, so both effects must be modeled together.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much does an S-Corp election save?</h3>
+                    <p>It saves 15.3% self-employment tax on profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. The election typically starts paying for itself once net profit exceeds roughly $60,000 to $80,000 per owner after compliance costs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Does an S-Corp election reduce income tax?</h3>
+                    <p>No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is there a 60/40 rule for S-Corp salary?</h3>
+                    <p>No. There is no safe harbor percentage in the Code, regulations, or IRS guidance. Reasonable compensation is a facts-and-circumstances determination measured against what comparable businesses pay for comparable services, using the nine factors summarized in IRS Fact Sheet FS-2008-25.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

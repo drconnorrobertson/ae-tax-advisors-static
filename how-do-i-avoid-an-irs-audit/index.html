@@ -86,10 +86,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
                 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -262,9 +262,35 @@
             <li><a href="/blog/what-triggers-an-irs-audit-for-small-business-owners/">What Triggers an IRS Audit for Small Business Owners?</a></li>
             <li><a href="/blog/what-triggers-irs-audit-s-corp/">What Triggers an IRS Audit for S-Corp Owners</a></li>
             <li><a href="/irs-audit-defense/">IRS Audit Defense &amp; Resolution</a></li>
-        </ul>
+        
+            <li><a href="/accountable-plan/">Accountable Plans Done Correctly</a></li>
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/section-179-vs-bonus-depreciation-2026/">Section 179 vs Bonus Depreciation in 2026</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What income level triggers more IRS audits?</h3>
+                    <p>IRS audit rates rise sharply for taxpayers with total gross income above $500,000. Business owners reporting high income combined with large deductions face the highest scrutiny. The IRS DIF scoring system flags returns that deviate significantly from statistical norms for similar income levels.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Does claiming a home office increase my audit risk?</h3>
+                    <p>A legitimate home office deduction under IRC Section 280A, calculated correctly and supported by proper documentation, does not automatically trigger an audit. The risk comes from overclaiming or using the simplified method when the actual calculation would produce a materially different result.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How long should I keep tax records in case of an audit?</h3>
+                    <p>The IRS generally has three years from the filing date to audit a return, but six years if it suspects a substantial understatement of income (more than 25%). Taxpayers with foreign assets or complex business structures should retain records indefinitely for certain items.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can my business deductions trigger an IRS audit?</h3>
+                    <p>Yes. Business deductions that are unusually large relative to income, deductions taken without proper documentation, and claimed losses from activities the IRS considers hobbies under IRC Section 183 are among the most common audit triggers for business owners.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

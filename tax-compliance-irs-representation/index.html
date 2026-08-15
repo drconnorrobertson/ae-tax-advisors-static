@@ -60,38 +60,7 @@
   "description": "Advanced tax strategies for high-net-worth individuals and business owners."
 }
     </script>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What should I do if I get an IRS audit notice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Do not respond on your own. Contact us immediately. We will review the notice, assess your exposure, and represent you throughout the audit process."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you help me if I owe back taxes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We evaluate your situation and pursue the best resolution path, whether that is an installment agreement, Offer in Compromise, penalty abatement, or Currently Not Collectible status."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How far back can the IRS audit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Generally 3 years from filing, but 6 years if there is a substantial understatement of income (>25%). There is no limit for fraud or unfiled returns."
-      }
-    }
-  ]
-}
-    </script>
+    
 
     <script type="application/ld+json">
 {
@@ -176,10 +145,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <a href="/about/" class="nav-link">About Us</a>
 <div class="nav-dropdown">
@@ -199,6 +168,7 @@
 </div>
             </div>
 <a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
 <div class="nav-dropdown">
                 <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
                 <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
@@ -223,6 +193,12 @@
             <p>Professional tax return preparation, IRS audit defense, penalty abatement, and resolution services for high-income individuals and businesses.</p>
         </div>
     </section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">IRS representation is the practice of acting on a taxpayer's behalf in examinations, appeals, and collection matters under a power of attorney, controlling the scope of inquiry and the information provided while preserving procedural rights and deadlines.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section">
         <div class="container narrow">
@@ -329,9 +305,33 @@
             <li><a href="/audit-defense-compliance/">Audit Defense Compliance</a></li>
             <li><a href="/hiring-first-employee-payroll/">Hiring Your First Employee: Payroll Setup and Tax Compliance Under IRC Section 3401</a></li>
             <li><a href="/blog/can-amending-my-return-trigger-an-irs-audit/">Can Amending My Tax Return Trigger an IRS Audit?</a></li>
-        </ul>
+        
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How much does IRS representation cost?</h3>
+                    <p>It depends on complexity. Typically flat fee for simple audits, hourly for complex cases. The cost is usually a fraction of what audits cost without representation.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I appeal an IRS decision?</h3>
+                    <p>Yes. We can file a protest to IRS Appeals or pursue litigation if necessary. Most taxpayers settle at Appeals level.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What&#x27;s the difference between a tax return and tax compliance?</h3>
+                    <p>A return shows what you owe. Compliance ensures you've met all filing, payment, and documentation requirements. We handle both.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What records should I keep for an audit?</h3>
+                    <p>Keep receipts, invoices, bank statements, and detailed documentation for all deductions claimed. The 'contemporaneous written acknowledgment' is critical for charitable deductions.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

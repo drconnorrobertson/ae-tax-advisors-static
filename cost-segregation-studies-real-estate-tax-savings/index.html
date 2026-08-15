@@ -162,10 +162,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -302,9 +302,35 @@
             <li><a href="/how-ae-tax-advisors-helps-real-estate-investors-maximize-depreciation-through-cost-segregation/">How AE Tax Advisors Helps Real Estate Investors Maximize Depreciation Through Cost Segregation</a></li>
             <li><a href="/how-to-use-cost-segregation-to-accelerate-real-estate-deductions/">How To Use Cost Segregation To Accelerate Real Estate Deductions</a></li>
             <li><a href="/blog/cost-segregation-six-figure-tax-savings/">How Cost Segregation Creates Six-Figure Tax Savings</a></li>
-        </ul>
+        
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works and What It Costs</a></li>
+            <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li>
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/cost-segregation-for-multifamily/">Cost Segregation for Multifamily Properties</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How much can a cost segregation study save on taxes?</h3>
+                    <p>First-year tax savings typically range from $50,000 to $200,000+ depending on property value, type, and applicable bonus depreciation rates. Commercial properties and multifamily buildings generally yield the highest savings.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What types of properties qualify for cost segregation?</h3>
+                    <p>Most commercial, residential rental, and mixed-use properties qualify. This includes apartment buildings, office spaces, retail centers, warehouses, short-term rentals, and single-family investment properties.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How does cost segregation work with bonus depreciation?</h3>
+                    <p>Cost segregation reclassifies building components into shorter recovery periods. Bonus depreciation then allows a large percentage of those reclassified assets to be deducted in the first year, dramatically accelerating the tax benefit.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need to get a new cost segregation study after renovations?</h3>
+                    <p>Yes. Significant renovations, improvements, or tenant build-outs create new depreciable assets that can be reclassified through an updated cost segregation study, generating additional accelerated deductions.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
         <footer>

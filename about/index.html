@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About AE Tax Advisors | Tax Advisory Firm in Billings, Montana</title>
-    <meta name="description" content="AE Tax Advisors is a tax advisory firm headquartered in Billings, Montana, specializing in cost segregation studies, strategic tax planning, entity structuring, and S-Corp elections for real estate investors, business owners, and high-income earners nationwide.">
+    <meta name="description" content="AE Tax Advisors is a tax advisory firm headquartered in Billings, Montana, specializing in cost segregation studies, strategic tax planning, entity structuring...">
     <link rel="canonical" href="https://aetaxadvisors.com/about/">
     <meta property="og:title" content="About AE Tax Advisors | Tax Advisory Firm in Billings, Montana">
     <meta property="og:description" content="AE Tax Advisors is a tax advisory firm in Billings, MT specializing in cost segregation, tax planning, entity structuring, and S-Corp elections for real estate investors and business owners.">
@@ -108,6 +108,46 @@
 }
     </script>
     <link rel="alternate" hreflang="en" href="https://aetaxadvisors.com/about/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are my options if I owe more than I can pay?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Installment agreements, currently not collectible status, penalty abatement for reasonable cause or first-time abatement, and in appropriate cases an offer in compromise. Which applies depends on your financial position, and the analysis should happen before enforcement action begins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I receive an IRS notice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Read it carefully for the specific issue and the response deadline, and do not ignore it. Many notices are automated matching notices that can be resolved with documentation. Responding within the stated window preserves your appeal rights and prevents automatic assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What triggers an IRS examination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common triggers include large deductions relative to reported income, S-Corp officer compensation that appears low, real estate professional status claims, cryptocurrency reporting, and information return mismatches. Selection is also partly random through the National Research Program."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long can the IRS go back?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally three years from the filing date. That extends to six years where more than 25% of gross income was omitted, and there is no limit for a false or fraudulent return or a failure to file. Employment tax and certain international matters have their own rules."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
         <header>
@@ -115,10 +155,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link active">About Us <span class="arrow">&#9662;</span></a>
@@ -293,7 +333,41 @@
             <p class="company-subtext">&hellip;and hundreds of business owners and entrepreneurs across the country</p>
         </div>
     </section>
-    </main>
+    
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What are my options if I owe more than I can pay?</h3>
+                    <p>Installment agreements, currently not collectible status, penalty abatement for reasonable cause or first-time abatement, and in appropriate cases an offer in compromise. Which applies depends on your financial position, and the analysis should happen before enforcement action begins.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What should I do if I receive an IRS notice?</h3>
+                    <p>Read it carefully for the specific issue and the response deadline, and do not ignore it. Many notices are automated matching notices that can be resolved with documentation. Responding within the stated window preserves your appeal rights and prevents automatic assessment.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What triggers an IRS examination?</h3>
+                    <p>Common triggers include large deductions relative to reported income, S-Corp officer compensation that appears low, real estate professional status claims, cryptocurrency reporting, and information return mismatches. Selection is also partly random through the National Research Program.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How long can the IRS go back?</h3>
+                    <p>Generally three years from the filing date. That extends to six years where more than 25% of gross income was omitted, and there is no limit for a false or fraudulent return or a failure to file. Employment tax and certain international matters have their own rules.</p>
+                </div>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Related Reading</h2>
+            <ul class="related-links">
+                    <li><a href="/tax-compliance-irs-representation/">Tax Compliance and IRS Representation</a></li>
+                    <li><a href="/audit-defense-compliance/">Audit Defense and Compliance</a></li>
+                    <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+                    <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
 
         <footer>
         <div class="footer-inner">

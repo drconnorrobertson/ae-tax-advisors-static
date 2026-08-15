@@ -54,6 +54,46 @@
         ]
     }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the R&D tax credit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A credit under Section 41 for qualified research expenses, available to more businesses than commonly assumed, including software development, process improvement, and product engineering. Qualified small businesses may apply a portion against payroll tax rather than income tax."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the FICA tip credit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A credit under Section 45B for employer Social Security and Medicare taxes paid on employee tips above the amount treated as wages for minimum wage purposes. For full-service restaurants it frequently amounts to tens of thousands of dollars annually and is routinely overlooked."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Work Opportunity Tax Credit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A credit for hiring individuals from targeted groups. It requires Form 8850 certification submitted to the state workforce agency within 28 days of the employee's start date, which means it cannot be claimed retroactively."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are energy efficiency incentives still available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in various forms including the Section 179D deduction for commercial building energy efficiency improvements and Section 45L for qualifying residential construction. Eligibility depends on efficiency standards and, in some cases, prevailing wage and apprenticeship requirements."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -62,10 +102,10 @@
         <a href="/" class="logo">
             <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
         </a>
-        <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
             <span></span><span></span><span></span>
         </button>
-        <nav class="nav-links">
+        <nav class="nav-links" id="primary-nav">
             <a href="/" class="nav-link">Home</a>
             <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -118,18 +158,24 @@
                 <a href="/">Home</a> &rsaquo; <span>Why Switch to AE Tax Advisors</span>
             </nav>
             <h1>Why Switch to AE Tax Advisors</h1>
-            <p class="subtitle">If your tax bill has stayed roughly the same year after year despite growing income, your current tax professional may be filing accurately but not advising strategically. Here is how to tell&mdash;and what to do about it.</p>
+            <p class="subtitle">If your tax bill has stayed roughly the same year after year despite growing income, your current tax professional may be filing accurately but not advising strategically. Here is how to tell, and what to do about it.</p>
             <div class="cta-buttons">
                 <a href="/discovery/" class="btn-cta btn-lg">Request Your Free Tax Assessment</a>
             </div>
         </div>
     </section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Tax credits reduce tax liability dollar for dollar rather than reducing taxable income, which makes them substantially more valuable than deductions of the same size, and many of them carry strict certification or filing deadlines that cannot be met retroactively.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section">
         <div class="container narrow">
             <h2>Signs Your Current Tax Professional Is Not Enough</h2>
-            <p>Your CPA may be competent, experienced, and well-intentioned. The issue is not competence&mdash;it is scope. Most CPAs operate as compliance professionals. They ensure your return is accurate and filed on time. That is a valuable service, but it is not tax strategy. Here are the signs that your tax situation has outgrown your current professional:</p>
-            <p><strong>You only hear from them during tax season.</strong> If the only time your CPA contacts you is to request documents in February or March, you are not receiving proactive planning. Tax strategy happens throughout the year&mdash;decisions about entity elections, retirement contributions, asset purchases, and income timing must be made before December 31, not after.</p>
+            <p>Your CPA may be competent, experienced, and well-intentioned. The issue is not competence, it is scope. Most CPAs operate as compliance professionals. They ensure your return is accurate and filed on time. That is a valuable service, but it is not tax strategy. Here are the signs that your tax situation has outgrown your current professional:</p>
+            <p><strong>You only hear from them during tax season.</strong> If the only time your CPA contacts you is to request documents in February or March, you are not receiving proactive planning. Tax strategy happens throughout the year, decisions about entity elections, retirement contributions, asset purchases, and income timing must be made before December 31, not after.</p>
             <p><strong>Your entity structure has never been reviewed.</strong> If you are still operating as a sole proprietor or single-member LLC and no one has discussed S-Corp election with you, you are likely overpaying self-employment taxes by $10,000 to $30,000 per year. Under IRC Section 1362, an S-Corp election allows distributions above a reasonable salary to avoid self-employment tax entirely.</p>
             <p><strong>No one has mentioned cost segregation.</strong> If you own rental properties and your CPA has never discussed cost segregation, accelerated depreciation, or bonus depreciation under IRC Section 168, you are missing one of the most powerful deductions available to real estate investors. A single cost segregation study can generate $30,000 to $150,000 in additional first-year deductions.</p>
             <p><strong>Your tax bill goes up every year.</strong> As your income grows, your taxes should not increase proportionally if proper strategies are in place. S-Corp optimization, retirement plan contributions, accountable plans, and cost segregation all work to reduce your effective tax rate as your income scales. If your effective rate is climbing alongside your revenue, strategies are not being implemented.</p>
@@ -141,8 +187,8 @@
     <section class="content-section fade-in-section">
         <div class="container narrow">
             <h2>The 3-Year Lookback: See What You Have Been Missing</h2>
-            <p>One of the first things AE Tax Advisors does for every new engagement is review your prior three years of federal tax returns. This is not a courtesy glance&mdash;it is a detailed, line-by-line analysis looking for missed deductions, unclaimed credits, suboptimal entity structures, and strategies that should have been implemented but were not.</p>
-            <p>The IRS allows amended returns to be filed within three years of the original filing date under IRC Section 6511. This means that if your 2023, 2024, or 2025 returns contained errors or omissions, we can file Form 1040-X to recover the overpayment. The statute of limitations on refund claims makes timing critical&mdash;the longer you wait, the fewer years are available for amendment.</p>
+            <p>One of the first things AE Tax Advisors does for every new engagement is review your prior three years of federal tax returns. This is not a courtesy glance, it is a detailed, line-by-line analysis looking for missed deductions, unclaimed credits, suboptimal entity structures, and strategies that should have been implemented but were not.</p>
+            <p>The IRS allows amended returns to be filed within three years of the original filing date under IRC Section 6511. This means that if your 2023, 2024, or 2025 returns contained errors or omissions, we can file Form 1040-X to recover the overpayment. The statute of limitations on refund claims makes timing critical, the longer you wait, the fewer years are available for amendment.</p>
             <p>What do we typically find in the 3-year lookback? The most common issues include:</p>
             <p>Missed S-Corp election opportunities where the business owner paid full self-employment tax on all business income. Rental properties depreciated on a straight-line basis without a cost segregation study, resulting in tens of thousands of dollars in delayed deductions. No accountable plan in place, causing legitimate business expense reimbursements to be treated as taxable income. QBI deductions (Section 199A) that were either not claimed or calculated incorrectly. Retirement plan contributions that were below the maximum allowable amount.</p>
             <p>In many cases, the 3-year lookback alone recovers $20,000 to $80,000 in overpaid taxes before we even begin implementing forward-looking strategies. This recovery often covers the advisory fee multiple times over in the first year.</p>
@@ -155,16 +201,16 @@
             <p>AE Tax Advisors is not a traditional CPA firm. We are a tax advisory practice built specifically for business owners and real estate investors who need more than compliance. Here is what sets us apart:</p>
             <p><strong>Year-round advisory, not seasonal filing.</strong> Your engagement includes quarterly strategy calls, mid-year tax projections, and year-end optimization sessions. We are available throughout the year to advise on business decisions, asset acquisitions, entity changes, and timing strategies.</p>
             <p><strong>IRC-cited strategy memos.</strong> Every strategy we recommend is documented in a written memo that cites the specific Internal Revenue Code sections that support the position. This gives you confidence that your tax positions are legally sound and provides documentation in the event of an IRS inquiry.</p>
-            <p><strong>Flat annual fee.</strong> Our advisory engagement is $7,800 per year&mdash;flat, transparent, and all-inclusive. There are no hourly charges for phone calls, no surprise bills for additional questions, and no add-on fees for strategy sessions. You know exactly what the engagement costs, and you can contact your strategist whenever you need guidance.</p>
+            <p><strong>Flat annual fee.</strong> Our advisory engagement is $7,800 per year, flat, transparent, and all-inclusive. There are no hourly charges for phone calls, no surprise bills for additional questions, and no add-on fees for strategy sessions. You know exactly what the engagement costs, and you can contact your strategist whenever you need guidance.</p>
             <p><strong>Integrated cost segregation.</strong> We perform cost segregation studies in-house at $1 per square foot ($2,000 minimum) and integrate the results directly into your overall tax plan. There is no need to hire a separate cost-seg firm and then figure out how to use the report.</p>
-            <p><strong>Amendment recovery.</strong> We proactively review your prior returns and file amendments where we identify missed savings. Most firms do not look backward&mdash;they only file the current year. AE Tax looks at the full picture, including what was left on the table in prior years.</p>
+            <p><strong>Amendment recovery.</strong> We proactively review your prior returns and file amendments where we identify missed savings. Most firms do not look backward, they only file the current year. AE Tax looks at the full picture, including what was left on the table in prior years.</p>
         </div>
     </section>
 
     <section class="content-section fade-in-section">
         <div class="container narrow">
             <h2>How AE Tax Compares to Your Current CPA</h2>
-            <table>
+            <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table>
                 <thead>
                     <tr>
                         <th>Feature</th>
@@ -219,7 +265,7 @@
                         <td>&#9989; ($7,800/yr)</td>
                     </tr>
                 </tbody>
-            </table>
+            </table></div>
         </div>
     </section>
 
@@ -231,7 +277,7 @@
             <p><strong>Step 2: Provide your prior returns.</strong> We will request copies of your last three years of federal and state tax returns. You can obtain these from your current CPA or download them directly from the IRS using Form 4506-T. Your current CPA is professionally obligated to provide your records upon request.</p>
             <p><strong>Step 3: We conduct the 3-year lookback.</strong> Our team reviews your prior returns line by line, identifying missed deductions, suboptimal structures, and amendment opportunities. We present our findings to you with specific dollar amounts and the IRC sections that support each recommendation.</p>
             <p><strong>Step 4: Engagement begins.</strong> Once you decide to move forward, we implement your tax strategy immediately. There is no waiting for tax season. Strategies like S-Corp elections, retirement plan establishment, and accountable plan setup can begin at any point during the year.</p>
-            <p>You do not need to fire your current CPA before contacting us. Many business owners engage AE Tax for advisory services while their existing preparer handles the filing&mdash;at least initially. Over time, most advisory engagements consolidate under AE Tax for seamless coordination between strategy and compliance.</p>
+            <p>You do not need to fire your current CPA before contacting us. Many business owners engage AE Tax for advisory services while their existing preparer handles the filing, at least initially. Over time, most advisory engagements consolidate under AE Tax for seamless coordination between strategy and compliance.</p>
         </div>
     </section>
 
@@ -246,11 +292,45 @@
             <p>Within 90 days, most business owners have a clear picture of their total annual savings, have recovered a portion of prior-year overpayments through amendments, and have a forward-looking strategy in place that will continue to reduce their tax burden for years to come.</p>
         </div>
     </section>
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What is the R&amp;D tax credit?</h3>
+                    <p>A credit under Section 41 for qualified research expenses, available to more businesses than commonly assumed, including software development, process improvement, and product engineering. Qualified small businesses may apply a portion against payroll tax rather than income tax.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the FICA tip credit?</h3>
+                    <p>A credit under Section 45B for employer Social Security and Medicare taxes paid on employee tips above the amount treated as wages for minimum wage purposes. For full-service restaurants it frequently amounts to tens of thousands of dollars annually and is routinely overlooked.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the Work Opportunity Tax Credit?</h3>
+                    <p>A credit for hiring individuals from targeted groups. It requires Form 8850 certification submitted to the state workforce agency within 28 days of the employee's start date, which means it cannot be claimed retroactively.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are energy efficiency incentives still available?</h3>
+                    <p>Yes, in various forms including the Section 179D deduction for commercial building energy efficiency improvements and Section 45L for qualifying residential construction. Eligibility depends on efficiency standards and, in some cases, prevailing wage and apprenticeship requirements.</p>
+                </div>
+        </div>
+    </section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Related Reading</h2>
+            <ul class="related-links">
+                    <li><a href="/cost-segregation-for-restaurant/">Cost Segregation for Restaurants</a></li>
+                    <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+                    <li><a href="/section-179-vs-bonus-depreciation-2026/">Section 179 vs Bonus Depreciation in 2026</a></li>
+                    <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            </ul>
+        </div>
+    </section>
+
+
 
     <section class="cta-section fade-in-section">
         <div class="container">
             <h2>Find Out What Your Current CPA Has Been Missing</h2>
-            <p>The 3-year lookback is free. Request your tax assessment today and let AE Tax Advisors show you exactly how much you have been overpaying&mdash;and what we can do about it going forward.</p>
+            <p>The 3-year lookback is free. Request your tax assessment today and let AE Tax Advisors show you exactly how much you have been overpaying, and what we can do about it going forward.</p>
             <div class="cta-buttons">
                 <a href="/discovery/" class="btn-cta btn-lg">Request Your Free Tax Assessment</a>
                 <a href="/contact/" class="btn-secondary btn-hero-secondary">Contact Us</a>

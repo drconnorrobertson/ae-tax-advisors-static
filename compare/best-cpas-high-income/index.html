@@ -156,10 +156,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -206,6 +206,12 @@
             <h1>Best CPAs for High Income Earners: How to Choose</h1>
         <p class="blog-meta">Comparison | Updated August 11, 2026 | AE Tax Advisors</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Qualified retirement plans allow a business owner to deduct contributions today and defer tax until distribution. Defined contribution plans cap the annual contribution, while defined benefit and cash balance plans cap the benefit payable at retirement, which allows much larger deductions as the owner approaches retirement age.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         <p>Once household income passes roughly $400,000, the value a CPA adds shifts entirely. Accurate preparation is table stakes. What actually moves the number is decisions made during the year, and most firms are not structured to make them.</p>

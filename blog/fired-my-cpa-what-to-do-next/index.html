@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Fired My CPA. What Do I Do Next? | AE Tax Advisors</title>
-    <meta name="description" content="A step-by-step guide to what happens after you fire your CPA: getting your files, protecting filing deadlines, reviewing prior returns for missed money, and hiring the right replacement.">
+    <meta name="description" content="A step-by-step guide to what happens after you fire your CPA: getting your files, protecting filing deadlines, reviewing prior returns for missed money, and...">
     <link rel="canonical" href="https://aetaxadvisors.com/blog/fired-my-cpa-what-to-do-next/">
     <meta property="og:title" content="I Fired My CPA. What Do I Do Next? | AE Tax Advisors">
     <meta property="og:description" content="A step-by-step guide to what happens after you fire your CPA: getting your files, protecting filing deadlines, reviewing prior returns for missed money, and hiring the right replacement.">
@@ -157,10 +157,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -339,7 +339,11 @@
             <li><a href="/compare/hall-cpa-vs-ae-tax/">Hall CPA (The Real Estate CPA) vs AE Tax Advisors</a></li>
             <li><a href="/blog/should-i-amend-my-return-or-wait-for-next-year/">Should I Amend My Tax Return or Wait Until Next Year to Correct It?</a></li>
             <li><a href="/c-corporation-strategy/is-c-corp-right-for-you/">Is a C Corporation Right for You? Assessment Checklist and Next Steps</a></li>
-        </ul>
+        
+            <li><a href="/tax-compliance-irs-representation/">Tax Compliance and IRS Representation</a></li>
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            <li><a href="/services/bookkeeping/">Bookkeeping Services</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li></ul>
     </div></section>
 
 </main>

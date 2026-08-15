@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cost Segregation Studies | AE Tax Advisors</title>
-    <meta name="description" content="AE Tax Advisors performs IRS-compliant cost segregation studies that reclassify building components into accelerated depreciation categories, generating $50,000 to $150,000+ in first-year tax deductions for real estate investors.">
+    <meta name="description" content="AE Tax Advisors performs IRS-compliant cost segregation studies that reclassify building components into accelerated depreciation categories, generating $50,000...">
     <link rel="canonical" href="https://aetaxadvisors.com/services/cost-segregation/">
     <meta property="og:title" content="Cost Segregation Studies | AE Tax Advisors">
     <meta property="og:description" content="IRS-compliant cost segregation studies that accelerate depreciation deductions for real estate investors. 100% bonus depreciation under OBBBA.">
@@ -139,10 +139,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -246,7 +246,7 @@
     <section class="content-section fade-in-section" style="background: var(--neutral-50, #f8f9fa);">
         <div class="container narrow">
             <h2>You May Also Need</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 20px;">
                 <a href="/services/tax-planning/" style="display: block; padding: 20px; background: var(--white, #fff); border-radius: 8px; border: 1px solid rgba(0,0,0,0.06); text-decoration: none; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
                     <h3 style="color: var(--dark, #1B2A4A); margin-bottom: 8px; font-size: 16px;">Strategic Tax Planning</h3>
                     <p style="color: var(--medium, #5A6B80); font-size: 14px; margin: 0;">Year-round proactive tax strategy with IRC-cited analysis and quarterly planning sessions.</p>
@@ -278,7 +278,11 @@
             <li><a href="/case-studies/ltr-apartment-building-24-units/">24-Unit Apartment Complex: $980K Year 1 Deduction via Cost Segregation</a></li>
             <li><a href="/case-studies/ltr-duplex-cost-seg/">Duplex LTR Owner Gets $144K Year 1 Deduction via Cost Segregation</a></li>
             <li><a href="/case-studies/mixed-use-developer-bonus-depreciation-opportunity-zone/">Mixed-Use Developer: Opportunity Zone and Cost Segregation</a></li>
-        </ul>
+        
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works and What It Costs</a></li>
+            <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li>
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/cost-segregation-for-multifamily/">Cost Segregation for Multifamily Properties</a></li></ul>
     </div></section>
 
 </main>

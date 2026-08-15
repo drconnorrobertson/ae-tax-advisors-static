@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does an S-Corp election save?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It saves 15.3% self-employment tax on profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. The election typically starts paying for itself once net profit exceeds roughly $60,000 to $80,000 per owner after compliance costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does an S-Corp election reduce income tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can an LLC be taxed as an S-Corp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. An LLC can elect S-Corp taxation by filing Form 2553 without converting to a corporation. The operating agreement, liability protection, and state law status are unaffected; only the federal tax characterization changes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a 60/40 rule for S-Corp salary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. There is no safe harbor percentage in the Code, regulations, or IRS guidance. Reasonable compensation is a facts-and-circumstances determination measured against what comparable businesses pay for comparable services, using the nine factors summarized in IRS Fact Sheet FS-2008-25."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,16 +166,22 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">An S corporation is a federal tax election under Subchapter S in which a business pays its owner reasonable W-2 wages subject to payroll tax and distributes remaining profit free of self-employment tax, reducing employment tax without changing how the profit is taxed for income tax purposes.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
-        <p>Electing S-Corp status for your LLC can produce significant tax savings&mdash;primarily through reduced self-employment taxes&mdash;but it is not the right move for every business. The decision depends on your net income level, your ability to run payroll, and whether the administrative costs justify the tax savings. Understanding exactly how the S-Corp election works is the first step to making an informed decision.</p>
+        <p>Electing S-Corp status for your LLC can produce significant tax savings, primarily through reduced self-employment taxes, but it is not the right move for every business. The decision depends on your net income level, your ability to run payroll, and whether the administrative costs justify the tax savings. Understanding exactly how the S-Corp election works is the first step to making an informed decision.</p>
 
 <h2>How the S-Corp Election Works</h2>
 
-<p>An LLC is a state-level legal entity. By default, a single-member LLC is taxed as a sole proprietorship (disregarded entity) and a multi-member LLC is taxed as a partnership. In either case, all net business income flows through to the owner's personal return and is subject to self-employment (SE) tax under IRC Section 1401&mdash;currently 15.3% on the first $168,600 of earnings (for 2024) and 2.9% (plus the 0.9% Additional Medicare Tax for high earners) on amounts above that threshold.</p>
+<p>An LLC is a state-level legal entity. By default, a single-member LLC is taxed as a sole proprietorship (disregarded entity) and a multi-member LLC is taxed as a partnership. In either case, all net business income flows through to the owner's personal return and is subject to self-employment (SE) tax under IRC Section 1401, currently 15.3% on the first $168,600 of earnings (for 2024) and 2.9% (plus the 0.9% Additional Medicare Tax for high earners) on amounts above that threshold.</p>
 
-<p>When you file IRS Form 2553 to elect S-Corp taxation under Subchapter S of the Internal Revenue Code (IRC Sections 1361-1379), the LLC's tax treatment changes. As an S-Corp, you must pay yourself a reasonable salary as a W-2 employee, and self-employment taxes (in the form of FICA taxes&mdash;Social Security and Medicare) only apply to that salary. Any remaining profit distributed to you as the owner is not subject to SE or FICA tax, though it is still subject to federal and state income tax.</p>
+<p>When you file IRS Form 2553 to elect S-Corp taxation under Subchapter S of the Internal Revenue Code (IRC Sections 1361-1379), the LLC's tax treatment changes. As an S-Corp, you must pay yourself a reasonable salary as a W-2 employee, and self-employment taxes (in the form of FICA taxes, Social Security and Medicare) only apply to that salary. Any remaining profit distributed to you as the owner is not subject to SE or FICA tax, though it is still subject to federal and state income tax.</p>
 
 <h2>The Tax Savings Calculation</h2>
 
@@ -183,9 +229,35 @@
             <li><a href="/blog/s-corp-vs-llc-tax-differences-for-business-owners/">What Are the Tax Differences Between an S-Corp and an LLC?</a></li>
             <li><a href="/blog/when-to-convert-llc-to-s-corp/">When to Convert Your LLC to an S-Corp: The Income Threshold That Changes Everything</a></li>
             <li><a href="/blog/how-much-can-i-save-by-electing-s-corp-status/">How Much Can I Save in Taxes by Electing S-Corp Status?</a></li>
-        </ul>
+        
+            <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/reasonable-compensation-s-corp-irs/">Reasonable Compensation for S-Corp Owners</a></li>
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How much does an S-Corp election save?</h3>
+                    <p>It saves 15.3% self-employment tax on profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. The election typically starts paying for itself once net profit exceeds roughly $60,000 to $80,000 per owner after compliance costs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Does an S-Corp election reduce income tax?</h3>
+                    <p>No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can an LLC be taxed as an S-Corp?</h3>
+                    <p>Yes. An LLC can elect S-Corp taxation by filing Form 2553 without converting to a corporation. The operating agreement, liability protection, and state law status are unaffected; only the federal tax characterization changes.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is there a 60/40 rule for S-Corp salary?</h3>
+                    <p>No. There is no safe harbor percentage in the Code, regulations, or IRS guidance. Reasonable compensation is a facts-and-circumstances determination measured against what comparable businesses pay for comparable services, using the nine factors summarized in IRS Fact Sheet FS-2008-25.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

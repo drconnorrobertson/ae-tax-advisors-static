@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Difference Between Tax Preparation and Tax Strategy | AE Tax Advisors</title>
+    <meta name="robots" content="noindex, nofollow">
     <meta name="description" content="Tax preparation and tax strategy are fundamentally different services. Understanding the difference could save you tens of thousands of dollars annually.">
     <link rel="canonical" href="https://aetaxadvisors.com/blog/tax-preparation-vs-tax-strategy-difference/">
     <meta property="og:title" content="The Difference Between Tax Preparation and Tax Strategy | AE Tax Advisors">
@@ -95,10 +96,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -151,15 +152,15 @@
 
         <h2>Tax Preparation: The Rearview Mirror</h2>
 
-        <p>Tax preparation is backward-looking. It takes what happened last year&mdash;your income, your expenses, your capital gains, your rental activity&mdash;and reports it accurately to the IRS. A good tax preparer ensures compliance: your return is filed on time, the numbers are correct, and you do not get penalized.</p>
+        <p>Tax preparation is backward-looking. It takes what happened last year, your income, your expenses, your capital gains, your rental activity, and reports it accurately to the IRS. A good tax preparer ensures compliance: your return is filed on time, the numbers are correct, and you do not get penalized.</p>
 
         <p>Tax preparation answers one question: "Based on what happened, how much do I owe?" It does not ask "Could we have structured things differently to owe less?" That question belongs to tax strategy.</p>
 
         <h2>Tax Strategy: The Windshield</h2>
 
-        <p>Tax strategy is forward-looking. It asks: "Given your income sources, investments, entities, and financial goals, how do we structure everything to minimize your legal tax obligation&mdash;this year and in future years?"</p>
+        <p>Tax strategy is forward-looking. It asks: "Given your income sources, investments, entities, and financial goals, how do we structure everything to minimize your legal tax obligation, this year and in future years?"</p>
 
-        <p>Tax strategy involves proactive decisions about entity structure, depreciation methods, income timing, deduction acceleration, cost segregation, retirement contributions, investment allocation, and dozens of other levers that the tax code provides. These decisions must be made before the tax year ends&mdash;in many cases, before the tax year even begins.</p>
+        <p>Tax strategy involves proactive decisions about entity structure, depreciation methods, income timing, deduction acceleration, cost segregation, retirement contributions, investment allocation, and dozens of other levers that the tax code provides. These decisions must be made before the tax year ends, in many cases, before the tax year even begins.</p>
 
         <h2>A Practical Example</h2>
 
@@ -173,7 +174,7 @@
 
         <h2>Why You Need Both</h2>
 
-        <p>You need accurate tax preparation&mdash;that is non-negotiable. An inaccurate return creates audit risk and penalties. But preparation alone is like hiring a scorekeeper without a coach. The scorekeeper accurately records the score, but does nothing to change it.</p>
+        <p>You need accurate tax preparation, that is non-negotiable. An inaccurate return creates audit risk and penalties. But preparation alone is like hiring a scorekeeper without a coach. The scorekeeper accurately records the score, but does nothing to change it.</p>
 
         <p>At AE Tax Advisors, we provide both. Our engagement includes comprehensive tax strategy development and implementation, plus preparation of your returns based on the optimized strategy. This integrated approach ensures that every strategy recommendation is actually implemented on your return, not just discussed and forgotten.</p>
 

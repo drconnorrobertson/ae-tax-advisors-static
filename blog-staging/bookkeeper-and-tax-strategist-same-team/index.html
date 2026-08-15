@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Why Your Bookkeeper and Your Tax Strategist Should Be the Same Team | AE Tax Advisors</title>
+    <meta name="robots" content="noindex, nofollow">
     <meta name="description" content="Disconnected bookkeeping and tax advisory creates costly gaps. Learn why integrated service delivers better tax outcomes for real estate investors.">
     <link rel="canonical" href="https://aetaxadvisors.com/blog/bookkeeper-and-tax-strategist-same-team/">
     <meta property="og:title" content="Why Your Bookkeeper and Your Tax Strategist Should Be the Same Team | AE Tax Advisors">
@@ -95,10 +96,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -190,7 +191,7 @@
 
         <p>When we onboard a new client and integrate their bookkeeping with our tax strategy, the first thing we typically find is categorization errors that have been compounding for years. Repairs classified as improvements. Deductible expenses buried in non-deductible categories. Missing property-level tracking that prevents cost segregation implementation.</p>
 
-        <p>Correcting these issues often produces immediate tax savings&mdash;sometimes recovering tens of thousands of dollars from prior years through Form 3115 filings and amended returns.</p>
+        <p>Correcting these issues often produces immediate tax savings, sometimes recovering tens of thousands of dollars from prior years through Form 3115 filings and amended returns.</p>
 
         <h2>Next Steps</h2>
 

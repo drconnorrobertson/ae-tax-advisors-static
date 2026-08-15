@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tax Planning Services | AE Tax Advisors</title>
+    <title>Tax Planning Services (2026) | AE Tax Advisors</title>
     <meta name="description" content="Comprehensive tax planning services for business owners and real estate investors generating $500K+ in annual revenue.">
     <link rel="canonical" href="https://aetaxadvisors.com/services/">
-    <meta property="og:title" content="Services | AE Tax Advisors">
+    <meta property="og:title" content="Tax Planning Services (2026) | AE Tax Advisors">
     <meta property="og:description" content="Services - AE Tax Advisors provides proactive tax planning for business owners and real estate investors generating $500K+ in annual revenue.">
     <meta property="og:url" content="https://aetaxadvisors.com/services/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="AE Tax Advisors">
     <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Services | AE Tax Advisors">
+    <meta name="twitter:title" content="Tax Planning Services (2026) | AE Tax Advisors">
     <meta name="twitter:description" content="Services - AE Tax Advisors provides proactive tax planning for business owners and real estate investors generating $500K+ in annual revenue.">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -132,10 +132,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -222,7 +222,41 @@
             </div>
         </div>
     </section>
-    </main>
+    
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Related Reading</h2>
+            <ul class="related-links">
+                    <li><a href="/estate-trust-wealth-transfer/">Estate, Trust and Wealth Transfer</a></li>
+                    <li><a href="/retirement-exit-ma-tax-strategy/">Retirement, Exit and M&amp;A Tax Strategy</a></li>
+                    <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li>
+                    <li><a href="/real-estate-tax-planning/">Real Estate Tax Planning</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What services does AE Tax Advisors provide?</h3>
+                    <p>AE Tax Advisors provides proactive tax planning, tax preparation, entity structuring, cost segregation studies, real estate tax strategy, IRS audit defense, estate and trust planning, retirement tax optimization, and multi-state tax compliance.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Who is AE Tax Advisors best suited for?</h3>
+                    <p>AE Tax Advisors works with business owners and real estate investors generating $500K or more in annual revenue, including S-Corp and C-Corp operators, medical practice owners, real estate portfolio operators, and multi-entity business owners seeking advanced tax reduction strategies.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Does AE Tax Advisors work with clients nationwide?</h3>
+                    <p>Yes. AE Tax Advisors serves clients across all 50 states with virtual consultations and secure document sharing. The firm is headquartered at 935 Lake Elmo Dr, Suite B, Billings, MT 59105.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How is AE Tax Advisors different from a traditional CPA?</h3>
+                    <p>Unlike traditional CPAs who focus primarily on compliance and filing, AE Tax Advisors takes a proactive, strategy-first approach. The firm designs customized tax plans that legally minimize liability through entity structuring, depreciation strategies, and income timing.</p>
+                </div>
+        </div>
+    </section>
+</main>
 
         <footer>
         <div class="footer-inner">

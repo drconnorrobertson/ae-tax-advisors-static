@@ -88,6 +88,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which entity structure is right for my business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on profit level, asset type, ownership, and exit plans. An LLC taxed as a partnership suits real estate and businesses needing special allocations; an S election suits profitable operating businesses above roughly $80,000 of profit per owner; a C corporation suits capital-intensive growth aiming at a Section 1202 exit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a management company structure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One entity provides genuine management, administrative, or technology services to affiliated operating entities under a written agreement at arm's length rates. It can centralize administration, support benefit plans, and where a C corporation is used, capture rate arbitrage. It fails if the services are not real."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I change my entity structure later?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often, but not always cheaply. Converting an LLC to S-Corp taxation is straightforward, while unwinding a C corporation or removing appreciated real estate from one can be expensive. The cost of reversing a structure should be weighed before adopting it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a pass-through entity tax election?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It allows a partnership or S corporation to pay state income tax at the entity level rather than passing it to owners. The entity-level tax is deductible federally and is not subject to the individual state and local tax cap, restoring a deduction that would otherwise be lost."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -95,10 +135,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -154,6 +194,12 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Entity structuring is the design of the legal and tax entities through which a business and its assets are held, determining employment tax exposure, loss usability, state tax treatment, liability isolation, and the tax cost of an eventual sale.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         
@@ -224,9 +270,35 @@
             <li><a href="/attorney-tax-planning/">Tax Planning & Entity Structuring for Attorneys Earning $300K-$1M+</a></li>
             <li><a href="/consultant-tax-planning/">Tax Planning & Entity Structuring for Consultants Earning $250K-$1M+</a></li>
             <li><a href="/dentist-tax-planning/">Tax Planning & Entity Structuring for Dentists Earning $300K-$700K</a></li>
-        </ul>
+        
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Which entity structure is right for my business?</h3>
+                    <p>It depends on profit level, asset type, ownership, and exit plans. An LLC taxed as a partnership suits real estate and businesses needing special allocations; an S election suits profitable operating businesses above roughly $80,000 of profit per owner; a C corporation suits capital-intensive growth aiming at a Section 1202 exit.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is a management company structure?</h3>
+                    <p>One entity provides genuine management, administrative, or technology services to affiliated operating entities under a written agreement at arm's length rates. It can centralize administration, support benefit plans, and where a C corporation is used, capture rate arbitrage. It fails if the services are not real.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I change my entity structure later?</h3>
+                    <p>Often, but not always cheaply. Converting an LLC to S-Corp taxation is straightforward, while unwinding a C corporation or removing appreciated real estate from one can be expensive. The cost of reversing a structure should be weighed before adopting it.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is a pass-through entity tax election?</h3>
+                    <p>It allows a partnership or S corporation to pay state income tax at the entity level rather than passing it to owners. The entity-level tax is deductible federally and is not subject to the individual state and local tax cap, restoring a deduction that would otherwise be lost.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

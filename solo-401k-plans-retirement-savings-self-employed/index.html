@@ -113,6 +113,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much can a business owner contribute to a retirement plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A solo 401(k) permits employee deferrals plus employer contributions up to the annual additions limit, roughly $72,000 for 2026 plus catch-up. Adding a cash balance defined benefit plan can raise the total well beyond $250,000 for an owner in their fifties, because the contribution is actuarially derived from the benefit promised at retirement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I have both a 401(k) and a cash balance plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and they are almost always paired. Employee deferrals are unaffected, but employer profit sharing contributions are generally limited to 6% of covered compensation under the combined plan deduction limit of Section 404(a)(7) unless the defined benefit plan is PBGC-covered."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When must a retirement plan be established?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under the SECURE Act, most employer plans can be adopted as late as the due date of the employer's return including extensions for the first plan year, so a plan set up after year end can still produce a deduction for that year. Employee salary deferrals cannot be made retroactively."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a backdoor Roth contribution?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A nondeductible traditional IRA contribution followed by a conversion to a Roth IRA, used by taxpayers above the Roth income limits. The pro-rata rule of Section 408(d)(2) aggregates all traditional IRA balances in computing the taxable portion, which is what makes the strategy work cleanly only when other pre-tax IRA balances are absent."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
         <header>
@@ -120,10 +160,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -165,6 +205,12 @@
     </header>
 
     <main>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Qualified retirement plans allow a business owner to deduct contributions today and defer tax until distribution. Defined contribution plans cap the annual contribution, while defined benefit and cash balance plans cap the benefit payable at retirement, which allows much larger deductions as the owner approaches retirement age.</p>
+        </div>
+    </section>
+
         
     <article class="blog-post">
         <div class="container narrow">
@@ -279,9 +325,35 @@
             <li><a href="/attorney-retirement-planning/">Defined Benefit & Cash Balance Retirement Plans for Attorneys</a></li>
             <li><a href="/blog/how-to-shelter-300k-per-year-with-retirement-plans/">How Can Business Owners Shelter $300K Per Year in Retirement Plans?</a></li>
             <li><a href="/blog/solo-401k-maximum-contribution-2026/">Solo 401(k) Maximum Contributions for 2026</a></li>
-        </ul>
+        
+            <li><a href="/retirement-exit-ma-tax-strategy/">Retirement, Exit and M&amp;A Tax Strategy</a></li>
+            <li><a href="/reasonable-compensation-s-corp-irs/">Reasonable Compensation for S-Corp Owners</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/cash-balance-plan-tax-deduction/">Cash Balance Plan Tax Deduction</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How much can a business owner contribute to a retirement plan?</h3>
+                    <p>A solo 401(k) permits employee deferrals plus employer contributions up to the annual additions limit, roughly $72,000 for 2026 plus catch-up. Adding a cash balance defined benefit plan can raise the total well beyond $250,000 for an owner in their fifties, because the contribution is actuarially derived from the benefit promised at retirement.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I have both a 401(k) and a cash balance plan?</h3>
+                    <p>Yes, and they are almost always paired. Employee deferrals are unaffected, but employer profit sharing contributions are generally limited to 6% of covered compensation under the combined plan deduction limit of Section 404(a)(7) unless the defined benefit plan is PBGC-covered.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>When must a retirement plan be established?</h3>
+                    <p>Under the SECURE Act, most employer plans can be adopted as late as the due date of the employer's return including extensions for the first plan year, so a plan set up after year end can still produce a deduction for that year. Employee salary deferrals cannot be made retroactively.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is a backdoor Roth contribution?</h3>
+                    <p>A nondeductible traditional IRA contribution followed by a conversion to a Roth IRA, used by taxpayers above the Roth income limits. The pro-rata rule of Section 408(d)(2) aggregates all traditional IRA balances in computing the taxable portion, which is what makes the strategy work cleanly only when other pre-tax IRA balances are absent.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
         <footer>

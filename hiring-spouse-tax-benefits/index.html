@@ -78,6 +78,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What tax strategies are available to a high W-2 earner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "W-2 income has few built-in levers, so plans generally create one: real estate that produces non-passive losses through the short-term rental exception, maximized retirement and after-tax plan contributions, charitable bunching through a donor advised fund, and where applicable a side business with its own planning capacity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the net investment income tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 3.8% tax under Section 1411 on the lesser of net investment income or modified AGI above $200,000 single or $250,000 married filing jointly. Income from a trade or business in which the taxpayer materially participates is generally excluded, which is another reason material participation matters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why donate appreciated securities instead of cash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contributing securities held more than one year allows a deduction at fair market value while permanently avoiding the capital gain a sale would trigger. Bunching several years of intended giving into one high-rate year through a donor advised fund increases the value further."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a high earner still use a Roth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Directly, no, above the income limits, but a nondeductible traditional IRA contribution followed by a Roth conversion accomplishes it. The pro-rata rule aggregates all traditional IRA balances, so the strategy works cleanly only when other pre-tax IRA balances are absent or have been rolled into a workplace plan."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!DOCTYPE html>
@@ -150,10 +190,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -245,9 +285,35 @@
             <li><a href="/blog/should-high-income-earners-invest-in-real-estate-for-tax-benefits/">Should High-Income Earners Invest in Real Estate for Tax Benefits?</a></li>
             <li><a href="/qualified-opportunity-zones-2026-tax-benefits/">Qualified Opportunity Zones: 2026 Tax Benefits and Strategic Deployment</a></li>
             <li><a href="/tax-benefits-owning-rental-property-high-income-investors/">Tax Benefits of Owning Rental Property: A Guide for High-Income Investors</a></li>
-        </ul>
+        
+            <li><a href="/individual-tax-planning-high-earners/">Advanced Income and Entity Planning</a></li>
+            <li><a href="/short-term-rental-tax-loophole-2026/">The Short-Term Rental Tax Loophole in 2026</a></li>
+            <li><a href="/cash-balance-plan-tax-deduction/">Cash Balance Plan Tax Deduction</a></li>
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What tax strategies are available to a high W-2 earner?</h3>
+                    <p>W-2 income has few built-in levers, so plans generally create one: real estate that produces non-passive losses through the short-term rental exception, maximized retirement and after-tax plan contributions, charitable bunching through a donor advised fund, and where applicable a side business with its own planning capacity.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the net investment income tax?</h3>
+                    <p>A 3.8% tax under Section 1411 on the lesser of net investment income or modified AGI above $200,000 single or $250,000 married filing jointly. Income from a trade or business in which the taxpayer materially participates is generally excluded, which is another reason material participation matters.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Why donate appreciated securities instead of cash?</h3>
+                    <p>Contributing securities held more than one year allows a deduction at fair market value while permanently avoiding the capital gain a sale would trigger. Bunching several years of intended giving into one high-rate year through a donor advised fund increases the value further.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can a high earner still use a Roth?</h3>
+                    <p>Directly, no, above the income limits, but a nondeductible traditional IRA contribution followed by a Roth conversion accomplishes it. The pro-rata rule aggregates all traditional IRA balances, so the strategy works cleanly only when other pre-tax IRA balances are absent or have been rolled into a workplace plan.</p>
+                </div>
+        </div>
+    </section>
 </main>
 <footer>
         <div class="footer-inner">

@@ -119,10 +119,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -194,9 +194,33 @@
             <li><a href="/home-office-deduction-the-compliance-first-guide-for-owners/">Home Office Deduction Compliance Guide: Documentation and IRS Audit Defense</a></li>
             <li><a href="/stop-irs-wage-garnishment/">Stop IRS Wage Garnishment: Collection Action Defense Strategy</a></li>
             <li><a href="/blog/unfiled-tax-returns-strategy/">Unfiled Tax Returns: How to Get Back Into Compliance Before the IRS Comes Knocking</a></li>
-        </ul>
+        
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What should I do if I receive an IRS audit notice?</h3>
+                    <p>Contact AE Tax Advisors immediately before responding to the IRS. Having professional representation from the start protects your rights, ensures proper documentation is submitted, and prevents common mistakes that can escalate the audit.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Does AE Tax Advisors represent clients in IRS audits?</h3>
+                    <p>Yes. AE Tax Advisors provides full IRS audit representation, including correspondence audits, office audits, and field audits. The team handles all IRS communication, document preparation, and negotiation on behalf of clients.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How can I reduce my chances of an IRS audit?</h3>
+                    <p>Maintain thorough documentation for all deductions, file accurate and timely returns, ensure reasonable compensation for S-Corp owners, and keep clean records for all real estate activities. AE Tax Advisors builds audit-proof documentation into every tax plan.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the IRS statute of limitations for audits?</h3>
+                    <p>The IRS generally has 3 years from the filing date to audit a return. This extends to 6 years if more than 25% of gross income is omitted, and there is no limit for fraud or unfiled returns.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
         <footer>

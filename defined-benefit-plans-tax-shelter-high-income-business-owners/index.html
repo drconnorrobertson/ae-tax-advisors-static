@@ -162,10 +162,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -325,7 +325,29 @@
             </div>
         </div>
     </article>
-    </main>
+    
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What is a defined benefit plan?</h3>
+                    <p>A defined benefit plan is a retirement plan that promises a specific monthly benefit at retirement, funded by employer contributions that are tax-deductible.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much can I contribute to a defined benefit plan?</h3>
+                    <p>Contributions are based on actuarial calculations to fund the promised benefit. For high-income owners, annual contributions can exceed $100,000.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is a defined benefit plan better than a 401(k)?</h3>
+                    <p>It depends on your age, income, and goals. Defined benefit plans allow larger tax-deductible contributions for older, high-income business owners.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What are the compliance requirements?</h3>
+                    <p>Defined benefit plans require annual actuarial valuations, Form 5500 filing, and adherence to complex IRS rules. Professional administration is essential.</p>
+                </div>
+        </div>
+    </section>
+</main>
 
         <footer>
         <div class="footer-inner">

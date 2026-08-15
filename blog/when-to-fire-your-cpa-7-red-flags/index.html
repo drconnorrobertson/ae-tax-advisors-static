@@ -88,6 +88,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are my options if I owe more than I can pay?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Installment agreements, currently not collectible status, penalty abatement for reasonable cause or first-time abatement, and in appropriate cases an offer in compromise. Which applies depends on your financial position, and the analysis should happen before enforcement action begins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I receive an IRS notice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Read it carefully for the specific issue and the response deadline, and do not ignore it. Many notices are automated matching notices that can be resolved with documentation. Responding within the stated window preserves your appeal rights and prevents automatic assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What triggers an IRS examination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common triggers include large deductions relative to reported income, S-Corp officer compensation that appears low, real estate professional status claims, cryptocurrency reporting, and information return mismatches. Selection is also partly random through the National Research Program."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long can the IRS go back?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally three years from the filing date. That extends to six years where more than 25% of gross income was omitted, and there is no limit for a false or fraudulent return or a failure to file. Employment tax and certain international matters have their own rules."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -95,10 +135,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -154,9 +194,15 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">IRS representation is the practice of acting on a taxpayer's behalf in examinations, appeals, and collection matters under a power of attorney, controlling the scope of inquiry and the information provided while preserving procedural rights and deadlines.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
-        <p>For real estate investors evaluating their current tax professional, understanding warning signs that your CPA is costing you money is not optional&mdash;it is essential for minimizing your tax burden legally and effectively. At AE Tax Advisors, we implement these strategies daily for our clients, and the results consistently demonstrate that proactive tax planning pays for itself many times over.</p>
+        <p>For real estate investors evaluating their current tax professional, understanding warning signs that your CPA is costing you money is not optional, it is essential for minimizing your tax burden legally and effectively. At AE Tax Advisors, we implement these strategies daily for our clients, and the results consistently demonstrate that proactive tax planning pays for itself many times over.</p>
 
         <p>This guide provides a comprehensive overview of warning signs that your CPA is costing you money, including the key strategies, IRC citations, and practical implementation steps that separate theoretical knowledge from real-world tax savings.</p>
 
@@ -174,13 +220,13 @@
 
         <h2>The IRC Framework</h2>
 
-        <p>The strategies outlined above are grounded in established provisions of the Internal Revenue Code: General tax practice standards and real estate-specific IRC provisions. These are not loopholes or aggressive positions&mdash;they are provisions that Congress specifically enacted to encourage certain economic activities, and the IRS has published detailed guidance on their proper application.</p>
+        <p>The strategies outlined above are grounded in established provisions of the Internal Revenue Code: General tax practice standards and real estate-specific IRC provisions. These are not loopholes or aggressive positions, they are provisions that Congress specifically enacted to encourage certain economic activities, and the IRS has published detailed guidance on their proper application.</p>
 
         <p>Understanding how these provisions interact with each other is critical. For example, <a href="/business-owner-tax-planning/">entity structuring for business owners</a> decisions under IRC Section 7701 directly affect your qualification for the QBI deduction under IRC Section 199A, your self-employment tax under IRC Section 1402, and your passive activity classification under IRC Section 469. A change in one area ripples through the others, and optimizing the overall outcome requires modeling all interactions simultaneously.</p>
 
         <h2>Why Professional Implementation Matters</h2>
 
-        <p>The concepts described in this guide are publicly available in the IRC and Treasury Regulations. What is not publicly available is the expertise to apply them correctly to your specific situation. Every investor's circumstances are different&mdash;different income levels, different property types, different state tax environments, different risk tolerances, and different long-term goals.</p>
+        <p>The concepts described in this guide are publicly available in the IRC and Treasury Regulations. What is not publicly available is the expertise to apply them correctly to your specific situation. Every investor's circumstances are different, different income levels, different property types, different state tax environments, different risk tolerances, and different long-term goals.</p>
 
         <p>Professional tax strategy takes these variables into account and produces a customized plan that maximizes your legal deductions while maintaining full compliance and audit defensibility. This is what AE Tax Advisors delivers for our clients.</p>
 
@@ -199,7 +245,7 @@
 
         <h2>Implementation at AE Tax Advisors</h2>
 
-        <p>Our $7,800 advisory engagement includes comprehensive analysis and implementation of all applicable strategies, including warning signs that your CPA is costing you money. Christina Nortman and our team do not simply recommend strategies&mdash;we implement them directly, document them for audit defense, and monitor them throughout the year to ensure ongoing optimization.</p>
+        <p>Our $7,800 advisory engagement includes comprehensive analysis and implementation of all applicable strategies, including warning signs that your CPA is costing you money. Christina Nortman and our team do not simply recommend strategies, we implement them directly, document them for audit defense, and monitor them throughout the year to ensure ongoing optimization.</p>
 
         <p>For real estate investors evaluating their current tax professional, the typical first-year savings from our engagement range from $30,000 to $200,000+, depending on portfolio size, income level, and the number of previously unimplemented strategies we identify in the lookback analysis.</p>
 
@@ -223,9 +269,35 @@
             <li><a href="/compare/tax-alchemy-vs-hall-cpa/">Tax Alchemy vs Hall CPA: Comparing Two Real Estate Tax Approaches</a></li>
             <li><a href="/blog/5-signs-cpa-doesnt-understand-real-estate-tax/">5 Signs Your CPA Does Not Understand Real Estate Taxation</a></li>
             <li><a href="/blog/do-i-need-a-real-estate-cpa-or-can-i-use-a-regular-accountant/">Do I Need a Real Estate CPA or Can I Use a Regular Accountant?</a></li>
-        </ul>
+        
+            <li><a href="/tax-compliance-irs-representation/">Tax Compliance and IRS Representation</a></li>
+            <li><a href="/audit-defense-compliance/">Audit Defense and Compliance</a></li>
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What are my options if I owe more than I can pay?</h3>
+                    <p>Installment agreements, currently not collectible status, penalty abatement for reasonable cause or first-time abatement, and in appropriate cases an offer in compromise. Which applies depends on your financial position, and the analysis should happen before enforcement action begins.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What should I do if I receive an IRS notice?</h3>
+                    <p>Read it carefully for the specific issue and the response deadline, and do not ignore it. Many notices are automated matching notices that can be resolved with documentation. Responding within the stated window preserves your appeal rights and prevents automatic assessment.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What triggers an IRS examination?</h3>
+                    <p>Common triggers include large deductions relative to reported income, S-Corp officer compensation that appears low, real estate professional status claims, cryptocurrency reporting, and information return mismatches. Selection is also partly random through the National Research Program.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How long can the IRS go back?</h3>
+                    <p>Generally three years from the filing date. That extends to six years where more than 25% of gross income was omitted, and there is no limit for a false or fraudulent return or a failure to file. Employment tax and certain international matters have their own rules.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

@@ -113,6 +113,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I touch the sale proceeds during an exchange?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The proceeds must be held by a qualified intermediary from closing through acquisition of the replacement property. Receiving or controlling the funds at any point, even briefly, disqualifies the exchange entirely."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What property qualifies for a 1031 exchange?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Real property held for investment or productive use in a trade or business. The definition is broad, so a rental house can be exchanged for a warehouse or raw land. Personal residences, property held primarily for sale such as flip inventory, and foreign real property do not qualify."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a 1031 exchange defer depreciation recapture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A properly structured exchange defers the entire gain including recapture into the replacement property. The deferred amount carries over in the replacement property's basis and is recognized on a later taxable sale, unless another exchange or a step-up at death intervenes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is boot in a 1031 exchange?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any value received that is not like-kind property, including cash, debt relief, or non-qualifying property. Boot is taxable to the extent of gain, so replacement property should be of equal or greater value with equal or greater debt to achieve full deferral."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
         <header>
@@ -120,10 +160,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -214,9 +254,34 @@
             <li><a href="/blog/partial-asset-disposition-overlooked-tax-strategy/">Partial Asset Disposition (PAD): The Overlooked Tax Strategy</a></li>
             <li><a href="/blog/hsa-strategy-for-business-owners/">The HSA Is the Only Triple Tax Advantaged Account, and Business Owners Underuse It</a></li>
             <li><a href="/blog/post-divorce-entity-restructuring/">Post-Divorce Entity Restructuring: Rebuilding Your Business Tax Strategy</a></li>
-        </ul>
+        
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li>
+            <li><a href="/reps-real-estate-professional-status/">Real Estate Professional Status: How to Qualify</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Can I touch the sale proceeds during an exchange?</h3>
+                    <p>No. The proceeds must be held by a qualified intermediary from closing through acquisition of the replacement property. Receiving or controlling the funds at any point, even briefly, disqualifies the exchange entirely.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What property qualifies for a 1031 exchange?</h3>
+                    <p>Real property held for investment or productive use in a trade or business. The definition is broad, so a rental house can be exchanged for a warehouse or raw land. Personal residences, property held primarily for sale such as flip inventory, and foreign real property do not qualify.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Does a 1031 exchange defer depreciation recapture?</h3>
+                    <p>Yes. A properly structured exchange defers the entire gain including recapture into the replacement property. The deferred amount carries over in the replacement property's basis and is recognized on a later taxable sale, unless another exchange or a step-up at death intervenes.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is boot in a 1031 exchange?</h3>
+                    <p>Any value received that is not like-kind property, including cash, debt relief, or non-qualifying property. Boot is taxable to the extent of gain, so replacement property should be of equal or greater value with equal or greater debt to achieve full deferral.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
         <footer>

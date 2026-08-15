@@ -87,6 +87,46 @@
   }
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is depreciation recapture on a rental sale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Straight-line real property depreciation is recaptured as unrecaptured Section 1250 gain taxed at up to 25%. Accelerated depreciation on personal property identified in a cost segregation study is recaptured as ordinary income under Section 1245."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I hold rental property in an LLC or an S-Corp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An LLC taxed as a partnership or disregarded entity is almost always preferable. Rental income is not subject to self-employment tax, so an S election saves nothing, and distributing appreciated property out of an S-Corp triggers gain as though it had been sold."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I deduct travel to my rental property?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Travel with a genuine business purpose such as inspection, maintenance, or tenant matters is deductible, but the IRS scrutinizes it closely and it does not count toward material participation hours. Records should show the business purpose, dates, and work performed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can rental losses offset my W-2 income?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not by default. Rental activities are passive per se under IRC Section 469(c)(2). The exceptions are qualifying as a real estate professional under Section 469(c)(7), using the short-term rental exception where average customer use is seven days or less with material participation, or the limited $25,000 allowance that phases out between $100,000 and $150,000 of modified AGI."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
         <header>
@@ -94,10 +134,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -139,6 +179,12 @@
     </header>
 
     <main>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Rental property tax planning is the process of structuring ownership, depreciation, and participation so that a property's deductions are usable in the year they arise rather than suspended as passive losses under IRC Section 469.</p>
+        </div>
+    </section>
+
 <section class="content-section fade-in-section"><div class="container narrow">
 
         <h1>Form 3115 Mega Catch-Up, Long-Term Rental</h1>
@@ -207,9 +253,35 @@
             <li><a href="/case-studies/str-form-3115-catchup/">STR Owner Captures $187K Catch-Up Depreciation via Form 3115</a></li>
             <li><a href="/form-3115-cost-segregation/">Form 3115: How to Catch Up on Cost Segregation You Missed</a></li>
             <li><a href="/reducing-a-high-w-2-and-business-owners-tax-liability-to-near-zero-through-short-term-rental-conversion-bonus-depreciation-and-credit-coordination/">Reducing a High Business Owner's Tax Liability to Near Zero Through Short-Term Rental Conversion, Bonus Depreciation, and Credit Coordination</a></li>
-        </ul>
+        
+            <li><a href="/real-estate-tax-planning/">Real Estate Tax Planning</a></li>
+            <li><a href="/rental-property-tax-planning/">Rental Property Tax Planning</a></li>
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li>
+            <li><a href="/reps-real-estate-professional-status/">Real Estate Professional Status: How to Qualify</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What is depreciation recapture on a rental sale?</h3>
+                    <p>Straight-line real property depreciation is recaptured as unrecaptured Section 1250 gain taxed at up to 25%. Accelerated depreciation on personal property identified in a cost segregation study is recaptured as ordinary income under Section 1245.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Should I hold rental property in an LLC or an S-Corp?</h3>
+                    <p>An LLC taxed as a partnership or disregarded entity is almost always preferable. Rental income is not subject to self-employment tax, so an S election saves nothing, and distributing appreciated property out of an S-Corp triggers gain as though it had been sold.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I deduct travel to my rental property?</h3>
+                    <p>Travel with a genuine business purpose such as inspection, maintenance, or tenant matters is deductible, but the IRS scrutinizes it closely and it does not count toward material participation hours. Records should show the business purpose, dates, and work performed.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can rental losses offset my W-2 income?</h3>
+                    <p>Not by default. Rental activities are passive per se under IRC Section 469(c)(2). The exceptions are qualifying as a real estate professional under Section 469(c)(7), using the short-term rental exception where average customer use is seven days or less with material participation, or the limited $25,000 allowance that phases out between $100,000 and $150,000 of modified AGI.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
         <footer>

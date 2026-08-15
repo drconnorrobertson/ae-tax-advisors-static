@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How Much Can I Save in Taxes by Electing S-Corp Status? | AE Tax Advisors</title>
+    <title>How Much Can I Save in Taxes by Electing S-Corp Status?</title>
     <meta name="description" content="See exactly how much you can save by electing S-Corp status at different income levels, with detailed tax calculations comparing sole proprietorship vs S-Corp.">
     <link rel="canonical" href="https://aetaxadvisors.com/blog/how-much-can-i-save-by-electing-s-corp-status/">
-    <meta property="og:title" content="How Much Can I Save in Taxes by Electing S-Corp Status? | AE Tax Advisors">
+    <meta property="og:title" content="How Much Can I Save in Taxes by Electing S-Corp Status?">
     <meta property="og:description" content="See exactly how much you can save by electing S-Corp status at different income levels, with detailed tax calculations comparing sole proprietorship vs S-Corp.">
     <meta property="og:url" content="https://aetaxadvisors.com/blog/how-much-can-i-save-by-electing-s-corp-status/">
     <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="AE Tax Advisors">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="How Much Can I Save in Taxes by Electing S-Corp Status? | AE Tax Advisors">
+    <meta name="twitter:title" content="How Much Can I Save in Taxes by Electing S-Corp Status?">
     <meta name="twitter:description" content="See exactly how much you can save by electing S-Corp status at different income levels, with detailed tax calculations comparing sole proprietorship vs S-Corp.">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does an S-Corp election save?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It saves 15.3% self-employment tax on profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. The election typically starts paying for itself once net profit exceeds roughly $60,000 to $80,000 per owner after compliance costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does an S-Corp election reduce income tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can an LLC be taxed as an S-Corp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. An LLC can elect S-Corp taxation by filing Form 2553 without converting to a corporation. The operating agreement, liability protection, and state law status are unaffected; only the federal tax characterization changes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does S-Corp salary interact with the QBI deduction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Above the Section 199A taxable income thresholds, the deduction for a non-service business is limited by W-2 wages. Reducing your salary to save payroll tax can therefore reduce the QBI deduction by more than the payroll tax saved, so both effects must be modeled together."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,6 +166,12 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">An S corporation is a federal tax election under Subchapter S in which a business pays its owner reasonable W-2 wages subject to payroll tax and distributes remaining profit free of self-employment tax, reducing employment tax without changing how the profit is taxed for income tax purposes.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
@@ -133,7 +179,7 @@
 
 <h2>Understanding the SE Tax You Are Avoiding</h2>
 
-<p>As a sole proprietor or single-member LLC, your net business income is subject to self-employment tax under IRC Section 1401. The SE tax has two components: Social Security tax at 12.4% (on earnings up to the wage base&mdash;$168,600 in 2024) and Medicare tax at 2.9% (on all earnings, with an additional 0.9% on earned income above $200,000 for single filers). The combined rate is 15.3% up to the Social Security wage base.</p>
+<p>As a sole proprietor or single-member LLC, your net business income is subject to self-employment tax under IRC Section 1401. The SE tax has two components: Social Security tax at 12.4% (on earnings up to the wage base, $168,600 in 2024) and Medicare tax at 2.9% (on all earnings, with an additional 0.9% on earned income above $200,000 for single filers). The combined rate is 15.3% up to the Social Security wage base.</p>
 
 <p>An important nuance: you calculate SE tax on 92.35% of net self-employment earnings (the "SE tax adjustment" under IRC Section 1402(a)(12), which accounts for the deductible employer-equivalent portion). You also get an above-the-line deduction for 50% of SE tax paid under IRC Section 164(f). These adjustments reduce the effective SE tax rate slightly below the headline 15.3%.</p>
 
@@ -153,7 +199,7 @@
 
 <p>As a sole proprietor: SE tax base is $323,225. Social Security tax: $20,906 (capped at the wage base). Medicare tax: $9,374 (2.9% of $323,225). Additional Medicare Tax: $1,109 (0.9% on the amount above $200,000, applied to the portion over $200,000). Total SE tax: approximately $31,389.</p>
 
-<p>As an S-Corp with a reasonable salary of $130,000: Social Security tax on salary: $16,106 (12.4% of $130,000&mdash;still under the wage base). Medicare tax on salary: $3,770 (2.9% of $130,000). Total FICA: approximately $19,876. Annual FICA savings: approximately $11,513. After $3,000 in administrative costs, net savings: approximately $8,513.</p>
+<p>As an S-Corp with a reasonable salary of $130,000: Social Security tax on salary: $16,106 (12.4% of $130,000, still under the wage base). Medicare tax on salary: $3,770 (2.9% of $130,000). Total FICA: approximately $19,876. Annual FICA savings: approximately $11,513. After $3,000 in administrative costs, net savings: approximately $8,513.</p>
 
 <h2>Savings at $500,000 Net Income</h2>
 
@@ -163,7 +209,7 @@
 
 <h2>Important Caveats</h2>
 
-<p>Notice that the net savings percentage actually decreases at very high income levels. This is because the 12.4% Social Security tax is capped at the wage base for both structures&mdash;at very high incomes, the only difference is the 2.9% Medicare tax (plus the 0.9% Additional Medicare Tax) on distributions versus salary. The marginal savings rate above the Social Security wage base is approximately 3.8% of the distribution amount.</p>
+<p>Notice that the net savings percentage actually decreases at very high income levels. This is because the 12.4% Social Security tax is capped at the wage base for both structures, at very high incomes, the only difference is the 2.9% Medicare tax (plus the 0.9% Additional Medicare Tax) on distributions versus salary. The marginal savings rate above the Social Security wage base is approximately 3.8% of the distribution amount.</p>
 
 <p>These calculations also do not account for the impact on the QBI deduction under IRC Section 199A, Social Security benefit calculations (lower reported wages mean potentially lower future benefits), or state-specific taxes that may apply differently to S-Corps. A complete analysis should model all of these variables for your specific situation.</p>
 
@@ -193,9 +239,35 @@
             <li><a href="/blog/how-much-does-a-cost-segregation-study-cost/">How Much Does a Cost Segregation Study Cost?</a></li>
             <li><a href="/blog/how-much-should-you-pay-tax-advisory/">How Much Should You Pay for Tax Advisory? A Realistic Guide</a></li>
             <li><a href="/blog/purchase-price-allocation-optimization-business-sale/">How Purchase Price Allocation Can Save You Six Figures When Selling Your Business</a></li>
-        </ul>
+        
+            <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/reasonable-compensation-s-corp-irs/">Reasonable Compensation for S-Corp Owners</a></li>
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How much does an S-Corp election save?</h3>
+                    <p>It saves 15.3% self-employment tax on profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. The election typically starts paying for itself once net profit exceeds roughly $60,000 to $80,000 per owner after compliance costs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Does an S-Corp election reduce income tax?</h3>
+                    <p>No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can an LLC be taxed as an S-Corp?</h3>
+                    <p>Yes. An LLC can elect S-Corp taxation by filing Form 2553 without converting to a corporation. The operating agreement, liability protection, and state law status are unaffected; only the federal tax characterization changes.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How does S-Corp salary interact with the QBI deduction?</h3>
+                    <p>Above the Section 199A taxable income thresholds, the deduction for a non-service business is limited by W-2 wages. Reducing your salary to save payroll tax can therefore reduce the QBI deduction by more than the payroll tax saved, so both effects must be modeled together.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

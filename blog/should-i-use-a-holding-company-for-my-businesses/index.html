@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should real estate be held in a separate entity from operations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually yes. It isolates liability, creates a clean platform for depreciation and cost segregation, and produces rent taxed once without payroll tax. The tradeoff is the self-rental rule of Reg. 1.469-2(f)(6), which is generally addressed with a grouping election under Reg. 1.469-4."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a management company structure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One entity provides genuine management, administrative, or technology services to affiliated operating entities under a written agreement at arm's length rates. It can centralize administration, support benefit plans, and where a C corporation is used, capture rate arbitrage. It fails if the services are not real."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a pass-through entity tax election?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It allows a partnership or S corporation to pay state income tax at the entity level rather than passing it to owners. The entity-level tax is deductible federally and is not subject to the individual state and local tax cap, restoring a deduction that would otherwise be lost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are multiple entities always better?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Separate entities are appropriate where they isolate genuinely different risks, hold different asset classes, or have different ownership. Entities that accumulate without a plan create duplicate filing fees, inconsistent intercompany charges, and compliance risk with no corresponding benefit."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,14 +166,20 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Entity structuring is the design of the legal and tax entities through which a business and its assets are held, determining employment tax exposure, loss usability, state tax treatment, liability isolation, and the tax cost of an eventual sale.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
-        <p>As business owners expand into multiple ventures, the question of whether to establish a holding company becomes increasingly relevant. A holding company is an entity whose primary purpose is to own interests in other businesses&mdash;called subsidiaries or operating companies&mdash;rather than to conduct business operations directly. This structure offers significant advantages, but it also adds complexity that may not be justified for every situation.</p>
+        <p>As business owners expand into multiple ventures, the question of whether to establish a holding company becomes increasingly relevant. A holding company is an entity whose primary purpose is to own interests in other businesses, called subsidiaries or operating companies, rather than to conduct business operations directly. This structure offers significant advantages, but it also adds complexity that may not be justified for every situation.</p>
 
 <h2>What a Holding Company Does</h2>
 
-<p>A holding company sits at the top of a corporate structure, owning the membership interests or stock of the operating entities below it. The operating companies conduct the day-to-day business activities, employ workers, hold contracts, and interact with customers. The holding company owns the valuable assets&mdash;real estate, intellectual property, equipment, and the ownership interests in the subsidiaries themselves&mdash;and leases them to the operating companies.</p>
+<p>A holding company sits at the top of a corporate structure, owning the membership interests or stock of the operating entities below it. The operating companies conduct the day-to-day business activities, employ workers, hold contracts, and interact with customers. The holding company owns the valuable assets, real estate, intellectual property, equipment, and the ownership interests in the subsidiaries themselves, and leases them to the operating companies.</p>
 
 <p>This separation of ownership from operations is the foundation of the holding company's value. If an operating company faces a lawsuit, creditor claim, or business failure, the assets owned by the holding company are generally protected from those liabilities because they belong to a separate legal entity.</p>
 
@@ -141,13 +187,13 @@
 
 <p>The primary non-tax benefit of a holding company is enhanced asset protection through liability isolation. Each operating company's liabilities are contained within that entity. A customer who slips and falls at one business location cannot reach the assets of a separate business operating through a different subsidiary, and neither creditor can reach the assets held directly by the holding company.</p>
 
-<p>This protection is not absolute. Courts can pierce the corporate veil if the entities are not maintained as truly separate&mdash;commingling funds, failing to observe corporate formalities, or undercapitalizing subsidiaries can all undermine the protection. Maintaining separate bank accounts, filing separate tax returns, executing intercompany agreements at arm's length, and keeping proper minutes and records for each entity are essential practices.</p>
+<p>This protection is not absolute. Courts can pierce the corporate veil if the entities are not maintained as truly separate, commingling funds, failing to observe corporate formalities, or undercapitalizing subsidiaries can all undermine the protection. Maintaining separate bank accounts, filing separate tax returns, executing intercompany agreements at arm's length, and keeping proper minutes and records for each entity are essential practices.</p>
 
 <h2>Tax Planning Opportunities</h2>
 
 <p>From a tax perspective, holding companies create planning opportunities through intercompany transactions. The holding company can own real estate and lease it to the operating companies, generating rental income at the holding company level while providing deductible rent expense to the operating companies. Under IRC Section 162, the rent must be reasonable and at fair market value to be deductible, but this structure allows income to be shifted to an entity with a different tax profile.</p>
 
-<p>If the holding company owns intellectual property&mdash;trademarks, patents, or proprietary systems&mdash;it can license those assets to the operating companies for royalty payments. Under IRC Section 482, these intercompany royalties must reflect arm's-length pricing, but the structure can achieve legitimate tax benefits when properly documented.</p>
+<p>If the holding company owns intellectual property, trademarks, patents, or proprietary systems, it can license those assets to the operating companies for royalty payments. Under IRC Section 482, these intercompany royalties must reflect arm's-length pricing, but the structure can achieve legitimate tax benefits when properly documented.</p>
 
 <p>For estate planning purposes, a holding company simplifies the transfer of wealth to the next generation. Rather than transferring interests in multiple operating companies individually, the owner can transfer interests in the holding company through a gifting program, potentially leveraging valuation discounts for minority interests and lack of marketability under IRC Sections 2512 and 2704.</p>
 
@@ -161,7 +207,7 @@
 
 <h2>Implementation Considerations</h2>
 
-<p>Establishing a holding company requires careful attention to entity formation, intercompany agreements, and ongoing compliance. The holding company is typically formed as an LLC or limited partnership to provide pass-through taxation and flexibility in allocating income among members. Transfers of assets from existing entities to the new holding company must be structured to avoid triggering taxable events&mdash;IRC Section 721 provides tax-free treatment for contributions to partnerships, and Section 351 covers transfers to corporations. Working with legal and tax advisors during the setup ensures the structure is properly implemented from the start.</p>
+<p>Establishing a holding company requires careful attention to entity formation, intercompany agreements, and ongoing compliance. The holding company is typically formed as an LLC or limited partnership to provide pass-through taxation and flexibility in allocating income among members. Transfers of assets from existing entities to the new holding company must be structured to avoid triggering taxable events, IRC Section 721 provides tax-free treatment for contributions to partnerships, and Section 351 covers transfers to corporations. Working with legal and tax advisors during the setup ensures the structure is properly implemented from the start.</p>
 
         <hr style="margin: 3rem 0; border: none; border-top: 1px solid #e5e7eb;">
 
@@ -187,9 +233,35 @@
             <li><a href="/c-corporation-strategy/advanced-c-corporation-tax-planning/">Advanced C Corporation Tax Planning: Multiple Entities, Holding Companies, and Income Splitting</a></li>
             <li><a href="/blog/management-company-structure-for-business-owners/">The Management Company Structure: When a Second Entity Actually Helps</a></li>
             <li><a href="/blog/should-i-elect-s-corp-status-for-my-llc/">Should I Elect S-Corp Status for My LLC?</a></li>
-        </ul>
+        
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li>
+            <li><a href="/multi-state-global-tax/">Multi-State and Global Tax Planning</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Should real estate be held in a separate entity from operations?</h3>
+                    <p>Usually yes. It isolates liability, creates a clean platform for depreciation and cost segregation, and produces rent taxed once without payroll tax. The tradeoff is the self-rental rule of Reg. 1.469-2(f)(6), which is generally addressed with a grouping election under Reg. 1.469-4.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is a management company structure?</h3>
+                    <p>One entity provides genuine management, administrative, or technology services to affiliated operating entities under a written agreement at arm's length rates. It can centralize administration, support benefit plans, and where a C corporation is used, capture rate arbitrage. It fails if the services are not real.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is a pass-through entity tax election?</h3>
+                    <p>It allows a partnership or S corporation to pay state income tax at the entity level rather than passing it to owners. The entity-level tax is deductible federally and is not subject to the individual state and local tax cap, restoring a deduction that would otherwise be lost.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are multiple entities always better?</h3>
+                    <p>No. Separate entities are appropriate where they isolate genuinely different risks, hold different asset classes, or have different ownership. Entities that accumulate without a plan create duplicate filing fees, inconsistent intercompany charges, and compliance risk with no corresponding benefit.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are business meals deductible?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Business meals with a clear business purpose are generally 50% deductible when not lavish and when the taxpayer or an employee is present. Entertainment remains nondeductible. Certain employee-related meals have different treatment, so the category matters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What vehicle deductions are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Either the standard mileage rate or actual expenses including depreciation. Passenger automobiles are subject to the Section 280F luxury auto caps, while vehicles above 6,000 pounds gross vehicle weight rating fall outside that definition and have separate rules. Contemporaneous mileage records are essential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I deduct a home office?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, where a portion of the home is used regularly and exclusively as the principal place of business or for meeting clients. For owner-employees of an S corporation, reimbursement through an accountable plan is generally preferable to claiming the deduction directly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an accountable plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An arrangement under Treasury Regulation 1.62-2 through which a business reimburses employees, including owner-employees, for business expenses without the reimbursement being treated as taxable wages. It requires a business connection, substantiation within a reasonable period, and return of excess amounts."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,16 +166,22 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Business deductions are ordinary and necessary expenses of carrying on a trade or business under IRC Section 162, and their value depends less on identifying them than on documenting them properly and routing them through the correct structure, such as an accountable plan.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
-        <p>Writing off a vehicle through your business is one of the most common tax deductions available to business owners, but the rules are complex and the method you choose&mdash;actual expenses with depreciation versus standard mileage rate&mdash;can produce dramatically different results. The tax code provides several mechanisms for deducting vehicle costs, including the IRC Section 179 expensing election, bonus depreciation under Section 168(k), MACRS depreciation, and the standard mileage rate. Choosing the right approach depends on the type of vehicle, its weight, your business-use percentage, and your overall tax situation.</p>
+        <p>Writing off a vehicle through your business is one of the most common tax deductions available to business owners, but the rules are complex and the method you choose, actual expenses with depreciation versus standard mileage rate, can produce dramatically different results. The tax code provides several mechanisms for deducting vehicle costs, including the IRC Section 179 expensing election, bonus depreciation under Section 168(k), MACRS depreciation, and the standard mileage rate. Choosing the right approach depends on the type of vehicle, its weight, your business-use percentage, and your overall tax situation.</p>
 
 <h2>Section 179 Expensing and Bonus Depreciation</h2>
 
 <p>IRC Section 179 allows businesses to expense the full cost of qualifying property in the year it is placed in service, rather than depreciating it over multiple years. For 2024, the Section 179 expensing limit is $1,220,000. Vehicles qualify for Section 179, but passenger automobiles (defined as vehicles with a gross vehicle weight rating of 6,000 pounds or less) are subject to luxury auto depreciation limits under IRC Section 280F. For 2024, the first-year depreciation limit for passenger automobiles placed in service is $20,400 (with bonus depreciation) or $12,400 (without bonus depreciation).</p>
 
-<p>Vehicles with a GVWR exceeding 6,000 pounds&mdash;such as full-size SUVs, pickup trucks, and vans&mdash;are exempt from the Section 280F luxury auto limits. These heavy vehicles can be fully expensed under Section 179, subject to a $28,900 cap for SUVs specifically (Section 179(b)(6)). Vehicles that are not considered SUVs&mdash;such as pickup trucks with a full-size bed (6 feet or longer) and cargo vans&mdash;can be expensed without the SUV cap, potentially allowing a deduction of the entire purchase price in year one.</p>
+<p>Vehicles with a GVWR exceeding 6,000 pounds, such as full-size SUVs, pickup trucks, and vans, are exempt from the Section 280F luxury auto limits. These heavy vehicles can be fully expensed under Section 179, subject to a $28,900 cap for SUVs specifically (Section 179(b)(6)). Vehicles that are not considered SUVs, such as pickup trucks with a full-size bed (6 feet or longer) and cargo vans, can be expensed without the SUV cap, potentially allowing a deduction of the entire purchase price in year one.</p>
 
 <p>Bonus depreciation under Section 168(k) provides an additional first-year depreciation allowance. For property placed in service in 2024, the bonus depreciation rate is 60% (having phased down from 100% in 2022). This additional depreciation applies on top of the Section 280F limits for passenger vehicles but can be fully utilized for vehicles over 6,000 pounds GVWR that are not subject to those limits.</p>
 
@@ -143,7 +189,7 @@
 
 <p>The IRS provides two methods for deducting vehicle expenses. The standard mileage rate for 2024 is 67 cents per business mile. This rate covers depreciation, fuel, insurance, maintenance, and all other operating costs. You simply multiply your business miles by the rate to determine your deduction. If you drove 20,000 business miles, your deduction is $13,400.</p>
 
-<p>The actual expense method requires tracking all vehicle operating costs&mdash;fuel, oil changes, tires, repairs, insurance, registration, loan interest, and depreciation&mdash;and multiplying the total by your business-use percentage. If your total vehicle expenses are $15,000 and your business-use percentage is 80%, your deduction before depreciation is $12,000, plus depreciation on the business-use portion of the vehicle.</p>
+<p>The actual expense method requires tracking all vehicle operating costs, fuel, oil changes, tires, repairs, insurance, registration, loan interest, and depreciation, and multiplying the total by your business-use percentage. If your total vehicle expenses are $15,000 and your business-use percentage is 80%, your deduction before depreciation is $12,000, plus depreciation on the business-use portion of the vehicle.</p>
 
 <p>You must choose one method in the first year you use the vehicle for business. If you choose the standard mileage rate in the first year, you can switch to actual expenses in a later year (but you must use straight-line depreciation). If you choose actual expenses in the first year, you cannot switch to the standard mileage rate for that vehicle in subsequent years.</p>
 
@@ -151,11 +197,11 @@
 
 <p>Regardless of which method you use, you can only deduct the business-use portion of vehicle expenses. Personal commuting and errands do not count as business use. The IRS expects you to maintain a contemporaneous mileage log under Treasury Regulation Section 1.274-5T that records the date, destination, business purpose, and miles driven for each business trip. Without this log, the IRS can disallow the entire vehicle deduction upon audit.</p>
 
-<p>For Section 179 and bonus depreciation, the business-use percentage must exceed 50% (the "predominant use" test under Section 280F(b)). If business use drops to 50% or below in any year during the recovery period, you must recapture the excess depreciation&mdash;meaning you add back the difference between what you deducted and what straight-line depreciation would have allowed.</p>
+<p>For Section 179 and bonus depreciation, the business-use percentage must exceed 50% (the "predominant use" test under Section 280F(b)). If business use drops to 50% or below in any year during the recovery period, you must recapture the excess depreciation, meaning you add back the difference between what you deducted and what straight-line depreciation would have allowed.</p>
 
 <h2>Listed Property Rules</h2>
 
-<p>Vehicles are classified as listed property under IRC Section 280F(d)(4), which imposes stricter substantiation requirements. You must maintain adequate records or sufficient evidence to corroborate your own statement regarding the business use. A simple calendar notation is not enough&mdash;the IRS expects a detailed log with specific trip information. Digital mileage tracking apps that use GPS to automatically record trips are the most reliable method and produce audit-ready documentation.</p>
+<p>Vehicles are classified as listed property under IRC Section 280F(d)(4), which imposes stricter substantiation requirements. You must maintain adequate records or sufficient evidence to corroborate your own statement regarding the business use. A simple calendar notation is not enough, the IRS expects a detailed log with specific trip information. Digital mileage tracking apps that use GPS to automatically record trips are the most reliable method and produce audit-ready documentation.</p>
 
 <p>The vehicle deduction is one of the most scrutinized items on a business tax return. AE Tax Advisors helps business owners select the optimal deduction method, maintain compliant records, and maximize their vehicle write-off within IRS guidelines.</p>
 
@@ -183,9 +229,35 @@
             <li><a href="/the-smart-way-to-deduct-vehicle-expenses-for-business/">Vehicle Expense Deduction Strategies</a></li>
             <li><a href="/the-smart-way-to-handle-business-vehicle-deductions/">The Smart Way To Handle Business Vehicle Deductions</a></li>
             <li><a href="/blog/can-i-hire-my-kids-through-my-business-for-tax-savings/">Can I Hire My Kids Through My Business for Tax Savings?</a></li>
-        </ul>
+        
+            <li><a href="/accountable-plan/">Accountable Plans Done Correctly</a></li>
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/section-179-vs-bonus-depreciation-2026/">Section 179 vs Bonus Depreciation in 2026</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Are business meals deductible?</h3>
+                    <p>Business meals with a clear business purpose are generally 50% deductible when not lavish and when the taxpayer or an employee is present. Entertainment remains nondeductible. Certain employee-related meals have different treatment, so the category matters.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What vehicle deductions are available?</h3>
+                    <p>Either the standard mileage rate or actual expenses including depreciation. Passenger automobiles are subject to the Section 280F luxury auto caps, while vehicles above 6,000 pounds gross vehicle weight rating fall outside that definition and have separate rules. Contemporaneous mileage records are essential.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I deduct a home office?</h3>
+                    <p>Yes, where a portion of the home is used regularly and exclusively as the principal place of business or for meeting clients. For owner-employees of an S corporation, reimbursement through an accountable plan is generally preferable to claiming the deduction directly.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is an accountable plan?</h3>
+                    <p>An arrangement under Treasury Regulation 1.62-2 through which a business reimburses employees, including owner-employees, for business expenses without the reimbursement being treated as taxable wages. It requires a business connection, substantiation within a reasonable period, and return of excess amounts.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

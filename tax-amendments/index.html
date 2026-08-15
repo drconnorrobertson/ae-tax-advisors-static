@@ -30,6 +30,46 @@
         ]
     }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How is tax planning different from tax preparation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preparation reports what already happened. Planning changes what happens, and nearly every meaningful strategy has a deadline that falls before year end. A return filed in April can only reflect decisions that were made months earlier."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with clients outside Montana?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We work with clients nationwide from our office in Billings, Montana. Federal strategy is identical across states, and we coordinate state-specific issues including pass-through entity tax elections, nexus, and residency wherever clients operate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you charge for advisory work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Advisory engagements are quoted as a fixed fee based on scope, with cost segregation studies and entity return work priced separately. Pricing is set before work begins so the value of a strategy can be weighed against its cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can strategies be implemented?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the strategy. Entity elections, retirement plan adoption, and accountable plans can often be put in place quickly, while cost segregation studies typically take several weeks and material participation positions require a full year of documentation."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -38,10 +78,10 @@
         <a href="/" class="logo">
             <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
         </a>
-        <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
             <span></span><span></span><span></span>
         </button>
-        <nav class="nav-links">
+        <nav class="nav-links" id="primary-nav">
             <a href="/" class="nav-link">Home</a>
             <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -104,9 +144,9 @@
     <section class="content-section fade-in-section">
         <div class="container narrow">
             <h2>Why Tax Amendments Matter</h2>
-            <p>Most taxpayers file their returns and never look back. But the reality is that a significant percentage of returns&mdash;especially those prepared by generalist firms or self-filed through software&mdash;contain errors, missed deductions, or suboptimal elections that result in overpaid taxes. The IRS allows you to go back and correct these mistakes through the amended return process, and in many cases, the result is a substantial refund check.</p>
+            <p>Most taxpayers file their returns and never look back. But the reality is that a significant percentage of returns, especially those prepared by generalist firms or self-filed through software, contain errors, missed deductions, or suboptimal elections that result in overpaid taxes. The IRS allows you to go back and correct these mistakes through the amended return process, and in many cases, the result is a substantial refund check.</p>
             <p>At AE Tax Advisors, amendment review is a core part of our onboarding process for every new client. Before we build a forward-looking tax strategy, we conduct a thorough review of your prior three years of returns. We are looking for missed depreciation, unclaimed business deductions, incorrect filing statuses, overlooked credits, and opportunities to retroactively apply strategies like <a href="/cost-segregation-study/">cost segregation</a> or entity restructuring that your previous preparer did not consider.</p>
-            <p>The results speak for themselves. Across our practice, we find amendable errors on a majority of the prior returns we review. The average recovery per amended year ranges from $5,000 to $25,000 for business owners and real estate investors&mdash;and in some cases, the total recovery across all three lookback years exceeds $50,000. That is money you already earned and already paid to the IRS that you are legally entitled to get back.</p>
+            <p>The results speak for themselves. Across our practice, we find amendable errors on a majority of the prior returns we review. The average recovery per amended year ranges from $5,000 to $25,000 for business owners and real estate investors, and in some cases, the total recovery across all three lookback years exceeds $50,000. That is money you already earned and already paid to the IRS that you are legally entitled to get back.</p>
         </div>
     </section>
 
@@ -114,8 +154,8 @@
         <div class="container narrow">
             <h2>The 3-Year Lookback Window</h2>
             <p>Under IRC Section 6511, you generally have three years from the date you filed your original return (or two years from the date you paid the tax, whichever is later) to file an amended return and claim a refund. For most taxpayers, this means you can amend returns for the three most recent tax years.</p>
-            <p>For example, if you are reading this in 2026, you can still amend your 2023, 2024, and 2025 returns. Once the statute of limitations expires on a given year, you lose the ability to claim a refund for that period&mdash;even if you can prove the tax was overpaid. This is why it is critical to act promptly when you suspect errors on prior returns.</p>
-            <p>There are limited exceptions to the 3-year rule. If you filed late, the clock starts from the actual filing date rather than the due date. If you paid tax more than three years after filing (for example, through an installment agreement), the 2-year-from-payment rule may extend your window. And for certain types of claims&mdash;such as bad debt deductions or worthless securities&mdash;a 7-year lookback period applies. Our team evaluates which windows are open for your specific situation and prioritizes the highest-value amendments first.</p>
+            <p>For example, if you are reading this in 2026, you can still amend your 2023, 2024, and 2025 returns. Once the statute of limitations expires on a given year, you lose the ability to claim a refund for that period, even if you can prove the tax was overpaid. This is why it is critical to act promptly when you suspect errors on prior returns.</p>
+            <p>There are limited exceptions to the 3-year rule. If you filed late, the clock starts from the actual filing date rather than the due date. If you paid tax more than three years after filing (for example, through an installment agreement), the 2-year-from-payment rule may extend your window. And for certain types of claims, such as bad debt deductions or worthless securities, a 7-year lookback period applies. Our team evaluates which windows are open for your specific situation and prioritizes the highest-value amendments first.</p>
         </div>
     </section>
 
@@ -127,7 +167,7 @@
             <p><strong>Missing or incomplete Schedule E deductions.</strong> Rental property owners frequently under-report deductible expenses. Travel to and from properties, home office expenses related to property management, professional fees, insurance, and repairs are routinely left off returns. Each missed deduction costs you at your marginal tax rate.</p>
             <p><strong>Incorrect entity structure elections.</strong> Business owners who should have elected S-Corp status years ago continue to overpay self-employment tax. While the S-Corp election cannot be applied retroactively through an amendment, identifying this issue during the lookback review allows us to implement the change going forward and quantify the total cost of the delay.</p>
             <p><strong>Overlooked education credits and business deductions.</strong> The Lifetime Learning Credit, home office deduction (for qualifying taxpayers), health insurance premiums for self-employed individuals, and retirement plan contributions are all commonly missed or underutilized.</p>
-            <p><strong>Failure to claim the QBI deduction.</strong> The Section 199A qualified business income deduction is relatively new (introduced in 2018), and many preparers either miss it entirely or calculate it incorrectly&mdash;especially for rental real estate activities where an election or safe harbor is required.</p>
+            <p><strong>Failure to claim the QBI deduction.</strong> The Section 199A qualified business income deduction is relatively new (introduced in 2018), and many preparers either miss it entirely or calculate it incorrectly, especially for rental real estate activities where an election or safe harbor is required.</p>
         </div>
     </section>
 
@@ -135,7 +175,7 @@
         <div class="container narrow">
             <h2>The Amendment Process</h2>
             <p>Filing an amended return is straightforward, but it must be done correctly to avoid delays or rejection. The process begins with a detailed review of your original return and supporting documents. We compare what was filed to what should have been filed, calculate the corrected tax liability, and prepare Form 1040-X (for individual returns) or the corresponding amended business return.</p>
-            <p>Each amended return includes a clear explanation of the changes and the legal basis for each correction. This is important because the IRS reviews amended returns manually&mdash;unlike original returns, which are largely processed by computer. A well-documented amendment with supporting schedules and references to applicable code sections is far more likely to be processed quickly and without follow-up questions.</p>
+            <p>Each amended return includes a clear explanation of the changes and the legal basis for each correction. This is important because the IRS reviews amended returns manually, unlike original returns, which are largely processed by computer. A well-documented amendment with supporting schedules and references to applicable code sections is far more likely to be processed quickly and without follow-up questions.</p>
             <p>Processing times for amended returns currently range from 8 to 20 weeks, depending on the complexity of the changes and IRS workload. We track every amendment through the IRS system and follow up if processing stalls. Once approved, refunds are issued via check or direct deposit, depending on the filing method.</p>
             <p>One important note: filing an amended return does not increase your audit risk. The IRS has publicly stated that amended returns are not flagged for audit simply because they were amended. The IRS processes millions of amended returns every year, and the vast majority are approved without issue. That said, every amendment we file is backed by thorough documentation that would withstand examination if selected.</p>
         </div>
@@ -146,7 +186,7 @@
             <h2>Retroactive Cost Segregation and Look-Back Studies</h2>
             <p>One of the most valuable amendment-adjacent strategies is the retroactive <a href="/cost-segregation-study/">cost segregation study</a>. If you purchased an investment property in a prior year and never had a cost segregation study performed, you do not need to amend each prior-year return to claim the missed accelerated depreciation. Instead, you can file a Form 3115 (Application for Change in Accounting Method) with your current-year return to claim all of the cumulative missed depreciation in a single year.</p>
             <p>This is an extraordinarily powerful tool. For a property purchased five or ten years ago, the cumulative missed depreciation from not having performed a cost segregation study can total $100,000 or more. Claiming that entire amount in the current year through a Section 481(a) adjustment creates a massive deduction that can offset income from multiple sources.</p>
-            <p>The Form 3115 process is not technically an amendment&mdash;it is a change in accounting method that the IRS allows on a prospective basis. But the economic effect is the same: you recover deductions you were entitled to but never claimed. Our team handles the entire process, from the cost segregation study itself to the 3115 filing and integration with your current-year return.</p>
+            <p>The Form 3115 process is not technically an amendment, it is a change in accounting method that the IRS allows on a prospective basis. But the economic effect is the same: you recover deductions you were entitled to but never claimed. Our team handles the entire process, from the cost segregation study itself to the 3115 filing and integration with your current-year return.</p>
         </div>
     </section>
 
@@ -182,9 +222,35 @@
             <li><a href="/crypto-mining-tax-strategy/">Cryptocurrency Mining Tax Strategy: MACRS Depreciation, Section 179 &amp; Deductions Guide</a></li>
             <li><a href="/blog/can-i-get-a-refund-for-overpaying-self-employment-tax/">Can I Get a Refund for Overpaying Self-Employment Tax?</a></li>
             <li><a href="/blog/statute-of-limitations-tax-amendments/">The Statute of Limitations on Tax Amendments: What Business Owners Need to Know</a></li>
-        </ul>
+        
+            <li><a href="/pricing/">Pricing and Engagement Options</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            <li><a href="/services/">Our Services</a></li>
+            <li><a href="/discovery/">Request a Consultation</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How is tax planning different from tax preparation?</h3>
+                    <p>Preparation reports what already happened. Planning changes what happens, and nearly every meaningful strategy has a deadline that falls before year end. A return filed in April can only reflect decisions that were made months earlier.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you work with clients outside Montana?</h3>
+                    <p>Yes. We work with clients nationwide from our office in Billings, Montana. Federal strategy is identical across states, and we coordinate state-specific issues including pass-through entity tax elections, nexus, and residency wherever clients operate.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do you charge for advisory work?</h3>
+                    <p>Advisory engagements are quoted as a fixed fee based on scope, with cost segregation studies and entity return work priced separately. Pricing is set before work begins so the value of a strategy can be weighed against its cost.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How quickly can strategies be implemented?</h3>
+                    <p>It depends on the strategy. Entity elections, retirement plan adoption, and accountable plans can often be put in place quickly, while cost segregation studies typically take several weeks and material participation positions require a full year of documentation.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
 <footer>

@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I change my state of residency for tax purposes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "By changing domicile in substance, not merely in form. States examine days present, location of the permanent home, family and business ties, licenses and registrations, and where the taxpayer's center of life sits. High-tax states audit departures aggressively."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does my business create nexus in another state?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Physical presence such as employees, inventory, or property generally creates nexus, and most states also apply economic nexus thresholds based on sales or transaction counts. Remote employees are one of the most common and least noticed triggers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is income apportioned among states?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most states now use a single sales factor, apportioning income based on the share of sales sourced to the state. Sourcing rules differ, particularly for services and intangibles, where states split between market-based sourcing and cost of performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the pass-through entity tax workaround?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A majority of states with an income tax permit a pass-through entity to elect to pay state tax at the entity level. The entity-level tax is deductible federally and avoids the individual state and local tax cap, restoring a federal deduction for the owners."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,10 +166,16 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Multi-state tax planning addresses where a business owes tax, covering nexus, apportionment, sourcing, and residency, and it has become substantially more complex as remote employees and economic nexus thresholds create filing obligations in states where a business has no physical location.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
-        <p>Restricted Stock Units (RSUs) are a common component of compensation at publicly traded companies, particularly in the technology, finance, and pharmaceutical sectors. While RSUs are a valuable form of compensation, they create significant tax challenges because the full fair market value of the shares is taxed as ordinary income upon vesting&mdash;there is no deferral, no preferential rate, and no election to delay recognition. For high-income employees, RSU vesting events can push income into the highest federal bracket (37%) plus state taxes and the 0.9% Additional Medicare Tax under IRC Section 3101(b)(2), resulting in effective marginal rates exceeding 50% in high-tax states.</p>
+        <p>Restricted Stock Units (RSUs) are a common component of compensation at publicly traded companies, particularly in the technology, finance, and pharmaceutical sectors. While RSUs are a valuable form of compensation, they create significant tax challenges because the full fair market value of the shares is taxed as ordinary income upon vesting, there is no deferral, no preferential rate, and no election to delay recognition. For high-income employees, RSU vesting events can push income into the highest federal bracket (37%) plus state taxes and the 0.9% Additional Medicare Tax under IRC Section 3101(b)(2), resulting in effective marginal rates exceeding 50% in high-tax states.</p>
 
 <h2>How RSUs Are Taxed</h2>
 
@@ -139,7 +185,7 @@
 
 <h2>Sell-to-Cover vs. Same-Day Sale vs. Hold</h2>
 
-<p>Most employers offer three options at vesting: sell-to-cover, same-day sale, or hold. The tax on the ordinary income at vesting is the same regardless of which option you choose&mdash;it is based on fair market value at vesting. However, your post-vesting decision affects future taxes. If you hold shares for more than one year after vesting, subsequent appreciation qualifies for long-term capital gains rates (0%, 15%, or 20% depending on income, plus the 3.8% NIIT under IRC Section 1411) rather than ordinary rates.</p>
+<p>Most employers offer three options at vesting: sell-to-cover, same-day sale, or hold. The tax on the ordinary income at vesting is the same regardless of which option you choose, it is based on fair market value at vesting. However, your post-vesting decision affects future taxes. If you hold shares for more than one year after vesting, subsequent appreciation qualifies for long-term capital gains rates (0%, 15%, or 20% depending on income, plus the 3.8% NIIT under IRC Section 1411) rather than ordinary rates.</p>
 
 <h2>Tax Planning Strategies for RSU Income</h2>
 
@@ -151,7 +197,7 @@
 
 <h2>Managing Concentration Risk</h2>
 
-<p>Many employees with significant RSU compensation hold a disproportionate amount of their net worth in employer stock. A systematic diversification plan&mdash;selling a portion of vested shares on a regular schedule&mdash;reduces concentration risk while managing the tax impact through planned capital gains realization.</p>
+<p>Many employees with significant RSU compensation hold a disproportionate amount of their net worth in employer stock. A systematic diversification plan, selling a portion of vested shares on a regular schedule, reduces concentration risk while managing the tax impact through planned capital gains realization.</p>
 
 <h2>State Tax Considerations</h2>
 
@@ -183,9 +229,35 @@
             <li><a href="/blog/what-is-the-augusta-rule-and-can-i-use-it/">What Is the Augusta Rule and Can I Use It to Reduce My Taxes?</a></li>
             <li><a href="/blog/how-to-avoid-an-irs-audit-on-rental-property-income/">How Can I Reduce My Audit Risk on Rental Property Income?</a></li>
             <li><a href="/blog/how-to-use-depreciation-to-reduce-taxes-on-rental-income/">How Can I Use Depreciation to Reduce Taxes on Rental Income?</a></li>
-        </ul>
+        
+            <li><a href="/multi-state-global-tax/">Multi-State and Global Tax Planning</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How do I change my state of residency for tax purposes?</h3>
+                    <p>By changing domicile in substance, not merely in form. States examine days present, location of the permanent home, family and business ties, licenses and registrations, and where the taxpayer's center of life sits. High-tax states audit departures aggressively.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>When does my business create nexus in another state?</h3>
+                    <p>Physical presence such as employees, inventory, or property generally creates nexus, and most states also apply economic nexus thresholds based on sales or transaction counts. Remote employees are one of the most common and least noticed triggers.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How is income apportioned among states?</h3>
+                    <p>Most states now use a single sales factor, apportioning income based on the share of sales sourced to the state. Sourcing rules differ, particularly for services and intangibles, where states split between market-based sourcing and cost of performance.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the pass-through entity tax workaround?</h3>
+                    <p>A majority of states with an income tax permit a pass-through entity to elect to pay state tax at the entity level. The entity-level tax is deductible federally and avoids the individual state and local tax cap, restoring a federal deduction for the owners.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

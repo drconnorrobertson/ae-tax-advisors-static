@@ -87,6 +87,46 @@
   }
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the de minimis safe harbor for repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The tangible property regulations permit an annual election to expense items below a per-item threshold, generally $2,500 for taxpayers without an applicable financial statement. Combined with the routine maintenance safe harbor, this lets much of ordinary repair spending be deducted rather than capitalized."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can rental losses offset my W-2 income?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not by default. Rental activities are passive per se under IRC Section 469(c)(2). The exceptions are qualifying as a real estate professional under Section 469(c)(7), using the short-term rental exception where average customer use is seven days or less with material participation, or the limited $25,000 allowance that phases out between $100,000 and $150,000 of modified AGI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is rental property depreciated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Residential rental property is depreciated straight line over 27.5 years using the mid-month convention. Nonresidential real property uses 39 years. A cost segregation study reassigns components into 5-year, 7-year, and 15-year classes that qualify for bonus depreciation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is depreciation recapture on a rental sale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Straight-line real property depreciation is recaptured as unrecaptured Section 1250 gain taxed at up to 25%. Accelerated depreciation on personal property identified in a cost segregation study is recaptured as ordinary income under Section 1245."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
         <header>
@@ -94,10 +134,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -137,6 +177,12 @@
             </nav>
         </div>
     </header>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Rental property tax planning is the process of structuring ownership, depreciation, and participation so that a property's deductions are usable in the year they arise rather than suspended as passive losses under IRC Section 469.</p>
+        </div>
+    </section>
+
 
         <article class="blog-post">
         <div class="container narrow">
@@ -186,18 +232,44 @@
         <ul class="related-articles">
             <li><a href="/real-estate-tax-planning/">Real Estate Tax Planning (Pillar Guide)</a></li>
             <li><a href="/blog/what-deductions-can-i-take-on-my-airbnb-property/">What Tax Deductions Can I Take on My Airbnb Property?</a></li>
-            <li><a href="/blog/str-amended-returns/">Short-Term Rental Tax Strategies in Amended Returns&mdash;Maximize Deductions While Avoiding Audit Triggers</a></li>
+            <li><a href="/blog/str-amended-returns/">Short-Term Rental Tax Strategies in Amended Returns, Maximize Deductions While Avoiding Audit Triggers</a></li>
             <li><a href="/blog/can-i-deduct-rental-property-losses-against-w2-income/">Can I Deduct Rental Property Losses Against My W-2 Income?</a></li>
             <li><a href="/blog/can-i-deduct-travel-expenses-to-manage-rental-property/">Can I Deduct Travel Expenses to Manage My Rental Property?</a></li>
             <li><a href="/blog/can-i-do-a-1031-exchange-on-a-short-term-rental/">Can I Do a 1031 Exchange on a Short-Term Rental Property?</a></li>
             <li><a href="/blog/cash-out-refinance-tax-treatment-rental-property/">Cash-Out Refinance on a Rental Property: What Is and Is Not Taxable</a></li>
             <li><a href="/blog/convert-primary-residence-to-rental-property/">How to Convert Your Primary Residence to a Rental Property</a></li>
-        </ul>
+        
+            <li><a href="/rental-property-tax-planning/">Rental Property Tax Planning</a></li>
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li>
+            <li><a href="/reps-real-estate-professional-status/">Real Estate Professional Status: How to Qualify</a></li>
+            <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li></ul>
     </div></section>
 
 </main>
 
-        <footer>
+        
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What is the de minimis safe harbor for repairs?</h3>
+                    <p>The tangible property regulations permit an annual election to expense items below a per-item threshold, generally $2,500 for taxpayers without an applicable financial statement. Combined with the routine maintenance safe harbor, this lets much of ordinary repair spending be deducted rather than capitalized.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can rental losses offset my W-2 income?</h3>
+                    <p>Not by default. Rental activities are passive per se under IRC Section 469(c)(2). The exceptions are qualifying as a real estate professional under Section 469(c)(7), using the short-term rental exception where average customer use is seven days or less with material participation, or the limited $25,000 allowance that phases out between $100,000 and $150,000 of modified AGI.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How is rental property depreciated?</h3>
+                    <p>Residential rental property is depreciated straight line over 27.5 years using the mid-month convention. Nonresidential real property uses 39 years. A cost segregation study reassigns components into 5-year, 7-year, and 15-year classes that qualify for bonus depreciation.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is depreciation recapture on a rental sale?</h3>
+                    <p>Straight-line real property depreciation is recaptured as unrecaptured Section 1250 gain taxed at up to 25%. Accelerated depreciation on personal property identified in a cost segregation study is recaptured as ordinary income under Section 1245.</p>
+                </div>
+        </div>
+    </section>
+<footer>
         <div class="footer-inner">
             <div class="footer-col footer-brand">
                 <a href="/" class="footer-logo"><img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="60" style="object-fit: contain;"></a>

@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/style.css">
     <title>Tax Advisors in Billings, MT | AE Tax Advisors</title>
-    <meta name="description" content="AE Tax Advisors headquarters in Billings, MT. Expert tax advisor in Billings, Montana offering cost segregation studies, strategic tax planning, business tax advisory, entity structuring, and IRS audit defense for Yellowstone County and all of Montana.">
+    <meta name="description" content="AE Tax Advisors headquarters in Billings, MT. Expert tax advisor in Billings, Montana offering cost segregation studies, strategic tax planning, business tax...">
     <meta name="keywords" content="tax advisor billings mt, cost segregation montana, tax planning billings montana, business tax advisor billings, tax consultant yellowstone county, CPA billings MT, enrolled agent montana">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://aetaxadvisors.com/locations/billings/">
@@ -103,6 +103,46 @@
         ]
     }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long can the IRS go back?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally three years from the filing date. That extends to six years where more than 25% of gross income was omitted, and there is no limit for a false or fraudulent return or a failure to file. Employment tax and certain international matters have their own rules."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I represent myself in an audit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is rarely advisable beyond the simplest correspondence matters. Statements made during an examination cannot be retracted, and the scope of an audit frequently expands based on what the examiner learns. Representation by a CPA, enrolled agent, or attorney limits direct contact and keeps the scope defined."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are my options if I owe more than I can pay?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Installment agreements, currently not collectible status, penalty abatement for reasonable cause or first-time abatement, and in appropriate cases an offer in compromise. Which applies depends on your financial position, and the analysis should happen before enforcement action begins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I receive an IRS notice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Read it carefully for the specific issue and the response deadline, and do not ignore it. Many notices are automated matching notices that can be resolved with documentation. Responding within the stated window preserves your appeal rights and prevents automatic assessment."
+      }
+    }
+  ]
+}
+</script>
 </head>
 
 <body>
@@ -111,10 +151,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -195,7 +235,7 @@
     <section class="content-section fade-in-section" style="background:var(--bg-alt, #f7f8fa);">
         <div class="container">
             <h2 style="text-align:center; margin-bottom:40px;">Services Available at Our Billings Office</h2>
-            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:24px;">
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap:24px;">
 
                 <div class="contact-info-card">
                     <div class="contact-icon">&#128200;</div>
@@ -279,7 +319,7 @@
         <div class="container narrow">
             <h2>All Tax Advisory Services in Billings, MT</h2>
             <p>Our full suite of tax advisory services is available to business owners and real estate investors in the greater Billings, MT area:</p>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 20px;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 16px; margin-top: 20px;">
                 <a href="/services/cost-segregation/" style="display: block; padding: 16px; background: var(--white, #fff); border-radius: 8px; border: 1px solid rgba(0,0,0,0.06); text-decoration: none;">
                     <h3 style="color: var(--dark, #1B2A4A); font-size: 15px; margin-bottom: 6px;">Cost Segregation Studies</h3>
                     <p style="color: var(--medium, #5A6B80); font-size: 13px; margin: 0;">Accelerate depreciation and reduce year-one tax liability on investment properties.</p>
@@ -307,6 +347,40 @@
             </div>
         </div>
     </section>
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How long can the IRS go back?</h3>
+                    <p>Generally three years from the filing date. That extends to six years where more than 25% of gross income was omitted, and there is no limit for a false or fraudulent return or a failure to file. Employment tax and certain international matters have their own rules.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Should I represent myself in an audit?</h3>
+                    <p>It is rarely advisable beyond the simplest correspondence matters. Statements made during an examination cannot be retracted, and the scope of an audit frequently expands based on what the examiner learns. Representation by a CPA, enrolled agent, or attorney limits direct contact and keeps the scope defined.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What are my options if I owe more than I can pay?</h3>
+                    <p>Installment agreements, currently not collectible status, penalty abatement for reasonable cause or first-time abatement, and in appropriate cases an offer in compromise. Which applies depends on your financial position, and the analysis should happen before enforcement action begins.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What should I do if I receive an IRS notice?</h3>
+                    <p>Read it carefully for the specific issue and the response deadline, and do not ignore it. Many notices are automated matching notices that can be resolved with documentation. Responding within the stated window preserves your appeal rights and prevents automatic assessment.</p>
+                </div>
+        </div>
+    </section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Related Reading</h2>
+            <ul class="related-links">
+                    <li><a href="/tax-compliance-irs-representation/">Tax Compliance and IRS Representation</a></li>
+                    <li><a href="/audit-defense-compliance/">Audit Defense and Compliance</a></li>
+                    <li><a href="/form-3115-cost-segregation-lookback/">Form 3115 Cost Segregation Lookback</a></li>
+                    <li><a href="/case-studies/">Case Studies: Real Tax Planning Results</a></li>
+            </ul>
+        </div>
+    </section>
+
+
 
     <section class="cta-section fade-in-section">
         <div class="container" style="text-align:center;">

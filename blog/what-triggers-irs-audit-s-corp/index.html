@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does an S-Corp election reduce income tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does an S-Corp election save?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It saves 15.3% self-employment tax on profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. The election typically starts paying for itself once net profit exceeds roughly $60,000 to $80,000 per owner after compliance costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a 60/40 rule for S-Corp salary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. There is no safe harbor percentage in the Code, regulations, or IRS guidance. Reasonable compensation is a facts-and-circumstances determination measured against what comparable businesses pay for comparable services, using the nine factors summarized in IRS Fact Sheet FS-2008-25."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if my S-Corp salary is too low?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The IRS recharacterizes distributions as wages, producing back employment taxes for both halves, failure to deposit and failure to file penalties, accuracy-related penalties, and interest across all open years. Adjustments spanning three years frequently exceed six figures."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,6 +166,12 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">An S corporation is a federal tax election under Subchapter S in which a business pays its owner reasonable W-2 wages subject to payroll tax and distributes remaining profit free of self-employment tax, reducing employment tax without changing how the profit is taxed for income tax purposes.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
@@ -199,9 +245,35 @@
             <li><a href="/how-do-i-avoid-an-irs-audit/">How Do I Avoid an IRS Audit?</a></li>
             <li><a href="/irs-audit-defense/">IRS Audit Defense &amp; Resolution</a></li>
             <li><a href="/irs-audit-defense-high-net-worth-taxpayers/">IRS Audit Defense for High-Net-Worth Taxpayers: Professional Representation and Strategy</a></li>
-        </ul>
+        
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li>
+            <li><a href="/cash-balance-plan-tax-deduction/">Cash Balance Plan Tax Deduction</a></li>
+            <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li>
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Does an S-Corp election reduce income tax?</h3>
+                    <p>No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much does an S-Corp election save?</h3>
+                    <p>It saves 15.3% self-employment tax on profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. The election typically starts paying for itself once net profit exceeds roughly $60,000 to $80,000 per owner after compliance costs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is there a 60/40 rule for S-Corp salary?</h3>
+                    <p>No. There is no safe harbor percentage in the Code, regulations, or IRS guidance. Reasonable compensation is a facts-and-circumstances determination measured against what comparable businesses pay for comparable services, using the nine factors summarized in IRS Fact Sheet FS-2008-25.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What happens if my S-Corp salary is too low?</h3>
+                    <p>The IRS recharacterizes distributions as wages, producing back employment taxes for both halves, failure to deposit and failure to file penalties, accuracy-related penalties, and interest across all open years. Adjustments spanning three years frequently exceed six figures.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

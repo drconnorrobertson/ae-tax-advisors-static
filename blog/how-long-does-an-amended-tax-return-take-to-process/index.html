@@ -61,6 +61,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you charge for advisory work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Advisory engagements are quoted as a fixed fee based on scope, with cost segregation studies and entity return work priced separately. Pricing is set before work begins so the value of a strategy can be weighed against its cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can strategies be implemented?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the strategy. Entity elections, retirement plan adoption, and accountable plans can often be put in place quickly, while cost segregation studies typically take several weeks and material participation positions require a full year of documentation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a tax advisory engagement include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A prior year review to identify recoverable overpayments, a forward-looking plan quantifying each recommended strategy, implementation support including entity filings and plan documents, and ongoing coordination so decisions are made during the year rather than reconstructed afterward."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is tax planning different from tax preparation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preparation reports what already happened. Planning changes what happens, and nearly every meaningful strategy has a deadline that falls before year end. A return filed in April can only reflect decisions that were made months earlier."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -68,10 +108,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -126,6 +166,12 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">AE Tax Advisors is a strategic tax advisory firm in Billings, Montana, working with business owners, real estate investors, and high-income professionals nationwide on cost segregation, entity structuring, retirement plan design, and IRS-compliant tax reduction strategies.</p>
+        </div>
+    </section>
+
 
     <section class="content-section fade-in-section"><div class="container narrow">
 
@@ -139,15 +185,15 @@
 
 <h2>Factors That Delay Processing</h2>
 
-<p>Several factors can push processing beyond the 16-week estimate. If your amended return requires manual review&mdash;for instance, because it involves complex calculations, multiple schedule changes, or large refund amounts&mdash;it may be routed to an IRS examiner rather than processed automatically. The IRS also prioritizes original returns during peak filing season (January through April), which can push amended returns further back in the queue.</p>
+<p>Several factors can push processing beyond the 16-week estimate. If your amended return requires manual review, for instance, because it involves complex calculations, multiple schedule changes, or large refund amounts, it may be routed to an IRS examiner rather than processed automatically. The IRS also prioritizes original returns during peak filing season (January through April), which can push amended returns further back in the queue.</p>
 
-<p>Errors on the 1040-X itself are a common source of delay. If you fail to sign the return, omit required schedules, or make mathematical errors, the IRS will send a notice requesting corrections rather than processing the return. Each round of correspondence adds weeks or months to the timeline. This is one reason professional preparation is valuable&mdash;a properly completed 1040-X with all supporting schedules attached is far less likely to encounter processing obstacles.</p>
+<p>Errors on the 1040-X itself are a common source of delay. If you fail to sign the return, omit required schedules, or make mathematical errors, the IRS will send a notice requesting corrections rather than processing the return. Each round of correspondence adds weeks or months to the timeline. This is one reason professional preparation is valuable, a properly completed 1040-X with all supporting schedules attached is far less likely to encounter processing obstacles.</p>
 
 <p>Identity verification can also slow things down. If the IRS cannot verify your identity based on the information provided, it may issue a letter requiring additional documentation before releasing the refund. Under the IRS Identity Protection program, certain taxpayers are assigned IP PINs that must be included on all returns, including amended ones.</p>
 
 <h2>Tracking Your Amended Return</h2>
 
-<p>The IRS provides an online tool called "Where's My Amended Return?" (WMAR) at irs.gov that allows you to track the status of your 1040-X. The tool typically begins showing information about three weeks after the IRS receives your amended return. It displays three stages&mdash;received, adjusted, and completed&mdash;and provides estimated completion dates when available.</p>
+<p>The IRS provides an online tool called "Where's My Amended Return?" (WMAR) at irs.gov that allows you to track the status of your 1040-X. The tool typically begins showing information about three weeks after the IRS receives your amended return. It displays three stages, received, adjusted, and completed, and provides estimated completion dates when available.</p>
 
 <p>You can also check status by calling the IRS amended return hotline, though wait times can be substantial. The IRS generally advises taxpayers not to call until at least 16 weeks have passed since filing, as representatives typically cannot provide additional information before that point.</p>
 
@@ -157,7 +203,7 @@
 
 <h2>Tips for Faster Processing</h2>
 
-<p>To minimize delays, file electronically whenever possible. Ensure all required schedules and forms are attached, and double-check that the 1040-X correctly reflects the differences between your original and corrected return. Include a clear, concise explanation of the changes in Part III of the form. If you are amending multiple years, file each year separately in its own envelope or electronic submission&mdash;do not combine multiple years into one filing.</p>
+<p>To minimize delays, file electronically whenever possible. Ensure all required schedules and forms are attached, and double-check that the 1040-X correctly reflects the differences between your original and corrected return. Include a clear, concise explanation of the changes in Part III of the form. If you are amending multiple years, file each year separately in its own envelope or electronic submission, do not combine multiple years into one filing.</p>
 
 <p>If your original return is still being processed, wait until the IRS has finished with it before submitting an amendment. Filing a 1040-X while the original return is in process creates conflicts in the IRS system and almost guarantees delays. Once the original return has been processed and you have received your refund or notice, you can proceed with the amendment confidently.</p>
 
@@ -184,10 +230,36 @@
             <li><a href="/blog/can-i-take-bonus-depreciation-on-a-used-property/">Can I Take Bonus Depreciation on a Used Property?</a></li>
             <li><a href="/blog/what-deductions-can-i-take-on-my-airbnb-property/">What Tax Deductions Can I Take on My Airbnb Property?</a></li>
             <li><a href="/blog/cost-segregation-manufacturing-facilities/">Cost Segregation for Manufacturing Facilities: Process Loads and Dedicated Utilities</a></li>
-            <li><a href="/blog/str-amended-returns/">Short-Term Rental Tax Strategies in Amended Returns&mdash;Maximize Deductions While Avoiding Audit Triggers</a></li>
-        </ul>
+            <li><a href="/blog/str-amended-returns/">Short-Term Rental Tax Strategies in Amended Returns, Maximize Deductions While Avoiding Audit Triggers</a></li>
+        
+            <li><a href="/services/">Our Services</a></li>
+            <li><a href="/discovery/">Request a Consultation</a></li>
+            <li><a href="/about/">About AE Tax Advisors</a></li>
+            <li><a href="/pricing/">Pricing and Engagement Options</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How do you charge for advisory work?</h3>
+                    <p>Advisory engagements are quoted as a fixed fee based on scope, with cost segregation studies and entity return work priced separately. Pricing is set before work begins so the value of a strategy can be weighed against its cost.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How quickly can strategies be implemented?</h3>
+                    <p>It depends on the strategy. Entity elections, retirement plan adoption, and accountable plans can often be put in place quickly, while cost segregation studies typically take several weeks and material participation positions require a full year of documentation.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What does a tax advisory engagement include?</h3>
+                    <p>A prior year review to identify recoverable overpayments, a forward-looking plan quantifying each recommended strategy, implementation support including entity filings and plan documents, and ongoing coordination so decisions are made during the year rather than reconstructed afterward.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How is tax planning different from tax preparation?</h3>
+                    <p>Preparation reports what already happened. Planning changes what happens, and nearly every meaningful strategy has a deadline that falls before year end. A return filed in April can only reflect decisions that were made months earlier.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

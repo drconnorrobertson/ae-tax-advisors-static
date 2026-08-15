@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strategic Tax Planning | AE Tax Advisors</title>
-    <meta name="description" content="AE Tax Advisors provides strategic tax planning with IRC-cited strategies, three-year lookback audits, and estimated savings projections for business owners and real estate investors generating $500K+ in annual revenue.">
+    <title>Strategic Tax Planning (2026) | AE Tax Advisors</title>
+    <meta name="description" content="AE Tax Advisors provides strategic tax planning with IRC-cited strategies, three-year lookback audits, and estimated savings projections for business owners and...">
     <link rel="canonical" href="https://aetaxadvisors.com/services/tax-planning/">
-    <meta property="og:title" content="Strategic Tax Planning | AE Tax Advisors">
+    <meta property="og:title" content="Strategic Tax Planning (2026) | AE Tax Advisors">
     <meta property="og:description" content="Proactive, year-round tax planning with IRC-cited strategies and estimated savings projections for business owners and real estate investors.">
     <meta property="og:url" content="https://aetaxadvisors.com/services/tax-planning/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="AE Tax Advisors">
     <meta property="og:image" content="https://aetaxadvisors.com/assets/ae-tax-logo.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Strategic Tax Planning | AE Tax Advisors">
+    <meta name="twitter:title" content="Strategic Tax Planning (2026) | AE Tax Advisors">
     <meta name="twitter:description" content="Proactive tax planning with IRC-cited strategies and estimated savings for business owners and real estate investors.">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -94,8 +94,8 @@
         <header>
         <div class="header-inner">
             <a href="/" class="logo"><img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;"></a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')"><span></span><span></span><span></span></button>
-            <nav class="nav-links">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');"><span></span><span></span><span></span></button>
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -198,7 +198,7 @@
     <section class="content-section fade-in-section" style="background: var(--neutral-50, #f8f9fa);">
         <div class="container narrow">
             <h2>You May Also Need</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 20px;">
                 <a href="/services/cost-segregation/" style="display: block; padding: 20px; background: var(--white, #fff); border-radius: 8px; border: 1px solid rgba(0,0,0,0.06); text-decoration: none; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
                     <h3 style="color: var(--dark, #1B2A4A); margin-bottom: 8px; font-size: 16px;">Cost Segregation Studies</h3>
                     <p style="color: var(--medium, #5A6B80); font-size: 14px; margin: 0;">Accelerate depreciation deductions on investment properties with IRS-compliant engineering studies.</p>
@@ -230,7 +230,11 @@
             <li><a href="/business-owner-small-business-tax/">Business Owner & Small Business Tax Services</a></li>
             <li><a href="/services/bookkeeping/">Bookkeeping Services</a></li>
             <li><a href="/tax-filing-and-compliance-services/">Tax Filing And Compliance Services</a></li>
-        </ul>
+        
+            <li><a href="/services/">Our Services</a></li>
+            <li><a href="/discovery/">Request a Consultation</a></li>
+            <li><a href="/about/">About AE Tax Advisors</a></li>
+            <li><a href="/pricing/">Pricing and Engagement Options</a></li></ul>
     </div></section>
 
 </main>

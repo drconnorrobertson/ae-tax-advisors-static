@@ -88,6 +88,46 @@
   ]
 }
     </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the seven material participation tests?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Treasury Regulation 1.469-5T provides seven: more than 500 hours; substantially all participation; more than 100 hours with no one participating more; significant participation activities totaling more than 500 hours; material participation in five of the last ten years; a personal service activity with three prior years; and a facts-and-circumstances test."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What documentation does the IRS accept for hours?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The regulation allows any reasonable means, but contemporaneous dated logs with specific task descriptions, corroborated by emails, invoices, calendars, and receipts, are what survive. Reconstructed summaries prepared after an examination begins are consistently given little weight by the Tax Court."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can spouses combine hours to qualify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The qualification tests apply to each spouse individually and cannot be combined, even on a joint return. One spouse must satisfy both tests alone. Once one spouse qualifies, spousal participation may then be combined when testing material participation in the rental activities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens to suspended passive losses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They carry forward indefinitely and become deductible when the activity produces income, when other passive income is available, or when the activity's character changes. They are also released in full on a qualifying disposition of the entire interest."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header>
@@ -95,10 +135,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -154,9 +194,15 @@
         </div>
 
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">A short-term rental is a property with an average period of customer use of seven days or less, which under Treasury Regulation 1.469-1T(e)(3)(ii)(A) is not treated as a rental activity for passive loss purposes. That distinction allows an owner who materially participates to deduct losses against wages and business income.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
-        <p>Short-term rental investors have a unique advantage in the tax code: their rental activities are not classified as "rental activities" for passive loss purposes when the average guest stay is 7 days or fewer. This means that if you materially participate in your STR operations, the losses&mdash;including massive <a href="/cost-segregation-studies-for-real-estate-investors/">cost segregation</a> depreciation&mdash;can offset your earned and business income dollar for dollar.</p>
+        <p>Short-term rental investors have a unique advantage in the tax code: their rental activities are not classified as "rental activities" for passive loss purposes when the average guest stay is 7 days or fewer. This means that if you materially participate in your STR operations, the losses, including massive <a href="/cost-segregation-studies-for-real-estate-investors/">cost segregation</a> depreciation, can offset your earned and business income dollar for dollar.</p>
 
         <p>But material participation requires meeting specific tests, and the IRS scrutinizes these claims closely. Here is how to qualify and document your participation.</p>
 
@@ -197,7 +243,7 @@
 
         <h2>The Documentation Requirement</h2>
 
-        <p>The IRS expects contemporaneous records of material participation. This means keeping a log throughout the year&mdash;not creating one in April when you file your return. Your log should include the date, a description of the activity, the number of hours, and which property or activity it relates to.</p>
+        <p>The IRS expects contemporaneous records of material participation. This means keeping a log throughout the year, not creating one in April when you file your return. Your log should include the date, a description of the activity, the number of hours, and which property or activity it relates to.</p>
 
         <p>Many STR operators use scheduling apps, property management software, and communication records as supporting documentation. Text messages with contractors, Airbnb message threads, and property management platform activity logs all provide corroboration for your hour log.</p>
 
@@ -237,9 +283,36 @@
             <li><a href="/blog/what-happens-if-i-fail-material-participation-on-my-str/">What Happens if I Fail Material Participation on My Short-Term Rental?</a></li>
             <li><a href="/case-studies/str-portfolio-cost-seg-material-participation/">Short-Term Rental Portfolio Cost Segregation and Material Participation</a></li>
             <li><a href="/blog/how-to-qualify-for-material-participation-on-airbnb-property/">How Do I Qualify for Material Participation on My Airbnb Property?</a></li>
-        </ul>
+        
+            <li><a href="/material-participation-short-term-rental-7-day-rule/">Material Participation and the STR 7-Day Rule</a></li>
+            <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li>
+            <li><a href="/short-term-rental-tax-strategy/">Short-Term Rental Tax Strategy</a></li>
+            <li><a href="/reps-real-estate-professional-status/">Real Estate Professional Status: How to Qualify</a></li>
+            <li><a href="/short-term-rental-tax-loophole-2026/">The Short-Term Rental Tax Loophole in 2026</a></li></ul>
     </div></section>
 
+
+    <section class="content-section fade-in-section" id="faq">
+        <div class="container narrow">
+            <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>What are the seven material participation tests?</h3>
+                    <p>Treasury Regulation 1.469-5T provides seven: more than 500 hours; substantially all participation; more than 100 hours with no one participating more; significant participation activities totaling more than 500 hours; material participation in five of the last ten years; a personal service activity with three prior years; and a facts-and-circumstances test.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What documentation does the IRS accept for hours?</h3>
+                    <p>The regulation allows any reasonable means, but contemporaneous dated logs with specific task descriptions, corroborated by emails, invoices, calendars, and receipts, are what survive. Reconstructed summaries prepared after an examination begins are consistently given little weight by the Tax Court.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can spouses combine hours to qualify?</h3>
+                    <p>No. The qualification tests apply to each spouse individually and cannot be combined, even on a joint return. One spouse must satisfy both tests alone. Once one spouse qualifies, spousal participation may then be combined when testing material participation in the rental activities.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What happens to suspended passive losses?</h3>
+                    <p>They carry forward indefinitely and become deductible when the activity produces income, when other passive income is available, or when the activity's character changes. They are also released in full on a qualifying disposition of the entire interest.</p>
+                </div>
+        </div>
+    </section>
 </main>
 
     <footer>

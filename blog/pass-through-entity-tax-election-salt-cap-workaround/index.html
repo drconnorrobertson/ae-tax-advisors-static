@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PTET Election and the SALT Cap Workaround | AE Tax Advisors</title>
-    <meta name="description" content="The pass through entity tax election converts nondeductible personal state tax into a deductible business expense. How PTET works, who benefits, and the traps in electing.">
+    <meta name="description" content="The pass through entity tax election converts nondeductible personal state tax into a deductible business expense.">
     <link rel="canonical" href="https://aetaxadvisors.com/blog/pass-through-entity-tax-election-salt-cap-workaround/">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
     <meta property="og:title" content="PTET Election and the SALT Cap Workaround | AE Tax Advisors">
@@ -141,10 +141,10 @@
             <a href="/" class="logo">
                 <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;">
             </a>
-            <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-nav">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -192,6 +192,12 @@
         <h1>PTET: The Pass Through Entity Tax Election That Works Around the SALT Cap</h1>
         <p class="blog-meta">Published August 13, 2026 | Business Owner Tax | AE Tax Advisors</p>
     </div></section>
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <p class="definition-lead">Entity structuring is the design of the legal and tax entities through which a business and its assets are held, determining employment tax exposure, loss usability, state tax treatment, liability isolation, and the tax cost of an eventual sale.</p>
+        </div>
+    </section>
+
     <section class="content-section fade-in-section"><div class="container narrow">
 
         <p class="lead-text"><strong>A pass through entity tax election lets an S corporation or partnership pay state income tax at the entity level, where it is fully deductible as a business expense, instead of passing it to owners where the SALT cap limits the deduction.</strong> The IRS blessed the approach in Notice 2020-75. More than 35 states now offer some version, and for a profitable pass through owner it is often the single largest federal deduction available with no change to operations.</p>
@@ -215,7 +221,7 @@
 
         <h3>The Math on a Real Example</h3>
 
-        <table>
+        <div class="ae-table-scroll" style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table>
             <thead>
                 <tr><th></th><th>Without PTET</th><th>With PTET</th></tr>
             </thead>
@@ -227,7 +233,7 @@
                 <tr><td>Federal tax at 37%</td><td>$370,000</td><td>$344,100</td></tr>
                 <tr><td><strong>Federal savings</strong></td><td></td><td><strong>$25,900</strong></td></tr>
             </tbody>
-        </table>
+        </table></div>
 
         <p>The savings equal the state tax multiplied by the federal marginal rate. Simple, and it repeats every year.</p>
 
@@ -311,7 +317,10 @@
                 <li><a href="/business-owner-tax-planning/">Business Owner Tax Planning</a></li>
                 <li><a href="/blog/shareholder-basis-tracking-s-corp-essentials/">Shareholder Basis Tracking Essentials</a></li>
                 <li><a href="/blog/when-to-convert-llc-to-s-corp/">When to Convert an LLC to an S Corp</a></li>
-        </ul>
+        
+            <li><a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC Tax Comparison 2026</a></li>
+            <li><a href="/c-corp-income-shifting-strategy/">C-Corp Income Shifting Strategy</a></li>
+            <li><a href="/business-owner-small-business-tax/">Business Owner and Small Business Tax</a></li></ul>
 
         <div class="cta-box" style="background:#f8f9fa;border:2px solid #1a365d;border-radius:12px;padding:40px;text-align:center;margin:40px 0;">
             <h3 style="color:#1a365d;margin-bottom:10px;">Did Your Entity Make the PTET Election This Year?</h3>
