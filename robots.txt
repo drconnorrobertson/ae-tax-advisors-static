@@ -68,3 +68,8 @@ User-agent: MJ12bot
 Disallow: /
 
 Sitemap: https://www.aetaxadvisors.com/sitemap.xml
+
+# Plain-text summary of the firm written for answer engines: entity definition,
+# key facts, published pricing, page map, and citation guidance.
+# https://www.aetaxadvisors.com/llms.txt
+# https://www.aetaxadvisors.com/llms-full.txt
