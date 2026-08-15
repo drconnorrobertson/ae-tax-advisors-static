@@ -67,4 +67,4 @@ Disallow: /
 User-agent: MJ12bot
 Disallow: /
 
-Sitemap: https://aetaxadvisors.com/sitemap.xml
+Sitemap: https://www.aetaxadvisors.com/sitemap.xml

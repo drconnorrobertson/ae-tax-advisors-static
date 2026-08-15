@@ -10,7 +10,7 @@ import re
 from datetime import date
 from pathlib import Path
 
-BASE = "https://aetaxadvisors.com"
+BASE = "https://www.aetaxadvisors.com"
 OUT = Path("sitemap.xml")
 
 PRIORITY = [

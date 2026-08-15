@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-SITE = "https://aetaxadvisors.com"
+SITE = "https://www.aetaxadvisors.com"
 ORG_ID = f"{SITE}/#organization"
 
 # url slug -> (service name, service type, short description)
@@ -185,7 +185,7 @@ Disallow: /
 User-agent: MJ12bot
 Disallow: /
 
-Sitemap: https://aetaxadvisors.com/sitemap.xml
+Sitemap: https://www.aetaxadvisors.com/sitemap.xml
 """
 
 

@@ -24,7 +24,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 
 KEY = "d1abe8dd1952d605902db4522d2536d3"
-HOST = "aetaxadvisors.com"
+HOST = "www.aetaxadvisors.com"
 KEY_LOCATION = f"https://{HOST}/{KEY}.txt"
 ENDPOINT = "https://api.indexnow.org/IndexNow"
 

@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-SITE = "https://aetaxadvisors.com"
+SITE = "https://www.aetaxadvisors.com"
 BRAND = "AE Tax Advisors"
 LOGO = f"{SITE}/assets/ae-tax-logo.png"
 
@@ -157,7 +157,7 @@ def ensure_head_bits(html: str) -> tuple[str, dict]:
 
     additions = ""
 
-    if '"@id": "https://aetaxadvisors.com/#organization"' not in html:
+    if '"@id": "https://www.aetaxadvisors.com/#organization"' not in html:
         additions += ld(organization_node())
         stats["org"] = 1
     if '"@type": "WebSite"' not in html:

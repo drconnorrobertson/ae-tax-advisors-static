@@ -15,7 +15,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-SITE = "https://aetaxadvisors.com"
+SITE = "https://www.aetaxadvisors.com"
 BRAND = "AE Tax Advisors"
 AUTHOR = "Connor Davis"
 PHONE = "(631) 614-5762"

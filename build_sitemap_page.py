@@ -17,7 +17,7 @@ MODIFIED = "2026-08-15"
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.DOTALL)
 H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.DOTALL)
 NOINDEX_RE = re.compile(r'<meta name="robots" content="[^"]*noindex', re.I)
-CANON_RE = re.compile(r'<link rel="canonical" href="https://aetaxadvisors\.com([^"]*)"')
+CANON_RE = re.compile(r'<link rel="canonical" href="https://(?:www\.)?aetaxadvisors\.com([^"]*)"')
 
 # Buckets, in the order they appear on the page. Each is (heading, matcher).
 SECTIONS: list[tuple[str, object]] = [

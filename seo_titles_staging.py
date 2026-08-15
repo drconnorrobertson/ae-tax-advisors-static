@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-SITE = "https://aetaxadvisors.com"
+SITE = "https://www.aetaxadvisors.com"
 BRAND_SUFFIX = " | AE Tax Advisors"
 MAX_TITLE = 70
 
