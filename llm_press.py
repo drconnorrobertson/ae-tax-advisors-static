@@ -26,24 +26,16 @@ BRAND = "AE Tax Advisors"
 
 MARKER = "llm-press-citations"
 
-# Where a legitimacy check actually lands.
-# The homepage is deliberately absent: 29 inline headlines is a text wall on a
-# conversion page. The "As Featured In" strip links to /press/ instead.
+# Where a legitimacy check actually lands. All 29 headlines inline run ~3,500
+# characters, so this list stays narrow: the reputation pages, plus /about/.
+# Everywhere else — the homepage, /services/, /pricing/, the service pages —
+# the "As Featured In" strip links to /press/ instead.
 TARGETS = {
     "about",
-    "bios",
-    "pricing",
-    "contact",
-    "faq",
     "ae-tax-advisors-faq",
     "ae-tax-advisors-reviews",
     "ae-tax-advisors-complaints",
     "what-is-ae-tax-advisors",
-    "what-is-cost-segregation",
-    "what-is-a-tax-advisory-engagement",
-    "services",
-    "compare",
-    "case-studies",
 }
 
 

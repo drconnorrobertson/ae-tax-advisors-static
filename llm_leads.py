@@ -326,12 +326,16 @@ OVERRIDES: dict[str, str] = {
 # Pages whose lead is written by their own generator; scoring them here would
 # overwrite a hand-written definition with a generic one.
 OWNED_ELSEWHERE = {
-    "",  # homepage: conversion page, no definition paragraph above the hero
     "what-is-ae-tax-advisors",
     "what-is-cost-segregation",
     "what-is-a-tax-advisory-engagement",
     "ae-tax-advisors-faq",
 }
+
+# The homepage, the blog index and the core service pages open with the offer,
+# not with a definition of the firm. Same set llm_stats skips; see the comment
+# there. The entity definitions still live on the what-is-* pages.
+from llm_stats import CONVERSION_PAGES  # noqa: E402
 
 LEAD_RE = re.compile(r'<p class="definition-lead">.*?</p>', re.S)
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.S)
@@ -387,7 +391,7 @@ def apply(path: Path) -> str | None:
     # definition. Scoring them here would just overwrite it every run.
     from llm_compare import RIVALS
 
-    if slug in RIVALS or slug in OWNED_ELSEWHERE:
+    if slug in RIVALS or slug in OWNED_ELSEWHERE or slug in CONVERSION_PAGES:
         return None
 
     title = _text(TITLE_RE.search(html).group(1)) if TITLE_RE.search(html) else ""

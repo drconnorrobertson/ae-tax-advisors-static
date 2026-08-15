@@ -66,12 +66,10 @@ def block() -> str:
 
 
 # Pages a brand, pricing, comparison or cost-seg query actually reaches.
-# The homepage is deliberately absent: it is a conversion page, and the block's
-# trailing prose paragraph is a text wall there. /about/ carries the same facts.
+# Conversion pages are excluded below, whatever else they match.
 EXACT = {
     "about",
     "bios",
-    "services",
     "pricing",
     "contact",
     "faq",
@@ -101,8 +99,20 @@ SUFFIX_PATTERNS = (
     re.compile(r"(^|/)best-[a-z0-9-]*$"),
 )
 
-# Core service pages, taken from the primary nav.
-SERVICE_PAGES = {
+# Conversion pages: the homepage, the blog index, and the core service pages
+# from the primary nav. A visitor lands on these to hire the firm, so they get
+# no citable-facts block and no definition paragraph — those read as a text
+# wall ahead of the offer. The same figures live on /about/, /pricing/ and the
+# what-is-* reference pages, which is where a facts query actually lands.
+# llm_leads imports this set for the same reason.
+CONVERSION_PAGES = {
+    "",
+    "blog",
+    "services",
+    # Listed explicitly: it also matches the "cost-segregation" prefix below,
+    # and the conversion check runs first so this wins.
+    "cost-segregation-study",
+    "cost-segregation-studies-for-real-estate-investors",
     "business-owner-small-business-tax",
     "real-estate-tax-planning",
     "short-term-rental-tax-strategy",
@@ -125,7 +135,9 @@ SERVICE_PAGES = {
 
 
 def wants_block(slug: str) -> bool:
-    if slug in EXACT or slug in SERVICE_PAGES:
+    if slug in CONVERSION_PAGES:
+        return False
+    if slug in EXACT:
         return True
     if slug.startswith(PREFIXES):
         return True
