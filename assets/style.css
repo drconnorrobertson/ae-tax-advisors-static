@@ -2,7 +2,7 @@
 :root {
     --primary: #1B2A4A;
     --primary-dark: #0f1620;
-    --accent: #C8A94A;
+    --accent: #C5A55A;
     --dark: #1B2A4A;
     --medium: #666666;
     --light-bg: #F8F9FA;
@@ -155,7 +155,7 @@ header {
     cursor: pointer;
     letter-spacing: 0.02em;
 }
-.btn-cta:hover { background: #d4b757; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(200,169,74,0.3); }
+.btn-cta:hover { background: #D4B87A; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(200,169,74,0.3); }
 .btn-cta.btn-lg { padding: 14px 32px; font-size: 16px; }
 
 .btn-secondary {
@@ -326,7 +326,7 @@ header {
 
 .hero-service-card:hover {
     background: #FFFFFF;
-    border-color: #C8A94A;
+    border-color: #C5A55A;
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(200,169,74,0.2);
 }
@@ -351,7 +351,7 @@ header {
     top: 16px;
     right: 16px;
     font-size: 24px;
-    color: #C8A94A;
+    color: #C5A55A;
     font-weight: 300;
 }
 
@@ -609,7 +609,7 @@ section h2 {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background: linear-gradient(135deg, var(--accent), #d4b757);
+    background: linear-gradient(135deg, var(--accent), #D4B87A);
     color: var(--primary);
     display: flex;
     align-items: center;
@@ -1532,7 +1532,7 @@ main table {
     letter-spacing: 0.02em;
     transition: all var(--transition);
 }
-.audience-card:hover .audience-cta { background: #d4b757; box-shadow: 0 8px 20px rgba(200,169,74,0.3); }
+.audience-card:hover .audience-cta { background: #D4B87A; box-shadow: 0 8px 20px rgba(200,169,74,0.3); }
 
 @media (max-width: 900px) {
     .audience-grid {
@@ -1992,4 +1992,25 @@ iframe { display: block; }
     .sitemap-list { columns: 1; }
     .sitemap-list li { margin-bottom: 4px; }
     .sitemap-list li a { display: inline-block; padding: 8px 0; min-height: 40px; }
+}
+
+/* ===== INLINE GRIDS ON MOBILE =====
+   A handful of pages (pricing, the calculators, the c-corp hub) hardcode a
+   multi-column grid in a style attribute, which no stylesheet rule can beat
+   without !important. At phone widths those columns are narrower than their
+   own content and spill past the viewport, so collapse them to one column.
+   Icon-and-text rows (`56px 1fr`, `40px 1fr`, `1fr auto`) are deliberately
+   left alone -- the flexible track already absorbs the width. */
+@media (max-width: 768px) {
+    [style*="grid-template-columns: 1fr 1fr"],
+    [style*="grid-template-columns:1fr 1fr"],
+    [style*="repeat(2, 1fr)"],
+    [style*="repeat(2,1fr)"],
+    [style*="repeat(3, 1fr)"],
+    [style*="repeat(3,1fr)"],
+    [style*="grid-template-columns: 2fr 1fr 1fr"],
+    [style*="grid-template-columns: 350px 1fr"],
+    [style*="grid-template-columns: 1fr 350px"] {
+        grid-template-columns: 1fr !important;
+    }
 }

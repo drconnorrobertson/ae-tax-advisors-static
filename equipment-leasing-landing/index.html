@@ -18,11 +18,11 @@
         :root {
             --ink: #1b2a4a;
             --ink-soft: #666666;
-            --paper: #f8f9fa;
+            --paper: #FFFFFF;
             --card: #F8F5EC;
-            --brass: #c8a94a;
+            --brass: #C5A55A;
             --brass-deep: #b2953f;
-            --forest: #1b2a4a;
+            --forest: #1B2A4A;
             --line: rgba(27,42,61,0.15);
         }
 
@@ -561,10 +561,10 @@ justify-content:space-between;gap:12px}
 .aegn-links{display:flex;align-items:center;gap:2px;flex-wrap:wrap}
 .aegn-links a{color:#1B2A4A;font-size:14px;font-weight:500;padding:10px 12px;border-radius:6px;
 text-decoration:none;white-space:nowrap;line-height:1.2;transition:background .2s,color .2s}
-.aegn-links a:hover{background:#F8F9FA;color:#C8A94A}
-.aegn-cta{background:#C8A94A;color:#1B2A4A !important;font-weight:600;padding:12px 22px !important;
+.aegn-links a:hover{background:#F8F9FA;color:#C5A55A}
+.aegn-cta{background:#C5A55A;color:#1B2A4A !important;font-weight:600;padding:12px 22px !important;
 border-radius:6px;margin-left:6px}
-.aegn-cta:hover{background:#d4b757;color:#1B2A4A !important}
+.aegn-cta:hover{background:#D4B87A;color:#1B2A4A !important}
 .aegn-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;
 padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:center}
 .aegn-toggle span{display:block;width:24px;height:2px;background:#1B2A4A;border-radius:2px}
@@ -580,6 +580,12 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
   .aegn-inner{position:relative;padding:8px 12px}
   .aegn-logo img{height:38px}
 }
+
+.aegn-inner{position:relative}
+.aegn .nav-link,.aegn .dropdown-item,.aegn .btn-cta{text-decoration:none}
+.aegn .nav-links{gap:2px}
+@media(max-width:992px){.aegn .nav-links{top:100%;left:0;right:0}}
+
 </style>
 
 <div class="aegn">
@@ -587,21 +593,64 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
     <a href="/" class="aegn-logo" aria-label="AE Tax Advisors home">
       <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" width="180" height="44" loading="eager" fetchpriority="high" decoding="async">
     </a>
-    <button class="aegn-toggle" aria-label="Open menu" aria-expanded="false"
-      onclick="var n=this.parentNode.querySelector('.aegn-links');var o=n.classList.toggle('aegn-open');this.setAttribute('aria-expanded',o);">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="aegn-links" aria-label="Main navigation">
-      <a href="/">Home</a>
-      <a href="/about/">About</a>
-      <a href="/services/">Services</a>
-      <a href="/cost-segregation-study/">Cost Segregation</a>
-      <a href="/case-studies/">Case Studies</a>
-      <a href="/pricing/">Pricing</a>
-      <a href="/blog/">Blog</a>
-      <a href="/contact/">Contact</a>
-      <a href="/discovery/" class="aegn-cta">Request a Consultation</a>
-    </nav>
+    <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
+                <span></span><span></span><span></span>
+            </button>
+    <nav class="nav-links" id="primary-nav">
+                <a href="/" class="nav-link">Home</a>
+<div class="nav-dropdown">
+                <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax</a>
+<a href="/bios/" class="dropdown-item">Our Team</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+<a href="/real-estate-tax-planning/" class="dropdown-item">Real Estate Tax Planning</a>
+<a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+<a href="/rental-property-tax-planning/" class="dropdown-item">Rental Property Tax Planning</a>
+<a href="/cost-segregation-study/" class="dropdown-item">Cost Segregation Study</a>
+<a href="/real-estate-investor-cpa/" class="dropdown-item">CPA for Real Estate Investors</a>
+<a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+<a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
+<a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+<a href="/crypto-mining-tax-strategy/" class="dropdown-item">Crypto Mining Tax Strategy</a>
+<a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies (Detailed)</a>
+<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+<a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+<a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+</div>
+            </div>
+<div class="nav-dropdown">
+                <a href="/cost-segregation-airbnb/" class="nav-link">Cost Segregation <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/cost-segregation-airbnb/" class="dropdown-item">Cost Seg for Airbnb/STR</a>
+<a href="/str-tax-loophole/" class="dropdown-item">STR Tax Loophole</a>
+<a href="/cost-segregation-calculator/" class="dropdown-item">Cost Seg Calculator</a>
+<a href="/bonus-depreciation-rental-property/" class="dropdown-item">Bonus Depreciation</a>
+<a href="/form-3115-cost-segregation/" class="dropdown-item">Form 3115 Catch-Up</a>
+<a href="/str-vs-ltr-tax-treatment/" class="dropdown-item">STR vs LTR Tax Treatment</a>
+</div>
+            </div>
+<a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
+<div class="nav-dropdown">
+                <a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+                <div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
+<a href="/compare/" class="dropdown-item">Compare Firms</a>
+<a href="/calculators/" class="dropdown-item">Tax Calculators</a>
+<a href="/faq/" class="dropdown-item">FAQ</a>
+<a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+<a href="/glossary/" class="dropdown-item">Glossary</a>
+<a href="/sitemap/" class="dropdown-item">Site Map</a>
+</div>
+            </div>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/contact/" class="nav-link">Contact Us</a>
+
+                <a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
+            </nav>
   </div>
 </div>
 
