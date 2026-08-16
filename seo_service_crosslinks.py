@@ -31,7 +31,7 @@ SERVICE_PAGES = [
     "retirement-exit-ma-tax-strategy", "individual-tax-planning-high-earners",
     "estate-trust-wealth-transfer", "tax-compliance-irs-representation",
     "multi-state-global-tax", "equipment-leasing-section-179",
-    "crypto-mining-tax-strategy", "deferred-equity-compensation",
+    "deferred-equity-compensation",
     "audit-defense-compliance", "advanced-tax-planning-services",
     "cost-segregation-studies-for-real-estate-investors",
     "services/bookkeeping", "services/entity-structuring",

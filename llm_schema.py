@@ -100,7 +100,9 @@ OFFERS = [
      "and 15-year MACRS classes."),
     ("Business Entity Tax Return", "1500", "Preparation and filing of a business entity return, "
      "per entity."),
-    ("Personal Tax Return", "1000", "Preparation and filing of an individual Form 1040."),
+    ("Owner and Investor Personal Return", "1000", "Preparation and filing of a personal return "
+     "for a business owner or real estate investor, covering Schedule E rental reporting, "
+     "multi-entity K-1 integration, and passive activity loss tracking."),
     ("Amended Tax Return", "2500", "Preparation and filing of an amended return on Form 1040-X, "
      "per return."),
 ]

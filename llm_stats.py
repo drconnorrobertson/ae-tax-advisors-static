@@ -121,7 +121,6 @@ CONVERSION_PAGES = {
     "retirement-exit-ma-tax-strategy",
     "individual-tax-planning-high-earners",
     "equipment-leasing-section-179",
-    "crypto-mining-tax-strategy",
     "deferred-equity-compensation",
     "multi-state-global-tax",
     "estate-trust-wealth-transfer",

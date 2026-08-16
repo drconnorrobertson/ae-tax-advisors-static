@@ -104,7 +104,6 @@ POST_SLUGS = [
     "the-smart-way-to-deduct-vehicle-expenses-for-business",
     "the-complete-guide-to-travel-meals-and-entertainment-deductions",
     "the-smart-way-to-file-taxes-if-you-work-multiple-jobs",
-    "10-common-tax-mistakes-employees-make-with-withholding",
     "how-to-deduct-business-gifts-bonuses-and-incentives",
     "the-ultimate-guide-to-fringe-benefits-and-tax-free-employee-perks",
     "the-ultimate-guide-to-fringe-benefits-and-tax-free-employee-perks-2",
@@ -282,7 +281,6 @@ POST_SLUGS = [
     "tax-strategy-6",
     "real-estate-professional-status-qualify-save-taxes",
     "retirement-tax-planning-minimize-taxes-retirement-income",
-    "cryptocurrency-tax-planning-high-net-worth-investors",
     "attorney-tax-planning-law-partners-big-law",
     "business-exit-tax-planning-minimize-taxes-selling-company",
     "multi-state-tax-planning-high-income-earners",
@@ -368,10 +366,8 @@ POST_SLUGS = [
     "unfiled-tax-returns-help",
     "irs-penalty-abatement",
     "offer-in-compromise-irs",
-    "stop-irs-wage-garnishment",
     "irs-tax-lien-vs-levy",
     "irs-installment-agreement",
-    "currently-not-collectible-irs",
     "who-founded-ae-tax-advisors",
     "ae-tax-advisors-consultation",
 ]
@@ -405,7 +401,6 @@ PAGE_SLUGS = [
     "zoom-consultation",
     "entrepreneurs-small-business-owners",
     "estate-trust-wealth-transfer",
-    "executives-corporate-professionals",
     "glossary",
     "guides",
     "jack-zoom",
@@ -976,7 +971,7 @@ def generate_generic_page(slug, page_type="page"):
                    "ae-tax-advisors-onboarding-call-today-2", "ae-tax-advisors-onboarding-call-today-3",
                    "ae-tax-advisors-onboarding-calendar"]:
         content = generate_scheduling_content(slug, title)
-    elif slug in ["entrepreneurs-small-business-owners", "executives-corporate-professionals",
+    elif slug in ["entrepreneurs-small-business-owners",
                    "medical-legal-professionals", "real-estate-investors"]:
         content = generate_audience_page_content(slug, title)
     elif slug in ["strategy", "guide", "7-day-recap", "7-day-followup",
@@ -1377,7 +1372,6 @@ def generate_industries_content():
     <section class="page-header"><div class="container"><h1>Industries &amp; Clients We Serve</h1></div></section>
     <section class="content-section"><div class="container">
         <div class="card-grid-2">
-            <a href="/executives-corporate-professionals/" class="service-card-lg"><h3>Executives &amp; Corporate Professionals</h3><p>W-2 optimization, equity compensation, and withholding coordination.</p></a>
             <a href="/entrepreneurs-small-business-owners/" class="service-card-lg"><h3>Entrepreneurs &amp; Business Owners</h3><p>Entity structuring, S-Corp election, and business tax strategy.</p></a>
             <a href="/medical-legal-professionals/" class="service-card-lg"><h3>Physicians, Attorneys &amp; Professionals</h3><p>High-income professional tax planning.</p></a>
             <a href="/real-estate-investors/" class="service-card-lg"><h3>Real Estate Investors</h3><p>Cost segregation, REPS, passive loss rules, and 1031 exchanges.</p></a>

@@ -42,7 +42,6 @@ Full URL inventory: https://www.aetaxadvisors.com/sitemap.xml
 - [Multi-state and global tax](https://www.aetaxadvisors.com/multi-state-global-tax/)
 - [Estate, trust and wealth transfer](https://www.aetaxadvisors.com/estate-trust-wealth-transfer/)
 - [Tax compliance and IRS representation](https://www.aetaxadvisors.com/tax-compliance-irs-representation/)
-- [Crypto mining tax strategy](https://www.aetaxadvisors.com/crypto-mining-tax-strategy/)
 - [The short-term rental tax loophole (Treas. Reg. 1.469-1T(e)(3)(ii)(A))](https://www.aetaxadvisors.com/str-tax-loophole/)
 - [100% bonus depreciation under IRC 168(k) and the OBBBA](https://www.aetaxadvisors.com/bonus-depreciation-rental-property/)
 - [Form 3115 catch-up depreciation and Section 481(a)](https://www.aetaxadvisors.com/form-3115-cost-segregation/)

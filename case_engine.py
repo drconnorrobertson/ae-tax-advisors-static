@@ -1147,11 +1147,11 @@ def w2_high_income(rng: random.Random, i: int) -> dict:
     savings = round_to(min(total_ded, w2 * 0.8) * combined, 500)
 
     return {
-        "cat": "High-Income W-2 Earners",
+        "cat": "Real Estate Investors",
         "kind": "w2",
         "slug": f"w2-high-income-reduction-{i}",
         "h1": f"{prof.title()} Reduces Taxable Income by {kmoney(total_ded)} Without Changing Jobs",
-        "title": f"W-2 Earner Cuts Taxable Income {kmoney(total_ded)}",
+        "title": f"STR Investor Cuts Taxable Income {kmoney(total_ded)}",
         "desc": (f"How {prof} earning {money(w2)} combined a short-term rental cost segregation "
                  f"study, retirement contributions, and a donor advised fund to reduce taxable "
                  f"income by {money(total_ded)} and tax by approximately {money(savings)}."),

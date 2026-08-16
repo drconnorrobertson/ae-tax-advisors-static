@@ -223,7 +223,6 @@ TOPICS: list[tuple[str, list[str], str]] = [
     ),
     (
         "digital-assets",
-        ["crypto", "digital asset", "bitcoin", "mining tax"],
         "Digital assets are treated as property for federal tax purposes, so every sale, "
         "exchange, or use to acquire goods is a taxable disposition producing capital gain or "
         "loss measured against the asset's basis, and each disposition must be tracked "

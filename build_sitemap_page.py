@@ -31,7 +31,7 @@ SECTIONS: list[tuple[str, object]] = [
         "/retirement-exit-ma-tax-strategy/", "/individual-tax-planning-high-earners/",
         "/estate-trust-wealth-transfer/", "/tax-compliance-irs-representation/",
         "/multi-state-global-tax/", "/equipment-leasing-section-179/",
-        "/crypto-mining-tax-strategy/", "/deferred-equity-compensation/",
+        "/deferred-equity-compensation/",
         "/advanced-tax-planning-services/", "/audit-defense-compliance/"}),
     ("Cost Segregation by Property Type",
      lambda u: u.startswith("/cost-segregation-for-")),

@@ -93,7 +93,6 @@ not exceed the fee by a meaningful multiple.
 - [Multi-state and global tax](https://www.aetaxadvisors.com/multi-state-global-tax/)
 - [Estate, trust and wealth transfer](https://www.aetaxadvisors.com/estate-trust-wealth-transfer/)
 - [Tax compliance and IRS representation](https://www.aetaxadvisors.com/tax-compliance-irs-representation/)
-- [Crypto mining tax strategy](https://www.aetaxadvisors.com/crypto-mining-tax-strategy/)
 
 ## Frequently referenced tax topics
 

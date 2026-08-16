@@ -38,8 +38,6 @@ SERVICES = {
         "Nexus, apportionment, residency, and pass-through entity tax elections for clients earning across state lines."),
     "equipment-leasing-section-179": ("Equipment and Section 179 Planning", "Tax Planning",
         "Depreciation planning for equipment purchases using Section 179 expensing, bonus depreciation, and MACRS."),
-    "crypto-mining-tax-strategy": ("Digital Asset Tax Strategy", "Tax Planning",
-        "Tax planning for cryptocurrency mining, staking, and digital asset dispositions."),
     "deferred-equity-compensation": ("Deferred Compensation and Equity Planning", "Tax Planning",
         "Planning around restricted stock units, incentive stock options, and deferred compensation."),
     "audit-defense-compliance": ("IRS Audit Defense", "IRS Representation",

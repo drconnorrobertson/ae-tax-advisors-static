@@ -114,10 +114,8 @@ CATEGORY_HINTS = [
                          "business", "franchise", "consultant", "saas", "ecommerce",
                          "e-commerce", "construction", "manufacturing", "trucking",
                          "agency", "firm", "cash-balance", "401k", "retirement",
-                         "equipment", "insurance", "crypto", "landscaping",
+                         "equipment", "insurance", "landscaping",
                          "tech-", "nonprofit", "international")),
-    ("High-Income W-2 Earners", ("w2-", "physician", "professional-athlete",
-                                 "law-firm-partner", "high-income")),
     ("Amendment Recovery", ("amended", "amendment", "3115", "lookback",
                             "late-election", "correction")),
 ]
@@ -242,7 +240,7 @@ INDEX_JS = """
 
 def build_index(items: list[dict]) -> str:
     cats = ["Real Estate Investors", "Commercial Real Estate", "Business Owners",
-            "High-Income W-2 Earners", "Amendment Recovery"]
+            "Amendment Recovery"]
     present = [c for c in cats if any(i["cat"] == c for i in items)]
 
     chips = ['            <button class="cs-chip" data-cat="all" aria-pressed="true">'

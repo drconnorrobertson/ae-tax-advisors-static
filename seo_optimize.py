@@ -175,7 +175,7 @@ def is_blog_post(url_path):
                 "/tax-compliance-irs-representation/", "/cost-segregation-studies-for-real-estate-investors/",
                 "/advanced-tax-planning-services/", "/business-owner-tax-planning/",
                 "/short-term-rental-tax-strategy/", "/equipment-leasing-section-179/",
-                "/crypto-mining-tax-strategy/", "/real-estate-bookkeeping/",
+                "/real-estate-bookkeeping/",
                 "/who-founded-ae-tax-advisors/"]
     if url_path == "/":
         return False

@@ -30,7 +30,6 @@ SERVICES = [
     ("/multi-state-global-tax/", "Multi-state and global tax"),
     ("/estate-trust-wealth-transfer/", "Estate, trust and wealth transfer"),
     ("/tax-compliance-irs-representation/", "Tax compliance and IRS representation"),
-    ("/crypto-mining-tax-strategy/", "Crypto mining tax strategy"),
 ]
 
 REFERENCE = [

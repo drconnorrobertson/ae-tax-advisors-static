@@ -57,8 +57,6 @@ TOPICS: dict[str, tuple[list[str], str]] = {
     "credits": (["tax credit", "r&d credit", "research credit", "work opportunity",
                  "energy credit", "179d", "45l", "solar", "itc", "tip credit"],
                 "Tax Credits"),
-    "crypto": (["crypto", "bitcoin", "digital asset", "mining", "staking",
-                "nft"], "Digital Assets"),
     "equipment": (["equipment", "section 179 deduction", "fleet", "vehicle depreciation",
                    "leasing", "machinery"], "Equipment and Section 179"),
     "multistate": (["multi-state", "multistate", "nexus", "state tax",
@@ -76,7 +74,7 @@ TOPICS: dict[str, tuple[list[str], str]] = {
 # Ordered so that more specific topics win ties.
 PRIORITY = [
     "cost_seg", "str", "reps", "exchange_1031", "bonus_dep", "scorp", "ccorp",
-    "retirement", "qbi", "credits", "crypto", "equipment", "estate", "exit",
+    "retirement", "qbi", "credits", "equipment", "estate", "exit",
     "audit", "multistate", "entity", "rental", "deductions", "bookkeeping",
     "high_earner", "compliance", "firm",
 ]
@@ -264,7 +262,7 @@ FAQS: dict[str, list[tuple[str, str]]] = {
  ("What should I do if I receive an IRS notice?",
   "Read it carefully for the specific issue and the response deadline, and do not ignore it. Many notices are automated matching notices that can be resolved with documentation. Responding within the stated window preserves your appeal rights and prevents automatic assessment."),
  ("What triggers an IRS examination?",
-  "Common triggers include large deductions relative to reported income, S-Corp officer compensation that appears low, real estate professional status claims, cryptocurrency reporting, and information return mismatches. Selection is also partly random through the National Research Program."),
+  "Common triggers include large deductions relative to reported income, S-Corp officer compensation that appears low, real estate professional status claims, and information return mismatches. Selection is also partly random through the National Research Program."),
  ("How long can the IRS go back?",
   "Generally three years from the filing date. That extends to six years where more than 25% of gross income was omitted, and there is no limit for a false or fraudulent return or a failure to file. Employment tax and certain international matters have their own rules."),
  ("Should I represent myself in an audit?",
@@ -323,16 +321,6 @@ FAQS: dict[str, list[tuple[str, str]]] = {
   "A credit for hiring individuals from targeted groups. It requires Form 8850 certification submitted to the state workforce agency within 28 days of the employee's start date, which means it cannot be claimed retroactively."),
  ("Are energy efficiency incentives still available?",
   "Yes, in various forms including the Section 179D deduction for commercial building energy efficiency improvements and Section 45L for qualifying residential construction. Eligibility depends on efficiency standards and, in some cases, prevailing wage and apprenticeship requirements."),
-],
-"crypto": [
- ("How is cryptocurrency taxed?",
-  "Digital assets are treated as property, so every sale, exchange, or use to purchase goods is a taxable disposition producing capital gain or loss. Holding period determines whether the gain is short or long term, and each disposition must be tracked with its own basis."),
- ("Is crypto mining a business?",
-  "It can be. Mining conducted with continuity and a profit motive is generally a trade or business, with income recognized at the fair market value of coins when received and deductions available for equipment depreciation, electricity, and facilities. Casual mining is other income instead."),
- ("How is staking income taxed?",
-  "Staking rewards are generally included in income at fair market value when the taxpayer gains dominion and control over them, establishing basis for a later disposition. The treatment continues to develop and positions should be documented."),
- ("What records are required for digital assets?",
-  "Date and time of acquisition, cost basis, date and value at disposition, and the nature of each transaction, for every disposition. Exchange reporting is incomplete for transfers between wallets, so independent records are necessary to substantiate basis."),
 ],
 "equipment": [
  ("Can I deduct equipment purchases in the first year?",
@@ -443,7 +431,6 @@ DEFINITIONS: dict[str, str] = {
 "deductions": "Business deductions are ordinary and necessary expenses of carrying on a trade or business under IRC Section 162, and their value depends less on identifying them than on documenting them properly and routing them through the correct structure, such as an accountable plan.",
 "bookkeeping": "Bookkeeping is the ongoing recording and reconciliation of financial transactions that produces the timely, accurate numbers every tax planning decision depends on, since entity elections, compensation, retirement contributions, and depreciation choices must be made during the year rather than after it.",
 "credits": "Tax credits reduce tax liability dollar for dollar rather than reducing taxable income, which makes them substantially more valuable than deductions of the same size, and many of them carry strict certification or filing deadlines that cannot be met retroactively.",
-"crypto": "Digital assets are treated as property for federal tax purposes, so every sale, exchange, or use to acquire goods is a taxable disposition producing capital gain or loss measured against the asset's basis, and each disposition must be tracked independently.",
 "equipment": "Equipment depreciation planning determines how quickly the cost of machinery, vehicles, and fixtures is deducted, using Section 179 expensing, 100% bonus depreciation, or the MACRS schedule, with the correct choice depending on loss usability, state conformity, and property type.",
 "multistate": "Multi-state tax planning addresses where a business owes tax, covering nexus, apportionment, sourcing, and residency, and it has become substantially more complex as remote employees and economic nexus thresholds create filing obligations in states where a business has no physical location.",
 "high_earner": "High-income tax planning for W-2 earners focuses on creating deduction capacity that salary income does not naturally provide, principally through real estate that generates non-passive losses, maximized retirement contributions, and structured charitable giving.",
@@ -562,12 +549,6 @@ LINKS: dict[str, list[tuple[str, str]]] = {
 ],
 "credits": [
  ("/cost-segregation-for-restaurant/", "Cost Segregation for Restaurants"),
- ("/business-owner-small-business-tax/", "Business Owner and Small Business Tax"),
- ("/section-179-vs-bonus-depreciation-2026/", "Section 179 vs Bonus Depreciation in 2026"),
- ("/case-studies/", "Case Studies: Real Tax Planning Results"),
-],
-"crypto": [
- ("/crypto-mining-tax-strategy/", "Crypto Mining Tax Strategy"),
  ("/business-owner-small-business-tax/", "Business Owner and Small Business Tax"),
  ("/section-179-vs-bonus-depreciation-2026/", "Section 179 vs Bonus Depreciation in 2026"),
  ("/case-studies/", "Case Studies: Real Tax Planning Results"),

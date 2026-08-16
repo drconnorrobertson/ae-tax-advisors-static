@@ -624,7 +624,7 @@ def build_blog_index():
                       'deferred-equity-compensation', 'retirement-exit-ma-tax-strategy',
                       'multi-state-global-tax', 'estate-trust-wealth-transfer',
                       'tax-compliance-irs-representation', 'cost-segregation-studies-for-real-estate-investors',
-                      'entrepreneurs-small-business-owners', 'executives-corporate-professionals',
+                      'entrepreneurs-small-business-owners',
                       'medical-legal-professionals', 'real-estate-investors',
                       'ae-tax-advisors-onboarding-calendar', 'ae-tax-advisors-onboarding-form',
                       'ae-tax-advisors-onboarding-call-today', 'ae-tax-advisors-onboarding-call-today-2',
@@ -689,7 +689,7 @@ def build_blog_index():
             category = 'IRS Compliance & Audit'
         elif any(k in slug_lower for k in ['equity', 'stock', 'rsu', 'iso', 'compensation', 'deferred']):
             category = 'Equity & Compensation'
-        elif any(k in slug_lower for k in ['multi-state', 'international', 'global', 'crypto']):
+        elif any(k in slug_lower for k in ['multi-state', 'international', 'global']):
             category = 'Multi-State & International'
         else:
             category = 'Tax Planning & Strategy'
