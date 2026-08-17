@@ -95,10 +95,17 @@ def _byline() -> str:
 
 
 def _lead_block(lead: str) -> str:
+    """Opening paragraph of the article.
+
+    Deliberately not `definition-lead`. That class is reserved for the
+    machine-facing paragraphs llm_leads.py injects, which are hidden from
+    visitors in the stylesheet. This one is visible page copy, so it carries
+    its own class and is styled as ordinary prose.
+    """
     return f"""    <section class="content-section fade-in-section">
         <div class="container narrow">
 {_byline()}
-{T.definition(lead)}
+            <p class="article-intro">{lead}</p>
         </div>
     </section>"""
 
