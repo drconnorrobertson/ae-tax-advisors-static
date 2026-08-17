@@ -2061,3 +2061,64 @@ iframe { display: block; }
 @media (max-width: 768px) {
     .article-intro { font-size: 17px; line-height: 1.7; }
 }
+
+/* ---------------------------------------------------------------------------
+   Key-facts tiles.
+
+   The tiles were unstyled divs, so each one sized to its own content: a label
+   that wrapped to two lines ("Cost Segregation Studies Completed") pushed its
+   text out of line with its neighbours, and the row read as ragged.
+
+   Making each tile a flex column and pushing the label down with an auto top
+   margin bottom-aligns every label in a row, so the labels sit on one line
+   regardless of how many lines the number or the label itself takes.
+   --------------------------------------------------------------------------- */
+.stats-grid { align-items: stretch; }
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.stat-item .stat-label {
+    margin-top: auto;
+    padding-top: 10px;
+    max-width: 22ch;
+}
+
+.stat-item .stat-number { text-wrap: balance; }
+
+/* Below 480px the tiles dropped to a single column, so eight key facts became
+   eight full-width rows and pushed the page's actual content far down the
+   scroll. Two columns keeps the band compact; the numbers are short enough to
+   stay legible at this width. */
+@media (max-width: 480px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 22px 16px; }
+    .stat-item .stat-number { font-size: 26px; }
+    .stat-item .stat-label {
+        font-size: 11.5px;
+        letter-spacing: 0.6px;
+        max-width: 18ch;
+        padding-top: 8px;
+    }
+}
+
+/* Trust badges carried emoji (check mark, padlock, newspaper) which read as a
+   template rather than a professional services footer. The emoji are gone; a
+   small brass rule does the same separating job in the brand's own language. */
+.footer-trust-badges .trust-badge {
+    position: relative;
+    padding-left: 16px;
+}
+.footer-trust-badges .trust-badge::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 8px;
+    height: 1px;
+    background: var(--accent);
+    opacity: 0.85;
+}

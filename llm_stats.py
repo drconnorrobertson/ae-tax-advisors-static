@@ -42,12 +42,15 @@ CITABLE_SENTENCE = (
 
 MARKER = "llm-key-facts"
 
+# The tiles carry these figures already, so the prose restatement that used to
+# sit under them was the same numbers twice on the page. It existed to give an
+# extractor one citable sentence; /llms.txt now does that job properly, so the
+# visible block is just the tiles.
 BLOCK = f"""    <section class="stats-bar fade-in-section" id="{MARKER}" aria-label="AE Tax Advisors key facts">
         <div class="container">
             <div class="stats-grid">
 {{items}}
             </div>
-            <p style="max-width:900px;margin:36px auto 0;text-align:center;font-size:15px;line-height:1.7;opacity:0.85;">{CITABLE_SENTENCE}</p>
         </div>
     </section>
 
@@ -143,15 +146,22 @@ def wants_block(slug: str) -> bool:
     return any(p.search(slug) for p in SUFFIX_PATTERNS)
 
 
-# Insert after the lead paragraph section where one exists, otherwise after the
-# page header, so the facts sit high on the page without displacing the direct
-# answer that should be read first.
-AFTER_LEAD = re.compile(
-    r'<section class="content-section fade-in-section">\s*<div class="container narrow">\s*'
-    r'<p class="definition-lead">.*?</p>\s*</div>\s*</section>\s*',
-    re.S,
+# Insert after the page header, never before it. A page has to open with its
+# own title; leading with the same eight stat tiles on every page is what made
+# the site read as a template rather than as individual pages.
+#
+# This previously anchored to the `definition-lead` section first. Those have
+# been deleted sitewide, and because the lead sat above the page header, the
+# stats block inherited that slot and ended up ahead of every H1.
+AFTER_HEADER = re.compile(
+    r'<section class="(?:page-header|faq-hero|blog-hero|hero)[^"]*">.*?</section>\s*', re.S
 )
-AFTER_HEADER = re.compile(r'<section class="page-header">.*?</section>\s*', re.S)
+
+# Long-form posts wrap their title in <article class="blog-post"> rather than a
+# header section. There is no clean seam inside that article to slot a full
+# width dark band into, so the block goes after it: the reader gets the piece
+# first, then the credibility figures, instead of a stat wall before the title.
+AFTER_ARTICLE = re.compile(r"</article>\s*", re.S)
 MAIN_OPEN = re.compile(r"<main[^>]*>\s*")
 
 STALE_BLOCK = re.compile(
@@ -167,7 +177,7 @@ def apply(path: Path) -> bool:
 
     html = STALE_BLOCK.sub("", html)
 
-    for pattern in (AFTER_LEAD, AFTER_HEADER, MAIN_OPEN):
+    for pattern in (AFTER_HEADER, AFTER_ARTICLE, MAIN_OPEN):
         m = pattern.search(html)
         if m:
             html = html[: m.end()] + "\n" + block() + html[m.end() :]

@@ -25,7 +25,8 @@ TARGETS = [
     "short-term-rental-tax-strategy/index.html",
     "services/index.html",
     "contact/index.html",
-    "discovery/index.html",
+    # discovery is deliberately absent. It is a squeeze page: no nav, no footer,
+    # no stats and no press strip, so nothing competes with the calendar.
     "case-studies/index.html",
     "ae-tax-advisors-reviews/index.html",
 ]
@@ -75,7 +76,23 @@ def main() -> int:
             continue
         html = path.read_text(encoding="utf-8")
         if MARKER in html:
-            print(f"skip (already present): {rel}")
+            # Refresh rather than skip: the press count is baked into the markup,
+            # so skipping left every existing strip quoting a stale total.
+            # Indentation varies between pages, so match any leading whitespace
+            # rather than assuming the four spaces this script writes.
+            updated = re.sub(
+                r'\n?[ \t]*<section class="featured-strip".*?</section>\n',
+                strip_html(),
+                html,
+                count=1,
+                flags=re.DOTALL,
+            )
+            if updated != html:
+                path.write_text(updated, encoding="utf-8")
+                added += 1
+                print(f"refreshed: {rel}")
+            else:
+                print(f"skip (current): {rel}")
             continue
         pos = insert_point(html)
         if pos is None:

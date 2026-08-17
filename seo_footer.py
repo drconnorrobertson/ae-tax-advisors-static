@@ -106,10 +106,10 @@ def build_footer() -> str:
 {social_html()}
                 </div>
                 <div class="footer-trust-badges">
-                    <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
-                    <span class="trust-badge">&#9989; Licensed CPAs</span>
-                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
-                    <a href="/press/" class="trust-badge" style="text-decoration:none;color:rgba(255,255,255,0.5);">&#128240; As Featured In 30 Publications</a>
+                    <span class="trust-badge">IRS Enrolled Agents</span>
+                    <span class="trust-badge">Licensed CPAs</span>
+                    <span class="trust-badge">SOC 2 Compliant</span>
+                    <a href="/press/" class="trust-badge" style="text-decoration:none;color:rgba(255,255,255,0.5);">As Featured In 30 Publications</a>
                 </div>
                 <p class="footer-address" style="margin-top:16px;">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
                 <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
