@@ -43,6 +43,7 @@ COLUMNS = [
         ("/retirement-exit-ma-tax-strategy/", "Retirement &amp; Exit Strategy"),
         ("/estate-trust-wealth-transfer/", "Estate &amp; Wealth Transfer"),
         ("/tax-compliance-irs-representation/", "IRS Representation"),
+        ("/tax-attorneys/", "Tax Attorneys"),
     ]),
     ("Popular Guides", [
         ("/bonus-depreciation-2026-obbba/", "Bonus Depreciation 2026"),

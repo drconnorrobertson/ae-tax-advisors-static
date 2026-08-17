@@ -2122,3 +2122,43 @@ iframe { display: block; }
     background: var(--accent);
     opacity: 0.85;
 }
+
+/* ---------------------------------------------------------------------------
+   Centering consistency.
+
+   `.center-text` sets alignment on the container and relies on inheritance,
+   but `.content-section h2` (and its siblings) set `text-align: left` on the
+   heading itself, which beats inheritance. The result was a centred paragraph
+   and button under a left-aligned headline in every CTA block.
+
+   Selectors here are deliberately two-class so they outrank those rules on
+   specificity rather than on source order alone.
+   --------------------------------------------------------------------------- */
+.content-section .center-text h1,
+.content-section .center-text h2,
+.content-section .center-text h3,
+.center-text h1,
+.center-text h2,
+.center-text h3,
+.center-text p,
+.center-text ul,
+.center-text ol {
+    text-align: center;
+}
+
+/* The disclaimer is capped at 900px inside a centred footer column but had no
+   auto margins, so the block sat flush left and read as misaligned against the
+   copyright and policy links above it. */
+.footer-disclaimer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Section headings whose intro paragraph is centred. The heading was picking up
+   `text-align: left` from `.content-section h2` while the paragraph under it was
+   centred inline, so the two disagreed. */
+.content-section h2.board-heading,
+h2.board-heading {
+    text-align: center;
+}
