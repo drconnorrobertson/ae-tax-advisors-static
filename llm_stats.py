@@ -16,6 +16,7 @@ dilute the pages where it matters.
 from __future__ import annotations
 
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -189,7 +190,25 @@ def apply(path: Path) -> bool:
     return True
 
 
+DISABLED = (
+    "llm_stats is disabled. The eight-tile key-facts band it writes was removed\n"
+    "from every page: it took a full screen of vertical space to restate figures\n"
+    "that are served from /llms.txt, /llms.md and /.well-known/llms.txt.\n\n"
+    "Running this would put the block back on ~142 pages. Pass --force if that\n"
+    "is genuinely intended, and re-add it to llm_build.STEPS.\n"
+    "To remove the blocks again afterwards, run strip_stats_band.py.\n"
+)
+
+
 def main() -> None:
+    """Disabled. See DISABLED above; pass --force to override."""
+    if "--force" not in sys.argv:
+        print(DISABLED)
+        return
+    _main()
+
+
+def _main() -> None:
     n = 0
     for path in sorted(ROOT.rglob("index.html")):
         if ".git" in path.parts or "blog-staging" in path.parts:

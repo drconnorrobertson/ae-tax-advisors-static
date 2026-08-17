@@ -20,7 +20,10 @@ STEPS = [
     # it back here would repopulate every page on the next build.
     ("llm_entity_pages", "main"),   # the three reference definition pages
     ("llm_brand_faq", "build"),     # brand question hub
-    ("llm_stats", "main"),          # citable key facts block
+    # llm_stats is intentionally not run. The eight-tile key-facts band was
+    # removed from the pages; the same figures are served from /llms.txt,
+    # /llms.md and /.well-known/llms.txt. Re-adding it here would put the block
+    # back on ~142 pages.
     ("llm_article_schema", "main"), # Article markup where it was missing
     ("llm_schema", "main"),         # Review, Offer pricing, Organization consistency
     ("llm_compare", "main"),        # versus-page verdicts and FAQs

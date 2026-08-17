@@ -2162,3 +2162,44 @@ iframe { display: block; }
 h2.board-heading {
     text-align: center;
 }
+
+/* ---------------------------------------------------------------------------
+   Homepage trust bar.
+
+   Replaces the eight-tile navy key-facts band that used to run on ~142 pages
+   and took most of a screen to restate figures now served from /llms.txt.
+   One quiet line under the hero, homepage only.
+   --------------------------------------------------------------------------- */
+.home-trust-bar {
+    background: var(--light-bg);
+    border-bottom: 1px solid rgba(27, 42, 74, 0.08);
+    padding: 18px 24px;
+}
+.trust-fact-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14px 40px;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.trust-fact {
+    font-size: 15px;
+    color: var(--medium);
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+}
+.trust-fact strong {
+    font-family: var(--font-heading);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-right: 6px;
+}
+@media (max-width: 600px) {
+    .home-trust-bar { padding: 14px 16px; }
+    .trust-fact-row { gap: 8px 22px; }
+    .trust-fact { font-size: 13.5px; }
+    .trust-fact strong { font-size: 17px; }
+}

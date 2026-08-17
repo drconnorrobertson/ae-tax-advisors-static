@@ -24,6 +24,146 @@ PAGE = ROOT / "bios" / "index.html"
 
 REMOVE = ["Miguel Gonzales"]
 
+# The page previously used a full-width alternating layout: one member per row,
+# photo left then right, 350px portraits, 60px gaps and a rule between each.
+# Fourteen people that way is an extremely long page with a visual rhythm that
+# changes every row. This replaces it with one uniform card grid: circular
+# headshots at a single size, equal-height cards, and a tight gutter.
+STYLE = """
+    /* Team page: uniform card grid. */
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 26px;
+        margin: 36px auto 0;
+        max-width: 1140px;
+    }
+
+    .team-member {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        background: var(--white);
+        border: 1px solid rgba(27, 42, 74, 0.09);
+        border-radius: 14px;
+        padding: 34px 26px 30px;
+        box-shadow: 0 1px 3px rgba(27, 42, 74, 0.05);
+        transition: box-shadow 0.25s ease, transform 0.25s ease,
+                    border-color 0.25s ease;
+    }
+    .team-member:hover {
+        box-shadow: 0 10px 30px rgba(27, 42, 74, 0.10);
+        border-color: rgba(197, 165, 90, 0.45);
+        transform: translateY(-3px);
+    }
+
+    /* Fixed circle so every headshot presents identically regardless of the
+       source image's aspect ratio. */
+    .team-member-image {
+        width: 128px;
+        height: 128px;
+        flex: 0 0 128px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: 18px;
+        background: var(--primary);
+        box-shadow: 0 0 0 1px rgba(27, 42, 74, 0.10),
+                    0 0 0 5px rgba(197, 165, 90, 0.14);
+    }
+    .team-member-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 22%;
+        border-radius: 50%;
+        display: block;
+    }
+
+    .team-member-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        width: 100%;
+    }
+
+    .team-member h2 {
+        font-family: var(--font-heading);
+        font-size: 19.5px;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--primary);
+        margin: 0 0 5px;
+        text-align: center;
+    }
+    .team-member-title {
+        color: var(--accent);
+        font-weight: 600;
+        font-size: 11.5px;
+        text-transform: uppercase;
+        letter-spacing: 0.09em;
+        line-height: 1.45;
+        margin-bottom: 14px;
+        min-height: 2.9em;      /* keeps one and two line titles aligned */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .team-member p {
+        font-size: 14.5px;
+        line-height: 1.62;
+        color: #555;
+        margin: 0;
+        text-align: center;
+    }
+    .team-member p + p {
+        margin-top: 10px;
+        font-size: 13.5px;
+        color: #6b7280;
+    }
+
+    .team-member-links {
+        margin-top: auto;
+        padding-top: 18px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team-member-links a {
+        font-size: 12.5px;
+        font-weight: 600;
+        padding: 9px 16px;
+        border-radius: 6px;
+        transition: all 0.2s ease;
+    }
+
+    .board-heading {
+        font-family: var(--font-heading);
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--primary);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 1024px) {
+        .team-grid { grid-template-columns: repeat(2, 1fr); gap: 22px; }
+    }
+    @media (max-width: 640px) {
+        .team-grid { grid-template-columns: 1fr; gap: 18px; max-width: 460px; }
+        .team-member { padding: 30px 22px 26px; }
+        .team-member-image {
+            width: 112px; height: 112px; flex-basis: 112px;
+        }
+        .team-member h2 { font-size: 18.5px; }
+        .team-member-title { min-height: 0; margin-bottom: 12px; }
+        .team-member p { font-size: 14px; }
+        .board-heading { font-size: 25px; }
+    }
+"""
+
 # name -> (title, [paragraph html, ...])
 BIOS: dict[str, tuple[str, list[str]]] = {
     "Christina Nortman, CPA": (
@@ -245,10 +385,26 @@ def rewrite_member(html: str, name: str, title: str, paras: list[str]) -> tuple[
     return html[:blk] + content_block(name, title, paras, indent).lstrip() + html[end:], True
 
 
+STYLE_BLOCK = re.compile(r"(<style[^>]*>)(.*?)(</style>)", re.S)
+
+
+def apply_style(html: str) -> tuple[str, bool]:
+    """Swap the page's inline style block for the card-grid layout."""
+    m = STYLE_BLOCK.search(html)
+    if not m:
+        return html, False
+    if m.group(2).strip() == STYLE.strip():
+        return html, False
+    return html[: m.start(2)] + STYLE + html[m.end(2) :], True
+
+
 def main() -> int:
     html = PAGE.read_text(encoding="utf-8")
     before = html
     problems = []
+
+    html, styled = apply_style(html)
+    print(f"layout css: {'updated' if styled else 'already current'}")
 
     for name in REMOVE:
         html, ok = remove_member(html, name)
