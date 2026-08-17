@@ -130,30 +130,37 @@ BLOG_CSS = """
       .blog-chip:hover{border-color:var(--accent);color:var(--accent)}
       .blog-chip[aria-pressed="true"]{background:var(--primary);border-color:var(--primary);color:#fff}
       .blog-count{font-size:14px;color:var(--medium);margin-bottom:18px}
-      .blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr));gap:22px}
-      .blog-card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;overflow:hidden;
-        display:flex;flex-direction:column;transition:box-shadow .3s ease,transform .3s ease}
-      .blog-card:hover{box-shadow:var(--shadow-md);transform:translateY(-3px)}
-      .blog-thumb{height:112px;background:linear-gradient(135deg,var(--primary) 0%,#2a4060 100%);
-        display:flex;align-items:center;justify-content:center;position:relative;flex-shrink:0}
-      .blog-thumb span{font-family:var(--font-heading);font-size:30px;font-weight:800;
-        color:var(--accent);opacity:.92;letter-spacing:.02em}
-      .blog-body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1}
-      .blog-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
-      .blog-cat{background:var(--accent);color:var(--primary);font-size:.67rem;font-weight:700;
-        padding:4px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.03em}
+      /* Text-only article list. No thumbnails and no placeholder blocks: an
+         article index for a tax practice is read, not browsed by picture, and
+         a coloured block holding two initials is worse than no image at all. */
+      .blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr));gap:14px 26px}
+      .blog-card{background:#fff;border:1px solid #e9ebef;border-radius:10px;
+        padding:22px 24px 20px;display:flex;flex-direction:column;
+        transition:border-color .2s ease,box-shadow .2s ease}
+      .blog-card:hover{border-color:#cfd5de;box-shadow:0 4px 16px rgba(27,42,74,.07)}
+      .blog-body{display:flex;flex-direction:column;flex:1}
+      .blog-meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:9px}
+      .blog-cat{background:var(--accent);color:var(--primary);font-size:.66rem;font-weight:700;
+        padding:3px 9px;border-radius:20px;text-transform:uppercase;letter-spacing:.04em}
       .blog-date{font-size:12.5px;color:var(--medium)}
-      .blog-card h3{font-size:1.02rem;line-height:1.42;margin-bottom:9px}
-      .blog-card h3 a{color:var(--dark)}
+      .blog-card h3{font-family:var(--font-heading);font-size:1.06rem;font-weight:700;
+        line-height:1.34;margin-bottom:8px}
+      .blog-card h3 a{color:var(--dark);text-decoration:none}
       .blog-card h3 a:hover{color:var(--accent)}
-      .blog-card p{font-size:.89rem;color:var(--medium);line-height:1.55;margin-bottom:14px}
-      .blog-card .btn-secondary{margin-top:auto;align-self:flex-start}
+      .blog-card p{font-size:.885rem;color:var(--medium);line-height:1.55;margin-bottom:14px}
+      /* A quiet text link, not a button. The whole card title is already a
+         link; this is a secondary affordance and should read like one. */
+      .blog-readmore{margin-top:auto;align-self:flex-start;font-size:13px;font-weight:600;
+        color:var(--primary);text-decoration:none;letter-spacing:.01em}
+      .blog-readmore::after{content:" \\2192";color:var(--accent);transition:margin-left .2s ease}
+      .blog-readmore:hover{color:var(--accent)}
+      .blog-readmore:hover::after{margin-left:3px}
       .blog-empty{padding:36px 0;color:var(--medium)}
       .blog-more{display:block;margin:28px auto 0}
       @media (max-width:768px){
-        .blog-grid{grid-template-columns:1fr}
+        .blog-grid{grid-template-columns:1fr;gap:12px}
         .blog-chip{flex:1 1 auto;text-align:center}
-        .blog-thumb{height:92px}
+        .blog-card{padding:20px 20px 18px}
       }
     </style>"""
 
@@ -213,14 +220,12 @@ def main() -> int:
     cards = []
     for p in posts:
         blurb = one_line(p["desc"])
-        initials = "".join(w[0] for w in re.findall(r"[A-Za-z]+", p["title"])[:2]).upper() or "AE"
         searchable = T.esc((p["title"] + " " + p["desc"] + " " + p["category"]).lower())
         dl = date_label(p["date"])
         date_html = (f'<time class="blog-date" datetime="{iso(p["date"])}">{dl}</time>'
                      if dl else "")
         cards.append(
             f"""            <article class="blog-card" data-cat="{T.esc(p['category'])}" data-text="{searchable}">
-                <div class="blog-thumb" aria-hidden="true"><span>{initials}</span></div>
                 <div class="blog-body">
                     <div class="blog-meta">
                         <span class="blog-cat">{T.esc(p['category'])}</span>
@@ -228,7 +233,7 @@ def main() -> int:
                     </div>
                     <h3><a href="{BASE}{p['slug']}/">{T.esc(p['title'])}</a></h3>
                     <p>{T.esc(blurb)}</p>
-                    <a href="{BASE}{p['slug']}/" class="btn-secondary">Read Article</a>
+                    <a href="{BASE}{p['slug']}/" class="blog-readmore">Read article</a>
                 </div>
             </article>"""
         )
