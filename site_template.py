@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 SITE = "https://www.aetaxadvisors.com"
 BRAND = "AE Tax Advisors"
-AUTHOR = "Connor Davis"
+AUTHOR = "AE Tax Advisors Team"
 PHONE = "(631) 614-5762"
 
 
@@ -109,10 +109,9 @@ def article_schema(
         "dateModified": modified,
         "articleSection": section,
         "author": {
-            "@type": "Person",
-            "name": AUTHOR,
-            "jobTitle": "Tax Strategist",
-            "worksFor": {"@type": "Organization", "name": BRAND},
+            "@type": "Organization",
+            "name": BRAND,
+            "url": f"{SITE}/",
         },
         "publisher": {
             "@type": "Organization",

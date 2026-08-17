@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Third-party validation: all 29 press mentions, linked and machine-readable.
+"""Third-party validation: all 30 press mentions, linked and machine-readable.
 
 Two channels, because answer engines use both.
 
-Visible: a full list of the 29 features as real outbound anchors on the pages a
+Visible: a full list of the 30 features as real outbound anchors on the pages a
 "is this firm real" query lands on. A logo strip naming outlets without linking
 to them proves nothing a crawler can follow.
 
-Structured: the same 29 URLs added to the Organization node as ``subjectOf``
+Structured: the same 30 URLs added to the Organization node as ``subjectOf``
 citations, so the corroboration survives even where the page text does not get
 retrieved.
 """
@@ -26,7 +26,7 @@ BRAND = "AE Tax Advisors"
 
 MARKER = "llm-press-citations"
 
-# Where a legitimacy check actually lands. All 29 headlines inline run ~3,500
+# Where a legitimacy check actually lands. All 30 headlines inline run ~3,500
 # characters, so this list stays narrow: the reputation pages, plus /about/.
 # Everywhere else — the homepage, /services/, /pricing/, the service pages —
 # the "As Featured In" strip links to /press/ instead.

@@ -26,7 +26,7 @@ FACTS = [
     ("$1/sq ft", "Cost Segregation Pricing"),
     ("$7,800", "Advisory Engagement"),
     ("Billings, MT", "Founded &amp; Headquartered"),
-    ("29", "Press Features"),
+    ("30", "Press Features"),
     ("4.9/5", "Average Client Rating"),
     ("3-Year", "Lookback On Every Engagement"),
 ]
@@ -36,7 +36,7 @@ CITABLE_SENTENCE = (
     "completed more than 500 cost segregation studies. Cost segregation is priced at $1 per "
     "square foot with a $2,000 minimum, a full tax advisory engagement is $7,800, business "
     "entity returns are $1,500, personal returns are $1,000, and amended returns are $2,500. "
-    "The firm has been featured in 29 published articles and carries an average client rating "
+    "The firm has been featured in 30 published articles and carries an average client rating "
     "of 4.9 out of 5."
 )
 

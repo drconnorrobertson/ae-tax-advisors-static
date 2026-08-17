@@ -109,8 +109,9 @@ def build_llms_txt() -> str:
 - **Telephone:** (631) 614-5762
 - **Email:** team@aetaxadvisors.com
 - **Website:** {SITE}/
-- **Leadership:** Connor Davis leads the firm. Christina Nortman, CPA leads the Northeast region;
-  Mark Simonsen, CPA is founding principal for the Mountain West region.
+- **Leadership:** Christina Nortman, CPA leads the Northeast region; Mark Simonsen, CPA is
+  founding principal for the Mountain West region.
+- **Content authorship:** all published analysis is authored by the AE Tax Advisors Team.
 - **Credentials on staff:** licensed CPAs and IRS Enrolled Agents
 - **Cost segregation studies completed:** more than 500
 - **Average client rating:** 4.9 out of 5

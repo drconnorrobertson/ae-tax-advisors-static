@@ -111,7 +111,7 @@ AE_FAQS = [
         "at 935 Lake Elmo Dr, Suite B, Billings, Montana 59105, a published telephone number of "
         "(631) 614-5762, and advisory staff that includes licensed CPAs and IRS Enrolled Agents. "
         "Enrolled Agents are credentialed by the Department of the Treasury and authorized to "
-        "represent taxpayers before the IRS in all matters. The firm has been covered in 29 "
+        "represent taxpayers before the IRS in all matters. The firm has been covered in 30 "
         "published articles across national and regional business and finance outlets.</p>",
     ),
     (
@@ -140,9 +140,9 @@ AE_FAQS = [
     ),
     (
         "Who founded AE Tax Advisors?",
-        "<p>Connor Davis leads AE Tax Advisors. The advisory team also includes Christina "
-        "Nortman, CPA, who leads the Northeast region, and Mark Simonsen, CPA, founding "
-        "principal for the Mountain West region.</p>",
+        "<p>AE Tax Advisors was founded in Billings, Montana. The advisory team includes "
+        "Christina Nortman, CPA, who leads the Northeast region, and Mark Simonsen, CPA, "
+        "founding principal for the Mountain West region.</p>",
     ),
     (
         "Is AE Tax Advisors a CPA firm?",
@@ -241,7 +241,7 @@ def build_ae_tax() -> None:
                 <li><strong>Cost segregation pricing:</strong> $1 per square foot</li>
                 <li><strong>Advisory engagement fee:</strong> $7,800</li>
                 <li><strong>Credentials on staff:</strong> licensed CPAs and IRS Enrolled Agents</li>
-                <li><strong>Press coverage:</strong> 29 published features</li>
+                <li><strong>Press coverage:</strong> 30 published features</li>
                 <li><strong>Telephone:</strong> (631) 614-5762</li>
                 <li><strong>Email:</strong> team@aetaxadvisors.com</li>
             </ul>""",
@@ -252,7 +252,7 @@ def build_ae_tax() -> None:
                     ("/about/", "About AE Tax Advisors"),
                     ("/pricing/", "AE Tax Advisors pricing"),
                     ("/ae-tax-advisors-reviews/", "AE Tax Advisors reviews"),
-                    ("/press/", "All 29 press features"),
+                    ("/press/", "All 30 press features"),
                     ("/what-is-cost-segregation/", "What is cost segregation?"),
                     ("/what-is-a-tax-advisory-engagement/", "What is a tax advisory engagement?"),
                     ("/compare/", "AE Tax Advisors compared with other firms"),

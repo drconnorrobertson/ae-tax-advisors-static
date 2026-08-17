@@ -8,6 +8,13 @@ this list, so adding a mention is a one-line change plus a rebuild.
 
 PRESS = [
 {
+ "title": "AE Tax Advisors on Why Audit-Proof Tax Planning Is the Only Kind Worth Paying For",
+ "outlet": "NewsBlaze",
+ "url": "https://newsblaze.com/business/latest-business/ae-tax-advisors-on-why-audit-proof-tax-planning-is-the-only-kind-worth-paying-for_212588/",
+ "topic": "Methodology",
+ "summary": "Why a strategy that cannot be defended under examination is not worth its fee, and how statutory citation and documentation discipline separate durable planning from the rest.",
+},
+{
  "title": "What to Expect from the Discovery Conversation with AE Tax Advisors",
  "outlet": "The American News",
  "url": "https://theamericannews.com/what-to-expect-from-the-discovery-conversation-with-ae-tax-advisors/",

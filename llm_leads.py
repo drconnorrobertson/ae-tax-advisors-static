@@ -308,7 +308,7 @@ OVERRIDES: dict[str, str] = {
         "specific to each taxpayer and are not a guarantee of comparable savings."
     ),
     "press": (
-        "AE Tax Advisors has been featured in 29 published articles across national and "
+        "AE Tax Advisors has been featured in 30 published articles across national and "
         "regional business, finance, and real estate outlets, covering the firm's approach to "
         "cost segregation, entity structuring, reasonable compensation analysis, retirement plan "
         "design, and IRS representation. Every mention below links to the original publication."

@@ -30,7 +30,7 @@ TARGETS = [
     "ae-tax-advisors-reviews/index.html",
 ]
 
-# A representative spread of outlets, not all 29.
+# A representative spread of outlets, not all 30.
 SHOWCASE = ["US Insider", "The Chicago Journal", "Wall Street Times", "Market Daily",
             "Economic Insider", "NY Weekly", "LA Wire"]
 

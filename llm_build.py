@@ -21,7 +21,7 @@ STEPS = [
     ("llm_article_schema", "main"), # Article markup where it was missing
     ("llm_schema", "main"),         # Review, Offer pricing, Organization consistency
     ("llm_compare", "main"),        # versus-page verdicts and FAQs
-    ("llm_press", "main"),          # 29 press citations, linked and structured
+    ("llm_press", "main"),          # 30 press citations, linked and structured
     ("llm_txt", "main"),            # /llms.txt and /llms-full.txt
 ]
 

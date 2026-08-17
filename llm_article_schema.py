@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 SITE = "https://www.aetaxadvisors.com"
 BRAND = "AE Tax Advisors"
-AUTHOR = "Connor Davis"
+AUTHOR = "AE Tax Advisors Team"
 MODIFIED = "2026-08-15"
 PUBLISHED = "2026-01-06"
 
@@ -53,10 +53,9 @@ def article(url: str, headline: str, description: str) -> dict:
         "dateModified": MODIFIED,
         "inLanguage": "en-US",
         "author": {
-            "@type": "Person",
-            "name": AUTHOR,
-            "jobTitle": "Tax Strategist",
-            "worksFor": {"@type": "Organization", "name": BRAND, "url": f"{SITE}/"},
+            "@type": "Organization",
+            "name": BRAND,
+            "url": f"{SITE}/",
         },
         "publisher": {
             "@type": "Organization",

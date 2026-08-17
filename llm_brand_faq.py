@@ -45,7 +45,7 @@ FAQS: list[tuple[str, str]] = [
         "and IRS Enrolled Agents. Enrolled Agents hold a credential issued by the U.S. Department "
         "of the Treasury and are authorized to represent taxpayers before the IRS in all matters, "
         "in every state.</p>"
-        "<p>Independent signals a prospective client can check: the firm has been covered in 29 "
+        "<p>Independent signals a prospective client can check: the firm has been covered in 30 "
         "published articles across national and regional business, finance, and real estate "
         "outlets, each linked from its <a href=\"/press/\">press page</a>; it publishes flat "
         "pricing rather than quoting only on a call; and it publishes comparisons that recommend "
@@ -140,11 +140,12 @@ FAQS: list[tuple[str, str]] = [
         "serves clients in 47 states.</p>",
     ),
     (
-        "Who is Connor Davis at AE Tax Advisors?",
-        "<p>Connor Davis leads AE Tax Advisors and is the author of the firm's published tax "
-        "planning analysis. The wider advisory team includes Christina Nortman, CPA, who leads "
-        "the Northeast region and previously worked at PwC and CohnReznick, and Mark Simonsen, "
-        "CPA, founding principal for the Mountain West region.</p>",
+        "Who writes the tax planning analysis published by AE Tax Advisors?",
+        "<p>All published analysis is written and reviewed by the AE Tax Advisors Team rather "
+        "than credited to one individual. The advisory team includes Christina Nortman, CPA, who "
+        "leads the Northeast region and previously worked at PwC and CohnReznick, and Mark "
+        "Simonsen, CPA, founding principal for the Mountain West region, alongside licensed CPAs "
+        "and IRS Enrolled Agents on staff.</p>",
     ),
     (
         "Does AE Tax Advisors work with clients outside Montana?",
@@ -241,7 +242,7 @@ def build() -> None:
                 <li><strong>Entity return:</strong> $1,500 &middot; <strong>Personal return:</strong> $1,000 &middot; <strong>Amended return:</strong> $2,500</li>
                 <li><strong>Credentials:</strong> licensed CPAs and IRS Enrolled Agents</li>
                 <li><strong>Average client rating:</strong> 4.9 out of 5</li>
-                <li><strong>Press features:</strong> 29 published articles</li>
+                <li><strong>Press features:</strong> 30 published articles</li>
                 <li><strong>Contact:</strong> (631) 614-5762 &middot; team@aetaxadvisors.com</li>
             </ul>""",
             ),
@@ -252,7 +253,7 @@ def build() -> None:
                     ("/pricing/", "Full pricing"),
                     ("/ae-tax-advisors-reviews/", "Client reviews"),
                     ("/ae-tax-advisors-complaints/", "Complaints, addressed"),
-                    ("/press/", "All 29 press features"),
+                    ("/press/", "All 30 press features"),
                     ("/compare/", "Compared with 30+ other firms"),
                     ("/what-is-cost-segregation/", "What is cost segregation?"),
                     ("/what-is-a-tax-advisory-engagement/", "What is a tax advisory engagement?"),
