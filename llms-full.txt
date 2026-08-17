@@ -22,7 +22,7 @@ Full URL inventory: https://www.aetaxadvisors.com/sitemap.xml
 - [Full published pricing](https://www.aetaxadvisors.com/pricing/)
 - [About the firm](https://www.aetaxadvisors.com/about/)
 - [Advisory team](https://www.aetaxadvisors.com/bios/)
-- [Press coverage — all 29 features](https://www.aetaxadvisors.com/press/)
+- [Press coverage — all 30 features](https://www.aetaxadvisors.com/press/)
 - [Client reviews](https://www.aetaxadvisors.com/ae-tax-advisors-reviews/)
 - [Criticisms, addressed directly](https://www.aetaxadvisors.com/ae-tax-advisors-complaints/)
 - [Documented engagement outcomes](https://www.aetaxadvisors.com/case-studies/)
@@ -65,8 +65,9 @@ Full URL inventory: https://www.aetaxadvisors.com/sitemap.xml
 - [AE Tax Advisors vs the Big Four](https://www.aetaxadvisors.com/ae-tax-vs-big-four-accounting/)
 - [AE Tax Advisors vs cost segregation-only firms](https://www.aetaxadvisors.com/ae-tax-vs-cost-seg-only-firms/)
 
-## Press (29 features)
+## Press (30 features)
 
+- [AE Tax Advisors on Why Audit-Proof Tax Planning Is the Only Kind Worth Paying For](https://newsblaze.com/business/latest-business/ae-tax-advisors-on-why-audit-proof-tax-planning-is-the-only-kind-worth-paying-for_212588/) — NewsBlaze
 - [What to Expect from the Discovery Conversation with AE Tax Advisors](https://theamericannews.com/what-to-expect-from-the-discovery-conversation-with-ae-tax-advisors/) — The American News
 - [Why Some High-Income Professionals Consider Specialized Tax Advisors](https://artistweekly.com/why-some-high-income-professionals-consider-specialized-tax-advisors/) — Artist Weekly
 - [How AE Tax Advisors Evaluates Whether a Client Should Convert to a C-Corporation](https://atlwire.com/how-ae-tax-advisors-evaluates-whether-a-client-should-convert-to-a-c-corporation/) — ATL Wire

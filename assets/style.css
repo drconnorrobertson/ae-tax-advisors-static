@@ -2039,18 +2039,16 @@ iframe { display: block; }
 }
 
 /* ---------------------------------------------------------------------------
-   LLM findability leads.
+   The `definition-lead` rule that used to live here is gone, along with the
+   markup it styled. Those machine-facing paragraphs were deleted from every
+   page; the same content is now served from /llms.txt, /llms.md and
+   /.well-known/llms.txt. Hiding text in the page for crawlers reads as
+   cloaking, so serving it from dedicated files is both cleaner and safer.
 
-   llm_leads.py injects a `definition-lead` paragraph into pages so retrieval
-   indexes get a clean, self-contained definition of the page subject. That
-   text is for machines, not visitors, so it is hidden here rather than
-   deleted: the copy stays in the DOM and in the served HTML where a crawler
-   or model still reads it, but no reader sees the boxed paragraph.
-
-   Article intros written as visible page copy use `.article-intro` below, so
-   they are unaffected by this rule.
+   The older `.definition-lead` block further up this file is dead but left in
+   place; it costs nothing and would style the class correctly if it were ever
+   reintroduced deliberately.
    --------------------------------------------------------------------------- */
-.definition-lead { display: none !important; }
 
 /* Opening paragraph of a pillar or cluster article. Visible page copy: reads
    as the article's first paragraph, with no box or rule around it. */

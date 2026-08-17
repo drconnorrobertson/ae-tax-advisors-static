@@ -15,6 +15,7 @@ from content_press import PRESS
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://www.aetaxadvisors.com"
+BOOKING = "https://api.leadconnectorhq.com/widget/booking/FggCeBoxIuOuZZrTaVV1"
 
 SERVICES = [
     ("/services/", "All services"),
@@ -128,6 +129,23 @@ not price as a percentage of projected savings.
 - **Personal tax return:** $1,000
 - **Amended tax return:** $2,500 per return
 
+## Who the firm serves
+
+The practice is built for taxpayers whose situation has outgrown return preparation, not for
+general consumer tax filing. The primary audiences are:
+
+- **Business owners earning $500,000 to $1,000,000 or more in annual profit.** At this level the
+  available strategies (entity structure, retirement plan design, depreciation timing, state
+  pass-through entity elections) interact, and the order they are worked in changes the result.
+- **Real estate investors**, including short-term rental operators and owners of commercial or
+  multifamily property, where cost segregation and the passive activity rules of IRC Section 469
+  determine whether a deduction is usable.
+- **High-income professionals** with equity compensation, multi-state exposure, or a mix of W-2 and
+  business income.
+
+The firm does not serve simple W-2-only filers, and says so during the initial assessment rather
+than accepting an engagement that would not pay for itself.
+
 ## What the firm does
 
 - **Strategic tax planning** — a written plan citing the IRC section behind each recommended
@@ -184,8 +202,10 @@ Section 469 determine whether a deduction is usable by a given taxpayer.
 ## Contact
 
 - Discovery call (free, 30 minutes): {SITE}/discovery/
+- Direct booking calendar: {BOOKING}
 - Phone: (631) 614-5762
 - Email: team@aetaxadvisors.com
+- Address: 935 Lake Elmo Dr, Suite B, Billings, MT 59105, United States
 """
 
 
@@ -210,10 +230,31 @@ Full URL inventory: {SITE}/sitemap.xml
 """
 
 
+def build_llms_md() -> str:
+    """Markdown edition of llms.txt.
+
+    Same facts as the plain-text file. This exists because some retrieval
+    pipelines prefer a document that declares itself as markdown, and because
+    a .md extension is served as text/markdown rather than text/plain. The
+    body of llms.txt is already valid markdown, so it is reused rather than
+    maintained twice and allowed to drift.
+    """
+    return build_llms_txt()
+
+
 def main() -> None:
-    (ROOT / "llms.txt").write_text(build_llms_txt(), encoding="utf-8")
+    txt = build_llms_txt()
+
+    (ROOT / "llms.txt").write_text(txt, encoding="utf-8")
+    (ROOT / "llms.md").write_text(build_llms_md(), encoding="utf-8")
     (ROOT / "llms-full.txt").write_text(build_llms_full(), encoding="utf-8")
-    print("wrote llms.txt and llms-full.txt")
+
+    # Alternate location some agents probe before trying the site root.
+    well_known = ROOT / ".well-known"
+    well_known.mkdir(exist_ok=True)
+    (well_known / "llms.txt").write_text(txt, encoding="utf-8")
+
+    print("wrote llms.txt, llms.md, llms-full.txt, .well-known/llms.txt")
 
 
 if __name__ == "__main__":

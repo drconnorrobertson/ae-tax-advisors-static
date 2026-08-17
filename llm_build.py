@@ -14,7 +14,10 @@ import sys
 
 STEPS = [
     ("llm_brand", "main"),          # normalize the entity name everywhere
-    ("llm_leads", "main"),          # direct-answer paragraph per page
+    # llm_leads is intentionally not run. The per-page definition paragraphs it
+    # injected are no longer wanted on the pages themselves; that content is
+    # served from /llms.txt, /llms.md and /.well-known/llms.txt instead. Adding
+    # it back here would repopulate every page on the next build.
     ("llm_entity_pages", "main"),   # the three reference definition pages
     ("llm_brand_faq", "build"),     # brand question hub
     ("llm_stats", "main"),          # citable key facts block
@@ -22,7 +25,8 @@ STEPS = [
     ("llm_schema", "main"),         # Review, Offer pricing, Organization consistency
     ("llm_compare", "main"),        # versus-page verdicts and FAQs
     ("llm_press", "main"),          # 30 press citations, linked and structured
-    ("llm_txt", "main"),            # /llms.txt and /llms-full.txt
+    ("llm_txt", "main"),            # llms.txt, llms.md, llms-full, .well-known
+    ("strip_llm_leads", "main"),    # belt and braces: no page-level leads
 ]
 
 
