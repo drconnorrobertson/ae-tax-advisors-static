@@ -20,6 +20,7 @@ MODULES = [
     "cluster_c5",
     "cluster_c6",
     "cluster_c7",
+    "cluster_c8",
 ]
 
 MIN_PILLAR_WORDS = 2000

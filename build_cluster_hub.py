@@ -16,7 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 MARKER = "cluster-pillar-index"
-MODULES = [f"cluster_c{i}" for i in range(1, 8)]
+MODULES = [f"cluster_c{i}" for i in range(1, 9)]
 
 BLURBS = {
     "s-corp": "Payroll tax, reasonable compensation, and where the savings actually stop.",
@@ -26,6 +26,7 @@ BLURBS = {
     "retirement": "The largest deduction most profitable owners will ever access.",
     "real-estate": "Using property depreciation against operating business income.",
     "planning-vs-prep": "Why compliance and strategy are different engagements.",
+    "exit": "Selling, passing on, or restructuring the business, and the tax that turns on it.",
 }
 
 
@@ -41,7 +42,7 @@ def block(clusters) -> str:
     return f"""    <section class="content-section fade-in-section {MARKER}">
         <div class="container narrow">
             <h2>Tax Strategy Pillar Guides</h2>
-            <p>Seven complete guides for business owners at $500,000 or more of profit.
+            <p>Eight complete guides for business owners at $500,000 or more of profit.
             Each links to the full series of supporting articles on that topic.</p>
             <ul class="related-links">
 {body}
