@@ -238,6 +238,22 @@ BIOS: dict[str, tuple[str, list[str]]] = {
             "operations.",
         ],
     ),
+    "Blake Snodgrass": (
+        "Chief Marketing Officer",
+        [
+            "Blake oversees brand strategy, digital marketing, and client acquisition "
+            "channels across AE Tax Advisors. He brings a data-driven approach to "
+            "performance marketing, content strategy, and paid media, building the "
+            "systems that consistently put qualified business owners and real estate "
+            "investors in front of the advisory team. His work spans paid social "
+            "campaigns, SEO, conversion optimization, and the creative assets that drive "
+            "the firm's growth. Blake manages the marketing team and works closely with "
+            "the revenue and operations teams to make sure every dollar of ad spend "
+            "translates into real advisory engagements.",
+            "<strong>Focus:</strong> Brand strategy, performance marketing, and client "
+            "acquisition.",
+        ],
+    ),
     "Avatar Tripathi": (
         "Head of Social Media",
         [
