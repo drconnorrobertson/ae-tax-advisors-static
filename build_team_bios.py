@@ -226,7 +226,7 @@ BIOS: dict[str, tuple[str, list[str]]] = {
         [
             "Jesse leads revenue strategy and client acquisition across AE Tax Advisors "
             "and its partner brands. He brings over a decade of experience scaling "
-            "professional services firms, building high-performance sales teams, and "
+            "professional services firms, building high-performance revenue teams, and "
             "designing the systems that turn qualified prospects into long-term advisory "
             "clients. His background spans business development, strategic partnerships, "
             "and go-to-market execution in financial services and real estate. At AE Tax, "
@@ -234,8 +234,8 @@ BIOS: dict[str, tuple[str, list[str]]] = {
             "engagement, working directly with the advisory team to make sure every "
             "client relationship starts with the right expectations and ends with "
             "measurable results.",
-            "<strong>Focus:</strong> Revenue strategy, client acquisition, and sales "
-            "operations.",
+            "<strong>Focus:</strong> Revenue strategy, client acquisition, and "
+            "business development.",
         ],
     ),
     "Blake Snodgrass": (
@@ -252,6 +252,21 @@ BIOS: dict[str, tuple[str, list[str]]] = {
             "translates into real advisory engagements.",
             "<strong>Focus:</strong> Brand strategy, performance marketing, and client "
             "acquisition.",
+        ],
+    ),
+    "Jeff Miller": (
+        "Head of Growth and Conversion",
+        [
+            "Jeff designs and optimizes the systems that turn interest into action "
+            "across AE Tax Advisors. He owns funnels, landing pages, conversion "
+            "architecture, and the analytics behind every client touchpoint from first "
+            "click to booked consultation. His background is in performance-driven "
+            "growth strategy, building the infrastructure that consistently moves "
+            "qualified prospects through the pipeline. Jeff works at the intersection of "
+            "marketing and operations, making sure the firm's digital presence converts "
+            "at every stage and that no qualified prospect falls through the cracks.",
+            "<strong>Focus:</strong> Funnels, conversion optimization, and growth "
+            "systems.",
         ],
     ),
     "Avatar Tripathi": (
