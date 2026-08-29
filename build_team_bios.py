@@ -291,6 +291,21 @@ BIOS: dict[str, tuple[str, list[str]]] = {
             "data security.",
         ],
     ),
+    "Yash Ravee": (
+        "Director of Integrations",
+        [
+            "Yash manages the integration layer across AE Tax Advisors, connecting the "
+            "firm's advisory workflows with the CRM, accounting, document management, "
+            "and communication platforms that keep client engagements moving. He designs "
+            "and maintains the data pipelines and system connections that allow the "
+            "advisory, operations, and compliance teams to work from a single source of "
+            "truth. His work ensures that when a client signs, their onboarding, "
+            "document collection, and deliverable tracking happen seamlessly across "
+            "every tool the firm uses.",
+            "<strong>Focus:</strong> Systems integration, workflow automation, and "
+            "platform connectivity.",
+        ],
+    ),
     "Alicia Orellana": (
         "Director of Operations",
         [
