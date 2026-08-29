@@ -221,6 +221,23 @@ BIOS: dict[str, tuple[str, list[str]]] = {
             "experience.",
         ],
     ),
+    "Jesse Gibson": (
+        "Chief Revenue Officer",
+        [
+            "Jesse leads revenue strategy and client acquisition across AE Tax Advisors "
+            "and its partner brands. He brings over a decade of experience scaling "
+            "professional services firms, building high-performance sales teams, and "
+            "designing the systems that turn qualified prospects into long-term advisory "
+            "clients. His background spans business development, strategic partnerships, "
+            "and go-to-market execution in financial services and real estate. At AE Tax, "
+            "Jesse owns the full revenue pipeline from first touch through signed "
+            "engagement, working directly with the advisory team to make sure every "
+            "client relationship starts with the right expectations and ends with "
+            "measurable results.",
+            "<strong>Focus:</strong> Revenue strategy, client acquisition, and sales "
+            "operations.",
+        ],
+    ),
     "Avatar Tripathi": (
         "Head of Social Media",
         [
