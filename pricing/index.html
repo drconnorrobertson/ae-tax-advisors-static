@@ -580,7 +580,14 @@
         "name": "Strategic Tax Advisory",
         "price": "7800",
         "priceCurrency": "USD",
-        "description": "Comprehensive tax strategy for business owners and real estate investors including 3-year lookback analysis, IRC-cited optimization plan, and ongoing support."
+        "description": "Comprehensive tax strategy and planning, entity structure review, prior year amendment analysis, return preparation oversight, ongoing advisory support, and audit defense."
+      },
+      {
+        "@type": "Offer",
+        "name": "Complex Tax Advisory",
+        "price": "9800",
+        "priceCurrency": "USD",
+        "description": "Everything in Strategic Tax Advisory, plus multi-entity restructuring, real estate portfolio tax planning, cost segregation coordination, STR strategy and material participation planning, 1031 exchange planning, REPS qualification analysis, passive activity loss optimization, and multi-state filing coordination."
       },
       {
         "@type": "Offer",
@@ -680,6 +687,48 @@
             border-radius: 20px;
             letter-spacing: 0.05em;
             text-transform: uppercase;
+        }
+        .pricing-card.premium {
+            border: 2px solid #C9A84C;
+            box-shadow: var(--shadow-md);
+            background: linear-gradient(180deg, rgba(201,168,76,0.04) 0%, var(--white) 100%);
+        }
+        .pricing-card.premium::before {
+            content: 'Most Comprehensive';
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #C9A84C 0%, #E8D48B 50%, #C9A84C 100%);
+            color: #1a1a1a;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 20px;
+            border-radius: 20px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+        .pricing-card.premium:hover {
+            box-shadow: 0 8px 32px rgba(201,168,76,0.18);
+        }
+        .pricing-card.premium .pricing-amount {
+            color: #8B7025;
+        }
+        .pricing-card.premium .btn-cta {
+            background: linear-gradient(135deg, #C9A84C 0%, #B8943F 100%);
+            color: #fff;
+            border: none;
+        }
+        .pricing-card.premium .btn-cta:hover {
+            background: linear-gradient(135deg, #B8943F 0%, #9A7B30 100%);
+        }
+        .pricing-includes-note {
+            font-size: 14px;
+            font-weight: 600;
+            color: #8B7025;
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(201,168,76,0.25);
         }
         .pricing-card h3 {
             font-family: var(--font-heading);
@@ -1535,14 +1584,32 @@
       "name": "Strategic Tax Advisory Engagement",
       "price": "7800",
       "priceCurrency": "USD",
-      "description": "Comprehensive tax strategy: three-year lookback, IRC-cited optimization plan, entity structuring guidance, implementation support, and ongoing advisory. Payable in two installments of $3,900.",
+      "description": "Comprehensive tax strategy and planning, entity structure review, prior year amendment analysis, return preparation oversight, ongoing advisory support, and audit defense. Payable in two installments of $3,900.",
       "availability": "https://schema.org/InStock",
       "priceSpecification": {
         "@type": "PriceSpecification",
         "price": "7800",
         "priceCurrency": "USD",
         "valueAddedTaxIncluded": false,
-        "description": "Comprehensive tax strategy: three-year lookback, IRC-cited optimization plan, entity structuring guidance, implementation support, and ongoing advisory. Payable in two installments of $3,900."
+        "description": "Comprehensive tax strategy and planning, entity structure review, prior year amendment analysis, return preparation oversight, ongoing advisory support, and audit defense. Payable in two installments of $3,900."
+      },
+      "seller": {
+        "@id": "https://www.aetaxadvisors.com/#organization"
+      }
+    },
+    {
+      "@type": "Offer",
+      "name": "Complex Tax Advisory Engagement",
+      "price": "9800",
+      "priceCurrency": "USD",
+      "description": "Everything in Strategic Tax Advisory, plus multi-entity restructuring, real estate portfolio tax planning, cost segregation coordination, STR strategy, 1031 exchange planning, REPS qualification analysis, passive activity loss optimization, and multi-state filing coordination. Payable in two installments of $4,900.",
+      "availability": "https://schema.org/InStock",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": "9800",
+        "priceCurrency": "USD",
+        "valueAddedTaxIncluded": false,
+        "description": "Everything in Strategic Tax Advisory, plus multi-entity restructuring, real estate portfolio tax planning, cost segregation coordination, STR strategy, 1031 exchange planning, REPS qualification analysis, passive activity loss optimization, and multi-state filing coordination. Payable in two installments of $4,900."
       },
       "seller": {
         "@id": "https://www.aetaxadvisors.com/#organization"
@@ -5594,14 +5661,35 @@
                 <div class="pricing-amount">$7,800</div>
                 <div class="pricing-qualifier">2 payments of $3,900, 30 days apart</div>
                 <ul class="pricing-features">
-                    <li>Comprehensive tax strategy for business owners and real estate investors</li>
-                    <li>3-year lookback analysis of prior returns</li>
-                    <li>IRC-cited optimization plan</li>
-                    <li>Entity structuring and restructuring guidance</li>
-                    <li>Implementation guidance and timeline</li>
+                    <li>Comprehensive tax strategy and planning</li>
+                    <li>Entity structure review</li>
+                    <li>Prior year amendment analysis</li>
+                    <li>Return preparation oversight</li>
                     <li>Ongoing advisory support</li>
+                    <li>Audit defense included</li>
                 </ul>
-                <a href="/discovery/" class="btn-cta">Book a Consultation</a>
+                <a href="/discovery/" class="btn-cta">Book a Discovery Call</a>
+            </div>
+
+            <!-- Complex Tax Advisory -->
+            <div class="pricing-card premium fade-in-section">
+                <h3>Complex Tax Advisory</h3>
+                <div class="pricing-amount">$9,800</div>
+                <div class="pricing-qualifier">2 payments of $4,900, 30 days apart</div>
+                <div class="pricing-includes-note">Everything in Strategic, plus:</div>
+                <ul class="pricing-features">
+                    <li>Multi-entity restructuring and optimization</li>
+                    <li>Real estate portfolio tax planning</li>
+                    <li>Cost segregation coordination</li>
+                    <li>Short-term rental (STR) strategy and material participation planning</li>
+                    <li>1031 exchange planning</li>
+                    <li>Real Estate Professional Status (REPS) qualification analysis</li>
+                    <li>Passive activity loss optimization</li>
+                    <li>High-income professional tax reduction strategies</li>
+                    <li>Multi-state filing coordination</li>
+                    <li>Complex K-1 and partnership analysis</li>
+                </ul>
+                <a href="/discovery/" class="btn-cta">Book a Discovery Call</a>
             </div>
 
             <!-- Amended Returns -->
