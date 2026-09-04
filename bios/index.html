@@ -1116,7 +1116,7 @@
 </script>
 
     <style>
-    /* ── Team page: redesigned card grid ── */
+    /* ââ Team page: redesigned card grid ââ */
     @keyframes fadeInUp {
         from { opacity: 0; transform: translateY(28px); }
         to   { opacity: 1; transform: translateY(0); }
@@ -1135,8 +1135,8 @@
     .team-member:nth-child(11) { animation-delay: 0.58s; }
     .team-member:nth-child(12) { animation-delay: 0.61s; }
     .team-member:nth-child(n+13){ animation-delay: 0.64s; }
-    .team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin: 48px auto 0; max-width: 1180px; padding: 0 20px; }
-    .team-member { display: flex; flex-direction: column; align-items: center; text-align: center; height: 100%; background: #ffffff; border: 1px solid rgba(27,42,74,0.07); border-radius: 16px; padding: 40px 28px 34px; box-shadow: 0 2px 8px rgba(27,42,74,0.04), 0 8px 24px rgba(27,42,74,0.03); transition: box-shadow 0.35s cubic-bezier(0.4,0,0.2,1), transform 0.35s cubic-bezier(0.4,0,0.2,1), border-color 0.35s ease; }
+    .team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin: 48px auto 0; max-width: 1180px; padding: 0 20px; align-items: stretch; }
+    .team-member { display: flex; flex-direction: column; align-items: center; text-align: center; height: 100%; min-height: 480px; overflow: visible; background: #ffffff; border: 1px solid rgba(27,42,74,0.07); border-radius: 16px; padding: 40px 28px 34px; box-shadow: 0 2px 8px rgba(27,42,74,0.04), 0 8px 24px rgba(27,42,74,0.03); transition: box-shadow 0.35s cubic-bezier(0.4,0,0.2,1), transform 0.35s cubic-bezier(0.4,0,0.2,1), border-color 0.35s ease; }
     .team-member:hover { box-shadow: 0 8px 20px rgba(27,42,74,0.08), 0 20px 44px rgba(27,42,74,0.10); border-color: rgba(197,165,90,0.5); transform: translateY(-5px); }
     .team-member-image { width: 180px; height: 180px; flex: 0 0 180px; border-radius: 50%; overflow: hidden; margin-bottom: 22px; background: #1B2A4A; box-shadow: 0 0 0 3px rgba(197,165,90,0.25), 0 0 0 7px rgba(197,165,90,0.08), 0 4px 16px rgba(27,42,74,0.10); transition: box-shadow 0.35s ease; }
     .team-member:hover .team-member-image { box-shadow: 0 0 0 3px rgba(197,165,90,0.45), 0 0 0 7px rgba(197,165,90,0.15), 0 6px 20px rgba(27,42,74,0.14); }
@@ -2582,9 +2582,9 @@
                     </div>
                     <div class="team-member-content">
                         <h2>Jacques Snyman</h2>
-                        <div class="team-member-title">Head of Operations and Integration</div>
-                        <p>Jacques runs the operational systems behind every engagement, from intake through delivery. His work is the reason a client's experience stays consistent regardless of which advisor or region is handling the file.</p>
-                        <p style="margin-top: 12px;"><strong>Focus:</strong> Operations, systems infrastructure, and client experience.</p>
+                        <div class="team-member-title">Cost Segregation &amp; Tax Analysis</div>
+                        <p>Jacques leads cost segregation studies and tax analysis for AE Tax Advisors' real estate clients. He manages the full lifecycle of each study from property intake through engineering analysis and final report delivery, ensuring every study meets IRS ATG compliance standards.</p>
+                        <p style="margin-top: 12px;"><strong>Focus:</strong> Cost segregation, depreciation analysis, and real estate tax optimization.</p>
                     </div>
                 </div>
 
@@ -2608,9 +2608,9 @@
                     </div>
                     <div class="team-member-content">
                         <h2>Blake Snodgrass</h2>
-                        <div class="team-member-title">Chief Marketing Officer</div>
-                        <p>Blake oversees brand strategy, digital marketing, and client acquisition channels across AE Tax Advisors. He brings a data-driven approach to performance marketing, content strategy, and paid media, building the systems that consistently put qualified business owners and real estate investors in front of the advisory team. His work spans paid social campaigns, SEO, conversion optimization, and the creative assets that drive the firm's growth. Blake manages the marketing team and works closely with the revenue and operations teams to make sure every dollar of ad spend translates into real advisory engagements.</p>
-                        <p style="margin-top: 12px;"><strong>Focus:</strong> Brand strategy, performance marketing, and client acquisition.</p>
+                        <div class="team-member-title">Advisory Associate</div>
+                        <p>Blake supports AE Tax's advisory practice by assisting with client communications, document management, and engagement coordination. He ensures the operational side of each client relationship runs smoothly from onboarding through delivery.</p>
+                        <p style="margin-top: 12px;"><strong>Focus:</strong> Advisory support, client coordination, and engagement operations.</p>
                     </div>
                 </div>
 
@@ -2621,9 +2621,9 @@
                     </div>
                     <div class="team-member-content">
                         <h2>Jeff Miller</h2>
-                        <div class="team-member-title">Head of Growth and Conversion</div>
-                        <p>Jeff designs and optimizes the systems that turn interest into action across AE Tax Advisors. He owns funnels, landing pages, conversion architecture, and the analytics behind every client touchpoint from first click to booked consultation. His background is in performance-driven growth strategy, building the infrastructure that consistently moves qualified prospects through the pipeline. Jeff works at the intersection of marketing and operations, making sure the firm's digital presence converts at every stage and that no qualified prospect falls through the cracks.</p>
-                        <p style="margin-top: 12px;"><strong>Focus:</strong> Funnels, conversion optimization, and growth systems.</p>
+                        <div class="team-member-title">Senior Tax Strategist</div>
+                        <p>Jeff brings deep expertise in tax planning and entity structuring to AE Tax Advisors' client engagements. He works directly with business owners and real estate investors to develop multi-year strategies that minimize tax liability and maximize long-term wealth.</p>
+                        <p style="margin-top: 12px;"><strong>Focus:</strong> Tax strategy, entity structuring, and wealth optimization.</p>
                     </div>
                 </div>
 
@@ -2661,9 +2661,9 @@
                     </div>
                     <div class="team-member-content">
                         <h2>Yash Ravee</h2>
-                        <div class="team-member-title">Director of Integrations</div>
-                        <p>Yash manages the integration layer across AE Tax Advisors, connecting the firm's advisory workflows with the CRM, accounting, document management, and communication platforms that keep client engagements moving. He designs and maintains the data pipelines and system connections that allow the advisory, operations, and compliance teams to work from a single source of truth. His work ensures that when a client signs, their onboarding, document collection, and deliverable tracking happen seamlessly across every tool the firm uses.</p>
-                        <p style="margin-top: 12px;"><strong>Focus:</strong> Systems integration, workflow automation, and platform connectivity.</p>
+                        <div class="team-member-title">Tax Research Analyst</div>
+                        <p>Yash supports the advisory team with in-depth tax research, return analysis, and strategy development. He digs into the details of each client's tax situation to identify optimization opportunities and ensure every recommendation is backed by current IRC guidance.</p>
+                        <p style="margin-top: 12px;"><strong>Focus:</strong> Tax research, return analysis, and strategy support.</p>
                     </div>
                 </div>
 
@@ -2688,7 +2688,7 @@
                     <div class="team-member-content">
                         <h2>James Rollan Rosales</h2>
                         <div class="team-member-title">Executive Assistant</div>
-                        <p>Executive Assistant at AE Tax Advisors focused on administrative execution, operational support, and internal organization, enabling leadership to focus on sales, client relationships, and fulfillment.</p>
+                        <p>Executive Assistant at AE Tax Advisors focused on administrative execution, operational support, and internal organization, enabling leadership to focus on client relationships, advisory delivery, and fulfillment.</p>
                     </div>
                 </div>
 
@@ -2712,9 +2712,9 @@
                     </div>
                     <div class="team-member-content">
                         <h2>Jem Elizshel Alcantara</h2>
-                        <div class="team-member-title">Administrative Associate</div>
-                        <p>Jem supports daily operations, client onboarding, and communications, and is often the person keeping an engagement moving between milestones. Her work makes sure nothing stalls between a client's first contact and the delivered plan.</p>
-                        <p style="margin-top: 12px;"><strong>Focus:</strong> Operations, onboarding, and client communications.</p>
+                        <div class="team-member-title">Operations Support</div>
+                        <p>Jem supports AE Tax's daily operations by managing document intake, administrative tracking, and internal coordination. He keeps the back-office running so the advisory team can focus on delivering results for clients.</p>
+                        <p style="margin-top: 12px;"><strong>Focus:</strong> Document management, administrative coordination, and operational support.</p>
                     </div>
 
                 <!-- Lee-Anne Naidoo -->
@@ -2738,7 +2738,7 @@
                     <div class="team-member-content">
                         <h2>Jared Newman</h2>
                         <div class="team-member-title">Director of Technical Integrations</div>
-                        <p>Jared oversees the technical infrastructure that powers AE Tax Advisors' client operations Ã¢ÂÂ from automated workflows and system integrations to data pipelines and platform optimization. He ensures the technology behind every engagement runs seamlessly so the advisory team can focus on delivering results.</p>
+                        <p>Jared oversees the technical infrastructure that powers AE Tax Advisors' client operations ÃÂ¢ÃÂÃÂ from automated workflows and system integrations to data pipelines and platform optimization. He ensures the technology behind every engagement runs seamlessly so the advisory team can focus on delivering results.</p>
                         <p style="margin-top: 12px;"><strong>Focus:</strong> Technical integrations, automation, and systems architecture.</p>
                     </div>
                 </div>
@@ -2766,6 +2766,32 @@
                         <div class="team-member-title">Client Relationship Manager</div>
                         <p>Theo builds and maintains strong relationships with AE Tax clients throughout their engagement. He serves as a dedicated point of contact, ensuring client needs are communicated to the advisory team and that every deliverable meets expectations.</p>
                         <p style="margin-top: 12px"><strong>Focus:</strong> Client relationships, account management, and engagement oversight.</p>
+                    </div>
+                </div>
+
+                <!-- Nic Bellingham -->
+                <div class="team-member">
+                    <div class="team-member-image">
+                        <img src="/assets/images/team/nic-bellingham.png" alt="Nic Bellingham" onerror="this.onerror=null;this.src='/assets/images/team/nic-bellingham.svg'">
+                    </div>
+                    <div class="team-member-content">
+                        <h2>Nic Bellingham</h2>
+                        <div class="team-member-title">Enrollment Specialist</div>
+                        <p>Nic helps prospective clients understand the value AE Tax Advisors can deliver for their specific situation. With a focus on listening first, he ensures every new engagement starts with clarity on goals, expectations, and the path to meaningful tax savings.</p>
+                        <p style="margin-top: 12px;"><strong>Focus:</strong> Client enrollment, prospect engagement, and onboarding coordination.</p>
+                    </div>
+                </div>
+
+                <!-- Ruben Corona -->
+                <div class="team-member">
+                    <div class="team-member-image">
+                        <img src="/assets/images/team/ruben-corona.jpg" alt="Ruben Corona" loading="lazy" width="180" height="180">
+                    </div>
+                    <div class="team-member-content">
+                        <h2>Ruben Corona</h2>
+                        <div class="team-member-title">Enrollment Consultant</div>
+                        <p>Ruben connects with prospective clients to understand their tax situation and determine how AE Tax Advisors can help. He manages discovery calls, qualifies opportunities, and ensures every new engagement starts on the right foot.</p>
+                        <p><strong>Focus:</strong> Client enrollment, discovery calls, and prospect qualification.</p>
                     </div>
                 </div>
                 </div>
@@ -2818,18 +2844,6 @@
                     </div>
                 </div>
 
-                <!-- Nic Bellingham -->
-                <div class="team-member">
-                    <div class="team-member-image">
-                        <img src="/assets/images/team/nic-bellingham.png" alt="Nic Bellingham" onerror="this.onerror=null;this.src='/assets/images/team/nic-bellingham.svg'">
-                    </div>
-                    <div class="team-member-content">
-                        <h2>Nic Bellingham</h2>
-                        <div class="team-member-title">Enrollment Specialist</div>
-                        <p>Nic helps prospective clients understand the value AE Tax Advisors can deliver for their specific situation. With a focus on listening first, he ensures every new engagement starts with clarity on goals, expectations, and the path to meaningful tax savings.</p>
-                        <p style="margin-top: 12px;"><strong>Focus:</strong> Client enrollment, prospect engagement, and onboarding coordination.</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
