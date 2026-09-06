@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cost Segregation Calculator | Free Estimate | AE Tax Advisors</title>
+<meta name="description" content="Free cost segregation calculator. Estimate your Year 1 tax savings from a cost seg study on your rental property, Airbnb, or commercial building.">
+<link rel="canonical" href="https://www.aetaxadvisors.com/tools/cost-seg-calculator/">
+<meta property="og:title" content="Cost Segregation Calculator | Free Estimate | AE Tax Advisors">
+<meta property="og:description" content="Free cost segregation calculator. Estimate your Year 1 tax savings from a cost seg study on your rental property, Airbnb, or commercial building.">
+<meta property="og:url" content="https://www.aetaxadvisors.com/tools/cost-seg-calculator/">
+<meta property="og:image" content="https://www.aetaxadvisors.com/assets/ae-tax-logo.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AE Tax Advisors">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cost Segregation Calculator | Free Estimate | AE Tax Advisors">
+<meta name="twitter:description" content="Free cost segregation calculator. Estimate your Year 1 tax savings from a cost seg study on your rental property, Airbnb, or commercial building.">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Cost Segregation Calculator",
+      "description": "Free online cost segregation calculator that estimates Year 1 tax savings from accelerated depreciation on rental properties, Airbnbs, and commercial buildings.",
+      "provider": {
+        "@type": "ProfessionalService",
+        "name": "AE Tax Advisors",
+        "url": "https://www.aetaxadvisors.com",
+        "telephone": "+1-631-614-5762",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "935 Lake Elmo Dr, Suite B",
+          "addressLocality": "Billings",
+          "addressRegion": "MT",
+          "postalCode": "59105",
+          "addressCountry": "US"
+        }
+      },
+      "serviceType": "Cost Segregation Analysis",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "url": "https://www.aetaxadvisors.com/tools/cost-seg-calculator/"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How accurate is this cost segregation calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This calculator provides a reliable estimate based on the industry-standard 35% reclassification formula. Actual results from a formal cost segregation study may vary depending on property-specific factors such as construction materials, improvements, and land value allocation. The calculator is designed to give property owners a strong starting point before commissioning a full engineering-based study."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 35% reclassification formula used in cost segregation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 35% formula is a widely used benchmark in the cost segregation industry. It estimates that approximately 35% of a property's purchase price can be reclassified from long-life structural components (27.5 or 39 years) into shorter-life asset categories (5, 7, and 15 years). This reclassification allows property owners to accelerate depreciation deductions and reduce taxable income significantly in Year 1."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the OBBBA make 100% bonus depreciation permanent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The One Big Beautiful Bill Act (OBBBA) restored and made permanent 100% first-year bonus depreciation for qualifying property. This means the entire reclassified amount from a cost segregation study can be deducted in the year the property is placed in service, with no phasedown schedule."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of properties qualify for cost segregation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most income-producing properties qualify for a cost segregation study. This includes short-term rentals (Airbnb, VRBO), long-term rental properties, commercial office buildings, retail spaces, warehouses, hotels, restaurants, medical facilities, and mixed-use properties. The property must be used for business or investment purposes under IRC Section 167."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a minimum property value for cost segregation to be worthwhile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While there is no legal minimum, most tax professionals recommend cost segregation for properties valued at $250,000 or more. Below that threshold, the study fees may outweigh the incremental tax benefit. However, the actual breakeven depends on your marginal tax rate, property type, and state tax situation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I do a cost segregation study on a property I already own?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If you placed your property in service in a prior year and did not perform a cost segregation study at that time, you can file IRS Form 3115 (Application for Change in Accounting Method) to claim the missed depreciation as a one-time catch-up deduction. This is a powerful strategy for existing property owners who want to recapture years of unclaimed accelerated depreciation without amending prior returns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does property type affect the cost segregation calculation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Property type determines the baseline recovery period. Long-term residential rentals use a 27.5-year recovery period under IRC Section 168(c). Short-term rentals and commercial properties use a 39-year recovery period. A longer baseline recovery period means a greater spread between the original depreciation schedule and the accelerated schedule, which can result in larger Year 1 deductions after reclassification."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.aetaxadvisors.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://www.aetaxadvisors.com/tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cost Segregation Calculator",
+          "item": "https://www.aetaxadvisors.com/tools/cost-seg-calculator/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+<div class="header-inner">
+<a href="/" class="logo">
+<img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;" loading="eager" fetchpriority="high" decoding="async" width="180">
+</a>
+<button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
+<span></span><span></span><span></span>
+</button>
+<nav class="nav-links" id="primary-nav">
+<a href="/" class="nav-link">Home</a>
+<div class="nav-dropdown">
+<a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
+<div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax Advisors</a>
+<a href="/bios/" class="dropdown-item">Our Team</a>
+</div>
+</div>
+<div class="nav-dropdown">
+<a href="/services/" class="nav-link">Services <span class="arrow">&#9662;</span></a>
+<div class="dropdown-content"><a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax</a>
+<a href="/real-estate-tax-planning/" class="dropdown-item">Real Estate Tax Planning</a>
+<a href="/short-term-rental-tax-strategy/" class="dropdown-item">Short-Term Rental Tax Strategy</a>
+<a href="/rental-property-tax-planning/" class="dropdown-item">Rental Property Tax Planning</a>
+<a href="/cost-segregation-study/" class="dropdown-item">Cost Segregation Study</a>
+<a href="/real-estate-investor-cpa/" class="dropdown-item">CPA for Real Estate Investors</a>
+<a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
+<a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
+<a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
+<a href="/cost-segregation-studies-for-real-estate-investors/" class="dropdown-item">Cost Segregation Studies (Detailed)</a>
+<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity</a>
+<a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
+<a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+</div>
+</div>
+<div class="nav-dropdown">
+<a href="/cost-segregation-airbnb/" class="nav-link">Cost Segregation <span class="arrow">&#9662;</span></a>
+<div class="dropdown-content"><a href="/cost-segregation-airbnb/" class="dropdown-item">Cost Seg for Airbnb/STR</a>
+<a href="/str-tax-loophole/" class="dropdown-item">STR Tax Loophole</a>
+<a href="/cost-segregation-calculator/" class="dropdown-item">Cost Seg Calculator</a>
+<a href="/bonus-depreciation-rental-property/" class="dropdown-item">Bonus Depreciation</a>
+<a href="/form-3115-cost-segregation/" class="dropdown-item">Form 3115 Catch-Up</a>
+<a href="/str-vs-ltr-tax-treatment/" class="dropdown-item">STR vs LTR Tax Treatment</a>
+</div>
+</div>
+<a href="/case-studies/" class="nav-link">Case Studies</a>
+<a href="/pricing/" class="nav-link">Pricing</a>
+<div class="nav-dropdown">
+<a href="#" class="nav-link">Resources <span class="arrow">&#9662;</span></a>
+<div class="dropdown-content"><a href="/blog/" class="dropdown-item">Blog</a>
+<a href="/compare/" class="dropdown-item">Compare Firms</a>
+<a href="/calculators/" class="dropdown-item">Tax Calculators</a>
+<a href="/faq/" class="dropdown-item">FAQ</a>
+<a href="/guides/" class="dropdown-item">Guides &amp; Whitepapers</a>
+<a href="/glossary/" class="dropdown-item">Glossary</a>
+<a href="/sitemap/" class="dropdown-item">Site Map</a>
+</div>
+</div>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/contact/" class="nav-link">Contact Us</a>
+<a href="/discovery/" class="btn-cta nav-cta">Request a Consultation</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="page-header"><div class="container">
+<div class="breadcrumbs"><a href="/">Home</a> &raquo; <a href="/tools/">Tools</a> &raquo; Cost Segregation Calculator</div>
+<h1>Cost Segregation Calculator: Estimate Your Year 1 Tax Savings</h1>
+<p class="blog-meta">Published on September 6, 2026 | Cost Segregation | AE Tax Advisors</p>
+<hr style="margin: 48px 0; border: none; border-top: 1px solid #e5e7eb;">
+<div style="background: #f0f4ff; border-left: 4px solid #2563eb; padding: 24px 28px; border-radius: 8px; margin-top: 32px;">
+<h3 style="margin-top: 0; color: #1e3a8a;">Find Out What This Is Worth in Your Situation</h3>
+<p style="margin-bottom: 20px;">Every strategy on this page depends on your income, your entity structure, and your state. Book a call and we will tell you what applies to you and what it is worth.</p>
+<iframe src="https://api.leadconnectorhq.com/widget/booking/5bPhybfzi6mKUTgn5GMg" allow="payment" style="width:100%;border:none;overflow:hidden;min-height:700px;border-radius:8px;background:#fff;" scrolling="no" title="Book a tax strategy call with AE Tax Advisors"></iframe>
+<p style="margin-top:18px;margin-bottom:0;font-size:15px;">Prefer to talk first? Call <a href="tel:+16316145762">(631) 614-5762</a> or email <a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a>.</p>
+</div>
+</div></section>
+
+<section class="content-section" style="padding: 3rem 0;">
+<div class="container" style="max-width: 900px; margin: 0 auto; padding: 0 1.5rem;">
+
+<!-- Calculator Widget -->
+<div id="cost-seg-calc" style="background: #ffffff; border: 2px solid #e5e7eb; border-radius: 12px; padding: 2.5rem; margin-bottom: 3rem; box-shadow: 0 4px 24px rgba(0,0,0,0.06);">
+<h2 style="margin-top: 0; color: #1a3a5c; font-family: 'Playfair Display', serif; font-size: 1.75rem; text-align: center; margin-bottom: 0.5rem;">Cost Segregation Savings Estimator</h2>
+<p style="text-align: center; color: #6b7280; margin-bottom: 2rem; font-size: 0.95rem;">Enter your property details below to see your estimated Year 1 tax savings.</p>
+
+<div style="display: grid; gap: 1.25rem; margin-bottom: 1.5rem;">
+<div>
+<label for="purchase-price" style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #1a3a5c; font-size: 0.95rem;">Purchase Price</label>
+<input type="text" id="purchase-price" placeholder="$500,000" style="width: 100%; padding: 0.75rem 1rem; border: 1.5px solid #d1d5db; border-radius: 8px; font-size: 1rem; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#2563eb'" onblur="this.style.borderColor='#d1d5db'">
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;">
+<div>
+<label for="property-type" style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #1a3a5c; font-size: 0.95rem;">Property Type</label>
+<select id="property-type" style="width: 100%; padding: 0.75rem 1rem; border: 1.5px solid #d1d5db; border-radius: 8px; font-size: 1rem; box-sizing: border-box; background: #fff; cursor: pointer;">
+<option value="str">Short-Term Rental (STR)</option>
+<option value="ltr">Long-Term Rental (LTR)</option>
+<option value="commercial">Commercial</option>
+</select>
+</div>
+<div>
+<label for="state-select" style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #1a3a5c; font-size: 0.95rem;">State</label>
+<select id="state-select" style="width: 100%; padding: 0.75rem 1rem; border: 1.5px solid #d1d5db; border-radius: 8px; font-size: 1rem; box-sizing: border-box; background: #fff; cursor: pointer;">
+<option value="0">Select your state</option>
+<option value="5.00">Alabama (5.00%)</option>
+<option value="0">Alaska (0%)</option>
+<option value="2.50">Arizona (2.50%)</option>
+<option value="4.40">Arkansas (4.40%)</option>
+<option value="13.30">California (13.30%)</option>
+<option value="4.40">Colorado (4.40%)</option>
+<option value="6.99">Connecticut (6.99%)</option>
+<option value="6.60">Delaware (6.60%)</option>
+<option value="0">Florida (0%)</option>
+<option value="5.75">Georgia (5.75%)</option>
+<option value="11.00">Hawaii (11.00%)</option>
+<option value="5.80">Idaho (5.80%)</option>
+<option value="4.95">Illinois (4.95%)</option>
+<option value="3.05">Indiana (3.05%)</option>
+<option value="5.70">Iowa (5.70%)</option>
+<option value="5.70">Kansas (5.70%)</option>
+<option value="4.50">Kentucky (4.50%)</option>
+<option value="4.25">Louisiana (4.25%)</option>
+<option value="7.15">Maine (7.15%)</option>
+<option value="5.75">Maryland (5.75%)</option>
+<option value="9.00">Massachusetts (9.00%)</option>
+<option value="4.25">Michigan (4.25%)</option>
+<option value="9.85">Minnesota (9.85%)</option>
+<option value="5.00">Mississippi (5.00%)</option>
+<option value="4.95">Missouri (4.95%)</option>
+<option value="6.75">Montana (6.75%)</option>
+<option value="6.64">Nebraska (6.64%)</option>
+<option value="0">Nevada (0%)</option>
+<option value="0">New Hampshire (0%)</option>
+<option value="10.75">New Jersey (10.75%)</option>
+<option value="5.90">New Mexico (5.90%)</option>
+<option value="10.90">New York (10.90%)</option>
+<option value="4.50">North Carolina (4.50%)</option>
+<option value="2.50">North Dakota (2.50%)</option>
+<option value="3.50">Ohio (3.50%)</option>
+<option value="4.75">Oklahoma (4.75%)</option>
+<option value="9.90">Oregon (9.90%)</option>
+<option value="3.07">Pennsylvania (3.07%)</option>
+<option value="5.99">Rhode Island (5.99%)</option>
+<option value="6.40">South Carolina (6.40%)</option>
+<option value="0">South Dakota (0%)</option>
+<option value="0">Tennessee (0%)</option>
+<option value="0">Texas (0%)</option>
+<option value="4.65">Utah (4.65%)</option>
+<option value="8.75">Vermont (8.75%)</option>
+<option value="5.75">Virginia (5.75%)</option>
+<option value="7.00">Washington (7.00% cap gains)</option>
+<option value="6.50">West Virginia (6.50%)</option>
+<option value="7.65">Wisconsin (7.65%)</option>
+<option value="0">Wyoming (0%)</option>
+<option value="8.95">District of Columbia (8.95%)</option>
+</select>
+</div>
+</div>
+</div>
+
+<button id="calc-btn" onclick="calculateCostSeg()" style="width: 100%; padding: 1rem; background: linear-gradient(135deg, #1a3a5c, #2563eb); color: #fff; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; letter-spacing: 0.02em;" onmouseover="this.style.transform='translateY(-1px)';this.style.boxShadow='0 6px 20px rgba(37,99,235,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+Calculate My Savings
+</button>
+
+<div id="calc-results" style="display: none; margin-top: 2rem; background: linear-gradient(135deg, #f0f4ff, #e8f0fe); border-radius: 10px; padding: 2rem; border: 1px solid #bfdbfe;">
+<h3 style="margin-top: 0; color: #1a3a5c; font-size: 1.25rem; text-align: center; margin-bottom: 1.5rem;">Your Estimated Year 1 Tax Savings</h3>
+<div style="display: grid; gap: 1rem;">
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; background: #fff; border-radius: 8px; border-left: 4px solid #6b7280;">
+<span style="color: #374151; font-weight: 500;">Purchase Price</span>
+<span id="res-purchase" style="font-weight: 700; color: #1a3a5c; font-size: 1.1rem;"></span>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; background: #fff; border-radius: 8px; border-left: 4px solid #2563eb;">
+<span style="color: #374151; font-weight: 500;">Eligible Reclassified Amount (35%)</span>
+<span id="res-reclassified" style="font-weight: 700; color: #2563eb; font-size: 1.1rem;"></span>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; background: #fff; border-radius: 8px; border-left: 4px solid #7c3aed;">
+<span style="color: #374151; font-weight: 500;">Year 1 Bonus Depreciation Deduction</span>
+<span id="res-deduction" style="font-weight: 700; color: #7c3aed; font-size: 1.1rem;"></span>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; background: #fff; border-radius: 8px; border-left: 4px solid #059669;">
+<span style="color: #374151; font-weight: 500;">Estimated Federal Tax Savings (37%)</span>
+<span id="res-federal" style="font-weight: 700; color: #059669; font-size: 1.1rem;"></span>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; background: #fff; border-radius: 8px; border-left: 4px solid #d97706;">
+<span style="color: #374151; font-weight: 500;">Estimated State Tax Savings</span>
+<span id="res-state" style="font-weight: 700; color: #d97706; font-size: 1.1rem;"></span>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; background: #1a3a5c; border-radius: 8px; margin-top: 0.5rem;">
+<span style="color: #fff; font-weight: 600; font-size: 1.1rem;">Total Estimated Year 1 Tax Savings</span>
+<span id="res-total" style="font-weight: 700; color: #22d3ee; font-size: 1.35rem;"></span>
+</div>
+</div>
+<div style="text-align: center; margin-top: 1.5rem;">
+<p style="color: #6b7280; font-size: 0.85rem; margin-bottom: 1rem;">This is an estimate based on the 35% reclassification formula. Actual savings depend on your property, income, and tax situation.</p>
+<a href="/discovery/" style="display: inline-block; background: linear-gradient(135deg, #1a3a5c, #2563eb); color: #fff; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1.05rem; transition: transform 0.15s;" onmouseover="this.style.transform='translateY(-1px)'" onmouseout="this.style.transform='none'">Get Your Free Estimate</a>
+</div>
+</div>
+</div>
+
+<!-- Educational Content -->
+<article>
+<h2>What Is a Cost Segregation Calculator?</h2>
+
+<p>A cost segregation calculator is a tool that estimates how much you could save in taxes by reclassifying components of your property into shorter depreciation categories. Under the Internal Revenue Code (IRC) Section 168, different types of property are assigned different recovery periods. Most buildings are depreciated over 27.5 years (residential rental property) or 39 years (nonresidential real property). A <a href="/cost-segregation-study/">cost segregation study</a> identifies components of the building that qualify for accelerated depreciation over 5, 7, or 15 years instead.</p>
+
+<p>This calculator uses the industry-standard 35% reclassification formula. It estimates that roughly 35% of a property's purchase price can be moved from the long-life structural category into shorter-life asset classes. When paired with 100% first-year <a href="/bonus-depreciation-rental-property/">bonus depreciation</a>, which the One Big Beautiful Bill Act (OBBBA) has now made permanent, the entire reclassified amount can be deducted in the tax year the property is placed in service.</p>
+
+<h2>How the 35% Reclassification Formula Works</h2>
+
+<p>The 35% formula is not arbitrary. It reflects decades of engineering-based cost segregation studies across thousands of properties. On average, approximately 35% of a building's cost is attributable to components that fall under shorter MACRS recovery periods. These components include items such as:</p>
+
+<ul>
+<li><strong>5-year property:</strong> Appliances, carpeting, cabinetry, decorative lighting, window treatments, and certain electrical components dedicated to specific equipment.</li>
+<li><strong>7-year property:</strong> Office furniture, specialty fixtures, and movable partitions.</li>
+<li><strong>15-year property:</strong> Land improvements including parking lots, sidewalks, landscaping, fencing, drainage systems, and exterior signage.</li>
+</ul>
+
+<p>The remaining 65% stays classified as structural real property at either the 27.5-year or 39-year recovery period, depending on the <a href="/str-vs-ltr-tax-treatment/">property type and its tax treatment</a>.</p>
+
+<h2>Why Property Type Matters</h2>
+
+<p>The distinction between short-term rentals (STRs), long-term rentals (LTRs), and commercial properties is important for two reasons.</p>
+
+<p>First, the baseline recovery period differs. Under IRC Section 168(c), residential rental property uses a 27.5-year recovery period, while nonresidential real property (including commercial buildings and certain STR properties) uses a 39-year period. A longer baseline recovery period means that more depreciation is being deferred under the standard schedule, so the benefit of accelerating it is proportionally greater.</p>
+
+<p>Second, the tax treatment of losses varies. For <a href="/short-term-rental-tax-strategy/">short-term rental properties</a> where the average rental period is 7 days or fewer, the IRS treats the activity as a business rather than a passive rental activity under IRC Section 469(c)(2). This distinction can allow STR owners who materially participate to use depreciation losses against ordinary W-2 or business income, a strategy often referred to as the <a href="/str-tax-loophole/">STR tax loophole</a>.</p>
+
+<h2>The Impact of 100% Bonus Depreciation Under the OBBBA</h2>
+
+<p>Prior to the OBBBA, bonus depreciation was scheduled to phase down by 20% per year starting in 2023. The One Big Beautiful Bill Act reversed this phasedown and restored 100% first-year bonus depreciation permanently for qualifying property placed in service after the enactment date. This applies to the reclassified personal property and land improvements identified in a cost segregation study.</p>
+
+<p>For property owners, this means the full 35% of the purchase price that gets reclassified can now be deducted entirely in Year 1. On a $1,000,000 property, that translates to a $350,000 depreciation deduction in the first year alone, rather than spreading it across 5, 7, or 15 years. The tax savings at a combined federal and state rate can be substantial.</p>
+
+<h2>How to Use This Calculator</h2>
+
+<p>Using the cost segregation calculator above is straightforward. Enter the purchase price of your property, select whether it is a short-term rental, long-term rental, or commercial property, and choose your state. The calculator will show you the estimated reclassified amount, the Year 1 bonus depreciation deduction, and the approximate federal and state tax savings based on the top marginal rates.</p>
+
+<p>Keep in mind that this calculator assumes you are in the top federal bracket (37%) and applies the top marginal state income tax rate. If your taxable income places you in a lower bracket, your actual savings will be proportionally lower. For a precise analysis tailored to your tax profile, <a href="/discovery/">schedule a free discovery call</a> with the AE Tax Advisors team.</p>
+
+<h2>When Cost Segregation Makes Sense</h2>
+
+<p>Cost segregation is most valuable for property owners who have significant taxable income to offset. The depreciation deduction created by a cost seg study reduces taxable income, which reduces the tax owed. The strategy works especially well for:</p>
+
+<ul>
+<li><strong>High-income W-2 earners</strong> who own STR properties and qualify for the material participation exception under IRC Section 469.</li>
+<li><strong>Business owners</strong> who purchase commercial buildings for their operations or as investment properties.</li>
+<li><strong><a href="/rental-property-tax-planning/">Rental property investors</a></strong> with a portfolio of residential rentals who qualify as <a href="/reps-real-estate-professional-status/">real estate professionals</a> under IRC Section 469(c)(7).</li>
+<li><strong>Existing property owners</strong> who missed cost segregation in prior years and want to capture the benefit retroactively through <a href="/form-3115-cost-segregation/">IRS Form 3115</a>.</li>
+</ul>
+
+<p>If you have already placed a property in service without performing a cost segregation study, the IRS allows you to file Form 3115 (Application for Change in Accounting Method) to claim the cumulative missed depreciation as a single "catch-up" deduction in the current year. This is a Section 481(a) adjustment that does not require amending prior year returns.</p>
+
+<h2>What Happens After the Calculator</h2>
+
+<p>This calculator provides a reliable estimate, but a formal cost segregation study goes much deeper. A professional study involves an engineering analysis of the property's construction, detailed component identification, and a report that meets IRS Audit Techniques Guide (ATG) standards. The resulting documentation supports the reclassifications on your tax return and provides the backup needed in the event of an IRS examination.</p>
+
+<p>AE Tax Advisors provides <a href="/cost-segregation-studies-for-real-estate-investors/">comprehensive cost segregation studies</a> for properties nationwide. Each study is prepared in accordance with IRC Section 168, Treasury Regulation 1.168, and the IRS Cost Segregation ATG. To move from an estimate to a formal study, <a href="/discovery/">book a discovery call</a> and the team will walk you through the process, timeline, and pricing.</p>
+
+<hr style="margin: 3rem 0; border: none; border-top: 1px solid #e5e7eb;">
+<div style="background:#f8f9fa;border-left:4px solid #1a3a5c;padding:1.5rem 2rem;border-radius:0 8px 8px 0;margin-bottom:2rem;">
+<p style="margin:0 0 0.75rem;font-weight:600;font-size:1.1rem;">Ready to Put This Strategy to Work?</p>
+<p style="margin:0 0 1rem;">AE Tax Advisors builds custom tax strategies for business owners and real estate investors. Schedule a free discovery call to see how much you could save.</p>
+<a href="/discovery/" style="display:inline-block;background:#1a3a5c;color:#fff;padding:0.75rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600;">Schedule Your Discovery Call</a>
+</div>
+<p style="font-size:0.85rem;color:#6b7280;margin-top:2rem;"><em>This article is for informational purposes only and does not constitute legal or tax advice. Consult a qualified tax professional regarding your specific circumstances. AE Tax Advisors, 935 Lake Elmo Dr, Suite B, Billings, MT 59105. Phone: (631) 614-5762.</em></p>
+
+<!-- Related Reading -->
+<h2 style="margin-top: 3rem;">Related Reading</h2>
+<ul style="line-height: 2;">
+<li><a href="/cost-segregation-study/">What Is a Cost Segregation Study?</a></li>
+<li><a href="/bonus-depreciation-rental-property/">Bonus Depreciation for Rental Property Owners</a></li>
+<li><a href="/str-tax-loophole/">The STR Tax Loophole Explained</a></li>
+<li><a href="/form-3115-cost-segregation/">Form 3115: Claiming Missed Cost Segregation Deductions</a></li>
+<li><a href="/str-vs-ltr-tax-treatment/">STR vs. LTR Tax Treatment Comparison</a></li>
+<li><a href="/reps-real-estate-professional-status/">Real Estate Professional Status (REPS) Guide</a></li>
+<li><a href="/case-studies/">Cost Segregation Case Studies</a></li>
+</ul>
+
+<!-- FAQ Section -->
+<h2 style="margin-top: 3rem;">Frequently Asked Questions</h2>
+
+<div style="margin-top: 1.5rem;">
+<h3 style="color: #1a3a5c; font-size: 1.1rem; margin-bottom: 0.5rem;">How accurate is this cost segregation calculator?</h3>
+<p>This calculator provides a reliable estimate based on the industry-standard 35% reclassification formula. Actual results from a formal cost segregation study may vary depending on property-specific factors such as construction materials, improvements, and land value allocation. The calculator is designed to give property owners a strong starting point before commissioning a full engineering-based study.</p>
+
+<h3 style="color: #1a3a5c; font-size: 1.1rem; margin-bottom: 0.5rem;">What is the 35% reclassification formula used in cost segregation?</h3>
+<p>The 35% formula is a widely used benchmark in the cost segregation industry. It estimates that approximately 35% of a property's purchase price can be reclassified from long-life structural components (27.5 or 39 years) into shorter-life asset categories (5, 7, and 15 years). This reclassification allows property owners to accelerate depreciation deductions and reduce taxable income significantly in Year 1.</p>
+
+<h3 style="color: #1a3a5c; font-size: 1.1rem; margin-bottom: 0.5rem;">Does the OBBBA make 100% bonus depreciation permanent?</h3>
+<p>Yes. The One Big Beautiful Bill Act (OBBBA) restored and made permanent 100% first-year bonus depreciation for qualifying property. This means the entire reclassified amount from a cost segregation study can be deducted in the year the property is placed in service, with no phasedown schedule.</p>
+
+<h3 style="color: #1a3a5c; font-size: 1.1rem; margin-bottom: 0.5rem;">What types of properties qualify for cost segregation?</h3>
+<p>Most income-producing properties qualify for a cost segregation study. This includes short-term rentals (Airbnb, VRBO), long-term rental properties, commercial office buildings, retail spaces, warehouses, hotels, restaurants, medical facilities, and mixed-use properties. The property must be used for business or investment purposes under IRC Section 167.</p>
+
+<h3 style="color: #1a3a5c; font-size: 1.1rem; margin-bottom: 0.5rem;">Is there a minimum property value for cost segregation to be worthwhile?</h3>
+<p>While there is no legal minimum, most tax professionals recommend cost segregation for properties valued at $250,000 or more. Below that threshold, the study fees may outweigh the incremental tax benefit. However, the actual breakeven depends on your marginal tax rate, property type, and state tax situation.</p>
+
+<h3 style="color: #1a3a5c; font-size: 1.1rem; margin-bottom: 0.5rem;">Can I do a cost segregation study on a property I already own?</h3>
+<p>Yes. If you placed your property in service in a prior year and did not perform a cost segregation study at that time, you can file IRS Form 3115 (Application for Change in Accounting Method) to claim the missed depreciation as a one-time catch-up deduction. This is a powerful strategy for existing property owners who want to recapture years of unclaimed accelerated depreciation without amending prior returns.</p>
+
+<h3 style="color: #1a3a5c; font-size: 1.1rem; margin-bottom: 0.5rem;">How does property type affect the cost segregation calculation?</h3>
+<p>Property type determines the baseline recovery period. Long-term residential rentals use a 27.5-year recovery period under IRC Section 168(c). Short-term rentals and commercial properties use a 39-year recovery period. A longer baseline recovery period means a greater spread between the original depreciation schedule and the accelerated schedule, which can result in larger Year 1 deductions after reclassification.</p>
+</div>
+
+</article>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="footer-inner">
+<div class="footer-col footer-brand">
+<a href="/" class="footer-logo"><img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" width="180" height="60" loading="lazy" decoding="async" style="object-fit: contain;"></a>
+<p>Strategic tax advisory for business owners and real estate investors. Headquartered in Billings, Montana, serving clients nationwide.</p>
+<div class="footer-social">
+<a href="https://www.linkedin.com/company/ae-tax-advisors" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+<a href="https://www.facebook.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+<a href="https://twitter.com/aetaxadvisors" target="_blank" rel="noopener" aria-label="Twitter/X"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+</div>
+<div class="footer-trust-badges">
+<span class="trust-badge">IRS Enrolled Agents</span>
+<span class="trust-badge">Licensed CPAs</span>
+<span class="trust-badge">SOC 2 Compliant</span>
+<a href="/press/" class="trust-badge" style="text-decoration:none;color:rgba(255,255,255,0.5);">As Featured In 30 Publications</a>
+</div>
+<p class="footer-address" style="margin-top:16px;">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
+<p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>
+<p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
+</div>
+<div class="footer-col">
+<h4>Company</h4>
+<a href="/about/">About AE Tax</a>
+<a href="/bios/">Our Team</a>
+<a href="/press/">Press &amp; Media</a>
+<a href="/ae-tax-advisors-reviews/">Client Reviews</a>
+<a href="/case-studies/">Case Studies</a>
+<a href="/pricing/">Pricing</a>
+<a href="/contact/">Contact Us</a>
+<a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+</div>
+<div class="footer-col">
+<h4>Services</h4>
+<a href="/business-owner-small-business-tax/">Business Owner Tax</a>
+<a href="/real-estate-tax-planning/">Real Estate Tax Planning</a>
+<a href="/cost-segregation-study/">Cost Segregation Study</a>
+<a href="/short-term-rental-tax-strategy/">Short-Term Rental Strategy</a>
+<a href="/rental-property-tax-planning/">Rental Property Planning</a>
+<a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
+<a href="/estate-trust-wealth-transfer/">Estate &amp; Wealth Transfer</a>
+<a href="/tax-compliance-irs-representation/">IRS Representation</a>
+<a href="/tax-attorneys/">Tax Attorneys</a>
+</div>
+<div class="footer-col">
+<h4>Popular Guides</h4>
+<a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026</a>
+<a href="/short-term-rental-tax-loophole-2026/">STR Tax Loophole 2026</a>
+<a href="/reps-real-estate-professional-status/">Real Estate Pro Status</a>
+<a href="/form-3115-cost-segregation-lookback/">Form 3115 Lookback</a>
+<a href="/s-corp-vs-llc-tax-comparison-2026/">S-Corp vs LLC 2026</a>
+<a href="/cash-balance-plan-tax-deduction/">Cash Balance Plans</a>
+<a href="/macrs-depreciation-schedule-2026/">MACRS Schedule 2026</a>
+<a href="/section-179-vs-bonus-depreciation-2026/">Section 179 vs Bonus</a>
+</div>
+<div class="footer-col">
+<h4>Resources</h4>
+<a href="/blog/">Blog</a>
+<a href="/compare/">Compare Firms</a>
+<a href="/faq/">FAQ</a>
+<a href="/glossary/">Tax Glossary</a>
+<a href="/guides/">Guides &amp; Whitepapers</a>
+<a href="/books/">Books</a>
+<a href="/sitemap/">Site Map</a>
+<a href="/discovery/">Request a Consultation</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2026 AE Tax Advisors. All rights reserved. | 935 Lake Elmo Dr, Suite B, Billings, MT 59105 | (631) 614-5762</p>
+<p class="footer-legal-links">
+<a href="/privacy-policy/">Privacy Policy</a> &middot;
+<a href="/terms-of-service/">Terms of Service</a> &middot;
+<a href="/disclaimer/">Disclaimer</a> &middot;
+<a href="/sitemap/">Site Map</a> &middot;
+<a href="/press/">Press</a>
+</p>
+<p class="footer-disclaimer">AE Tax Advisors provides tax advisory and compliance services nationwide. Content on this site is general information, not tax advice for your situation. Strategies depend on facts and circumstances.</p>
+</div>
+</footer>
+<section class="sticky-cta">
+<div class="sticky-inner">
+<p>Are You Leaving Tax Savings on the Table?</p>
+<a href="/discovery/" class="btn-cta">Get Your Free Tax Assessment</a>
+</div>
+</section>
+<script>
+function formatCurrency(num) {
+  return '$' + num.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+
+function parseCurrency(str) {
+  return parseFloat(str.replace(/[^0-9.]/g, ''));
+}
+
+function calculateCostSeg() {
+  var priceInput = document.getElementById('purchase-price');
+  var price = parseCurrency(priceInput.value);
+
+  if (isNaN(price) || price <= 0) {
+    alert('Please enter a valid purchase price.');
+    return;
+  }
+
+  var propertyType = document.getElementById('property-type').value;
+  var stateRate = parseFloat(document.getElementById('state-select').value) / 100;
+  var federalRate = 0.37;
+  var reclassifiedPct = 0.35;
+  var reclassifiedAmount = price * reclassifiedPct;
+  var deduction = reclassifiedAmount;
+  var federalSavings = deduction * federalRate;
+  var stateSavings = deduction * stateRate;
+  var totalSavings = federalSavings + stateSavings;
+
+  document.getElementById('res-purchase').textContent = formatCurrency(price);
+  document.getElementById('res-reclassified').textContent = formatCurrency(reclassifiedAmount);
+  document.getElementById('res-deduction').textContent = formatCurrency(deduction);
+  document.getElementById('res-federal').textContent = formatCurrency(federalSavings);
+  document.getElementById('res-state').textContent = formatCurrency(stateSavings);
+  document.getElementById('res-total').textContent = formatCurrency(totalSavings);
+
+  document.getElementById('calc-results').style.display = 'block';
+  document.getElementById('calc-results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+(function() {
+  var priceInput = document.getElementById('purchase-price');
+  priceInput.addEventListener('input', function() {
+    var raw = this.value.replace(/[^0-9]/g, '');
+    if (raw === '') {
+      this.value = '';
+      return;
+    }
+    var num = parseInt(raw, 10);
+    this.value = '$' + num.toLocaleString('en-US');
+  });
+})();
+</script>
+<script>
+(function(){
+var observer = new IntersectionObserver(function(entries){
+entries.forEach(function(e){
+if(e.isIntersecting){
+e.target.classList.add("fade-in-visible");
+observer.unobserve(e.target);
+}
+});
+}, {threshold: 0.1, rootMargin: "0px 0px -40px 0px"});
+document.addEventListener("DOMContentLoaded", function(){
+document.querySelectorAll(".fade-in-section").forEach(function(el){ observer.observe(el); });
+});
+})();
+</script>
+</body>
+</html>
