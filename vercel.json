@@ -111,6 +111,211 @@
       "source": "/wp-admin/:path*",
       "destination": "/",
       "statusCode": 301
+    },
+    {
+      "source": "/case-studies/cost-seg-residential-rental-59k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/cost-seg-office-building-147k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/cost-seg-duplex-portfolio-82k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/cost-seg-prior-year-recovery-210k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/cost-seg-warehouse-273k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/s-corp-consultant-19k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/s-corp-medical-practice-34k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/s-corp-solo-consultant-14k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/s-corp-tech-freelancer-27k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/s-corp-dental-group-41k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/str-w2-offset-87k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/str-physician-124k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/str-airbnb-7day-rule-52k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/str-portfolio-193k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/str-couple-175k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/prior-year-surgeon-47k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/prior-year-restaurant-63k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/prior-year-real-estate-89k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/prior-year-marketing-agency-31k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/multi-entity-contractor-54k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/multi-entity-medical-group-72k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/multi-entity-investor-38k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/multi-entity-franchise-61k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/reps-spouse-134k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/reps-investor-couple-97k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/reps-former-teacher-78k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/reps-combined-cost-seg-165k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/c-to-s-corp-180k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/c-to-s-corp-manufacturing-67k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/c-to-s-corp-law-firm-28k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/equipment-lease-125k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/equipment-lease-construction-83k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/equipment-lease-dental-94k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/retirement-solo-401k-cash-balance-148k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/retirement-defined-benefit-physician-185k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/retirement-redesign-42k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/retirement-cash-balance-tech-73k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/exit-planning-4m-sale-312k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/exit-planning-manufacturing-187k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/exit-planning-dentist-94k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/exit-planning-tech-6m-478k/",
+      "destination": "/case-studies/",
+      "statusCode": 301
     }
   ],
   "headers": [
