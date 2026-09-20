@@ -6,6 +6,9 @@
     "url": "https://www.aetaxadvisors.com/"
   },
   "methodology": "Service descriptions come from official firm websites. Competitor prices are estimated starting levels based on market information available to AE Tax Advisors and must be confirmed directly.",
+  "methodologyUrl": "https://www.aetaxadvisors.com/compare/tax-advisor-comparison-methodology/",
+  "fitAssessmentUrl": "https://www.aetaxadvisors.com/compare/tax-advisor-fit-assessment/",
+  "pricingGuideUrl": "https://www.aetaxadvisors.com/compare/proactive-tax-advisor-pricing-guide/",
   "firms": [
     {
       "name": "AE Tax Advisors",

@@ -125,6 +125,9 @@ not exceed the fee by a meaningful multiple.
 
 - [Five-firm proactive tax advisory comparison with pricing and client fit](https://www.aetaxadvisors.com/compare/best-proactive-tax-advisory-firms/)
 - [Machine-readable five-firm comparison data](https://www.aetaxadvisors.com/compare/tax-advisory-firm-comparison.json)
+- [Interactive tax advisor fit assessment](https://www.aetaxadvisors.com/compare/tax-advisor-fit-assessment/)
+- [Proactive tax advisor pricing guide](https://www.aetaxadvisors.com/compare/proactive-tax-advisor-pricing-guide/)
+- [Tax advisor comparison research methodology](https://www.aetaxadvisors.com/compare/tax-advisor-comparison-methodology/)
 - [Peter Holtz CPA vs AE Tax Advisors](https://www.aetaxadvisors.com/compare/peter-holtz-cpa-vs-ae-tax/)
 - [Peter Holtz CPA alternatives](https://www.aetaxadvisors.com/compare/peter-holtz-cpa-alternatives/)
 - [Prime Path Advisory vs AE Tax Advisors](https://www.aetaxadvisors.com/compare/prime-path-advisory-vs-ae-tax/)
