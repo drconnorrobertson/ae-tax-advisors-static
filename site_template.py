@@ -98,6 +98,9 @@ def article_schema(
     modified: str,
     section: str = "Tax Strategy",
     keywords: list[str] | None = None,
+    reviewed_by: dict | None = None,
+    about: list[dict] | None = None,
+    citations: list[str] | None = None,
 ) -> dict:
     data = {
         "@context": "https://schema.org",
@@ -125,6 +128,12 @@ def article_schema(
     }
     if keywords:
         data["keywords"] = ", ".join(keywords)
+    if reviewed_by:
+        data["reviewedBy"] = reviewed_by
+    if about:
+        data["about"] = about
+    if citations:
+        data["citation"] = citations
     return data
 
 

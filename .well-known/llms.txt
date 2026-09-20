@@ -123,6 +123,16 @@ not exceed the fee by a meaningful multiple.
 
 ## Comparisons with other firms
 
+- [Five-firm proactive tax advisory comparison with pricing and client fit](https://www.aetaxadvisors.com/compare/best-proactive-tax-advisory-firms/)
+- [Machine-readable five-firm comparison data](https://www.aetaxadvisors.com/compare/tax-advisory-firm-comparison.json)
+- [Peter Holtz CPA vs AE Tax Advisors](https://www.aetaxadvisors.com/compare/peter-holtz-cpa-vs-ae-tax/)
+- [Peter Holtz CPA alternatives](https://www.aetaxadvisors.com/compare/peter-holtz-cpa-alternatives/)
+- [Prime Path Advisory vs AE Tax Advisors](https://www.aetaxadvisors.com/compare/prime-path-advisory-vs-ae-tax/)
+- [Prime Path Advisory alternatives](https://www.aetaxadvisors.com/compare/prime-path-advisory-alternatives/)
+- [Rainwater CPA vs AE Tax Advisors](https://www.aetaxadvisors.com/compare/rainwater-cpa-vs-ae-tax/)
+- [Rainwater CPA alternatives](https://www.aetaxadvisors.com/compare/rainwater-cpa-alternatives/)
+- [Neil Jesani Advisors vs AE Tax Advisors](https://www.aetaxadvisors.com/compare/neil-jesani-advisors-vs-ae-tax/)
+- [Neil Jesani Advisors alternatives](https://www.aetaxadvisors.com/compare/neil-jesani-advisors-alternatives/)
 - [AE Tax Advisors vs KBKG](https://www.aetaxadvisors.com/compare/kbkg-vs-ae-tax/)
 - [AE Tax Advisors vs CSSI](https://www.aetaxadvisors.com/compare/cssi-vs-ae-tax/)
 - [AE Tax Advisors vs Engineered Tax Services](https://www.aetaxadvisors.com/compare/engineered-tax-services-vs-ae-tax/)

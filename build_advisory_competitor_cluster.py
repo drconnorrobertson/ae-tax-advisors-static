@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import html
+import json
 import sys
 
 import site_template as T
@@ -28,6 +29,7 @@ FIRMS = [
                    "Clear focus on established businesses", "Founder-led education and business-owner community"],
         choose="you want accounting, management reporting, profit consulting, and CFO guidance inside the same relationship as proactive tax work",
         ae_choose="your priority is a written tax plan, prior-year lookback, corrective amendments, cost segregation, and implementation across a business and real estate",
+        search_questions=["Peter Holtz CPA reviews", "Peter Holtz CPA cost and pricing", "Peter Holtz CPA alternatives", "Peter Holtz CPA vs AE Tax Advisors"],
         rows=[("Accounting and bookkeeping", "Core service"), ("CFO and profit advisory", "Core service"),
               ("Tax preparation and filing", "Available within the firm"), ("IRS representation", "Publicly listed service"),
               ("Three-year return lookback", "Not confirmed on reviewed pages"), ("Amended-return recovery", "Not confirmed on reviewed pages"),
@@ -49,6 +51,7 @@ FIRMS = [
                    "Planning, implementation, and filing presented as one engagement", "Attorney, accountant, and compliance coordination"],
         choose="you earn at least $1 million, much of the complexity comes from RSUs, executive compensation, or concentrated equity, and you want a high-income private-client model",
         ae_choose="you own an operating business or real estate, particularly below $5 million of annual business profit, and need prior-year corrections, cost segregation, and filings coordinated",
+        search_questions=["Prime Path Advisory reviews", "Prime Path Advisory pricing", "Prime Path Advisory alternatives", "Prime Path Advisory Reddit discussions"],
         rows=[("Year-round tax planning", "Core service"), ("Implementation", "Included in stated model"),
               ("Tax preparation and filing", "Included in stated model"), ("Entity strategy", "Publicly listed service"),
               ("Equity compensation emphasis", "Clear public focus"), ("Three-year return lookback", "Not confirmed on reviewed pages"),
@@ -70,6 +73,7 @@ FIRMS = [
                    "Tax preparation and filing aligned to the plan", "Tax resolution available inside the practice"],
         choose="you run a seven- or eight-figure company and want quarterly projections, scheduled planning meetings, preparation, and resolution services from one CPA firm",
         ae_choose="you need the operating company coordinated with real estate, cost segregation, Form 3115 work, or a systematic review of prior returns and books",
+        search_questions=["Rainwater CPA reviews", "Rainwater CPA pricing", "Is Rainwater CPA legitimate?", "Rainwater CPA alternatives"],
         rows=[("Quarterly projections", "Core service"), ("Scheduled planning cadence", "Four meetings per year stated"),
               ("Tax preparation and filing", "Core service"), ("Tax resolution", "Publicly listed service"),
               ("Three-year return lookback", "Not confirmed on reviewed pages"), ("Amended-return recovery", "Not confirmed on reviewed pages"),
@@ -94,6 +98,7 @@ FIRMS = [
                    "Optional CFP or wealth-management relationship for clients seeking money management alongside tax work"],
         choose="your facts involve a major liquidity event, family-office complexity, cross-border or multi-jurisdiction exposure, transaction diligence, a significant tax controversy, or you want CFP or wealth-management work alongside tax advice",
         ae_choose="you are a profitable owner-operator or real estate investor who wants a flat-fee plan, prior-year cleanup, amendments, cost segregation, and ongoing compliance",
+        search_questions=["Neil Jesani Advisors reviews", "Neil Jesani Advisors fees and pricing", "Neil Jesani Advisors alternatives", "Neil Jesani CFP and wealth-management services"],
         rows=[("Transaction and liquidity-event planning", "Core public capability"),
               ("Multi-state and international planning", "Core public capability"), ("CFO advisory", "Publicly listed service"),
               ("IRS audit and appeals defense", "Core practice"), ("Three-year return lookback", "Not confirmed on reviewed pages"),
@@ -120,10 +125,45 @@ AE = {"Accounting and bookkeeping": "Cleanup and coordination available",
       "CFO advisory": "Tax and entity modeling", "IRS audit and appeals defense": "Available",
       "Selective intake": "Fit based on expected value relative to fee"}
 
+REVIEWER = {
+    "@type": "Person",
+    "name": "Christina Nortman, CPA",
+    "jobTitle": "CPA and Tax Advisory Team Lead",
+    "worksFor": {"@type": "Organization", "name": "AE Tax Advisors", "url": T.SITE + "/"},
+    "url": T.SITE + "/bios/",
+}
+
 
 def e(s): return html.escape(s, quote=True)
 def ps(items): return "\n".join(f"            <p>{x}</p>" for x in items)
 def ul(items): return "            <ul class=\"takeaway-list\">\n" + "\n".join(f"                <li>{x}</li>" for x in items) + "\n            </ul>"
+
+
+def reviewer_note():
+    return ('            <aside class="disclosure" aria-label="Editorial review">'
+            '<strong>Reviewed for technical accuracy by Christina Nortman, CPA.</strong> '
+            '<a href="/bios/">Review credentials and the AE Tax advisory team</a>. '
+            'Last reviewed September 20, 2026.</aside>')
+
+
+def search_intent_section(f):
+    items = "".join(f"<li><strong>{e(q)}</strong></li>" for q in f["search_questions"])
+    return ps([
+        f"People researching {e(f['name'])} commonly compare reviews, pricing, alternatives, and service scope before contacting a firm. Those searches are decision questions, not proof that a firm has a particular problem.",
+        "Use independent reviews to identify patterns, then verify the assigned professional, complete scope, implementation responsibility, recurring fee, and audit-support terms in the engagement letter.",
+    ]) + f'            <ul class="takeaway-list">{items}</ul>'
+
+
+def article_meta(f, title, desc, path, section, keywords):
+    return T.article_schema(
+        title=title, description=desc, url=T.SITE + path, published=DATE, modified=DATE,
+        section=section, keywords=keywords, reviewed_by=REVIEWER,
+        about=[
+            {"@type": "Organization", "name": "AE Tax Advisors", "url": T.SITE + "/"},
+            {"@type": "Organization", "name": f["name"], "url": f["url"]},
+        ],
+        citations=[f["url"], T.SITE + "/pricing/", T.SITE + "/bios/"],
+    )
 
 
 def note(f):
@@ -164,7 +204,7 @@ def build_compare(f):
     faqs = compare_faqs(f)
     body = "\n\n".join([
         T.page_header(h1=f"{n} vs AE Tax Advisors", subtitle=desc, trail=[("Home", "/"), ("Compare", BASE), (title, path)], cta="Compare Your Situation"),
-        T.section("The Short Answer", T.definition(f"Choose {n} when {f['choose']}. Choose AE Tax Advisors when {f['ae_choose']}. The right comparison is service scope and client fit, not a claim that one firm is universally better.") + "\n" + note(f)),
+        T.section("The Short Answer", T.definition(f"Choose {n} when {f['choose']}. Choose AE Tax Advisors when {f['ae_choose']}. The right comparison is service scope and client fit, not a claim that one firm is universally better.") + "\n" + note(f) + "\n" + reviewer_note()),
         T.section(f"What {n} Publicly Offers", ps([f["summary"]]) + ul(f["facts"])),
         T.section("What AE Tax Advisors Offers", ps([AE_SUMMARY]) + ul(["Three-year lookback of returns, entities, depreciation, and books", "Corrective planning and amended returns when facts support a change", "Cost segregation, Form 3115 coordination, passive-activity analysis, and filing", "Entity, compensation, retirement-plan, and multi-state planning"])),
         T.section("Side-by-Side Comparison", table(f)),
@@ -179,6 +219,7 @@ def build_compare(f):
             "AE Tax Advisors publishes a $7,800 strategic advisory fee. Entity returns, individual returns, amended returns, and cost segregation are separately scoped. A fair comparison adds every required item, including bookkeeping cleanup, payroll changes, legal documents, implementation, and audit support. The lowest headline fee is not necessarily the lowest delivered cost.",
             ("For Neil Jesani Advisors, ask whether CFP or wealth-management work is optional or bundled, how that work is compensated, and whether any asset-management fee is separate from the tax-advisory fee." if n == "Neil Jesani Advisors" else "Confirm whether complementary finance, legal, investment, or implementation services are optional, bundled, or billed separately."),
         ])),
+        T.section(f"What People Search Before Hiring {n}", search_intent_section(f)),
         T.section("Which Firm Fits Which Situation?", f"            <p><strong>Shortlist {e(n)}</strong> if {f['choose']}.</p>\n            <p><strong>Shortlist AE Tax Advisors</strong> if {f['ae_choose']}.</p>\n            <p>Compare written deliverables, responsible professionals, implementation duties, first-year price, recurring price, and treatment of prior-year opportunities.</p>"),
         T.section("Use the Tax Problem to Build the Shortlist", ul([
             "Integrated bookkeeping, management reporting, and CFO guidance: compare Peter Holtz CPA.",
@@ -190,7 +231,7 @@ def build_compare(f):
         T.section("Seven Questions to Ask Either Firm", ul(["Who personally reviews the return and builds the strategy?", "Does the engagement include implementation or only recommendations?", "Who prepares every affected business and individual return?", "Will prior returns and books be reviewed?", "How are amendments, Form 3115 filings, and audit defense priced?", "How often will projections be refreshed?", "What written deliverable will I receive, and when?"])),
         T.faq_section(faqs),
         T.related_section([(f'{BASE}{f["slug"]}-alternatives/', f"Best {n} Alternatives"), (f"{BASE}best-proactive-tax-advisory-firms/", "Compare Five Proactive Tax Advisory Firms")] + [(f'{BASE}{x["slug"]}-vs-ae-tax/', f'{x["name"]} vs AE Tax Advisors') for x in FIRMS if x is not f], "Continue Comparing")])
-    schemas = [T.article_schema(title=title, description=desc, url=T.SITE + path, published=DATE, modified=DATE, section="Tax Advisor Comparison", keywords=[n, f"{n} alternatives", "AE Tax Advisors"]), T.faq_schema(faqs), T.breadcrumb_schema([("Home", "/"), ("Compare", BASE), (title, path)])]
+    schemas = [article_meta(f, title, desc, path, "Tax Advisor Comparison", [n, f"{n} alternatives", f"{n} reviews", f"{n} pricing", "AE Tax Advisors"]), T.faq_schema(faqs), T.breadcrumb_schema([("Home", "/"), ("Compare", BASE), (title, path)])]
     return T.build_page(title=title, description=desc, path=path, body=body, schemas=schemas, published=DATE, modified=DATE)
 
 
@@ -224,14 +265,15 @@ def build_alts(target):
     cards = "\n".join([ae_card] + [card(x) for x in FIRMS if x is not target])
     body = "\n\n".join([
         T.page_header(h1=f"Best {n} Alternatives", subtitle=desc, trail=[("Home", "/"), ("Compare", BASE), (title, path)], cta="Find the Right Tax Advisor"),
-        T.section("The Short Answer", T.definition(f"The closest alternatives to {n} are not interchangeable. Compare each firm's intended client, implementation model, prior-year review, real-estate capability, advisor access, and total cost.") + "\n" + note(target)),
+        T.section("The Short Answer", T.definition(f"The closest alternatives to {n} are not interchangeable. Compare each firm's intended client, implementation model, prior-year review, real-estate capability, advisor access, and total cost.") + "\n" + note(target) + "\n" + reviewer_note()),
         T.section("Why Compare Alternatives Before Signing?", ps(["A proactive tax engagement can mean very different things. Similar marketing language can conceal a different delivery model.", "Define the actual problem, then compare the team, scope, cadence, implementation responsibility, and total cost. Choose the firm built around the facts that create your tax bill."])),
         f'<section class="content-section fade-in-section"><div class="container"><h2>Four {e(n)} Alternatives to Consider</h2><div class="cs-grid">{cards}</div></div></section>',
         T.section("How the Five Firms Differ", shortlist_table()),
+        T.section(f"Search Questions About {n}", search_intent_section(target)),
         T.section("How to Choose", ul(["Choose by taxpayer profile, not brand size.", "Confirm who implements elections, bookkeeping changes, amendments, and returns.", "Ask whether prior years are reviewed.", "Ask how cost segregation, Form 3115, passive losses, and recapture are handled.", "Compare total first-year and recurring cost.", "For Neil Jesani Advisors, separate the tax-advisory scope from any CFP, wealth-management, or asset-management work and compensation.", "Require a written scope with deliverables and exclusions."])),
         T.faq_section(faqs),
         T.related_section([(f'{BASE}{target["slug"]}-vs-ae-tax/', f"{n} vs AE Tax Advisors"), (f"{BASE}best-proactive-tax-advisory-firms/", "Best Proactive Tax Advisory Firms"), ("/business-tax-second-opinion/", "Business Tax Second Opinion")])])
-    schemas = [T.article_schema(title=title, description=desc, url=T.SITE + path, published=DATE, modified=DATE, section="Tax Advisor Alternatives", keywords=[f"{n} alternatives", f"alternatives to {n}"]), T.faq_schema(faqs), T.breadcrumb_schema([("Home", "/"), ("Compare", BASE), (title, path)])]
+    schemas = [article_meta(target, title, desc, path, "Tax Advisor Alternatives", [f"{n} alternatives", f"alternatives to {n}", f"{n} reviews", f"{n} cost"]), T.faq_schema(faqs), T.breadcrumb_schema([("Home", "/"), ("Compare", BASE), (title, path)])]
     return T.build_page(title=title, description=desc, path=path, body=body, schemas=schemas, published=DATE, modified=DATE)
 
 
@@ -255,15 +297,16 @@ def build_roundup():
         pricing = f'<strong>Estimated starting price:</strong> {e(f["estimated_price"])}. This is a market estimate, not a published quote; confirm directly.'
         detail.append(T.section(f'{i}. {f["name"]}', ps([f["summary"], pricing, f'<strong>Best fit:</strong> Choose this model when {f["choose"]}.']) + ul(f["strengths"]) + f'<p><a href="{BASE}{f["slug"]}-vs-ae-tax/">Read the full comparison</a>.</p>'))
     body = "\n\n".join([T.page_header(h1="Best Proactive Tax Advisory Firms for Business Owners", subtitle=desc, trail=[("Home", "/"), ("Compare", BASE), (title, path)], cta="Compare Your Situation"),
-        T.section("The Five-Firm Shortlist", T.definition("AE Tax Advisors, Peter Holtz CPA, Prime Path Advisory, Rainwater CPA, and Neil Jesani Advisors overlap in proactive planning but differ sharply in ideal client, finance depth, equity focus, private-client complexity, real estate execution, prior-year review, and price.") + ps(["Service descriptions are based on public information reviewed September 20, 2026. Competitor prices are estimated starting levels based on market information available to AE Tax Advisors, not published quotes. Verify credentials, scope, fees, and engagement terms directly."])),
+        T.section("The Five-Firm Shortlist", T.definition("AE Tax Advisors, Peter Holtz CPA, Prime Path Advisory, Rainwater CPA, and Neil Jesani Advisors overlap in proactive planning but differ sharply in ideal client, finance depth, equity focus, private-client complexity, real estate execution, prior-year review, and price.") + ps(["Service descriptions are based on public information reviewed September 20, 2026. Competitor prices are estimated starting levels based on market information available to AE Tax Advisors, not published quotes. Verify credentials, scope, fees, and engagement terms directly."]) + reviewer_note()),
         T.section("Compare All Five Firms", shortlist_table()), *detail,
         T.section("How to Choose Among the Five", ul(["Peter Holtz CPA: accounting plus CFO and profit advisory.", "Prime Path Advisory: $1M+ income, executive compensation, and RSUs.", "Rainwater CPA: quarterly projections and scheduled CPA planning.", "Neil Jesani Advisors: liquidity events, family-office complexity, multi-jurisdiction planning, and controversy.", "AE Tax Advisors: operating business plus real estate, prior-year amendments, cost segregation, and implementation, commonly below $5M of profit."])),
-        T.section("What to Demand in the Engagement Letter", ul(["Names and credentials of the people doing the work", "Every return, election, amendment, projection, and implementation step included", "Review period for prior returns and books", "Meeting cadence and response times", "Full first-year and recurring fee", "Any separate CFP, investment-management, or assets-under-management fee", "Audit-defense inclusions and exclusions"])),
+        T.section("What to Demand in the Engagement Letter", ul(["Names and credentials of the people doing the work", "Every return, election, amendment, projection, and implementation step included", "Review period for prior returns and books", "Meeting cadence and response times", "Full first-year and recurring fee", "Any separate CFP, investment-management, or assets-under-management fee", "Audit-defense inclusions and exclusions"]) + ps(['<a href="/compare/tax-advisory-firm-comparison.json">View the machine-readable comparison data (JSON)</a> used for this table.'])),
         T.faq_section(faqs),
         T.related_section([(f'{BASE}{f["slug"]}-vs-ae-tax/', f'{f["name"]} vs AE Tax Advisors') for f in FIRMS] + [("/tax-advisor-for-businesses-under-5-million-profit/", "Tax Advisor for Businesses Under $5 Million of Profit")])])
     itemlist = {"@context": "https://schema.org", "@type": "ItemList", "name": "Proactive tax advisory firms for business owners", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "AE Tax Advisors", "url": T.SITE + "/"}] + [{"@type": "ListItem", "position": i, "name": f["name"], "url": f["url"]} for i, f in enumerate(FIRMS, 2)]}
-    schemas = [T.article_schema(title=title, description=desc, url=T.SITE + path, published=DATE, modified=DATE, section="Tax Advisor Comparison", keywords=["best tax advisory firms", "proactive tax planning firms"]), itemlist, T.faq_schema(faqs), T.breadcrumb_schema([("Home", "/"), ("Compare", BASE), (title, path)])]
-    return T.build_page(title=title, description=desc, path=path, body=body, schemas=schemas, published=DATE, modified=DATE)
+    schemas = [T.article_schema(title=title, description=desc, url=T.SITE + path, published=DATE, modified=DATE, section="Tax Advisor Comparison", keywords=["best tax advisory firms", "proactive tax planning firms", "tax advisory firm pricing"], reviewed_by=REVIEWER, about=[{"@type": "Organization", "name": "AE Tax Advisors", "url": T.SITE + "/"}] + [{"@type": "Organization", "name": f["name"], "url": f["url"]} for f in FIRMS], citations=[f["url"] for f in FIRMS] + [T.SITE + "/pricing/", T.SITE + "/bios/"]), itemlist, T.faq_schema(faqs), T.breadcrumb_schema([("Home", "/"), ("Compare", BASE), (title, path)])]
+    return T.build_page(title=title, description=desc, path=path, body=body, schemas=schemas, published=DATE, modified=DATE,
+                        extra_head='<link rel="alternate" type="application/json" href="/compare/tax-advisory-firm-comparison.json">')
 
 
 def write(path, markup):
@@ -277,6 +320,29 @@ def main():
         write(f'{BASE}{f["slug"]}-vs-ae-tax/', build_compare(f))
         write(f'{BASE}{f["slug"]}-alternatives/', build_alts(f))
     write(BASE + "best-proactive-tax-advisory-firms/", build_roundup())
+    data = {
+        "name": "Proactive tax advisory firm comparison",
+        "dateModified": DATE,
+        "publisher": {"name": "AE Tax Advisors", "url": T.SITE + "/"},
+        "methodology": "Service descriptions come from official firm websites. Competitor prices are estimated starting levels based on market information available to AE Tax Advisors and must be confirmed directly.",
+        "firms": [{
+            "name": "AE Tax Advisors",
+            "url": T.SITE + "/",
+            "clientFocus": "Profitable owners and real estate investors, commonly under $5M of annual business profit",
+            "serviceModel": "Three-year lookback, amendments, cost segregation, entity strategy, implementation, and filing",
+            "startingPrice": "$7,800 strategic advisory",
+            "priceSource": "published",
+        }] + [{
+            "name": f["name"], "url": f["url"], "clientFocus": f["audience"],
+            "serviceModel": f["model"], "startingPrice": f["estimated_price"],
+            "priceSource": "market estimate; confirm directly",
+            "comparison": T.SITE + BASE + f["slug"] + "-vs-ae-tax/",
+            "alternatives": T.SITE + BASE + f["slug"] + "-alternatives/",
+        } for f in FIRMS],
+    }
+    data_path = T.ROOT / "compare" / "tax-advisory-firm-comparison.json"
+    data_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"comparison data  {data_path.relative_to(T.ROOT)}")
     print("\n9 advisory competitor cluster pages built.")
     return 0
 

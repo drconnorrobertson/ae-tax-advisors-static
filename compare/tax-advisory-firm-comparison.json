@@ -1,0 +1,59 @@
+{
+  "name": "Proactive tax advisory firm comparison",
+  "dateModified": "2026-09-20",
+  "publisher": {
+    "name": "AE Tax Advisors",
+    "url": "https://www.aetaxadvisors.com/"
+  },
+  "methodology": "Service descriptions come from official firm websites. Competitor prices are estimated starting levels based on market information available to AE Tax Advisors and must be confirmed directly.",
+  "firms": [
+    {
+      "name": "AE Tax Advisors",
+      "url": "https://www.aetaxadvisors.com/",
+      "clientFocus": "Profitable owners and real estate investors, commonly under $5M of annual business profit",
+      "serviceModel": "Three-year lookback, amendments, cost segregation, entity strategy, implementation, and filing",
+      "startingPrice": "$7,800 strategic advisory",
+      "priceSource": "published"
+    },
+    {
+      "name": "Peter Holtz CPA",
+      "url": "https://www.peterholtzcpa.com/",
+      "clientFocus": "Businesses with $1M or more in revenue",
+      "serviceModel": "Accounting, proactive tax strategy, profit consulting, CFO advisory, and IRS representation",
+      "startingPrice": "$10,000+ per year",
+      "priceSource": "market estimate; confirm directly",
+      "comparison": "https://www.aetaxadvisors.com/compare/peter-holtz-cpa-vs-ae-tax/",
+      "alternatives": "https://www.aetaxadvisors.com/compare/peter-holtz-cpa-alternatives/"
+    },
+    {
+      "name": "Prime Path Advisory",
+      "url": "https://primepathadvisory.com/",
+      "clientFocus": "Founders, executives, and high-RSU earners making $1M+",
+      "serviceModel": "Year-round strategy designed, implemented, and filed by an attorney- and CPA-led team",
+      "startingPrice": "$10,000+ per year",
+      "priceSource": "market estimate; confirm directly",
+      "comparison": "https://www.aetaxadvisors.com/compare/prime-path-advisory-vs-ae-tax/",
+      "alternatives": "https://www.aetaxadvisors.com/compare/prime-path-advisory-alternatives/"
+    },
+    {
+      "name": "Rainwater CPA",
+      "url": "https://rainwatercpa.com/tax-planning-services/business-owners/",
+      "clientFocus": "Seven- and eight-figure business owners nationwide",
+      "serviceModel": "Quarterly projections, proactive planning, preparation, filing, and tax resolution",
+      "startingPrice": "$20,000+ per year",
+      "priceSource": "market estimate; confirm directly",
+      "comparison": "https://www.aetaxadvisors.com/compare/rainwater-cpa-vs-ae-tax/",
+      "alternatives": "https://www.aetaxadvisors.com/compare/rainwater-cpa-alternatives/"
+    },
+    {
+      "name": "Neil Jesani Advisors",
+      "url": "https://neiljesani.com/",
+      "clientFocus": "Mid-market companies, high-net-worth individuals, founders, investors, and family offices",
+      "serviceModel": "Mid-market advisory, private-client planning, tax controversy, and separate CFP or wealth-management work",
+      "startingPrice": "$30,000+ per year, plus any separate CFP or wealth-management scope",
+      "priceSource": "market estimate; confirm directly",
+      "comparison": "https://www.aetaxadvisors.com/compare/neil-jesani-advisors-vs-ae-tax/",
+      "alternatives": "https://www.aetaxadvisors.com/compare/neil-jesani-advisors-alternatives/"
+    }
+  ]
+}
