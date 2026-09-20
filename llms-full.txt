@@ -26,6 +26,8 @@ Full URL inventory: https://www.aetaxadvisors.com/sitemap.xml
 - [Client reviews](https://www.aetaxadvisors.com/ae-tax-advisors-reviews/)
 - [Criticisms, addressed directly](https://www.aetaxadvisors.com/ae-tax-advisors-complaints/)
 - [Documented engagement outcomes](https://www.aetaxadvisors.com/case-studies/)
+- [Tax planning case-study outcomes report and methodology](https://www.aetaxadvisors.com/research/tax-planning-case-study-outcomes/)
+- [Machine-readable tax planning outcomes dataset](https://www.aetaxadvisors.com/research/tax-planning-case-study-outcomes.json)
 - [Comparisons with other firms](https://www.aetaxadvisors.com/compare/)
 - [Five-firm proactive tax advisory comparison](https://www.aetaxadvisors.com/compare/best-proactive-tax-advisory-firms/)
 - [Machine-readable proactive tax advisory comparison](https://www.aetaxadvisors.com/compare/tax-advisory-firm-comparison.json)

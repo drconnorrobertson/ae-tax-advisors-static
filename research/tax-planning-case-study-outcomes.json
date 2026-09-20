@@ -1,0 +1,458 @@
+{
+  "name": "AE Tax Advisors Tax Planning Case Study Outcomes",
+  "dateModified": "2026-09-20",
+  "methodologyUrl": "https://www.aetaxadvisors.com/research/tax-planning-case-study-outcomes/",
+  "includedCaseCount": 54,
+  "originalCaseStudyCount": 75,
+  "excludedOriginalCaseCount": 21,
+  "excludedTemplatedScenarioCount": 480,
+  "statistics": {
+    "medianReportedAnnualTaxSavings": 71500,
+    "averageReportedAnnualTaxSavings": 85426,
+    "minimumReportedAnnualTaxSavings": 18000,
+    "maximumReportedAnnualTaxSavings": 380000,
+    "sumOfHeadlineAnnualFigures": 4613000,
+    "casesAtOrAbove50000": 37,
+    "casesAtOrAbove100000": 15
+  },
+  "limitations": [
+    "Publisher-selected case-study cohort, not a random sample.",
+    "Underlying returns and realization of savings were not independently audited for this report.",
+    "Results do not guarantee or predict a prospective client's outcome.",
+    "Templated scenario pages and non-comparable headline measures are excluded."
+  ],
+  "cases": [
+    {
+      "slug": "airbnb-arbitrage-operator-business-expense-optimization",
+      "url": "https://www.aetaxadvisors.com/case-studies/airbnb-arbitrage-operator-business-expense-optimization/",
+      "industry": "Short-Term Rental Arbitrage (Airbnb & VRBO)",
+      "annualTaxSavings": 38000,
+      "headlineOutcome": "$38,000",
+      "keyMetric": "15 leased units, no property ownership, net income $185K, average 7-day stay"
+    },
+    {
+      "slug": "auto-dealership-cost-seg-fleet-depreciation",
+      "url": "https://www.aetaxadvisors.com/case-studies/auto-dealership-cost-seg-fleet-depreciation/",
+      "industry": "Automotive Dealership Group (3 Locations)",
+      "annualTaxSavings": 187000,
+      "headlineOutcome": "$187,000",
+      "keyMetric": "$4.2M combined building basis, 85-vehicle demo/service fleet"
+    },
+    {
+      "slug": "construction-company-equipment-depreciation-entity-layering",
+      "url": "https://www.aetaxadvisors.com/case-studies/construction-company-equipment-depreciation-entity-layering/",
+      "industry": "Commercial Construction",
+      "annualTaxSavings": 156000,
+      "headlineOutcome": "$156,000",
+      "keyMetric": "$620,000 in equipment purchases"
+    },
+    {
+      "slug": "consultant-six-figure-s-corp",
+      "url": "https://www.aetaxadvisors.com/case-studies/consultant-six-figure-s-corp/",
+      "industry": "Management Consulting (Solo)",
+      "annualTaxSavings": 36000,
+      "headlineOutcome": "$36,000",
+      "keyMetric": "SE tax cut by $19K; retirement plan saves $12K; Augusta Rule adds $5K"
+    },
+    {
+      "slug": "dental-practice-cost-seg-entity-restructuring",
+      "url": "https://www.aetaxadvisors.com/case-studies/dental-practice-cost-seg-entity-restructuring/",
+      "industry": "Dental Practice (General & Cosmetic)",
+      "annualTaxSavings": 94000,
+      "headlineOutcome": "$94,000",
+      "keyMetric": "$1.1M building basis, owner age 54"
+    },
+    {
+      "slug": "ecommerce-amazon-fba-s-corp",
+      "url": "https://www.aetaxadvisors.com/case-studies/ecommerce-amazon-fba-s-corp/",
+      "industry": "E-Commerce (Amazon FBA)",
+      "annualTaxSavings": 58000,
+      "headlineOutcome": "$58,000",
+      "keyMetric": "S-Corp saves $34K in SE tax; inventory method change defers $24K"
+    },
+    {
+      "slug": "ecommerce-dropship-multistate",
+      "url": "https://www.aetaxadvisors.com/case-studies/ecommerce-dropship-multistate/",
+      "industry": "E-Commerce (Dropshipping)",
+      "annualTaxSavings": 31000,
+      "headlineOutcome": "$31,000",
+      "keyMetric": "State filings reduced from 12 to 4; entity restructured to S-Corp"
+    },
+    {
+      "slug": "ecommerce-sole-prop-to-s-corp-entity-restructuring",
+      "url": "https://www.aetaxadvisors.com/case-studies/ecommerce-sole-prop-to-s-corp-entity-restructuring/",
+      "industry": "E-Commerce (Direct-to-Consumer)",
+      "annualTaxSavings": 47000,
+      "headlineOutcome": "$47,000",
+      "keyMetric": "Net profit margin: 32%"
+    },
+    {
+      "slug": "fix-and-flip-dealer-vs-investor-classification",
+      "url": "https://www.aetaxadvisors.com/case-studies/fix-and-flip-dealer-vs-investor-classification/",
+      "industry": "Real Estate (Fix-and-Flip)",
+      "annualTaxSavings": 67000,
+      "headlineOutcome": "$67,000",
+      "keyMetric": "$1.8M annual flip revenue, $420K net"
+    },
+    {
+      "slug": "four-llc-consolidation-management-company",
+      "url": "https://www.aetaxadvisors.com/case-studies/four-llc-consolidation-management-company/",
+      "industry": "Multi-Business (Landscaping, Property Mgmt, Equipment Rental, Cleaning)",
+      "annualTaxSavings": 78000,
+      "headlineOutcome": "$78,000",
+      "keyMetric": "$480K combined net income across entities"
+    },
+    {
+      "slug": "franchise-owner-seven-locations-centralized-planning",
+      "url": "https://www.aetaxadvisors.com/case-studies/franchise-owner-seven-locations-centralized-planning/",
+      "industry": "Quick-Service Restaurant Franchise (7 locations)",
+      "annualTaxSavings": 134000,
+      "headlineOutcome": "$134,000",
+      "keyMetric": "120+ employees, 3 owned buildings"
+    },
+    {
+      "slug": "freelancer-home-office-vehicle",
+      "url": "https://www.aetaxadvisors.com/case-studies/freelancer-home-office-vehicle/",
+      "industry": "Freelance Graphic/UX Design",
+      "annualTaxSavings": 18000,
+      "headlineOutcome": "$18,000",
+      "keyMetric": "Home office + Section 179 SUV + SEP-IRA = $18K annual savings"
+    },
+    {
+      "slug": "hotel-boutique-investor-cost-seg-ffe-energy-credits",
+      "url": "https://www.aetaxadvisors.com/case-studies/hotel-boutique-investor-cost-seg-ffe-energy-credits/",
+      "industry": "Boutique Hotel (32 Rooms, Full-Service)",
+      "annualTaxSavings": 155000,
+      "headlineOutcome": "$155,000",
+      "keyMetric": "$5.2M property basis, $680K FF&E, 32 rooms, RevPAR $185"
+    },
+    {
+      "slug": "husband-wife-three-businesses-joint-optimization",
+      "url": "https://www.aetaxadvisors.com/case-studies/husband-wife-three-businesses-joint-optimization/",
+      "industry": "Dental Practice + Real Estate + E-Commerce",
+      "annualTaxSavings": 91000,
+      "headlineOutcome": "$91,000",
+      "keyMetric": "Combined household income $780K, 3 active businesses, both spouses active, ages 49 and 47"
+    },
+    {
+      "slug": "insurance-agency-commission-entity-optimization",
+      "url": "https://www.aetaxadvisors.com/case-studies/insurance-agency-commission-entity-optimization/",
+      "industry": "Insurance Agency (Property & Casualty)",
+      "annualTaxSavings": 54000,
+      "headlineOutcome": "$54,000",
+      "keyMetric": "Owner income $520K, 8 licensed agents, $1.4M commission income"
+    },
+    {
+      "slug": "international-business-owner-treaty-planning-gilti",
+      "url": "https://www.aetaxadvisors.com/case-studies/international-business-owner-treaty-planning-gilti/",
+      "industry": "International Software Development & IT Services",
+      "annualTaxSavings": 136000,
+      "headlineOutcome": "$136,000",
+      "keyMetric": "$1.6M foreign subsidiary income, operations in US, UK, and India, 45 employees globally"
+    },
+    {
+      "slug": "landscaping-contractor-section-179-stacking",
+      "url": "https://www.aetaxadvisors.com/case-studies/landscaping-contractor-section-179-stacking/",
+      "industry": "Landscaping & General Contracting",
+      "annualTaxSavings": 49000,
+      "headlineOutcome": "$49,000",
+      "keyMetric": "Owner income $285K, 14 employees, $380K equipment fleet"
+    },
+    {
+      "slug": "law-firm-partner-s-corp-cash-balance-plan",
+      "url": "https://www.aetaxadvisors.com/case-studies/law-firm-partner-s-corp-cash-balance-plan/",
+      "industry": "Law Firm (Litigation Practice)",
+      "annualTaxSavings": 95000,
+      "headlineOutcome": "$95,000",
+      "keyMetric": "Partner age 52, net income $980K, 3 associates"
+    },
+    {
+      "slug": "ltr-section-1250-recapture-planning",
+      "url": "https://www.aetaxadvisors.com/case-studies/ltr-section-1250-recapture-planning/",
+      "industry": "Long-Term Rental Portfolio",
+      "annualTaxSavings": 127000,
+      "headlineOutcome": "$127,000",
+      "keyMetric": "$127K in taxes deferred via 1031 exchange; recapture exposure managed"
+    },
+    {
+      "slug": "manufacturing-company-rd-credit-macrs",
+      "url": "https://www.aetaxadvisors.com/case-studies/manufacturing-company-rd-credit-macrs/",
+      "industry": "Precision Manufacturing (Aerospace Components)",
+      "annualTaxSavings": 142000,
+      "headlineOutcome": "$142,000",
+      "keyMetric": "$1.2M annual R&D spend, $2.8M equipment basis, 65 employees"
+    },
+    {
+      "slug": "marketing-agency-home-office-augusta-rule-s-corp",
+      "url": "https://www.aetaxadvisors.com/case-studies/marketing-agency-home-office-augusta-rule-s-corp/",
+      "industry": "Digital Marketing Agency (Social Media & Content)",
+      "annualTaxSavings": 41000,
+      "headlineOutcome": "$41,000",
+      "keyMetric": "Owner income $410K, 1,800 sq ft home office, 6 contractors"
+    },
+    {
+      "slug": "medical-practice-c-corp-retirement-stacking",
+      "url": "https://www.aetaxadvisors.com/case-studies/medical-practice-c-corp-retirement-stacking/",
+      "industry": "Medical Practice (Orthopedic Surgery)",
+      "annualTaxSavings": 89000,
+      "headlineOutcome": "$89,000",
+      "keyMetric": "Owner compensation: $680,000"
+    },
+    {
+      "slug": "mobile-home-park-cost-seg-infrastructure",
+      "url": "https://www.aetaxadvisors.com/case-studies/mobile-home-park-cost-seg-infrastructure/",
+      "industry": "Mobile Home Park (Manufactured Housing Community)",
+      "annualTaxSavings": 98000,
+      "headlineOutcome": "$98,000",
+      "keyMetric": "120 pads, $2.8M acquisition basis, 92% occupancy, $34K/pad average lot rent"
+    },
+    {
+      "slug": "multi-entity-family-income-splitting",
+      "url": "https://www.aetaxadvisors.com/case-studies/multi-entity-family-income-splitting/",
+      "industry": "Property Management + Cleaning Services",
+      "annualTaxSavings": 39000,
+      "headlineOutcome": "$39,000",
+      "keyMetric": "Income shifted to 4 family members; combined bracket reduction + retirement"
+    },
+    {
+      "slug": "multi-entity-holding-company",
+      "url": "https://www.aetaxadvisors.com/case-studies/multi-entity-holding-company/",
+      "industry": "Multi-Business (Fitness, Supplements, Apparel, Digital Media)",
+      "annualTaxSavings": 54000,
+      "headlineOutcome": "$54,000",
+      "keyMetric": "4 entities consolidated under holding S-Corp; single retirement plan"
+    },
+    {
+      "slug": "multi-entity-real-estate-operating",
+      "url": "https://www.aetaxadvisors.com/case-studies/multi-entity-real-estate-operating/",
+      "industry": "Physical Therapy Practice + Rental Portfolio",
+      "annualTaxSavings": 83000,
+      "headlineOutcome": "$83,000",
+      "keyMetric": "Self-rental recharacterization + REPS + management company = $83K savings"
+    },
+    {
+      "slug": "nonprofit-founder-for-profit-entities-related-party",
+      "url": "https://www.aetaxadvisors.com/case-studies/nonprofit-founder-for-profit-entities-related-party/",
+      "industry": "Nonprofit Education Foundation + For-Profit Training & Consulting",
+      "annualTaxSavings": 78000,
+      "headlineOutcome": "$78,000",
+      "keyMetric": "Founder salary $220K, $950K consulting revenue, shared facilities, 28 employees across entities"
+    },
+    {
+      "slug": "partnership-to-s-corp",
+      "url": "https://www.aetaxadvisors.com/case-studies/partnership-to-s-corp/",
+      "industry": "Management Consulting (Partnership)",
+      "annualTaxSavings": 36000,
+      "headlineOutcome": "$36,000",
+      "keyMetric": "SE tax reduced by $36K combined ($18K per partner)"
+    },
+    {
+      "slug": "physician-reps-qualification-cost-seg-combo",
+      "url": "https://www.aetaxadvisors.com/case-studies/physician-reps-qualification-cost-seg-combo/",
+      "industry": "Medicine (Emergency Physician) + Real Estate Investments",
+      "annualTaxSavings": 112000,
+      "headlineOutcome": "$112,000",
+      "keyMetric": "Physician spouse managing 8 rental units, $2.6M RE portfolio, combined income $860K"
+    },
+    {
+      "slug": "physician-w2-str-reps",
+      "url": "https://www.aetaxadvisors.com/case-studies/physician-w2-str-reps/",
+      "industry": "Physician (W-2) + STR Portfolio",
+      "annualTaxSavings": 89000,
+      "headlineOutcome": "$89,000",
+      "keyMetric": "Spousal REPS + 3 STR cost seg studies = $89K annual savings"
+    },
+    {
+      "slug": "private-medical-practice-c-corp-defined-benefit",
+      "url": "https://www.aetaxadvisors.com/case-studies/private-medical-practice-c-corp-defined-benefit/",
+      "industry": "Private Medical Practice (Orthopedic Surgery)",
+      "annualTaxSavings": 168000,
+      "headlineOutcome": "$168,000",
+      "keyMetric": "4 physician-partners, average income $680K each, 22 staff"
+    },
+    {
+      "slug": "professional-athlete-entity-setup-real-estate-offset",
+      "url": "https://www.aetaxadvisors.com/case-studies/professional-athlete-entity-setup-real-estate-offset/",
+      "industry": "Professional Sports (NFL) + Real Estate Investments",
+      "annualTaxSavings": 174000,
+      "headlineOutcome": "$174,000",
+      "keyMetric": "$3M income, $1.8M real estate portfolio, 4 rental properties, career window 5-7 years"
+    },
+    {
+      "slug": "real-estate-agent-investment-portfolio",
+      "url": "https://www.aetaxadvisors.com/case-studies/real-estate-agent-investment-portfolio/",
+      "industry": "Real Estate Agent + STR Investor",
+      "annualTaxSavings": 71000,
+      "headlineOutcome": "$71,000",
+      "keyMetric": "REPS via brokerage hours + cost seg on 3 STRs = $71K savings"
+    },
+    {
+      "slug": "real-estate-broker-team-entity",
+      "url": "https://www.aetaxadvisors.com/case-studies/real-estate-broker-team-entity/",
+      "industry": "Real Estate Brokerage",
+      "annualTaxSavings": 52000,
+      "headlineOutcome": "$52,000",
+      "keyMetric": "Commission restructured through S-Corp; group health plan added"
+    },
+    {
+      "slug": "real-estate-professional-grouping-election",
+      "url": "https://www.aetaxadvisors.com/case-studies/real-estate-professional-grouping-election/",
+      "industry": "Property Management + Rental Portfolio",
+      "annualTaxSavings": 118000,
+      "headlineOutcome": "$118,000",
+      "keyMetric": "2,100+ hours in real estate activities"
+    },
+    {
+      "slug": "restaurant-cost-seg-tip-credit",
+      "url": "https://www.aetaxadvisors.com/case-studies/restaurant-cost-seg-tip-credit/",
+      "industry": "Restaurant (2 Locations)",
+      "annualTaxSavings": 94000,
+      "headlineOutcome": "$94,000",
+      "keyMetric": "Cost seg on 2 buildings + FICA tip credit = $94K annual savings"
+    },
+    {
+      "slug": "restaurant-group-multi-entity-optimization",
+      "url": "https://www.aetaxadvisors.com/case-studies/restaurant-group-multi-entity-optimization/",
+      "industry": "Restaurant Group (Full-Service Dining)",
+      "annualTaxSavings": 134000,
+      "headlineOutcome": "$134,000",
+      "keyMetric": "85 tipped employees across locations"
+    },
+    {
+      "slug": "s-corp-late-election-relief",
+      "url": "https://www.aetaxadvisors.com/case-studies/s-corp-late-election-relief/",
+      "industry": "Digital Marketing Agency",
+      "annualTaxSavings": 19000,
+      "headlineOutcome": "$19,000",
+      "keyMetric": "Late election approved; retroactive to January 1"
+    },
+    {
+      "slug": "s-corp-multiple-businesses",
+      "url": "https://www.aetaxadvisors.com/case-studies/s-corp-multiple-businesses/",
+      "industry": "Multi-Business (Staffing, IT Services, Training)",
+      "annualTaxSavings": 67000,
+      "headlineOutcome": "$67,000",
+      "keyMetric": "QBI deduction maximized across all entities; single retirement plan"
+    },
+    {
+      "slug": "s-corp-officer-comp-correction",
+      "url": "https://www.aetaxadvisors.com/case-studies/s-corp-officer-comp-correction/",
+      "industry": "Professional Services (Consulting)",
+      "annualTaxSavings": 31000,
+      "headlineOutcome": "$31,000",
+      "keyMetric": "Officer comp ratio corrected from 3.4% to 7.3% of revenue"
+    },
+    {
+      "slug": "s-corp-payroll-setup-sole-prop",
+      "url": "https://www.aetaxadvisors.com/case-studies/s-corp-payroll-setup-sole-prop/",
+      "industry": "Management Consulting",
+      "annualTaxSavings": 22000,
+      "headlineOutcome": "$22,000",
+      "keyMetric": "Self-employment tax reduced by 62%"
+    },
+    {
+      "slug": "s-corp-qbi-threshold-optimization",
+      "url": "https://www.aetaxadvisors.com/case-studies/s-corp-qbi-threshold-optimization/",
+      "industry": "Marketing Agency",
+      "annualTaxSavings": 28000,
+      "headlineOutcome": "$28,000",
+      "keyMetric": "Taxable income reduced from $425K to $326K (below MFJ threshold)"
+    },
+    {
+      "slug": "s-corp-to-c-corp-medical",
+      "url": "https://www.aetaxadvisors.com/case-studies/s-corp-to-c-corp-medical/",
+      "industry": "Medical Practice (Orthopedics)",
+      "annualTaxSavings": 72000,
+      "headlineOutcome": "$72,000",
+      "keyMetric": "Effective rate reduced from 43.3% to 29.1% through entity + benefits"
+    },
+    {
+      "slug": "saas-founder-rd-credit-s-corp-optimization",
+      "url": "https://www.aetaxadvisors.com/case-studies/saas-founder-rd-credit-s-corp-optimization/",
+      "industry": "Software as a Service (B2B SaaS)",
+      "annualTaxSavings": 38000,
+      "headlineOutcome": "$38,000",
+      "keyMetric": "3 developers, $240K annual R&D spend"
+    },
+    {
+      "slug": "self-storage-facility-cost-seg-automation",
+      "url": "https://www.aetaxadvisors.com/case-studies/self-storage-facility-cost-seg-automation/",
+      "industry": "Self-Storage Facilities (3 Locations)",
+      "annualTaxSavings": 126000,
+      "headlineOutcome": "$126,000",
+      "keyMetric": "1,450 total units, $4.8M combined building basis, $420K automation equipment"
+    },
+    {
+      "slug": "sole-prop-to-s-corp-contractor",
+      "url": "https://www.aetaxadvisors.com/case-studies/sole-prop-to-s-corp-contractor/",
+      "industry": "General Contracting / Construction",
+      "annualTaxSavings": 41000,
+      "headlineOutcome": "$41,000",
+      "keyMetric": "SE tax reduced from $44,200 to $18,400; retirement plan added"
+    },
+    {
+      "slug": "tech-consulting-firm-ic-classification-accountable-plan",
+      "url": "https://www.aetaxadvisors.com/case-studies/tech-consulting-firm-ic-classification-accountable-plan/",
+      "industry": "Technology Consulting (Cybersecurity & Cloud)",
+      "annualTaxSavings": 62000,
+      "headlineOutcome": "$62,000",
+      "keyMetric": "12 contractors, 4 W-2 employees, owner income $620K"
+    },
+    {
+      "slug": "tech-founder-equity-comp-83b",
+      "url": "https://www.aetaxadvisors.com/case-studies/tech-founder-equity-comp-83b/",
+      "industry": "Technology Startup (AI/ML)",
+      "annualTaxSavings": 380000,
+      "headlineOutcome": "$380,000",
+      "keyMetric": "83(b) election at $0.001/share; acquisition at $12/share; $380K saved"
+    },
+    {
+      "slug": "tech-startup-rd-credit-qsbs",
+      "url": "https://www.aetaxadvisors.com/case-studies/tech-startup-rd-credit-qsbs/",
+      "industry": "SaaS / Technology Startup",
+      "annualTaxSavings": 45000,
+      "headlineOutcome": "$45,000",
+      "keyMetric": "$45K annual R&D credit + $10M potential QSBS exclusion at exit"
+    },
+    {
+      "slug": "triple-net-lease-passive-income-grouping-elections",
+      "url": "https://www.aetaxadvisors.com/case-studies/triple-net-lease-passive-income-grouping-elections/",
+      "industry": "Triple Net Lease (NNN) Commercial Real Estate",
+      "annualTaxSavings": 67000,
+      "headlineOutcome": "$67,000",
+      "keyMetric": "$4M portfolio, 4 properties, NNN tenants, passive investor"
+    },
+    {
+      "slug": "trucking-logistics-fleet-depreciation-fuel-credits",
+      "url": "https://www.aetaxadvisors.com/case-studies/trucking-logistics-fleet-depreciation-fuel-credits/",
+      "industry": "Trucking & Logistics (Regional Freight)",
+      "annualTaxSavings": 118000,
+      "headlineOutcome": "$118,000",
+      "keyMetric": "42-truck fleet, $3.2M equipment basis, $680K annual fuel spend"
+    },
+    {
+      "slug": "veterinary-practice-cost-seg-section-179",
+      "url": "https://www.aetaxadvisors.com/case-studies/veterinary-practice-cost-seg-section-179/",
+      "industry": "Veterinary Medicine (Small Animal & Emergency)",
+      "annualTaxSavings": 83000,
+      "headlineOutcome": "$83,000",
+      "keyMetric": "$1.4M clinic building, $380K equipment purchases, owner age 48"
+    },
+    {
+      "slug": "w2-couple-str-offset",
+      "url": "https://www.aetaxadvisors.com/case-studies/w2-couple-str-offset/",
+      "industry": "W-2 Employees (Airline Pilot + Tech Executive)",
+      "annualTaxSavings": 68000,
+      "headlineOutcome": "$68,000",
+      "keyMetric": "$195K paper loss from STR offsets W-2 income"
+    },
+    {
+      "slug": "w2-salt-cap-ptet-workaround",
+      "url": "https://www.aetaxadvisors.com/case-studies/w2-salt-cap-ptet-workaround/",
+      "industry": "Architectural Design Firm",
+      "annualTaxSavings": 23000,
+      "headlineOutcome": "$23,000",
+      "keyMetric": "SALT deduction increased from $10K cap to $47K via PTET"
+    }
+  ]
+}

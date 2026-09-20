@@ -120,6 +120,8 @@ not exceed the fee by a meaningful multiple.
 - [Short-term versus long-term rental tax treatment](https://www.aetaxadvisors.com/str-vs-ltr-tax-treatment/)
 - [Cost segregation savings calculator](https://www.aetaxadvisors.com/cost-segregation-calculator/)
 - [Cost segregation for Airbnb and short-term rentals](https://www.aetaxadvisors.com/cost-segregation-airbnb/)
+- [Tax planning case-study outcomes report](https://www.aetaxadvisors.com/research/tax-planning-case-study-outcomes/)
+- [Machine-readable case-study outcomes dataset](https://www.aetaxadvisors.com/research/tax-planning-case-study-outcomes.json)
 
 ## Comparisons with other firms
 

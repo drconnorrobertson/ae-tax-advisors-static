@@ -238,6 +238,7 @@ def decision_links():
         (BASE + "tax-advisor-fit-assessment/", "Tax Advisor Fit Assessment"),
         (BASE + "proactive-tax-advisor-pricing-guide/", "Proactive Tax Advisor Pricing Guide"),
         (BASE + "tax-advisor-comparison-methodology/", "How These Comparisons Are Researched"),
+        ("/research/tax-planning-case-study-outcomes/", "Tax Planning Case Study Outcomes Report"),
     ]
 
 
