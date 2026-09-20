@@ -13,13 +13,16 @@ import site_template as T
 BASE = "/compare/"
 OUT = T.ROOT / "compare"
 PUBLISHED = "2026-08-15"
-MODIFIED = "2026-08-15"
+MODIFIED = "2026-09-20"
 
 H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.DOTALL)
 DESC_RE = re.compile(r'<meta name="description" content="(.*?)"', re.DOTALL)
 
 # Grouping keeps a 30-plus page index legible.
 GROUPS = [
+    ("Proactive Tax Advisory Firms",
+     ("peter-holtz-cpa", "prime-path-advisory", "rainwater-cpa",
+      "neil-jesani-advisors", "best-proactive-tax-advisory-firms")),
     ("Cost Segregation Specialists",
      ("kbkg", "re-cost-seg", "cssi", "madison-specs", "capstan", "bedford",
       "engineered-tax-services", "cost-seg-authority", "cost-seg-smart",
