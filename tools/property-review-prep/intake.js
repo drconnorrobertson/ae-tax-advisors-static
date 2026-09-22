@@ -27,7 +27,9 @@ form.addEventListener('submit', event => {
   summaryCard.hidden = false;
   summaryCard.scrollIntoView({behavior:'smooth', block:'start'});
 });
-form.elements.land.addEventListener('input', () => form.elements.land.setCustomValidity(''));
+for (const name of ['price', 'land', 'improvements']) {
+  form.elements[name].addEventListener('input', () => form.elements.land.setCustomValidity(''));
+}
 form.addEventListener('reset', () => { summaryText = ''; summaryCard.hidden = true; form.elements.land.setCustomValidity(''); });
 document.querySelector('#printBtn').addEventListener('click', () => window.print());
 document.querySelector('#downloadBtn').addEventListener('click', () => {
