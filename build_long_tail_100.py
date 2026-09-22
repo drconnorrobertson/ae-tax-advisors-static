@@ -11,6 +11,7 @@ import re
 from pathlib import Path
 
 import seo_render
+import site_template as template
 
 seo_render.BASE = "https://www.aetaxadvisors.com"
 
@@ -121,6 +122,110 @@ business-sale-noncompete-payment|How are noncompete payments in a business sale 
 business-asset-sale-sales-tax|Does sales tax apply when a business sells its equipment?|State sales-tax treatment of a business asset sale varies by jurisdiction and transaction type, while federal gain is computed from proceeds and adjusted tax basis.|Check the applicable state exemption or bulk-sale rules before closing and separately calculate federal gain or loss.|Keep bill of sale, original purchase invoice, depreciation schedule, and state tax determination.|Assuming an isolated equipment sale has no state sales-tax consequence can surprise buyer and seller.
 """
 
+# Illustrative fact patterns are written for each question, not copied from clients.
+EXAMPLES = """
+rental-property-security-deposit-tax|A tenant pays $2,000 at signing, and the lease requires its return after inspection. The owner records a deposit liability. At move-out, the owner keeps $300 for unpaid rent and refunds $1,700; the retained portion is evaluated as rental income in the year it is kept.
+rental-property-prepaid-rent-tax|A tenant pays January rent in December to avoid a late payment during travel. The cash-method landlord includes the amount in the December tax year, even though the tenant occupies the unit in January. The lease and payment ledger should show that this was rent rather than refundable security.
+rental-property-tenant-paid-expenses|A lease requires the owner to pay the water bill, but a tenant pays the utility directly after a shutoff warning. The owner should not simply omit the transaction because no money entered the owner's bank account. The payment and corresponding qualifying expense need separate entries.
+rental-property-services-in-lieu-of-rent|A tenant paints the unit in exchange for one month's rent. The owner records the fair value of the rent concession and evaluates the painting cost under the repair and improvement rules. A written change order and comparable contractor price make the valuation easier to support.
+rental-property-cancelled-lease-payment|A commercial tenant pays a negotiated amount to surrender the space six months early. The settlement agreement should distinguish the release payment from reimbursement for broken fixtures. The owner then analyzes the receipt in the year received and separately records any restoration work.
+rental-property-owner-paid-utilities|An owner pays one electric meter serving a rented basement and the owner's living quarters. The full bill is not a rental expense. A reasonable allocation based on separate submeters, square footage, or another documented measure gives the preparer a defensible rental portion.
+rental-property-vacancy-expenses|An apartment is empty for seven weeks between tenants, but the owner advertises it throughout and schedules showings. Insurance and ordinary upkeep may remain rental expenses during the gap. Renovations that make the unit unavailable for rent need their own capitalization and placed-in-service review.
+rental-property-placed-in-service-date|A buyer closes on a duplex in March, replaces unsafe wiring through May, and first advertises it for rent in June. The owner should not begin building depreciation merely because title transferred in March. Dated contractor completion and listings establish when it became ready and available.
+rental-property-land-value-allocation|An investor buys a house and lot for a single price. The land remains nondepreciable even though the entire purchase is financed. The owner compares a contemporary appraisal and assessor data, allocates acquisition costs consistently, and begins depreciation only on the building and eligible separate improvements.
+rental-property-closing-costs-basis|A closing disclosure includes title insurance, lender origination charges, escrowed taxes, and prepaid insurance. The buyer should map each line to acquisition basis, financing cost, or a current or prepaid operating item. A single journal entry to building basis conceals those different recovery periods.
+rental-property-loan-origination-fees|A landlord pays a lender fee to obtain a ten-year rental mortgage, then refinances in year four. The unamortized borrowing cost may need to be addressed at payoff; it is not simply part of the building's depreciation schedule. Retaining both loan statements is essential.
+rental-property-mortgage-points|An investor pays points to lower the rate on a loan secured by a rental condo. Even if the closing statement calls them discount points, the rental-property timing rules differ from the familiar principal-residence exception. The lender documents and loan term control the schedule.
+rental-property-replacement-roof|A contractor removes the entire aging roof and installs new materials. That project is substantially different from patching a small leak after a storm. The owner capitalizes the new roof as appropriate and asks whether a disposition deduction is available for any remaining basis of the old roof.
+rental-property-appliance-replacement|A landlord replaces a broken refrigerator in one apartment and removes the old unit. The new refrigerator should be separately tracked with its own cost and in-service date. The old asset should be removed from the fixed-asset schedule if its remaining tax basis is disposed of.
+rental-property-fence-depreciation|A property owner builds a new perimeter fence for a rented house. The cost is not the price of the underlying land and is not a routine patch to an existing fence. Invoices that separate posts, gates, and related work support an asset-level depreciation decision.
+rental-property-driveway-improvement|One owner fills potholes in an existing rental driveway; another tears it out and installs a wider concrete surface. The projects have different facts under the improvement rules. Contractor scopes and before-and-after photos show whether the work merely maintained the old surface or created a new asset.
+rental-property-landscaping-basis|A landlord pays for mowing and seasonal cleanup, then installs a permanent irrigation system. The recurring service and new system do not share one tax treatment. Itemized invoices let the owner distinguish maintenance from a depreciable improvement and keep land itself out of the depreciation schedule.
+rental-property-casualty-insurance-proceeds|A pipe bursts, and an insurer pays for floor restoration after applying a deductible. The owner records the damaged asset's basis, insurance proceeds, and restoration invoices rather than claiming the contractor's full bill in isolation. New upgraded flooring may also have a different treatment from repair work.
+rental-property-condemnation-proceeds|A city takes a strip of a rental lot to widen a street and pays the owner an award. The owner allocates basis to the part taken and reviews whether reinvestment qualifies for gain deferral. Depositing the award into a bank account alone does not establish its tax treatment.
+rental-property-property-tax-proration|A rental sale closes halfway through a local property-tax year, and the seller credits the buyer on the settlement statement. The tax return allocation should follow the period of ownership, not just the person who later sends the county a check. Transfer charges need a separate classification.
+rental-property-special-assessment|A town bills owners for a new sewer connection and separately charges for annual sewer maintenance. The owner should capitalize the improvement portion as appropriate and evaluate the recurring charge as an operating cost. The municipal notice is better evidence than the payment memo alone.
+rental-property-hoa-dues|A condo association bills monthly dues and a separate assessment for replacing the building roof. The monthly operating charge and roof project should be reviewed separately, even though both are paid to the same association. The board's project notice explains what the special payment funded.
+rental-property-owner-travel|An out-of-state owner spends three days inspecting two rentals and four days visiting family. Contemporaneous notes of inspections, meetings, and mileage support only the business portion of the trip. The fact that a rental was visited does not make every airfare, meal, and hotel night deductible.
+rental-property-mileage-between-properties|A landlord drives from one managed rental to another to meet a plumber, then stops for personal shopping. The rental leg should be recorded with date, distance, and purpose. A single annual estimate based on the number of properties cannot show which miles were business miles.
+rental-property-home-office-management|An owner uses a separate room exclusively to run a large rental operation and keeps records there; another works occasionally at a kitchen counter. Exclusive use differs in the two cases. The owner must still establish the other requirements before claiming home-office costs.
+rental-property-paid-property-manager|A manager collects rent, handles maintenance, and arranges tenants while the owner reviews monthly statements. The fee is a rental expense, but the manager's work does not count as the owner's participation hours. The owner should maintain a separate log of genuine operational work.
+rental-property-co-owner-expense-sharing|Two siblings own a duplex in unequal shares, and one pays the entire insurance bill. Their returns should reflect the ownership and economic arrangement rather than a reflexive equal split. A year-end settlement worksheet can reconcile direct payments, distributions, and each person's share.
+rental-property-gifted-property-basis|A parent gives an adult child a rental bought years ago and later improved. The child cannot simply depreciate the property's current market value. The donor's cost, improvements, prior depreciation, and gift-date value must be assembled before creating a new schedule.
+rental-property-inherited-basis|An heir receives a rented house with a prior depreciation history. The heir should obtain estate valuation records and allocate the inherited basis between building and land. Carrying forward the decedent's old building basis without review can misstate both future depreciation and gain on sale.
+rental-property-converted-home-basis|A homeowner moves out and rents a house after its value has fallen below adjusted cost. For depreciation, the lower fair-market-value rule may apply at conversion. A dated appraisal and the home's purchase and improvement history allow the preparer to calculate the correct starting basis.
+rental-property-converted-to-personal-use|A landlord stops advertising a rental and moves into it permanently in July. Schedule E expenses should be separated before and after conversion, while depreciation taken through the rental period remains part of the later sale calculation. The move date needs more support than a verbal estimate.
+rental-property-partial-personal-use|An owner rents a lake cabin for part of the summer and reserves weekends for family. The expense allocation depends on actual rental and personal days and on whether the vacation-home thresholds apply. A booking calendar should include family stays, not just paid reservations.
+rental-property-family-below-market-rent|A parent charges an adult child half of comparable market rent for a vacation property. The arrangement may create personal-use days for federal tax purposes despite a signed lease. Nearby rental listings and evidence of the child's residence clarify the fair-rent and usage analysis.
+rental-property-airbnb-cleaning-fees|A booking platform charges a guest $175 for cleaning, withholds its platform fee, and remits a smaller net amount to the host. The host reconciles gross guest charges and separately records cleaner and platform costs. Recording only the bank deposit understates receipts and expenses.
+rental-property-airbnb-occupancy-taxes|A platform collects local lodging tax from guests and remits it directly to the city. The host checks whether that tax legally belongs to the host or was collected solely as an agent. Platform reports and local filings should agree before the amount is included or excluded from receipts.
+rental-property-short-stay-average-period|A property has many two-night bookings and several month-long stays. The owner calculates average customer use from actual stay records rather than relying on the listing's minimum-night setting. A few long stays can materially affect the average and therefore the passive-activity classification.
+rental-property-short-stay-services|One host provides keys and cleans only between stays; another supplies daily housekeeping, breakfast, and concierge service during occupancy. The services differ for tax classification. The owner should describe what guests actually received, not just the platform used to collect reservations.
+rental-property-guest-damage-fees|A guest breaks a door, and the platform transfers a damage payment to the host. The owner records that receipt and examines whether replacing the door is a repair or part of a larger renovation. Photos and the platform's claim detail link the payment to the work.
+rental-property-lease-option-payment|A prospective buyer pays an owner for a one-year option to buy a rental. If the option is exercised, the payment may become part of the sale transaction; if it expires, the treatment changes. The agreement should state when and how the option payment applies.
+rental-property-lease-purchase-rent-credit|A tenant pays above-market monthly amounts, with part credited toward a required purchase price. The owner needs to determine whether the agreement remains a lease with an option or has shifted benefits and burdens of ownership. Comparable market rent and contract terms make the distinction concrete.
+rental-property-abandoned-tenant-property|A tenant leaves furniture and trash behind after moving out, and the landlord also upgrades the kitchen. Disposal and cleanup costs should be separated from the new cabinets and appliances. An itemized contractor invoice prevents the whole job from being assigned one treatment.
+rental-property-eviction-legal-fees|An attorney handles an eviction for unpaid rent and also resolves a dispute over title to a parking parcel. The two services may have different tax character. Detailed legal billing lets the owner separate operating litigation from costs that protect or acquire a property interest.
+rental-property-uncollectible-rent|A cash-method landlord invoices a tenant for three months but receives no payment. Because those amounts were not included in income, writing off the unpaid ledger balance does not create another tax deduction. Related court and collection costs are separate questions.
+rental-property-refinance-cash-out|An owner borrows against an apartment building and uses half the proceeds for a new rental and half for a personal vacation. The loan itself generally is not income, but interest cannot all be assigned to the original building. A clear funds trail identifies the different uses.
+rental-property-heloc-interest-tracing|A landlord draws from a HELOC secured by a rental, using one advance for roof work and another for a personal car. The collateral is the same, but the interest allocation follows use of proceeds. Separate draws and bank transfers make that tracing possible.
+rental-property-loss-sale-to-relative|An investor sells a rental at a loss to a sibling. Even with an appraisal and real payment, related-party loss limitations may prevent a current deduction. The relationship should be identified before closing so price, basis, and possible future consequences can be modeled.
+rental-property-sale-depreciation-allowed|A landlord never claimed building depreciation and later sells the property. The sale computation still takes allowed-or-allowable depreciation into account. Rebuilding the missing schedule can reveal a prior-year correction path while producing a defensible adjusted basis for the sale.
+rental-property-installment-sale-depreciation|A landlord sells an investment property in exchange for a note paid over several years. Part of the tax connected to prior depreciation may be due in the sale year despite delayed cash collections. An asset-by-asset schedule should be modeled before agreeing to the note terms.
+rental-property-selling-costs-gain|A rental sells for a stated price with broker commission, transfer charges, and a mortgage payoff at closing. The commission can reduce amount realized as an eligible selling cost; paying off the loan does not reduce gain. The settlement statement must be translated into a separate tax worksheet.
+rental-property-rent-concession-tax|A landlord offers one free month to secure a twelve-month tenant and signs a lease reflecting that concession. There is no cash receipt for the waived month under the cash method. The lease, rent roll, and bank deposits should reconcile so the concession is not mistaken for an unpaid receivable.
+business-customer-deposits-tax|A contractor collects a payment before work begins. If the customer can demand return of the money under specified conditions, the obligation differs from an earned advance payment. The signed agreement and later invoices show when the amount becomes consideration for completed work.
+business-gift-card-revenue-timing|A shop sells cards in November and customers redeem them across several tax years. Card liabilities, redemptions, and breakage need a year-by-year roll-forward. The treatment depends on the applicable advance-payment rule and the shop's accounting method, not simply when cash reached the register.
+business-refunds-returns-tax|An online seller records a December sale, then refunds it in January after a return. The owner should reconcile the original receipt and processor chargeback to the correct year under the chosen accounting method. A generic chargeback expense may conceal the underlying sales adjustment.
+business-sales-tax-collected|A retailer receives a $108 payment that includes $8 of state sales tax collected for the state. The owner records the tax liability and remittance separately from product revenue if acting as the state's collection agent. Marketplace facilitator collections should be reconciled as well.
+business-credit-card-cashback-tax|A company buys a machine on a card and later receives a purchase-based cash rebate. The rebate may reduce the machine's tax cost rather than create ordinary sales income. The same analysis matters less for routine small supplies but should still match the books.
+business-barrier-to-cash-method|A growing company wants to switch from accrual to cash reporting after a profitable year. The owners should calculate the applicable gross-receipts test and review inventory activity before filing. A bookkeeper changing software settings does not itself establish a valid tax-method change.
+business-unpaid-invoices-cash-basis|A consultant using the cash method sends an invoice in December but the client never pays. The invoice was never taxable cash receipt, so there is usually no separate bad-debt deduction for its face amount. Collection fees actually paid are a different expense.
+business-bad-debt-accrual-method|A wholesaler reports a customer sale on an accrual return, then the customer liquidates without paying. The company documents the prior income inclusion, collection efforts, and year of worthlessness. A broad reserve against every slow-paying customer is not the same as a specific tax write-off.
+business-inventory-damaged-goods|A warehouse flood destroys a countable batch of merchandise. The business removes affected units from ending inventory under its adopted method and records any insurance recovery. It should not also deduct the same goods as an unrelated casualty expense without tracing their cost.
+business-inventory-samples-tax|A seller distributes sample products at a trade show. The tax cost of units given away should move out of saleable inventory and into the appropriate promotion category. The hoped-for retail sales price is not an amount the business actually spent.
+business-inventory-owner-withdrawal|An owner takes products home for family use. The goods leave inventory, but their cost is not an ordinary cost of products sold to customers. A withdrawal log preserves the distinction between owner consumption and documented promotional distribution.
+business-freight-in-inventory-cost|A company pays freight to receive items it will resell and separately pays postage to ship sold orders. Inbound freight may be part of inventory cost; outbound shipping is analyzed as a selling cost. Vendor and carrier invoices should be coded separately.
+business-website-development-costs|A developer invoices a business for a custom checkout system, monthly hosting, and copy updates. Those three elements need separate analysis because they provide different benefits and rights. A detailed statement of work is stronger support than the invoice description website services.
+business-domain-name-purchase-tax|A company pays a broker a substantial amount for an established domain name, then pays an annual registrar fee. The acquired domain right and recurring registration are different costs. Purchase documentation should identify the right transferred and whether it was part of a larger business acquisition.
+business-software-subscription-vs-license|A practice pays monthly to access cloud scheduling software, then pays separately to acquire custom code it owns. The recurring access and owned code do not necessarily have the same tax recovery. Contract rights and implementation milestones matter more than a vendor's software label.
+business-prepaid-insurance-tax|A business pays in December for a policy covering the next two years. The deduction should be matched to the coverage period under applicable rules rather than assumed to be fully current. The declarations page and payment date establish both the benefit period and cash timing.
+business-prepaid-rent-tax|A company prepays several months of next year's office rent before December 31. The lease and benefit period determine whether any timing rule applies. Moving cash before year-end does not by itself transform every future rent obligation into an immediate deduction.
+business-lease-security-deposit|A restaurant pays its landlord a refundable security deposit plus first month's rent. The deposit is a recoverable asset; the rent is a separate lease cost. At lease termination, the landlord's refund or application of the deposit triggers the next accounting step.
+business-tenant-improvement-allowance|A landlord gives a new commercial tenant money to construct interior improvements. The lease must establish who owns the completed work and how the allowance is conditioned. Both parties should coordinate their tax reporting instead of each independently depreciating the same project.
+business-commercial-lease-buyout|A business pays its landlord to exit an expensive lease and then signs a new lease across town. The payment's purpose, contract rights, and connection to the new location must be analyzed. The business should not simply book the whole settlement as monthly rent.
+business-trade-show-booth-costs|A company pays for exhibit space, printed handouts, and a reusable modular booth. The event fee and handouts may be current promotion costs; the booth is a durable asset used at later shows. Separating invoices by component supports the timing of each deduction.
+business-promotional-giveaways-tax|A firm hands out inexpensive branded pens to hundreds of visitors and gives a valuable watch to one referral partner. Those transactions may fall under different advertising and business-gift rules. Recipient and item records should match the claimed category.
+business-referral-fees-1099|A business pays an independent consultant for introducing a new customer. The agreement should show the service, the consultant's tax status, and payment amount. The company then evaluates information reporting instead of assuming a payment platform handles all obligations.
+business-contractor-reimbursement-tax|An independent contractor buys materials for a client project and bills the business for labor plus reimbursed materials. The contract should show whether the contractor acted as purchasing agent or charged a combined fee. The business reconciles the invoice and evaluates reporting on the payment.
+business-owner-reimbursement-no-accountable-plan|An S corporation sends an owner a fixed monthly expense allowance without receipts or a mileage log. That arrangement differs from reimbursement of documented business costs under an accountable plan. Payroll and the owner return may need correction if the allowance was treated as tax-free.
+business-employee-cell-phone|A field technician needs a mobile phone to receive dispatches and report customer visits. The employer's written job requirements help support a business reason for providing the device. An unrestricted cash payment to every employee needs its own wage and reimbursement analysis.
+business-employee-home-internet|A remote employee submits an internet bill and documents a necessary business portion. The employer's reimbursement policy states how that portion is calculated. Paying an identical full-bill allowance to everyone without documentation may produce a different tax result.
+business-employee-meal-overtime|A business orders food for a team working through an emergency deadline. The owner records attendees, work circumstances, and itemized cost. The deduction and employee fringe treatment should be considered separately rather than assuming that all late-night food is tax-free and fully deductible.
+business-team-event-meals|A company hosts a holiday event open to its full staff, then holds a separate dinner for its two owners. The events have different attendee groups and purposes. Invitations and invoices allow the company to apply the appropriate employee recreation and meal rules to each.
+business-client-gift-vs-entertainment|A firm buys a client tickets to a game and also pays for a separately itemized meal. Ticket admission and meal cost require separate analysis. The vendor's itemized invoice matters more than the company's internal label client appreciation gift.
+business-sponsorship-vs-charity|A local charity gives a business prominent signage, a program advertisement, and speaking time in exchange for payment. The owner documents the advertising benefits received and considers whether any remaining amount is a gift. A nonprofit payee alone does not determine the category.
+business-charity-through-s-corp|An S corporation donates to a qualified charity and passes the contribution through to two shareholders. Each owner must consider basis and personal deduction limits; the corporate cash payment does not guarantee an immediate personal tax benefit. The K-1 and acknowledgment should reconcile.
+business-business-loan-proceeds-tax|A bank deposits loan proceeds into a new company's account. The deposit creates cash and a repayment liability, not product revenue. Later principal payments reduce debt, while interest and financed purchases follow their own deduction or basis rules.
+business-forgiven-loan-tax|A lender agrees to discharge part of a company's outstanding note. The business gathers the cancellation agreement, its solvency data, and any Form 1099-C before deciding whether income or an exclusion applies. The fact that borrowed money was not taxable when received does not settle the later discharge.
+business-interest-personal-guarantee|An owner guarantees a corporate loan, and the corporation pays interest from its own account. The owner's guarantee does not itself transfer the interest deduction to the owner's return. If the owner later pays the lender, the payment's effect on debt, basis, or reimbursement must be documented.
+business-intercompany-loan-documentation|A shareholder advances cash to a company during a slow quarter. A contemporaneous note states repayment terms and interest, and actual payments follow the agreement. Without those facts, a later claim that the transfer was debt is much harder to defend.
+business-owner-loan-repayment-tax|An S corporation repays part of a shareholder's documented loan. The bookkeeper separates principal and interest and checks whether prior pass-through losses reduced debt basis. The shareholder's tax treatment may differ from a simple return of untouched principal.
+business-s-corp-distribution-basis|An S corporation has enough cash for a large owner distribution, but prior losses reduced stock basis. Before sending cash, the company prepares a basis roll-forward from old K-1s and contributions. Cash in the bank is not proof the full distribution is tax-free.
+business-s-corp-loss-debt-basis|A shareholder signs a guarantee on the company's bank line but has not made a payment or directly lent the company money. The guarantee alone generally does not create debt basis to absorb losses. The preparer must test stock basis, debt basis, at-risk, and passive limits in order.
+business-s-corp-shareholder-health-insurance|An S corporation pays a majority owner's health-insurance premiums directly. Before issuing the W-2, payroll confirms the required wage inclusion and the owner checks eligibility for an individual deduction. A company card payment without the payroll step can leave the reporting incomplete.
+business-partnership-guaranteed-payment|A partner receives a fixed amount for managing the firm whether or not the partnership earns profit. The operating agreement and K-1 should reflect the guaranteed-payment arrangement. Treating the partner as a W-2 employee without analyzing partner status can create inconsistent filings.
+business-partner-expenses-unreimbursed|A partner pays required travel costs personally under the partnership agreement, and the firm does not reimburse them. The partner retains the agreement and receipts to evaluate a partner-level deduction. A voluntary personal purchase without a reimbursement restriction presents a different case.
+business-partnership-distribution-property|A partnership distributes a machine to one partner. The partners determine the machine's tax basis, the recipient's outside basis, and any liabilities or special assets before reporting. Its current market value alone does not determine the immediate tax effect.
+business-partnership-buyout-ordinary-income|A buyer purchases a partner's interest in a firm holding unpaid receivables and inventory. The transaction price must be analyzed for the portion attributable to those hot assets. That portion can have ordinary character even though the contract calls the deal an interest sale.
+business-purchase-price-allocation-assets|A buyer acquires a small operating business with equipment, inventory, customer relationships, and goodwill. Buyer and seller negotiate how the total price is allocated across these assets. Their allocations affect both depreciation and gain character, so matching transaction schedules matter.
+business-acquired-customer-list|A company buys another firm's client list as part of an asset purchase. The list can be a durable acquired intangible rather than an immediate marketing expense. Contract rights, valuation, and whether other assets were acquired help identify the correct recovery method.
+business-sale-escrow-holdback|A seller receives most business-sale proceeds at closing while a portion stays in escrow against warranty claims. The agreement determines whether the seller has a fixed right to the holdback or a contingent one. The escrow statement and later releases should be tracked separately.
+business-sale-working-capital-adjustment|A buyer and seller set a target level of working capital, then settle a difference after closing. The payment may change purchase price rather than pay for a new service. The signed formula and final balance sheet reveal what was adjusted.
+business-sale-noncompete-payment|A seller agrees not to compete locally after selling a practice. If the covenant has real economic value, a documented allocation can affect buyer amortization and seller character. A nominal covenant inserted late without valuation support should not drive the tax return.
+business-asset-sale-sales-tax|A company sells a used machine to an unrelated buyer. The federal return measures gain or loss using adjusted basis; the state may separately require sales tax or recognize an exemption. A bill of sale and state-specific review should happen before the buyer pays.
+"""
+
 SOURCES = {
     "real": ("IRS Publication 527: Residential Rental Property", "https://www.irs.gov/publications/p527"),
     "passive": ("IRS Publication 925: Passive Activity and At-Risk Rules", "https://www.irs.gov/publications/p925"),
@@ -149,14 +254,16 @@ def source_for(slug: str, real: bool) -> tuple[str, str]:
     return SOURCES["real" if real else "business"]
 
 
-def make_post(row: tuple[str, ...], real: bool) -> dict:
+def make_post(row: tuple[str, ...], real: bool, example: str, sibling_links: list[tuple[str, str]]) -> dict:
     slug, title, answer, decision, evidence, mistake = row
     topic = title.rstrip("?")
     category = "Real Estate Tax" if real else "Business Tax"
     hub = ("/real-estate-tax-planning/", "Real estate tax planning") if real else ("/business-owner-small-business-tax/", "Business tax planning")
     source_name, source_url = source_for(slug, real)
     esc = html.escape
-    related = [hub, ("/blog/", "All tax strategy articles")]
+    subhub = (("/guides/rental-property-tax-questions/", "Rental property tax questions")
+              if real else ("/guides/business-tax-questions/", "Business tax questions"))
+    related = [subhub, hub] + sibling_links
     if real:
         related.append(("/cost-segregation-studies-for-real-estate-investors/", "Depreciation and cost segregation"))
     else:
@@ -167,6 +274,9 @@ def make_post(row: tuple[str, ...], real: bool) -> dict:
 
         <h2>The decision to make before filing</h2>
         <p>{esc(decision)} The useful planning step is to resolve the classification while the underlying documents are still available, then reconcile it to the books and the prior-year return. If the transaction spans more than one year, track the opening balance and what happened to it afterward.</p>
+
+        <h2>Illustrative example</h2>
+        <p>{esc(example)}</p>
 
         <h2>Records that support the position</h2>
         <p>{esc(evidence)} Tie amounts on the return to bank activity and the agreement. When several assets, people, or uses are involved, write down the allocation method and apply it consistently. A short dated workpaper is easier to defend than a reconstructed explanation years later.</p>
@@ -185,17 +295,61 @@ def make_post(row: tuple[str, ...], real: bool) -> dict:
         "date": "2026-09-22", "date_display": "September 22, 2026",
         "lead": f"<strong>{esc(answer)}</strong>",
         "body": re.sub(r"(?m)^[ \t]+$", "", body),
-        "faqs": [(title, answer), ("What should I document?", evidence)],
+        "faqs": [],
         "related": related,
         "cta_head": f"Need to classify this {('rental' if real else 'business')} transaction?",
         "cta_text": "AE Tax Advisors can review the documents, reporting history, and the decision before filing.",
     }
 
 
+GROUP_NAMES = {
+    True: ["Rental receipts and acquisition", "Improvements and property costs",
+           "Management, ownership, and basis", "Short stays and lease arrangements",
+           "Financing, losses, and sale"],
+    False: ["Revenue and inventory", "Technology and commercial leases",
+            "Marketing and employee costs", "Financing and S corporation owners",
+            "Partnerships and business sales"],
+}
+
+
+def build_hub(rows: list[tuple[str, ...]], real: bool) -> tuple[str, str]:
+    slug = "rental-property-tax-questions" if real else "business-tax-questions"
+    path = f"/guides/{slug}/"
+    title = "Rental Property Tax Questions: A Practical Guide" if real else "Business Tax Questions: A Practical Guide"
+    subtitle = ("Find the tax treatment, documentation, and common errors for 50 situations rental owners encounter."
+                if real else "Find the tax treatment, documentation, and common errors for 50 situations business owners encounter.")
+    intro = ("Rental income, basis, improvements, short stays, refinancing, and sales are connected. "
+             "Use these focused articles to classify an actual transaction, then return to the "
+             "broader real estate tax planning guide for the full portfolio context."
+             if real else
+             "Revenue recognition, inventory, reimbursements, entity basis, and business sales "
+             "interact across tax years. Use these focused articles for a transaction-level answer, "
+             "then return to the broader business tax planning guide for entity-wide decisions.")
+    parent = ("/real-estate-tax-planning/", "Real estate tax planning") if real else ("/business-owner-small-business-tax/", "Business tax planning")
+    parts = [template.page_header(h1=title, subtitle=subtitle,
+              trail=[("Home", "/"), ("Guides", "/guides/"), (title, path)]),
+             template.section("How to use this guide", f'<p>{intro} Start with the question that matches your facts. Each article identifies a decision, records to keep, an illustrative example, and a primary IRS reference.</p><p>For a broader plan, see <a href="{parent[0]}">{parent[1]}</a>.</p>')]
+    for i, group_name in enumerate(GROUP_NAMES[real]):
+        items = rows[i*10:(i+1)*10]
+        lis = "\n".join(f'<li><a href="/blog/{r[0]}/">{html.escape(r[1])}</a><br>{html.escape(r[2])}</li>' for r in items)
+        parts.append(template.section(group_name, f'<ul class="related-links">{lis}</ul>'))
+    body = "\n".join(parts)
+    page = template.build_page(title=f"{title} | AE Tax Advisors", description=subtitle,
+              path=path, body=body,
+              schemas=[template.breadcrumb_schema([("Home", "/"), ("Guides", "/guides/"), (title, path)])],
+              published="2026-09-22", modified="2026-09-22", og_type="website")
+    out = Path("guides") / slug / "index.html"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(page)
+    return path, title
+
+
 def main() -> None:
     real, business = parse(REAL_ESTATE), parse(BUSINESS)
     assert len(real) == len(business) == 50, (len(real), len(business))
     assert len({r[0] for r in real + business}) == 100
+    examples = dict(line.split("|", 1) for line in EXAMPLES.strip().splitlines())
+    assert len(examples) == 100 and set(examples) == {r[0] for r in real + business}
     manifest = Path("long_tail_100_slugs.txt")
     slugs = {r[0] for r in real + business}
     prior = set(manifest.read_text().splitlines()) if manifest.exists() else set()
@@ -204,27 +358,53 @@ def main() -> None:
         assert re.fullmatch(r"[a-z0-9-]+", row[0])
         target = Path("blog") / row[0] / "index.html"
         assert not target.exists() or row[0] in prior, f"Existing page collision: {target}"
-        seo_render.write_post(make_post(row, is_real))
+        group_rows = real if is_real else business
+        pos = group_rows.index(row)
+        start = (pos // 10) * 10
+        siblings = [r for r in group_rows[start:start+10] if r[0] != row[0]]
+        # Adjacent questions are related by the editor's subtopic group.
+        picks = siblings[max(0, pos % 10 - 1):max(0, pos % 10 - 1)+2]
+        sibling_links = [(f"/blog/{r[0]}/", r[1]) for r in picks]
+        seo_render.write_post(make_post(row, is_real, examples[row[0]], sibling_links))
     manifest.write_text("\n".join(sorted(slugs)) + "\n")
+    real_hub = build_hub(real, True)
+    business_hub = build_hub(business, False)
+    for pillar, subhub in (("real-estate-tax-planning", real_hub),
+                           ("business-owner-small-business-tax", business_hub)):
+        page = Path(pillar) / "index.html"
+        markup = page.read_text()
+        marker = "long-tail-question-hub"
+        if marker not in markup:
+            block = (f'<section class="content-section fade-in-section {marker}">'
+                     '<div class="container narrow"><h2>Explore Specific Tax Questions</h2>'
+                     f'<p>For transaction-level answers and records to keep, browse '
+                     f'<a href="{subhub[0]}">{subhub[1]}</a>. The guide groups 50 focused '
+                     'questions by topic and links each answer back to broader planning.</p>'
+                     '</div></section>')
+            page.write_text(markup.replace("</main>", block + "\n</main>", 1))
     # Keep prior lastmod dates untouched: these are the only URLs changed today.
-    for sitemap in (Path("sitemap.xml"), Path("sitemap-blog.xml")):
+    for sitemap in (Path("sitemap.xml"), Path("sitemap-blog.xml"), Path("sitemap-pages.xml")):
         xml = sitemap.read_text()
         additions = []
-        for slug, *_ in real + business:
-            url = f"https://www.aetaxadvisors.com/blog/{slug}/"
+        paths = ([f"/blog/{slug}/" for slug, *_ in real + business]
+                 if sitemap.name != "sitemap-pages.xml" else [])
+        if sitemap.name != "sitemap-blog.xml":
+            paths += [real_hub[0], business_hub[0]]
+        for path in paths:
+            url = f"https://www.aetaxadvisors.com{path}"
             if url not in xml:
                 additions.append(
                     f"  <url><loc>{url}</loc><lastmod>2026-09-22</lastmod>"
                     "<changefreq>monthly</changefreq><priority>0.6</priority></url>"
                 )
-        assert len(additions) in (0, 100), (sitemap, len(additions))
         if additions:
             sitemap.write_text(xml.replace("</urlset>", "\n".join(additions) + "\n</urlset>"))
     index = Path("sitemap-index.xml")
     index.write_text(index.read_text().replace(
         "sitemap-blog.xml</loc><lastmod>2026-09-18",
         "sitemap-blog.xml</loc><lastmod>2026-09-22",
-    ))
+    ).replace("sitemap-pages.xml</loc><lastmod>2026-09-18",
+              "sitemap-pages.xml</loc><lastmod>2026-09-22"))
     print("Built 100 new pages: 50 real estate and 50 business tax")
 
 

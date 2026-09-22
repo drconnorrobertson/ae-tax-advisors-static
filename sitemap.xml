@@ -2779,18 +2779,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.aetaxadvisors.com/blog/test-delete-me/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/test-push-verification/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.aetaxadvisors.com/blog/three-year-lookback-strategy-for-tax-savings/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -7219,12 +7207,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.aetaxadvisors.com/cost-segregation-hotels/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://www.aetaxadvisors.com/cost-segregation-landing/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -10198,4 +10180,6 @@
   <url><loc>https://www.aetaxadvisors.com/blog/business-sale-working-capital-adjustment/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.aetaxadvisors.com/blog/business-sale-noncompete-payment/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.aetaxadvisors.com/blog/business-asset-sale-sales-tax/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.aetaxadvisors.com/guides/rental-property-tax-questions/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.aetaxadvisors.com/guides/business-tax-questions/</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
