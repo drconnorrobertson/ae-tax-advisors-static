@@ -38,6 +38,8 @@ def collect() -> list[dict]:
     for d in sorted(OUT.iterdir()):
         if not d.is_dir():
             continue
+        if d.name.startswith("test-"):
+            continue
         f = d / "index.html"
         if not f.exists():
             continue
@@ -297,7 +299,7 @@ def main() -> int:
         og_type="website", extra_head=BLOG_CSS,
     ).replace("</body>", BLOG_JS + "\n</body>")
 
-    (OUT / "index.html").write_text(html, encoding="utf-8")
+    (OUT / "index.html").write_text(re.sub(r"(?m)^[ \t]+$", "", html), encoding="utf-8")
     dated = sum(1 for p in posts if p["date"])
     print(f"blog index rebuilt: {len(posts)} posts ({dated} with dates), "
           f"{len(ordered)} categories")
