@@ -218,7 +218,8 @@ def main() -> None:
                     "<changefreq>monthly</changefreq><priority>0.6</priority></url>"
                 )
         assert len(additions) in (0, 100), (sitemap, len(additions))
-        sitemap.write_text(xml.replace("</urlset>", "\n".join(additions) + "\n</urlset>"))
+        if additions:
+            sitemap.write_text(xml.replace("</urlset>", "\n".join(additions) + "\n</urlset>"))
     index = Path("sitemap-index.xml")
     index.write_text(index.read_text().replace(
         "sitemap-blog.xml</loc><lastmod>2026-09-18",
