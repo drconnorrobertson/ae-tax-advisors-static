@@ -30,7 +30,14 @@ form.addEventListener('submit', event => {
 for (const name of ['price', 'land', 'improvements']) {
   form.elements[name].addEventListener('input', () => form.elements.land.setCustomValidity(''));
 }
-form.addEventListener('reset', () => { summaryText = ''; summaryCard.hidden = true; form.elements.land.setCustomValidity(''); });
+function clearSummary() {
+  summaryText = '';
+  summaryEl.textContent = '';
+  summaryCard.hidden = true;
+}
+form.addEventListener('input', clearSummary);
+form.addEventListener('change', clearSummary);
+form.addEventListener('reset', () => { clearSummary(); form.elements.land.setCustomValidity(''); });
 document.querySelector('#printBtn').addEventListener('click', () => window.print());
 document.querySelector('#downloadBtn').addEventListener('click', () => {
   const url = URL.createObjectURL(new Blob([summaryText], {type:'text/plain'}));
