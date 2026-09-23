@@ -2412,6 +2412,23 @@ header {
 .dropdown-item { padding: 11px 22px; }
 .dropdown-item:hover { padding-left: 27px; background: var(--light-bg); color: var(--primary); }
 
+/* Keep the premium visual spacing without leaving a dead pointer zone between
+   a desktop menu label and its dropdown. Focus-within gives keyboard users the
+   same persistent open state while they move through submenu links. */
+@media (min-width: 1361px) {
+    .nav-dropdown::before {
+        content: '';
+        position: absolute;
+        z-index: 199;
+        top: 100%;
+        left: 0;
+        width: max(100%, 320px);
+        height: 14px;
+    }
+    .nav-dropdown:focus-within .dropdown-content { display: block; }
+    .nav-dropdown:focus-within .arrow { transform: rotate(180deg); }
+}
+
 .btn-cta,
 .btn-secondary,
 .audience-cta,
