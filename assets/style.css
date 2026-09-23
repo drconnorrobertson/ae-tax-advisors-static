@@ -1518,7 +1518,7 @@ main table {
     border-color: var(--accent);
     color: var(--dark);
 }
-.audience-card:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.audience-card:focus-visible { outline: 3px solid #8D6D32; outline-offset: 3px; }
 
 .audience-icon {
     display: flex;
@@ -2242,7 +2242,7 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-    outline: 3px solid var(--accent);
+    outline: 3px solid #8D6D32;
     outline-offset: 3px;
 }
 
@@ -2346,11 +2346,12 @@ textarea:focus-visible {
    structured data, and sitemap files remain unchanged.
    =================================================================== */
 :root {
-    --primary: #0B212A;
-    --primary-dark: #06161D;
+    --primary: #0A1C32;
+    --primary-dark: #071524;
+    --brand-steel: #213D56;
     --accent: #C4A462;
-    --dark: #07171E;
-    --medium: #68777C;
+    --dark: #0D1C2F;
+    --medium: #627176;
     --light-bg: #F6F3EC;
     --white: #FBFAF7;
     --font-heading: 'Playfair Display', 'Iowan Old Style', Georgia, serif;
@@ -2443,8 +2444,8 @@ header {
     background-image:
         linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
-        radial-gradient(circle at 80% 25%, rgba(84,131,133,0.18), transparent 34%),
-        linear-gradient(135deg, #06161D 0%, #0B242D 63%, #07191F 100%);
+        radial-gradient(circle at 80% 25%, rgba(33,61,86,0.42), transparent 34%),
+        linear-gradient(135deg, #071524 0%, #0A1C32 63%, #0D1C2F 100%);
     background-size: 72px 72px, 72px 72px, auto, auto;
 }
 .hero::before {
@@ -2618,7 +2619,7 @@ header {
 .blog-card-category,
 .case-label,
 .result-label {
-    color: #9A793A;
+    color: #806126;
     letter-spacing: .15em;
 }
 
@@ -2693,7 +2694,7 @@ header {
 .author-avatar {
     border: 1px solid rgba(196,164,98,.55);
     background: transparent;
-    color: #9A793A;
+    color: #806126;
     font-family: var(--font-heading);
 }
 .card-icon { filter: grayscale(1); opacity: .76; }
@@ -2740,7 +2741,7 @@ header {
     background-image:
         linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px),
-        linear-gradient(135deg, #06161D, #0B242D);
+        linear-gradient(135deg, #071524, #213D56);
     background-size: 72px 72px, 72px 72px, auto;
 }
 .cta-section { padding-top: 120px; padding-bottom: 120px; }
@@ -2756,7 +2757,7 @@ header {
 .breadcrumbs { text-transform: uppercase; letter-spacing: .06em; font-size: 11px; }
 
 footer {
-    background: #06151B;
+    background: #071524;
     border-top: 1px solid rgba(196,164,98,.25);
 }
 .footer-col h4 { color: #DDC788; }
@@ -2800,4 +2801,71 @@ footer {
     .audience-picker h2,
     .client-results-section h2,
     .how-it-works h2 { font-size: clamp(36px,10vw,50px); }
+}
+
+/* Premium navigation refinement. Keeps the complete existing menu and URLs,
+   while making the collapsed menu faster to scan and easier to operate. */
+@media (max-width: 1200px) {
+    .nav-links {
+        gap: 0;
+        padding: 10px clamp(18px, 4vw, 40px) 24px;
+        border-top: 1px solid rgba(10,28,50,.11);
+        box-shadow: 0 28px 60px rgba(10,28,50,.14);
+    }
+    .nav-link {
+        min-height: 48px;
+        padding: 12px 2px;
+        border-bottom-color: rgba(10,28,50,.09);
+        color: var(--primary);
+    }
+    .nav-link::after { display: none; }
+    .nav-dropdown { width: 100%; }
+    .dropdown-content {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2px 14px;
+        margin: 0;
+        padding: 8px 0 13px;
+        border-bottom: 1px solid rgba(10,28,50,.09);
+        background: transparent;
+    }
+    .dropdown-item {
+        min-height: 44px;
+        padding: 8px 10px;
+        color: #35495D;
+        font-size: 13px;
+        line-height: 1.35;
+    }
+    .dropdown-item:hover,
+    .dropdown-item:focus-visible {
+        padding-left: 10px;
+        background: var(--light-bg);
+        color: var(--primary);
+    }
+    .nav-cta {
+        width: 100%;
+        min-height: 50px;
+        margin-top: 18px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        top: 70px;
+        max-height: calc(100dvh - 70px);
+        overscroll-behavior: contain;
+    }
+    .mobile-toggle {
+        min-width: 48px;
+        min-height: 48px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 390px) {
+    .dropdown-content { grid-template-columns: 1fr; }
 }
