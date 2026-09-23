@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Property Review Prep | AE Tax Advisors</title>
+  <style>
+    :root{font-family:Arial,Helvetica,sans-serif;color:#17324d;background:#f4f7f8}*{box-sizing:border-box}body{margin:0}a{color:#176084}header{background:#092f4f;color:#fff;padding:1rem max(4vw,20px);display:flex;justify-content:space-between;gap:1rem}header a{color:#fff;text-decoration:none}main{max-width:1100px;margin:auto;padding:2.5rem max(4vw,20px) 5rem}h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.1;margin:.3rem 0 1rem}.intro{max-width:750px;line-height:1.6}.eyebrow{color:#177a71;font-size:.75rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}.grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(270px,1fr);gap:1.5rem;margin-top:2rem}.card{background:#fff;border:1px solid #d8e1e5;border-radius:14px;padding:1.4rem;box-shadow:0 8px 30px #163a5010}h2{margin-top:0}fieldset{border:0;padding:0;margin:1.5rem 0}legend{font-weight:800;margin-bottom:.8rem}.fields{display:grid;grid-template-columns:1fr 1fr;gap:.85rem}label{display:flex;flex-direction:column;gap:.4rem;font-size:.86rem;font-weight:700}input,select,textarea{font:inherit;border:1px solid #aabdc9;border-radius:7px;padding:.72rem;width:100%;background:#fff;color:#123}input:focus,select:focus,textarea:focus{outline:2px solid #177a71;outline-offset:1px}.note{color:#536a78;font-size:.86rem;line-height:1.5}.actions{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.3rem}button,.button{display:inline-block;border:0;border-radius:8px;padding:.82rem 1.05rem;background:#177a71;color:#fff;font:inherit;font-weight:800;text-decoration:none;cursor:pointer}button.secondary{background:#dfe9ed;color:#17324d}#summary{white-space:pre-wrap;line-height:1.65;font-size:.88rem}aside ul{line-height:1.75;padding-left:1.3rem}footer{margin-top:2rem;color:#536a78;font-size:.83rem;line-height:1.5}.booking-step{margin-top:1.5rem;padding-top:1.3rem;border-top:1px solid #d8e1e5}.booking-step h3{margin:0 0 .4rem}.booking-step p{line-height:1.5;margin:.4rem 0 1rem}@media(max-width:750px){.grid{grid-template-columns:1fr}.fields{grid-template-columns:1fr}}@media print{header,.actions,.intro,.form-card,aside,.eyebrow,.booking-step{display:none}body{background:#fff}main{padding:0}.grid{display:block}.card{box-shadow:none;border:0}#summary{font-size:11pt}}
+  </style>
+  <script defer src="./intake.js"></script>
+</head>
+<body>
+  <header><a href="/">AE Tax Advisors</a><a href="/tools/cost-seg-calculator/">Cost seg calculator →</a></header>
+  <main>
+    <p class="eyebrow">Property review prep</p>
+    <div class="intro">
+      <h1>Get ready for a property tax strategy conversation.</h1>
+      <p>Capture the basic facts and see what documents to gather. You can print a private summary for your records. This page does not submit or save your answers.</p>
+    </div>
+    <div class="grid">
+      <div class="card form-card">
+        <h2>Property details</h2>
+        <form id="intakeForm">
+          <fieldset><legend>Property and timeline</legend><div class="fields">
+            <label>Property nickname or address <input name="property" maxlength="160" required placeholder="Property A"></label>
+            <label>Property type <select name="type" required><option value="">Select</option><option>Short term rental</option><option>Long term residential rental</option><option>Commercial property</option><option>Other</option></select></label>
+            <label>State <input name="state" maxlength="30" required placeholder="PA"></label>
+            <label>Placed in service date <input name="serviceDate" type="date"></label>
+          </div></fieldset>
+          <fieldset><legend>Cost basis and current status</legend><div class="fields">
+            <label>Purchase price <input name="price" type="number" min="0" step="100" placeholder="500000"></label>
+            <label>Estimated land value <input name="land" type="number" min="0" step="100" placeholder="100000"></label>
+            <label>Improvements after purchase <input name="improvements" type="number" min="0" step="100" placeholder="0"></label>
+            <label>Prior cost segregation study? <select name="priorStudy"><option value="Unknown">Unknown</option><option>No</option><option>Yes</option></select></label>
+            <label>Depreciation started? <select name="depreciation"><option value="Unknown">Unknown</option><option>No</option><option>Yes</option></select></label>
+            <label>Current tax advisor <input name="advisor" maxlength="100" placeholder="Optional"></label>
+          </div></fieldset>
+          <label>Questions for the advisor <textarea name="questions" rows="4" maxlength="1000" placeholder="What would you like reviewed?"></textarea></label>
+          <div class="actions"><button type="submit">Prepare summary</button><button type="reset" class="secondary">Clear</button></div>
+        </form>
+      </div>
+      <aside class="card">
+        <h2>Documents to gather</h2>
+        <ul><li>Closing statement and purchase agreement</li><li>Land allocation or appraisal, if available</li><li>Placed in service date and property use history</li><li>Capital improvement invoices</li><li>Current depreciation schedule and tax return, if available</li><li>Any prior cost segregation report</li></ul>
+        <p class="note">An advisor will determine whether a study and any related tax treatment fit your facts. This worksheet makes no deduction or savings estimate.</p>
+        <a class="button" href="/discovery/">Book an AE review</a>
+        <p><a href="https://aetaxadvisorscasestudies.com/categories/cost-segregation/">Read cost seg case studies</a></p>
+      </aside>
+    </div>
+    <section class="card" id="summaryCard" hidden aria-live="polite">
+      <h2>Private summary</h2>
+      <div id="summary"></div>
+      <div class="actions"><button id="printBtn" type="button">Print / Save PDF</button><button id="downloadBtn" type="button" class="secondary">Download text</button></div>
+      <div class="booking-step">
+        <h3>Ready to talk through the property?</h3>
+        <p>Print or download your summary first, then book a discovery call. Your answers are not sent with the booking.</p>
+        <a class="button" href="/discovery/">Book a discovery call →</a>
+      </div>
+    </section>
+    <footer>Your answers remain in this tab until you close or refresh it. Avoid using a shared device for private financial details.</footer>
+  </main>
+</body>
+</html>
