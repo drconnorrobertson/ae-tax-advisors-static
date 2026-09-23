@@ -1617,7 +1617,7 @@ img, svg, video, iframe, embed, object { max-width: 100%; height: auto; }
 iframe { display: block; }
 
 /* Collapse the full menu before it crowds out the logo at laptop widths. */
-@media (max-width: 1200px) {
+@media (max-width: 1360px) {
     .mobile-toggle { display: flex; }
     .nav-links {
         display: none;
@@ -2246,7 +2246,7 @@ textarea:focus-visible {
     outline-offset: 3px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1360px) {
     .nav-links {
         max-height: calc(100dvh - 72px);
         overscroll-behavior: contain;
@@ -2805,7 +2805,7 @@ footer {
 
 /* Premium navigation refinement. Keeps the complete existing menu and URLs,
    while making the collapsed menu faster to scan and easier to operate. */
-@media (max-width: 1200px) {
+@media (max-width: 1360px) {
     .nav-links {
         gap: 0;
         padding: 10px clamp(18px, 4vw, 40px) 24px;
@@ -2873,4 +2873,103 @@ footer {
 /* Client portal is temporarily unavailable. */
 a[href="https://tax-mt.securefilepro.com/portal/#/login"] {
     display: none !important;
+}
+
+/* ===================================================================
+   POST-LAUNCH POLISH — ACCESSIBLE COLOR + INTERACTION SYSTEM
+   Keep brass as a decorative accent on navy, but use a deeper brass for
+   readable text on ivory and white surfaces (WCAG AA at body-text sizes).
+   =================================================================== */
+:root { --accent-text: #806126; }
+
+/* The global link color appears across hundreds of editorial and sitemap
+   pages, so it must remain readable against the site's light surfaces. */
+a { color: var(--accent-text); }
+
+.card-link,
+.breadcrumbs a,
+.content-section a:not(.btn-cta):not(.btn-secondary),
+.post-content a:not(.btn-cta):not(.btn-secondary),
+.related-links a,
+.sitemap-list a,
+.contact-section a:not(.btn-cta):not(.btn-secondary),
+.featured-strip a.featured-strip-more {
+    color: var(--accent-text);
+}
+
+.card-link:hover,
+.breadcrumbs a:hover,
+.content-section a:not(.btn-cta):not(.btn-secondary):hover,
+.post-content a:not(.btn-cta):not(.btn-secondary):hover,
+.related-links a:hover,
+.sitemap-list a:hover,
+.contact-section a:not(.btn-cta):not(.btn-secondary):hover,
+.featured-strip a.featured-strip-more:hover {
+    color: var(--primary);
+}
+
+/* Dark and image-backed surfaces retain the brighter brass. */
+.hero a:not(.btn-cta),
+.page-header a,
+.cta-section a:not(.btn-cta),
+footer a {
+    color: #DDC788;
+}
+
+/* Premium card hover previously left the explicit heading color navy on a
+   navy background. Keep the full state legible, including keyboard focus. */
+.audience-card:hover h3,
+.audience-card:focus-visible h3 { color: var(--white); }
+.audience-card:focus-visible {
+    color: var(--white);
+    background: var(--primary);
+}
+.audience-card:focus-visible .audience-quote { color: rgba(255,255,255,.78); }
+.audience-card:focus-visible .audience-cta { color: #F0D997; }
+
+/* Large result figures still need 3:1 contrast on light cards. */
+.result-card:not(:first-child) .result-amount,
+.case-amount { color: var(--accent-text); }
+
+/* Fine print remains intentionally quiet without becoming faint. */
+.footer-bottom p { color: rgba(255,255,255,.66); }
+.footer-disclaimer { color: rgba(255,255,255,.62); }
+.premium-brief-label { color: rgba(255,255,255,.68); }
+.premium-brief > p { color: rgba(255,255,255,.62); }
+.pricing-includes-note { color: var(--accent-text); }
+.featured-sep,
+.testimonial-stars,
+.required { color: var(--accent-text); }
+.contact-info-card a { color: var(--accent-text) !important; }
+
+/* Finish the few controls that landed just below the 44px interaction floor. */
+@media (min-width: 1361px) {
+    .nav-link {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+    }
+}
+.btn-secondary {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-secondary.btn-hero-secondary {
+    color: var(--white) !important;
+    border-color: rgba(255,255,255,.72);
+    background: rgba(255,255,255,.04);
+}
+.btn-secondary.btn-hero-secondary:hover,
+.btn-secondary.btn-hero-secondary:focus-visible {
+    color: var(--white) !important;
+    border-color: var(--white);
+    background: rgba(255,255,255,.14);
+}
+.form-group input,
+.form-group select { min-height: 46px; }
+
+@media (max-width: 768px) {
+    .sitemap-list li a { min-height: 44px; }
 }
