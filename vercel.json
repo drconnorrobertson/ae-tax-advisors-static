@@ -3,6 +3,31 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/what-is-a-cost-segregation-study/",
+      "destination": "/cost-segregation-study/",
+      "statusCode": 301
+    },
+    {
+      "source": "/what-is-cost-segregation/",
+      "destination": "/cost-segregation-study/",
+      "statusCode": 301
+    },
+    {
+      "source": "/cost-segregation-explained/",
+      "destination": "/cost-segregation-study/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/cost-segregation/",
+      "destination": "/cost-segregation-study/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/cost-segregation-airbnb/",
+      "destination": "/cost-segregation-airbnb/",
+      "statusCode": 301
+    },
+    {
       "source": "/onboarding/",
       "destination": "/onboarding/",
       "statusCode": 200

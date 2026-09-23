@@ -7,6 +7,7 @@ pages. lastmod comes from file mtime; priority and changefreq are derived from
 where the page sits in the site hierarchy.
 """
 import re
+import subprocess
 from datetime import date
 from pathlib import Path
 
@@ -43,9 +44,39 @@ def canonical_of(text, slug):
     return m.group(1) if m else "/" + slug + "/" if slug else "/"
 
 
+def baseline_lastmods():
+    """Preserve committed lastmod values for files that did not change.
+
+    A fresh checkout gives every file today's filesystem mtime. Using that
+    timestamp would falsely tell crawlers that the entire site changed.
+    """
+    try:
+        xml = subprocess.run(
+            ["git", "show", "HEAD:sitemap.xml"], check=True,
+            capture_output=True, text=True,
+        ).stdout
+    except (OSError, subprocess.CalledProcessError):
+        xml = OUT.read_text(errors="ignore") if OUT.exists() else ""
+    return dict(re.findall(r"<loc>" + re.escape(BASE) + r"([^<]+)</loc>\s*<lastmod>([^<]+)</lastmod>", xml))
+
+
+def changed_paths():
+    try:
+        output = subprocess.run(
+            ["git", "status", "--porcelain", "--untracked-files=all"],
+            check=True, capture_output=True, text=True,
+        ).stdout
+    except (OSError, subprocess.CalledProcessError):
+        return set()
+    return {line[3:].split(" -> ")[-1] for line in output.splitlines() if len(line) > 3}
+
+
 def main():
     urls = []
     skipped = 0
+    previous = baseline_lastmods()
+    changed = changed_paths()
+    today = date.today().isoformat()
     for p in sorted(Path(".").rglob("index.html")):
         if ".git" in p.parts:
             continue
@@ -60,7 +91,8 @@ def main():
             continue
 
         pri, freq = classify(slug)
-        lastmod = date.fromtimestamp(p.stat().st_mtime).isoformat()
+        rel = p.as_posix()
+        lastmod = today if rel in changed or url not in previous else previous[url]
         urls.append((url, lastmod, freq, pri))
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
