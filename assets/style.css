@@ -2427,6 +2427,11 @@ header {
     }
     .nav-dropdown:focus-within .dropdown-content { display: block; }
     .nav-dropdown:focus-within .arrow { transform: rotate(180deg); }
+    .dropdown-content {
+        max-height: calc(100dvh - 112px);
+        overflow-y: auto;
+        overscroll-behavior: contain;
+    }
 }
 
 .btn-cta,
