@@ -13,6 +13,7 @@ from pathlib import Path
 
 BASE = "https://www.aetaxadvisors.com"
 OUT = Path("sitemap.xml")
+CASE_OUT = Path("sitemap-case-studies.xml")
 
 PRIORITY = [
     (re.compile(r"^$"), "1.0", "weekly"),
@@ -106,7 +107,21 @@ def main():
                   "  </url>"]
     lines.append("</urlset>")
     OUT.write_text("\n".join(lines) + "\n")
+    case_lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+                  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for url, lastmod, freq, pri in urls:
+        if not url.startswith("/case-studies/") or url == "/case-studies/":
+            continue
+        case_lines += ["  <url>",
+                       f"    <loc>{BASE}{url}</loc>",
+                       f"    <lastmod>{lastmod}</lastmod>",
+                       f"    <changefreq>{freq}</changefreq>",
+                       f"    <priority>{pri}</priority>",
+                       "  </url>"]
+    case_lines.append("</urlset>")
+    CASE_OUT.write_text("\n".join(case_lines) + "\n")
     print(f"sitemap.xml: {len(urls)} URLs written, {skipped} non-canonical URLs excluded")
+    print(f"sitemap-case-studies.xml: {(len(case_lines) - 2) // 6} documented studies written")
 
 
 if __name__ == "__main__":

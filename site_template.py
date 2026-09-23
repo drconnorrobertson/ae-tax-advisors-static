@@ -48,7 +48,7 @@ class Chrome:
         if active_href:
             h = h.replace(
                 f'<a href="{active_href}" class="nav-link">',
-                f'<a href="{active_href}" class="nav-link active">',
+                f'<a href="{active_href}" class="nav-link active" aria-current="page">',
                 1,
             )
         return h
@@ -267,6 +267,7 @@ def build_page(
     active_nav: str | None = None,
     og_type: str = "article",
     extra_head: str = "",
+    robots: str = "index, follow, max-image-preview:large, max-snippet:-1",
 ) -> str:
     """Assemble a complete, standards-compliant page."""
     c = chrome()
@@ -283,7 +284,7 @@ def build_page(
     <meta name="description" content="{d}">
     <link rel="canonical" href="{url}">
     <meta name="author" content="{AUTHOR}">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="robots" content="{esc(robots)}">
     <meta property="og:title" content="{t}">
     <meta property="og:description" content="{d}">
     <meta property="og:url" content="{url}">

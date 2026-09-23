@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Scenario builders for anonymized case studies.
+"""Builders for illustrative tax-planning scenarios using composite facts.
 
 Each builder returns a dict with a fully self-consistent set of figures: the
 purchase price drives the land allocation, which drives depreciable basis,
 which drives the reclassified amount, the deduction, and the tax result. No
 number is invented independently of the others.
 
-All studies are anonymized. No real client names, addresses, or identifying
-details appear anywhere in this file or its output.
+These scenarios do not describe identifiable clients. No real client names,
+addresses, or identifying details appear anywhere in this file or its output.
 """
 
 from __future__ import annotations

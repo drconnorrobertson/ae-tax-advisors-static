@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Generate the anonymized case study library and its filterable index.
+"""Generate illustrative composite scenarios and the documented case-study index.
 
-Existing hand-written case studies under /case-studies/ are preserved and are
-folded into the index alongside the generated ones.
+Existing hand-written case studies under /case-studies/ are preserved and form
+the public, indexable library. Generated scenarios stay accessible for planning
+education but are clearly disclosed and excluded from search indexing.
 """
 
 from __future__ import annotations
@@ -39,6 +40,7 @@ def profile_table(rows: list[tuple[str, str]]) -> str:
 def build_study(sc: dict, related_cases: list[tuple[str, str]]) -> str:
     path = f"{BASE}{sc['slug']}/"
     url = f"{T.SITE}{path}"
+    scenario_desc = f"Illustrative planning scenario using composite facts. {sc['desc']}"
 
     solution_blocks = "\n".join(
         f"""            <h3>{i}. {head}</h3>
@@ -49,14 +51,17 @@ def build_study(sc: dict, related_cases: list[tuple[str, str]]) -> str:
     body = "\n\n".join([
         T.page_header(
             h1=sc["h1"],
-            subtitle=sc["desc"],
+            subtitle=scenario_desc,
             trail=[("Home", "/"), ("Case Studies", BASE), (sc["title"], path)],
             cta="See What We Could Do For You",
         ),
         f"""    <section class="content-section fade-in-section">
         <div class="container narrow">
-            <p class="post-meta">{sc['cat']} &middot; Anonymized client case study &middot;
-            AE Tax Advisors, Billings, Montana</p>
+            <p class="post-meta">{sc['cat']} &middot; Illustrative planning scenario &middot;
+            Composite facts, not a client testimonial</p>
+            <p class="disclosure"><strong>Scenario disclosure:</strong> This page illustrates how
+            tax-planning concepts can interact using composite, hypothetical facts. It does not
+            describe one identifiable client, and its figures are not a promise of results.</p>
             <h2>Client Profile</h2>
 {profile_table(sc['profile'])}
         </div>
@@ -73,11 +78,11 @@ def build_study(sc: dict, related_cases: list[tuple[str, str]]) -> str:
     schemas = [
         T.article_schema(
             title=sc["h1"],
-            description=sc["desc"],
+            description=scenario_desc,
             url=url,
             published=PUBLISHED,
             modified=MODIFIED,
-            section="Case Study",
+            section="Illustrative Tax Planning Scenario",
         ),
         T.faq_schema(sc["faqs"]),
         T.breadcrumb_schema([("Home", "/"), ("Case Studies", BASE), (sc["title"], path)]),
@@ -85,13 +90,14 @@ def build_study(sc: dict, related_cases: list[tuple[str, str]]) -> str:
 
     return T.build_page(
         title=sc["title"] + " | AE Tax Advisors",
-        description=sc["desc"],
+        description=scenario_desc,
         path=path,
         body=body,
         schemas=schemas,
         published=PUBLISHED,
         modified=MODIFIED,
         active_nav=BASE,
+        robots="noindex, follow",
     )
 
 
@@ -272,19 +278,20 @@ def build_index(items: list[dict]) -> str:
                 <a href="/">Home</a> &rsaquo; <span>Case Studies</span>
             </nav>
             <h1>Case Studies</h1>
-            <p class="subtitle">{len(items)} anonymized tax planning results for business owners,
+            <p class="subtitle">{len(items)} documented, anonymized tax planning results for business owners,
             real estate investors, and high-income professionals.</p>
         </div>
     </section>
 
     <section class="content-section fade-in-section fade-in-visible">
         <div class="container">
-            <p>Every case study below reflects the kind of work we do: cost segregation and
+            <p>Every documented case study below reflects the kind of work we do: cost segregation and
             depreciation strategy, entity design, reasonable compensation, retirement plan
             structuring, pass-through entity tax elections, and prior year recovery. All studies are
             anonymized, all figures are rounded, and no client names or identifying details appear
             anywhere. Strategies depend entirely on facts and circumstances and are not universal
-            recommendations.</p>
+            recommendations. Illustrative planning scenarios are kept separate from this library
+            and are not presented as client outcomes.</p>
 
             <label for="cs-search" class="sr-only">Search case studies</label>
             <div class="cs-toolbar">
@@ -311,7 +318,7 @@ def build_index(items: list[dict]) -> str:
             "@context": "https://schema.org",
             "@type": "CollectionPage",
             "name": "AE Tax Advisors Case Studies",
-            "description": (f"{len(items)} anonymized tax planning case studies covering cost "
+            "description": (f"{len(items)} documented, anonymized tax planning case studies covering cost "
                             "segregation, entity structuring, reasonable compensation, retirement "
                             "plan design, and prior year recovery."),
             "url": f"{T.SITE}{BASE}",
@@ -322,7 +329,7 @@ def build_index(items: list[dict]) -> str:
 
     html = T.build_page(
         title=f"Case Studies | {len(items)} Tax Planning Results | AE Tax Advisors",
-        description=(f"{len(items)} anonymized case studies showing real tax planning outcomes: "
+        description=(f"{len(items)} documented, anonymized case studies showing tax planning outcomes: "
                      "cost segregation, S-Corp and C-Corp structuring, retirement plan design, "
                      "and amended return recovery."),
         path=BASE,
@@ -380,22 +387,15 @@ def main() -> int:
 
     existing = read_existing()
     generated_slugs = {s["slug"] for s in scenarios}
-    merged = [
-        {
-            "slug": s["slug"],
-            "title": s["title"],
-            "desc": s["desc"],
-            "cat": s["cat"],
-            "keywords": " ".join(v for _, v in s["profile"]),
-        }
-        for s in scenarios
-    ] + [e for e in existing if e["slug"] not in generated_slugs]
+    # Search and the public library should represent documented client outcomes,
+    # not the deterministic composite scenarios used for planning education.
+    merged = [e for e in existing if e["slug"] not in generated_slugs]
 
     merged.sort(key=lambda x: (x["cat"], x["title"]))
     (OUT / "index.html").write_text(build_index(merged), encoding="utf-8")
 
-    print(f"Generated case studies: {written}")
-    print(f"Pre-existing preserved:  {len(merged) - written}")
+    print(f"Generated illustrative scenarios: {written}")
+    print(f"Documented studies indexed: {len(merged)}")
     print(f"Total in index:          {len(merged)}")
     for c in sorted({m['cat'] for m in merged}):
         print(f"   {c}: {sum(1 for m in merged if m['cat'] == c)}")
