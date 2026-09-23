@@ -42,15 +42,30 @@ def text(s: str) -> str:
     return H.unescape(re.sub(r"\s+", " ", TAG.sub("", s))).strip()
 
 
-def article(url: str, headline: str, description: str) -> dict:
+def page_dates(html: str) -> tuple[str, str]:
+    """Reuse an existing page date instead of inventing a second timeline."""
+    published = re.search(
+        r'article:published_time["\']\s+content=["\'](\d{4}-\d{2}-\d{2})', html, re.I
+    ) or re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})', html)
+    modified = re.search(
+        r'article:modified_time["\']\s+content=["\'](\d{4}-\d{2}-\d{2})', html, re.I
+    ) or re.search(r'"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})', html)
+    published_value = published.group(1) if published else PUBLISHED
+    modified_value = modified.group(1) if modified else published_value
+    return published_value, max(published_value, modified_value)
+
+
+def article(
+    url: str, headline: str, description: str, published: str, modified: str
+) -> dict:
     return {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": headline[:110],
         "description": description,
         "url": url,
-        "datePublished": PUBLISHED,
-        "dateModified": MODIFIED,
+        "datePublished": published,
+        "dateModified": modified,
         "inLanguage": "en-US",
         "author": {
             "@type": "Organization",
@@ -83,7 +98,12 @@ def apply(path: Path) -> bool:
     description = text(m_d.group(1)) if m_d else headline
     url = f"{SITE}/{slug}/"
 
-    body = json.dumps(article(url, headline, description), indent=2, ensure_ascii=False)
+    published, modified = page_dates(html)
+    body = json.dumps(
+        article(url, headline, description, published, modified),
+        indent=2,
+        ensure_ascii=False,
+    )
     html = html.replace(
         "</head>", f'<script type="application/ld+json">\n{body}\n</script>\n</head>', 1
     )

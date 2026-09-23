@@ -8,6 +8,7 @@ where the page sits in the site hierarchy.
 """
 import re
 import subprocess
+import argparse
 from datetime import date
 from pathlib import Path
 
@@ -72,7 +73,7 @@ def changed_paths():
     return {line[3:].split(" -> ")[-1] for line in output.splitlines() if len(line) > 3}
 
 
-def main():
+def main(preserve_changed=False):
     urls = []
     skipped = 0
     previous = baseline_lastmods()
@@ -93,7 +94,12 @@ def main():
 
         pri, freq = classify(slug)
         rel = p.as_posix()
-        lastmod = today if rel in changed or url not in previous else previous[url]
+        if url not in previous:
+            lastmod = today
+        elif rel in changed and not preserve_changed:
+            lastmod = today
+        else:
+            lastmod = previous[url]
         urls.append((url, lastmod, freq, pri))
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
@@ -125,4 +131,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--preserve-lastmod",
+        action="store_true",
+        help="keep committed lastmod values during metadata-only maintenance",
+    )
+    args = parser.parse_args()
+    main(preserve_changed=args.preserve_lastmod)
