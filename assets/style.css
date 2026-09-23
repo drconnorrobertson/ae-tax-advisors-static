@@ -247,7 +247,25 @@ header {
 }
 
 .hero-inner.hero-solo .hero-left {
-    max-width: 780px;
+    max-width: 840px;
+}
+
+.hero h1,
+.section-title,
+.segment-card h3,
+.service-card h3 {
+    text-wrap: balance;
+}
+
+.hero-inner.hero-solo .hero-desc {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::selection {
+    background: rgba(200, 169, 74, 0.28);
+    color: var(--navy-dark);
 }
 
 .hero-inner.hero-solo .hero-badges,
