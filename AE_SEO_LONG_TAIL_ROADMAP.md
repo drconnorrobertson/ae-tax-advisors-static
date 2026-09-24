@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **25 of 100 accepted buyer-intent question targets**
+Campaign progress: **26 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — DST backup when a 1031 replacement fails
+
+- Query: “Should I use a Delaware statutory trust if my 1031 replacement property falls through?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 18/20 (the supplied organic-position export reports 480 monthly searches and position 44 for “Delaware statutory trust 1031 exchange,” 320 monthly searches at position 48 for the reversed wording, and high commercial CPC signals; current Google results repeatedly frame DSTs as replacement property and as a deadline backstop; the partial September 18–21 Search Console window has not yet recorded impressions for the exact DST phrase)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 10/10
+- Total: **98/100**
+- Decision: Materially improve the established DST canonical rather than publish a competing backup-property URL. The expansion answers whether a DST is appropriate when a direct acquisition fails; distinguishes tax eligibility from investment suitability; adds a fit/no-fit table, corrected debt-and-boot analysis, identification mechanics, private-placement warnings, fee methodology, a revised worked example, an eight-step diligence process, document checklist, failure points, current IRS and SEC sources, and exact return-review CTAs. It removes unsupported certainty about all DSTs qualifying, fixed fee ranges, instant closing, nonrecourse debt automatically creating at-risk basis, and UPREIT outcomes.
+- Canonical: `https://www.aetaxadvisors.com/blog/delaware-statutory-trust-dst-1031-exchange/`
 
 ### September 24, 2026 — Starting the 45-day and 180-day 1031 clocks
 
