@@ -112,6 +112,7 @@ Indexing follow-up as of September 24: the current `/sitemap.xml` has been resub
 - Total: **96/100**
 - Decision: Materially expand the existing rental-sale canonical, not create a selling-cost synonym URL. The new section separates gain-reducing selling costs, basis additions, mortgage payoff, operating prorations, and prior depreciation; includes a sale-year worksheet, documentation and double-counting checks, IRS sources, links to the depreciation and 1031 correction guides, and a closing-statement-specific booking CTA. This is a distinct buyer decision within the established sale-intent cluster. No new URL was added; the separate 200-new-URL count remains 3.
 - Canonical: `https://www.aetaxadvisors.com/blog/how-to-avoid-capital-gains-tax-when-selling-rental-property/`
+- Validation: 1,296 canonical indexable pages = 1,296 sitemap URLs; content-quality errors/warnings 0; broken links 0; date conflicts 0; invalid JSON-LD 0; scaled-content errors/warnings 0. Commit `8e98394a` deployed. Live H1, new sale-cost section, worked example, canonical, booking CTAs, and sitemap entry verified. IndexNow accepted the changed canonical with HTTP 200. Authenticated Search Console says the established URL is indexed; its September 24 live test says the updated page can be indexed with one valid breadcrumb item. Manual recrawl and a confirmatory sitemap resubmission await action-time owner confirmation; no Google public Indexing API was used.
 
 ### September 24, 2026 — Missed Section 754 election after a partnership-interest purchase
 
