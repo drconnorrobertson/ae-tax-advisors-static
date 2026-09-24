@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **4 of 100 accepted buyer-intent question targets**
+Campaign progress: **5 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Rental loss deduction diagnosis
+
+- Query: “Why can't I deduct my rental property losses?”
+- Buyer and consultation intent: 28/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (3 current Search Console impressions at average position 15.3, a 140-volume organic-position signal at position 14, and multiple exact-match competitor results)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **97/100**
+- Decision: Materially improve the established W-2 rental-loss canonical instead of publishing another overlapping URL. The expanded guide diagnoses the loss in filing-order sequence—economic result, basis, at-risk, passive classification, and Form 8582—then models the $25,000 phaseout, passive-income use, real estate professional treatment, short-term-rental exceptions, suspended-loss tracking, sale-year release, documentation, and return-review failure points.
+- Canonical: `https://www.aetaxadvisors.com/blog/can-i-deduct-rental-property-losses-against-w2-income/`
 
 ### September 24, 2026 — Passive investor cost segregation usability
 
