@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **37 of 100 accepted buyer-intent question targets**
+Campaign progress: **38 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — California cost segregation without state bonus depreciation
+
+- Query: “Is cost segregation still worth it in California if the state does not allow bonus depreciation?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (the current Search Console window reports 21 impressions for queries containing “california” at average position 11.4, including five direct California cost-segregation impressions across multifamily and Airbnb variants; the supplied organic-position export reports 40 monthly searches at position 15 and $15.43 CPC for “cost segregation California”; current FTB instructions expressly identify IRC Section 168(k) additional depreciation as a federal-state difference and prescribe separate depreciation-adjustment reporting)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 10/10
+- Total: **99/100**
+- Decision: Materially rewrite the established California canonical instead of publishing property-type or city swaps. The update directly answers the federal-versus-state value question; adds a treatment matrix, two-schedule worked example, seven-step California filing checklist, passive-loss and entity analysis, documents, filing failures, current FTB and IRS sources, corrected visible and structured FAQs, and exact return-review CTAs. It updates the federal Section 179 figures for 2026; removes the claim that every loss LLC owes the gross-income fee; narrows nonresident withholding and foreign-LLC claims; replaces automatic “clearly worth it” language with a loss-usability, hold-period, exit-basis, and total-cost test; and warns that 2026 California instructions must be checked when released.
+- Canonical: `https://www.aetaxadvisors.com/blog/cost-segregation-california-state-tax-rules/`
 
 ### September 24, 2026 — Comparing a CSSI cost segregation proposal
 
