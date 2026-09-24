@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **3 of 100 accepted buyer-intent question targets**
+Campaign progress: **4 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Passive investor cost segregation usability
+
+- Query: “Can a passive investor benefit from cost segregation?”
+- Buyer and consultation intent: 28/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (7 current Search Console impressions for the exact question and an exact-match competitor result)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **97/100**
+- Decision: Materially improve the established cost-segregation decision canonical instead of publishing a synonym URL. The new intent section separates passive income from portfolio income, corrects the $25,000 allowance conditions, models immediate use versus suspension and disposition, adds basis and at-risk sequencing, three worked cases, source-backed filing guidance, document requirements, failure points, and problem-specific return-review CTAs.
+- Canonical: `https://www.aetaxadvisors.com/cost-segregation-when-it-works-when-it-doesnt-and-how-to-decide/`
 
 ### September 24, 2026 — Travel expenses when buying rental property
 
