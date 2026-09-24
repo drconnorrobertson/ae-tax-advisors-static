@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **10 of 100 accepted buyer-intent question targets**
+Campaign progress: **11 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Multiple amendments for the same tax year
+
+- Query: “How many times can you amend a tax return?”
+- Buyer and consultation intent: 28/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (the supplied organic-position export reports 210 monthly searches at position 28 for AE's existing amendment-deadline URL; the current four-day Search Console window has no exact-query impressions; current Google results include an exact-question competitor answer, while the December 2025 IRS Form 1040-X instructions expressly say a return may be amended more than once)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **97/100**
+- Decision: Materially improve the established amendment-deadline canonical instead of publishing a competing second-amendment URL. The expansion corrects the false fixed-number-limit framing found in competitor coverage; adds a cumulative Form 1040-X decision rule, procedure matrix, pending-amendment sequencing, two worked cases, deadline and column-A analysis, document packet, failure points, primary IRS support, and direct return-review paths.
+- Canonical: `https://www.aetaxadvisors.com/blog/how-far-back-can-i-amend-a-tax-return/`
 
 ### September 24, 2026 — Amended Form 1065 instead of a partnership AAR
 
