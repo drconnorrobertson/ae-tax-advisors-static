@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **52 of 100 accepted buyer-intent question targets**
+Campaign progress: **53 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Section 1245 versus 1250 on sale of 15-year parking assets
+
+- Query: “My cost segregation study lists the parking lot as 15-year property. Will selling the rental trigger Section 1245 ordinary recapture or unrecaptured Section 1250 gain?”
+- Buyer and consultation intent: 29/30
+- Distinctness and canonical fit: 25/25
+- Evidence of real query language: 20/20 (September 23 Search Console recorded five impressions for “is 15 year property 1245 or 1250,” five for “is land 1245 or 1250 property,” and six for “is rental property 1245 or 1250”; the supplied organic-position export mapped “1245 vs 1250” to this canonical at position 10 with a 110-volume signal; current competing results include exact 1245-versus-1250 cost-segregation explanations)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **98/100**
+- Decision: Materially correct and improve the established Section 1245-versus-1250 canonical instead of adding a competing 15-year recapture URL. The old guide treated all land improvements as Section 1250 with only a 25 percent maximum, asserted that a study cannot increase recapture, gave an unsupported “study still wins” sale tax table, and promised full 1031 deferral. The revised guide distinguishes recovery period from asset character, explains that IRS asset class 00.3 includes both Sections 1245 and 1250, separates Section 1250 ordinary additional-depreciation recapture from unrecaptured Section 1250 gain, and uses a worked asset-level comparison. It adds a pre-sale decision sequence, records checklist, failure points, Form 4797/8824 and installment reporting, current IRS sources, matching FAQ schema, and problem-specific booking CTAs. The related 15-year land-improvements canonical was corrected and linked to this owner page.
+- Canonical: `https://www.aetaxadvisors.com/blog/section-1245-vs-1250-depreciation-recapture/`
+- Supporting corrected canonical: `https://www.aetaxadvisors.com/blog/15-year-land-improvements-depreciation/`
 
 ### September 24, 2026 — Gain-reducing costs on a rental-property sale
 
