@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **13 of 100 accepted buyer-intent question targets**
+Campaign progress: **14 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Reporting a cost segregation study on the tax return
+
+- Query: “How to report cost segregation on a tax return”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 18/20 (the supplied organic-position export reports 50 monthly searches at position 37 for the established complete-guide URL; the current four-day Search Console window has no exact-query impressions; and current Google results include an exact-question competitor guide)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **97/100**
+- Decision: Materially improve the established cost-segregation complete guide instead of publishing a competing return-reporting URL. The expansion gives a direct answer; maps the study through the fixed-asset schedule, Form 4562, and the owning return; distinguishes Schedule E, Schedule C, Form 8825, and entity-return paths; adds a Form 3115 decision tree, state and loss-limitation review, three worked filings, document requirements, return failures, current primary IRS sources, accuracy corrections, and direct study-implementation CTAs.
+- Canonical: `https://www.aetaxadvisors.com/blog/cost-segregation-complete-guide/`
 
 ### September 24, 2026 — Completing Form 3115 for missed depreciation
 
