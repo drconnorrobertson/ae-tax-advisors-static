@@ -95,9 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **45 of 100 accepted buyer-intent question targets**
+Campaign progress: **46 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **2 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
+
+Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,295 discovered pages, resolving earlier run-log notes that sitemap resubmission was pending. Manual URL recrawl requests are separate; the QIP request hit Google's daily quota.
+
+### September 24, 2026 — Apartment renovation versus QIP
+
+- Query: “Does my apartment renovation qualify as qualified improvement property, and can I claim bonus depreciation?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 23/25
+- Evidence of real query language: 19/20 (the supplied organic-position export has “qualified improvement property residential rental” at position 53 with a 50/month estimate; the available September 18–22 Search Console query table has 7 impressions at average position 11.9 for the broader “qualified improvement” family but none claimed for the exact apartment question; current results include apartment-specific guidance from The Real Estate CPA and QIP competitor pages)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 10/10
+- Total: **96/100**
+- Decision: Materially correct and improve AE's established QIP canonical, not create another QIP or apartment URL. The page now answers the nonresidential-versus-residential decision directly, gives a worked apartment renovation and a commercial cost-allocation example, documents and filing sequence, repairs/other-asset alternatives, loss-use and recapture caveats, current IRS citations, matching visible/structured FAQs, contextual internal links, and exact “Book a Return Review Call” links above and below the substantive content. Sentence-level corrections remove the old false 2027 bonus phase-down, overbroad QIP definition, incorrect 2026 Section 179 limit, categorical tenant-reimbursement and tax-savings claims, and an unfinished description while preserving the page and its topical structure.
+- Validation: 1,295 canonical indexable pages = 1,295 sitemap URLs; content-quality errors/warnings 0; broken links 0; date conflicts 0; invalid JSON-LD 0; scaled-content errors/warnings 0. Commit `ebf0e446` deployed. Live answer, title, canonical, dates, CTAs, inbound link, and both XML sitemap lastmods verified. IndexNow accepted both changed canonical URLs with HTTP 200. Search Console says the existing QIP URL is indexed; a fresh live test says the updated version can be indexed with valid breadcrumb and review-snippet items. After owner confirmation, the manual recrawl request returned “Quota Exceeded” and was not accepted; retry after the daily quota resets. The current `/sitemap.xml` was resubmitted with “Sitemap submitted successfully”; Search Console then showed Success and 1,295 discovered pages, matching the live XML count. No Google public Indexing API was used.
+- Canonical: `https://www.aetaxadvisors.com/the-business-owners-guide-to-qualified-improvement-property-qip-and-tenant-renovations/`
 
 ### September 24, 2026 — Cost segregation on a gifted rental
 
