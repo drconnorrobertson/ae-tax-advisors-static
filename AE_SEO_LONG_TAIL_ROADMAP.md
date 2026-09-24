@@ -13,6 +13,13 @@ The 100-point score is a prioritization aid:
 
 Before a URL is approved, it must also pass an intent test. A keyword variation does **not** earn a new page when an existing URL already answers the same search task.
 
+## September 24, 2026 — Sponsor-side syndication offering costs (publication in progress)
+
+- Buyer question: “I raised capital for a real estate syndication. Can I deduct the legal and placement costs on Form 1065 before sending K-1s?”
+- Editorial score: buyer/consultation intent **27/30** (a sponsor is about to file or correct a partnership return and investor K-1s); distinctness **25/25** (AE's syndication guides address limited-partner loss use, not the sponsor's Section 709 cost classification); query evidence **16/20** (the supplied organic-position export reports “what are syndication costs” at positions 38 and 41 with estimated volume 90; authenticated Search Console's current September 18–22 window has seven impressions for the broader “legal tax reduction using real estate syndications,” not for this exact wording; current results cover syndication fees and tax treatment); paid-service fit **14/15** (partnership return review/correction and real-estate tax planning); AE authority/competitive gap **9/10** (the site lacks a sponsor-side decision guide and current IRS Form 1065 guidance provides a sharp, actionable distinction). **Total 91/100.** The volume estimate is for the broad source term, not the exact buyer question.
+- Canonical decision: A new URL is justified at `/blog/real-estate-syndication-offering-costs-form-1065/`; improving the LP guide alone would mix sponsor and investor search tasks. The page answers the question directly, separates offering, organizational, property-acquisition, and sponsor-fee work, gives a quantified Section 709 example, a pre-K-1 sequence, source documents, failure points, IRS primary citations, and standalone `/discovery/` booking CTAs. The LP guide and blog index link to it.
+- Count status: **67/100 accepted buyer questions** and **5/200 additional new URLs** until editorial, technical, deployment, and indexing gates are completed. Do not count a draft or a pushed-but-unverified URL.
+
 ## Current priority set
 
 | Score | Keyword or cluster | Current position | Volume signal | KD | CPC | Recommended action |
