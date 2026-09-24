@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **56 of 100 accepted buyer-intent question targets**
+Campaign progress: **57 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Seller-financing a rental sale to a child
+
+- Query: “Can I seller-finance a rental sale to my child and spread the gain?”
+- Buyer and consultation intent: 28/30
+- Distinctness and canonical fit: 23/25
+- Evidence of real query language: 18/20 (the supplied organic-position export reports “installment sale related party” at position 54 with a 40-monthly-search signal for the established seller-financing canonical; the current September 18–22 Search Console window has zero impressions for that exact phrase; current Google results include family-note and parent-child installment-sale questions and competing professional explanations of the two related-party rules)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **93/100**
+- Decision: Materially improve the established seller-financing and installment-sale canonical, not publish a second family-note URL. The revised guide now answers the parent-to-child question directly and distinguishes Section 453(g)'s narrower initial-sale restriction from Section 453(e)'s two-year family-buyer resale rule. It adds a $600,000 family-sale example with a $120,000 down payment and a resale branch; a pre-closing decision sequence, documents and failure points; current IRS citations and contextual links; matching six-question FAQ schema; and direct, problem-specific `/discovery/` booking buttons near the top and bottom. It also corrects the old page's unsupported promises and overbroad statements about ordinary versus unrecaptured Section 1250 gain, note interest, pledged obligations, large-note interest, death, and assumed tax-rate savings.
+- Canonical: `https://www.aetaxadvisors.com/blog/seller-financing-tax-treatment-installment-sales/`
+- Publication verification: commit `be99a15a` deployed. The live H1, canonical, Article dateModified, direct booking CTAs, and September 24 sitemap lastmod were verified. Content quality and sitemap parity passed at 1,296/1,296; broken internal links, invalid JSON-LD, date conflicts, and scaled-content warnings were zero; FAQ text matched visible answers. IndexNow accepted the changed URL (HTTP 200). Authenticated Search Console's older August 11 indexed snapshot says the www URL is an alternate to a non-www canonical; the current non-www URL now redirects to www, and the September 24 live test says the new page is available to Google and can be indexed. Manual indexing and confirmatory sitemap resubmission await action-time owner confirmation. No public Google Indexing API was used. This is an existing-canonical improvement, so the separate 200-new-URL count remains 3.
 
 ### September 24, 2026 — Cost segregation after a completed 1031 exchange
 
