@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **15 of 100 accepted buyer-intent question targets**
+Campaign progress: **16 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Bonus depreciation on rental property
+
+- Query: “Can you take bonus depreciation on rental property?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (9 exact-query impressions at average position 8.3 in the current four-day Search Console window; the supplied organic-position export reports 260 monthly searches at position 30; and current Google results include multiple exact-question competitor guides)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **99/100**
+- Decision: Materially improve the established rental-property bonus-depreciation canonical instead of publishing another general bonus page. The update adds a direct answer, seven-gate eligibility test, qualifying-asset matrix, loss-usability sequence, three worked rental scenarios, Form 4562 and Form 3115 reporting paths, documents, failure points, primary IRS sources, and direct return-review CTAs. It also corrects outdated Section 179 figures and overbroad claims about cost-segregation percentages, STR treatment, current loss use, and automatic Form 3115 eligibility.
+- Canonical: `https://www.aetaxadvisors.com/bonus-depreciation-rental-property/`
 
 ### September 24, 2026 — Land improvements and bonus depreciation eligibility
 
