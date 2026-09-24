@@ -97,6 +97,8 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 Campaign progress: **41 of 100 accepted buyer-intent question targets**
 
+Separate September 24 owner milestone: **0 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
+
 ### September 24, 2026 — Cash-out refinancing a rental property
 
 - Query: “Do I owe tax when I cash-out refinance a rental property?”
