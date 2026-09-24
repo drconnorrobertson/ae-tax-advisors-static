@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **9 of 100 accepted buyer-intent question targets**
+Campaign progress: **10 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Amended Form 1065 instead of a partnership AAR
+
+- Query: “Can a partnership file an amended return instead of an AAR?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 18/20 (no exact-query impressions in the current four-day Search Console window, but exact-match Google results and current IRS Form 1065-X and e-file guidance directly answer the amended-return-versus-AAR choice)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 8/10
+- Total: **96/100**
+- Decision: Materially improve the existing partnership-correction canonical rather than publish another AAR synonym page. The expansion separates superseding returns, non-BBA amendments, BBA AARs, limited specific-guidance exceptions, and audit-modification returns; adds a reviewed-year decision matrix, eligibility checks, deadline rules, two worked cases, filing documents, failure points, and a direct return-review path.
+- Canonical: `https://www.aetaxadvisors.com/partnership-aar-vs-amended-return/`
 
 ### September 24, 2026 — Corrected S corporation K-1 received after filing
 
