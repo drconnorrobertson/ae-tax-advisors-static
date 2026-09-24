@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **33 of 100 accepted buyer-intent question targets**
+Campaign progress: **34 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Section 179 eligibility for rental property
+
+- Query: “Can you take Section 179 on rental property?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (the supplied organic-position export reports 40 monthly searches at position 26 for the exact natural-language query; current Google results include multiple exact-question rental and commercial-property guides published or refreshed in 2026; current IRS Publication 946 and Form 4562 instructions directly address rental trade-or-business status, noncorporate lessors, the lease-term and 15% tests, business use, eligible assets, and the 2026 dollar limits)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 8/10
+- Total: **97/100**
+- Decision: Materially improve the established Section 179-versus-bonus canonical rather than publish a competing rental page or force the question onto the general bonus-rental guide. The expansion directly answers the rental question; adds an asset matrix, the noncorporate-lessor test, separate long-term, short-term, commercial, and corporate fact patterns, two worked examples, a six-gate Form 4562 review, documents, current primary sources, a matching visible and structured FAQ, and exact return-review CTAs. It corrects legacy absolutes about loss usability, residential roofs, recapture character, and “100%” deductions while preserving the existing limits, four-factor comparison, vehicles, ordering, decision path, key takeaways, FAQ, and related-reading sections.
+- Canonical: `https://www.aetaxadvisors.com/section-179-vs-bonus-depreciation-2026/`
 
 ### September 24, 2026 — Airbnb furniture write-off method
 
