@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **32 of 100 accepted buyer-intent question targets**
+Campaign progress: **33 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Airbnb furniture write-off method
+
+- Query: “Can you write off furniture for an Airbnb?”
+- Buyer and consultation intent: 28/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (the supplied organic-position export reports 40 monthly searches at position 14 for the exact natural-language question; current Google results include a dedicated exact-question tax guide and active host discussions about the $2,500 threshold and placed-in-service timing; current IRS Publication 527, Publication 946, the tangible-property regulation guidance, and Revenue Procedure 2026-17 directly govern the decision)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 8/10
+- Total: **96/100**
+- Decision: Materially improve the established Airbnb furniture canonical rather than publish another deductions URL. The expansion replaces the claim that virtually every furnishing is immediately deductible with a six-category decision table; adds the accounting-policy and annual-election requirements for the de minimis safe harbor, 2026 bonus-depreciation gates, Section 179 rental and lessor cautions, placed-in-service timing, a $35,000 worked example, mixed personal use, converted-property basis, dispositions, Section 1245 recapture, documents, failure points, current primary sources, two matching visible and structured FAQs, and exact return-review CTAs. It preserves the original safe-harbor, Section 179, bonus, supplies, replacement-asset, FAQ, calculator, and related-reading topics while correcting their overbroad conclusions.
+- Canonical: `https://www.aetaxadvisors.com/blog/can-i-deduct-furniture-and-supplies-for-my-airbnb/`
 
 ### September 24, 2026 — Rental-condo 1031 exchange qualification
 
