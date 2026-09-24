@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **8 of 100 accepted buyer-intent question targets**
+Campaign progress: **9 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Corrected S corporation K-1 received after filing
+
+- Query: “I received a corrected S corporation K-1 after filing. Do I need to amend my tax return?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 17/20 (no exact-query impressions in the current four-day Search Console window, but multiple exact and close-match Google results answer the after-filing question, and current IRS K-1 and Form 8082 instructions expressly address corrected and inconsistent pass-through items)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **95/100**
+- Decision: Materially improve the existing corrected-K-1 canonical instead of creating a second K-1 amendment URL. The new decision section distinguishes corrections that change tax, attributes only, or nothing reportable; explains amended-return versus Form 8082 treatment; sequences the S corporation, shareholder, later-year, and state filings; adds two worked cases, a document packet, failure points, and problem-specific return-review CTAs.
+- Canonical: `https://www.aetaxadvisors.com/corrected-k1-after-amended-1120s/`
 
 ### September 24, 2026 — Cost segregation study pricing and proposal scope
 
