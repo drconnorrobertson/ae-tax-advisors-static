@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **34 of 100 accepted buyer-intent question targets**
+Campaign progress: **35 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Amending Form 1120-S after issuing K-1s
+
+- Query: “Can an S corporation amend Form 1120-S after issuing K-1s?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 18/20 (the current three-month Search Console query filter shows no impressions containing “1120,” so this is a measured authority-gap expansion rather than a traffic-splitting response; current Google results include exact and close procedural questions from S corporation owners and recently updated 1120-S amendment guides; the current IRS Form 1120-S instructions, corporate e-file guidance, and shareholder K-1 instructions directly address the entity amendment, amended K-1 delivery, superseding-return timing, and inconsistent-treatment procedure)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **97/100**
+- Decision: Materially improve the established S corporation amendment canonical rather than create a second 1120-S correction page. The expansion directly answers the entity-side question; separates amended, superseding, administrative-reprint, and shareholder-inconsistency paths; adds the complete entity correction package, an affected-K-1 analysis, shareholder-return sequencing, payroll and reimbursement cautions, an ownership-allocation worked example, documents, failure points, current primary sources, four matching visible and structured FAQs, and exact return-review CTAs. It preserves and expands the original books, basis, distributions, payroll, QBI, state, and later-year analysis. The separate corrected-K-1 canonical remains focused on the shareholder who receives a corrected schedule after filing.
+- Canonical: `https://www.aetaxadvisors.com/amend-s-corporation-tax-return/`
 
 ### September 24, 2026 — Section 179 eligibility for rental property
 
