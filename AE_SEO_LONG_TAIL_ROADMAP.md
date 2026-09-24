@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **19 of 100 accepted buyer-intent question targets**
+Campaign progress: **20 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Amended-return audit risk
+
+- Query: “Does amending a return increase audit risk?”
+- Buyer and consultation intent: 27/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 18/20 (the supplied organic-position export reports 40 monthly searches at position 10 for the established canonical; the current four-day Search Console window has no exact-query impressions; current Google results include multiple exact-intent competitor answers; and the IRS directly addresses the question in its audit guidance)
+- Fit with AE paid services: 14/15
+- Authority and competitive gap: 9/10
+- Total: **93/100**
+- Decision: Materially improve the established amendment-audit canonical rather than create another audit-risk URL. The expansion leads with the IRS’s exact distinction between original-return selection and separate screening of an amendment; removes unsupported claims about DIF scoring, mandatory amendments, and professional-preparer audit rates; distinguishes processing, notices, matching, and examinations; maps Forms 1040-X, 1120-X, amended 1120-S, and Form 1065/AAR corrections; and adds an S corporation example, document packet, decision tree, failure points, current primary IRS sources, and direct return-review CTAs. The four legacy FAQ topics remain and four amendment-specific questions were added.
+- Canonical: `https://www.aetaxadvisors.com/blog/can-amending-my-return-trigger-an-irs-audit/`
 
 ### September 24, 2026 — Avoiding capital gains tax on a rental-property sale
 
