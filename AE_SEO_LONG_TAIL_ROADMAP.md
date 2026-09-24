@@ -95,11 +95,23 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **51 of 100 accepted buyer-intent question targets**
+Campaign progress: **52 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Gain-reducing costs on a rental-property sale
+
+- Query: “What can be deducted from capital gains when selling a rental property?”
+- Buyer and consultation intent: 28/30
+- Distinctness and canonical fit: 25/25
+- Search-language evidence: 20/20 (the September 23 authenticated Search Console export records the exact query with 12 impressions and average position 7.42. The supplied organic-position export maps “selling rental property and capital gains” to the established URL at position 8 with a 90-volume signal; current results show competing closing-cost explanations.)
+- Fit with AE paid services: 15/15
+- AE authority and competitive gap: 8/10
+- Total: **96/100**
+- Decision: Materially expand the existing rental-sale canonical, not create a selling-cost synonym URL. The new section separates gain-reducing selling costs, basis additions, mortgage payoff, operating prorations, and prior depreciation; includes a sale-year worksheet, documentation and double-counting checks, IRS sources, links to the depreciation and 1031 correction guides, and a closing-statement-specific booking CTA. This is a distinct buyer decision within the established sale-intent cluster. No new URL was added; the separate 200-new-URL count remains 3.
+- Canonical: `https://www.aetaxadvisors.com/blog/how-to-avoid-capital-gains-tax-when-selling-rental-property/`
 
 ### September 24, 2026 — Missed Section 754 election after a partnership-interest purchase
 
