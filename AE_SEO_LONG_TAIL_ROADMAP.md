@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **20 of 100 accepted buyer-intent question targets**
+Campaign progress: **21 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Converting a primary residence to rental property
+
+- Query: “How to convert primary residence to rental property”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (2 exact-query impressions at average position 35 in the current four-day Search Console window; the supplied organic-position export reports three close variants with 50 monthly searches each at positions 38, 44, and 59; and current Google results include exact-intent guides)
+- Fit with AE paid services: 14/15
+- Authority and competitive gap: 9/10
+- Total: **97/100**
+- Decision: Materially improve the established conversion canonical instead of publishing another primary-residence-to-rental URL. The expansion adds a ready-and-available placed-in-service test, separate historical-basis and conversion-FMV schedules, a land-allocation matrix, a worked declining-value example, depreciation and cost-segregation gates, pre-rental cost classification, rent and deposit treatment, passive-loss usability, disposition planning, documents, and failure points. It also corrects the legacy page’s material Section 121 error: post-move-out rental use within the five-year period after the last qualified use is generally excepted from nonqualified use, although post-1997 depreciation remains nonexcludable. All four legacy FAQ topics remain and four conversion-specific questions were added.
+- Canonical: `https://www.aetaxadvisors.com/blog/convert-primary-residence-to-rental-property/`
 
 ### September 24, 2026 — Amended-return audit risk
 
