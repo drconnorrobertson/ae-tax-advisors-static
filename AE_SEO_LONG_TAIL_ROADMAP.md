@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **26 of 100 accepted buyer-intent question targets**
+Campaign progress: **27 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Cost segregation before a planned three-year sale
+
+- Query: “Is cost segregation worth it if I plan to sell the property in three years?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 18/20 (current Google results include an exact three-year-hold guide and multiple close-intent cost-segregation ROI pages that make near-term sale timing a central decision factor; the supplied organic-position export shows AE ranking for the related Section 1250 depreciation-recapture cluster, including 70 monthly searches at position 45 and 50 monthly searches at position 48; the available short Search Console window does not show the exact three-year wording)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **97/100**
+- Decision: Materially improve the established sale-after-cost-segregation canonical rather than create a short-hold synonym URL. The expansion replaces the automatic-recapture framing with an asset-level Section 1245, Section 1250, and unrecaptured Section 1250 analysis; adds a three-year fit matrix, incremental present-value example, loss-usability sequence, 1031 and installment-sale limitations, seven-step decision tree, document packet, failure points, current primary IRS sources, and exact return-review CTAs. It preserves the original recapture, example, planning, present-value, calculator, related-reading, and FAQ topics while removing unsupported universal property thresholds and return assumptions.
+- Canonical: `https://www.aetaxadvisors.com/blog/what-happens-to-depreciation-when-i-sell-after-cost-segregation/`
 
 ### September 24, 2026 — DST backup when a 1031 replacement fails
 
