@@ -15,6 +15,27 @@ import site_template as template
 
 seo_render.BASE = "https://www.aetaxadvisors.com"
 
+
+META_DANGLING = {
+    "a", "an", "the", "and", "or", "but", "of", "to", "in", "on", "at",
+    "by", "for", "from", "with", "without", "that", "which", "as", "when",
+}
+
+
+def meta_description(answer: str, limit: int = 155) -> str:
+    """Shorten an answer without publishing a sentence fragment."""
+    if len(answer) <= limit:
+        return answer
+    clause_cuts = [m.start() for m in re.finditer(r"[;,](?=\s|$)", answer[:limit + 1])
+                   if 85 <= m.start() <= limit]
+    if clause_cuts:
+        return answer[:clause_cuts[-1]].rstrip(" ,;:-.") + "."
+    cut = answer[:limit].rsplit(" ", 1)[0].rstrip(" ,;:-.")
+    words = cut.split()
+    while len(words) > 8 and words[-1].lower().strip(" ,;:") in META_DANGLING:
+        words.pop()
+    return " ".join(words).rstrip(" ,;:-.") + "..."
+
 # slug | question | direct answer | planning decision | evidence to retain | common mistake
 REAL_ESTATE = """
 rental-property-security-deposit-tax|Is a rental security deposit taxable when received?|A refundable tenant deposit is generally a liability rather than rent when the landlord expects to return it; an amount kept for unpaid rent or damage becomes income when retained.|Reconcile the deposit ledger to the lease at move-out and distinguish withheld rent from reimbursement for damage before posting income and expenses.|Keep the signed lease, deposit receipt, itemized deductions, move-out photos, and refund confirmation.|Treating every deposit as rent on receipt overstates current income; omitting a forfeited deposit understates it.
@@ -291,7 +312,7 @@ def make_post(row: tuple[str, ...], real: bool, example: str, sibling_links: lis
         "slug": slug, "title": topic, "h1": title,
         "title_tag": f"{topic} | AE Tax Advisors",
         "breadcrumb": topic, "category": category,
-        "description": (answer[:152].rsplit(" ", 1)[0].rstrip(";,. ") + ".") if len(answer) > 155 else answer,
+        "description": meta_description(answer),
         "date": "2026-09-22", "date_display": "September 22, 2026",
         "lead": f"<strong>{esc(answer)}</strong>",
         "body": re.sub(r"(?m)^[ \t]+$", "", body),

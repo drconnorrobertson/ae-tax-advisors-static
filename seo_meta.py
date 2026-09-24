@@ -23,7 +23,7 @@ such very much many most some any each every other another new same own""".split
 
 SKIP_SLUG = re.compile(
     r"^(blog-staging/|.*(consultation|zoom|calendar|booking|thank-you|thanks|"
-    r"check-in|onboarding|followup|recap|\d+-(minute|day)-)).*"
+    r"check-in|onboarding|followup|recap|\d+-minute-)).*"
 )
 
 
@@ -43,6 +43,17 @@ def is_truncated(d):
     return len(d) >= 155 and not d.rstrip().endswith((".", "!", "?", '"'))
 
 
+def is_unfinished(d):
+    """Catch hard-clipped descriptions that were given a cosmetic period.
+
+    Older generators shortened copy and then appended a full stop, producing
+    snippets such as ``...depends on basis and.``. Punctuation alone therefore
+    is not enough to prove that a description is a complete sentence.
+    """
+    words = re.findall(r"[A-Za-z]+", html.unescape(d).rstrip(" .!?\"'"))
+    return bool(words and len(d) >= 105 and words[-1].lower() in DANGLING)
+
+
 def compose(page_text, h1, fallback):
     """Build a description from the opening prose, cut on a sentence or word."""
     body = page_text
@@ -56,21 +67,26 @@ def compose(page_text, h1, fallback):
     if len(body) <= MAX_LEN:
         out = body
     else:
-        # prefer a sentence boundary within range
+        # Prefer a complete sentence. When the source sentence is long, a
+        # complete independent clause is still better than a clipped sentence
+        # disguised with a period.
         window = body[:MAX_LEN + 40]
         cuts = [m.end() for m in re.finditer(r"[.!?](?=\s|$)", window)
                 if MIN_LEN <= m.end() <= MAX_LEN]
         if cuts:
             out = window[:cuts[-1]]
         else:
-            out = body[:MAX_LEN]
-            out = out[:out.rfind(" ")]
-            # a hard cut usually strands a connector, so shed trailing
-            # words that would leave the sentence obviously unfinished
-            words = out.rstrip(" ,;:-").split()
-            while len(words) > 8 and words[-1].lower().strip(",;:") in DANGLING:
-                words.pop()
-            out = " ".join(words).rstrip(" ,;:-")
+            clause_cuts = [m.start() for m in re.finditer(r"[;,](?=\s|$)", body[:MAX_LEN + 1])
+                           if 85 <= m.start() <= MAX_LEN]
+            if clause_cuts:
+                out = body[:clause_cuts[-1]].rstrip(" ,;:-")
+            else:
+                out = body[:MAX_LEN]
+                out = out[:out.rfind(" ")].rstrip(" ,;:-")
+                words = out.split()
+                while len(words) > 8 and words[-1].lower().strip(",;:") in DANGLING:
+                    words.pop()
+                out = " ".join(words).rstrip(" ,;:-") + "..."
     out = out.strip()
     if out and out[-1] not in ".!?":
         out += "."
@@ -113,9 +129,10 @@ def main():
 
     fixed = shown = 0
     for p, s, t, d, has in pages:
-        if SKIP_SLUG.match(s + "/"):
+        if SKIP_SLUG.match(s + "/") and s != "resources/tax-deadline-calendar":
             continue
-        needs = (not has) or is_truncated(d) or len(d) < MIN_LEN or descs[d] > 1
+        needs = ((not has) or is_truncated(d) or is_unfinished(d)
+                 or len(d) < MIN_LEN or len(d) > 170 or descs[d] > 1)
         if not needs:
             continue
 
@@ -128,6 +145,7 @@ def main():
         paras = [x for x in paras
                  if len(x) > 60
                  and "Published" not in x[:20]
+                 and "Updated" not in x[:80]
                  and para_freq[x[:120]] <= 3]
         lead = paras[0] if paras else ""
 

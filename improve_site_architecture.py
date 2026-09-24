@@ -88,6 +88,26 @@ def build_research_hub() -> None:
                   'The report links the underlying case studies and data files so readers can review the sample.</p>'
                   '<p>For individual situations, browse the <a href="/case-studies/">case study library</a>. '
                   'Reported outcomes are specific to the clients described and do not predict future results.</p>'),
+        T.section("What the research measures",
+                  '<p>Our published outcomes analysis summarizes the results reported in AE Tax Advisors case studies. '
+                  'It separates the number of cases, the strategies used, and the range and distribution of reported '
+                  'outcomes. The downloadable CSV and JSON files let readers inspect the same records used in the report.</p>'
+                  '<p>The dataset is descriptive, not a controlled experiment. It does not estimate what a typical new '
+                  'client will save, and it should not be used as a forecast. Case selection, taxpayer facts, income, '
+                  'property basis, timing, state conformity, and the ability to use deductions all affect the result.</p>'),
+        T.section("How to interpret a tax planning result",
+                  '<p>A reported deduction is not automatically the same as cash tax saved. A deduction can be limited '
+                  'by basis, at-risk rules, passive-activity rules, excess-business-loss rules, or state adjustments. '
+                  'Timing strategies can also create later recapture or reduce future depreciation.</p>'
+                  '<p>For that reason, readers should distinguish four measures: the gross deduction identified, the '
+                  'deduction usable in the current year, the modeled tax effect, and the amount ultimately reflected on '
+                  'a filed return. Our case studies identify these distinctions when the available facts permit.</p>'),
+        T.section("Source and correction standards",
+                  '<p>Each research entry links back to the underlying case study. Material claims should be consistent '
+                  'with the source page and should include limitations where an outcome depends on assumptions. If a '
+                  'source page is corrected, the research dataset and modification date should be updated as well.</p>'
+                  '<p>See our <a href="/editorial-policy/">editorial policy</a> for the standards used to research, '
+                  'review, update, and correct tax content.</p>'),
     ])
     page = T.build_page(title="Tax Planning Research | AE Tax Advisors",
                         description=description, path=path, body=body,

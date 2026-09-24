@@ -78,11 +78,10 @@ def shorten(title: str) -> str | None:
     if len(t) <= MAX_TITLE:
         return t
 
-    # 3. Trim on a word boundary as a last resort.
-    cut = t[:MAX_TITLE].rfind(" ")
-    if cut < 25:
-        return None
-    return t[:cut].rstrip(" ,;:-—")
+    # Do not hard-truncate an otherwise valid title. A complete 72-character
+    # title is better than a 70-character fragment such as "without an" or
+    # "reconcile retained". Search engines can choose their own display cut.
+    return None
 
 
 def shorten_titles() -> int:

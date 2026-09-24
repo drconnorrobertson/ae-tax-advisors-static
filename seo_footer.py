@@ -61,6 +61,7 @@ COLUMNS = [
         ("/faq/", "FAQ"),
         ("/glossary/", "Tax Glossary"),
         ("/guides/", "Guides &amp; Whitepapers"),
+        ("/editorial-policy/", "Editorial Policy"),
         ("/books/", "Books"),
         ("/sitemap/", "Site Map"),
         ("/discovery/", "Request a Consultation"),
@@ -125,6 +126,7 @@ def build_footer() -> str:
                 <a href="/terms-of-service/">Terms of Service</a> &middot;
                 <a href="/disclaimer/">Disclaimer</a> &middot;
                 <a href="/sitemap/">Site Map</a> &middot;
+                <a href="/editorial-policy/">Editorial Policy</a> &middot;
                 <a href="/press/">Press</a>
             </p>
             <p class="footer-disclaimer">AE Tax Advisors provides tax advisory and compliance

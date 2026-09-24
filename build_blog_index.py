@@ -248,6 +248,7 @@ def main() -> int:
             <h1>Tax Strategy Blog</h1>
             <p class="subtitle">{len(posts)} articles on cost segregation, depreciation,
             entity structuring, retirement plan design, and IRS procedure.</p>
+            <p class="subtitle"><a href="/editorial-policy/">How we source, review, and update tax content</a></p>
             <div class="cta-buttons">
                 <a href="/discovery/" class="btn-cta btn-lg">Get Your Free Estimate</a>
             </div>

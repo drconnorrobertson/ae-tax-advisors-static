@@ -427,6 +427,27 @@ def build_calc_index() -> str:
 {cards}
             </div>
         </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>How to Use a Tax Estimate Responsibly</h2>
+            <p>Start with a realistic input, then change one assumption at a time. A calculator is most useful when it shows which variable drives the result: depreciable basis, reasonable compensation, property class, marginal rate, or the timing of a purchase. Save the inputs you used so an advisor can reproduce the estimate.</p>
+            <p>Do not treat an estimated deduction as cash savings. The deduction must first be usable on the return. Basis, at-risk rules, passive-activity limits, the excess-business-loss limitation, state conformity, and recapture can all change the economic result. The calculator pages identify the assumptions they make and the rules they do not model.</p>
+        </div>
+    </section>
+
+    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>What These Calculators Cover</h2>
+            <ul class="takeaway-list">
+                <li><strong>Cost segregation.</strong> Size a possible first-year depreciation benefit using property type, land allocation, and a stated reclassification range.</li>
+                <li><strong>S corporation elections.</strong> Compare estimated employment tax under default pass-through treatment with payroll tax on a supportable owner wage.</li>
+                <li><strong>Bonus depreciation and Section 179.</strong> Compare first-year federal deductions while recognizing that state rules and asset eligibility can differ.</li>
+            </ul>
+            <p>Use the result to decide whether a deeper analysis is worth doing. It is not a valuation, engineering study, compensation opinion, or tax-return calculation.</p>
+            <p>For our sourcing and update standards, read the <a href="/editorial-policy/">AE Tax Advisors editorial policy</a>.</p>
+        </div>
     </section>"""
 
     schemas = [

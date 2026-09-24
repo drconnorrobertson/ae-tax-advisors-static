@@ -23,7 +23,8 @@ CANON_RE = re.compile(r'<link rel="canonical" href="https://(?:www\.)?aetaxadvis
 SECTIONS: list[tuple[str, object]] = [
     ("Start Here", lambda u: u in {
         "/", "/about/", "/services/", "/pricing/", "/contact/", "/discovery/",
-        "/bios/", "/press/", "/faq/", "/ae-tax-advisors-reviews/"}),
+        "/bios/", "/press/", "/faq/", "/ae-tax-advisors-reviews/",
+        "/editorial-policy/"}),
     ("Core Services", lambda u: u in {
         "/business-owner-small-business-tax/", "/real-estate-tax-planning/",
         "/cost-segregation-study/", "/short-term-rental-tax-strategy/",
@@ -45,7 +46,7 @@ SECTIONS: list[tuple[str, object]] = [
     ("Serving Investors by State", lambda u: u in STATE_URLS),
     ("Guides and Resources", lambda u: u in {
         "/glossary/", "/guides/", "/books/", "/blog/", "/calculators/",
-        "/compare/", "/case-studies/"}),
+        "/compare/", "/case-studies/", "/editorial-policy/"}),
 ]
 
 STATES = [
