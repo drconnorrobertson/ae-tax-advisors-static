@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **31 of 100 accepted buyer-intent question targets**
+Campaign progress: **32 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Rental-condo 1031 exchange qualification
+
+- Query: “Can I do a 1031 exchange on a rental condo?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 18/20 (the supplied organic-position export reports 40 monthly searches at position 24 for the close buyer wording “condo rental and tax free exchange”; current Google results include a newly published exact-intent competitor guide and current discussions about rental-condo exchanges; IRS Publication 544 expressly treats a condominium as a dwelling unit that may qualify, Revenue Procedure 2008-16 provides the mixed-personal-use safe harbor, and the current Form 8824 instructions define qualifying real property)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 8/10
+- Total: **95/100**
+- Decision: Materially improve the established rental-property 1031 canonical rather than publish a competing condo URL. The expansion directly answers the condo question; separates deeded real estate from furniture, prorations, assessments, parking, storage, and cooperative stock; adds the 24-month vacation-condo safe harbor, a six-fact matrix, a worked settlement example, documents, and exact return-review CTAs. It also corrects legacy absolutes about deadline relief, equal replacement debt, basis and depreciation, automatic recapture deferral, qualified-intermediary diligence, inherited-property basis, and related-party exchanges while preserving the original process, like-kind, boot, depreciation, pitfalls, strategic-fit, FAQ, and related-reading topics.
+- Canonical: `https://www.aetaxadvisors.com/blog/how-does-1031-exchange-work-for-rental-properties/`
 
 ### September 24, 2026 — Cost segregation on a condominium
 
