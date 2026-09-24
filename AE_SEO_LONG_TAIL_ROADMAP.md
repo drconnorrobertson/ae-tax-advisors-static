@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **28 of 100 accepted buyer-intent question targets**
+Campaign progress: **29 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — How far back a federal return can be amended
+
+- Query: “How far back can I amend a tax return?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (the current September 18–21 Search Console window reports 58 impressions at average position 9.4 for queries containing “how far back,” including 13 exact-query impressions and 10 for the “can you” variant; the supplied organic-position export reports 480 monthly searches at position 16 for the close “can you go back” wording and 390 monthly searches at position 17 for the exact “can I” wording; current Google results include a recently updated H&R Block deadline guide and multiple exact-question tax-provider pages; the current IRS Form 1040-X instructions and IRS Tax Tip 2026-35 directly answer the same decision)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **99/100**
+- Decision: Materially improve the established amendment-deadline canonical rather than publish a competing lookback URL. The expansion moves the direct answer above the separate multiple-amendment intent; distinguishes the claim-filing deadline from the refund-payment lookback; adds four dated 2026 fact patterns, a six-step deadline test, filing-date and payment evidence, special periods for disasters, combat zones, financial disability, foreign tax, bad debts, worthless securities, carrybacks, and protective claims, an old-year-versus-open-attribute analysis, corrected Form 3115 cautions, documents, failure points, current primary IRS sources, four matching visible and structured FAQs, and exact return-review CTAs. It corrects legacy absolutes about expired claims and historical depreciation while preserving the prior multiple-amendment, refund-rule, exception, depreciation, and strategic-review topics.
+- Canonical: `https://www.aetaxadvisors.com/blog/how-far-back-can-i-amend-a-tax-return/`
 
 ### September 24, 2026 — Suspended passive losses after a rental sale
 
