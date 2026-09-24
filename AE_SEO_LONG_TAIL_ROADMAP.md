@@ -95,11 +95,25 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **65 of 100 accepted buyer-intent question targets**
+Campaign progress: **66 of 100 accepted buyer-intent question targets**
 
-Separate September 24 owner milestone: **4 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
+Separate September 24 owner milestone: **5 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Gifting a rental with suspended passive losses
+
+- Query: “If I gift my rental to my child, can I deduct its suspended passive losses first?”
+- Buyer and consultation intent: 28/30 (a donor is about to sign a family property transfer with a potentially material unused-loss balance and needs the tax return and recipient basis reconciled first).
+- Distinctness from existing AE URLs: 23/25 (the rental-sale guide contains a brief gift contrast, while the gifted-rental basis guide primarily answers the recipient's cost-segregation and basis question; this new page owns the donor's pre-gift Section 469 decision and handoff).
+- Evidence of real query language: 13/20 (authenticated Search Console's September 18–22 window showed 10 impressions for queries containing “gift,” but none was a rental-gift loss query; the supplied organic-position export showed broader “suspended passive losses” demand at position 12 with a 40-monthly-search signal. Current results include an article specifically discussing gifted-property suspended losses. The full question is a credible buyer-intent synthesis, not a claimed exact measured query.)
+- Fit with AE paid services: 14/15 (rental return review, passive-loss reconciliation, and property-transfer basis work).
+- AE authority and competitive gap: 8/10 (AE already had the broader sale and gifted-basis guides, but lacked a complete donor-side, pre-transfer decision workpaper).
+- Total: **86/100**.
+- Decision: Publish one distinct donor-side guide at `/blog/gift-rental-suspended-passive-losses/`, with reciprocal links from the recipient-basis and sale guides rather than more wording-variant pages. It directly answers the Section 469 gift question, separates passive carryforwards from basis/at-risk limitations, addresses grouped and fractional transfers, gives a $420,000-basis/$80,000-unused-loss example, compares gifts with unrelated taxable sales and mixed family transfers without promising savings, lists documents and failure points, and provides two standalone `/discovery/` booking buttons. The adjacent gifted-basis canonical remains the child's depreciation and cost-segregation guide.
+- Primary sources: [IRS Publication 925](https://www.irs.gov/publications/p925), [IRS Form 8582 instructions](https://www.irs.gov/instructions/i8582), and [IRS Publication 551](https://www.irs.gov/publications/p551).
+- Validation: content quality 0 errors/0 warnings and sitemap parity at 1,298 canonical indexable URLs; broken internal links 0; invalid JSON-LD 0; date-integrity conflicts 0; scaled-content guard 0 errors/0 warnings for one new indexable page. The full validator retains only pre-existing unrelated test/staging metadata and duplicate-title warnings.
+- Publication: commit `974514f9` pushed to `main`; [live new canonical](https://www.aetaxadvisors.com/blog/gift-rental-suspended-passive-losses/) verified with self-canonical, question-led H1, two standalone booking buttons, and a September 24 sitemap entry. The gifted-basis guide, rental-sale guide, and blog index link to it. IndexNow accepted all four changed canonical URLs with HTTP 200 OK. Authenticated Search Console initially reports the newly published URL unknown to Google; its September 24 live test says the page is available to Google, can be indexed, and has one valid breadcrumb item. Manual request-indexing and confirmatory sitemap resubmission await specific action-time approval and may be quota-limited. No public Google Indexing API was used.
 
 ### September 24, 2026 — Rental owner using a property manager and claiming REPS
 
