@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **16 of 100 accepted buyer-intent question targets**
+Campaign progress: **17 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Land value for rental-property depreciation
+
+- Query: “How do you calculate land value for rental property depreciation?”
+- Buyer and consultation intent: 27/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 19/20 (the supplied organic-position export reports 40 monthly searches at position 47 for “how to calculate land value for depreciation,” plus 480 monthly searches at position 40 for the parent calculation query; the current four-day Search Console window has no query containing “land value”; and current Google results include an exact-intent competing CPA guide)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **95/100**
+- Decision: Materially improve the established rental-depreciation canonical instead of publishing a separate land-allocation URL. The expansion adds the relative-FMV formula, evidence hierarchy, acquisition-basis reconciliation, furnished and mixed-use cases, conversion-date basis analysis, placed-in-service testing, a fully worked purchase example, prior-return correction paths, documents, filing failures, a seven-step decision tree, current IRS sources, and direct return-review CTAs. It also corrects the legacy page's overbroad closing-cost treatment and replaces unsupported allocation guidance with the methods in IRS Publications 527 and 551.
+- Canonical: `https://www.aetaxadvisors.com/blog/how-to-calculate-depreciation-on-rental-property/`
 
 ### September 24, 2026 — Bonus depreciation on rental property
 
