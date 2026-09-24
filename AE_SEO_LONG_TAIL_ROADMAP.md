@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **38 of 100 accepted buyer-intent question targets**
+Campaign progress: **39 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Deciding whether to order an STR cost segregation study
+
+- Query: “Should I order a cost segregation study for my short-term rental?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (the supplied organic-position export reports 210 monthly searches and $9.55 CPC for “cost segregation study short term rental,” 170 monthly searches and $7.98 CPC for “cost segregation short term rental,” and 110 monthly searches and $9.85 CPC for “cost segregation airbnb”; the established `/cost-segregation-airbnb/` canonical ranks first for the Airbnb variant while several overlapping AE blog URLs rank from positions 13 through 19 for the same STR-study intent, directly evidencing both demand and internal cannibalization; current Google results repeatedly address STR qualification, building life, bonus depreciation, and W-2-offset questions)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 10/10
+- Total: **100/100**
+- Decision: Materially expand and correct the established commercial canonical instead of publishing another Airbnb or short-term-rental synonym page. The existing sections remain, while an added decision framework separates the seven-day passive-activity rule from the Section 168 building-life test; adds asset-class and bonus-eligibility matrices, a worked basis-versus-usable-loss example, five loss-usability gates, filing paths, a document packet, proposal-scope questions, failure points, current primary sources, and corrected visible and structured FAQs. The update replaces automatic 39-year, universal 35% allocation, guaranteed-savings, blanket-bonus, automatic Form 3115, and audit-safety claims with fact-dependent analysis. Three narrower supporting pages now point readers and authority to the winner while retaining their distinct implementation or building-life roles, and exact return-review CTAs appear near the answer and after the substantive analysis.
+- Canonical: `https://www.aetaxadvisors.com/cost-segregation-airbnb/`
 
 ### September 24, 2026 — California cost segregation without state bonus depreciation
 
