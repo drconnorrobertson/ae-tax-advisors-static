@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **46 of 100 accepted buyer-intent question targets**
+Campaign progress: **47 of 100 accepted buyer-intent question targets**
 
-Separate September 24 owner milestone: **2 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
+Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
-Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,295 discovered pages, resolving earlier run-log notes that sitemap resubmission was pending. Manual URL recrawl requests are separate; the QIP request hit Google's daily quota.
+Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; both the earlier QIP and the new S-corporation property-distribution requests hit Google's daily quota.
+
+### September 24, 2026 — Appreciated real estate distributed by an S corporation
+
+- Query: “My S corporation transferred appreciated real estate to me. What must go on Form 1120-S and my return before filing?”
+- Buyer and consultation intent: 30/30
+- Distinctness from existing AE URLs: 25/25
+- Search-language evidence: 17/20 (supplied organic-position export lists “s corporation distribution of property shareholder basis fair market value,” position 46 and a third-party 40/month volume estimate, currently mapped to AE's general distribution page; authenticated Search Console recorded 80 impressions at average position 8.8 for the broader “s corp distribution” family for September 18–22, but no exact property-distribution query in that short window)
+- Fit with AE paid services: 15/15
+- AE authority and competitive gap: 10/10
+- Total: **97/100**
+- Decision: Publish one distinct new canonical, not another cash-distribution or entity-type synonym. Existing AE guides cover cash, AAA, and stock basis, but not the corporation's recognized gain on a deeded appreciated building, Form 4797 versus capital reporting, pro-rata K-1 allocation, the recipient's separate property distribution and stock-basis test, and correction of connected returns. Current IRS Form 1120-S, Schedule D (1120-S), Form 7203 instructions, and Publication 542 ground the analysis. A simplified no-debt warehouse example, transaction decision tree, document checklist, failure points, liability and former-C-corporation caveats, and specific booking CTAs appear on the page. The general distribution canonical links to it.
+- Validation: 1,296 canonical indexable URLs = 1,296 sitemap URLs; content-quality errors/warnings 0; broken internal links 0; date conflicts 0; invalid JSON-LD 0; scaled-content errors/warnings 0. Commit `16ea6ff0` pushed. The live page returns HTTP 200 with its unique title and H1, canonical, direct `/discovery/` links near the answer and after the analysis, current IRS citations, inbound link, and sitemap lastmod. IndexNow accepted the new canonical plus the changed general-distribution and blog-index canonicals with HTTP 200. Authenticated Search Console currently says the new URL is unknown to Google's index; its September 24 live test says “URL is available to Google,” “Page can be indexed,” and detects one valid breadcrumb item. After action-time owner approval, the manual request-indexing action returned “Quota Exceeded” and was not accepted; retry after Google's daily reset. The updated `/sitemap.xml` was resubmitted successfully and Search Console now shows Success with 1,296 discovered pages. No Google public Indexing API was used.
+- Canonical: `https://www.aetaxadvisors.com/blog/s-corp-appreciated-real-estate-distribution-tax-return/`
 
 ### September 24, 2026 — Apartment renovation versus QIP
 
