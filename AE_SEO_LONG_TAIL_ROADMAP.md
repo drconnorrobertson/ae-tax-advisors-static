@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **30 of 100 accepted buyer-intent question targets**
+Campaign progress: **31 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Cost segregation on a condominium
+
+- Query: “Can you do a cost segregation study on a condo?”
+- Buyer and consultation intent: 28/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (the supplied organic-position export reports 40 monthly searches at position 19 for the exact natural-language question; the current September 18–21 Search Console window reports one exact-query impression at average position 22; current Google results include multiple exact-intent condo and condotel guides; IRS Publication 527 directly addresses condominium ownership in common elements, land, association assessments, and the separate cooperative-apartment rules)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 10/10
+- Total: **98/100**
+- Decision: Materially improve the established existing-property canonical rather than publish a competing condo-only URL. The expansion directly answers the condo question; defines the study boundary through the deed, declaration, percentage interest, limited common elements, land, association-funded work, and owner-purchased furnishings; distinguishes a condominium from a cooperative apartment; adds a six-gate review, a worked basis example, HOA maintenance-versus-capital-assessment treatment, documents, failure points, current primary sources, two matching visible and structured FAQs, and exact return-review CTAs. It also corrects the legacy claim that Form 3115 automatically captures every missed deduction for every old property while preserving the existing-property, primary-residence conversion, mixed-use, basis, method-change, example, FAQ, and related-reading topics.
+- Canonical: `https://www.aetaxadvisors.com/blog/can-i-do-a-cost-segregation-study-on-a-property-i-already-own/`
 
 ### September 24, 2026 — Reverse 1031 exchange all-in cost
 
