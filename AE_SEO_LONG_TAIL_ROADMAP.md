@@ -95,11 +95,25 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **66 of 100 accepted buyer-intent question targets**
+Campaign progress: **67 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **5 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Audit risk before ordering a cost segregation study
+
+- Query: “I’m about to order a cost segregation study—will it raise my IRS audit risk, and what evidence should I require before filing?”
+- Buyer and consultation intent: 28/30 (an owner is comparing a paid study proposal and a material depreciation return position, with a clear reason to seek a professional review before filing).
+- Distinctness and canonical fit: 24/25 (the established audit-risk blog URL owns this pre-filing decision; AE's audit-defense service page owns support after examination begins and its audit-ready deliverables guide owns the report-package checklist).
+- Evidence of real query language: 18/20 (authenticated Search Console showed 35 impressions and zero clicks for queries containing “cost segregation audit” in its September 18–22 window, including 9 impressions for “cost segregation audit risk.” The supplied organic-position export placed that shorter query at position 8 with a 40-monthly-search signal. Current results include providers' pre-commitment study-quality questions. The full buyer wording is editorial synthesis, not an exact measured query.)
+- Fit with AE paid services: 15/15 (cost segregation proposal review, tax-return implementation, and study audit support).
+- AE authority and competitive gap: 8/10 (AE's established page had ranking leverage but overstated audit-selection certainty, guaranteed defense speed, bonus eligibility, and Form 3115 applicability).
+- Total: **93/100**.
+- Decision: Materially improve `/blog/does-cost-segregation-increase-audit-risk/` rather than create a second audit-risk page. The page now separates unknown audit-selection odds from defensibility of the return position, uses the IRS's current audit-selection explanation and 2025 Cost Segregation ATG, gives three pre-contract evidence checks, a $2 million purchase/$450,000 proposed reclassification example with missing land and duplicate furniture, a document packet and failure points, current sources, contextual links, matched visible/JSON-LD FAQs, and two standalone `/discovery/` “Book a Return Review Call” buttons. The oversized calendar block before the answer was replaced by a direct CTA. Sentence-level corrections and a return link on the audit-defense service page remove conflicting promises and unconditional Form 3115/attachment claims; they are not a second counted target. The separate 200-new-URL ledger remains 5.
+- Primary sources: [IRS Cost Segregation Audit Techniques Guide, Publication 5653](https://www.irs.gov/pub/irs-pdf/p5653.pdf), [IRS audit-selection explanation](https://www.irs.gov/businesses/small-businesses-self-employed/irs-audits), [Form 3115 instructions](https://www.irs.gov/instructions/i3115), and [Publication 946](https://www.irs.gov/publications/p946).
+- Validation: content quality 0 errors/0 warnings and sitemap parity at 1,298 canonical indexable URLs; broken internal links 0; invalid JSON-LD 0; date-integrity conflicts 0; scaled-content guard 0 errors/0 warnings for zero new indexable pages. The full validator retains only pre-existing unrelated test/staging metadata and duplicate-title warnings.
+- Publication: commit `ea6bc70f` pushed to `main`; [live improved canonical](https://www.aetaxadvisors.com/blog/does-cost-segregation-increase-audit-risk/) and [live supporting service page](https://www.aetaxadvisors.com/cost-segregation-audit-defense/) verified with September 24 sitemap `lastmod`, revised copy, self-canonical on the blog page, and both direct standalone booking CTAs. IndexNow accepted both changed canonical URLs with HTTP 200 OK. Authenticated Search Console reports the established audit-risk URL is on Google and indexed; its September 24 post-deployment live test says the updated URL is available to Google, can be indexed, and has one valid breadcrumb item. Manual recrawl and confirmatory sitemap resubmission await specific action-time approval; Google's daily quota may reject the recrawl. No public Google Indexing API was used.
 
 ### September 24, 2026 — Gifting a rental with suspended passive losses
 
