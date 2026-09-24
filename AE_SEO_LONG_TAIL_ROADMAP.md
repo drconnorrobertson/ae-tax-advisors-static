@@ -95,9 +95,22 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **42 of 100 accepted buyer-intent question targets**
+Campaign progress: **43 of 100 accepted buyer-intent question targets**
 
-Separate September 24 owner milestone: **1 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
+Separate September 24 owner milestone: **2 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
+
+### September 24, 2026 — S-corp health insurance omitted from a filed W-2
+
+- Query: “My S-corp paid my health insurance but left it off my W-2. How do I fix it after filing?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 17/20 (the supplied organic-position export reports AE ranking for “s-corp shareholder health insurance” at position 1 with 30 monthly searches and $13.70 CPC, “s corporation health insurance” at position 1 with 170 monthly searches and $16.68 CPC, and “s corporation health insurance w2 box 14” at position 24 with 40 monthly searches. It does not contain the exact post-filing correction question. Current Google results include owner questions about missing premiums on a filed W-2 and competing articles about lost deductions; current IRS Notice 2008-1 and Forms W-2c, 941-X, 1120-S, 7206, and 1040-X instructions establish the real procedural decision. No exact-query Search Console impression is claimed.)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **96/100**
+- Decision: Publish a distinct post-filing correction guide. AE's established S-corp health-insurance page answers how the benefit normally works and is already ranking; it does not map the correction sequence after a W-2, payroll return, entity return, and owner return have been filed. The new page separates corporate payment from unreimbursed owner payment, supplies a four-branch decision table, six-step filing sequence, $18,000 worked example, document packet, common errors, current IRS primary sources, contextual internal links, structured data, and direct return-review CTAs. The established page received narrowly scoped factual corrections and links to the new filing guide; the business-return amendment hub links to it too.
+- Validation: content quality 1,295 indexable pages = 1,295 sitemap URLs, 0 errors and warnings; broken links 0; date conflicts 0; scaled-content errors and warnings 0; invalid JSON-LD 0. Commit `46929573` deployed. The live page returned HTTP 200 with its canonical, H1, three exact booking CTAs, and a live sitemap entry. IndexNow accepted the new URL and both changed supporting canonicals with HTTP 200. Authenticated Google Search Console says the URL is unknown to the stored index but the live test says “URL is available to Google,” “Page can be indexed,” and one valid breadcrumb item. Manual request-indexing and sitemap-resubmission actions await action-time approval; the live sitemap is already the discovery fallback.
+- Canonical: `https://www.aetaxadvisors.com/s-corp-health-insurance-missing-w2-after-filing/`
 
 ### September 24, 2026 — Form 8986 received after filing
 
