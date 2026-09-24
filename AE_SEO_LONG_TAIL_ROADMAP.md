@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **40 of 100 accepted buyer-intent question targets**
+Campaign progress: **41 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Cash-out refinancing a rental property
+
+- Query: “Do I owe tax when I cash-out refinance a rental property?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 18/20 (the supplied organic-position export reports “cash out refinance investment property tax implications” at position 17 with 40 monthly searches, “how does cash out refinance affect basis of property” at positions 19–20 with 70 monthly searches, “tax implications cash out refinance rental property” at position 27 with 30 monthly searches and $5.14 CPC, and a close natural-language variant at position 30 with 40 monthly searches; current Google results also contain direct question-led competitor coverage. The available September 18–21 Search Console view showed no refinance impressions, which is recorded as an AE authority gap rather than represented as demand.)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 10/10
+- Total: **97/100**
+- Decision: Materially improve the established cash-out-refinance canonical and consolidate the thin competing AE URL with a permanent redirect instead of creating another page. The update answers the taxability question immediately; separates proceeds, basis, interest tracing, points, and later disposition; adds a decision table, two worked allocations, document checklist, failure points, current IRS and Treasury sources, and exact return-review CTAs. The older synonym URL is removed from the sitemap and internal-link graph, marked noindex with the winner as canonical, and redirected to eliminate cannibalization without deleting its source file.
+- Canonical: `https://www.aetaxadvisors.com/blog/cash-out-refinance-tax-treatment-rental-property/`
 
 ### September 24, 2026 — Amended return still processing after 16 weeks
 

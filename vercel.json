@@ -3,6 +3,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/blog/rental-property-refinance-cash-out/",
+      "destination": "/blog/cash-out-refinance-tax-treatment-rental-property/",
+      "statusCode": 301
+    },
+    {
       "source": "/the-business-owners-guide-to-the-qualified-business-income-qbi-deduction/",
       "destination": "/qbi-deduction-guide/",
       "statusCode": 301
