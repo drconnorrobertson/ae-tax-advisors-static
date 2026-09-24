@@ -31,7 +31,11 @@ BOOKING = re.compile(
     r'/widget/booking/([A-Za-z0-9_-]+)'
 )
 PARAGRAPH = re.compile(r'<p\b[^>]*>(.*?)</p>', re.I | re.S)
-BUTTON_LINK = re.compile(r'<a\b(?=[^>]*\bclass=["\'][^"\']*\bbtn-cta\b)[^>]*>.*?</a>', re.I | re.S)
+BUTTON_LINK = re.compile(
+    r'<a\b(?=[^>]*(?:\bclass=["\'][^"\']*\b(?:btn-cta|btn-primary|button)\b'
+    r'|\bstyle=["\'][^"\']*(?:display\s*:\s*inline-block|background\s*:)))'
+    r'[^>]*>.*?</a>', re.I | re.S
+)
 DISCOVERY_BOOKING_ID = "FggCeBoxIuOuZZrTaVV1"
 # These are purpose-built appointment routes, not sitewide marketing CTAs.
 SPECIALIZED_BOOKING_PAGES = {
