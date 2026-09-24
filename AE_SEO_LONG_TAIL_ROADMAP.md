@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **55 of 100 accepted buyer-intent question targets**
+Campaign progress: **56 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Cost segregation after a completed 1031 exchange
+
+- Query: “I completed a 1031 exchange into a replacement property. Can I still do a cost-segregation study, and which basis can get bonus depreciation?”
+- Buyer and consultation intent: 28/30
+- Distinctness and canonical fit: 24/25
+- Evidence of real query language: 20/20 (authenticated Search Console recorded nine impressions, zero clicks, and average position 36.4 for “cost segregation after 1031 exchanges” in the September 18–22 window: six impressions led to the established comparison canonical, two to the sale-after-cost-segregation guide, and one to a case study. Current competing guides address exchanged versus excess basis, showing a real decision gap.)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **96/100**
+- Decision: Materially correct and expand the established cost-segregation-versus-1031 canonical, not publish a competing post-exchange URL. The prior page incorrectly said only excess basis could be cost segregated and implied that the depreciation election itself accelerated recognized exchange gain. The revision directly answers the post-exchange question, separates exchanged and excess basis, explains the different bonus-depreciation questions, adds a $3 million purchase/$1.4 million tax-basis example, decision sequence, document packet, failure points, current IRS citations, contextual links, matching FAQ schema, and problem-specific top and bottom booking CTAs. It also removes unsupported promises about first-year deductions and permanent gain elimination.
+- Canonical: `https://www.aetaxadvisors.com/blog/cost-segregation-vs-1031-exchange/`
+- Publication verification: commit `5dc380b7` deployed. The live H1, worked example, direct `/discovery/` CTAs, canonical, Article dateModified, and September 24 production sitemap lastmod were verified. Content quality and sitemap parity passed at 1,296/1,296; broken links, invalid JSON-LD, date conflicts, and scaled-content warnings were zero. IndexNow accepted the changed URL (HTTP 200). Authenticated Search Console says the URL is indexed; its September 24 live test says the updated page is available to Google and can be indexed. Manual recrawl and confirmatory sitemap resubmission await action-time owner confirmation. No Google public Indexing API was used. This existing-URL improvement does not change the separate 200-new-URL count.
 
 ### September 24, 2026 — Existing Airbnb before an S-corporation deed and cost-segregation study
 
