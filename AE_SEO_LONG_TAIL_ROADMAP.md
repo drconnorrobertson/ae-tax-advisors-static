@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **5 of 100 accepted buyer-intent question targets**
+Campaign progress: **6 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Cost segregation on a primary residence
+
+- Query: “Can you do cost segregation on a primary residence?”
+- Buyer and consultation intent: 27/30
+- Canonical fit and distinctness: 24/25
+- Evidence of real query language: 20/20 (1 current Search Console impression at average position 20, a 50-volume organic-position signal at position 21, and multiple exact-match competitor results)
+- Fit with AE paid services: 14/15
+- Authority and competitive gap: 9/10
+- Total: **94/100**
+- Decision: Materially improve the established “property I already own” canonical instead of creating a primary-residence synonym page. The new decision section distinguishes all-personal use, conversion to rental, mixed personal/rental use, qualifying home-office use, and vacation-home facts; applies the conversion-date placed-in-service rule and lower-of-basis-or-FMV limitation; adds allocation examples, documentation, failure points, and a use-specific review path.
+- Canonical: `https://www.aetaxadvisors.com/blog/can-i-do-a-cost-segregation-study-on-a-property-i-already-own/`
 
 ### September 24, 2026 — Rental loss deduction diagnosis
 
