@@ -95,9 +95,22 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **43 of 100 accepted buyer-intent question targets**
+Campaign progress: **44 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **2 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
+
+### September 24, 2026 — Bonus depreciation after inheriting a rental
+
+- Query: “Can I use cost segregation and bonus depreciation on an inherited rental property?”
+- Buyer and consultation intent: 28/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 17/20 (the supplied organic-position export has no inherited-cost-segregation row and the available September 18–21 Search Console query table showed no query containing “inherited”; neither is represented as measured demand. Current Google results feature direct inherited-property cost-segregation and bonus-depreciation guides from CSSI and R.E. Cost Seg, plus owner questions about the inherited rental schedule. The IRS's current used-property FAQ expressly excludes Section 1014(a) basis from bonus depreciation, making this a consequential pre-study purchase question.)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 10/10
+- Total: **95/100**
+- Decision: Materially correct and expand the established inherited-property cost-segregation canonical, not create a synonym page. The old page falsely said all inherited shorter-life components were bonus-eligible and presented an approximately $528,000 first-year deduction and $195,000 tax benefit. The updated page states the Section 1014 exclusion directly, separates inherited basis, land, co-owned basis, and later improvements; adds a decision table, loss-usability analysis, corrected portfolio example, document packet, failure points, IRS sources, matching visible and structured FAQs, contextual links, and exact return-review CTAs. The unrelated embedded booking calendar was replaced with the `/discovery/` booking path. The inherited-basis guide and blog index now point readers to the corrected canonical.
+- Validation: content quality 1,295 canonical indexable pages = 1,295 sitemap URLs, 0 errors and warnings; broken internal links 0; date conflicts 0; invalid JSON-LD 0; scaled-content check 0 errors and warnings (no new URL was added). Commit `72f63a5e` deployed. The live page returned HTTP 200 with corrected canonical, H1, date, answer, booking CTAs, no former calendar embed, and updated XML sitemap lastmod. IndexNow accepted the changed canonical and two related URLs with HTTP 200. Search Console reports the existing URL is indexed; its fresh live test says it can be indexed and detects valid breadcrumb and review-snippet items. A manual request to recrawl the updated version awaits action-time approval.
+- Canonical: `https://www.aetaxadvisors.com/blog/does-cost-segregation-work-on-inherited-property/`
 
 ### September 24, 2026 — S-corp health insurance omitted from a filed W-2
 
