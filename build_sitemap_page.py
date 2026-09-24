@@ -280,9 +280,8 @@ def build_partners_page() -> str:
     ]
     return T.build_page(
         title="Partners and Referral Relationships | AE Tax Advisors",
-        description=("The specialists AE Tax Advisors works alongside, including short-term "
-                     "rental acquisition, energy incentives, R&D credits, estate counsel, and "
-                     "actuaries, and how referral relationships are disclosed."),
+        description=("See the acquisition, engineering, energy, estate, credit, and actuarial "
+                     "specialists AE Tax Advisors coordinates with and how referrals are disclosed."),
         path="/partners/", body=body, schemas=schemas,
         published=PUBLISHED, modified=MODIFIED, og_type="website",
     )
