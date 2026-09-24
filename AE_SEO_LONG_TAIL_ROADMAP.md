@@ -95,11 +95,26 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **62 of 100 accepted buyer-intent question targets**
+Campaign progress: **63 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Personally paid S-corporation health premiums before filing
+
+- Query: “I paid my S-corporation health insurance premiums personally. What must be done by year-end and on my W-2 to claim the deduction?”
+- Buyer and consultation intent: 29/30
+- Distinctness and canonical fit: 25/25
+- Evidence of real query language: 20/20 (authenticated Search Console shows 3 impressions for “s corp health insurance premiums taxable wages deductible eoy” and 169 impressions across 60 health-insurance queries in its September 18–22 window, of which 147 impressions landed on this canonical URL; the supplied organic-position export places the year-end wage/deduction phrase at position 10 with a 110-monthly-search signal. The full buyer question is a natural-language synthesis, not a claimed exact query.)
+- Fit with AE paid services: 15/15
+- AE authority and competitive gap: 7/10 (AE already owns the canonical and has source-backed payroll expertise, but several competitors cover general S-corporation owner health insurance.)
+- Total: **96/100**
+- Decision: Materially improve the established broad health-insurance canonical rather than publish an overlapping URL. This pre-filing guide now separates corporate payment/reimbursement from Box 1 wage reporting and Form 7206's personal deduction, corrects the false Form 941 deadline and unconditional Boxes 3/5 language, adds a year-end decision sequence, a month-by-month subsidized-plan example, document requirements, common failure points, and two standalone `/discovery/` booking buttons. The already-published missing-W-2-after-filing guide remains the separate correction intent. This is an existing-canonical improvement, not a new URL for the 200-page ledger.
+- Primary sources: [IRS Notice 2008-1](https://www.irs.gov/irb/2008-02_IRB), [IRS S-corporation medical-insurance guidance](https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues), and [Form 7206 instructions](https://www.irs.gov/instructions/i7206).
+- Validation: content quality 0 errors/0 warnings; broken links 0; date conflicts 0; scaled-content guard 0 errors/0 warnings; JSON-LD blocks valid; canonical, one H1, visible FAQ parity, two standalone booking CTAs, and sitemap lastmod verified. Full site validator retains pre-existing unrelated test/staging and title warnings.
+- Publication: commit `bfea028e` pushed to `main`; [live canonical](https://www.aetaxadvisors.com/blog/can-my-s-corp-pay-for-my-health-insurance/) serves the revised guide, self-canonical, both standalone CTAs, and a sitemap `2026-09-24` lastmod.
+- Indexing: IndexNow returned HTTP 200 OK for the changed canonical. Authenticated Search Console reports “URL is on Google,” “Page is indexed,” and one valid breadcrumb item; its September 24 live test reports “URL is available to Google,” “Page can be indexed,” and one valid breadcrumb item. A specific action-time approval request for manual recrawl and sitemap resubmission is pending; the prior manual-request attempts for other URLs reached Google's daily quota.
 
 ### September 24, 2026 — Selling a cost-segregated real estate partnership interest
 
