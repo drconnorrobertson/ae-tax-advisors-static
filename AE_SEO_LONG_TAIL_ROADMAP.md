@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **58 of 100 accepted buyer-intent question targets**
+Campaign progress: **59 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — S-corporation owner distributions before payroll
+
+- Query: “I took S-corp distributions before setting up owner payroll. What must I reconcile before filing Form 1120-S?”
+- Buyer and consultation intent: 28/30
+- Distinctness and canonical fit: 22/25
+- Evidence of real query language: 18/20 (the supplied organic-position export maps “s corp payroll requirements” to this established canonical at position 19 with a 260-monthly-search signal and “s corp payroll service” at position 40 with a 110-monthly-search signal; current Google results include owner-payroll setup and readiness checklists. The exact longer question is an inferred, high-stakes filing-stage formulation, not a claimed exact-match Search Console query.)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **92/100**
+- Decision: Materially improve the established payroll-implementation canonical instead of creating another S-corp payroll URL. The existing “Do I Need Payroll?” article owns the yes/no question; this page now owns the distribution-before-payroll reconciliation and Form 1120-S filing task. The revision replaces unsupported savings and tax-free-distribution promises with a three-stage decision path, a transaction-level worked review, employment-tax/entity-return map, document packet, failure points, current IRS citations, contextual links, matching FAQ schema, and two problem-specific `/discovery/` booking buttons. This is an existing-URL improvement; the separate 200-new-URL ledger remains 3.
+- Canonical: `https://www.aetaxadvisors.com/payroll-for-s-corps-reasonable-compensation-without-the-headache/`
+- Publication verification: commit `41c5d085` deployed. Production served an exact source match with HTTP 200, self-canonical, both direct booking CTAs, and a September 24 sitemap lastmod. Content-quality and sitemap parity passed at 1,296/1,296; broken internal links, invalid JSON-LD syntax, date conflicts, and scaled-content warnings were zero. A focused check also passed breadcrumb structure and visible/JSON-LD FAQ parity. IndexNow accepted the changed canonical (HTTP 200). Authenticated Search Console says the established URL is already on Google; its September 24 live test says the updated page is available to Google and can be indexed, with one valid breadcrumb and one valid review-snippet item. Manual recrawl and confirmatory sitemap resubmission await action-time owner approval; no public Google Indexing API was used.
 
 ### September 24, 2026 — Real estate agent's commission S-corp and rental ownership
 
