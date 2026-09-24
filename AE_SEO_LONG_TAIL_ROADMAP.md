@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **48 of 100 accepted buyer-intent question targets**
+Campaign progress: **49 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
-Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, and inherited-rental basis requests hit Google's daily quota.
+Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Rental fire payout above basis and rebuilding
+
+- Query: “My rental burned and insurance paid more than its basis. Do I owe tax if I rebuild?”
+- Buyer and consultation intent: 28/30
+- Distinctness and canonical fit: 23/25
+- Search-language evidence: 14/20 (no exact casualty query appeared in the supplied organic-position export or the available September 18–22 Search Console query table. Search Console did show one impression for the adjacent “insurance claim recoverable depreciation” query, not evidence of exact-question volume. Current results include owner questions about fire-claim proceeds, Form 4684, and replacing rental property, a National Association of Tax Professionals example, and generic competitor treatment. This is an inferred high-value filing decision, not a quantified demand claim.)
+- Fit with AE paid services: 14/15
+- AE authority and competitive gap: 9/10
+- Total: **88/100**
+- Decision: Materially improve the existing `/blog/rental-property-casualty-insurance-proceeds/` canonical rather than create a competing fire or Section 1033 URL. The prior page was a short, generic insurance summary. The update preserves its original sections while directly addressing insurance above adjusted basis and rebuilding; it adds separate claim-component analysis, Form 4684 and Section 1033 decision support, a full-versus-shortfall worked example, deadlines and basis effects, filing sequence, document checklist, failure points, current IRS Publications 547 and 527 and Form 4684 instructions, contextual links, and exact “Book a Return Review Call” CTAs near the answer and after the analysis.
+- Validation: 1,296 canonical indexable pages = 1,296 sitemap URLs; content-quality errors/warnings 0; broken internal links 0; date-integrity conflicts 0; invalid JSON-LD 0; scaled-content errors/warnings 0. Commit `c3a0ae8f` deployed. Live title, canonical, H1, answer, citations, both CTAs, blog-index card, rental-question hub link, and sitemap lastmods verified. IndexNow returned HTTP 200 for the 1,296-URL sitemap set with 0 failures, including every affected canonical. Search Console says the established canonical is indexed; the September 24 live test says the updated URL can be indexed with one valid breadcrumb item. After owner confirmation, the manual recrawl request returned “Quota Exceeded” and was not accepted; retry after the daily quota resets. The current `/sitemap.xml` was resubmitted with “Sitemap submitted successfully”; Search Console then showed Success and 1,296 discovered pages. No Google public Indexing API was used.
+- Canonical: `https://www.aetaxadvisors.com/blog/rental-property-casualty-insurance-proceeds/`
 
 ### September 24, 2026 — Correcting an inherited rental's depreciation basis
 
