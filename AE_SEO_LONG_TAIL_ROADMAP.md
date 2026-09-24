@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **54 of 100 accepted buyer-intent question targets**
+Campaign progress: **55 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Existing Airbnb before an S-corporation deed and cost-segregation study
+
+- Query: “I already own an Airbnb. Should I move it into an S corp before cost segregation, or keep it in an LLC—and what happens when I sell?”
+- Buyer and consultation intent: 29/30
+- Distinctness and canonical fit: 24/25
+- Evidence of real query language: 20/20 (authenticated Search Console reports six impressions, zero clicks, and average position 8 for “s corp or llc for short term rental” in its September 18–22 window; all six impressions lead to the established AE canonical. Current competing entity-structure results cover the same decision, including Blue Cloud CPA and Taxstra.)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **97/100**
+- Decision: Materially improve the established Airbnb LLC-versus-S-corporation URL, not add a near-synonym page. The revision corrects the old blanket Schedule E, LLC liability, 15.3%-savings, reasonable-salary, financing, management-fee, and state-fee claims. It separates guest-service classification from passive-activity classification; analyzes Section 351 and liabilities over basis, corporate property versus shareholder debt basis, cost-segregation deductions, and an appreciated-property exit; and adds a worked transfer-and-distribution example, decision sequence, document packet, failure points, current IRS sources, contextual links, matching FAQ schema, and direct return-review CTAs.
+- Canonical: `https://www.aetaxadvisors.com/blog/should-i-put-my-airbnb-in-an-llc-or-s-corp/`
+- Publication verification: commit `9671ca66` deployed. The live H1, top and bottom booking CTAs, canonical, and September 24 production sitemap lastmod were verified. Content quality, sitemap parity, broken links, JSON-LD, date integrity, and scaled-content checks passed with no affected-page errors. IndexNow accepted the changed canonical (HTTP 200). Authenticated Search Console says the URL is indexed; its September 24 live test says the updated page can be indexed. The sitemap remains submitted and shows Success with 1,296 discovered pages. Manual recrawl and confirmatory sitemap resubmission await action-time owner confirmation. No Google public Indexing API was used. This is an existing-URL improvement, so the separate 200-new-URL ledger remains at 3.
 
 ### September 24, 2026 — Filed return after an S-corporation distribution above stock basis
 
