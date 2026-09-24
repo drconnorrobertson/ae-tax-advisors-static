@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **21 of 100 accepted buyer-intent question targets**
+Campaign progress: **22 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Cost segregation against W-2 income
+
+- Query: “Can cost segregation offset W-2 income?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (2 exact-query impressions at average position 10.5 in the current four-day Search Console window; the supplied organic-position export reports 50 monthly searches at position 9 and $8.76 CPC; and current Google results include multiple exact-intent cost-segregation competitors)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **99/100**
+- Decision: Materially improve AE’s established W-2 cost-segregation canonical rather than publish another salary-offset URL. The expansion adds a direct answer, a five-fact-pattern decision matrix, six-gate loss-usability sequence, three worked cases, spousal-hour rules, reservation-level short-stay testing, alternative material-participation paths, owner-basis and at-risk limits, documents, W-2-specific failure points, and current IRS sources. It corrects the legacy claim that 500 Airbnb hours alone guarantees a wage offset, replaces unsupported property-type reclassification percentages, narrows the Form 3115 answer, preserves all legacy FAQ topics, and adds the exact buyer question to visible and structured FAQs.
+- Canonical: `https://www.aetaxadvisors.com/blog/can-i-use-cost-segregation-to-offset-w2-income/`
 
 ### September 24, 2026 — Converting a primary residence to rental property
 
