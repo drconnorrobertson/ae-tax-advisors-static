@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **57 of 100 accepted buyer-intent question targets**
+Campaign progress: **58 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Real estate agent's commission S-corp and rental ownership
+
+- Query: “Should a real estate agent put rental properties in the same S-corp as commission income, and will cost-segregation losses offset commissions?”
+- Buyer and consultation intent: 28/30
+- Distinctness and canonical fit: 22/25
+- Evidence of real query language: 18/20 (the supplied organic-position export maps “real estate agent s-corp” to the established AE canonical at position 50 with a 110-monthly-search signal and “real estate agent s corp” at position 51 with a 30-monthly-search signal. Authenticated Search Console for September 18–22 recorded seven impressions and zero clicks for queries containing “real estate agent,” including one each for “s corp for real estate agent” and “real estate agent s-corp”; it does not show the exact longer question. Current Google results include a competing agent S-corp guide and an S-corp cost-segregation guide, while the IRS sources reveal the combined ownership and loss-usability decision.)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **92/100**
+- Decision: Materially improve `/s-corp-and-real-estate-coordination-for-active-businesses/`, the existing canonical receiving this keyword cluster, rather than create a synonym page. The former generic page now answers the deed-and-loss question directly; separates entity ownership, real-estate-professional status, rental material participation, shareholder limits, and cost-segregation timing; compares two agents with the same study and different participation; models appreciated-property distribution risk; and provides a decision path, records, failure points, primary IRS citations, contextual links, and exact top/bottom `/discovery/` buttons. The related agent-strategy guide was corrected where it implied aggregation alone unlocks losses or promised fixed S-corp savings, and now links to the focused canonical. No new indexable URL was added; the separate 200-new-URL count remains 3.
+- Canonical: `https://www.aetaxadvisors.com/s-corp-and-real-estate-coordination-for-active-businesses/`
+- Publication verification: commits `e83d1906` and `efc19719` deployed. Both live URLs returned HTTP 200 with correct canonical, direct booking CTAs, current Article dates, and September 24 sitemap lastmods. Content-quality and sitemap parity passed at 1,296/1,296; broken internal links, invalid JSON-LD syntax, date conflicts, and scaled-content warnings were zero. Search Console's first live test found an invalid breadcrumb caused by unrelated URLs in `itemListElement`; the second commit corrected it, and a fresh live test now says “URL is available to Google,” “Page can be indexed,” with one valid breadcrumb and one valid review-snippet item. The older indexed snapshot says the established URL is on Google but retains the pre-fix breadcrumb warning until recrawled. IndexNow accepted both changed canonicals after the final deploy (HTTP 200); an earlier invocation of the repository script also submitted the full 1,296-URL sitemap set with HTTP 200. Manual recrawl and confirmatory sitemap resubmission await action-time owner approval. No Google public Indexing API was used.
 
 ### September 24, 2026 — Seller-financing a rental sale to a child
 
