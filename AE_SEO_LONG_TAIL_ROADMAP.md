@@ -95,9 +95,21 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **41 of 100 accepted buyer-intent question targets**
+Campaign progress: **42 of 100 accepted buyer-intent question targets**
 
-Separate September 24 owner milestone: **0 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
+Separate September 24 owner milestone: **1 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
+
+### September 24, 2026 — Form 8986 received after filing
+
+- Query: “I received Form 8986 after filing. Do I amend my tax return?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 16/20 (the available September 18–21 Search Console window shows no queries containing “8986,” and the supplied organic-position export has no Form 8986 rows; these are recorded as an authority gap. Current Google results and taxpayer questions use the received-after-filing language and show confusion between an old-year amendment and Form 8978. Current IRS Instructions for Forms 8978, 8986, and 1040-X document a consequential decision that requires professional review.)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 10/10
+- Total: **96/100**
+- Decision: Publish a distinct partner-facing guide. AE's existing partnership AAR canonical addresses the partnership's filing decision; it does not give the recipient a complete Form 8986 and Form 8978 workflow. The new page separates income-tax reporting on the reporting-year return, amendments for non-income taxes, amendments when the reporting-year return was already filed, and the pass-through-entity branch. It includes a decision table, a dated three-year worked example, six-step review, documents, failure points, current primary sources, internal links, structured data, and exact return-review CTAs.
+- Canonical: `https://www.aetaxadvisors.com/form-8986-after-filing-amend-return/`
 
 ### September 24, 2026 — Cash-out refinancing a rental property
 
