@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **6 of 100 accepted buyer-intent question targets**
+Campaign progress: **7 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Cost segregation against capital gains
+
+- Query: “Can cost segregation offset capital gains?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 24/25
+- Evidence of real query language: 20/20 (3 current Search Console impressions at average position 16, a 40-volume organic-position signal at position 14 with $6.30 CPC, and exact-match competitor coverage)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 8/10
+- Total: **96/100**
+- Decision: Materially improve the established cost-segregation loss-usability canonical instead of publishing a separate capital-gain synonym URL. The new section distinguishes stock gains, passive-activity gains, a sale of the studied property, and currently usable nonpassive deductions; models Form 8582 and full-disposition sequencing; separates Section 1245 recapture, unrecaptured Section 1250 gain, and remaining Section 1231 gain; adds worked examples, document requirements, failure points, and a sale-year return-review CTA.
+- Canonical: `https://www.aetaxadvisors.com/blog/can-i-use-cost-segregation-to-offset-w2-income/`
 
 ### September 24, 2026 — Cost segregation on a primary residence
 
