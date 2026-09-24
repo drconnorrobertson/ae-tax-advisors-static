@@ -95,6 +95,20 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
+Campaign progress: **2 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Cost segregation study fee capitalization
+
+- Query: “Are cost segregation study fees capitalized?”
+- Buyer and consultation intent: 28/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (10 Search Console impressions for the exact natural-language query)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 8/10
+- Total: **96/100**
+- Decision: Materially improve the existing canonical URL rather than publish a competing synonym page. The update replaces a categorical answer with a fact-specific acquisition, improvement, post-acquisition, and mixed-invoice decision framework; adds three worked scenarios, document requirements, filing failures, primary IRS sources, and problem-specific booking paths.
+- Canonical: `https://www.aetaxadvisors.com/blog/can-i-deduct-the-cost-of-a-cost-segregation-study/`
+
 ### September 23, 2026 — Form 3115 in the year of a rental sale
 
 - Query: “Can I file Form 3115 in the year I sell a rental property?”
