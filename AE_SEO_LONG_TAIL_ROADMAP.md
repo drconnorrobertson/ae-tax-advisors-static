@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **60 of 100 accepted buyer-intent question targets**
+Campaign progress: **61 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Partnership-interest purchase and buyer-specific cost segregation
+
+- Query: “I bought a real estate partnership interest. Can a Section 743(b) step-up be cost segregated, and who gets the deduction?”
+- Buyer and consultation intent: 30/30
+- Distinctness and canonical fit: 25/25
+- Evidence of real query language: 20/20 (authenticated Search Console recorded 27 impressions and one click for “section 743(b) adjustment” in its September 18–22 window, all to this established canonical, at average position 2.9. The longer purchase-and-study formulation is an editorial synthesis, not a claim of 27 exact-question impressions. Current search results include professional coverage of Section 754 and cost segregation.)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 7/10
+- Total: **97/100**
+- Decision: Materially improve the existing Section 743(b) canonical rather than create another Section 754 page. The neighboring Section 734(b)/743(b) guide owns the broad comparison, and the missed-election guide owns late Section 754 relief. This page now owns the buyer's pre-study and transfer-year implementation question: whether the adjustment exists, why it is transferee-only, Section 755 asset allocation, a $400,000 illustrative buyer-specific schedule, separate bonus and loss-usability tests, Form 1065/K-1 reporting, document requests, and failure points. It replaces inaccurate statements that all partners benefit and that every buyer has “three years and 75 days” to elect. It includes current IRS sources, matching visible and structured FAQs, contextual links, and two problem-specific `/discovery/` booking buttons in separate blocks. No new URL was added; the separate 200-new-URL count remains 3.
+- Canonical: `https://www.aetaxadvisors.com/the-business-owners-guide-to-section-743b-basis-adjustments-after-partner-transfer/`
+- Publication verification: commit `bde8a99d` deployed. Production returned HTTP 200 with an exact source match, self-canonical, both direct booking CTAs, the corrected IRS guide link, and one September 24 sitemap entry. Full content quality and sitemap parity passed at 1,296/1,296 with zero errors/warnings; broken internal links, invalid JSON-LD, date conflicts, and scaled-content warnings were zero. Focused checks passed visible/FAQ JSON-LD parity and Article dates. IndexNow accepted the changed canonical (HTTP 200). Authenticated Search Console says the established URL is indexed; its September 24 live test says the updated page is available to Google and can be indexed, with one valid breadcrumb and review-snippet item. The submitted sitemap currently shows Success with 1,296 discovered pages; manual recrawl and confirmatory resubmission await action-time approval. No public Google Indexing API was used.
 
 ### September 24, 2026 — Sold a rental after missing depreciation
 
