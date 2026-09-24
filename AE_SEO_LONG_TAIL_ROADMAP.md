@@ -95,9 +95,22 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **44 of 100 accepted buyer-intent question targets**
+Campaign progress: **45 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **2 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
+
+### September 24, 2026 — Cost segregation on a gifted rental
+
+- Query: “Can I do cost segregation on a rental property I received as a gift, and claim bonus depreciation?”
+- Buyer and consultation intent: 28/30
+- Canonical fit and distinctness: 23/25
+- Evidence of real query language: 17/20 (no gift/cost-segregation row in the supplied organic-position export and no exact-query Search Console impression claimed; current Google results contain directly competing gifted-property cost-segregation guides from Basis Property Group, R.E. Cost Seg, and Virtual Cost Segregation)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **92/100**
+- Decision: Materially improve the existing gifted-rental basis canonical rather than create a second URL. The existing page already owned the prerequisite basis question but lacked a study/bonus decision. The expansion directly answers the buyer's question; distinguishes donor carryover basis, prior cost segregation, recipient-funded improvements, land, conversion, and part-sale facts; adds a cost-layer table, worked basis example, study-value decision sequence, documents, failure points, current primary IRS sources, contextual links, and two exact “Book a Return Review Call” paths to `/discovery/`. No existing section was removed.
+- Validation: 1,295 canonical indexable pages = 1,295 sitemap URLs; content-quality errors/warnings 0; broken internal links 0; date-integrity conflicts 0; invalid JSON-LD 0; scaled-content errors/warnings 0. Commit `94a07d49` deployed. Live canonical, new answer, two direct booking links, and the XML sitemap's September 24 lastmod verified. IndexNow accepted both changed canonical URLs with HTTP 200. Search Console says the established URL is indexed and its fresh live test says the updated URL can be indexed. A manual recrawl request and sitemap resubmission remain pending action-time owner confirmation under the browser interaction policy; no unsupported Google Indexing API was used.
+- Canonical: `https://www.aetaxadvisors.com/blog/rental-property-gifted-property-basis/`
 
 ### September 24, 2026 — Bonus depreciation after inheriting a rental
 
