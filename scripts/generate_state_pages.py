@@ -21,7 +21,7 @@ from state_data import STATES  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_PAGE = os.path.join(ROOT, "blog", "cost-segregation-complete-guide", "index.html")
 SITE = "https://aetaxadvisors.com"
-BOOKING_URL = "https://api.leadconnectorhq.com/widget/booking/5bPhybfzi6mKUTgn5GMg"
+BOOKING_URL = "https://api.leadconnectorhq.com/widget/booking/FggCeBoxIuOuZZrTaVV1"
 TODAY = "2026-08-09"
 
 

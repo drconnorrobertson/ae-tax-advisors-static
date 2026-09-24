@@ -26,6 +26,30 @@ DANGLING = {
     "a", "an", "the", "and", "or", "but", "of", "to", "in", "on", "at", "by",
     "for", "from", "with", "without", "that", "which", "as", "when", "while",
 }
+BOOKING = re.compile(
+    r'https://api\.leadconnectorhq\.com/widget/booking/([A-Za-z0-9_-]+)'
+)
+DISCOVERY_BOOKING_ID = "FggCeBoxIuOuZZrTaVV1"
+# These are purpose-built appointment routes, not sitewide marketing CTAs.
+SPECIALIZED_BOOKING_PAGES = {
+    "/30-minute-consultation/",
+    "/45-minute-consultation/",
+    "/60-minute-consultation/",
+    "/alicia-30min/",
+    "/alicia-45min/",
+    "/alicia-60min/",
+    "/alicia-survey/",
+    "/ashley-30min/",
+    "/ashley-45min/",
+    "/ashley-60min/",
+    "/christina-30min/",
+    "/christina-45min/",
+    "/christina-60min/",
+    "/connor-1-1/",
+    "/execupgrades/",
+    "/onboarding/",
+    "/q4-planning-call/",
+}
 
 
 def page_url(path: Path) -> str:
@@ -63,6 +87,13 @@ def main() -> int:
             continue
         text = path.read_text(encoding='utf-8', errors='replace')
         url = page_url(path)
+        booking_ids = set(BOOKING.findall(text))
+        if url not in SPECIALIZED_BOOKING_PAGES:
+            for booking_id in sorted(booking_ids - {DISCOVERY_BOOKING_ID}):
+                errors.append(
+                    f'{path.relative_to(ROOT).as_posix()}: marketing CTA uses '
+                    f'non-discovery booking calendar {booking_id}'
+                )
         cm = CANON.search(text)
         canonical = cm.group(1) if cm else None
         if NOINDEX.search(text) or (canonical and canonical != url) or url in redirects:
@@ -94,6 +125,14 @@ def main() -> int:
     for title, paths in titles.items():
         if len(paths) > 1:
             errors.append(f'duplicate indexable title: {title} :: {", ".join(paths)}')
+
+    for path in sorted((ROOT / 'scripts').rglob('*.py')):
+        text = path.read_text(encoding='utf-8', errors='replace')
+        for booking_id in sorted(set(BOOKING.findall(text)) - {DISCOVERY_BOOKING_ID}):
+            errors.append(
+                f'{path.relative_to(ROOT).as_posix()}: page generator uses '
+                f'non-discovery booking calendar {booking_id}'
+            )
 
     for url in sorted(indexable - sitemap):
         errors.append(f'{url}: canonical indexable URL missing from sitemap.xml')

@@ -10,7 +10,7 @@ import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BLOG = os.path.join(ROOT, "blog")
-BOOKING = "https://api.leadconnectorhq.com/widget/booking/5bPhybfzi6mKUTgn5GMg"
+BOOKING = "https://api.leadconnectorhq.com/widget/booking/FggCeBoxIuOuZZrTaVV1"
 
 CTA_MARKER = "background: #f0f4ff; border-left: 4px solid #2563eb"
 

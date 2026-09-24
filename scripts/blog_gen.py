@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from site_chrome import HEADER, FOOTER  # noqa: E402
 
 SITE = "https://www.aetaxadvisors.com"
-BOOKING = "https://api.leadconnectorhq.com/widget/booking/5bPhybfzi6mKUTgn5GMg"
+BOOKING = "https://api.leadconnectorhq.com/widget/booking/FggCeBoxIuOuZZrTaVV1"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 MONTHS = ["January", "February", "March", "April", "May", "June", "July",
