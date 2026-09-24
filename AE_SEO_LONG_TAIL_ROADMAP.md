@@ -95,11 +95,23 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **50 of 100 accepted buyer-intent question targets**
+Campaign progress: **51 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Missed Section 754 election after a partnership-interest purchase
+
+- Query: “We bought an interest in a real estate partnership, but its Form 1065 omitted the Section 754 election. Can it still make the election and claim the buyer's basis adjustment?”
+- Buyer and consultation intent: 29/30
+- Distinctness and canonical fit: 24/25
+- Search-language evidence: 18/20 (the supplied organic-position export shows AE at position 18 for “late 754 election,” reported volume 50, on this established canonical; current search results show specialized late-election competitor coverage. The full buyer question is an editorial synthesis, not a measured exact-match query.)
+- Fit with AE paid services: 15/15
+- AE authority and competitive gap: 8/10
+- Total: **94/100**
+- Decision: Materially improve the established Section 754 election canonical rather than create a third overlapping URL. The replacement answers the missed-deadline question, distinguishes automatic and discretionary 9100 relief, models transferee-only Section 743(b) consequences, and supplies a filing decision path, document list, failure points, current IRS sources, and two problem-specific booking CTAs. The neighboring Section 734(b)/743(b) article was also corrected because its examples wrongly assigned buyer-specific depreciation to all partners and treated Section 734(b) as a step-up in distributed property. No new URL was added; the separate 200-new-URL count remains 3.
+- Canonical: `https://www.aetaxadvisors.com/the-business-owners-guide-to-section-754-partnership-basis-adjustments/`
 
 ### September 24, 2026 — Repaying reduced-basis S-corporation shareholder debt
 
