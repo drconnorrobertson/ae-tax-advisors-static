@@ -1,6 +1,6 @@
 # AE Tax Advisors long-tail SEO roadmap
 
-Updated September 23, 2026 from the supplied organic-position export. This is a working editorial roadmap, not a promise of rankings or traffic.
+Updated September 24, 2026 from the supplied organic-position export and current Search Console evidence. This is a working editorial roadmap, not a promise of rankings or traffic.
 
 ## Opportunity score
 
@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **18 of 100 accepted buyer-intent question targets**
+Campaign progress: **19 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Avoiding capital gains tax on a rental-property sale
+
+- Query: “How to avoid capital gains tax on rental property”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (29 impressions at average position 18.1 in the current four-day Search Console window, including 16 exact-query impressions and 13 impressions for the close variant without “how to”; the supplied organic-position export reports 390 monthly searches at position 19, plus close variants totaling another 290 monthly searches; and current Google results include exact-intent competitor coverage)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **99/100**
+- Decision: Materially improve the established rental-property-sale canonical instead of publishing a competing capital-gains URL. The expansion replaces a generic strategy list with a sale-tax character stack; corrects the legacy 1031 debt test, installment-sale math, Section 121 nonqualified-use analysis, charitable-trust framing, capital-loss character, and 2026 opportunity-zone timing; and adds a strategy matrix, four worked fact patterns, a pre-contract decision tree, documents, failure points, current primary IRS sources, and direct return-review CTAs. All four legacy FAQ topics remain and are supplemented by sale-specific questions.
+- Canonical: `https://www.aetaxadvisors.com/blog/how-to-avoid-capital-gains-tax-when-selling-rental-property/`
 
 ### September 24, 2026 — Calculating bonus depreciation
 
