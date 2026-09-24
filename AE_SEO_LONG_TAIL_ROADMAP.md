@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **14 of 100 accepted buyer-intent question targets**
+Campaign progress: **15 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Land improvements and bonus depreciation eligibility
+
+- Query: “Do land improvements qualify for bonus depreciation?”
+- Buyer and consultation intent: 28/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 18/20 (the supplied organic-position export reports 50 monthly searches at position 49 for the established land-improvements URL; the current four-day Search Console window has no exact-query impressions; and current Google results include exact-question competitor coverage)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **95/100**
+- Decision: Materially improve the established 15-year land-improvements canonical instead of publishing another bonus-depreciation synonym URL. The update replaces a categorical yes with a six-gate eligibility test; separates raw land, building structure, 15-year site work, and QIP; addresses acquisition timing, eligible used property, ADS, election-out, state conformity, and Form 4562 reporting; adds a classification matrix, three worked cases, document requirements, filing failures, current IRS sources, accuracy corrections, and direct return-review CTAs.
+- Canonical: `https://www.aetaxadvisors.com/blog/15-year-land-improvements-depreciation/`
 
 ### September 24, 2026 — Reporting a cost segregation study on the tax return
 
