@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **39 of 100 accepted buyer-intent question targets**
+Campaign progress: **40 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Amended return still processing after 16 weeks
+
+- Query: “What should I do if my amended tax return is taking longer than 16 weeks?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 19/20 (the September 23 Search Console export records three exact impressions for “amended tax return taking longer than 16 weeks” at average position 10.3; the broader amended-return query cluster produced 124 impressions at average position 10.3; current Google results and related questions repeatedly use the 16-week threshold, and the IRS currently tells taxpayers to call when more than 16 weeks have passed since mailing or when Where’s My Amended Return directs them to call)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 10/10
+- Total: **99/100**
+- Decision: Materially improve the established processing-time canonical instead of publishing a second 16-week-delay page. The update adds a six-step escalation checklist, wait/call/respond/escalate decision table, current IRS processing-dashboard context, a filing-proof and transcript document packet, a duplicate-filing worked example, failure points, current primary sources, and exact return-review CTAs near the answer and after the substantive analysis. It also replaces unrelated generic FAQs with query-specific answers and removes the unrelated embedded booking calendar in favor of the sitewide `/discovery/` booking path.
+- Canonical: `https://www.aetaxadvisors.com/blog/how-long-does-an-amended-tax-return-take-to-process/`
 
 ### September 24, 2026 — Deciding whether to order an STR cost segregation study
 
