@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **17 of 100 accepted buyer-intent question targets**
+Campaign progress: **18 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Calculating bonus depreciation
+
+- Query: “How to calculate bonus depreciation”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (1 exact-query impression at average position 53 in the current four-day Search Console window; the supplied organic-position export reports 170 monthly searches at position 50; and current Google results include multiple exact-intent calculation guides)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **98/100**
+- Decision: Materially improve the established bonus-depreciation calculator instead of publishing a competing calculation page. The expansion adds the correct Section 179-before-bonus formula, seven eligibility gates, equipment and cost-segregation examples, entity and owner-level loss sequencing, federal/state distinctions, Form 4562 reporting, calculator limitations, permanent-record requirements, documents, failure points, current primary IRS sources, and direct return-review CTAs. The calculator remains a screening estimate and now clearly identifies the return-review issues it cannot decide.
+- Canonical: `https://www.aetaxadvisors.com/bonus-depreciation-calculator/`
 
 ### September 24, 2026 — Land value for rental-property depreciation
 
