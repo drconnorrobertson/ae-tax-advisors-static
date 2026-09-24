@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **49 of 100 accepted buyer-intent question targets**
+Campaign progress: **50 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Repaying reduced-basis S-corporation shareholder debt
+
+- Query: “My S corporation is repaying a shareholder loan after losses reduced its basis. Will I owe tax?”
+- Buyer and consultation intent: 28/30
+- Distinctness and canonical fit: 23/25
+- Search-language evidence: 17/20 (the supplied organic-position export has no exact shareholder-loan repayment row. Authenticated Search Console's available September 18–22 window has one impression for the close query `"s corporation" "loan repayment" "passive" "gain"`, not for the exact question; current results include owner repayment questions, an NYCPA Form 7203 discussion, and competitor loan-basis guidance. The IRS's Form 7203 instructions identify loan repayment as a filing trigger and distinguish written-note from open-account gain.)
+- Fit with AE paid services: 15/15
+- AE authority and competitive gap: 9/10
+- Total: **92/100**
+- Decision: Materially improve the existing `/blog/business-owner-loan-repayment-tax/` canonical rather than create a near-duplicate loan URL. The original was a short generic answer. The update preserves it while adding the three-gate debt-basis decision, a $100,000 note example with and without current-year restoration, written-note versus open-account character, records, failure points, current IRS Form 7203 and basis citations, contextual links, and exact “Book a Return Review Call” CTAs near the top and after the analysis. The related exit-planning page now corrects its overbroad assertion that every repayment produces ordinary gain and its claim that stock-sale gain itself restores basis.
+- Validation: 1,296 canonical indexable pages = 1,296 sitemap URLs; content-quality errors/warnings 0; broken links 0; date conflicts 0; invalid JSON-LD 0; scaled-content errors/warnings 0. Commit `0754d9c0` deployed. Live title, H1, canonical, both CTAs, corrected exit-page analysis, and sitemap lastmods verified. IndexNow accepted all four changed canonical URLs with HTTP 200. Search Console says the established canonical is indexed; its September 24 live test says the updated URL can be indexed with one valid breadcrumb item. Manual recrawl and a confirmatory sitemap resubmission await the owner's action-time response; no Google public Indexing API was used.
+- Canonical: `https://www.aetaxadvisors.com/blog/business-owner-loan-repayment-tax/`
 
 ### September 24, 2026 — Rental fire payout above basis and rebuilding
 
