@@ -95,11 +95,26 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **63 of 100 accepted buyer-intent question targets**
+Campaign progress: **64 of 100 accepted buyer-intent question targets**
 
-Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
+Separate September 24 owner milestone: **4 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Landlord payment to end a rental tenant's lease
+
+- Query: “Can I deduct a cash-for-keys payment to a tenant before selling or renovating my rental?”
+- Buyer and consultation intent: 28/30 (a real landlord is about to make a potentially material payment tied to a sale or capital project and needs return treatment before signing or filing).
+- Distinctness from existing AE URLs: 25/25 (AE's established commercial lease-buyout page covers a business tenant paying its landlord; this page covers the landlord paying the tenant and the lessor-specific regulation).
+- Evidence of real query language: 13/20 (current Google results contain “cash for keys” tax-deduction questions and landlord lease-termination discussions; a Tax Adviser competitor has a lessor-specific treatment article. This precise full question has no measured Search Console impression or supplied organic-position volume; it is a buyer-intent synthesis, not a claimed measured query.)
+- Fit with AE paid services: 14/15 (real-estate tax, rental return, sale, renovation, and basis workpaper review).
+- AE authority and competitive gap: 9/10 (primary regulations supply a clearer decision framework than common generic “deduct it” answers, and AE had no landlord-side URL).
+- Total: **89/100**.
+- Decision: Publish one distinct landlord-side guide, not a synonym or a paragraph appended to the tenant-side commercial lease article. The guide directly answers the deduction question, separates true lease surrender from other settlement components, applies both endpoints of the 12-month rule, gives ten-month and thirty-month examples, distinguishes sale and renovation costs, lists records and failure points, and links to the opposite-party guide and relevant real-estate pages. Two direct standalone `/discovery/` booking buttons address the actual lease and return review.
+- Primary sources: [IRS final capitalization regulations, Bulletin 2004-7](https://www.irs.gov/irb/2004-07_IRB), [IRS rental income and expenses topic](https://www.irs.gov/taxtopics/tc414), and [IRS Publication 527](https://www.irs.gov/publications/p527).
+- Validation: content-quality 0 errors/0 warnings; broken internal links 0; date integrity 0 conflicts; JSON-LD valid; sitemap 1,297 canonical indexable URLs; scaled-content guard 0 errors/0 warnings for one new indexable page. The full validator retains only its pre-existing unrelated test/staging and duplicate-title warnings.
+- Publication: commit `488feb62` pushed to `main`; [live canonical](https://www.aetaxadvisors.com/blog/landlord-tenant-buyout-payment-tax-deduction/) verified with self-canonical, two standalone booking buttons, and a live sitemap `2026-09-24` entry. The related commercial-lease guide and blog index were linked.
+- Indexing: IndexNow returned HTTP 200 OK for all three changed canonical URLs. Authenticated Search Console currently says the new URL is unknown to Google (expected immediately after publication), while its September 24 live test says “URL is available to Google,” “Page can be indexed,” and one valid breadcrumb item. The previously submitted sitemap still shows Success at 1,296 discovered pages, before Google's next read of the newly expanded 1,297-URL file. Action-time approval for a manual indexing request and sitemap resubmission is pending; Google may refuse the manual request at the daily quota.
 
 ### September 24, 2026 — Personally paid S-corporation health premiums before filing
 
