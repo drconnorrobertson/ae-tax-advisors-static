@@ -3,6 +3,26 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/the-business-owners-guide-to-the-qualified-business-income-qbi-deduction/",
+      "destination": "/qbi-deduction-guide/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/what-is-the-section-199a-qbi-deduction-for-business-owners/",
+      "destination": "/qbi-deduction-guide/",
+      "statusCode": 301
+    },
+    {
+      "source": "/qualified-business-income-deduction-20-percent-pass-through/",
+      "destination": "/qbi-deduction-guide/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/augusta-rule-rent-your-home-to-your-business/",
+      "destination": "/blog/augusta-rule-how-to-rent-home-to-business/",
+      "statusCode": 301
+    },
+    {
       "source": "/what-is-a-cost-segregation-study/",
       "destination": "/cost-segregation-study/",
       "statusCode": 301

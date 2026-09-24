@@ -6,6 +6,7 @@ Only canonical, indexable URLs are listed. Pages that canonicalize elsewhere
 pages. lastmod comes from file mtime; priority and changefreq are derived from
 where the page sits in the site hierarchy.
 """
+import json
 import re
 import subprocess
 import argparse
@@ -35,6 +36,21 @@ def classify(slug):
 
 
 NOINDEX = re.compile(r'<meta name="robots" content="[^"]*noindex', re.I)
+
+
+def redirected_paths():
+    """Return exact source URLs handled by permanent redirects."""
+    try:
+        config = json.loads(Path("vercel.json").read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return set()
+    return {
+        rule["source"]
+        for rule in config.get("redirects", [])
+        if rule.get("statusCode") in (301, 308)
+        and isinstance(rule.get("source"), str)
+        and ":" not in rule["source"]
+    }
 
 
 def read(path):
@@ -78,6 +94,7 @@ def main(preserve_changed=False):
     skipped = 0
     previous = baseline_lastmods()
     changed = changed_paths()
+    redirects = redirected_paths()
     today = date.today().isoformat()
     for p in sorted(Path(".").rglob("index.html")):
         if ".git" in p.parts:
@@ -88,7 +105,7 @@ def main(preserve_changed=False):
 
         text = read(p)
         # Drop anything that canonicalizes elsewhere or is explicitly noindexed.
-        if canonical_of(text, slug) != url or NOINDEX.search(text):
+        if canonical_of(text, slug) != url or NOINDEX.search(text) or url in redirects:
             skipped += 1
             continue
 
