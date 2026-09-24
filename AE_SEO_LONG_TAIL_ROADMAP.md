@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **29 of 100 accepted buyer-intent question targets**
+Campaign progress: **30 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Reverse 1031 exchange all-in cost
+
+- Query: “How much does a reverse 1031 exchange cost?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 18/20 (the supplied organic-position export reports 70 monthly searches at position 51 and $4.29 CPC for the exact cost question, plus 320 monthly searches for the parent reverse-exchange term; the current September 18–21 Search Console window has three impressions at average position 33.7 for the “reverse 1031” family but none yet for the cost wording; current Google results include multiple exact-question guides and materially different public fee estimates, confirming that searchers need a scope-normalized answer; Rev. Proc. 2000-37, Rev. Proc. 2004-51, Rev. Proc. 2018-58, Publication 544 and the Form 8824 instructions govern the tax and timing analysis)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 10/10
+- Total: **97/100**
+- Decision: Materially improve the established reverse-exchange canonical rather than publish a fee-only URL. The expansion replaces unsupported universal ranges with an eight-layer quote framework; adds a worked all-in cost model, expected-versus-downside analysis, fit matrix, financing checklist, exchange-fund disbursement cautions, the complete safe-harbor sequence, disaster-relief nuance, improvement-exchange administration, corrected depreciation-basis treatment, documents, an eight-step pre-closing process, current primary sources, two additional matching FAQs, and exact return-review CTAs. It corrects the legacy claims that a taxpayer categorically cannot hold both properties, no deadline can ever be postponed, missing the safe harbor automatically makes the sale taxable, and a cost-segregation study should be scoped only to excess basis while preserving the original purpose, structure, financing, cost, improvement, depreciation, failure-point, FAQ, and related-reading topics.
+- Canonical: `https://www.aetaxadvisors.com/blog/reverse-1031-exchange-explained/`
 
 ### September 24, 2026 — How far back a federal return can be amended
 
