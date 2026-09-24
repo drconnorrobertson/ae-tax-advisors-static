@@ -30,6 +30,8 @@ BOOKING = re.compile(
     r'https://(?:api\.leadconnectorhq\.com|link\.aetaxadvisors\.com)'
     r'/widget/booking/([A-Za-z0-9_-]+)'
 )
+PARAGRAPH = re.compile(r'<p\b[^>]*>(.*?)</p>', re.I | re.S)
+BUTTON_LINK = re.compile(r'<a\b(?=[^>]*\bclass=["\'][^"\']*\bbtn-cta\b)[^>]*>.*?</a>', re.I | re.S)
 DISCOVERY_BOOKING_ID = "FggCeBoxIuOuZZrTaVV1"
 # These are purpose-built appointment routes, not sitewide marketing CTAs.
 SPECIALIZED_BOOKING_PAGES = {
@@ -101,6 +103,19 @@ def main() -> int:
             continue
         indexable.add(url)
         label = path.relative_to(ROOT).as_posix()
+
+        # A styled booking button inside a sentence splits the copy visually and
+        # can render as an oversized inline box. Keep buttons in their own block.
+        main_markup = re.search(r'<main\b[^>]*>(.*?)</main>', text, re.I | re.S)
+        body_markup = main_markup.group(1) if main_markup else text
+        for paragraph in PARAGRAPH.finditer(body_markup):
+            if not BUTTON_LINK.search(paragraph.group(1)):
+                continue
+            surrounding = BUTTON_LINK.sub('', paragraph.group(1))
+            surrounding = html.unescape(re.sub(r'<[^>]+>', ' ', surrounding)).strip()
+            if surrounding:
+                errors.append(f'{label}: button CTA embedded in paragraph text')
+                break
 
         if '$$' in text:
             errors.append(f'{label}: doubled currency symbol')
