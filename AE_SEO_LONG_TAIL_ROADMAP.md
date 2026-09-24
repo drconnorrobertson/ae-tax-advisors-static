@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **22 of 100 accepted buyer-intent question targets**
+Campaign progress: **23 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Self-rental reporting on Schedule E
+
+- Query: “What is self-rental on Schedule E?”
+- Buyer and consultation intent: 27/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (the supplied organic-position export reports 90 monthly searches at position 14 for the exact query, 50 monthly searches at position 12 for “what is a self rental on schedule e,” and 110 monthly searches for each of two broader self-rental variants; the current four-day Search Console window has no exact-query impressions; and current Google results include exact and close-intent tax guidance)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **96/100**
+- Decision: Materially improve AE’s established self-rental canonical instead of creating another Schedule E URL. The expansion adds a direct Schedule E answer, an ownership-to-reporting matrix for Part I, Form 8825, K-1s, and Part II, the three-gate self-rental test, the asymmetric income-versus-loss result, a worked medical-office example, a seven-step filing decision tree, documents, failure points, and current primary sources. It also corrects overbroad legacy claims about grouping, REPS losses, fixed cost-segregation outcomes, and the source of the rule; distinguishes Section 469 treatment from self-employment tax and Section 199A; preserves the existing planning topics; and adds exact return-review CTAs.
+- Canonical: `https://www.aetaxadvisors.com/blog/self-rental-rules-business-rents-from-you/`
 
 ### September 24, 2026 — Cost segregation against W-2 income
 
