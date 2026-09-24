@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **11 of 100 accepted buyer-intent question targets**
+Campaign progress: **12 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Cost segregation on residential rental property
+
+- Query: “Can you do cost segregation on residential rental property?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (8 exact-query impressions at average position 20.1 in the current four-day Search Console window; the supplied organic-position export reports 170 monthly searches at position 20; and current Google results contain multiple exact-question competitor pages)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 8/10
+- Total: **98/100**
+- Decision: Materially improve the established residential-rental cost-segregation canonical instead of creating a property-type synonym URL. The expansion gives a direct qualification answer; adds six eligibility and value gates, an asset-treatment matrix, mixed/transient-use analysis, a worked single-family case with two owner outcomes, no-go conditions, documents, failure points, primary IRS sources, and study-specific return-review paths.
+- Canonical: `https://www.aetaxadvisors.com/blog/cost-segregation-basics-rental-properties/`
 
 ### September 24, 2026 — Multiple amendments for the same tax year
 
