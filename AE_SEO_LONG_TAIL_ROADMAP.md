@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **35 of 100 accepted buyer-intent question targets**
+Campaign progress: **36 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Cost segregation calculator accuracy before ordering a study
+
+- Query: “How accurate is a cost segregation calculator before I pay for a study?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (current Search Console reports 56 impressions for queries containing “cost segregation calculator,” including 35 for the exact head term and 10 for the residential variant, with no clicks and an average position of 34.4; the supplied organic-position export reports 260 monthly searches and a best observed position of 12 for the primary calculator canonical, plus material residential, free-calculator, calculation, and spreadsheet variants; current Google results include multiple exact accuracy FAQs and active investor questions comparing calculator estimates with paid studies; the current IRS Cost Segregation Audit Techniques Guide explains the component, cost-reconciliation, classification, and estimation support that separates a study from a percentage model)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 10/10
+- Total: **99/100**
+- Decision: Materially improve the established calculator canonical rather than publish another estimator URL. The rewrite answers the pre-purchase accuracy question directly; replaces a universal 35%-of-purchase-price and 50%-over-four-years formula with a depreciable-basis range model; separates land, service dates, property use, asset profile, bonus eligibility, loss usability, state conformity, hold period, and recapture; corrects the claim that average guest stay alone makes an STR 39-year property; adds a low/high worked estimate, a passive-loss example, documents, failure points, current primary sources, six matching visible and structured FAQs, an interactive-tool path, and exact return-review CTAs. It preserves the original calculator, improvement, bonus, STR/LTR, lookback, professional-study, example, FAQ, and related-reading intents while removing unsupported certainty.
+- Canonical: `https://www.aetaxadvisors.com/cost-segregation-calculator/`
 
 ### September 24, 2026 — Amending Form 1120-S after issuing K-1s
 
