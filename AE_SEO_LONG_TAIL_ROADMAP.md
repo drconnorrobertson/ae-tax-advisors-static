@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **47 of 100 accepted buyer-intent question targets**
+Campaign progress: **48 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
-Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; both the earlier QIP and the new S-corporation property-distribution requests hit Google's daily quota.
+Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, and inherited-rental basis requests hit Google's daily quota.
+
+### September 24, 2026 — Correcting an inherited rental's depreciation basis
+
+- Query: “The depreciation schedule on my inherited rental used the decedent's old basis. Do I amend my return or file Form 3115?”
+- Buyer and consultation intent: 28/30
+- Distinctness and canonical fit: 22/25
+- Search-language evidence: 15/20 (no matching row in the supplied organic-position export and zero “inherited” impressions in the available September 18–22 Search Console query table; neither is claimed as measured demand. Current results show real owner questions about an inherited rental's unadjusted depreciation schedule and competitors' generic Form 3115 versus amendment advice, but little fact-specific basis-and-method separation.)
+- Fit with AE paid services: 15/15
+- AE authority and competitive gap: 10/10
+- Total: **90/100**
+- Decision: Materially improve the existing `/blog/rental-property-inherited-basis/` canonical rather than add a synonym URL. The former page gave only a generic inherited-basis summary and had an unfinished description. The update preserves its original sections while directly answering the error-and-procedure question, distinguishing unsupported estate valuation or posting mistakes from an adopted depreciation-method change, with a decision table, no-debt inherited-house example, year-by-year workpaper sequence, documents, failure points, current IRS Publications 551 and 946, Form 3115 instructions, bonus-depreciation FAQ, and contextual links. Exact “Book a Return Review Call” links appear near the answer and after the substantive analysis.
+- Validation: 1,296 canonical indexable pages = 1,296 sitemap URLs; content-quality errors/warnings 0; broken links 0; date conflicts 0; invalid JSON-LD 0; scaled-content errors/warnings 0. Commit `f9785d46` deployed. Live title, H1, answer, primary sources, canonical, booking CTAs, blog-index link, and sitemap lastmod verified. IndexNow accepted the changed canonical and blog index with HTTP 200. Search Console says the established canonical is indexed; a September 24 live test says the updated URL can be indexed with one valid breadcrumb item. After owner confirmation, the manual recrawl request returned “Quota Exceeded” and was not accepted; retry after the daily quota resets. The current `/sitemap.xml` was resubmitted with “Sitemap submitted successfully”; Search Console then showed Success and 1,296 discovered pages. No Google public Indexing API was used.
+- Canonical: `https://www.aetaxadvisors.com/blog/rental-property-inherited-basis/`
 
 ### September 24, 2026 — Appreciated real estate distributed by an S corporation
 
