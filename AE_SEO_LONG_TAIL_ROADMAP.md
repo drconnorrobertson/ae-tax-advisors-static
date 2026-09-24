@@ -95,11 +95,25 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **64 of 100 accepted buyer-intent question targets**
+Campaign progress: **65 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **4 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Rental owner using a property manager and claiming REPS
+
+- Query: “I use a property manager—can I still claim real estate professional status and use my rental losses against my W-2 income?”
+- Buyer and consultation intent: 29/30 (a rental owner is deciding whether to claim a substantial return position and needs defensible participation records).
+- Distinctness and canonical fit: 24/25 (the established REPS documentation guide is the correct canonical; a second property-manager URL would overlap it).
+- Evidence of real query language: 13/20 (authenticated Search Console showed no matching property-manager query impressions in the September 18–22 window, so this is not claimed as a measured exact query; current competitor results address property-manager effects on REPS, and AE's supplied organic-position export supports broader real-estate-professional passive-loss demand).
+- Fit with AE paid services: 15/15 (rental-loss, return-review, and documentation work).
+- Authority and competitive gap: 8/10 (AE already has REPS authority, but the guide and hub needed a precise owner-versus-manager-hours decision framework).
+- Total: **89/100**.
+- Decision: Materially improve `/real-estate-professional-status-documentation/` and correct related sentences on the `/real-estate-professional-status/` hub; publish no new URL. The revised guide answers the manager question directly, separates the >750-hour and >half personal-service qualification tests from rental material participation, distinguishes >500-hour and >100-hour/no-one-else-more participation paths, and explains the manager-specific facts-and-circumstances limitation. It adds an owner/manager-hours worked example, acceptable proof and documents, investor-hour and spouse-participation cautions, failure points, relevant internal links, matched visible and structured FAQs, and two standalone problem-specific `/discovery/` booking buttons. It corrects the false implication that contemporaneous daily logs or a universal grouping election are legally mandatory. The separate 200-new-URL ledger remains 4.
+- Primary sources: [IRS Publication 925](https://www.irs.gov/publications/p925), [Form 8582 instructions](https://www.irs.gov/instructions/i8582), and [Form 8582-CR instructions](https://www.irs.gov/instructions/i8582cr).
+- Validation: content quality 0 errors/0 warnings across 1,297 canonical/sitemap URLs; broken internal links 0; invalid JSON-LD 0; date-integrity conflicts 0; scaled-content guard 0 errors/0 warnings. The full validator retains only pre-existing, unrelated test/staging metadata and duplicate-title warnings. Both affected canonical URLs were verified live with September 24 sitemap `lastmod`; the documentation page has two standalone direct booking CTAs.
+- Publication: commit `27665edf` pushed to `main`; [live improved canonical](https://www.aetaxadvisors.com/real-estate-professional-status-documentation/) and [live corrected hub](https://www.aetaxadvisors.com/real-estate-professional-status/) verified. IndexNow accepted both changed canonicals with HTTP 200 OK. Authenticated Search Console reports the documentation canonical is on Google and indexed; its September 24 post-deployment live test says the updated URL is available to Google, can be indexed, and has valid breadcrumb and review-snippet items. Manual recrawl and confirmatory sitemap resubmission are separate from IndexNow and await specific action-time approval; Google's prior daily manual-request quota may also reject the recrawl. No public Google Indexing API was used.
 
 ### September 24, 2026 — Landlord payment to end a rental tenant's lease
 
