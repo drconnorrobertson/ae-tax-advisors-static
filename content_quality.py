@@ -27,7 +27,8 @@ DANGLING = {
     "for", "from", "with", "without", "that", "which", "as", "when", "while",
 }
 BOOKING = re.compile(
-    r'https://api\.leadconnectorhq\.com/widget/booking/([A-Za-z0-9_-]+)'
+    r'https://(?:api\.leadconnectorhq\.com|link\.aetaxadvisors\.com)'
+    r'/widget/booking/([A-Za-z0-9_-]+)'
 )
 DISCOVERY_BOOKING_ID = "FggCeBoxIuOuZZrTaVV1"
 # These are purpose-built appointment routes, not sitewide marketing CTAs.
