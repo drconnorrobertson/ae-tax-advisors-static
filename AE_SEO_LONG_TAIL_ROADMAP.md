@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **36 of 100 accepted buyer-intent question targets**
+Campaign progress: **37 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Comparing a CSSI cost segregation proposal
+
+- Query: “What should I compare in a CSSI cost segregation proposal before hiring?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (current Search Console reports 33 impressions over three months for queries containing “cssi,” including 19 for “cssi cost segregation,” with no clicks and an average position of 7.8; the supplied organic-position export reports 320 monthly searches at position 11 and $9.59 CPC for the head query; current Google results include provider comparisons, reviews, and proposal-shopping questions; the IRS Cost Segregation Audit Techniques Guide supplies a neutral quality framework for methodology, documentation, cost reconciliation, classification, and expertise)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **98/100**
+- Decision: Materially improve the established CSSI comparison canonical instead of publishing another provider-comparison URL. The update removes unsupported categorical claims about CSSI's current price, turnaround, tax-return work, Form 3115 scope, loss analysis, and audit support; tells buyers to confirm those terms in the current proposal; adds an eight-question proposal checklist, total-delivered-cost model, worked two-bid example, deduction-usability warning, document packet, current primary IRS sources, corrected visible and structured FAQs, and exact return-review CTAs. The page now compares accountable scope through the filed return instead of declaring a winner from provider size or study fee.
+- Canonical: `https://www.aetaxadvisors.com/compare/cssi-vs-ae-tax/`
 
 ### September 24, 2026 — Cost segregation calculator accuracy before ordering a study
 
