@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **27 of 100 accepted buyer-intent question targets**
+Campaign progress: **28 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Suspended passive losses after a rental sale
+
+- Query: “What happens to suspended passive losses when property is sold?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (the supplied organic-position export reports 50 monthly searches at position 11 for the exact natural-language query; current Google results include multiple exact-intent sale guides and a fresh competitor result centered on the three Section 469 disposition conditions; IRS Publication 925 directly addresses the same sale, installment, partial-disposition, gift, and death questions)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **98/100**
+- Decision: Materially improve the established suspended-loss sale canonical rather than publish a competing sale-year URL. The expansion adds a five-gate Section 469 release test, basis and at-risk sequencing, separate and grouped activity analysis, taxable-sale, 1031, and installment branches, three worked examples, gift, death, foreclosure, and personal-use treatment, an eight-step return workflow, documents, failure points, current primary sources, and exact return-review CTAs. It corrects categorical legacy claims about grouped-property releases, ordinary-income offsets, gifted losses, installment timing, foreclosures, and former-passive activity treatment while preserving every original topic.
+- Canonical: `https://www.aetaxadvisors.com/blog/what-happens-to-suspended-passive-losses-when-i-sell/`
 
 ### September 24, 2026 — Cost segregation before a planned three-year sale
 
