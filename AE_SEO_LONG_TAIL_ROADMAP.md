@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **61 of 100 accepted buyer-intent question targets**
+Campaign progress: **62 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Selling a cost-segregated real estate partnership interest
+
+- Query: “I’m selling an interest in a real estate partnership that had a cost-segregation study. Is the gain ordinary under Section 751, and what must the partnership report?”
+- Buyer and consultation intent: 30/30
+- Distinctness and canonical fit: 25/25
+- Evidence of real query language: 18/20 (authenticated Search Console recorded 277 impressions, one click, and average position 6.2 for queries containing “751” in its September 18–22 window; all landed on this established URL. The supplied organic-position export places “hot assets partnership” at position 6 with a 50-monthly-search signal and “what are hot assets in a partnership” at position 9 with a 40-volume signal. The longer cost-segregation sale question is a buyer-intent synthesis, not an exact measured query.)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10 (current professional results explain hot assets generally, but AE's page needed the cost-segregated real-estate interest sale, Form 8308, K-1, and post-filing coordination as one decision)
+- Total: **97/100**
+- Decision: Materially improve the existing Section 751 canonical; do not create a near-duplicate to the asset-sale Section 1245/1250 guide or the buyer-side Section 743(b) guide. The revised page directly answers the seller question, distinguishes an interest sale under Section 751(a) from a disproportionate distribution under Section 751(b), and replaces incorrect fixed-rate and automatic restructuring claims. It adds an $800,000 amount-realized/$400,000 gain illustration split among ordinary, unrecaptured Section 1250, and other capital gain; Form 8308 and K-1 reporting sequence; pre-closing documents, post-filing correction paths, failure points, current IRS sources, contextual links, matching visible and JSON-LD FAQs, and two problem-specific `/discovery/` buttons outside prose. This is an existing-URL improvement; the separate 200-new-URL ledger remains 3.
+- Canonical: `https://www.aetaxadvisors.com/the-business-owners-guide-to-section-751-hot-assets-and-ordinary-income-recharacterization/`
+- Publication verification: commit `ca513502` deployed. The live page returned HTTP 200 with an exact source match, self-canonical, new buyer-led H1, two direct booking CTAs, and one September 24 production sitemap entry. Content quality and sitemap parity passed at 1,296/1,296 with zero errors/warnings; broken internal links, invalid JSON-LD, date conflicts, and scaled-content warnings were zero. Focused visible/FAQ schema parity, breadcrumb, metadata, and Article-date checks passed. IndexNow accepted the changed URL (HTTP 200). Authenticated Search Console says the established URL is indexed and the September 24 updated live page is available to Google, can be indexed, and has valid breadcrumb/review-snippet items. The current submitted sitemap shows Success with 1,296 discovered pages; a manual recrawl and confirmatory resubmission await action-time approval. No public Google Indexing API was used.
 
 ### September 24, 2026 — Partnership-interest purchase and buyer-specific cost segregation
 
