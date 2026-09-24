@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **53 of 100 accepted buyer-intent question targets**
+Campaign progress: **54 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Filed return after an S-corporation distribution above stock basis
+
+- Query: “I already filed after taking an S-corp distribution above stock basis. Do I amend my 1040, the 1120-S, or both?”
+- Buyer and consultation intent: 29/30
+- Distinctness and canonical fit: 24/25
+- Evidence of real query language: 18/20 (the September 23 Search Console export records four impressions each for “s corp distributions in excess of basis” and “distributions in excess of basis s corp”; the supplied organic-position export shows related distribution-versus-loss ordering searches with a 40-volume signal; a current TurboTax correction result addresses an already-filed excess-basis distribution)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **95/100**
+- Decision: Refocus and materially improve the existing thin `/blog/business-s-corp-distribution-basis/` canonical instead of creating a duplicate cash-distribution URL. The established general S-corporation distribution guide continues to own the broad rule; the corrected-K-1 guide owns receipt of an amended schedule. This canonical now diagnoses a filed-return error, separates shareholder-only Form 7203/1040-X corrections from corporation-side 1120-S and amended-K-1 corrections, distinguishes debt basis from stock basis, addresses accumulated C-corporation E&P, and adds two worked variants, a correction-path table, document packet, failure points, current IRS citations, contextual links, and exact return-review CTAs. The general guide now links to it and corrects a contradictory stock-basis statement.
+- Canonical: `https://www.aetaxadvisors.com/blog/business-s-corp-distribution-basis/`
+- Supporting refreshed canonical: `https://www.aetaxadvisors.com/blog/how-do-s-corp-distributions-work-and-are-they-taxed/`
 
 ### September 24, 2026 — Section 1245 versus 1250 on sale of 15-year parking assets
 
