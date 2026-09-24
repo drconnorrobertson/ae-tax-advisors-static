@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **23 of 100 accepted buyer-intent question targets**
+Campaign progress: **24 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Doing your own cost segregation study
+
+- Query: “Can I do my own cost segregation study?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (the supplied organic-position export reports 170 monthly searches at position 16 and $11.93 CPC for “DIY cost segregation study”; the current Search Console window shows one impression at average position 43 for that exact phrase; and current Google results include several exact-question competitor pages)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **99/100**
+- Decision: Materially improve AE’s established DIY-versus-professional canonical rather than create another DIY cost-segregation URL. The expansion leads with the direct legal and practical answer; converts the IRS Audit Techniques Guide’s 13 quality elements into a workpaper checklist; distinguishes new-construction actual-cost work from acquired-property cost reconstruction; adds a provider-scope matrix, break-even example, document list, common return failures, current primary sources, and exact return-review CTAs. It removes unsupported universal reclassification percentages and a rigid $500,000 threshold, corrects claims that every remote or modeled approach is automatically invalid, narrows Form 3115 procedure language, and preserves the original comparison, provider-evaluation, and FAQ topics.
+- Canonical: `https://www.aetaxadvisors.com/compare/diy-cost-segregation-vs-ae-tax/`
 
 ### September 24, 2026 — Self-rental reporting on Schedule E
 
