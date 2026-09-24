@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **12 of 100 accepted buyer-intent question targets**
+Campaign progress: **13 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Completing Form 3115 for missed depreciation
+
+- Query: “How to fill out Form 3115 for missed depreciation”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (5 exact-query impressions at average position 8.6 in the current four-day Search Console window; the supplied organic-position export reports 70 monthly searches at position 29; and current Google results include multiple exact-question guides)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **99/100**
+- Decision: Materially improve the established Form 3115 cost-segregation canonical instead of publishing another catch-up guide. The expansion adds a direct completion answer, correction-procedure decision matrix, Parts I-IV and Schedule E filing map, current automatic-change and DCN cautions, Section 481(a) workpaper requirements, duplicate-copy procedure, document packet, primary IRS sources, accuracy corrections to legacy filing language, and direct return-review CTAs.
+- Canonical: `https://www.aetaxadvisors.com/form-3115-cost-segregation/`
 
 ### September 24, 2026 — Cost segregation on residential rental property
 
