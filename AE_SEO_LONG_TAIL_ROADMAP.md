@@ -106,7 +106,7 @@ Indexing follow-up as of September 24: the current `/sitemap.xml` has been resub
 - Query: “I paid my S-corporation health insurance premiums personally. What must be done by year-end and on my W-2 to claim the deduction?”
 - Buyer and consultation intent: 29/30
 - Distinctness and canonical fit: 25/25
-- Evidence of real query language: 20/20 (authenticated Search Console shows 3 impressions for “s corp health insurance premiums taxable wages deductible eoy” and 169 impressions across 60 health-insurance queries in its September 18–22 window, of which 147 impressions landed on this canonical URL; the supplied organic-position export places the year-end wage/deduction phrase at position 10 with a 110-monthly-search signal. The full buyer question is a natural-language synthesis, not a claimed exact query.)
+- Evidence of real query language: 20/20 (authenticated Search Console shows 3 impressions for “s corp health insurance premiums taxable wages deductible eoy” and 169 impressions across 60 health-insurance queries in its September 18–22 window, of which 147 impressions landed on this canonical URL; the supplied organic-position export places the year-end wage/deduction phrase at position 12 with a 110-monthly-search signal. The full buyer question is a natural-language synthesis, not a claimed exact query.)
 - Fit with AE paid services: 15/15
 - AE authority and competitive gap: 7/10 (AE already owns the canonical and has source-backed payroll expertise, but several competitors cover general S-corporation owner health insurance.)
 - Total: **96/100**
