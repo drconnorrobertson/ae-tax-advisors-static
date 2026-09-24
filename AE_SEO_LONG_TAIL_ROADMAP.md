@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **7 of 100 accepted buyer-intent question targets**
+Campaign progress: **8 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Cost segregation study pricing and proposal scope
+
+- Query: “How much does a cost segregation study cost?”
+- Buyer and consultation intent: 30/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (30 current Search Console impressions at average position 12.7, a 390-volume organic-position signal at position 36 with $6.55 CPC, and a crowded exact-match competitor result set)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 8/10
+- Total: **98/100**
+- Decision: Materially improve the established pricing canonical instead of publishing a competing cost synonym URL. The update replaces a single-price answer with current market delivery tiers; separates an estimate, a tax-classification report, Form 3115 work, return implementation, and audit support; adds a bid-comparison matrix, two worked quote decisions, a five-gate break-even model, documents to gather, failure points, and a pricing-specific return-review CTA. Tax-quality criteria are tied to the IRS Cost Segregation Audit Techniques Guide rather than to price alone.
+- Canonical: `https://www.aetaxadvisors.com/blog/how-much-does-a-cost-segregation-study-cost/`
 
 ### September 24, 2026 — Cost segregation against capital gains
 
