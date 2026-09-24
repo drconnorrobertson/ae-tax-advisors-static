@@ -92,3 +92,16 @@ A page is publishable only when all are true:
 10. If the page does not meet the gate, improve an existing URL or keep the draft out of the index.
 
 This is where scaled-content risk comes into play: automation is acceptable as production support, but mass publication of interchangeable pages created mainly to capture query variations is not. AE's safe path to 2,000 pages is 2,000 defensible search intents and fact patterns, accumulated in controlled batches with consolidation whenever two pages answer the same task.
+
+## Buyer-intent run log
+
+### September 23, 2026 — Form 3115 in the year of a rental sale
+
+- Query: “Can I file Form 3115 in the year I sell a rental property?”
+- Buyer and consultation intent: 29/30
+- Distinctness from existing AE URLs: 23/25
+- Evidence of real query language: 20/20
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **96/100**
+- Decision: Publish. The existing missed-depreciation guide explains the general correction, but no AE URL owned the disposed-property eligibility, allowed-or-allowable basis risk, sale-return coordination, and filing deadline as one search task.
