@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **24 of 100 accepted buyer-intent question targets**
+Campaign progress: **25 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Starting the 45-day and 180-day 1031 clocks
+
+- Query: “When do the 45-day and 180-day 1031 exchange deadlines start?”
+- Buyer and consultation intent: 29/30
+- Canonical fit and distinctness: 25/25
+- Evidence of real query language: 20/20 (the current Search Console window shows 53 impressions at average position 19.1 for the timeline cluster, including 34 exact “1031 exchange timeline” impressions; the supplied organic-position export reports 1,900 monthly searches at position 14 for that term plus multiple related deadline variants; and current Google results contain exact timeline guides and calculators)
+- Fit with AE paid services: 14/15
+- Authority and competitive gap: 10/10
+- Total: **98/100**
+- Decision: Materially improve the established 1031 timeline canonical rather than publish another timing page. The expansion answers when both clocks begin; adds a dated Day 45, Day 180, and return-due-date example; explains calendar arithmetic, multiple relinquished properties, permitted identification recipients, proof of receipt, early acquisition, revocation, and the three-property, 200%, and 95% tests; adds a pre-closing decision tree, document file, primary IRS sources, and exact return-review CTAs. It corrects absolute no-extension language for targeted disaster relief, replaces the oversimplified equal-debt shortcut, narrows the depreciation-recapture answer, distinguishes the exchanger's return deadline from an owner's personal deadline, and links reverse and improvement exchanges to their dedicated canonicals.
+- Canonical: `https://www.aetaxadvisors.com/blog/1031-exchange-timeline-45-180-day-rules/`
 
 ### September 24, 2026 — Doing your own cost segregation study
 
