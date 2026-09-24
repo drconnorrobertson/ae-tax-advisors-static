@@ -95,11 +95,24 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **59 of 100 accepted buyer-intent question targets**
+Campaign progress: **60 of 100 accepted buyer-intent question targets**
 
 Separate September 24 owner milestone: **3 of 200 genuinely new, full-length, question-led URLs published**. Existing-canonical improvements and consolidations, including target 41, do not count toward this new-URL ledger.
 
 Indexing follow-up as of September 24: the current `/sitemap.xml` has been resubmitted in authenticated Search Console and shows Success with 1,296 discovered pages. Manual URL recrawl requests are separate; the earlier QIP, S-corporation property-distribution, inherited-rental basis, and rental-casualty requests hit Google's daily quota.
+
+### September 24, 2026 — Sold a rental after missing depreciation
+
+- Query: “I sold my rental property and never claimed depreciation. What do I need to fix before filing the sale return?”
+- Buyer and consultation intent: 30/30
+- Distinctness and canonical fit: 24/25
+- Evidence of real query language: 15/20 (authenticated Search Console shows zero impressions for the exact “never claimed depreciation” wording in its September 18–22 window, and the supplied organic-position export does not supply an exact term; current Google results include a competing answer to the sold-rental/missed-depreciation question, while IRS Publication 946 expressly addresses its allowed-or-allowable basis problem. This is a credible pre-filing buyer fact pattern, not a claimed measured-volume winner.)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **93/100**
+- Decision: Materially improve `/blog/rental-property-sale-depreciation-allowed/`, not publish a synonym or compete with the dedicated `/form-3115-year-of-sale-rental-property/` procedure guide. The established page had repeated the basis rule without showing what to do after closing. It now answers the sale-return question; reconstructs the asset and year-by-year depreciation history; distinguishes one-year, repeated-method, current-sale-year, and already-filed-return cases; provides a $500,000 basis/$60,000 missed-depreciation/$650,000 proceeds worksheet; separates Section 1245 from unrecaptured Section 1250 character; adds the document packet, failure points, current IRS citations, contextual links, and exact top/bottom `/discovery/` booking CTAs. No new URL was added; the separate 200-new-URL count remains 3.
+- Canonical: `https://www.aetaxadvisors.com/blog/rental-property-sale-depreciation-allowed/`
+- Publication verification: commit `6c906833` deployed. Production served an exact source match with HTTP 200, self-canonical, two direct booking CTAs, current Article and Breadcrumb JSON-LD, and the September 24 sitemap lastmod. Full content-quality and sitemap parity passed at 1,296/1,296, with zero broken internal links, invalid JSON-LD blocks, date conflicts, or scaled-content warnings. IndexNow accepted the changed canonical (HTTP 200). Authenticated Search Console says the established URL is indexed; its September 24 live test says the updated page is available to Google and can be indexed, with one valid breadcrumb item. Manual recrawl and confirmatory sitemap resubmission await action-time owner approval; no public Google Indexing API was used.
 
 ### September 24, 2026 — S-corporation owner distributions before payroll
 
