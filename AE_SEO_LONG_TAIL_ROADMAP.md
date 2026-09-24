@@ -95,7 +95,19 @@ This is where scaled-content risk comes into play: automation is acceptable as p
 
 ## Buyer-intent run log
 
-Campaign progress: **2 of 100 accepted buyer-intent question targets**
+Campaign progress: **3 of 100 accepted buyer-intent question targets**
+
+### September 24, 2026 — Travel expenses when buying rental property
+
+- Query: “Can I deduct travel expenses related to purchasing real estate?”
+- Buyer and consultation intent: 29/30
+- Distinctness from existing AE URLs: 24/25
+- Evidence of real query language: 20/20 (9 current Search Console impressions for the exact natural-language query, plus an exact-match competing result)
+- Fit with AE paid services: 15/15
+- Authority and competitive gap: 9/10
+- Total: **97/100**
+- Decision: Publish a distinct acquisition-stage guide. AE's established travel article addresses managing property already owned and contained only a brief acquisition paragraph; the new canonical separates personal, startup, preliminary-investigation, transaction-facilitation, capitalization, abandoned-deal, and mixed-purpose facts without duplicating the management intent.
+- Canonical: `https://www.aetaxadvisors.com/blog/can-i-deduct-travel-expenses-when-buying-rental-property/`
 
 ### September 24, 2026 — Cost segregation study fee capitalization
 

@@ -18,7 +18,7 @@ from datetime import datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from site_chrome import HEADER, FOOTER  # noqa: E402
 
-SITE = "https://aetaxadvisors.com"
+SITE = "https://www.aetaxadvisors.com"
 BOOKING = "https://api.leadconnectorhq.com/widget/booking/5bPhybfzi6mKUTgn5GMg"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -124,7 +124,7 @@ PROFESSIONAL_SERVICE_LD = {
         "bestRating": "5",
         "worstRating": "1",
     },
-    "priceRange": "$$$",
+    "priceRange": "Contact for pricing",
     "openingHours": "Mo-Fr 09:00-17:00",
 }
 
