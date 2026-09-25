@@ -108,19 +108,6 @@ def main() -> int:
         indexable.add(url)
         label = path.relative_to(ROOT).as_posix()
 
-        # A styled booking button inside a sentence splits the copy visually and
-        # can render as an oversized inline box. Keep buttons in their own block.
-        main_markup = re.search(r'<main\b[^>]*>(.*?)</main>', text, re.I | re.S)
-        body_markup = main_markup.group(1) if main_markup else text
-        for paragraph in PARAGRAPH.finditer(body_markup):
-            if not BUTTON_LINK.search(paragraph.group(1)):
-                continue
-            surrounding = BUTTON_LINK.sub('', paragraph.group(1))
-            surrounding = html.unescape(re.sub(r'<[^>]+>', ' ', surrounding)).strip()
-            if surrounding:
-                errors.append(f'{label}: button CTA embedded in paragraph text')
-                break
-
         if '$$' in text:
             errors.append(f'{label}: doubled currency symbol')
         tm = TITLE.search(text)
@@ -142,6 +129,27 @@ def main() -> int:
         if count < 250 and not url.startswith(('/discovery/', '/contact/')):
             warnings.append(f'{label}: thin indexable page ({count} words)')
 
+    # Standalone .html articles are also published, even though sitemap parity
+    # above uses directory index.html pages. Check every HTML document so a
+    # booking button cannot split prose on either route format.
+    html_pages_checked = 0
+    for path in sorted(ROOT.rglob('*.html')):
+        if '.git' in path.parts:
+            continue
+        html_pages_checked += 1
+        text = path.read_text(encoding='utf-8', errors='replace')
+        main_markup = re.search(r'<main\b[^>]*>(.*?)</main>', text, re.I | re.S)
+        body_markup = main_markup.group(1) if main_markup else text
+        for paragraph in PARAGRAPH.finditer(body_markup):
+            if not BUTTON_LINK.search(paragraph.group(1)):
+                continue
+            surrounding = BUTTON_LINK.sub('', paragraph.group(1))
+            surrounding = html.unescape(re.sub(r'<[^>]+>', ' ', surrounding)).strip()
+            if surrounding:
+                label = path.relative_to(ROOT).as_posix()
+                errors.append(f'{label}: button CTA embedded in paragraph text')
+                break
+
     for title, paths in titles.items():
         if len(paths) > 1:
             errors.append(f'duplicate indexable title: {title} :: {", ".join(paths)}')
@@ -161,6 +169,7 @@ def main() -> int:
 
     print(f'canonical indexable pages: {len(indexable)}')
     print(f'sitemap URLs:              {len(sitemap)}')
+    print(f'HTML pages CTA-scanned:    {html_pages_checked}')
     print(f'errors:                    {len(errors)}')
     for item in errors[:40]:
         print(f'  ERROR {item}')
