@@ -774,6 +774,9 @@ section h2 {
     letter-spacing: -0.02em;
 }
 .page-header p { opacity: 0.9; font-size: 18px; max-width: 700px; margin: 0 auto; }
+.page-header .compact-booking-cta { color: #1f2937; }
+.page-header .compact-booking-cta p { opacity: 1; }
+.page-header .compact-booking-cta a:not(.btn-cta) { color: #244a7b; }
 .page-header-icon { font-size: 48px; margin-bottom: 16px; }
 
 /* ===== CONTENT ===== */

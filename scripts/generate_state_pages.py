@@ -264,10 +264,8 @@ def build_page(st, header, footer):
     <section class="content-section fade-in-section"><div class="container narrow">
         <div style="background: var(--light-bg); padding: 40px; border-radius: 12px; text-align: center;">
             <h2 style="font-family: var(--font-heading); font-size: 26px; margin-bottom: 8px; color: var(--primary);">Book a %(name)s Tax Strategy Call</h2>
-            <p style="color: #666; margin-bottom: 28px; font-size: 15px;">Pick a time below. We will walk through your %(name)s property or business, model the federal and %(name)s outcome side by side, and tell you plainly whether a study is worth running.</p>
-            <div id="ghl-calendar" style="min-height: 600px; border-radius: 8px; overflow: visible; -webkit-overflow-scrolling: touch;">
-                <iframe class="ghl-calendar-iframe" src="%(booking)s" style="width: 100%%; height: 700px; border: none; border-radius: 8px;" frameborder="0" scrolling="yes" title="Book a %(name)s tax strategy call with AE Tax Advisors"></iframe>
-            </div>
+            <p style="color: #666; margin-bottom: 28px; font-size: 15px;">Choose a time on our booking page. We will walk through your %(name)s property or business, model the federal and %(name)s outcome side by side, and tell you plainly whether a study is worth running.</p>
+            <a class="btn-cta" href="/discovery/">Choose a Time to Talk With AE Tax</a>
         </div>
     </div></section>
 
@@ -454,9 +452,7 @@ def build_index(states, header, footer):
         <div style="background: var(--light-bg); padding: 40px; border-radius: 12px; text-align: center;">
             <h2 style="font-family: var(--font-heading); font-size: 26px; margin-bottom: 8px; color: var(--primary);">Not Seeing Your State?</h2>
             <p style="color: #666; margin-bottom: 28px; font-size: 15px;">We work with clients in all fifty states. Book a call and we will walk through your state's rules and your specific situation together.</p>
-            <div id="ghl-calendar" style="min-height: 600px; border-radius: 8px; overflow: visible; -webkit-overflow-scrolling: touch;">
-                <iframe class="ghl-calendar-iframe" src="%(booking)s" style="width: 100%%; height: 700px; border: none; border-radius: 8px;" frameborder="0" scrolling="yes" title="Book a tax strategy call with AE Tax Advisors"></iframe>
-            </div>
+            <a class="btn-cta" href="/discovery/">Choose a Time to Talk With AE Tax</a>
         </div>
     </div></section>
     </main>

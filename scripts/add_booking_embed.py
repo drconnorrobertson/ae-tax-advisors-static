@@ -1,8 +1,6 @@
-"""Add the booking calendar embed to blog articles that lack it.
+"""Add a compact booking link to blog articles that lack a call to action.
 
-Two cases. Articles that already close with a CTA box get the iframe appended
-below the existing button, keeping both conversion paths. Articles that end in
-plain prose with no CTA at all get a full CTA block built around the calendar.
+The booking calendar belongs on the discovery page. Articles link there.
 """
 
 import os
@@ -10,26 +8,19 @@ import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BLOG = os.path.join(ROOT, "blog")
-BOOKING = "https://api.leadconnectorhq.com/widget/booking/FggCeBoxIuOuZZrTaVV1"
+BOOKING_LINK = '<a class="btn-cta" href="/discovery/">Choose a Time to Talk With AE Tax</a>'
 
 CTA_MARKER = "background: #f0f4ff; border-left: 4px solid #2563eb"
 
 EMBED = (
-    '\n            <iframe src="%s" allow="payment" '
-    'style="width:100%%;border:none;overflow:hidden;min-height:700px;'
-    'border-radius:8px;background:#fff;" scrolling="no" '
-    'title="Book a tax strategy call with AE Tax Advisors"></iframe>\n'
-    '            <p style="margin-top:18px;margin-bottom:0;font-size:15px;">'
-    'Prefer to talk first? Call <a href="tel:+16316145762">(631) 614-5762</a> '
-    'or email <a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a>'
-    '.</p>\n        ' % BOOKING
+    '\n            ' + BOOKING_LINK + '\n'
 )
 
 
 CTA_BLOCK = (
     '        <hr style="margin: 48px 0; border: none; '
     'border-top: 1px solid #e5e7eb;">\n\n'
-    '        <div style="background: #f0f4ff; border-left: 4px solid #2563eb; '
+    '        <div class="compact-booking-cta" style="color:#1f2937;background: #f0f4ff; border-left: 4px solid #2563eb; '
     'padding: 24px 28px; border-radius: 8px; margin-top: 32px;">\n'
     '            <h3 style="margin-top: 0; color: #1e3a8a;">'
     'Find Out What This Is Worth in Your Situation</h3>\n'
@@ -43,7 +34,7 @@ CLOSE = "    </div></section>"
 
 
 def process(src):
-    if BOOKING in src:
+    if BOOKING_LINK in src or 'api.leadconnectorhq.com/widget/booking/' in src:
         return src, False
 
     if CTA_MARKER in src:
