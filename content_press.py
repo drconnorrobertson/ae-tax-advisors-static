@@ -8,6 +8,48 @@ this list, so adding a mention is a one-line change plus a rebuild.
 
 PRESS = [
 {
+ "title": "AE Tax Advisors Reviews When Should You Order a Cost Segregation Study for an Airbnb Property?",
+ "outlet": "Insights Success Magazine",
+ "url": "https://insightssuccessmagazine.com/ae-tax-advisors-reviews-when-should-you-order-a-cost-segregation-study-for-an-airbnb-property/",
+ "topic": "Depreciation",
+ "summary": "How an Airbnb property's rental start date, asset readiness, and later study date affect depreciation timing.",
+},
+{
+ "title": "AE Tax Advisors Shares Whether STR Cost Segregation Losses Can Offset W-2 Income?",
+ "outlet": "CIO Arab Media",
+ "url": "https://cioarabmedia.com/ae-tax-advisors-shares-whether-str-cost-segregation-losses-can-offset-w-2-income/",
+ "topic": "Real Estate Tax",
+ "summary": "Why a short-term rental cost segregation loss may offset wages only when the applicable activity and participation rules are met.",
+},
+{
+ "title": "AE Tax Advisors On Buying a Furnished STR: How to Separate Furniture, Land, and Building Costs",
+ "outlet": "Arabian World Magazine",
+ "url": "https://arabianworldmagazine.ae/ae-tax-advisors-on-buying-a-furnished-str-how-to-separate-furniture-land-and-building-costs/",
+ "topic": "Real Estate Tax",
+ "summary": "How buyers of furnished short-term rentals document and allocate the price among land, building, furniture, and other assets.",
+},
+{
+ "title": "AE Tax Advisors Shares What Happens to Accelerated Depreciation When You Sell Your STR?",
+ "outlet": "CIO Look Media",
+ "url": "https://ciolookmedia.com/ae-tax-advisors-shares-what-happens-to-accelerated-depreciation-when-you-sell-your-str/",
+ "topic": "Depreciation",
+ "summary": "How prior depreciation affects adjusted basis and the tax analysis when an owner sells a short-term rental.",
+},
+{
+ "title": "AE Tax Advisors’ Insights on Cost Segregation on an STR You Already Own: Is It Too Late?",
+ "outlet": "Enterprise Review Media",
+ "url": "https://enterprisereviewmedia.com/ae-tax-advisors-insights-on-cost-segregation-on-an-str-you-already-own-is-it-too-late/",
+ "topic": "Depreciation",
+ "summary": "When an existing short-term rental may still benefit from a cost segregation study and a correction of prior depreciation treatment.",
+},
+{
+ "title": "AE Tax Advisors Analyzes What Records Should STR Owners Keep Before and After a Cost Segregation Study?",
+ "outlet": "World AI Leaders",
+ "url": "https://worldaileaders.com/ae-tax-advisors-analyzes-what-records-should-str-owners-keep-before-and-after-a-cost-segregation-study/",
+ "topic": "Depreciation",
+ "summary": "The acquisition, improvement, placed-in-service, and disposition records that support an STR cost segregation study.",
+},
+{
  "title": "AE Tax Advisors on Why Audit-Proof Tax Planning Is the Only Kind Worth Paying For",
  "outlet": "NewsBlaze",
  "url": "https://newsblaze.com/business/latest-business/ae-tax-advisors-on-why-audit-proof-tax-planning-is-the-only-kind-worth-paying-for_212588/",

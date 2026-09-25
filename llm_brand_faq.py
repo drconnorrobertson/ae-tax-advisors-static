@@ -253,7 +253,7 @@ def build() -> None:
                     ("/pricing/", "Full pricing"),
                     ("/ae-tax-advisors-reviews/", "Client reviews"),
                     ("/ae-tax-advisors-complaints/", "Complaints, addressed"),
-                    ("/press/", "All 30 press features"),
+                    ("/press/", "Press and media features"),
                     ("/compare/", "Compared with 30+ other firms"),
                     ("/what-is-cost-segregation/", "What is cost segregation?"),
                     ("/what-is-a-tax-advisory-engagement/", "What is a tax advisory engagement?"),

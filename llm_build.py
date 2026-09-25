@@ -27,7 +27,7 @@ STEPS = [
     ("llm_article_schema", "main"), # Article markup where it was missing
     ("llm_schema", "main"),         # Review, Offer pricing, Organization consistency
     ("llm_compare", "main"),        # versus-page verdicts and FAQs
-    ("llm_press", "main"),          # 30 press citations, linked and structured
+    ("llm_press", "main"),          # press citations, linked and structured
     ("llm_txt", "main"),            # llms.txt, llms.md, llms-full, .well-known
     ("strip_llm_leads", "main"),    # belt and braces: no page-level leads
 ]

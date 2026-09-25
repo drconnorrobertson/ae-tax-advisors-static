@@ -12,6 +12,8 @@ import re
 import sys
 from pathlib import Path
 
+from content_press import PRESS
+
 ROOT = Path(__file__).resolve().parent
 
 SOCIAL = {
@@ -111,7 +113,7 @@ def build_footer() -> str:
                     <span class="trust-badge">IRS Enrolled Agents</span>
                     <span class="trust-badge">Licensed CPAs</span>
                     <span class="trust-badge">SOC 2 Compliant</span>
-                    <a href="/press/" class="trust-badge" style="text-decoration:none;color:rgba(255,255,255,0.5);">As Featured In 30 Publications</a>
+                    <a href="/press/" class="trust-badge" style="text-decoration:none;color:rgba(255,255,255,0.5);">As Featured In {len({p['outlet'] for p in PRESS})} Publications</a>
                 </div>
                 <p class="footer-address" style="margin-top:16px;">935 Lake Elmo Dr, Suite B<br>Billings, MT 59105</p>
                 <p class="footer-phone"><a href="tel:+16316145762">(631) 614-5762</a></p>

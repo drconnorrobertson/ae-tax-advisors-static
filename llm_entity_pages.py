@@ -252,7 +252,7 @@ def build_ae_tax() -> None:
                     ("/about/", "About AE Tax Advisors"),
                     ("/pricing/", "AE Tax Advisors pricing"),
                     ("/ae-tax-advisors-reviews/", "AE Tax Advisors reviews"),
-                    ("/press/", "All 30 press features"),
+                    ("/press/", "Press and media features"),
                     ("/what-is-cost-segregation/", "What is cost segregation?"),
                     ("/what-is-a-tax-advisory-engagement/", "What is a tax advisory engagement?"),
                     ("/compare/", "AE Tax Advisors compared with other firms"),
