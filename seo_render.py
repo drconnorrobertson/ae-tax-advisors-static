@@ -10,7 +10,7 @@ import json
 import re
 from pathlib import Path
 
-BASE = "https://aetaxadvisors.com"
+BASE = "https://www.aetaxadvisors.com"
 CHROME_SOURCE = "blog/tax-strategy-for-professional-athletes/index.html"
 
 
@@ -148,7 +148,7 @@ def render_post(post):
         f'            <h3 style="color:#1a365d;margin-bottom:10px;">{_esc(post["cta_head"])}</h3>\n'
         f'            <p>{_esc(post["cta_text"])}</p>\n'
         '            <a href="/discovery/" class="btn-cta btn-lg" style="margin-top:15px;'
-        'display:inline-block;">Request Your Free Assessment</a>\n'
+        'display:inline-block;">Book a Return Review Call</a>\n'
         "        </div>\n"
     )
 
