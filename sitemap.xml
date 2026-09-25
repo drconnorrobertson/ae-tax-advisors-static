@@ -782,7 +782,7 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/blog/business-s-corp-distribution-basis/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2883,6 +2883,12 @@
   <url>
     <loc>https://www.aetaxadvisors.com/blog/s-corp-to-c-corp-conversion-when-it-makes-sense/</loc>
     <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/s-corp-unequal-shareholder-distributions-election/</loc>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
