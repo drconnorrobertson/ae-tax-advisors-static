@@ -16,6 +16,11 @@ Completion audit: the preserved 67-target historical run-log baseline is followe
 
 ## Buyer-intent acceptance score and publication log
 
+### September 25, 2026 — Cannibalization skip: remaining rental mortgage points at sale
+
+- Candidate: “I am selling a rental building and paying off the loan early. Can I deduct the remaining points?” A materially invested owner with an impending sale, payoff, and return-signing decision could plausibly commission an AE payoff and return review. [IRS Publication 527](https://www.irs.gov/publications/p527) directly addresses points when a loan or mortgage ends. The supplied organic-position export has no matching loan-origination, unamortized-points, or rental-loan row; no exact search volume is claimed.
+- Canonical check: `/blog/rental-property-mortgage-points/` already directly answers this exact sale/payoff question, distinguishes same-lender refinancing, contains a numerical example, records, failure points, IRS source, and two standalone booking CTAs. The older `/blog/rental-property-loan-origination-fees/` is thinner but not a reason to publish a synonym or redirect the sale intent. No page or URL was published this cycle; **13/200** remains unchanged. Revisit the broader non-point financing-fee guide only with a distinct, fully sourced owner decision.
+
 ### September 25, 2026 — Deferred research: customer prepayments assumed in an asset sale
 
 - Candidate question: “My buyer is taking over prepaid customer contracts. How does the deferred revenue affect my business-sale tax return?” A profitable subscription or service-business owner negotiating a material asset sale could authorize AE to reconcile the contract-liability schedule, purchase agreement, Form 8594, and final entity and owner returns. This is potentially premium-fit and distinct from the existing customer-deposit timing and assumed-debt guides, but no new URL was published this cycle.
