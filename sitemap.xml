@@ -601,12 +601,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.aetaxadvisors.com/blog/landlord-tenant-buyout-payment-tax-deduction/</loc>
-    <lastmod>2026-09-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.aetaxadvisors.com/blog/business-contractor-reimbursement-tax/</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -907,6 +901,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.aetaxadvisors.com/blog/can-buyer-use-sellers-cost-segregation-study/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.aetaxadvisors.com/blog/can-i-amend-my-tax-return-to-claim-missed-deductions/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -963,12 +963,6 @@
   <url>
     <loc>https://www.aetaxadvisors.com/blog/can-i-do-a-1031-exchange-on-a-short-term-rental/</loc>
     <lastmod>2026-09-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/can-buyer-use-sellers-cost-segregation-study/</loc>
-    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1765,6 +1759,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.aetaxadvisors.com/blog/gift-rental-suspended-passive-losses/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.aetaxadvisors.com/blog/grouping-elections-real-estate-irc-469/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -2121,6 +2121,12 @@
   <url>
     <loc>https://www.aetaxadvisors.com/blog/landlord-guide-depreciation-27-5-vs-39-year/</loc>
     <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/landlord-tenant-buyout-payment-tax-deduction/</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2563,12 +2569,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.aetaxadvisors.com/blog/gift-rental-suspended-passive-losses/</loc>
-    <lastmod>2026-09-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.aetaxadvisors.com/blog/rental-property-guest-damage-fees/</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -2829,6 +2829,12 @@
   <url>
     <loc>https://www.aetaxadvisors.com/blog/s-corp-salary-qbi-wage-limit-tradeoff/</loc>
     <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/s-corp-shareholder-buyout-company-cash/</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
