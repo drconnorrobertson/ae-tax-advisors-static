@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import html as _html
+import json
 import re
 import sys
 from pathlib import Path
@@ -32,7 +33,7 @@ SECTIONS: list[tuple[str, object]] = [
         "/retirement-exit-ma-tax-strategy/", "/individual-tax-planning-high-earners/",
         "/estate-trust-wealth-transfer/", "/tax-compliance-irs-representation/",
         "/multi-state-global-tax/", "/equipment-leasing-section-179/",
-        "/deferred-equity-compensation/",
+        "/services/reasonable-compensation/",
         "/advanced-tax-planning-services/", "/audit-defense-compliance/"}),
     ("Cost Segregation by Property Type",
      lambda u: u.startswith("/cost-segregation-for-")),
@@ -66,11 +67,18 @@ STATE_URLS = {f"/{s}/" for s in STATES}
 def indexable_pages() -> list[tuple[str, str]]:
     """(url, label) for every canonical, indexable page."""
     out = []
+    redirects = {
+        rule["source"] for rule in json.loads((ROOT / "vercel.json").read_text())["redirects"]
+        if rule.get("statusCode") in (301, 308)
+        and ":" not in rule.get("source", "")
+    }
     for p in sorted(ROOT.rglob("index.html")):
         if ".git" in p.parts:
             continue
         d = str(p.parent.relative_to(ROOT)).replace("\\", "/")
         url = "/" if d == "." else f"/{d}/"
+        if url in redirects:
+            continue
         html = p.read_text(encoding="utf-8", errors="replace")
         if NOINDEX_RE.search(html):
             continue

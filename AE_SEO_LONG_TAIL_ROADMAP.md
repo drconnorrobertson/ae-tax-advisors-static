@@ -2,6 +2,8 @@
 
 Updated September 25, 2026 from the supplied organic-position export and current Search Console evidence. This is a working editorial roadmap, not a promise of rankings or traffic.
 
+**Audience direction (September 25):** Lead with profitable business owners, practice owners, and materially invested real estate owners. Do not create or promote W-2-only employee or executive tax pages. Short-term rental tax content remains in scope, including questions about a property owner's W-2 income when that fact is necessary to explain the rental activity. Existing employee-focused landing pages were redirected to relevant owner or STR guides; future batches should not reintroduce them.
+
 ## Current campaign standing and premium-buyer gate
 
 **100/100 accepted buyer-intent questions; 33/200 additional new URLs.** A question earns a campaign count only after the correct canonical has substantive, source-backed content, direct booking CTAs, technical validation, a verified live deployment, and an indexing submission or the documented Search Console quota-limited fallback. One canonical may answer several distinct questions, but wording variants are not separate targets. Acceptance means indexable and submitted for discovery, **not** a guarantee that Google has indexed or ranked the URL.

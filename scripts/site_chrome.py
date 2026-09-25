@@ -29,7 +29,7 @@ HEADER = """<body>
 <a href="/cost-segregation-study/" class="dropdown-item">Cost Segregation Study</a>
 <a href="/real-estate-investor-cpa/" class="dropdown-item">CPA for Real Estate Investors</a>
 <a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax Services</a>
-<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity Compensation</a>
+<a href="/services/reasonable-compensation/" class="dropdown-item">S-Corp Owner Pay</a>
 <a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement &amp; Exit / M&amp;A Tax Strategy</a>
 <a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax Planning</a>
 <a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer Planning</a>
@@ -95,7 +95,7 @@ FOOTER = """    </main>
                 <h4>Services</h4>
                 <a href="/individual-tax-planning-high-earners/">Individual Tax Planning</a>
                 <a href="/business-owner-small-business-tax/">Business Tax Services</a>
-                <a href="/deferred-equity-compensation/">Equity Compensation</a>
+                <a href="/services/reasonable-compensation/">S-Corp Owner Pay</a>
                 <a href="/multi-state-global-tax/">Multi-State &amp; Global Tax</a>
                 <a href="/estate-trust-wealth-transfer/">Estate &amp; Wealth Transfer</a>
                 <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>

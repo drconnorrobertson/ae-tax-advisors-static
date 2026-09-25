@@ -725,7 +725,7 @@ def get_base_html(title, content, canonical_path="/", page_type="page", descript
                 <h4>Services</h4>
                 <a href="/individual-tax-planning-high-earners/">Individual Tax Planning</a>
                 <a href="/business-owner-small-business-tax/">Business Tax Services</a>
-                <a href="/deferred-equity-compensation/">Equity Compensation</a>
+                <a href="/services/reasonable-compensation/">S-Corp Owner Pay</a>
                 <a href="/multi-state-global-tax/">Multi-State &amp; Global Tax</a>
                 <a href="/estate-trust-wealth-transfer/">Estate, Trust &amp; Wealth Transfer Planning</a>
                 <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
@@ -830,9 +830,9 @@ def generate_homepage():
                     <h3>Business Tax Services</h3>
                     <p>Entity structuring, reasonable compensation, S-Corp election, and multi-entity coordination.</p>
                 </a>
-                <a href="/deferred-equity-compensation/" class="service-card">
-                    <h3>Equity Compensation</h3>
-                    <p>Stock options, RSUs, ESPP, and deferred compensation planning for executives.</p>
+                <a href="/services/reasonable-compensation/" class="service-card">
+                    <h3>S-Corp Owner Pay</h3>
+                    <p>Reasonable compensation analysis for S-Corp owners.</p>
                 </a>
                 <a href="/multi-state-global-tax/" class="service-card">
                     <h3>Multi-State Tax Planning</h3>
@@ -1109,9 +1109,9 @@ def generate_services_content():
                     <h3>Business Owner &amp; Small Business Tax Services</h3>
                     <p>Entity structuring, reasonable compensation analysis, S-Corp election timing, and multi-entity coordination for business owners.</p>
                 </a>
-                <a href="/deferred-equity-compensation/" class="service-card-lg">
-                    <h3>Deferred Compensation &amp; Equity Compensation Advice</h3>
-                    <p>Stock options, RSUs, ESPP, and deferred compensation planning to minimize tax impact from equity events.</p>
+                <a href="/services/reasonable-compensation/" class="service-card-lg">
+                    <h3>S-Corp Owner Pay</h3>
+                    <p>Reasonable compensation analysis for profitable S-Corp owners.</p>
                 </a>
                 <a href="/retirement-exit-ma-tax-strategy/" class="service-card-lg">
                     <h3>Retirement &amp; Exit / M&amp;A Tax Strategy</h3>

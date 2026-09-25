@@ -15,3 +15,5 @@ Each guide opens with a buyer question, names the records and tax decisions invo
 Five other draft pages were removed because the current site already answers their questions or the topic requires more source research. They covered seller-note default, assumed customer deposits, phased build-to-rent dates, mixed-use building classification, and landlord-funded tenant improvements. The rejected 500-page industry matrix was removed earlier after the site's scaled-content guard identified duplication.
 
 `research/buyer_question_candidates.tsv` contains 500 distinct candidate questions, split equally between business owners and real estate investors. It is a topic inventory, not 500 approved URLs. Each candidate needs a canonical overlap check, demand evidence, primary-source review, and original analysis before it becomes a page. The target remains 500 useful additions; this batch contributes five.
+
+Future pages should serve business owners, practice owners, or materially invested property owners. W-2-only compensation topics are out of scope except where the question is about operating a short-term rental.

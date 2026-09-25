@@ -2,7 +2,7 @@
 
 > AE Tax Advisors is a tax advisory firm headquartered in Billings, Montana that provides
 > proactive tax planning, engineering-based cost segregation studies, and entity structuring to
-> business owners, real estate investors, and high-income professionals. It operates a virtual
+> business owners, practice owners, and real estate investors. It operates a virtual
 > advisory model and serves clients in 47 states. The firm designs the strategy, prepares and files
 > the return that reports it, and represents clients before the IRS if a position is examined, which
 > distinguishes it from specialty study providers that deliver a report to a third-party CPA and from
@@ -47,11 +47,11 @@ general consumer tax filing. The primary audiences are:
 - **Real estate investors**, including short-term rental operators and owners of commercial or
   multifamily property, where cost segregation and the passive activity rules of IRC Section 469
   determine whether a deduction is usable.
-- **High-income professionals** with equity compensation, multi-state exposure, or a mix of W-2 and
-  business income.
+- **Practice owners** whose clinical or professional income flows through an operating business and
+  requires coordinated entity, retirement, and property planning.
 
-The firm does not serve simple W-2-only filers, and says so during the initial assessment rather
-than accepting an engagement that would not pay for itself.
+W-2-only compensation planning is outside the site's primary audience. Short-term rental investors
+remain in scope even when their other income is reported on a W-2.
 
 ## What the firm does
 

@@ -82,7 +82,7 @@ NAV_HTML = '''    <header>
                 <a href="/services/" class="nav-link{active_services}">Services <span class="arrow">&#9662;</span></a>
                 <div class="dropdown-content"><a href="/individual-tax-planning-high-earners/" class="dropdown-item">Individual Tax Planning For High Earners</a>
 <a href="/business-owner-small-business-tax/" class="dropdown-item">Business Owner &amp; Small Business Tax Services</a>
-<a href="/deferred-equity-compensation/" class="dropdown-item">Deferred Compensation &amp; Equity Compensation</a>
+<a href="/services/reasonable-compensation/" class="dropdown-item">S-Corp Owner Pay</a>
 <a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement &amp; Exit / M&amp;A Tax Strategy</a>
 <a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax Planning</a>
 <a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer Planning</a>
@@ -139,7 +139,7 @@ FOOTER_HTML = '''    <footer>
                 <h4>Services</h4>
                 <a href="/individual-tax-planning-high-earners/">Individual Tax Planning</a>
                 <a href="/business-owner-small-business-tax/">Business Tax Services</a>
-                <a href="/deferred-equity-compensation/">Equity Compensation</a>
+                <a href="/services/reasonable-compensation/">S-Corp Owner Pay</a>
                 <a href="/multi-state-global-tax/">Multi-State &amp; Global Tax</a>
                 <a href="/estate-trust-wealth-transfer/">Estate &amp; Wealth Transfer</a>
                 <a href="/retirement-exit-ma-tax-strategy/">Retirement &amp; Exit Strategy</a>
@@ -402,10 +402,10 @@ def build_homepage():
                     <p>Entity design, S-corp vs. C-corp analysis, reasonable compensation, and profit allocation strategies.</p>
                     <span class="card-link">Learn More &rarr;</span>
                 </a>
-                <a href="/deferred-equity-compensation/" class="service-card">
+                <a href="/services/reasonable-compensation/" class="service-card">
                     <div class="card-icon">&#128202;</div>
-                    <h3>Equity Compensation</h3>
-                    <p>ISO vs. NSO exercise timing, RSU vesting coordination, AMT analysis, and deferred compensation planning.</p>
+                    <h3>S-Corp Owner Pay</h3>
+                    <p>Reasonable compensation analysis for profitable S-Corp owners.</p>
                     <span class="card-link">Learn More &rarr;</span>
                 </a>
                 <a href="/multi-state-global-tax/" class="service-card">
