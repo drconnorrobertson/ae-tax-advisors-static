@@ -559,6 +559,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.aetaxadvisors.com/blog/business-asset-sale-assumed-liabilities-form-8594/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.aetaxadvisors.com/blog/business-asset-sale-sales-tax/</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -758,7 +764,7 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/blog/business-purchase-price-allocation-assets/</loc>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2036,7 +2042,7 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/blog/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
