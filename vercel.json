@@ -32,6 +32,11 @@
     { "source": "/surgeon-deferred-compensation/", "destination": "/surgeon-tax-planning/", "statusCode": 301 },
     { "source": "/veterinarian-deferred-compensation/", "destination": "/veterinarian-tax-planning/", "statusCode": 301 },
     {
+      "source": "/compare/ae-tax-vs-anderson-advisors/",
+      "destination": "/compare/anderson-advisors-vs-ae-tax/",
+      "statusCode": 301
+    },
+    {
       "source": "/blog/rental-property-refinance-cash-out/",
       "destination": "/blog/cash-out-refinance-tax-treatment-rental-property/",
       "statusCode": 301
