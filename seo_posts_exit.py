@@ -68,6 +68,73 @@ POSTS = [
         ],
         "cta_head": "Make the sale documents and tax returns tell the same story",
         "cta_text": "AE can review the transition scope, purchase allocation, and seller-side filing consequences before you sign or report the payment.",
+    },
+    {
+        "slug": "business-sale-seller-note-default-tax-return",
+        "title": "Business sale seller-note default: amend the return?",
+        "title_tag": "Buyer Defaulted on a Seller Note: Amend the Sale Return?",
+        "h1": "The buyer stopped paying my business-sale note. Do I amend the sale-year return?",
+        "breadcrumb": "Seller-note default after a business sale",
+        "category": "Exit Planning",
+        "date": "2026-09-24",
+        "date_display": "September 24, 2026",
+        "description": "The buyer defaulted on your company-sale note. Learn when to keep, revise, or separately report the installment obligation before amending a return.",
+        "lead": "<strong>Usually, a later missed payment does not by itself mean the original business sale return was wrong.</strong> First determine how the sale and note were reported. A payment delay, negotiated price reduction, partial settlement, cancellation, and repossession are different tax events. The answer may belong on a later-year return rather than an amended sale-year return, but an original filing error still needs its own correction review. A selling owner should reconcile the note, collateral, collection steps, and each filed Form 6252 before changing any return.",
+        "body": """
+        <div class="cta-box" style="background:#f8f9fa;border:2px solid #1a365d;border-radius:12px;padding:28px;text-align:center;margin:30px 0;">
+            <h2 style="color:#1a365d;margin-bottom:10px;">Buyer payments stopped after your company sale?</h2>
+            <p>Review the note, sale-year return, payment ledger, and proposed workout before settling or filing the next return.</p>
+            <a href="/discovery/" class="btn-cta btn-lg" style="margin-top:15px;display:inline-block;">Book a Return Review Call</a>
+        </div>
+
+        <h2>Start with the sale that was actually reported</h2>
+        <p>Obtain the signed purchase agreement, note, security documents, and the accepted seller return. Was this a sale of privately held stock, business assets, or a partnership interest? Did the seller actually use the installment method, elect out, or include the note's value in the sale year? Was any inventory, depreciation recapture, interest, or other amount reported immediately? <a href="https://www.irs.gov/publications/p537">IRS Publication 537</a> explains that an entire business sold for one price is not one asset for installment purposes: asset-sale proceeds must be allocated among eligible and ineligible classes. A default cannot retroactively make an ineligible item eligible for deferral.</p>
+        <p>If the original return misallocated the price, omitted a required gain item, or miscomputed basis, assess that original error and its amendment period separately. If the original filing was correct and the buyer only later became delinquent, do not erase gain already reported simply because cash has not arrived. The note is an asset with its own basis and later tax events.</p>
+
+        <h2>Five paths after the buyer misses a payment</h2>
+        <ol>
+            <li><strong>Late payment, enforceable note.</strong> Preserve the original installment schedule and track actual principal and interest. A missed installment is not itself a canceled debt or repossession. Determine whether accrued or imputed interest has a separate current-year treatment.</li>
+            <li><strong>Actual reduction of selling price, note still outstanding.</strong> Publication 537 says a price reduction without canceling the remaining buyer debt is generally not a disposition of the note; recompute the gross-profit percentage for later payments. Compare this with a <a href="/blog/business-sale-working-capital-adjustment/">working-capital true-up</a> that changed the final price for a different contractual reason.</li>
+            <li><strong>Part-payment settlement and forgiveness.</strong> If the seller accepts a reduced payoff and forgives the remaining installment debt, Publication 537 treats the settlement as a disposition of the obligation. The amount realized is compared with the note's adjusted basis; the answer is not automatically an amendment of the original sale.</li>
+            <li><strong>Cancellation, unenforceability, or genuine uncollectibility.</strong> A formally canceled or otherwise unenforceable installment obligation is treated as a disposition under Publication 537. Whether a separate bad-debt position is supportable depends on what was sold, the seller, the note basis, and evidence of collectibility—not merely the date of the first missed payment. Preserve counsel's collection and valuation record.</li>
+            <li><strong>Taking collateral back.</strong> Foreclosure or voluntary surrender may be a repossession only when it at least partly discharges an installment obligation secured by the property recovered. Publication 537 gives different computations for personal property and real property. A later repurchase from a buyer's third-party sale is not the same transaction.</li>
+        </ol>
+
+        <h2>Worked example: a private-company stock note is settled</h2>
+        <p>Assume an owner sells privately held company stock for $4 million, has $1 million of adjusted stock basis, receives $1 million cash at closing, and takes an enforceable $3 million principal note. Ignore selling expenses, assumed debt, interest, and special rules for this illustration. If installment reporting applies, the $3 million gross profit divided by the $4 million contract price gives a 75% gross-profit percentage. The $1 million closing payment produces $750,000 reported gain and $250,000 basis recovery. The $3 million unpaid principal has $750,000 of installment-obligation basis under Publication 537's formula.</p>
+        <p>Suppose the buyer later defaults and the owner, after collection negotiations, accepts $1 million of principal in full settlement of the remaining $3 million note. On these simplified facts, the disposition comparison is $1 million realized less $750,000 note basis, or $250,000 gain in the settlement year. This is not an instruction to claim a $2 million bad-debt deduction or to remove the original $750,000 gain. If instead the buyer merely misses a payment and the note remains enforceable, the settlement calculation has not happened. A real transaction must also separate interest, selling expenses, stock basis, prior principal collections, related-party rules, and state tax before its forms are prepared.</p>
+
+        <h2>Collateral can change the answer again</h2>
+        <p>If the note is secured by sold equipment, stock, or other personal property and the seller actually repossesses it, Publication 537 generally compares the recovered property's fair market value with the adjusted basis of the installment obligation plus repossession expenses. The resulting gain or loss and new property basis require a separate worksheet. If the seller recovers real estate, the mandatory real-property repossession rules may apply when their conditions are met; these rules use a different gain limit and basis calculation. Do not apply the real-estate worksheet to the stock or equipment simply because a company-owned building was part of the acquired business.</p>
+        <p>In an <strong>asset sale</strong>, trace the note and recoveries to the original allocations rather than spreading every dollar across “the business” as a single capital asset. Inventory and ordinary depreciation recapture may have been taxable in the sale year even if the buyer never pays the full note. Seller and buyer may also have <a href="https://www.irs.gov/instructions/i8594">Form 8594</a> reporting for an applicable asset acquisition. A <strong>plain private stock sale</strong> has different basis and allocation workpapers. Review any <a href="/blog/section-338h10-336e-election-business-sale/">deemed asset-sale election</a> before choosing forms.</p>
+
+        <h2>Return-ready documents and decisions</h2>
+        <ul>
+            <li>Accepted sale-year return, Form 6252 if filed, Form 4797 and Form 8594 if relevant, basis workpapers, and every later-year installment schedule.</li>
+            <li>Purchase agreement, note and amortization schedule, guarantees, liens, UCC/security filings, escrow provisions, and collateral valuation.</li>
+            <li>Bank deposits split between principal and interest, past-due notices, payment extensions, default/cure letters, and collection counsel correspondence.</li>
+            <li>Executed modification, release, settlement, foreclosure, surrender, or resale documents; fair-market-value support for property recovered.</li>
+            <li>Entity, owner, and state returns affected by the original sale or later note event, plus any buyer-seller allocation changes.</li>
+        </ul>
+        <p>Before filing, build one dated timeline: original closing; all principal and interest received; missed payments; any legally effective price change; note cancellation or settlement; and any collateral transfer. Then determine which event changes which return year. If the parties are related, Publication 537 applies special restrictions to some canceled-obligation values, so do not assume an arm's-length workout calculation transfers unchanged.</p>
+
+        <h2>Failure points to avoid</h2>
+        <ul>
+            <li>Amending the sale-year return solely because a later payment was missed, without identifying an original filing error.</li>
+            <li>Calling an uncollected $3 million note a $3 million tax loss while ignoring its adjusted tax basis and remaining legal rights.</li>
+            <li>Confusing a price reduction with a payoff-forgiveness settlement or with repossession of secured property.</li>
+            <li>Using a single Form 6252 percentage for an asset sale that included inventory, recapture, or assets sold at a loss.</li>
+            <li>Netting interest and principal in one bank deposit or failing to document the collateral's fair market value when it returns.</li>
+        </ul>
+        <p>This is a federal decision framework, not a determination that a particular note is worthless or that an amendment is never available. Contract rights, seller identity, stock-versus-asset structure, related parties, recovery actions, and state rules can change the result. Coordinate the workout with transaction counsel and a tax adviser before forgiving debt or taking collateral; the executed remedy may define the later-year tax event.</p>
+        """,
+        "related": [
+            ("/blog/seller-financing-tax-treatment-installment-sales/", "Seller-financing and installment-sale basics"),
+            ("/blog/business-sale-working-capital-adjustment/", "Post-closing purchase-price adjustments"),
+            ("/blog/business-sale-escrow-holdback/", "Indemnity escrow versus delayed payment"),
+        ],
+        "cta_head": "Reconcile the buyer's default before changing a return",
+        "cta_text": "AE can review the original sale, unpaid note, workout agreement, and later-year reporting path with your transaction team.",
     }
 ]
 
