@@ -1,0 +1,501 @@
+segment	cluster	buyer_question
+business	business sale	A buyer wants an asset deal for my profitable company; what price premium covers my extra tax?
+business	business sale	How should I value a personal guarantee release when selling my company?
+business	business sale	My buyer wants an earnout tied to my employment; how will the payments be taxed?
+business	business sale	What happens to my S corporation basis when the buyer pays part of the price into escrow?
+business	business sale	Can I negotiate the allocation to equipment and goodwill before the letter of intent becomes binding?
+business	business sale	How do I compare cash at closing with a larger seller-financed price after tax?
+business	business sale	The buyer wants to assume my customer deposits; how should the price adjustment work?
+business	business sale	Can I sell my operating company separately from its building without creating an avoidable tax problem?
+business	business sale	What happens if my buyer misses payments on the seller note after I reported gain?
+business	business sale	How should retained working capital change my sale-year tax projection?
+business	business sale	My deal has a holdback for warranty claims; when is that amount part of sale proceeds?
+business	business sale	Should I exercise business warrants before signing a sale agreement?
+business	business sale	How does a noncompete payment change my after-tax sale proceeds?
+business	business sale	The buyer wants a Section 338 election; what additional price would keep me whole?
+business	business sale	How should transaction fees be assigned among stock, assets, and financing at closing?
+business	business sale	Can I keep a minority interest in the buyer without changing the seller's tax result?
+business	business sale	What tax records should I reconcile before accepting a roll-over equity offer?
+business	business sale	If the buyer changes the final allocation after closing, which returns must be updated?
+business	business sale	Does an installment note help when some sold assets generate immediate ordinary income?
+business	business sale	How do I model state taxes when my company operates in several states but sells in one deal?
+business	business sale	What happens to my deferred revenue when the buyer takes over ongoing contracts?
+business	business sale	Can a profitable practice owner sell goodwill personally while the entity sells equipment?
+business	business sale	How do I compare a stock sale and an asset sale when my company owns real estate?
+business	business sale	What should my tax advisor review before signing an exclusivity agreement with a buyer?
+business	business sale	How do I estimate after-tax proceeds when the price includes a contingent milestone payment?
+business	business acquisition	I am buying a profitable company with its building; how do I allocate the combined price?
+business	business acquisition	What tax diligence should I complete before buying an S corporation with old payroll issues?
+business	business acquisition	Should I buy franchise locations as assets or acquire the seller's LLC interests?
+business	business acquisition	How do I reconcile inventory counts and customer deposits in a business purchase?
+business	business acquisition	The seller has a cost segregation study; can I use it for my acquisition basis?
+business	business acquisition	How should I value franchise rights separately from equipment and goodwill?
+business	business acquisition	What happens to my tax basis when I assume the seller's equipment debt?
+business	business acquisition	Can I deduct acquisition diligence fees or must I capitalize them?
+business	business acquisition	What tax questions should I resolve before buying a partner out of an existing company?
+business	business acquisition	How does buying several locations in one contract affect asset allocations?
+business	business acquisition	What tax records do I need before buying a dental practice from a retiring owner?
+business	business acquisition	How should I account for deferred revenue in an acquired subscription business?
+business	business acquisition	Can I use the seller's net operating losses after buying the company?
+business	business acquisition	Does an earnout increase the basis of the business I bought?
+business	business acquisition	How do I price a stock purchase if the target has a built-in gains exposure?
+business	business acquisition	What should I review before buying a business with an underfunded retirement plan?
+business	business acquisition	How should an equipment-heavy business purchase flow into my depreciation schedule?
+business	business acquisition	Can I combine a business acquisition with a 1031 exchange for the building?
+business	business acquisition	What changes when I buy only one division of a larger operating company?
+business	business acquisition	How do I model sales-tax liabilities in a multi-state acquisition?
+business	business acquisition	Should the buyer and seller sign an allocation exhibit before closing?
+business	business acquisition	What happens when the target's book inventory method differs from its tax method?
+business	business acquisition	How can I compare buying the company with building the same operation myself after tax?
+business	business acquisition	What tax diligence matters when a profitable practice has several owners and outside investors?
+business	business acquisition	How do I address a post-closing purchase-price true-up on the first tax return?
+business	owner pay and entity	Is my S corporation salary defensible after the business's profits doubled?
+business	owner pay and entity	Should I change entity type before adding a second owner to my profitable company?
+business	owner pay and entity	How do guaranteed payments compare with distributions for a working partner?
+business	owner pay and entity	Can my corporation reimburse substantial owner expenses through an accountable plan?
+business	owner pay and entity	What happens if I took large S corporation distributions before running payroll?
+business	owner pay and entity	Should I use a separate LLC for the building my operating company rents?
+business	owner pay and entity	Can I move a profitable sole proprietorship into an S corporation midyear?
+business	owner pay and entity	What changes when my spouse becomes a working owner of the business?
+business	owner pay and entity	How does a shareholder loan affect my ability to deduct S corporation losses?
+business	owner pay and entity	Should my growing professional practice be a partnership or an S corporation?
+business	owner pay and entity	Can a C corporation conversion still make sense before raising outside capital?
+business	owner pay and entity	How do I document owner compensation when I work in several related companies?
+business	owner pay and entity	What is the tax cost of moving appreciated business property into a new entity?
+business	owner pay and entity	Does my management company need real services and fees to support its income?
+business	owner pay and entity	How should I pay myself when one company owns several profitable subsidiaries?
+business	owner pay and entity	Can I change an LLC election without disrupting a planned company sale?
+business	owner pay and entity	How do I handle owner health coverage when the S corporation paid the premiums?
+business	owner pay and entity	Is a distribution taxable when my S corporation has significant accumulated profits?
+business	owner pay and entity	How should my CPA model wages and distributions before year end?
+business	owner pay and entity	What entity structure fits a profitable services business that also owns rentals?
+business	owner pay and entity	Can one owner receive a different economic share without breaking S corporation rules?
+business	owner pay and entity	What happens to tax basis when my business refinances and distributes cash?
+business	owner pay and entity	How should an owner bonus be timed around a large contract closing?
+business	owner pay and entity	Can I separate operating risk from real estate ownership without triggering tax now?
+business	owner pay and entity	What tax analysis is needed before admitting an employee as a minority owner?
+business	partner and shareholder exits	How is a departing partner's buyout taxed when the partnership has receivables?
+business	partner and shareholder exits	Should our partnership redeem an owner or let the remaining owners buy the interest?
+business	partner and shareholder exits	What happens to my basis when a partnership loan guarantee ends at closing?
+business	partner and shareholder exits	Can a departing S corporation shareholder receive installments from the company?
+business	partner and shareholder exits	How do we allocate profit when an S corporation shareholder sells midyear?
+business	partner and shareholder exits	Should we elect Section 754 when buying out a partner in an appreciated company?
+business	partner and shareholder exits	What tax records do I need before buying my cofounder's shares?
+business	partner and shareholder exits	How should a retiring partner's goodwill payment be documented?
+business	partner and shareholder exits	Does company cash used for a shareholder buyout create a redemption?
+business	partner and shareholder exits	What happens to suspended losses when I sell a partnership interest?
+business	partner and shareholder exits	How should partner debt shares be recalculated after an ownership change?
+business	partner and shareholder exits	Can our operating agreement allocate a sale gain differently from ordinary profits?
+business	partner and shareholder exits	What is the tax cost of bringing a new investor into a profitable partnership?
+business	partner and shareholder exits	How do capital accounts and tax basis differ when one partner exits?
+business	partner and shareholder exits	Can a buyout be funded with company borrowing without changing the seller's tax result?
+business	partner and shareholder exits	What happens if a partner receives appreciated equipment as part of a buyout?
+business	partner and shareholder exits	How do we correct a partnership buyout reported as a distribution?
+business	partner and shareholder exits	Should an owner sell stock or redeem it before a larger company sale?
+business	partner and shareholder exits	What tax issues arise when a deceased partner's estate receives deferred payments?
+business	partner and shareholder exits	Can a minority shareholder exit while retaining rights to a future earnout?
+business	partner and shareholder exits	How should a partnership allocate income when an owner joins midyear?
+business	partner and shareholder exits	What tax return changes follow a partnership interest sale to a related party?
+business	partner and shareholder exits	Do I need a new basis schedule after buying a departing partner's interest?
+business	partner and shareholder exits	What happens to partner basis when a business sale and buyout occur together?
+business	partner and shareholder exits	How should the company value and tax a founder's equity repurchase?
+business	accounting and working capital	When are advance payments taxable in my growing subscription business?
+business	accounting and working capital	Should a profitable manufacturer change its inventory accounting method before expansion?
+business	accounting and working capital	How do I reconcile tax income when customer deposits rise before a sale?
+business	accounting and working capital	Can I deduct a large warranty reserve on this year's return?
+business	accounting and working capital	How does retainage affect taxable income on my open construction projects?
+business	accounting and working capital	When do unbilled receivables on long projects belong in taxable income?
+business	accounting and working capital	Should my company change from cash to accrual after a major acquisition?
+business	accounting and working capital	What tax result follows a purchase-price working-capital true-up after closing?
+business	accounting and working capital	How do I fix a prior-year revenue-recognition method used on every contract?
+business	accounting and working capital	Can I write down slow-moving inventory before year end?
+business	accounting and working capital	How should prepaid annual service contracts appear on my tax return?
+business	accounting and working capital	What records support a deduction for an uncollectible commercial receivable?
+business	accounting and working capital	How do I compare book EBITDA with taxable income before seeking a buyer?
+business	accounting and working capital	Does a customer refund after year end change the prior tax return?
+business	accounting and working capital	What happens when my business pays vendors for next year's services in December?
+business	accounting and working capital	Can I capitalize a major software implementation instead of expensing it?
+business	accounting and working capital	How should a business account for inventory acquired in an asset purchase?
+business	accounting and working capital	When does a disputed change order become taxable revenue?
+business	accounting and working capital	What tax method applies to contracts spanning several tax years?
+business	accounting and working capital	Should I request a tax method change before the company sale closes?
+business	accounting and working capital	How do I reconcile deferred revenue after transferring customer contracts to a buyer?
+business	accounting and working capital	What tax treatment applies to supplier rebates earned on large purchases?
+business	accounting and working capital	Can I deduct a bad debt when the customer offers a partial settlement?
+business	accounting and working capital	How should a business treat deposits on canceled projects after year end?
+business	accounting and working capital	What workpapers should a profitable owner request before signing a return with large accruals?
+business	contractor tax decisions	Should my construction company buy or lease a new heavy equipment fleet before a large project?
+business	contractor tax decisions	How do I report a multi-year contract when its estimated costs change sharply?
+business	contractor tax decisions	What happens when a customer withholds a large retainage amount after project completion?
+business	contractor tax decisions	Can I deduct demolition and replacement costs on an owned contractor facility?
+business	contractor tax decisions	How should I structure a profitable contractor's expansion into another state?
+business	contractor tax decisions	Do my subcontractor arrangements create payroll-tax exposure before a company sale?
+business	contractor tax decisions	How should insurance restoration receivables be reported when carriers pay late?
+business	contractor tax decisions	What tax method applies when jobs begin and finish in different years?
+business	contractor tax decisions	Can I claim an equipment deduction if the fleet is delivered after year end?
+business	contractor tax decisions	What records support a cost segregation study on a new contractor warehouse?
+business	contractor tax decisions	How does a job-cost accounting change affect prior filed contractor returns?
+business	contractor tax decisions	Should I form separate entities for a construction company and its equipment?
+business	contractor tax decisions	What tax diligence matters before buying a competing contractor's backlog?
+business	contractor tax decisions	Can a profitable contractor use a cash balance plan with seasonal crews?
+business	contractor tax decisions	How should owner pay be set when my construction company has volatile job profits?
+business	contractor tax decisions	What happens to completed-contract income when we sell the company mid-project?
+business	contractor tax decisions	How do I model state tax on crews working across several jurisdictions?
+business	contractor tax decisions	Are owner-owned trucks and equipment better leased to my operating company?
+business	contractor tax decisions	What tax treatment applies to a disputed change-order settlement?
+business	contractor tax decisions	How should my roofing company account for warranty work after a profitable year?
+business	contractor tax decisions	Can I correct depreciation on equipment purchased several years ago?
+business	contractor tax decisions	What happens if a large project is canceled after I purchased materials?
+business	contractor tax decisions	How should retainage receivables be valued in a contractor buyout?
+business	contractor tax decisions	When does a contractor need a separate tax method for service and construction jobs?
+business	contractor tax decisions	What is the after-tax cost of selling the company versus transferring it to key managers?
+business	professional practice decisions	How should a dental practice owner compare a stock sale with an asset sale?
+business	professional practice decisions	What tax allocation should be negotiated when buying a practice and its building?
+business	professional practice decisions	Can a physician practice deduct the cost of new imaging equipment this year?
+business	professional practice decisions	How do physician owner wages and distributions change after a large income increase?
+business	professional practice decisions	Should a veterinary practice keep real estate outside the operating company?
+business	professional practice decisions	What tax records matter when several partners sell a medical practice together?
+business	professional practice decisions	Can a law firm fund a large retirement contribution without overlooking staff coverage?
+business	professional practice decisions	How should contingent-fee receivables be handled in a law-firm buyout?
+business	professional practice decisions	What happens to patient deposits and prepaid services in a practice sale?
+business	professional practice decisions	How is a practice owner's personal goodwill valued and reported in a transaction?
+business	professional practice decisions	Should a profitable clinic buy or lease its next location?
+business	professional practice decisions	Can we restructure a professional partnership before admitting an outside investor?
+business	professional practice decisions	How do I correct S corporation owner health premiums omitted from payroll?
+business	professional practice decisions	What is the tax effect of selling a minority practice interest to an associate?
+business	professional practice decisions	How should a medical group allocate debt and income when one physician retires?
+business	professional practice decisions	What tax diligence is needed before acquiring a second clinic location?
+business	professional practice decisions	Can a practice owner use cost segregation on a newly purchased office building?
+business	professional practice decisions	What happens to equipment basis when a dental practice replaces several operatories?
+business	professional practice decisions	How should a successful practice reimburse owners for home and travel expenses?
+business	professional practice decisions	Do state professional-entity rules affect my proposed tax restructure?
+business	professional practice decisions	What tax planning matters before selling a practice to a consolidator?
+business	professional practice decisions	How should an earnout tied to physician employment be modeled after tax?
+business	professional practice decisions	Can I combine a practice sale with a separate 1031 exchange of the building?
+business	professional practice decisions	What tax issues arise when a partner's estate retains practice receivables?
+business	professional practice decisions	How should a multi-location practice allocate centralized expenses for state taxes?
+business	multi-state growth	Does hiring a sales executive in another state change my company's filing footprint?
+business	multi-state growth	How should I source income when my consulting firm serves clients in several states?
+business	multi-state growth	What tax registrations are needed before opening a second warehouse?
+business	multi-state growth	Can a profitable online brand have state tax obligations without a physical store?
+business	multi-state growth	How should a contractor track payroll and revenue on multi-state jobs?
+business	multi-state growth	What happens when a partner relocates while managing the same business?
+business	multi-state growth	How do I model state tax before buying a company with remote employees?
+business	multi-state growth	Should my company file voluntary disclosures for prior unreported state activity?
+business	multi-state growth	How does a new fulfillment center affect income-tax apportionment?
+business	multi-state growth	What tax issues arise when a practice opens a satellite clinic across a state line?
+business	multi-state growth	Can a holding company simplify state filings for several operating subsidiaries?
+business	multi-state growth	How should I track owner compensation earned in multiple states?
+business	multi-state growth	What state tax exposure should I price into a business acquisition?
+business	multi-state growth	How does a franchise expansion change withholding and entity registrations?
+business	multi-state growth	Should a profitable services company restructure before entering a high-tax state?
+business	multi-state growth	What happens when a state audits years of unfiled business returns?
+business	multi-state growth	How do I allocate sale proceeds among states after operating nationally?
+business	multi-state growth	Does leasing equipment into another state create a filing obligation?
+business	multi-state growth	How should a manufacturer track sales, payroll, and property for apportionment?
+business	multi-state growth	What records support claiming a state tax credit after expanding a facility?
+business	multi-state growth	Can my company change tax domicile without moving actual operations?
+business	multi-state growth	How do I coordinate pass-through entity tax elections in several states?
+business	multi-state growth	What happens when an owner moves before a multi-state company sale?
+business	multi-state growth	How should a company correct state returns after a federal method change?
+business	multi-state growth	What is the combined state tax cost of opening versus acquiring a location?
+business	retirement and benefits	Should my profitable business add a cash balance plan alongside its 401(k)?
+business	retirement and benefits	How do employee ages and wages change the value of a defined benefit plan?
+business	retirement and benefits	Can I fund a large owner retirement contribution after a record-profit year?
+business	retirement and benefits	What happens to our retirement plan during a company acquisition?
+business	retirement and benefits	Should I terminate or transfer a plan before selling the business?
+business	retirement and benefits	How do part-time employees affect the cost of an owner-focused plan?
+business	retirement and benefits	Can a multi-company owner combine employees under one retirement plan?
+business	retirement and benefits	What tax issues arise when business owners borrow from their retirement plan?
+business	retirement and benefits	How should employer contributions be timed around a year-end sale?
+business	retirement and benefits	Does a growing payroll make our current SIMPLE plan a poor fit?
+business	retirement and benefits	How much cash must the company commit to sustain a cash balance plan?
+business	retirement and benefits	Can an owner pair a retirement plan with substantial equipment spending?
+business	retirement and benefits	What happens if employee eligibility was applied incorrectly for past years?
+business	retirement and benefits	How should several partners divide the economic cost of retirement contributions?
+business	retirement and benefits	Can I add a profit-sharing feature after a highly profitable year?
+business	retirement and benefits	What tax records should I request before changing a plan design?
+business	retirement and benefits	How do controlled-group rules affect plans at my related businesses?
+business	retirement and benefits	Should an owner with a pending sale defer or accelerate plan contributions?
+business	retirement and benefits	How do employer health benefits interact with owner compensation planning?
+business	retirement and benefits	Can a business deduct a bonus accrued for executives but paid next year?
+business	retirement and benefits	What tax issues arise when an owner receives deferred compensation at exit?
+business	retirement and benefits	How should a professional practice fund partner retirement obligations?
+business	retirement and benefits	Can I correct missed employer contributions before the next plan filing?
+business	retirement and benefits	What is the after-tax cost of a retention bonus for key employees?
+business	retirement and benefits	How should a profitable company compare taxable owner distributions with plan funding?
+business	return correction and defense	We found a large missed deduction after filing; amend the return or change the accounting method?
+business	return correction and defense	How do I correct an S corporation return after shareholders filed their personal returns?
+business	return correction and defense	What happens when a partnership issues corrected K-1s after owners filed?
+business	return correction and defense	Should my business file an amended return or a superseding return before the deadline?
+business	return correction and defense	Can we correct several years of wrong equipment depreciation without separate amendments?
+business	return correction and defense	How should I respond to an IRS inquiry about owner compensation?
+business	return correction and defense	What records defend a cost segregation study on a commercial property?
+business	return correction and defense	How do I fix a partnership allocation that did not follow the agreement?
+business	return correction and defense	What happens when a state audit finds an unreported business location?
+business	return correction and defense	Can I correct a Form 8594 allocation after both parties filed returns?
+business	return correction and defense	How do I reconcile shareholder basis before claiming a large S corporation loss?
+business	return correction and defense	What is the deadline for recovering taxes from a missed business deduction?
+business	return correction and defense	How should a company document an insurance-funded property replacement for an examination?
+business	return correction and defense	What happens if my tax preparer used the wrong inventory method for years?
+business	return correction and defense	Can I claim a credit found after the business return was filed?
+business	return correction and defense	How do I respond when the IRS questions payments to a family member?
+business	return correction and defense	Should I amend a business sale return after a post-closing price adjustment?
+business	return correction and defense	What records are needed to defend a partner buyout allocation?
+business	return correction and defense	How do I correct state returns after a federal S corporation election error?
+business	return correction and defense	What happens if a business return omitted a major asset disposition?
+business	return correction and defense	Can we fix an accountable-plan failure before an employment-tax examination?
+business	return correction and defense	How should a buyer handle tax liabilities discovered after purchasing a company?
+business	return correction and defense	What tax return corrections follow a canceled customer contract and refund?
+business	return correction and defense	How do I prepare a defensible response to an IRS depreciation inquiry?
+business	return correction and defense	Which prior returns should I review before signing a company sale agreement?
+real estate	acquisition and basis	I am buying a leased apartment building; what costs become part of depreciable basis?
+real estate	acquisition and basis	How should a commercial buyer allocate price among land, building, and tenant equipment?
+real estate	acquisition and basis	Can I use the seller's cost segregation study after buying the property?
+real estate	acquisition and basis	How does seller financing change my opening basis in a rental property?
+real estate	acquisition and basis	What happens to basis when I buy a partnership interest instead of the building?
+real estate	acquisition and basis	Should I order a cost segregation feasibility review before closing on a hotel?
+real estate	acquisition and basis	How do I document the value of land in a portfolio of rental homes?
+real estate	acquisition and basis	What tax diligence matters when buying a property with prior unpermitted improvements?
+real estate	acquisition and basis	Can closing costs on a large rental acquisition be deducted now?
+real estate	acquisition and basis	How should tenant deposits and prepaid rent be handled in my purchase allocation?
+real estate	acquisition and basis	What basis do I receive when I contribute cash for an interest in a property partnership?
+real estate	acquisition and basis	How do I allocate a bulk purchase price across several multifamily buildings?
+real estate	acquisition and basis	What records support allocating basis to furniture in a furnished rental portfolio?
+real estate	acquisition and basis	Can I depreciate a property before its first tenant moves in?
+real estate	acquisition and basis	How should a buyer treat a seller credit for repairs at closing?
+real estate	acquisition and basis	Does a new appraisal change the depreciation basis of property I already own?
+real estate	acquisition and basis	What happens when I buy a rental property that was partly used personally?
+real estate	acquisition and basis	How should a build-to-rent investor assign basis to each completed home?
+real estate	acquisition and basis	What tax review is needed before acquiring a property with an existing ground lease?
+real estate	acquisition and basis	Can I separate an operating business from real estate in a combined acquisition?
+real estate	acquisition and basis	How do inherited improvements affect the purchase basis of a property interest?
+real estate	acquisition and basis	What is my basis after a 1031 exchange with additional cash and new debt?
+real estate	acquisition and basis	How should a buyer document tenant improvements paid by the seller before closing?
+real estate	acquisition and basis	What tax issues arise when a property purchase includes development rights?
+real estate	acquisition and basis	How do I review basis when acquiring a cash-flowing property through an LLC interest?
+real estate	cost segregation decisions	Will a cost segregation study produce usable savings for my profitable rental portfolio?
+real estate	cost segregation decisions	Should I order a cost segregation study before selling a property in two years?
+real estate	cost segregation decisions	How does a study on a hotel differ from one on a standard apartment building?
+real estate	cost segregation decisions	Can I commission a study after a major self-storage expansion?
+real estate	cost segregation decisions	What records should I demand before approving a cost segregation proposal?
+real estate	cost segregation decisions	How does a planned 1031 exchange change the study's economic value?
+real estate	cost segregation decisions	Can my commercial property study include tenant-funded improvements?
+real estate	cost segregation decisions	How do I compare two engineering studies with different reclassification estimates?
+real estate	cost segregation decisions	What happens if a prior study used the wrong land value?
+real estate	cost segregation decisions	Should I update an old study after a large renovation?
+real estate	cost segregation decisions	Can an investor use accelerated deductions when passive losses are suspended?
+real estate	cost segregation decisions	What is the recapture exposure from a study when I sell the building?
+real estate	cost segregation decisions	How do I evaluate a study for a medical office building with specialized build-outs?
+real estate	cost segregation decisions	Can a study be performed on a property acquired through a partnership interest?
+real estate	cost segregation decisions	Should I commission separate studies for a portfolio bought in one deal?
+real estate	cost segregation decisions	What does a defensible cost segregation report need for an IRS exam?
+real estate	cost segregation decisions	Can I correct an earlier depreciation schedule with Form 3115 after a new study?
+real estate	cost segregation decisions	How does a state that rejects federal bonus depreciation change study value?
+real estate	cost segregation decisions	Can a study include newly installed solar or energy systems on a commercial building?
+real estate	cost segregation decisions	What should I review before using a low-cost automated cost segregation report?
+real estate	cost segregation decisions	How does prior ownership of furniture affect a short-term rental study?
+real estate	cost segregation decisions	What tax basis can an investor study after a casualty and rebuilding?
+real estate	cost segregation decisions	Should a property syndicator commission a study before distributing K-1s?
+real estate	cost segregation decisions	How do I compare study cost with tax benefits after passive-loss limits?
+real estate	cost segregation decisions	Can I revise a cost segregation study when the construction ledger changes after filing?
+real estate	construction and renovation	When can homes in my phased build-to-rent project start depreciating?
+real estate	construction and renovation	How should I separate a commercial renovation's repairs from capital improvements?
+real estate	construction and renovation	Does replacing an apartment building roof allow me to retire the old roof basis?
+real estate	construction and renovation	What happens when a tenant pays for improvements the landlord will own later?
+real estate	construction and renovation	How should I allocate construction costs among several new self-storage buildings?
+real estate	construction and renovation	Can I depreciate a furnished rental while a separate pool project is unfinished?
+real estate	construction and renovation	What records support the service date of a renovated hotel wing?
+real estate	construction and renovation	How do I account for common-area improvements shared by residential and retail tenants?
+real estate	construction and renovation	What happens to old asset basis when I replace parking lots and site lighting?
+real estate	construction and renovation	Should I commission a new study when converting an office building to apartments?
+real estate	construction and renovation	How do I treat pre-opening interest and taxes on a large development?
+real estate	construction and renovation	Can a landlord deduct the cost of repainting units during a major rehabilitation?
+real estate	construction and renovation	What tax review is needed before adding an accessory dwelling unit to a rental?
+real estate	construction and renovation	How should owner labor be documented during construction of investment property?
+real estate	construction and renovation	When does a property under renovation stop being available for rent?
+real estate	construction and renovation	How do I classify a renovation that replaces building systems and tenant fixtures?
+real estate	construction and renovation	What happens when a contractor refund arrives after improvement costs were capitalized?
+real estate	construction and renovation	Can I deduct demolition costs for a building I acquired to redevelop?
+real estate	construction and renovation	How should insurance proceeds be traced into a replacement building?
+real estate	construction and renovation	What changes when I convert a hotel to long-term apartments?
+real estate	construction and renovation	How do I assign service dates to roads, utilities, and buildings in one project?
+real estate	construction and renovation	Can a large elevator replacement be separated from unrelated building repairs?
+real estate	construction and renovation	What tax issues arise when a lease requires a landlord-funded tenant build-out?
+real estate	construction and renovation	How should I treat renovation deposits paid before work begins?
+real estate	construction and renovation	What documentation supports partial disposition of assets removed during a remodel?
+real estate	passive loss and participation	My rentals show a large loss but my business is profitable; can the loss offset that income?
+real estate	passive loss and participation	Can my spouse qualify as a real estate professional while I run the operating business?
+real estate	passive loss and participation	What time records support material participation in several rental properties?
+real estate	passive loss and participation	Should I group my rental activities before claiming current-year losses?
+real estate	passive loss and participation	How do prior suspended losses change when I sell one rental in a portfolio?
+real estate	passive loss and participation	Can I use a cost segregation deduction if my property manager does most of the work?
+real estate	passive loss and participation	What happens when I become a real estate professional after years of passive losses?
+real estate	passive loss and participation	Can a high-income owner deduct rental losses from a building leased to their own company?
+real estate	passive loss and participation	How do I document participation when contractors perform the renovation work?
+real estate	passive loss and participation	What happens if I stop materially participating midway through the year?
+real estate	passive loss and participation	Can losses from one rental partnership offset income from another?
+real estate	passive loss and participation	How do I trace suspended losses after a partnership interest transfer?
+real estate	passive loss and participation	Does owning several profitable rentals help release losses from one vacant building?
+real estate	passive loss and participation	What tax records matter when both spouses manage the rental portfolio?
+real estate	passive loss and participation	Can I use losses after a complete sale to a related buyer?
+real estate	passive loss and participation	How does a grouped rental activity change the result of selling one property?
+real estate	passive loss and participation	What happens when a rental becomes an operating business with substantial services?
+real estate	passive loss and participation	How do basis and at-risk limits interact with passive-loss limits in a leveraged deal?
+real estate	passive loss and participation	Can my S corporation income be offset by rental losses from personally owned property?
+real estate	passive loss and participation	What proof should I preserve if the IRS questions real estate professional status?
+real estate	passive loss and participation	Can participation by a spouse count when only one spouse owns the property?
+real estate	passive loss and participation	What happens to suspended losses when I gift an interest in a rental?
+real estate	passive loss and participation	How should passive income from a property sale be matched with prior losses?
+real estate	passive loss and participation	Can a short-stay rental loss offset business profits if I materially participate?
+real estate	passive loss and participation	What should an investor review before claiming a six-figure rental loss on the return?
+real estate	short-term rental operations	Can my profitable business income be offset by a short-term rental loss this year?
+real estate	short-term rental operations	What stay-length records determine whether my rental is a rental activity for tax?
+real estate	short-term rental operations	Do cleaning and guest services change my short-term rental tax treatment?
+real estate	short-term rental operations	Can I hire a manager and still materially participate in a short-term rental?
+real estate	short-term rental operations	How do I document owner hours when I operate several vacation rentals?
+real estate	short-term rental operations	Should I order cost segregation on a newly acquired furnished rental?
+real estate	short-term rental operations	What happens if the property is rented long term for part of the tax year?
+real estate	short-term rental operations	Can my spouse's work count toward participation in our vacation property?
+real estate	short-term rental operations	How should I allocate personal nights in a high-revenue vacation home?
+real estate	short-term rental operations	What tax records matter when I convert an existing rental to short stays?
+real estate	short-term rental operations	How do I account for furnishings replaced after a major remodel?
+real estate	short-term rental operations	Can I claim losses when an operator handles all guest communication?
+real estate	short-term rental operations	What happens if a property is available for rent but has no bookings?
+real estate	short-term rental operations	How should platform fees and occupancy taxes be reconciled to rental income?
+real estate	short-term rental operations	Do I need a separate entity for a portfolio of short-term rentals?
+real estate	short-term rental operations	What tax treatment applies to a short-term rental with on-site staff?
+real estate	short-term rental operations	Can I use bonus depreciation on furniture bought after the property opened?
+real estate	short-term rental operations	How do I compare a vacation rental's tax benefit with its actual cash return?
+real estate	short-term rental operations	What changes when I sell a short-term rental after claiming accelerated depreciation?
+real estate	short-term rental operations	Can an investor group several short-term rental activities for participation tests?
+real estate	short-term rental operations	What happens when a vacation rental switches from personal to investment use?
+real estate	short-term rental operations	How do I prepare for an audit of large short-term rental losses?
+real estate	short-term rental operations	Can I use a cost segregation study if the property was inherited?
+real estate	short-term rental operations	How should a vacation-rental partnership allocate losses among active and passive owners?
+real estate	short-term rental operations	What tax review is needed before buying a high-revenue short-term rental business?
+real estate	1031 exchange decisions	Can my new single-member LLC buy the replacement property in my 1031 exchange?
+real estate	1031 exchange decisions	What happens if a partner wants cash while the others want to exchange the building?
+real estate	1031 exchange decisions	Should I extend my tax return after a late-year investment-property sale?
+real estate	1031 exchange decisions	Can I identify a backup property if my first replacement contract falls through?
+real estate	1031 exchange decisions	What tax result follows debt relief that is not replaced in an exchange?
+real estate	1031 exchange decisions	Can a mixed-use property be exchanged into a pure commercial property?
+real estate	1031 exchange decisions	How do I calculate basis in several replacement properties acquired together?
+real estate	1031 exchange decisions	Can I exchange a rental into a property that may later become a vacation home?
+real estate	1031 exchange decisions	What happens if replacement construction misses the exchange deadline?
+real estate	1031 exchange decisions	Can I exchange an apartment building into land held for future development?
+real estate	1031 exchange decisions	How should a qualified intermediary handle an escrow holdback from my sale?
+real estate	1031 exchange decisions	Can an investor exchange a property owned by a partnership into one owned personally?
+real estate	1031 exchange decisions	How do selling costs and exchange costs change taxable boot?
+real estate	1031 exchange decisions	What if the property I identified cannot close by Day 180?
+real estate	1031 exchange decisions	Can I sell two properties on different dates into one replacement purchase?
+real estate	1031 exchange decisions	How do I document investment intent for a newly acquired replacement property?
+real estate	1031 exchange decisions	What tax review is needed before using a Delaware statutory trust as backup property?
+real estate	1031 exchange decisions	Can my replacement property be bought with a new partner's money?
+real estate	1031 exchange decisions	What happens when the buyer of my relinquished property is a related party?
+real estate	1031 exchange decisions	How do I report a partially taxable exchange when I receive cash at closing?
+real estate	1031 exchange decisions	Should I choose an exchange or pay the tax if the replacement property yields less?
+real estate	1031 exchange decisions	Can I exchange a self-storage facility while retaining its operating business assets?
+real estate	1031 exchange decisions	What happens to prior cost segregation deductions when I complete an exchange?
+real estate	1031 exchange decisions	Can I use an improvement exchange to finish tenant work before taking title?
+real estate	1031 exchange decisions	What must my CPA reconcile before filing Form 8824 for a complex exchange?
+real estate	property sale and recapture	How much cash will I keep after selling a rental with debt and accumulated depreciation?
+real estate	property sale and recapture	How does cost segregation change recapture on a commercial property sale?
+real estate	property sale and recapture	Can suspended passive losses reduce tax on a complete property disposition?
+real estate	property sale and recapture	What tax result follows an installment sale of a heavily depreciated rental?
+real estate	property sale and recapture	How should I allocate price when selling land and a rental building together?
+real estate	property sale and recapture	What happens when a buyer receives a seller credit for needed capital repairs?
+real estate	property sale and recapture	Can I deduct selling costs paid before the property closes?
+real estate	property sale and recapture	How do I compute gain after a prior casualty insurance payment?
+real estate	property sale and recapture	What happens to an unamortized loan fee balance when I sell a building?
+real estate	property sale and recapture	How is gain taxed when I sell a rental held partly for personal use?
+real estate	property sale and recapture	Can I sell one building from a grouped rental activity and use suspended losses?
+real estate	property sale and recapture	What tax records are needed before selling a portfolio acquired over several years?
+real estate	property sale and recapture	How does a partnership property sale affect each partner's outside basis?
+real estate	property sale and recapture	What happens when a buyer assumes debt above my tax basis?
+real estate	property sale and recapture	Should I use a 1031 exchange or recognize gain before a planned retirement?
+real estate	property sale and recapture	How do I model state tax when selling investment properties in several states?
+real estate	property sale and recapture	What happens to tenant deposits and prepaid rent when a building is sold?
+real estate	property sale and recapture	Can I allocate part of a sale price to removable equipment instead of the building?
+real estate	property sale and recapture	How should improvements completed shortly before sale affect adjusted basis?
+real estate	property sale and recapture	What is the gain after a property buyer defaults on an installment note?
+real estate	property sale and recapture	How do I report a sale when a lease termination payment is part of the deal?
+real estate	property sale and recapture	Can an investor donate an appreciated rental instead of selling it?
+real estate	property sale and recapture	How should a family partnership distribute sale proceeds after paying off debt?
+real estate	property sale and recapture	What happens to depreciation from a prior owner when I sell inherited property?
+real estate	property sale and recapture	What after-tax price makes a direct sale better than a complicated exchange?
+real estate	syndication and partnership	What tax diligence should an investor demand before funding a real estate syndication?
+real estate	syndication and partnership	How do sponsor fees change the opening tax basis of a property deal?
+real estate	syndication and partnership	Can I use my share of cost segregation losses against other business income?
+real estate	syndication and partnership	What happens to outside basis when a syndication refinances and distributes cash?
+real estate	syndication and partnership	Should a partnership elect Section 754 after an investor buys another member's interest?
+real estate	syndication and partnership	How are capital accounts affected when a partner contributes appreciated real estate?
+real estate	syndication and partnership	What tax issues arise when a property partnership admits a new investor midyear?
+real estate	syndication and partnership	How should an operating agreement allocate sale proceeds and tax gain differently?
+real estate	syndication and partnership	Can a sponsor recover organizational costs before the first property closes?
+real estate	syndication and partnership	How does partnership debt affect an investor's ability to deduct losses?
+real estate	syndication and partnership	What records support a special allocation of depreciation among investors?
+real estate	syndication and partnership	What happens if the syndication sells the property before planned distributions?
+real estate	syndication and partnership	Can an investor exit a real estate partnership through a 1031 exchange?
+real estate	syndication and partnership	How does a partnership interest sale differ from a sale of the underlying building?
+real estate	syndication and partnership	What happens to suspended losses when I sell my entire syndication interest?
+real estate	syndication and partnership	How should preferred returns and promote allocations be reported on K-1s?
+real estate	syndication and partnership	What tax review is needed before distributing appreciated property to a partner?
+real estate	syndication and partnership	Can a partnership allocate an insurance gain to the owners who bore the loss?
+real estate	syndication and partnership	How do I reconcile a corrected K-1 after filing my investor return?
+real estate	syndication and partnership	What happens when a sponsor guarantee is released after a refinance?
+real estate	syndication and partnership	How should investors evaluate a large first-year loss before subscribing?
+real estate	syndication and partnership	Can a family partnership contribute a building with a mortgage above basis?
+real estate	syndication and partnership	What happens to tax basis when an investor funds a capital call?
+real estate	syndication and partnership	How should a sponsor allocate acquisition fees across several properties?
+real estate	syndication and partnership	What tax records should an investor request before signing a partnership buyout?
+real estate	refinance and debt	Is cash from refinancing my rental taxable when I distribute it to myself?
+real estate	refinance and debt	How should loan proceeds used for another business be traced for interest deductions?
+real estate	refinance and debt	What happens to partnership basis when property debt is refinanced?
+real estate	refinance and debt	Can a rental owner deduct loan points paid on a major refinance?
+real estate	refinance and debt	How does refinancing before a 1031 exchange affect taxable boot?
+real estate	refinance and debt	What tax review is needed before a cash-out refinance of several buildings?
+real estate	refinance and debt	How do lender reserves and escrow deposits affect the property's tax ledger?
+real estate	refinance and debt	What happens when a partner guarantees a loan but has not paid it?
+real estate	refinance and debt	Can a heavily leveraged property still use a large depreciation deduction?
+real estate	refinance and debt	How should construction debt be allocated among homes completed in phases?
+real estate	refinance and debt	Does a debt reduction create taxable income after a distressed property workout?
+real estate	refinance and debt	What happens to unamortized financing costs when I replace a loan?
+real estate	refinance and debt	Can my operating company lend money to the rental property LLC?
+real estate	refinance and debt	How should interest be traced when refinance proceeds fund a renovation?
+real estate	refinance and debt	What tax basis effect follows a property partnership's debt payoff?
+real estate	refinance and debt	Can an investor distribute refinance cash without releasing suspended losses?
+real estate	refinance and debt	How does a lender's assumption of debt change my property sale proceeds?
+real estate	refinance and debt	What happens if a commercial mortgage is modified before a property sale?
+real estate	refinance and debt	How should related-party loans to a property LLC be documented?
+real estate	refinance and debt	Can a partner buyout be funded with a property refinance without unintended gain?
+real estate	refinance and debt	What records support the business use of cash-out refinancing proceeds?
+real estate	refinance and debt	How do debt-financed distributions affect investors with limited basis?
+real estate	refinance and debt	Should I refinance or sell a mature rental after comparing after-tax cash flow?
+real estate	refinance and debt	How does a loan forgiveness settlement affect the property's adjusted basis?
+real estate	refinance and debt	What tax issues arise when several properties secure one portfolio loan?
+real estate	commercial leasing	I funded a tenant build-out; who owns and depreciates the improvements?
+real estate	commercial leasing	How should a landlord treat a large tenant improvement allowance?
+real estate	commercial leasing	What happens to an old build-out when a tenant leaves and space is renovated?
+real estate	commercial leasing	Can I deduct a payment to terminate a below-market commercial lease?
+real estate	commercial leasing	How does a rent-free period affect the landlord's tax reporting?
+real estate	commercial leasing	What happens when a tenant prepays several years of rent before a property sale?
+real estate	commercial leasing	How should a retail center allocate common-area improvement costs across tenants?
+real estate	commercial leasing	Can a landlord depreciate tenant-owned signage or equipment?
+real estate	commercial leasing	How do lease renewal costs differ from new-tenant acquisition costs?
+real estate	commercial leasing	What tax records matter when a major tenant buys out its lease?
+real estate	commercial leasing	How should an office landlord treat a cash allowance paid directly to a tenant?
+real estate	commercial leasing	Can I use cost segregation after converting a warehouse to multiple tenant spaces?
+real estate	commercial leasing	What happens when a tenant removes improvements at lease expiration?
+real estate	commercial leasing	How should a ground-lease payment be treated in a development model?
+real estate	commercial leasing	What tax consequences follow a lease modification during a building refinance?
+real estate	commercial leasing	Can a landlord deduct broker commissions paid for a long-term tenant?
+real estate	commercial leasing	How do I model a tenant's percentage rent in a retail property acquisition?
+real estate	commercial leasing	What happens when tenant security deposits transfer to a buyer at closing?
+real estate	commercial leasing	How should a landlord document rent concessions granted during a renovation?
+real estate	commercial leasing	Can a medical office owner classify specialty build-outs separately from the building?
+real estate	commercial leasing	What tax issues arise when the property owner and tenant business share owners?
+real estate	commercial leasing	How should a property owner account for insurance proceeds on tenant damage?
+real estate	commercial leasing	Can a landlord retire the remaining basis of improvements demolished for a new tenant?
+real estate	commercial leasing	What tax review is needed before signing a sale-leaseback of operating real estate?
+real estate	commercial leasing	How should a commercial landlord compare after-tax returns from renewal versus redevelopment?
