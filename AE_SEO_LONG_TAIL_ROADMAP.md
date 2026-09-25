@@ -113,6 +113,12 @@ Before a URL is approved, it must also pass an intent test. A keyword variation 
 
 High-ranking terms such as “cost segregation airbnb,” “form 3115 depreciation,” and “how long does amended return take” are defend-and-convert assets. Their next job is to pass authority and qualified visitors into the correction and review services—not to spawn synonyms.
 
+### Researched next candidate — S-corporation sale election price
+
+- Buyer question: “The buyer of my S corporation wants a Section 338(h)(10) election. How much more should they pay to cover my extra tax?” The likely searcher is a selling principal negotiating a substantial stock purchase, able to hire AE before agreeing to the election. The economic decision spans asset-character gain, shareholder stock basis, state tax, purchase-price allocation, and several parties' returns. A seller-side after-tax proceeds and Form 1120-S/Form 8023/Form 8883 review is a credible paid engagement; the premium-owner gate passes.
+- Pre-draft score: buyer/consultation **29/30**, distinctness/canonical fit **24/25** (improve AE's existing `/blog/section-338h10-336e-election-business-sale/`, not a second election URL), evidence **15/20** (no exact 338(h)(10) or 336(e) row in the supplied organic-position export; current results include explicit seller gross-up negotiations and actual contract price-adjustment clauses, but no exact-query volume is claimed), paid-service fit **15/15**, authority/competitive gap **9/10** (existing guide says to model a gross-up but does not calculate an owner decision). **Total: 92/100.** The current IRS Form 8023 and Form 8883 instructions support the eligibility, signatures, and allocation checks; competitor results are query-language evidence, not tax authority.
+- Proposed substantive improvement: a stock-sale versus deemed-asset-sale comparison, iterative after-tax price floor rather than a universal percentage, seller and buyer value drivers, election/consent deadlines, state and built-in-gain caveats, a complete document packet, and two standalone problem-specific `/discovery/` CTAs. Do not draft or deploy until the preceding partnership-1031 sitemap gate is resolved; this is a researched candidate, not an accepted campaign target or new URL.
+
 ## September 23 implementation
 
 Nine distinct, source-backed guides were added:
