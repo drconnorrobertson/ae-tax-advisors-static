@@ -2948,7 +2948,13 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/blog/section-338h10-336e-election-business-sale/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/s-corp-stock-purchase-building-cost-segregation-basis/</loc>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
