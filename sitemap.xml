@@ -565,6 +565,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.aetaxadvisors.com/blog/business-acquisition-diligence-banker-fees-deductible/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.aetaxadvisors.com/blog/business-asset-sale-assumed-liabilities-form-8594/</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -811,20 +817,26 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.aetaxadvisors.com/blog/business-sale-noncompete-payment/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.aetaxadvisors.com/blog/business-sale-post-closing-consulting-payments/</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.aetaxadvisors.com/blog/business-sale-seller-note-default-tax-return/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <loc>https://www.aetaxadvisors.com/blog/business-sale-rollover-equity-taxable-at-closing/</loc>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.aetaxadvisors.com/blog/business-sale-noncompete-payment/</loc>
-    <lastmod>2026-09-23</lastmod>
+    <loc>https://www.aetaxadvisors.com/blog/business-sale-seller-note-default-tax-return/</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -885,6 +897,24 @@
   <url>
     <loc>https://www.aetaxadvisors.com/blog/business-website-development-costs/</loc>
     <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/buy-business-assets-seller-unpaid-form-941/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/c-corp-appreciated-real-estate-distribution-before-sale/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/c-corp-founder-personal-goodwill-asset-sale/</loc>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1125,6 +1155,18 @@
   <url>
     <loc>https://www.aetaxadvisors.com/blog/clean-up-books-before-selling-business/</loc>
     <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/commercial-landlord-tenant-lease-cancellation-payment-tax/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/commercial-tenant-landlord-lease-surrender-payment-tax/</loc>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2335,8 +2377,44 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.aetaxadvisors.com/blog/partner-dies-before-real-estate-partnership-sale-754-basis/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/partnership-cash-out-refinance-distribution-tax/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/partnership-cash-redemption-734b-depreciation/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.aetaxadvisors.com/blog/partnership-debt-basis-recourse-nonrecourse/</loc>
     <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/partnership-distributes-mortgaged-building-other-partner-gain/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/partnership-mortgage-forgiveness-before-property-sale/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/partnership-other-property-distribution-section-737/</loc>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2373,6 +2451,12 @@
   <url>
     <loc>https://www.aetaxadvisors.com/blog/post-divorce-entity-restructuring/</loc>
     <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/private-company-sale-bonus-section-280g/</loc>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2665,18 +2749,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.aetaxadvisors.com/blog/commercial-landlord-tenant-lease-cancellation-payment-tax/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/tenant-owned-leasehold-improvements-early-move-tax/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.aetaxadvisors.com/blog/rental-property-loss-sale-to-relative/</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -2863,6 +2935,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.aetaxadvisors.com/blog/s-corp-owner-dies-before-business-asset-sale/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.aetaxadvisors.com/blog/s-corp-salary-optimization-2026/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -2877,6 +2955,18 @@
   <url>
     <loc>https://www.aetaxadvisors.com/blog/s-corp-shareholder-buyout-company-cash/</loc>
     <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/s-corp-stock-purchase-building-cost-segregation-basis/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/s-corp-stock-revocable-trust-after-owner-death/</loc>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2960,108 +3050,6 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/blog/section-338h10-336e-election-business-sale/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/c-corp-appreciated-real-estate-distribution-before-sale/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/partnership-cash-out-refinance-distribution-tax/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/partnership-mortgage-forgiveness-before-property-sale/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/upper-tier-partnership-received-form-8986-pay-or-push-out/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/buy-business-assets-seller-unpaid-form-941/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/partnership-distributes-mortgaged-building-other-partner-gain/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/commercial-tenant-landlord-lease-surrender-payment-tax/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/partnership-cash-redemption-734b-depreciation/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/business-sale-rollover-equity-taxable-at-closing/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/private-company-sale-bonus-section-280g/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/business-acquisition-diligence-banker-fees-deductible/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/c-corp-founder-personal-goodwill-asset-sale/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/s-corp-owner-dies-before-business-asset-sale/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/partner-dies-before-real-estate-partnership-sale-754-basis/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/partnership-other-property-distribution-section-737/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/s-corp-stock-purchase-building-cost-segregation-basis/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/s-corp-stock-revocable-trust-after-owner-death/</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3571,6 +3559,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.aetaxadvisors.com/blog/tenant-owned-leasehold-improvements-early-move-tax/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.aetaxadvisors.com/blog/three-year-lookback-strategy-for-tax-savings/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -3585,6 +3579,12 @@
   <url>
     <loc>https://www.aetaxadvisors.com/blog/unfiled-tax-returns-strategy/</loc>
     <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/upper-tier-partnership-received-form-8986-pay-or-push-out/</loc>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3913,12 +3913,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.aetaxadvisors.com/build-to-rent-homes-placed-in-service-tax-review/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.aetaxadvisors.com/business-exit-tax-planning-minimize-taxes-selling-company/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -3965,18 +3959,6 @@
     <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/business-sale-customer-deposits-tax-allocation/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/business-sale-seller-note-default-tax-review/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/business-tax-advisor-vs-cpa/</loc>
@@ -5911,12 +5893,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.aetaxadvisors.com/landlord-funded-tenant-buildout-tax-review/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.aetaxadvisors.com/llc-vs-s-corp-vs-c-corp-500k-business/</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -6111,12 +6087,6 @@
   <url>
     <loc>https://www.aetaxadvisors.com/missouri/</loc>
     <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/mixed-use-building-depreciation-classification-review/</loc>
-    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
