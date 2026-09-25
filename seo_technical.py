@@ -202,7 +202,12 @@ STICKY = """
 """
 
 
-def ensure_sticky(html: str) -> tuple[str, int]:
+def ensure_sticky(html: str, path: Path) -> tuple[str, int]:
+    # The standalone booking page is itself the conversion destination. A
+    # sticky link back to the same URL obscures the scheduler and has no site
+    # stylesheet on this intentionally self-contained page.
+    if path.relative_to(ROOT).as_posix() == "discovery/index.html":
+        return html, 0
     if "sticky-cta" in html:
         return html, 0
     at = html.rfind(BODY_CLOSE)
@@ -221,7 +226,7 @@ def main() -> int:
 
         html, n_img = fix_images(html)
         html, s = ensure_head_bits(html)
-        html, n_sticky = ensure_sticky(html)
+        html, n_sticky = ensure_sticky(html, path)
 
         if html != original:
             path.write_text(html, encoding="utf-8")
