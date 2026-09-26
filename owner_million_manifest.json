@@ -3,8 +3,8 @@
     "id": 1,
     "question": "How much tax does a business owner pay on $1 million in profit?",
     "answer": "There is no single tax rate on $1 million of business profit. Entity type, owner wages, filing status, state taxes, QBI eligibility, credits, and other household income change the result. Model federal income tax, employment tax, and each applicable state separately before choosing a reserve percentage.",
-    "slug": "tax-strategies-business-owners-earning-over-1-million",
-    "url": "/blog/tax-strategies-business-owners-earning-over-1-million/",
+    "slug": "million-profit-business-owner-tax-bill",
+    "url": "/blog/million-profit-business-owner-tax-bill/",
     "group": "Tax bill and entity choice",
     "source": "https://www.irs.gov/publications/p334"
   },
