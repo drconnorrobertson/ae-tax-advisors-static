@@ -6,7 +6,6 @@ from discovery_inventory import ROOT, BASE
 from build_owner_decision_guides import POSTS
 
 SNIPPETS = {
- 'blog/can-my-business-pay-for-my-cell-phone-and-internet': ('Business Cell Phone & Internet Deductions | AE Tax', 'Business owners: see how cell phone and internet deductions differ for sole proprietors and corporations, including reimbursement and documentation.'),
  'blog/macrs-depreciation-schedule-explained': ('MACRS Depreciation: Methods, Lives & Conventions | AE Tax', 'Understand MACRS recovery periods, depreciation methods and conventions for business equipment and rental property, with examples and planning limits.'),
  'blog/can-my-s-corp-pay-for-my-health-insurance': ('S-Corp Owner Health Insurance: W-2 Treatment | AE Tax', 'Learn how an S corporation handles health insurance for a more-than-2% owner, including W-2 reporting, reimbursement and deduction requirements.'),
  'blog/how-do-s-corp-distributions-work-and-are-they-taxed': ('S-Corp Distributions: Tax, Stock Basis & Salary | AE Tax', 'See when S-corp distributions are taxable, why stock basis matters, and how owner distributions differ from wages and shareholder loan repayments.'),

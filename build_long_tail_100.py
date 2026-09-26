@@ -376,6 +376,9 @@ def main() -> None:
     prior = set(manifest.read_text().splitlines()) if manifest.exists() else set()
     assert not prior or prior == slugs, "Manifest does not match the current page inventory"
     for row, is_real in [(r, True) for r in real] + [(r, False) for r in business]:
+        # These have distinct, expanded content maintained by the cluster builder.
+        if row[0] in {'business-employee-cell-phone', 'business-employee-home-internet'}:
+            continue
         assert re.fullmatch(r"[a-z0-9-]+", row[0])
         target = Path("blog") / row[0] / "index.html"
         assert not target.exists() or row[0] in prior, f"Existing page collision: {target}"

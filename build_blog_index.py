@@ -11,6 +11,7 @@ from pathlib import Path
 import site_template as T
 import seo_topics as TOPICS
 from build_tax_return_mistakes import POSTS as RETURN_REVIEW_POSTS
+from build_communications_cluster import POSTS as COMMUNICATION_POSTS
 from discovery_inventory import eligible, redirects
 
 BASE = "/blog/"
@@ -73,7 +74,9 @@ def collect() -> list[dict]:
             "title": title,
             "desc": desc,
             "date": date,
-            "category": "Tax Return Mistakes" if d.name in {p['slug'] for p in RETURN_REVIEW_POSTS} else TOPICS.TOPICS[topic][1],
+            "category": ("Tax Return Mistakes" if d.name in {p['slug'] for p in RETURN_REVIEW_POSTS}
+                         else "Business Deductions" if '/blog/'+d.name+'/' in {p['path'] for p in COMMUNICATION_POSTS}
+                         else TOPICS.TOPICS[topic][1]),
         })
     return posts
 

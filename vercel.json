@@ -3,6 +3,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/how-to-write-off-your-cell-phone-and-internet-for-business-use/",
+      "destination": "/blog/can-my-business-pay-for-my-cell-phone-and-internet/",
+      "statusCode": 301
+    },
+    {
       "source": "/blog/real-estate-professional-status-hours-documentation/",
       "destination": "/reps-real-estate-professional-status/",
       "statusCode": 301
