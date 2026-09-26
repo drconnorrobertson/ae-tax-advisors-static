@@ -1,156 +1,359 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
   <channel>
-    <title>AE Tax Advisors Blog</title>
-    <link>https://www.aetaxadvisors.com/blog</link>
-    <description>Tax planning strategies, cost segregation insights, and financial guidance for high-income professionals and business owners from AE Tax Advisors.</description>
+    <title>AE Tax Advisors — Business and Real Estate Owners</title>
+    <link>https://www.aetaxadvisors.com/blog/</link>
+    <description>Tax planning articles for business owners and real estate owners.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 11:41:56 +0000</lastBuildDate>
-    <atom:link href="https://www.aetaxadvisors.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <image>
-      <url>https://www.aetaxadvisors.com/assets/logo.svg</url>
-      <title>AE Tax Advisors Blog</title>
-      <link>https://www.aetaxadvisors.com</link>
-    </image>
     <item>
-      <title>Defined Benefit &amp; Cash Balance Retirement Plans for Veterinarians</title>
-      <link>https://www.aetaxadvisors.com/veterinarian-retirement-planning/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/veterinarian-retirement-planning/</guid>
-      <description>Defined benefit and cash balance retirement plans for veterinarians earning $200K-$500K. Shelter $209,000+/year tax-deferred.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Rental Partnership Refinance: Distribution and Basis | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/rental-partnership-refinance-distribution-basis/</link>
+      <description>Before a rental partnership distributes refinance proceeds, reconcile each partner’s outside basis, liability share and cash distribution.</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/rental-partnership-refinance-distribution-basis/</guid>
     </item>
     <item>
-      <title>Deferred Compensation &amp; Equity Tax Planning for Real Estate Investors</title>
-      <link>https://www.aetaxadvisors.com/real-estate-investor-deferred-compensation/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/real-estate-investor-deferred-compensation/</guid>
-      <description>Deferred compensation and equity tax planning for real estate investors. Optimize 409A elections, ISOs, RSUs, and profits interests to defer $187,500+/year.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Electing Out of Bonus Depreciation by Asset Class | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/elect-out-bonus-depreciation-asset-class/</link>
+      <description>Business and property owners should model bonus depreciation elections by asset class, including other purchases, future income and state differences.</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/elect-out-bonus-depreciation-asset-class/</guid>
     </item>
     <item>
-      <title>Deferred Compensation &amp; Equity Tax Planning for Business Owners</title>
-      <link>https://www.aetaxadvisors.com/business-owner-deferred-compensation/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/business-owner-deferred-compensation/</guid>
-      <description>Deferred compensation and equity tax planning for business owners. Optimize 409A elections, ISOs, RSUs, and profits interests to defer $200,000+/year.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Cost Segregation Report: Basis Reconciliation Checklist | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/cost-segregation-report-basis-reconciliation/</link>
+      <description>Check a completed cost segregation report against land, building basis, prior depreciation and separately purchased assets before implementing it.</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/cost-segregation-report-basis-reconciliation/</guid>
     </item>
     <item>
-      <title>Exit &amp; M&amp;A Tax Strategy for Business Owners: Minimize Capital Gains</title>
-      <link>https://www.aetaxadvisors.com/business-owner-exit-strategy/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/business-owner-exit-strategy/</guid>
-      <description>Exit and M&amp;A tax planning for business owners. Reduce capital gains taxes by $500K+ on practice or business sales. IRC Section 453, 1202, and CRT strategies.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Cost Segregation on a Related-Party Purchase | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/cost-segregation-related-party-property-purchase/</link>
+      <description>Buying a building from family or another entity you own? Separate cost segregation from bonus eligibility before projecting a first-year deduction.</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/cost-segregation-related-party-property-purchase/</guid>
     </item>
     <item>
-      <title>Cost Segregation for Attorneys: Accelerate Depreciation &amp; Cut Taxes</title>
-      <link>https://www.aetaxadvisors.com/attorney-cost-segregation/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/attorney-cost-segregation/</guid>
-      <description>Cost segregation studies for attorneys who own real estate. Accelerate depreciation, generate $25,000+ first-year savings. IRS-compliant engineering studies.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Equipment Trade-In: Basis and Depreciation Recapture | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/business-equipment-trade-in-depreciation-recapture/</link>
+      <description>Trading in business equipment can create a taxable disposition. Separate the old asset’s gain from the new asset’s cost before forecasting deductions.</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/business-equipment-trade-in-depreciation-recapture/</guid>
     </item>
     <item>
-      <title>Exit &amp; M&amp;A Tax Strategy for Real Estate Investors: Minimize Capital Gains</title>
-      <link>https://www.aetaxadvisors.com/real-estate-investor-exit-strategy/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/real-estate-investor-exit-strategy/</guid>
-      <description>Exit and M&amp;A tax planning for real estate investors. Reduce capital gains taxes by $500K+ on practice or business sales. IRC Section 453, 1202, and CRT strategi</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Equipment Delivered in December but Not Operational | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/business-equipment-delivered-not-operational-year-end/</link>
+      <description>A deposit or December delivery does not settle depreciation timing. Business owners should document installation, readiness and actual equipment use.</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/business-equipment-delivered-not-operational-year-end/</guid>
     </item>
     <item>
-      <title>Deferred Compensation &amp; Equity Tax Planning for Tech Executives</title>
-      <link>https://www.aetaxadvisors.com/tech-executive-deferred-compensation/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/tech-executive-deferred-compensation/</guid>
-      <description>Deferred compensation and equity tax planning for tech executives. Optimize 409A elections, ISOs, RSUs, and profits interests to defer $375,000+/year.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Upper-Tier Partnership Got Form 8986: Pay or Push Out?</title>
+      <link>https://www.aetaxadvisors.com/blog/upper-tier-partnership-received-form-8986-pay-or-push-out/</link>
+      <description>Your upper-tier partnership received Form 8986. Compare paying the imputed underpayment with pushing adjustments to investors, and check the filing deadline.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/upper-tier-partnership-received-form-8986-pay-or-push-out/</guid>
     </item>
     <item>
-      <title>Deferred Compensation &amp; Equity Tax Planning for Consultants</title>
-      <link>https://www.aetaxadvisors.com/consultant-deferred-compensation/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/consultant-deferred-compensation/</guid>
-      <description>Deferred compensation and equity tax planning for consultants. Optimize 409A elections, ISOs, RSUs, and profits interests to defer $125,000+/year.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Unequal S Corp Distributions: Is the Election at Risk?</title>
+      <link>https://www.aetaxadvisors.com/blog/s-corp-unequal-shareholder-distributions-election/</link>
+      <description>Paid one S corp owner more than another? Check the governing rights, shareholder basis, and correction path before filing Form 1120-S.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/s-corp-unequal-shareholder-distributions-election/</guid>
     </item>
     <item>
-      <title>Deferred Compensation &amp; Equity Tax Planning for Financial Advisors</title>
-      <link>https://www.aetaxadvisors.com/financial-advisor-deferred-compensation/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/financial-advisor-deferred-compensation/</guid>
-      <description>Deferred compensation and equity tax planning for financial advisors. Optimize 409A elections, ISOs, RSUs, and profits interests to defer $150,000+/year.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Inherited S Corp Stock in a Trust: Election Deadline</title>
+      <link>https://www.aetaxadvisors.com/blog/s-corp-stock-revocable-trust-after-owner-death/</link>
+      <description>Founder died and S corp shares remain in a revocable trust? Map the two-year eligibility window, QSST or ESBT election, and late-relief path.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/s-corp-stock-revocable-trust-after-owner-death/</guid>
     </item>
     <item>
-      <title>Exit &amp; M&amp;A Tax Strategy for Attorneys: Minimize Capital Gains</title>
-      <link>https://www.aetaxadvisors.com/attorney-exit-strategy/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/attorney-exit-strategy/</guid>
-      <description>Exit and M&amp;A tax planning for attorneys. Reduce capital gains taxes by $500K+ on practice or business sales. IRC Section 453, 1202, and CRT strategies.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Stock Purchase and Building Cost Segregation | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/s-corp-stock-purchase-building-cost-segregation-basis/</link>
+      <description>Buying stock in an S corporation that owns a commercial building? Learn when the buyer gets new property basis for cost segregation and what to model before closing.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/s-corp-stock-purchase-building-cost-segregation-basis/</guid>
     </item>
     <item>
-      <title>Exit &amp; M&amp;A Tax Strategy for Tech Executives: Minimize Capital Gains</title>
-      <link>https://www.aetaxadvisors.com/tech-executive-exit-strategy/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/tech-executive-exit-strategy/</guid>
-      <description>Exit and M&amp;A tax planning for tech executives. Reduce capital gains taxes by $500K+ on practice or business sales. IRC Section 453, 1202, and CRT strategies.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>S Corp Owner Died Before Sale: Who Reports the Gain?</title>
+      <link>https://www.aetaxadvisors.com/blog/s-corp-owner-dies-before-business-asset-sale/</link>
+      <description>An S corporation owner died before an asset sale. Compare daily K-1 allocation, a Section 1377 election, estate stock basis, and return records.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/s-corp-owner-dies-before-business-asset-sale/</guid>
     </item>
     <item>
-      <title>Cost Segregation for Consultants: Accelerate Depreciation &amp; Cut Taxes</title>
-      <link>https://www.aetaxadvisors.com/consultant-cost-segregation/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/consultant-cost-segregation/</guid>
-      <description>Cost segregation studies for consultants who own real estate. Accelerate depreciation, generate $25,000+ first-year savings. IRS-compliant engineering studies.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Partnership Section 737: Is a Property Swap Taxable?</title>
+      <link>https://www.aetaxadvisors.com/blog/partnership-other-property-distribution-section-737/</link>
+      <description>Contributed appreciated real estate to a partnership? Before taking a different property, test Section 737 gain, outside basis, and the seven-year rule.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/partnership-other-property-distribution-section-737/</guid>
     </item>
     <item>
-      <title>Defined Benefit &amp; Cash Balance Retirement Plans for Dentists</title>
-      <link>https://www.aetaxadvisors.com/dentist-retirement-planning/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/dentist-retirement-planning/</guid>
-      <description>Defined benefit and cash balance retirement plans for dentists earning $300K-$700K. Shelter $249,000+/year tax-deferred.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Partnership Mortgage Forgiveness Before a Sale: Tax?</title>
+      <link>https://www.aetaxadvisors.com/blog/partnership-mortgage-forgiveness-before-property-sale/</link>
+      <description>A lender will forgive partnership mortgage debt before a sale. See who reports cancellation income, which exclusions partners test, and the records needed.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/partnership-mortgage-forgiveness-before-property-sale/</guid>
     </item>
     <item>
-      <title>Cost Segregation for Dentists: Accelerate Depreciation &amp; Cut Taxes</title>
-      <link>https://www.aetaxadvisors.com/dentist-cost-segregation/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/dentist-cost-segregation/</guid>
-      <description>Cost segregation studies for dentists who own real estate. Accelerate depreciation, generate $22,500+ first-year savings. IRS-compliant engineering studies.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Partnership Distributes Mortgaged Property: Tax?</title>
+      <link>https://www.aetaxadvisors.com/blog/partnership-distributes-mortgaged-building-other-partner-gain/</link>
+      <description>If a partnership distributes a mortgaged building to one partner, another partner may have gain from debt relief without cash. See the basis and filing checks.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/partnership-distributes-mortgaged-building-other-partner-gain/</guid>
     </item>
     <item>
-      <title>Exit &amp; M&amp;A Tax Strategy for Dentists: Minimize Capital Gains</title>
-      <link>https://www.aetaxadvisors.com/dentist-exit-strategy/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/dentist-exit-strategy/</guid>
-      <description>Exit and M&amp;A tax planning for dentists. Reduce capital gains taxes by $500K+ on practice or business sales. IRC Section 453, 1202, and CRT strategies.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Cash Partner Redemption and Section 734(b) | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/partnership-cash-redemption-734b-depreciation/</link>
+      <description>Redeeming a real estate partner for cash? See when Section 734(b) changes remaining-property basis, what can be depreciated, and why bonus differs.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/partnership-cash-redemption-734b-depreciation/</guid>
     </item>
     <item>
-      <title>Cost Segregation for Physicians: Accelerate Depreciation &amp; Cut Taxes</title>
-      <link>https://www.aetaxadvisors.com/physician-cost-segregation/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/physician-cost-segregation/</guid>
-      <description>Cost segregation studies for physicians who own real estate. Accelerate depreciation, generate $30,000+ first-year savings. IRS-compliant engineering studies.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Partnership Cash-Out Refi: Is the Payout Taxable?</title>
+      <link>https://www.aetaxadvisors.com/blog/partnership-cash-out-refinance-distribution-tax/</link>
+      <description>Your property partnership refinanced and paid owners cash. Test each partner's outside basis, debt share, and possible gain before treating the payout as tax-free.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/partnership-cash-out-refinance-distribution-tax/</guid>
     </item>
     <item>
-      <title>Defined Benefit &amp; Cash Balance Retirement Plans for Business Owners</title>
-      <link>https://www.aetaxadvisors.com/business-owner-retirement-planning/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/business-owner-retirement-planning/</guid>
-      <description>Defined benefit and cash balance retirement plans for business owners earning $300K-$3M+. Shelter $389,000+/year tax-deferred.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Partner Died Before Sale: Section 754 Step-Up?</title>
+      <link>https://www.aetaxadvisors.com/blog/partner-dies-before-real-estate-partnership-sale-754-basis/</link>
+      <description>A partner died before the real estate partnership sold. See why inherited interest basis and a Section 743(b) adjustment are different—and what the executor should check.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/partner-dies-before-real-estate-partnership-sale-754-basis/</guid>
     </item>
     <item>
-      <title>Defined Benefit &amp; Cash Balance Retirement Plans for Financial Advisors</title>
-      <link>https://www.aetaxadvisors.com/financial-advisor-retirement-planning/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/financial-advisor-retirement-planning/</guid>
-      <description>Defined benefit and cash balance retirement plans for financial advisors earning $300K-$2M+. Shelter $309,000+/year tax-deferred.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Landlord Pays Tenant to Exit Commercial Lease: Tax?</title>
+      <link>https://www.aetaxadvisors.com/blog/commercial-tenant-landlord-lease-surrender-payment-tax/</link>
+      <description>Landlord paying your operating business to surrender a commercial lease? Section 1241 treats the lease payment as an exchange, but character and other payouts differ.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/commercial-tenant-landlord-lease-surrender-payment-tax/</guid>
     </item>
     <item>
-      <title>Exit &amp; M&amp;A Tax Strategy for Veterinarians: Minimize Capital Gains</title>
-      <link>https://www.aetaxadvisors.com/veterinarian-exit-strategy/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/veterinarian-exit-strategy/</guid>
-      <description>Exit and M&amp;A tax planning for veterinarians. Reduce capital gains taxes by $500K+ on practice or business sales. IRC Section 453, 1202, and CRT strategies.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Tenant Lease-Cancellation Fee Before a Sale | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/commercial-landlord-tenant-lease-cancellation-payment-tax/</link>
+      <description>A commercial tenant paid to end its lease before your building sale. Is the fee rent or sale gain? See the return split, closing example, and records to keep.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/commercial-landlord-tenant-lease-cancellation-payment-tax/</guid>
     </item>
     <item>
-      <title>Defined Benefit &amp; Cash Balance Retirement Plans for Physicians</title>
-      <link>https://www.aetaxadvisors.com/physician-retirement-planning/</link>
-      <guid isPermaLink="true">https://www.aetaxadvisors.com/physician-retirement-planning/</guid>
-      <description>Defined benefit and cash balance retirement plans for physicians earning $400K-$800K. Shelter $309,000+/year tax-deferred.</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0400</pubDate>
+      <title>Cash-Basis Business Sale: Who Pays Tax on Receivables?</title>
+      <link>https://www.aetaxadvisors.com/blog/cash-basis-business-sale-accounts-receivable-tax/</link>
+      <description>Selling a cash-basis business with unpaid invoices? See how receivables affect ordinary income, Form 8594 and the sale-year return.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/cash-basis-business-sale-accounts-receivable-tax/</guid>
+    </item>
+    <item>
+      <title>Distribute C-Corp Real Estate Before a Sale? | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/c-corp-appreciated-real-estate-distribution-before-sale/</link>
+      <description>Selling a C corporation that owns appreciated real estate? Model the corporate gain and shareholder distribution before moving the building out of the company.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/c-corp-appreciated-real-estate-distribution-before-sale/</guid>
+    </item>
+    <item>
+      <title>Buying Business Assets With Unpaid Form 941 Taxes?</title>
+      <link>https://www.aetaxadvisors.com/blog/buy-business-assets-seller-unpaid-form-941/</link>
+      <description>Buying a business whose seller owes Form 941 payroll taxes? Check entity debt, tax liens, successor liability, and closing records before choosing an asset deal.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/buy-business-assets-seller-unpaid-form-941/</guid>
+    </item>
+    <item>
+      <title>Is Rollover Equity Taxable at Closing? | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/business-sale-rollover-equity-taxable-at-closing/</link>
+      <description>Selling a business to private equity and keeping a stake? Learn when rollover equity may defer gain, when cash is taxable, and what to review before signing.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/business-sale-rollover-equity-taxable-at-closing/</guid>
+    </item>
+    <item>
+      <title>Buyer Assumed My Business Debt: What Goes on Form 8594?</title>
+      <link>https://www.aetaxadvisors.com/blog/business-asset-sale-assumed-liabilities-form-8594/</link>
+      <description>If a buyer assumes debt in your business asset sale, reconcile cash, liabilities, Form 8594 and the sale return before filing.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/business-asset-sale-assumed-liabilities-form-8594/</guid>
+    </item>
+    <item>
+      <title>Buying a Business: Are Deal Fees Deductible? | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/business-acquisition-diligence-banker-fees-deductible/</link>
+      <description>Buying an operating business? Separate diligence, closing, financing and success-based banker fees before deciding what to deduct or capitalize.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/business-acquisition-diligence-banker-fees-deductible/</guid>
+    </item>
+    <item>
+      <title>S Corp Buyout With Company Cash: Redemption or Sale?</title>
+      <link>https://www.aetaxadvisors.com/blog/s-corp-shareholder-buyout-company-cash/</link>
+      <description>Used S-corp cash to buy out a co-owner? Trace the stock buyer, cash flow, basis, and K-1s before filing. Book a return review with AE Tax.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/s-corp-shareholder-buyout-company-cash/</guid>
+    </item>
+    <item>
+      <title>S Corp Real Estate Distribution: What Goes on the Returns?</title>
+      <link>https://www.aetaxadvisors.com/blog/s-corp-appreciated-real-estate-distribution-tax-return/</link>
+      <description>An S corporation transferred appreciated real estate to an owner. See the gain, K-1, stock-basis, and 1040 steps to review before filing. Book a return review.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/s-corp-appreciated-real-estate-distribution-tax-return/</guid>
+    </item>
+    <item>
+      <title>Can My Syndication Deduct Offering Costs? | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/real-estate-syndication-offering-costs-form-1065/</link>
+      <description>Raising capital for a real estate deal? Separate placement and offering costs from partnership formation costs before filing Form 1065 and investor K-1s.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/real-estate-syndication-offering-costs-form-1065/</guid>
+    </item>
+    <item>
+      <title>Can a Landlord Deduct a Cash-for-Keys Tenant Buyout? | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/landlord-tenant-buyout-payment-tax-deduction/</link>
+      <description>Paying a tenant to leave before a sale or renovation? See when a landlord must capitalize the buyout, how the 12-month rule works, and what to document.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/landlord-tenant-buyout-payment-tax-deduction/</guid>
+    </item>
+    <item>
+      <title>Gift a Rental With Suspended Losses? | AE Tax Advisors</title>
+      <link>https://www.aetaxadvisors.com/blog/gift-rental-suspended-passive-losses/</link>
+      <description>Gifting a rental to your child with suspended passive losses? See why the gift does not release a deduction, how basis changes, and what to review before signing.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/gift-rental-suspended-passive-losses/</guid>
+    </item>
+    <item>
+      <title>Travel Costs When Buying Rental Property | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/can-i-deduct-travel-expenses-when-buying-rental-property/</link>
+      <description>Travel to buy rental property may be deductible, capitalized, a startup cost, or personal. Apply the purpose, timing, and existing-business tests.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/can-i-deduct-travel-expenses-when-buying-rental-property/</guid>
+    </item>
+    <item>
+      <title>Can I Use the Seller's Cost Segregation Study? | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/can-buyer-use-sellers-cost-segregation-study/</link>
+      <description>Bought a rental with the seller's cost segregation study? Learn what you can reuse, what must be revalued for your basis, and what to review before filing.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/can-buyer-use-sellers-cost-segregation-study/</guid>
+    </item>
+    <item>
+      <title>Buyer Defaulted on a Seller Note: Amend the Sale Return?</title>
+      <link>https://www.aetaxadvisors.com/blog/business-sale-seller-note-default-tax-return/</link>
+      <description>The buyer defaulted on your company-sale note. Learn when to keep, revise, or separately report the installment obligation before amending a return.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/business-sale-seller-note-default-tax-return/</guid>
+    </item>
+    <item>
+      <title>Business Sale Transition Payments: Price or Consulting?</title>
+      <link>https://www.aetaxadvisors.com/blog/business-sale-post-closing-consulting-payments/</link>
+      <description>Selling a company and staying to help the buyer? See when transition payments may be service income rather than sale proceeds and what to review before signing.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/business-sale-post-closing-consulting-payments/</guid>
+    </item>
+    <item>
+      <title>Can I 1031 Into a Vacation Home? | AE Tax Advisors</title>
+      <link>https://www.aetaxadvisors.com/blog/1031-exchange-rental-into-vacation-home/</link>
+      <description>Selling a rental and eyeing a vacation home? Test the IRS 24-month, fair-rent and personal-use safe harbor before signing the 1031 exchange documents.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/1031-exchange-rental-into-vacation-home/</guid>
+    </item>
+    <item>
+      <title>What Happens to Suspended Rental Losses at Death? | AE Tax Advisors</title>
+      <link>https://www.aetaxadvisors.com/blog/suspended-rental-losses-death-basis-step-up/</link>
+      <description>Suspended passive rental losses do not simply transfer to heirs. See how the basis increase can reduce the deduction on the decedent's final return.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/suspended-rental-losses-death-basis-step-up/</guid>
+    </item>
+    <item>
+      <title>Can Spouse and Co-Host Hours Count for STR Material Participation?</title>
+      <link>https://www.aetaxadvisors.com/blog/str-spouse-cohost-material-participation-hours/</link>
+      <description>Learn whose hours count toward short-term rental material participation, how co-host work affects the 100-hour test, and what records to keep.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/str-spouse-cohost-material-participation-hours/</guid>
+    </item>
+    <item>
+      <title>Do STR Maintenance Days Count as Personal Use? | AE Tax Advisors</title>
+      <link>https://www.aetaxadvisors.com/blog/str-personal-use-maintenance-days-tax/</link>
+      <description>Vacation-home rules can limit STR deductions. Learn when owner stays, family stays, and substantial maintenance days count as personal use.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/str-personal-use-maintenance-days-tax/</guid>
+    </item>
+    <item>
+      <title>Is a Short-Term Rental 27.5- or 39-Year Property? | AE Tax Advisors</title>
+      <link>https://www.aetaxadvisors.com/blog/str-39-year-recovery-period-nonresidential/</link>
+      <description>A seven-day average stay does not automatically decide an STR building's depreciation period. Apply the separate residential-rental and transient-lodging rules.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/str-39-year-recovery-period-nonresidential/</guid>
+    </item>
+    <item>
+      <title>S Corp Midyear Sale: Who Reports the Year's Profit?</title>
+      <link>https://www.aetaxadvisors.com/blog/s-corp-midyear-shareholder-change-income-allocation/</link>
+      <description>Selling an S corp midyear? Compare daily K-1 allocation with a closing-of-books election, owner consents, stock basis, and what to review before filing.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/s-corp-midyear-shareholder-change-income-allocation/</guid>
+    </item>
+    <item>
+      <title>Converted C Corp to S Corp: Is Our Payout a Dividend?</title>
+      <link>https://www.aetaxadvisors.com/blog/s-corp-accumulated-earnings-profits-distribution-order/</link>
+      <description>Planning a large payout after a C-to-S conversion? Separate AAA, old C-corp earnings, dividends, shareholder basis, and required reporting before paying cash.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/s-corp-accumulated-earnings-profits-distribution-order/</guid>
+    </item>
+    <item>
+      <title>Do Seller Credits Reduce Rental Property Basis? | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/rental-purchase-seller-credits-basis/</link>
+      <description>Bought a rental with seller credits? Separate a price concession from loan costs, tax prorations, and repair escrow before depreciating the property. Book a review.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/rental-purchase-seller-credits-basis/</guid>
+    </item>
+    <item>
+      <title>Vacant Rental During Renovation: What Can You Deduct?</title>
+      <link>https://www.aetaxadvisors.com/blog/rental-property-vacancy-expenses/</link>
+      <description>A rental sat empty during renovation? Separate ongoing expenses, improvements, depreciation, and passive losses before filing. Book a return review.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/rental-property-vacancy-expenses/</guid>
+    </item>
+    <item>
+      <title>Can a landlord deduct unpaid rent that was never received</title>
+      <link>https://www.aetaxadvisors.com/blog/rental-property-uncollectible-rent/</link>
+      <description>A cash-method landlord generally has no bad-debt deduction for rent never included in income; an accrual-method landlord may face a different analysis.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/rental-property-uncollectible-rent/</guid>
+    </item>
+    <item>
+      <title>Are expenses paid by a tenant taxable to the landlord</title>
+      <link>https://www.aetaxadvisors.com/blog/rental-property-tenant-paid-expenses/</link>
+      <description>When a tenant pays an expense that is the landlord's obligation, the payment is generally rental income to the owner and the owner may separately.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/rental-property-tenant-paid-expenses/</guid>
+    </item>
+    <item>
+      <title>Is a street or sewer assessment on a rental deductible</title>
+      <link>https://www.aetaxadvisors.com/blog/rental-property-special-assessment/</link>
+      <description>A local assessment for a specific property improvement generally increases basis; a charge for ordinary maintenance may be deductible as a rental expense.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/rental-property-special-assessment/</guid>
+    </item>
+    <item>
+      <title>When do services turn a short-term rental into a different tax activity | AE Tax Advisors</title>
+      <link>https://www.aetaxadvisors.com/blog/rental-property-short-stay-services/</link>
+      <description>Substantial services primarily for guest convenience can change how an accommodation activity is reported and may affect self-employment tax; routine.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/rental-property-short-stay-services/</guid>
+    </item>
+    <item>
+      <title>How is average guest stay measured for short-term rental passive rules</title>
+      <link>https://www.aetaxadvisors.com/blog/rental-property-short-stay-average-period/</link>
+      <description>The average customer use period is based on actual rental periods and can affect whether the activity is classified as a rental activity under Section.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/rental-property-short-stay-average-period/</guid>
+    </item>
+    <item>
+      <title>How are tenant services in exchange for rent taxed | AE Tax Advisors</title>
+      <link>https://www.aetaxadvisors.com/blog/rental-property-services-in-lieu-of-rent/</link>
+      <description>The fair market value of services a tenant provides instead of rent is generally rental income.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/rental-property-services-in-lieu-of-rent/</guid>
+    </item>
+    <item>
+      <title>Rental Sale Gain vs. Cash at Closing | AE Tax</title>
+      <link>https://www.aetaxadvisors.com/blog/rental-property-selling-costs-gain/</link>
+      <description>Sold a rental but received less cash than your taxable gain? Reconcile sale price, mortgage payoff, selling costs, and adjusted basis before filing.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.aetaxadvisors.com/blog/rental-property-selling-costs-gain/</guid>
     </item>
   </channel>
 </rss>

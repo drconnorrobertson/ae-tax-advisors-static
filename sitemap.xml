@@ -649,6 +649,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.aetaxadvisors.com/blog/business-equipment-delivered-not-operational-year-end/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/business-equipment-trade-in-depreciation-recapture/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.aetaxadvisors.com/blog/business-forgiven-loan-tax/</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -1447,6 +1459,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.aetaxadvisors.com/blog/cost-segregation-related-party-property-purchase/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/cost-segregation-report-basis-reconciliation/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.aetaxadvisors.com/blog/cost-segregation-restaurants-qip-treatment/</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -1689,6 +1713,12 @@
   <url>
     <loc>https://www.aetaxadvisors.com/blog/earnout-tax-treatment-business-sale/</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/elect-out-bonus-depreciation-asset-class/</loc>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2066,7 +2096,7 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/blog/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -2547,6 +2577,12 @@
   <url>
     <loc>https://www.aetaxadvisors.com/blog/rental-lease-up-costs-before-first-tenant/</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/blog/rental-partnership-refinance-distribution-basis/</loc>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3920,7 +3956,7 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/business-owner-tax-planning/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -4921,12 +4957,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.aetaxadvisors.com/cost-seg-estimator/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.aetaxadvisors.com/cost-segregation-500k-2m-properties/</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -4970,7 +5000,7 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/cost-segregation-calculator/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -5077,12 +5107,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.aetaxadvisors.com/cost-segregation-savings-calculator/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://www.aetaxadvisors.com/cost-segregation-second-opinion/</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -5108,7 +5132,7 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/cost-segregation-study/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -5726,7 +5750,7 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -6398,7 +6422,7 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/real-estate-tax-planning/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -7580,12 +7604,6 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/the-ultimate-tax-checklist-for-small-business-owners/</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/tools/cost-seg-calculator/</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

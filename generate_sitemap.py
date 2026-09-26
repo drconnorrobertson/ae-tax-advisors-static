@@ -12,6 +12,7 @@ import subprocess
 import argparse
 from datetime import date
 from pathlib import Path
+from discovery_inventory import eligible
 
 BASE = "https://www.aetaxadvisors.com"
 OUT = Path("sitemap.xml")
@@ -105,7 +106,7 @@ def main(preserve_changed=False):
 
         text = read(p)
         # Drop anything that canonicalizes elsewhere or is explicitly noindexed.
-        if canonical_of(text, slug) != url or NOINDEX.search(text) or url in redirects:
+        if not eligible(p.resolve(), text, dict.fromkeys(redirects)):
             skipped += 1
             continue
 

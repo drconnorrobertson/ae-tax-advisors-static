@@ -284,6 +284,7 @@ def build_page(
     <meta name="description" content="{d}">
     <link rel="canonical" href="{url}">
     <meta name="author" content="{AUTHOR}">
+    <link rel="alternate" type="application/rss+xml" title="AE Tax Advisors Owner Tax Articles" href="/feed.xml">
     <meta name="robots" content="{esc(robots)}">
     <meta property="og:title" content="{t}">
     <meta property="og:description" content="{d}">

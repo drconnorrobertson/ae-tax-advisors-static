@@ -10,11 +10,12 @@ from pathlib import Path
 
 import site_template as T
 import seo_topics as TOPICS
+from discovery_inventory import eligible, redirects
 
 BASE = "/blog/"
 OUT = T.ROOT / "blog"
 PUBLISHED = "2026-08-15"
-MODIFIED = "2026-08-15"
+MODIFIED = "2026-09-26"
 
 H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.DOTALL)
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.DOTALL)
@@ -35,6 +36,7 @@ def text_of(s: str) -> str:
 
 def collect() -> list[dict]:
     posts = []
+    redirect_map = redirects()
     for d in sorted(OUT.iterdir()):
         if not d.is_dir():
             continue
@@ -44,6 +46,9 @@ def collect() -> list[dict]:
         if not f.exists():
             continue
         html = f.read_text(encoding="utf-8", errors="replace")
+
+        if not eligible(f, html, redirect_map):
+            continue
 
         hm = H1_RE.search(html) or TITLE_RE.search(html)
         title = _html.unescape(text_of(hm.group(1))) if hm else d.name
@@ -247,7 +252,8 @@ def main() -> int:
             </nav>
             <h1>Tax Strategy Blog</h1>
             <p class="subtitle">{len(posts)} articles on cost segregation, depreciation,
-            entity structuring, retirement plan design, and IRS procedure.</p>
+            entity structuring, retirement plan design, and IRS procedure for business owners and real estate owners.</p>
+            <p><a href="/business-owner-tax-planning/">Business owner planning</a> · <a href="/real-estate-tax-planning/">Real estate planning</a> · <a href="/cost-segregation-study/">Cost segregation</a> · <a href="/feed.xml">Article feed</a></p>
             <p class="subtitle"><a href="/editorial-policy/">How we source, review, and update tax content</a></p>
             <div class="cta-buttons">
                 <a href="/discovery/" class="btn-cta btn-lg">Get Your Free Estimate</a>
