@@ -61,6 +61,8 @@ case studies and outcomes should be read with their own methodology and limitati
 
 - [Canonical URL inventory](https://www.aetaxadvisors.com/sitemap.xml)
 - [Cost segregation sitemap](https://www.aetaxadvisors.com/sitemap-cost-segregation.xml)
+- [Owner decision guide sitemap](https://www.aetaxadvisors.com/sitemap-owner-guides.xml)
+- [Extended owner resource index](https://www.aetaxadvisors.com/llms-full.txt)
 - [Article feed](https://www.aetaxadvisors.com/feed.xml)
 
 This optional index was updated September 26, 2026. It does not guarantee search indexing or AI citations.

@@ -32,11 +32,11 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual((ROOT/'llms.txt').read_text(),(ROOT/'.well-known/llms.txt').read_text())
         for name in ('llms.txt','llms-full.txt'):
             urls=re.findall(r'\]\('+re.escape(BASE)+r'([^\)]+)\)',(ROOT/name).read_text())
-            self.assertTrue(all(u in self.pages or u.endswith(('.xml','.json')) for u in urls),name)
+            self.assertTrue(all(u in self.pages or (u.endswith(('.xml','.json','.txt')) and (ROOT/u.lstrip('/')).is_file()) for u in urls),name)
 
     def test_crawlers_can_see_public_content_and_staging_noindex(self):
         parser=urllib.robotparser.RobotFileParser();parser.parse((ROOT/'robots.txt').read_text().splitlines())
-        for bot in ('Googlebot','Bingbot','OAI-SearchBot','ChatGPT-User','PerplexityBot','ClaudeBot','GPTBot'):
+        for bot in ('Googlebot','Bingbot','OAI-SearchBot','ChatGPT-User','PerplexityBot','ClaudeBot','Claude-SearchBot','Claude-User','Perplexity-User','GPTBot','Google-Extended','Applebot','Applebot-Extended','MistralAI-User','MistralAI-Index','DuckDuckBot','CCBot','UnlistedSearchCrawler'):
             self.assertTrue(parser.can_fetch(bot,BASE+'/cost-segregation-study/'),bot)
             self.assertTrue(parser.can_fetch(bot,BASE+'/blog-staging/'),bot)
             # stdlib robotparser does not implement Google's wildcard matching.

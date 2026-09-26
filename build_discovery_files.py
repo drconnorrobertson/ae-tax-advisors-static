@@ -73,13 +73,13 @@ case studies and outcomes should be read with their own methodology and limitati
       '/blog/rental-partnership-refinance-distribution-basis/',
       '/blog/business-equipment-trade-in-depreciation-recapture/'}]
     summary += '\n\n## Owner decision guides\n\n' + '\n'.join(f'- [{p["title"]}]({BASE}{p["path"]})' for p in newest)
-    summary += f'\n\n## Discovery\n\n- [Canonical URL inventory]({BASE}/sitemap.xml)\n- [Cost segregation sitemap]({BASE}/sitemap-cost-segregation.xml)\n- [Article feed]({BASE}/feed.xml)\n\nThis optional index was updated September 26, 2026. It does not guarantee search indexing or AI citations.\n'
+    summary += f'\n\n## Discovery\n\n- [Canonical URL inventory]({BASE}/sitemap.xml)\n- [Cost segregation sitemap]({BASE}/sitemap-cost-segregation.xml)\n- [Owner decision guide sitemap]({BASE}/sitemap-owner-guides.xml)\n- [Extended owner resource index]({BASE}/llms-full.txt)\n- [Article feed]({BASE}/feed.xml)\n\nThis optional index was updated September 26, 2026. It does not guarantee search indexing or AI citations.\n'
     for name in ('llms.txt','llms.md','.well-known/llms.txt'):
         (ROOT/name).parent.mkdir(parents=True,exist_ok=True)
         (ROOT/name).write_text(summary)
     owner_pattern = re.compile(r'cost.seg|business|rental|real.estate|s.corp|partner|landlord|depreciation|equipment|entity|practice|commercial|multifamily|\bstr\b|1031|passive.activity|qbi',re.I)
     owner_pages = [p for p in pages if owner_pattern.search(p['path']+' '+p['title'])]
-    extended = summary + '\n## More owner resources\n\n' + '\n'.join(f'- [{p["title"].replace("[", "(").replace("]", ")")}]({BASE}{p["path"]})' for p in owner_pages)
+    extended = summary + '\n## More owner resources\n\n' + '\n'.join(f'- [{p["title"].replace("[", "(").replace("]", ")")}]({BASE}{p["path"]}): {p["description"]}' for p in owner_pages)
     (ROOT/'llms-full.txt').write_text(extended+'\n')
 
     tree=ET.parse(ROOT/'sitemap.xml'); entries=list(tree.getroot())
