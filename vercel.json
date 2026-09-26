@@ -3,6 +3,26 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/blog/real-estate-professional-status-hours-documentation/",
+      "destination": "/reps-real-estate-professional-status/",
+      "statusCode": 301
+    },
+    {
+      "source": "/qualified-small-business-stock-section-1202/",
+      "destination": "/qsbs-exclusion-section-1202/",
+      "statusCode": 301
+    },
+    {
+      "source": "/short-term-rental-str-tax-optimization/",
+      "destination": "/short-term-rental-tax-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ae-tax-advisors-pricing/",
+      "destination": "/pricing/",
+      "statusCode": 301
+    },
+    {
       "source": "/cost-segregation-pricing/",
       "destination": "/cost-segregation-study-cost-pricing/",
       "statusCode": 301
