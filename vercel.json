@@ -3,6 +3,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/cost-segregation-pricing/",
+      "destination": "/cost-segregation-study-cost-pricing/",
+      "statusCode": 301
+    },
+    {
       "source": "/cost-seg-estimator/",
       "destination": "/cost-segregation-calculator/",
       "statusCode": 301

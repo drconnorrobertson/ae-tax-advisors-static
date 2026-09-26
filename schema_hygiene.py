@@ -30,6 +30,25 @@ def types(node: dict) -> set[str]:
 def scrub(value, fix: bool, findings: list[str]) -> bool:
     changed = False
     if isinstance(value, dict):
+        if "BreadcrumbList" in types(value):
+            items = value.get("itemListElement")
+            if not isinstance(items, list):
+                findings.append("breadcrumb itemListElement must be an array")
+            else:
+                valid = [item for item in items if isinstance(item, dict) and "ListItem" in types(item)]
+                if len(valid) != len(items):
+                    findings.append("non-ListItem entries in breadcrumb")
+                    if fix:
+                        value["itemListElement"] = valid
+                        changed = True
+                for position, item in enumerate(valid, 1):
+                    if item.get("position") != position:
+                        findings.append("breadcrumb positions must be sequential")
+                        if fix:
+                            item["position"] = position
+                            changed = True
+                    if not item.get("name"):
+                        findings.append("breadcrumb name missing")
         if value.get("name") == "AE Tax Advisors" and types(value) & ORG_TYPES:
             for field in ("aggregateRating", "review"):
                 if field in value:

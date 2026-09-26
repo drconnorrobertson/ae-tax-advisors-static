@@ -20,3 +20,13 @@ The homepage article cards and eight targeted snippets are maintained by `optimi
 The optional AI summaries link to published pricing and make clear that cost segregation is separately priced. They do not carry unsupported review counts, named credentials, blanket bonus eligibility, or guaranteed outcomes. Google requires no special AI text file or schema for AI features: https://developers.google.com/search/docs/appearance/ai-features
 
 Search and AI crawlers use the wildcard robots group. Staging remains crawlable so its existing noindex directives can be read. Robots.txt cannot force crawling or indexing. A CDN firewall can independently block crawlers and should be checked using verified bot traffic rather than a user-agent string alone.
+
+## Commercial intent release (September 26, 2026)
+
+`improve_commercial_pages.py` owns the four main commercial narratives. Run it after older page generators or `optimize_owner_snippets.py`, which may otherwise restore earlier copy. It preserves selected established resource sections. `commercial_intents.json` maps reviewed supporting pages to the appropriate service destination; `build_commercial_paths.py` applies those links. `optimize_commercial_snippets.py` owns the 13 buyer-intent snippets and the published AE fee box on the existing study-cost blog article.
+
+Keep the market-pricing blog article distinct from the AE service-pricing destination. The retired `/cost-segregation-pricing/` route redirects directly to `/cost-segregation-study-cost-pricing/`. Update internal links as part of any future consolidation. Do not redirect pages based only on similar words: use actual intent and query-to-page evidence.
+
+Release sequence: regenerate commercial pages, contextual paths and commercial snippets, then the blog index, canonical sitemap and discovery files. Preserve sitemap lastmod for markup-only fixes; update the date only for substantive content changes. Run `python3 -m unittest test_commercial_integrity test_owner_discovery`, `python3 schema_hygiene.py`, `python3 content_quality.py`, `python3 seo_validate.py` and the calculator tests. Breadcrumb arrays must contain ListItem objects, never social-profile URL strings. The schema hygiene gate now detects this defect.
+
+Prices are taken from the published pricing page. A future fee change must update service narratives, FAQs, snippet text and the article fee box together. No projection or article example is a guaranteed saving. Search Console exports and performance notes remain outside the public repository.
