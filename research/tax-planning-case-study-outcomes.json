@@ -1,19 +1,19 @@
 {
   "name": "AE Tax Advisors Tax Planning Case Study Outcomes",
-  "dateModified": "2026-09-20",
+  "dateModified": "2026-09-26",
   "methodologyUrl": "https://www.aetaxadvisors.com/research/tax-planning-case-study-outcomes/",
-  "includedCaseCount": 54,
+  "includedCaseCount": 51,
   "originalCaseStudyCount": 75,
-  "excludedOriginalCaseCount": 21,
+  "excludedOriginalCaseCount": 24,
   "excludedTemplatedScenarioCount": 480,
   "statistics": {
-    "medianReportedAnnualTaxSavings": 71500,
-    "averageReportedAnnualTaxSavings": 85426,
+    "medianReportedAnnualTaxSavings": 72000,
+    "averageReportedAnnualTaxSavings": 86039,
     "minimumReportedAnnualTaxSavings": 18000,
     "maximumReportedAnnualTaxSavings": 380000,
-    "sumOfHeadlineAnnualFigures": 4613000,
-    "casesAtOrAbove50000": 37,
-    "casesAtOrAbove100000": 15
+    "sumOfHeadlineAnnualFigures": 4388000,
+    "casesAtOrAbove50000": 35,
+    "casesAtOrAbove100000": 14
   },
   "limitations": [
     "Publisher-selected case-study cohort, not a random sample.",
@@ -45,14 +45,6 @@
       "annualTaxSavings": 156000,
       "headlineOutcome": "$156,000",
       "keyMetric": "$620,000 in equipment purchases"
-    },
-    {
-      "slug": "consultant-six-figure-s-corp",
-      "url": "https://www.aetaxadvisors.com/case-studies/consultant-six-figure-s-corp/",
-      "industry": "Management Consulting (Solo)",
-      "annualTaxSavings": 36000,
-      "headlineOutcome": "$36,000",
-      "keyMetric": "SE tax cut by $19K; retirement plan saves $12K; Augusta Rule adds $5K"
     },
     {
       "slug": "dental-practice-cost-seg-entity-restructuring",
@@ -279,28 +271,12 @@
       "keyMetric": "$3M income, $1.8M real estate portfolio, 4 rental properties, career window 5-7 years"
     },
     {
-      "slug": "real-estate-agent-investment-portfolio",
-      "url": "https://www.aetaxadvisors.com/case-studies/real-estate-agent-investment-portfolio/",
-      "industry": "Real Estate Agent + STR Investor",
-      "annualTaxSavings": 71000,
-      "headlineOutcome": "$71,000",
-      "keyMetric": "REPS via brokerage hours + cost seg on 3 STRs = $71K savings"
-    },
-    {
       "slug": "real-estate-broker-team-entity",
       "url": "https://www.aetaxadvisors.com/case-studies/real-estate-broker-team-entity/",
       "industry": "Real Estate Brokerage",
       "annualTaxSavings": 52000,
       "headlineOutcome": "$52,000",
       "keyMetric": "Commission restructured through S-Corp; group health plan added"
-    },
-    {
-      "slug": "real-estate-professional-grouping-election",
-      "url": "https://www.aetaxadvisors.com/case-studies/real-estate-professional-grouping-election/",
-      "industry": "Property Management + Rental Portfolio",
-      "annualTaxSavings": 118000,
-      "headlineOutcome": "$118,000",
-      "keyMetric": "2,100+ hours in real estate activities"
     },
     {
       "slug": "restaurant-cost-seg-tip-credit",

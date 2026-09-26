@@ -1,0 +1,1332 @@
+[
+  {
+    "id": 1,
+    "path": "/blog/is-cost-segregation-worth-it/",
+    "title": "Is Cost Segregation Worth It for a Rental Property?",
+    "action": "rewritten",
+    "editorial_words": 412,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 2,
+    "path": "/cost-segregation-study-cost-pricing/",
+    "title": "Cost Segregation Study Pricing",
+    "action": "expanded",
+    "editorial_words": 221,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 3,
+    "path": "/blog/cost-segregation-study-audit-ready-deliverables/",
+    "title": "What Does a Residential Cost Segregation Study Include?",
+    "action": "expanded",
+    "editorial_words": 216,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 4,
+    "path": "/cost-segregation-study-timeline-process/",
+    "title": "How Long Does a Cost Segregation Study Take?",
+    "action": "expanded",
+    "editorial_words": 204,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 5,
+    "path": "/cost-segregation-documents-checklist/",
+    "title": "Documents Needed for a Cost Segregation Study",
+    "action": "expanded",
+    "editorial_words": 214,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 6,
+    "path": "/blog/when-to-order-cost-segregation-study/",
+    "title": "When Should You Order a Cost Segregation Study?",
+    "action": "new",
+    "editorial_words": 440,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 7,
+    "path": "/blog/cost-segregation-deduction-usability/",
+    "title": "Can You Use Your Cost Segregation Deduction This Year?",
+    "action": "new",
+    "editorial_words": 405,
+    "source_urls": [
+      "https://www.irs.gov/publications/p925",
+      "https://www.irs.gov/publications/p946"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 8,
+    "path": "/cost-segregation-cpa-coordination/",
+    "title": "What Happens After a Cost Segregation Study Is Finished?",
+    "action": "expanded",
+    "editorial_words": 203,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 9,
+    "path": "/cost-segregation-when-it-works-when-it-doesnt-and-how-to-decide/",
+    "title": "When Cost Segregation May Not Be Worth It",
+    "action": "rewritten",
+    "editorial_words": 377,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 10,
+    "path": "/blog/cost-segregation-report-basis-reconciliation/",
+    "title": "How to Read a Cost Segregation Report",
+    "action": "expanded",
+    "editorial_words": 200,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 11,
+    "path": "/blog/cost-segregation-sfr-buy-and-hold-rentals/",
+    "title": "Cost Segregation for Single-Family Rentals",
+    "action": "expanded",
+    "editorial_words": 202,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 12,
+    "path": "/blog/cost-segregation-duplex-triplex-fourplex/",
+    "title": "Cost Segregation for Duplexes, Triplexes, and Fourplexes",
+    "action": "new",
+    "editorial_words": 399,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 13,
+    "path": "/blog/cost-segregation-small-multifamily-5-20-units/",
+    "title": "Cost Segregation for Small Apartment Buildings",
+    "action": "rewritten",
+    "editorial_words": 354,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 14,
+    "path": "/blog/cost-segregation-condos-townhomes/",
+    "title": "Cost Segregation for Condos and Townhomes",
+    "action": "new",
+    "editorial_words": 393,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 15,
+    "path": "/blog/cost-segregation-vacation-rental-cabins/",
+    "title": "Cost Segregation for Vacation Rental Cabins",
+    "action": "new",
+    "editorial_words": 386,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 16,
+    "path": "/blog/cost-segregation-beach-rentals/",
+    "title": "Cost Segregation for Beach Rental Properties",
+    "action": "new",
+    "editorial_words": 394,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 17,
+    "path": "/blog/mid-term-rental-tax-strategy-30-day/",
+    "title": "Cost Segregation for Furnished Mid-Term Rentals",
+    "action": "expanded",
+    "editorial_words": 192,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 18,
+    "path": "/blog/cost-segregation-new-construction-vs-existing/",
+    "title": "Cost Segregation for Newly Constructed Rentals",
+    "action": "expanded",
+    "editorial_words": 192,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 19,
+    "path": "/blog/cost-segregation-value-add-multifamily-renovation/",
+    "title": "Cost Segregation After a Rental Renovation",
+    "action": "expanded",
+    "editorial_words": 204,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 20,
+    "path": "/blog/cost-segregation-single-family-rental-portfolios/",
+    "title": "Cost Segregation for a Residential Rental Portfolio",
+    "action": "expanded",
+    "editorial_words": 194,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 21,
+    "path": "/short-term-rental-tax-strategy/",
+    "title": "Short-Term Rental Tax Planning: A Practical Guide",
+    "action": "rewritten",
+    "editorial_words": 392,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 22,
+    "path": "/material-participation-short-term-rental-7-day-rule/",
+    "title": "The Seven-Day Average-Stay Rule Explained",
+    "action": "expanded",
+    "editorial_words": 196,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 23,
+    "path": "/str-material-participation/",
+    "title": "Material Participation for Short-Term Rental Owners",
+    "action": "rewritten",
+    "editorial_words": 388,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 24,
+    "path": "/blog/how-to-track-material-participation-hours-for-str/",
+    "title": "How to Document Short-Term Rental Participation Hours",
+    "action": "expanded",
+    "editorial_words": 190,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 25,
+    "path": "/blog/str-property-manager-co-host-material-participation/",
+    "title": "Can You Use a Property Manager and Still Materially Participate?",
+    "action": "expanded",
+    "editorial_words": 193,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 26,
+    "path": "/blog/str-spouse-cohost-material-participation-hours/",
+    "title": "Spousal Participation in a Short-Term Rental",
+    "action": "expanded",
+    "editorial_words": 188,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 27,
+    "path": "/blog/rental-property-partial-personal-use/",
+    "title": "Personal Use of a Short-Term Rental",
+    "action": "expanded",
+    "editorial_words": 190,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 28,
+    "path": "/blog/str-placed-in-service-year-end-timeline/",
+    "title": "Buying and Furnishing an STR Near Year-End",
+    "action": "expanded",
+    "editorial_words": 193,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 29,
+    "path": "/short-term-rental-tax-loophole-2026/",
+    "title": "Short-Term Rental Tax Planning for W-2 Earners",
+    "action": "rewritten",
+    "editorial_words": 357,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 30,
+    "path": "/blog/first-year-investor-guide-tax-optimized-real-estate/",
+    "title": "First-Year Short-Term Rental Tax Checklist",
+    "action": "expanded",
+    "editorial_words": 183,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 31,
+    "path": "/long-term-rental-tax-planning/",
+    "title": "Long-Term Rental Tax Planning: A Practical Guide",
+    "action": "expanded",
+    "editorial_words": 182,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 32,
+    "path": "/rental-losses-and-passive-activity-rules-why-your-tax-loss-might-not-reduce-taxes-yet/",
+    "title": "Why Rental Losses May Not Reduce Your Current Tax Bill",
+    "action": "expanded",
+    "editorial_words": 193,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 33,
+    "path": "/reps-real-estate-professional-status/",
+    "title": "Real Estate Professional Status: Qualification and Documentation",
+    "action": "expanded",
+    "editorial_words": 191,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 34,
+    "path": "/blog/grouping-elections-real-estate-irc-469/",
+    "title": "Rental Real Estate Grouping Elections",
+    "action": "expanded",
+    "editorial_words": 188,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 35,
+    "path": "/tax-loss-carryforward-prior-year-losses-reduce-taxes/",
+    "title": "What Happens to Suspended Rental Losses?",
+    "action": "expanded",
+    "editorial_words": 195,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 36,
+    "path": "/blog/what-repairs-vs-improvements-can-i-deduct-on-rental-property/",
+    "title": "Repair or Improvement? Rental Property Expense Decisions",
+    "action": "expanded",
+    "editorial_words": 180,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 37,
+    "path": "/blog/convert-primary-residence-to-rental-property/",
+    "title": "Converting a Primary Residence Into a Rental",
+    "action": "expanded",
+    "editorial_words": 177,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 38,
+    "path": "/blog/rental-property-family-below-market-rent/",
+    "title": "Renting a Property to Family Members",
+    "action": "expanded",
+    "editorial_words": 182,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 39,
+    "path": "/str-vs-ltr-tax-treatment/",
+    "title": "Tax Planning When You Own Both STRs and LTRs",
+    "action": "rewritten",
+    "editorial_words": 349,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 40,
+    "path": "/blog/year-end-tax-planning-checklist-real-estate-investors/",
+    "title": "Year-End Tax Checklist for Long-Term Rental Owners",
+    "action": "expanded",
+    "editorial_words": 183,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 41,
+    "path": "/amended-return-vs-form-3115/",
+    "title": "Missed Rental Depreciation: Form 3115 or an Amended Return?",
+    "action": "expanded",
+    "editorial_words": 198,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/instructions/i3115",
+      "https://www.irs.gov/taxtopics/tc308"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 42,
+    "path": "/catch-up-depreciation-section-481a/",
+    "title": "What Is a Section 481(a) Depreciation Adjustment?",
+    "action": "expanded",
+    "editorial_words": 194,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/instructions/i3115",
+      "https://www.irs.gov/taxtopics/tc308"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 43,
+    "path": "/blog/can-i-do-a-cost-segregation-study-on-a-property-i-already-own/",
+    "title": "Cost Segregation on a Property Purchased Years Ago",
+    "action": "rewritten",
+    "editorial_words": 355,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/instructions/i3115",
+      "https://www.irs.gov/taxtopics/tc308"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 44,
+    "path": "/blog/missing-rental-depreciation-schedule/",
+    "title": "Your Rental Depreciation Schedule Is Missing: What Next?",
+    "action": "new",
+    "editorial_words": 388,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/instructions/i3115",
+      "https://www.irs.gov/taxtopics/tc308"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 45,
+    "path": "/wrong-rental-depreciation-basis/",
+    "title": "Correcting the Wrong Depreciable Basis on a Rental",
+    "action": "expanded",
+    "editorial_words": 197,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/instructions/i3115",
+      "https://www.irs.gov/taxtopics/tc308"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 46,
+    "path": "/blog/rental-property-land-value-allocation/",
+    "title": "Correcting Land and Building Allocations",
+    "action": "expanded",
+    "editorial_words": 183,
+    "source_urls": [
+      "https://www.irs.gov/publications/p551"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 47,
+    "path": "/blog/rental-furniture-double-counted-depreciation/",
+    "title": "Preventing Double-Counted Furniture and Improvements",
+    "action": "new",
+    "editorial_words": 385,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/instructions/i3115",
+      "https://www.irs.gov/taxtopics/tc308"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 48,
+    "path": "/blog/amendment-recovery-what-a-three-year-lookback-finds/",
+    "title": "What a Prior-Year Tax Return Review Can Find",
+    "action": "expanded",
+    "editorial_words": 190,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/instructions/i3115",
+      "https://www.irs.gov/taxtopics/tc308"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 49,
+    "path": "/blog/statute-of-limitations-tax-amendments/",
+    "title": "How Far Back Can a Tax Return Be Corrected?",
+    "action": "expanded",
+    "editorial_words": 188,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/instructions/i3115",
+      "https://www.irs.gov/taxtopics/tc308"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 50,
+    "path": "/blog/what-happens-if-i-never-took-depreciation-on-my-rental/",
+    "title": "What Happens If You Never Claimed Rental Depreciation?",
+    "action": "expanded",
+    "editorial_words": 195,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/instructions/i3115",
+      "https://www.irs.gov/taxtopics/tc308"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 51,
+    "path": "/blog/rental-property-closing-costs-basis/",
+    "title": "Which Rental Purchase Closing Costs Affect Tax Basis?",
+    "action": "expanded",
+    "editorial_words": 193,
+    "source_urls": [
+      "https://www.irs.gov/publications/p551",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p544"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 52,
+    "path": "/blog/rental-purchase-seller-credits-basis/",
+    "title": "How Seller Credits Affect Rental Property Basis",
+    "action": "expanded",
+    "editorial_words": 204,
+    "source_urls": [
+      "https://www.irs.gov/publications/p551",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p544"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 53,
+    "path": "/blog/can-i-deduct-furniture-and-supplies-for-my-airbnb/",
+    "title": "Furniture and Appliance Depreciation for Rental Owners",
+    "action": "expanded",
+    "editorial_words": 192,
+    "source_urls": [
+      "https://www.irs.gov/publications/p551",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p544"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 54,
+    "path": "/blog/bonus-depreciation-2025-2026-real-estate-investors/",
+    "title": "Bonus Depreciation for Rental Property Owners",
+    "action": "expanded",
+    "editorial_words": 180,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/newsroom/working-families-tax-cuts"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 55,
+    "path": "/section-179-vs-bonus-depreciation-2026/",
+    "title": "Section 179 Versus Bonus Depreciation for Rental Assets",
+    "action": "expanded",
+    "editorial_words": 178,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 56,
+    "path": "/blog/what-happens-to-depreciation-when-i-sell-after-cost-segregation/",
+    "title": "Depreciation Recapture After Cost Segregation",
+    "action": "expanded",
+    "editorial_words": 192,
+    "source_urls": [
+      "https://www.irs.gov/publications/p551",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p544"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 57,
+    "path": "/cost-segregation-before-selling-property/",
+    "title": "Should You Do Cost Segregation Before Selling a Rental?",
+    "action": "expanded",
+    "editorial_words": 194,
+    "source_urls": [
+      "https://www.irs.gov/publications/p551",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p544"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 58,
+    "path": "/blog/rental-property-selling-costs-gain/",
+    "title": "Selling a Rental: Taxable Gain Versus Cash at Closing",
+    "action": "expanded",
+    "editorial_words": 191,
+    "source_urls": [
+      "https://www.irs.gov/publications/p551",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p544"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 59,
+    "path": "/blog/cost-segregation-vs-1031-exchange/",
+    "title": "1031 Exchanges After a Cost Segregation Study",
+    "action": "expanded",
+    "editorial_words": 188,
+    "source_urls": [
+      "https://www.irs.gov/publications/p551",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p544"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 60,
+    "path": "/blog/rental-property-gifted-property-basis/",
+    "title": "Inherited and Gifted Rental Property: Basis Differences",
+    "action": "expanded",
+    "editorial_words": 193,
+    "source_urls": [
+      "https://www.irs.gov/publications/p551",
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p544"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 61,
+    "path": "/real-estate-tax-planning/",
+    "title": "Tax Planning for Business Owners Who Also Own Rentals",
+    "action": "expanded",
+    "editorial_words": 187,
+    "source_urls": [
+      "https://www.irs.gov/publications/p925",
+      "https://www.irs.gov/publications/p542",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 62,
+    "path": "/blog/business-premises-separate-property-entity/",
+    "title": "Owning Your Business Premises Through a Separate Entity",
+    "action": "new",
+    "editorial_words": 370,
+    "source_urls": [
+      "https://www.irs.gov/publications/p925",
+      "https://www.irs.gov/publications/p542",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 63,
+    "path": "/blog/self-rental-rules-business-rents-from-you/",
+    "title": "Self-Rental Rules for Business Owners",
+    "action": "expanded",
+    "editorial_words": 192,
+    "source_urls": [
+      "https://www.irs.gov/publications/p925",
+      "https://www.irs.gov/publications/p542",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 64,
+    "path": "/blog/rental-losses-offset-business-income/",
+    "title": "Can Rental Losses Offset Business Income?",
+    "action": "new",
+    "editorial_words": 384,
+    "source_urls": [
+      "https://www.irs.gov/publications/p925",
+      "https://www.irs.gov/publications/p542",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 65,
+    "path": "/blog/review-business-rental-tax-return-before-signing/",
+    "title": "Coordinating Your Business and Rental Tax Returns",
+    "action": "expanded",
+    "editorial_words": 191,
+    "source_urls": [
+      "https://www.irs.gov/publications/p925",
+      "https://www.irs.gov/publications/p542",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 66,
+    "path": "/blog/rental-real-estate-s-corporation/",
+    "title": "Why Rental Real Estate in an S Corporation Needs Careful Review",
+    "action": "new",
+    "editorial_words": 380,
+    "source_urls": [
+      "https://www.irs.gov/publications/p925",
+      "https://www.irs.gov/publications/p542",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 67,
+    "path": "/blog/c-corp-real-estate-investment-strategy/",
+    "title": "C Corporations and Rental Property Ownership",
+    "action": "rewritten",
+    "editorial_words": 361,
+    "source_urls": [
+      "https://www.irs.gov/publications/p925",
+      "https://www.irs.gov/publications/p542",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 68,
+    "path": "/blog/buying-building-for-business-before-closing/",
+    "title": "Buying a Building for Your Business: Tax Planning Before Closing",
+    "action": "new",
+    "editorial_words": 367,
+    "source_urls": [
+      "https://www.irs.gov/publications/p925",
+      "https://www.irs.gov/publications/p542",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 69,
+    "path": "/blog/cost-segregation-owner-occupied-practice-buildings/",
+    "title": "Cost Segregation for an Owner-Occupied Business Property",
+    "action": "expanded",
+    "editorial_words": 192,
+    "source_urls": [
+      "https://www.irs.gov/publications/p925",
+      "https://www.irs.gov/publications/p542",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 70,
+    "path": "/year-end-tax-planning-checklist/",
+    "title": "Year-End Planning Across a Business and Rental Portfolio",
+    "action": "expanded",
+    "editorial_words": 186,
+    "source_urls": [
+      "https://www.irs.gov/publications/p925",
+      "https://www.irs.gov/publications/p542",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 71,
+    "path": "/tax-planning-vs-tax-preparation/",
+    "title": "Tax Planning Versus Tax Preparation",
+    "action": "expanded",
+    "editorial_words": 173,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+      "https://www.irs.gov/publications/p15"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 72,
+    "path": "/blog/what-written-tax-plan-should-include/",
+    "title": "What Should a Written Tax Plan Include?",
+    "action": "new",
+    "editorial_words": 362,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+      "https://www.irs.gov/publications/p15"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 73,
+    "path": "/s-corp-vs-c-corp-vs-llc/",
+    "title": "S Corporation Versus C Corporation for a Profitable Business",
+    "action": "expanded",
+    "editorial_words": 177,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+      "https://www.irs.gov/publications/p15"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 74,
+    "path": "/reasonable-compensation/",
+    "title": "Reasonable Compensation for S Corporation Owners",
+    "action": "expanded",
+    "editorial_words": 165,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 75,
+    "path": "/accountable-plan/",
+    "title": "Accountable Plans for Business Owners",
+    "action": "expanded",
+    "editorial_words": 174,
+    "source_urls": [
+      "https://www.irs.gov/publications/p15"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 76,
+    "path": "/blog/home-office-deduction-s-corp-owners/",
+    "title": "Home Office Expenses for S Corporation Owners",
+    "action": "expanded",
+    "editorial_words": 181,
+    "source_urls": [
+      "https://www.irs.gov/publications/p587",
+      "https://www.irs.gov/publications/p15"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 77,
+    "path": "/augusta-rule-business-owners/",
+    "title": "The Augusta Rule for Business Owners",
+    "action": "expanded",
+    "editorial_words": 178,
+    "source_urls": [
+      "https://www.irs.gov/publications/p527"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 78,
+    "path": "/retirement-plan-tax-strategy-business-owners/",
+    "title": "Retirement Plan Options for Profitable Business Owners",
+    "action": "expanded",
+    "editorial_words": 183,
+    "source_urls": [
+      "https://www.irs.gov/publications/p560"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 79,
+    "path": "/s-corp-qbi-deduction-maximization/",
+    "title": "QBI Deduction Planning for Business Owners",
+    "action": "expanded",
+    "editorial_words": 186,
+    "source_urls": [
+      "https://www.irs.gov/newsroom/qualified-business-income-deduction",
+      "https://www.irs.gov/newsroom/working-families-tax-cuts"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 80,
+    "path": "/year-round-business-tax-planning/",
+    "title": "Quarterly Tax Planning Checklist for Business Owners",
+    "action": "expanded",
+    "editorial_words": 176,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+      "https://www.irs.gov/publications/p15"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 81,
+    "path": "/blog/how-to-evaluate-cost-segregation-study/",
+    "title": "Questions to Ask Before Hiring a Cost Segregation Firm",
+    "action": "expanded",
+    "editorial_words": 187,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 82,
+    "path": "/blog/cost-segregation-quote-checklist/",
+    "title": "What Your Cost Segregation Quote Should Include",
+    "action": "new",
+    "editorial_words": 346,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 83,
+    "path": "/compare/best-cost-segregation-companies/",
+    "title": "Best Cost Segregation Providers for Residential Rental Owners",
+    "action": "rewritten",
+    "editorial_words": 378,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 84,
+    "path": "/compare/diy-cost-segregation-vs-ae-tax/",
+    "title": "Cost Segregation Software Versus a Professional Study",
+    "action": "rewritten",
+    "editorial_words": 335,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 85,
+    "path": "/ae-tax-vs-cost-seg-only-firms/",
+    "title": "A Standalone Cost Segregation Study Versus Coordinated Tax Implementation",
+    "action": "rewritten",
+    "editorial_words": 345,
+    "source_urls": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 86,
+    "path": "/blog/5-signs-cpa-doesnt-understand-real-estate-tax/",
+    "title": "How to Choose a CPA for a Short-Term Rental",
+    "action": "expanded",
+    "editorial_words": 182,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 87,
+    "path": "/compare/best-tax-advisors-real-estate/",
+    "title": "How to Choose a Tax Advisor for a Business and Rental Portfolio",
+    "action": "rewritten",
+    "editorial_words": 345,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 88,
+    "path": "/compare/best-proactive-tax-advisory-firms/",
+    "title": "Best Tax Advisory Firms for Business Owners",
+    "action": "rewritten",
+    "editorial_words": 366,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 89,
+    "path": "/compare/proactive-tax-advisor-pricing-guide/",
+    "title": "Tax Advisor Pricing: How to Compare Engagements",
+    "action": "rewritten",
+    "editorial_words": 338,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 90,
+    "path": "/signs-your-cpa-is-underserving-you/",
+    "title": "Signs You Need More Than Annual Tax Preparation",
+    "action": "expanded",
+    "editorial_words": 183,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 91,
+    "path": "/case-studies/str-lake-house-cost-seg/",
+    "title": "Residential STR Cost Segregation Worked Example",
+    "action": "rewritten",
+    "editorial_words": 319,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Hypothetical example replaces unsupported outcome claims"
+  },
+  {
+    "id": 92,
+    "path": "/case-studies/real-estate-professional-grouping-election/",
+    "title": "Long-Term Rental Cost Segregation Worked Example",
+    "action": "rewritten",
+    "editorial_words": 309,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Hypothetical example replaces unsupported outcome claims"
+  },
+  {
+    "id": 93,
+    "path": "/case-studies/real-estate-agent-investment-portfolio/",
+    "title": "Business Owner With Rental Properties Worked Example",
+    "action": "rewritten",
+    "editorial_words": 304,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Hypothetical example replaces unsupported outcome claims"
+  },
+  {
+    "id": 94,
+    "path": "/case-studies/str-form-3115-catchup/",
+    "title": "Missed Depreciation Correction Worked Example",
+    "action": "rewritten",
+    "editorial_words": 313,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Hypothetical example replaces unsupported outcome claims"
+  },
+  {
+    "id": 95,
+    "path": "/case-studies/str-portfolio-five-properties/",
+    "title": "Residential Rental Portfolio Worked Example",
+    "action": "rewritten",
+    "editorial_words": 312,
+    "source_urls": [
+      "https://www.irs.gov/publications/p946",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "status": "implemented",
+    "review_note": "Hypothetical example replaces unsupported outcome claims"
+  },
+  {
+    "id": 96,
+    "path": "/case-studies/consultant-six-figure-s-corp/",
+    "title": "S Corporation Owner Tax Planning Worked Example",
+    "action": "rewritten",
+    "editorial_words": 298,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+      "https://www.irs.gov/publications/p15"
+    ],
+    "status": "implemented",
+    "review_note": "Hypothetical example replaces unsupported outcome claims"
+  },
+  {
+    "id": 97,
+    "path": "/blog/changing-tax-preparer-business-rental-carryforward-records/",
+    "title": "Switching CPAs: A Business and Rental Owner Checklist",
+    "action": "expanded",
+    "editorial_words": 185,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+      "https://www.irs.gov/publications/p15"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 98,
+    "path": "/blog/discovery-call-what-to-expect-ae-tax/",
+    "title": "Preparing for Your First Tax Advisory Call",
+    "action": "expanded",
+    "editorial_words": 187,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+      "https://www.irs.gov/publications/p15"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 99,
+    "path": "/blog/tax-plan-not-implemented-next-steps/",
+    "title": "Your Tax Plan Has Not Been Implemented: What to Do",
+    "action": "new",
+    "editorial_words": 351,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+      "https://www.irs.gov/publications/p15"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  },
+  {
+    "id": 100,
+    "path": "/blog/tax-strategy-to-filed-return-process/",
+    "title": "From Tax Strategy to Filed Return: The Implementation Process",
+    "action": "new",
+    "editorial_words": 346,
+    "source_urls": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+      "https://www.irs.gov/publications/p15"
+    ],
+    "status": "implemented",
+    "review_note": "Distinct decision, example and evidence checklist"
+  }
+]

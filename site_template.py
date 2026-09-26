@@ -163,9 +163,11 @@ def page_header(
     h1: str,
     subtitle: str,
     trail: list[tuple[str, str]],
-    cta: str = "Request Your Free Tax Assessment",
+    cta: str = "Book a Call",
 ) -> str:
     """The site's standard article masthead: breadcrumb, H1, subtitle, CTA."""
+    # Marketing pages use the owner's single approved primary CTA.
+    cta = "Book a Call"
     crumbs = []
     for name, href in trail[:-1]:
         crumbs.append(f'<a href="{href}">{name}</a>')
@@ -249,7 +251,7 @@ CTA_BLOCK = """    <section class="content-section fade-in-section" style="backg
             walk through what applies to you, what it is worth, and what it would take to
             put it in place.</p>
             <div class="center-cta" style="margin-top:20px;">
-                <a href="/discovery/" class="btn-cta btn-lg">Schedule Your Free Discovery Call</a>
+                <a href="/discovery/" class="btn-cta btn-lg">Book a Call</a>
             </div>
         </div>
     </section>"""

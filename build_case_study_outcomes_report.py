@@ -20,7 +20,7 @@ from pathlib import Path
 import case_engine as E
 import site_template as T
 
-DATE = "2026-09-20"
+DATE = "2026-09-26"
 PATH = "/research/tax-planning-case-study-outcomes/"
 JSON_PATH = "/research/tax-planning-case-study-outcomes.json"
 CSV_PATH = "/research/tax-planning-case-study-outcomes.csv"

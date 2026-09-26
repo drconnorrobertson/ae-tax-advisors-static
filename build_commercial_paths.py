@@ -6,7 +6,7 @@ MARKER='<!-- commercial-owner-path -->'
 def main():
  mapping=redirects(); count=0; skipped=[]
  for group in json.loads((ROOT/'commercial_intents.json').read_text()):
-  block=MARKER+section(group['heading'],f'<p>{group["copy"]}</p><ul><li><a href="{group["destination"]}">{group["label"]}</a></li><li><a href="{group["secondary"]}">{group["secondary_label"]}</a></li><li><a href="/discovery/">Schedule a discovery call</a></li></ul>')+'<!-- /commercial-owner-path -->'
+  block=MARKER+section(group['heading'],f'<p>{group["copy"]}</p><ul><li><a href="{group["destination"]}">{group["label"]}</a></li><li><a href="{group["secondary"]}">{group["secondary_label"]}</a></li><li><a href="/discovery/">Book a Call</a></li></ul>')+'<!-- /commercial-owner-path -->'
   for slug in group['support']:
    p=ROOT/slug/'index.html'
    if not p.exists(): raise ValueError('Missing reviewed source '+slug)
