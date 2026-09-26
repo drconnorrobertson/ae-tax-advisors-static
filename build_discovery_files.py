@@ -6,9 +6,11 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from discovery_inventory import ROOT, BASE, inventory
+from build_tax_return_mistakes import paths as return_review_paths
 
 NS = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
 CORE = [
+('/tax-return-mistakes/', 'Tax-return mistakes: 18 business and rental owner review guides'),
 ('/about/', 'About AE Tax Advisors and its team'),
 ('/pricing/', 'Published pricing and engagement scope'),
 ('/discovery/', 'Request a tax planning assessment'),
@@ -78,12 +80,14 @@ case studies and outcomes should be read with their own methodology and limitati
         (ROOT/name).parent.mkdir(parents=True,exist_ok=True)
         (ROOT/name).write_text(summary)
     owner_pattern = re.compile(r'cost.seg|business|rental|real.estate|s.corp|partner|landlord|depreciation|equipment|entity|practice|commercial|multifamily|\bstr\b|1031|passive.activity|qbi',re.I)
-    owner_pages = [p for p in pages if owner_pattern.search(p['path']+' '+p['title'])]
+    review_paths = set(return_review_paths())
+    owner_pages = [p for p in pages if p['path'] in review_paths or owner_pattern.search(p['path']+' '+p['title'])]
     extended = summary + '\n## More owner resources\n\n' + '\n'.join(f'- [{p["title"].replace("[", "(").replace("]", ")")}]({BASE}{p["path"]}): {p["description"]}' for p in owner_pages)
     (ROOT/'llms-full.txt').write_text(extended+'\n')
 
     tree=ET.parse(ROOT/'sitemap.xml'); entries=list(tree.getroot())
-    for name,predicate in [('sitemap-cost-segregation.xml',lambda path:'cost-seg' in path),
+    for name,predicate in [('sitemap-tax-return-mistakes.xml',lambda path:path in review_paths),
+                           ('sitemap-cost-segregation.xml',lambda path:'cost-seg' in path),
                            ('sitemap-owner-guides.xml',lambda path:path in {p['path'] for p in newest})]:
         root=ET.Element('urlset',xmlns=NS[1:-1]); count=0
         for entry in entries:

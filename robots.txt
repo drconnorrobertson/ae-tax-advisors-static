@@ -21,6 +21,7 @@ Disallow: /
 Sitemap: https://www.aetaxadvisors.com/sitemap.xml
 Sitemap: https://www.aetaxadvisors.com/sitemap-cost-segregation.xml
 Sitemap: https://www.aetaxadvisors.com/sitemap-owner-guides.xml
+Sitemap: https://www.aetaxadvisors.com/sitemap-tax-return-mistakes.xml
 
 # Optional human-readable service and content index:
 # https://www.aetaxadvisors.com/llms.txt

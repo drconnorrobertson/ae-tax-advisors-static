@@ -10,6 +10,7 @@ from pathlib import Path
 
 import site_template as T
 import seo_topics as TOPICS
+from build_tax_return_mistakes import POSTS as RETURN_REVIEW_POSTS
 from discovery_inventory import eligible, redirects
 
 BASE = "/blog/"
@@ -72,7 +73,7 @@ def collect() -> list[dict]:
             "title": title,
             "desc": desc,
             "date": date,
-            "category": TOPICS.TOPICS[topic][1],
+            "category": "Tax Return Mistakes" if d.name in {p['slug'] for p in RETURN_REVIEW_POSTS} else TOPICS.TOPICS[topic][1],
         })
     return posts
 
@@ -255,6 +256,7 @@ def main() -> int:
             entity structuring, retirement plan design, and IRS procedure for business owners and real estate owners.</p>
             <p><a href="/business-owner-tax-planning/">Business owner planning</a> · <a href="/real-estate-tax-planning/">Real estate planning</a> · <a href="/cost-segregation-study/">Cost segregation</a> · <a href="/feed.xml">Article feed</a></p>
             <p class="subtitle"><a href="/editorial-policy/">How we source, review, and update tax content</a></p>
+            <p><a href="/tax-return-mistakes/">Tax Return Mistakes: 18 owner review guides and a downloadable checklist</a></p>
             <div class="cta-buttons">
                 <a href="/discovery/" class="btn-cta btn-lg">Get Your Free Estimate</a>
             </div>

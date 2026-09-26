@@ -31,6 +31,7 @@ case studies and outcomes should be read with their own methodology and limitati
 
 ## Start here
 
+- [Tax-return mistakes: 18 business and rental owner review guides](https://www.aetaxadvisors.com/tax-return-mistakes/)
 - [About AE Tax Advisors and its team](https://www.aetaxadvisors.com/about/)
 - [Published pricing and engagement scope](https://www.aetaxadvisors.com/pricing/)
 - [Request a tax planning assessment](https://www.aetaxadvisors.com/discovery/)
