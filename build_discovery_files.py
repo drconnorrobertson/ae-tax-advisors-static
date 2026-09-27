@@ -68,6 +68,7 @@ case studies and outcomes should be read with their own methodology and limitati
 '''
     summary = intro + '\n'.join(f'- [{title}]({BASE}{path})' for path,title in core)
     newest = [p for p in pages if p['path'] in {
+      '/blog/c-corp-strategy-1m-business-owners/',
       '/blog/cost-segregation-related-party-property-purchase/',
       '/blog/elect-out-bonus-depreciation-asset-class/',
       '/blog/cost-segregation-report-basis-reconciliation/',
@@ -75,7 +76,7 @@ case studies and outcomes should be read with their own methodology and limitati
       '/blog/rental-partnership-refinance-distribution-basis/',
       '/blog/business-equipment-trade-in-depreciation-recapture/'}]
     summary += '\n\n## Owner decision guides\n\n' + '\n'.join(f'- [{p["title"]}]({BASE}{p["path"]})' for p in newest)
-    summary += f'\n\n## Discovery\n\n- [Canonical URL inventory]({BASE}/sitemap.xml)\n- [Cost segregation sitemap]({BASE}/sitemap-cost-segregation.xml)\n- [Owner decision guide sitemap]({BASE}/sitemap-owner-guides.xml)\n- [Extended owner resource index]({BASE}/llms-full.txt)\n- [Article feed]({BASE}/feed.xml)\n\nThis optional index was updated September 26, 2026. It does not guarantee search indexing or AI citations.\n'
+    summary += f'\n\n## Discovery\n\n- [Canonical URL inventory]({BASE}/sitemap.xml)\n- [Cost segregation sitemap]({BASE}/sitemap-cost-segregation.xml)\n- [Owner decision guide sitemap]({BASE}/sitemap-owner-guides.xml)\n- [Extended owner resource index]({BASE}/llms-full.txt)\n- [Article feed]({BASE}/feed.xml)\n\nThis optional index was updated September 27, 2026. It does not guarantee search indexing or AI citations.\n'
     for name in ('llms.txt','llms.md','.well-known/llms.txt'):
         (ROOT/name).parent.mkdir(parents=True,exist_ok=True)
         (ROOT/name).write_text(summary)

@@ -13,7 +13,7 @@ import site_template as T
 
 ROOT = T.ROOT
 PUBLISHED = "2026-08-15"
-MODIFIED = "2026-08-15"
+MODIFIED = "2026-09-27"
 
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.DOTALL)
 H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.DOTALL)

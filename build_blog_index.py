@@ -17,7 +17,7 @@ from discovery_inventory import eligible, redirects
 BASE = "/blog/"
 OUT = T.ROOT / "blog"
 PUBLISHED = "2026-08-15"
-MODIFIED = "2026-09-26"
+MODIFIED = "2026-09-27"
 
 H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.DOTALL)
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.DOTALL)
