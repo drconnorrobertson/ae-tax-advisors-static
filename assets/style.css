@@ -130,6 +130,15 @@ header {
 
 .nav-dropdown:hover .dropdown-content { display: block; }
 
+.mobile-submenu-toggle { display: none; }
+
+.compare-jump { border-bottom: 1px solid #d9e2eb; background: var(--white); }
+.compare-jump-inner { display: flex; flex-wrap: wrap; gap: 8px; padding-top: 16px; padding-bottom: 16px; }
+.compare-jump a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 14px; border: 1px solid #d9e2eb; border-radius: 999px; color: var(--primary); font-size: 14px; font-weight: 600; text-decoration: none; }
+.compare-jump a:hover { border-color: var(--accent); background: var(--light-bg); }
+.compare-jump a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.compare-jump ~ section h2[id] { scroll-margin-top: 100px; }
+
 .dropdown-item {
     display: block;
     padding: 10px 20px;
@@ -1668,6 +1677,28 @@ iframe { display: block; }
     }
     .dropdown-item:hover { padding-left: 4px; }
     .nav-dropdown .arrow { display: none; }
+
+    .site-ux-ready .nav-dropdown > .nav-link { padding-right: 56px; }
+    .site-ux-ready .nav-dropdown > .dropdown-content,
+    .site-ux-ready .nav-dropdown:hover > .dropdown-content { display: none; }
+    .site-ux-ready .nav-dropdown.submenu-open > .dropdown-content { display: block; }
+    .mobile-submenu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 2px;
+        right: 0;
+        width: 48px;
+        height: 48px;
+        background: transparent;
+        color: var(--primary);
+        border: 0;
+        cursor: pointer;
+        font-size: 24px;
+        line-height: 1;
+    }
+    .mobile-submenu-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 }
 
 /* ---------- Phones (<=768px) ---------- */
