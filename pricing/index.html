@@ -687,40 +687,10 @@
             border-radius: 20px;
             letter-spacing: 0.05em;
             text-transform: uppercase;
-        }
-        .pricing-card.premium {
-            border: 2px solid #C9A84C;
-            box-shadow: var(--shadow-md);
-            background: linear-gradient(180deg, rgba(201,168,76,0.04) 0%, var(--white) 100%);
+            white-space: nowrap;
         }
         .pricing-card.premium::before {
             content: 'Most Comprehensive';
-            position: absolute;
-            top: -14px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: linear-gradient(135deg, #C9A84C 0%, #E8D48B 50%, #C9A84C 100%);
-            color: #1a1a1a;
-            font-size: 12px;
-            font-weight: 700;
-            padding: 4px 20px;
-            border-radius: 20px;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-        }
-        .pricing-card.premium:hover {
-            box-shadow: 0 8px 32px rgba(201,168,76,0.18);
-        }
-        .pricing-card.premium .pricing-amount {
-            color: #8B7025;
-        }
-        .pricing-card.premium .btn-cta {
-            background: linear-gradient(135deg, #C9A84C 0%, #B8943F 100%);
-            color: #fff;
-            border: none;
-        }
-        .pricing-card.premium .btn-cta:hover {
-            background: linear-gradient(135deg, #B8943F 0%, #9A7B30 100%);
         }
         .pricing-includes-note {
             font-size: 14px;
@@ -2379,7 +2349,7 @@
             </div>
 
             <!-- Complex Tax Advisory -->
-            <div class="pricing-card premium fade-in-section">
+            <div class="pricing-card featured premium fade-in-section">
                 <h3>Complex Tax Advisory</h3>
                 <div class="pricing-amount">$9,800</div>
                 <div class="pricing-qualifier">2 payments of $4,900, 30 days apart</div>
