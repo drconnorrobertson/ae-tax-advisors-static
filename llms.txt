@@ -53,6 +53,7 @@ case studies and outcomes should be read with their own methodology and limitati
 
 - [Equipment Delivered in December but Not Operational | AE Tax](https://www.aetaxadvisors.com/blog/business-equipment-delivered-not-operational-year-end/)
 - [Equipment Trade-In: Basis and Depreciation Recapture | AE Tax](https://www.aetaxadvisors.com/blog/business-equipment-trade-in-depreciation-recapture/)
+- [C Corp Strategy for $1M+ Owners: Reinvest or Distribute?](https://www.aetaxadvisors.com/blog/c-corp-strategy-1m-business-owners/)
 - [Cost Segregation on a Related-Party Purchase | AE Tax](https://www.aetaxadvisors.com/blog/cost-segregation-related-party-property-purchase/)
 - [Cost Segregation Report: Basis Reconciliation Checklist | AE Tax](https://www.aetaxadvisors.com/blog/cost-segregation-report-basis-reconciliation/)
 - [Electing Out of Bonus Depreciation by Asset Class | AE Tax](https://www.aetaxadvisors.com/blog/elect-out-bonus-depreciation-asset-class/)
@@ -66,4 +67,4 @@ case studies and outcomes should be read with their own methodology and limitati
 - [Extended owner resource index](https://www.aetaxadvisors.com/llms-full.txt)
 - [Article feed](https://www.aetaxadvisors.com/feed.xml)
 
-This optional index was updated September 26, 2026. It does not guarantee search indexing or AI citations.
+This optional index was updated September 27, 2026. It does not guarantee search indexing or AI citations.
