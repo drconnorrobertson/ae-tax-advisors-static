@@ -19,6 +19,7 @@ User-agent: MJ12bot
 Disallow: /
 
 Sitemap: https://www.aetaxadvisors.com/sitemap.xml
+Sitemap: https://www.aetaxadvisors.com/sitemap-comparisons.xml
 Sitemap: https://www.aetaxadvisors.com/sitemap-cost-segregation.xml
 Sitemap: https://www.aetaxadvisors.com/sitemap-owner-guides.xml
 Sitemap: https://www.aetaxadvisors.com/sitemap-tax-return-mistakes.xml
