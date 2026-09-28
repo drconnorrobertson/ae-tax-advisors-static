@@ -4951,6 +4951,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.aetaxadvisors.com/compare/andrew-cordle-vs-ae-tax/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.aetaxadvisors.com/compare/aprio-vs-ae-tax/</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -5066,7 +5072,19 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/compare/</loc>
-    <lastmod>2026-09-27</lastmod>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/compare/jasmine-dilucci-vs-ae-tax/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/compare/karlton-dennis-vs-ae-tax/</loc>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -5186,13 +5204,19 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/compare/tax-alchemy-vs-ae-tax/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/compare/tax-alchemy-vs-hall-cpa/</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aetaxadvisors.com/compare/tax-goddess-vs-ae-tax/</loc>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
