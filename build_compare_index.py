@@ -13,7 +13,7 @@ import site_template as T
 BASE = "/compare/"
 OUT = T.ROOT / "compare"
 PUBLISHED = "2026-08-15"
-MODIFIED = "2026-09-20"
+MODIFIED = "2026-09-30"
 
 H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.DOTALL)
 DESC_RE = re.compile(r'<meta name="description" content="(.*?)"', re.DOTALL)
