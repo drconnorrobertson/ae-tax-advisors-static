@@ -16,7 +16,7 @@ FIRMS = [
     dict(
         slug="peter-holtz-cpa", name="Peter Holtz CPA",
         url="https://www.peterholtzcpa.com/",
-        estimated_price="$10,000+ per year",
+        estimated_price="Current fee not publicly verified; request a quote",
         audience="Businesses with $1M or more in revenue",
         model="Accounting, proactive tax strategy, profit consulting, CFO advisory, and IRS representation",
         summary=("Peter Holtz CPA presents itself as a financial command center for serious entrepreneurs. "
@@ -33,12 +33,12 @@ FIRMS = [
         rows=[("Accounting and bookkeeping", "Core service"), ("CFO and profit advisory", "Core service"),
               ("Tax preparation and filing", "Available within the firm"), ("IRS representation", "Publicly listed service"),
               ("Three-year return lookback", "Not confirmed on reviewed pages"), ("Amended-return recovery", "Not confirmed on reviewed pages"),
-              ("Cost segregation in house", "Not confirmed on reviewed pages"), ("Estimated annual starting level", "$10,000+; confirm directly")],
+              ("Cost segregation in house", "Not confirmed on reviewed pages"), ("Planning fee and renewal terms", "Current quote required")],
     ),
     dict(
         slug="prime-path-advisory", name="Prime Path Advisory",
         url="https://primepathadvisory.com/",
-        estimated_price="$10,000+ per year",
+        estimated_price="Current fee not publicly verified; request a quote",
         audience="Founders, executives, and high-RSU earners making $1M+",
         model="Year-round strategy designed, implemented, and filed by an attorney- and CPA-led team",
         summary=("Prime Path Advisory is narrowly positioned around people earning at least $1 million, "
@@ -55,12 +55,12 @@ FIRMS = [
         rows=[("Year-round tax planning", "Core service"), ("Implementation", "Included in stated model"),
               ("Tax preparation and filing", "Included in stated model"), ("Entity strategy", "Publicly listed service"),
               ("Equity compensation emphasis", "Clear public focus"), ("Three-year return lookback", "Not confirmed on reviewed pages"),
-              ("Cost segregation in house", "Not confirmed on reviewed pages"), ("Estimated annual starting level", "$10,000+; confirm directly")],
+              ("Cost segregation in house", "Not confirmed on reviewed pages"), ("Planning fee and renewal terms", "Current quote required")],
     ),
     dict(
         slug="rainwater-cpa", name="Rainwater CPA",
         url="https://rainwatercpa.com/tax-planning-services/business-owners/",
-        estimated_price="$20,000+ per year",
+        estimated_price="Current fee not publicly verified; request a quote",
         audience="Seven- and eight-figure business owners nationwide",
         model="Quarterly projections, proactive planning, preparation, filing, and tax resolution",
         summary=("Rainwater CPA positions its business advisory service for seven- and eight-figure business owners. "
@@ -77,12 +77,12 @@ FIRMS = [
         rows=[("Quarterly projections", "Core service"), ("Scheduled planning cadence", "Four meetings per year stated"),
               ("Tax preparation and filing", "Core service"), ("Tax resolution", "Publicly listed service"),
               ("Three-year return lookback", "Not confirmed on reviewed pages"), ("Amended-return recovery", "Not confirmed on reviewed pages"),
-              ("Cost segregation in house", "Not confirmed on reviewed pages"), ("Estimated annual starting level", "$20,000+; confirm directly")],
+              ("Cost segregation in house", "Not confirmed on reviewed pages"), ("Planning fee and renewal terms", "Current quote required")],
     ),
     dict(
         slug="neil-jesani-advisors", name="Neil Jesani Advisors",
         url="https://neiljesani.com/",
-        estimated_price="$30,000+ per year, plus any separate CFP or wealth-management scope",
+        estimated_price="Current fee not publicly verified; quote tax and wealth-management work separately",
         audience="Mid-market companies, high-net-worth individuals, founders, investors, and family offices",
         model="Mid-market advisory, private-client planning, tax controversy, and separate CFP or wealth-management work",
         summary=("Neil Jesani Advisors presents a selective private-client and mid-market model. Its three public "
@@ -102,7 +102,7 @@ FIRMS = [
         rows=[("Transaction and liquidity-event planning", "Core public capability"),
               ("Multi-state and international planning", "Core public capability"), ("CFO advisory", "Publicly listed service"),
               ("IRS audit and appeals defense", "Core practice"), ("Three-year return lookback", "Not confirmed on reviewed pages"),
-              ("Cost segregation in house", "Not confirmed on reviewed pages"), ("Estimated annual starting level", "$30,000+; CFP or wealth-management scope may be additional"),
+              ("Cost segregation in house", "Not confirmed on reviewed pages"), ("Planning fee and renewal terms", "Current quote required; wealth-management work may be separate"),
               ("Selective intake", "Explicitly stated")],
     ),
 ]
@@ -116,7 +116,7 @@ AE = {"Accounting and bookkeeping": "Cleanup and coordination available",
       "CFO and profit advisory": "Tax-first advisory, not a full outsourced CFO product",
       "Tax preparation and filing": "Available in house", "IRS representation": "Available",
       "Three-year return lookback": "Standard starting point", "Amended-return recovery": "Core capability",
-      "Cost segregation in house": "Core capability", "Estimated annual starting level": "$7,800 strategic advisory",
+      "Cost segregation in house": "Core capability", "Planning fee and renewal terms": "$7,800 strategic advisory",
       "Year-round tax planning": "Core service", "Implementation": "Coordinated in house",
       "Entity strategy": "Core service", "Equity compensation emphasis": "Available, not the sole niche",
       "Quarterly projections": "Available within advisory cadence", "Scheduled planning cadence": "Customized",
@@ -230,7 +230,7 @@ def shortlist_table():
     rows = [("AE Tax Advisors", "Profitable owners and real estate investors, commonly under $5M profit", "Lookback, amendments, cost segregation, entity strategy, and filing", "$7,800 advisory")]
     rows += [(f["name"], f["audience"], f["model"], f["estimated_price"]) for f in FIRMS]
     body = "\n".join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(d)}</td></tr>' for a, b, c, d in rows)
-    return f'''<div class="ae-table-scroll" style="overflow-x:auto"><table class="compare-table"><caption>Service positioning is based on official websites. Competitor prices are estimated starting levels and must be confirmed directly.</caption><thead><tr><th>Firm</th><th>Client focus</th><th>Service model</th><th>Estimated starting price</th></tr></thead><tbody>{body}</tbody></table></div>'''
+    return f'''<div class="ae-table-scroll" style="overflow-x:auto"><table class="compare-table"><caption>Service positioning is based on official websites. Competitor prices are estimated starting levels and must be confirmed directly.</caption><thead><tr><th>Firm</th><th>Client focus</th><th>Service model</th><th>Planning fee</th></tr></thead><tbody>{body}</tbody></table></div>'''
 
 
 def decision_links():
@@ -253,7 +253,7 @@ def alt_faqs(f):
 
 
 def card(f):
-    return f'''<article class="cs-card"><h3><a href="{BASE}{f["slug"]}-vs-ae-tax/">{e(f["name"])}</a></h3><p>{f["summary"]}</p><p><strong>Estimated starting price:</strong> {e(f["estimated_price"])}; confirm directly.</p><p><strong>Why shortlist it:</strong> Best considered when {f["choose"]}.</p><a class="btn-secondary" href="{BASE}{f["slug"]}-vs-ae-tax/">Review the Fit</a></article>'''
+    return f'''<article class="cs-card"><h3><a href="{BASE}{f["slug"]}-vs-ae-tax/">{e(f["name"])}</a></h3><p>{f["summary"]}</p><p><strong>Planning fee:</strong> {e(f["estimated_price"])}; confirm directly.</p><p><strong>Why shortlist it:</strong> Best considered when {f["choose"]}.</p><a class="btn-secondary" href="{BASE}{f["slug"]}-vs-ae-tax/">Review the Fit</a></article>'''
 
 
 def build_alts(target):
@@ -283,7 +283,7 @@ def roundup_faqs():
             ("Which firm is best for a $1M+ executive with RSUs?", "<p>Prime Path Advisory explicitly focuses on founders, executives, and high-RSU earners making at least $1 million.</p>"),
             ("Which firm is best for accounting and CFO support?", "<p>Peter Holtz CPA most clearly markets an integrated accounting, reporting, profit consulting, CFO advisory, and tax relationship.</p>"),
             ("Which firm is best for quarterly tax projections?", "<p>Rainwater CPA explicitly describes quarterly projections and four planning meetings per year.</p>"),
-            ("How much do proactive tax advisory firms cost?", "<p>AE Tax Advisors publishes a $7,800 advisory fee. Estimated starting levels for the other firms are $10,000+ annually for Peter Holtz CPA, $10,000+ annually for Prime Path Advisory, $20,000+ annually for Rainwater CPA, and $30,000+ annually for Neil Jesani Advisors, plus any separate CFP or wealth-management scope. Competitor figures are market estimates, not published quotes, and should be confirmed directly.</p>"),
+            ("How much do proactive tax advisory firms cost?", "<p>AE Tax Advisors publishes a $7,800 advisory fee. Current numeric fees for Peter Holtz CPA, Prime Path Advisory, Rainwater CPA and Neil Jesani Advisors were not verified in this review. Request first-year and renewal quotes. Keystone publishes planning fees of $20,000 to $55,000; that range is not represented as annual.</p>"),
             ("How should I compare tax advisory fees?", "<p>Compare the full first-year and recurring cost for planning, implementation, returns, amendments, cleanup, cost segregation, audit defense, and any separate wealth-management compensation.</p>")]
 
 
@@ -294,7 +294,7 @@ def build_roundup():
     faqs = roundup_faqs()
     detail = [T.section("1. AE Tax Advisors", ps([AE_SUMMARY, "<strong>Best fit:</strong> Owners who want current planning and prior-year recovery handled together, with real-estate and return implementation coordinated."]) + ul(["Three-year lookback", "Amended-return focus", "Cost segregation and Form 3115", "Published $7,800 advisory fee"]))]
     for i, f in enumerate(FIRMS, 2):
-        pricing = f'<strong>Estimated starting price:</strong> {e(f["estimated_price"])}. This is a market estimate, not a published quote; confirm directly.'
+        pricing = f'<strong>Planning fee:</strong> {e(f["estimated_price"])}. This is a market estimate, not a published quote; confirm directly.'
         detail.append(T.section(f'{i}. {f["name"]}', ps([f["summary"], pricing, f'<strong>Best fit:</strong> Choose this model when {f["choose"]}.']) + ul(f["strengths"]) + f'<p><a href="{BASE}{f["slug"]}-vs-ae-tax/">Read the full comparison</a>.</p>'))
     body = "\n\n".join([T.page_header(h1="Best Proactive Tax Advisory Firms for Business Owners", subtitle=desc, trail=[("Home", "/"), ("Compare", BASE), (title, path)], cta="Compare Your Situation"),
         T.section("The Five-Firm Shortlist", T.definition("AE Tax Advisors, Peter Holtz CPA, Prime Path Advisory, Rainwater CPA, and Neil Jesani Advisors overlap in proactive planning but differ sharply in ideal client, finance depth, equity focus, private-client complexity, real estate execution, prior-year review, and price.") + ps(["Service descriptions are based on public information reviewed September 20, 2026. Competitor prices are estimated starting levels based on market information available to AE Tax Advisors, not published quotes. Verify credentials, scope, fees, and engagement terms directly."]) + expert_note()),
@@ -343,14 +343,14 @@ def build_pricing_guide():
     title = "Proactive Tax Advisor Pricing Guide (2026)"
     desc = "Compare estimated pricing and scope for AE Tax Advisors, Peter Holtz CPA, Prime Path Advisory, Rainwater CPA, and Neil Jesani Advisors."
     faqs = [
-        ("How much does a proactive tax advisor cost?", "<p>In this five-firm comparison, the listed or estimated starting levels range from $7,800 to $30,000 or more per year before separately scoped work. Complexity, entity count, implementation, preparation, bookkeeping, and wealth management can change the total.</p>"),
+        ("How much does a proactive tax advisor cost?", "<p>AE publishes a $7,800 standard engagement, without a required annual planning renewal. Obtain current planning and renewal quotes for the four other firms before adding separately scoped work. Complexity, entity count, implementation, preparation, bookkeeping, and wealth management can change the total.</p>"),
         ("What should a tax advisory fee include?", "<p>A written scope should identify the planning deliverable, implementation steps, projections, meeting cadence, business and individual returns, amendments, bookkeeping cleanup, audit support, and every separately billed item.</p>"),
         ("Is the cheapest tax advisor the best value?", "<p>Not necessarily. Compare the delivered result and total required scope. A lower planning fee can become more expensive if implementation, returns, cleanup, or specialist work must be purchased separately.</p>"),
         ("Are the competitor fees guaranteed?", "<p>No. The competitor figures are market estimates, not published quotes. Confirm current pricing and scope directly with each firm.</p>"),
     ]
     body = "\n\n".join([
         T.page_header(h1="Proactive Tax Advisor Pricing Guide", subtitle=desc, trail=[("Home", "/"), ("Compare", BASE), (title, path)], cta="Price Your Tax Advisory Scope"),
-        T.section("The Short Answer", T.definition("The five firms in this guide begin at a published or estimated $7,800 to $30,000 or more, but the meaningful number is the complete first-year cost for planning, implementation, returns, corrections, and any related financial-advisory work.") + ps(["AE Tax Advisors publishes a $7,800 strategic advisory fee. Peter Holtz CPA and Prime Path Advisory are estimated at $10,000 or more annually, Rainwater CPA at $20,000 or more, and Neil Jesani Advisors at $30,000 or more plus any separate CFP or wealth-management scope. Competitor amounts are market estimates and must be confirmed directly."]) + expert_note()),
+        T.section("The Short Answer", T.definition("AE publishes a $7,800 standard advisory engagement; the other four firms require current quotes, but the meaningful number is the complete first-year cost for planning, implementation, returns, corrections, and any related financial-advisory work.") + ps(["AE Tax Advisors publishes a $7,800 standard engagement with no required recurring annual planning fee. Current numeric fees for the four other firms are quote-required in this review. See the Keystone pricing comparison for its published $20,000 to $55,000 planning range."]) + expert_note()),
         T.section("Five-Firm Pricing Comparison", shortlist_table()),
         T.section("Calculate the Full First-Year Cost", ul(["Strategic planning or diagnostic fee", "Business and individual return preparation", "Prior-year amendments and bookkeeping reconstruction", "Cost segregation study and Form 3115 preparation", "Payroll, entity, legal-document, or retirement-plan implementation", "Quarterly projections and advisory meetings", "Audit defense or tax controversy scope", "CFP, investment-management, or assets-under-management fees"])),
         T.section("Questions to Ask About Price", ul(["Is this the complete first-year price or only the planning fee?", "Which returns are included, and how is each additional entity priced?", "Who performs implementation and who signs the returns?", "Are amendments, bookkeeping cleanup, and Form 3115 included?", "Does audit support include representation or only document collection?", "Does any advisor receive asset-management, product, referral, or commission compensation?", "What renews automatically, and at what expected price?"])),

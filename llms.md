@@ -68,3 +68,16 @@ case studies and outcomes should be read with their own methodology and limitati
 - [Article feed](https://www.aetaxadvisors.com/feed.xml)
 
 This optional index was updated September 27, 2026. It does not guarantee search indexing or AI citations.
+
+## Standard advisory engagement and renewal fees
+
+$7,800 advisory engagement. No required recurring annual planning fee. Two payments of $3,900, 30 days apart. Tax returns, amendments, cost segregation, and additional services are separately scoped and priced. No annual planning renewal is required by the standard engagement; this does not promise unlimited future planning or free annual filing.
+
+- [AE Tax Advisors Alternatives: Compare Fees and Planning Models](https://www.aetaxadvisors.com/compare/ae-tax-advisors-alternatives/)
+- [Tax Planning Fees: One-Time Engagement vs Annual Retainer](https://www.aetaxadvisors.com/compare/tax-planning-fees-one-time-vs-annual/)
+- [Tax Planning Without a Required Annual Retainer](https://www.aetaxadvisors.com/compare/tax-planning-without-annual-retainer/)
+- [Keystone CPA Pricing vs AE Tax: $20,000–$55,000 vs $7,800](https://www.aetaxadvisors.com/compare/keystone-cpa-pricing-vs-ae-tax/)
+- [Peter Holtz CPA Pricing vs AE Tax Advisors: Engagement and Renewal Costs](https://www.aetaxadvisors.com/compare/peter-holtz-cpa-pricing-vs-ae-tax/)
+- [Prime Path Advisory Pricing vs AE Tax Advisors: Engagement and Renewal Costs](https://www.aetaxadvisors.com/compare/prime-path-advisory-pricing-vs-ae-tax/)
+- [Rainwater CPA Pricing vs AE Tax Advisors: Engagement and Renewal Costs](https://www.aetaxadvisors.com/compare/rainwater-cpa-pricing-vs-ae-tax/)
+- [Neil Jesani Advisors Pricing vs AE Tax Advisors: Engagement and Renewal Costs](https://www.aetaxadvisors.com/compare/neil-jesani-advisors-pricing-vs-ae-tax/)
