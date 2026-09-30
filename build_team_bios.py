@@ -255,18 +255,15 @@ BIOS: dict[str, tuple[str, list[str]]] = {
         ],
     ),
     "Jeff Miller": (
-        "Head of Growth and Conversion",
+        "Head of Marketing",
         [
-            "Jeff designs and optimizes the systems that turn interest into action "
-            "across AE Tax Advisors. He owns funnels, landing pages, conversion "
-            "architecture, and the analytics behind every client touchpoint from first "
-            "click to booked consultation. His background is in performance-driven "
-            "growth strategy, building the infrastructure that consistently moves "
-            "qualified prospects through the pipeline. Jeff works at the intersection of "
-            "marketing and operations, making sure the firm's digital presence converts "
-            "at every stage and that no qualified prospect falls through the cracks.",
-            "<strong>Focus:</strong> Funnels, conversion optimization, and growth "
-            "systems.",
+            "Jeff leads marketing for AE Tax Advisors, overseeing how the firm "
+            "communicates its services and connects with prospective clients. He "
+            "coordinates marketing strategy and campaigns to help business owners "
+            "and real estate investors learn about the firm's approach to proactive "
+            "tax planning.",
+            "<strong>Focus:</strong> Marketing leadership, campaign strategy, and "
+            "client acquisition.",
         ],
     ),
     "Avatar Tripathi": (
