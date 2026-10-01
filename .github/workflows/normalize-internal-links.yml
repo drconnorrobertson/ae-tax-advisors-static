@@ -6,6 +6,8 @@ on:
       - '**.html'
       - 'vercel.json'
       - 'scripts/normalize-internal-links.cjs'
+      - 'scripts/check-sitemaps.cjs'
+      - 'sitemap*.xml'
       - '.github/workflows/normalize-internal-links.yml'
   workflow_dispatch:
 concurrency:
@@ -29,6 +31,8 @@ jobs:
         run: node scripts/normalize-internal-links.cjs --write
       - name: Verify no stale links remain
         run: node scripts/normalize-internal-links.cjs --check
+      - name: Verify sitemap destinations
+        run: node scripts/check-sitemaps.cjs
       - name: Publish cleaned source
         run: |
           git config user.name 'github-actions[bot]'
