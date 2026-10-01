@@ -7,22 +7,9 @@ Disallow: /*?gclid
 Disallow: /*?ref=
 Disallow: /*?v=
 
-# Staging pages remain crawlable so crawlers can read their noindex directives.
 # Search visibility is governed by canonical URLs and page-level robots tags.
-User-agent: AhrefsBot
-Disallow: /
-User-agent: SemrushBot
-Disallow: /
-User-agent: DotBot
-Disallow: /
-User-agent: MJ12bot
-Disallow: /
-
+# Ranking and link-analysis crawlers follow the same public rules above.
 Sitemap: https://www.aetaxadvisors.com/sitemap.xml
-Sitemap: https://www.aetaxadvisors.com/sitemap-comparisons.xml
-Sitemap: https://www.aetaxadvisors.com/sitemap-cost-segregation.xml
-Sitemap: https://www.aetaxadvisors.com/sitemap-owner-guides.xml
-Sitemap: https://www.aetaxadvisors.com/sitemap-tax-return-mistakes.xml
 
 # Optional human-readable service and content index:
 # https://www.aetaxadvisors.com/llms.txt

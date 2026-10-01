@@ -248,6 +248,26 @@
       "statusCode": 301
     },
     {
+      "source": "/cost-segregation-studies-for-real-estate-investors/",
+      "destination": "/cost-segregation-study/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/cost-segregation-short-term-rental-airbnb-properties/",
+      "destination": "/blog/cost-segregation-for-airbnb-short-term-rental-properties/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/cost-segregation-study-airbnb-property-owners/",
+      "destination": "/blog/cost-segregation-for-airbnb-short-term-rental-properties/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/cost-segregation-study-str-properties-guide/",
+      "destination": "/blog/cost-segregation-for-airbnb-short-term-rental-properties/",
+      "statusCode": 301
+    },
+    {
       "source": "/ecu/",
       "destination": "/execupgrades/",
       "statusCode": 301
