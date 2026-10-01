@@ -201,14 +201,10 @@ BIOS: dict[str, tuple[str, list[str]]] = {
         ],
     ),
     "Sidhartha Sen": (
-        "Strategic Advisory",
+        "Mergers &amp; Acquisitions Advisory",
         [
-            "Sidhartha advises on finance, operations, and business development, "
-            "structuring the complex financial arrangements that advanced tax planning "
-            "often depends on. He works across the firm's growth initiatives and with "
-            "clients whose situations span several entities.",
-            "<strong>Focus:</strong> Financial strategy, operations, and growth "
-            "initiatives.",
+            "Sidhartha focuses on mergers and acquisitions, helping business owners evaluate acquisition opportunities and plan for business transitions. He works alongside the firm's tax advisory team to coordinate financial considerations with the broader tax strategy behind a transaction.",
+            "<strong>Focus:</strong> Mergers and acquisitions, acquisition strategy, and business transitions.",
         ],
     ),
     "Jacques Snyman": (
