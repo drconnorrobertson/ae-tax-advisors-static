@@ -36,7 +36,7 @@ def para(s): return f"            <p>{esc(s)}</p>"
 
 def page(f):
     path = f"/compare/{f['slug']}-alternatives/"
-    title = f"{f['name']} Alternatives for Physicians and Practice Owners (2026)"
+    title = f"{f['name']} Alternatives for Practice Owners | AE Tax"
     desc = f"Considering {f['name']}? Compare its physician tax services with AE Tax Advisors on scope, client fit, implementation, and the questions to ask before signing."
     crumb = [("Home", "/"), ("Compare", "/compare/"), (f["name"] + " alternatives", path)]
     name = esc(f['name'])

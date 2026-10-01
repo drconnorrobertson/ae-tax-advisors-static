@@ -17,7 +17,7 @@ from discovery_inventory import eligible, redirects
 BASE = "/blog/"
 OUT = T.ROOT / "blog"
 PUBLISHED = "2026-08-15"
-MODIFIED = "2026-09-27"
+MODIFIED = "2026-10-01"
 
 H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.DOTALL)
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.DOTALL)
@@ -67,7 +67,9 @@ def collect() -> list[dict]:
                 break
 
         headings = " ".join(text_of(x) for x in H2_RE.findall(html)[:20])
-        topic = TOPICS.classify(title, title, headings, text_of(html)[:4000])
+        # Classify editorial metadata only: shared navigation, schema and
+        # injected related FAQs must not change an article's category.
+        topic = TOPICS.classify(title + " " + d.name.replace("-", " "), title, desc, "")
 
         posts.append({
             "slug": d.name,
@@ -76,6 +78,7 @@ def collect() -> list[dict]:
             "date": date,
             "category": ("Tax Return Mistakes" if d.name in {p['slug'] for p in RETURN_REVIEW_POSTS}
                          else "Business Deductions" if '/blog/'+d.name+'/' in {p['path'] for p in COMMUNICATION_POSTS}
+                         else "General Tax Planning" if topic == "firm" and not re.search(r"\b(cpa|advisor|advisors|discovery|onboarding|our team|ae tax|pricing|fees|consultation)\b", title, re.I)
                          else TOPICS.TOPICS[topic][1]),
         })
     return posts
@@ -182,6 +185,7 @@ BLOG_JS = """
       var cards=Array.prototype.slice.call(grid.querySelectorAll('.blog-card'));
       var chips=Array.prototype.slice.call(document.querySelectorAll('.blog-chip'));
       var search=document.getElementById('blog-search');
+      search.value = new URLSearchParams(window.location.search).get('q') || '';
       var count=document.getElementById('blog-count');
       var empty=document.getElementById('blog-empty');
       var more=document.getElementById('blog-more');

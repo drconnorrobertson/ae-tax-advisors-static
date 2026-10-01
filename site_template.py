@@ -306,13 +306,15 @@ def build_page(
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/style.css">
+<script defer src="/assets/site-ux.js"></script>
 {schema_markup}
 {extra_head}
 </head>
 <body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
 {c.header_for(active_nav)}
 
-    <main>
+    <main id="main-content" tabindex="-1">
 {body}
 {CTA_BLOCK}
     </main>
