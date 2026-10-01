@@ -1071,3 +1071,12 @@ $7,800 advisory engagement. No required recurring annual planning fee. Two payme
 - [Does a Tax Return Extension Also Cover Form 3115 Filing?](https://www.aetaxadvisors.com/faq/form-3115-tax-return-extension-duplicate-copy/)
 - [Is Cost Segregation Worth It If I Plan to Sell the Rental Next Year?](https://www.aetaxadvisors.com/faq/cost-segregation-selling-rental-next-year/)
 - [Will Selling One Rental Release All My Suspended Passive Losses?](https://www.aetaxadvisors.com/faq/rental-sale-suspended-passive-losses-full-interest/)
+
+## Excess business loss guides
+
+- [How Does the Excess Business Loss Limitation Work in 2026?](https://www.aetaxadvisors.com/blog/excess-business-loss-limitation-461l-2026/): Understand Section 461(l), the 2025 and 2026 loss limits, Form 461, W-2 income and NOL carryforwards with worked business-owner examples.
+- [Can Excess Business Losses Offset W-2 Income?](https://www.aetaxadvisors.com/blog/excess-business-loss-w2-income/): See why W-2 wages do not increase the Section 461(l) allowance and how a large business loss can leave a high-income employee with taxable income.
+- [Excess Business Loss Limits for Short-Term Rental Owners](https://www.aetaxadvisors.com/blog/excess-business-loss-short-term-rental/): Learn why a nonpassive short-term rental loss can still be limited by Section 461(l), with a 2026 example and a rental-record checklist.
+- [Cost Segregation and Excess Business Loss: How Much Can You Use?](https://www.aetaxadvisors.com/blog/excess-business-loss-cost-segregation/): Compare a cost segregation deduction with the loss actually usable in 2026, including business income, Section 461(l) and carryforward timing.
+- [Excess Business Loss Rules for S Corporations and Partnerships](https://www.aetaxadvisors.com/blog/excess-business-loss-s-corporation-partnership/): Trace S corporation and partnership K-1 losses through basis, at-risk, passive activity and Section 461(l), with multi-entity owner examples.
+- [What Happens to an Excess Business Loss Carryforward?](https://www.aetaxadvisors.com/blog/excess-business-loss-nol-carryforward/): Follow a Section 461(l) excess loss into an NOL carryforward, understand the 80% limitation and keep it separate from passive and basis suspensions.
