@@ -22,7 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 PAGE = ROOT / "bios" / "index.html"
 
-REMOVE = ["Miguel Gonzales"]
+REMOVE = ["Miguel Gonzales", "John Amato"]
 
 # The page previously used a full-width alternating layout: one member per row,
 # photo left then right, 350px portraits, 60px gaps and a rule between each.
