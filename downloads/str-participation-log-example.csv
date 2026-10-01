@@ -1,0 +1,5 @@
+Date,Person,Role (owner/spouse/co-host/vendor),Property or activity,Start time,End time,Minutes,Task performed,Evidence reference,Treatment to review,Reviewer notes
+2026-09-01,Owner A,owner,Hypothetical Cabin A,09:00,09:30,30,Responded to guest arrival questions,Platform messages EXAMPLE-01,Operating work: confirm facts,Illustration only
+2026-09-01,Spouse A,spouse,Hypothetical Cabin A,14:00,14:45,45,Restocked supplies and checked equipment,Receipt and calendar EXAMPLE-02,Operating work: confirm facts,Record separate actual work; do not duplicate shared time
+2026-09-02,Co-host A,co-host,Hypothetical Cabin A,10:00,11:00,60,Coordinated cleaning and guest issue,Manager report EXAMPLE-03,Outside-person comparison,Not owner participation
+2026-09-03,Owner A,owner,Hypothetical Cabin A,16:00,16:20,20,Reviewed investment performance only,Spreadsheet EXAMPLE-04,Investor-only work: separate for review,Do not automatically count toward participation

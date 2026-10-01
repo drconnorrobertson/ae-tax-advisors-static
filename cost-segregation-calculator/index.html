@@ -128,13 +128,13 @@
     ]
   },
   "datePublished": "2026-06-27",
-  "dateModified": "2026-09-26",
+  "dateModified": "2026-10-01",
   "description": "Use AE's free cost segregation calculator for residential rentals, Airbnb, STRs, long-term rentals, and small multifamily. Estimate depreciation and usable tax benefit.",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.aetaxadvisors.com/cost-segregation-calculator/",
     "description": "Use AE's free cost segregation calculator for residential rentals, Airbnb, STRs, long-term rentals, and small multifamily. Estimate depreciation and usable tax benefit.",
-    "dateModified": "2026-09-26"
+    "dateModified": "2026-10-01"
   }
 }
 </script>
@@ -293,6 +293,9 @@
 <style id="owner-calculator-style">#estimate{padding:24px 0}#estimate>.container{padding:0}.scenario-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.scenario-grid label{display:flex;flex-direction:column;gap:6px;font-weight:600}.scenario-grid input,.scenario-grid select{width:100%;min-height:48px;padding:10px;font:inherit;border:1px solid #7b8794;border-radius:6px}.scenario-check{display:block;margin:20px 0}.scenario-check input{width:20px;height:20px;vertical-align:middle}#scenario-result{padding:20px;background:#edf4f7;color:#142d42;margin:24px 0}#scenario-result dt{font-weight:600}#scenario-result dd{margin:0 0 12px}#cost-seg-scenario :focus-visible{outline:3px solid #176084;outline-offset:3px}@media(max-width:650px){.scenario-grid{grid-template-columns:1fr}}</style>
 <script src="/assets/cost-segregation-scenario.js" defer></script>
     <script defer src="/assets/site-ux.js"></script>
+<script src="/assets/decision-tool-events.js" defer></script>
+<script src="/assets/holding-period-cashflow.js" defer></script>
+<link rel="stylesheet" href="/assets/decision-tools.css">
 </head>
 <body>
     <header class="site-header">
@@ -625,6 +628,28 @@
         </div>
     </section>
 <!-- data-driven-correction-links:start --><section class="content-section fade-in-section"><div class="container narrow"><h2>Correcting a Filed Return or Depreciation Schedule</h2><p>Use these filing-specific guides when the return is already filed or the depreciation history is incomplete.</p><ul class="related-links"><li><a href="/depreciation-and-fixed-asset-review-for-rental-properties/">Validate the tax inputs behind an estimate</a></li><li><a href="/amended-return-vs-form-3115/">Choose the filing method for a prior-year property</a></li><li><a href="/catch-up-depreciation-section-481a/">Calculate catch-up depreciation</a></li></ul><p><a href="/discovery/" class="btn-cta">Book a Return Review Call</a></p></div></section><!-- data-driven-correction-links:end -->
+
+
+
+<!-- holding-period-comparison -->    <section class="content-section fade-in-section">
+        <div class="container narrow">
+            <h2>Compare holding-period cash flows</h2>
+<p>A large first-year deduction can still have limited holding-period value. Enter the incremental tax cash flows from a reviewed study-versus-no-study projection. This tool performs cash-flow arithmetic; it does not calculate depreciation, recapture, eligibility or taxes. Do not copy the first-year result into every year.</p>
+<form id="holding-period-form"><div class="scenario-grid">
+<label>Holding period (whole years)<input name="years" type="number" min="1" max="40" step="1" required></label>
+<label>Total up-front study and implementation fee ($)<input name="fee" type="number" min="0" max="1000000000000" step="any" required></label>
+<label>Additional tax at sale versus no study ($)<input name="exitTax" type="number" min="0" max="1000000000000" step="any" required></label>
+<label>Annual discount rate (%)<input name="discount" type="number" min="0" max="100" step="any" required></label></div>
+<label for="holding-benefits">Year-by-year tax cash-flow differences ($), one number per year</label>
+<textarea id="holding-benefits" name="benefits" rows="5" required aria-describedby="holding-input-help" style="width:100%;padding:12px;font:inherit"></textarea>
+<p id="holding-input-help">Use positive amounts for tax reductions and negative amounts for extra tax from lower later deductions. Enter one signed number for each holding year, separated by commas or newlines. Exclude fees and sale tax from these amounts because they are entered separately. Include actual usability, state effects and fee tax treatment in the professionally reviewed projection.</p>
+<button class="btn-cta" type="submit">Compare holding-period cash flows</button></form>
+<div id="holding-period-result" role="status" aria-live="polite">No assumptions have been filled in. Enter reviewed cash-flow differences to compare.</div>
+<h3>Worked cash-flow example</h3><p>For a hypothetical three-year hold with annual differences of $20,000, -$2,000 and -$2,000, an up-front fee of $3,000, additional sale tax of $10,000 and a 5% discount rate, the undiscounted difference is $3,000 and net present value is approximately $3,868. The example illustrates arithmetic, not a typical property result.</p>
+<p>Fees are paid at time zero. Annual tax differences and sale tax are assumed to occur at each year-end; sale tax occurs in the final year. Net present value equals the sum of each annual difference less that year’s sale tax, discounted by (1 + rate) raised to the year number, minus the up-front fee. Compare different holding periods by changing both the period and its reviewed cash-flow schedule.</p>
+<p>A full forecast can include loss releases, differing asset classes, future depreciation, state taxes, sale structure and more. This worksheet cannot determine those amounts. No inputs are stored or transmitted. <a href="https://www.irs.gov/publications/p544">IRS disposition guidance</a> | <a href="/discovery/" data-ae-resource="holding_period">Book a Call</a></p>
+        </div>
+    </section><!-- /holding-period-comparison -->
 </main>
 
     <footer>

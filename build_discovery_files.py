@@ -10,6 +10,8 @@ from build_tax_return_mistakes import paths as return_review_paths
 
 NS = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
 CORE = [
+('/tools/tax-advisor-engagement-scorecard/', 'Tax advisor engagement comparison worksheet'),
+('/guides/str-documentation-kit/', 'STR logs and quarterly review documentation kit'),
 ('/tax-return-mistakes/', 'Tax-return mistakes: 18 business and rental owner review guides'),
 ('/about/', 'About AE Tax Advisors and its team'),
 ('/pricing/', 'Published pricing and engagement scope'),
