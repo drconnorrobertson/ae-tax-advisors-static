@@ -1407,17 +1407,17 @@
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="name">Full Name <span class="required">*</span></label>
-                                <input type="text" id="name" name="name" required placeholder="Your full name">
+                                <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your full name">
                             </div>
                             <div class="form-group">
                                 <label for="email">Email Address <span class="required">*</span></label>
-                                <input type="email" id="email" name="email" required placeholder="you@example.com">
+                                <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@example.com">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                                <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(555) 123-4567">
                             </div>
                             <div class="form-group">
                                 <label for="service">Service Interest</label>
@@ -1437,10 +1437,10 @@
                         </div>
                         <div class="form-group full-width">
                             <label for="message">Message <span class="required">*</span></label>
-                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your situation and how we can help..."></textarea>
+                            <textarea id="message" name="message" rows="5" required aria-describedby="contact-records-note" placeholder="Tell us about your situation and how we can help..."></textarea>
                         </div>
                         <button type="submit" class="btn-cta btn-lg">Send Message</button>
-                        <p class="form-disclaimer">Your information is kept strictly confidential. We never share or sell your data.</p>
+                        <p class="form-disclaimer" id="contact-records-note">Please share only a general description. Do not include Social Security numbers, tax returns, account numbers or other sensitive records. See our <a href="/privacy-policy/">Privacy Policy</a> for how inquiries are handled.</p>
                     </form>
                 </div>
                 <div class="contact-info-sidebar">

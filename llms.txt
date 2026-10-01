@@ -73,7 +73,7 @@ case studies and outcomes should be read with their own methodology and limitati
 - [Extended owner resource index](https://www.aetaxadvisors.com/llms-full.txt)
 - [Article feed](https://www.aetaxadvisors.com/feed.xml)
 
-This optional index was updated September 27, 2026. It does not guarantee search indexing or AI citations.
+This optional index was updated October 1, 2026. It does not guarantee search indexing or AI citations.
 
 ## Standard advisory engagement and renewal fees
 

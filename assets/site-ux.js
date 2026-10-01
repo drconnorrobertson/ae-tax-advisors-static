@@ -1,4 +1,42 @@
 (() => {
+  if (document.documentElement.dataset.aeSharedUxReady) return;
+  document.documentElement.dataset.aeSharedUxReady = 'true';
+  const main = document.querySelector('main');
+  if (main) {
+    main.id = main.id || 'main-content';
+    if (!main.hasAttribute('tabindex')) main.tabIndex = -1;
+    if (!document.querySelector('.skip-link')) {
+      const skip = document.createElement('a');
+      skip.className = 'skip-link'; skip.href = '#' + main.id;
+      skip.textContent = 'Skip to main content';
+      document.body.prepend(skip);
+    }
+  }
+
+  // Keep wide data tables inside a keyboard-accessible scrolling region.
+  function prepareTables() {
+    document.querySelectorAll('main table').forEach((table) => {
+      let wrapper = table.parentElement;
+      if (!wrapper.classList.contains('ae-table-scroll')) {
+        const style = getComputedStyle(wrapper);
+        if (['auto', 'scroll'].includes(style.overflowX)) return;
+        const region = document.createElement('div');
+        region.className = 'ae-table-scroll';
+        table.before(region); region.append(table); wrapper = region;
+      }
+      if (wrapper.scrollWidth > wrapper.clientWidth + 1) {
+        wrapper.tabIndex = 0; wrapper.setAttribute('role', 'region');
+        const caption = table.querySelector('caption');
+        wrapper.setAttribute('aria-label', caption ? caption.textContent.trim() : 'Scrollable data table');
+      } else {
+        wrapper.removeAttribute('tabindex'); wrapper.removeAttribute('role'); wrapper.removeAttribute('aria-label');
+      }
+    });
+  }
+  prepareTables();
+  window.addEventListener('resize', prepareTables);
+  document.addEventListener('ae:tool-complete', prepareTables);
+
   const menuButton = document.querySelector('.mobile-toggle');
   const menu = document.getElementById('primary-nav');
   if (!menuButton || !menu) return;
@@ -13,7 +51,11 @@
     groups.forEach((group) => {
       group.classList.remove('submenu-open');
       const toggle = group.querySelector('.mobile-submenu-toggle');
-      if (toggle) toggle.setAttribute('aria-expanded', 'false');
+      if (toggle) {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', toggle.getAttribute('aria-label').replace(/^Collapse /, 'Expand '));
+        toggle.querySelector('span').textContent = '+';
+      }
     });
     if (restoreFocus) menuButton.focus();
   }

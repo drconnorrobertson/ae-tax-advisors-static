@@ -82,7 +82,7 @@ case studies and outcomes should be read with their own methodology and limitati
       '/blog/rental-partnership-refinance-distribution-basis/',
       '/blog/business-equipment-trade-in-depreciation-recapture/'}]
     summary += '\n\n## Owner decision guides\n\n' + '\n'.join(f'- [{p["title"]}]({BASE}{p["path"]})' for p in newest)
-    summary += f'\n\n## Discovery\n\n- [Canonical URL inventory]({BASE}/sitemap.xml)\n- [Cost segregation sitemap]({BASE}/sitemap-cost-segregation.xml)\n- [Owner decision guide sitemap]({BASE}/sitemap-owner-guides.xml)\n- [Extended owner resource index]({BASE}/llms-full.txt)\n- [Article feed]({BASE}/feed.xml)\n\nThis optional index was updated September 27, 2026. It does not guarantee search indexing or AI citations.\n'
+    summary += f'\n\n## Discovery\n\n- [Canonical URL inventory]({BASE}/sitemap.xml)\n- [Cost segregation sitemap]({BASE}/sitemap-cost-segregation.xml)\n- [Owner decision guide sitemap]({BASE}/sitemap-owner-guides.xml)\n- [Extended owner resource index]({BASE}/llms-full.txt)\n- [Article feed]({BASE}/feed.xml)\n\nThis optional index was updated October 1, 2026. It does not guarantee search indexing or AI citations.\n'
     # Preserve curated additions from subsequent releases while validating
     # their link destinations against the same canonical eligibility inventory.
     extra_file = ROOT/'discovery_sections.md'
