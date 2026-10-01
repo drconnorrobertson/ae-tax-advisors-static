@@ -5,7 +5,7 @@ import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import format_datetime
-from discovery_inventory import ROOT, BASE, inventory
+from discovery_inventory import ROOT, BASE, inventory, redirects
 from build_tax_return_mistakes import paths as return_review_paths
 
 NS = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
@@ -22,6 +22,10 @@ CORE = [
 ('/cost-segregation-documents-checklist/', 'Documents needed before a study'),
 ('/form-3115-cost-segregation/', 'Form 3115 and catch-up depreciation'),
 ('/short-term-rental-tax-strategy/', 'Short-term rental tax planning'),
+('/physician-tax-planning/', 'Physician and medical practice tax planning'),
+('/real-estate-investor-cpa/', 'Real estate investor tax advisory and CPA support'),
+('/reasonable-compensation/', 'S-corporation owner salary documentation'),
+('/locations/billings/', 'Billings headquarters and local tax advisory'),
 ('/rental-property-tax-planning/', 'Rental property tax planning'),
 ('/equipment-leasing-section-179/', 'Business equipment and Section 179'),
 ('/retirement-planning-for-business-owners/', 'Retirement planning for business owners'),
@@ -77,6 +81,23 @@ case studies and outcomes should be read with their own methodology and limitati
       '/blog/business-equipment-trade-in-depreciation-recapture/'}]
     summary += '\n\n## Owner decision guides\n\n' + '\n'.join(f'- [{p["title"]}]({BASE}{p["path"]})' for p in newest)
     summary += f'\n\n## Discovery\n\n- [Canonical URL inventory]({BASE}/sitemap.xml)\n- [Cost segregation sitemap]({BASE}/sitemap-cost-segregation.xml)\n- [Owner decision guide sitemap]({BASE}/sitemap-owner-guides.xml)\n- [Extended owner resource index]({BASE}/llms-full.txt)\n- [Article feed]({BASE}/feed.xml)\n\nThis optional index was updated September 27, 2026. It does not guarantee search indexing or AI citations.\n'
+    # Preserve curated additions from subsequent releases while validating
+    # their link destinations against the same canonical eligibility inventory.
+    extra_file = ROOT/'discovery_sections.md'
+    if extra_file.exists():
+        extra = extra_file.read_text()
+        mapping = redirects()
+        def final_link(match):
+            path = match.group(1)
+            seen = set()
+            while path in mapping and path not in seen:
+                seen.add(path)
+                path = mapping[path]
+            return BASE+path
+        extra = re.sub(re.escape(BASE)+r'(/[^\s)]+)', final_link, extra)
+        extra = '\n'.join(line for line in extra.splitlines()
+                          if all(path in by_path for path in re.findall(re.escape(BASE)+r'(/[^\s)]+)',line)))
+        summary += '\n'+extra+'\n'
     for name in ('llms.txt','llms.md','.well-known/llms.txt'):
         (ROOT/name).parent.mkdir(parents=True,exist_ok=True)
         (ROOT/name).write_text(summary)

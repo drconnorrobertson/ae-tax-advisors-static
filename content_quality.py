@@ -39,6 +39,7 @@ BUTTON_LINK = re.compile(
 DISCOVERY_BOOKING_ID = "FggCeBoxIuOuZZrTaVV1"
 # These are purpose-built appointment routes, not sitewide marketing CTAs.
 SPECIALIZED_BOOKING_PAGES = {
+    "/leasing/",  # Purpose-built equipment-leasing consultation, not a marketing CTA.
     "/30-minute-consultation/",
     "/45-minute-consultation/",
     "/60-minute-consultation/",

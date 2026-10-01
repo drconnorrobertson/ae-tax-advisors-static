@@ -1,5 +1,7 @@
 # Owner content and discovery maintenance
 
+The October 1 service-search overrides and release sequence are documented in `SERVICE_SEARCH_RELEASE_2026_10_01.md`. Run its generator after older service generators when maintaining those destinations.
+
 The primary audiences are business owners and real estate owners. New guides must address a distinct decision, cite applicable primary sources, label hypothetical examples, and link to the relevant service hub. Do not claim individual CPA review without an actual review.
 
 `discovery_inventory.py` defines the common eligibility rule: an explicit self-canonical, no page-level noindex, and no exact permanent redirect. `build_blog_index.py`, `generate_sitemap.py`, and `build_discovery_files.py` use that rule. Sitemap presence describes eligibility, not confirmed search-engine indexing.
