@@ -1,0 +1,929 @@
+[
+  {
+    "slug": "business-owner-estate-exit-advisory",
+    "title": "A Business Owner Connects Estate Transfer and Exit Planning",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/business-owner-estate-exit-advisory/"
+  },
+  {
+    "slug": "business-household-return-coordination",
+    "title": "A Business Owner Coordinates the Entity and Household Returns",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/business-household-return-coordination/"
+  },
+  {
+    "slug": "books-to-business-personal-return-handoff",
+    "title": "An Owner Connects Bookkeeping Adjustments With Business and Personal Filing",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/books-to-business-personal-return-handoff/"
+  },
+  {
+    "slug": "multi-property-study-prioritization",
+    "title": "A Rental Investor Prioritizes Studies Across a Property Portfolio",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/multi-property-study-prioritization/"
+  },
+  {
+    "slug": "rental-investor-mixed-entity-portfolio",
+    "title": "A Rental Investor Coordinates Property Studies Across Different Ownership Structures",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/rental-investor-mixed-entity-portfolio/"
+  },
+  {
+    "slug": "rental-partnership-study-filing-sequence",
+    "title": "A Rental Partnership Sequences a Property Study and Upcoming Returns",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/rental-partnership-study-filing-sequence/"
+  },
+  {
+    "slug": "multi-business-household-filing-map",
+    "title": "A Multi-Business Household Builds a Clear Filing Map",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/multi-business-household-filing-map/"
+  },
+  {
+    "slug": "multiple-s-corp-year-by-year-review",
+    "title": "An Owner Coordinates Reporting Across Multiple S Corporations",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/multiple-s-corp-year-by-year-review/"
+  },
+  {
+    "slug": "catch-up-returns-rental-planning-sequence",
+    "title": "A Property Owner Sequences Catch-Up Filings and Rental Planning",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/catch-up-returns-rental-planning-sequence/"
+  },
+  {
+    "slug": "rental-owner-entity-personal-coordination",
+    "title": "A Rental Owner Connects Entity Structuring With Personal Filing",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/rental-owner-entity-personal-coordination/"
+  },
+  {
+    "slug": "owner-retirement-property-advisory-sequence",
+    "title": "An Owner Coordinates Retirement Strategy With Property Planning",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/owner-retirement-property-advisory-sequence/"
+  },
+  {
+    "slug": "multi-entity-preparation-scope-handoff",
+    "title": "An Owner Defines a Preparation-Only Handoff Across Multiple Entities",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/multi-entity-preparation-scope-handoff/"
+  },
+  {
+    "slug": "restaurant-owner-entity-retirement-roadmap",
+    "title": "A Restaurant Owner Connects Entity Planning, Payroll and Retirement",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/restaurant-owner-entity-retirement-roadmap/"
+  },
+  {
+    "slug": "business-owner-retirement-cash-flow-planning",
+    "title": "A Business Owner Aligns Retirement Planning With Cash Flow",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/business-owner-retirement-cash-flow-planning/"
+  },
+  {
+    "slug": "professional-practice-entity-amendment-review",
+    "title": "A Professional Practice Builds a Roadmap for Structure and Prior Returns",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/professional-practice-entity-amendment-review/"
+  },
+  {
+    "slug": "dental-practice-business-rental-tax-roadmap",
+    "title": "A Dental Practice Owner Coordinates Business and Rental Planning",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/dental-practice-business-rental-tax-roadmap/"
+  },
+  {
+    "slug": "new-s-corp-owner-implementation-roadmap",
+    "title": "A New S Corporation Owner Turns an Election Into an Implementation Plan",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/new-s-corp-owner-implementation-roadmap/"
+  },
+  {
+    "slug": "rental-investor-loss-classification-review",
+    "title": "A Rental Investor Reviews Loss Classification Before Accelerating Depreciation",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/rental-investor-loss-classification-review/"
+  },
+  {
+    "slug": "w2-household-tax-planning-before-new-investments",
+    "title": "A W-2 Household Reviews Tax Planning Before Adding New Investments",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "nonowner",
+    "real_estate": "no",
+    "source": "/case-studies/w2-household-tax-planning-before-new-investments/"
+  },
+  {
+    "slug": "trade-business-owner-rental-retirement-coordination",
+    "title": "A Trade Business Owner Coordinates Payroll, Retirement and Rental Planning",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/trade-business-owner-rental-retirement-coordination/"
+  },
+  {
+    "slug": "multi-business-owner-property-planning-roadmap",
+    "title": "A Multi-Business Owner Connects Property Studies With Entity Review",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/multi-business-owner-property-planning-roadmap/"
+  },
+  {
+    "slug": "rental-owner-new-business-planning",
+    "title": "A Rental Owner Plans a New Business Alongside Existing Property",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/rental-owner-new-business-planning/"
+  },
+  {
+    "slug": "investor-passive-loss-carryforward-review",
+    "title": "An Investor Receives a Clearer View of Passive Loss Carryforwards",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/investor-passive-loss-carryforward-review/"
+  },
+  {
+    "slug": "rental-partnership-return-coordination",
+    "title": "A Rental Partnership Connects Entity Reporting With Owner K-1s",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/rental-partnership-return-coordination/"
+  },
+  {
+    "slug": "rental-conversion-study-and-return-planning",
+    "title": "A Property Owner Coordinates Rental Conversion, Cost Segregation and Filing",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/rental-conversion-study-and-return-planning/"
+  },
+  {
+    "slug": "rental-owner-entity-and-participation-review",
+    "title": "A Rental Owner Evaluates Entity Changes Alongside Participation Rules",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/rental-owner-entity-and-participation-review/"
+  },
+  {
+    "slug": "equipment-leasing-entity-return-roadmap",
+    "title": "An Equipment Leasing Owner Connects Entity Setup With Return Preparation",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/equipment-leasing-entity-return-roadmap/"
+  },
+  {
+    "slug": "mixed-use-rental-property-study-coordination",
+    "title": "A Property Owner Separates Rental and Personal Use Before Study Work",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/mixed-use-rental-property-study-coordination/"
+  },
+  {
+    "slug": "ecommerce-amazon-fba-s-corp",
+    "title": "Amazon FBA Seller Saves $58K with S-Corp and Inventory Method Change",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/ecommerce-amazon-fba-s-corp/"
+  },
+  {
+    "slug": "business-exit-installment-sale-qsbs",
+    "title": "Business Exit: QSBS Exclusion and Stock Sale Negotiation",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/business-exit-installment-sale-qsbs/"
+  },
+  {
+    "slug": "s-corp-late-election-relief",
+    "title": "Business Owner Recovers $19K with Retroactive S-Corp Late Election Relief",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/s-corp-late-election-relief/"
+  },
+  {
+    "slug": "amended-returns-missed-depreciation",
+    "title": "Business Owner Recovers $42K via Amended Returns for Missed Deductions",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/amended-returns-missed-depreciation/"
+  },
+  {
+    "slug": "amended-returns-wrong-entity",
+    "title": "Business Owner Recovers $48K After 6 Years in the Wrong Entity Type",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/amended-returns-wrong-entity/"
+  },
+  {
+    "slug": "s-corp-qbi-threshold-optimization",
+    "title": "Business Owner Saves $28K Optimizing QBI Deduction Before Phase-Out",
+    "income": "250to500",
+    "income_basis": "Taxable income before planning",
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/s-corp-qbi-threshold-optimization/"
+  },
+  {
+    "slug": "multi-entity-holding-company",
+    "title": "Business Owner Saves $54K/Year with Holding Company Restructuring",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/multi-entity-holding-company/"
+  },
+  {
+    "slug": "w2-salt-cap-ptet-workaround",
+    "title": "Business-Owning Couple Saves $23K Using PTET to Bypass SALT Cap",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/w2-salt-cap-ptet-workaround/"
+  },
+  {
+    "slug": "construction-equipment-section-179",
+    "title": "Construction Company Deducts $890K in Equipment via Section 179 + Bonus Depreciation",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/construction-equipment-section-179/"
+  },
+  {
+    "slug": "construction-company-equipment-depreciation-entity-layering",
+    "title": "Construction Company Equipment Depreciation and Entity Layering",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/construction-company-equipment-depreciation-entity-layering/"
+  },
+  {
+    "slug": "construction-completed-contract",
+    "title": "Construction Company Saves $320K by Switching to Completed Contract Method",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/construction-completed-contract/"
+  },
+  {
+    "slug": "partnership-to-s-corp",
+    "title": "Consulting Partnership Saves $36K/Year with S-Corp Restructuring",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/partnership-to-s-corp/"
+  },
+  {
+    "slug": "ecommerce-dropship-multistate",
+    "title": "Dropshipping Business Saves $31K with Entity Consolidation and Multistate Cleanup",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/ecommerce-dropship-multistate/"
+  },
+  {
+    "slug": "ecommerce-sole-prop-to-s-corp-entity-restructuring",
+    "title": "E-Commerce Sole Prop to S-Corp Entity Restructuring",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/ecommerce-sole-prop-to-s-corp-entity-restructuring/"
+  },
+  {
+    "slug": "equipment-leasing-section-179-bonus-depreciation",
+    "title": "Equipment Leasing: Section 179 Stacking and Form 3115 Catch-Up",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/equipment-leasing-section-179-bonus-depreciation/"
+  },
+  {
+    "slug": "multi-entity-family-income-splitting",
+    "title": "Family Business Owner Saves $39K with Income Splitting Across Entities",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/multi-entity-family-income-splitting/"
+  },
+  {
+    "slug": "four-llc-consolidation-management-company",
+    "title": "Four-LLC Consolidation Under Management Company",
+    "income": "250to500",
+    "income_basis": "Combined net business income",
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/four-llc-consolidation-management-company/"
+  },
+  {
+    "slug": "franchise-owner-seven-locations-centralized-planning",
+    "title": "Franchise Owner: Seven Locations with Centralized Tax Planning",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/franchise-owner-seven-locations-centralized-planning/"
+  },
+  {
+    "slug": "s-corp-payroll-setup-sole-prop",
+    "title": "Freelance Consultant Saves $22K/Year with S-Corp Election and Payroll Setup",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/s-corp-payroll-setup-sole-prop/"
+  },
+  {
+    "slug": "freelancer-home-office-vehicle",
+    "title": "Freelance Designer Saves $18K with Home Office + Vehicle Depreciation + SEP-IRA",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/freelancer-home-office-vehicle/"
+  },
+  {
+    "slug": "sole-prop-to-s-corp-contractor",
+    "title": "General Contractor Saves $41K/Year with S-Corp Restructuring",
+    "income": "500to1m",
+    "income_basis": "Net business profit",
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/sole-prop-to-s-corp-contractor/"
+  },
+  {
+    "slug": "husband-wife-three-businesses-joint-optimization",
+    "title": "Husband-Wife Three-Business Joint Filing Optimization and Entity Consolidation",
+    "income": "500to1m",
+    "income_basis": "Household income",
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/husband-wife-three-businesses-joint-optimization/"
+  },
+  {
+    "slug": "insurance-agency-commission-entity-optimization",
+    "title": "Insurance Agency Commission-Based Entity and Compensation Optimization",
+    "income": "500to1m",
+    "income_basis": "Owner income",
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/insurance-agency-commission-entity-optimization/"
+  },
+  {
+    "slug": "international-business-owner-treaty-planning-gilti",
+    "title": "International Business Owner Treaty Planning and GILTI Optimization Strategy",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/international-business-owner-treaty-planning-gilti/"
+  },
+  {
+    "slug": "landscaping-contractor-section-179-stacking",
+    "title": "Landscaping Contractor Section 179 Equipment Stacking and S-Corp Strategy",
+    "income": "250to500",
+    "income_basis": "Owner income",
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/landscaping-contractor-section-179-stacking/"
+  },
+  {
+    "slug": "law-firm-partner-s-corp-cash-balance-plan",
+    "title": "Law Firm Partner S-Corp Election and Cash Balance Pension Plan",
+    "income": "500to1m",
+    "income_basis": "Net income",
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/law-firm-partner-s-corp-cash-balance-plan/"
+  },
+  {
+    "slug": "consultant-six-figure-s-corp",
+    "title": "S Corporation Owner Tax Planning Worked Example",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/consultant-six-figure-s-corp/"
+  },
+  {
+    "slug": "manufacturing-company-rd-credit-macrs",
+    "title": "Manufacturing Company R&D Tax Credit and MACRS Depreciation Acceleration",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/manufacturing-company-rd-credit-macrs/"
+  },
+  {
+    "slug": "marketing-agency-home-office-augusta-rule-s-corp",
+    "title": "Marketing Agency Home Office, Augusta Rule, and S-Corp Optimization",
+    "income": "250to500",
+    "income_basis": "Owner income",
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/marketing-agency-home-office-augusta-rule-s-corp/"
+  },
+  {
+    "slug": "mixed-use-developer-bonus-depreciation-opportunity-zone",
+    "title": "Mixed-Use Developer: Opportunity Zone and Cost Segregation",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/mixed-use-developer-bonus-depreciation-opportunity-zone/"
+  },
+  {
+    "slug": "nonprofit-founder-for-profit-entities-related-party",
+    "title": "Nonprofit Founder Related Party Transaction and Tax-Exempt Planning Strategy",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/nonprofit-founder-for-profit-entities-related-party/"
+  },
+  {
+    "slug": "s-corp-multiple-businesses",
+    "title": "Owner of 3 S-Corps Saves $67K with QBI Aggregation and Cross-Entity Planning",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/s-corp-multiple-businesses/"
+  },
+  {
+    "slug": "s-corp-officer-comp-correction",
+    "title": "S-Corp Owner Saves $31K/Year with Officer Compensation Restructuring",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/s-corp-officer-comp-correction/"
+  },
+  {
+    "slug": "saas-founder-rd-credit-s-corp-optimization",
+    "title": "SaaS Founder R&D Credit and S-Corp Optimization",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/saas-founder-rd-credit-s-corp-optimization/"
+  },
+  {
+    "slug": "tech-startup-rd-credit-qsbs",
+    "title": "SaaS Founder Saves $45K/Year with R&D Credit + QSBS Planning",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/tech-startup-rd-credit-qsbs/"
+  },
+  {
+    "slug": "tech-founder-equity-comp-83b",
+    "title": "Startup Founder Saves $380K with 83(b) Election on Restricted Stock",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/tech-founder-equity-comp-83b/"
+  },
+  {
+    "slug": "tech-consulting-firm-ic-classification-accountable-plan",
+    "title": "Tech Consulting Firm IC Classification and Accountable Plan Optimization",
+    "income": "500to1m",
+    "income_basis": "Owner income",
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/tech-consulting-firm-ic-classification-accountable-plan/"
+  },
+  {
+    "slug": "trucking-logistics-fleet-depreciation-fuel-credits",
+    "title": "Trucking and Logistics Fleet Depreciation and Fuel Tax Credit Strategy",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "no",
+    "source": "/case-studies/trucking-logistics-fleet-depreciation-fuel-credits/"
+  },
+  {
+    "slug": "medical-practice-c-corp-retirement-stacking",
+    "title": "Medical Practice C-Corp Conversion with Retirement Plan Stacking",
+    "income": "500to1m",
+    "income_basis": "Owner compensation",
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/medical-practice-c-corp-retirement-stacking/"
+  },
+  {
+    "slug": "s-corp-to-c-corp-medical",
+    "title": "Medical Practice Saves $72K/Year Converting from S-Corp to C-Corp",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/s-corp-to-c-corp-medical/"
+  },
+  {
+    "slug": "private-medical-practice-c-corp-defined-benefit",
+    "title": "Private Medical Practice C-Corp Conversion and Defined Benefit Plan Strategy",
+    "income": "500to1m",
+    "income_basis": "Average owner income",
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/private-medical-practice-c-corp-defined-benefit/"
+  },
+  {
+    "slug": "restaurant-group-multi-entity-optimization",
+    "title": "Restaurant Group Multi-Entity Optimization",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/restaurant-group-multi-entity-optimization/"
+  },
+  {
+    "slug": "ltr-apartment-building-24-units",
+    "title": "24-Unit Apartment Complex: $980K Year 1 Deduction via Cost Segregation",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/ltr-apartment-building-24-units/"
+  },
+  {
+    "slug": "multifamily-48-units-cost-segregation",
+    "title": "48-Unit Multifamily Cost Segregation with REPS Status",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/multifamily-48-units-cost-segregation/"
+  },
+  {
+    "slug": "airbnb-arbitrage-operator-business-expense-optimization",
+    "title": "Airbnb Arbitrage Operator Business Expense and Entity Optimization",
+    "income": "100to250",
+    "income_basis": "Net business income",
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/airbnb-arbitrage-operator-business-expense-optimization/"
+  },
+  {
+    "slug": "auto-dealership-cost-seg-fleet-depreciation",
+    "title": "Auto Dealership Group Cost Segregation and Fleet Depreciation Strategy",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/auto-dealership-cost-seg-fleet-depreciation/"
+  },
+  {
+    "slug": "hotel-boutique-investor-cost-seg-ffe-energy-credits",
+    "title": "Boutique Hotel Cost Segregation, FF&E Depreciation, and Energy Credit Strategy",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/hotel-boutique-investor-cost-seg-ffe-energy-credits/"
+  },
+  {
+    "slug": "hotel-boutique-renovation-cost-seg",
+    "title": "Boutique Hotel Renovation: $1.28M in Accelerated Deductions via Cost Seg",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/hotel-boutique-renovation-cost-seg/"
+  },
+  {
+    "slug": "commercial-property-1031-exchange-cost-seg",
+    "title": "Commercial Property 1031 Exchange with Cost Segregation",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/commercial-property-1031-exchange-cost-seg/"
+  },
+  {
+    "slug": "dental-practice-cost-seg-entity-restructuring",
+    "title": "Dental Practice Cost Segregation and Entity Restructuring",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/dental-practice-cost-seg-entity-restructuring/"
+  },
+  {
+    "slug": "dental-practice-cost-seg-dso",
+    "title": "Dentist Saves $156K with Cost Seg on Practice Building and Entity Separation",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/dental-practice-cost-seg-dso/"
+  },
+  {
+    "slug": "w2-couple-str-offset",
+    "title": "Dual W-2 Couple Saves $68K with STR Purchase and Cost Seg Offset",
+    "income": "500to1m",
+    "income_basis": "Combined W-2 income",
+    "ownership": "nonowner",
+    "real_estate": "yes",
+    "source": "/case-studies/w2-couple-str-offset/"
+  },
+  {
+    "slug": "ltr-duplex-cost-seg",
+    "title": "Duplex LTR Owner Gets $144K Year 1 Deduction via Cost Segregation",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/ltr-duplex-cost-seg/"
+  },
+  {
+    "slug": "fix-and-flip-dealer-vs-investor-classification",
+    "title": "Fix-and-Flip Dealer vs. Investor Classification Strategy",
+    "income": "250to500",
+    "income_basis": "Net flip income",
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/fix-and-flip-dealer-vs-investor-classification/"
+  },
+  {
+    "slug": "physician-w2-str-reps",
+    "title": "High-Income Physician Saves $89K with Spousal REPS and STR Cost Seg",
+    "income": "500to1m",
+    "income_basis": "W-2 income",
+    "ownership": "nonowner",
+    "real_estate": "yes",
+    "source": "/case-studies/physician-w2-str-reps/"
+  },
+  {
+    "slug": "ltr-inherited-property-step-up",
+    "title": "Inherited LTR Gets $217K Year 1 Deduction via Stepped-Up Basis Cost Seg",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/ltr-inherited-property-step-up/"
+  },
+  {
+    "slug": "amended-returns-missed-cost-seg",
+    "title": "Investor Captures $340K via Form 3115 Catch-Up Depreciation on 3 Properties",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/amended-returns-missed-cost-seg/"
+  },
+  {
+    "slug": "ltr-section-1250-recapture-planning",
+    "title": "LTR Investor Saves $127K with Section 1250 Recapture Planning and 1031 Exchange",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/ltr-section-1250-recapture-planning/"
+  },
+  {
+    "slug": "str-lake-house-cost-seg",
+    "title": "Residential STR Cost Segregation Worked Example",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/str-lake-house-cost-seg/"
+  },
+  {
+    "slug": "land-developer-installment-sale-like-kind-exchange",
+    "title": "Land Developer Installment Sales and Like-Kind Exchange",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/land-developer-installment-sale-like-kind-exchange/"
+  },
+  {
+    "slug": "mobile-home-park-cost-seg-infrastructure",
+    "title": "Mobile Home Park Cost Segregation on Infrastructure and Land Improvements",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/mobile-home-park-cost-seg-infrastructure/"
+  },
+  {
+    "slug": "str-mountain-cabin-bonus-dep",
+    "title": "Mountain Cabin STR Saves $34K Extra via Augusta Rule Stacking with Cost Seg",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/str-mountain-cabin-bonus-dep/"
+  },
+  {
+    "slug": "physician-reps-qualification-cost-seg-combo",
+    "title": "Physician Real Estate Professional Status Qualification and Cost Segregation Combo",
+    "income": "500to1m",
+    "income_basis": "Combined income",
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/physician-reps-qualification-cost-seg-combo/"
+  },
+  {
+    "slug": "professional-athlete-entity-setup-real-estate-offset",
+    "title": "Professional Athlete Entity Structure and Real Estate Income Offset Strategy",
+    "income": "1mplus",
+    "income_basis": "Contract and endorsement income",
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/professional-athlete-entity-setup-real-estate-offset/"
+  },
+  {
+    "slug": "multi-entity-real-estate-operating",
+    "title": "RE Investor with Operating Business Saves $83K with Management Company Structure",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/multi-entity-real-estate-operating/"
+  },
+  {
+    "slug": "real-estate-agent-investment-portfolio",
+    "title": "Business Owner With Rental Properties Worked Example",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/real-estate-agent-investment-portfolio/"
+  },
+  {
+    "slug": "real-estate-broker-team-entity",
+    "title": "Real Estate Broker Saves $52K with Team Entity Restructuring",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/real-estate-broker-team-entity/"
+  },
+  {
+    "slug": "real-estate-professional-grouping-election",
+    "title": "Long-Term Rental Cost Segregation Worked Example",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/real-estate-professional-grouping-election/"
+  },
+  {
+    "slug": "restaurant-cost-seg-tip-credit",
+    "title": "Restaurant Owner Saves $94K with Cost Seg + FICA Tip Credit Stacking",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/restaurant-cost-seg-tip-credit/"
+  },
+  {
+    "slug": "str-portfolio-five-properties",
+    "title": "Residential Rental Portfolio Worked Example",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/str-portfolio-five-properties/"
+  },
+  {
+    "slug": "str-form-3115-catchup",
+    "title": "Missed Depreciation Correction Worked Example",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/str-form-3115-catchup/"
+  },
+  {
+    "slug": "self-storage-facility-cost-seg-automation",
+    "title": "Self-Storage Facility Cost Segregation and Automation Equipment Strategy",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/self-storage-facility-cost-seg-automation/"
+  },
+  {
+    "slug": "str-portfolio-cost-seg-material-participation",
+    "title": "Short-Term Rental Portfolio Cost Segregation and Material Participation",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "unspecified",
+    "real_estate": "yes",
+    "source": "/case-studies/str-portfolio-cost-seg-material-participation/"
+  },
+  {
+    "slug": "triple-net-lease-passive-income-grouping-elections",
+    "title": "Triple Net Lease Passive Income Grouping Elections and Cost Segregation Strategy",
+    "income": "250to500",
+    "income_basis": "Net rental income",
+    "ownership": "nonowner",
+    "real_estate": "yes",
+    "source": "/case-studies/triple-net-lease-passive-income-grouping-elections/"
+  },
+  {
+    "slug": "veterinary-practice-cost-seg-section-179",
+    "title": "Veterinary Practice Cost Segregation and Equipment Section 179 Strategy",
+    "income": "unknown",
+    "income_basis": null,
+    "ownership": "owner",
+    "real_estate": "yes",
+    "source": "/case-studies/veterinary-practice-cost-seg-section-179/"
+  }
+]

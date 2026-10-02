@@ -101,3 +101,7 @@ for fn in ['sitemap.xml','sitemap-case-studies.xml','sitemap-pages.xml']:
  f.write_text(s)
 (ROOT/'scripts/client_stories_manifest_20261001.json').write_text(json.dumps({'date':DATE,'reviewed_clients':50,'stories':len(STORIES),'paths':[path(x) for x in STORIES]+[reviews,'/case-studies/']},indent=2)+'\n')
 print(f'Built {len(STORIES)} stories; expanded reviews page and case-study index; updated sitemaps.')
+
+# Reapply public profile tags after rebuilding the library.
+import runpy
+runpy.run_path(str(ROOT / "scripts/build_case_profile_filters.py"))
