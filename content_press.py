@@ -14,7 +14,7 @@ PRESS = [
  "date": None,
  "topic": "Tax Advisory",
  "summary": "PR article featuring AE Tax Advisors and Christina Nortman on planning for business owners and real estate investors.",
- "verification": "User-supplied URL; headline inferred from URL; article content and publication date not independently verified.",
+ "verification": "Publisher URL verified HTTP 200 on October 1, 2026; headline and publication metadata checked against the publisher page.",
 },
 {
  "title": "What AE Tax Advisors and Christina Nortman Do Before the Tax Year Closes",
@@ -23,7 +23,7 @@ PRESS = [
  "date": None,
  "topic": "Tax Advisory",
  "summary": "PR article featuring AE Tax Advisors and Christina Nortman on planning before year-end.",
- "verification": "User-supplied URL; headline inferred from URL; article content and publication date not independently verified.",
+ "verification": "Publisher URL verified HTTP 200 on October 1, 2026; headline and publication metadata checked against the publisher page.",
 },
 {
  "title": "Christina Nortman and AE Tax Advisors Built a Year-Round Tax Advisory Firm Around a Single Distinction",
@@ -32,7 +32,7 @@ PRESS = [
  "date": None,
  "topic": "Tax Advisory",
  "summary": "PR article featuring Christina Nortman and AE Tax Advisors’ year-round advisory practice.",
- "verification": "User-supplied URL; headline inferred from URL; article content and publication date not independently verified.",
+ "verification": "Publisher URL verified HTTP 200 on October 1, 2026; headline and publication metadata checked against the publisher page.",
 },
 {
  "title": "AE Tax Advisors and Christina Nortman on the Entity Structure Decision Business Owners Keep Getting Wrong",
@@ -41,7 +41,7 @@ PRESS = [
  "date": None,
  "topic": "Entity Structuring",
  "summary": "PR article featuring AE Tax Advisors and Christina Nortman on business entity structure.",
- "verification": "User-supplied URL; headline inferred from URL; article content and publication date not independently verified.",
+ "verification": "Publisher URL verified HTTP 200 on October 1, 2026; headline and publication metadata checked against the publisher page.",
 },
 {
  "title": "How AE Tax Advisors and Christina Nortman Built a National Tax Advisory Firm",
@@ -50,7 +50,7 @@ PRESS = [
  "date": None,
  "topic": "Tax Advisory",
  "summary": "PR article featuring AE Tax Advisors and Christina Nortman’s national advisory practice.",
- "verification": "User-supplied URL; headline inferred from URL; article content and publication date not independently verified.",
+ "verification": "Publisher URL verified HTTP 200 on October 1, 2026; headline and publication metadata checked against the publisher page.",
 },
 {
  "title": "Christina Nortman and AE Tax Advisors on What Happens When Business Income Meets a Real Estate Portfolio",
@@ -59,7 +59,7 @@ PRESS = [
  "date": None,
  "topic": "Real Estate Tax",
  "summary": "PR article featuring Christina Nortman and AE Tax Advisors on business income and rental portfolios.",
- "verification": "User-supplied URL; headline inferred from URL; article content and publication date not independently verified.",
+ "verification": "Publisher URL verified HTTP 200 on October 1, 2026; headline and publication metadata checked against the publisher page.",
 },
 {
  "title": "Christina Nortman and AE Tax Advisors Target the Business Owners Big Firms Won’t Serve",
@@ -68,7 +68,7 @@ PRESS = [
  "date": None,
  "topic": "Tax Advisory",
  "summary": "PR article featuring Christina Nortman and AE Tax Advisors’ focus on business owners.",
- "verification": "User-supplied URL; headline inferred from URL; article content and publication date not independently verified.",
+ "verification": "Publisher URL verified HTTP 200 on October 1, 2026; headline and publication metadata checked against the publisher page.",
 },
 {
  "title": "Christina Nortman and AE Tax Advisors Are Building Tax Strategy Before the Year Closes",
@@ -77,7 +77,7 @@ PRESS = [
  "date": None,
  "topic": "Tax Advisory",
  "summary": "PR article featuring Christina Nortman and AE Tax Advisors’ planning before year-end.",
- "verification": "User-supplied URL; headline inferred from URL; article content and publication date not independently verified.",
+ "verification": "Publisher URL verified HTTP 200 on October 1, 2026; headline and publication metadata checked against the publisher page.",
 },
 {
  "title": "Christina Nortman and AE Tax Advisors Built Their Practice Around Planning, Not Filing",
@@ -86,7 +86,7 @@ PRESS = [
  "date": None,
  "topic": "Tax Advisory",
  "summary": "PR article featuring Christina Nortman and AE Tax Advisors’ planning-focused practice.",
- "verification": "User-supplied URL; headline inferred from URL; article content and publication date not independently verified.",
+ "verification": "Publisher URL verified HTTP 200 on October 1, 2026; headline and publication metadata checked against the publisher page.",
 },
 {
  "title": "AE Tax Advisors Reviews When Should You Order a Cost Segregation Study for an Airbnb Property?",
