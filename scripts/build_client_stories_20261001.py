@@ -35,7 +35,7 @@ for s in STORIES:
  schemas=[T.article_schema(title=s['title'],description=desc,url=T.SITE+path(s),published=DATE,modified=DATE,section='Anonymized Client Planning Stories',citations=[url]),T.breadcrumb_schema(trail)]
  T.write_page(path(s),T.build_page(title=s['title']+' | AE Tax Advisors',description=desc,path=path(s),body=body,schemas=schemas,published=DATE,modified=DATE,active_nav='/case-studies/'))
 # Keep the original case-study library and its filters; prepend the new stories.
-f=ROOT/'case-studies/index.html';s=f.read_text()
+f=ROOT/'case-studies/index.html';s=f.read_text().replace('See all 36 features','See all 45 features')
 if 'restaurant-owner-entity-retirement-roadmap' not in s:
  s=s.replace('<div class="cs-grid" id="cs-grid">','<div class="cs-grid" id="cs-grid">\n'+''.join(card(x) for x in STORIES),1)
  counts=Counter(x['cat'] for x in STORIES)
