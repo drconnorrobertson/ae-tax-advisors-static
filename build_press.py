@@ -15,7 +15,7 @@ import content_press as P
 
 BASE = "/press/"
 PUBLISHED = "2026-08-15"
-MODIFIED = "2026-09-25"
+MODIFIED = "2026-10-01"
 
 PRESS_CSS = """
     <style>
