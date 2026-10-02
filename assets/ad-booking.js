@@ -30,17 +30,19 @@
     booking.focus();
     try {
       const route = (await config())[current];
-      // Activate only when Jared supplies BOTH the verified new calendar and
-      // its business-owner form prefill mapping. No legacy calendar fallback.
-      if (!route?.bookingUrl || !route?.answerQueryKey) return showPending();
+      // Use the supplied new calendars. The embedded GHL form saves the
+      // business-owner answer; prefill only when its query mapping is verified.
+      if (!route?.bookingUrl) return showPending();
       const url = new URL(route.bookingUrl);
       if (url.protocol !== 'https:' || !['api.leadconnectorhq.com','link.msgsndr.com','tax.aetaxadvisors.com'].includes(url.hostname)) return showPending();
       attribution.forEach((value,key) => url.searchParams.set(key,value));
-      url.searchParams.set(route.answerQueryKey,answer === 'yes' ? 'Yes' : 'No');
+      if (route.answerQueryKey) url.searchParams.set(route.answerQueryKey,answer === 'yes' ? 'Yes' : 'No');
       const iframe = document.createElement('iframe');
       iframe.src = url.href;
       iframe.title = 'Book with ' + (current === 'connor' ? 'Connor Davis' : 'Jacques Snyman');
       iframe.id = 'ad-booking-calendar';
+      iframe.allow = 'payment';
+      iframe.setAttribute('scrolling', 'no');
       calendar.append(iframe);
       const link = document.createElement('a');
       link.href = url.href; link.target = '_blank'; link.rel = 'noopener';

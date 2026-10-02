@@ -1,10 +1,10 @@
 {
   "connor": {
-    "bookingUrl": null,
+    "bookingUrl": "https://api.leadconnectorhq.com/widget/booking/sOAjhMz5kyJbrPJ6tVDm",
     "answerQueryKey": null
   },
   "jacques": {
-    "bookingUrl": null,
+    "bookingUrl": "https://api.leadconnectorhq.com/widget/booking/B682UlDuBNAnEXz2e879",
     "answerQueryKey": null
   }
 }
