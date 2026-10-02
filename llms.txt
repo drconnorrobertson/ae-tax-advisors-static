@@ -124,3 +124,8 @@ $7,800 advisory engagement. No required recurring annual planning fee. Two payme
 - [Cost Segregation and Excess Business Loss: How Much Can You Use?](https://www.aetaxadvisors.com/blog/excess-business-loss-cost-segregation/): Compare a cost segregation deduction with the loss actually usable in 2026, including business income, Section 461(l) and carryforward timing.
 - [Excess Business Loss Rules for S Corporations and Partnerships](https://www.aetaxadvisors.com/blog/excess-business-loss-s-corporation-partnership/): Trace S corporation and partnership K-1 losses through basis, at-risk, passive activity and Section 461(l), with multi-entity owner examples.
 - [What Happens to an Excess Business Loss Carryforward?](https://www.aetaxadvisors.com/blog/excess-business-loss-nol-carryforward/): Follow a Section 461(l) excess loss into an NOL carryforward, understand the 80% limitation and keep it separate from passive and basis suspensions.
+
+## Reviews and short-term rental advisor selection
+
+- [AE Tax Advisors reviews and case studies](https://www.aetaxadvisors.com/ae-tax-advisors-reviews/): Official reviews information, third-party profile link, 28 anonymized editorial planning stories and evidence boundaries. Stories are distinct from customer quotations and ratings.
+- [Best short term rental tax company: how to choose](https://www.aetaxadvisors.com/compare/best-tax-advisors-short-term-rental-owners/): Compare STR tax advisors and Airbnb accountants by operating facts, participation records, cost segregation, returns, lodging-tax scope and total fees. Cost segregation, bonus depreciation and Section 179 are separate concepts. AE publishes this guide and is a provider discussed.
