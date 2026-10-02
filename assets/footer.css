@@ -1,0 +1,27 @@
+/* Shared footer: scoped to work across every page template. */
+footer.ae-site-footer { box-sizing:border-box; background:#091623; color:#d1d6dd; padding:64px 24px 28px; font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:14px; line-height:1.65; }
+.ae-site-footer *, .ae-site-footer *::before, .ae-site-footer *::after { box-sizing:border-box; }
+.ae-site-footer .footer-inner { width:100%; max-width:1200px; margin:0 auto; display:grid; grid-template-columns:minmax(240px,2fr) repeat(4,minmax(0,1fr)); gap:36px; padding:0 0 40px; }
+.ae-site-footer .footer-col { min-width:0; }
+.ae-site-footer .footer-col h4 { margin:0 0 16px; color:#DDC788; font-size:13px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; line-height:1.5; }
+.ae-site-footer .footer-col p { margin:0 0 8px; font-size:14px; line-height:1.65; max-width:38ch; color:#d1d6dd; }
+.ae-site-footer a { color:#c3cbd5; text-decoration:none; overflow-wrap:anywhere; }
+.ae-site-footer .footer-col a { display:block; font-size:14px; padding:5px 0; line-height:1.6; }
+.ae-site-footer a:hover { color:#F0D997; }
+.ae-site-footer a:focus-visible { outline:2px solid #F0D997; outline-offset:4px; }
+.ae-site-footer .footer-logo { width:180px; padding:0; }
+.ae-site-footer .footer-logo img { display:block; width:180px; height:60px; object-fit:contain; object-position:left center; margin:0 0 16px; filter:brightness(0) invert(1); }
+.ae-site-footer .footer-social { display:flex; gap:12px; margin:20px 0 16px; }
+.ae-site-footer .footer-social a { display:flex; justify-content:center; align-items:center; width:44px; height:44px; padding:0; border-radius:50%; background:#263340; }
+.ae-site-footer .footer-social svg { display:block; width:20px; height:20px; fill:currentColor; }
+.ae-site-footer .footer-trust-badges { display:flex; flex-direction:column; gap:6px; margin:16px 0; }
+.ae-site-footer .trust-badge { color:#bac4d0 !important; font-size:12px; }
+.ae-site-footer .footer-phone a, .ae-site-footer .footer-email a { display:inline; padding:0; }
+.ae-site-footer .footer-bottom { width:100%; max-width:1200px; margin:0 auto; border-top:1px solid #33404c; padding:22px 0 0; text-align:center; }
+.ae-site-footer .footer-bottom p { margin:0 0 12px; color:#bac4d0; font-size:13px; line-height:1.7; }
+.ae-site-footer .footer-legal-links a { display:inline; }
+.ae-site-footer .footer-disclaimer { max-width:900px; margin:0 auto !important; }
+@media (max-width:1100px) { .ae-site-footer .footer-inner { grid-template-columns:repeat(3,minmax(0,1fr)); } .ae-site-footer .footer-brand { grid-column:1 / -1; } }
+@media (max-width:700px) { footer.ae-site-footer { padding:40px 24px calc(84px + env(safe-area-inset-bottom)); } .ae-site-footer .footer-inner { grid-template-columns:repeat(2,minmax(0,1fr)) !important; gap:28px 20px; } }
+@media (max-width:420px) { .ae-site-footer .footer-inner { grid-template-columns:minmax(0,1fr) !important; } }
+@media print { footer.ae-site-footer { display:none; } }

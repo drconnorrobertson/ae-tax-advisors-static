@@ -100,7 +100,8 @@ def columns_html() -> str:
 
 
 def build_footer() -> str:
-    return f"""<footer>
+    return f"""<footer class="ae-site-footer">
+        <link rel="stylesheet" href="/assets/footer.css?v=20261001">
         <div class="footer-inner">
             <div class="footer-col footer-brand">
                 <a href="/" class="footer-logo"><img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" width="180" height="60" loading="lazy" decoding="async" style="object-fit: contain;"></a>
