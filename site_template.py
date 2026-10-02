@@ -33,7 +33,7 @@ class Chrome:
     def __init__(self) -> None:
         home = (ROOT / "index.html").read_text(encoding="utf-8")
         self.header = _slice(home, "<header>", "</header>")
-        self.footer = _slice(home, "<footer>", "</footer>")
+        self.footer = _slice(home, "<footer", "</footer>")
         self.sticky = _slice(home, '<section class="sticky-cta">', "</section>")
         self.script = _slice(home, "<script>\n    // Scroll fade-in", "</script>")
         # The generated page is never the homepage, so drop the "active" state

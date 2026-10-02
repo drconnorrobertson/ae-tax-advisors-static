@@ -21,7 +21,7 @@ footer.ae-site-footer { box-sizing:border-box; background:#091623; color:#d1d6dd
 .ae-site-footer .footer-bottom p { margin:0 0 12px; color:#bac4d0; font-size:13px; line-height:1.7; }
 .ae-site-footer .footer-legal-links a { display:inline; }
 .ae-site-footer .footer-disclaimer { max-width:900px; margin:0 auto !important; }
-@media (max-width:1100px) { .ae-site-footer .footer-inner { grid-template-columns:repeat(3,minmax(0,1fr)); } .ae-site-footer .footer-brand { grid-column:1 / -1; } }
+@media (max-width:1100px) { .ae-site-footer .footer-inner { grid-template-columns:repeat(2,minmax(0,1fr)); } .ae-site-footer .footer-brand { grid-column:1 / -1; } }
 @media (max-width:700px) { footer.ae-site-footer { padding:40px 24px calc(84px + env(safe-area-inset-bottom)); } .ae-site-footer .footer-inner { grid-template-columns:repeat(2,minmax(0,1fr)) !important; gap:28px 20px; } }
 @media (max-width:420px) { .ae-site-footer .footer-inner { grid-template-columns:minmax(0,1fr) !important; } }
 @media print { footer.ae-site-footer { display:none; } }

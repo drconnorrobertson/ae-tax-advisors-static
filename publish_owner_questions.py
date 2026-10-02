@@ -134,7 +134,7 @@ def render(page: dict) -> str:
     main += '''    <section class="content-section fade-in-section" style="background:var(--light-bg);"><div class="container narrow center-text"><h2>Review Your Facts With AE</h2><p>Bring the transaction documents and dates to a discovery call. We can identify the tax questions, records, and next steps for your business or property.</p><div class="center-cta" style="margin-top:20px;"><a href="/discovery/" class="btn-cta btn-lg">Schedule Your Discovery Call</a></div></div></section>
     </main>
 '''
-    footer = BASE[BASE.index("<footer>"):]
+    footer = BASE[BASE.index("<footer"):]
     return meta + chrome + main + footer
 
 
