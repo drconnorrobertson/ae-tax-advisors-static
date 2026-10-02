@@ -108,3 +108,7 @@ print(f'Built {len(STORIES)} stories; expanded reviews page and case-study index
 # Reapply public profile tags after rebuilding the library.
 import runpy
 runpy.run_path(str(ROOT / "scripts/build_case_profile_filters.py"))
+
+# Preserve the expanded buyer evidence on the regenerated reviews page.
+from expand_buyer_guides_20261001 import enhance, GUIDES
+enhance(next(g for g in GUIDES if g["key"] == "ae-reviews"))
