@@ -1,0 +1,26 @@
+name: Extract and commit keyword gap pages
+on:
+  workflow_dispatch:
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract pages from tar.gz
+        run: |
+          tar xzf all_pages.tar.gz
+          rm all_pages.tar.gz
+          rm -rf _test-delete-me _test-push _test-push-2 _test-net _test-graphql _test-gql2 _test-gql3
+      - name: Clean up test directories
+        run: |
+          for d in _test-*; do [ -d "$d" ] && rm -rf "$d"; done || true
+      - name: Commit all pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git status
+          git commit -m "Add 65 keyword gap pages: 50 state tax advisor pages and 15 pillar content pages" || echo "Nothing to commit"
+          git push
