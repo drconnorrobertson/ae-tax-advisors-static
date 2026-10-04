@@ -25,3 +25,35 @@ footer.ae-site-footer { box-sizing:border-box; background:#091623; color:#d1d6dd
 @media (max-width:700px) { footer.ae-site-footer { padding:40px 24px calc(84px + env(safe-area-inset-bottom)); } .ae-site-footer .footer-inner { grid-template-columns:repeat(2,minmax(0,1fr)) !important; gap:28px 20px; } }
 @media (max-width:420px) { .ae-site-footer .footer-inner { grid-template-columns:minmax(0,1fr) !important; } }
 @media print { footer.ae-site-footer { display:none; } }
+
+/* Keep tax debt resolution outside the acquisition funnel. */
+a[href="/ae-tax-advisors-vs-tax-relief-companies"],
+a[href="/ae-tax-advisors-vs-tax-relief-companies/"],
+a[href="/blog/can-i-negotiate-with-the-irs-to-reduce-my-tax-debt"],
+a[href="/blog/can-i-negotiate-with-the-irs-to-reduce-my-tax-debt/"],
+a[href="/blog/first-time-penalty-abatement-irs"],
+a[href="/blog/first-time-penalty-abatement-irs/"],
+a[href="/blog/innocent-spouse-relief-irc-6015"],
+a[href="/blog/innocent-spouse-relief-irc-6015/"],
+a[href="/blog/offer-in-compromise-myths-reality"],
+a[href="/blog/offer-in-compromise-myths-reality/"],
+a[href="/blog/unfiled-tax-returns-strategy"],
+a[href="/blog/unfiled-tax-returns-strategy/"],
+a[href="/blog/what-is-irs-penalty-abatement-and-how-do-i-qualify"],
+a[href="/blog/what-is-irs-penalty-abatement-and-how-do-i-qualify/"],
+a[href="/compare/pinnacle-tax-group-alternatives"],
+a[href="/compare/pinnacle-tax-group-alternatives/"],
+a[href="/irs-installment-agreement"],
+a[href="/irs-installment-agreement/"],
+a[href="/irs-penalty-abatement"],
+a[href="/irs-penalty-abatement/"],
+a[href="/irs-tax-lien-vs-levy"],
+a[href="/irs-tax-lien-vs-levy/"],
+a[href="/offer-in-compromise-irs"],
+a[href="/offer-in-compromise-irs/"],
+a[href="/tax-compliance-irs-representation"],
+a[href="/tax-compliance-irs-representation/"],
+a[href="/tax-resolution-services-2"],
+a[href="/tax-resolution-services-2/"],
+a[href="/unfiled-tax-returns-help"],
+a[href="/unfiled-tax-returns-help/"] { display:none !important; }

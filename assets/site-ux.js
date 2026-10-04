@@ -102,3 +102,6 @@
 
   compactNavigation.addEventListener('change', () => closeMenu());
 })();
+
+/* AE service scope: proactive planning, preparation, amendments and real estate. */
+(function(){const excluded=new Set(["/ae-tax-advisors-vs-tax-relief-companies", "/blog/can-i-negotiate-with-the-irs-to-reduce-my-tax-debt", "/blog/first-time-penalty-abatement-irs", "/blog/innocent-spouse-relief-irc-6015", "/blog/offer-in-compromise-myths-reality", "/blog/unfiled-tax-returns-strategy", "/blog/what-is-irs-penalty-abatement-and-how-do-i-qualify", "/compare/pinnacle-tax-group-alternatives", "/irs-installment-agreement", "/irs-penalty-abatement", "/irs-tax-lien-vs-levy", "/offer-in-compromise-irs", "/tax-compliance-irs-representation", "/tax-resolution-services-2", "/unfiled-tax-returns-help"]);function applyScope(){document.querySelectorAll("a[href]").forEach(function(a){let u;try{u=new URL(a.getAttribute("href"),location.href);}catch(e){return;}if(u.origin===location.origin&&excluded.has(u.pathname.replace(/\/$/,""))){a.remove();}});}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",applyScope,{once:true});}else{applyScope();}})();
