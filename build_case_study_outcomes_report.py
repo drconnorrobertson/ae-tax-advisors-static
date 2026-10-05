@@ -83,7 +83,7 @@ def cohort():
             continue
         originals.append(slug)
         fields = table_fields(page)
-        raw = fields.get("Annual Tax Savings", "")
+        raw = fields.get("Annual Tax Savings", "")  # Deduction/deferral fields are intentionally excluded.
         if not re.fullmatch(r"\$[\d,]+", raw):
             continue
         rows.append({
