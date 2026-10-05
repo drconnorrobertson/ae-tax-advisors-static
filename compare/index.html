@@ -88,8 +88,34 @@
 <script src="/assets/decision-tool-events.js" defer></script>
 <link rel="stylesheet" href="/assets/decision-tools.css">
     <script defer src="/assets/site-ux.js"></script>
+
+<style id="comparison-hub-spacing">
+/* Scoped to the comparison hub so other pages retain their layout. */
+.comparison-hub .content-section { padding-block: 56px; }
+.comparison-hub .content-section h2:first-of-type { margin-top: 0; margin-bottom: 28px; }
+.comparison-hub .content-section p { line-height: 1.75; }
+.comparison-hub .cs-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin-top: 28px; }
+.comparison-hub .cs-card { display: flex; flex-direction: column; min-width: 0; padding: 28px; border: 1px solid #e5e7eb; border-radius: 12px; background: #fff; }
+.comparison-hub .cs-card h3 { margin: 0 0 16px; font-size: 21px; line-height: 1.4; overflow-wrap: anywhere; }
+.comparison-hub .cs-card p { margin: 0 0 24px; }
+.comparison-hub .cs-card .btn-secondary { align-self: flex-start; margin-top: auto; white-space: normal; text-align: center; }
+.comparison-hub .cs-count-inline { font-size: .65em; font-weight: 500; white-space: nowrap; }
+.comparison-hub #tax-planning-firm-directory .related-links { margin: 28px 0; gap: 16px; }
+.comparison-hub #tax-planning-firm-directory .related-links li { padding: 18px 22px; }
+.comparison-hub .ae-engagement-pricing p + p { margin-top: 20px; }
+@media (max-width: 1024px) {
+  .comparison-hub .cs-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+}
+@media (max-width: 640px) {
+  .comparison-hub .content-section { padding-block: 40px; }
+  .comparison-hub .content-section h2:first-of-type { margin-bottom: 24px; }
+  .comparison-hub .cs-grid { grid-template-columns: minmax(0, 1fr); gap: 20px; margin-top: 24px; }
+  .comparison-hub .cs-card { padding: 24px; }
+  .comparison-hub #tax-planning-firm-directory .related-links li { padding: 16px 18px; }
+}
+</style>
 </head>
-<body>
+<body class="comparison-hub">
 <header>
         <div class="header-inner">
             <a href="/" class="logo">
