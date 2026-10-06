@@ -8,6 +8,24 @@ this list, so adding a mention is a one-line change plus a rebuild.
 
 PRESS = [
 {
+ "title": "AE Tax Advisors Launches Prior-Year Return Review for Real Estate Owners with Five or More Properties",
+ "outlet": "Yahoo Finance",
+ "url": "https://finance.yahoo.com/real-estate/articles/ae-tax-advisors-launches-prior-202700705.html",
+ "date": None,
+ "topic": "Real Estate Tax",
+ "summary": "Company press release published on Yahoo Finance announcing a prior-year return review for real estate owners with five or more properties.",
+ "verification": "Publisher URL supplied by the website owner on October 6, 2026; headline confirmed by the open publisher tab title. Publication date not independently verified."
+},
+{
+ "title": "AE Tax Advisors Launches Prior-Year Return Review for Real Estate Owners with Five or More Properties",
+ "outlet": "The National Law Review",
+ "url": "https://natlawreview.com/press-releases/ae-tax-advisors-launches-prior-year-return-review-real-estate-owners-five-or",
+ "date": None,
+ "topic": "Real Estate Tax",
+ "summary": "Company press release published on The National Law Review announcing a prior-year return review for real estate owners with five or more properties.",
+ "verification": "Publisher URL supplied by the website owner on October 6, 2026; headline confirmed by the open publisher tab title. Publication date not independently verified."
+},
+{
  "title": "AE Tax Advisors Appoints Laura Bucko as Chief Operating Officer",
  "outlet": "Yahoo Finance",
  "url": "https://finance.yahoo.com/small-business/articles/ae-tax-advisors-appoints-laura-185300459.html",
