@@ -8,6 +8,15 @@ this list, so adding a mention is a one-line change plus a rebuild.
 
 PRESS = [
 {
+ "title": "AE Tax Advisors Appoints Laura Bucko as Chief Operating Officer",
+ "outlet": "Yahoo Finance",
+ "url": "https://finance.yahoo.com/small-business/articles/ae-tax-advisors-appoints-laura-185300459.html",
+ "date": "2026-10-05",
+ "topic": "Company News",
+ "summary": "Company press release distributed by TMX Newsfile and published on Yahoo Finance announcing Laura Bucko’s appointment to lead operations, client delivery and internal systems.",
+ "verification": "Headline, date and announcement verified against the publisher search result on October 6, 2026.",
+},
+{
  "title": "AE Tax Advisors and Christina Nortman Bring Year-Round Tax Planning to Business Owners and Real Estate Investors",
  "outlet": "Opulence Wire",
  "url": "https://opulencewire.com/ae-tax-advisors-and-christina-nortman-bring-year-round-tax-planning-to-business-owners-and-real-estate-investors/",

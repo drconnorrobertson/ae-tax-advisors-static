@@ -53,11 +53,10 @@ def main():
         ident='planning-'+slug(persona)+'-'+key
         path='/case-studies/'+ident+'/'
         title=persona+': '+name
-        desc='Illustrative tax planning example for a '+persona.lower()+': '+question
+        desc='Tax planning case study for a '+persona.lower()+': '+question
         estate='yes' if real or key in ['rentals','sale'] else 'no'
-        body=T.page_header(h1=title,subtitle=desc,trail=[('Home','/'),('Case Studies','/case-studies/'),('Illustrative example',path)],cta='Discuss My Business and Property Plan')
+        body=T.page_header(h1=title,subtitle=desc,trail=[('Home','/'),('Case Studies','/case-studies/'),('Case Study',path)],cta='Discuss My Business and Property Plan')
         sections=[
-        ('Illustrative example, not a client result',para('This is an educational scenario using hypothetical facts. It does not describe a client engagement, a completed implementation, an approved deduction or realized tax savings. The stated profit is a planning assumption, not a reported client result.')),
         ('The owner and the operating facts',para(f'The example concerns a {persona.lower()} with assumed annual operating profit of ${profit:,} before new planning actions. The business involves {facts}. This figure is not revenue, taxable household income or a guarantee of cash available for distribution.')+para(constraint+' The owner wants a coordinated review that connects the entity return, household return and any property activity. The first task is to establish a reliable baseline, rather than choosing a deduction from a list.')),
         ('The decision to resolve',para(question+' The starting file includes '+records+'. Those records should be reconciled to bank activity, filed returns and ownership documents. If the records disagree, the planning model should show the unresolved difference instead of treating it as an available deduction.')),
         ('The tax rule that controls the example',para(rule)+para('Federal treatment should be reviewed alongside the applicable state rules and the tax year being modeled. Dates, elections and the actual ownership arrangement can change the analysis. A planning illustration cannot establish eligibility for a taxpayer whose facts have not been reviewed.')),
@@ -71,10 +70,11 @@ def main():
         body+=T.section('Sources and related reading',f'<p><a href="{source}" target="_blank" rel="noopener">IRS guidance supporting this planning topic</a>. Reviewed October 6, 2026. Apply the guidance for the relevant filing year.</p><p><a href="/case-studies/">Find more owner and real estate examples</a> · <a href="/discovery/">Discuss your planning needs</a></p>')
         siblings=[('/case-studies/planning-'+slug(persona)+'-'+t[0]+'/',persona+': '+t[1]) for t in TOPICS if t[0]!=key][:3]
         body+=T.related_section(siblings,'Other decisions for this owner profile')
-        schema=[T.article_schema(title=title,description=desc,url=T.SITE+path,published=DATE,modified=DATE,section='Illustrative Tax Planning Example')]
+        body+='<div class="container narrow"><p style="font-size:.85rem;color:var(--medium)">Educational case study. Facts and figures are illustrative and do not document a specific client’s results. Outcomes depend on individual circumstances.</p></div>'
+        schema=[T.article_schema(title=title,description=desc,url=T.SITE+path,published=DATE,modified=DATE,section='Tax Planning Case Study')]
         page=T.build_page(title=title+' | AE Tax Advisors',description=desc,path=path,body=body,schemas=schema,published=DATE,modified=DATE,active_nav='/case-studies/')
         T.write_page(path,page)
-        cards.append(f'<article class="cs-card" data-cat="{cat}" data-income="{band}" data-ownership="owner" data-estate="{estate}" data-text="{T.esc((title+" "+question).lower())}"><span class="cs-tag">{cat} · Illustrative example</span><h3><a href="{path}">{T.esc(title)}</a></h3><div class="cs-profile-tags"><span>Assumed profit ${profit:,}</span><span>Business owner</span><span>{"Real estate decision" if estate=="yes" else "Operating business"}</span></div><p>{T.esc(question)}</p><p><strong>Hypothetical facts. No client result or tax savings claimed.</strong></p><a class="btn-secondary" href="{path}">Read the planning example</a></article>')
+        cards.append(f'<article class="cs-card" data-cat="{cat}" data-income="{band}" data-ownership="owner" data-estate="{estate}" data-text="{T.esc((title+" "+question).lower())}"><span class="cs-tag">{cat}</span><h3><a href="{path}">{T.esc(title)}</a></h3><div class="cs-profile-tags"><span>Assumed profit ${profit:,}</span><span>Business owner</span><span>{"Real estate decision" if estate=="yes" else "Operating business"}</span></div><p>{T.esc(question)}</p><a class="btn-secondary" href="{path}">Read the case study</a></article>')
         entries.append(dict(title=title,path=path,category=cat))
     assert len(entries)==147
     hub=hub.replace('<div class="cs-grid" id="cs-grid">','<div class="cs-grid" id="cs-grid">\n<!-- owner-expansion:start -->'+''.join(cards)+'<!-- owner-expansion:end -->',1)
