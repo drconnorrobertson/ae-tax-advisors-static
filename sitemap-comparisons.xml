@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Comparison Pages - Priority 0.6 -->
-  <url><loc>https://www.aetaxadvisors.com/compare/</loc><lastmod>2026-10-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/</loc><lastmod>2026-10-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.aetaxadvisors.com/compare/anderson-advisors-vs-ae-tax/</loc><lastmod>2026-10-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.aetaxadvisors.com/compare/aprio-vs-ae-tax/</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.aetaxadvisors.com/compare/ae-tax-vs-biggerpockets-cpas/</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -182,4 +182,55 @@
   <url><loc>https://www.aetaxadvisors.com/compare/taxstra-vs-ae-tax/</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://www.aetaxadvisors.com/compare/wcg-cpas-vs-ae-tax/</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://www.aetaxadvisors.com/compare/zcw-cpas-vs-ae-tax/</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/small-business-tax-firms/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/tara-cpa-firm-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/tara-cpa-firm-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/fraim-cawley-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/fraim-cawley-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/wellness-fi-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/wellness-fi-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/taxhub-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/taxhub-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/collective-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/collective-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/xendoo-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/xendoo-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/pilot-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/pilot-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/decimal-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/decimal-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/fondo-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/fondo-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/kruze-consulting-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/kruze-consulting-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/heard-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/heard-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/acuity-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/acuity-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/tax-hack-accounting-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/tax-hack-accounting-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/jetro-associates-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/jetro-associates-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/vincere-tax-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/vincere-tax-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/little-fish-accounting-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/little-fish-accounting-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/bottom-line-cpa-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/bottom-line-cpa-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/fitness-cpa-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/fitness-cpa-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/accountfully-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/accountfully-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/blumer-cpas-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/blumer-cpas-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/fusion-cpa-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/fusion-cpa-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/greengrowth-cpas-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/greengrowth-cpas-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/sdo-cpa-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/sdo-cpa-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/nth-degree-cpas-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/nth-degree-cpas-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/tldr-accounting-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/tldr-accounting-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
 </urlset>
