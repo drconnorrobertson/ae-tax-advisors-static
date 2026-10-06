@@ -9,6 +9,7 @@ import sys
 from pathlib import Path
 
 import site_template as T
+from discovery_inventory import eligible, redirects
 
 BASE = "/compare/"
 OUT = T.ROOT / "compare"
@@ -41,6 +42,7 @@ GROUPS = [
 
 def collect() -> list[dict]:
     items = []
+    mapping = redirects()
     for d in sorted(OUT.iterdir()):
         if not d.is_dir():
             continue
@@ -48,6 +50,8 @@ def collect() -> list[dict]:
         if not f.exists():
             continue
         html = f.read_text(encoding="utf-8", errors="replace")
+        if not eligible(f, html, mapping):
+            continue
         hm = H1_RE.search(html)
         dm = DESC_RE.search(html)
         title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", hm.group(1))).strip() if hm else d.name

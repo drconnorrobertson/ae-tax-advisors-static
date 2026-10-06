@@ -10,7 +10,7 @@ import json
 import re
 import subprocess
 import argparse
-from datetime import date
+from datetime import datetime, timezone
 from pathlib import Path
 from discovery_inventory import eligible
 
@@ -96,9 +96,9 @@ def main(preserve_changed=False):
     previous = baseline_lastmods()
     changed = changed_paths()
     redirects = redirected_paths()
-    today = date.today().isoformat()
+    today = datetime.now(timezone.utc).date().isoformat()
     for p in sorted(Path(".").rglob("index.html")):
-        if ".git" in p.parts:
+        if ".git" in p.parts or "public" in p.parts:
             continue
         d = str(p.parent).replace("\\", "/")
         slug = "" if d == "." else d
@@ -113,7 +113,9 @@ def main(preserve_changed=False):
         pri, freq = classify(slug)
         rel = p.as_posix()
         if url not in previous:
-            lastmod = today
+            # An unchanged page newly approved for discovery did not necessarily
+            # change today. Omit lastmod when no reliable previous value exists.
+            lastmod = today if rel in changed else None
         elif rel in changed and not preserve_changed:
             lastmod = today
         else:
@@ -125,10 +127,11 @@ def main(preserve_changed=False):
     for url, lastmod, freq, pri in urls:
         lines += ["  <url>",
                   f"    <loc>{BASE}{url}</loc>",
-                  f"    <lastmod>{lastmod}</lastmod>",
                   f"    <changefreq>{freq}</changefreq>",
                   f"    <priority>{pri}</priority>",
                   "  </url>"]
+        if lastmod:
+            lines.insert(len(lines) - 3, f"    <lastmod>{lastmod}</lastmod>")
     lines.append("</urlset>")
     OUT.write_text("\n".join(lines) + "\n")
     case_lines = ['<?xml version="1.0" encoding="UTF-8"?>',
@@ -138,10 +141,11 @@ def main(preserve_changed=False):
             continue
         case_lines += ["  <url>",
                        f"    <loc>{BASE}{url}</loc>",
-                       f"    <lastmod>{lastmod}</lastmod>",
                        f"    <changefreq>{freq}</changefreq>",
                        f"    <priority>{pri}</priority>",
                        "  </url>"]
+        if lastmod:
+            case_lines.insert(len(case_lines) - 3, f"    <lastmod>{lastmod}</lastmod>")
     case_lines.append("</urlset>")
     CASE_OUT.write_text("\n".join(case_lines) + "\n")
     print(f"sitemap.xml: {len(urls)} URLs written, {skipped} non-canonical URLs excluded")

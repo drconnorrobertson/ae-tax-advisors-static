@@ -1,10 +1,16 @@
-"""One canonical/indexable inventory for public discovery files."""
+"""One approved, canonical inventory for public discovery files.
+
+Review holds preserve existing page-level indexing but prevent unreviewed
+omissions being silently promoted by a sitemap or AI-index rebuild.
+"""
 from html.parser import HTMLParser
 from pathlib import Path
 import json
+from functools import lru_cache
 
 ROOT = Path(__file__).resolve().parent
 BASE = 'https://www.aetaxadvisors.com'
+PUBLIC_RESEARCH = {'research/index.html', 'research/tax-planning-case-study-outcomes/index.html'}
 
 class Metadata(HTMLParser):
     def __init__(self, text):
@@ -45,18 +51,38 @@ def page_url(path):
     rel = path.parent.relative_to(ROOT).as_posix()
     return '/' if rel == '.' else '/' + rel + '/'
 
+@lru_cache(maxsize=1)
+def review_holds():
+    path = ROOT / 'discovery_review_holds.json'
+    return json.loads(path.read_text()) if path.exists() else {}
+
+@lru_cache(maxsize=1)
+def header_noindex():
+    config = json.loads((ROOT / 'vercel.json').read_text())
+    return {r['source'] for r in config.get('headers', [])
+            if not any(c in r['source'] for c in ':*()')
+            and any(h['key'].lower() == 'x-robots-tag' and
+                    ('noindex' in h['value'].lower() or h['value'].lower() == 'none')
+                    for h in r['headers'])}
+
 def eligible(path, text=None, redirect_map=None):
+    parts = path.relative_to(ROOT).parts
+    if ('research' in parts and '/'.join(parts) not in PUBLIC_RESEARCH or
+            any(p.startswith(('.', '_', 'test-')) or p in ('public', 'scripts', 'node_modules') for p in parts)):
+        return False
     text = path.read_text(encoding='utf-8') if text is None else text
     meta = Metadata(text)
     url = page_url(path)
     redirect_map = redirects() if redirect_map is None else redirect_map
-    return bool(not meta.noindex and meta.canonical == BASE + url and url not in redirect_map)
+    return bool(not meta.noindex and meta.canonical == BASE + url
+                and url not in redirect_map and url not in header_noindex()
+                and url not in review_holds())
 
 def inventory():
     result = []
     mapping = redirects()
     for path in sorted(ROOT.rglob('index.html')):
-        if '.git' in path.parts:
+        if '.git' in path.parts or 'public' in path.relative_to(ROOT).parts:
             continue
         text = path.read_text(encoding='utf-8')
         if eligible(path, text, mapping):

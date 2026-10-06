@@ -1,0 +1,23 @@
+[
+  "assets/cost-segregation-reconciliation-checklist.csv",
+  "assets/cost-segregation-study-review-checklist.csv",
+  "assets/equipment-placed-in-service-checklist.csv",
+  "assets/owner-tax-return-review-checklist.csv",
+  "assets/str-participation-log-template.csv",
+  "downloads/ae-cost-provider-comparison.csv",
+  "downloads/ae-reviews-provider-comparison.csv",
+  "downloads/business-rentals-provider-comparison.csv",
+  "downloads/missed-depreciation-provider-comparison.csv",
+  "downloads/physician-rentals-provider-comparison.csv",
+  "downloads/planning-fees-provider-comparison.csv",
+  "downloads/rental-portfolio-provider-comparison.csv",
+  "downloads/s-corp-owner-provider-comparison.csv",
+  "downloads/str-advisor-provider-comparison.csv",
+  "downloads/str-guest-stay-and-use-log.csv",
+  "downloads/str-participation-log-blank.csv",
+  "downloads/str-participation-log-example.csv",
+  "downloads/str-quarterly-review-checklist.csv",
+  "downloads/str-study-provider-comparison.csv",
+  "downloads/study-filing-provider-comparison.csv",
+  "downloads/tax-advisor-engagement-scorecard.csv"
+]

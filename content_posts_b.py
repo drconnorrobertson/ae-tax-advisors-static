@@ -190,7 +190,7 @@ POSTS = [
  ]),
  ("A Full Worked Example", [
   "A married couple with $650,000 of combined W-2 income buys a $1,400,000 mountain cabin in November 2026 and operates it on Airbnb with a three-night minimum.",
-  "The appraisal supports a $280,000 land allocation, leaving $1,120,000 of depreciable basis. Because the average stay is under seven days, the property is nonresidential 39-year property.",
+  "The hypothetical appraisal supports a $280,000 land allocation, leaving $1,120,000 of depreciable basis. This example assumes a separately supported nonresidential classification and 39-year building life; the average stay does not establish that classification.",
   "A cost segregation study reclassifies $358,000, roughly 32%, into 5-, 7-, and 15-year categories: appliances, furnishings, flooring, cabinetry, window treatments, decorative lighting, the deck and hot tub surround, landscaping, the driveway, and site lighting. All of it is bonus-eligible.",
   "First-year depreciation is $358,000 in bonus plus about $8,100 of straight line on the remaining $762,000 under the mid-month convention, roughly $366,100 total.",
   "The property generated $22,000 of revenue in its partial first year against $19,000 of operating expenses, so the net loss is approximately $363,100.",

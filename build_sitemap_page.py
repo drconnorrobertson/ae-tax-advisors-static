@@ -10,10 +10,11 @@ import sys
 from pathlib import Path
 
 import site_template as T
+from discovery_inventory import eligible, redirects
 
 ROOT = T.ROOT
 PUBLISHED = "2026-08-15"
-MODIFIED = "2026-09-27"
+MODIFIED = "2026-10-06"
 
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.DOTALL)
 H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.DOTALL)
@@ -67,23 +68,14 @@ STATE_URLS = {f"/{s}/" for s in STATES}
 def indexable_pages() -> list[tuple[str, str]]:
     """(url, label) for every canonical, indexable page."""
     out = []
-    redirects = {
-        rule["source"] for rule in json.loads((ROOT / "vercel.json").read_text())["redirects"]
-        if rule.get("statusCode") in (301, 308)
-        and ":" not in rule.get("source", "")
-    }
+    mapping = redirects()
     for p in sorted(ROOT.rglob("index.html")):
-        if ".git" in p.parts:
+        if ".git" in p.parts or "public" in p.relative_to(ROOT).parts:
             continue
         d = str(p.parent.relative_to(ROOT)).replace("\\", "/")
         url = "/" if d == "." else f"/{d}/"
-        if url in redirects:
-            continue
         html = p.read_text(encoding="utf-8", errors="replace")
-        if NOINDEX_RE.search(html):
-            continue
-        cm = CANON_RE.search(html)
-        if cm and cm.group(1) != url:
+        if not eligible(p, html, mapping):
             continue
         hm = H1_RE.search(html) or TITLE_RE.search(html)
         label = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", hm.group(1))).strip() if hm else url

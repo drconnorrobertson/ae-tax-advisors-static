@@ -91,7 +91,7 @@ def main() -> int:
         redirects = set()
 
     for path in sorted(ROOT.rglob('index.html')):
-        if '.git' in path.parts:
+        if '.git' in path.parts or 'public' in path.relative_to(ROOT).parts:
             continue
         text = path.read_text(encoding='utf-8', errors='replace')
         url = page_url(path)
@@ -135,7 +135,7 @@ def main() -> int:
     # booking button cannot split prose on either route format.
     html_pages_checked = 0
     for path in sorted(ROOT.rglob('*.html')):
-        if '.git' in path.parts:
+        if '.git' in path.parts or 'public' in path.relative_to(ROOT).parts:
             continue
         html_pages_checked += 1
         text = path.read_text(encoding='utf-8', errors='replace')

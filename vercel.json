@@ -3,6 +3,21 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/tax-advisor-florida/",
+      "destination": "/florida/",
+      "statusCode": 301
+    },
+    {
+      "source": "/s-corp-for-online-business/",
+      "destination": "/services/s-corp-election/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-planning-for-law-firms/",
+      "destination": "/attorney-tax-planning/",
+      "statusCode": 301
+    },
+    {
       "source": "/how-to-write-off-your-cell-phone-and-internet-for-business-use/",
       "destination": "/blog/can-my-business-pay-for-my-cell-phone-and-internet/",
       "statusCode": 301
@@ -762,5 +777,7 @@
         }
       ]
     }
-  ]
+  ],
+  "buildCommand": "node scripts/build-public.cjs",
+  "outputDirectory": "public"
 }
