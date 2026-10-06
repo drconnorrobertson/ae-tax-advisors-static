@@ -79,6 +79,13 @@ and other research files are excluded. The already-published `/research/` report
 JSON/CSV exports are explicit exceptions; their public URLs were verified as 200 and
 their content is unchanged. No new client records or case-study outcomes are added.
 
+`public-downloads.json` explicitly allowlists the 16 existing public worksheets under
+`downloads/` and five public CSV checklists/templates under `assets/`. Other source and
+research CSVs are excluded except the already-published research export above. A release
+regression test checks every local CSV link across the built HTML, the four STR-kit
+downloads, and byte-for-byte preservation of all 21 approved files. The test reproduced
+the missing-file failures before the allowlist correction and passes after rebuilding.
+
 The shared discovery inventory honors exact permanent redirects, canonical/meta/header
 directives, review holds and source/staging boundaries. The human sitemap uses this same
 inventory. Unchanged committed sitemap lastmod values are retained; new approved pages
@@ -104,7 +111,7 @@ downloads and a generator URL that should return 404. No manual deployment, DNS 
 or indexing submissions are part of this release. FAQ markup describes visible answers;
 this release makes no FAQ rich-result, AI-citation or keyword-ranking promise.
 
-Local release checks passed: 20 tests, redirect-link check, all sitemap destinations,
+Local release checks passed: 22 tests, redirect-link check, all sitemap destinations,
 public JSON-LD syntax and `git diff --check`. The main map contains 1,565 approved URLs
 (the previous 1,564 plus the rewritten ROI guide). The legacy `content_quality.py`
 scanner still reports 187 errors and 197 warnings, versus the recorded baseline of

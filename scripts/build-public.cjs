@@ -8,6 +8,13 @@ const forbidden = new Set(['public', 'scripts', 'research', 'node_modules']);
 const rootNames = new Set(['robots.txt', 'llms.txt', 'llms-full.txt', 'llms.md', 'feed.xml']);
 const jsonNames = new Set(['assets/ad-booking-config.json', 'compare/tax-advisory-firm-comparison.json']);
 const toolScripts = new Set(['tools/property-review-prep/intake.js']);
+// Approved public worksheets only, not arbitrary source/research CSVs.
+const publicCsv = new Set(JSON.parse(fs.readFileSync(path.join(root, 'public-downloads.json'), 'utf8')));
+for (const relative of publicCsv) {
+  if (!/^(assets|downloads)\/[a-z0-9-]+\.csv$/.test(relative)) {
+    throw new Error('Invalid public CSV download path: ' + relative);
+  }
+}
 // Already-published report and exports derived from public case studies.
 // Other research and source datasets remain outside the public build.
 const publicResearch = new Set(['research/index.html', 'research/tax-planning-case-study-outcomes/index.html', 'research/tax-planning-case-study-outcomes.json', 'research/tax-planning-case-study-outcomes.csv']);
@@ -19,7 +26,7 @@ function allowed(relative) {
   if (parts.some(p => p.startsWith('.') || p.startsWith('_') || p.startsWith('test-') || forbidden.has(p))) return false;
   const ext = path.extname(relative).toLowerCase();
   if (ext === '.html') return true;
-  if (jsonNames.has(relative) || toolScripts.has(relative)) return true;
+  if (jsonNames.has(relative) || toolScripts.has(relative) || publicCsv.has(relative)) return true;
   if (['assets', 'css', 'images'].includes(parts[0]) && assetTypes.has(ext)) return true;
   if (parts.length === 1 && (rootNames.has(relative) || /^sitemap.*\.xml$/.test(relative))) return true;
   // Existing public IndexNow verification files; do not admit arbitrary txt.

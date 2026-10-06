@@ -4,6 +4,7 @@ import json
 import re
 import unittest
 import xml.etree.ElementTree as ET
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, unquote
 from discovery_inventory import ROOT, BASE, Metadata, inventory, redirects, review_holds
@@ -27,6 +28,18 @@ def nodes(value):
 def resolves(route, base=PUBLIC):
     target = base / unquote(route).lstrip('/')
     return target.is_file() or (target / 'index.html').is_file()
+
+class Links(HTMLParser):
+    def __init__(self, text):
+        super().__init__(convert_charrefs=True)
+        self.hrefs = []
+        self.feed(text)
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'a':
+            href = dict(attrs).get('href')
+            if href:
+                self.hrefs.append(href)
 
 class SEOReleaseTests(unittest.TestCase):
     @classmethod
@@ -140,6 +153,44 @@ class SEOReleaseTests(unittest.TestCase):
                 if url.fragment and target.endswith('/'):
                     destination = (PUBLIC/target.strip('/')/'index.html').read_text()
                     self.assertIn('id="'+url.fragment+'"', destination, (route, link))
+
+    def test_approved_csv_downloads_are_copied_without_other_source_csvs(self):
+        approved = json.loads((ROOT/'public-downloads.json').read_text())
+        self.assertEqual(len(approved), 21)
+        self.assertEqual(len(set(approved)), 21)
+        self.assertEqual(sum(p.startswith('downloads/') for p in approved), 16)
+        self.assertEqual(sum(p.startswith('assets/') for p in approved), 5)
+        for relative in approved:
+            with self.subTest(download=relative):
+                self.assertRegex(relative, r'^(assets|downloads)/[a-z0-9-]+\.csv$')
+                self.assertTrue((PUBLIC/relative).is_file(), relative)
+                self.assertEqual((PUBLIC/relative).read_bytes(), (ROOT/relative).read_bytes())
+        actual = {p.relative_to(PUBLIC).as_posix() for p in PUBLIC.rglob('*.csv')}
+        self.assertEqual(actual, set(approved) | {'research/tax-planning-case-study-outcomes.csv'})
+
+    def test_every_public_csv_link_resolves_in_built_output(self):
+        targets = set()
+        for file in PUBLIC.rglob('*.html'):
+            route = '/'+file.relative_to(PUBLIC).as_posix()
+            for href in Links(file.read_text()).hrefs:
+                url = urlsplit(urljoin(BASE+route, href))
+                if url.hostname not in ('aetaxadvisors.com', 'www.aetaxadvisors.com'):
+                    continue
+                if not url.path.lower().endswith('.csv'):
+                    continue
+                targets.add(url.path)
+                with self.subTest(page=route, download=href):
+                    self.assertTrue(resolves(url.path), (route, href))
+        kit = PUBLIC/'guides/str-documentation-kit/index.html'
+        kit_csvs = {urlsplit(href).path for href in Links(kit.read_text()).hrefs
+                    if urlsplit(href).path.endswith('.csv')}
+        self.assertEqual(kit_csvs, {
+            '/downloads/str-participation-log-blank.csv',
+            '/downloads/str-participation-log-example.csv',
+            '/downloads/str-guest-stay-and-use-log.csv',
+            '/downloads/str-quarterly-review-checklist.csv',
+        })
+        self.assertGreaterEqual(len(targets), 22)
 
 if __name__ == '__main__':
     unittest.main()
