@@ -19,10 +19,13 @@
       let wrapper = table.parentElement;
       if (!wrapper.classList.contains('ae-table-scroll')) {
         const style = getComputedStyle(wrapper);
-        if (['auto', 'scroll'].includes(style.overflowX)) return;
+        if (['auto', 'scroll'].includes(style.overflowX)) {
+          wrapper.classList.add('ae-table-scroll');
+        } else {
         const region = document.createElement('div');
         region.className = 'ae-table-scroll';
         table.before(region); region.append(table); wrapper = region;
+        }
       }
       if (wrapper.scrollWidth > wrapper.clientWidth + 1) {
         wrapper.tabIndex = 0; wrapper.setAttribute('role', 'region');

@@ -591,6 +591,66 @@
       "source": "/case-studies/exit-planning-tech-6m-478k/",
       "destination": "/case-studies/",
       "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-for-attorneys/",
+      "destination": "/attorney-tax-planning/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-for-dentists/",
+      "destination": "/dentist-tax-planning/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-for-consultants/",
+      "destination": "/consultant-tax-planning/",
+      "statusCode": 301
+    },
+    {
+      "source": "/s-corp-for-tutoring-business/",
+      "destination": "/services/s-corp-election/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-strategy-for-car-wash-owners/",
+      "destination": "/business-owner-small-business-tax/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-strategy-for-ecommerce/",
+      "destination": "/business-owner-small-business-tax/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-strategy-for-restaurant-owners/",
+      "destination": "/business-owner-small-business-tax/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-planning-for-freelancers/",
+      "destination": "/business-owner-small-business-tax/",
+      "statusCode": 301
+    },
+    {
+      "source": "/cost-segregation-for-auto-dealers/",
+      "destination": "/business-owner-cost-segregation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/christina-30/",
+      "destination": "/christina-30min/",
+      "statusCode": 301
+    },
+    {
+      "source": "/christina-60/",
+      "destination": "/christina-60min/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/p4-tax-and-consulting-alternatives/",
+      "destination": "/compare/p4-tax-alternatives/",
+      "statusCode": 301
     }
   ],
   "headers": [

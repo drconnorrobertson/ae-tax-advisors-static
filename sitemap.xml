@@ -5874,12 +5874,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/compare/p4-tax-and-consulting-alternatives/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+
   <url>
     <loc>https://www.aetaxadvisors.com/compare/peter-holtz-cpa-alternatives/</loc>
     <lastmod>2026-10-01</lastmod>
@@ -5990,13 +5985,13 @@
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/compare/range-alternatives/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.aetaxadvisors.com/compare/range-vs-ae-tax/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -9441,4 +9436,7 @@
   <url><loc>https://www.aetaxadvisors.com/compare/nth-degree-cpas-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://www.aetaxadvisors.com/compare/tldr-accounting-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://www.aetaxadvisors.com/compare/tldr-accounting-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/creative-planning-vs-ae-tax/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/creative-planning-alternatives/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://www.aetaxadvisors.com/compare/tax-planning-and-wealth-advisors/</loc><lastmod>2026-10-06</lastmod></url>
 </urlset>
