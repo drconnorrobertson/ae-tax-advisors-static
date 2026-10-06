@@ -86,7 +86,7 @@ COST_SEG_CALC = {
       ("0.24","Long-term rental (21-32%)"),("0.21","Office building (15-26%)"),
       ("0.19","Warehouse / industrial (14-26%)")], None),
    ("cs-rate", "Combined marginal tax rate (%)", "37", "Federal plus state, on the income the deduction offsets.", "number", None, "0.1"),
-   ("cs-life", "Recovery period", "39", "39 years for nonresidential and short-term rentals, 27.5 for long-term residential rentals.", None,
+   ("cs-life", "Recovery period", "39", "Choose the separately established building classification: generally 39-year GDS for nonresidential and 27.5-year GDS for residential rental property. Booking duration alone does not determine this.", None,
      [("39","39 years (nonresidential / STR)"),("27.5","27.5 years (residential rental)")], None),
    ("cs-months", "Months in service this year", "12", "Real property uses a mid-month convention.", "number", None, "1"),
  ],
@@ -132,7 +132,7 @@ COST_SEG_CALC = {
    ("What land allocation should I use?",
     "<p>Use the allocation your appraisal supports. It commonly runs 15% to 30% depending on the market and property type, and it matters enormously: moving from 20% to 30% on a $1 million property removes $100,000 from depreciable basis and roughly $30,000 from the first-year deduction.</p>"),
    ("Is my short-term rental 27.5 or 39 years?",
-    "<p>Generally 39 years. Residential rental property requires that 80% or more of gross rental income come from dwelling units, and a unit is not a dwelling unit if more than half its use is transient. A property averaging seven days or less per stay is typically nonresidential real property.</p>"),
+    "<p>Classification depends on the property and its use, including the dwelling-unit and transient-use rules. The passive-activity average-stay exception is separate; it does not automatically establish 27.5-year or 39-year GDS treatment. Applicable ADS rules may differ.</p>"),
  ],
 }
 

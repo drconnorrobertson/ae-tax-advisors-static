@@ -43,7 +43,7 @@ function normalize(href) {
 function htmlFiles(dir) {
   const result = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (entry.name.startsWith('.') || ['node_modules', 'scripts'].includes(entry.name)) continue;
+    if (entry.name.startsWith('.') || ['node_modules', 'scripts', 'public'].includes(entry.name)) continue;
     const file = path.join(dir, entry.name);
     if (entry.isDirectory()) result.push(...htmlFiles(file));
     else if (entry.isFile() && entry.name.endsWith('.html')) result.push(file);

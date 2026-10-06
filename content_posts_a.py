@@ -38,7 +38,7 @@ POSTS = [
  ]),
  ("A Worked Example", [
   "Consider a taxpayer who buys a $1,200,000 short-term rental property in 2026, with $250,000 allocated to land and $950,000 to depreciable improvements.",
-  "Without a cost segregation study, the property is depreciated over 39 years, since the average stay is under seven days, producing roughly $24,400 in first-year depreciation after the mid-month convention.",
+  "For this hypothetical comparison, assume the building is separately classified as nonresidential, with a 39-year life and roughly $24,400 of first-year depreciation under the mid-month convention. A seven-day average stay does not establish that building classification.",
   "With a study reclassifying 32% of the improvement basis, roughly $304,000 moves into 5-, 7-, and 15-year categories. All of it is bonus-eligible at 100%. Add straight-line depreciation on the remaining $646,000 and first-year depreciation is approximately $320,000 rather than $24,400.",
   "If the taxpayer materially participates and the average stay is under seven days, that deduction offsets ordinary income. At a 35% federal marginal rate, the difference in first-year tax is roughly $103,000. The property did not change. The analysis did.",
  ]),
@@ -102,7 +102,7 @@ POSTS = [
   "<strong>15-year property:</strong> land improvements such as paving, sidewalks, fencing, landscaping, and site utilities, along with qualified improvement property.",
   "<strong>20-year property:</strong> farm buildings other than single-purpose structures, and certain municipal utility property.",
   "<strong>27.5-year property:</strong> residential rental property, meaning a building from which 80% or more of gross rental income is rental income from dwelling units.",
-  "<strong>39-year property:</strong> nonresidential real property. Note that a short-term rental with an average stay of seven days or less is generally nonresidential and depreciates over 39 years, not 27.5, which surprises many owners.",
+  "<strong>39-year property:</strong> nonresidential real property. Determine the building classification separately from the passive-activity average-stay rule. Residential rental property generally uses 27.5-year GDS treatment, while nonresidential real property generally uses 39 years; the dwelling-unit and transient-use rules matter.",
  ]),
  ("Methods: 200% DB, 150% DB, and Straight Line", [
   "Under the General Depreciation System (GDS), 3-, 5-, 7-, and 10-year property uses the 200% declining balance method, switching to straight line in the year that produces a larger deduction. 15- and 20-year property uses 150% declining balance with the same switch. All real property, both 27.5-year and 39-year, uses straight line.",
@@ -134,11 +134,11 @@ POSTS = [
 ],
 "faqs": [
  ("What are the MACRS recovery periods for 2026?",
-  "<p>They are unchanged for 2026: 3, 5, 7, 10, 15, and 20 years for personal property and land improvements, 27.5 years for residential rental property, and 39 years for nonresidential real property. Short-term rentals with an average stay of seven days or less are generally nonresidential and use 39 years.</p>"),
+  "<p>Common GDS periods include 3, 5, 7, 10, 15 and 20 years for applicable assets, 27.5 years for residential rental property and 39 years for nonresidential real property. A short-term rental building requires a separate classification analysis; the passive-activity average-stay test does not establish its recovery period.</p>"),
  ("What is the mid-quarter convention and when does it apply?",
   "<p>If more than 40% of the total basis of personal property placed in service during the year falls in the fourth quarter, the mid-quarter convention replaces the half-year convention for every asset placed in service that year. Each asset is then treated as placed in service at the midpoint of its actual quarter, which reduces the first-year deduction on assets acquired earlier in the year.</p>"),
  ("Is a short-term rental depreciated over 27.5 or 39 years?",
-  "<p>Generally 39 years. Residential rental property requires that 80% or more of gross rental income come from dwelling units, and a unit is not a dwelling unit if more than half its use is on a transient basis. A property with an average stay of seven days or less is typically nonresidential real property at 39 years.</p>"),
+  "<p>Classification depends on the property and its use, including the dwelling-unit and transient-use rules. The passive-activity average-stay exception is separate; it does not automatically establish 27.5-year or 39-year GDS treatment. Applicable ADS rules may differ.</p>"),
  ("When am I required to use ADS instead of GDS?",
   "<p>ADS is mandatory for property used predominantly outside the US, tax-exempt use property, property financed with tax-exempt bonds, listed property with 50% or less qualified business use, and property held by an electing real property trade or business under Section 163(j)(7). ADS property is not eligible for bonus depreciation.</p>"),
  ("Does 100% bonus depreciation replace MACRS?",

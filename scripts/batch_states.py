@@ -299,12 +299,12 @@ CAVEAT,
 "meta_desc": "No state income tax means the federal deduction is the whole story, but franchise tax, property tax, and residency planning still matter for investors.",
 "category": C, "date": D,
 "intro": [
-"Texas and Florida impose no individual income tax, which makes cost segregation modeling refreshingly simple. There is no addback, no separate state depreciation schedule, no divergent basis, and no state passive loss analysis.",
+"Texas and Florida impose no individual income tax. Corporate ownership, Texas franchise tax, Florida corporate depreciation adjustments and other-state residency can still require a separate state analysis.",
 "What the federal return shows is what you get. That simplicity is real, but it also means three other things carry more weight than investors expect.",
 ],
 "sections": [
 ("The Federal Deduction Is the Entire Deduction", [
-"In states like California or New York, an investor tracks two depreciation schedules for the life of the property and reconciles two different bases at disposition. In Texas and Florida, there is one schedule.",
+"States that decouple from federal depreciation can require separate schedules and basis reconciliation at disposition. A Texas or Florida property location alone does not establish whether an owner needs those records.",
 "That removes a genuine ongoing compliance cost. It also removes the modeling complexity that causes so many investors in decoupled states to overestimate their benefit.",
 "For an investor comparing markets, this is a real if modest advantage. A study producing $600,000 of federal deduction in Texas produces $600,000 of usable deduction. The same study in New Jersey produces $600,000 federally and a much smaller, differently structured state result.",
 ]),
@@ -318,7 +318,7 @@ CAVEAT,
 ("Florida Corporate Income Tax and Entity Choice", [
 "Florida imposes no individual income tax but does impose a corporate income tax on entities taxed as corporations. Partnerships and disregarded entities are generally not subject to it, which is one reason Florida real estate is rarely held in corporate form.",
 "Florida decouples from federal bonus depreciation for corporate income tax purposes, requiring an addback with recovery over subsequent years. This is irrelevant to an individual investor holding through an LLC taxed as a partnership or disregarded entity, and highly relevant to anyone holding through a C corporation.",
-"The practical guidance is straightforward. Hold Florida real estate in a pass-through structure and the corporate rules never apply.",
+"Review the tax classification and every owner: a corporate partner or corporate owner of a disregarded LLC may still have Florida corporate filing and adjustment obligations. A pass-through label alone does not settle the analysis.",
 ]),
 ("Property Tax Carries More Weight", [
 "Both states fund heavily through property tax, and rates in many Texas jurisdictions exceed 2% of assessed value. On a $4,000,000 property that is $80,000 annually, which is larger than the state income tax an investor would have paid in most states.",
