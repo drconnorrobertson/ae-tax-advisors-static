@@ -651,6 +651,311 @@
       "source": "/compare/p4-tax-and-consulting-alternatives/",
       "destination": "/compare/p4-tax-alternatives/",
       "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-alabama/",
+      "destination": "/alabama/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-alaska/",
+      "destination": "/alaska/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-arizona/",
+      "destination": "/arizona/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-arkansas/",
+      "destination": "/arkansas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-california/",
+      "destination": "/california/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-colorado/",
+      "destination": "/colorado/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-connecticut/",
+      "destination": "/connecticut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-delaware/",
+      "destination": "/delaware/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-georgia/",
+      "destination": "/georgia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-hawaii/",
+      "destination": "/hawaii/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-idaho/",
+      "destination": "/idaho/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-illinois/",
+      "destination": "/illinois/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-indiana/",
+      "destination": "/indiana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-iowa/",
+      "destination": "/iowa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-kansas/",
+      "destination": "/kansas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-kentucky/",
+      "destination": "/kentucky/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-louisiana/",
+      "destination": "/louisiana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-maine/",
+      "destination": "/maine/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-maryland/",
+      "destination": "/maryland/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-massachusetts/",
+      "destination": "/massachusetts/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-michigan/",
+      "destination": "/michigan/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-minnesota/",
+      "destination": "/minnesota/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-mississippi/",
+      "destination": "/mississippi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-missouri/",
+      "destination": "/missouri/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-montana/",
+      "destination": "/montana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-nebraska/",
+      "destination": "/nebraska/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-nevada/",
+      "destination": "/nevada/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-new-hampshire/",
+      "destination": "/new-hampshire/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-new-jersey/",
+      "destination": "/new-jersey/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-new-mexico/",
+      "destination": "/new-mexico/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-new-york/",
+      "destination": "/new-york/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-north-carolina/",
+      "destination": "/north-carolina/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-north-dakota/",
+      "destination": "/north-dakota/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-ohio/",
+      "destination": "/ohio/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-oklahoma/",
+      "destination": "/oklahoma/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-oregon/",
+      "destination": "/oregon/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-pennsylvania/",
+      "destination": "/pennsylvania/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-rhode-island/",
+      "destination": "/rhode-island/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-south-carolina/",
+      "destination": "/south-carolina/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-south-dakota/",
+      "destination": "/south-dakota/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-tennessee/",
+      "destination": "/tennessee/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-texas/",
+      "destination": "/texas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-utah/",
+      "destination": "/utah/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-vermont/",
+      "destination": "/vermont/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-virginia/",
+      "destination": "/virginia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-washington/",
+      "destination": "/washington/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-west-virginia/",
+      "destination": "/west-virginia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-wisconsin/",
+      "destination": "/wisconsin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-advisor-wyoming/",
+      "destination": "/wyoming/",
+      "statusCode": 301
+    },
+    {
+      "source": "/can-i-deduct-health-insurance-s-corp/",
+      "destination": "/blog/can-my-s-corp-pay-for-my-health-insurance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/can-i-deduct-home-office-s-corp/",
+      "destination": "/blog/how-to-deduct-a-home-office-through-your-s-corp/",
+      "statusCode": 301
+    },
+    {
+      "source": "/how-much-does-cost-segregation-cost/",
+      "destination": "/cost-segregation-study-cost-pricing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/how-much-does-tax-advisor-cost/",
+      "destination": "/how-much-does-a-tax-advisor-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/how-long-does-cost-segregation-study-take/",
+      "destination": "/cost-segregation-study-timeline-process/",
+      "statusCode": 301
+    },
+    {
+      "source": "/how-to-calculate-reasonable-salary-s-corp/",
+      "destination": "/blog/what-is-reasonable-compensation-for-s-corp-owners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/how-to-set-up-accountable-plan/",
+      "destination": "/blog/what-is-an-accountable-plan-for-s-corp-owners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/how-does-augusta-rule-work/",
+      "destination": "/blog/what-is-the-augusta-rule-and-can-i-use-it/",
+      "statusCode": 301
+    },
+    {
+      "source": "/how-to-set-up-solo-401k/",
+      "destination": "/solo-401k-plans-retirement-savings-self-employed/",
+      "statusCode": 301
+    },
+    {
+      "source": "/how-to-do-backdoor-roth-ira/",
+      "destination": "/backdoor-roth-ira-high-earners-access-roth-benefits/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-deadline-calendar-2026-2027/",
+      "destination": "/resources/tax-deadline-calendar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/when-to-switch-from-llc-to-s-corp/",
+      "destination": "/blog/when-should-i-switch-from-llc-to-s-corp/",
+      "statusCode": 301
     }
   ],
   "headers": [
