@@ -41,6 +41,6 @@ class Release(unittest.TestCase):
   main=lambda t:re.search(r'<main[^>]*>(.*?)</main>',t,re.S)[1].strip()
   for x in self.manifest:
    if x['action']!='enrich existing':continue
-   previous=subprocess.check_output(['git','show','HEAD:'+x['file']],cwd=ROOT,text=True);current=(ROOT/x['file']).read_text();clean=re.sub(r'<!-- seo-campaign-20261007:start -->.*?<!-- seo-campaign-20261007:end -->','',main(current),flags=re.S).strip();self.assertEqual(main(previous),clean,x['path'])
-  for n in ['index.html','assets/style.css','assets/site-ux.js','vercel.json','site_template.py']:self.assertEqual(subprocess.check_output(['git','show','HEAD:'+n],cwd=ROOT),(ROOT/n).read_bytes(),n)
+   previous=subprocess.check_output(['git','show','35b67f940d3cc0a741f5793efdbfcd3426df5b78:'+x['file']],cwd=ROOT,text=True);current=(ROOT/x['file']).read_text();clean=re.sub(r'<!-- seo-campaign-20261007:start -->.*?<!-- seo-campaign-20261007:end -->','',main(current),flags=re.S).strip();self.assertEqual(main(previous),clean,x['path'])
+  for n in ['index.html','assets/style.css','assets/site-ux.js','vercel.json','site_template.py']:self.assertEqual(subprocess.check_output(['git','show','35b67f940d3cc0a741f5793efdbfcd3426df5b78:'+n],cwd=ROOT),(ROOT/n).read_bytes(),n)
 if __name__=='__main__':unittest.main()

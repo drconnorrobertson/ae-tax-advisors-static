@@ -22,6 +22,7 @@ def inject(path,markup,citations):
  file=ROOT/path.strip('/')/'index.html';doc=file.read_text()
  doc=re.sub(r'<!-- '+marker+r':start -->.*?<!-- '+marker+r':end -->\n?','',doc,flags=re.S)
  assert '</main>' in doc,path
+ doc=re.sub(r'[ \t\n]+(?=</main>)','\n',doc)
  doc=doc.replace('</main>',markup+'\n</main>',1)
  def schema(m):
   obj=json.loads(m[1])
@@ -41,7 +42,7 @@ def newpage(path,title,desc,raw,citations):
  body=T.page_header(h1=html.escape(heading),subtitle=html.escape(desc),trail=trail)+f'<section class="content-section comparison-content"><div class="container narrow">{markup}</div></section>'
  schemas=[T.article_schema(title=heading,description=desc,url=T.SITE+path,published=DATE,modified=DATE,citations=citations),T.breadcrumb_schema(trail)]
  doc=T.build_page(title=title,description=desc,path=path,body=body,schemas=schemas,published=DATE,modified=DATE,active_nav=parent,extra_head='<link rel="stylesheet" href="/assets/footer.css?v=20261001">')
- T.write_page(path,doc);manifest.append(dict(path=path,file=path.strip('/')+'/index.html',action='new guide'))
+ T.write_page(path,'\n'.join(line.rstrip() for line in doc.splitlines())+'\n');manifest.append(dict(path=path,file=path.strip('/')+'/index.html',action='new guide'))
 for r in refs:
  d=profiles[r['slug']];name=r['name'];path=r['existing_url'] or '/compare/'+r['slug']+'-alternatives/'
  head,p1,p2=CATEGORIES[d['category']]
