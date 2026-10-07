@@ -127,6 +127,7 @@ def build_footer() -> str:
             <p class="footer-legal-links">
                 <a href="/privacy-policy/">Privacy Policy</a> &middot;
                 <a href="/terms-of-service/">Terms of Service</a> &middot;
+                <a href="/ai-disclosure/">AI Disclosure</a> &middot;
                 <a href="/disclaimer/">Disclaimer</a> &middot;
                 <a href="/sitemap/">Site Map</a> &middot;
                 <a href="/editorial-policy/">Editorial Policy</a> &middot;

@@ -46,7 +46,17 @@ function walk(dir) {
     } else if (entry.isFile() && allowed(relative)) {
       const target = path.join(out, relative);
       fs.mkdirSync(path.dirname(target), {recursive: true});
-      fs.copyFileSync(source, target);
+      if (path.extname(relative).toLowerCase() === '.html') {
+        const html = fs.readFileSync(source, 'utf8').replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/gi, footer => {
+          if (footer.includes('href="/ai-disclosure/"')) return footer;
+          const disclosure = '<a href="/ai-disclosure/">AI Disclosure</a>';
+          if (footer.includes('<a href="/disclaimer/">')) return footer.replace('<a href="/disclaimer/">', disclosure + ' &middot; <a href="/disclaimer/">');
+          return footer.replace('</footer>', '<p class="footer-legal-links">' + disclosure + '</p></footer>');
+        });
+        fs.writeFileSync(target, html);
+      } else {
+        fs.copyFileSync(source, target);
+      }
     }
   }
 }
