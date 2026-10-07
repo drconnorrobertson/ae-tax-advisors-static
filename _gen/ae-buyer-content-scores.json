@@ -78,6 +78,44 @@
         "https://www.aetaxadvisors.com/pricing/"
       ],
       "status": "validated locally before publishing; production evidence recorded separately"
+    },
+    {
+      "url": "https://www.aetaxadvisors.com/blog/why-7800-tax-advisory-saves-50k/",
+      "action": "refresh",
+      "intent": "Decide whether to purchase advisory given uncertain benefits",
+      "scores": {
+        "distinctIntent": 24,
+        "buyerRelevance": 29,
+        "questionEvidence": 12,
+        "serviceFit": 19,
+        "originalDecisionSupport": 9
+      },
+      "total": 93,
+      "decisionSupport": "Baseline worksheet and three-case fee sensitivity",
+      "overlapDecision": "Refresh existing value/ROI article; retain fee-comparison article for proposal normalization.",
+      "evidence": "Existing public question article; no search volume or conversion evidence claimed.",
+      "sources": [
+        "https://www.aetaxadvisors.com/pricing/"
+      ]
+    },
+    {
+      "url": "https://www.aetaxadvisors.com/blog/how-much-should-you-pay-tax-advisory/",
+      "action": "refresh",
+      "intent": "Select an appropriate service scope and budget before requesting a quote",
+      "scores": {
+        "distinctIntent": 23,
+        "buyerRelevance": 28,
+        "questionEvidence": 12,
+        "serviceFit": 19,
+        "originalDecisionSupport": 9
+      },
+      "total": 91,
+      "decisionSupport": "Scope selector and two-job budget example",
+      "overlapDecision": "Refresh existing budget article; distinguish choosing service scope from comparing competing quotes.",
+      "evidence": "Existing public question article; no search volume or conversion evidence claimed.",
+      "sources": [
+        "https://www.aetaxadvisors.com/pricing/"
+      ]
     }
   ]
 }
