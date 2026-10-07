@@ -1,0 +1,83 @@
+{
+  "reviewDate": "2026-10-07",
+  "scoreMeaning": "Editorial assessment, not a search-engine score or ranking forecast",
+  "gate": {
+    "total": 85,
+    "buyerRelevance": 27,
+    "serviceFit": 17
+  },
+  "weights": {
+    "distinctIntent": 25,
+    "buyerRelevance": 30,
+    "questionEvidence": 15,
+    "serviceFit": 20,
+    "originalDecisionSupport": 10
+  },
+  "articles": [
+    {
+      "url": "https://www.aetaxadvisors.com/blog/how-to-evaluate-tax-advisor/",
+      "action": "refresh",
+      "intent": "Choose a provider before signing a business-owner tax advisory proposal",
+      "primaryKeyword": "how to choose a tax advisor",
+      "scores": {
+        "distinctIntent": 23,
+        "buyerRelevance": 28,
+        "questionEvidence": 12,
+        "serviceFit": 18,
+        "originalDecisionSupport": 9
+      },
+      "total": 90,
+      "decisionSupport": "Six-question interview and evidence-based proposal scorecard",
+      "overlapDecision": "Refresh the existing advisor-selection URL rather than add a competing hiring guide.",
+      "evidence": "Existing dedicated public article and current service pricing establish a real selection question; no search-volume estimate claimed.",
+      "sources": [
+        "https://www.irs.gov/tax-professionals/choosing-a-tax-professional",
+        "https://www.irs.gov/tax-professionals/understanding-tax-return-preparer-credentials-and-qualifications",
+        "https://www.aetaxadvisors.com/pricing/"
+      ],
+      "status": "validated locally before publishing; production evidence recorded separately"
+    },
+    {
+      "url": "https://www.aetaxadvisors.com/blog/comparing-tax-advisory-fees-apples-to-oranges/",
+      "action": "refresh",
+      "intent": "Normalize competing written quotes before purchasing tax planning",
+      "primaryKeyword": "compare tax advisory fees",
+      "scores": {
+        "distinctIntent": 23,
+        "buyerRelevance": 29,
+        "questionEvidence": 12,
+        "serviceFit": 19,
+        "originalDecisionSupport": 9
+      },
+      "total": 92,
+      "decisionSupport": "Normalized quote worksheet, worked first-year budget and renewal sensitivity",
+      "overlapDecision": "Refresh the existing fee-comparison article; preserve the separate commercial pricing and retainer comparison destinations.",
+      "evidence": "Existing dedicated public article and current service pricing establish a real selection question; no search-volume estimate claimed.",
+      "sources": [
+        "https://www.aetaxadvisors.com/pricing/"
+      ],
+      "status": "validated locally before publishing; production evidence recorded separately"
+    },
+    {
+      "url": "https://www.aetaxadvisors.com/blog/what-you-actually-get-with-ae-tax-advisors/",
+      "action": "refresh",
+      "intent": "Resolve scope and implementation objections before buying AE advisory",
+      "primaryKeyword": "AE Tax Advisors engagement",
+      "scores": {
+        "distinctIntent": 24,
+        "buyerRelevance": 30,
+        "questionEvidence": 12,
+        "serviceFit": 20,
+        "originalDecisionSupport": 9
+      },
+      "total": 95,
+      "decisionSupport": "Written-scope checklist and responsibility handoff map",
+      "overlapDecision": "Refresh the existing branded engagement explanation rather than create another AE purchase FAQ.",
+      "evidence": "Existing dedicated public article and current service pricing establish a real selection question; no search-volume estimate claimed.",
+      "sources": [
+        "https://www.aetaxadvisors.com/pricing/"
+      ],
+      "status": "validated locally before publishing; production evidence recorded separately"
+    }
+  ]
+}
