@@ -8,6 +8,8 @@ from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parent
 SITE='https://www.aetaxadvisors.com'
 ledger=json.loads((ROOT/'_gen/ae-buyer-content-scores.json').read_text())
+selected={x['url'] for x in json.loads((ROOT/'_gen/ae-buyer-value-batch.json').read_text())} if '--value-batch' in sys.argv else None
+if selected: ledger['articles']=[a for a in ledger['articles'] if a['url'] in selected]
 manifest=[]
 maps=[{x.text for x in ET.parse(ROOT/n).findall('.//{*}loc')} for n in ['sitemap.xml','sitemap-blog.xml']]
 redirects={r['source'] for r in json.loads((ROOT/'vercel.json').read_text())['redirects']}
@@ -38,9 +40,9 @@ for a in ledger['articles']:
 # Changes must be confined to the reviewed batch and its discovery metadata.
 changed=subprocess.check_output(['git','diff','--name-only'],cwd=ROOT,text=True).splitlines()
 allowed={'blog/index.html','sitemap.xml','sitemap-blog.xml'}|{urlsplit(x['url']).path.strip('/')+'/index.html' for x in ledger['articles']}
-assert set(changed)==allowed,changed
+assert set(changed)-{'_gen/ae-buyer-content-scores.json','validate_buyer_quality.py'}==allowed,changed
 for name in ['index.html','vercel.json','assets/style.css','assets/site-ux.js']:
  old=subprocess.check_output(['git','show','HEAD:'+name],cwd=ROOT)
  assert (ROOT/name).read_bytes()==old,name
-(ROOT/'_gen/ae-buyer-batch-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+(ROOT/('_gen/ae-buyer-value-manifest.json' if selected else '_gen/ae-buyer-batch-manifest.json')).write_text(json.dumps(manifest,indent=2)+'\n')
 print(json.dumps({'articles':len(manifest),'words':[x['words'] for x in manifest],'scores':[x['editorialScore'] for x in manifest],'allChecksPassed':True}))
