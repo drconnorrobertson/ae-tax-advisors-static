@@ -1,0 +1,602 @@
+[
+  {
+    "slug": "tax-alchemy",
+    "name": "Tax Alchemy",
+    "existing_url": "/compare/tax-alchemy-alternatives/",
+    "primary_url": "https://taxalchemy.com/about-us/"
+  },
+  {
+    "slug": "hall-cpa",
+    "name": "Hall CPA",
+    "existing_url": "/compare/hall-cpa-alternatives/",
+    "primary_url": "https://www.therealestatecpa.com/our-team/"
+  },
+  {
+    "slug": "keystone-cpa",
+    "name": "Keystone CPA",
+    "existing_url": "/compare/keystone-cpa-alternatives/",
+    "primary_url": "https://www.keystonecpa.com/"
+  },
+  {
+    "slug": "taxstra",
+    "name": "Taxstra PLLC",
+    "existing_url": "/compare/taxstra-alternatives/",
+    "primary_url": "https://taxstra.com/"
+  },
+  {
+    "slug": "wcg-cpas",
+    "name": "WCG CPAs",
+    "existing_url": "/compare/wcg-cpas-alternatives/",
+    "primary_url": "https://wcginc.com/business-services/"
+  },
+  {
+    "slug": "tax-goddess",
+    "name": "Tax Goddess",
+    "existing_url": "/compare/tax-goddess-alternatives/",
+    "primary_url": "https://taxgoddess.com/"
+  },
+  {
+    "slug": "prime-path-advisory",
+    "name": "Prime Path Advisory",
+    "existing_url": "/compare/prime-path-advisory-alternatives/",
+    "primary_url": "https://primepathadvisory.com/"
+  },
+  {
+    "slug": "neil-jesani-advisors",
+    "name": "Neil Jesani Advisors",
+    "existing_url": "/compare/neil-jesani-advisors-alternatives/",
+    "primary_url": "https://neiljesani.com/"
+  },
+  {
+    "slug": "peter-holtz-cpa",
+    "name": "Peter Holtz CPA",
+    "existing_url": "/compare/peter-holtz-cpa-alternatives/",
+    "primary_url": "https://www.peterholtzcpa.com/"
+  },
+  {
+    "slug": "rainwater-cpa",
+    "name": "Rainwater CPA",
+    "existing_url": "/compare/rainwater-cpa-alternatives/",
+    "primary_url": "https://rainwatercpa.com/do-you-need-tax-planning-or-tax-preparation/"
+  },
+  {
+    "slug": "p4-tax",
+    "name": "P4 Tax",
+    "existing_url": "/compare/p4-tax-alternatives/",
+    "primary_url": "https://p4taxes.com/services/"
+  },
+  {
+    "slug": "delerme-cpa",
+    "name": "Delerme CPA",
+    "existing_url": "/compare/delerme-cpa-alternatives/",
+    "primary_url": "https://www.delermecpa.com/"
+  },
+  {
+    "slug": "anomaly-cpa",
+    "name": "Anomaly CPA",
+    "existing_url": "/compare/anomaly-cpa-alternatives/",
+    "primary_url": "https://www.anomalycpa.com/"
+  },
+  {
+    "slug": "anderson-advisors",
+    "name": "Anderson Advisors",
+    "existing_url": "/compare/anderson-advisors-alternatives/",
+    "primary_url": "https://andersonadvisors.com/"
+  },
+  {
+    "slug": "gelt",
+    "name": "Gelt",
+    "existing_url": "/compare/gelt-alternatives/",
+    "primary_url": "https://www.joingelt.com/"
+  },
+  {
+    "slug": "jasmine-dilucci",
+    "name": "Jasmine DiLucci",
+    "existing_url": "/compare/jasmine-dilucci-alternatives/",
+    "primary_url": "https://dilucci.com/"
+  },
+  {
+    "slug": "creative-planning",
+    "name": "Creative Planning",
+    "existing_url": "/compare/creative-planning-alternatives/",
+    "primary_url": "https://creativeplanning.com/private-wealth-management/high-net-worth/"
+  },
+  {
+    "slug": "range",
+    "name": "Range.com",
+    "existing_url": "/compare/range-alternatives/",
+    "primary_url": "https://www.range.com/pricing"
+  },
+  {
+    "slug": "dark-horse-cpas",
+    "name": "Dark Horse CPAs",
+    "existing_url": "/compare/dark-horse-cpas-alternatives/",
+    "primary_url": "https://darkhorse.cpa/"
+  },
+  {
+    "slug": "cerebral-tax-advisors",
+    "name": "Cerebral Tax Advisors",
+    "existing_url": "/compare/cerebral-tax-advisors-alternatives/",
+    "primary_url": "https://www.cerebraltaxadvisors.com/"
+  },
+  {
+    "slug": "tara-cpa-firm",
+    "name": "The Tara CPA Firm",
+    "existing_url": "/compare/tara-cpa-firm-vs-ae-tax/",
+    "primary_url": "https://taracpafirm.com/"
+  },
+  {
+    "slug": "fraim-cawley",
+    "name": "Fraim, Cawley & Company CPAs",
+    "existing_url": "/compare/fraim-cawley-vs-ae-tax/",
+    "primary_url": "https://fraimcpa.com/"
+  },
+  {
+    "slug": "wellness-fi",
+    "name": "Wellness Fi",
+    "existing_url": "/compare/wellness-fi-vs-ae-tax/",
+    "primary_url": "https://www.wellnessfi.com/services/"
+  },
+  {
+    "slug": "taxhub",
+    "name": "Taxhub",
+    "existing_url": "/compare/taxhub-vs-ae-tax/",
+    "primary_url": "https://gettaxhub.com/taxservices/"
+  },
+  {
+    "slug": "collective",
+    "name": "Collective",
+    "existing_url": "/compare/collective-vs-ae-tax/",
+    "primary_url": "https://www.collective.com/plans-and-pricing"
+  },
+  {
+    "slug": "xendoo",
+    "name": "Xendoo",
+    "existing_url": "/compare/xendoo-vs-ae-tax/",
+    "primary_url": "https://xendoo.com/faq/"
+  },
+  {
+    "slug": "pilot",
+    "name": "Pilot",
+    "existing_url": "/compare/pilot-vs-ae-tax/",
+    "primary_url": "https://pilot.com/tax"
+  },
+  {
+    "slug": "decimal",
+    "name": "Decimal",
+    "existing_url": "/compare/decimal-vs-ae-tax/",
+    "primary_url": "https://www.decimal.com/services/tax"
+  },
+  {
+    "slug": "fondo",
+    "name": "Fondo",
+    "existing_url": "/compare/fondo-vs-ae-tax/",
+    "primary_url": "https://www.tryfondo.com/taxpass-lp"
+  },
+  {
+    "slug": "kruze-consulting",
+    "name": "Kruze Consulting",
+    "existing_url": "/compare/kruze-consulting-vs-ae-tax/",
+    "primary_url": "https://kruzeconsulting.com/startup-tax-services/"
+  },
+  {
+    "slug": "heard",
+    "name": "Heard",
+    "existing_url": "/compare/heard-vs-ae-tax/",
+    "primary_url": "https://www.joinheard.com/pricing"
+  },
+  {
+    "slug": "acuity",
+    "name": "Acuity",
+    "existing_url": "/compare/acuity-vs-ae-tax/",
+    "primary_url": "https://acuity.co/faqs/"
+  },
+  {
+    "slug": "tax-hack-accounting",
+    "name": "Tax Hack Accounting Group",
+    "existing_url": "/compare/tax-hack-accounting-vs-ae-tax/",
+    "primary_url": "https://mytaxhack.com/about/"
+  },
+  {
+    "slug": "jetro-associates",
+    "name": "JETRO and Associates",
+    "existing_url": "/compare/jetro-associates-vs-ae-tax/",
+    "primary_url": "https://jetrofitness.com/"
+  },
+  {
+    "slug": "vincere-tax",
+    "name": "Vincere Tax",
+    "existing_url": "/compare/vincere-tax-vs-ae-tax/",
+    "primary_url": "https://www.vinceretax.com/about-us"
+  },
+  {
+    "slug": "little-fish-accounting",
+    "name": "Little Fish Accounting",
+    "existing_url": "/compare/little-fish-accounting-vs-ae-tax/",
+    "primary_url": "https://www.littlefishaccounting.com/accounting-and-taxes"
+  },
+  {
+    "slug": "bottom-line-cpa",
+    "name": "The Bottom Line CPA",
+    "existing_url": "/compare/bottom-line-cpa-vs-ae-tax/",
+    "primary_url": "https://www.hellotbl.com/"
+  },
+  {
+    "slug": "fitness-cpa",
+    "name": "The Fitness CPA",
+    "existing_url": "/compare/fitness-cpa-vs-ae-tax/",
+    "primary_url": "https://thefitnesscpa.com/"
+  },
+  {
+    "slug": "accountfully",
+    "name": "Accountfully",
+    "existing_url": "/compare/accountfully-vs-ae-tax/",
+    "primary_url": "https://pages.accountfully.com/bookkeeping-and-accounting-for-cpg-businesses"
+  },
+  {
+    "slug": "blumer-cpas",
+    "name": "Blumer CPAs",
+    "existing_url": "/compare/blumer-cpas-vs-ae-tax/",
+    "primary_url": "https://blumercpas.com/"
+  },
+  {
+    "slug": "fusion-cpa",
+    "name": "Fusion CPA",
+    "existing_url": "/compare/fusion-cpa-vs-ae-tax/",
+    "primary_url": "https://www.fusiontaxes.com/"
+  },
+  {
+    "slug": "greengrowth-cpas",
+    "name": "GreenGrowth CPAs",
+    "existing_url": "/compare/greengrowth-cpas-vs-ae-tax/",
+    "primary_url": "https://greengrowthcpas.com/"
+  },
+  {
+    "slug": "sdo-cpa",
+    "name": "SDO CPA",
+    "existing_url": "/compare/sdo-cpa-vs-ae-tax/",
+    "primary_url": "https://www.sdocpa.com/"
+  },
+  {
+    "slug": "nth-degree-cpas",
+    "name": "Nth Degree CPAs",
+    "existing_url": "/compare/nth-degree-cpas-vs-ae-tax/",
+    "primary_url": "https://www.nthdegreecpas.com/"
+  },
+  {
+    "slug": "tldr-accounting",
+    "name": "TL;DR Accounting",
+    "existing_url": "/compare/tldr-accounting-vs-ae-tax/",
+    "primary_url": "https://www.tldraccounting.com/"
+  },
+  {
+    "slug": "graphite-financial",
+    "name": "Graphite Financial",
+    "existing_url": "/compare/graphite-financial-vs-ae-tax/",
+    "primary_url": "https://www.graphitefinancial.com/services-tax-compliance/"
+  },
+  {
+    "slug": "tax-strategists-of-america",
+    "name": "Tax Strategists of America",
+    "existing_url": "/compare/tax-strategists-of-america-vs-ae-tax/",
+    "primary_url": "https://taxstrategistsofamerica.com/services"
+  },
+  {
+    "slug": "pronto-advisors",
+    "name": "Pronto Advisors",
+    "existing_url": "/compare/pronto-advisors-vs-ae-tax/",
+    "primary_url": "https://prontoadvisors.com/"
+  },
+  {
+    "slug": "proactive-tax-advisors",
+    "name": "Proactive Tax Advisors",
+    "existing_url": "/compare/proactive-tax-advisors-vs-ae-tax/",
+    "primary_url": "https://www.proactivetaxadvisors.com/"
+  },
+  {
+    "slug": "bracket-tax-co",
+    "name": "Bracket Tax Co.",
+    "existing_url": "/compare/bracket-tax-co-vs-ae-tax/",
+    "primary_url": "https://www.brackettax.com/"
+  },
+  {
+    "slug": "pillar-advisors",
+    "name": "Pillar Advisors",
+    "existing_url": "/compare/pillar-advisors-vs-ae-tax/",
+    "primary_url": "https://www.pillar-advisors.com/"
+  },
+  {
+    "slug": "cssi",
+    "name": "CSSI",
+    "existing_url": "/compare/cssi-alternatives/",
+    "primary_url": "https://cssiservices.com/services/"
+  },
+  {
+    "slug": "capstan-tax-strategies",
+    "name": "Capstan Tax Strategies",
+    "existing_url": "/compare/capstan-tax-strategies-alternatives/",
+    "primary_url": "https://capstantax.com/"
+  },
+  {
+    "slug": "cost-seg-smart",
+    "name": "Cost Seg Smart",
+    "existing_url": "/compare/cost-seg-smart-alternatives/",
+    "primary_url": "https://costsegsmart.com/"
+  },
+  {
+    "slug": "engineered-tax-services",
+    "name": "Engineered Tax Services",
+    "existing_url": "/compare/engineered-tax-services-alternatives/",
+    "primary_url": "https://engineeredtaxservices.com/"
+  },
+  {
+    "slug": "kbkg",
+    "name": "KBKG",
+    "existing_url": "/compare/kbkg-alternatives/",
+    "primary_url": "https://www.kbkg.com/"
+  },
+  {
+    "slug": "madison-specs",
+    "name": "Madison SPECS",
+    "existing_url": "/compare/madison-specs-alternatives/",
+    "primary_url": "https://www.madisonspecs.com/"
+  },
+  {
+    "slug": "re-cost-seg",
+    "name": "RE Cost Seg",
+    "existing_url": "/compare/re-cost-seg-alternatives/",
+    "primary_url": "https://www.recostseg.com/"
+  },
+  {
+    "slug": "cherry-bekaert",
+    "name": "Cherry Bekaert",
+    "existing_url": "/compare/cherry-bekaert-alternatives/",
+    "primary_url": "https://www.cbh.com/"
+  },
+  {
+    "slug": "deloitte-tax",
+    "name": "Deloitte Tax",
+    "existing_url": "/compare/deloitte-tax-alternatives/",
+    "primary_url": "https://www.deloitte.com/us/en/services/tax.html"
+  },
+  {
+    "slug": "kpmg",
+    "name": "KPMG",
+    "existing_url": "/compare/kpmg-alternatives/",
+    "primary_url": "https://kpmg.com/us/en.html"
+  },
+  {
+    "slug": "advise-re",
+    "name": "Advise RE",
+    "existing_url": "/compare/advise-re-alternatives/",
+    "primary_url": "https://adviseretax.com/"
+  },
+  {
+    "slug": "1099-tax-doctor",
+    "name": "1099 Tax Doctor",
+    "existing_url": "/compare/1099-tax-doctor-alternatives/",
+    "primary_url": "https://www.1099taxdoctor.com/"
+  },
+  {
+    "slug": "aprio",
+    "name": "Aprio",
+    "existing_url": "/compare/aprio-alternatives/",
+    "primary_url": "https://www.aprio.com/"
+  },
+  {
+    "slug": "basis-cost-segregation",
+    "name": "BASIS Cost Segregation",
+    "existing_url": "/compare/basis-cost-segregation-alternatives/",
+    "primary_url": "https://basiscostseg.com/"
+  },
+  {
+    "slug": "beach-life-cpa",
+    "name": "Beach Life CPA",
+    "existing_url": "/compare/beach-life-cpa-alternatives/",
+    "primary_url": "https://www.beachlifecpa.com/locations/nationwide-cpa-services/"
+  },
+  {
+    "slug": "bracket-partners",
+    "name": "Bracket Partners",
+    "existing_url": "/compare/bracket-partners-alternatives/",
+    "primary_url": "https://bracketpartners.com/"
+  },
+  {
+    "slug": "bright-hill-advisors",
+    "name": "Bright Hill Advisors",
+    "existing_url": "/compare/bright-hill-advisors-alternatives/",
+    "primary_url": "https://www.brighthilladvisors.com/"
+  },
+  {
+    "slug": "cpa-rod",
+    "name": "CPA-ROD",
+    "existing_url": "/compare/cpa-rod-alternatives/",
+    "primary_url": "https://www.cpa-rod.com/"
+  },
+  {
+    "slug": "compass-cpa",
+    "name": "Compass CPA",
+    "existing_url": "/compare/compass-cpa-alternatives/",
+    "primary_url": "https://compasscpa.net/real-estate/"
+  },
+  {
+    "slug": "cost-seg-atlas",
+    "name": "Cost Seg Atlas",
+    "existing_url": "/compare/cost-seg-atlas-alternatives/",
+    "primary_url": "https://costseg.2911tech.com/pricing"
+  },
+  {
+    "slug": "cost-segregation-authority",
+    "name": "Cost Segregation Authority",
+    "existing_url": "/compare/cost-segregation-authority-alternatives/",
+    "primary_url": "https://csap.com/"
+  },
+  {
+    "slug": "cost-segregation-guys",
+    "name": "Cost Segregation Guys",
+    "existing_url": "/compare/cost-segregation-guys-alternatives/",
+    "primary_url": "https://costsegregationguys.com/"
+  },
+  {
+    "slug": "costseg-express",
+    "name": "CostSeg Express",
+    "existing_url": "/compare/costseg-express-alternatives/",
+    "primary_url": "https://www.costseg.express/"
+  },
+  {
+    "slug": "costsegez",
+    "name": "CostSegEZ",
+    "existing_url": "/compare/costsegez-alternatives/",
+    "primary_url": "https://costsegez.com/"
+  },
+  {
+    "slug": "costsegrx",
+    "name": "CostSegRx",
+    "existing_url": "/compare/costsegrx-alternatives/",
+    "primary_url": "https://www.costsegrx.com/faq"
+  },
+  {
+    "slug": "costsegregation-com",
+    "name": "CostSegregation.com",
+    "existing_url": "/compare/costsegregation-com-alternatives/",
+    "primary_url": "https://www.costsegregation.com/"
+  },
+  {
+    "slug": "crescent-cpa-advisors",
+    "name": "Crescent CPA Advisors",
+    "existing_url": "/compare/crescent-cpa-advisors-alternatives/",
+    "primary_url": "https://www.crescentcpaadvisors.com/"
+  },
+  {
+    "slug": "duffy-duffy-cost-segregation",
+    "name": "Duffy + Duffy Cost Segregation",
+    "existing_url": "/compare/duffy-duffy-cost-segregation-alternatives/",
+    "primary_url": "https://costsegexperts.com/"
+  },
+  {
+    "slug": "duncan-carter-tax-advisory",
+    "name": "Duncan Carter Tax Advisory",
+    "existing_url": "/compare/duncan-carter-tax-advisory-alternatives/",
+    "primary_url": "https://duncancartertaxadvisory.com/"
+  },
+  {
+    "slug": "elite-consulting-pc",
+    "name": "Elite Consulting, P.C.",
+    "existing_url": "/compare/elite-consulting-pc-alternatives/",
+    "primary_url": "https://www.eliteconsultingpc.com/pages/about-elite-consulting"
+  },
+  {
+    "slug": "firm1040",
+    "name": "FIRM1040",
+    "existing_url": "/compare/firm1040-alternatives/",
+    "primary_url": "https://www.firm1040.com/"
+  },
+  {
+    "slug": "fluency-tax",
+    "name": "Fluency Tax",
+    "existing_url": "/compare/fluency-tax-alternatives/",
+    "primary_url": "https://www.fluencytax.com/"
+  },
+  {
+    "slug": "fox-and-company-cpas",
+    "name": "Fox & Company CPAs",
+    "existing_url": "/compare/fox-and-company-cpas-alternatives/",
+    "primary_url": "https://fox-cpas.com/"
+  },
+  {
+    "slug": "gavtax-advisory-services",
+    "name": "GavTax Advisory Services",
+    "existing_url": "/compare/gavtax-advisory-services-alternatives/",
+    "primary_url": "https://gavtax.com/"
+  },
+  {
+    "slug": "ics-tax",
+    "name": "ICS Tax",
+    "existing_url": "/compare/ics-tax-alternatives/",
+    "primary_url": "https://ics-tax.com/"
+  },
+  {
+    "slug": "incite-tax",
+    "name": "Incite Tax",
+    "existing_url": "/compare/incite-tax-alternatives/",
+    "primary_url": "https://incitetax.com/"
+  },
+  {
+    "slug": "investor-friendly-cpa",
+    "name": "Investor Friendly CPA",
+    "existing_url": "/compare/investor-friendly-cpa-alternatives/",
+    "primary_url": "https://www.investorfriendlycpa.com/"
+  },
+  {
+    "slug": "msc-tax",
+    "name": "MSC Tax",
+    "existing_url": "/compare/msc-tax-alternatives/",
+    "primary_url": "https://msc.tax/services/"
+  },
+  {
+    "slug": "maven-cost-segregation",
+    "name": "Maven Cost Segregation",
+    "existing_url": "/compare/maven-cost-segregation-alternatives/",
+    "primary_url": "https://mavencostseg.com/"
+  },
+  {
+    "slug": "mcguire-sponsel",
+    "name": "McGuire Sponsel",
+    "existing_url": "/compare/mcguire-sponsel-alternatives/",
+    "primary_url": "https://mcguiresponsel.com/"
+  },
+  {
+    "slug": "my-cost-segregation",
+    "name": "My Cost Segregation",
+    "existing_url": "/compare/my-cost-segregation-alternatives/",
+    "primary_url": "https://www.mycostsegregation.com/pricing/"
+  },
+  {
+    "slug": "pwc",
+    "name": "PwC",
+    "existing_url": null,
+    "primary_url": "https://www.pwc.com/us/en/services/tax.html"
+  },
+  {
+    "slug": "ey",
+    "name": "EY",
+    "existing_url": null,
+    "primary_url": "https://www.ey.com/en_us/services/tax/private-client-services"
+  },
+  {
+    "slug": "rsm",
+    "name": "RSM",
+    "existing_url": null,
+    "primary_url": "https://rsmus.com/"
+  },
+  {
+    "slug": "baker-tilly",
+    "name": "Baker Tilly",
+    "existing_url": null,
+    "primary_url": "https://www.bakertilly.com/services/tax"
+  },
+  {
+    "slug": "bdo",
+    "name": "BDO",
+    "existing_url": null,
+    "primary_url": "https://www.bdo.com/services/tax"
+  },
+  {
+    "slug": "grant-thornton",
+    "name": "Grant Thornton",
+    "existing_url": null,
+    "primary_url": "https://grantthornton.com/services/tax-services"
+  },
+  {
+    "slug": "cbiz",
+    "name": "CBIZ",
+    "existing_url": null,
+    "primary_url": "https://www.cbiz.com/services/tax"
+  },
+  {
+    "slug": "forvis-mazars",
+    "name": "Forvis Mazars",
+    "existing_url": null,
+    "primary_url": "https://www.forvismazars.us/services/tax"
+  }
+]

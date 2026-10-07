@@ -1,0 +1,597 @@
+[
+  {
+    "path": "/compare/tax-alchemy-alternatives/",
+    "file": "compare/tax-alchemy-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/hall-cpa-alternatives/",
+    "file": "compare/hall-cpa-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/keystone-cpa-alternatives/",
+    "file": "compare/keystone-cpa-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/taxstra-alternatives/",
+    "file": "compare/taxstra-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/wcg-cpas-alternatives/",
+    "file": "compare/wcg-cpas-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/tax-goddess-alternatives/",
+    "file": "compare/tax-goddess-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/prime-path-advisory-alternatives/",
+    "file": "compare/prime-path-advisory-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/neil-jesani-advisors-alternatives/",
+    "file": "compare/neil-jesani-advisors-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/peter-holtz-cpa-alternatives/",
+    "file": "compare/peter-holtz-cpa-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/rainwater-cpa-alternatives/",
+    "file": "compare/rainwater-cpa-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/p4-tax-alternatives/",
+    "file": "compare/p4-tax-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/delerme-cpa-alternatives/",
+    "file": "compare/delerme-cpa-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/anomaly-cpa-alternatives/",
+    "file": "compare/anomaly-cpa-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/anderson-advisors-alternatives/",
+    "file": "compare/anderson-advisors-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/gelt-alternatives/",
+    "file": "compare/gelt-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/jasmine-dilucci-alternatives/",
+    "file": "compare/jasmine-dilucci-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/creative-planning-alternatives/",
+    "file": "compare/creative-planning-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/range-alternatives/",
+    "file": "compare/range-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/dark-horse-cpas-alternatives/",
+    "file": "compare/dark-horse-cpas-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/cerebral-tax-advisors-alternatives/",
+    "file": "compare/cerebral-tax-advisors-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/tara-cpa-firm-vs-ae-tax/",
+    "file": "compare/tara-cpa-firm-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/fraim-cawley-vs-ae-tax/",
+    "file": "compare/fraim-cawley-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/wellness-fi-vs-ae-tax/",
+    "file": "compare/wellness-fi-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/taxhub-vs-ae-tax/",
+    "file": "compare/taxhub-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/collective-vs-ae-tax/",
+    "file": "compare/collective-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/xendoo-vs-ae-tax/",
+    "file": "compare/xendoo-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/pilot-vs-ae-tax/",
+    "file": "compare/pilot-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/decimal-vs-ae-tax/",
+    "file": "compare/decimal-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/fondo-vs-ae-tax/",
+    "file": "compare/fondo-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/kruze-consulting-vs-ae-tax/",
+    "file": "compare/kruze-consulting-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/heard-vs-ae-tax/",
+    "file": "compare/heard-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/acuity-vs-ae-tax/",
+    "file": "compare/acuity-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/tax-hack-accounting-vs-ae-tax/",
+    "file": "compare/tax-hack-accounting-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/jetro-associates-vs-ae-tax/",
+    "file": "compare/jetro-associates-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/vincere-tax-vs-ae-tax/",
+    "file": "compare/vincere-tax-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/little-fish-accounting-vs-ae-tax/",
+    "file": "compare/little-fish-accounting-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/bottom-line-cpa-vs-ae-tax/",
+    "file": "compare/bottom-line-cpa-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/fitness-cpa-vs-ae-tax/",
+    "file": "compare/fitness-cpa-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/accountfully-vs-ae-tax/",
+    "file": "compare/accountfully-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/blumer-cpas-vs-ae-tax/",
+    "file": "compare/blumer-cpas-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/fusion-cpa-vs-ae-tax/",
+    "file": "compare/fusion-cpa-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/greengrowth-cpas-vs-ae-tax/",
+    "file": "compare/greengrowth-cpas-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/sdo-cpa-vs-ae-tax/",
+    "file": "compare/sdo-cpa-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/nth-degree-cpas-vs-ae-tax/",
+    "file": "compare/nth-degree-cpas-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/tldr-accounting-vs-ae-tax/",
+    "file": "compare/tldr-accounting-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/graphite-financial-vs-ae-tax/",
+    "file": "compare/graphite-financial-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/tax-strategists-of-america-vs-ae-tax/",
+    "file": "compare/tax-strategists-of-america-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/pronto-advisors-vs-ae-tax/",
+    "file": "compare/pronto-advisors-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/proactive-tax-advisors-vs-ae-tax/",
+    "file": "compare/proactive-tax-advisors-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/bracket-tax-co-vs-ae-tax/",
+    "file": "compare/bracket-tax-co-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/pillar-advisors-vs-ae-tax/",
+    "file": "compare/pillar-advisors-vs-ae-tax/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/cssi-alternatives/",
+    "file": "compare/cssi-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/capstan-tax-strategies-alternatives/",
+    "file": "compare/capstan-tax-strategies-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/cost-seg-smart-alternatives/",
+    "file": "compare/cost-seg-smart-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/engineered-tax-services-alternatives/",
+    "file": "compare/engineered-tax-services-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/kbkg-alternatives/",
+    "file": "compare/kbkg-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/madison-specs-alternatives/",
+    "file": "compare/madison-specs-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/re-cost-seg-alternatives/",
+    "file": "compare/re-cost-seg-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/cherry-bekaert-alternatives/",
+    "file": "compare/cherry-bekaert-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/deloitte-tax-alternatives/",
+    "file": "compare/deloitte-tax-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/kpmg-alternatives/",
+    "file": "compare/kpmg-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/advise-re-alternatives/",
+    "file": "compare/advise-re-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/1099-tax-doctor-alternatives/",
+    "file": "compare/1099-tax-doctor-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/aprio-alternatives/",
+    "file": "compare/aprio-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/basis-cost-segregation-alternatives/",
+    "file": "compare/basis-cost-segregation-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/beach-life-cpa-alternatives/",
+    "file": "compare/beach-life-cpa-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/bracket-partners-alternatives/",
+    "file": "compare/bracket-partners-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/bright-hill-advisors-alternatives/",
+    "file": "compare/bright-hill-advisors-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/cpa-rod-alternatives/",
+    "file": "compare/cpa-rod-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/compass-cpa-alternatives/",
+    "file": "compare/compass-cpa-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/cost-seg-atlas-alternatives/",
+    "file": "compare/cost-seg-atlas-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/cost-segregation-authority-alternatives/",
+    "file": "compare/cost-segregation-authority-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/cost-segregation-guys-alternatives/",
+    "file": "compare/cost-segregation-guys-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/costseg-express-alternatives/",
+    "file": "compare/costseg-express-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/costsegez-alternatives/",
+    "file": "compare/costsegez-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/costsegrx-alternatives/",
+    "file": "compare/costsegrx-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/costsegregation-com-alternatives/",
+    "file": "compare/costsegregation-com-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/crescent-cpa-advisors-alternatives/",
+    "file": "compare/crescent-cpa-advisors-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/duffy-duffy-cost-segregation-alternatives/",
+    "file": "compare/duffy-duffy-cost-segregation-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/duncan-carter-tax-advisory-alternatives/",
+    "file": "compare/duncan-carter-tax-advisory-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/elite-consulting-pc-alternatives/",
+    "file": "compare/elite-consulting-pc-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/firm1040-alternatives/",
+    "file": "compare/firm1040-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/fluency-tax-alternatives/",
+    "file": "compare/fluency-tax-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/fox-and-company-cpas-alternatives/",
+    "file": "compare/fox-and-company-cpas-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/gavtax-advisory-services-alternatives/",
+    "file": "compare/gavtax-advisory-services-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/ics-tax-alternatives/",
+    "file": "compare/ics-tax-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/incite-tax-alternatives/",
+    "file": "compare/incite-tax-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/investor-friendly-cpa-alternatives/",
+    "file": "compare/investor-friendly-cpa-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/msc-tax-alternatives/",
+    "file": "compare/msc-tax-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/maven-cost-segregation-alternatives/",
+    "file": "compare/maven-cost-segregation-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/mcguire-sponsel-alternatives/",
+    "file": "compare/mcguire-sponsel-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/my-cost-segregation-alternatives/",
+    "file": "compare/my-cost-segregation-alternatives/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/pwc-alternatives/",
+    "file": "compare/pwc-alternatives/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/compare/ey-alternatives/",
+    "file": "compare/ey-alternatives/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/compare/rsm-alternatives/",
+    "file": "compare/rsm-alternatives/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/compare/baker-tilly-alternatives/",
+    "file": "compare/baker-tilly-alternatives/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/compare/bdo-alternatives/",
+    "file": "compare/bdo-alternatives/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/compare/grant-thornton-alternatives/",
+    "file": "compare/grant-thornton-alternatives/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/compare/cbiz-alternatives/",
+    "file": "compare/cbiz-alternatives/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/compare/forvis-mazars-alternatives/",
+    "file": "compare/forvis-mazars-alternatives/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/cost-segregation-study-cost-pricing/",
+    "file": "cost-segregation-study-cost-pricing/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/blog/is-cost-segregation-worth-it-for-rental-property-under-500k/",
+    "file": "blog/is-cost-segregation-worth-it-for-rental-property-under-500k/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/short-term-rental-tax-strategy/",
+    "file": "short-term-rental-tax-strategy/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/blog/str-property-manager-co-host-material-participation/",
+    "file": "blog/str-property-manager-co-host-material-participation/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/form-3115-cost-segregation/",
+    "file": "form-3115-cost-segregation/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/bonus-depreciation-rental-property/",
+    "file": "bonus-depreciation-rental-property/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/cost-segregation-before-selling-property/",
+    "file": "cost-segregation-before-selling-property/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/cost-segregation-documents-checklist/",
+    "file": "cost-segregation-documents-checklist/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/blog/cost-segregation-report-cpa-handoff/",
+    "file": "blog/cost-segregation-report-cpa-handoff/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/blog/cost-segregation-land-allocation-evidence/",
+    "file": "blog/cost-segregation-land-allocation-evidence/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/blog/cost-segregation-condos-townhomes/",
+    "file": "blog/cost-segregation-condos-townhomes/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/blog/cost-segregation-value-add-multifamily-renovation/",
+    "file": "blog/cost-segregation-value-add-multifamily-renovation/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/blog/cost-segregation-quote-checklist/",
+    "file": "blog/cost-segregation-quote-checklist/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/blog/cost-segregation-portfolio-prioritization/",
+    "file": "blog/cost-segregation-portfolio-prioritization/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/blog/cost-segregation-state-tax-model/",
+    "file": "blog/cost-segregation-state-tax-model/index.html",
+    "action": "new guide"
+  },
+  {
+    "path": "/cost-segregation-study-timeline-process/",
+    "file": "cost-segregation-study-timeline-process/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/compare/",
+    "file": "compare/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/cost-segregation-resources/",
+    "file": "cost-segregation-resources/index.html",
+    "action": "enrich existing"
+  },
+  {
+    "path": "/blog/",
+    "file": "blog/index.html",
+    "action": "enrich existing"
+  }
+]
