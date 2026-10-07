@@ -1,0 +1,17 @@
+(function(){'use strict';
+ var search=document.getElementById('wb-search');
+ if(search){var links=Array.from(document.querySelectorAll('[data-workbook-link]')),notice=document.getElementById('wb-search-status');search.addEventListener('input',function(){var terms=search.value.toLowerCase().trim().split(/\s+/).filter(Boolean),count=0;links.forEach(function(item){var text=item.textContent.toLowerCase(),match=terms.every(function(term){return text.includes(term);});item.hidden=!match;if(match)count++;});notice.textContent=terms.length?count+' matching workbooks. Clear search to show all.':'';});}
+ var workbook=document.querySelector('[data-workbook]');if(!workbook)return;
+ var rows=workbook.querySelector('[data-rows]'),template=rows.querySelector('.wb-row').cloneNode(true),status=workbook.querySelector('[data-status]');
+ function renumber(){var all=Array.from(rows.querySelectorAll('.wb-row'));all.forEach(function(row,i){row.querySelector('legend').textContent='Record '+(i+1);row.querySelector('[data-remove]').hidden=all.length===1;});}
+ function updateChecks(){var checks=Array.from(workbook.querySelectorAll('[data-check]'));workbook.querySelector('[data-progress]').textContent=checks.filter(function(x){return x.checked;}).length+' of '+checks.length+' information checks marked.';}
+ workbook.addEventListener('change',updateChecks);
+ function cell(value){var text=String(value);if(/^[\s]*[=+\-@]/.test(text))text="'"+text;return '"'+text.replace(/"/g,'""')+'"';}
+ workbook.addEventListener('click',function(event){var button=event.target.closest('button');if(!button||!workbook.contains(button))return;
+ if(button.hasAttribute('data-add')){if(rows.children.length>=30){status.textContent='This workbook supports 30 records per export. Export this set before starting another.';return;}var row=template.cloneNode(true);row.querySelectorAll('textarea').forEach(function(input){input.value='';});rows.appendChild(row);renumber();row.querySelector('textarea').focus();status.textContent='Added record '+rows.children.length+'.';}
+ if(button.hasAttribute('data-remove')){button.closest('.wb-row').remove();renumber();status.textContent='Record removed from this working sheet.';}
+ if(button.hasAttribute('data-reset')){rows.replaceChildren(template.cloneNode(true));workbook.querySelectorAll('[data-check]').forEach(function(x){x.checked=false;});renumber();updateChecks();status.textContent='Entered notes and information checks cleared.';}
+ if(button.hasAttribute('data-print'))window.print();
+ if(button.hasAttribute('data-export')){var headers=Array.from(template.querySelectorAll('.wb-field')).map(function(label){return label.firstChild.textContent.trim();});var data=[headers].concat(Array.from(rows.querySelectorAll('.wb-row')).map(function(row){return Array.from(row.querySelectorAll('textarea')).map(function(input){return input.value;});}));var csv='\uFEFF'+data.map(function(record){return record.map(cell).join(',');}).join('\r\n')+'\r\n';var file=new Blob([csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(file),anchor=document.createElement('a');anchor.href=url;anchor.download=workbook.getAttribute('data-workbook')+'-working-records.csv';document.body.appendChild(anchor);anchor.click();anchor.remove();setTimeout(function(){URL.revokeObjectURL(url);},1000);status.textContent='Exported '+(data.length-1)+' record(s). Store the download in your own records system.';}
+ });
+})();
