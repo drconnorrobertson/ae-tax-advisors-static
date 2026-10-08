@@ -34,7 +34,7 @@ COLUMNS = [
         ("/case-studies/", "Case Studies"),
         ("/pricing/", "Pricing"),
         ("/contact/", "Contact Us"),
-        ("https://tax-mt.securefilepro.com/portal/#/login", "Client Portal"),
+        ("https://aetaxadvisors.taxdome.com/", "Client Portal"),
     ]),
     ("Services", [
         ("/business-owner-small-business-tax/", "Business Owner Tax"),

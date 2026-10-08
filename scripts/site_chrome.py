@@ -86,7 +86,7 @@ FOOTER = """    </main>
             </div>
             <div class="footer-col">
                 <h4>Quick Links</h4>
-                <a href="https://tax-mt.securefilepro.com/portal/#/login">Client Portal</a>
+                <a href="https://aetaxadvisors.taxdome.com/">Client Portal</a>
                 <a href="/discovery/">Request a Consultation</a>
                 <a href="/about/">About Us</a>
                 <a href="/bios/">Our Team</a>
