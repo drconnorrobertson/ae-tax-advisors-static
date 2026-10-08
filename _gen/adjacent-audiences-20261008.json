@@ -1,0 +1,29 @@
+{
+  "new_paths": [
+    "/compare/white-coat-investor-tax-advisor-alternatives/",
+    "/compare/physician-on-fire-tax-planning-options/",
+    "/compare/student-loan-planner-vs-ae-tax/",
+    "/compare/white-coat-planning-vs-ae-tax/"
+  ],
+  "updated_hubs": [
+    "/compare/",
+    "/physician-tax-planning/",
+    "/compare/best-tax-advisors-physicians-rental-property/"
+  ],
+  "sources": {
+    "white-coat-investor-tax-advisor-alternatives": [
+      "https://www.whitecoatinvestor.com/",
+      "https://www.whitecoatinvestor.com/tax-strategists/",
+      "https://www.whitecoatinvestor.com/financial-advisors/"
+    ],
+    "physician-on-fire-tax-planning-options": [
+      "https://www.physicianonfire.com/"
+    ],
+    "student-loan-planner-vs-ae-tax": [
+      "https://www.studentloanplanner.com/"
+    ],
+    "white-coat-planning-vs-ae-tax": [
+      "https://www.whitecoatplanning.com/"
+    ]
+  }
+}
