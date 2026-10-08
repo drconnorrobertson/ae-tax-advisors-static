@@ -3092,6 +3092,37 @@ footer a {
 main:focus { outline: none; }
 [hidden] { display: none !important; }
 
+/* Shared research cards: separate providers and keep actions inside their card. */
+.cs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 28px;
+}
+.cs-grid > .cs-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  padding: 30px;
+  border: 1px solid #ddd6c8;
+  border-radius: 8px;
+  background: #fff;
+  overflow-wrap: anywhere;
+}
+.cs-grid > .cs-card h3 { margin: 0 0 16px; line-height: 1.35; }
+.cs-grid > .cs-card p { margin: 0 0 20px; line-height: 1.75; }
+.cs-grid > .cs-card > .btn-secondary {
+  margin-top: auto;
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cs-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .cs-grid > .cs-card { padding: 24px; }
+}
+
 /* Comparison reading layout and semantic tables, October 6, 2026. */
 .ae-table-scroll > table { display: table; overflow: visible; max-width: none; }
 .ae-table-scroll > table caption { line-height: 1.5; }
