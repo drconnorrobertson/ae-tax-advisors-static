@@ -1,9 +1,0 @@
-.blog-table { width: 100%; border-collapse: collapse; text-align: left; }
-.blog-table th, .blog-table td { padding: 12px; border-bottom: 1px solid #cbd5e1; vertical-align: top; }
-.blog-table thead { background: #142d42; color: white; }
-.blog-table caption { text-align: left; font-weight: 600; padding: 12px 0; }
-#holding-period-form { margin: 24px 0; }
-#holding-period-form > label { display: block; font-weight: 600; margin-top: 18px; }
-#holding-period-form textarea { min-height: 140px; border: 1px solid #7b8794; border-radius: 6px; }
-#holding-period-result { margin: 24px 0; padding: 20px; background: #edf4f7; color: #142d42; }
-#holding-period-form :focus-visible { outline: 3px solid #176084; outline-offset: 3px; }
