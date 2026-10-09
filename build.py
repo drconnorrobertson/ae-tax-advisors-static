@@ -105,3 +105,6 @@ for i in range(0,len(urls),500):
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="'+ns+'">'+''.join(f'<sitemap><loc>{BASE}/{f}</loc></sitemap>' for f in parts)+'</sitemapindex>')
 (ROOT/'build-report.json').write_text(json.dumps({'firm_count':len(firms),'guide_count':len(guides),'html_pages':len(list(OUT.rglob('*.html'))),'indexable_urls':len(urls),'website_confirmed':sum(bool(f.get('website')) for f in firms),'tax_advisory_evidence':sum(bool(f.get('tax_strategy_verified')) for f in firms)},indent=2))
 print((ROOT/'build-report.json').read_text())
+
+# Publish the IndexNow ownership key with every build.
+(OUT/'cee32ca47c0b0102caa0c1085c8d4db6.txt').write_text('cee32ca47c0b0102caa0c1085c8d4db6')
