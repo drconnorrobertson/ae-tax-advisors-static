@@ -10,6 +10,7 @@ Disallow: /*?v=
 # Search visibility is governed by canonical URLs and page-level robots tags.
 # Ranking and link-analysis crawlers follow the same public rules above.
 Sitemap: https://www.aetaxadvisors.com/sitemap.xml
+Sitemap: https://www.aetaxadvisors.com/sitemap-index.xml
 
 # Optional human-readable service and content index:
 # https://www.aetaxadvisors.com/llms.txt
