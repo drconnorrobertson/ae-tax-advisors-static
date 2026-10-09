@@ -273,6 +273,9 @@ def main():
     for post in reversed(posts):
       if T.SITE+post['path'] in old:continue
       item=ET.Element('item');ET.SubElement(item,'title').text=post['title'];ET.SubElement(item,'link').text=T.SITE+post['path'];ET.SubElement(item,'description').text=post['desc'];ET.SubElement(item,'pubDate').text='Tue, 06 Oct 2026 00:00:00 +0000';ET.SubElement(item,'guid',{'isPermaLink':'true'}).text=T.SITE+post['path'];channel.insert(4,item)
+    # Keep the public feed bounded to the 50 newest entries, matching discovery rebuilds.
+    for item in channel.findall('item')[50:]:
+      channel.remove(item)
     feed.write(ROOT/'feed.xml',encoding='utf-8',xml_declaration=True)
     (ROOT/'scripts/owner-learning-manifest.json').write_text(json.dumps(posts,indent=2))
     print('Created 100 FAQ articles, 100 illustrated lessons and a series hub. Blog cards:',total)
