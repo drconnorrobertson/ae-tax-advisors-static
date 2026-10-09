@@ -382,13 +382,13 @@ ARTICLES = [
 
 {
 "slug": "safe-harbor-rule-for-estimated-tax-payments",
-"title": "The Safe Harbor Rule for Estimated Taxes: How to Never Owe a Penalty",
-"meta_title": "Safe Harbor Rule for Estimated Tax Payments (2026) | AE Tax Advisors",
-"meta_desc": "Pay 100 or 110 percent of last year's tax and the underpayment penalty cannot apply, no matter how much you earn. Withholding timing and annualization rules.",
+"title": "Estimated Tax Safe Harbor: Thresholds and Payment Timing",
+"meta_title": "Estimated Tax Safe Harbor: 90%, 100% & 110% | AE Tax",
+"meta_desc": "Compare the 90%, 100% and 110% federal estimated tax safe harbors. Learn why installment timing matters, how withholding works, and when a balance remains due.",
 "category": BO, "date": D,
 "intro": [
 "The estimated tax underpayment penalty is one of the easiest taxes to avoid entirely, and business owners pay it constantly because they are trying to estimate the wrong number.",
-"You do not have to accurately predict this year's tax. Under IRC Sec. 6654, paying a specified percentage of last year's tax eliminates the penalty regardless of what this year turns out to be.",
+"For many individuals, the prior-year safe harbor provides a known payment target. It generally protects against the federal estimated-tax underpayment penalty only when the required installments are covered on time and the prior-year return covers a full 12 months. It does not eliminate the remaining tax due at filing.",
 ],
 "sections": [
 ("The Two Safe Harbors", [
@@ -417,7 +417,7 @@ ARTICLES = [
 "The tradeoff is complexity and documentation. It requires computing taxable income at four points during the year, with deductions allocated appropriately. For most taxpayers the prior year safe harbor is simpler and equally effective.",
 ]),
 ("When the Prior Year Safe Harbor Is a Bad Choice", [
-"The safe harbor guarantees no penalty. It does not guarantee no balance due.",
+"Meeting the applicable safe harbor through timely payments generally avoids the federal estimated-tax underpayment penalty. It does not eliminate a balance due, late-payment penalties on that balance, or separate state requirements.",
 "An owner whose prior year tax was $180,000 and whose current year tax is $520,000 pays $198,000 in estimates under the safe harbor and owes $322,000 in April. That is not a penalty, but it is a cash flow event that has to be planned for.",
 "Owners in a rapidly growing business should generally pay more than the safe harbor requires, not to avoid penalty but to avoid a large April obligation.",
 "Conversely, an owner whose income is declining sharply should consider the 90% of current year method, since paying 110% of a much larger prior year unnecessarily ties up cash.",
@@ -437,7 +437,7 @@ ARTICLES = [
 ],
 "faqs": [
 ("What is the estimated tax safe harbor?",
- "Under IRC Sec. 6654, no underpayment penalty applies if timely payments equal at least 90% of current year tax or 100% of prior year tax. That prior year threshold rises to 110% if prior year adjusted gross income exceeded $150,000."),
+ "Under IRC Sec. 6654, no underpayment penalty applies if timely payments equal at least 90% of current year tax or 100% of prior year tax. That prior year threshold rises to 110% if prior year adjusted gross income exceeded $150,000 ($75,000 if married filing separately). The prior-year return must cover 12 months."),
 ("Can I just pay everything in the fourth quarter?",
  "Not with estimated payments. The penalty is computed per period, so a December estimated payment does not cure earlier underpayments. Withholding is different: under IRC Sec. 6654(g) it is treated as paid ratably across the year regardless of when withheld."),
 ("How does the December withholding trick work?",
