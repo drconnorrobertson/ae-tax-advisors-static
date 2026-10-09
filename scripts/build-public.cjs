@@ -77,3 +77,5 @@ function build() {
 }
 if (require.main === module) build();
 module.exports = {allowed, build, root, out};
+
+require('../cost-seg-routing.cjs')(out, false);
