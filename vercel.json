@@ -3,13 +3,23 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/connor-zoom",
+      "destination": "https://us02web.zoom.us/j/7175755575",
+      "permanent": true
+    },
+    {
+      "source": "/connor-zoom/",
+      "destination": "https://us02web.zoom.us/j/7175755575",
+      "permanent": true
+    },
+    {
       "source": "/book-connor/:path*",
       "destination": "/book-connor-davis/",
       "permanent": true
     },
     {
       "source": "/connor-zoom/:path*",
-      "destination": "/discovery/",
+      "destination": "https://us02web.zoom.us/j/7175755575",
       "permanent": true
     },
     {
