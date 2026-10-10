@@ -956,6 +956,41 @@
       "source": "/when-to-switch-from-llc-to-s-corp/",
       "destination": "/blog/when-should-i-switch-from-llc-to-s-corp/",
       "statusCode": 301
+    },
+    {
+      "source": "/advanced-tax-planning-services/",
+      "destination": "/services/tax-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/business-owner-tax-planning/",
+      "destination": "/business-owner-small-business-tax/",
+      "permanent": true
+    },
+    {
+      "source": "/long-term-rental-tax-planning-and-preparation/",
+      "destination": "/rental-property-tax-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/long-term-rental-tax-planning-and-preparation-2/",
+      "destination": "/rental-property-tax-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/long-term-rental-tax-planning-and-preparation-3/",
+      "destination": "/rental-property-tax-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/short-term-rental-tax-planning-and-preparation-2/",
+      "destination": "/short-term-rental-tax-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/high-net-worth-tax-planning-services-in-your-city/",
+      "destination": "/individual-tax-planning-high-earners/",
+      "permanent": true
     }
   ],
   "headers": [
@@ -1143,6 +1178,6 @@
       ]
     }
   ],
-  "buildCommand": "node scripts/build-public.cjs",
+  "buildCommand": "node scripts/build-public.cjs && node scripts/consolidate-content.cjs",
   "outputDirectory": "public"
 }

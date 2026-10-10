@@ -1,0 +1,14 @@
+{
+  "repo": "ae-main",
+  "host": "www.aetaxadvisors.com",
+  "redirects": {
+    "/advanced-tax-planning-services/": "/services/tax-planning/",
+    "/business-owner-tax-planning/": "/business-owner-small-business-tax/",
+    "/long-term-rental-tax-planning-and-preparation/": "/rental-property-tax-planning/",
+    "/long-term-rental-tax-planning-and-preparation-2/": "/rental-property-tax-planning/",
+    "/long-term-rental-tax-planning-and-preparation-3/": "/rental-property-tax-planning/",
+    "/short-term-rental-tax-planning-and-preparation-2/": "/short-term-rental-tax-strategy/",
+    "/high-net-worth-tax-planning-services-in-your-city/": "/individual-tax-planning-high-earners/"
+  },
+  "reason": "Overlapping service-intent pages and generic numbered rental variants; retain substantive distinct guides."
+}
