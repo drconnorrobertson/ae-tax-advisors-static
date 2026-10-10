@@ -2,7 +2,7 @@
   'use strict';
   const form = document.getElementById('route-form');
   if (!form) return;
-  const current = location.pathname.includes('/book-connor') ? 'connor' : 'jacques';
+  const current = location.pathname.includes('/book-connor-davis') ? 'connorDavis' : 'jacques';
   const error = document.getElementById('error');
   const params = new URLSearchParams(location.search);
   const allowed = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid','msclkid'];
@@ -39,7 +39,7 @@
       if (route.answerQueryKey) url.searchParams.set(route.answerQueryKey,answer === 'yes' ? 'Yes' : 'No');
       const iframe = document.createElement('iframe');
       iframe.src = url.href;
-      iframe.title = 'Book with ' + (current === 'connor' ? 'Connor Davis' : 'Jacques Snyman');
+      iframe.title = 'Book with ' + (current === 'connorDavis' ? 'Connor Davis' : 'Jacques Snyman');
       iframe.id = 'ad-booking-calendar';
       iframe.allow = 'payment';
       iframe.setAttribute('scrolling', 'no');
@@ -59,11 +59,12 @@
     error.textContent = '';
     const answer = new FormData(form).get('business_owner');
     if (!['yes','no'].includes(answer)) { error.textContent = 'Please select Yes or No.'; return; }
-    const destination = answer === 'yes' ? 'connor' : 'jacques';
+    const destination = answer === 'yes' ? 'connorDavis' : 'jacques';
     if (destination !== current) {
       const query = new URLSearchParams(attribution);
       query.set('business_owner', answer);
-      location.assign('/book-' + destination + '/?' + query.toString());
+      const destinationPath = destination === 'connorDavis' ? '/book-connor-davis/' : '/book-jacques/';
+      location.assign(destinationPath + '?' + query.toString());
     } else showBooking(answer);
   });
   document.getElementById('change').addEventListener('click', () => {

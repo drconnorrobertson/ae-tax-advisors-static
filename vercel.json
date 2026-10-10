@@ -3,6 +3,21 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/book-connor/:path*",
+      "destination": "/book-connor-davis/",
+      "permanent": true
+    },
+    {
+      "source": "/connor-zoom/:path*",
+      "destination": "/discovery/",
+      "permanent": true
+    },
+    {
+      "source": "/connor-1-1/:path*",
+      "destination": "/discovery/",
+      "permanent": true
+    },
+    {
       "source": "/tax-advisor-florida/",
       "destination": "/florida/",
       "statusCode": 301
@@ -1143,6 +1158,6 @@
       ]
     }
   ],
-  "buildCommand": "node scripts/build-public.cjs",
+  "buildCommand": "node scripts/build-public.cjs && node scripts/brand-check.mjs public",
   "outputDirectory": "public"
 }
