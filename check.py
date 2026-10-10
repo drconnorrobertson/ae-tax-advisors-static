@@ -22,6 +22,7 @@ class Parser(HTMLParser):
   if self.schema:self.schematext+=data
 for p in pages:
  txt=p.read_text();a=Parser();a.feed(txt);titles[a.titletext]+=1
+ if 'href="scope-worksheet.csv"' in txt and not p.with_name('scope-worksheet.csv').is_file():fail.append(f'{p}: missing worksheet download')
  if a.h1!=1:fail.append(f'{p.relative_to(OUT)}: H1 count {a.h1}')
  if len(a.canon)!=1:fail.append(f'{p}: canonical count {len(a.canon)}')
  if not a.noindex and a.canon:indexable.add(a.canon[0])
@@ -42,6 +43,7 @@ if set(sitemap)!=indexable:fail.append(f'Sitemap mismatch: {len(set(sitemap)^ind
 firms=json.loads((OUT/'firms.json').read_text());ae=firms[0]
 if ae['slug']!='ae-tax-advisors':fail.append('AE is not first')
 if len(set(f['slug'] for f in firms))!=len(firms):fail.append('Duplicate firm slug')
+if len(indexable)<5000:fail.append('Fewer than 5000 indexable URLs')
 if len(firms)<1001:fail.append('Fewer than 1000 external firms')
 def load_data(name):
  p=ROOT/'data'/name
