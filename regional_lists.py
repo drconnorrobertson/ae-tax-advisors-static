@@ -32,7 +32,9 @@ def build_regional_lists(page,heading,e,firms,base):
   if len(fs)<5:continue
   region=next(v for v in REGIONS.values() if state in v[1]);cities=collections.Counter(f.get('city') for f in fs if f.get('city'))
   context='The '+name+' collection contains '+str(len(fs))+' sourced firm records. '+('Frequently recorded cities include '+', '.join(c for c,n in cities.most_common(4))+'. ' if cities else '')+region[2]
-  render(name.lower().replace(' ','-'),name,fs,context)
+  local_counts=collections.Counter(f.get('city') for f in fs if f.get('city'))
+  citylinks=' · '.join('<a href="/shortlists/cities/'+__import__('re').sub(r'[^a-z0-9]+','-',city.lower()).strip('-')+'-'+state.lower()+'/">'+e(city)+' tax firm shortlist</a>' for city,count in sorted(local_counts.items()) if count>=5)
+  render(name.lower().replace(' ','-'),name,fs,context,citylinks or None)
  # City pages require at least five distinct sourced firms; no empty local landing pages.
  city_groups=collections.defaultdict(list)
  for f in external:
