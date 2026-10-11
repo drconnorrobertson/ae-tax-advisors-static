@@ -1,0 +1,4611 @@
+{
+  "date": "2026-10-11",
+  "provider_count": 131,
+  "comparison_count": 496,
+  "page_count": 500,
+  "paths": [
+    "/compare/prime-path-advisory-vs-tax-hive/",
+    "/compare/tax-alchemy-vs-tax-hive/",
+    "/compare/prime-path-advisory-vs-tax-alchemy/",
+    "/compare/1800-accountant-vs-prime-path-advisory/",
+    "/compare/collective-vs-prime-path-advisory/",
+    "/compare/creative-planning-vs-main-street-tax-advisor-network/",
+    "/compare/capstan-tax-strategies-vs-cost-segregation-authority/",
+    "/compare/basis-cost-segregation-vs-cost-segregation-authority/",
+    "/compare/neil-jesani-advisors-vs-prime-path-advisory/",
+    "/compare/anderson-advisors-vs-jasmine-dilucci/",
+    "/compare/advise-re-vs-hall-cpa/",
+    "/compare/1099-tax-doctor-vs-prime-path-advisory/",
+    "/compare/accountfully-vs-prime-path-advisory/",
+    "/compare/acuity-vs-prime-path-advisory/",
+    "/compare/advise-re-vs-bright-hill-advisors/",
+    "/compare/aligned-cpa-vs-prime-path-advisory/",
+    "/compare/anderson-advisors-vs-aprio/",
+    "/compare/anomaly-cpa-vs-prime-path-advisory/",
+    "/compare/apex-cpas-consultants-vs-prime-path-advisory/",
+    "/compare/aprio-vs-jasmine-dilucci/",
+    "/compare/baker-tilly-vs-jasmine-dilucci/",
+    "/compare/basis-cost-segregation-vs-capstan-tax-strategies/",
+    "/compare/bdo-vs-jasmine-dilucci/",
+    "/compare/beach-life-cpa-vs-prime-path-advisory/",
+    "/compare/benficial-cpa-vs-prime-path-advisory/",
+    "/compare/blumer-cpas-vs-prime-path-advisory/",
+    "/compare/bottom-line-cpa-vs-prime-path-advisory/",
+    "/compare/bracket-partners-vs-prime-path-advisory/",
+    "/compare/bracket-tax-co-vs-prime-path-advisory/",
+    "/compare/bright-hill-advisors-vs-hall-cpa/",
+    "/compare/brook-bay-consulting-vs-prime-path-advisory/",
+    "/compare/bryan-sweeney-cpa-vs-prime-path-advisory/",
+    "/compare/carpenter-evert-associates-vs-prime-path-advisory/",
+    "/compare/cbiz-vs-jasmine-dilucci/",
+    "/compare/cerebral-tax-advisors-vs-prime-path-advisory/",
+    "/compare/cherry-bekaert-vs-jasmine-dilucci/",
+    "/compare/compass-cpa-vs-hall-cpa/",
+    "/compare/compound-wealth-tax-vs-prime-path-advisory/",
+    "/compare/capstan-tax-strategies-vs-cost-seg-atlas/",
+    "/compare/capstan-tax-strategies-vs-cost-seg-smart/",
+    "/compare/capstan-tax-strategies-vs-cost-segregation-guys/",
+    "/compare/capstan-tax-strategies-vs-costseg-express/",
+    "/compare/capstan-tax-strategies-vs-costsegez/",
+    "/compare/capstan-tax-strategies-vs-costsegregation-com/",
+    "/compare/capstan-tax-strategies-vs-costsegrx/",
+    "/compare/cpa-rod-vs-hall-cpa/",
+    "/compare/creative-planning-vs-range/",
+    "/compare/crescent-cpa-advisors-vs-prime-path-advisory/",
+    "/compare/capstan-tax-strategies-vs-cssi/",
+    "/compare/dark-horse-cpas-vs-prime-path-advisory/",
+    "/compare/david-m-florijan-cpa-vs-prime-path-advisory/",
+    "/compare/davis-davis-associates-vs-prime-path-advisory/",
+    "/compare/decimal-vs-prime-path-advisory/",
+    "/compare/delerme-cpa-vs-prime-path-advisory/",
+    "/compare/deloitte-tax-vs-jasmine-dilucci/",
+    "/compare/dkk-accounting-vs-prime-path-advisory/",
+    "/compare/duane-morris-tax-accounting-group-vs-prime-path-advisory/",
+    "/compare/capstan-tax-strategies-vs-duffy-duffy-cost-segregation/",
+    "/compare/duncan-carter-tax-advisory-vs-prime-path-advisory/",
+    "/compare/elite-consulting-pc-vs-hall-cpa/",
+    "/compare/capstan-tax-strategies-vs-engineered-tax-services/",
+    "/compare/ey-vs-jasmine-dilucci/",
+    "/compare/firm1040-vs-jasmine-dilucci/",
+    "/compare/fitness-cpa-vs-prime-path-advisory/",
+    "/compare/fluency-tax-vs-prime-path-advisory/",
+    "/compare/fondo-vs-prime-path-advisory/",
+    "/compare/forvis-mazars-vs-jasmine-dilucci/",
+    "/compare/fox-and-company-cpas-vs-prime-path-advisory/",
+    "/compare/fraim-cawley-vs-prime-path-advisory/",
+    "/compare/fusion-cpa-vs-prime-path-advisory/",
+    "/compare/gamburg-cpa-vs-prime-path-advisory/",
+    "/compare/gavtax-advisory-services-vs-hall-cpa/",
+    "/compare/gelt-vs-prime-path-advisory/",
+    "/compare/grant-thornton-vs-jasmine-dilucci/",
+    "/compare/graphite-financial-vs-prime-path-advisory/",
+    "/compare/greengrowth-cpas-vs-prime-path-advisory/",
+    "/compare/hacker-johnson-smith-vs-prime-path-advisory/",
+    "/compare/heard-vs-prime-path-advisory/",
+    "/compare/capstan-tax-strategies-vs-ics-tax/",
+    "/compare/incite-tax-vs-prime-path-advisory/",
+    "/compare/hall-cpa-vs-investor-friendly-cpa/",
+    "/compare/jetro-associates-vs-prime-path-advisory/",
+    "/compare/kathy-l-hess-associates-vs-prime-path-advisory/",
+    "/compare/capstan-tax-strategies-vs-kbkg/",
+    "/compare/hall-cpa-vs-keystone-cpa/",
+    "/compare/jasmine-dilucci-vs-kpmg/",
+    "/compare/kruze-consulting-vs-prime-path-advisory/",
+    "/compare/little-fish-accounting-vs-prime-path-advisory/",
+    "/compare/ltax-consulting-vs-prime-path-advisory/",
+    "/compare/capstan-tax-strategies-vs-madison-specs/",
+    "/compare/capstan-tax-strategies-vs-maven-cost-segregation/",
+    "/compare/capstan-tax-strategies-vs-mcguire-sponsel/",
+    "/compare/capstan-tax-strategies-vs-msc-tax/",
+    "/compare/capstan-tax-strategies-vs-my-cost-segregation/",
+    "/compare/nelson-cpa-vs-prime-path-advisory/",
+    "/compare/nth-degree-cpas-vs-prime-path-advisory/",
+    "/compare/oak-city-accounting-vs-prime-path-advisory/",
+    "/compare/p4-tax-vs-prime-path-advisory/",
+    "/compare/pasquesi-partners-vs-prime-path-advisory/",
+    "/compare/peter-holtz-cpa-vs-prime-path-advisory/",
+    "/compare/phillips-business-group-vs-prime-path-advisory/",
+    "/compare/pillar-advisors-vs-prime-path-advisory/",
+    "/compare/pilot-vs-prime-path-advisory/",
+    "/compare/pnc-cpa-advisors-vs-prime-path-advisory/",
+    "/compare/prime-path-advisory-vs-proactive-tax-advisors/",
+    "/compare/hall-cpa-vs-pronto-advisors/",
+    "/compare/jasmine-dilucci-vs-pwc/",
+    "/compare/prime-path-advisory-vs-rainwater-cpa/",
+    "/compare/main-street-tax-advisor-network-vs-range/",
+    "/compare/capstan-tax-strategies-vs-re-cost-seg/",
+    "/compare/prime-path-advisory-vs-revonary/",
+    "/compare/jasmine-dilucci-vs-rsm/",
+    "/compare/prime-path-advisory-vs-sdo-cpa/",
+    "/compare/prime-path-advisory-vs-sweeney-conrad/",
+    "/compare/prime-path-advisory-vs-tara-cpa-firm/",
+    "/compare/prime-path-advisory-vs-tax-goddess/",
+    "/compare/prime-path-advisory-vs-tax-hack-accounting/",
+    "/compare/prime-path-advisory-vs-tax-saving-experts/",
+    "/compare/prime-path-advisory-vs-tax-strategists-of-america/",
+    "/compare/prime-path-advisory-vs-taxhub/",
+    "/compare/hall-cpa-vs-taxstra/",
+    "/compare/prime-path-advisory-vs-tldr-accounting/",
+    "/compare/prime-path-advisory-vs-tys-advisors/",
+    "/compare/prime-path-advisory-vs-vincere-tax/",
+    "/compare/prime-path-advisory-vs-vital-wealth/",
+    "/compare/prime-path-advisory-vs-warner-tax-group/",
+    "/compare/prime-path-advisory-vs-warren-averett/",
+    "/compare/prime-path-advisory-vs-wcg-cpas/",
+    "/compare/prime-path-advisory-vs-wellness-fi/",
+    "/compare/prime-path-advisory-vs-xendoo/",
+    "/compare/prime-path-advisory-vs-zcw-cpas/",
+    "/compare/1800-accountant-vs-tax-hive/",
+    "/compare/1800-accountant-vs-tax-alchemy/",
+    "/compare/1800-accountant-vs-collective/",
+    "/compare/collective-vs-tax-hive/",
+    "/compare/cost-seg-atlas-vs-cost-segregation-authority/",
+    "/compare/neil-jesani-advisors-vs-tax-hive/",
+    "/compare/1099-tax-doctor-vs-tax-hive/",
+    "/compare/accountfully-vs-tax-hive/",
+    "/compare/acuity-vs-tax-hive/",
+    "/compare/advise-re-vs-compass-cpa/",
+    "/compare/aligned-cpa-vs-tax-hive/",
+    "/compare/anderson-advisors-vs-baker-tilly/",
+    "/compare/anomaly-cpa-vs-tax-hive/",
+    "/compare/apex-cpas-consultants-vs-tax-hive/",
+    "/compare/aprio-vs-baker-tilly/",
+    "/compare/baker-tilly-vs-bdo/",
+    "/compare/basis-cost-segregation-vs-cost-seg-atlas/",
+    "/compare/anderson-advisors-vs-bdo/",
+    "/compare/beach-life-cpa-vs-tax-hive/",
+    "/compare/benficial-cpa-vs-tax-hive/",
+    "/compare/blumer-cpas-vs-tax-hive/",
+    "/compare/bottom-line-cpa-vs-tax-hive/",
+    "/compare/bracket-partners-vs-tax-hive/",
+    "/compare/bracket-tax-co-vs-tax-hive/",
+    "/compare/bright-hill-advisors-vs-compass-cpa/",
+    "/compare/brook-bay-consulting-vs-tax-hive/",
+    "/compare/bryan-sweeney-cpa-vs-tax-hive/",
+    "/compare/carpenter-evert-associates-vs-tax-hive/",
+    "/compare/anderson-advisors-vs-cbiz/",
+    "/compare/cerebral-tax-advisors-vs-tax-hive/",
+    "/compare/anderson-advisors-vs-cherry-bekaert/",
+    "/compare/compass-cpa-vs-cpa-rod/",
+    "/compare/compound-wealth-tax-vs-tax-hive/",
+    "/compare/cost-seg-atlas-vs-cost-seg-smart/",
+    "/compare/cost-seg-smart-vs-cost-segregation-authority/",
+    "/compare/cost-segregation-authority-vs-cost-segregation-guys/",
+    "/compare/cost-segregation-authority-vs-costseg-express/",
+    "/compare/cost-segregation-authority-vs-costsegez/",
+    "/compare/cost-segregation-authority-vs-costsegregation-com/",
+    "/compare/cost-segregation-authority-vs-costsegrx/",
+    "/compare/advise-re-vs-cpa-rod/",
+    "/compare/crescent-cpa-advisors-vs-tax-hive/",
+    "/compare/cost-segregation-authority-vs-cssi/",
+    "/compare/dark-horse-cpas-vs-tax-hive/",
+    "/compare/david-m-florijan-cpa-vs-tax-hive/",
+    "/compare/davis-davis-associates-vs-tax-hive/",
+    "/compare/decimal-vs-tax-hive/",
+    "/compare/delerme-cpa-vs-tax-hive/",
+    "/compare/anderson-advisors-vs-deloitte-tax/",
+    "/compare/dkk-accounting-vs-tax-hive/",
+    "/compare/duane-morris-tax-accounting-group-vs-tax-hive/",
+    "/compare/cost-segregation-authority-vs-duffy-duffy-cost-segregation/",
+    "/compare/duncan-carter-tax-advisory-vs-tax-hive/",
+    "/compare/advise-re-vs-elite-consulting-pc/",
+    "/compare/cost-segregation-authority-vs-engineered-tax-services/",
+    "/compare/anderson-advisors-vs-ey/",
+    "/compare/anderson-advisors-vs-firm1040/",
+    "/compare/fitness-cpa-vs-tax-hive/",
+    "/compare/fluency-tax-vs-tax-hive/",
+    "/compare/fondo-vs-tax-hive/",
+    "/compare/anderson-advisors-vs-forvis-mazars/",
+    "/compare/fox-and-company-cpas-vs-tax-hive/",
+    "/compare/fraim-cawley-vs-tax-hive/",
+    "/compare/fusion-cpa-vs-tax-hive/",
+    "/compare/gamburg-cpa-vs-tax-hive/",
+    "/compare/advise-re-vs-gavtax-advisory-services/",
+    "/compare/gelt-vs-tax-hive/",
+    "/compare/anderson-advisors-vs-grant-thornton/",
+    "/compare/graphite-financial-vs-tax-hive/",
+    "/compare/greengrowth-cpas-vs-tax-hive/",
+    "/compare/hacker-johnson-smith-vs-tax-hive/",
+    "/compare/heard-vs-tax-hive/",
+    "/compare/cost-segregation-authority-vs-ics-tax/",
+    "/compare/incite-tax-vs-tax-hive/",
+    "/compare/advise-re-vs-investor-friendly-cpa/",
+    "/compare/jetro-associates-vs-tax-hive/",
+    "/compare/kathy-l-hess-associates-vs-tax-hive/",
+    "/compare/cost-segregation-authority-vs-kbkg/",
+    "/compare/advise-re-vs-keystone-cpa/",
+    "/compare/anderson-advisors-vs-kpmg/",
+    "/compare/kruze-consulting-vs-tax-hive/",
+    "/compare/little-fish-accounting-vs-tax-hive/",
+    "/compare/ltax-consulting-vs-tax-hive/",
+    "/compare/cost-segregation-authority-vs-madison-specs/",
+    "/compare/cost-segregation-authority-vs-maven-cost-segregation/",
+    "/compare/cost-segregation-authority-vs-mcguire-sponsel/",
+    "/compare/cost-segregation-authority-vs-msc-tax/",
+    "/compare/cost-segregation-authority-vs-my-cost-segregation/",
+    "/compare/nelson-cpa-vs-tax-hive/",
+    "/compare/nth-degree-cpas-vs-tax-hive/",
+    "/compare/oak-city-accounting-vs-tax-hive/",
+    "/compare/p4-tax-vs-tax-hive/",
+    "/compare/pasquesi-partners-vs-tax-hive/",
+    "/compare/peter-holtz-cpa-vs-tax-hive/",
+    "/compare/phillips-business-group-vs-tax-hive/",
+    "/compare/pillar-advisors-vs-tax-hive/",
+    "/compare/pilot-vs-tax-hive/",
+    "/compare/pnc-cpa-advisors-vs-tax-hive/",
+    "/compare/proactive-tax-advisors-vs-tax-hive/",
+    "/compare/advise-re-vs-pronto-advisors/",
+    "/compare/anderson-advisors-vs-pwc/",
+    "/compare/rainwater-cpa-vs-tax-hive/",
+    "/compare/cost-segregation-authority-vs-re-cost-seg/",
+    "/compare/revonary-vs-tax-hive/",
+    "/compare/anderson-advisors-vs-rsm/",
+    "/compare/sdo-cpa-vs-tax-hive/",
+    "/compare/sweeney-conrad-vs-tax-hive/",
+    "/compare/tara-cpa-firm-vs-tax-hive/",
+    "/compare/tax-goddess-vs-tax-hive/",
+    "/compare/tax-hack-accounting-vs-tax-hive/",
+    "/compare/tax-hive-vs-tax-saving-experts/",
+    "/compare/tax-hive-vs-tax-strategists-of-america/",
+    "/compare/tax-hive-vs-taxhub/",
+    "/compare/advise-re-vs-taxstra/",
+    "/compare/tax-hive-vs-tldr-accounting/",
+    "/compare/tax-hive-vs-tys-advisors/",
+    "/compare/tax-hive-vs-vincere-tax/",
+    "/compare/tax-hive-vs-vital-wealth/",
+    "/compare/tax-hive-vs-warner-tax-group/",
+    "/compare/tax-hive-vs-warren-averett/",
+    "/compare/tax-hive-vs-wcg-cpas/",
+    "/compare/tax-hive-vs-wellness-fi/",
+    "/compare/tax-hive-vs-xendoo/",
+    "/compare/tax-hive-vs-zcw-cpas/",
+    "/compare/collective-vs-tax-alchemy/",
+    "/compare/1800-accountant-vs-neil-jesani-advisors/",
+    "/compare/collective-vs-neil-jesani-advisors/",
+    "/compare/neil-jesani-advisors-vs-tax-alchemy/",
+    "/compare/1099-tax-doctor-vs-tax-alchemy/",
+    "/compare/accountfully-vs-tax-alchemy/",
+    "/compare/acuity-vs-tax-alchemy/",
+    "/compare/aligned-cpa-vs-tax-alchemy/",
+    "/compare/anomaly-cpa-vs-tax-alchemy/",
+    "/compare/apex-cpas-consultants-vs-tax-alchemy/",
+    "/compare/aprio-vs-bdo/",
+    "/compare/baker-tilly-vs-cbiz/",
+    "/compare/basis-cost-segregation-vs-cost-seg-smart/",
+    "/compare/bdo-vs-cbiz/",
+    "/compare/beach-life-cpa-vs-tax-alchemy/",
+    "/compare/benficial-cpa-vs-tax-alchemy/",
+    "/compare/blumer-cpas-vs-tax-alchemy/",
+    "/compare/bottom-line-cpa-vs-tax-alchemy/",
+    "/compare/bracket-partners-vs-tax-alchemy/",
+    "/compare/bracket-tax-co-vs-tax-alchemy/",
+    "/compare/bright-hill-advisors-vs-cpa-rod/",
+    "/compare/brook-bay-consulting-vs-tax-alchemy/",
+    "/compare/bryan-sweeney-cpa-vs-tax-alchemy/",
+    "/compare/carpenter-evert-associates-vs-tax-alchemy/",
+    "/compare/aprio-vs-cbiz/",
+    "/compare/cerebral-tax-advisors-vs-tax-alchemy/",
+    "/compare/aprio-vs-cherry-bekaert/",
+    "/compare/compass-cpa-vs-elite-consulting-pc/",
+    "/compare/compound-wealth-tax-vs-tax-alchemy/",
+    "/compare/cost-seg-atlas-vs-cost-segregation-guys/",
+    "/compare/cost-seg-smart-vs-cost-segregation-guys/",
+    "/compare/basis-cost-segregation-vs-cost-segregation-guys/",
+    "/compare/basis-cost-segregation-vs-costseg-express/",
+    "/compare/basis-cost-segregation-vs-costsegez/",
+    "/compare/basis-cost-segregation-vs-costsegregation-com/",
+    "/compare/basis-cost-segregation-vs-costsegrx/",
+    "/compare/cpa-rod-vs-elite-consulting-pc/",
+    "/compare/crescent-cpa-advisors-vs-tax-alchemy/",
+    "/compare/basis-cost-segregation-vs-cssi/",
+    "/compare/dark-horse-cpas-vs-tax-alchemy/",
+    "/compare/david-m-florijan-cpa-vs-tax-alchemy/",
+    "/compare/davis-davis-associates-vs-tax-alchemy/",
+    "/compare/decimal-vs-tax-alchemy/",
+    "/compare/delerme-cpa-vs-tax-alchemy/",
+    "/compare/aprio-vs-deloitte-tax/",
+    "/compare/dkk-accounting-vs-tax-alchemy/",
+    "/compare/duane-morris-tax-accounting-group-vs-tax-alchemy/",
+    "/compare/basis-cost-segregation-vs-duffy-duffy-cost-segregation/",
+    "/compare/duncan-carter-tax-advisory-vs-tax-alchemy/",
+    "/compare/bright-hill-advisors-vs-elite-consulting-pc/",
+    "/compare/basis-cost-segregation-vs-engineered-tax-services/",
+    "/compare/aprio-vs-ey/",
+    "/compare/aprio-vs-firm1040/",
+    "/compare/fitness-cpa-vs-tax-alchemy/",
+    "/compare/fluency-tax-vs-tax-alchemy/",
+    "/compare/fondo-vs-tax-alchemy/",
+    "/compare/aprio-vs-forvis-mazars/",
+    "/compare/fox-and-company-cpas-vs-tax-alchemy/",
+    "/compare/fraim-cawley-vs-tax-alchemy/",
+    "/compare/fusion-cpa-vs-tax-alchemy/",
+    "/compare/gamburg-cpa-vs-tax-alchemy/",
+    "/compare/bright-hill-advisors-vs-gavtax-advisory-services/",
+    "/compare/gelt-vs-tax-alchemy/",
+    "/compare/aprio-vs-grant-thornton/",
+    "/compare/graphite-financial-vs-tax-alchemy/",
+    "/compare/greengrowth-cpas-vs-tax-alchemy/",
+    "/compare/hacker-johnson-smith-vs-tax-alchemy/",
+    "/compare/heard-vs-tax-alchemy/",
+    "/compare/basis-cost-segregation-vs-ics-tax/",
+    "/compare/incite-tax-vs-tax-alchemy/",
+    "/compare/bright-hill-advisors-vs-investor-friendly-cpa/",
+    "/compare/jetro-associates-vs-tax-alchemy/",
+    "/compare/kathy-l-hess-associates-vs-tax-alchemy/",
+    "/compare/basis-cost-segregation-vs-kbkg/",
+    "/compare/bright-hill-advisors-vs-keystone-cpa/",
+    "/compare/aprio-vs-kpmg/",
+    "/compare/kruze-consulting-vs-tax-alchemy/",
+    "/compare/little-fish-accounting-vs-tax-alchemy/",
+    "/compare/ltax-consulting-vs-tax-alchemy/",
+    "/compare/basis-cost-segregation-vs-madison-specs/",
+    "/compare/basis-cost-segregation-vs-maven-cost-segregation/",
+    "/compare/basis-cost-segregation-vs-mcguire-sponsel/",
+    "/compare/basis-cost-segregation-vs-msc-tax/",
+    "/compare/basis-cost-segregation-vs-my-cost-segregation/",
+    "/compare/nelson-cpa-vs-tax-alchemy/",
+    "/compare/nth-degree-cpas-vs-tax-alchemy/",
+    "/compare/oak-city-accounting-vs-tax-alchemy/",
+    "/compare/p4-tax-vs-tax-alchemy/",
+    "/compare/pasquesi-partners-vs-tax-alchemy/",
+    "/compare/peter-holtz-cpa-vs-tax-alchemy/",
+    "/compare/phillips-business-group-vs-tax-alchemy/",
+    "/compare/pillar-advisors-vs-tax-alchemy/",
+    "/compare/pilot-vs-tax-alchemy/",
+    "/compare/pnc-cpa-advisors-vs-tax-alchemy/",
+    "/compare/proactive-tax-advisors-vs-tax-alchemy/",
+    "/compare/bright-hill-advisors-vs-pronto-advisors/",
+    "/compare/aprio-vs-pwc/",
+    "/compare/rainwater-cpa-vs-tax-alchemy/",
+    "/compare/basis-cost-segregation-vs-re-cost-seg/",
+    "/compare/revonary-vs-tax-alchemy/",
+    "/compare/aprio-vs-rsm/",
+    "/compare/sdo-cpa-vs-tax-alchemy/",
+    "/compare/sweeney-conrad-vs-tax-alchemy/",
+    "/compare/tara-cpa-firm-vs-tax-alchemy/",
+    "/compare/tax-alchemy-vs-tax-goddess/",
+    "/compare/tax-alchemy-vs-tax-hack-accounting/",
+    "/compare/tax-alchemy-vs-tax-saving-experts/",
+    "/compare/tax-alchemy-vs-tax-strategists-of-america/",
+    "/compare/tax-alchemy-vs-taxhub/",
+    "/compare/bright-hill-advisors-vs-taxstra/",
+    "/compare/tax-alchemy-vs-tldr-accounting/",
+    "/compare/tax-alchemy-vs-tys-advisors/",
+    "/compare/tax-alchemy-vs-vincere-tax/",
+    "/compare/tax-alchemy-vs-vital-wealth/",
+    "/compare/tax-alchemy-vs-warner-tax-group/",
+    "/compare/tax-alchemy-vs-warren-averett/",
+    "/compare/tax-alchemy-vs-wcg-cpas/",
+    "/compare/tax-alchemy-vs-wellness-fi/",
+    "/compare/tax-alchemy-vs-xendoo/",
+    "/compare/tax-alchemy-vs-zcw-cpas/",
+    "/compare/1099-tax-doctor-vs-1800-accountant/",
+    "/compare/1099-tax-doctor-vs-collective/",
+    "/compare/1800-accountant-vs-accountfully/",
+    "/compare/1800-accountant-vs-acuity/",
+    "/compare/1800-accountant-vs-aligned-cpa/",
+    "/compare/1800-accountant-vs-anomaly-cpa/",
+    "/compare/1800-accountant-vs-apex-cpas-consultants/",
+    "/compare/1800-accountant-vs-beach-life-cpa/",
+    "/compare/1800-accountant-vs-benficial-cpa/",
+    "/compare/1800-accountant-vs-blumer-cpas/",
+    "/compare/1800-accountant-vs-bottom-line-cpa/",
+    "/compare/1800-accountant-vs-bracket-partners/",
+    "/compare/1800-accountant-vs-bracket-tax-co/",
+    "/compare/1800-accountant-vs-brook-bay-consulting/",
+    "/compare/1800-accountant-vs-bryan-sweeney-cpa/",
+    "/compare/1800-accountant-vs-carpenter-evert-associates/",
+    "/compare/1800-accountant-vs-cerebral-tax-advisors/",
+    "/compare/1800-accountant-vs-compound-wealth-tax/",
+    "/compare/1800-accountant-vs-crescent-cpa-advisors/",
+    "/compare/1800-accountant-vs-dark-horse-cpas/",
+    "/compare/1800-accountant-vs-david-m-florijan-cpa/",
+    "/compare/1800-accountant-vs-davis-davis-associates/",
+    "/compare/1800-accountant-vs-decimal/",
+    "/compare/1800-accountant-vs-delerme-cpa/",
+    "/compare/1800-accountant-vs-dkk-accounting/",
+    "/compare/1800-accountant-vs-duane-morris-tax-accounting-group/",
+    "/compare/1800-accountant-vs-duncan-carter-tax-advisory/",
+    "/compare/1800-accountant-vs-fitness-cpa/",
+    "/compare/1800-accountant-vs-fluency-tax/",
+    "/compare/1800-accountant-vs-fondo/",
+    "/compare/1800-accountant-vs-fox-and-company-cpas/",
+    "/compare/1800-accountant-vs-fraim-cawley/",
+    "/compare/1800-accountant-vs-fusion-cpa/",
+    "/compare/1800-accountant-vs-gamburg-cpa/",
+    "/compare/1800-accountant-vs-gelt/",
+    "/compare/1800-accountant-vs-graphite-financial/",
+    "/compare/1800-accountant-vs-greengrowth-cpas/",
+    "/compare/1800-accountant-vs-hacker-johnson-smith/",
+    "/compare/1800-accountant-vs-heard/",
+    "/compare/1800-accountant-vs-incite-tax/",
+    "/compare/1800-accountant-vs-jetro-associates/",
+    "/compare/1800-accountant-vs-kathy-l-hess-associates/",
+    "/compare/1800-accountant-vs-kruze-consulting/",
+    "/compare/1800-accountant-vs-little-fish-accounting/",
+    "/compare/1800-accountant-vs-ltax-consulting/",
+    "/compare/1800-accountant-vs-nelson-cpa/",
+    "/compare/1800-accountant-vs-nth-degree-cpas/",
+    "/compare/1800-accountant-vs-oak-city-accounting/",
+    "/compare/1800-accountant-vs-p4-tax/",
+    "/compare/1800-accountant-vs-pasquesi-partners/",
+    "/compare/1800-accountant-vs-peter-holtz-cpa/",
+    "/compare/1800-accountant-vs-phillips-business-group/",
+    "/compare/1800-accountant-vs-pillar-advisors/",
+    "/compare/1800-accountant-vs-pilot/",
+    "/compare/1800-accountant-vs-pnc-cpa-advisors/",
+    "/compare/1800-accountant-vs-proactive-tax-advisors/",
+    "/compare/1800-accountant-vs-rainwater-cpa/",
+    "/compare/1800-accountant-vs-revonary/",
+    "/compare/1800-accountant-vs-sdo-cpa/",
+    "/compare/1800-accountant-vs-sweeney-conrad/",
+    "/compare/1800-accountant-vs-tara-cpa-firm/",
+    "/compare/1800-accountant-vs-tax-goddess/",
+    "/compare/1800-accountant-vs-tax-hack-accounting/",
+    "/compare/1800-accountant-vs-tax-saving-experts/",
+    "/compare/1800-accountant-vs-tax-strategists-of-america/",
+    "/compare/1800-accountant-vs-taxhub/",
+    "/compare/1800-accountant-vs-tldr-accounting/",
+    "/compare/1800-accountant-vs-tys-advisors/",
+    "/compare/1800-accountant-vs-vincere-tax/",
+    "/compare/1800-accountant-vs-vital-wealth/",
+    "/compare/1800-accountant-vs-warner-tax-group/",
+    "/compare/1800-accountant-vs-warren-averett/",
+    "/compare/1800-accountant-vs-wcg-cpas/",
+    "/compare/1800-accountant-vs-wellness-fi/",
+    "/compare/1800-accountant-vs-xendoo/",
+    "/compare/1800-accountant-vs-zcw-cpas/",
+    "/compare/accountfully-vs-collective/",
+    "/compare/acuity-vs-collective/",
+    "/compare/aligned-cpa-vs-collective/",
+    "/compare/anomaly-cpa-vs-collective/",
+    "/compare/apex-cpas-consultants-vs-collective/",
+    "/compare/beach-life-cpa-vs-collective/",
+    "/compare/benficial-cpa-vs-collective/",
+    "/compare/blumer-cpas-vs-collective/",
+    "/compare/bottom-line-cpa-vs-collective/",
+    "/compare/bracket-partners-vs-collective/",
+    "/compare/bracket-tax-co-vs-collective/",
+    "/compare/brook-bay-consulting-vs-collective/",
+    "/compare/bryan-sweeney-cpa-vs-collective/",
+    "/compare/carpenter-evert-associates-vs-collective/",
+    "/compare/cerebral-tax-advisors-vs-collective/",
+    "/compare/collective-vs-compound-wealth-tax/",
+    "/compare/collective-vs-crescent-cpa-advisors/",
+    "/compare/collective-vs-dark-horse-cpas/",
+    "/compare/collective-vs-david-m-florijan-cpa/",
+    "/compare/collective-vs-davis-davis-associates/",
+    "/compare/collective-vs-decimal/",
+    "/compare/collective-vs-delerme-cpa/",
+    "/compare/collective-vs-dkk-accounting/",
+    "/compare/collective-vs-duane-morris-tax-accounting-group/",
+    "/compare/collective-vs-duncan-carter-tax-advisory/",
+    "/compare/collective-vs-fitness-cpa/",
+    "/compare/collective-vs-fluency-tax/",
+    "/compare/collective-vs-fondo/",
+    "/compare/collective-vs-fox-and-company-cpas/",
+    "/compare/collective-vs-fraim-cawley/",
+    "/compare/collective-vs-fusion-cpa/",
+    "/compare/collective-vs-gamburg-cpa/",
+    "/compare/collective-vs-gelt/",
+    "/compare/collective-vs-graphite-financial/",
+    "/compare/collective-vs-greengrowth-cpas/",
+    "/compare/collective-vs-hacker-johnson-smith/",
+    "/compare/collective-vs-heard/",
+    "/compare/collective-vs-incite-tax/",
+    "/compare/collective-vs-jetro-associates/",
+    "/compare/collective-vs-kathy-l-hess-associates/",
+    "/compare/collective-vs-kruze-consulting/",
+    "/compare/collective-vs-little-fish-accounting/",
+    "/compare/collective-vs-ltax-consulting/",
+    "/compare/collective-vs-nelson-cpa/",
+    "/compare/collective-vs-nth-degree-cpas/",
+    "/compare/provider-comparison-library/",
+    "/compare/business-owner-provider-shortlists/",
+    "/compare/high-income-provider-shortlists/",
+    "/compare/real-estate-study-provider-shortlists/"
+  ],
+  "comparisons": [
+    {
+      "path": "/compare/prime-path-advisory-vs-tax-hive/",
+      "providers": [
+        "prime-path-advisory",
+        "tax-hive"
+      ],
+      "demand_priority_score": 589
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-tax-hive/",
+      "providers": [
+        "tax-alchemy",
+        "tax-hive"
+      ],
+      "demand_priority_score": 191
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-tax-alchemy/",
+      "providers": [
+        "prime-path-advisory",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 580
+    },
+    {
+      "path": "/compare/1800-accountant-vs-prime-path-advisory/",
+      "providers": [
+        "1800-accountant",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 569
+    },
+    {
+      "path": "/compare/collective-vs-prime-path-advisory/",
+      "providers": [
+        "collective",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 569
+    },
+    {
+      "path": "/compare/creative-planning-vs-main-street-tax-advisor-network/",
+      "providers": [
+        "creative-planning",
+        "main-street-tax-advisor-network"
+      ],
+      "demand_priority_score": 50
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-cost-segregation-authority/",
+      "providers": [
+        "capstan-tax-strategies",
+        "cost-segregation-authority"
+      ],
+      "demand_priority_score": 70
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-cost-segregation-authority/",
+      "providers": [
+        "basis-cost-segregation",
+        "cost-segregation-authority"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/neil-jesani-advisors-vs-prime-path-advisory/",
+      "providers": [
+        "neil-jesani-advisors",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 516
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-jasmine-dilucci/",
+      "providers": [
+        "anderson-advisors",
+        "jasmine-dilucci"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/advise-re-vs-hall-cpa/",
+      "providers": [
+        "advise-re",
+        "hall-cpa"
+      ],
+      "demand_priority_score": 22
+    },
+    {
+      "path": "/compare/1099-tax-doctor-vs-prime-path-advisory/",
+      "providers": [
+        "1099-tax-doctor",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/accountfully-vs-prime-path-advisory/",
+      "providers": [
+        "accountfully",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/acuity-vs-prime-path-advisory/",
+      "providers": [
+        "acuity",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/advise-re-vs-bright-hill-advisors/",
+      "providers": [
+        "advise-re",
+        "bright-hill-advisors"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/aligned-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "aligned-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-aprio/",
+      "providers": [
+        "anderson-advisors",
+        "aprio"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/anomaly-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "anomaly-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/apex-cpas-consultants-vs-prime-path-advisory/",
+      "providers": [
+        "apex-cpas-consultants",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/aprio-vs-jasmine-dilucci/",
+      "providers": [
+        "aprio",
+        "jasmine-dilucci"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/baker-tilly-vs-jasmine-dilucci/",
+      "providers": [
+        "baker-tilly",
+        "jasmine-dilucci"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-capstan-tax-strategies/",
+      "providers": [
+        "basis-cost-segregation",
+        "capstan-tax-strategies"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/bdo-vs-jasmine-dilucci/",
+      "providers": [
+        "bdo",
+        "jasmine-dilucci"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/beach-life-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "beach-life-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/benficial-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "benficial-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/blumer-cpas-vs-prime-path-advisory/",
+      "providers": [
+        "blumer-cpas",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/bottom-line-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "bottom-line-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/bracket-partners-vs-prime-path-advisory/",
+      "providers": [
+        "bracket-partners",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/bracket-tax-co-vs-prime-path-advisory/",
+      "providers": [
+        "bracket-tax-co",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/bright-hill-advisors-vs-hall-cpa/",
+      "providers": [
+        "bright-hill-advisors",
+        "hall-cpa"
+      ],
+      "demand_priority_score": 22
+    },
+    {
+      "path": "/compare/brook-bay-consulting-vs-prime-path-advisory/",
+      "providers": [
+        "brook-bay-consulting",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/bryan-sweeney-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "bryan-sweeney-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/carpenter-evert-associates-vs-prime-path-advisory/",
+      "providers": [
+        "carpenter-evert-associates",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/cbiz-vs-jasmine-dilucci/",
+      "providers": [
+        "cbiz",
+        "jasmine-dilucci"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/cerebral-tax-advisors-vs-prime-path-advisory/",
+      "providers": [
+        "cerebral-tax-advisors",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/cherry-bekaert-vs-jasmine-dilucci/",
+      "providers": [
+        "cherry-bekaert",
+        "jasmine-dilucci"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/compass-cpa-vs-hall-cpa/",
+      "providers": [
+        "compass-cpa",
+        "hall-cpa"
+      ],
+      "demand_priority_score": 22
+    },
+    {
+      "path": "/compare/compound-wealth-tax-vs-prime-path-advisory/",
+      "providers": [
+        "compound-wealth-tax",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-cost-seg-atlas/",
+      "providers": [
+        "capstan-tax-strategies",
+        "cost-seg-atlas"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-cost-seg-smart/",
+      "providers": [
+        "capstan-tax-strategies",
+        "cost-seg-smart"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-cost-segregation-guys/",
+      "providers": [
+        "capstan-tax-strategies",
+        "cost-segregation-guys"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-costseg-express/",
+      "providers": [
+        "capstan-tax-strategies",
+        "costseg-express"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-costsegez/",
+      "providers": [
+        "capstan-tax-strategies",
+        "costsegez"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-costsegregation-com/",
+      "providers": [
+        "capstan-tax-strategies",
+        "costsegregation-com"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-costsegrx/",
+      "providers": [
+        "capstan-tax-strategies",
+        "costsegrx"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/cpa-rod-vs-hall-cpa/",
+      "providers": [
+        "cpa-rod",
+        "hall-cpa"
+      ],
+      "demand_priority_score": 22
+    },
+    {
+      "path": "/compare/creative-planning-vs-range/",
+      "providers": [
+        "creative-planning",
+        "range"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/crescent-cpa-advisors-vs-prime-path-advisory/",
+      "providers": [
+        "crescent-cpa-advisors",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-cssi/",
+      "providers": [
+        "capstan-tax-strategies",
+        "cssi"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/dark-horse-cpas-vs-prime-path-advisory/",
+      "providers": [
+        "dark-horse-cpas",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/david-m-florijan-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "david-m-florijan-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/davis-davis-associates-vs-prime-path-advisory/",
+      "providers": [
+        "davis-davis-associates",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/decimal-vs-prime-path-advisory/",
+      "providers": [
+        "decimal",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/delerme-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "delerme-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/deloitte-tax-vs-jasmine-dilucci/",
+      "providers": [
+        "deloitte-tax",
+        "jasmine-dilucci"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/dkk-accounting-vs-prime-path-advisory/",
+      "providers": [
+        "dkk-accounting",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/duane-morris-tax-accounting-group-vs-prime-path-advisory/",
+      "providers": [
+        "duane-morris-tax-accounting-group",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-duffy-duffy-cost-segregation/",
+      "providers": [
+        "capstan-tax-strategies",
+        "duffy-duffy-cost-segregation"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/duncan-carter-tax-advisory-vs-prime-path-advisory/",
+      "providers": [
+        "duncan-carter-tax-advisory",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/elite-consulting-pc-vs-hall-cpa/",
+      "providers": [
+        "elite-consulting-pc",
+        "hall-cpa"
+      ],
+      "demand_priority_score": 22
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-engineered-tax-services/",
+      "providers": [
+        "capstan-tax-strategies",
+        "engineered-tax-services"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/ey-vs-jasmine-dilucci/",
+      "providers": [
+        "ey",
+        "jasmine-dilucci"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/firm1040-vs-jasmine-dilucci/",
+      "providers": [
+        "firm1040",
+        "jasmine-dilucci"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/fitness-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "fitness-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/fluency-tax-vs-prime-path-advisory/",
+      "providers": [
+        "fluency-tax",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/fondo-vs-prime-path-advisory/",
+      "providers": [
+        "fondo",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/forvis-mazars-vs-jasmine-dilucci/",
+      "providers": [
+        "forvis-mazars",
+        "jasmine-dilucci"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/fox-and-company-cpas-vs-prime-path-advisory/",
+      "providers": [
+        "fox-and-company-cpas",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/fraim-cawley-vs-prime-path-advisory/",
+      "providers": [
+        "fraim-cawley",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/fusion-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "fusion-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/gamburg-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "gamburg-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/gavtax-advisory-services-vs-hall-cpa/",
+      "providers": [
+        "gavtax-advisory-services",
+        "hall-cpa"
+      ],
+      "demand_priority_score": 22
+    },
+    {
+      "path": "/compare/gelt-vs-prime-path-advisory/",
+      "providers": [
+        "gelt",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/grant-thornton-vs-jasmine-dilucci/",
+      "providers": [
+        "grant-thornton",
+        "jasmine-dilucci"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/graphite-financial-vs-prime-path-advisory/",
+      "providers": [
+        "graphite-financial",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/greengrowth-cpas-vs-prime-path-advisory/",
+      "providers": [
+        "greengrowth-cpas",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/hacker-johnson-smith-vs-prime-path-advisory/",
+      "providers": [
+        "hacker-johnson-smith",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/heard-vs-prime-path-advisory/",
+      "providers": [
+        "heard",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-ics-tax/",
+      "providers": [
+        "capstan-tax-strategies",
+        "ics-tax"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/incite-tax-vs-prime-path-advisory/",
+      "providers": [
+        "incite-tax",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/hall-cpa-vs-investor-friendly-cpa/",
+      "providers": [
+        "hall-cpa",
+        "investor-friendly-cpa"
+      ],
+      "demand_priority_score": 22
+    },
+    {
+      "path": "/compare/jetro-associates-vs-prime-path-advisory/",
+      "providers": [
+        "jetro-associates",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/kathy-l-hess-associates-vs-prime-path-advisory/",
+      "providers": [
+        "kathy-l-hess-associates",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-kbkg/",
+      "providers": [
+        "capstan-tax-strategies",
+        "kbkg"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/hall-cpa-vs-keystone-cpa/",
+      "providers": [
+        "hall-cpa",
+        "keystone-cpa"
+      ],
+      "demand_priority_score": 22
+    },
+    {
+      "path": "/compare/jasmine-dilucci-vs-kpmg/",
+      "providers": [
+        "jasmine-dilucci",
+        "kpmg"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/kruze-consulting-vs-prime-path-advisory/",
+      "providers": [
+        "kruze-consulting",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/little-fish-accounting-vs-prime-path-advisory/",
+      "providers": [
+        "little-fish-accounting",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/ltax-consulting-vs-prime-path-advisory/",
+      "providers": [
+        "ltax-consulting",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-madison-specs/",
+      "providers": [
+        "capstan-tax-strategies",
+        "madison-specs"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-maven-cost-segregation/",
+      "providers": [
+        "capstan-tax-strategies",
+        "maven-cost-segregation"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-mcguire-sponsel/",
+      "providers": [
+        "capstan-tax-strategies",
+        "mcguire-sponsel"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-msc-tax/",
+      "providers": [
+        "capstan-tax-strategies",
+        "msc-tax"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-my-cost-segregation/",
+      "providers": [
+        "capstan-tax-strategies",
+        "my-cost-segregation"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/nelson-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "nelson-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/nth-degree-cpas-vs-prime-path-advisory/",
+      "providers": [
+        "nth-degree-cpas",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/oak-city-accounting-vs-prime-path-advisory/",
+      "providers": [
+        "oak-city-accounting",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/p4-tax-vs-prime-path-advisory/",
+      "providers": [
+        "p4-tax",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/pasquesi-partners-vs-prime-path-advisory/",
+      "providers": [
+        "pasquesi-partners",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/peter-holtz-cpa-vs-prime-path-advisory/",
+      "providers": [
+        "peter-holtz-cpa",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/phillips-business-group-vs-prime-path-advisory/",
+      "providers": [
+        "phillips-business-group",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/pillar-advisors-vs-prime-path-advisory/",
+      "providers": [
+        "pillar-advisors",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/pilot-vs-prime-path-advisory/",
+      "providers": [
+        "pilot",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/pnc-cpa-advisors-vs-prime-path-advisory/",
+      "providers": [
+        "pnc-cpa-advisors",
+        "prime-path-advisory"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-proactive-tax-advisors/",
+      "providers": [
+        "prime-path-advisory",
+        "proactive-tax-advisors"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/hall-cpa-vs-pronto-advisors/",
+      "providers": [
+        "hall-cpa",
+        "pronto-advisors"
+      ],
+      "demand_priority_score": 22
+    },
+    {
+      "path": "/compare/jasmine-dilucci-vs-pwc/",
+      "providers": [
+        "jasmine-dilucci",
+        "pwc"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-rainwater-cpa/",
+      "providers": [
+        "prime-path-advisory",
+        "rainwater-cpa"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/main-street-tax-advisor-network-vs-range/",
+      "providers": [
+        "main-street-tax-advisor-network",
+        "range"
+      ],
+      "demand_priority_score": 50
+    },
+    {
+      "path": "/compare/capstan-tax-strategies-vs-re-cost-seg/",
+      "providers": [
+        "capstan-tax-strategies",
+        "re-cost-seg"
+      ],
+      "demand_priority_score": 41
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-revonary/",
+      "providers": [
+        "prime-path-advisory",
+        "revonary"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/jasmine-dilucci-vs-rsm/",
+      "providers": [
+        "jasmine-dilucci",
+        "rsm"
+      ],
+      "demand_priority_score": 24
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-sdo-cpa/",
+      "providers": [
+        "prime-path-advisory",
+        "sdo-cpa"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-sweeney-conrad/",
+      "providers": [
+        "prime-path-advisory",
+        "sweeney-conrad"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-tara-cpa-firm/",
+      "providers": [
+        "prime-path-advisory",
+        "tara-cpa-firm"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-tax-goddess/",
+      "providers": [
+        "prime-path-advisory",
+        "tax-goddess"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-tax-hack-accounting/",
+      "providers": [
+        "prime-path-advisory",
+        "tax-hack-accounting"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-tax-saving-experts/",
+      "providers": [
+        "prime-path-advisory",
+        "tax-saving-experts"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-tax-strategists-of-america/",
+      "providers": [
+        "prime-path-advisory",
+        "tax-strategists-of-america"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-taxhub/",
+      "providers": [
+        "prime-path-advisory",
+        "taxhub"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/hall-cpa-vs-taxstra/",
+      "providers": [
+        "hall-cpa",
+        "taxstra"
+      ],
+      "demand_priority_score": 22
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-tldr-accounting/",
+      "providers": [
+        "prime-path-advisory",
+        "tldr-accounting"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-tys-advisors/",
+      "providers": [
+        "prime-path-advisory",
+        "tys-advisors"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-vincere-tax/",
+      "providers": [
+        "prime-path-advisory",
+        "vincere-tax"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-vital-wealth/",
+      "providers": [
+        "prime-path-advisory",
+        "vital-wealth"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-warner-tax-group/",
+      "providers": [
+        "prime-path-advisory",
+        "warner-tax-group"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-warren-averett/",
+      "providers": [
+        "prime-path-advisory",
+        "warren-averett"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-wcg-cpas/",
+      "providers": [
+        "prime-path-advisory",
+        "wcg-cpas"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-wellness-fi/",
+      "providers": [
+        "prime-path-advisory",
+        "wellness-fi"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-xendoo/",
+      "providers": [
+        "prime-path-advisory",
+        "xendoo"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/prime-path-advisory-vs-zcw-cpas/",
+      "providers": [
+        "prime-path-advisory",
+        "zcw-cpas"
+      ],
+      "demand_priority_score": 489
+    },
+    {
+      "path": "/compare/1800-accountant-vs-tax-hive/",
+      "providers": [
+        "1800-accountant",
+        "tax-hive"
+      ],
+      "demand_priority_score": 180
+    },
+    {
+      "path": "/compare/1800-accountant-vs-tax-alchemy/",
+      "providers": [
+        "1800-accountant",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 171
+    },
+    {
+      "path": "/compare/1800-accountant-vs-collective/",
+      "providers": [
+        "1800-accountant",
+        "collective"
+      ],
+      "demand_priority_score": 160
+    },
+    {
+      "path": "/compare/collective-vs-tax-hive/",
+      "providers": [
+        "collective",
+        "tax-hive"
+      ],
+      "demand_priority_score": 180
+    },
+    {
+      "path": "/compare/cost-seg-atlas-vs-cost-segregation-authority/",
+      "providers": [
+        "cost-seg-atlas",
+        "cost-segregation-authority"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/neil-jesani-advisors-vs-tax-hive/",
+      "providers": [
+        "neil-jesani-advisors",
+        "tax-hive"
+      ],
+      "demand_priority_score": 127
+    },
+    {
+      "path": "/compare/1099-tax-doctor-vs-tax-hive/",
+      "providers": [
+        "1099-tax-doctor",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/accountfully-vs-tax-hive/",
+      "providers": [
+        "accountfully",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/acuity-vs-tax-hive/",
+      "providers": [
+        "acuity",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/advise-re-vs-compass-cpa/",
+      "providers": [
+        "advise-re",
+        "compass-cpa"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/aligned-cpa-vs-tax-hive/",
+      "providers": [
+        "aligned-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-baker-tilly/",
+      "providers": [
+        "anderson-advisors",
+        "baker-tilly"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/anomaly-cpa-vs-tax-hive/",
+      "providers": [
+        "anomaly-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/apex-cpas-consultants-vs-tax-hive/",
+      "providers": [
+        "apex-cpas-consultants",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/aprio-vs-baker-tilly/",
+      "providers": [
+        "aprio",
+        "baker-tilly"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/baker-tilly-vs-bdo/",
+      "providers": [
+        "baker-tilly",
+        "bdo"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-cost-seg-atlas/",
+      "providers": [
+        "basis-cost-segregation",
+        "cost-seg-atlas"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-bdo/",
+      "providers": [
+        "anderson-advisors",
+        "bdo"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/beach-life-cpa-vs-tax-hive/",
+      "providers": [
+        "beach-life-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/benficial-cpa-vs-tax-hive/",
+      "providers": [
+        "benficial-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/blumer-cpas-vs-tax-hive/",
+      "providers": [
+        "blumer-cpas",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/bottom-line-cpa-vs-tax-hive/",
+      "providers": [
+        "bottom-line-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/bracket-partners-vs-tax-hive/",
+      "providers": [
+        "bracket-partners",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/bracket-tax-co-vs-tax-hive/",
+      "providers": [
+        "bracket-tax-co",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/bright-hill-advisors-vs-compass-cpa/",
+      "providers": [
+        "bright-hill-advisors",
+        "compass-cpa"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/brook-bay-consulting-vs-tax-hive/",
+      "providers": [
+        "brook-bay-consulting",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/bryan-sweeney-cpa-vs-tax-hive/",
+      "providers": [
+        "bryan-sweeney-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/carpenter-evert-associates-vs-tax-hive/",
+      "providers": [
+        "carpenter-evert-associates",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-cbiz/",
+      "providers": [
+        "anderson-advisors",
+        "cbiz"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/cerebral-tax-advisors-vs-tax-hive/",
+      "providers": [
+        "cerebral-tax-advisors",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-cherry-bekaert/",
+      "providers": [
+        "anderson-advisors",
+        "cherry-bekaert"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/compass-cpa-vs-cpa-rod/",
+      "providers": [
+        "compass-cpa",
+        "cpa-rod"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/compound-wealth-tax-vs-tax-hive/",
+      "providers": [
+        "compound-wealth-tax",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/cost-seg-atlas-vs-cost-seg-smart/",
+      "providers": [
+        "cost-seg-atlas",
+        "cost-seg-smart"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/cost-seg-smart-vs-cost-segregation-authority/",
+      "providers": [
+        "cost-seg-smart",
+        "cost-segregation-authority"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-cost-segregation-guys/",
+      "providers": [
+        "cost-segregation-authority",
+        "cost-segregation-guys"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-costseg-express/",
+      "providers": [
+        "cost-segregation-authority",
+        "costseg-express"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-costsegez/",
+      "providers": [
+        "cost-segregation-authority",
+        "costsegez"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-costsegregation-com/",
+      "providers": [
+        "cost-segregation-authority",
+        "costsegregation-com"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-costsegrx/",
+      "providers": [
+        "cost-segregation-authority",
+        "costsegrx"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/advise-re-vs-cpa-rod/",
+      "providers": [
+        "advise-re",
+        "cpa-rod"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/crescent-cpa-advisors-vs-tax-hive/",
+      "providers": [
+        "crescent-cpa-advisors",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-cssi/",
+      "providers": [
+        "cost-segregation-authority",
+        "cssi"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/dark-horse-cpas-vs-tax-hive/",
+      "providers": [
+        "dark-horse-cpas",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/david-m-florijan-cpa-vs-tax-hive/",
+      "providers": [
+        "david-m-florijan-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/davis-davis-associates-vs-tax-hive/",
+      "providers": [
+        "davis-davis-associates",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/decimal-vs-tax-hive/",
+      "providers": [
+        "decimal",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/delerme-cpa-vs-tax-hive/",
+      "providers": [
+        "delerme-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-deloitte-tax/",
+      "providers": [
+        "anderson-advisors",
+        "deloitte-tax"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/dkk-accounting-vs-tax-hive/",
+      "providers": [
+        "dkk-accounting",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/duane-morris-tax-accounting-group-vs-tax-hive/",
+      "providers": [
+        "duane-morris-tax-accounting-group",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-duffy-duffy-cost-segregation/",
+      "providers": [
+        "cost-segregation-authority",
+        "duffy-duffy-cost-segregation"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/duncan-carter-tax-advisory-vs-tax-hive/",
+      "providers": [
+        "duncan-carter-tax-advisory",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/advise-re-vs-elite-consulting-pc/",
+      "providers": [
+        "advise-re",
+        "elite-consulting-pc"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-engineered-tax-services/",
+      "providers": [
+        "cost-segregation-authority",
+        "engineered-tax-services"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-ey/",
+      "providers": [
+        "anderson-advisors",
+        "ey"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-firm1040/",
+      "providers": [
+        "anderson-advisors",
+        "firm1040"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/fitness-cpa-vs-tax-hive/",
+      "providers": [
+        "fitness-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/fluency-tax-vs-tax-hive/",
+      "providers": [
+        "fluency-tax",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/fondo-vs-tax-hive/",
+      "providers": [
+        "fondo",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-forvis-mazars/",
+      "providers": [
+        "anderson-advisors",
+        "forvis-mazars"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/fox-and-company-cpas-vs-tax-hive/",
+      "providers": [
+        "fox-and-company-cpas",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/fraim-cawley-vs-tax-hive/",
+      "providers": [
+        "fraim-cawley",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/fusion-cpa-vs-tax-hive/",
+      "providers": [
+        "fusion-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/gamburg-cpa-vs-tax-hive/",
+      "providers": [
+        "gamburg-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/advise-re-vs-gavtax-advisory-services/",
+      "providers": [
+        "advise-re",
+        "gavtax-advisory-services"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/gelt-vs-tax-hive/",
+      "providers": [
+        "gelt",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-grant-thornton/",
+      "providers": [
+        "anderson-advisors",
+        "grant-thornton"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/graphite-financial-vs-tax-hive/",
+      "providers": [
+        "graphite-financial",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/greengrowth-cpas-vs-tax-hive/",
+      "providers": [
+        "greengrowth-cpas",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/hacker-johnson-smith-vs-tax-hive/",
+      "providers": [
+        "hacker-johnson-smith",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/heard-vs-tax-hive/",
+      "providers": [
+        "heard",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-ics-tax/",
+      "providers": [
+        "cost-segregation-authority",
+        "ics-tax"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/incite-tax-vs-tax-hive/",
+      "providers": [
+        "incite-tax",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/advise-re-vs-investor-friendly-cpa/",
+      "providers": [
+        "advise-re",
+        "investor-friendly-cpa"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/jetro-associates-vs-tax-hive/",
+      "providers": [
+        "jetro-associates",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/kathy-l-hess-associates-vs-tax-hive/",
+      "providers": [
+        "kathy-l-hess-associates",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-kbkg/",
+      "providers": [
+        "cost-segregation-authority",
+        "kbkg"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/advise-re-vs-keystone-cpa/",
+      "providers": [
+        "advise-re",
+        "keystone-cpa"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-kpmg/",
+      "providers": [
+        "anderson-advisors",
+        "kpmg"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/kruze-consulting-vs-tax-hive/",
+      "providers": [
+        "kruze-consulting",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/little-fish-accounting-vs-tax-hive/",
+      "providers": [
+        "little-fish-accounting",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/ltax-consulting-vs-tax-hive/",
+      "providers": [
+        "ltax-consulting",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-madison-specs/",
+      "providers": [
+        "cost-segregation-authority",
+        "madison-specs"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-maven-cost-segregation/",
+      "providers": [
+        "cost-segregation-authority",
+        "maven-cost-segregation"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-mcguire-sponsel/",
+      "providers": [
+        "cost-segregation-authority",
+        "mcguire-sponsel"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-msc-tax/",
+      "providers": [
+        "cost-segregation-authority",
+        "msc-tax"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-my-cost-segregation/",
+      "providers": [
+        "cost-segregation-authority",
+        "my-cost-segregation"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/nelson-cpa-vs-tax-hive/",
+      "providers": [
+        "nelson-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/nth-degree-cpas-vs-tax-hive/",
+      "providers": [
+        "nth-degree-cpas",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/oak-city-accounting-vs-tax-hive/",
+      "providers": [
+        "oak-city-accounting",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/p4-tax-vs-tax-hive/",
+      "providers": [
+        "p4-tax",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/pasquesi-partners-vs-tax-hive/",
+      "providers": [
+        "pasquesi-partners",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/peter-holtz-cpa-vs-tax-hive/",
+      "providers": [
+        "peter-holtz-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/phillips-business-group-vs-tax-hive/",
+      "providers": [
+        "phillips-business-group",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/pillar-advisors-vs-tax-hive/",
+      "providers": [
+        "pillar-advisors",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/pilot-vs-tax-hive/",
+      "providers": [
+        "pilot",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/pnc-cpa-advisors-vs-tax-hive/",
+      "providers": [
+        "pnc-cpa-advisors",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/proactive-tax-advisors-vs-tax-hive/",
+      "providers": [
+        "proactive-tax-advisors",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/advise-re-vs-pronto-advisors/",
+      "providers": [
+        "advise-re",
+        "pronto-advisors"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-pwc/",
+      "providers": [
+        "anderson-advisors",
+        "pwc"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/rainwater-cpa-vs-tax-hive/",
+      "providers": [
+        "rainwater-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/cost-segregation-authority-vs-re-cost-seg/",
+      "providers": [
+        "cost-segregation-authority",
+        "re-cost-seg"
+      ],
+      "demand_priority_score": 29
+    },
+    {
+      "path": "/compare/revonary-vs-tax-hive/",
+      "providers": [
+        "revonary",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/anderson-advisors-vs-rsm/",
+      "providers": [
+        "anderson-advisors",
+        "rsm"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/sdo-cpa-vs-tax-hive/",
+      "providers": [
+        "sdo-cpa",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/sweeney-conrad-vs-tax-hive/",
+      "providers": [
+        "sweeney-conrad",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tara-cpa-firm-vs-tax-hive/",
+      "providers": [
+        "tara-cpa-firm",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-goddess-vs-tax-hive/",
+      "providers": [
+        "tax-goddess",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hack-accounting-vs-tax-hive/",
+      "providers": [
+        "tax-hack-accounting",
+        "tax-hive"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-tax-saving-experts/",
+      "providers": [
+        "tax-hive",
+        "tax-saving-experts"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-tax-strategists-of-america/",
+      "providers": [
+        "tax-hive",
+        "tax-strategists-of-america"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-taxhub/",
+      "providers": [
+        "tax-hive",
+        "taxhub"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/advise-re-vs-taxstra/",
+      "providers": [
+        "advise-re",
+        "taxstra"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/tax-hive-vs-tldr-accounting/",
+      "providers": [
+        "tax-hive",
+        "tldr-accounting"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-tys-advisors/",
+      "providers": [
+        "tax-hive",
+        "tys-advisors"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-vincere-tax/",
+      "providers": [
+        "tax-hive",
+        "vincere-tax"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-vital-wealth/",
+      "providers": [
+        "tax-hive",
+        "vital-wealth"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-warner-tax-group/",
+      "providers": [
+        "tax-hive",
+        "warner-tax-group"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-warren-averett/",
+      "providers": [
+        "tax-hive",
+        "warren-averett"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-wcg-cpas/",
+      "providers": [
+        "tax-hive",
+        "wcg-cpas"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-wellness-fi/",
+      "providers": [
+        "tax-hive",
+        "wellness-fi"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-xendoo/",
+      "providers": [
+        "tax-hive",
+        "xendoo"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/tax-hive-vs-zcw-cpas/",
+      "providers": [
+        "tax-hive",
+        "zcw-cpas"
+      ],
+      "demand_priority_score": 100
+    },
+    {
+      "path": "/compare/collective-vs-tax-alchemy/",
+      "providers": [
+        "collective",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 171
+    },
+    {
+      "path": "/compare/1800-accountant-vs-neil-jesani-advisors/",
+      "providers": [
+        "1800-accountant",
+        "neil-jesani-advisors"
+      ],
+      "demand_priority_score": 107
+    },
+    {
+      "path": "/compare/collective-vs-neil-jesani-advisors/",
+      "providers": [
+        "collective",
+        "neil-jesani-advisors"
+      ],
+      "demand_priority_score": 107
+    },
+    {
+      "path": "/compare/neil-jesani-advisors-vs-tax-alchemy/",
+      "providers": [
+        "neil-jesani-advisors",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 118
+    },
+    {
+      "path": "/compare/1099-tax-doctor-vs-tax-alchemy/",
+      "providers": [
+        "1099-tax-doctor",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/accountfully-vs-tax-alchemy/",
+      "providers": [
+        "accountfully",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/acuity-vs-tax-alchemy/",
+      "providers": [
+        "acuity",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/aligned-cpa-vs-tax-alchemy/",
+      "providers": [
+        "aligned-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/anomaly-cpa-vs-tax-alchemy/",
+      "providers": [
+        "anomaly-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/apex-cpas-consultants-vs-tax-alchemy/",
+      "providers": [
+        "apex-cpas-consultants",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/aprio-vs-bdo/",
+      "providers": [
+        "aprio",
+        "bdo"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/baker-tilly-vs-cbiz/",
+      "providers": [
+        "baker-tilly",
+        "cbiz"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-cost-seg-smart/",
+      "providers": [
+        "basis-cost-segregation",
+        "cost-seg-smart"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/bdo-vs-cbiz/",
+      "providers": [
+        "bdo",
+        "cbiz"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/beach-life-cpa-vs-tax-alchemy/",
+      "providers": [
+        "beach-life-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/benficial-cpa-vs-tax-alchemy/",
+      "providers": [
+        "benficial-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/blumer-cpas-vs-tax-alchemy/",
+      "providers": [
+        "blumer-cpas",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/bottom-line-cpa-vs-tax-alchemy/",
+      "providers": [
+        "bottom-line-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/bracket-partners-vs-tax-alchemy/",
+      "providers": [
+        "bracket-partners",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/bracket-tax-co-vs-tax-alchemy/",
+      "providers": [
+        "bracket-tax-co",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/bright-hill-advisors-vs-cpa-rod/",
+      "providers": [
+        "bright-hill-advisors",
+        "cpa-rod"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/brook-bay-consulting-vs-tax-alchemy/",
+      "providers": [
+        "brook-bay-consulting",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/bryan-sweeney-cpa-vs-tax-alchemy/",
+      "providers": [
+        "bryan-sweeney-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/carpenter-evert-associates-vs-tax-alchemy/",
+      "providers": [
+        "carpenter-evert-associates",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/aprio-vs-cbiz/",
+      "providers": [
+        "aprio",
+        "cbiz"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/cerebral-tax-advisors-vs-tax-alchemy/",
+      "providers": [
+        "cerebral-tax-advisors",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/aprio-vs-cherry-bekaert/",
+      "providers": [
+        "aprio",
+        "cherry-bekaert"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/compass-cpa-vs-elite-consulting-pc/",
+      "providers": [
+        "compass-cpa",
+        "elite-consulting-pc"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/compound-wealth-tax-vs-tax-alchemy/",
+      "providers": [
+        "compound-wealth-tax",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/cost-seg-atlas-vs-cost-segregation-guys/",
+      "providers": [
+        "cost-seg-atlas",
+        "cost-segregation-guys"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/cost-seg-smart-vs-cost-segregation-guys/",
+      "providers": [
+        "cost-seg-smart",
+        "cost-segregation-guys"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-cost-segregation-guys/",
+      "providers": [
+        "basis-cost-segregation",
+        "cost-segregation-guys"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-costseg-express/",
+      "providers": [
+        "basis-cost-segregation",
+        "costseg-express"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-costsegez/",
+      "providers": [
+        "basis-cost-segregation",
+        "costsegez"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-costsegregation-com/",
+      "providers": [
+        "basis-cost-segregation",
+        "costsegregation-com"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-costsegrx/",
+      "providers": [
+        "basis-cost-segregation",
+        "costsegrx"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/cpa-rod-vs-elite-consulting-pc/",
+      "providers": [
+        "cpa-rod",
+        "elite-consulting-pc"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/crescent-cpa-advisors-vs-tax-alchemy/",
+      "providers": [
+        "crescent-cpa-advisors",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-cssi/",
+      "providers": [
+        "basis-cost-segregation",
+        "cssi"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/dark-horse-cpas-vs-tax-alchemy/",
+      "providers": [
+        "dark-horse-cpas",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/david-m-florijan-cpa-vs-tax-alchemy/",
+      "providers": [
+        "david-m-florijan-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/davis-davis-associates-vs-tax-alchemy/",
+      "providers": [
+        "davis-davis-associates",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/decimal-vs-tax-alchemy/",
+      "providers": [
+        "decimal",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/delerme-cpa-vs-tax-alchemy/",
+      "providers": [
+        "delerme-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/aprio-vs-deloitte-tax/",
+      "providers": [
+        "aprio",
+        "deloitte-tax"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/dkk-accounting-vs-tax-alchemy/",
+      "providers": [
+        "dkk-accounting",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/duane-morris-tax-accounting-group-vs-tax-alchemy/",
+      "providers": [
+        "duane-morris-tax-accounting-group",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-duffy-duffy-cost-segregation/",
+      "providers": [
+        "basis-cost-segregation",
+        "duffy-duffy-cost-segregation"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/duncan-carter-tax-advisory-vs-tax-alchemy/",
+      "providers": [
+        "duncan-carter-tax-advisory",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/bright-hill-advisors-vs-elite-consulting-pc/",
+      "providers": [
+        "bright-hill-advisors",
+        "elite-consulting-pc"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-engineered-tax-services/",
+      "providers": [
+        "basis-cost-segregation",
+        "engineered-tax-services"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/aprio-vs-ey/",
+      "providers": [
+        "aprio",
+        "ey"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/aprio-vs-firm1040/",
+      "providers": [
+        "aprio",
+        "firm1040"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/fitness-cpa-vs-tax-alchemy/",
+      "providers": [
+        "fitness-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/fluency-tax-vs-tax-alchemy/",
+      "providers": [
+        "fluency-tax",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/fondo-vs-tax-alchemy/",
+      "providers": [
+        "fondo",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/aprio-vs-forvis-mazars/",
+      "providers": [
+        "aprio",
+        "forvis-mazars"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/fox-and-company-cpas-vs-tax-alchemy/",
+      "providers": [
+        "fox-and-company-cpas",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/fraim-cawley-vs-tax-alchemy/",
+      "providers": [
+        "fraim-cawley",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/fusion-cpa-vs-tax-alchemy/",
+      "providers": [
+        "fusion-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/gamburg-cpa-vs-tax-alchemy/",
+      "providers": [
+        "gamburg-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/bright-hill-advisors-vs-gavtax-advisory-services/",
+      "providers": [
+        "bright-hill-advisors",
+        "gavtax-advisory-services"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/gelt-vs-tax-alchemy/",
+      "providers": [
+        "gelt",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/aprio-vs-grant-thornton/",
+      "providers": [
+        "aprio",
+        "grant-thornton"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/graphite-financial-vs-tax-alchemy/",
+      "providers": [
+        "graphite-financial",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/greengrowth-cpas-vs-tax-alchemy/",
+      "providers": [
+        "greengrowth-cpas",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/hacker-johnson-smith-vs-tax-alchemy/",
+      "providers": [
+        "hacker-johnson-smith",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/heard-vs-tax-alchemy/",
+      "providers": [
+        "heard",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-ics-tax/",
+      "providers": [
+        "basis-cost-segregation",
+        "ics-tax"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/incite-tax-vs-tax-alchemy/",
+      "providers": [
+        "incite-tax",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/bright-hill-advisors-vs-investor-friendly-cpa/",
+      "providers": [
+        "bright-hill-advisors",
+        "investor-friendly-cpa"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/jetro-associates-vs-tax-alchemy/",
+      "providers": [
+        "jetro-associates",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/kathy-l-hess-associates-vs-tax-alchemy/",
+      "providers": [
+        "kathy-l-hess-associates",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-kbkg/",
+      "providers": [
+        "basis-cost-segregation",
+        "kbkg"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/bright-hill-advisors-vs-keystone-cpa/",
+      "providers": [
+        "bright-hill-advisors",
+        "keystone-cpa"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/aprio-vs-kpmg/",
+      "providers": [
+        "aprio",
+        "kpmg"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/kruze-consulting-vs-tax-alchemy/",
+      "providers": [
+        "kruze-consulting",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/little-fish-accounting-vs-tax-alchemy/",
+      "providers": [
+        "little-fish-accounting",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/ltax-consulting-vs-tax-alchemy/",
+      "providers": [
+        "ltax-consulting",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-madison-specs/",
+      "providers": [
+        "basis-cost-segregation",
+        "madison-specs"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-maven-cost-segregation/",
+      "providers": [
+        "basis-cost-segregation",
+        "maven-cost-segregation"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-mcguire-sponsel/",
+      "providers": [
+        "basis-cost-segregation",
+        "mcguire-sponsel"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-msc-tax/",
+      "providers": [
+        "basis-cost-segregation",
+        "msc-tax"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-my-cost-segregation/",
+      "providers": [
+        "basis-cost-segregation",
+        "my-cost-segregation"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/nelson-cpa-vs-tax-alchemy/",
+      "providers": [
+        "nelson-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/nth-degree-cpas-vs-tax-alchemy/",
+      "providers": [
+        "nth-degree-cpas",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/oak-city-accounting-vs-tax-alchemy/",
+      "providers": [
+        "oak-city-accounting",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/p4-tax-vs-tax-alchemy/",
+      "providers": [
+        "p4-tax",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/pasquesi-partners-vs-tax-alchemy/",
+      "providers": [
+        "pasquesi-partners",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/peter-holtz-cpa-vs-tax-alchemy/",
+      "providers": [
+        "peter-holtz-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/phillips-business-group-vs-tax-alchemy/",
+      "providers": [
+        "phillips-business-group",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/pillar-advisors-vs-tax-alchemy/",
+      "providers": [
+        "pillar-advisors",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/pilot-vs-tax-alchemy/",
+      "providers": [
+        "pilot",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/pnc-cpa-advisors-vs-tax-alchemy/",
+      "providers": [
+        "pnc-cpa-advisors",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/proactive-tax-advisors-vs-tax-alchemy/",
+      "providers": [
+        "proactive-tax-advisors",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/bright-hill-advisors-vs-pronto-advisors/",
+      "providers": [
+        "bright-hill-advisors",
+        "pronto-advisors"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/aprio-vs-pwc/",
+      "providers": [
+        "aprio",
+        "pwc"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/rainwater-cpa-vs-tax-alchemy/",
+      "providers": [
+        "rainwater-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/basis-cost-segregation-vs-re-cost-seg/",
+      "providers": [
+        "basis-cost-segregation",
+        "re-cost-seg"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/revonary-vs-tax-alchemy/",
+      "providers": [
+        "revonary",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/aprio-vs-rsm/",
+      "providers": [
+        "aprio",
+        "rsm"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/sdo-cpa-vs-tax-alchemy/",
+      "providers": [
+        "sdo-cpa",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/sweeney-conrad-vs-tax-alchemy/",
+      "providers": [
+        "sweeney-conrad",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tara-cpa-firm-vs-tax-alchemy/",
+      "providers": [
+        "tara-cpa-firm",
+        "tax-alchemy"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-tax-goddess/",
+      "providers": [
+        "tax-alchemy",
+        "tax-goddess"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-tax-hack-accounting/",
+      "providers": [
+        "tax-alchemy",
+        "tax-hack-accounting"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-tax-saving-experts/",
+      "providers": [
+        "tax-alchemy",
+        "tax-saving-experts"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-tax-strategists-of-america/",
+      "providers": [
+        "tax-alchemy",
+        "tax-strategists-of-america"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-taxhub/",
+      "providers": [
+        "tax-alchemy",
+        "taxhub"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/bright-hill-advisors-vs-taxstra/",
+      "providers": [
+        "bright-hill-advisors",
+        "taxstra"
+      ],
+      "demand_priority_score": 0
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-tldr-accounting/",
+      "providers": [
+        "tax-alchemy",
+        "tldr-accounting"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-tys-advisors/",
+      "providers": [
+        "tax-alchemy",
+        "tys-advisors"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-vincere-tax/",
+      "providers": [
+        "tax-alchemy",
+        "vincere-tax"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-vital-wealth/",
+      "providers": [
+        "tax-alchemy",
+        "vital-wealth"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-warner-tax-group/",
+      "providers": [
+        "tax-alchemy",
+        "warner-tax-group"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-warren-averett/",
+      "providers": [
+        "tax-alchemy",
+        "warren-averett"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-wcg-cpas/",
+      "providers": [
+        "tax-alchemy",
+        "wcg-cpas"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-wellness-fi/",
+      "providers": [
+        "tax-alchemy",
+        "wellness-fi"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-xendoo/",
+      "providers": [
+        "tax-alchemy",
+        "xendoo"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/tax-alchemy-vs-zcw-cpas/",
+      "providers": [
+        "tax-alchemy",
+        "zcw-cpas"
+      ],
+      "demand_priority_score": 91
+    },
+    {
+      "path": "/compare/1099-tax-doctor-vs-1800-accountant/",
+      "providers": [
+        "1099-tax-doctor",
+        "1800-accountant"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1099-tax-doctor-vs-collective/",
+      "providers": [
+        "1099-tax-doctor",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-accountfully/",
+      "providers": [
+        "1800-accountant",
+        "accountfully"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-acuity/",
+      "providers": [
+        "1800-accountant",
+        "acuity"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-aligned-cpa/",
+      "providers": [
+        "1800-accountant",
+        "aligned-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-anomaly-cpa/",
+      "providers": [
+        "1800-accountant",
+        "anomaly-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-apex-cpas-consultants/",
+      "providers": [
+        "1800-accountant",
+        "apex-cpas-consultants"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-beach-life-cpa/",
+      "providers": [
+        "1800-accountant",
+        "beach-life-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-benficial-cpa/",
+      "providers": [
+        "1800-accountant",
+        "benficial-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-blumer-cpas/",
+      "providers": [
+        "1800-accountant",
+        "blumer-cpas"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-bottom-line-cpa/",
+      "providers": [
+        "1800-accountant",
+        "bottom-line-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-bracket-partners/",
+      "providers": [
+        "1800-accountant",
+        "bracket-partners"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-bracket-tax-co/",
+      "providers": [
+        "1800-accountant",
+        "bracket-tax-co"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-brook-bay-consulting/",
+      "providers": [
+        "1800-accountant",
+        "brook-bay-consulting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-bryan-sweeney-cpa/",
+      "providers": [
+        "1800-accountant",
+        "bryan-sweeney-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-carpenter-evert-associates/",
+      "providers": [
+        "1800-accountant",
+        "carpenter-evert-associates"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-cerebral-tax-advisors/",
+      "providers": [
+        "1800-accountant",
+        "cerebral-tax-advisors"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-compound-wealth-tax/",
+      "providers": [
+        "1800-accountant",
+        "compound-wealth-tax"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-crescent-cpa-advisors/",
+      "providers": [
+        "1800-accountant",
+        "crescent-cpa-advisors"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-dark-horse-cpas/",
+      "providers": [
+        "1800-accountant",
+        "dark-horse-cpas"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-david-m-florijan-cpa/",
+      "providers": [
+        "1800-accountant",
+        "david-m-florijan-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-davis-davis-associates/",
+      "providers": [
+        "1800-accountant",
+        "davis-davis-associates"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-decimal/",
+      "providers": [
+        "1800-accountant",
+        "decimal"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-delerme-cpa/",
+      "providers": [
+        "1800-accountant",
+        "delerme-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-dkk-accounting/",
+      "providers": [
+        "1800-accountant",
+        "dkk-accounting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-duane-morris-tax-accounting-group/",
+      "providers": [
+        "1800-accountant",
+        "duane-morris-tax-accounting-group"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-duncan-carter-tax-advisory/",
+      "providers": [
+        "1800-accountant",
+        "duncan-carter-tax-advisory"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-fitness-cpa/",
+      "providers": [
+        "1800-accountant",
+        "fitness-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-fluency-tax/",
+      "providers": [
+        "1800-accountant",
+        "fluency-tax"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-fondo/",
+      "providers": [
+        "1800-accountant",
+        "fondo"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-fox-and-company-cpas/",
+      "providers": [
+        "1800-accountant",
+        "fox-and-company-cpas"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-fraim-cawley/",
+      "providers": [
+        "1800-accountant",
+        "fraim-cawley"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-fusion-cpa/",
+      "providers": [
+        "1800-accountant",
+        "fusion-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-gamburg-cpa/",
+      "providers": [
+        "1800-accountant",
+        "gamburg-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-gelt/",
+      "providers": [
+        "1800-accountant",
+        "gelt"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-graphite-financial/",
+      "providers": [
+        "1800-accountant",
+        "graphite-financial"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-greengrowth-cpas/",
+      "providers": [
+        "1800-accountant",
+        "greengrowth-cpas"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-hacker-johnson-smith/",
+      "providers": [
+        "1800-accountant",
+        "hacker-johnson-smith"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-heard/",
+      "providers": [
+        "1800-accountant",
+        "heard"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-incite-tax/",
+      "providers": [
+        "1800-accountant",
+        "incite-tax"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-jetro-associates/",
+      "providers": [
+        "1800-accountant",
+        "jetro-associates"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-kathy-l-hess-associates/",
+      "providers": [
+        "1800-accountant",
+        "kathy-l-hess-associates"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-kruze-consulting/",
+      "providers": [
+        "1800-accountant",
+        "kruze-consulting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-little-fish-accounting/",
+      "providers": [
+        "1800-accountant",
+        "little-fish-accounting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-ltax-consulting/",
+      "providers": [
+        "1800-accountant",
+        "ltax-consulting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-nelson-cpa/",
+      "providers": [
+        "1800-accountant",
+        "nelson-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-nth-degree-cpas/",
+      "providers": [
+        "1800-accountant",
+        "nth-degree-cpas"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-oak-city-accounting/",
+      "providers": [
+        "1800-accountant",
+        "oak-city-accounting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-p4-tax/",
+      "providers": [
+        "1800-accountant",
+        "p4-tax"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-pasquesi-partners/",
+      "providers": [
+        "1800-accountant",
+        "pasquesi-partners"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-peter-holtz-cpa/",
+      "providers": [
+        "1800-accountant",
+        "peter-holtz-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-phillips-business-group/",
+      "providers": [
+        "1800-accountant",
+        "phillips-business-group"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-pillar-advisors/",
+      "providers": [
+        "1800-accountant",
+        "pillar-advisors"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-pilot/",
+      "providers": [
+        "1800-accountant",
+        "pilot"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-pnc-cpa-advisors/",
+      "providers": [
+        "1800-accountant",
+        "pnc-cpa-advisors"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-proactive-tax-advisors/",
+      "providers": [
+        "1800-accountant",
+        "proactive-tax-advisors"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-rainwater-cpa/",
+      "providers": [
+        "1800-accountant",
+        "rainwater-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-revonary/",
+      "providers": [
+        "1800-accountant",
+        "revonary"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-sdo-cpa/",
+      "providers": [
+        "1800-accountant",
+        "sdo-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-sweeney-conrad/",
+      "providers": [
+        "1800-accountant",
+        "sweeney-conrad"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-tara-cpa-firm/",
+      "providers": [
+        "1800-accountant",
+        "tara-cpa-firm"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-tax-goddess/",
+      "providers": [
+        "1800-accountant",
+        "tax-goddess"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-tax-hack-accounting/",
+      "providers": [
+        "1800-accountant",
+        "tax-hack-accounting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-tax-saving-experts/",
+      "providers": [
+        "1800-accountant",
+        "tax-saving-experts"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-tax-strategists-of-america/",
+      "providers": [
+        "1800-accountant",
+        "tax-strategists-of-america"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-taxhub/",
+      "providers": [
+        "1800-accountant",
+        "taxhub"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-tldr-accounting/",
+      "providers": [
+        "1800-accountant",
+        "tldr-accounting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-tys-advisors/",
+      "providers": [
+        "1800-accountant",
+        "tys-advisors"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-vincere-tax/",
+      "providers": [
+        "1800-accountant",
+        "vincere-tax"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-vital-wealth/",
+      "providers": [
+        "1800-accountant",
+        "vital-wealth"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-warner-tax-group/",
+      "providers": [
+        "1800-accountant",
+        "warner-tax-group"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-warren-averett/",
+      "providers": [
+        "1800-accountant",
+        "warren-averett"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-wcg-cpas/",
+      "providers": [
+        "1800-accountant",
+        "wcg-cpas"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-wellness-fi/",
+      "providers": [
+        "1800-accountant",
+        "wellness-fi"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-xendoo/",
+      "providers": [
+        "1800-accountant",
+        "xendoo"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/1800-accountant-vs-zcw-cpas/",
+      "providers": [
+        "1800-accountant",
+        "zcw-cpas"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/accountfully-vs-collective/",
+      "providers": [
+        "accountfully",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/acuity-vs-collective/",
+      "providers": [
+        "acuity",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/aligned-cpa-vs-collective/",
+      "providers": [
+        "aligned-cpa",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/anomaly-cpa-vs-collective/",
+      "providers": [
+        "anomaly-cpa",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/apex-cpas-consultants-vs-collective/",
+      "providers": [
+        "apex-cpas-consultants",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/beach-life-cpa-vs-collective/",
+      "providers": [
+        "beach-life-cpa",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/benficial-cpa-vs-collective/",
+      "providers": [
+        "benficial-cpa",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/blumer-cpas-vs-collective/",
+      "providers": [
+        "blumer-cpas",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/bottom-line-cpa-vs-collective/",
+      "providers": [
+        "bottom-line-cpa",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/bracket-partners-vs-collective/",
+      "providers": [
+        "bracket-partners",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/bracket-tax-co-vs-collective/",
+      "providers": [
+        "bracket-tax-co",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/brook-bay-consulting-vs-collective/",
+      "providers": [
+        "brook-bay-consulting",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/bryan-sweeney-cpa-vs-collective/",
+      "providers": [
+        "bryan-sweeney-cpa",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/carpenter-evert-associates-vs-collective/",
+      "providers": [
+        "carpenter-evert-associates",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/cerebral-tax-advisors-vs-collective/",
+      "providers": [
+        "cerebral-tax-advisors",
+        "collective"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-compound-wealth-tax/",
+      "providers": [
+        "collective",
+        "compound-wealth-tax"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-crescent-cpa-advisors/",
+      "providers": [
+        "collective",
+        "crescent-cpa-advisors"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-dark-horse-cpas/",
+      "providers": [
+        "collective",
+        "dark-horse-cpas"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-david-m-florijan-cpa/",
+      "providers": [
+        "collective",
+        "david-m-florijan-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-davis-davis-associates/",
+      "providers": [
+        "collective",
+        "davis-davis-associates"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-decimal/",
+      "providers": [
+        "collective",
+        "decimal"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-delerme-cpa/",
+      "providers": [
+        "collective",
+        "delerme-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-dkk-accounting/",
+      "providers": [
+        "collective",
+        "dkk-accounting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-duane-morris-tax-accounting-group/",
+      "providers": [
+        "collective",
+        "duane-morris-tax-accounting-group"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-duncan-carter-tax-advisory/",
+      "providers": [
+        "collective",
+        "duncan-carter-tax-advisory"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-fitness-cpa/",
+      "providers": [
+        "collective",
+        "fitness-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-fluency-tax/",
+      "providers": [
+        "collective",
+        "fluency-tax"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-fondo/",
+      "providers": [
+        "collective",
+        "fondo"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-fox-and-company-cpas/",
+      "providers": [
+        "collective",
+        "fox-and-company-cpas"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-fraim-cawley/",
+      "providers": [
+        "collective",
+        "fraim-cawley"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-fusion-cpa/",
+      "providers": [
+        "collective",
+        "fusion-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-gamburg-cpa/",
+      "providers": [
+        "collective",
+        "gamburg-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-gelt/",
+      "providers": [
+        "collective",
+        "gelt"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-graphite-financial/",
+      "providers": [
+        "collective",
+        "graphite-financial"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-greengrowth-cpas/",
+      "providers": [
+        "collective",
+        "greengrowth-cpas"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-hacker-johnson-smith/",
+      "providers": [
+        "collective",
+        "hacker-johnson-smith"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-heard/",
+      "providers": [
+        "collective",
+        "heard"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-incite-tax/",
+      "providers": [
+        "collective",
+        "incite-tax"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-jetro-associates/",
+      "providers": [
+        "collective",
+        "jetro-associates"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-kathy-l-hess-associates/",
+      "providers": [
+        "collective",
+        "kathy-l-hess-associates"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-kruze-consulting/",
+      "providers": [
+        "collective",
+        "kruze-consulting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-little-fish-accounting/",
+      "providers": [
+        "collective",
+        "little-fish-accounting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-ltax-consulting/",
+      "providers": [
+        "collective",
+        "ltax-consulting"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-nelson-cpa/",
+      "providers": [
+        "collective",
+        "nelson-cpa"
+      ],
+      "demand_priority_score": 80
+    },
+    {
+      "path": "/compare/collective-vs-nth-degree-cpas/",
+      "providers": [
+        "collective",
+        "nth-degree-cpas"
+      ],
+      "demand_priority_score": 80
+    }
+  ],
+  "provider_degrees": {
+    "prime-path-advisory": 80,
+    "tax-hive": 80,
+    "tax-alchemy": 80,
+    "1800-accountant": 80,
+    "collective": 51,
+    "creative-planning": 2,
+    "main-street-tax-advisor-network": 2,
+    "capstan-tax-strategies": 20,
+    "cost-segregation-authority": 20,
+    "basis-cost-segregation": 20,
+    "neil-jesani-advisors": 5,
+    "anderson-advisors": 14,
+    "jasmine-dilucci": 14,
+    "advise-re": 10,
+    "hall-cpa": 10,
+    "1099-tax-doctor": 5,
+    "accountfully": 5,
+    "acuity": 5,
+    "bright-hill-advisors": 10,
+    "aligned-cpa": 5,
+    "aprio": 14,
+    "anomaly-cpa": 5,
+    "apex-cpas-consultants": 5,
+    "baker-tilly": 5,
+    "bdo": 5,
+    "beach-life-cpa": 5,
+    "benficial-cpa": 5,
+    "blumer-cpas": 5,
+    "bottom-line-cpa": 5,
+    "bracket-partners": 5,
+    "bracket-tax-co": 5,
+    "brook-bay-consulting": 5,
+    "bryan-sweeney-cpa": 5,
+    "carpenter-evert-associates": 5,
+    "cbiz": 5,
+    "cerebral-tax-advisors": 5,
+    "cherry-bekaert": 3,
+    "compass-cpa": 5,
+    "compound-wealth-tax": 5,
+    "cost-seg-atlas": 5,
+    "cost-seg-smart": 5,
+    "cost-segregation-guys": 5,
+    "costseg-express": 3,
+    "costsegez": 3,
+    "costsegregation-com": 3,
+    "costsegrx": 3,
+    "cpa-rod": 5,
+    "range": 2,
+    "crescent-cpa-advisors": 5,
+    "cssi": 3,
+    "dark-horse-cpas": 5,
+    "david-m-florijan-cpa": 5,
+    "davis-davis-associates": 5,
+    "decimal": 5,
+    "delerme-cpa": 5,
+    "deloitte-tax": 3,
+    "dkk-accounting": 5,
+    "duane-morris-tax-accounting-group": 5,
+    "duffy-duffy-cost-segregation": 3,
+    "duncan-carter-tax-advisory": 5,
+    "elite-consulting-pc": 5,
+    "engineered-tax-services": 3,
+    "ey": 3,
+    "firm1040": 3,
+    "fitness-cpa": 5,
+    "fluency-tax": 5,
+    "fondo": 5,
+    "forvis-mazars": 3,
+    "fox-and-company-cpas": 5,
+    "fraim-cawley": 5,
+    "fusion-cpa": 5,
+    "gamburg-cpa": 5,
+    "gavtax-advisory-services": 3,
+    "gelt": 5,
+    "grant-thornton": 3,
+    "graphite-financial": 5,
+    "greengrowth-cpas": 5,
+    "hacker-johnson-smith": 5,
+    "heard": 5,
+    "ics-tax": 3,
+    "incite-tax": 5,
+    "investor-friendly-cpa": 3,
+    "jetro-associates": 5,
+    "kathy-l-hess-associates": 5,
+    "kbkg": 3,
+    "keystone-cpa": 3,
+    "kpmg": 3,
+    "kruze-consulting": 5,
+    "little-fish-accounting": 5,
+    "ltax-consulting": 5,
+    "madison-specs": 3,
+    "maven-cost-segregation": 3,
+    "mcguire-sponsel": 3,
+    "msc-tax": 3,
+    "my-cost-segregation": 3,
+    "nelson-cpa": 5,
+    "nth-degree-cpas": 5,
+    "oak-city-accounting": 4,
+    "p4-tax": 4,
+    "pasquesi-partners": 4,
+    "peter-holtz-cpa": 4,
+    "phillips-business-group": 4,
+    "pillar-advisors": 4,
+    "pilot": 4,
+    "pnc-cpa-advisors": 4,
+    "proactive-tax-advisors": 4,
+    "pronto-advisors": 3,
+    "pwc": 3,
+    "rainwater-cpa": 4,
+    "re-cost-seg": 3,
+    "revonary": 4,
+    "rsm": 3,
+    "sdo-cpa": 4,
+    "sweeney-conrad": 4,
+    "tara-cpa-firm": 4,
+    "tax-goddess": 4,
+    "tax-hack-accounting": 4,
+    "tax-saving-experts": 4,
+    "tax-strategists-of-america": 4,
+    "taxhub": 4,
+    "taxstra": 3,
+    "tldr-accounting": 4,
+    "tys-advisors": 4,
+    "vincere-tax": 4,
+    "vital-wealth": 4,
+    "warner-tax-group": 4,
+    "warren-averett": 4,
+    "wcg-cpas": 4,
+    "wellness-fi": 4,
+    "xendoo": 4,
+    "zcw-cpas": 4
+  }
+}
