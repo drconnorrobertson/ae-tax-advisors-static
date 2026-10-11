@@ -1,4 +1,5 @@
 """Permanent redirect forms stay out of source and staged discovery."""
+import ast
 import json
 import tempfile
 import unittest
@@ -26,6 +27,16 @@ class RedirectDiscoveryTests(unittest.TestCase):
                 self.assertEqual(sitemap.redirected_paths(), expected)
                 self.assertEqual(discovery.redirects(), dict.fromkeys(expected, '/canonical/'))
 
+    def test_core_preserves_business_owner_planning_destination(self):
+        tree = ast.parse((discovery.ROOT / 'build_discovery_files.py').read_text())
+        core = next(ast.literal_eval(node.value) for node in tree.body
+                    if isinstance(node, ast.Assign)
+                    and any(isinstance(target, ast.Name) and target.id == 'CORE'
+                            for target in node.targets))
+        self.assertIn(('/business-owner-small-business-tax/',
+                       'Business owner tax planning'), core)
+        self.assertNotIn('/business-owner-tax-planning/', {path for path, _ in core})
+
     def test_source_and_staged_maps_exclude_flagship_redirects(self):
         import xml.etree.ElementTree as ET
         ns = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
@@ -40,6 +51,9 @@ class RedirectDiscoveryTests(unittest.TestCase):
                 self.assertIn(discovery.BASE + rule['destination'], urls)
             for name in ('llms.txt', 'llms.md', 'llms-full.txt', '.well-known/llms.txt'):
                 text = (base / name).read_text()
+                self.assertEqual(text.count(
+                    '- [Business owner tax planning]('
+                    'https://www.aetaxadvisors.com/business-owner-small-business-tax/)'), 1)
                 for rule in rules:
                     self.assertNotIn(discovery.BASE + rule['source'] + ')', text)
 
