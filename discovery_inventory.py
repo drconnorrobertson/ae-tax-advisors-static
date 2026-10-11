@@ -45,7 +45,8 @@ class Metadata(HTMLParser):
 def redirects():
     config = json.loads((ROOT / 'vercel.json').read_text())
     return {r['source']: r['destination'] for r in config.get('redirects', [])
-            if r.get('statusCode') in (301, 308) and ':' not in r['source']}
+            if (r.get('statusCode') in (301, 308) or r.get('permanent') is True)
+            and ':' not in r['source']}
 
 def page_url(path):
     rel = path.parent.relative_to(ROOT).as_posix()
