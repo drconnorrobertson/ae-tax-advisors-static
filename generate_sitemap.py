@@ -48,7 +48,7 @@ def redirected_paths():
     return {
         rule["source"]
         for rule in config.get("redirects", [])
-        if rule.get("statusCode") in (301, 308)
+        if (rule.get("statusCode") in (301, 308) or rule.get("permanent") is True)
         and isinstance(rule.get("source"), str)
         and ":" not in rule["source"]
     }

@@ -16,7 +16,7 @@ CORE = [
 ('/about/', 'About AE Tax Advisors and its team'),
 ('/pricing/', 'Published pricing and engagement scope'),
 ('/discovery/', 'Request a tax planning assessment'),
-('/business-owner-tax-planning/', 'Business owner tax planning'),
+('/business-owner-small-business-tax/', 'Business owner tax planning'),
 ('/real-estate-tax-planning/', 'Real estate owner tax planning'),
 ('/cost-segregation-study/', 'Cost segregation study services'),
 ('/cost-segregation-study-cost-pricing/', 'Compare study pricing and scope'),

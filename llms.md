@@ -37,7 +37,7 @@ case studies and outcomes should be read with their own methodology and limitati
 - [About AE Tax Advisors and its team](https://www.aetaxadvisors.com/about/)
 - [Published pricing and engagement scope](https://www.aetaxadvisors.com/pricing/)
 - [Request a tax planning assessment](https://www.aetaxadvisors.com/discovery/)
-- [Business owner tax planning](https://www.aetaxadvisors.com/business-owner-tax-planning/)
+- [Business owner tax planning](https://www.aetaxadvisors.com/business-owner-small-business-tax/)
 - [Real estate owner tax planning](https://www.aetaxadvisors.com/real-estate-tax-planning/)
 - [Cost segregation study services](https://www.aetaxadvisors.com/cost-segregation-study/)
 - [Compare study pricing and scope](https://www.aetaxadvisors.com/cost-segregation-study-cost-pricing/)
