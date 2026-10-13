@@ -47,10 +47,10 @@ PAGES = [
         "slug": "karlton-dennis-vs-ae-tax",
         "name": "Karlton Dennis and Tax Alchemy",
         "title": "Karlton Dennis (Tax Alchemy) vs AE Tax Advisors (2026)",
-        "description": "Compare Karlton Dennis's Tax Alchemy with AE Tax Advisors using each firm's published scope and pricing. Tax Alchemy lists $20,000 to $150,000 fees.",
+        "description": "Compare Karlton Dennis's Tax Alchemy with AE Tax Advisors using each firm's published scope and pricing. Compare its differing published fee ranges with a written quote.",
         "lead": "Karlton Dennis leads Tax Alchemy, which publicly offers tax planning, implementation, and return filing for advisory clients. This is a direct tax advisory comparison. The clearest difference visible in the published materials is price and the scope to request in writing, not a claim that one team lacks tax expertise.",
         "facts": [
-            "Tax Alchemy's own FAQ describes a one-year planning and implementation engagement priced from $20,000 to $150,000, depending on strategies and complexity.",
+            "Tax Alchemy's FAQ shows $20,000 to $150,000, while its homepage shows $32,000 to $50,000 as checked October 13, 2026. Request the current program-specific quote and scope.",
             "Tax Alchemy says its advisory clients may have individual, business, and trust or estate returns filed by its tax strategists. Do not assume filing is unavailable or outsourced.",
             "Its public materials also describe support for business owners and real estate investors, entity structure, and planning outside real estate.",
         ],
