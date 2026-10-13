@@ -130,6 +130,9 @@ Disallow: /*?fbclid
 Disallow: /*?gclid
 Disallow: /*?ref=
 Disallow: /*?v=
+# Versioned public styles and scripts are required for page rendering.
+Allow: /assets/*.css?v=
+Allow: /assets/*.js?v=
 
 # Let every major crawler through at full speed. No crawl-delay: it slows
 # indexing and the major engines ignore it anyway.
