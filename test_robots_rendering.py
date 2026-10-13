@@ -12,6 +12,11 @@ ROOT = Path(__file__).resolve().parent
 
 
 def can_fetch(text, url):
+    # This helper intentionally models only the current single wildcard group.
+    agents = [line.partition(':')[2].split('#', 1)[0].strip()
+              for line in text.splitlines()
+              if line.partition(':')[0].strip().lower() == 'user-agent']
+    assert agents == ['*'], 'Matching helper requires one User-agent: * group'
     matches = []
     for line in text.splitlines():
         field, separator, rule = line.partition(':')
@@ -30,10 +35,10 @@ def can_fetch(text, url):
 
 class RenderingRobotsTests(unittest.TestCase):
     def test_google_documented_precedence_examples(self):
-        self.assertTrue(can_fetch('Allow: /folder\nDisallow: /folder', '/folder/page'))
-        self.assertFalse(can_fetch('Allow: /page\nDisallow: /*.htm', '/page.htm'))
-        self.assertFalse(can_fetch('Disallow: /*.php$', '/file.php'))
-        self.assertTrue(can_fetch('Disallow: /*.php$', '/file.php?v=1'))
+        self.assertTrue(can_fetch('User-agent: *\nAllow: /folder\nDisallow: /folder', '/folder/page'))
+        self.assertFalse(can_fetch('User-agent: *\nAllow: /page\nDisallow: /*.htm', '/page.htm'))
+        self.assertFalse(can_fetch('User-agent: *\nDisallow: /*.php$', '/file.php'))
+        self.assertTrue(can_fetch('User-agent: *\nDisallow: /*.php$', '/file.php?v=1'))
 
     def test_reproduces_original_homepage_conflict(self):
         rules = (ROOT / 'robots.txt').read_text()
@@ -48,7 +53,7 @@ class RenderingRobotsTests(unittest.TestCase):
         for url in ('/assets/footer.css?v=20261001',
                     '/assets/case-profile-filters.css?v=20261002',
                     '/assets/case-profile-filters.js?v=20261002',
-                    '/assets/nested/widget.js?v=2', '/', '/recommendations/nth-degree/'):
+                    '/assets/nested/widget.js?v=2', '/', '/recommended/nth-degree-cpas/'):
             self.assertTrue(can_fetch(rules, url), url)
         for url in ('/?v=1', '/services/?v=1', '/assets/data.json?v=1',
                     '/research/source.csv?v=1', '/scripts/private.js?v=1',
