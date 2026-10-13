@@ -1291,6 +1291,60 @@
           "value": "noindex, follow"
         }
       ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-alternatives",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-alternatives/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/collective-vs-nth-degree-cpas",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/collective-vs-nth-degree-cpas/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-tax-alchemy",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-tax-alchemy/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
     }
   ],
   "buildCommand": "node scripts/build-public.cjs && node scripts/brand-check.mjs public && node scripts/consolidate-content.cjs && node scripts/check-nth-degree.cjs",
