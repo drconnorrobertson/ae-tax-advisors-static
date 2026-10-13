@@ -1,5 +1,5 @@
 {
-  "buildCommand": "python3 build.py",
+  "buildCommand": "python3 build.py && node scripts/buyer-intent-release.cjs dist",
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": true,
