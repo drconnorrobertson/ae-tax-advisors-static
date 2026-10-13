@@ -1283,6 +1283,6 @@
       ]
     }
   ],
-  "buildCommand": "node scripts/build-public.cjs && node scripts/brand-check.mjs public && node scripts/consolidate-content.cjs",
+  "buildCommand": "node scripts/build-public.cjs && node scripts/brand-check.mjs public && node scripts/consolidate-content.cjs && node scripts/check-nth-degree.cjs",
   "outputDirectory": "public"
 }
