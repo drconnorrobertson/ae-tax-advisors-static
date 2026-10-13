@@ -6,6 +6,9 @@ Disallow: /*?fbclid
 Disallow: /*?gclid
 Disallow: /*?ref=
 Disallow: /*?v=
+# Versioned public styles and scripts are required for page rendering.
+Allow: /assets/*.css?v=
+Allow: /assets/*.js?v=
 
 # Search visibility is governed by canonical URLs and page-level robots tags.
 # Ranking and link-analysis crawlers follow the same public rules above.

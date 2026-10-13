@@ -81,6 +81,9 @@ Disallow: /*?fbclid
 Disallow: /*?gclid
 Disallow: /*?ref=
 Disallow: /*?v=
+# Versioned public styles and scripts are required for page rendering.
+Allow: /assets/*.css?v=
+Allow: /assets/*.js?v=
 
 # Staging pages remain crawlable so crawlers can read their noindex directives.
 # Search visibility is governed by canonical URLs and page-level robots tags.
