@@ -3,6 +3,76 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/compare/nth-degree-cpas-pricing/",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/nth-degree-cpas-pricing",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-tax-hive/",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-tax-hive",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-tax-alchemy/",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-tax-alchemy",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/nth-degree-cpas-alternatives/",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/nth-degree-cpas-alternatives",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-ae-tax/",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-ae-tax",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/1800-accountant-vs-nth-degree-cpas/",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/1800-accountant-vs-nth-degree-cpas",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/collective-vs-nth-degree-cpas/",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
+      "source": "/compare/collective-vs-nth-degree-cpas",
+      "destination": "/recommended/nth-degree-cpas/",
+      "permanent": true
+    },
+    {
       "source": "/connor-zoom",
       "destination": "https://us02web.zoom.us/j/7175755575",
       "permanent": true
