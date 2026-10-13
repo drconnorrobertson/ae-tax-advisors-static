@@ -42,14 +42,14 @@ PAGES = [
  ('No required renewal does not mean free future work',p('Annual business and personal returns remain separate services. New entities, changed ownership, additional properties, retirement-plan design, amendments and new planning projects may create additional fees. Ask what support is covered during the engagement and how later requests are handled.')),
  ('What an annual retainer should justify',p('A recurring fee should identify continuing work: updated projections, scheduled meetings, implementation review or a defined response commitment. Ask for those deliverables in writing and compare them with the optional services you would otherwise buy.')+scenarios),
  ('What to put in your engagement letter',quote_steps)]),
- ('keystone-cpa-pricing-vs-ae-tax','Keystone CPA Pricing vs AE Tax: $20,000–$55,000 vs $7,800','Keystone publishes $20,000 to $55,000 planning fees. Compare AE’s $7,800 standard engagement with no required annual renewal.',[
+ ('keystone-cpa-pricing-vs-ae-tax','Keystone CPA Pricing vs AE Tax Advisors: $20,000–$55,000 vs $7,800','Keystone publishes $20,000 to $55,000 planning fees. Compare AE’s $7,800 standard engagement with no required annual renewal.',[
  ('The published planning-fee difference',keystone),
  ('Planning cost at a glance',table(verified_rows[:2])+p(SCOPE)),
  ('What can explain a higher quoted fee?',p('Private founder access, the number of entities, the complexity of a property portfolio and the time required for implementation can change a proposal. Keystone describes different service levels and separate tax-return fees. Ask both providers to price your actual facts before concluding that two offers purchase the same work.')),
  ('Questions for real estate investors',p('Ask which professional analyzes passive losses, who implements depreciation changes, whether a Form 3115 or amendment is needed, and which returns are covered. Identify the study fee separately from planning. A published planning price alone does not answer those questions.')),
  ('Compare a written proposal',quote_steps)])]
 for n,slug,url,model in FIRMS:
- PAGES.append((slug+'-pricing-vs-ae-tax',n+' vs AE Tax: Pricing & Scope','Compare '+n+' pricing and renewal terms with AE’s $7,800 engagement and no required annual planning fee.',[
+ PAGES.append((slug+'-pricing-vs-ae-tax',n+' vs AE Tax Advisors: Pricing & Scope','Compare '+n+' pricing and renewal terms with AE’s $7,800 engagement and no required annual planning fee.',[
  ('AE’s fee is clear before the call',p(AE)+p(SCOPE)+p(n+' publicly describes '+model.lower()+'. The current numeric fee was not verified in the official materials reviewed for this pricing refresh. Request a current written quote rather than relying on a generic estimated annual price.')),
  ('Planning price and recurring commitment',table([verified_rows[0],(n,'Written quote required','Ask whether annual planning renewal is mandatory')])+p('<a href="'+url+'">Review '+n+'’s official service description</a>. Public descriptions identify the service model; the engagement letter determines your price and obligations.')),
  ('What a larger proposal needs to include',p('Compare the same business, properties and deliverables. A bundle that includes recurring accounting or financial reporting is a different purchase from a defined tax planning engagement. Ask the firm to separate those components so you can decide whether each is worth buying. Additional fees should identify the work that triggers them, including extra entities, amendments and implementation.')),
@@ -66,7 +66,7 @@ for slug,title,desc,sections in PAGES:
  schemas=[T.article_schema(title=title,description=desc,url=T.SITE+path,published=DATE,modified=DATE,section='Tax Advisory Pricing Comparison',citations=[T.SITE+'/pricing/','https://www.keystonecpa.com/']+[x[2] for x in FIRMS]),T.faq_schema(FAQ),T.breadcrumb_schema([('Home','/'),('Compare','/compare/'),(title,path)])]
  T.write_page(path,T.build_page(title=title,description=desc,path=path,body=body,schemas=schemas,published=DATE,modified=DATE))
 
-# Prominent, consistent commitment text on every AE tax comparison, without rewriting its existing scope.
+# Prominent, consistent commitment text on every AE Tax Advisors comparison, without rewriting its existing scope.
 count=0
 for path in sorted(list((ROOT/'compare').glob('*/index.html'))+[ROOT/'compare/index.html']):
  if any(s in path.parent.name for s in ('bnb','accelerator')): continue

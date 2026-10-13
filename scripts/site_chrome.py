@@ -17,7 +17,7 @@ HEADER = """<body>
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
-                <div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax</a>
+                <div class="dropdown-content"><a href="/about/" class="dropdown-item">About AE Tax Advisors</a>
 <a href="/bios/" class="dropdown-item">Our Team</a>
 </div>
             </div>

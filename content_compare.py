@@ -7,7 +7,7 @@ attacking anyone. Competitor pricing is never invented: where a firm quotes per
 engagement, the table says so.
 """
 
-# Reusable blocks so every page describes AE Tax consistently.
+# Reusable blocks so every page describes AE Tax Advisors consistently.
 
 AE_INTRO = [
  "AE Tax Advisors is a strategic tax advisory firm based in Billings, Montana, working with clients nationwide. The practice centers on business owners, real estate investors, and high-income professionals who have outgrown compliance-only accounting.",
@@ -42,7 +42,7 @@ COMPETITORS = [
 "short": [
  "Madison SPECS is a high-volume cost segregation specialist and does that work well, particularly on commercial and multifamily assets. It is a study provider: you receive an engineering report and take it to whoever prepares your return.",
  "AE Tax Advisors is a tax advisory firm that performs cost segregation as one component of a broader engagement, and then files the return that uses it.",
- "If you already have a CPA you are happy with and simply need a defensible study on a large asset, Madison SPECS is a strong choice. If nobody is analyzing whether you can actually deduct the loss this year, that is the gap AE Tax fills.",
+ "If you already have a CPA you are happy with and simply need a defensible study on a large asset, Madison SPECS is a strong choice. If nobody is analyzing whether you can actually deduct the loss this year, that is the gap AE Tax Advisors fills.",
 ],
 "who": [
  "Madison SPECS is the cost segregation arm of the Madison group of real estate service companies, based in Lakewood, New Jersey. The firm has performed studies across a very large number of properties nationally, with particular depth in multifamily, commercial, and portfolio work.",
@@ -136,7 +136,7 @@ COMPETITORS = [
 "choose_us": "you want a firm that does the planning, the structuring, the filings, and the returns, and treats the study as one part of that rather than the product itself",
 "faqs": [
  ("Is AE Tax Advisors better than Capstan Tax Strategies?",
-  "<p>They occupy different positions. Capstan is a specialty engineering firm that serves CPA firms as a technical partner, with unusual depth on the tangible property regulations. AE Tax Advisors is the advisory firm that would engage a partner like Capstan on a complex asset. On a straightforward property, AE Tax handles the study directly.</p>"),
+  "<p>They occupy different positions. Capstan is a specialty engineering firm that serves CPA firms as a technical partner, with unusual depth on the tangible property regulations. AE Tax Advisors is the advisory firm that would engage a partner like Capstan on a complex asset. On a straightforward property, AE Tax Advisors handles the study directly.</p>"),
  ("What are the tangible property regulations and why do they matter?",
   "<p>They are the rules in Reg. 1.263(a)-3 determining whether spending is a deductible repair or a capitalized improvement, using a betterment, adaptation, and restoration framework plus safe harbors. On a large renovation the distinction can move hundreds of thousands of dollars between an immediate deduction and a 39-year schedule.</p>"),
  ("Does Capstan work directly with property owners?",
@@ -476,7 +476,7 @@ COMPETITORS = [
  ("Is The Real Estate CPA the same as Hall CPA?",
   "<p>Yes. The Real Estate CPA is the public brand associated with Hall CPA. A separate comparison page covers Hall CPA and addresses much of the same ground from the firm perspective.</p>"),
  ("Is AE Tax Advisors better than The Real Estate CPA?",
-  "<p>Both are real specialists in real estate taxation, which puts them well ahead of a generalist firm for this work. The practical difference is breadth: if you also run an operating business where entity structure, reasonable compensation, and retirement plan design matter, AE Tax covers more of that ground. If you are purely an investor and value the education and community model, that is a genuine reason to prefer them.</p>"),
+  "<p>Both are real specialists in real estate taxation, which puts them well ahead of a generalist firm for this work. The practical difference is breadth: if you also run an operating business where entity structure, reasonable compensation, and retirement plan design matter, AE Tax Advisors covers more of that ground. If you are purely an investor and value the education and community model, that is a genuine reason to prefer them.</p>"),
  ("Which is better for short-term rental tax strategy?",
   "<p>Either firm handles this competently, which is not true of most accountants. The strategy hinges on the seven-day average customer use test and material participation documentation, and both firms treat those as core work rather than an unusual request.</p>"),
  ("Do I need a real estate specialist at all?",
