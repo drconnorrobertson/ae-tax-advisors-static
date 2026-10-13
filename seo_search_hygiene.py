@@ -42,7 +42,7 @@ CANONICAL_TARGETS = {
     "strategy": "/advanced-tax-planning-services/",
     "focused-strategies": "/advanced-tax-planning-services/",
     "guide": "/guides/",
-    "resources-2": "/guides/",
+    "resources-2": "/resources/",
     "tax-services": "/services/",
     "long-term-rental-tax-planning-and-preparation-3": "/long-term-rental-tax-planning-and-preparation/",
     "tax-resolution-services-2": "/tax-compliance-irs-representation/",

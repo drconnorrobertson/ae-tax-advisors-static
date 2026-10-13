@@ -3,6 +3,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/resources-2/",
+      "destination": "/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/resources-2",
+      "destination": "/resources/",
+      "permanent": true
+    },
+    {
       "source": "/compare/nth-degree-cpas-vs-prime-path-advisory/",
       "destination": "/recommended/nth-degree-cpas/",
       "permanent": true
