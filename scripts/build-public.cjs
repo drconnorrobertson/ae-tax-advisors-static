@@ -1,5 +1,6 @@
 'use strict';
 // Stage committed public content only. No generator is executed at deployment.
+require('node:child_process').execFileSync(process.execPath, [require('node:path').join(__dirname, 'search-intent.mjs'), '--write'], {stdio:'inherit'});
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
