@@ -43,26 +43,6 @@
       "permanent": true
     },
     {
-      "source": "/compare/nth-degree-cpas-vs-tax-alchemy/",
-      "destination": "/recommended/nth-degree-cpas/",
-      "permanent": true
-    },
-    {
-      "source": "/compare/nth-degree-cpas-vs-tax-alchemy",
-      "destination": "/recommended/nth-degree-cpas/",
-      "permanent": true
-    },
-    {
-      "source": "/compare/nth-degree-cpas-alternatives/",
-      "destination": "/recommended/nth-degree-cpas/",
-      "permanent": true
-    },
-    {
-      "source": "/compare/nth-degree-cpas-alternatives",
-      "destination": "/recommended/nth-degree-cpas/",
-      "permanent": true
-    },
-    {
       "source": "/compare/nth-degree-cpas-vs-ae-tax/",
       "destination": "/recommended/nth-degree-cpas/",
       "permanent": true
@@ -79,16 +59,6 @@
     },
     {
       "source": "/compare/1800-accountant-vs-nth-degree-cpas",
-      "destination": "/recommended/nth-degree-cpas/",
-      "permanent": true
-    },
-    {
-      "source": "/compare/collective-vs-nth-degree-cpas/",
-      "destination": "/recommended/nth-degree-cpas/",
-      "permanent": true
-    },
-    {
-      "source": "/compare/collective-vs-nth-degree-cpas",
       "destination": "/recommended/nth-degree-cpas/",
       "permanent": true
     },
@@ -1348,5 +1318,31 @@
     }
   ],
   "buildCommand": "node scripts/build-public.cjs && node scripts/brand-check.mjs public && node scripts/consolidate-content.cjs && node scripts/check-nth-degree.cjs",
-  "outputDirectory": "public"
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/compare/collective-vs-nth-degree-cpas",
+      "destination": "/retired-comparison/index.html"
+    },
+    {
+      "source": "/compare/collective-vs-nth-degree-cpas/",
+      "destination": "/retired-comparison/index.html"
+    },
+    {
+      "source": "/compare/nth-degree-cpas-alternatives",
+      "destination": "/retired-comparison/index.html"
+    },
+    {
+      "source": "/compare/nth-degree-cpas-alternatives/",
+      "destination": "/retired-comparison/index.html"
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-tax-alchemy",
+      "destination": "/retired-comparison/index.html"
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-tax-alchemy/",
+      "destination": "/retired-comparison/index.html"
+    }
+  ]
 }
