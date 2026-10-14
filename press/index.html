@@ -1006,13 +1006,21 @@
   }
 }
 </script>
-<script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": "https://www.aetaxadvisors.com/#organization",
   "name": "AE Tax Advisors",
   "url": "https://www.aetaxadvisors.com/",
-  "logo": "https://www.aetaxadvisors.com/assets/ae-tax-logo.png",
+  "logo": {
+    "@type": "ImageObject",
+    "@id": "https://www.aetaxadvisors.com/#logo",
+    "url": "https://www.aetaxadvisors.com/assets/ae-tax-logo.png",
+    "contentUrl": "https://www.aetaxadvisors.com/assets/ae-tax-logo.png",
+    "width": 1000,
+    "height": 1000
+  },
   "subjectOf": [
     {
       "@type": "NewsArticle",
@@ -1254,8 +1262,24 @@
       "headline": "How AE Tax Advisors' Three-Year Tax Lookback Can Help Identify Potentially Missed Deductions",
       "url": "https://usinsider.com/how-ae-tax-advisors-three-year-tax-lookback-can-help-identify-potentially-missed-deductions/"
     }
-  ]
-}</script>
+  ],
+  "alternateName": "AE Tax",
+  "telephone": "+1-631-614-5762",
+  "email": "team@aetaxadvisors.com",
+  "sameAs": [
+    "https://www.linkedin.com/company/ae-tax-advisors",
+    "https://www.facebook.com/aetaxadvisors",
+    "https://taxstrategistdirectory.com/firms/ae-tax-advisors/"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "telephone": "+1-631-614-5762",
+    "email": "team@aetaxadvisors.com",
+    "url": "https://www.aetaxadvisors.com/contact/"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
