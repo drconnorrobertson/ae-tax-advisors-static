@@ -1,7 +1,7 @@
 {
   "year-round-business-tax-planning/index.html": {
     "title": "Business Tax Planning: Quarterly Checklist | AE Tax Advisors",
-    "description": "Use a quarterly business tax planning checklist, then review AE Tax Advisors’ advisory scope, implementation responsibilities and engagement fees.",
+    "description": "Use a quarterly business tax planning checklist, then review AE Tax Advisors\u2019 advisory scope, implementation responsibilities and engagement fees.",
     "heading": "Need help implementing your quarterly plan?",
     "body": "<p>A checklist organizes the decisions; an advisory engagement defines who models the options, completes the work and coordinates with your return preparer. Start with <a href=\"/business-owner-small-business-tax/\">business tax planning services</a>, compare <a href=\"/pricing/\">advisory fees and return-preparation scope</a>, and review <a href=\"/case-studies/\">published client case studies</a> in context.</p><p>Bring current financials, owner compensation, your entity list and the next decision deadline. Confirm deliverables and responsibilities in the written engagement.</p><p><a class=\"btn-cta\" href=\"/discovery/\">Discuss My Business Tax Plan</a></p>"
   },
@@ -11,7 +11,7 @@
   },
   "blog/how-much-does-a-cost-segregation-study-cost/index.html": {
     "title": "Cost Segregation Study Cost & Pricing | AE Tax Advisors",
-    "description": "Compare cost segregation study fees, included work and possible extra charges. Review AE Tax Advisors’ published pricing and discuss your property."
+    "description": "Compare cost segregation study fees, included work and possible extra charges. Review AE Tax Advisors\u2019 published pricing and discuss your property."
   },
   "cost-segregation-study-cost-pricing/index.html": {
     "heading": "Move from a published rate to a property-specific scope",
@@ -32,24 +32,24 @@
   },
   "high-net-worth-tax-compliance-and-planning-services/index.html": {
     "title": "High-Net-Worth Tax Planning Services | AE Tax Advisors",
-    "description": "Coordinate business, property and investment tax planning. Review AE Tax Advisors’ engagement process, specialist resources, documentation and fees.",
+    "description": "Coordinate business, property and investment tax planning. Review AE Tax Advisors\u2019 engagement process, specialist resources, documentation and fees.",
     "h1": "High-Net-Worth Tax Planning and Compliance Services"
   },
   "tax-planning-for-high-net-worth-individuals-using-advanced-charitable-strategies/index.html": {
     "heading": "Coordinate this decision with your broader tax plan",
-    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE’s fees and engagement scope</a> before deciding what support to request.</p>"
+    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE\u2019s fees and engagement scope</a> before deciding what support to request.</p>"
   },
   "tax-planning-for-high-net-worth-individuals-facing-large-capital-gains-events/index.html": {
     "heading": "Coordinate this decision with your broader tax plan",
-    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE’s fees and engagement scope</a> before deciding what support to request.</p>"
+    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE\u2019s fees and engagement scope</a> before deciding what support to request.</p>"
   },
   "tax-planning-for-high-net-worth-individuals-with-private-equity-income/index.html": {
     "heading": "Coordinate this decision with your broader tax plan",
-    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE’s fees and engagement scope</a> before deciding what support to request.</p>"
+    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE\u2019s fees and engagement scope</a> before deciding what support to request.</p>"
   },
   "tax-planning-for-high-net-worth-individuals-with-complex-partnership-and-k1-income/index.html": {
     "heading": "Coordinate this decision with your broader tax plan",
-    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE’s fees and engagement scope</a> before deciding what support to request.</p>"
+    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE\u2019s fees and engagement scope</a> before deciding what support to request.</p>"
   },
   "business-owner-small-business-tax/index.html": {
     "title": "Business Tax Planning Services | AE Tax Advisors",
@@ -65,5 +65,10 @@
     "title": "Apartment Cost Segregation: Scope & Fees | AE Tax Advisors",
     "description": "Evaluate apartment and multifamily cost segregation with AE Tax Advisors: building records, renovation phases, study fees and return-preparer coordination.",
     "h1": "Apartment and Multifamily Cost Segregation"
+  },
+  "cost-segregation-study/index.html": {
+    "h1": "Cost Segregation Studies and Tax Planning for Property Owners",
+    "heading": "Compare the study and the tax implementation",
+    "body": "<p>A property study and an owner\u2019s return require different decisions. Compare <a href=\"/compare/the-ambrose-group-vs-ae-tax/\">The Ambrose Group and AE Tax Advisors</a> on study scope, fees, CPA coordination and implementation responsibilities. Review <a href=\"/cost-segregation-study-cost-pricing/\">pricing and scope</a> before commissioning work.</p>"
   }
 }
