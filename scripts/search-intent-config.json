@@ -15,13 +15,16 @@
   },
   "cost-segregation-study-cost-pricing/index.html": {
     "heading": "Move from a published rate to a property-specific scope",
-    "body": "<p>Compare the <a href=\"/blog/how-much-does-a-cost-segregation-study-cost/\">study fee and quote-scope guide</a> with the work your property needs. Bring square footage, purchase and placed-in-service dates, closing records and existing depreciation schedules. Ask the team to identify study work, return implementation and any separately priced work in the written quote.</p><p><a class=\"btn-cta\" href=\"/discovery/\">Discuss Your Property and Study Quote</a></p>"
+    "body": "<p>Compare the <a href=\"/blog/how-much-does-a-cost-segregation-study-cost/\">study fee and quote-scope guide</a> with the work your property needs. Bring square footage, purchase and placed-in-service dates, closing records and existing depreciation schedules. Ask the team to identify study work, return implementation and any separately priced work in the written quote.</p><p><a class=\"btn-cta\" href=\"/discovery/\">Discuss Your Property and Study Quote</a></p>",
+    "title": "Cost Segregation Study Pricing | AE Tax Advisors",
+    "description": "AE Tax Advisors study pricing: $1 per square foot, $2,000 minimum. Compare report scope, preparer handoff and separately priced implementation work."
   },
   "cost-segregation-airbnb/index.html": {
-    "title": "Airbnb Cost Segregation Study Services | AE Tax",
+    "title": "Airbnb Cost Segregation Study Services | AE Tax Advisors",
     "description": "Review an Airbnb cost segregation study, required property records, report scope, preparer coordination and published fees with AE Tax Advisors.",
     "heading": "Prepare for an Airbnb study review",
-    "body": "<p>Bring closing records, a supported land allocation, improvement invoices, the placed-in-service date and any prior depreciation schedules. Discuss the report deliverables, who will implement the study on the return, and what support is included in your quote.</p><p>Start with the <a href=\"/blog/cost-segregation-for-airbnb-short-term-rental-properties/\">Airbnb and short-term-rental study guide</a>, review <a href=\"/cost-segregation-study-cost-pricing/\">study pricing and scope</a>, and coordinate the broader <a href=\"/short-term-rental-tax-strategy/\">STR tax strategy</a> with your tax adviser.</p><p><a class=\"btn-cta\" href=\"/discovery/\">Review My STR Property</a></p>"
+    "body": "<p>Bring closing records, a supported land allocation, improvement invoices, the placed-in-service date and any prior depreciation schedules. Discuss the report deliverables, who will implement the study on the return, and what support is included in your quote.</p><p>Start with the <a href=\"/blog/cost-segregation-for-airbnb-short-term-rental-properties/\">Airbnb and short-term-rental study guide</a>, review <a href=\"/cost-segregation-study-cost-pricing/\">study pricing and scope</a>, and coordinate the broader <a href=\"/short-term-rental-tax-strategy/\">STR tax strategy</a> with your tax adviser.</p><p><a class=\"btn-cta\" href=\"/discovery/\">Review My STR Property</a></p>",
+    "h1": "Airbnb Cost Segregation Study Services"
   },
   "blog/cost-segregation-for-airbnb-short-term-rental-properties/index.html": {
     "heading": "Ready to evaluate a study for your property?",
@@ -49,7 +52,18 @@
     "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE’s fees and engagement scope</a> before deciding what support to request.</p>"
   },
   "business-owner-small-business-tax/index.html": {
-    "title": "Business Tax Planning Services for Owners | AE Tax",
-    "description": "Review business tax planning for profitable owners: forecasts, entity and compensation decisions, implementation responsibilities and advisory fees."
+    "title": "Business Tax Planning Services | AE Tax Advisors",
+    "description": "Coordinate business tax planning, owner decisions and implementation with AE Tax Advisors. Review advisory scope, published fees and records to prepare.",
+    "h1": "Business Tax Planning for Profitable Owners"
+  },
+  "compare/prime-path-advisory-alternatives/index.html": {
+    "title": "Prime Path Advisory Alternatives & Service Review (2026)",
+    "description": "Review Prime Path Advisory services, implementation, fee questions and alternatives. Compare client fit and written scope with AE Tax Advisors.",
+    "h1": "Prime Path Advisory Alternatives and Service Review"
+  },
+  "blog/cost-segregation-multifamily-apartment-buildings/index.html": {
+    "title": "Apartment Cost Segregation: Scope & Fees | AE Tax Advisors",
+    "description": "Evaluate apartment and multifamily cost segregation with AE Tax Advisors: building records, renovation phases, study fees and return-preparer coordination.",
+    "h1": "Apartment and Multifamily Cost Segregation"
   }
 }
