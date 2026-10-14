@@ -24,6 +24,7 @@ DATE = "2026-09-26"
 PATH = "/research/tax-planning-case-study-outcomes/"
 JSON_PATH = "/research/tax-planning-case-study-outcomes.json"
 CSV_PATH = "/research/tax-planning-case-study-outcomes.csv"
+DATASET_ID = T.SITE + PATH + "#dataset"
 
 
 class TableParser(HTMLParser):
@@ -169,8 +170,8 @@ def report_html(originals, rows, generated_count):
         T.related_section([("/case-studies/", "Browse All Case Studies"), ("/compare/tax-advisor-fit-assessment/", "Tax Advisor Fit Assessment"), ("/compare/proactive-tax-advisor-pricing-guide/", "Proactive Tax Advisor Pricing Guide"), ("/business-tax-second-opinion/", "Business Tax Second Opinion")]),
     ])
     schemas = [
-        T.article_schema(title="Tax Planning Case Study Outcomes Report (2026)", description=f"Analysis of {count} comparable AE Tax Advisors case studies, including median and average reported annual tax savings, distribution, methodology, and downloadable data.", url=T.SITE + PATH, published=DATE, modified=DATE, section="Tax Research", keywords=["tax planning case studies", "tax savings case studies", "tax advisory outcomes"], about=[{"@type": "Dataset", "name": "AE Tax Advisors published case-study outcomes cohort", "url": T.SITE + JSON_PATH}], citations=[T.SITE + r["url"].replace(T.SITE, "") for r in rows]),
-        {"@context": "https://schema.org", "@type": "Dataset", "name": "AE Tax Advisors Tax Planning Case Study Outcomes", "description": f"{count} original published case studies with a comparable annual tax-savings measure.", "url": T.SITE + JSON_PATH, "dateModified": DATE, "creator": {"@type": "Organization", "name": "AE Tax Advisors", "url": T.SITE + "/"}, "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": T.SITE + JSON_PATH}, {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": T.SITE + CSV_PATH}], "variableMeasured": ["Annual tax savings", "Industry", "Key metric"]},
+        T.article_schema(title="Tax Planning Case Study Outcomes Report (2026)", description=f"Analysis of {count} comparable AE Tax Advisors case studies, including median and average reported annual tax savings, distribution, methodology, and downloadable data.", url=T.SITE + PATH, published=DATE, modified=DATE, section="Tax Research", keywords=["tax planning case studies", "tax savings case studies", "tax advisory outcomes"], about=[{"@id": DATASET_ID}], citations=[T.SITE + r["url"].replace(T.SITE, "") for r in rows]),
+        {"@context": "https://schema.org", "@type": "Dataset", "@id": DATASET_ID, "name": "AE Tax Advisors Tax Planning Case Study Outcomes", "description": f"{count} original published case studies with a comparable annual tax-savings measure.", "url": T.SITE + JSON_PATH, "dateModified": DATE, "creator": {"@type": "Organization", "name": "AE Tax Advisors", "url": T.SITE + "/"}, "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": T.SITE + JSON_PATH}, {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": T.SITE + CSV_PATH}], "variableMeasured": ["Annual tax savings", "Industry", "Key metric"]},
         T.faq_schema(faqs),
         T.breadcrumb_schema([("Home", "/"), ("Research", "/research/"), ("Case Study Outcomes", PATH)]),
     ]
