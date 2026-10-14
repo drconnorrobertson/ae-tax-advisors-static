@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 build-report.json
 .vercel/
+
+data/public-source-enrichment.json
