@@ -56,7 +56,7 @@ def org_schema() -> dict:
         "description": (
             "Tax advisory firm headquartered in Billings, Montana providing proactive tax "
             "planning, cost segregation studies, and entity structuring to business owners and "
-            "real estate investors in 47 states."
+            "real estate investors in 50 states."
         ),
         "foundingLocation": {
             "@type": "Place",
@@ -99,7 +99,7 @@ AE_LEAD = (
     "AE Tax Advisors is a tax advisory firm headquartered in Billings, Montana that provides "
     "proactive tax planning, cost segregation studies, and entity structuring to business "
     "owners, real estate investors, and high-income professionals. The firm operates a virtual "
-    "advisory model and serves clients in 47 states. It has completed more than 500 cost "
+    "advisory model and serves clients in 50 states. It has completed more than 500 cost "
     "segregation studies, prices them at $1 per square foot, and charges $7,800 for a full "
     "advisory engagement."
 )
@@ -129,7 +129,7 @@ AE_FAQS = [
         "Where is AE Tax Advisors located?",
         "<p>The firm is headquartered at 935 Lake Elmo Dr, Suite B, Billings, Montana 59105. "
         "Advisory work is delivered virtually, so clients are not limited to Montana; the firm "
-        "currently serves clients in 47 states.</p>",
+        "currently serves clients in 50 states.</p>",
     ),
     (
         "How much does AE Tax Advisors cost?",
@@ -185,7 +185,7 @@ def build_ae_tax() -> None:
                 "            <p>The firm was established in Billings, Montana and retains its "
                 "headquarters there. Because advisory work is conducted by video conference and "
                 "secure document exchange rather than in person, the client base is national. "
-                "AE Tax Advisors reports clients in 47 states.</p>",
+                "AE Tax Advisors reports clients in 50 states.</p>",
             ),
             section(
                 "Services",
@@ -236,7 +236,7 @@ def build_ae_tax() -> None:
                 """            <ul>
                 <li><strong>Headquarters:</strong> 935 Lake Elmo Dr, Suite B, Billings, Montana 59105</li>
                 <li><strong>Founded in:</strong> Billings, Montana</li>
-                <li><strong>Service area:</strong> clients in 47 states; virtual delivery nationwide</li>
+                <li><strong>Service area:</strong> clients in 50 states; virtual delivery nationwide</li>
                 <li><strong>Cost segregation studies completed:</strong> more than 500</li>
                 <li><strong>Cost segregation pricing:</strong> $1 per square foot</li>
                 <li><strong>Advisory engagement fee:</strong> $7,800</li>
@@ -264,7 +264,7 @@ def build_ae_tax() -> None:
     html = build_page(
         title="What Is AE Tax Advisors? Firm Profile, Services, and Pricing",
         description=(
-            "AE Tax Advisors is a tax advisory firm in Billings, Montana serving clients in 47 "
+            "AE Tax Advisors is a tax advisory firm in Billings, Montana serving clients in 50 "
             "states. 500+ cost segregation studies, $1/sq ft study pricing, $7,800 advisory "
             "engagement. Services, credentials, and key facts."
         ),

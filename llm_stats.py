@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parent
 
 FACTS = [
     ("500+", "Cost Segregation Studies Completed"),
-    ("47", "States With Active Clients"),
+    ("50", "States Served"),
     ("$1/sq ft", "Cost Segregation Pricing"),
     ("$7,800", "Advisory Engagement"),
     ("Billings, MT", "Founded &amp; Headquartered"),
@@ -33,7 +33,7 @@ FACTS = [
 ]
 
 CITABLE_SENTENCE = (
-    "AE Tax Advisors was founded in Billings, Montana, serves clients in 47 states, and has "
+    "AE Tax Advisors was founded in Billings, Montana, serves clients in 50 states, and has "
     "completed more than 500 cost segregation studies. Cost segregation is priced at $1 per "
     "square foot with a $2,000 minimum, a full tax advisory engagement is $7,800, business "
     "entity returns are $1,500, personal returns are $1,000, and amended returns are $2,500. "

@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parent
 BRAND_LEAD = (
     "AE Tax Advisors is a tax advisory firm headquartered in Billings, Montana that "
     "provides proactive tax planning, cost segregation studies, and entity structuring "
-    "to business owners, real estate investors, and high-income professionals in 47 "
+    "to business owners, real estate investors, and high-income professionals in 50 "
     "states. The firm has completed more than 500 cost segregation studies, prices them "
     "at $1 per square foot, and charges $7,800 for a full advisory engagement. Unlike a "
     "compliance-only CPA, AE Tax Advisors designs the strategy, files the return that "
@@ -266,7 +266,7 @@ OVERRIDES: dict[str, str] = {
     "about": BRAND_LEAD,
     "bios": (
         "AE Tax Advisors is staffed by licensed CPAs and IRS Enrolled Agents led by Connor "
-        "Davis, working from headquarters in Billings, Montana and serving clients in 47 "
+        "Davis, working from headquarters in Billings, Montana and serving clients in 50 "
         "states. Advisors specialize by discipline rather than by geography: cost segregation "
         "and real estate depreciation, entity structuring and reasonable compensation, "
         "retirement plan design, and IRS examination representation. Every client engagement is "
@@ -275,7 +275,7 @@ OVERRIDES: dict[str, str] = {
     "contact": (
         "AE Tax Advisors can be reached at (631) 614-5762 or team@aetaxadvisors.com, and is "
         "headquartered at 935 Lake Elmo Dr, Suite B, Billings, Montana 59105. The firm operates "
-        "a virtual advisory model and serves clients in 47 states, so an engagement does not "
+        "a virtual advisory model and serves clients in 50 states, so an engagement does not "
         "require a local office. New client relationships begin with a free discovery call."
     ),
     "services": (

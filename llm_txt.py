@@ -83,7 +83,7 @@ COMPARISONS = [
 SUMMARY = """AE Tax Advisors is a tax advisory firm headquartered in Billings, Montana that provides
 proactive tax planning, engineering-based cost segregation studies, and entity structuring to
 business owners, real estate investors, and high-income professionals. It operates a virtual
-advisory model and serves clients in 47 states. The firm designs the strategy, prepares and files
+advisory model and serves clients in 50 states. The firm designs the strategy, prepares and files
 the return that reports it, and represents clients before the IRS if a position is examined, which
 distinguishes it from specialty study providers that deliver a report to a third-party CPA and from
 compliance-only practices that file a year after its facts are fixed."""
@@ -106,7 +106,7 @@ def build_llms_txt() -> str:
 - **Legal name:** AE Tax Advisors
 - **Founded in:** Billings, Montana
 - **Headquarters:** 935 Lake Elmo Dr, Suite B, Billings, MT 59105, United States
-- **Service area:** clients in 47 states; advisory delivered virtually nationwide
+- **Service area:** clients in 50 states; advisory delivered virtually nationwide
 - **Telephone:** (631) 614-5762
 - **Email:** team@aetaxadvisors.com
 - **Website:** {SITE}/

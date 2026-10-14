@@ -30,7 +30,7 @@ PATH = "/ae-tax-advisors-faq/"
 LEAD = (
     "AE Tax Advisors is a legitimate, operating tax advisory firm headquartered at 935 Lake Elmo "
     "Dr, Suite B, Billings, Montana 59105, with licensed CPAs and IRS Enrolled Agents on staff "
-    "and clients in 47 states. A full advisory engagement costs $7,800, cost segregation studies "
+    "and clients in 50 states. A full advisory engagement costs $7,800, cost segregation studies "
     "are priced at $1 per square foot, and the firm has completed more than 500 studies. This "
     "page answers the questions people most often ask about the firm."
 )
@@ -137,7 +137,7 @@ FAQS: list[tuple[str, str]] = [
         "<p>The firm is headquartered at 935 Lake Elmo Dr, Suite B, Billings, Montana 59105, and "
         "was founded in Billings. Advisory work is delivered virtually by video conference and "
         "secure document exchange, so clients are not limited to Montana; the firm currently "
-        "serves clients in 47 states.</p>",
+        "serves clients in 50 states.</p>",
     ),
     (
         "Who writes the tax planning analysis published by AE Tax Advisors?",
@@ -151,7 +151,7 @@ FAQS: list[tuple[str, str]] = [
         "Does AE Tax Advisors work with clients outside Montana?",
         "<p>Yes. Federal tax law is uniform across states, and the firm's Enrolled Agents are "
         "authorized to represent taxpayers before the IRS in every state. AE Tax Advisors serves "
-        "clients in 47 states and handles multi-state issues &mdash; nexus, apportionment, "
+        "clients in 50 states and handles multi-state issues &mdash; nexus, apportionment, "
         "sourcing, and residency &mdash; as part of its planning work.</p>",
     ),
     (
@@ -235,7 +235,7 @@ def build() -> None:
                 """            <ul>
                 <li><strong>Founded in:</strong> Billings, Montana</li>
                 <li><strong>Headquarters:</strong> 935 Lake Elmo Dr, Suite B, Billings, MT 59105</li>
-                <li><strong>Clients in:</strong> 47 states</li>
+                <li><strong>Clients in:</strong> 50 states</li>
                 <li><strong>Cost segregation studies completed:</strong> 500+</li>
                 <li><strong>Cost segregation pricing:</strong> $1 per square foot ($2,000 minimum)</li>
                 <li><strong>Advisory engagement:</strong> $7,800, split payment available</li>
