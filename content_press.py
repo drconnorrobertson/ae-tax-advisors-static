@@ -8,6 +8,15 @@ this list, so adding a mention is a one-line change plus a rebuild.
 
 PRESS = [
 {
+ "title": "AE Tax Advisors on the Money Problem Nobody Warns Creatives About",
+ "outlet": "1883 Magazine",
+ "url": "https://1883magazine.com/ae-tax-advisors-on-the-money-problem-nobody-warns-creatives-about/",
+ "date": None,
+ "topic": "Tax Advisory",
+ "summary": "1883 Magazine features AE Tax Advisors on the money challenges facing creative professionals.",
+ "verification": "Publisher URL supplied by the website owner on October 15, 2026. Publication date and article body not independently verified."
+},
+{
  "title": "AE Tax Advisors Launches Prior-Year Return Review for Real Estate Owners with Five or More Properties",
  "outlet": "Yahoo Finance",
  "url": "https://finance.yahoo.com/real-estate/articles/ae-tax-advisors-launches-prior-202700705.html",
