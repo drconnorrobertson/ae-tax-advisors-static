@@ -3201,3 +3201,12 @@ main:focus { outline: none; }
         overflow-wrap: anywhere;
     }
 }
+/* Legacy content uses these names; keep spacing and CTAs consistent with
+   the standard content-section and btn-cta templates. */
+main section.section:not(.content-section):not(.page-header) { padding: 56px 24px; }
+main section.section:not(.content-section):not(.page-header) > .container { max-width: 1100px; margin-inline: auto; }
+main section.section:not(.content-section):not(.page-header) h2 { text-align: left; }
+main section.section:not(.content-section):not(.page-header) p { margin-bottom: 18px; line-height: 1.75; }
+a.btn.btn-primary { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 14px 24px; background: #bba36a; color: #102231; font-weight: 700; text-decoration: none; border: 1px solid #bba36a; border-radius: 3px; line-height: 1.4; }
+a.btn.btn-primary:hover { background: #d2bd88; }
+a.btn.btn-primary:focus-visible { outline: 3px solid #786330; outline-offset: 4px; }
