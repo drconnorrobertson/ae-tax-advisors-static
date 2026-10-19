@@ -1,0 +1,16 @@
+/* Shared editorial pages use the homepage's type, navigation and color tokens. */
+.ae-editorial > header .header-inner{min-height:72px;height:auto;padding-top:12px;padding-bottom:12px}
+.ae-editorial > header .logo img{height:40px;width:auto;max-width:180px;object-fit:contain}
+.ae-editorial main .page-header{padding:64px 24px}
+.ae-editorial main .page-header h1{font-family:var(--font-heading,'Playfair Display',serif);font-size:clamp(30px,3.4vw,48px);line-height:1.2;max-width:22ch;margin:0 auto 20px;overflow-wrap:break-word}
+.ae-editorial main .page-header .subtitle{max-width:68ch;line-height:1.7;margin:0 auto}
+.ae-editorial main .page-header .cta-buttons{margin-top:24px}
+.ae-editorial main .page-header .breadcrumb{margin-bottom:24px;line-height:1.6;overflow-wrap:anywhere}
+.ae-editorial main .page-header .breadcrumb a{color:#e7cf97;text-decoration:underline;text-underline-offset:3px}
+.ae-planning-links{padding:40px 24px;background:var(--light-bg,#f7f5ef)}
+.ae-planning-links h2{margin-bottom:16px}
+.ae-planning-links ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:16px;list-style:none;padding:0}
+.ae-planning-links li{padding:20px;border:1px solid #d9d5ca;border-radius:8px;background:#fff}
+.ae-planning-links a{font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.ae-planning-links li p{margin:10px 0 0;line-height:1.7}
+@media(max-width:760px){.ae-editorial main .page-header{padding:40px 16px}.ae-editorial main .page-header h1{font-size:clamp(28px,7vw,36px)}.ae-planning-links{padding:32px 16px}}
