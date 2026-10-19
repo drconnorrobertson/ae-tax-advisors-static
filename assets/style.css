@@ -3163,3 +3163,45 @@ main:focus { outline: none; }
   .comparison-article h3 { font-size: 20px; }
   .comparison-pricing { padding: 20px; }
 }
+
+/* Editorial callouts: legacy light cards must not inherit dark-header text. */
+.page-header .compact-booking-cta,
+.page-header [style*="background: #f0f4ff"],
+.page-header [style*="background:#f0f4ff"] {
+    color: #1f2937;
+}
+.page-header .compact-booking-cta p,
+.page-header [style*="background: #f0f4ff"] p,
+.page-header [style*="background:#f0f4ff"] p {
+    color: #1f2937;
+    opacity: 1;
+    margin: 0 auto 20px;
+    line-height: 1.7;
+}
+.page-header .compact-booking-cta h2,
+.page-header .compact-booking-cta h3 {
+    color: #1e3a8a;
+    line-height: 1.25;
+    margin-bottom: 16px;
+    text-wrap: balance;
+}
+.page-header .compact-booking-cta a:not(.btn-cta),
+.page-header [style*="background: #f0f4ff"] a:not(.btn-cta),
+.page-header [style*="background:#f0f4ff"] a:not(.btn-cta) {
+    color: #244a7b;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.page-header .breadcrumbs,
+.page-header .breadcrumb { color: #cbd5e1; }
+@media (max-width: 600px) {
+    .page-header .compact-booking-cta { padding: 24px 20px !important; }
+    .page-header .compact-booking-cta h2,
+    .page-header .compact-booking-cta h3 { font-size: 26px; }
+    .page-header .compact-booking-cta p { font-size: 16px; }
+    .page-header .compact-booking-cta .btn-cta {
+        max-width: 100%;
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
+}
