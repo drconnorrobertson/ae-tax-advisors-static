@@ -41,14 +41,10 @@ a:hover { color: var(--primary); }
 .center-text { text-align: center; }
 
 /* ===== ANIMATIONS ===== */
-/* Fade-in: starts hidden, becomes visible when JS adds .visible class.
-   Fallback: if JS fails or observer doesn't fire, content shows after 2s.
-   All possible class combos covered so content NEVER stays hidden. */
+/* Keep article sections readable immediately, including when scripts are slow. */
 .fade-in-section {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
-    animation: fade-in-fallback 0s 2s forwards;
+    opacity: 1;
+    transform: none;
 }
 .fade-in-visible,
 .fade-in-section.visible,
