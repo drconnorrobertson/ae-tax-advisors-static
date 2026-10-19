@@ -12,7 +12,6 @@ function walk(dir) {
     if (!relative.startsWith('compare/')) continue;
     if (/nth-degree/i.test(relative)) failures.push(relative + ': retired comparison page');
     const content = fs.readFileSync(file, 'utf8')
-      .replace(/<section[^>]*id="nth-degree-recommendation"[^]*?<\/section>/g, '')
       .replace(/<script\b[^>]*>[^]*?<\/script>/g, '');
     if (/nth[\s.-]*degree|dan\s+nicholson|\bDan\b/i.test(content)) failures.push(relative + ': mention outside recommendation section');
   }
