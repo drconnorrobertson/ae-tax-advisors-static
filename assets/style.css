@@ -785,10 +785,12 @@ section h2 {
 .page-header-icon { font-size: 48px; margin-bottom: 16px; }
 
 /* ===== CONTENT ===== */
-.content-section { padding: 60px 24px; }
+.content-section { padding: 32px 24px; }
 .content-section h2 { text-align: left; font-size: 28px; margin: 40px 0 16px; font-weight: 700; }
-.content-section h2:first-of-type { margin-top: 24px; }
+.content-section h2:first-child { margin-top: 0; }
 .content-section p { margin-bottom: 16px; color: var(--medium); }
+/* Avoid stacking trailing paragraph/card margins on the next section's padding. */
+.content-section > .container > :last-child { margin-bottom: 0; }
 .lead-text { font-size: 18px; line-height: 1.8; color: var(--dark); }
 
 /* ===== BENEFITS SECTION ===== */
@@ -847,13 +849,14 @@ section h2 {
 .faq-section { padding: 0 24px 60px; }
 .faq-section h2 { text-align: left; font-size: 28px; margin-bottom: 24px; }
 .faq-item {
-    margin-bottom: 24px;
-    padding: 24px;
+    margin-bottom: 16px;
+    padding: 20px;
     background: var(--light-bg);
     border-radius: var(--radius);
 }
 .faq-item h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; color: var(--dark); }
 .faq-item p { color: var(--medium); font-size: 15px; line-height: 1.7; }
+.faq-item:last-child, .faq-item > :last-child { margin-bottom: 0; }
 
 /* ===== CONTACT PAGE ===== */
 .contact-section { padding: 60px 24px; }
@@ -905,11 +908,11 @@ section h2 {
 .map-section { padding: 0 24px 60px; }
 
 /* ===== BLOG POST ===== */
-.blog-post { padding: 40px 24px 80px; }
+.blog-post { padding: 32px 24px 40px; }
 .breadcrumbs { font-size: 14px; color: var(--medium); margin-bottom: 24px; }
 .breadcrumbs a { color: var(--accent); }
 .blog-post h1 { font-family: var(--font-heading); font-size: 38px; font-weight: 800; margin-bottom: 12px; color: var(--dark); letter-spacing: -0.02em; }
-.post-meta { font-size: 14px; color: var(--medium); margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid #e5e7eb; }
+.post-meta { font-size: 14px; color: var(--medium); margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid #e5e7eb; }
 .post-content h2 { font-family: var(--font-heading); font-size: 24px; margin: 32px 0 12px; color: var(--dark); text-align: left; font-weight: 700; }
 .post-content p { margin-bottom: 16px; color: var(--medium); }
 .post-cta { text-align: center; margin-top: 48px; padding-top: 32px; border-top: 1px solid #e5e7eb; }
@@ -1254,7 +1257,7 @@ iframe {
     }
 
     .content-section {
-        padding: 40px 16px;
+        padding: 24px 16px;
     }
 
     .how-it-works {
