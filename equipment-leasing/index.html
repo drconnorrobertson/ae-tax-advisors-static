@@ -157,7 +157,7 @@
       "name": "What happens if I sell the equipment before the lease is paid off?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Two things happen at once. On the financing side, the outstanding balance becomes due and is typically paid from the sale proceeds at closing. On the tax side, you face depreciation recapture. Because you already deducted the full cost, your adjusted basis is at or near zero, so most of the sale price is recaptured as ordinary income under IRC Sec. 1245, not as capital gain. Selling a fully expensed $500,000 excavator for $300,000 generally creates $300,000 of ordinary income in the year of sale. This is a timing consequence rather than a penalty, and it can be managed with a like-kind exchange of real property in limited cases, an installment structure, or by pairing the sale year with a replacement purchase that generates offsetting deductions."
+        "text": "Two things happen at once. On the financing side, the outstanding balance becomes due and is typically paid from the sale proceeds at closing. On the tax side, you face depreciation recapture. Because you already deducted the full cost, your adjusted basis is at or near zero, so most of the sale price is recaptured as ordinary income under IRC Sec. 1245, not as capital gain. Selling a fully expensed $500,000 excavator for $300,000 generally creates $300,000 of ordinary income in the year of sale. This is a timing consequence rather than a penalty, and requires planning for recapture, financing obligations, and any replacement purchase."
       }
     },
     {
@@ -165,7 +165,7 @@
       "name": "Is there a limit on how much equipment I can write off?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Section 179 is capped. The 2025 limit is $1,220,000 with a dollar-for-dollar phase-out once total equipment placed in service exceeds $3,050,000, and the deduction cannot exceed your aggregate business taxable income. The 2026 inflation-adjusted figures are $1,250,000 and $3,130,000. Bonus depreciation has no dollar cap and no phase-out threshold, and under the One Big Beautiful Bill Act it is 100% on a permanent basis. That is why a fleet buyer spending $4 million uses bonus depreciation rather than Section 179: the cap and the income limitation simply do not apply."
+        "text": "Section 179 is capped. The 2025 limit is $2,500,000 with a dollar-for-dollar phase-out once total equipment placed in service exceeds $4,000,000, and the deduction cannot exceed your aggregate business taxable income. The 2026 inflation-adjusted figures are $2,560,000 and $4,090,000. Bonus depreciation has no dollar cap and no phase-out threshold, and under the One Big Beautiful Bill Act it is 100% on a permanent basis. That is why a fleet buyer spending $4 million uses bonus depreciation rather than Section 179: the cap and the income limitation simply do not apply."
       }
     },
     {
@@ -181,289 +181,7 @@
     </script>
 
     <link rel="stylesheet" href="/assets/style.css">
-<style>
-    :root {
-        --ink: #1b2a4a;
-        --ink-soft: #4a5157;
-        --ink-faint: #737b82;
-        --paper: #FFFFFF;
-        --paper-deep: #F8F9FA;
-        --card: #ffffff;
-        --brass: #C5A55A;
-        --brass-soft: #D4B87A;
-        --brass-wash: #FAF6EC;
-        --forest: #1B2A4A;
-        --forest-soft: #2A4060;
-        --line: #E5E7EB;
-        --radius: 14px;
-        --shadow: 0 1px 2px rgba(22,25,28,.05), 0 12px 32px rgba(22,25,28,.06);
-        --maxw: 1120px;
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
-    body {
-        margin: 0;
-        background: var(--paper);
-        color: var(--ink);
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-        font-size: 17px;
-        line-height: 1.7;
-        -webkit-font-smoothing: antialiased;
-    }
-    h1, h2, h3, h4 {
-        font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
-        color: var(--ink);
-        line-height: 1.15;
-        margin: 0 0 .6em;
-        font-weight: 600;
-        letter-spacing: -.01em;
-    }
-    p { margin: 0 0 1.1em; }
-    a { color: var(--forest); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
-    a:hover { color: var(--brass); }
-    strong { font-weight: 700; }
-
-    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
-    .narrow { max-width: 780px; margin: 0 auto; }
-    section { padding: 84px 0; }
-    .section-alt { background: var(--paper-deep); }
-    .section-ink { background: var(--forest); color: #f8f9fa; }
-    .section-ink h2, .section-ink h3 { color: #fff; }
-    .section-ink a { color: var(--brass-soft); }
-
-    .eyebrow {
-        font-size: 12.5px;
-        font-weight: 700;
-        letter-spacing: .16em;
-        text-transform: uppercase;
-        color: var(--brass);
-        margin: 0 0 16px;
-        font-family: 'Inter', sans-serif;
-    }
-    .section-ink .eyebrow { color: var(--brass-soft); }
-    h2 { font-size: clamp(28px, 3.6vw, 40px); }
-    h3 { font-size: clamp(20px, 2.2vw, 24px); }
-    .lede { font-size: 19px; color: var(--ink-soft); }
-    .section-ink .lede { color: #e5e7eb; }
-
-    /* Top bar */
-    .topbar {
-        background: var(--forest);
-        color: #f8f9fa;
-        padding: 14px 0;
-        font-size: 14.5px;
-    }
-    .topbar-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
-    .topbar a { color: #f8f9fa; text-decoration: none; }
-    .topbar .brand { font-family: 'Playfair Display', serif; font-size: 19px; font-weight: 700; letter-spacing: -.01em; }
-    .topbar .brand span { color: var(--brass-soft); }
-    .topbar-links { display: flex; gap: 22px; align-items: center; }
-    .topbar-links a:hover { color: var(--brass-soft); }
-
-    /* Hero */
-    .hero {
-        background: linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
-        border-bottom: 1px solid var(--line);
-        padding: 88px 0 76px;
-    }
-    .hero h1 {
-        font-size: clamp(36px, 5.6vw, 62px);
-        font-weight: 700;
-        max-width: 16ch;
-        margin-bottom: 24px;
-    }
-    .hero h1 em { font-style: normal; color: var(--brass); }
-    .hero .sub { font-size: clamp(18px, 2vw, 22px); color: var(--ink-soft); max-width: 62ch; margin-bottom: 32px; }
-    .hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 34px; }
-    .badge {
-        background: var(--brass-wash);
-        border: 1px solid var(--brass-soft);
-        color: #8a742f;
-        border-radius: 999px;
-        padding: 7px 15px;
-        font-size: 13.5px;
-        font-weight: 600;
-    }
-    .cta-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
-    .btn {
-        display: inline-block;
-        background: var(--forest);
-        color: #fff;
-        padding: 15px 30px;
-        border-radius: 999px;
-        font-weight: 700;
-        font-size: 16px;
-        text-decoration: none;
-        border: 1px solid var(--forest);
-        transition: background .18s ease, transform .18s ease;
-    }
-    .btn:hover { background: var(--forest-soft); color: #fff; transform: translateY(-1px); }
-    .btn-alt { background: transparent; color: var(--forest); border-color: var(--forest); }
-    .btn-alt:hover { background: var(--forest); color: #fff; }
-    .btn-brass { background: var(--brass); border-color: var(--brass); color: #1b2a4a; }
-    .btn-brass:hover { background: #c19a45; color: #1b2a4a; }
-
-    /* Cards + grids */
-    .grid { display: grid; gap: 22px; }
-    .g2 { grid-template-columns: repeat(2, 1fr); }
-    .g3 { grid-template-columns: repeat(3, 1fr); }
-    .card {
-        background: var(--card);
-        border: 1px solid var(--line);
-        border-radius: var(--radius);
-        padding: 28px;
-        box-shadow: var(--shadow);
-    }
-    .card h3 { margin-bottom: 10px; }
-    .card p:last-child { margin-bottom: 0; }
-    .card ul { margin: 0; padding-left: 20px; color: var(--ink-soft); }
-    .card li { margin-bottom: 6px; }
-
-    /* Math panel */
-    .math {
-        background: var(--card);
-        border: 1px solid var(--line);
-        border-top: 4px solid var(--brass);
-        border-radius: var(--radius);
-        padding: 32px;
-        box-shadow: var(--shadow);
-    }
-    .math h3 { font-size: 24px; margin-bottom: 4px; }
-    .math .tag { font-size: 13px; text-transform: uppercase; letter-spacing: .12em; color: var(--brass); font-weight: 700; margin-bottom: 14px; }
-    .line-item {
-        display: flex; justify-content: space-between; gap: 16px;
-        padding: 12px 0; border-bottom: 1px dashed var(--line);
-        font-size: 16.5px;
-    }
-    .line-item span:last-child { font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
-    .line-item.total { border-bottom: none; border-top: 2px solid var(--ink); margin-top: 8px; padding-top: 16px; font-size: 18px; font-weight: 700; }
-    .line-item.total span:last-child { color: var(--forest); font-size: 20px; }
-    .line-item.credit span:last-child { color: var(--forest); }
-    .line-item.debit span:last-child { color: #C5A55A; }
-    .math-note { font-size: 14.5px; color: var(--ink-faint); margin: 16px 0 0; }
-
-    .netbar {
-        margin-top: 22px;
-        background: var(--forest);
-        color: #fff;
-        border-radius: 10px;
-        padding: 18px 22px;
-        display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap;
-    }
-    .netbar strong { font-family: 'Playfair Display', serif; font-size: 26px; color: var(--brass-soft); }
-
-    /* Steps */
-    .steps { counter-reset: step; display: grid; gap: 18px; }
-    .step {
-        display: grid; grid-template-columns: 62px 1fr; gap: 22px; align-items: start;
-        background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
-        padding: 26px 28px; box-shadow: var(--shadow);
-    }
-    .step-num {
-        font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 700;
-        width: 62px; height: 62px; border-radius: 50%;
-        background: var(--brass-wash); border: 1px solid var(--brass-soft); color: var(--brass);
-        display: flex; align-items: center; justify-content: center;
-    }
-    .step h3 { font-size: 21px; margin-bottom: 6px; }
-    .step p { margin-bottom: 0; color: var(--ink-soft); }
-
-    /* Equipment categories */
-    .cat {
-        background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
-        padding: 24px; box-shadow: var(--shadow);
-    }
-    .cat h3 { font-size: 19px; margin-bottom: 8px; display: flex; align-items: center; gap: 10px; }
-    .cat h3::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--brass); flex: none; }
-    .cat p { margin: 0; color: var(--ink-soft); font-size: 15.5px; }
-
-    /* Comparison table */
-    .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: var(--radius); border: 1px solid var(--line); background: var(--card); box-shadow: var(--shadow); }
-    table { border-collapse: collapse; width: 100%; min-width: 640px; font-size: 16px; }
-    th, td { text-align: left; padding: 16px 20px; border-bottom: 1px solid var(--line); vertical-align: top; }
-    thead th { background: var(--brass-wash); font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 700; }
-    tbody th { font-weight: 600; width: 26%; color: var(--ink); }
-    tbody tr:last-child td, tbody tr:last-child th { border-bottom: none; }
-
-    /* Case studies */
-    .case {
-        background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--forest);
-        border-radius: var(--radius); padding: 26px 28px; box-shadow: var(--shadow);
-    }
-    .case h3 { font-size: 20px; margin-bottom: 12px; }
-    .case dl { margin: 0 0 14px; display: grid; grid-template-columns: 1fr auto; gap: 8px 16px; font-size: 15.5px; }
-    .case dt { color: var(--ink-soft); margin: 0; }
-    .case dd { margin: 0; font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; }
-    .case dd.win { color: var(--forest); }
-    .case p { font-size: 15.5px; color: var(--ink-soft); margin: 0; }
-
-    /* FAQ */
-    .faq { border-top: 1px solid var(--line); }
-    .faq details {
-        border-bottom: 1px solid var(--line);
-        padding: 4px 0;
-        background: transparent;
-    }
-    .faq summary {
-        cursor: pointer; list-style: none;
-        font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 600;
-        padding: 22px 44px 22px 0; position: relative;
-    }
-    .faq summary::-webkit-details-marker { display: none; }
-    .faq summary::after {
-        content: "+"; position: absolute; right: 8px; top: 18px;
-        font-family: 'Inter', sans-serif; font-size: 26px; font-weight: 400; color: var(--brass);
-        transition: transform .2s ease;
-    }
-    .faq details[open] summary::after { content: "\2013"; }
-    .faq details p { color: var(--ink-soft); padding-right: 20px; }
-
-    /* Booking */
-    .booking-card {
-        background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
-        padding: 14px; box-shadow: var(--shadow); overflow: hidden;
-    }
-    .booking-card iframe { display: block; border-radius: 10px; }
-
-    /* Footer */
-    footer.site {
-        background: var(--ink); color: #e5e7eb; padding: 56px 0 34px; font-size: 15px;
-    }
-    footer.site a { color: #e5e7eb; }
-    footer.site a:hover { color: var(--brass-soft); }
-    .foot-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 34px; }
-    .foot-brand { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: #fff; margin-bottom: 10px; }
-    footer.site h4 { color: #fff; font-size: 15px; font-family: 'Inter', sans-serif; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 14px; }
-    .foot-links { display: grid; gap: 9px; }
-    .foot-bottom { border-top: 1px solid #2b2f33; margin-top: 38px; padding-top: 22px; color: #666666; font-size: 13.5px; }
-    .disclaimer { font-size: 13.5px; color: #666666; margin-top: 10px; max-width: 70ch; }
-
-    .anchor-nav {
-        position: sticky; top: 0; z-index: 20;
-        background: rgba(250,247,241,.94);
-        backdrop-filter: saturate(140%) blur(8px);
-        border-bottom: 1px solid var(--line);
-        padding: 0;
-    }
-    .anchor-nav ul { display: flex; gap: 26px; list-style: none; margin: 0; padding: 14px 24px; max-width: var(--maxw); margin: 0 auto; overflow-x: auto; }
-    .anchor-nav a { font-size: 14.5px; font-weight: 600; color: var(--ink-soft); text-decoration: none; white-space: nowrap; }
-    .anchor-nav a:hover { color: var(--brass); }
-
-    @media (max-width: 900px) {
-        .g3 { grid-template-columns: repeat(2, 1fr); }
-        .foot-grid { grid-template-columns: 1fr 1fr; }
-    }
-    @media (max-width: 700px) {
-        section { padding: 60px 0; }
-        .g2, .g3 { grid-template-columns: 1fr; }
-        .step { grid-template-columns: 1fr; gap: 14px; }
-        .step-num { width: 52px; height: 52px; font-size: 25px; }
-        .foot-grid { grid-template-columns: 1fr; }
-        .topbar-links { display: none; }
-        .netbar { flex-direction: column; align-items: flex-start; }
-    }
-    </style>
+<link rel="stylesheet" href="/assets/equipment-leasing.css?v=20261019">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -641,61 +359,16 @@
 </script>
     <script defer src="/assets/site-ux.js"></script>
 </head>
-<body>
-
-<style id="aegn-style">
-.aegn{position:sticky;top:0;z-index:9999;background:#fff;border-bottom:1px solid rgba(0,0,0,.07);
-box-shadow:0 1px 3px rgba(0,0,0,.05);font-family:'Inter',-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif}
-.aegn *{box-sizing:border-box}
-.aegn-inner{max-width:1200px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;
-justify-content:space-between;gap:12px}
-.aegn-logo{display:flex;align-items:center;flex-shrink:0}
-.aegn-logo img{height:44px;width:auto;display:block;object-fit:contain}
-.aegn-links{display:flex;align-items:center;gap:2px;flex-wrap:wrap}
-.aegn-links a{color:#1B2A4A;font-size:14px;font-weight:500;padding:10px 12px;border-radius:6px;
-text-decoration:none;white-space:nowrap;line-height:1.2;transition:background .2s,color .2s}
-.aegn-links a:hover{background:#F8F9FA;color:#C5A55A}
-.aegn-cta{background:#C5A55A;color:#1B2A4A !important;font-weight:600;padding:12px 22px !important;
-border-radius:6px;margin-left:6px}
-.aegn-cta:hover{background:#D4B87A;color:#1B2A4A !important}
-.aegn-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;
-padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:center}
-.aegn-toggle span{display:block;width:24px;height:2px;background:#1B2A4A;border-radius:2px}
-@media (max-width:992px){
-  .aegn-toggle{display:flex}
-  .aegn-links{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;
-  flex-direction:column;align-items:stretch;padding:8px 12px 16px;gap:0;
-  box-shadow:0 12px 24px rgba(0,0,0,.12);max-height:80vh;overflow-y:auto}
-  .aegn-links.aegn-open{display:flex}
-  .aegn-links a{padding:14px 12px;min-height:48px;display:flex;align-items:center;
-  border-bottom:1px solid #f0f0f0;border-radius:0}
-  .aegn-cta{margin:12px 0 0;justify-content:center;border-radius:6px;border-bottom:none}
-  .aegn-inner{position:relative;padding:8px 12px}
-  .aegn-logo img{height:38px}
-}
-
-.aegn-inner{position:relative}
-.aegn .nav-link,.aegn .dropdown-item,.aegn .btn-cta{text-decoration:none}
-.aegn .nav-links{gap:2px}
-@media(max-width:992px){.aegn .nav-links{top:100%;left:0;right:0}}
-
-/* Local `.hero` is a light hero; unset the dark-hero rules from style.css. */
-.hero{color:var(--ink);display:block;align-items:initial;min-height:0;overflow:visible}
-.hero::before{content:none}
-.hero h1{color:var(--ink);font-family:'Playfair Display',Georgia,serif}
-.hero h1 em{color:var(--brass)}
-.hero .sub,.hero p{color:var(--ink-soft)}
-</style>
-
-<div class="aegn">
-  <div class="aegn-inner">
-    <a href="/" class="aegn-logo" aria-label="AE Tax Advisors home">
-      <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" width="180" height="44" loading="eager" fetchpriority="high" decoding="async">
-    </a>
-    <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
+<body class="equipment-page">
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="/assets/ae-tax-logo.png" alt="AE Tax Advisors" height="50" style="object-fit: contain;" loading="eager" fetchpriority="high" decoding="async" width="180">
+            </a>
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" onclick="var n=document.querySelector('.nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu');">
                 <span></span><span></span><span></span>
             </button>
-    <nav class="nav-links" id="primary-nav">
+            <nav class="nav-links" id="primary-nav" aria-label="Main navigation">
                 <a href="/" class="nav-link">Home</a>
 <div class="nav-dropdown">
                 <a href="/about/" class="nav-link">About Us <span class="arrow">&#9662;</span></a>
@@ -714,11 +387,11 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
 <a href="/retirement-exit-ma-tax-strategy/" class="dropdown-item">Retirement, Exit &amp; M&amp;A Strategy</a>
 <a href="/individual-tax-planning-high-earners/" class="dropdown-item">Advanced Income &amp; Entity Planning</a>
 <a href="/equipment-leasing-section-179/" class="dropdown-item">Equipment Leasing / Sec. 179</a>
-<a href="/cost-segregation-study/" class="dropdown-item">Cost Segregation Studies (Detailed)</a>
+<a href="/tax-advisor-for-businesses-under-5-million-profit/" class="dropdown-item">Tax Advisor for Businesses Under $5M</a>
 <a href="/services/reasonable-compensation/" class="dropdown-item">S-Corp Owner Pay</a>
 <a href="/multi-state-global-tax/" class="dropdown-item">Multi-state &amp; Global Tax</a>
 <a href="/estate-trust-wealth-transfer/" class="dropdown-item">Estate, Trust &amp; Wealth Transfer</a>
-<a href="/tax-compliance-irs-representation/" class="dropdown-item">Tax Compliance &amp; IRS</a>
+
 </div>
             </div>
 <div class="nav-dropdown">
@@ -747,42 +420,42 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
 <a href="/books/" class="nav-link">Books</a>
 <a href="/contact/" class="nav-link">Contact Us</a>
 
-                <a href="https://api.leadconnectorhq.com/widget/booking/5bPhybfzi6mKUTgn5GMg" class="btn-cta nav-cta">Request a Consultation</a>
+                <a href="/discovery/" class="btn-cta nav-cta">Book a Call</a>
             </nav>
+        </div>
+    </header>
+<main id="main-content">
+<section class="hero equipment-hero" aria-labelledby="equipment-heading">
+  <div class="hero-inner hero-solo">
+    <div class="hero-left">
+      <div class="hero-badges"><span class="hero-badge">Equipment leasing &amp; tax strategy</span></div>
+      <p class="hero-subtitle">Plan the purchase. Understand the deduction.</p>
+      <h1 id="equipment-heading">Put Your Equipment to Work.<br><em>Keep More of What You Earn.</em></h1>
+      <p class="hero-desc">Buying or financing business equipment? Coordinate the financing, entity structure, and tax treatment before you commit. We model Section 179 and bonus depreciation around your business.</p>
+      <div class="hero-ctas">
+        <a class="btn-cta" href="https://api.leadconnectorhq.com/widget/booking/5bPhybfzi6mKUTgn5GMg">Book Your Equipment Strategy Call</a>
+        <a class="equipment-text-link" href="#numbers">Explore the numbers <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="equipment-hero-note">New and used equipment · Financing options for qualified borrowers</p>
+    </div>
+    <aside class="premium-brief equipment-brief" aria-label="Illustrative equipment purchase">
+      <div class="premium-brief-head"><div><span class="premium-brief-label">An illustrative purchase</span><strong>$500,000</strong><span class="equipment-brief-caption">in qualifying business equipment</span></div><span class="equipment-monogram" aria-hidden="true">AE</span></div>
+      <dl class="premium-brief-list">
+        <div><dt>Down payment · 10%</dt><dd>$50,000</dd></div>
+        <div><dt>Closing costs · 3%</dt><dd>$15,000</dd></div>
+        <div><dt>Initial cash outlay*</dt><dd>$65,000</dd></div>
+      </dl>
+      <div class="equipment-savings"><span>Potential tax savings at 35%</span><strong>$175,000</strong></div>
+      <p>*Before any additional lender fees. Assumes a fully deductible purchase and sufficient eligibility. Financing payments remain due; savings vary by your tax situation.</p>
+      <a href="#numbers" class="equipment-brief-link">See the full illustration <span aria-hidden="true">→</span></a>
+    </aside>
   </div>
-</div>
-
-
-<div class="topbar">
-    <div class="wrap topbar-inner">
-        <a href="/" class="brand">AE Tax Advisors <span>Advisors</span></a>
-        <div class="topbar-links">
-            <a href="/equipment-leasing-section-179/">Section 179 Guide</a>
-            <a href="/business-owner-small-business-tax/">Business Tax</a>
-            <a href="/blog/">Blog</a>
-            <a href="tel:+16316145762">(631) 614-5762</a>
-        </div>
-    </div>
-</div>
-
-<header class="hero">
-    <div class="wrap">
-        <p class="eyebrow">Equipment Leasing &amp; Section 179 Strategy</p>
-        <h1>Write Off <em>$500K-$1M</em> in Equipment With Just 10% Down</h1>
-        <p class="sub">Equipment leasing lets business owners acquire the tools they need and deduct the full cost immediately, even when financing.</p>
-        <div class="hero-badges">
-            <span class="badge">10% down payment</span>
-            <span class="badge">3% closing costs</span>
-            <span class="badge">100% bonus depreciation is permanent</span>
-            <span class="badge">New and used equipment qualify</span>
-        </div>
-        <div class="cta-row">
-            <a href="https://api.leadconnectorhq.com/widget/booking/5bPhybfzi6mKUTgn5GMg" class="btn">Book Your Equipment Tax Strategy Call</a>
-            <a href="#numbers" class="btn btn-alt">See the Numbers</a>
-        </div>
-    </div>
-</header>
-
+</section>
+<div class="equipment-highlights" aria-label="Equipment planning priorities"><div class="container">
+  <div><span>01</span><strong>Finance with a plan</strong><p>Understand the full cost before signing.</p></div>
+  <div><span>02</span><strong>Model the tax benefit</strong><p>Compare Section 179 and bonus depreciation.</p></div>
+  <div><span>03</span><strong>Coordinate implementation</strong><p>Align ownership, timing, and documentation.</p></div>
+</div></div>
 <nav class="anchor-nav" aria-label="Page sections">
     <ul>
         <li><a href="#numbers">The Numbers</a></li>
@@ -796,14 +469,14 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
     </ul>
 </nav>
 
-<main>
+<div id="equipment-content">
 
 
 <!-- SECTION 1: THE NUMBERS -->
 <section id="numbers">
     <div class="wrap">
-        <p class="eyebrow">Section 1</p>
-        <h2>The Numbers: Spend $65K, Save $175K</h2>
+        <p class="eyebrow">The economics</p>
+        <h2>A Financed Purchase. A Clearer Tax Picture.</h2>
         <p class="lede" style="max-width:70ch;">This is the part most business owners have never had modeled for them. When you finance equipment, the deduction is based on the <strong>full purchase price</strong>, not the cash you put down. That gap is where the strategy lives.</p>
 
         <div class="grid g3" style="margin:36px 0 44px;">
@@ -831,10 +504,10 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
                 <div class="line-item credit" style="margin-top:20px;"><span>Section 179 deduction</span><span>$500,000</span></div>
                 <div class="line-item credit"><span>Tax savings at 35%</span><span>$175,000+</span></div>
                 <div class="netbar">
-                    <span>Net Year 1 position</span>
+                    <span>Tax savings less initial cash*</span>
                     <strong>+$110,000</strong>
                 </div>
-                <p class="math-note">You spend $65,000 and save $175,000. The equipment is yours, working, and generating revenue.</p>
+                <p class="math-note">*Illustrative difference before loan repayments, interest, and any additional fees. The remaining financed balance is still owed.</p>
             </div>
 
             <div class="math">
@@ -846,10 +519,10 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
                 <div class="line-item credit" style="margin-top:20px;"><span>Bonus depreciation deduction</span><span>$1,000,000</span></div>
                 <div class="line-item credit"><span>Tax savings at 35%</span><span>$350,000+</span></div>
                 <div class="netbar">
-                    <span>Net Year 1 position</span>
+                    <span>Tax savings less initial cash*</span>
                     <strong>+$220,000</strong>
                 </div>
-                <p class="math-note">Above the Section 179 cap, bonus depreciation carries the deduction with no dollar limit.</p>
+                <p class="math-note">*Illustrative difference before loan repayments, interest, and additional fees. We compare Section 179 and bonus depreciation for your circumstances.</p>
             </div>
         </div>
 
@@ -860,9 +533,9 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
 <!-- SECTION 2: HOW IT WORKS -->
 <section id="how" class="section-alt">
     <div class="wrap">
-        <p class="eyebrow">Section 2</p>
+        <p class="eyebrow">The process</p>
         <h2>How It Works</h2>
-        <p class="lede" style="max-width:66ch;">Five steps from first conversation to a filed return with the deduction locked in.</p>
+        <p class="lede" style="max-width:66ch;">Five steps to coordinate the purchase, financing, and tax return.</p>
 
         <div class="steps" style="margin-top:36px;">
             <div class="step">
@@ -907,7 +580,7 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
 <!-- SECTION 3: WHAT QUALIFIES -->
 <section id="qualifies">
     <div class="wrap">
-        <p class="eyebrow">Section 3</p>
+        <p class="eyebrow">Eligible equipment</p>
         <h2>What Equipment Qualifies</h2>
         <p class="lede" style="max-width:70ch;">If it is tangible personal property used more than 50% in your trade or business, it is almost certainly eligible. New and used both qualify.</p>
 
@@ -950,14 +623,14 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
             </div>
         </div>
 
-        <p style="margin-top:30px;max-width:80ch;color:var(--ink-soft);">Industry-specific deep dives: <a href="/blog/construction-company-heavy-equipment-write-off/">heavy equipment for construction companies</a>, <a href="/blog/medical-equipment-tax-deductions-section-179/">medical equipment deductions for healthcare practices</a>, <a href="/blog/trucking-company-equipment-depreciation-fleet/">fleet depreciation for trucking companies</a>, and <a href="/blog/restaurant-equipment-tax-write-off-commercial-kitchen/">commercial kitchen write-offs for restaurants</a>.</p>
+        <p style="margin-top:30px;max-width:80ch;color:var(--equipment-muted);">Industry-specific deep dives: <a href="/blog/construction-company-heavy-equipment-write-off/">heavy equipment for construction companies</a>, <a href="/blog/medical-equipment-tax-deductions-section-179/">medical equipment deductions for healthcare practices</a>, <a href="/blog/trucking-company-equipment-depreciation-fleet/">fleet depreciation for trucking companies</a>, and <a href="/blog/restaurant-equipment-tax-write-off-commercial-kitchen/">commercial kitchen write-offs for restaurants</a>.</p>
     </div>
 </section>
 
 <!-- SECTION 4: 179 VS BONUS -->
 <section id="compare" class="section-alt">
     <div class="wrap">
-        <p class="eyebrow">Section 4</p>
+        <p class="eyebrow">Choose your approach</p>
         <h2>Section 179 vs Bonus Depreciation</h2>
         <p class="lede" style="max-width:70ch;">Two provisions, both producing an immediate write-off, with very different limits. Most large acquisitions use a deliberate combination of the two.</p>
 
@@ -973,12 +646,12 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
                 <tbody>
                     <tr>
                         <th scope="row">Annual limit</th>
-                        <td>$1,220,000 (2025). The 2026 inflation-adjusted limit is $1,250,000.</td>
+                        <td>$2,500,000 (2025). The 2026 inflation-adjusted limit is $2,560,000.</td>
                         <td>No cap. Unlimited dollar amount.</td>
                     </tr>
                     <tr>
                         <th scope="row">Phase-out</th>
-                        <td>Phases out dollar-for-dollar above $3,050,000 of equipment placed in service ($3,130,000 in 2026).</td>
+                        <td>Phases out dollar-for-dollar above $4,000,000 of equipment placed in service ($4,090,000 in 2026).</td>
                         <td>No phase-out threshold.</td>
                     </tr>
                     <tr>
@@ -1010,8 +683,9 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
             </table></div>
         </div>
 
-        <div class="card" style="margin-top:30px;border-left:4px solid var(--brass);">
+        <div class="card" style="margin-top:30px;border-left:4px solid var(--accent);">
             <h3>Which is better?</h3>
+            <p class="math-note">Federal limits for tax years beginning in 2026. Source: <a href="https://www.irs.gov/pub/irs-pdf/p946.pdf">IRS Publication 946</a>. State rules and asset-specific limits may differ.</p>
             <p>Usually bonus depreciation for large purchases, Section 179 for targeted deductions. Bonus depreciation wins when the acquisition exceeds the Section 179 cap, when you want to create a loss, or when your business income is too low to absorb a 179 election. Section 179 wins when you want surgical control over how much income you shelter, when the asset is not bonus eligible, or when your state decouples from federal bonus rules.</p>
             <p style="margin-bottom:0;"><strong>We model both for every client.</strong> The ordering rule is fixed, 179 first, then bonus, then MACRS, so the split has to be decided before the return is filed, not after. See the full comparison in <a href="/blog/section-179-deduction-2026-complete-guide/">our 2026 Section 179 guide</a> and <a href="/blog/equipment-leasing-vs-buying-tax-comparison/">equipment leasing vs buying</a>.</p>
         </div>
@@ -1021,14 +695,14 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
 <!-- SECTION 5: ENTITY STRUCTURE -->
 <section id="entity">
     <div class="wrap">
-        <p class="eyebrow">Section 5</p>
+        <p class="eyebrow">Ownership & structure</p>
         <h2>Entity Structure Matters</h2>
         <p class="lede" style="max-width:72ch;">The same machine produces a different after-tax result depending on which entity buys it. Equipment purchased by the right entity maximizes the deduction, and the wrong one can strand it.</p>
 
         <div class="grid g3" style="margin-top:36px;">
             <div class="card">
                 <h3>S-Corp</h3>
-                <p>The deduction flows to your K-1 and reduces the income you report personally, which reduces the reasonable-compensation and SE-adjacent income you are taxed on. Watch the stock and debt basis limitation under IRC Sec. 1366(d): corporate-level equipment debt does not create shareholder basis the way partnership debt does.</p>
+                <p>The deduction flows to your K-1 and reduces the income you report personally, subject to applicable limitations. The deduction does not replace reasonable owner compensation. Watch the stock and debt basis limitation under IRC Sec. 1366(d): corporate-level equipment debt does not create shareholder basis the way partnership debt does.</p>
             </div>
             <div class="card">
                 <h3>C-Corp</h3>
@@ -1050,7 +724,7 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
 <!-- SECTION 6: REAL EXAMPLES -->
 <section id="examples" class="section-alt">
     <div class="wrap">
-        <p class="eyebrow">Section 6</p>
+        <p class="eyebrow">Illustrative outcomes</p>
         <h2>Real Examples</h2>
         <p class="lede" style="max-width:70ch;">De-identified client outcomes. Tax savings reflect a blended 35% federal and state marginal rate applied to the full first-year deduction.</p>
 
@@ -1085,7 +759,7 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
                     <dt>First-year deduction</dt><dd>$1,200,000</dd>
                     <dt>Tax savings</dt><dd class="win">$420,000</dd>
                 </dl>
-                <p>Above the Section 179 cap, so bonus depreciation carried the full amount. Eight tractors and six trailers, all placed in service before year-end and documented by route logs.</p>
+                <p>Bonus depreciation was used for the full eligible amount in this illustration. Eight tractors and six trailers, all placed in service before year-end and documented by route logs.</p>
             </div>
 
             <div class="case">
@@ -1107,7 +781,7 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
 <!-- SECTION 7: FAQ -->
 <section id="faq">
     <div class="wrap narrow">
-        <p class="eyebrow">Section 7</p>
+        <p class="eyebrow">Your questions</p>
         <h2>Frequently Asked Questions</h2>
 
         <div class="faq" style="margin-top:30px;">
@@ -1138,12 +812,12 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
 
             <details>
                 <summary>What happens if I sell the equipment before the lease is paid off?</summary>
-                <p>Two things happen at once. On the financing side, the outstanding balance becomes due and is typically paid from the sale proceeds at closing. On the tax side, you face depreciation recapture: because you already deducted the full cost, your adjusted basis is at or near zero, so most of the sale price is recaptured as ordinary income under IRC Sec. 1245 rather than as capital gain. Selling a fully expensed $500,000 excavator for $300,000 generally creates $300,000 of ordinary income in the year of sale. This is a timing consequence rather than a penalty, and it can be managed with an installment structure or by pairing the sale year with a replacement purchase that generates offsetting deductions.</p>
+                <p>Two things happen at once. On the financing side, the outstanding balance becomes due and is typically paid from the sale proceeds at closing. On the tax side, you face depreciation recapture: because you already deducted the full cost, your adjusted basis is at or near zero, so most of the sale price is recaptured as ordinary income under IRC Sec. 1245 rather than as capital gain. Selling a fully expensed $500,000 excavator for $300,000 generally creates $300,000 of ordinary income in the year of sale. This is a timing consequence rather than a penalty, and requires planning for recapture, financing obligations, and any replacement purchase.</p>
             </details>
 
             <details>
                 <summary>Is there a limit on how much equipment I can write off?</summary>
-                <p>Section 179 is capped. The 2025 limit is $1,220,000 with a dollar-for-dollar phase-out once total equipment placed in service exceeds $3,050,000, and the deduction cannot exceed your aggregate business taxable income. The 2026 inflation-adjusted figures are $1,250,000 and $3,130,000. Bonus depreciation has no dollar cap and no phase-out threshold, and under the One Big Beautiful Bill Act it is 100% on a permanent basis. That is why a fleet buyer spending $4 million uses bonus depreciation rather than Section 179, the cap and the income limitation simply do not apply.</p>
+                <p>Section 179 is capped. The 2025 limit is $2,500,000 with a dollar-for-dollar phase-out once total equipment placed in service exceeds $4,000,000, and the deduction cannot exceed your aggregate business taxable income. The 2026 inflation-adjusted figures are $2,560,000 and $4,090,000. Bonus depreciation has no dollar cap and no phase-out threshold, and under the One Big Beautiful Bill Act it is 100% on a permanent basis. That is why a fleet buyer spending $4 million uses bonus depreciation rather than Section 179, the cap and the income limitation simply do not apply.</p>
             </details>
 
             <details>
@@ -1207,6 +881,7 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
             <li><a href="/macrs-depreciation-schedule-2026/">MACRS Depreciation Schedule 2026</a></li></ul>
     </div></section>
 
+</div>
 </main>
 
 <footer class="ae-site-footer">
@@ -1304,8 +979,8 @@ padding:12px;min-width:48px;min-height:48px;align-items:center;justify-content:c
 
     <section class="sticky-cta">
         <div class="sticky-inner">
-            <p>Business Owners: Are You Overpaying on Taxes?</p>
-            <a href="https://api.leadconnectorhq.com/widget/booking/5bPhybfzi6mKUTgn5GMg" class="btn-cta">Get Your Free Estimate</a>
+            <p>Plan Your Next Equipment Purchase</p>
+            <a href="https://api.leadconnectorhq.com/widget/booking/5bPhybfzi6mKUTgn5GMg" class="btn-cta">Book Your Equipment Strategy Call</a>
         </div>
     </section>
 </body>
