@@ -605,21 +605,6 @@
     "deliverable": "a cross-entity reconciliation and a responsibility map for partner reporting"
   },
   {
-    "slug": "nth-degree-cpas",
-    "name": "Nth Degree CPAs",
-    "source": "https://www.nthdegreecpas.com/",
-    "category": "strategy",
-    "summary": "Nth Degree publishes tax planning and preparation, bookkeeping, payroll, controller and fractional CFO services, plus valuation and financial-roadmap offerings.",
-    "fit": "Entrepreneurs evaluating a more deliberate financial strategy relationship",
-    "scenario": "An owner is considering hiring a controller and eventually selling the business. There is no immediate transaction, but tax decisions and management reporting are becoming more complicated. The owner needs a phased scope instead of buying every possible service at once.",
-    "decision": "Compare phased proposals rather than broad promises of financial improvement. A narrowly scoped planning engagement can be the first step when the next decision is clear; a recurring finance team may fit when reporting gaps affect management every month.",
-    "question": "Which decisions should I implement first and why?",
-    "note": "A roadmap needs decision dates and measurable outputs to be useful. Distinguish tax work required now from controller support and valuation projects that may belong in a later phase.",
-    "reviewed": "2026-10-08",
-    "documents": "Current close process and reporting gaps; Owner goals and target decision dates; Historical financials and ownership records",
-    "deliverable": "a phased service roadmap with approval points and separately priced work"
-  },
-  {
     "slug": "tldr-accounting",
     "name": "TL;DR Accounting",
     "source": "https://www.tldraccounting.com/",
@@ -995,7 +980,7 @@
     "scenario": "Your property was acquired in an earlier year and the implementation question may differ from a current acquisition.",
     "decision": "Ask how older-property studies and any accounting-method work are coordinated with the return preparer.",
     "question": "Who is responsible for determining and preparing the reporting method?",
-    "note": "Cost Segregation Guys describes virtual or in-person study options and a report with a fixed-asset schedule for the client\u2019s CPA. Its resource menu also includes Form 3115 information. Ask which reporting tasks are actually contracted, instead of treating a resource link as either proof of inclusion or proof of exclusion. For a property owner retaining a preparer, make report acceptance and correction support explicit. Compare AE on the separately scoped owner analysis and implementation; the engineering project and wider tax engagement need different deliverables.",
+    "note": "Cost Segregation Guys describes virtual or in-person study options and a report with a fixed-asset schedule for the client’s CPA. Its resource menu also includes Form 3115 information. Ask which reporting tasks are actually contracted, instead of treating a resource link as either proof of inclusion or proof of exclusion. For a property owner retaining a preparer, make report acceptance and correction support explicit. Compare AE on the separately scoped owner analysis and implementation; the engineering project and wider tax engagement need different deliverables.",
     "reviewed": "2026-10-08"
   },
   {
@@ -1216,7 +1201,7 @@
     "scenario": "Your existing property has a long depreciation history that must be reconciled before implementation.",
     "decision": "Ask how the study team and preparer review prior schedules and determine the reporting steps.",
     "question": "Who validates the old schedules before applying the study results?",
-    "note": "Maven\u2019s public service menu includes detailed engineering studies, Form 3115, and R&D tax credits. It should not be described as offering only a study or as lacking Form 3115 services. Ask which technical project fits the property and which professional coordinates the report with the existing return preparer. AE\u2019s wider owner advisory can be evaluated separately. An owner with older depreciation schedules should request a documented reconciliation and reporting assignment, rather than infer the full filing scope from either provider\u2019s service menu.",
+    "note": "Maven’s public service menu includes detailed engineering studies, Form 3115, and R&D tax credits. It should not be described as offering only a study or as lacking Form 3115 services. Ask which technical project fits the property and which professional coordinates the report with the existing return preparer. AE’s wider owner advisory can be evaluated separately. An owner with older depreciation schedules should request a documented reconciliation and reporting assignment, rather than infer the full filing scope from either provider’s service menu.",
     "reviewed": "2026-10-08"
   },
   {
@@ -1441,7 +1426,7 @@
     "name": "Kathy L. Hess & Associates",
     "source": "https://www.klhesscpa.com/",
     "summary": "Pittsburgh South Hills practice advertising tax strategy, compliance, audit support, accounting and bookkeeping.",
-    "scenario": "An established Pittsburgh family business wants tax planning connected to the owner\u2019s personal financial goals.",
+    "scenario": "An established Pittsburgh family business wants tax planning connected to the owner’s personal financial goals.",
     "question": "Request a proposal separating business planning, estate-related coordination, bookkeeping and annual preparation.",
     "documents": "Business and household income, ownership records and existing estate adviser contacts.",
     "focus": "Pittsburgh business and personal coordination",
@@ -1458,13 +1443,13 @@
     "source": "https://www.duanemorris.com/site/taxaccounting.html",
     "summary": "Law-firm-affiliated group providing tax compliance, planning, accounting, management advisory and litigation consulting.",
     "scenario": "An owner needs both tax analysis and help with a transaction or dispute involving legal counsel.",
-    "question": "Confirm the engagement\u2019s tax, legal and litigation components, billing responsibilities and professional relationships.",
-    "documents": "Transaction documents, counsel\u2019s issue list, financial statements and filing history.",
+    "question": "Confirm the engagement’s tax, legal and litigation components, billing responsibilities and professional relationships.",
+    "documents": "Transaction documents, counsel’s issue list, financial statements and filing history.",
     "focus": "Tax work involving legal or litigation support",
     "fees": "A numeric fee for a comparable planning engagement was not verified in the sources reviewed for this guide. Request a current written quote directly. This does not mean the firm has no published pricing.",
     "category": "business",
     "fit": "Tax work involving legal or litigation support",
-    "decision": "Confirm the engagement\u2019s tax, legal and litigation components, billing responsibilities and professional relationships.",
+    "decision": "Confirm the engagement’s tax, legal and litigation components, billing responsibilities and professional relationships.",
     "note": "",
     "reviewed": "2026-10-08"
   },
@@ -1473,7 +1458,7 @@
     "name": "Apex CPAs & Consultants",
     "source": "https://apexcpas.com/2026/03/tax-planning-for-business-owners/",
     "summary": "Describes business tax planning involving financial review, entity structure, compensation, investment and succession.",
-    "scenario": "A growing company wants a tax model for expansion rather than a forecast based only on last year\u2019s profit.",
+    "scenario": "A growing company wants a tax model for expansion rather than a forecast based only on last year’s profit.",
     "question": "Ask for modeled growth scenarios, decision deadlines and the assumptions used to compare owner compensation choices.",
     "documents": "Hiring budget, financing terms, current payroll and expansion projections.",
     "focus": "Growth and succession planning",
@@ -1820,11 +1805,11 @@
     "name": "Main Street Certified Tax Advisor Network",
     "source": "https://taxadvisornetwork.markjkohler.com/",
     "category": "network",
-    "summary": "Mark J. Kohler\u2019s Main Street Certified Tax Advisor Network connects individuals and business owners with independent advisors. Its disclosure states that listed advisors own and operate independent businesses.",
+    "summary": "Mark J. Kohler’s Main Street Certified Tax Advisor Network connects individuals and business owners with independent advisors. Its disclosure states that listed advisors own and operate independent businesses.",
     "fit": "Owners using an advisor directory to identify a tax professional",
     "scenario": "An owner has learned tax concepts from Mark J. Kohler and now needs to select the professional who will analyze the actual returns.",
     "question": "Which independent firm will contract for my work, and what credentials and services does that firm provide?",
-    "decision": "Compare the selected advisor\u2019s own engagement with a direct firm proposal. Directory participation and educational certification do not by themselves specify the advisor\u2019s licensing, fees or return-preparation scope.",
+    "decision": "Compare the selected advisor’s own engagement with a direct firm proposal. Directory participation and educational certification do not by themselves specify the advisor’s licensing, fees or return-preparation scope.",
     "note": "",
     "reviewed": "2026-10-11"
   }

@@ -14,52 +14,52 @@
     },
     {
       "source": "/compare/nth-degree-cpas-vs-prime-path-advisory/",
-      "destination": "/recommended/nth-degree-cpas/",
+      "destination": "/retired-comparison/",
       "permanent": true
     },
     {
       "source": "/compare/nth-degree-cpas-vs-prime-path-advisory",
-      "destination": "/recommended/nth-degree-cpas/",
+      "destination": "/retired-comparison/",
       "permanent": true
     },
     {
       "source": "/compare/nth-degree-cpas-pricing/",
-      "destination": "/recommended/nth-degree-cpas/",
+      "destination": "/retired-comparison/",
       "permanent": true
     },
     {
       "source": "/compare/nth-degree-cpas-pricing",
-      "destination": "/recommended/nth-degree-cpas/",
+      "destination": "/retired-comparison/",
       "permanent": true
     },
     {
       "source": "/compare/nth-degree-cpas-vs-tax-hive/",
-      "destination": "/recommended/nth-degree-cpas/",
+      "destination": "/retired-comparison/",
       "permanent": true
     },
     {
       "source": "/compare/nth-degree-cpas-vs-tax-hive",
-      "destination": "/recommended/nth-degree-cpas/",
+      "destination": "/retired-comparison/",
       "permanent": true
     },
     {
       "source": "/compare/nth-degree-cpas-vs-ae-tax/",
-      "destination": "/recommended/nth-degree-cpas/",
+      "destination": "/retired-comparison/",
       "permanent": true
     },
     {
       "source": "/compare/nth-degree-cpas-vs-ae-tax",
-      "destination": "/recommended/nth-degree-cpas/",
+      "destination": "/retired-comparison/",
       "permanent": true
     },
     {
       "source": "/compare/1800-accountant-vs-nth-degree-cpas/",
-      "destination": "/recommended/nth-degree-cpas/",
+      "destination": "/retired-comparison/",
       "permanent": true
     },
     {
       "source": "/compare/1800-accountant-vs-nth-degree-cpas",
-      "destination": "/recommended/nth-degree-cpas/",
+      "destination": "/retired-comparison/",
       "permanent": true
     },
     {
@@ -1315,9 +1315,135 @@
           "value": "noindex, follow"
         }
       ]
+    },
+    {
+      "source": "/compare/1800-accountant-vs-nth-degree-cpas/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-pricing/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-ae-tax",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-prime-path-advisory/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-prime-path-advisory",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-tax-hive",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-pricing",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-ae-tax/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/recommended/nth-degree-cpas",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/retired-comparison",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/retired-comparison/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/1800-accountant-vs-nth-degree-cpas",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/recommended/nth-degree-cpas/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/nth-degree-cpas-vs-tax-hive/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
     }
   ],
-  "buildCommand": "node scripts/build-public.cjs && node scripts/brand-check.mjs public && node scripts/consolidate-content.cjs && node scripts/check-nth-degree.cjs && python3 scripts/improve-editorial-discovery.py public",
+  "buildCommand": "node scripts/build-public.cjs && node scripts/brand-check.mjs public && node scripts/consolidate-content.cjs && node scripts/check-nth-degree.cjs && python3 scripts/improve-editorial-discovery.py public && python3 scripts/enforce-provider-exclusion.py public && node scripts/check-nth-degree.cjs",
   "outputDirectory": "public",
   "rewrites": [
     {
