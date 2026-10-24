@@ -1443,7 +1443,7 @@
       ]
     }
   ],
-  "buildCommand": "node scripts/build-public.cjs && node scripts/brand-check.mjs public && node scripts/consolidate-content.cjs && node scripts/check-nth-degree.cjs && python3 scripts/improve-editorial-discovery.py public && python3 scripts/enforce-provider-exclusion.py public && node scripts/check-nth-degree.cjs",
+  "buildCommand": "node scripts/build-release.cjs",
   "outputDirectory": "public",
   "rewrites": [
     {
