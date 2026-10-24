@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-24",
+  "pages": [
+    {
+      "path": "/services/rental-property-tax-preparation/",
+      "title": "Rental property tax preparation"
+    },
+    {
+      "path": "/services/s-corp-tax-preparation/",
+      "title": "S corporation tax preparation"
+    },
+    {
+      "path": "/services/short-term-rental-tax-preparation/",
+      "title": "Short-term rental tax preparation"
+    },
+    {
+      "path": "/services/partnership-tax-preparation/",
+      "title": "Partnership and multi-member LLC tax preparation"
+    },
+    {
+      "path": "/for/locum-tenens-physicians/",
+      "title": "Locum tenens and 1099 physician tax planning"
+    },
+    {
+      "path": "/rental-property-sale-tax-calculator/",
+      "title": "Rental sale tax and recapture calculator"
+    }
+  ],
+  "linkingSources": [
+    "services/index.html",
+    "index.html",
+    "rental-property-tax-planning/index.html",
+    "real-estate-tax-planning/index.html",
+    "real-estate-investor-cpa/index.html",
+    "short-term-rental-tax-strategy/index.html",
+    "cost-segregation-study/index.html",
+    "cost-segregation-before-selling-property/index.html",
+    "business-owner-small-business-tax/index.html",
+    "services/s-corp-election/index.html",
+    "services/reasonable-compensation/index.html",
+    "for/physicians-dentists/index.html",
+    "physician-tax-planning/index.html",
+    "multi-state-global-tax/index.html",
+    "calculators/index.html",
+    "resources/index.html",
+    "sitemap/index.html",
+    "blog/depreciation-recapture-planning/index.html",
+    "blog/section-1245-vs-1250-depreciation-recapture/index.html",
+    "blog/how-to-qualify-for-material-participation-on-airbnb-property/index.html",
+    "blog/what-is-reasonable-compensation-for-s-corp-owners/index.html"
+  ]
+}

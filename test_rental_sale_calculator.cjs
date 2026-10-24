@@ -1,0 +1,10 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');
+const {calculateSale}=require('./assets/rental-sale-calculator.js');
+function fixture(){return {assets:[{type:'land',price:180000,costs:10000,basis:100000,depreciation:0},{type:'building',price:650000,costs:35000,basis:500000,depreciation:100000},{type:'personal',price:70000,costs:5000,basis:100000,depreciation:80000}],ordinaryRate:37,capitalRate:20,buildingRate:25,stateRate:0,niit:false,debt:300000};}
+test('worked example separates character, gain, tax and closing cash',()=>{const r=calculateSale(fixture());assert.equal(r.gain,330000);assert.equal(r.ordinary,45000);assert.equal(r.unrecaptured,100000);assert.equal(r.residual,185000);assert.equal(r.total,78650);assert.equal(r.cashAfterTax,471350);assert.equal(r.ordinary+r.unrecaptured+r.residual,r.gain);});
+test('debt changes cash but not taxable gain',()=>{const a=fixture(),b=fixture();b.debt=0;assert.equal(calculateSale(a).gain,calculateSale(b).gain);assert.equal(calculateSale(b).cashAfterTax-calculateSale(a).cashAfterTax,300000);});
+test('NIIT and state scenarios apply only when selected',()=>{const i=fixture();i.niit=true;i.stateRate=5;const r=calculateSale(i);assert.equal(r.niit,12540);assert.equal(r.state,16500);assert.equal(r.total,107690);});
+test('Section 1245 recapture is capped at the asset gain',()=>{const r=calculateSale(fixture());assert.equal(r.ordinary,45000);assert.ok(r.ordinary<80000);});
+test('gain above Section 1245 depreciation is separate',()=>{const i=fixture();i.assets[2].price=140000;const r=calculateSale(i);assert.equal(r.ordinary,80000);assert.equal(r.residual,220000);});
+test('zero gains produce no tax',()=>{const i=fixture();for(const a of i.assets)a.price=a.basis-a.depreciation+a.costs;i.debt=0;assert.equal(calculateSale(i).total,0);});
+test('losses, nonfinite values and invalid basis reject misleading estimates',()=>{for(const mutate of [i=>i.assets[0].price=0,i=>i.assets[1].basis=NaN,i=>i.assets[2].depreciation=100001,i=>i.capitalRate=21,i=>i.debt=1e9,i=>i.assets[0].depreciation=1,i=>i.assets[0].costs=-1]){const i=fixture();mutate(i);assert.throws(()=>calculateSale(i));}});
