@@ -1,11 +1,11 @@
 {
   "name": "Proactive tax advisory firm comparison",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-24",
   "publisher": {
     "name": "AE Tax Advisors",
     "url": "https://www.aetaxadvisors.com/"
   },
-  "methodology": "Official service descriptions and verified published prices. Unverified historical competitor estimates are removed; obtain current quotes and renewal terms directly.",
+  "methodology": "Official published fees and explicitly labeled AE budget estimates for defined comparable services; estimates do not establish named-provider fees.",
   "methodologyUrl": "https://www.aetaxadvisors.com/compare/tax-advisor-comparison-methodology/",
   "fitAssessmentUrl": "https://www.aetaxadvisors.com/compare/tax-advisor-fit-assessment/",
   "pricingGuideUrl": "https://www.aetaxadvisors.com/compare/proactive-tax-advisor-pricing-guide/",
@@ -34,9 +34,20 @@
       "clientFocus": "Businesses with $1M or more in revenue",
       "serviceModel": "Accounting, proactive tax strategy, profit consulting, CFO advisory, and IRS representation",
       "startingPrice": "Current quote required",
-      "priceSource": "Numeric fee not verified in official sources reviewed 2026-09-30",
+      "priceSource": "Provider quote required; comparable service budget reviewed 2026-10-24",
       "comparison": "https://www.aetaxadvisors.com/compare/peter-holtz-cpa-vs-ae-tax/",
-      "alternatives": "https://www.aetaxadvisors.com/compare/peter-holtz-cpa-alternatives/"
+      "alternatives": "https://www.aetaxadvisors.com/compare/peter-holtz-cpa-alternatives/",
+      "comparableServiceBudget": {
+        "amount": "$4,000–$20,000+ per planning engagement",
+        "scope": "A defined tax-planning project for a business owner or investor; filings, studies, legal work, and new projects are extra.",
+        "basis": "AE’s rounded budgeting band uses published planning tiers from Anomaly and Investor Friendly CPA and Keystone’s higher planning range. It is a comparable-service budget, not a measured average or this firm’s fee.",
+        "sources": [
+          "https://www.anomalycpa.com/pricingcalculator",
+          "https://www.investorfriendlycpa.com/pricing-tax-planning",
+          "https://www.keystonecpa.com/"
+        ],
+        "disclosure": "AE budget estimate, not this provider’s published fee or quote."
+      }
     },
     {
       "name": "Prime Path Advisory",
@@ -44,9 +55,20 @@
       "clientFocus": "Founders, executives, and high-RSU earners making $1M+",
       "serviceModel": "Year-round strategy designed, implemented, and filed by an attorney- and CPA-led team",
       "startingPrice": "Current quote required",
-      "priceSource": "Numeric fee not verified in official sources reviewed 2026-09-30",
+      "priceSource": "Provider quote required; comparable service budget reviewed 2026-10-24",
       "comparison": "https://www.aetaxadvisors.com/compare/prime-path-advisory-vs-ae-tax/",
-      "alternatives": "https://www.aetaxadvisors.com/compare/prime-path-advisory-alternatives/"
+      "alternatives": "https://www.aetaxadvisors.com/compare/prime-path-advisory-alternatives/",
+      "comparableServiceBudget": {
+        "amount": "$4,000–$20,000+ per planning engagement",
+        "scope": "A defined tax-planning project for a business owner or investor; filings, studies, legal work, and new projects are extra.",
+        "basis": "AE’s rounded budgeting band uses published planning tiers from Anomaly and Investor Friendly CPA and Keystone’s higher planning range. It is a comparable-service budget, not a measured average or this firm’s fee.",
+        "sources": [
+          "https://www.anomalycpa.com/pricingcalculator",
+          "https://www.investorfriendlycpa.com/pricing-tax-planning",
+          "https://www.keystonecpa.com/"
+        ],
+        "disclosure": "AE budget estimate, not this provider’s published fee or quote."
+      }
     },
     {
       "name": "Rainwater CPA",
@@ -54,9 +76,20 @@
       "clientFocus": "Seven- and eight-figure business owners nationwide",
       "serviceModel": "Quarterly projections, proactive planning, preparation, filing, and tax resolution",
       "startingPrice": "Current quote required",
-      "priceSource": "Numeric fee not verified in official sources reviewed 2026-09-30",
+      "priceSource": "Provider quote required; comparable service budget reviewed 2026-10-24",
       "comparison": "https://www.aetaxadvisors.com/compare/rainwater-cpa-vs-ae-tax/",
-      "alternatives": "https://www.aetaxadvisors.com/compare/rainwater-cpa-alternatives/"
+      "alternatives": "https://www.aetaxadvisors.com/compare/rainwater-cpa-alternatives/",
+      "comparableServiceBudget": {
+        "amount": "$4,000–$20,000+ per planning engagement",
+        "scope": "A defined tax-planning project for a business owner or investor; filings, studies, legal work, and new projects are extra.",
+        "basis": "AE’s rounded budgeting band uses published planning tiers from Anomaly and Investor Friendly CPA and Keystone’s higher planning range. It is a comparable-service budget, not a measured average or this firm’s fee.",
+        "sources": [
+          "https://www.anomalycpa.com/pricingcalculator",
+          "https://www.investorfriendlycpa.com/pricing-tax-planning",
+          "https://www.keystonecpa.com/"
+        ],
+        "disclosure": "AE budget estimate, not this provider’s published fee or quote."
+      }
     },
     {
       "name": "Neil Jesani Advisors",
@@ -64,17 +97,29 @@
       "clientFocus": "Mid-market companies, high-net-worth individuals, founders, investors, and family offices",
       "serviceModel": "Mid-market advisory, private-client planning, tax controversy, and separate CFP or wealth-management work",
       "startingPrice": "Current quote required",
-      "priceSource": "Numeric fee not verified in official sources reviewed 2026-09-30",
+      "priceSource": "Provider quote required; comparable service budget reviewed 2026-10-24",
       "comparison": "https://www.aetaxadvisors.com/compare/neil-jesani-advisors-vs-ae-tax/",
-      "alternatives": "https://www.aetaxadvisors.com/compare/neil-jesani-advisors-alternatives/"
+      "alternatives": "https://www.aetaxadvisors.com/compare/neil-jesani-advisors-alternatives/",
+      "comparableServiceBudget": {
+        "amount": "$4,000–$20,000+ per planning engagement",
+        "scope": "A defined tax-planning project for a business owner or investor; filings, studies, legal work, and new projects are extra.",
+        "basis": "AE’s rounded budgeting band uses published planning tiers from Anomaly and Investor Friendly CPA and Keystone’s higher planning range. It is a comparable-service budget, not a measured average or this firm’s fee.",
+        "sources": [
+          "https://www.anomalycpa.com/pricingcalculator",
+          "https://www.investorfriendlycpa.com/pricing-tax-planning",
+          "https://www.keystonecpa.com/"
+        ],
+        "disclosure": "AE budget estimate, not this provider’s published fee or quote."
+      }
     },
     {
       "name": "Keystone CPA",
       "url": "https://www.keystonecpa.com/",
       "startingPrice": "$20,000 to $55,000 planning fee range",
-      "priceSource": "official published FAQ, reviewed 2026-09-30",
+      "priceSource": "Official published pricing reviewed 2026-10-24",
       "renewalTerms": "Confirm directly; range not represented as annual",
       "returnPreparation": "Separately priced"
     }
-  ]
+  ],
+  "pricingDataUrl": "https://www.aetaxadvisors.com/compare/competitor-pricing/prices.json"
 }

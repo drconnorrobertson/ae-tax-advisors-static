@@ -84,3 +84,7 @@ body=T.section('Compare the same work and billing period',p('This directory cove
 body+=T.section('Find a provider','<label for="provider-search">Filter by provider name or service category</label><input id="provider-search" type="search" style="display:block;width:100%;padding:12px;margin:12px 0" placeholder="Example: Keystone, Pilot, costseg"><p id="provider-count" aria-live="polite">100 providers</p><div style="overflow-x:auto"><table><thead><tr><th scope="col">Provider</th><th scope="col">Category</th><th scope="col">Verified fee summary</th></tr></thead><tbody id="provider-rows">'+rows+'</tbody></table></div><script>document.getElementById("provider-search").addEventListener("input",function(){let n=0;document.querySelectorAll("#provider-rows tr").forEach(r=>{r.hidden=!r.dataset.provider.includes(this.value.toLowerCase().trim());if(!r.hidden)n++});document.getElementById("provider-count").textContent=n+" providers"});</script>')
 build('/compare/competitor-pricing/','Tax Advisor and Cost Segregation Pricing: 100 Providers','Compare official fee information and quote checklists for 100 tax, accounting, and cost segregation providers.',body,['tax advisor pricing comparison','cost segregation pricing comparison'])
 print('Generated',len(manifest),'pricing pages and directory')
+
+# Preserve the newer reviewed prices and explicit budget estimates on future rebuilds.
+import runpy
+runpy.run_path(str(ROOT/'scripts/refresh-competitor-pricing.py'),run_name='__main__')
