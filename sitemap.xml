@@ -1539,12 +1539,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/blog/cost-segregation-portfolio-prioritization/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://www.aetaxadvisors.com/blog/cost-segregation-portfolio-prioritization/</loc><lastmod>2026-10-24</lastmod></url>
   <url>
     <loc>https://www.aetaxadvisors.com/blog/cost-segregation-quote-checklist/</loc>
     <lastmod>2026-10-07</lastmod>
@@ -9854,11 +9849,7 @@
   <url><loc>https://www.aetaxadvisors.com/compare/kbkg-alternatives/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://www.aetaxadvisors.com/compare/kbkg-pricing/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://www.aetaxadvisors.com/compare/kbkg-vs-ae-tax/</loc><lastmod>2026-10-24</lastmod></url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/compare/keep-cpa-hire-tax-strategist/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://www.aetaxadvisors.com/compare/keep-cpa-hire-tax-strategist/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://www.aetaxadvisors.com/compare/keystone-cpa-alternatives/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://www.aetaxadvisors.com/compare/keystone-cpa-pricing-vs-ae-tax/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://www.aetaxadvisors.com/compare/keystone-cpa-vs-ae-tax/</loc><lastmod>2026-10-24</lastmod></url>
@@ -14059,12 +14050,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://www.aetaxadvisors.com/what-a-tax-advisory-engagement-includes/</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://www.aetaxadvisors.com/what-a-tax-advisory-engagement-includes/</loc><lastmod>2026-10-24</lastmod></url>
   <url>
     <loc>https://www.aetaxadvisors.com/what-every-business-owner-should-know-about-reconciling-accounts/</loc>
     <lastmod>2026-09-25</lastmod>
@@ -17359,4 +17345,9 @@
 <url><loc>https://www.aetaxadvisors.com/compare/tax-hive-alternatives/</loc><lastmod>2026-10-24</lastmod></url>
 <url><loc>https://www.aetaxadvisors.com/compare/tax-hive-pricing/</loc><lastmod>2026-10-24</lastmod></url>
 <url><loc>https://www.aetaxadvisors.com/compare/tax-hive-vs-ae-tax/</loc><lastmod>2026-10-24</lastmod></url>
+<url><loc>https://www.aetaxadvisors.com/blog/selling-business-keeping-building-tax-planning/</loc><lastmod>2026-10-24</lastmod></url>
+<url><loc>https://www.aetaxadvisors.com/blog/tax-planning-before-signing-letter-of-intent/</loc><lastmod>2026-10-24</lastmod></url>
+<url><loc>https://www.aetaxadvisors.com/blog/cash-balance-plan-multiple-businesses-controlled-group/</loc><lastmod>2026-10-24</lastmod></url>
+<url><loc>https://www.aetaxadvisors.com/blog/buying-out-dental-medical-practice-partner-tax-review/</loc><lastmod>2026-10-24</lastmod></url>
+<url><loc>https://www.aetaxadvisors.com/blog/buying-second-medical-dental-practice-tax-planning/</loc><lastmod>2026-10-24</lastmod></url>
 </urlset>

@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-24",
+  "pages": [
+    {
+      "path": "/blog/selling-business-keeping-building-tax-planning/",
+      "title": "Selling Your Business but Keeping the Building: Tax Planning",
+      "primary_keyword": "selling business keeping building tax planning",
+      "new": true,
+      "sources": [
+        "sale",
+        "assets",
+        "disposition",
+        "passive"
+      ]
+    },
+    {
+      "path": "/blog/tax-planning-before-signing-letter-of-intent/",
+      "title": "Tax Planning Before Signing a Business Sale Letter of Intent",
+      "primary_keyword": "tax planning before signing letter of intent",
+      "new": true,
+      "sources": [
+        "sale",
+        "assets",
+        "installment"
+      ]
+    },
+    {
+      "path": "/blog/cash-balance-plan-multiple-businesses-controlled-group/",
+      "title": "Can One of My Businesses Have a Cash Balance Plan?",
+      "primary_keyword": "cash balance plan multiple businesses",
+      "new": true,
+      "sources": [
+        "groups",
+        "db"
+      ]
+    },
+    {
+      "path": "/blog/buying-out-dental-medical-practice-partner-tax-review/",
+      "title": "Buying Out a Practice Partner: Tax Review Before Agreement",
+      "primary_keyword": "practice partner buyout tax planning",
+      "new": true,
+      "sources": [
+        "partnership",
+        "sale",
+        "disposition"
+      ]
+    },
+    {
+      "path": "/blog/buying-second-medical-dental-practice-tax-planning/",
+      "title": "Buying a Second Practice: Coordinate Entities, Staff and Cash",
+      "primary_keyword": "buying a second practice tax planning",
+      "new": true,
+      "sources": [
+        "assets",
+        "scorp",
+        "groups"
+      ]
+    },
+    {
+      "path": "/blog/cost-segregation-portfolio-prioritization/",
+      "title": "Which Rental Property Should You Study First?",
+      "primary_keyword": "cost segregation portfolio prioritization",
+      "new": false,
+      "sources": [
+        "passive",
+        "depreciation",
+        "disposition",
+        "quality"
+      ]
+    },
+    {
+      "path": "/compare/keep-cpa-hire-tax-strategist/",
+      "title": "Can You Keep Your CPA and Hire a Tax Strategist?",
+      "primary_keyword": "keep CPA hire tax strategist",
+      "new": false,
+      "sources": [
+        "professional"
+      ]
+    },
+    {
+      "path": "/what-a-tax-advisory-engagement-includes/",
+      "title": "What Should a $7,800–$9,800 Tax Advisory Engagement Include?",
+      "primary_keyword": "what tax advisory engagement includes",
+      "new": false,
+      "sources": [
+        "professional"
+      ]
+    }
+  ],
+  "discovery_pages": [
+    "retirement-exit-ma-tax-strategy/index.html",
+    "business-owner-small-business-tax/index.html",
+    "physician-tax-planning/index.html",
+    "real-estate-tax-strategy-business-owners/index.html",
+    "buying-dental-practice-and-building-tax-allocation/index.html",
+    "cash-balance-plan-tax-deduction/index.html",
+    "blog/index.html",
+    "sitemap/index.html",
+    "workbooks/business-sale/business-sale-letter-of-intent-review/index.html"
+  ],
+  "sources": {
+    "sale": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/sale-of-a-business",
+      "IRS: sale of a business"
+    ],
+    "assets": [
+      "https://www.irs.gov/instructions/i8594",
+      "IRS: Form 8594 allocation instructions"
+    ],
+    "disposition": [
+      "https://www.irs.gov/publications/p544",
+      "IRS Publication 544: sales and dispositions"
+    ],
+    "installment": [
+      "https://www.irs.gov/publications/p537",
+      "IRS Publication 537: installment sales"
+    ],
+    "passive": [
+      "https://www.irs.gov/publications/p925",
+      "IRS Publication 925: passive activity and at-risk rules"
+    ],
+    "partnership": [
+      "https://www.irs.gov/publications/p541",
+      "IRS Publication 541: partnerships"
+    ],
+    "depreciation": [
+      "https://www.irs.gov/publications/p946",
+      "IRS Publication 946: depreciation"
+    ],
+    "groups": [
+      "https://www.irs.gov/irm/part7/irm_07-011-007",
+      "IRS Internal Revenue Manual: related employers and multiple employer plans"
+    ],
+    "db": [
+      "https://www.irs.gov/newsroom/choosing-a-defined-benefit-plan",
+      "IRS: choosing a defined benefit plan"
+    ],
+    "scorp": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+      "IRS: S corporation requirements"
+    ],
+    "professional": [
+      "https://www.irs.gov/newsroom/selecting-a-tax-professional-as-a-small-business-taxpayer",
+      "IRS: selecting a tax professional"
+    ],
+    "quality": [
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "IRS cost segregation audit technique guide (examination guidance, not law)"
+    ]
+  }
+}
