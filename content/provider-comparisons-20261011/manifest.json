@@ -99,7 +99,6 @@
     "/compare/capstan-tax-strategies-vs-msc-tax/",
     "/compare/capstan-tax-strategies-vs-my-cost-segregation/",
     "/compare/nelson-cpa-vs-prime-path-advisory/",
-    "/compare/nth-degree-cpas-vs-prime-path-advisory/",
     "/compare/oak-city-accounting-vs-prime-path-advisory/",
     "/compare/p4-tax-vs-prime-path-advisory/",
     "/compare/pasquesi-partners-vs-prime-path-advisory/",
@@ -224,7 +223,6 @@
     "/compare/cost-segregation-authority-vs-msc-tax/",
     "/compare/cost-segregation-authority-vs-my-cost-segregation/",
     "/compare/nelson-cpa-vs-tax-hive/",
-    "/compare/nth-degree-cpas-vs-tax-hive/",
     "/compare/oak-city-accounting-vs-tax-hive/",
     "/compare/p4-tax-vs-tax-hive/",
     "/compare/pasquesi-partners-vs-tax-hive/",
@@ -344,7 +342,6 @@
     "/compare/basis-cost-segregation-vs-msc-tax/",
     "/compare/basis-cost-segregation-vs-my-cost-segregation/",
     "/compare/nelson-cpa-vs-tax-alchemy/",
-    "/compare/nth-degree-cpas-vs-tax-alchemy/",
     "/compare/oak-city-accounting-vs-tax-alchemy/",
     "/compare/p4-tax-vs-tax-alchemy/",
     "/compare/pasquesi-partners-vs-tax-alchemy/",
@@ -425,7 +422,6 @@
     "/compare/1800-accountant-vs-little-fish-accounting/",
     "/compare/1800-accountant-vs-ltax-consulting/",
     "/compare/1800-accountant-vs-nelson-cpa/",
-    "/compare/1800-accountant-vs-nth-degree-cpas/",
     "/compare/1800-accountant-vs-oak-city-accounting/",
     "/compare/1800-accountant-vs-p4-tax/",
     "/compare/1800-accountant-vs-pasquesi-partners/",
@@ -499,7 +495,6 @@
     "/compare/collective-vs-little-fish-accounting/",
     "/compare/collective-vs-ltax-consulting/",
     "/compare/collective-vs-nelson-cpa/",
-    "/compare/collective-vs-nth-degree-cpas/",
     "/compare/provider-comparison-library/",
     "/compare/business-owner-provider-shortlists/",
     "/compare/high-income-provider-shortlists/",
@@ -1262,14 +1257,6 @@
       "path": "/compare/nelson-cpa-vs-prime-path-advisory/",
       "providers": [
         "nelson-cpa",
-        "prime-path-advisory"
-      ],
-      "demand_priority_score": 489
-    },
-    {
-      "path": "/compare/nth-degree-cpas-vs-prime-path-advisory/",
-      "providers": [
-        "nth-degree-cpas",
         "prime-path-advisory"
       ],
       "demand_priority_score": 489
@@ -2267,14 +2254,6 @@
       "demand_priority_score": 100
     },
     {
-      "path": "/compare/nth-degree-cpas-vs-tax-hive/",
-      "providers": [
-        "nth-degree-cpas",
-        "tax-hive"
-      ],
-      "demand_priority_score": 100
-    },
-    {
       "path": "/compare/oak-city-accounting-vs-tax-hive/",
       "providers": [
         "oak-city-accounting",
@@ -3227,14 +3206,6 @@
       "demand_priority_score": 91
     },
     {
-      "path": "/compare/nth-degree-cpas-vs-tax-alchemy/",
-      "providers": [
-        "nth-degree-cpas",
-        "tax-alchemy"
-      ],
-      "demand_priority_score": 91
-    },
-    {
       "path": "/compare/oak-city-accounting-vs-tax-alchemy/",
       "providers": [
         "oak-city-accounting",
@@ -3875,14 +3846,6 @@
       "demand_priority_score": 80
     },
     {
-      "path": "/compare/1800-accountant-vs-nth-degree-cpas/",
-      "providers": [
-        "1800-accountant",
-        "nth-degree-cpas"
-      ],
-      "demand_priority_score": 80
-    },
-    {
       "path": "/compare/1800-accountant-vs-oak-city-accounting/",
       "providers": [
         "1800-accountant",
@@ -4465,14 +4428,6 @@
         "nelson-cpa"
       ],
       "demand_priority_score": 80
-    },
-    {
-      "path": "/compare/collective-vs-nth-degree-cpas/",
-      "providers": [
-        "collective",
-        "nth-degree-cpas"
-      ],
-      "demand_priority_score": 80
     }
   ],
   "provider_degrees": {
@@ -4572,7 +4527,6 @@
     "msc-tax": 3,
     "my-cost-segregation": 3,
     "nelson-cpa": 5,
-    "nth-degree-cpas": 5,
     "oak-city-accounting": 4,
     "p4-tax": 4,
     "pasquesi-partners": 4,

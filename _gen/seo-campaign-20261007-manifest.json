@@ -215,11 +215,6 @@
     "action": "enrich existing"
   },
   {
-    "path": "/compare/nth-degree-cpas-vs-ae-tax/",
-    "file": "compare/nth-degree-cpas-vs-ae-tax/index.html",
-    "action": "enrich existing"
-  },
-  {
     "path": "/compare/tldr-accounting-vs-ae-tax/",
     "file": "compare/tldr-accounting-vs-ae-tax/index.html",
     "action": "enrich existing"

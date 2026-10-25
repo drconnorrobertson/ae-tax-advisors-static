@@ -7,7 +7,7 @@ function walk(dir) {
     const file = path.join(dir,entry.name);
     if (entry.isDirectory()) {walk(file);continue;}
     const relative = path.relative(root,file).split(path.sep).join('/');
-    if (!/\.(html|xml|txt|json|js|csv)$/i.test(file)) continue;
+    if (!/\.(html|xml|txt|json|js|css|csv|tsv|svg|md)$/i.test(file)) continue;
     const content = fs.readFileSync(file,'utf8');
     if (excluded.test(relative)) {
       if (!file.endsWith('.html') || !/<meta\b[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(content)) failures.push(relative+': dedicated route lacks noindex');

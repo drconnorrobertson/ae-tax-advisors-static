@@ -114,7 +114,9 @@ for r in sorted(rows,key=lambda r:r['name']):
  text=r['name']+' '+r['category']+' '+r['fee']
  label=r['status'] if r['kind']=='published' else 'AE budget estimate (not a provider quote)'
  source_urls=[r['source']]+r.get('additionalSources',[]) if r['kind']=='published' else r['benchmarkSources']
- table_rows.append('<tr data-provider="'+E(text.lower(),quote=True)+'" data-kind="'+r['kind']+'" data-category="'+r['category']+'"><th scope="row"><a href="'+r['path']+'">'+E(r['name'])+'</a></th><td>'+E(r['category'])+'</td><td>'+E(r['fee'])+'</td><td><strong>'+E(label)+'</strong><br>'+('<a href="'+E(source_urls[0],quote=True)+'" rel="noopener">Official price source</a>' if r['kind']=='published' else '<a href="'+r['path']+'#competitor-price-review">Scope and estimate basis</a>')+'</td></tr>')
+ cov=coverage[r['slug']]
+ research_links='<br><small><a href="'+cov['alternative_url'].replace('https://www.aetaxadvisors.com','')+'">Alternatives</a> · <a href="'+cov['comparison_url'].replace('https://www.aetaxadvisors.com','')+'">Compare with AE</a></small>'
+ table_rows.append('<tr data-provider="'+E(text.lower(),quote=True)+'" data-kind="'+r['kind']+'" data-category="'+r['category']+'"><th scope="row"><a href="'+r['path']+'">'+E(r['name'])+' pricing</a>'+research_links+'</th><td>'+E(r['category'])+'</td><td>'+E(r['fee'])+'</td><td><strong>'+E(label)+'</strong><br>'+('<a href="'+E(source_urls[0],quote=True)+'" rel="noopener">Official price source</a>' if r['kind']=='published' else '<a href="'+r['path']+'#competitor-price-review">Scope and estimate basis</a>')+'</td></tr>')
 filters='<div class="pricing-filters"><label>Search providers<input id="provider-search" type="search" placeholder="Name, service, or price"></label><label>Evidence<select id="provider-evidence"><option value="">All prices and estimates</option><option value="published">Published prices</option><option value="estimate">AE budget estimates</option></select></label><label>Service category<select id="provider-category"><option value="">All categories</option>'+''.join('<option value="'+c+'">'+c+'</option>' for c in sorted({r['category'] for r in rows}))+'</select></label></div>'
 directory=section('Find a provider and compare the cost',filters+'<p id="provider-count" aria-live="polite">'+str(len(rows))+' providers</p><div class="pricing-table-scroll" role="region" aria-label="Provider pricing comparison" tabindex="0"><table><caption>Fees and budget estimates cover different services. Read each guide for billing terms, exclusions, and sources.</caption><thead><tr><th scope="col">Provider</th><th scope="col">Service</th><th scope="col">Price or estimated budget</th><th scope="col">Evidence</th></tr></thead><tbody id="provider-rows">'+''.join(table_rows)+'</tbody></table></div><script src="/assets/competitor-pricing.js" defer></script>')
 method=section('How the prices and estimates were calculated',
@@ -128,8 +130,8 @@ f=ROOT/'compare/competitor-pricing/index.html';text=f.read_text()
 start=text.index('<section class="content-section')
 end=text.index('</main>',start)
 text=text[:start]+intro+directory+method+text[end:]
-text=text.replace('100 Providers',str(len(rows))+' Providers').replace('100 providers',str(len(rows))+' providers')
-text=text.replace('Compare official fee information and quote checklists for 100 tax, accounting, and cost segregation providers.','Compare published fees and clearly labeled cost estimates for '+str(len(rows))+' tax, accounting, and cost segregation providers.')
+text=re.sub(r'\b\d+ Providers\b',str(len(rows))+' Providers',text)
+text=re.sub(r'Compare (?:official fee information and quote checklists|published fees and clearly labeled cost estimates) for \d+ tax, accounting, and cost segregation providers\.','Compare published fees and clearly labeled cost estimates for '+str(len(rows))+' tax, accounting, and cost segregation providers.',text)
 text=metadata(text,[r['source'] for r in rows if r['kind']=='published'])
 f.write_text(text);changed.add('/compare/competitor-pricing/')
 mf=ROOT/'compare/tax-advisor-comparison-methodology/index.html';text=mf.read_text()

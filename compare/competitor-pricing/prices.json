@@ -2107,6 +2107,26 @@
         "https://www.brighthilladvisors.com/pricing-and-fees/"
       ],
       "estimateCategory": "national"
+    },
+    {
+      "slug": "tax-hive",
+      "name": "Tax Hive",
+      "path": "/compare/tax-hive-pricing/",
+      "category": "strategy",
+      "source": "https://taxhive.com/pricing/",
+      "fee": "Advertised services start at $399; a customized tax plan requires a proposal.",
+      "qualification": "The pricing page does not identify the billing period or the full scope attached to $399. Do not treat it as an annual, monthly, or complete-plan fee. Confirm the initial plan, filing, bookkeeping, implementation, and renewal charges.",
+      "reviewed": "2026-10-24",
+      "keywords": [
+        "Tax Hive pricing",
+        "Tax Hive cost",
+        "Tax Hive fees"
+      ],
+      "status": "Published starting amount — billing period unspecified",
+      "kind": "published",
+      "additionalSources": [
+        "https://taxhive.com/services/strategic-tax-planning/"
+      ]
     }
   ]
 }
