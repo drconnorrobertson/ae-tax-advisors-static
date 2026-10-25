@@ -73,7 +73,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #8D6D32; outline-offs
 .nav-links > .nav-cta:hover { background: #DDC788; color: var(--navy-deep); }
 
 .blog-post {
-  padding: clamp(58px, 7vw, 94px) 24px clamp(82px, 9vw, 124px);
+  padding: 40px 24px 48px;
   background:
     linear-gradient(rgba(10,28,50,.025) 1px, transparent 1px),
     linear-gradient(90deg, rgba(10,28,50,.02) 1px, transparent 1px),
@@ -82,8 +82,8 @@ a:focus-visible, button:focus-visible { outline: 3px solid #8D6D32; outline-offs
 }
 .post-content { width: min(820px, 100%); margin: 0 auto; }
 .post-header {
-  margin-bottom: 42px;
-  padding-bottom: 34px;
+  margin-bottom: 28px;
+  padding-bottom: 24px;
   border-bottom: 1px solid var(--line);
 }
 .post-meta {
@@ -107,7 +107,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #8D6D32; outline-offs
 .post-body { color: #42545D; font-size: 17px; }
 .post-body p { margin: 0 0 22px; }
 .post-body h2 {
-  margin: 54px 0 17px;
+  margin: 32px 0 16px;
   color: var(--navy);
   font: 600 clamp(28px, 3vw, 36px)/1.15 var(--serif);
   letter-spacing: -.025em;
@@ -119,8 +119,8 @@ a:focus-visible, button:focus-visible { outline: 3px solid #8D6D32; outline-offs
 .post-body a { font-weight: 650; }
 
 .post-cta {
-  margin: 68px 0;
-  padding: clamp(36px, 6vw, 58px);
+  margin: 36px 0;
+  padding: 32px;
   border: 1px solid rgba(196,164,98,.32);
   background: var(--navy);
   color: rgba(255,255,255,.78);
@@ -148,7 +148,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #8D6D32; outline-offs
 .btn-primary { background: var(--brass); color: var(--navy-deep); }
 .btn-primary:hover { background: #DDC788; color: var(--navy-deep); }
 
-.post-faq { margin-top: 64px; }
+.post-faq { margin-top: 36px; }
 .post-faq > h2 {
   margin: 0 0 26px;
   color: var(--navy);
@@ -211,12 +211,12 @@ a:focus-visible, button:focus-visible { outline: 3px solid #8D6D32; outline-offs
     padding-inline: 14px;
     font-size: 10px;
   }
-  .blog-post { padding: 54px 20px 86px; background-size: 54px 54px; }
-  .post-header { margin-bottom: 34px; padding-bottom: 28px; }
+  .blog-post { padding: 28px 20px 36px; background-size: 54px 54px; }
+  .post-header { margin-bottom: 24px; padding-bottom: 20px; }
   .post-header h1 { font-size: clamp(36px, 10.5vw, 50px); }
   .post-body { font-size: 16px; line-height: 1.72; }
-  .post-body h2 { margin-top: 44px; font-size: 29px; }
-  .post-cta { margin: 54px -4px; padding: 38px 24px; }
+  .post-body h2 { margin-top: 28px; font-size: 29px; }
+  .post-cta { margin: 28px 0; padding: 28px 20px; }
   .footer-container { grid-template-columns: 1fr; gap: 28px; }
 }
 
