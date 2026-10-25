@@ -3,6 +3,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/costseg-onboarding",
+      "destination": "/cost-seg-onboarding/",
+      "permanent": true
+    },
+    {
+      "source": "/costseg-onboarding/",
+      "destination": "/cost-seg-onboarding/",
+      "permanent": true
+    },
+    {
       "source": "/resources-2/",
       "destination": "/resources/",
       "permanent": true
