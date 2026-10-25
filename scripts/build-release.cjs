@@ -11,5 +11,6 @@ for (const command of [
   "python3 scripts/improve-editorial-discovery.py public",
   "python3 scripts/enforce-provider-exclusion.py public",
   "node scripts/check-nth-degree.cjs",
-  "python3 scripts/check-provider-triplets.py public"
+  "python3 scripts/check-provider-triplets.py public",
+  "python3 scripts/check-provider-content.py public"
 ]) execSync(command, {cwd:root,stdio:'inherit'});

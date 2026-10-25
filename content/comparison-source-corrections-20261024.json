@@ -1,0 +1,114 @@
+{
+  "hall-cpa": {
+    "source": "https://www.therealestatecpa.com/",
+    "offering": "Hall CPA’s website lists tax advisory, tax preparation, accounting, cost segregation, and tax resolution for real estate investors and related businesses.",
+    "implementation": "The service menu includes both study work and tax preparation. Request the study, return, entity, and investor-reporting responsibilities in the actual proposal.",
+    "decision": "A landlord, developer, and syndicator need different accounting and reporting scopes. Compare the same ownership structure and deliverables before comparing fees.",
+    "correction": "Removed unsupported assumptions that a real estate planning engagement nearly always requires a study, along with unverified service and turnaround comparisons."
+  },
+  "wcg-cpas": {
+    "source": "https://wcginc.com/tax-center/business-advisory-services/",
+    "offering": "WCG publishes business advisory packages with annual fees paid through monthly subscriptions. Its service menu also includes tax preparation, accounting, entity support, and planning.",
+    "implementation": "The package selected determines which returns, accounting work, and advisory access are included. Identify rental activity and additional entities separately.",
+    "decision": "An annual package can cover continuing work that a defined advisory engagement does not. Compare included returns and recurring deliverables rather than the payment amount alone.",
+    "correction": "Replaced reputation claims and unsupported capability rankings with the published package model and scope questions."
+  },
+  "dark-horse-cpas": {
+    "source": "https://darkhorse.cpa/",
+    "offering": "Dark Horse’s official site lists business and personal tax services, bookkeeping, outsourced accounting, fractional CFO work, and private wealth services.",
+    "implementation": "Those are separate service lines. Ask who performs the work, who reviews it, and whether the agreement covers the business, household, or both.",
+    "decision": "Compare a broader accounting relationship with the specific planning project you need. Staffing arrangements and service inclusion should come from the engagement letter.",
+    "correction": "Removed the unverified claim that work is never passed to junior staff and unsupported income cutoffs for choosing AE."
+  },
+  "proactive-tax-advisors": {
+    "source": "https://www.proactivetaxadvisors.com/",
+    "offering": "Proactive Tax Advisors describes a tax strategy framework combining entity structure, income flow, timing, deductions, and credits for service-business owners and real estate investors.",
+    "implementation": "Its process describes a strategy system and an option for ongoing advisory. Confirm implementation tasks, preparation responsibility, and continuing fees directly.",
+    "decision": "Build the comparison around the decisions to be made and the support period. Advertised tax reductions are marketing claims, not verified outcomes for your situation.",
+    "correction": "Removed unsupported binary capability scores, financial-fit cutoffs, and implied guarantees."
+  },
+  "cssi": {
+    "source": "https://cssiservices.com/services/",
+    "offering": "CSSI’s official service page describes engineering-based cost segregation, R&D tax credits, and Section 179D work for property owners and businesses.",
+    "implementation": "Price the specific specialty project. Ask who delivers the final schedules, responds to preparer questions, and handles any separately contracted filing work.",
+    "decision": "A specialty incentive project and an owner-level planning engagement may be complementary. Compare the cost and responsibility for each workstream.",
+    "correction": "Replaced generalizations about a study provider’s limitations with its published service lines."
+  },
+  "capstan-tax-strategies": {
+    "source": "https://capstantax.com/",
+    "offering": "Capstan’s official menu includes cost segregation, R&D credits, energy incentives, unit-of-property and tangible-property analysis, and consulting.",
+    "implementation": "Ask which technical analysis is needed, what documentation is delivered, and how the specialty team coordinates with your accountant.",
+    "decision": "A project involving building components, repairs, or energy incentives may require a specialty scope beyond a general planning engagement.",
+    "correction": "Removed unsupported no-service marks and comparative turnaround promises."
+  },
+  "cost-seg-smart": {
+    "source": "https://costsegsmart.com/",
+    "offering": "Cost Seg Smart advertises engineering-based studies, CPA coordination, twelve months of revisions, and written audit support. Its homepage says Form 3115 preparation is available separately.",
+    "implementation": "Request separate prices for the study and Form 3115 preparation, and confirm who prepares the income tax return and evaluates the owner’s overall position.",
+    "decision": "The published starting study price is not a complete advisory or filing package. The right comparison includes the report, any method-change work, and the actual preparer handoff.",
+    "correction": "Corrected the false statement that Form 3115 preparation is unavailable and removed assumptions based solely on software delivery."
+  },
+  "engineered-tax-services": {
+    "source": "https://engineeredtaxservices.com/",
+    "offering": "Engineered Tax Services lists cost segregation, R&D credits, energy deductions, incentive reports, and 1031 exchange services on its official website.",
+    "implementation": "Identify the specialty project and the professional coordinating it with the return preparer. A broad menu does not establish that every listed service is bundled.",
+    "decision": "Separate building analysis, specialty incentives, and household or business-owner advisory in both proposals.",
+    "correction": "Removed blanket report-only descriptions and unrelated tax conclusions."
+  },
+  "kbkg": {
+    "source": "https://www.kbkg.com/",
+    "offering": "KBKG’s website lists specialty work across cost segregation, R&D credits, energy incentives, and fixed-asset reviews. It also offers CostSegregation.com as a separate software workflow.",
+    "implementation": "Distinguish the self-guided product from a professional engineering engagement. Confirm review, report support, and the accountant’s reporting responsibilities for the selected path.",
+    "decision": "Compare professional services with professional services and software with software. The lowest software price does not establish the price of KBKG’s full-service engineering work.",
+    "correction": "Removed unsupported weeks-versus-days comparisons, universal report-only assertions, and unverified relative-price claims."
+  },
+  "madison-specs": {
+    "source": "https://www.madisonspecs.com/",
+    "offering": "Madison SPECS describes a feasibility analysis, an engineer’s on-site property tour, and a cost segregation report developed in coordination with the client’s CPA.",
+    "implementation": "Its published process sends the report to the client’s CPA for the income tax return. Confirm any additional services and audit-response terms in the proposal.",
+    "decision": "An owner who wants to keep an existing CPA should compare the report handoff, property visit, and follow-up support with a separately scoped AE study.",
+    "correction": "Replaced claims that the firm offers no advisory or related services with its published CPA-coordination process."
+  },
+  "re-cost-seg": {
+    "source": "https://www.recostseg.com/",
+    "offering": "R.E. Cost Seg lists Fully Engineered Studies, Rapid Reports, and Form 3115 Preparation. It describes coordination with the client’s CPA and delivery of fixed-asset schedules.",
+    "implementation": "Choose the study path for the property, then confirm the separate Form 3115 scope, report corrections, and income-tax return responsibility.",
+    "decision": "Rapid Reports and fully engineered studies have different eligibility and inspection requirements. Compare the same property and review level before comparing prices.",
+    "correction": "Corrected the false claim that R.E. Cost Seg does not prepare Form 3115 and removed unsupported report-only and reputation claims."
+  },
+  "cherry-bekaert": {
+    "source": "https://www.cbh.com/",
+    "offering": "Cherry Bekaert presents accounting, tax, audit, and advisory services across multiple industries on its official website.",
+    "implementation": "Ask which company, owner, assurance, and specialist teams the engagement requires, and which deliverables and fees belong to each.",
+    "decision": "A multi-service company engagement can contain work beyond AE’s standard owner advisory. Compare the equivalent workstream without treating the whole firm as a study provider.",
+    "correction": "Removed a template that incorrectly framed a broad accounting firm as a study-only alternative."
+  },
+  "deloitte-tax": {
+    "source": "https://www.deloitte.com/us/en/services.html",
+    "offering": "Deloitte’s U.S. services site lists direct and indirect tax, global employer services, tax transformation, and other consulting and assurance disciplines.",
+    "implementation": "Define the actual workstream, countries, entities, specialists, and ongoing obligations. A large multidisciplinary engagement and an owner advisory project need different scopes.",
+    "decision": "Compare AE against the owner-level assignment it agrees to perform. Retain separately contracted specialists for work outside that scope.",
+    "correction": "Removed study-only framing and unsupported universal scale or capability claims."
+  },
+  "kpmg": {
+    "source": "https://kpmg.com/us/en.html",
+    "offering": "KPMG’s U.S. site presents tax, audit and assurance, advisory, and private-company services within a multidisciplinary firm.",
+    "implementation": "Identify which tax team, private-client work, specialist project, or assurance engagement is actually needed. Confirm separate fees and delivery responsibility.",
+    "decision": "A national-firm proposal may address needs outside a focused AE planning engagement. Compare matched assignments rather than assigning one general winner.",
+    "correction": "Removed study-provider framing from a comparison with a multidisciplinary accounting firm."
+  },
+  "advise-re": {
+    "source": "https://adviseretax.com/",
+    "offering": "Advise RE describes real estate tax advisory and preparation, construction advisory, and buyer advisory, with a Los Angeles focus and service for investors elsewhere.",
+    "implementation": "Separate an acquisition review or construction assignment from annual returns and owner-level planning. Ask who models the transaction and who implements the recommendations.",
+    "decision": "Property development and pre-acquisition work can require a different engagement from an established rental portfolio’s annual tax review.",
+    "correction": "Removed unsupported comparative engineering fees, superlatives, and broad claims about deduction availability."
+  },
+  "cost-segregation-authority": {
+    "source": "https://csap.com/",
+    "offering": "The current CSA Partners website describes engineering-based cost segregation, property-specific documentation, site verification, audit support, and coordination with CPA and real estate clients.",
+    "implementation": "Ask which professional handles report delivery, accountant questions, any accounting-method change, and return preparation. Use the written engagement to establish each responsibility.",
+    "decision": "Compare a specific engineering project with AE’s separately priced study and any additional advisory or filing work. Do not infer a service is unavailable because it is absent from a summary.",
+    "correction": "Removed unsupported study-only limitations and replaced them with the current official service description."
+  }
+}

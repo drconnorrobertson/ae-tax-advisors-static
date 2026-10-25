@@ -13,7 +13,7 @@
         (category.value !== '' && row.dataset.category !== category.value);
       if (!row.hidden) count++;
     }
-    document.getElementById('provider-count').textContent = count + ' providers';
+    document.getElementById('provider-count').textContent = count + (count === 1 ? ' provider' : ' providers');
   }
   search.addEventListener('input', filter);
   evidence.addEventListener('change', filter);
