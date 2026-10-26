@@ -81,6 +81,10 @@ for f in firms:
  page('/firms/'+f['slug']+'/',('AE Tax Advisors: Services & Firm Profile' if isae else f['name']+' · Firm Profile & Hiring Questions'),("AE Tax Advisors: business-owner and real-estate tax advisory services, official sources, pricing questions and engagement scope." if isae else f"Research {f['name']} in {f['location']}. See source records, available service information, and questions to confirm tax advisory fit."),body,schema={'mainEntity':{'@type':'AccountingService',**({'@id':'https://www.aetaxadvisors.com/#organization','brand':{'@type':'Brand','name':'AE Tax Advisors'}} if isae else {}),'name':f['name'],'url':('https://www.aetaxadvisors.com/' if isae else BASE+'/firms/'+f['slug']+'/'),**({'sameAs':[website]} if website else {})}})
 page('/guides/','Tax Advisor Hiring Guides & Buyer Research','Practical guides to selecting, comparing, and hiring a tax advisory team for an established business.',heading('THE BUYER’S JOURNAL','Choose your tax team<br>with clearer expectations.'.replace('<br>',' '),'Scope, fees, credentials, communication, implementation, and industry fit. Research for the hiring decision.')+'<section class="section"><div class="grid">'+''.join(guidecard(g) for g in guides)+'</div></section>',kind='CollectionPage')
 for g in guides:
+ if g['slug']=='verify-tax-adviser-credentials':
+  from editorial_guides import render_credential_guide
+  render_credential_guide(page,ROOT,OUT,BASE)
+  continue
  sections=''
  for s in g.get('sections',[]):
   sections+=f'<section><h2>{esc(s.get("heading",""))}</h2>'+''.join(f'<p>{esc(p)}</p>' for p in s.get('paragraphs',[]))
@@ -140,10 +144,10 @@ ns='http://www.sitemaps.org/schemas/sitemap/0.9'
 parts=[]
 for i in range(0,len(urls),500):
  fname=f'sitemap-{i//500+1}.xml';parts.append(fname)
- (OUT/fname).write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="'+ns+'">'+''.join(f'<url><loc>{esc(BASE+p)}</loc><lastmod>2026-10-12</lastmod></url>' for p in urls[i:i+500])+'</urlset>')
+ (OUT/fname).write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="'+ns+'">'+''.join(f'<url><loc>{esc(BASE+p)}</loc><lastmod>{"2026-10-26" if p == "/guides/verify-tax-adviser-credentials/" else "2026-10-12"}</lastmod></url>' for p in urls[i:i+500])+'</urlset>')
 # A focused discovery feed makes the brand and local library easy to submit and monitor.
 discovery=[p for p in urls if p in ['/', '/firms/ae-tax-advisors/', '/people/christina-nortman/'] or p.startswith('/shortlists/')]
-(OUT/'sitemap-discovery.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="'+ns+'">'+''.join(f'<url><loc>{esc(BASE+p)}</loc><lastmod>2026-10-12</lastmod></url>' for p in discovery)+'</urlset>')
+(OUT/'sitemap-discovery.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="'+ns+'">'+''.join(f'<url><loc>{esc(BASE+p)}</loc><lastmod>{"2026-10-26" if p == "/guides/verify-tax-adviser-credentials/" else "2026-10-12"}</lastmod></url>' for p in discovery)+'</urlset>')
 parts.append('sitemap-discovery.xml')
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="'+ns+'">'+''.join(f'<sitemap><loc>{BASE}/{f}</loc></sitemap>' for f in parts)+'</sitemapindex>')
 (ROOT/'build-report.json').write_text(json.dumps({'firm_count':len(firms),'guide_count':len(guides),'html_pages':len(list(OUT.rglob('*.html'))),'indexable_urls':len(urls),'website_confirmed':sum(bool(f.get('website')) for f in firms),'tax_advisory_evidence':sum(bool(f.get('tax_strategy_verified')) for f in firms)},indent=2))
