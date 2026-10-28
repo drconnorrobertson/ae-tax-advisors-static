@@ -1,0 +1,100 @@
+processors|processor-reserve-withheld-sales-income|Payment Processor Reserves and Taxable Sales|My payment processor holds a rolling reserve. Do I report sales I have not received?
+processors|chargeback-cross-year-1099k-sales|Cross-Year Chargebacks and Form 1099-K|A customer charged back last year's sale. How do I reconcile it with this year's 1099-K?
+processors|processor-backup-withholding-owner-tax-credit|Backup Withholding Deducted From Merchant Payouts|Our processor withheld federal tax from payouts. Is that a business expense or a tax credit?
+processors|processor-bankruptcy-unpaid-merchant-funds|Merchant Funds Trapped in a Processor Bankruptcy|Our payment processor failed while holding sales proceeds. Can we deduct the entire unpaid balance?
+processors|platform-pays-vendor-from-gross-sales|Supplier Payments Netted From Platform Sales|Our platform pays suppliers before sending our payout. Is the net deposit our revenue?
+processors|marketplace-coupon-platform-funded-discount|Marketplace-Funded Coupons and Seller Revenue|The marketplace funded a customer coupon. Is that discount coming out of my sales?
+processors|customer-tips-passed-through-processor|Customer Tips Included in Business Card Settlements|Card deposits include staff tips. How do I keep them out of owner sales without losing payroll records?
+processors|foreign-processor-currency-conversion-sales|Foreign-Currency Sales and Processor Conversion Fees|My processor converts foreign sales before paying me. Which amount belongs in the books?
+processors|processor-account-closed-final-reserve-release|Processor Reserve Released After a Store Closes|Our store closed, but the processor released a reserve later. Which business reports it?
+processors|processor-fee-rebate-after-yearend|Processor Fee Rebates After the Fees Were Deducted|Our processor rebated fees we deducted last year. Does the refund reduce this year's sales?
+stock|supplier-rebate-inventory-already-sold|Supplier Rebates After Inventory Has Been Sold|A supplier paid a volume rebate after we sold the inventory. Is it other income or a cost adjustment?
+stock|supplier-minimum-purchase-shortfall-fee|Fees for Missing a Supplier Purchase Commitment|We missed a supplier's minimum purchase commitment. Can we deduct the shortfall fee?
+stock|custom-inventory-customer-cancels-order|Custom Inventory After a Customer Cancels|A customer canceled an order for custom goods. When can we write off the unsellable inventory?
+stock|inventory-stored-overseas-yearend-title|Inventory Overseas at Year-End: Who Owns It?|We paid for inventory still at an overseas port. Is it our year-end inventory?
+stock|supplier-tooling-charge-mold-stays-factory|Tooling Charges When the Supplier Keeps the Mold|We paid for production tooling that stays at our supplier's factory. Do we own an asset?
+stock|inventory-warranty-replacement-cost|Warranty Replacements and Inventory Deductions|We replace defective products for free. How do we avoid deducting the same inventory twice?
+stock|bulk-spare-parts-equipment-inventory|Spare Parts: Inventory, Supplies or Equipment?|We bought spare parts for our service fleet. Are they inventory, supplies or depreciable assets?
+stock|customer-supplied-manufacturing-materials|Customer-Owned Materials in a Manufacturing Business|Customers supply materials we process. Should their value appear in our inventory and sales?
+stock|inventory-packaging-returnable-containers|Reusable Shipping Containers and Product Costs|Our customers return expensive shipping containers. Should we expense them with each sale?
+stock|demo-inventory-converted-business-use|Products Taken From Stock for Long-Term Demonstration|We moved stock into a permanent showroom display. Is it still inventory or a business asset?
+contracts|barter-services-equipment-business-income|Bartering Services for Equipment: Tax Records|A customer paid for my services with used equipment. What do I report?
+contracts|customer-dispute-retainage-never-received|Disputed Retainage and Cash-Method Income|A customer is holding disputed retainage. Do I report the whole invoice as income?
+contracts|subscription-customer-credit-future-services|Customer Account Credits for Future Services|We issued a service credit instead of a refund. Can we deduct it before the customer uses it?
+contracts|gift-card-breakage-business-closure|Unused Customer Gift Cards When a Business Closes|We are closing with unused customer gift cards outstanding. What happens to the tax balance?
+contracts|customer-money-held-project-escrow|Customer Project Escrow and Business Income|A customer funded project escrow that we cannot withdraw yet. Is it our income?
+contracts|nonrefundable-booking-fee-rescheduled-project|Nonrefundable Fees After a Project Is Rescheduled|We kept a nonrefundable booking fee but moved the project to next year. When is it income?
+contracts|customer-paid-bank-loan-on-behalf-business|Customer Pays Your Business Lender Directly|A customer paid my business loan directly instead of paying our invoice. Is that still revenue?
+contracts|contract-buyout-for-lost-future-revenue|Payments to Cancel a Business Service Contract|A customer paid to end a multiyear service contract. Is that payment capital gain?
+contracts|settlement-customer-refund-plus-legal-fees|Customer Settlements With Refunds and Legal Fees|Our customer settlement combines a refund and legal-fee reimbursement. Should we book one expense?
+contracts|trade-credit-received-advertising-services|Trade Credits Earned Instead of Cash Payment|We received advertising trade credits for our work. Can we wait to report income until using them?
+borrowing|scorp-debt-forgiven-after-owner-sells-shares|S-Corp Debt Forgiveness After a Shareholder Exit|The company's bank debt was forgiven after I sold my shares. Does the income belong on my K-1?
+borrowing|lender-chargeoff-debt-still-collected|Lender Charge-Off While Collection Continues|The bank charged off our loan but still wants payment. Has the debt been canceled for tax?
+borrowing|refinance-old-business-debt-fees-unamortized|Unamortized Loan Fees After a Business Refinance|We refinanced our business loan. What happens to the old loan's remaining financing costs?
+borrowing|loan-origination-fee-withheld-proceeds|Loan Fees Withheld Before the Business Gets Cash|The lender deducted fees before funding our loan. Can we expense the difference immediately?
+borrowing|merchant-cash-advance-daily-repayments|Merchant Cash Advances and Daily Remittances|Our lender takes a percentage of daily sales. Is every remittance deductible interest?
+borrowing|business-debt-forgiven-insolvent-owner-solvent|Insolvent Business but Solvent Owner: Debt Relief|Our business cannot pay its debts, but I own other assets. Can we use the insolvency exclusion?
+borrowing|vendor-reduces-financed-purchase-price|Vendor Reduces Debt on a Financed Asset Purchase|The seller reduced what we owe on equipment we bought. Is that canceled-debt income?
+borrowing|forgiven-loan-principal-versus-unpaid-interest|Forgiven Principal and Accrued Business Interest|A lender forgave principal and unpaid interest. Do both amounts create the same income?
+borrowing|loan-renewal-capitalized-interest-no-cash|Loan Renewal Adds Interest to Business Principal|The bank rolled unpaid interest into a renewed loan. Does that count as paying the interest?
+borrowing|equipment-repossessed-remaining-debt-waived|Equipment Repossession With Debt Forgiveness|The lender took back equipment and waived the remaining debt. Is there one tax calculation or two?
+claims|business-interruption-insurance-replaces-profit|Business Interruption Insurance and Lost Income|Insurance replaced our lost operating profit. Is the payout taxable even while we are closed?
+claims|employee-embezzlement-recovery-insurance|Employee Theft and Later Insurance Recovery|An employee stole business funds and insurance paid later. How do we avoid double counting the loss?
+claims|business-cyberattack-ransom-recovery|Cyberattack Costs, Ransom and Insurance Payments|Our company paid cyberattack costs and then received insurance. Which costs and recoveries need separate records?
+claims|business-lawsuit-settlement-lost-profits-interest|Lawsuit Proceeds for Lost Profits and Interest|We won a business lawsuit for lost profits plus interest. Is the whole award treated the same?
+claims|insurance-pays-owner-business-owns-asset|Insurance Paid the Owner for a Company Asset|The insurer paid me personally for equipment my company owned. Who reports the claim?
+claims|insurance-reimbursement-denied-appeal-pending|Denied Business Insurance Claim Under Appeal|Our insurer denied a business-loss claim, but we appealed. Can we claim the loss now?
+claims|insurance-advance-before-final-business-loss|Insurance Advances Before a Business Claim Settles|We received an advance before the business insurer agreed on the total claim. How do we record it?
+claims|business-theft-partner-owner-dispute|Partner Withdrawals or Theft: Which Tax Review?|My partner took money without approval. Can the business immediately claim a theft loss?
+claims|vendor-lawsuit-recovery-prior-expense|Recovering a Vendor Payment Deducted Years Ago|We recovered money from a vendor after deducting the original cost. Is the recovery taxable?
+claims|business-equipment-warranty-cash-settlement|Cash Warranty Settlement on Business Equipment|The manufacturer paid us cash for defective equipment. Is that income or a basis adjustment?
+preopening|failed-franchise-before-opening-fees|Franchise Fees When the Location Never Opens|I paid franchise and buildout costs, but the location never opened. What can I deduct?
+preopening|new-product-research-existing-business|New Product Investigation or New Business Startup?|My existing business researched a new product line. Are the costs startup expenses?
+preopening|opening-date-soft-launch-first-sale|Soft Launch, Opening Date and Startup Deductions|Does our soft launch start the business for tax, or do we wait for the first paid sale?
+preopening|failed-acquisition-search-company-never-formed|Acquisition Search Costs Before Forming a Company|I spent money searching for a business to buy but never formed a company. Who claims the costs?
+preopening|preopening-training-staff-before-operations|Employee Training Before a New Business Opens|We trained staff months before opening. Are those wages ordinary payroll expenses for tax?
+preopening|startup-deposit-refunded-after-abandonment|Startup Deposit Refunded After Project Abandonment|We abandoned a startup project, then got a deposit back next year. How do we reconcile the costs?
+preopening|multiple-sites-investigated-one-opens|Startup Search Costs Across Several Locations|We evaluated five locations but opened only one. Do we deduct every rejected site's costs?
+preopening|business-license-application-denied-costs|Business License Denied Before Operations Begin|Our operating-license application was denied. Does that make all pre-opening spending deductible?
+preopening|preopening-rent-building-under-renovation|Rent Before the First Business Location Opens|We paid rent while building out our first location. Is it deductible before opening?
+preopening|cofounder-leaves-before-business-opens|Startup Costs When a Cofounder Leaves Before Opening|My cofounder left before our business opened. Who claims the startup costs we each paid?
+rights|foreign-licensor-us-business-royalty-withholding|Paying Foreign Licensors for U.S. Business Use|We pay a foreign company to license content used in the United States. Do withholding forms apply?
+rights|trademark-registration-versus-legal-defense|Trademark Registration and Brand Defense Costs|Are costs to register our trademark treated the same as defending it from a copycat?
+rights|business-sells-domain-keeps-operating-company|Selling a Domain While Keeping the Operating Business|We sold our old domain but kept the business. How do we separate the sale from operating revenue?
+rights|creator-licenses-course-business-revenue|Licensing an Owner's Course to the Operating Company|I created a course personally before incorporation. Can my company pay me royalties to sell it?
+rights|software-deposit-vendor-never-delivers|Software Vendor Fails Before Delivering the System|We prepaid a software build and the developer disappeared. Can we write off the entire deposit?
+rights|license-terminated-remaining-prepaid-fees|Unused Prepaid License Fees After Termination|We ended a multiyear software license early. What happens to its remaining prepaid cost?
+rights|acquired-customer-list-replaced-amortization|Replacing a Customer List Bought With a Business|The customer list we bought is outdated. Can we stop amortizing it and deduct the balance?
+rights|purchase-source-code-versus-development-work|Buying Source Code or Paying for Development?|We bought source code and hired developers to modify it. Are all the costs treated the same?
+rights|business-name-change-unamortized-goodwill|Business Rebrand and Remaining Goodwill Basis|We changed the business name after an acquisition. Can we write off the old brand and goodwill?
+rights|patent-license-advance-minimum-royalty|Patent License Advances and Minimum Royalties|We paid an upfront patent-license amount plus minimum royalties. Is every payment a current expense?
+locations|percentage-rent-yearend-sales-adjustment|Percentage Rent and Year-End Sales True-Ups|Our store owes extra rent based on annual sales. When do we deduct the year-end true-up?
+locations|commercial-lease-free-rent-book-tax|Free-Rent Periods and Book-to-Tax Differences|Our books spread free rent across the lease. Can the tax return use the same rent expense?
+locations|landlord-reimburses-moving-existing-business|Landlord Reimbursement for a Business Relocation|Our new landlord reimbursed our moving costs. Can we net it against rent?
+locations|equipment-sale-leaseback-business-records|Selling Equipment and Leasing It Back|We sold equipment and immediately leased it back. Can we report a sale and deduct every payment?
+locations|sublease-income-business-downsizes|Subleasing Unused Office Space: Business Records|We subleased half our office after downsizing. How should we separate rent income and lease costs?
+locations|commercial-lease-personal-guaranty-paid-owner|Owner Pays a Guaranteed Business Lease After Closure|I paid the landlord under my personal guarantee after my company closed. Who claims any deduction?
+locations|lease-extension-payment-renewal-option|Paying to Extend a Business Lease|We paid a lump sum to extend our commercial lease. Is that payment treated like monthly rent?
+locations|equipment-lease-maintenance-one-invoice|Equipment Lease Payments With Maintenance Included|Our equipment lease includes service and insurance. Can we treat the entire payment as rent?
+locations|business-location-decommissioning-restoration|Restoration Costs When a Business Location Closes|We must restore a rented location after closing it. Is the estimated restoration cost deductible now?
+locations|rent-paid-before-binding-lease-signed|Occupancy Payments Before the Lease Is Signed|We paid to occupy a space before signing the lease. Are those payments rent or a deposit?
+closeout|closed-store-customer-returns-next-year|Customer Returns After a Store Has Closed|Customers returned products after we closed the store. Which records and tax year do we use?
+closeout|unclaimed-payroll-checks-business-closes|Uncashed Employee Checks During Business Wind-Down|We are closing with uncashed employee paychecks. Can we reverse the payroll expense?
+closeout|business-dissolved-vendor-invoice-arrives|Vendor Bills Received After Company Dissolution|A vendor bill arrived after we dissolved the company. Can the owner deduct it personally?
+closeout|dormant-company-bank-interest-return|Dormant Company With Only Bank Interest|Our company stopped trading but still earns bank interest. Can we skip its return?
+closeout|business-remaining-supplies-personal-use-close|Remaining Supplies Taken Home When a Business Closes|I took unused business supplies home when closing. Can the company still deduct everything?
+closeout|company-collects-old-debt-after-final-return|Old Customer Debt Collected After a Final Return|A customer paid after we filed the company's final return. How do we report the money?
+closeout|closed-business-tax-refund-owner-account|Business Tax Refund After the Bank Account Closes|A refund arrived for our closed corporation. Can I deposit it personally and ignore the company books?
+closeout|asset-held-for-sale-business-no-operations|Business Stops Operating but Keeps Equipment for Sale|We stopped operations but still hold equipment for sale. Is this the company's final tax year?
+closeout|partnership-final-cash-debt-still-outstanding|Final Partnership Distribution With Debt Outstanding|Can we distribute the partnership's last cash while one vendor debt is unresolved?
+closeout|prepaid-business-services-after-dissolution|Prepaid Services Left When the Company Winds Down|We prepaid services we will never use after shutting down. Is the unused balance a write-off?
+records|same-invoice-expense-and-capitalized-asset|One Invoice in Expenses and Fixed Assets|We expensed equipment and also depreciated it. How do we correct the double deduction?
+records|checkout-charity-donations-business-receipts|Customer Charity Donations in Business Deposits|Our checkout collects donations for a charity. How do we keep them separate from our sales?
+records|loan-proceeds-recorded-customer-income|Loan Deposit Mistaken for Customer Revenue|Our bookkeeper recorded a business loan deposit as sales. Which returns might need correction?
+records|owner-personal-tax-refund-business-deposit|Personal Tax Refund Deposited Into the Business|My personal tax refund hit the company account. Is it business income?
+records|old-bank-feed-duplicates-opening-transactions|Duplicate Bank Feeds After a Software Migration|Our new accounting system duplicated last year's bank activity. Where should we start the correction?
+records|cash-to-accrual-management-books-tax-method|Accrual Management Books but Cash-Method Tax Return|We changed our reports to accrual accounting. Did we also change our tax method?
+records|vendor-credit-recorded-twice-purchase-refund|Vendor Credit and Refund Both Recorded as Income|A supplier credit and its cash refund were both posted. How do we avoid counting the recovery twice?
+records|fiscal-year-business-calendar-year-payroll-reconciliation|Calendar-Year Payroll in a Fiscal-Year Business Return|How do I reconcile calendar-year W-2 totals to my company's fiscal-year tax return?
+records|unreconciled-clearing-account-tax-return|Old Clearing Balances Before Filing the Tax Return|Can we write an old payment-clearing balance to miscellaneous expense to finish the tax return?
+records|employee-expense-reimbursement-duplicated-payable|Expense Reimbursement Also Left in Accounts Payable|We reimbursed an employee, but the invoice remains payable. How do we prevent a second deduction?

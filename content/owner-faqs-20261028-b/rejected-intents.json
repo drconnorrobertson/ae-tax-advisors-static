@@ -1,0 +1,30 @@
+{
+  "replaced_before_drafting": {
+    "vendor-retains-title-stock-on-site": "stock|drop-shipped-goods-never-enter-warehouse|Drop-Shipping Purchases and Gross Revenue|We sell goods shipped directly by a supplier. Can we report only our markup as revenue?",
+    "inventory-purchased-with-vendor-credit": "stock|customer-supplied-manufacturing-materials|Customer-Owned Materials in a Manufacturing Business|Customers supply materials we process. Should their value appear in our inventory and sales?",
+    "inventory-donation-promotional-samples": "stock|demo-inventory-converted-business-use|Products Taken From Stock for Long-Term Demonstration|We moved stock into a permanent showroom display. Is it still inventory or a business asset?",
+    "buy-domain-existing-website-assets": "rights|domain-renewal-purchased-name-versus-service|Domain Renewals After Buying a Premium Name|We bought a domain, then paid annual renewal and privacy fees. Must all those costs be capitalized?",
+    "website-redesign-content-versus-software": "rights|business-sells-domain-keeps-operating-company|Selling a Domain While Keeping the Operating Business|We sold our old domain but kept the business. How do we separate the sale from operating revenue?",
+    "landlord-pays-business-surrender-lease": "locations|lease-extension-payment-renewal-option|Paying to Extend a Business Lease|We paid a lump sum to extend our commercial lease. Is that payment treated like monthly rent?",
+    "sales-tax-payable-posted-as-revenue": "records|checkout-charity-donations-business-receipts|Customer Charity Donations in Business Deposits|Our checkout collects donations for a charity. How do we keep them separate from our sales?",
+    "side-business-ready-owner-keeps-job": "preopening|cofounder-leaves-before-business-opens|Startup Costs When a Cofounder Leaves Before Opening|My cofounder left before our business opened. Who claims the startup costs we each paid?",
+    "leased-equipment-buyout-deposit-applied": "locations|equipment-sale-leaseback-business-records|Selling Equipment and Leasing It Back|We sold equipment and immediately leased it back. Can we report a sale and deduct every payment?"
+  },
+  "reason": "Rejected broad or close-existing intents in favor of distinct transaction questions; inventory included the prior 100 FAQs and workbook routes.",
+  "additional_full_body_rejections": {
+    "marketplace-and-processor-both-1099k": "processors|processor-backup-withholding-owner-tax-credit|Backup Withholding Deducted From Merchant Payouts|Our processor withheld federal tax from payouts. Is that a business expense or a tax credit?",
+    "processor-1099k-old-ein-business-moved": "processors|processor-bankruptcy-unpaid-merchant-funds|Merchant Funds Trapped in a Processor Bankruptcy|Our payment processor failed while holding sales proceeds. Can we deduct the entire unpaid balance?",
+    "processor-refund-fees-reconciliation": "processors|processor-fee-rebate-after-yearend|Processor Fee Rebates After the Fees Were Deducted|Our processor rebated fees we deducted last year. Does the refund reduce this year's sales?",
+    "business-credit-card-settlement-1099c": "borrowing|scorp-debt-forgiven-after-owner-sells-shares|S-Corp Debt Forgiveness After a Shareholder Exit|The company's bank debt was forgiven after I sold my shares. Does the income belong on my K-1?",
+    "domain-renewal-purchased-name-versus-service": "rights|foreign-licensor-us-business-royalty-withholding|Paying Foreign Licensors for U.S. Business Use|We pay a foreign company to license content used in the United States. Do withholding forms apply?"
+  },
+  "reason_for_additional_review": "Read nearest existing article bodies, not just titles; rejected items already answered by domain and 1099-K reconciliation content.",
+  "final_body_review_replacement": {
+    "credit-card-reward-bonus-business-bookkeeping": "fiscal-year-business-calendar-year-payroll-reconciliation",
+    "reason": "Existing cash-back article already distinguishes purchase rebates from promotional rewards."
+  },
+  "within_batch_replacement": {
+    "drop-shipped-goods-never-enter-warehouse": "supplier-tooling-charge-mold-stays-factory",
+    "reason": "Avoid duplicating the principal-versus-agent question already addressed by platform supplier payments."
+  }
+}
