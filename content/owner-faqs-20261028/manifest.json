@@ -1,0 +1,1612 @@
+{
+  "date": "2026-10-28",
+  "pages": [
+    {
+      "path": "/blog/s-corp-payroll-two-businesses-one-owner/",
+      "title": "I own two S corporations. Should both pay me a salary?",
+      "seo_title": "Two S Corps: Must Both Pay the Owner a Salary?",
+      "description": "Each company needs its own review of the work you perform and how you are compensated.",
+      "group": "owner-pay",
+      "primary_keyword": "s corp payroll two businesses one owner",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/s-corp-owner-stops-working-midyear/",
+        "/blog/s-corp-bonus-paid-with-shareholder-loan/"
+      ]
+    },
+    {
+      "path": "/blog/s-corp-owner-stops-working-midyear/",
+      "title": "I stopped working in my S corp in June. Must I keep the same salary?",
+      "seo_title": "S-Corp Salary After the Owner Stops Working",
+      "description": "The review should separate the period when you actively worked from the period after your duties changed.",
+      "group": "owner-pay",
+      "primary_keyword": "s corp owner stops working midyear",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/s-corp-bonus-paid-with-shareholder-loan/",
+        "/blog/owner-personal-bills-paid-instead-of-payroll/"
+      ]
+    },
+    {
+      "path": "/blog/s-corp-bonus-paid-with-shareholder-loan/",
+      "title": "Can my S corp borrow from me and use that cash to pay my bonus?",
+      "seo_title": "Funding an Owner Bonus With a Shareholder Loan",
+      "description": "The cash movement, payroll and shareholder funding need separate support.",
+      "group": "owner-pay",
+      "primary_keyword": "s corp bonus paid with shareholder loan",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/owner-personal-bills-paid-instead-of-payroll/",
+        "/blog/owner-salary-after-selling-half-company/"
+      ]
+    },
+    {
+      "path": "/blog/owner-personal-bills-paid-instead-of-payroll/",
+      "title": "My company pays my mortgage instead of a paycheck. How should we fix it?",
+      "seo_title": "Company Pays Your Mortgage Instead of Wages?",
+      "description": "Start by identifying the recipient, purpose and reporting of every payment.",
+      "group": "owner-pay",
+      "primary_keyword": "owner personal bills paid instead of payroll",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/owner-salary-after-selling-half-company/",
+        "/blog/s-corp-owner-parental-leave-payroll/"
+      ]
+    },
+    {
+      "path": "/blog/owner-salary-after-selling-half-company/",
+      "title": "I sold half my business. Should my salary fall by half too?",
+      "seo_title": "Owner Salary After Selling Half the Business",
+      "description": "Owner Salary After Selling Half the Business. Review the facts, records and next steps for your business.",
+      "group": "owner-pay",
+      "primary_keyword": "owner salary after selling half company",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/s-corp-owner-parental-leave-payroll/",
+        "/blog/s-corp-owner-payroll-paid-by-wrong-entity/"
+      ]
+    },
+    {
+      "path": "/blog/s-corp-owner-parental-leave-payroll/",
+      "title": "I am taking parental leave from my S corp. What happens to owner payroll?",
+      "seo_title": "S-Corp Owner Payroll During Parental Leave",
+      "description": "Review the leave arrangement, services during leave and existing compensation commitments.",
+      "group": "owner-pay",
+      "primary_keyword": "s corp owner parental leave payroll",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/s-corp-owner-payroll-paid-by-wrong-entity/",
+        "/blog/owner-spouse-payroll-no-defined-job/"
+      ]
+    },
+    {
+      "path": "/blog/s-corp-owner-payroll-paid-by-wrong-entity/",
+      "title": "Our payroll provider used the wrong company EIN. Can a journal entry fix it?",
+      "seo_title": "Payroll Reported Under the Wrong Company EIN",
+      "description": "A bookkeeping transfer alone does not correct wages reported under another employer's EIN.",
+      "group": "owner-pay",
+      "primary_keyword": "s corp owner payroll paid by wrong entity",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/owner-spouse-payroll-no-defined-job/",
+        "/blog/owner-payroll-cash-shortage-yearend/"
+      ]
+    },
+    {
+      "path": "/blog/owner-spouse-payroll-no-defined-job/",
+      "title": "Can I put my spouse on payroll if they only help occasionally?",
+      "seo_title": "Spouse on Payroll for Occasional Business Work",
+      "description": "Employment should reflect real services, credible pay and proper reporting.",
+      "group": "owner-pay",
+      "primary_keyword": "owner spouse payroll no defined job",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/owner-payroll-cash-shortage-yearend/",
+        "/blog/s-corp-owner-contracts-through-new-company/"
+      ]
+    },
+    {
+      "path": "/blog/owner-payroll-cash-shortage-yearend/",
+      "title": "My S corp is profitable but cannot fund year-end payroll. What now?",
+      "seo_title": "Profitable S Corp, No Cash for Year-End Payroll",
+      "description": "Profitable S Corp, No Cash for Year-End Payroll. Review the facts, records and next steps for your business.",
+      "group": "owner-pay",
+      "primary_keyword": "owner payroll cash shortage yearend",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/owner-spouse-payroll-no-defined-job/",
+        "/blog/s-corp-owner-contracts-through-new-company/"
+      ]
+    },
+    {
+      "path": "/blog/s-corp-owner-contracts-through-new-company/",
+      "title": "I moved clients to a new S corp. Can the old company keep paying me?",
+      "seo_title": "Owner Payroll After Moving Clients to a New S Corp",
+      "description": "Identify which entity now earns the revenue and receives your services.",
+      "group": "owner-pay",
+      "primary_keyword": "s corp owner contracts through new company",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/s-corp-payroll-two-businesses-one-owner/",
+        "/blog/s-corp-owner-stops-working-midyear/"
+      ]
+    },
+    {
+      "path": "/blog/shareholder-loan-buyer-repays-at-closing/",
+      "title": "What happens to my shareholder loan when I sell the company?",
+      "seo_title": "Shareholder Loan Repayment When Selling Your Company",
+      "description": "Separate the sale of shares from repayment, assignment or forgiveness of the shareholder loan.",
+      "group": "owner-loans",
+      "primary_keyword": "shareholder loan buyer repays at closing",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p550"
+      ],
+      "related": [
+        "/blog/shareholder-loan-interest-capitalized-never-paid/",
+        "/blog/owner-loan-company-cannot-repay/"
+      ]
+    },
+    {
+      "path": "/blog/s-corp-line-credit-personal-guarantee-loss/",
+      "title": "I guaranteed the business credit line. Why can I not deduct its losses?",
+      "seo_title": "Does a Personal Loan Guarantee Allow S-Corp Losses?",
+      "description": "A guarantee by itself generally does not create shareholder debt basis.",
+      "group": "owner-loans",
+      "primary_keyword": "s corp line credit personal guarantee loss",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p550"
+      ],
+      "related": [
+        "/blog/owner-loan-company-cannot-repay/",
+        "/blog/shareholder-repaid-loan-after-losses/"
+      ]
+    },
+    {
+      "path": "/blog/shareholder-loan-interest-capitalized-never-paid/",
+      "title": "My S corp keeps adding unpaid interest to my loan. Is that enough?",
+      "seo_title": "Unpaid Interest on a Shareholder Loan",
+      "description": "Unpaid interest, principal advances and tax basis require separate analysis.",
+      "group": "owner-loans",
+      "primary_keyword": "shareholder loan interest capitalized never paid",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p550"
+      ],
+      "related": [
+        "/blog/shareholder-repaid-loan-after-losses/",
+        "/blog/owner-transfers-personal-credit-card-debt-business/"
+      ]
+    },
+    {
+      "path": "/blog/owner-loan-company-cannot-repay/",
+      "title": "My company cannot repay my loan. Can I claim a bad debt?",
+      "seo_title": "Can You Deduct a Loan Your Company Cannot Repay?",
+      "description": "A disappointing investment does not automatically become a deductible business bad debt.",
+      "group": "owner-loans",
+      "primary_keyword": "owner loan company cannot repay",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p550"
+      ],
+      "related": [
+        "/blog/owner-transfers-personal-credit-card-debt-business/",
+        "/blog/owner-loans-one-scorp-another-repays/"
+      ]
+    },
+    {
+      "path": "/blog/shareholder-repaid-loan-after-losses/",
+      "title": "My S corp repaid my loan after years of losses. Is the cash taxable?",
+      "seo_title": "S-Corp Loan Repayment After Deducting Losses",
+      "description": "S-Corp Loan Repayment After Deducting Losses. Review the facts, records and next steps for your business.",
+      "group": "owner-loans",
+      "primary_keyword": "shareholder repaid loan after losses",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p550"
+      ],
+      "related": [
+        "/blog/owner-loans-one-scorp-another-repays/",
+        "/blog/owner-cash-injection-before-loss-return/"
+      ]
+    },
+    {
+      "path": "/blog/owner-transfers-personal-credit-card-debt-business/",
+      "title": "Can I transfer my personal credit-card balance to the company?",
+      "seo_title": "Can a Company Pay Your Personal Credit Card?",
+      "description": "Can a Company Pay Your Personal Credit Card?. Review the facts, records and next steps for your business.",
+      "group": "owner-loans",
+      "primary_keyword": "owner transfers personal credit card debt business",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p550"
+      ],
+      "related": [
+        "/blog/owner-cash-injection-before-loss-return/",
+        "/blog/shareholder-loan-basis-missing-prior-cpa/"
+      ]
+    },
+    {
+      "path": "/blog/owner-loans-one-scorp-another-repays/",
+      "title": "I lent to Company A, but Company B repaid me. Is that a problem?",
+      "seo_title": "One S Corp Repays Another Company's Owner Loan",
+      "description": "One S Corp Repays Another Company's Owner Loan. Review the facts, records and next steps for your business.",
+      "group": "owner-loans",
+      "primary_keyword": "owner loans one scorp another repays",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p550"
+      ],
+      "related": [
+        "/blog/shareholder-loan-basis-missing-prior-cpa/",
+        "/blog/owner-forgives-company-loan-before-sale/"
+      ]
+    },
+    {
+      "path": "/blog/owner-cash-injection-before-loss-return/",
+      "title": "Will a December cash contribution let me deduct my S corp loss?",
+      "seo_title": "Year-End Cash Contributions and S-Corp Losses",
+      "description": "Year-End Cash Contributions and S-Corp Losses. Review the facts, records and next steps for your business.",
+      "group": "owner-loans",
+      "primary_keyword": "owner cash injection before loss return",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p550"
+      ],
+      "related": [
+        "/blog/shareholder-loan-basis-missing-prior-cpa/",
+        "/blog/owner-forgives-company-loan-before-sale/"
+      ]
+    },
+    {
+      "path": "/blog/shareholder-loan-basis-missing-prior-cpa/",
+      "title": "My old CPA never tracked debt basis. Where do we start?",
+      "seo_title": "Rebuilding Missing Shareholder Debt-Basis Records",
+      "description": "Reconstruct the history from filed returns, actual advances, repayments and losses.",
+      "group": "owner-loans",
+      "primary_keyword": "shareholder loan basis missing prior cpa",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p550"
+      ],
+      "related": [
+        "/blog/shareholder-loan-buyer-repays-at-closing/",
+        "/blog/s-corp-line-credit-personal-guarantee-loss/"
+      ]
+    },
+    {
+      "path": "/blog/owner-forgives-company-loan-before-sale/",
+      "title": "Should I forgive my shareholder loan before a buyer takes over?",
+      "seo_title": "Forgiving a Shareholder Loan Before a Business Sale",
+      "description": "Forgiveness can affect the company, the shareholder and the sale model.",
+      "group": "owner-loans",
+      "primary_keyword": "owner forgives company loan before sale",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p550"
+      ],
+      "related": [
+        "/blog/s-corp-line-credit-personal-guarantee-loss/",
+        "/blog/shareholder-loan-interest-capitalized-never-paid/"
+      ]
+    },
+    {
+      "path": "/blog/one-business-pays-shared-advertising/",
+      "title": "One of my companies pays all our advertising. How should we split it?",
+      "seo_title": "Splitting Advertising Costs Between Your Companies",
+      "description": "Splitting Advertising Costs Between Your Companies. Review the facts, records and next steps for your business.",
+      "group": "multiple-entities",
+      "primary_keyword": "one business pays shared advertising",
+      "sources": [
+        "https://www.irs.gov/publications/p583",
+        "https://www.law.cornell.edu/uscode/text/26/482"
+      ],
+      "related": [
+        "/blog/intercompany-transfer-not-loan-or-income/",
+        "/blog/separate-llc-for-every-new-product/"
+      ]
+    },
+    {
+      "path": "/blog/shared-office-lease-two-owned-companies/",
+      "title": "Two of my companies share an office. Which one deducts the rent?",
+      "seo_title": "Two Owned Companies Sharing an Office Lease",
+      "description": "The lease, use of space and payment arrangement should tell a consistent story.",
+      "group": "multiple-entities",
+      "primary_keyword": "shared office lease two owned companies",
+      "sources": [
+        "https://www.irs.gov/publications/p583",
+        "https://www.law.cornell.edu/uscode/text/26/482"
+      ],
+      "related": [
+        "/blog/separate-llc-for-every-new-product/",
+        "/blog/one-company-buys-equipment-another-uses-it/"
+      ]
+    },
+    {
+      "path": "/blog/management-company-no-employees-outsourced-work/",
+      "title": "Can my management company charge a fee if it has no employees?",
+      "seo_title": "Management Fees When the Company Has No Employees",
+      "description": "Review what services the company actually provides, who performs them and how the fee is supported.",
+      "group": "multiple-entities",
+      "primary_keyword": "management company no employees outsourced work",
+      "sources": [
+        "https://www.irs.gov/publications/p583",
+        "https://www.law.cornell.edu/uscode/text/26/482"
+      ],
+      "related": [
+        "/blog/one-company-buys-equipment-another-uses-it/",
+        "/blog/owner-sells-one-company-keeps-shared-staff/"
+      ]
+    },
+    {
+      "path": "/blog/intercompany-transfer-not-loan-or-income/",
+      "title": "My bookkeeper records every company transfer as income. Is that right?",
+      "seo_title": "Are Transfers Between Your Companies Taxable Income?",
+      "description": "Are Transfers Between Your Companies Taxable Income?. Review the facts, records and next steps for your business.",
+      "group": "multiple-entities",
+      "primary_keyword": "intercompany transfer not loan or income",
+      "sources": [
+        "https://www.irs.gov/publications/p583",
+        "https://www.law.cornell.edu/uscode/text/26/482"
+      ],
+      "related": [
+        "/blog/owner-sells-one-company-keeps-shared-staff/",
+        "/blog/shared-credit-card-multiple-companies/"
+      ]
+    },
+    {
+      "path": "/blog/separate-llc-for-every-new-product/",
+      "title": "Should every new product line have its own LLC for taxes?",
+      "seo_title": "Should Each New Product Have a Separate LLC?",
+      "description": "Should Each New Product Have a Separate LLC?. Review the facts, records and next steps for your business.",
+      "group": "multiple-entities",
+      "primary_keyword": "separate llc for every new product",
+      "sources": [
+        "https://www.irs.gov/publications/p583",
+        "https://www.law.cornell.edu/uscode/text/26/482"
+      ],
+      "related": [
+        "/blog/shared-credit-card-multiple-companies/",
+        "/blog/family-owned-companies-different-accounting-methods/"
+      ]
+    },
+    {
+      "path": "/blog/one-company-buys-equipment-another-uses-it/",
+      "title": "Company A bought equipment that Company B uses. Who depreciates it?",
+      "seo_title": "One Company Buys Equipment Another Company Uses",
+      "description": "One Company Buys Equipment Another Company Uses. Review the facts, records and next steps for your business.",
+      "group": "multiple-entities",
+      "primary_keyword": "one company buys equipment another uses it",
+      "sources": [
+        "https://www.irs.gov/publications/p583",
+        "https://www.law.cornell.edu/uscode/text/26/482"
+      ],
+      "related": [
+        "/blog/family-owned-companies-different-accounting-methods/",
+        "/blog/new-partner-joins-shared-services-business/"
+      ]
+    },
+    {
+      "path": "/blog/owner-sells-one-company-keeps-shared-staff/",
+      "title": "I sold one company but kept the shared employees. How should costs change?",
+      "seo_title": "Shared Employee Costs After Selling One Company",
+      "description": "Shared Employee Costs After Selling One Company. Review the facts, records and next steps for your business.",
+      "group": "multiple-entities",
+      "primary_keyword": "owner sells one company keeps shared staff",
+      "sources": [
+        "https://www.irs.gov/publications/p583",
+        "https://www.law.cornell.edu/uscode/text/26/482"
+      ],
+      "related": [
+        "/blog/family-owned-companies-different-accounting-methods/",
+        "/blog/new-partner-joins-shared-services-business/"
+      ]
+    },
+    {
+      "path": "/blog/shared-credit-card-multiple-companies/",
+      "title": "Can one corporate credit card cover all my businesses?",
+      "seo_title": "One Credit Card for Multiple Businesses",
+      "description": "A shared card requires transaction-level allocation and reliable settlement records.",
+      "group": "multiple-entities",
+      "primary_keyword": "shared credit card multiple companies",
+      "sources": [
+        "https://www.irs.gov/publications/p583",
+        "https://www.law.cornell.edu/uscode/text/26/482"
+      ],
+      "related": [
+        "/blog/one-business-pays-shared-advertising/",
+        "/blog/shared-office-lease-two-owned-companies/"
+      ]
+    },
+    {
+      "path": "/blog/family-owned-companies-different-accounting-methods/",
+      "title": "Can my related businesses use different accounting methods?",
+      "seo_title": "Accounting Methods Across Related Businesses",
+      "description": "The answer requires a taxpayer-by-taxpayer eligibility and method review, including any rules that aggregate related businesses.",
+      "group": "multiple-entities",
+      "primary_keyword": "family owned companies different accounting methods",
+      "sources": [
+        "https://www.irs.gov/publications/p583",
+        "https://www.law.cornell.edu/uscode/text/26/482"
+      ],
+      "related": [
+        "/blog/shared-office-lease-two-owned-companies/",
+        "/blog/management-company-no-employees-outsourced-work/"
+      ]
+    },
+    {
+      "path": "/blog/new-partner-joins-shared-services-business/",
+      "title": "A new partner joined one company. Can I keep our old intercompany fees?",
+      "seo_title": "Intercompany Fees After Admitting a New Partner",
+      "description": "Intercompany Fees After Admitting a New Partner. Review the facts, records and next steps for your business.",
+      "group": "multiple-entities",
+      "primary_keyword": "new partner joins shared services business",
+      "sources": [
+        "https://www.irs.gov/publications/p583",
+        "https://www.law.cornell.edu/uscode/text/26/482"
+      ],
+      "related": [
+        "/blog/management-company-no-employees-outsourced-work/",
+        "/blog/intercompany-transfer-not-loan-or-income/"
+      ]
+    },
+    {
+      "path": "/blog/buyer-assumes-prepaid-customer-contracts/",
+      "title": "I am buying a business with prepaid customers. Who handles the tax?",
+      "seo_title": "Buying a Business With Prepaid Customer Contracts",
+      "description": "Identify which party received the cash, who must perform the work and how the liability affects the purchase agreement.",
+      "group": "business-purchases",
+      "primary_keyword": "buyer assumes prepaid customer contracts",
+      "sources": [
+        "https://www.irs.gov/instructions/i8594",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/seller-finances-equipment-goodwill-purchase/",
+        "/blog/new-business-purchase-old-owner-vehicles/"
+      ]
+    },
+    {
+      "path": "/blog/acquiring-business-uncollected-receivables/",
+      "title": "The seller keeps receivables but I collect them. Are deposits my sales?",
+      "seo_title": "Collecting Receivables the Business Seller Kept",
+      "description": "Collection responsibility does not by itself determine ownership of the income.",
+      "group": "business-purchases",
+      "primary_keyword": "acquiring business uncollected receivables",
+      "sources": [
+        "https://www.irs.gov/instructions/i8594",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/new-business-purchase-old-owner-vehicles/",
+        "/blog/buyer-pays-seller-consulting-through-llc/"
+      ]
+    },
+    {
+      "path": "/blog/business-purchase-inventory-count-after-closing/",
+      "title": "Our inventory count changed after closing. Does the tax allocation change?",
+      "seo_title": "Inventory Price Adjustments After Buying a Business",
+      "description": "A revised inventory amount may affect the purchase-price allocation and opening records.",
+      "group": "business-purchases",
+      "primary_keyword": "business purchase inventory count after closing",
+      "sources": [
+        "https://www.irs.gov/instructions/i8594",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/buyer-pays-seller-consulting-through-llc/",
+        "/blog/business-purchase-lease-deposit-landlord/"
+      ]
+    },
+    {
+      "path": "/blog/buyer-pays-seller-employee-bonuses/",
+      "title": "I paid the seller's employee bonuses at closing. Can I deduct them?",
+      "seo_title": "Buyer Pays the Seller's Employee Bonuses",
+      "description": "Buyer Pays the Seller's Employee Bonuses. Review the facts, records and next steps for your business.",
+      "group": "business-purchases",
+      "primary_keyword": "buyer pays seller employee bonuses",
+      "sources": [
+        "https://www.irs.gov/instructions/i8594",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/business-purchase-lease-deposit-landlord/",
+        "/blog/business-purchase-transition-software-subscriptions/"
+      ]
+    },
+    {
+      "path": "/blog/seller-finances-equipment-goodwill-purchase/",
+      "title": "The seller financed the whole purchase. Can I still depreciate equipment?",
+      "seo_title": "Depreciation on a Seller-Financed Business Purchase",
+      "description": "Depreciation on a Seller-Financed Business Purchase. Review the facts, records and next steps for your business.",
+      "group": "business-purchases",
+      "primary_keyword": "seller finances equipment goodwill purchase",
+      "sources": [
+        "https://www.irs.gov/instructions/i8594",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/business-purchase-transition-software-subscriptions/",
+        "/blog/asset-purchase-seller-bank-account-kept-open/"
+      ]
+    },
+    {
+      "path": "/blog/new-business-purchase-old-owner-vehicles/",
+      "title": "The seller's cars are still on the books. Did I buy them?",
+      "seo_title": "Seller-Kept Vehicles in the Buyer's Opening Books",
+      "description": "Check the executed asset schedules, titles and excluded-asset provisions.",
+      "group": "business-purchases",
+      "primary_keyword": "new business purchase old owner vehicles",
+      "sources": [
+        "https://www.irs.gov/instructions/i8594",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/business-purchase-transition-software-subscriptions/",
+        "/blog/asset-purchase-seller-bank-account-kept-open/"
+      ]
+    },
+    {
+      "path": "/blog/buyer-pays-seller-consulting-through-llc/",
+      "title": "The seller wants consulting fees paid to a new LLC. Does that change my tax?",
+      "seo_title": "Paying Business-Seller Consulting Fees to an LLC",
+      "description": "The payment recipient's entity name does not determine whether the amount is purchase price or compensation for services.",
+      "group": "business-purchases",
+      "primary_keyword": "buyer pays seller consulting through llc",
+      "sources": [
+        "https://www.irs.gov/instructions/i8594",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/buyer-assumes-prepaid-customer-contracts/",
+        "/blog/acquiring-business-uncollected-receivables/"
+      ]
+    },
+    {
+      "path": "/blog/business-purchase-lease-deposit-landlord/",
+      "title": "I paid the seller for a lease deposit. Is it a rent deduction?",
+      "seo_title": "Buying a Business: Reimbursing the Lease Deposit",
+      "description": "Determine whether you acquired a refundable deposit, paid rent or paid another closing cost.",
+      "group": "business-purchases",
+      "primary_keyword": "business purchase lease deposit landlord",
+      "sources": [
+        "https://www.irs.gov/instructions/i8594",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/acquiring-business-uncollected-receivables/",
+        "/blog/business-purchase-inventory-count-after-closing/"
+      ]
+    },
+    {
+      "path": "/blog/business-purchase-transition-software-subscriptions/",
+      "title": "Who deducts software subscriptions that overlap my business purchase?",
+      "seo_title": "Software Subscriptions Across a Business Acquisition",
+      "description": "Identify the contract owner, coverage dates, transfer rights and transaction structure.",
+      "group": "business-purchases",
+      "primary_keyword": "business purchase transition software subscriptions",
+      "sources": [
+        "https://www.irs.gov/instructions/i8594",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/business-purchase-inventory-count-after-closing/",
+        "/blog/buyer-pays-seller-employee-bonuses/"
+      ]
+    },
+    {
+      "path": "/blog/asset-purchase-seller-bank-account-kept-open/",
+      "title": "We used the seller's bank account for a month after closing. How do we untangle it?",
+      "seo_title": "Using the Seller's Bank Account After Closing",
+      "description": "Reconstruct the cash activity from the closing cutoff and identify the legal owner of each receipt and obligation.",
+      "group": "business-purchases",
+      "primary_keyword": "asset purchase seller bank account kept open",
+      "sources": [
+        "https://www.irs.gov/instructions/i8594",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/buyer-pays-seller-employee-bonuses/",
+        "/blog/seller-finances-equipment-goodwill-purchase/"
+      ]
+    },
+    {
+      "path": "/blog/business-seller-note-paid-early-discount/",
+      "title": "My buyer wants to pay off the seller note at a discount. What changes?",
+      "seo_title": "Discounted Payoff of a Business Seller Note",
+      "description": "Compare the proposed payoff with the note's remaining principal, interest and tax basis.",
+      "group": "selling-business",
+      "primary_keyword": "business seller note paid early discount",
+      "sources": [
+        "https://www.irs.gov/publications/p537",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/business-sale-consulting-ends-early/",
+        "/blog/business-seller-dies-note-still-outstanding/"
+      ]
+    },
+    {
+      "path": "/blog/business-sale-escrow-pays-buyer-claim/",
+      "title": "The buyer used our sale escrow to pay a claim. Is that a deduction?",
+      "seo_title": "Buyer Claims Paid From a Business-Sale Escrow",
+      "description": "Determine what the claim represents and who was entitled to the escrow.",
+      "group": "selling-business",
+      "primary_keyword": "business sale escrow pays buyer claim",
+      "sources": [
+        "https://www.irs.gov/publications/p537",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/business-seller-dies-note-still-outstanding/",
+        "/blog/seller-retains-liability-company-liquidates/"
+      ]
+    },
+    {
+      "path": "/blog/seller-financing-interest-payment-holiday/",
+      "title": "I gave the buyer a payment holiday. Can I skip interest income too?",
+      "seo_title": "Seller-Note Payment Holidays and Interest Income",
+      "description": "Review the note amendment, accounting method and applicable interest rules.",
+      "group": "selling-business",
+      "primary_keyword": "seller financing interest payment holiday",
+      "sources": [
+        "https://www.irs.gov/publications/p537",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/seller-retains-liability-company-liquidates/",
+        "/blog/business-sale-price-paid-to-spouse/"
+      ]
+    },
+    {
+      "path": "/blog/partial-business-sale-owner-keeps-receivables/",
+      "title": "I sold the assets but kept receivables. Why do I still have business income?",
+      "seo_title": "Retained Receivables After Selling Business Assets",
+      "description": "The sale does not automatically change the treatment of receivables retained by the seller.",
+      "group": "selling-business",
+      "primary_keyword": "partial business sale owner keeps receivables",
+      "sources": [
+        "https://www.irs.gov/publications/p537",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/business-sale-price-paid-to-spouse/",
+        "/blog/failed-business-sale-diligence-costs/"
+      ]
+    },
+    {
+      "path": "/blog/business-sale-transaction-fees-paid-personally/",
+      "title": "I paid my company's sale fees personally. Where do they belong?",
+      "seo_title": "Business-Sale Fees Paid Personally by the Owner",
+      "description": "Business-Sale Fees Paid Personally by the Owner. Review the facts, records and next steps for your business.",
+      "group": "selling-business",
+      "primary_keyword": "business sale transaction fees paid personally",
+      "sources": [
+        "https://www.irs.gov/publications/p537",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/business-sale-price-paid-to-spouse/",
+        "/blog/failed-business-sale-diligence-costs/"
+      ]
+    },
+    {
+      "path": "/blog/business-sale-consulting-ends-early/",
+      "title": "My consulting contract ended early after the sale. Is the payoff capital gain?",
+      "seo_title": "Early Termination of Seller Consulting Agreements",
+      "description": "A termination payment needs analysis under the service contract and settlement.",
+      "group": "selling-business",
+      "primary_keyword": "business sale consulting ends early",
+      "sources": [
+        "https://www.irs.gov/publications/p537",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/business-seller-note-paid-early-discount/",
+        "/blog/business-sale-escrow-pays-buyer-claim/"
+      ]
+    },
+    {
+      "path": "/blog/business-seller-dies-note-still-outstanding/",
+      "title": "What happens to my seller note if I die before it is paid?",
+      "seo_title": "Seller Notes and Tax Reporting After the Owner Dies",
+      "description": "Include the note in estate and income-tax coordination rather than assuming the remaining gain disappears.",
+      "group": "selling-business",
+      "primary_keyword": "business seller dies note still outstanding",
+      "sources": [
+        "https://www.irs.gov/publications/p537",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/business-sale-escrow-pays-buyer-claim/",
+        "/blog/seller-financing-interest-payment-holiday/"
+      ]
+    },
+    {
+      "path": "/blog/seller-retains-liability-company-liquidates/",
+      "title": "Can I close my company while a sale indemnity is still outstanding?",
+      "seo_title": "Closing a Company With Outstanding Sale Indemnities",
+      "description": "Legal dissolution, final tax returns and unresolved obligations need coordinated timing.",
+      "group": "selling-business",
+      "primary_keyword": "seller retains liability company liquidates",
+      "sources": [
+        "https://www.irs.gov/publications/p537",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/seller-financing-interest-payment-holiday/",
+        "/blog/partial-business-sale-owner-keeps-receivables/"
+      ]
+    },
+    {
+      "path": "/blog/business-sale-price-paid-to-spouse/",
+      "title": "The buyer paid part of my sale proceeds to my spouse. Who reports it?",
+      "seo_title": "Business-Sale Proceeds Paid to Your Spouse",
+      "description": "Payment direction does not by itself transfer ownership of the income.",
+      "group": "selling-business",
+      "primary_keyword": "business sale price paid to spouse",
+      "sources": [
+        "https://www.irs.gov/publications/p537",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/partial-business-sale-owner-keeps-receivables/",
+        "/blog/business-sale-transaction-fees-paid-personally/"
+      ]
+    },
+    {
+      "path": "/blog/failed-business-sale-diligence-costs/",
+      "title": "Our business sale fell through. Can we deduct all the deal costs?",
+      "seo_title": "Deducting Costs of a Failed Business Sale",
+      "description": "A failed transaction does not make every related cost currently deductible.",
+      "group": "selling-business",
+      "primary_keyword": "failed business sale diligence costs",
+      "sources": [
+        "https://www.irs.gov/publications/p537",
+        "https://www.irs.gov/publications/p544"
+      ],
+      "related": [
+        "/blog/business-sale-transaction-fees-paid-personally/",
+        "/blog/business-sale-consulting-ends-early/"
+      ]
+    },
+    {
+      "path": "/blog/owner-buys-business-existing-401k/",
+      "title": "I bought a company with a 401(k). Can I merge it into mine immediately?",
+      "seo_title": "Buying a Business That Already Has a 401(k)",
+      "description": "The transaction structure, plan documents and employee transition matter.",
+      "group": "retirement-plans",
+      "primary_keyword": "owner buys business existing 401k",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+      ],
+      "related": [
+        "/blog/solo-401k-first-employee-hired/",
+        "/blog/owner-sells-business-plan-termination-timing/"
+      ]
+    },
+    {
+      "path": "/blog/owner-cash-balance-plan-profit-drops/",
+      "title": "My profit fell after I adopted a cash balance plan. Can I skip funding?",
+      "seo_title": "Cash Balance Funding When Business Profit Falls",
+      "description": "Ask the actuary and administrator to evaluate the actual funding requirement before changing payments.",
+      "group": "retirement-plans",
+      "primary_keyword": "owner cash balance plan profit drops",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+      ],
+      "related": [
+        "/blog/owner-sells-business-plan-termination-timing/",
+        "/blog/retirement-plan-new-location-employees/"
+      ]
+    },
+    {
+      "path": "/blog/owner-spouse-both-401k-other-employers/",
+      "title": "My spouse and I each have outside 401(k)s. What can our business add?",
+      "seo_title": "Spouses With Outside 401(k)s and a Shared Business",
+      "description": "Review each person's deferrals across plans and the business's employer contribution rules.",
+      "group": "retirement-plans",
+      "primary_keyword": "owner spouse both 401k other employers",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+      ],
+      "related": [
+        "/blog/retirement-plan-new-location-employees/",
+        "/blog/sep-contribution-after-switch-scorp/"
+      ]
+    },
+    {
+      "path": "/blog/retirement-contribution-recorded-not-deposited/",
+      "title": "My books show a retirement contribution, but the money was never sent. Is it deductible?",
+      "seo_title": "Retirement Contributions Recorded but Not Deposited",
+      "description": "Determine the type of contribution, actual deposit date and applicable plan and tax deadlines.",
+      "group": "retirement-plans",
+      "primary_keyword": "retirement contribution recorded not deposited",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+      ],
+      "related": [
+        "/blog/retirement-plan-new-location-employees/",
+        "/blog/sep-contribution-after-switch-scorp/"
+      ]
+    },
+    {
+      "path": "/blog/partner-exits-cash-balance-plan/",
+      "title": "My business partner is leaving. What happens to our cash balance plan?",
+      "seo_title": "Partner Departure and a Practice Cash Balance Plan",
+      "description": "The partner's departure can affect plan benefits, funding and business cash, but those consequences depend on the plan and transaction.",
+      "group": "retirement-plans",
+      "primary_keyword": "partner exits cash balance plan",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+      ],
+      "related": [
+        "/blog/owner-buys-business-existing-401k/",
+        "/blog/owner-cash-balance-plan-profit-drops/"
+      ]
+    },
+    {
+      "path": "/blog/owner-retirement-plan-compensation-after-bonus/",
+      "title": "Will a late owner bonus increase our retirement contribution?",
+      "seo_title": "Owner Bonuses and Retirement Contributions",
+      "description": "It may affect compensation used in the calculation, but the plan definition, payroll timing and employee consequences must be checked.",
+      "group": "retirement-plans",
+      "primary_keyword": "owner retirement plan compensation after bonus",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+      ],
+      "related": [
+        "/blog/owner-cash-balance-plan-profit-drops/",
+        "/blog/owner-spouse-both-401k-other-employers/"
+      ]
+    },
+    {
+      "path": "/blog/solo-401k-first-employee-hired/",
+      "title": "I hired my first employee. Is my solo 401(k) still appropriate?",
+      "seo_title": "First Employee Hired: Review Your Solo 401(k)",
+      "description": "First Employee Hired: Review Your Solo 401(k). Review the facts, records and next steps for your business.",
+      "group": "retirement-plans",
+      "primary_keyword": "solo 401k first employee hired",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+      ],
+      "related": [
+        "/blog/owner-spouse-both-401k-other-employers/",
+        "/blog/retirement-contribution-recorded-not-deposited/"
+      ]
+    },
+    {
+      "path": "/blog/owner-sells-business-plan-termination-timing/",
+      "title": "Should I terminate our retirement plan before selling the business?",
+      "seo_title": "Retirement-Plan Termination Before a Business Sale",
+      "description": "Coordinate the plan decision with the transaction structure and buyer's requirements.",
+      "group": "retirement-plans",
+      "primary_keyword": "owner sells business plan termination timing",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+      ],
+      "related": [
+        "/blog/retirement-contribution-recorded-not-deposited/",
+        "/blog/partner-exits-cash-balance-plan/"
+      ]
+    },
+    {
+      "path": "/blog/retirement-plan-new-location-employees/",
+      "title": "I opened a second location. Can its employees have different retirement benefits?",
+      "seo_title": "Retirement Benefits at a Second Business Location",
+      "description": "The analysis depends on the employer structure, plan design and applicable coverage rules.",
+      "group": "retirement-plans",
+      "primary_keyword": "retirement plan new location employees",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+      ],
+      "related": [
+        "/blog/partner-exits-cash-balance-plan/",
+        "/blog/owner-retirement-plan-compensation-after-bonus/"
+      ]
+    },
+    {
+      "path": "/blog/sep-contribution-after-switch-scorp/",
+      "title": "I switched to S-corp taxation. Can my SEP use business profit like before?",
+      "seo_title": "SEP Contributions After Switching to S-Corp Taxation",
+      "description": "An S-corporation SEP calculation generally uses eligible employee compensation, not shareholder distributions or a sole proprietor net-profit formula.",
+      "group": "retirement-plans",
+      "primary_keyword": "sep contribution after switch scorp",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+      ],
+      "related": [
+        "/blog/owner-retirement-plan-compensation-after-bonus/",
+        "/blog/solo-401k-first-employee-hired/"
+      ]
+    },
+    {
+      "path": "/blog/business-trip-client-cancels-personal-stay/",
+      "title": "My client canceled after I booked the trip. Can I deduct the travel?",
+      "seo_title": "Travel Deductions After a Client Cancels the Meeting",
+      "description": "Document the original business purpose, cancellation and actual use of the trip.",
+      "group": "owner-expenses",
+      "primary_keyword": "business trip client cancels personal stay",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p583"
+      ],
+      "related": [
+        "/blog/owner-gift-card-customer-employee/",
+        "/blog/owner-lost-receipts-bank-statement-proof/"
+      ]
+    },
+    {
+      "path": "/blog/owner-buys-laptop-personal-reimbursed-next-year/",
+      "title": "I bought a work laptop personally and got reimbursed next year. Which year counts?",
+      "seo_title": "Owner Laptop Reimbursed in the Following Year",
+      "description": "Review the entity, ownership of the asset, reimbursement arrangement and payment dates.",
+      "group": "owner-expenses",
+      "primary_keyword": "owner buys laptop personal reimbursed next year",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p583"
+      ],
+      "related": [
+        "/blog/owner-lost-receipts-bank-statement-proof/",
+        "/blog/owner-prepays-three-years-software/"
+      ]
+    },
+    {
+      "path": "/blog/conference-spouse-no-business-role/",
+      "title": "Can my business pay for my spouse to attend my industry conference?",
+      "seo_title": "Bringing Your Spouse to a Business Conference",
+      "description": "Separate your own business travel from your spouse's participation and expenses.",
+      "group": "owner-expenses",
+      "primary_keyword": "conference spouse no business role",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p583"
+      ],
+      "related": [
+        "/blog/owner-lost-receipts-bank-statement-proof/",
+        "/blog/owner-prepays-three-years-software/"
+      ]
+    },
+    {
+      "path": "/blog/owner-hotel-workdays-between-vacation/",
+      "title": "I worked remotely during vacation. Does that make the hotel deductible?",
+      "seo_title": "Working Remotely During Vacation: Hotel Deductions",
+      "description": "Ordinary remote work during a personal vacation generally does not turn the hotel into deductible business travel.",
+      "group": "owner-expenses",
+      "primary_keyword": "owner hotel workdays between vacation",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p583"
+      ],
+      "related": [
+        "/blog/business-trip-client-cancels-personal-stay/",
+        "/blog/owner-buys-laptop-personal-reimbursed-next-year/"
+      ]
+    },
+    {
+      "path": "/blog/company-pays-home-internet-two-businesses/",
+      "title": "Two of my businesses use my home internet. Can both reimburse it?",
+      "seo_title": "Two Companies Reimbursing Your Home Internet",
+      "description": "Two Companies Reimbursing Your Home Internet. Review the facts, records and next steps for your business.",
+      "group": "owner-expenses",
+      "primary_keyword": "company pays home internet two businesses",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p583"
+      ],
+      "related": [
+        "/blog/owner-buys-laptop-personal-reimbursed-next-year/",
+        "/blog/conference-spouse-no-business-role/"
+      ]
+    },
+    {
+      "path": "/blog/company-reimburses-owner-mileage-leased-car/",
+      "title": "Can my company reimburse mileage on my personally leased car?",
+      "seo_title": "Mileage Reimbursement on an Owner's Leased Car",
+      "description": "Review the vehicle method, business-mile records and reimbursement plan.",
+      "group": "owner-expenses",
+      "primary_keyword": "company reimburses owner mileage leased car",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p583"
+      ],
+      "related": [
+        "/blog/conference-spouse-no-business-role/",
+        "/blog/owner-hotel-workdays-between-vacation/"
+      ]
+    },
+    {
+      "path": "/blog/business-meal-client-friend-mixed-purpose/",
+      "title": "A friend is also my client. When is dinner a business meal?",
+      "seo_title": "Dinner With a Friend Who Is Also Your Client",
+      "description": "Dinner With a Friend Who Is Also Your Client. Review the facts, records and next steps for your business.",
+      "group": "owner-expenses",
+      "primary_keyword": "business meal client friend mixed purpose",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p583"
+      ],
+      "related": [
+        "/blog/owner-hotel-workdays-between-vacation/",
+        "/blog/company-pays-home-internet-two-businesses/"
+      ]
+    },
+    {
+      "path": "/blog/owner-gift-card-customer-employee/",
+      "title": "Are gift cards to customers treated the same as employee gifts?",
+      "seo_title": "Gift Cards to Employees, Customers and Referrers",
+      "description": "Generally, employee gift cards are cash-equivalent benefits requiring wage treatment, while customer gifts follow a separate deduction review.",
+      "group": "owner-expenses",
+      "primary_keyword": "owner gift card customer employee",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p583"
+      ],
+      "related": [
+        "/blog/company-pays-home-internet-two-businesses/",
+        "/blog/company-reimburses-owner-mileage-leased-car/"
+      ]
+    },
+    {
+      "path": "/blog/owner-lost-receipts-bank-statement-proof/",
+      "title": "I lost the receipt but have the bank charge. Can I still deduct it?",
+      "seo_title": "Lost Business Receipts: Is a Bank Statement Enough?",
+      "description": "A payment record is a starting point, not complete proof of every deduction.",
+      "group": "owner-expenses",
+      "primary_keyword": "owner lost receipts bank statement proof",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p583"
+      ],
+      "related": [
+        "/blog/company-reimburses-owner-mileage-leased-car/",
+        "/blog/business-meal-client-friend-mixed-purpose/"
+      ]
+    },
+    {
+      "path": "/blog/owner-prepays-three-years-software/",
+      "title": "Can I prepay three years of software to lower this year's profit?",
+      "seo_title": "Prepaying Three Years of Business Software",
+      "description": "Payment timing alone does not establish an immediate deduction for a multi-year benefit.",
+      "group": "owner-expenses",
+      "primary_keyword": "owner prepays three years software",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p583"
+      ],
+      "related": [
+        "/blog/business-meal-client-friend-mixed-purpose/",
+        "/blog/owner-gift-card-customer-employee/"
+      ]
+    },
+    {
+      "path": "/blog/s-corp-retains-cash-owner-tax-bill/",
+      "title": "Why do I owe tax when my S corp kept the cash?",
+      "seo_title": "Why You Owe Tax When Your S Corp Keeps the Cash",
+      "description": "Shareholders generally report their allocated S-corporation taxable income even when the company retains the cash.",
+      "group": "estimated-taxes",
+      "primary_keyword": "s corp retains cash owner tax bill",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+      ],
+      "related": [
+        "/blog/owner-big-tax-payment-no-cash-distribution/",
+        "/blog/quarterly-taxes-after-selling-business-midyear/"
+      ]
+    },
+    {
+      "path": "/blog/one-big-contract-fourth-quarter-estimates/",
+      "title": "A huge contract paid in December. Do I owe penalties for earlier quarters?",
+      "seo_title": "Estimated Taxes on a Large December Contract",
+      "description": "Estimated Taxes on a Large December Contract. Review the facts, records and next steps for your business.",
+      "group": "estimated-taxes",
+      "primary_keyword": "one big contract fourth quarter estimates",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+      ],
+      "related": [
+        "/blog/owner-big-tax-payment-no-cash-distribution/",
+        "/blog/quarterly-taxes-after-selling-business-midyear/"
+      ]
+    },
+    {
+      "path": "/blog/owner-extension-payment-wrong-year/",
+      "title": "I paid my extension under the wrong tax year. What should I do?",
+      "seo_title": "Extension Tax Payment Applied to the Wrong Year",
+      "description": "Verify where the payment actually posted and arrange a documented correction through the appropriate agency process.",
+      "group": "estimated-taxes",
+      "primary_keyword": "owner extension payment wrong year",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+      ],
+      "related": [
+        "/blog/s-corp-retains-cash-owner-tax-bill/",
+        "/blog/one-big-contract-fourth-quarter-estimates/"
+      ]
+    },
+    {
+      "path": "/blog/partner-tax-distributions-different-state-rates/",
+      "title": "Our partners live in different states. How should we set tax distributions?",
+      "seo_title": "Partner Tax Distributions With Different State Tax Rates",
+      "description": "Start with the operating agreement and distinguish a contractual distribution formula from each partner's actual tax bill.",
+      "group": "estimated-taxes",
+      "primary_keyword": "partner tax distributions different state rates",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+      ],
+      "related": [
+        "/blog/one-big-contract-fourth-quarter-estimates/",
+        "/blog/owner-extension-payment-wrong-year/"
+      ]
+    },
+    {
+      "path": "/blog/new-business-owner-old-safe-harbor/",
+      "title": "My business income tripled. Is last year's estimated payment still enough?",
+      "seo_title": "Higher Business Profit and Prior-Year Safe Harbors",
+      "description": "A prior-year safe-harbor calculation and the final tax bill are different.",
+      "group": "estimated-taxes",
+      "primary_keyword": "new business owner old safe harbor",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+      ],
+      "related": [
+        "/blog/owner-extension-payment-wrong-year/",
+        "/blog/partner-tax-distributions-different-state-rates/"
+      ]
+    },
+    {
+      "path": "/blog/owner-multiple-k1-estimates-one-late/",
+      "title": "One of my K-1s is late. How do I estimate taxes?",
+      "seo_title": "Estimated Taxes While Waiting for a Late K-1",
+      "description": "Use a supported estimate from the entity and document its uncertainty.",
+      "group": "estimated-taxes",
+      "primary_keyword": "owner multiple k1 estimates one late",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+      ],
+      "related": [
+        "/blog/partner-tax-distributions-different-state-rates/",
+        "/blog/new-business-owner-old-safe-harbor/"
+      ]
+    },
+    {
+      "path": "/blog/business-owner-refund-applied-next-year-estimates/",
+      "title": "Should I apply my refund to next year's taxes or take the cash?",
+      "seo_title": "Apply a Tax Refund Forward or Take the Cash?",
+      "description": "Compare the payment need and timing with business and household liquidity.",
+      "group": "estimated-taxes",
+      "primary_keyword": "business owner refund applied next year estimates",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+      ],
+      "related": [
+        "/blog/new-business-owner-old-safe-harbor/",
+        "/blog/owner-multiple-k1-estimates-one-late/"
+      ]
+    },
+    {
+      "path": "/blog/s-corp-state-tax-payment-owner-credit-missing/",
+      "title": "My company paid state tax, but my personal return shows no credit. Why?",
+      "seo_title": "S-Corp State Tax Payment but No Owner Credit",
+      "description": "First identify what tax the company paid and whether the owner is eligible for a credit.",
+      "group": "estimated-taxes",
+      "primary_keyword": "s corp state tax payment owner credit missing",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+      ],
+      "related": [
+        "/blog/owner-multiple-k1-estimates-one-late/",
+        "/blog/business-owner-refund-applied-next-year-estimates/"
+      ]
+    },
+    {
+      "path": "/blog/owner-big-tax-payment-no-cash-distribution/",
+      "title": "Can I borrow from my company to pay my personal estimated taxes?",
+      "seo_title": "Borrowing From Your Company for Estimated Taxes",
+      "description": "An owner loan needs to be evaluated as a real obligation, not a label applied to avoid distribution treatment.",
+      "group": "estimated-taxes",
+      "primary_keyword": "owner big tax payment no cash distribution",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+      ],
+      "related": [
+        "/blog/business-owner-refund-applied-next-year-estimates/",
+        "/blog/s-corp-state-tax-payment-owner-credit-missing/"
+      ]
+    },
+    {
+      "path": "/blog/quarterly-taxes-after-selling-business-midyear/",
+      "title": "I sold my business in June. Should I cancel the remaining estimates?",
+      "seo_title": "Estimated Taxes After a Midyear Business Sale",
+      "description": "Estimated Taxes After a Midyear Business Sale. Review the facts, records and next steps for your business.",
+      "group": "estimated-taxes",
+      "primary_keyword": "quarterly taxes after selling business midyear",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+      ],
+      "related": [
+        "/blog/s-corp-state-tax-payment-owner-credit-missing/",
+        "/blog/owner-big-tax-payment-no-cash-distribution/"
+      ]
+    },
+    {
+      "path": "/blog/partner-contributes-customer-list-equity/",
+      "title": "My new partner contributes a client list instead of cash. How is that handled?",
+      "seo_title": "Partner Contributes a Client List Instead of Cash",
+      "description": "Distinguish a contribution of property from compensation for services and identify the entity's tax classification.",
+      "group": "ownership-changes",
+      "primary_keyword": "partner contributes customer list equity",
+      "sources": [
+        "https://www.irs.gov/publications/p541",
+        "https://www.irs.gov/instructions/i1120s"
+      ],
+      "related": [
+        "/blog/owner-business-interest-divorce-k1/",
+        "/blog/owner-moving-equity-personal-holding-company/"
+      ]
+    },
+    {
+      "path": "/blog/partner-pays-buy-in-to-company-or-owner/",
+      "title": "Should my new partner pay the buy-in to me or to the company?",
+      "seo_title": "New Partner Buy-In: Pay the Owner or the Company?",
+      "description": "New Partner Buy-In: Pay the Owner or the Company?. Review the facts, records and next steps for your business.",
+      "group": "ownership-changes",
+      "primary_keyword": "partner pays buy in to company or owner",
+      "sources": [
+        "https://www.irs.gov/publications/p541",
+        "https://www.irs.gov/instructions/i1120s"
+      ],
+      "related": [
+        "/blog/partner-contributes-customer-list-equity/",
+        "/blog/owner-dilution-shareholder-loan-unchanged/"
+      ]
+    },
+    {
+      "path": "/blog/owner-dilution-shareholder-loan-unchanged/",
+      "title": "A new investor diluted my shares. Does my shareholder loan shrink too?",
+      "seo_title": "Equity Dilution and the Founder's Shareholder Loan",
+      "description": "Equity percentage and debt rights are separate unless the transaction changes both.",
+      "group": "ownership-changes",
+      "primary_keyword": "owner dilution shareholder loan unchanged",
+      "sources": [
+        "https://www.irs.gov/publications/p541",
+        "https://www.irs.gov/instructions/i1120s"
+      ],
+      "related": [
+        "/blog/partner-pays-buy-in-to-company-or-owner/",
+        "/blog/owner-gifts-shares-keeps-working-salary/"
+      ]
+    },
+    {
+      "path": "/blog/owner-gifts-shares-keeps-working-salary/",
+      "title": "I gave shares to my children. Can I still receive my old salary?",
+      "seo_title": "Owner Salary After Gifting Shares to Children",
+      "description": "Compensation should reflect actual services, while the ownership transfer needs its own valuation and reporting review.",
+      "group": "ownership-changes",
+      "primary_keyword": "owner gifts shares keeps working salary",
+      "sources": [
+        "https://www.irs.gov/publications/p541",
+        "https://www.irs.gov/instructions/i1120s"
+      ],
+      "related": [
+        "/blog/owner-dilution-shareholder-loan-unchanged/",
+        "/blog/partner-leaves-negative-capital-balance/"
+      ]
+    },
+    {
+      "path": "/blog/partner-leaves-negative-capital-balance/",
+      "title": "My partner is leaving with a negative capital account. What happens?",
+      "seo_title": "Partner Exit With a Negative Capital Account",
+      "description": "Negative tax capital is a signal for analysis, not a complete gain calculation.",
+      "group": "ownership-changes",
+      "primary_keyword": "partner leaves negative capital balance",
+      "sources": [
+        "https://www.irs.gov/publications/p541",
+        "https://www.irs.gov/instructions/i1120s"
+      ],
+      "related": [
+        "/blog/owner-gifts-shares-keeps-working-salary/",
+        "/blog/partnership-owner-draws-more-than-agreement/"
+      ]
+    },
+    {
+      "path": "/blog/partnership-owner-draws-more-than-agreement/",
+      "title": "One partner took extra draws. Can we deduct the difference as pay?",
+      "seo_title": "Extra Partner Draws: Can They Become Compensation?",
+      "description": "An unauthorized or unequal withdrawal needs legal and accounting review before assigning tax treatment.",
+      "group": "ownership-changes",
+      "primary_keyword": "partnership owner draws more than agreement",
+      "sources": [
+        "https://www.irs.gov/publications/p541",
+        "https://www.irs.gov/instructions/i1120s"
+      ],
+      "related": [
+        "/blog/partner-leaves-negative-capital-balance/",
+        "/blog/spouse-added-llc-no-money-contributed/"
+      ]
+    },
+    {
+      "path": "/blog/spouse-added-llc-no-money-contributed/",
+      "title": "I added my spouse to my LLC without a cash buy-in. Does our tax filing change?",
+      "seo_title": "Adding a Spouse to an LLC Without a Cash Buy-In",
+      "description": "The ownership transfer, state property rules and tax classification need review.",
+      "group": "ownership-changes",
+      "primary_keyword": "spouse added llc no money contributed",
+      "sources": [
+        "https://www.irs.gov/publications/p541",
+        "https://www.irs.gov/instructions/i1120s"
+      ],
+      "related": [
+        "/blog/partnership-owner-draws-more-than-agreement/",
+        "/blog/owner-transfer-business-trust-lender-consent/"
+      ]
+    },
+    {
+      "path": "/blog/owner-transfer-business-trust-lender-consent/",
+      "title": "Can I put my business into a trust without affecting its tax status?",
+      "seo_title": "Transferring Business Shares to a Family Trust",
+      "description": "Trust terms, entity eligibility and transfer restrictions must be reviewed together.",
+      "group": "ownership-changes",
+      "primary_keyword": "owner transfer business trust lender consent",
+      "sources": [
+        "https://www.irs.gov/publications/p541",
+        "https://www.irs.gov/instructions/i1120s"
+      ],
+      "related": [
+        "/blog/spouse-added-llc-no-money-contributed/",
+        "/blog/owner-business-interest-divorce-k1/"
+      ]
+    },
+    {
+      "path": "/blog/owner-business-interest-divorce-k1/",
+      "title": "We are divorcing. Who reports the business K-1 during the transition?",
+      "seo_title": "Business K-1 Reporting During a Divorce",
+      "description": "Determine actual ownership, effective transfer dates and applicable marital-property and entity rules.",
+      "group": "ownership-changes",
+      "primary_keyword": "owner business interest divorce k1",
+      "sources": [
+        "https://www.irs.gov/publications/p541",
+        "https://www.irs.gov/instructions/i1120s"
+      ],
+      "related": [
+        "/blog/owner-transfer-business-trust-lender-consent/",
+        "/blog/owner-moving-equity-personal-holding-company/"
+      ]
+    },
+    {
+      "path": "/blog/owner-moving-equity-personal-holding-company/",
+      "title": "Can my personal holding LLC own shares in my operating S corp?",
+      "seo_title": "Can Your Holding LLC Own Your S-Corp Shares?",
+      "description": "Review the holding company's federal tax classification and ownership.",
+      "group": "ownership-changes",
+      "primary_keyword": "owner moving equity personal holding company",
+      "sources": [
+        "https://www.irs.gov/publications/p541",
+        "https://www.irs.gov/instructions/i1120s"
+      ],
+      "related": [
+        "/blog/owner-transfer-business-trust-lender-consent/",
+        "/blog/owner-business-interest-divorce-k1/"
+      ]
+    },
+    {
+      "path": "/blog/company-car-owner-family-weekend-use/",
+      "title": "My family uses the company car on weekends. How should we report it?",
+      "seo_title": "Family Weekend Use of the Company Car",
+      "description": "Separate business use from personal availability and actual personal use.",
+      "group": "employees-benefits",
+      "primary_keyword": "company car owner family weekend use",
+      "sources": [
+        "https://www.irs.gov/publications/p15b",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/owner-health-plan-spouse-outside-employer/",
+        "/blog/employee-expense-allowance-no-receipts/"
+      ]
+    },
+    {
+      "path": "/blog/owner-health-plan-spouse-outside-employer/",
+      "title": "My spouse can get health insurance at work. Does that affect my S-corp deduction?",
+      "seo_title": "S-Corp Health Deduction and Spouse Employer Coverage",
+      "description": "Eligibility for subsidized employer coverage can affect the owner's self-employed health insurance deduction.",
+      "group": "employees-benefits",
+      "primary_keyword": "owner health plan spouse outside employer",
+      "sources": [
+        "https://www.irs.gov/publications/p15b",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/employee-expense-allowance-no-receipts/",
+        "/blog/contractor-converts-employee-midyear-payments/"
+      ]
+    },
+    {
+      "path": "/blog/employee-expense-allowance-no-receipts/",
+      "title": "We pay employees a monthly expense allowance. Is it tax-free?",
+      "seo_title": "Employee Expense Allowances Without Receipts",
+      "description": "Employee Expense Allowances Without Receipts. Review the facts, records and next steps for your business.",
+      "group": "employees-benefits",
+      "primary_keyword": "employee expense allowance no receipts",
+      "sources": [
+        "https://www.irs.gov/publications/p15b",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/contractor-converts-employee-midyear-payments/",
+        "/blog/employee-repays-signing-bonus-next-year/"
+      ]
+    },
+    {
+      "path": "/blog/contractor-converts-employee-midyear-payments/",
+      "title": "My contractor became an employee in July. How do I report both periods?",
+      "seo_title": "Contractor Becomes an Employee Midyear",
+      "description": "Separate genuine changes in the working relationship from a correction of earlier misclassification.",
+      "group": "employees-benefits",
+      "primary_keyword": "contractor converts employee midyear payments",
+      "sources": [
+        "https://www.irs.gov/publications/p15b",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/employee-repays-signing-bonus-next-year/",
+        "/blog/owner-pays-employee-student-loan-directly/"
+      ]
+    },
+    {
+      "path": "/blog/employee-repays-signing-bonus-next-year/",
+      "title": "An employee repaid a signing bonus next year. How do we correct payroll?",
+      "seo_title": "Employee Repays a Signing Bonus the Following Year",
+      "description": "Employee Repays a Signing Bonus the Following Year. Review the facts, records and next steps for your business.",
+      "group": "employees-benefits",
+      "primary_keyword": "employee repays signing bonus next year",
+      "sources": [
+        "https://www.irs.gov/publications/p15b",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/owner-pays-employee-student-loan-directly/",
+        "/blog/s-corp-owner-life-insurance-premiums/"
+      ]
+    },
+    {
+      "path": "/blog/owner-pays-employee-student-loan-directly/",
+      "title": "Can my company pay an employee's student loan instead of a bonus?",
+      "seo_title": "Paying Employee Student Loans Instead of a Bonus",
+      "description": "A qualifying written educational-assistance program can support an exclusion for eligible student-loan payments within the applicable limit.",
+      "group": "employees-benefits",
+      "primary_keyword": "owner pays employee student loan directly",
+      "sources": [
+        "https://www.irs.gov/publications/p15b",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/s-corp-owner-life-insurance-premiums/",
+        "/blog/business-pays-employee-relocation-costs/"
+      ]
+    },
+    {
+      "path": "/blog/s-corp-owner-life-insurance-premiums/",
+      "title": "My S corp pays my life insurance. Is that a deductible employee benefit?",
+      "seo_title": "S-Corp Owner Life-Insurance Premiums",
+      "description": "S-Corp Owner Life-Insurance Premiums. Review the facts, records and next steps for your business.",
+      "group": "employees-benefits",
+      "primary_keyword": "s corp owner life insurance premiums",
+      "sources": [
+        "https://www.irs.gov/publications/p15b",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/business-pays-employee-relocation-costs/",
+        "/blog/owner-child-works-for-scorp-payroll-tax/"
+      ]
+    },
+    {
+      "path": "/blog/business-pays-employee-relocation-costs/",
+      "title": "Can I reimburse a new employee's moving costs tax-free?",
+      "seo_title": "Payroll Taxes on Employee Relocation Payments",
+      "description": "For most employees, employer-paid moving expenses are taxable wages under current federal rules.",
+      "group": "employees-benefits",
+      "primary_keyword": "business pays employee relocation costs",
+      "sources": [
+        "https://www.irs.gov/publications/p15b",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/owner-child-works-for-scorp-payroll-tax/",
+        "/blog/owner-business-pays-personal-disability-policy/"
+      ]
+    },
+    {
+      "path": "/blog/owner-child-works-for-scorp-payroll-tax/",
+      "title": "Does hiring my child eliminate payroll taxes in my S corp?",
+      "seo_title": "Hiring Your Child Through an S Corporation",
+      "description": "Family-employment exceptions depend on the actual employer and relationship.",
+      "group": "employees-benefits",
+      "primary_keyword": "owner child works for scorp payroll tax",
+      "sources": [
+        "https://www.irs.gov/publications/p15b",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/business-pays-employee-relocation-costs/",
+        "/blog/owner-business-pays-personal-disability-policy/"
+      ]
+    },
+    {
+      "path": "/blog/owner-business-pays-personal-disability-policy/",
+      "title": "Can my company deduct my personal disability-insurance premiums?",
+      "seo_title": "Company Payment of Personal Disability Insurance",
+      "description": "Review the policy, premium treatment and taxation of potential benefits together.",
+      "group": "employees-benefits",
+      "primary_keyword": "owner business pays personal disability policy",
+      "sources": [
+        "https://www.irs.gov/publications/p15b",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "related": [
+        "/blog/company-car-owner-family-weekend-use/",
+        "/blog/owner-health-plan-spouse-outside-employer/"
+      ]
+    }
+  ],
+  "discovery": [
+    "blog/index.html",
+    "sitemap/index.html",
+    "business-owner-small-business-tax/index.html",
+    "retirement-exit-ma-tax-strategy/index.html",
+    "services/reasonable-compensation/index.html"
+  ]
+}
