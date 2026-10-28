@@ -1,0 +1,45 @@
+{
+  "construction-project-customer-pays-sub-direct": "contracts|construction-contract-land-separate-activity|Land Sales Bundled With Construction Work|Our agreement includes land and construction. Does the whole price use the long-term contract method?",
+  "partner-guaranteed-payment-loss-year-capital": "partners|partner-retirement-contribution-guaranteed-payments|Partner Retirement Contributions and Earned Income|Can a partner use distributions instead of earned income to calculate a self-employed retirement contribution?",
+  "corp-redemption-other-shareholders-percentage": "capital|corporate-redemption-spouse-retains-shares|Share Redemptions When a Spouse Still Owns Stock|The corporation bought all my shares, but my spouse still owns stock. Is sale treatment automatic?",
+  "c-corp-property-dividend-appreciated-equipment": "capital|redeemable-preferred-stock-book-liability-tax|Preferred Stock Shown as a Book Liability|Our books classify redeemable preferred shares as a liability. Can we deduct the preferred payments as interest?",
+  "c-corp-shareholder-distribution-not-cash-property": "capital|corporate-dividends-received-short-holding-period|Dividend Deductions on Short-Held Corporate Investments|Our C corp received a dividend on a short-held investment. Is the dividends-received deduction automatic?",
+  "corporation-shareholder-return-of-capital-proof": "capital|corporation-capital-loss-operating-profit|C-Corp Capital Losses and Operating Profit|Our C corp lost money on securities but earned operating profit. Can the investment loss offset that profit?",
+  "foreign-vendor-software-service-license-split": "foreign|foreign-payee-w8-expired-documentation|Foreign Payee Documentation Expires Before Payment|Our foreign vendor's W-8 expired before payment. Can we keep using last year's withholding treatment?",
+  "rd-credit-vs-domestic-research-deduction": "research|research-credit-reduced-credit-election-280c|Reduced Research Credit Election and Deduction Reporting|We claimed the full research credit without reviewing Section 280C. Can we leave the expense deduction unchanged?",
+  "rd-credit-fixed-price-vs-time-materials-contract": "research|research-prototype-sold-after-successful-testing|Selling a Prototype After Qualified Research|We sold a successful prototype. Does that mean the earlier experimentation was not qualified research?",
+  "business-travel-fewer-meetings-cancelled-return": "travel|foreign-convention-outside-north-america-business|Business Conventions Outside North America|Our industry convention is outside North America. Is the travel deductible just because the agenda is business-related?",
+  "business-travel-working-spouse-real-job": "travel|cruise-ship-business-convention-deductions|Business Meetings Held on a Cruise Ship|We held a business convention on a cruise. Do the ordinary hotel-conference deduction rules apply?",
+  "temporary-job-becomes-indefinite-travel-cost": "travel|foreign-business-trip-personal-days-allocation|Personal Days During Foreign Business Travel|My overseas trip combines business and personal days. Can I use the same airfare rule as a domestic trip?",
+  "employee-relocation-temporary-lodging-business-travel": "travel|charter-aircraft-business-personal-guests-allocation|Personal Guests on a Business Charter Flight|Our company chartered a business flight and brought personal guests. Can we deduct the whole aircraft invoice?",
+  "client-reimburses-owner-travel-income-offset": "travel|self-employed-actual-lodging-vs-federal-perdiem|Owner Lodging Deductions and Federal Per Diem Rates|As a self-employed owner, can I deduct the federal lodging per diem without proving actual hotel cost?",
+  "company-pays-premiums-crosspurchase-policy-owner": "succession|employer-life-insurance-form8925-no-death-benefit|Life-Insurance Reporting Before Any Death Benefit|Our company owns employee life policies but received no death benefit. Can annual Form 8925 reporting still apply?",
+  "partner-service-fee-outside-partner-capacity": {
+    "replacement": "partnership-representative-binds-owners-consent",
+    "reason": "Full-body review found existing guide answered core intent"
+  },
+  "partnership-special-allocation-only-one-owners-tax": {
+    "replacement": "partnership-audit-optout-disregarded-entity-partner",
+    "reason": "Full-body review found existing guide answered core intent"
+  },
+  "partnership-contributed-equipment-built-in-gain": {
+    "replacement": "partnership-audit-pushout-former-partners",
+    "reason": "Full-body review found existing guide answered core intent"
+  },
+  "commuting-home-office-first-customer-stop": {
+    "replacement": "foreign-trip-currency-exchange-rate-receipts",
+    "reason": "Full-body review found existing guide answered core intent"
+  },
+  "charter-aircraft-business-personal-guests-allocation": {
+    "replacement": "business-flight-personal-stopover-direct-route-cost",
+    "reason": "Existing boat and aircraft guide already covers personal passenger allocation"
+  },
+  "partnership-audit-pushout-former-partners": {
+    "replacement": "tiered-partnership-pushout-statement-forwarding",
+    "reason": "Existing AAR-versus-amendment guide already contains former-partner adjustment example"
+  },
+  "tiered-partnership-pushout-statement-forwarding": {
+    "replacement": "joint-equipment-use-partnership-tax-exclusion",
+    "reason": "Body comparison found a dedicated existing upper-tier Form 8986 FAQ"
+  }
+}
