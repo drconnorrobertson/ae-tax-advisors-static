@@ -740,7 +740,7 @@ def get_base_html(title, content, canonical_path="/", page_type="page", descript
             <div class="footer-col">
                 <h4>Legal</h4>
                 <a href="/privacy-policy/">Privacy Policy</a>
-                <a href="/terms-of-service/">Terms of Service</a>
+                <a href="/terms-of-service/">Terms of Service</a> &middot; <a href="/data-security-policy/">Data Security Policy</a>
                 <a href="/disclaimer/">Disclaimer</a>
             </div>
         </div>

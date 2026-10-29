@@ -50,6 +50,8 @@ function walk(dir) {
       fs.mkdirSync(path.dirname(target), {recursive: true});
       if (path.extname(relative).toLowerCase() === '.html') {
         const html = fs.readFileSync(source, 'utf8').replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/gi, footer => {
+          footer = footer.replace(/<span class="trust-badge">[^<]*SOC 2 Compliant<\/span>/g, '');
+          if (!footer.includes('href="/data-security-policy/"')) footer = footer.replace(/(<a href="\/terms-of-service\/">Terms of Service<\/a>)/, '$1 &middot; <a href="/data-security-policy/">Data Security Policy</a>');
           if (footer.includes('href="/ai-disclosure/"')) return footer;
           const disclosure = '<a href="/ai-disclosure/">AI Disclosure</a>';
           if (footer.includes('<a href="/disclaimer/">')) return footer.replace('<a href="/disclaimer/">', disclosure + ' &middot; <a href="/disclaimer/">');

@@ -125,7 +125,7 @@ FOOTER_HTML = '''    <footer>
                 <div class="footer-trust-badges">
                     <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
                     <span class="trust-badge">&#9989; Licensed CPAs</span>
-                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+
                 </div>
             </div>
             <div class="footer-col">
@@ -161,7 +161,7 @@ FOOTER_HTML = '''    <footer>
                 <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
                 <h4 style="margin-top:20px">Legal</h4>
                 <a href="/privacy-policy/">Privacy Policy</a>
-                <a href="/terms-of-service/">Terms of Service</a>
+                <a href="/terms-of-service/">Terms of Service</a> &middot; <a href="/data-security-policy/">Data Security Policy</a>
                 <a href="/disclaimer/">Disclaimer</a>
             </div>
         </div>

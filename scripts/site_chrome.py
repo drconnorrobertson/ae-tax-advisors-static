@@ -80,7 +80,7 @@ FOOTER = """    </main>
                 <div class="footer-trust-badges">
                     <span class="trust-badge">&#9989; IRS Enrolled Agents</span>
                     <span class="trust-badge">&#9989; Licensed CPAs</span>
-                    <span class="trust-badge">&#128274; SOC 2 Compliant</span>
+
                     <a href="https://gusto.com/partners/directory/profiles/ae-tax-advisors" target="_blank" rel="noopener" class="trust-badge" style="text-decoration:none;color:rgba(255,255,255,0.5);">&#9989; Gusto Partner</a>
                 </div>
             </div>
@@ -117,7 +117,7 @@ FOOTER = """    </main>
                 <p class="footer-email"><a href="mailto:team@aetaxadvisors.com">team@aetaxadvisors.com</a></p>
                 <h4 style="margin-top:20px">Legal</h4>
                 <a href="/privacy-policy/">Privacy Policy</a>
-                <a href="/terms-of-service/">Terms of Service</a>
+                <a href="/terms-of-service/">Terms of Service</a> &middot; <a href="/data-security-policy/">Data Security Policy</a>
                 <a href="/disclaimer/">Disclaimer</a>
             </div>
         </div>
