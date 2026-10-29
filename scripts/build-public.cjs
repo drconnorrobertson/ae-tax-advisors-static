@@ -50,6 +50,11 @@ function walk(dir) {
       fs.mkdirSync(path.dirname(target), {recursive: true});
       if (path.extname(relative).toLowerCase() === '.html') {
         const html = fs.readFileSync(source, 'utf8').replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/gi, footer => {
+          if (!footer.includes('>Upload My Documents</a>')) {
+            const upload = '<a href="https://aetaxadvisors.taxdome.com/">Upload My Documents</a>';
+            if (footer.includes('<a href="https://aetaxadvisors.taxdome.com/">Client Portal</a>')) footer = footer.replace('<a href="https://aetaxadvisors.taxdome.com/">Client Portal</a>', '<a href="https://aetaxadvisors.taxdome.com/">Client Portal</a>\n' + upload);
+            else footer = footer.replace('</footer>', '<p class="footer-legal-links">' + upload + '</p></footer>');
+          }
           footer = footer.replace(/<span class="trust-badge">[^<]*SOC 2 Compliant<\/span>/g, '');
           if (!footer.includes('href="/data-security-policy/"')) footer = footer.replace(/(<a href="\/terms-of-service\/">Terms of Service<\/a>)/, '$1 &middot; <a href="/data-security-policy/">Data Security Policy</a>');
           if (footer.includes('href="/ai-disclosure/"')) return footer;
