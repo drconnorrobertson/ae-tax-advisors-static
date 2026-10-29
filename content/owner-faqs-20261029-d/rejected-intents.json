@@ -1,0 +1,70 @@
+{
+  "owner-only401k-employees-hired-midyear": {
+    "replacement": "retirement-plan-beneficiary-spouse-consent",
+    "reason": "Title and existing-body review found overlapping core intent"
+  },
+  "restaurant-tip-credit-minimum-wage-adjustment": {
+    "replacement": "tip-credit-beauty-business-expansion-2025",
+    "reason": "Title and existing-body review found overlapping core intent"
+  },
+  "irs-business-installment-new-tax-debts": {
+    "replacement": "irs-tax-lien-withdrawal-versus-release",
+    "reason": "Title and existing-body review found overlapping core intent"
+  },
+  "irs-collection-expiration-installment-agreement": {
+    "replacement": "business-form433b-asset-values-book-basis",
+    "reason": "Title and existing-body review found overlapping core intent"
+  },
+  "business-irs-refund-offset-payment-plan": {
+    "replacement": "irs-levy-business-customer-receivables",
+    "reason": "Title and existing-body review found overlapping core intent"
+  },
+  "corporate-food-inventory-donation-qualified-use": {
+    "replacement": "food-donation-charity-sells-qualified-use",
+    "reason": "Title and existing-body review found overlapping core intent"
+  },
+  "business-charity-noncash-form8283-appraisal": {
+    "replacement": "charity-sells-donated-equipment-early-recapture",
+    "reason": "Title and existing-body review found overlapping core intent"
+  },
+  "mandatory-service-charge-versus-voluntary-tip": {
+    "replacement": "farm-purchased-resale-livestock-cost-timing",
+    "reason": "Existing-body review identified overlapping core decision; replaced with a more specific uncovered question"
+  },
+  "tip-credit-employer-payroll-deduction-coordination": {
+    "replacement": "orchard-specified-plant-bonus-election-planting",
+    "reason": "Existing-body review identified overlapping core decision; replaced with a more specific uncovered question"
+  },
+  "late-employee-deferrals-business-cash-shortage": {
+    "replacement": "late-solo401k-5500ez-irs-penalty-program",
+    "reason": "Existing-body review identified overlapping core decision; replaced with a more specific uncovered question"
+  },
+  "charity-sponsorship-advertising-quidproquo": {
+    "replacement": "conditional-business-donation-refundable-project",
+    "reason": "Existing-body review identified overlapping core decision; replaced with a more specific uncovered question"
+  },
+  "corporate-estimated-tax-seasonal-income": {
+    "replacement": "corporate-estimated-tax-extraordinary-asset-sale",
+    "reason": "Existing-body review identified overlapping core decision; replaced with a more specific uncovered question"
+  },
+  "tip-report-paycheck-insufficient-withholding": {
+    "replacement": "farm-optional-method-self-employment-loss",
+    "reason": "Existing full-body review found direct treatment of original question; selected a distinct decision"
+  },
+  "large-food-establishment-form8027-multiple-sites": {
+    "replacement": "farmer-estimated-tax-gross-income-qualification",
+    "reason": "Existing full-body review found direct treatment of original question; selected a distinct decision"
+  },
+  "tip-deduction-employee-claim-employer-fica": {
+    "replacement": "commodity-credit-corporation-loan-income-election",
+    "reason": "Existing full-body review found direct treatment of original question; selected a distinct decision"
+  },
+  "payroll-trustfund-penalty-officer-title": {
+    "replacement": "trustfund-tax-paid-business-person-credit",
+    "reason": "Existing full-body review found direct treatment of original question; selected a distinct decision"
+  },
+  "business-offer-compromise-payroll-compliance": {
+    "replacement": "business-oic-returned-versus-rejected-appeal",
+    "reason": "Existing full-body review found direct treatment of original question; selected a distinct decision"
+  }
+}
