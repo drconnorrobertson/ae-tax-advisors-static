@@ -1,14 +1,8 @@
 # Public search and AI retrieval access. No crawler-specific override of these rules.
 User-agent: *
 Allow: /
-Disallow: /*?utm_
-Disallow: /*?fbclid
-Disallow: /*?gclid
-Disallow: /*?ref=
-Disallow: /*?v=
-# Versioned public styles and scripts are required for page rendering.
-Allow: /assets/*.css?v=
-Allow: /assets/*.js?v=
+# Let crawlers read canonical tags on tracking and versioned URL variants.
+# Canonical URLs consolidate duplicates; rendering assets remain crawlable.
 
 # Search visibility is governed by canonical URLs and page-level robots tags.
 # Ranking and link-analysis crawlers follow the same public rules above.
