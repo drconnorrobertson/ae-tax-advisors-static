@@ -1086,6 +1086,56 @@
       "source": "/high-net-worth-tax-planning-services-in-your-city/",
       "destination": "/individual-tax-planning-high-earners/",
       "permanent": true
+    },
+    {
+      "source": "/tax-services/",
+      "destination": "/services/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-services",
+      "destination": "/services/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-filing-and-compliance-services/",
+      "destination": "/services/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-filing-and-compliance-services",
+      "destination": "/services/",
+      "statusCode": 301
+    },
+    {
+      "source": "/schedule-a-real-estate-tax-consultation/",
+      "destination": "/discovery/",
+      "statusCode": 301
+    },
+    {
+      "source": "/schedule-a-real-estate-tax-consultation",
+      "destination": "/discovery/",
+      "statusCode": 301
+    },
+    {
+      "source": "/schedule-a-real-estate-tax-consultation-2/",
+      "destination": "/discovery/",
+      "statusCode": 301
+    },
+    {
+      "source": "/schedule-a-real-estate-tax-consultation-2",
+      "destination": "/discovery/",
+      "statusCode": 301
+    },
+    {
+      "source": "/mid-term-rental-tax-planning-and-preparation/",
+      "destination": "/mid-term-rental-tax-accounting-setup/",
+      "statusCode": 301
+    },
+    {
+      "source": "/mid-term-rental-tax-planning-and-preparation",
+      "destination": "/mid-term-rental-tax-accounting-setup/",
+      "statusCode": 301
     }
   ],
   "headers": [

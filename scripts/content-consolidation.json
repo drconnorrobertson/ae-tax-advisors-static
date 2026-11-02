@@ -9,7 +9,12 @@
     "/long-term-rental-tax-planning-and-preparation-3/": "/rental-property-tax-planning/",
     "/short-term-rental-tax-planning-and-preparation-2/": "/short-term-rental-tax-strategy/",
     "/high-net-worth-tax-planning-services-in-your-city/": "/individual-tax-planning-high-earners/",
-    "/resources-2/": "/resources/"
+    "/resources-2/": "/resources/",
+    "/tax-services/": "/services/",
+    "/tax-filing-and-compliance-services/": "/services/",
+    "/schedule-a-real-estate-tax-consultation/": "/discovery/",
+    "/schedule-a-real-estate-tax-consultation-2/": "/discovery/",
+    "/mid-term-rental-tax-planning-and-preparation/": "/mid-term-rental-tax-accounting-setup/"
   },
   "reason": "Overlapping service-intent pages and generic numbered rental variants; retain substantive distinct guides."
 }
