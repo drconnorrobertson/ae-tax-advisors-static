@@ -219,7 +219,9 @@
   "inLanguage": "en-US"
 }
 </script>
-<style>.advisory-fit{padding:24px;margin:24px 0;border:1px solid #cbd5e1;border-radius:12px;background:#f8fafc;color:#172b4d}.advisory-fit p{line-height:1.65}.advisory-fit a{color:#1e40af;text-decoration:underline}.advisory-fit summary{cursor:pointer;font-weight:700;padding:12px 0}.advisory-fit label{display:block;font-weight:600;margin-top:16px}.advisory-fit select,.advisory-fit textarea{display:block;width:100%;padding:12px;margin:6px 0 16px;border:1px solid #64748b;border-radius:6px;background:white;color:#172b4d;font:inherit}.advisory-fit button{padding:12px 20px;cursor:pointer}.advisory-fit :focus-visible{outline:3px solid #2563eb;outline-offset:3px}</style><script src="/assets/advisory-prep.js" defer></script></head>
+<style>.advisory-fit{padding:24px;margin:24px 0;border:1px solid #cbd5e1;border-radius:12px;background:#f8fafc;color:#172b4d}.advisory-fit p{line-height:1.65}.advisory-fit a{color:#1e40af;text-decoration:underline}.advisory-fit summary{cursor:pointer;font-weight:700;padding:12px 0}.advisory-fit label{display:block;font-weight:600;margin-top:16px}.advisory-fit select,.advisory-fit textarea{display:block;width:100%;padding:12px;margin:6px 0 16px;border:1px solid #64748b;border-radius:6px;background:white;color:#172b4d;font:inherit}.advisory-fit button{padding:12px 20px;cursor:pointer}.advisory-fit :focus-visible{outline:3px solid #2563eb;outline-offset:3px}</style><script src="/assets/advisory-prep.js?v=20261103" defer></script><style>
+.advisory-fit input{display:block;width:100%;padding:12px;margin:6px 0 12px;border:1px solid #64748b;border-radius:6px;background:#fff;color:#172b4d;font:inherit}.prep-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.prep-result{background:#1b2a4a;color:#fff;padding:24px;border-radius:10px;align-self:start;margin-top:16px}.prep-result h3{color:#fff;font-size:16px}.prep-result #prep-estimate{font-size:clamp(22px,3vw,32px);font-weight:700;margin:12px 0}.prep-result #prep-math{font-size:14px}.prep-disclaimer,#prep-tax-help{font-size:14px;color:#475569;margin-bottom:20px}.prep-assumptions{margin:16px 0}.advisory-fit button,.advisory-fit .prep-book{display:inline-block;background:#1b2a4a;color:#fff;border:0;border-radius:6px;padding:12px 20px;font:inherit;font-weight:600;margin:8px 8px 8px 0}.advisory-fit button[hidden]{display:none}.advisory-fit .prep-book{text-decoration:none}.advisory-fit h3{margin-top:12px}@media(max-width:650px){.prep-grid{grid-template-columns:1fr;gap:8px}.advisory-fit{padding:18px}.advisory-fit button,.advisory-fit .prep-book{width:100%;text-align:center}}
+</style></head>
 <body>
     <main class="wrap">
         <a href="/" class="brand" aria-label="AE Tax Advisors home">
@@ -229,12 +231,20 @@
         <h1 class="headline">Discuss Your Tax Advisory Needs</h1>
         <p class="subhead">A complimentary 30-minute conversation for business owners and investors who need coordinated tax advice. Discuss your priorities, the decisions ahead and whether a paid advisory engagement fits.</p>
         <section class="advisory-fit" aria-labelledby="advisory-fit-heading">
-          <h2 id="advisory-fit-heading">Know the advisory investment before booking</h2>
+          <h2 id="advisory-fit-heading">Estimate your tax savings scenario</h2>
           <p><strong>Strategic Tax Advisory: $7,800. Complex Tax Advisory: $9,800.</strong> Returns, amendments, cost segregation and additional work are separately scoped. <a href="/pricing/">Review fees and engagement scope</a>.</p>
           <p>This conversation is most useful when you have business profits, several entities, a rental portfolio, or an upcoming acquisition or sale that needs coordinated review.</p>
-          <details><summary>Prepare a short overview for your call</summary>
+          <p>See what a potential reduction in your annual federal income tax could mean in dollars, then discuss which opportunities actually apply to you.</p>
           <p>Use approximate ranges. These optional answers stay in this page while it is open; they are not sent to AE or saved. Copy the summary for your conversation. Do not enter account numbers, tax IDs or upload records here.</p>
           <form id="advisory-prep">
+          <div class="prep-grid">
+          <div><label for="prep-tax">Estimated annual federal income tax ($)</label><input id="prep-tax" type="number" min="0" max="100000000" step="any" inputmode="decimal" placeholder="For example, 100000" aria-describedby="prep-tax-help"><p id="prep-tax-help">Use your full-year income tax liability, not your refund, balance due, withholding or business revenue. Exclude payroll and state taxes. Leave blank if unsure.</p></div>
+          <div class="prep-result" aria-live="polite" aria-atomic="true"><h3>Estimated annual tax savings</h3><p id="prep-estimate">Enter your annual federal income tax to see a scenario.</p><p id="prep-math"></p></div>
+          </div>
+          <details class="prep-assumptions"><summary>Adjust the scenario assumptions</summary><p>The starting 5% to 15% reduction is an illustrative assumption, not an AE client average, probability range or prediction. Your actual savings may be $0. Change the percentages to test your own assumptions.</p><div class="prep-grid"><div><label for="prep-low">Lower assumed reduction (%)</label><input id="prep-low" type="number" min="0" max="100" step="any" value="5" inputmode="decimal"></div><div><label for="prep-high">Upper assumed reduction (%)</label><input id="prep-high" type="number" min="0" max="100" step="any" value="15" inputmode="decimal"></div></div></details>
+          <p class="prep-disclaimer">Illustration only, before advisory fees, implementation costs and any required spending or contributions. This is not a tax-return calculation or a savings guarantee. Eligibility, your existing planning, tax year and records determine the actual result. Timing benefits may reverse in later years.</p>
+          <p>Want to explore specific inputs? Try our <a href="/tax-savings-calculator/">detailed tax savings calculator</a> or <a href="/cost-segregation-calculator/">cost segregation calculator</a>.</p>
+          <h3>Tailor the discussion to your situation</h3>
           <label for="prep-profit">Annual business profit, before owner personal taxes</label><select id="prep-profit"><option value="">Choose a range</option><option>No current business profit</option><option>Under $250,000</option><option>$250,000–$499,999</option><option>$500,000–$999,999</option><option>$1 million or more</option><option>Prefer to discuss</option></select>
           <label for="prep-income">Annual household income</label><select id="prep-income"><option value="">Choose a range</option><option>Under $250,000</option><option>$250,000–$499,999</option><option>$500,000–$999,999</option><option>$1 million or more</option><option>Prefer to discuss</option></select>
           <label for="prep-entities">Business entities owned</label><select id="prep-entities"><option value="">Choose a range</option><option>None</option><option>1</option><option>2–3</option><option>4 or more</option></select>
@@ -242,9 +252,9 @@
           <label for="prep-decision">Main decision to discuss</label><select id="prep-decision"><option value="">Choose a priority</option><option>Coordinate business entities and owner income</option><option>Coordinate business and rental property planning</option><option>Buy a business or property</option><option>Prepare for a business or property sale</option><option>Review an existing tax plan</option><option>Retirement planning and cash commitments</option><option>Other / discuss on call</option></select>
           <label for="prep-timing">Decision timing</label><select id="prep-timing"><option value="">Choose timing</option><option>Within 30 days</option><option>Within 3 months</option><option>Within 12 months</option><option>Exploring options</option></select>
           <label for="prep-investment">Readiness for the published advisory fees</label><select id="prep-investment"><option value="">Choose an answer</option><option>Prepared to invest if the scope fits</option><option>Need to understand the scope first</option><option>Currently seeking preparation-only services</option></select>
-          <button type="submit" class="btn-cta">Create my call summary</button>
-          <label for="prep-summary">Your summary — copy for your call</label><textarea id="prep-summary" rows="9" readonly></textarea><p id="prep-status" role="status"></p>
-          </form></details>
+          <button type="submit" class="btn-cta">Calculate savings &amp; create my summary</button>
+          <label for="prep-summary">Your savings scenario and call summary</label><textarea id="prep-summary" rows="9" readonly></textarea><button id="prep-copy" type="button" hidden>Copy summary</button><p id="prep-status" role="status"></p><p><a class="prep-book" href="#schedule-call">Discuss my savings scenario: choose a time</a></p><noscript><p>Enable JavaScript to calculate a scenario. You can still book a call below.</p></noscript>
+          </form>
         </section>
 
         <div class="cols">
@@ -270,7 +280,7 @@
             </section>
 
             <section>
-                <h2>Schedule a Call</h2>
+                <h2 id="schedule-call" tabindex="-1">Schedule a Call</h2>
                 <div class="cal-frame">
                     <iframe
                         src="https://api.leadconnectorhq.com/widget/booking/FggCeBoxIuOuZZrTaVV1"
