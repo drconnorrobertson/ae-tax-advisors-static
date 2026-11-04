@@ -1,0 +1,1850 @@
+{
+  "date": "2026-11-04",
+  "pages_modified": 100,
+  "sitemaps_modified": [
+    "sitemap-blog.xml",
+    "sitemap.xml"
+  ],
+  "pages": [
+    {
+      "path": "/blog/owner-faq-can-i-use-a-60-40-salary-split-for-my-s-corporation/",
+      "group": "S-Corp Planning",
+      "title": "Can I use a 60/40 salary split for my S corporation?",
+      "seo_title": "S Corp 60/40 Salary Rule: What to Use Instead",
+      "description": "Begin with a role inventory: billable work, sales, management and administration.",
+      "article_words": 426,
+      "related": [
+        "/blog/owner-faq-should-my-s-corporation-salary-change-when-profit-doubles/",
+        "/blog/owner-faq-does-a-part-time-s-corporation-owner-need-reasonable-compensation/",
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/"
+      ],
+      "service": "/services/reasonable-compensation/",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p560"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-should-my-s-corporation-salary-change-when-profit-doubles/",
+      "group": "S-Corp Planning",
+      "title": "Should my S corporation salary change when profit doubles?",
+      "seo_title": "S Corp Salary When Profit Increases",
+      "description": "Compare the current year with the year used in the last compensation review.",
+      "article_words": 423,
+      "related": [
+        "/blog/owner-faq-can-i-take-s-corporation-distributions-before-running-owner-payroll/",
+        "/blog/owner-faq-do-two-s-corporation-owners-have-to-earn-identical-salaries/",
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/"
+      ],
+      "service": "/services/reasonable-compensation/",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p560"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-take-s-corporation-distributions-before-running-owner-payroll/",
+      "group": "S-Corp Planning",
+      "title": "Can I take S corporation distributions before running owner payroll?",
+      "seo_title": "S Corp Distributions Before Payroll: Correction Steps",
+      "description": "Prepare a dated list of draws, company-paid personal costs, wages and reimbursements.",
+      "article_words": 417,
+      "related": [
+        "/blog/owner-faq-does-a-part-time-s-corporation-owner-need-reasonable-compensation/",
+        "/blog/owner-faq-can-an-s-corporation-owner-pay-zero-salary-in-a-loss-year/",
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/"
+      ],
+      "service": "/services/reasonable-compensation/",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p560"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-a-part-time-s-corporation-owner-need-reasonable-compensation/",
+      "group": "S-Corp Planning",
+      "title": "Does a part-time S corporation owner need reasonable compensation?",
+      "seo_title": "Part-Time S Corp Owner Salary: Duties and Hours",
+      "description": "Document the work performed for this corporation separately from work for another employer.",
+      "article_words": 424,
+      "related": [
+        "/blog/owner-faq-do-two-s-corporation-owners-have-to-earn-identical-salaries/",
+        "/blog/owner-faq-should-a-real-estate-agent-elect-s-corporation-status-after-a-strong-commission-year/",
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/"
+      ],
+      "service": "/services/reasonable-compensation/",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p560"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-do-two-s-corporation-owners-have-to-earn-identical-salaries/",
+      "group": "S-Corp Planning",
+      "title": "Do two S corporation owners have to earn identical salaries?",
+      "seo_title": "Different S Corp Owner Salaries: Equal Ownership",
+      "description": "Prepare a responsibilities matrix for each owner, including revenue production, supervision, administration and time away from the business.",
+      "article_words": 410,
+      "related": [
+        "/blog/owner-faq-can-an-s-corporation-owner-pay-zero-salary-in-a-loss-year/",
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/",
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/"
+      ],
+      "service": "/services/reasonable-compensation/",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p560"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-an-s-corporation-owner-pay-zero-salary-in-a-loss-year/",
+      "group": "S-Corp Planning",
+      "title": "Can an S corporation owner pay zero salary in a loss year?",
+      "seo_title": "Zero S Corp Salary in a Loss Year",
+      "description": "Determine why the business reports a loss and whether the owner still received cash or personal benefits.",
+      "article_words": 415,
+      "related": [
+        "/blog/owner-faq-should-a-real-estate-agent-elect-s-corporation-status-after-a-strong-commission-year/",
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/",
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/"
+      ],
+      "service": "/services/reasonable-compensation/",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p560"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-should-a-real-estate-agent-elect-s-corporation-status-after-a-strong-commission-year/",
+      "group": "S-Corp Planning",
+      "title": "Should a real estate agent elect S corporation status after a strong commission year?",
+      "seo_title": "S Corp Election for Real Estate Agents: Recurring Profit",
+      "description": "Start with net commission income after ordinary operating expenses, rather than gross closings.",
+      "article_words": 405,
+      "related": [
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/",
+        "/blog/owner-faq-what-evidence-should-i-keep-for-an-s-corporation-salary-review/",
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/"
+      ],
+      "service": "/services/reasonable-compensation/",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p560"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/",
+      "group": "S-Corp Planning",
+      "title": "Does paying myself more S corporation wages always reduce my total tax?",
+      "seo_title": "Higher S Corp Salary: Payroll Tax and Retirement Tradeoffs",
+      "description": "No. Payroll costs, retirement limits, QBI and other household facts can move the overall result in different directions.",
+      "article_words": 411,
+      "related": [
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/",
+        "/blog/owner-faq-can-i-use-a-60-40-salary-split-for-my-s-corporation/",
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/"
+      ],
+      "service": "/services/reasonable-compensation/",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p560"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/",
+      "group": "S-Corp Planning",
+      "title": "Can an S corporation pay a shareholder health insurance premium?",
+      "seo_title": "S Corp Shareholder Health Insurance: Payroll Handoff",
+      "description": "Identify who paid each premium, whether the corporation reimbursed the shareholder and whether the shareholder is subject to the more-than-2% rules.",
+      "article_words": 405,
+      "related": [
+        "/blog/owner-faq-what-evidence-should-i-keep-for-an-s-corporation-salary-review/",
+        "/blog/owner-faq-should-my-s-corporation-salary-change-when-profit-doubles/",
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/"
+      ],
+      "service": "/services/reasonable-compensation/",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p560"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-what-evidence-should-i-keep-for-an-s-corporation-salary-review/",
+      "group": "S-Corp Planning",
+      "title": "What evidence should I keep for an S corporation salary review?",
+      "seo_title": "S Corp Salary Documentation: Compensation Review File",
+      "description": "A useful file explains the owner's work, the market evidence used and the reason the selected wage fits.",
+      "article_words": 411,
+      "related": [
+        "/blog/owner-faq-can-i-use-a-60-40-salary-split-for-my-s-corporation/",
+        "/blog/owner-faq-can-i-take-s-corporation-distributions-before-running-owner-payroll/",
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/"
+      ],
+      "service": "/services/reasonable-compensation/",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+        "https://www.irs.gov/publications/p560"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-how-should-a-business-owner-pay-estimated-tax-on-uneven-income/",
+      "group": "Tax Compliance",
+      "title": "How should a business owner pay estimated tax on uneven income?",
+      "seo_title": "Estimated Taxes on Uneven Business Income",
+      "description": "Build a period-by-period profit schedule and include household wages, investment income and other activities.",
+      "article_words": 432,
+      "related": [
+        "/blog/owner-faq-does-an-estimated-tax-safe-harbor-mean-i-will-not-owe-more-in-april/",
+        "/blog/owner-faq-do-i-owe-personal-estimated-tax-when-my-s-corporation-keeps-the-cash/",
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/"
+      ],
+      "service": "/services/quarterly-estimates/",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/publications/p544"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-an-estimated-tax-safe-harbor-mean-i-will-not-owe-more-in-april/",
+      "group": "Tax Compliance",
+      "title": "Does an estimated tax safe harbor mean I will not owe more in April?",
+      "seo_title": "Estimated Tax Safe Harbor vs April Balance Due",
+      "description": "Ask for two figures: the amount needed under an applicable payment safe harbor and the projected final tax liability.",
+      "article_words": 411,
+      "related": [
+        "/blog/owner-faq-can-spouse-w-2-withholding-cover-tax-on-my-business-income/",
+        "/blog/owner-faq-should-i-reserve-tax-money-from-revenue-or-from-profit/",
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/"
+      ],
+      "service": "/services/quarterly-estimates/",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/publications/p544"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-spouse-w-2-withholding-cover-tax-on-my-business-income/",
+      "group": "Tax Compliance",
+      "title": "Can spouse W-2 withholding cover tax on my business income?",
+      "seo_title": "Spouse W-2 Withholding for Business Income",
+      "description": "On a joint-return projection, reconcile both spouses' income and withholding before choosing additional payments.",
+      "article_words": 416,
+      "related": [
+        "/blog/owner-faq-do-i-owe-personal-estimated-tax-when-my-s-corporation-keeps-the-cash/",
+        "/blog/owner-faq-can-i-fix-a-missed-estimated-tax-payment-by-paying-extra-later/",
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/"
+      ],
+      "service": "/services/quarterly-estimates/",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/publications/p544"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-do-i-owe-personal-estimated-tax-when-my-s-corporation-keeps-the-cash/",
+      "group": "Tax Compliance",
+      "title": "Do I owe personal estimated tax when my S corporation keeps the cash?",
+      "seo_title": "S Corp Retained Earnings and Personal Estimated Tax",
+      "description": "Reconcile expected K-1 income with wages, shareholder basis and the corporation's cash needs.",
+      "article_words": 408,
+      "related": [
+        "/blog/owner-faq-should-i-reserve-tax-money-from-revenue-or-from-profit/",
+        "/blog/owner-faq-does-extending-my-business-return-extend-my-tax-payment-deadline/",
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/"
+      ],
+      "service": "/services/quarterly-estimates/",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/publications/p544"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-should-i-reserve-tax-money-from-revenue-or-from-profit/",
+      "group": "Tax Compliance",
+      "title": "Should I reserve tax money from revenue or from profit?",
+      "seo_title": "Business Tax Reserve: Revenue vs Taxable Profit",
+      "description": "No. It can support cash discipline, but taxable profit and the household projection determine the actual funding need.",
+      "article_words": 413,
+      "related": [
+        "/blog/owner-faq-can-i-fix-a-missed-estimated-tax-payment-by-paying-extra-later/",
+        "/blog/owner-faq-how-do-rental-property-sales-affect-quarterly-estimated-taxes/",
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/"
+      ],
+      "service": "/services/quarterly-estimates/",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/publications/p544"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-fix-a-missed-estimated-tax-payment-by-paying-extra-later/",
+      "group": "Tax Compliance",
+      "title": "Can I fix a missed estimated tax payment by paying extra later?",
+      "seo_title": "Missed Estimated Tax Payment: What a Later Payment Fixes",
+      "description": "Not automatically. Installment timing and applicable exceptions determine the result, rather than the annual total alone.",
+      "article_words": 403,
+      "related": [
+        "/blog/owner-faq-does-extending-my-business-return-extend-my-tax-payment-deadline/",
+        "/blog/owner-faq-can-i-use-last-year-s-refund-toward-this-year-s-business-taxes/",
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/"
+      ],
+      "service": "/services/quarterly-estimates/",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/publications/p544"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-extending-my-business-return-extend-my-tax-payment-deadline/",
+      "group": "Tax Compliance",
+      "title": "Does extending my business return extend my tax payment deadline?",
+      "seo_title": "Business Return Extension vs Tax Payment Deadline",
+      "description": "Identify the corporation, partnership and individual filings involved and distinguish their filing extensions from payment requirements.",
+      "article_words": 411,
+      "related": [
+        "/blog/owner-faq-how-do-rental-property-sales-affect-quarterly-estimated-taxes/",
+        "/blog/owner-faq-what-should-an-owner-include-in-a-midyear-tax-projection/",
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/"
+      ],
+      "service": "/services/quarterly-estimates/",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/publications/p544"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-how-do-rental-property-sales-affect-quarterly-estimated-taxes/",
+      "group": "Tax Compliance",
+      "title": "How do rental property sales affect quarterly estimated taxes?",
+      "seo_title": "Rental Sale Estimated Taxes: Gain vs Closing Cash",
+      "description": "Use the sale price, selling costs, historical adjusted basis and depreciation records to calculate the tax items.",
+      "article_words": 397,
+      "related": [
+        "/blog/owner-faq-can-i-use-last-year-s-refund-toward-this-year-s-business-taxes/",
+        "/blog/owner-faq-how-should-a-business-owner-pay-estimated-tax-on-uneven-income/",
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/"
+      ],
+      "service": "/services/quarterly-estimates/",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/publications/p544"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-use-last-year-s-refund-toward-this-year-s-business-taxes/",
+      "group": "Tax Compliance",
+      "title": "Can I use last year's refund toward this year's business taxes?",
+      "seo_title": "Applying Last Year's Refund to Estimated Tax",
+      "description": "Read the filed return to see whether the overpayment was designated for refund, applied forward or split.",
+      "article_words": 412,
+      "related": [
+        "/blog/owner-faq-what-should-an-owner-include-in-a-midyear-tax-projection/",
+        "/blog/owner-faq-does-an-estimated-tax-safe-harbor-mean-i-will-not-owe-more-in-april/",
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/"
+      ],
+      "service": "/services/quarterly-estimates/",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/publications/p544"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-what-should-an-owner-include-in-a-midyear-tax-projection/",
+      "group": "Tax Compliance",
+      "title": "What should an owner include in a midyear tax projection?",
+      "seo_title": "Midyear Tax Projection for Multiple Businesses",
+      "description": "Request current books for each company and property, year-to-date payroll, known investment events and prior carryforwards.",
+      "article_words": 404,
+      "related": [
+        "/blog/owner-faq-how-should-a-business-owner-pay-estimated-tax-on-uneven-income/",
+        "/blog/owner-faq-can-spouse-w-2-withholding-cover-tax-on-my-business-income/",
+        "/blog/owner-faq-can-an-s-corporation-pay-a-shareholder-health-insurance-premium/"
+      ],
+      "service": "/services/quarterly-estimates/",
+      "sources": [
+        "https://www.irs.gov/publications/p505",
+        "https://www.irs.gov/publications/p544"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-reimburse-owner-business-expenses-paid-with-a-personal-credit-card/",
+      "group": "Business Deductions",
+      "title": "Can I reimburse owner business expenses paid with a personal credit card?",
+      "seo_title": "Owner Personal Card Expenses: Corporate Reimbursement",
+      "description": "An owner expense report should identify the merchant, date, amount, business purpose and company that incurred the cost.",
+      "article_words": 408,
+      "related": [
+        "/blog/owner-faq-does-an-accountable-plan-let-me-deduct-all-my-personal-meals/",
+        "/blog/owner-faq-how-should-i-document-a-trip-that-mixes-business-and-vacation/",
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-an-accountable-plan-let-me-deduct-all-my-personal-meals/",
+      "group": "Business Deductions",
+      "title": "Does an accountable plan let me deduct all my personal meals?",
+      "seo_title": "Accountable Plans and Personal Meals",
+      "description": "Separate ordinary personal meals from meals that qualify under the applicable business rules.",
+      "article_words": 406,
+      "related": [
+        "/blog/owner-faq-can-my-company-reimburse-mileage-if-i-also-use-the-car-personally/",
+        "/blog/owner-faq-can-i-deduct-commuting-when-i-own-the-business/",
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-my-company-reimburse-mileage-if-i-also-use-the-car-personally/",
+      "group": "Business Deductions",
+      "title": "Can my company reimburse mileage if I also use the car personally?",
+      "seo_title": "Mileage Reimbursement for a Mixed-Use Owner Vehicle",
+      "description": "Keep a log showing dates, destinations, business purposes and business miles, along with the records needed for the chosen method.",
+      "article_words": 404,
+      "related": [
+        "/blog/owner-faq-how-should-i-document-a-trip-that-mixes-business-and-vacation/",
+        "/blog/owner-faq-can-i-reimburse-expenses-without-keeping-paper-receipts/",
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-how-should-i-document-a-trip-that-mixes-business-and-vacation/",
+      "group": "Business Deductions",
+      "title": "How should I document a trip that mixes business and vacation?",
+      "seo_title": "Business Trip With Vacation: Expense Allocation",
+      "description": "Write down where the trip occurred, its primary purpose, business days, personal days and who traveled.",
+      "article_words": 395,
+      "related": [
+        "/blog/owner-faq-can-i-deduct-commuting-when-i-own-the-business/",
+        "/blog/owner-faq-how-should-a-business-owner-handle-reimbursement-advances/",
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-deduct-commuting-when-i-own-the-business/",
+      "group": "Business Deductions",
+      "title": "Can I deduct commuting when I own the business?",
+      "seo_title": "Business Owner Commuting vs Business Mileage",
+      "description": "Map the home, regular workplace, temporary assignments and trips between work locations.",
+      "article_words": 395,
+      "related": [
+        "/blog/owner-faq-can-i-reimburse-expenses-without-keeping-paper-receipts/",
+        "/blog/owner-faq-can-i-deduct-travel-to-inspect-a-possible-rental-property/",
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-reimburse-expenses-without-keeping-paper-receipts/",
+      "group": "Business Deductions",
+      "title": "Can I reimburse expenses without keeping paper receipts?",
+      "seo_title": "Electronic Expense Receipts: What Records Must Show",
+      "description": "A digital receipt should retain item detail, date, amount and merchant information.",
+      "article_words": 403,
+      "related": [
+        "/blog/owner-faq-how-should-a-business-owner-handle-reimbursement-advances/",
+        "/blog/owner-faq-can-my-company-pay-for-my-spouse-to-accompany-me-on-business-travel/",
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-how-should-a-business-owner-handle-reimbursement-advances/",
+      "group": "Business Deductions",
+      "title": "How should a business owner handle reimbursement advances?",
+      "seo_title": "Accountable Plan Travel Advances: Excess Cash",
+      "description": "Track the date and purpose of the advance, the expenses substantiated and the balance returned.",
+      "article_words": 395,
+      "related": [
+        "/blog/owner-faq-can-i-deduct-travel-to-inspect-a-possible-rental-property/",
+        "/blog/owner-faq-what-should-i-do-when-an-owner-expense-report-includes-personal-charges/",
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-deduct-travel-to-inspect-a-possible-rental-property/",
+      "group": "Business Deductions",
+      "title": "Can I deduct travel to inspect a possible rental property?",
+      "seo_title": "Travel to Inspect a Potential Rental Property",
+      "description": "Record the properties visited, meetings, trip dates and reason for each expense.",
+      "article_words": 413,
+      "related": [
+        "/blog/owner-faq-can-my-company-pay-for-my-spouse-to-accompany-me-on-business-travel/",
+        "/blog/owner-faq-can-i-reimburse-owner-business-expenses-paid-with-a-personal-credit-card/",
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-my-company-pay-for-my-spouse-to-accompany-me-on-business-travel/",
+      "group": "Business Deductions",
+      "title": "Can my company pay for my spouse to accompany me on business travel?",
+      "seo_title": "Spouse Business Travel: Employee Role and Purpose",
+      "description": "A spouse's airfare or lodging should not be included merely because the owner had a qualifying trip.",
+      "article_words": 404,
+      "related": [
+        "/blog/owner-faq-what-should-i-do-when-an-owner-expense-report-includes-personal-charges/",
+        "/blog/owner-faq-does-an-accountable-plan-let-me-deduct-all-my-personal-meals/",
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-what-should-i-do-when-an-owner-expense-report-includes-personal-charges/",
+      "group": "Business Deductions",
+      "title": "What should I do when an owner expense report includes personal charges?",
+      "seo_title": "Personal Charges on Owner Expense Reports",
+      "description": "No. Profitability does not create a business deduction for personal spending.",
+      "article_words": 409,
+      "related": [
+        "/blog/owner-faq-can-i-reimburse-owner-business-expenses-paid-with-a-personal-credit-card/",
+        "/blog/owner-faq-can-my-company-reimburse-mileage-if-i-also-use-the-car-personally/",
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/",
+      "group": "Retirement Planning",
+      "title": "Can S corporation distributions fund my 401(k) contribution limit?",
+      "seo_title": "S Corp Distributions vs 401(k) Compensation",
+      "description": "Ask the plan administrator to identify eligible compensation under the actual document.",
+      "article_words": 409,
+      "related": [
+        "/blog/owner-faq-can-i-keep-a-solo-401-k-after-hiring-employees/",
+        "/blog/owner-faq-do-employees-change-how-much-my-retirement-plan-will-cost/",
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/"
+      ],
+      "service": "/retirement-exit-ma-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans",
+        "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-keep-a-solo-401-k-after-hiring-employees/",
+      "group": "Retirement Planning",
+      "title": "Can I keep a solo 401(k) after hiring employees?",
+      "seo_title": "Solo 401(k) After Hiring Employees",
+      "description": "Send the administrator the hire dates, service hours, ages and ownership relationships of all workers.",
+      "article_words": 413,
+      "related": [
+        "/blog/owner-faq-should-a-cash-balance-plan-be-based-on-one-unusually-profitable-year/",
+        "/blog/owner-faq-can-my-spouse-participate-in-my-business-retirement-plan/",
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/"
+      ],
+      "service": "/retirement-exit-ma-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans",
+        "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-should-a-cash-balance-plan-be-based-on-one-unusually-profitable-year/",
+      "group": "Retirement Planning",
+      "title": "Should a cash balance plan be based on one unusually profitable year?",
+      "seo_title": "Cash Balance Plan After a One-Time Profit Spike",
+      "description": "Ask the actuary to show required funding under several profit scenarios and explain how employee costs change.",
+      "article_words": 408,
+      "related": [
+        "/blog/owner-faq-do-employees-change-how-much-my-retirement-plan-will-cost/",
+        "/blog/owner-faq-do-two-businesses-give-me-two-separate-employee-deferral-limits/",
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/"
+      ],
+      "service": "/retirement-exit-ma-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans",
+        "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-do-employees-change-how-much-my-retirement-plan-will-cost/",
+      "group": "Retirement Planning",
+      "title": "Do employees change how much my retirement plan will cost?",
+      "seo_title": "Retirement Plan Employee Costs: Full Company Budget",
+      "description": "Request a proposal showing owner allocations, staff contributions, administration, actuarial costs and other fees separately.",
+      "article_words": 404,
+      "related": [
+        "/blog/owner-faq-can-my-spouse-participate-in-my-business-retirement-plan/",
+        "/blog/owner-faq-can-rental-income-support-a-solo-401-k-contribution/",
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/"
+      ],
+      "service": "/retirement-exit-ma-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans",
+        "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-my-spouse-participate-in-my-business-retirement-plan/",
+      "group": "Retirement Planning",
+      "title": "Can my spouse participate in my business retirement plan?",
+      "seo_title": "Spouse Eligibility for a Business Retirement Plan",
+      "description": "Document the spouse's duties, hours and reasonable compensation for actual services.",
+      "article_words": 414,
+      "related": [
+        "/blog/owner-faq-do-two-businesses-give-me-two-separate-employee-deferral-limits/",
+        "/blog/owner-faq-is-a-deductible-retirement-contribution-the-same-as-tax-free-retirement-income/",
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/"
+      ],
+      "service": "/retirement-exit-ma-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans",
+        "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-do-two-businesses-give-me-two-separate-employee-deferral-limits/",
+      "group": "Retirement Planning",
+      "title": "Do two businesses give me two separate employee deferral limits?",
+      "seo_title": "Two Businesses and 401(k) Deferral Limits",
+      "description": "Identify all plans receiving employee deferrals, including plans at an unrelated W-2 job.",
+      "article_words": 400,
+      "related": [
+        "/blog/owner-faq-can-rental-income-support-a-solo-401-k-contribution/",
+        "/blog/owner-faq-what-should-i-do-after-contributing-too-much-to-a-business-retirement-plan/",
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/"
+      ],
+      "service": "/retirement-exit-ma-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans",
+        "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-rental-income-support-a-solo-401-k-contribution/",
+      "group": "Retirement Planning",
+      "title": "Can rental income support a solo 401(k) contribution?",
+      "seo_title": "Rental Income and Solo 401(k) Eligibility",
+      "description": "Determine whether the receipts arise from ordinary investment rentals or an actual operating activity with different tax treatment.",
+      "article_words": 414,
+      "related": [
+        "/blog/owner-faq-is-a-deductible-retirement-contribution-the-same-as-tax-free-retirement-income/",
+        "/blog/owner-faq-what-records-should-i-give-an-actuary-for-a-cash-balance-plan-proposal/",
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/"
+      ],
+      "service": "/retirement-exit-ma-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans",
+        "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-is-a-deductible-retirement-contribution-the-same-as-tax-free-retirement-income/",
+      "group": "Retirement Planning",
+      "title": "Is a deductible retirement contribution the same as tax-free retirement income?",
+      "seo_title": "Retirement Deduction vs Future Taxable Withdrawals",
+      "description": "Identify whether the contribution is deductible, Roth or after-tax under the actual plan.",
+      "article_words": 416,
+      "related": [
+        "/blog/owner-faq-what-should-i-do-after-contributing-too-much-to-a-business-retirement-plan/",
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/",
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/"
+      ],
+      "service": "/retirement-exit-ma-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans",
+        "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-what-should-i-do-after-contributing-too-much-to-a-business-retirement-plan/",
+      "group": "Retirement Planning",
+      "title": "What should I do after contributing too much to a business retirement plan?",
+      "seo_title": "Excess Retirement Contribution: Correction Handoff",
+      "description": "Provide the administrator the plan document, compensation, deposits and contribution sources.",
+      "article_words": 408,
+      "related": [
+        "/blog/owner-faq-what-records-should-i-give-an-actuary-for-a-cash-balance-plan-proposal/",
+        "/blog/owner-faq-can-i-keep-a-solo-401-k-after-hiring-employees/",
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/"
+      ],
+      "service": "/retirement-exit-ma-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans",
+        "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-what-records-should-i-give-an-actuary-for-a-cash-balance-plan-proposal/",
+      "group": "Retirement Planning",
+      "title": "What records should I give an actuary for a cash balance plan proposal?",
+      "seo_title": "Cash Balance Plan Proposal: Actuary Records",
+      "description": "Provide employee ages, compensation, hire dates, hours and ownership relationships across companies.",
+      "article_words": 419,
+      "related": [
+        "/blog/owner-faq-can-s-corporation-distributions-fund-my-401-k-contribution-limit/",
+        "/blog/owner-faq-should-a-cash-balance-plan-be-based-on-one-unusually-profitable-year/",
+        "/blog/owner-faq-does-paying-myself-more-s-corporation-wages-always-reduce-my-total-tax/"
+      ],
+      "service": "/retirement-exit-ma-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p560",
+        "https://www.irs.gov/retirement-plans/one-participant-401k-plans",
+        "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-guaranteeing-my-s-corporation-bank-loan-create-debt-basis/",
+      "group": "Entity Structuring",
+      "title": "Does guaranteeing my S corporation bank loan create debt basis?",
+      "seo_title": "S Corp Loan Guarantee vs Shareholder Debt Basis",
+      "description": "Read the loan documents to identify who borrowed and who advanced funds to the corporation.",
+      "article_words": 421,
+      "related": [
+        "/blog/owner-faq-can-debt-basis-make-an-s-corporation-distribution-tax-free/",
+        "/blog/owner-faq-can-a-bookkeeping-loan-entry-cure-an-excess-s-corporation-distribution/",
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-debt-basis-make-an-s-corporation-distribution-tax-free/",
+      "group": "Entity Structuring",
+      "title": "Can debt basis make an S corporation distribution tax-free?",
+      "seo_title": "S Corp Debt Basis and Cash Distributions",
+      "description": "Reconcile stock basis before analyzing the tax treatment of a distribution.",
+      "article_words": 418,
+      "related": [
+        "/blog/owner-faq-why-can-repayment-of-my-shareholder-loan-create-taxable-income/",
+        "/blog/owner-faq-can-i-deduct-my-entire-k-1-loss-if-the-business-lost-money/",
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-why-can-repayment-of-my-shareholder-loan-create-taxable-income/",
+      "group": "Entity Structuring",
+      "title": "Why can repayment of my shareholder loan create taxable income?",
+      "seo_title": "Shareholder Loan Repayment With Reduced Debt Basis",
+      "description": "Track the original advance, prior repayments, loss-related basis reductions and any later basis restoration.",
+      "article_words": 420,
+      "related": [
+        "/blog/owner-faq-can-a-bookkeeping-loan-entry-cure-an-excess-s-corporation-distribution/",
+        "/blog/owner-faq-should-i-track-stock-basis-separately-for-each-s-corporation/",
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-a-bookkeeping-loan-entry-cure-an-excess-s-corporation-distribution/",
+      "group": "Entity Structuring",
+      "title": "Can a bookkeeping loan entry cure an excess S corporation distribution?",
+      "seo_title": "Excess S Corp Distribution: Book Entry vs Actual Loan",
+      "description": "Examine the original payment, contemporaneous intent and enforceable repayment arrangement.",
+      "article_words": 415,
+      "related": [
+        "/blog/owner-faq-can-i-deduct-my-entire-k-1-loss-if-the-business-lost-money/",
+        "/blog/owner-faq-do-retained-s-corporation-profits-affect-shareholder-stock-basis/",
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-deduct-my-entire-k-1-loss-if-the-business-lost-money/",
+      "group": "Entity Structuring",
+      "title": "Can I deduct my entire K-1 loss if the business lost money?",
+      "seo_title": "K-1 Loss Deduction: Basis and Other Limits",
+      "description": "A K-1 shows an allocated tax item, but does not by itself establish how much the owner can deduct.",
+      "article_words": 408,
+      "related": [
+        "/blog/owner-faq-should-i-track-stock-basis-separately-for-each-s-corporation/",
+        "/blog/owner-faq-can-contributing-cash-before-year-end-support-an-s-corporation-loss/",
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-should-i-track-stock-basis-separately-for-each-s-corporation/",
+      "group": "Entity Structuring",
+      "title": "Should I track stock basis separately for each S corporation?",
+      "seo_title": "Separate Stock Basis for Each S Corporation",
+      "description": "Create a separate basis schedule for each ownership interest and reconcile it annually with K-1s, contributions, distributions and relevant adjustments.",
+      "article_words": 408,
+      "related": [
+        "/blog/owner-faq-do-retained-s-corporation-profits-affect-shareholder-stock-basis/",
+        "/blog/owner-faq-what-happens-to-s-corporation-losses-suspended-for-lack-of-basis/",
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-do-retained-s-corporation-profits-affect-shareholder-stock-basis/",
+      "group": "Entity Structuring",
+      "title": "Do retained S corporation profits affect shareholder stock basis?",
+      "seo_title": "Retained S Corp Profits and Stock Basis",
+      "description": "Review K-1 income and the other annual basis adjustments rather than using retained earnings on the books as a shortcut.",
+      "article_words": 415,
+      "related": [
+        "/blog/owner-faq-can-contributing-cash-before-year-end-support-an-s-corporation-loss/",
+        "/blog/owner-faq-what-should-form-7203-reconcile-to-in-my-owner-tax-file/",
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-contributing-cash-before-year-end-support-an-s-corporation-loss/",
+      "group": "Entity Structuring",
+      "title": "Can contributing cash before year-end support an S corporation loss?",
+      "seo_title": "Year-End Cash Contribution and S Corp Loss Basis",
+      "description": "Determine whether funds were genuinely contributed as equity or advanced under bona fide shareholder debt before year-end.",
+      "article_words": 424,
+      "related": [
+        "/blog/owner-faq-what-happens-to-s-corporation-losses-suspended-for-lack-of-basis/",
+        "/blog/owner-faq-does-guaranteeing-my-s-corporation-bank-loan-create-debt-basis/",
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-what-happens-to-s-corporation-losses-suspended-for-lack-of-basis/",
+      "group": "Entity Structuring",
+      "title": "What happens to S corporation losses suspended for lack of basis?",
+      "seo_title": "S Corp Basis-Suspended Losses: Carryforward Records",
+      "description": "Maintain the original loss amount, year, limitation and subsequent utilization for each corporation.",
+      "article_words": 414,
+      "related": [
+        "/blog/owner-faq-what-should-form-7203-reconcile-to-in-my-owner-tax-file/",
+        "/blog/owner-faq-can-debt-basis-make-an-s-corporation-distribution-tax-free/",
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-what-should-form-7203-reconcile-to-in-my-owner-tax-file/",
+      "group": "Entity Structuring",
+      "title": "What should Form 7203 reconcile to in my owner tax file?",
+      "seo_title": "Form 7203 Reconciliation: Shareholder Basis File",
+      "description": "The form should connect opening basis, K-1 items, contributions, distributions and qualifying shareholder debt activity.",
+      "article_words": 412,
+      "related": [
+        "/blog/owner-faq-does-guaranteeing-my-s-corporation-bank-loan-create-debt-basis/",
+        "/blog/owner-faq-why-can-repayment-of-my-shareholder-loan-create-taxable-income/",
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/"
+      ],
+      "service": "/business-owner-small-business-tax/",
+      "sources": [
+        "https://www.irs.gov/instructions/i7203",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/",
+      "group": "Rental Property",
+      "title": "Is a refundable rental security deposit taxable when received?",
+      "seo_title": "Refundable Security Deposits vs Rental Income",
+      "description": "Read the lease to distinguish refundable security from advance rent or a nonrefundable charge.",
+      "article_words": 425,
+      "related": [
+        "/blog/owner-faq-is-advance-rent-taxable-before-the-tenant-uses-the-property/",
+        "/blog/owner-faq-can-i-deduct-mortgage-principal-on-a-rental-property/",
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/"
+      ],
+      "service": "/rental-property-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p527",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-is-advance-rent-taxable-before-the-tenant-uses-the-property/",
+      "group": "Rental Property",
+      "title": "Is advance rent taxable before the tenant uses the property?",
+      "seo_title": "Advance Rent vs Refundable Tenant Deposits",
+      "description": "For a cash-method landlord, advance rent generally enters income when received, unlike a genuinely refundable security deposit.",
+      "article_words": 411,
+      "related": [
+        "/blog/owner-faq-do-tenant-paid-expenses-count-as-rental-income/",
+        "/blog/owner-faq-is-replacing-a-rental-roof-a-repair-or-an-improvement/",
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/"
+      ],
+      "service": "/rental-property-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p527",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-do-tenant-paid-expenses-count-as-rental-income/",
+      "group": "Rental Property",
+      "title": "Do tenant-paid expenses count as rental income?",
+      "seo_title": "Tenant-Paid Landlord Expenses: Gross Rental Reporting",
+      "description": "Determine whether the tenant paid an expense the landlord was responsible for and whether the payment reduced rent owed.",
+      "article_words": 414,
+      "related": [
+        "/blog/owner-faq-can-i-deduct-mortgage-principal-on-a-rental-property/",
+        "/blog/owner-faq-can-i-depreciate-land-when-i-buy-a-rental-property/",
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/"
+      ],
+      "service": "/rental-property-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p527",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-deduct-mortgage-principal-on-a-rental-property/",
+      "group": "Rental Property",
+      "title": "Can I deduct mortgage principal on a rental property?",
+      "seo_title": "Rental Mortgage Payment: Principal vs Interest",
+      "description": "Use the mortgage statement to separate principal, interest, escrow deposits and fees.",
+      "article_words": 402,
+      "related": [
+        "/blog/owner-faq-is-replacing-a-rental-roof-a-repair-or-an-improvement/",
+        "/blog/owner-faq-when-does-rental-depreciation-begin-if-renovations-delay-tenants/",
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/"
+      ],
+      "service": "/rental-property-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p527",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-is-replacing-a-rental-roof-a-repair-or-an-improvement/",
+      "group": "Rental Property",
+      "title": "Is replacing a rental roof a repair or an improvement?",
+      "seo_title": "Rental Roof Replacement: Repair or Improvement",
+      "description": "Obtain the contractor's detailed work description and distinguish patching from a substantial replacement or restoration.",
+      "article_words": 426,
+      "related": [
+        "/blog/owner-faq-can-i-depreciate-land-when-i-buy-a-rental-property/",
+        "/blog/owner-faq-can-i-deduct-rental-expenses-while-the-property-is-vacant/",
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/"
+      ],
+      "service": "/rental-property-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p527",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-depreciate-land-when-i-buy-a-rental-property/",
+      "group": "Rental Property",
+      "title": "Can I depreciate land when I buy a rental property?",
+      "seo_title": "Land Allocation in Rental Property Depreciation",
+      "description": "Start with total acquisition cost and determine a reasonable allocation supported by relevant evidence.",
+      "article_words": 412,
+      "related": [
+        "/blog/owner-faq-when-does-rental-depreciation-begin-if-renovations-delay-tenants/",
+        "/blog/owner-faq-how-does-personal-use-of-a-vacation-rental-affect-deductions/",
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/"
+      ],
+      "service": "/rental-property-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p527",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-when-does-rental-depreciation-begin-if-renovations-delay-tenants/",
+      "group": "Rental Property",
+      "title": "When does rental depreciation begin if renovations delay tenants?",
+      "seo_title": "Rental Depreciation Start Date During Renovations",
+      "description": "Build a timeline from closing through renovation completion, approvals, marketing and readiness for the intended rental use.",
+      "article_words": 408,
+      "related": [
+        "/blog/owner-faq-can-i-deduct-rental-expenses-while-the-property-is-vacant/",
+        "/blog/owner-faq-do-airbnb-platform-fees-reduce-the-rent-i-report/",
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/"
+      ],
+      "service": "/rental-property-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p527",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-deduct-rental-expenses-while-the-property-is-vacant/",
+      "group": "Rental Property",
+      "title": "Can I deduct rental expenses while the property is vacant?",
+      "seo_title": "Vacant Rental Expenses: Continued Rental Use",
+      "description": "Keep evidence that the property remains held for rental use, such as marketing, applications, management correspondence and efforts to obtain tenants.",
+      "article_words": 423,
+      "related": [
+        "/blog/owner-faq-how-does-personal-use-of-a-vacation-rental-affect-deductions/",
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/",
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/"
+      ],
+      "service": "/rental-property-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p527",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-how-does-personal-use-of-a-vacation-rental-affect-deductions/",
+      "group": "Rental Property",
+      "title": "How does personal use of a vacation rental affect deductions?",
+      "seo_title": "Vacation Rental Personal Use: Day and Expense Records",
+      "description": "Track rented days, personal days, below-market use and days devoted to relevant maintenance activities.",
+      "article_words": 411,
+      "related": [
+        "/blog/owner-faq-do-airbnb-platform-fees-reduce-the-rent-i-report/",
+        "/blog/owner-faq-is-advance-rent-taxable-before-the-tenant-uses-the-property/",
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/"
+      ],
+      "service": "/rental-property-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p527",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-do-airbnb-platform-fees-reduce-the-rent-i-report/",
+      "group": "Rental Property",
+      "title": "Do Airbnb platform fees reduce the rent I report?",
+      "seo_title": "Airbnb Gross Income vs Net Platform Deposits",
+      "description": "Download platform statements showing guest charges, owner-paid fees, refunds, adjustments and amounts handled for taxes.",
+      "article_words": 412,
+      "related": [
+        "/blog/owner-faq-is-a-refundable-rental-security-deposit-taxable-when-received/",
+        "/blog/owner-faq-do-tenant-paid-expenses-count-as-rental-income/",
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/"
+      ],
+      "service": "/rental-property-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p527",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-is-exactly-100-hours-enough-for-the-short-term-rental-participation-test/",
+      "group": "Material Participation",
+      "title": "Is exactly 100 hours enough for the short-term rental participation test?",
+      "seo_title": "STR 100-Hour Test: Exactly 100 vs More Than 100",
+      "description": "For this test, distinguish more than 100 hours from exactly 100, then compare the taxpayer's participation with each other individual's participation.",
+      "article_words": 425,
+      "related": [
+        "/blog/owner-faq-do-my-spouse-s-hours-count-toward-rental-material-participation/",
+        "/blog/owner-faq-can-i-materially-participate-when-i-hire-a-property-manager/",
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/"
+      ],
+      "service": "/short-term-rental-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-do-my-spouse-s-hours-count-toward-rental-material-participation/",
+      "group": "Material Participation",
+      "title": "Do my spouse's hours count toward rental material participation?",
+      "seo_title": "Spouse Hours for Rental Material Participation",
+      "description": "Maintain the spouse's work record alongside the owner's record and identify actual services, dates and activity.",
+      "article_words": 422,
+      "related": [
+        "/blog/owner-faq-can-my-business-partner-s-hours-count-as-my-participation/",
+        "/blog/owner-faq-does-an-average-guest-stay-of-seven-days-make-my-rental-loss-deductible/",
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/"
+      ],
+      "service": "/short-term-rental-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-my-business-partner-s-hours-count-as-my-participation/",
+      "group": "Material Participation",
+      "title": "Can my business partner's hours count as my participation?",
+      "seo_title": "Business Partner Hours vs Owner Participation",
+      "description": "Record which partner performed each task rather than allocating operating hours according to ownership percentages.",
+      "article_words": 415,
+      "related": [
+        "/blog/owner-faq-can-i-materially-participate-when-i-hire-a-property-manager/",
+        "/blog/owner-faq-does-a-real-estate-license-automatically-qualify-me-as-a-real-estate-professional/",
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/"
+      ],
+      "service": "/short-term-rental-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-materially-participate-when-i-hire-a-property-manager/",
+      "group": "Material Participation",
+      "title": "Can I materially participate when I hire a property manager?",
+      "seo_title": "Airbnb Material Participation With a Property Manager",
+      "description": "Ask the manager to describe the services performed and how work is divided among individuals.",
+      "article_words": 425,
+      "related": [
+        "/blog/owner-faq-does-an-average-guest-stay-of-seven-days-make-my-rental-loss-deductible/",
+        "/blog/owner-faq-can-a-full-time-w-2-employee-qualify-as-a-real-estate-professional/",
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/"
+      ],
+      "service": "/short-term-rental-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-an-average-guest-stay-of-seven-days-make-my-rental-loss-deductible/",
+      "group": "Material Participation",
+      "title": "Does an average guest stay of seven days make my rental loss deductible?",
+      "seo_title": "Seven-Day Average Stay vs Deductible STR Loss",
+      "description": "Calculate average customer use from the relevant rental periods and retain the reservation data.",
+      "article_words": 406,
+      "related": [
+        "/blog/owner-faq-does-a-real-estate-license-automatically-qualify-me-as-a-real-estate-professional/",
+        "/blog/owner-faq-are-investor-research-hours-the-same-as-rental-participation-hours/",
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/"
+      ],
+      "service": "/short-term-rental-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-a-real-estate-license-automatically-qualify-me-as-a-real-estate-professional/",
+      "group": "Material Participation",
+      "title": "Does a real estate license automatically qualify me as a real estate professional?",
+      "seo_title": "Real Estate License vs Real Estate Professional Status",
+      "description": "Review qualifying real property trade or business services, the more-than-750-hour requirement and the more-than-half personal-services requirement.",
+      "article_words": 411,
+      "related": [
+        "/blog/owner-faq-can-a-full-time-w-2-employee-qualify-as-a-real-estate-professional/",
+        "/blog/owner-faq-can-i-combine-every-rental-property-to-meet-material-participation/",
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/"
+      ],
+      "service": "/short-term-rental-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-a-full-time-w-2-employee-qualify-as-a-real-estate-professional/",
+      "group": "Material Participation",
+      "title": "Can a full-time W-2 employee qualify as a real estate professional?",
+      "seo_title": "REPS With a Full-Time W-2 Job: Time Evidence",
+      "description": "Start with the actual outside-job schedule, including overtime and other personal services.",
+      "article_words": 411,
+      "related": [
+        "/blog/owner-faq-are-investor-research-hours-the-same-as-rental-participation-hours/",
+        "/blog/owner-faq-does-meeting-material-participation-release-every-prior-suspended-loss/",
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/"
+      ],
+      "service": "/short-term-rental-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-are-investor-research-hours-the-same-as-rental-participation-hours/",
+      "group": "Material Participation",
+      "title": "Are investor research hours the same as rental participation hours?",
+      "seo_title": "Rental Investor Research Hours vs Operating Work",
+      "description": "Separate studying markets, monitoring investments and reviewing reports from substantive day-to-day operations.",
+      "article_words": 404,
+      "related": [
+        "/blog/owner-faq-can-i-combine-every-rental-property-to-meet-material-participation/",
+        "/blog/owner-faq-is-exactly-100-hours-enough-for-the-short-term-rental-participation-test/",
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/"
+      ],
+      "service": "/short-term-rental-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-combine-every-rental-property-to-meet-material-participation/",
+      "group": "Material Participation",
+      "title": "Can I combine every rental property to meet material participation?",
+      "seo_title": "Grouping Rental Activities for Material Participation",
+      "description": "List each property's ownership, use, activity classification and participation history.",
+      "article_words": 414,
+      "related": [
+        "/blog/owner-faq-does-meeting-material-participation-release-every-prior-suspended-loss/",
+        "/blog/owner-faq-do-my-spouse-s-hours-count-toward-rental-material-participation/",
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/"
+      ],
+      "service": "/short-term-rental-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-meeting-material-participation-release-every-prior-suspended-loss/",
+      "group": "Material Participation",
+      "title": "Does meeting material participation release every prior suspended loss?",
+      "seo_title": "Prior Passive Losses After Material Participation Changes",
+      "description": "Identify the origin of each suspended passive loss and whether the activity is now a former passive activity.",
+      "article_words": 418,
+      "related": [
+        "/blog/owner-faq-is-exactly-100-hours-enough-for-the-short-term-rental-participation-test/",
+        "/blog/owner-faq-can-my-business-partner-s-hours-count-as-my-participation/",
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/"
+      ],
+      "service": "/short-term-rental-tax-strategy/",
+      "sources": [
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/",
+      "group": "Cost Segregation",
+      "title": "Can a cost segregation report write off the entire rental purchase price?",
+      "seo_title": "Cost Segregation vs Writing Off the Entire Purchase",
+      "description": "Start with supported acquisition basis, remove nondepreciable land and identify later improvements or separately purchased assets.",
+      "article_words": 431,
+      "related": [
+        "/blog/owner-faq-can-i-use-100-bonus-depreciation-on-a-property-acquired-in-2026/",
+        "/blog/owner-faq-can-i-order-a-cost-segregation-study-several-years-after-buying/",
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/"
+      ],
+      "service": "/cost-segregation-study/",
+      "sources": [
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-use-100-bonus-depreciation-on-a-property-acquired-in-2026/",
+      "group": "Cost Segregation",
+      "title": "Can I use 100% bonus depreciation on a property acquired in 2026?",
+      "seo_title": "100% Bonus Depreciation in 2026: Eligibility Review",
+      "description": "The restored 100% allowance generally concerns eligible property acquired and placed in service after January 19, 2025, subject to statutory requirements and applicable elections.",
+      "article_words": 429,
+      "related": [
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/",
+        "/blog/owner-faq-should-furniture-already-on-my-asset-schedule-appear-again-in-a-cost-segregation-study/",
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/"
+      ],
+      "service": "/cost-segregation-study/",
+      "sources": [
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/",
+      "group": "Cost Segregation",
+      "title": "Does a cost segregation deduction equal the refund I will receive?",
+      "seo_title": "Cost Segregation Deduction vs Tax Refund",
+      "description": "Ask for the study's identified depreciation separately from the amount currently usable on the return.",
+      "article_words": 428,
+      "related": [
+        "/blog/owner-faq-can-i-order-a-cost-segregation-study-several-years-after-buying/",
+        "/blog/owner-faq-does-the-previous-owner-s-cost-segregation-study-determine-my-depreciation/",
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/"
+      ],
+      "service": "/cost-segregation-study/",
+      "sources": [
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-order-a-cost-segregation-study-several-years-after-buying/",
+      "group": "Cost Segregation",
+      "title": "Can I order a cost segregation study several years after buying?",
+      "seo_title": "Cost Segregation Several Years After Purchase",
+      "description": "Collect original closing records and all filed depreciation schedules before ordering implementation.",
+      "article_words": 437,
+      "related": [
+        "/blog/owner-faq-should-furniture-already-on-my-asset-schedule-appear-again-in-a-cost-segregation-study/",
+        "/blog/owner-faq-can-i-elect-out-of-bonus-depreciation-after-receiving-a-cost-segregation-study/",
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/"
+      ],
+      "service": "/cost-segregation-study/",
+      "sources": [
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-should-furniture-already-on-my-asset-schedule-appear-again-in-a-cost-segregation-study/",
+      "group": "Cost Segregation",
+      "title": "Should furniture already on my asset schedule appear again in a cost segregation study?",
+      "seo_title": "Furniture in Cost Segregation: Prevent Double Counting",
+      "description": "It should not create duplicate basis or deductions. Reconcile the schedules and identify one supported treatment for each cost.",
+      "article_words": 431,
+      "related": [
+        "/blog/owner-faq-does-the-previous-owner-s-cost-segregation-study-determine-my-depreciation/",
+        "/blog/owner-faq-does-financing-a-property-reduce-the-basis-available-for-depreciation/",
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/"
+      ],
+      "service": "/cost-segregation-study/",
+      "sources": [
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-the-previous-owner-s-cost-segregation-study-determine-my-depreciation/",
+      "group": "Cost Segregation",
+      "title": "Does the previous owner's cost segregation study determine my depreciation?",
+      "seo_title": "Previous Owner's Cost Segregation vs Buyer Basis",
+      "description": "A seller's report may contain useful property descriptions, but its tax basis, dates and elections belong to that taxpayer.",
+      "article_words": 432,
+      "related": [
+        "/blog/owner-faq-can-i-elect-out-of-bonus-depreciation-after-receiving-a-cost-segregation-study/",
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/",
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/"
+      ],
+      "service": "/cost-segregation-study/",
+      "sources": [
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-elect-out-of-bonus-depreciation-after-receiving-a-cost-segregation-study/",
+      "group": "Cost Segregation",
+      "title": "Can I elect out of bonus depreciation after receiving a cost segregation study?",
+      "seo_title": "Electing Out of Bonus After a Cost Segregation Study",
+      "description": "A study identifies assets; it does not itself make a bonus-depreciation election.",
+      "article_words": 431,
+      "related": [
+        "/blog/owner-faq-does-financing-a-property-reduce-the-basis-available-for-depreciation/",
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/",
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/"
+      ],
+      "service": "/cost-segregation-study/",
+      "sources": [
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-financing-a-property-reduce-the-basis-available-for-depreciation/",
+      "group": "Cost Segregation",
+      "title": "Does financing a property reduce the basis available for depreciation?",
+      "seo_title": "Financed Rental Purchase: Debt, Basis and Loss Limits",
+      "description": "A property purchase financed with genuine debt can include amounts beyond the down payment in acquisition basis.",
+      "article_words": 426,
+      "related": [
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/",
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/",
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/"
+      ],
+      "service": "/cost-segregation-study/",
+      "sources": [
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/",
+      "group": "Cost Segregation",
+      "title": "Can cost segregation help if my rental losses are currently passive?",
+      "seo_title": "Cost Segregation When Rental Losses Are Passive",
+      "description": "Estimate the deduction, then determine whether passive income or another applicable rule permits current use.",
+      "article_words": 444,
+      "related": [
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/",
+        "/blog/owner-faq-can-i-use-100-bonus-depreciation-on-a-property-acquired-in-2026/",
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/"
+      ],
+      "service": "/cost-segregation-study/",
+      "sources": [
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/",
+      "group": "Cost Segregation",
+      "title": "What should I verify before implementing a cost segregation report?",
+      "seo_title": "Implementing a Cost Segregation Report: Return Checklist",
+      "description": "Match the taxpayer, property, supported basis, excluded land, acquisition costs and improvements to the final report version.",
+      "article_words": 433,
+      "related": [
+        "/blog/owner-faq-can-a-cost-segregation-report-write-off-the-entire-rental-purchase-price/",
+        "/blog/owner-faq-does-a-cost-segregation-deduction-equal-the-refund-i-will-receive/",
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/"
+      ],
+      "service": "/cost-segregation-study/",
+      "sources": [
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/pub/irs-pdf/p5653.pdf"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-receive-rental-sale-proceeds-and-arrange-a-1031-exchange-afterward/",
+      "group": "1031 Exchanges",
+      "title": "Can I receive rental sale proceeds and arrange a 1031 exchange afterward?",
+      "seo_title": "Receiving Sale Proceeds Before a 1031 Exchange",
+      "description": "Talk with the qualified intermediary and tax adviser before selling, signing final instructions or directing proceeds.",
+      "article_words": 425,
+      "related": [
+        "/blog/owner-faq-does-paying-off-my-mortgage-eliminate-tax-on-a-rental-sale/",
+        "/blog/owner-faq-can-a-house-bought-primarily-to-flip-qualify-for-a-1031-exchange/",
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/"
+      ],
+      "service": "/real-estate-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-paying-off-my-mortgage-eliminate-tax-on-a-rental-sale/",
+      "group": "1031 Exchanges",
+      "title": "Does paying off my mortgage eliminate tax on a rental sale?",
+      "seo_title": "Rental Mortgage Payoff vs Taxable Sale Gain",
+      "description": "No. Debt repayment and taxable gain follow different calculations.",
+      "article_words": 403,
+      "related": [
+        "/blog/owner-faq-can-i-exchange-real-estate-for-business-equipment-under-section-1031/",
+        "/blog/owner-faq-does-a-1031-exchange-permanently-erase-depreciation-recapture/",
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/"
+      ],
+      "service": "/real-estate-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-exchange-real-estate-for-business-equipment-under-section-1031/",
+      "group": "1031 Exchanges",
+      "title": "Can I exchange real estate for business equipment under Section 1031?",
+      "seo_title": "Section 1031 Real Estate vs Business Equipment",
+      "description": "Current Section 1031 treatment applies to qualifying real property, not a general swap of business assets.",
+      "article_words": 414,
+      "related": [
+        "/blog/owner-faq-can-a-house-bought-primarily-to-flip-qualify-for-a-1031-exchange/",
+        "/blog/owner-faq-can-i-buy-replacement-property-in-a-different-llc/",
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/"
+      ],
+      "service": "/real-estate-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-a-house-bought-primarily-to-flip-qualify-for-a-1031-exchange/",
+      "group": "1031 Exchanges",
+      "title": "Can a house bought primarily to flip qualify for a 1031 exchange?",
+      "seo_title": "House Flips and 1031 Exchange Eligibility",
+      "description": "Review acquisition plans, renovation activity, marketing, frequency of sales and actual use.",
+      "article_words": 410,
+      "related": [
+        "/blog/owner-faq-does-a-1031-exchange-permanently-erase-depreciation-recapture/",
+        "/blog/owner-faq-what-happens-if-i-keep-some-cash-in-a-1031-exchange/",
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/"
+      ],
+      "service": "/real-estate-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-a-1031-exchange-permanently-erase-depreciation-recapture/",
+      "group": "1031 Exchanges",
+      "title": "Does a 1031 exchange permanently erase depreciation recapture?",
+      "seo_title": "1031 Exchange and Future Depreciation Recapture",
+      "description": "A qualifying exchange can defer eligible gain, but is not a blanket promise to permanently erase depreciation-related tax.",
+      "article_words": 398,
+      "related": [
+        "/blog/owner-faq-can-i-buy-replacement-property-in-a-different-llc/",
+        "/blog/owner-faq-do-1031-exchange-deadlines-pause-while-i-negotiate-financing/",
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/"
+      ],
+      "service": "/real-estate-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-buy-replacement-property-in-a-different-llc/",
+      "group": "1031 Exchanges",
+      "title": "Can I buy replacement property in a different LLC?",
+      "seo_title": "1031 Replacement Property in a Different LLC",
+      "description": "Determine how the selling owner and proposed buying entity are classified for federal tax purposes.",
+      "article_words": 420,
+      "related": [
+        "/blog/owner-faq-what-happens-if-i-keep-some-cash-in-a-1031-exchange/",
+        "/blog/owner-faq-how-do-i-calculate-adjusted-basis-before-selling-a-rental/",
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/"
+      ],
+      "service": "/real-estate-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-what-happens-if-i-keep-some-cash-in-a-1031-exchange/",
+      "group": "1031 Exchanges",
+      "title": "What happens if I keep some cash in a 1031 exchange?",
+      "seo_title": "Keeping Cash in a 1031 Exchange: Recognized Gain",
+      "description": "Ask the preparer to show realized gain, recognized gain and deferred gain separately.",
+      "article_words": 418,
+      "related": [
+        "/blog/owner-faq-do-1031-exchange-deadlines-pause-while-i-negotiate-financing/",
+        "/blog/owner-faq-should-i-choose-a-1031-exchange-solely-to-avoid-this-year-s-tax/",
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/"
+      ],
+      "service": "/real-estate-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-do-1031-exchange-deadlines-pause-while-i-negotiate-financing/",
+      "group": "1031 Exchanges",
+      "title": "Do 1031 exchange deadlines pause while I negotiate financing?",
+      "seo_title": "1031 Deadlines and Financing Delays",
+      "description": "A deferred exchange generally has a 45-day identification period and completion by the earlier of 180 days or the relevant return due date including extensions.",
+      "article_words": 415,
+      "related": [
+        "/blog/owner-faq-how-do-i-calculate-adjusted-basis-before-selling-a-rental/",
+        "/blog/owner-faq-can-i-receive-rental-sale-proceeds-and-arrange-a-1031-exchange-afterward/",
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/"
+      ],
+      "service": "/real-estate-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-how-do-i-calculate-adjusted-basis-before-selling-a-rental/",
+      "group": "1031 Exchanges",
+      "title": "How do I calculate adjusted basis before selling a rental?",
+      "seo_title": "Adjusted Basis Before a Rental Sale",
+      "description": "Not ordinarily. Tax basis follows the actual acquisition and adjustment history, not simply current market value.",
+      "article_words": 410,
+      "related": [
+        "/blog/owner-faq-should-i-choose-a-1031-exchange-solely-to-avoid-this-year-s-tax/",
+        "/blog/owner-faq-does-paying-off-my-mortgage-eliminate-tax-on-a-rental-sale/",
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/"
+      ],
+      "service": "/real-estate-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-should-i-choose-a-1031-exchange-solely-to-avoid-this-year-s-tax/",
+      "group": "1031 Exchanges",
+      "title": "Should I choose a 1031 exchange solely to avoid this year's tax?",
+      "seo_title": "1031 Exchange vs Paying Tax: Investment Comparison",
+      "description": "Model the sale without an exchange alongside the proposed replacement acquisition.",
+      "article_words": 408,
+      "related": [
+        "/blog/owner-faq-can-i-receive-rental-sale-proceeds-and-arrange-a-1031-exchange-afterward/",
+        "/blog/owner-faq-can-i-exchange-real-estate-for-business-equipment-under-section-1031/",
+        "/blog/owner-faq-can-cost-segregation-help-if-my-rental-losses-are-currently-passive/"
+      ],
+      "service": "/real-estate-tax-planning/",
+      "sources": [
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p527"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/",
+      "group": "Tax Return Mistakes",
+      "title": "Is Form 3115 always required when depreciation was missed?",
+      "seo_title": "Missed Depreciation: Form 3115 or Amended Return?",
+      "description": "No. The facts and accounting-method history determine the appropriate correction route.",
+      "article_words": 417,
+      "related": [
+        "/blog/owner-faq-can-i-put-all-missed-depreciation-on-this-year-s-schedule-e/",
+        "/blog/owner-faq-what-is-a-section-481-a-adjustment-supposed-to-reconcile/",
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/"
+      ],
+      "service": "/form-3115-cost-segregation/",
+      "sources": [
+        "https://www.irs.gov/instructions/i3115",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-put-all-missed-depreciation-on-this-year-s-schedule-e/",
+      "group": "Tax Return Mistakes",
+      "title": "Can I put all missed depreciation on this year's Schedule E?",
+      "seo_title": "Missed Rental Depreciation on Current Schedule E",
+      "description": "Prepare an asset-by-asset comparison showing what was claimed and what the correct treatment would have been.",
+      "article_words": 407,
+      "related": [
+        "/blog/owner-faq-does-a-new-cost-segregation-report-require-amending-every-old-return/",
+        "/blog/owner-faq-can-i-claim-a-catch-up-deduction-after-selling-the-rental/",
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/"
+      ],
+      "service": "/form-3115-cost-segregation/",
+      "sources": [
+        "https://www.irs.gov/instructions/i3115",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-a-new-cost-segregation-report-require-amending-every-old-return/",
+      "group": "Tax Return Mistakes",
+      "title": "Does a new cost segregation report require amending every old return?",
+      "seo_title": "New Cost Segregation Report: Amend or Change Method?",
+      "description": "A study measures and classifies property, while return implementation requires a separate procedural decision.",
+      "article_words": 413,
+      "related": [
+        "/blog/owner-faq-what-is-a-section-481-a-adjustment-supposed-to-reconcile/",
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/",
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/"
+      ],
+      "service": "/form-3115-cost-segregation/",
+      "sources": [
+        "https://www.irs.gov/instructions/i3115",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-what-is-a-section-481-a-adjustment-supposed-to-reconcile/",
+      "group": "Tax Return Mistakes",
+      "title": "What is a Section 481(a) adjustment supposed to reconcile?",
+      "seo_title": "Section 481(a) Depreciation Adjustment: Reconciliation",
+      "description": "For the eligible method change, compare the amounts reflected under the old method with those under the proposed method at the required transition point.",
+      "article_words": 420,
+      "related": [
+        "/blog/owner-faq-can-i-claim-a-catch-up-deduction-after-selling-the-rental/",
+        "/blog/owner-faq-what-records-should-i-give-my-cpa-for-a-depreciation-correction/",
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/"
+      ],
+      "service": "/form-3115-cost-segregation/",
+      "sources": [
+        "https://www.irs.gov/instructions/i3115",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-claim-a-catch-up-deduction-after-selling-the-rental/",
+      "group": "Tax Return Mistakes",
+      "title": "Can I claim a catch-up deduction after selling the rental?",
+      "seo_title": "Depreciation Catch-Up After Selling a Rental",
+      "description": "Provide the sale closing date, filed returns, extension status, asset schedules and proposed correction details.",
+      "article_words": 402,
+      "related": [
+        "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/",
+        "/blog/owner-faq-does-a-depreciation-correction-guarantee-a-refund/",
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/"
+      ],
+      "service": "/form-3115-cost-segregation/",
+      "sources": [
+        "https://www.irs.gov/instructions/i3115",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-form-3115-fix-a-missed-bonus-depreciation-election-automatically/",
+      "group": "Tax Return Mistakes",
+      "title": "Can Form 3115 fix a missed bonus depreciation election automatically?",
+      "seo_title": "Form 3115 vs Missed Bonus Depreciation Election",
+      "description": "No. Asset analysis and election relief are separate matters with their own requirements.",
+      "article_words": 421,
+      "related": [
+        "/blog/owner-faq-what-records-should-i-give-my-cpa-for-a-depreciation-correction/",
+        "/blog/owner-faq-can-i-file-a-depreciation-method-change-without-coordinating-entity-returns/",
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/"
+      ],
+      "service": "/form-3115-cost-segregation/",
+      "sources": [
+        "https://www.irs.gov/instructions/i3115",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-what-records-should-i-give-my-cpa-for-a-depreciation-correction/",
+      "group": "Tax Return Mistakes",
+      "title": "What records should I give my CPA for a depreciation correction?",
+      "seo_title": "Depreciation Correction Documents for a New CPA",
+      "description": "Request detailed depreciation reports from every preparer involved, including disposals, elections and carryforward schedules.",
+      "article_words": 411,
+      "related": [
+        "/blog/owner-faq-does-a-depreciation-correction-guarantee-a-refund/",
+        "/blog/owner-faq-how-do-i-avoid-counting-a-catch-up-deduction-twice/",
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/"
+      ],
+      "service": "/form-3115-cost-segregation/",
+      "sources": [
+        "https://www.irs.gov/instructions/i3115",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-does-a-depreciation-correction-guarantee-a-refund/",
+      "group": "Tax Return Mistakes",
+      "title": "Does a depreciation correction guarantee a refund?",
+      "seo_title": "Depreciation Correction vs Immediate Refund",
+      "description": "Start with the allowable correction and determine the tax year in which it is reported.",
+      "article_words": 417,
+      "related": [
+        "/blog/owner-faq-can-i-file-a-depreciation-method-change-without-coordinating-entity-returns/",
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/",
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/"
+      ],
+      "service": "/form-3115-cost-segregation/",
+      "sources": [
+        "https://www.irs.gov/instructions/i3115",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-can-i-file-a-depreciation-method-change-without-coordinating-entity-returns/",
+      "group": "Tax Return Mistakes",
+      "title": "Can I file a depreciation method change without coordinating entity returns?",
+      "seo_title": "Depreciation Method Change for Partnership-Owned Property",
+      "description": "Trace legal ownership and federal classification for the property and the return reporting its depreciation.",
+      "article_words": 408,
+      "related": [
+        "/blog/owner-faq-how-do-i-avoid-counting-a-catch-up-deduction-twice/",
+        "/blog/owner-faq-can-i-put-all-missed-depreciation-on-this-year-s-schedule-e/",
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/"
+      ],
+      "service": "/form-3115-cost-segregation/",
+      "sources": [
+        "https://www.irs.gov/instructions/i3115",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925"
+      ]
+    },
+    {
+      "path": "/blog/owner-faq-how-do-i-avoid-counting-a-catch-up-deduction-twice/",
+      "group": "Tax Return Mistakes",
+      "title": "How do I avoid counting a catch-up deduction twice?",
+      "seo_title": "Catch-Up Depreciation: Prevent Duplicate Deductions",
+      "description": "Keep separate columns for original basis, prior depreciation, the method-change adjustment and current-year depreciation.",
+      "article_words": 419,
+      "related": [
+        "/blog/owner-faq-is-form-3115-always-required-when-depreciation-was-missed/",
+        "/blog/owner-faq-does-a-new-cost-segregation-report-require-amending-every-old-return/",
+        "/blog/owner-faq-what-should-i-verify-before-implementing-a-cost-segregation-report/"
+      ],
+      "service": "/form-3115-cost-segregation/",
+      "sources": [
+        "https://www.irs.gov/instructions/i3115",
+        "https://www.irs.gov/publications/p946",
+        "https://www.irs.gov/publications/p925"
+      ]
+    }
+  ]
+}
