@@ -488,81 +488,163 @@ ARTICLES = [
 "slug": "defined-benefit-plan-high-income-business-owners",
 "title": "Defined Benefit Plans for High Income Business Owners: When $250,000 of Deduction Is Available",
 "meta_title": "Defined Benefit Plans for High Income Business Owners (2026) | AE Tax Advisors",
-"meta_desc": "A defined benefit or cash balance plan can deduct $150,000 to $300,000 annually. Who qualifies, what staff costs, and the commitment it requires.",
+"meta_desc": 'Evaluate a defined benefit plan with 2026 limits, actuarial funding, employee costs, PBGC coverage and combined 401(k) deduction rules before adopting.',
 "category": BO, "date": D,
-"intro": [
-"A defined contribution plan caps total additions at $70,000 for 2025 plus catch-up. That is the ceiling for a 401(k) with profit sharing, no matter how profitable your business is.",
-"A defined benefit plan has no such cap. The contribution is whatever an actuary determines is required to fund a promised benefit, and for an owner in their fifties with strong income, that number routinely lands between $150,000 and $300,000 annually, fully deductible.",
-"It is the largest deduction available to most business owners and the least understood.",
-],
-"sections": [
-("How the Contribution Is Determined", [
-"A defined benefit plan promises a specific benefit at retirement, expressed as an annual amount. The maximum annual benefit under IRC Sec. 415(b) is the lesser of a dollar limit, $280,000 for 2025, or 100% of the participant's average compensation for the three highest consecutive years.",
-"An actuary then calculates what must be contributed each year to fund that promised benefit by the participant's normal retirement age, given current assets, expected returns, and the years remaining.",
-"Two variables drive the contribution upward: age and compensation. An older participant has fewer years to fund the benefit, so the annual contribution is larger. Higher compensation supports a larger promised benefit.",
-"A 58-year-old owner with $350,000 of compensation and ten years to normal retirement age can often support a contribution above $250,000. A 38-year-old with the same compensation and thirty years might support $80,000.",
-"A cash balance plan is a defined benefit plan expressed as a hypothetical account balance with a stated pay credit and interest credit. It behaves like a defined benefit plan for funding and deduction purposes while presenting to participants like an account, which is why it has largely displaced traditional defined benefit designs for small businesses.",
-]),
-("Stacking With a 401(k)", [
-"A defined benefit plan is layered on top of a 401(k) with profit sharing rather than replacing it.",
-"Where both plans exist, the employer deduction for the defined contribution plan is limited to 6% of covered compensation under IRC Sec. 404(a)(7), unless the defined benefit plan is covered by the Pension Benefit Guaranty Corporation. Employee elective deferrals are not counted against this limit.",
-"The practical result for a typical owner is roughly $23,500 of employee deferral plus catch-up, plus a 6% employer profit sharing contribution, plus the full defined benefit contribution.",
-"For a 55-year-old owner, the combined deduction commonly reaches $280,000 to $350,000 annually.",
-]),
-("The Staff Cost Is the Deciding Factor", [
-"Defined benefit plans must satisfy minimum participation, coverage, and nondiscrimination requirements. Employees generally must be covered.",
-"The plan can be designed to minimize staff cost through eligibility requirements, benefit formulas that provide small benefits to staff, and cross-testing that combines the defined benefit and defined contribution plans for testing purposes.",
-"Favorable demographics mean an older owner and a younger, lower-paid workforce. A 57-year-old owner with staff averaging 33 produces excellent ratios, often 8 to 1 or better in owner benefit to staff cost.",
-"Unfavorable demographics mean staff close to the owner's age and compensation. A three-partner firm where all partners are 55 and two senior employees are 52 produces a much worse ratio.",
-"For a business with no employees other than the owner and spouse, the staff cost is zero and the analysis is straightforward.",
-"The staff cost must be quantified by an actuary before adoption, not estimated. This is the single most important number in the decision.",
-]),
-("The Commitment Is Real", [
-"This is not a discretionary plan. Minimum required contributions under IRC Sec. 430 must be made annually, and failure triggers excise taxes under IRC Sec. 4971 and reporting obligations.",
-"The plan should be established with the expectation of maintaining it for at least three to five years. Terminating a plan shortly after adoption without a valid business reason risks a determination that it was never intended to be permanent, which can disqualify it retroactively.",
-"There is flexibility within the commitment. The benefit formula can be amended prospectively, contribution ranges exist between minimum required and maximum deductible amounts, and in a genuinely bad year a plan can be frozen. But an owner whose income swings from $900,000 to $150,000 unpredictably is a poor candidate.",
-"Investment risk sits with the employer. If plan assets underperform the assumed rate, required contributions increase. If they outperform, contributions decrease and the deduction shrinks. Most small plans use conservative investment allocations specifically to keep the funding path predictable.",
-]),
-("Costs and Administration", [
-"Actuarial and administration fees typically run $2,500 to $6,000 annually for a small plan, plus setup costs. Annual Form 5500 filing and an actuarial certification on Schedule SB are required.",
-"PBGC coverage applies to most defined benefit plans but professional service employers with 25 or fewer participants are generally exempt. Where PBGC coverage applies, premiums are an additional annual cost, and the combined plan deduction limit under IRC Sec. 404(a)(7) does not apply, which is favorable.",
-"These costs are trivial relative to a $200,000 deduction and should not drive the decision.",
-]),
-("Who Should Not Do This", [
-"A business with volatile income that cannot reliably fund the minimum contribution.",
-"A business with a workforce demographically similar to the owner, where staff cost consumes too much of the benefit.",
-"An owner who is not yet maximizing a 401(k) with profit sharing. Fill the cheaper bucket first.",
-"An owner within a few years of selling, where the plan will need to be terminated shortly after adoption.",
-"An owner under 40 with modest income, where the actuarial contribution is not much larger than what a defined contribution plan already permits.",
-]),
-("Worked Example: Two Owner Firms", [
-"Firm A is a 56-year-old consultant with $680,000 of net income and two employees aged 29 and 34 earning $62,000 and $71,000.",
-"The 401(k) with safe harbor and cross-tested profit sharing directs $70,000 to the owner at approximately $9,800 of staff cost. A cash balance plan adds $237,000 for the owner at approximately $16,400 of additional staff cost.",
-"Total owner deduction is $307,000 at $26,200 of staff cost, a ratio of nearly 12 to 1. At a combined 42% marginal rate, the tax reduction is approximately $129,000 against $26,200 of staff cost plus $5,000 of administration.",
-"Firm B is a three-partner architecture firm where partners are 54, 56, and 58, with four senior staff aged 47 to 55 earning $110,000 to $145,000.",
-"The same design produces $580,000 of partner contributions but requires approximately $198,000 of staff contributions, a ratio of under 3 to 1.",
-"Firm B may still proceed, since the staff contributions are themselves deductible and serve a retention purpose, but the analysis is entirely different and should be run explicitly rather than assumed from Firm A's result.",
-]),
-],
-"faqs": [
-("How much can a defined benefit plan deduct?",
- "There is no fixed dollar cap. An actuary determines the required contribution to fund a promised benefit, which for an owner in their fifties with strong income commonly lands between $150,000 and $300,000 annually, fully deductible."),
-("Can I have a defined benefit plan and a 401(k)?",
- "Yes, and stacking them is standard. Where both exist, the employer deduction for the defined contribution plan is limited to 6% of covered compensation under IRC Sec. 404(a)(7) unless the DB plan is PBGC covered. Employee deferrals are not counted against that limit."),
-("What does a defined benefit plan cost me in staff contributions?",
- "It depends entirely on demographics. An older owner with a younger, lower-paid workforce often achieves an 8 to 1 or better ratio of owner benefit to staff cost. A firm where staff are close to the owner in age and pay may see 3 to 1 or worse. Have an actuary quantify it before adopting."),
-("Am I locked in once I start?",
- "Substantially. Minimum required contributions under IRC Sec. 430 must be made annually, with excise taxes under IRC Sec. 4971 for failures. Plan for at least three to five years. There is flexibility through contribution ranges and prospective amendments, but it is not a discretionary plan."),
-("Who is a poor candidate?",
- "Owners with volatile income, businesses whose staff demographics resemble the owner, anyone not already maxing a 401(k) with profit sharing, owners within a few years of selling, and younger owners whose actuarial contribution would not much exceed defined contribution limits."),
-],
+"intro": ['For 2026, a defined contribution plan has a $72,000 annual additions ceiling before permitted catch-up '
+ 'contributions, subject to eligible compensation. A defined benefit pension uses a different benefit-based '
+ 'limit and can support larger contributions for some high-income owners.',
+ 'A larger contribution is not automatically deductible or affordable. An enrolled actuary must determine '
+ 'the required funding and maximum deductible contribution, while the tax preparer checks compensation, '
+ 'other plans, QBI and return timing.',
+ 'The decision is whether the owner benefit and tax result justify the required staff benefits, funding '
+ 'risk, administrative costs and long-term commitment.'],
+"sections": [('How the Contribution Is Determined',
+  ['The 2026 Section 415(b) annual-benefit dollar limit is $290,000, generally also limited to 100% of '
+   'average compensation for the three highest consecutive years, with adjustments for age, participation, '
+   'service and benefit form. It is not a fixed $290,000 contribution allowance.',
+   'An enrolled actuary determines minimum funding and maximum deductible amounts from the promised '
+   'benefits, current assets, compensation history, remaining time and applicable assumptions. Older age or '
+   'higher compensation may support more funding but does not establish a quoted deduction by itself.',
+   'For planning only, a 58-year-old with sufficient eligible compensation may need more annual funding than '
+   'a 38-year-old promising the same retirement benefit. A $250,000 contribution must be supported by the '
+   'actual calculation; age and current business profit alone cannot establish it.',
+   'A cash balance plan is a defined benefit plan expressed as a hypothetical account with pay and interest '
+   'credits. The employer carries funding and investment risk even though the statement resembles an account '
+   'balance.']),
+ ('Stacking With a 401(k)',
+  ['A defined benefit plan can be paired with a 401(k) rather than replacing it. The 6% figure is not a '
+   'universal contribution or deduction cap. Under Section 404(a)(7), employer defined contribution amounts '
+   'up to 6% of covered compensation are excluded from the combined deduction calculation; when employer '
+   'contributions exceed 6%, the excess enters the applicable combined test. Employee elective deferrals are '
+   'excluded. A PBGC-covered defined benefit plan is excluded from this combined limit, but separate plan '
+   'limits still apply. Have the actuary and tax preparer calculate both the minimum funding and maximum '
+   'deductible contribution.',
+   'For 2026, the elective deferral limit is $24,500 and the defined contribution annual additions limit is '
+   '$72,000, excluding permitted catch-up contributions. The ordinary age-50-or-older catch-up is $8,000; '
+   'participants attaining ages 60 through 63 may use $11,250 instead, if permitted. Catch-up contributions '
+   'for participants whose prior-year wages from the sponsoring employer exceeded $150,000 generally must be '
+   'Roth in 2026. That wage test is not household income or net self-employment earnings, and Roth '
+   'contributions are not current deductions.',
+   'An owner must compare total contributions, deductible employer amounts and pre-tax employee deferrals '
+   'separately. Required Roth catch-up is retirement savings but not a current deduction. Eligible W-2 pay '
+   'supports S-corporation employer contributions; distributions do not. Self-employed compensation requires '
+   'the Publication 560 adjustments.']),
+ ('The Staff Cost Is the Deciding Factor',
+  ['Defined benefit plans must satisfy minimum participation, coverage and nondiscrimination requirements. '
+   'Eligibility and permissible combined-plan testing can affect benefits, but employees cannot be ignored '
+   'merely because the owner wants a larger deduction.',
+   'Check controlled groups and affiliated service groups under Section 414 before deciding which businesses '
+   'and employees belong in the census. Include ages, service, compensation, ownership and existing plan '
+   'benefits. An owner-and-spouse business is not necessarily staff-free if related employers have eligible '
+   'workers.',
+   'An older owner with younger staff may produce a more favorable owner-to-staff allocation than a '
+   'workforce close to the owner in age and pay, but an 8-to-1 ratio is not a standard entitlement. The '
+   'actuary must quantify and test actual benefits before adoption.',
+   'If there truly are no eligible non-owner employees after the related-employer review, there may be no '
+   'non-owner staff contribution. Plan administration, actuarial work, funding rules and owner benefits '
+   'still need analysis.']),
+ ('The Commitment Is Real',
+  ['Minimum required funding under Section 430 must be met; underfunding can cause Section 4971 excise taxes '
+   'and reporting obligations. Defined benefit minimum funding is generally due 8.5 months after the plan '
+   'year ends, normally September 15 for a calendar-year plan. Quarterly installments may apply. An October '
+   '15 extended individual tax-return deadline does not postpone that funding deadline. Contributions paid '
+   'by the applicable extended employer return deadline may be deductible for the prior tax year when '
+   'properly designated and within Section 404 limits; the funding and deduction calculations must both be '
+   'satisfied.',
+   'Most qualified employer plans may be adopted by the employer tax-return due date, including extensions, '
+   'and treated as adopted for the prior tax year. Adoption, employee deferral elections, deposit deadlines, '
+   'and employer contribution deductibility are separate tests. Salary deferrals generally require a timely '
+   'election before compensation becomes available; adopting a plan later does not authorize retroactive '
+   'S-corporation payroll deferrals. A narrow first-year exception permits an individual who owns the entire '
+   'unincorporated business and is its only employee to adopt a new 401(k) and make first-year elective '
+   'deferrals by the unextended individual return deadline.',
+   'A qualified pension is intended to be permanent as an ongoing retirement program. Three to five years is '
+   'sometimes used as a planning horizon, but it is not a statutory safe harbor. A rapid termination needs a '
+   'legitimate business-reason and facts-and-circumstances review.',
+   'Prospective amendments and a freeze may change future accruals with required notices, but cannot erase '
+   'already earned benefits or an existing funding shortfall. A frozen plan can still require funding, '
+   'actuarial valuations, reporting and PBGC premiums where covered. Termination can require additional cash '
+   'before benefits are distributed.',
+   'Investment risk rests with the employer. Asset losses can increase required funding, while stronger '
+   'returns can reduce it. Size the commitment for a weak year and review a contemplated business sale '
+   'before adoption.']),
+ ('Costs and Administration',
+  ['Actuarial and administration fees typically run $2,500 to $6,000 annually for a small plan, plus setup '
+   'costs. These are planning ranges, not a fee quote. Annual actuarial work and applicable Form 5500-series '
+   'filing must be addressed. Eligible one-participant plans generally use Form 5500-EZ, with the $250,000 '
+   'combined-asset filing exception and a final-return requirement regardless of assets. Required Schedule '
+   'SB is generally retained, rather than attached, for Form 5500-EZ filers.',
+   'PBGC coverage is determined by law, not elected solely to obtain a tax result. A qualifying '
+   'professional-service employer plan is exempt only if it has never had more than 25 active participants; '
+   'current total participants alone do not answer the question. The employer must meet the professional '
+   'ownership and service requirements. A separate exemption applies to plans covering only substantial '
+   'owners under PBGC rules. Obtain a coverage determination when uncertain.',
+   'For a PBGC-covered defined benefit plan, premiums and termination procedures add costs, and that plan is '
+   'excluded from the Section 404(a)(7) combined deduction limitation. Other funding and deduction rules '
+   'still apply. Compare recurring fees, staff benefits and exit liabilities with the modeled after-tax '
+   'benefit rather than treating them as trivial.']),
+ ('Who Should Not Do This',
+  ['A business whose cash flow cannot reliably meet minimum funding, including in a weak year.',
+   'A business whose required staff benefits and administration outweigh the owner benefit after complete '
+   'census testing.',
+   'An owner who has not compared a simpler 401(k) design and its usable contribution capacity. '
+   'Automatically maximizing profit sharing first may not fit a combined plan deduction calculation.',
+   'An owner approaching a sale who has not reviewed plan permanence, transaction obligations and '
+   'termination funding with the actuary.',
+   'A younger owner with modest eligible compensation whose projected pension benefit does not justify the '
+   'cost and commitment.']),
+ ('Worked Example: Two Owner Firms',
+  ['The following firms are hypothetical arithmetic illustrations, not client outcomes or validated '
+   'actuarial designs. They retain assumed contribution and cost inputs to show how to compare proposals. '
+   'Age, profit and salaries alone do not establish that these allocations pass coverage, benefit, funding '
+   'or deduction tests.',
+   'Firm A assumes a 56-year-old consultant with $680,000 of business net income and two employees aged 29 '
+   "and 34 earning $62,000 and $71,000. The owner's eligible plan compensation must be calculated "
+   'separately. Assume a proposal allocates $70,000 of 401(k) contributions to the owner with $9,800 of '
+   'staff cost, and $237,000 of cash balance contributions to the owner with $16,400 more staff cost. The '
+   '$70,000 is an assumed amount below the 2026 $72,000 non-catch-up ceiling, not the current ceiling.',
+   'The assumed owner total is $307,000 and staff contributions total $26,200, a ratio of about 11.72 to 1. '
+   'If all $307,000 is permitted and pre-tax and a flat 42% marginal benefit applies, simple multiplication '
+   'gives $128,940, approximately $129,000, before QBI and other tax effects. Administration is assumed at '
+   '$5,000. This is not proof of a deductible design: the employer portion above 6% of covered compensation '
+   'may enter the combined deduction test, and Roth amounts would not produce current deductions.',
+   'Firm B assumes three architecture-firm partners aged 54, 56 and 58, with four senior staff aged 47 to 55 '
+   'earning $110,000 to $145,000. Assume a separate proposal allocates $580,000 to partners and $198,000 to '
+   'staff. The arithmetic ratio is about 2.93 to 1; those inputs are not a finding that the same plan '
+   'formula produces those amounts.',
+   'Firm B might still value the staff benefits and retirement funding. Neither illustration should be '
+   'implemented without a signed actuarial proposal, related-employer review, PBGC coverage analysis and tax '
+   'projection. Compare total business cash cost, not only owner-to-staff ratios.'])],
+"faqs": [('How much can a defined benefit plan deduct?',
+  'The allowable deduction is actuarially determined under Section 404 and applicable combined-plan rules. '
+  'The 2026 $290,000 annual-benefit dollar limit is not a contribution allowance. Age, eligible '
+  'compensation, existing assets, benefits and employee census must be modeled before quoting a deduction.'),
+ ('Can I have a defined benefit plan and a 401(k)?',
+  'The 6% figure is not a universal contribution or deduction cap. Under Section 404(a)(7), employer defined '
+  'contribution amounts up to 6% of covered compensation are excluded from the combined deduction '
+  'calculation; when employer contributions exceed 6%, the excess enters the applicable combined test. '
+  'Employee elective deferrals are excluded. A PBGC-covered defined benefit plan is excluded from this '
+  'combined limit, but separate plan limits still apply. Have the actuary and tax preparer calculate both '
+  'the minimum funding and maximum deductible contribution.'),
+ ('What does a defined benefit plan cost me in staff contributions?',
+  'The cost depends on actual employees, compensation, ages, service, plan formulas and related employers. '
+  'Owner-to-staff ratios in illustrations are not guaranteed allocations. Have the actuary test the complete '
+  'census and calculate staff funding before adoption.'),
+ ('Am I locked in once I start?',
+  'Minimum funding and earned benefits remain obligations. Prospective amendments or a freeze can affect '
+  'future accruals but do not erase funding shortfalls or reporting. Three to five years is not a legal '
+  'permanence safe harbor, and termination can require additional cash and applicable PBGC procedures.'),
+ ('Who is a poor candidate?',
+  'An owner with volatile cash flow, unfavorable employee costs, limited eligible compensation or an '
+  'impending sale without a funding and termination review may be a poor fit. Compare simpler plan designs '
+  'and obtain actual actuarial and tax projections rather than deciding from profit or age alone.')],
 "related": [
 ("/blog/cash-balance-plans-business-owners-2026/", "Cash balance plans for business owners"),
 ("/blog/defined-benefit-plan-vs-401k-for-small-business-owners/", "Defined benefit plan versus 401(k)"),
 ("/blog/how-to-shelter-300k-per-year-with-retirement-plans/", "Sheltering $300K per year with retirement plans"),
 ],
 "cta_head": "Get the Actuarial Numbers Before You Decide",
-"cta_body": "The staff cost is the whole decision and it cannot be estimated reliably. We will get you a projection with real numbers for your census.",
+"cta_body": 'Staff cost is a major part of the decision, alongside funding risk, administration and exit obligations. We will get you a projection with real numbers for your census.',
 },
 
 {

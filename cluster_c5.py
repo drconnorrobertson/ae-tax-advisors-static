@@ -12,138 +12,119 @@ SOLO_VS_SEP = Spoke(
     label="Solo 401(k) vs SEP IRA for profitable businesses",
     title="Solo 401(k) vs SEP IRA for Profitable Businesses",
     description=(
-        "Why a solo 401(k) almost always beats a SEP IRA at the same compensation, "
-        "and the two situations where a SEP still wins."
+        'Compare 2026 solo 401(k) and SEP IRA limits, earned-income calculations, Roth options, employee costs, and prior-year setup and funding deadlines.'
     ),
     h1="Solo 401(k) vs SEP IRA for Profitable Businesses",
     subtitle=(
-        "At identical compensation, the solo 401(k) contributes more. The SEP wins "
-        "on simplicity and on one specific timing problem."
+        'A solo 401(k) can reach the shared contribution ceiling with less compensation. Compare timing, employee costs, Roth options, and administration before choosing.'
     ),
     lead=(
-        "A solo 401(k) and a SEP IRA both let a business owner make deductible retirement "
-        "contributions, but they get there differently. A SEP contribution is purely an "
-        "employer contribution capped as a percentage of compensation. A solo 401(k) adds an "
-        "employee deferral on top of the same employer contribution, so at any given "
-        "compensation level it reaches a higher total."
+        'A SEP IRA accepts employer retirement contributions; a solo 401(k) adds employee elective deferrals. The solo 401(k) can allow more at moderate compensation, but both can reach the same $72,000 non-catch-up ceiling in 2026. The best choice depends on eligible earnings, deferrals already made at another job, employees, deadlines, and administrative cost.'
     ),
     keywords=[
         "solo 401k vs sep ira",
         "best retirement plan self employed business owner",
         "sep ira solo 401k comparison",
     ],
-    body=[
-        (
-            "The Structural Difference",
-            "<p>A SEP IRA allows one contribution type: an employer contribution limited to a "
-            "percentage of compensation, subject to the annual additions limit.</p>"
-            "<p>A solo 401(k) allows two: an employee elective deferral up to the annual "
-            "deferral limit, plus an employer contribution calculated on the same basis as "
-            "the SEP. Because the deferral sits on top, the solo 401(k) reaches the same "
-            "total at lower compensation, and reaches a higher total at the same "
-            "compensation.</p>"
-            "<p>At high compensation the difference narrows, because both are ultimately "
-            "bounded by the same annual additions limit. The gap matters most for owners "
-            "whose compensation is moderate relative to their savings goal, which describes "
-            "many S-corp owners paying a defensible but not enormous wage.</p>"
-        ),
-        (
-            "Where the Solo 401(k) Wins",
-            "<p><strong>Higher contributions at the same wage.</strong> The employee deferral "
-            "is available regardless of the percentage limits that constrain the employer "
-            "piece, so an owner with modest W-2 compensation can still contribute "
-            "substantially.</p>"
-            "<p><strong>Roth treatment.</strong> Solo 401(k) plans can accept Roth deferrals, "
-            "and many permit in-plan conversions. SEP IRAs are traditional in character, and "
-            "Roth options for them are far more limited.</p>"
-            "<p><strong>Loan provisions.</strong> A solo 401(k) may permit participant loans "
-            "within statutory limits. SEP IRAs do not.</p>"
-            "<p><strong>It pairs with a cash balance plan.</strong> This is the decisive "
-            "point for owners at this profit level. A defined benefit or cash balance plan is "
-            "layered on top of a 401(k) routinely; combining one with a SEP is considerably "
-            "more awkward, and the combination is where the very large deductions come "
-            "from.</p>"
-            "<p><strong>It avoids the backdoor Roth problem.</strong> SEP IRA balances count "
-            "in the pro-rata calculation that applies to Roth conversions of nondeductible "
-            "IRA contributions. A solo 401(k) balance does not. An owner doing backdoor Roth "
-            "conversions can have the strategy substantially neutralized by a SEP balance.</p>"
-        ),
-        (
-            "Where the SEP IRA Still Wins",
-            "<p><strong>Setup after year-end.</strong> This is the SEP's genuine advantage. A "
-            "SEP can generally be established and funded up to the extended filing deadline "
-            "for the prior year. A solo 401(k) requires the plan to be established by a "
-            "deadline tied to the plan year, so an owner who reaches March with no plan in "
-            "place may find the SEP is the only route to a prior-year deduction.</p>"
-            "<p><strong>Administrative simplicity.</strong> No plan document to maintain, no "
-            "Form 5500 filing obligation once assets pass the threshold that triggers it for "
-            "a solo 401(k), and minimal ongoing administration.</p>"
-            "<p><strong>Highly variable income.</strong> SEP contributions are discretionary "
-            "each year and easy to skip entirely, which suits a business with unpredictable "
-            "profit.</p>"
-        ),
-        (
-            "The Employee Problem Applies to Both",
-            "<p>Neither plan stays simple once there are eligible employees. A SEP requires "
-            "the same contribution percentage for every eligible employee as the owner "
-            "receives, which becomes expensive quickly. A 401(k) covering employees brings "
-            "nondiscrimination testing, though safe harbor designs can manage it "
-            "predictably.</p>"
-            "<p>The term solo in solo 401(k) is doing real work: it refers to a plan covering "
-            "only the owner and a spouse. Once other eligible employees exist, it is simply a "
-            "401(k) plan with the corresponding requirements, and the plan design question "
-            "becomes a modeling exercise against the employee census.</p>"
-        ),
-        (
-            "How to Choose",
-            "<p>For most profitable owners with no employees, the solo 401(k) is the better "
-            "plan: it contributes more at the same wage, offers Roth treatment, does not "
-            "interfere with backdoor Roth conversions, and pairs cleanly with a cash balance "
-            "plan later.</p>"
-            "<p>The SEP is the right answer in two situations: the year is already over and "
-            "no plan was established, or the owner wants minimal administration and is not "
-            "pursuing maximum contributions. An owner who used a SEP for the prior year can "
-            "establish a solo 401(k) going forward, and should generally consider rolling the "
-            "SEP balance into it to clear the pro-rata problem.</p>"
-        ),
-    ],
-    takeaways=[
-        "A solo 401(k) adds an employee deferral on top of the same employer contribution a SEP allows.",
-        "A SEP can usually be established after year-end; a solo 401(k) generally cannot.",
-        "SEP balances trigger the pro-rata rule and can neutralize a backdoor Roth strategy.",
-        "The solo 401(k) pairs cleanly with a cash balance plan; the SEP does not.",
-        "Both become complicated once there are eligible employees, and require modeling.",
-    ],
-    faqs=[
-        (
-            "Which allows a larger contribution, a solo 401(k) or a SEP IRA?",
-            "<p>The solo 401(k), at any given compensation level, because it permits an "
-            "employee deferral in addition to the employer contribution that a SEP is limited "
-            "to. Both are ultimately bounded by the same annual additions limit, so the gap "
-            "narrows at very high compensation.</p>",
-        ),
-        (
-            "Can I set up a retirement plan after the year ends?",
-            "<p>A SEP IRA can generally be established and funded up to the extended filing "
-            "deadline for the prior year. A solo 401(k) generally must be established by a "
-            "deadline tied to the plan year, though employer contributions to an existing plan "
-            "can often be made later. This timing difference is the SEP's main advantage.</p>",
-        ),
-        (
-            "Does a SEP IRA interfere with a backdoor Roth?",
-            "<p>Yes. SEP IRA balances are included in the pro-rata calculation applied to "
-            "conversions of nondeductible IRA contributions, which can make most of a backdoor "
-            "Roth conversion taxable. Solo 401(k) balances are excluded from that calculation, "
-            "which is a common reason to move a SEP balance into a 401(k).</p>",
-        ),
-        (
-            "Can I have both a SEP and a solo 401(k)?",
-            "<p>Technically possible in some configurations, but the annual additions limit "
-            "applies across plans of the same employer, so it rarely increases the total. The "
-            "more useful pairing for a profitable owner is a solo 401(k) with a cash balance "
-            "plan layered on top.</p>",
-        ),
-    ],
+    body=[('The Structural Difference',
+  '<p>For 2026, the elective deferral limit is $24,500 and the defined contribution annual additions limit '
+  'is $72,000, excluding permitted catch-up contributions. The ordinary age-50-or-older catch-up is $8,000; '
+  'participants attaining ages 60 through 63 may use $11,250 instead, if permitted. Catch-up contributions '
+  'for participants whose prior-year wages from the sponsoring employer exceeded $150,000 generally must be '
+  'Roth in 2026. That wage test is not household income or net self-employment earnings, and Roth '
+  'contributions are not current deductions.</p><p>Employer contributions are generally limited to 25% of '
+  'eligible W-2 compensation. For a self-employed owner, a stated 25% rate generally becomes 20% of adjusted '
+  'net earnings after the deductible part of self-employment tax; use the Publication 560 worksheets rather '
+  'than multiplying Schedule C profit by 25%. Contributions also cannot exceed the applicable compensation '
+  'limits.</p><p>For a 2026 owner under 50 with $100,000 of eligible W-2 pay, no other deferrals and no '
+  'employees, a 25% employer contribution is $25,000. A SEP can receive $25,000; a solo 401(k) can receive '
+  'that plus $24,500 of employee deferrals, totaling $49,500. At $288,000 of eligible pay, a 25% SEP '
+  'contribution reaches $72,000, matching the solo 401(k) non-catch-up ceiling. These are contribution '
+  'illustrations, not a recommendation to change reasonable compensation.</p><p>The employee deferral limit '
+  'follows the individual across applicable employer plans. Deferrals already made at a day job reduce the '
+  'remaining solo 401(k) deferral room. Annual additions are generally aggregated for plans of the same or '
+  'related employers; genuinely unrelated employers may have separate limits. Review controlled groups and '
+  'affiliated service groups before assuming separate businesses create separate capacity.</p>'),
+ ('Where the Solo 401(k) Wins',
+  '<p><strong>Contribution room at moderate compensation.</strong> Employee deferrals can fill a gap that '
+  'percentage-limited employer contributions cannot, provided the owner has eligible earnings and unused '
+  'deferral room.</p><p><strong>Roth flexibility.</strong> A plan may allow designated Roth deferrals and '
+  'in-plan Roth conversions. SECURE 2.0 also permits Roth SEP contributions where the arrangement and '
+  'provider support them, so Roth treatment is not exclusive to a 401(k). Roth employee deferrals do not '
+  "reduce the participant's current taxable income. Employer Roth SEP contributions are generally included "
+  "in the participant's income when deposited, while the employer deduction is evaluated separately under "
+  'the SEP deduction rules.</p><p><strong>Loan provisions.</strong> A solo 401(k) may permit participant '
+  'loans within statutory and plan limits; SEP IRAs do not permit participant loans.</p><p><strong>Cash '
+  'balance coordination.</strong> A 401(k) can be paired with a defined benefit plan, subject to census '
+  'testing and combined deduction calculations. A SEP is not automatically barred from another plan, but the '
+  'IRS model Form 5305-SEP cannot be used when maintaining another qualified plan, apart from its stated '
+  'exception. Obtain a compatible document and design review.</p><p><strong>Backdoor Roth planning.</strong> '
+  'Pre-tax traditional SEP IRA balances enter the IRA pro-rata calculation, along with traditional and '
+  'SIMPLE IRAs. Qualified-plan balances do not. A rollover of eligible pre-tax SEP assets into a 401(k) that '
+  'accepts them may help, but review basis, year-end balances, and rollover eligibility first.</p>'),
+ ('Where the SEP IRA Still Wins',
+  '<p><strong>Simple administration.</strong> A SEP still needs a written agreement, required employee '
+  'disclosures, and an IRA for each eligible participant. It generally has no annual Form 5500 filing. A '
+  'solo 401(k) requires a qualified plan document and may trigger Form 5500-EZ filing when total '
+  'one-participant plan assets exceed $250,000 at year-end; a final return is generally required on '
+  'termination regardless of assets.</p><p><strong>Prior-year employer funding.</strong> A SEP can generally '
+  'be established and funded by the extended employer return deadline. A solo 401(k) can also be adopted '
+  'after year-end for eligible employer contributions; missing December 31 does not automatically make a SEP '
+  'the only option.</p><p>Most qualified employer plans may be adopted by the employer tax-return due date, '
+  'including extensions, and treated as adopted for the prior tax year. Adoption, employee deferral '
+  'elections, deposit deadlines, and employer contribution deductibility are separate tests. Salary '
+  'deferrals generally require a timely election before compensation becomes available; adopting a plan '
+  'later does not authorize retroactive S-corporation payroll deferrals. A narrow first-year exception '
+  'permits an individual who owns the entire unincorporated business and is its only employee to adopt a new '
+  '401(k) and make first-year elective deferrals by the unextended individual return '
+  'deadline.</p><p><strong>Variable income.</strong> SEP employer contributions can be discretionary, '
+  'including zero for a year. Discretionary profit sharing can also be available in a 401(k); neither label '
+  'removes promised safe harbor or other required contributions.</p>'),
+ ('The Employee Problem Applies to Both',
+  '<p>A SEP generally requires the same contribution percentage for every eligible participant under the '
+  'plan formula, which can make owner contributions costly when staff qualify. A 401(k) covering employees '
+  'has coverage, nondiscrimination and reporting requirements; safe harbor designs address some testing but '
+  'do not remove every obligation.</p><p>A solo 401(k) generally covers only an owner, or owner and spouse, '
+  'without eligible common-law employees. Review employee service, including applicable long-term part-time '
+  'rules, and all controlled or affiliated businesses before using an owner-only plan. Ordinary rental '
+  'receipts and S-corporation distributions do not themselves create eligible retirement-plan '
+  'compensation.</p>'),
+ ('How to Choose',
+  '<p>Bring projected eligible W-2 pay or adjusted self-employment earnings, employee census, all related '
+  'businesses, outside-plan deferrals, existing IRA balances, and the tax year you want to fund. Compare '
+  'total owner savings, required staff contributions, administration, Roth treatment, and cash needed by '
+  'each deadline.</p><p>A solo 401(k) often fits an eligible owner seeking maximum contributions at moderate '
+  'compensation or a compatible cash balance design. A SEP may fit an owner prioritizing simpler '
+  'administration who does not need loans or employee deferrals. At sufficient compensation both can reach '
+  'the same non-catch-up limit. Confirm provider support and obtain the written calculation before adopting '
+  'or rolling funds.</p>')],
+    takeaways=['Both plans can reach the $72,000 non-catch-up ceiling in 2026; a solo 401(k) can reach it with less '
+ 'compensation.',
+ 'Other employer-plan deferrals reduce the individual deferral room available to a solo 401(k).',
+ 'Both plans require written arrangements; a SEP generally avoids annual Form 5500 filing.',
+ 'After-year-end employer adoption is possible; deferral elections and funding have separate deadlines.',
+ 'Roth SEP contributions may be available, and employee or related-business coverage can change the answer.'],
+    faqs=[('Which allows a larger contribution, a solo 401(k) or a SEP IRA?',
+  '<p>At moderate compensation, a solo 401(k) may permit more because it adds unused employee deferral room '
+  'to employer contributions. Both can reach the $72,000 non-catch-up annual additions limit for 2026 at '
+  'sufficient eligible compensation. Outside-plan deferrals and related-employer limits must be '
+  'coordinated.</p>'),
+ ('Can I set up a retirement plan after the year ends?',
+  '<p>Most qualified employer plans may be adopted by the employer tax-return due date, including '
+  'extensions, and treated as adopted for the prior tax year. Adoption, employee deferral elections, deposit '
+  'deadlines, and employer contribution deductibility are separate tests. Salary deferrals generally require '
+  'a timely election before compensation becomes available; adopting a plan later does not authorize '
+  'retroactive S-corporation payroll deferrals. A narrow first-year exception permits an individual who owns '
+  'the entire unincorporated business and is its only employee to adopt a new 401(k) and make first-year '
+  'elective deferrals by the unextended individual return deadline.</p>'),
+ ('Does a SEP IRA interfere with a backdoor Roth?',
+  '<p>Pre-tax SEP IRA balances count in the pro-rata calculation for traditional IRA conversions, along with '
+  'traditional and SIMPLE IRA balances. A solo 401(k) balance does not. Any rollover into a 401(k) must be '
+  'eligible and accepted by the plan, with IRA basis reviewed separately.</p>'),
+ ('Can I have both a SEP and a solo 401(k)?',
+  '<p>It may be possible with compatible plan documents, but plans of the same or related employer share '
+  'applicable annual additions limits. IRS model Form 5305-SEP generally cannot be used while maintaining '
+  'another qualified plan. A second account does not double the deduction.</p>')],
 )
 
 STACKING = Spoke(
@@ -151,154 +132,123 @@ STACKING = Spoke(
     label="Stacking retirement plans for maximum deduction",
     title="Stacking Retirement Plans for Maximum Deduction",
     description=(
-        "How a solo 401(k) and a cash balance plan combine to produce deductions of "
-        "$150,000 to $250,000, and the rules that govern the combination."
+        'Model a 401(k) plus cash balance plan using 2026 limits, employee costs, PBGC coverage, combined deduction rules, and separate adoption and funding deadlines.'
     ),
     h1="Stacking Retirement Plans for Maximum Deduction",
     subtitle=(
-        "A defined contribution plan and a defined benefit plan are separate limits. "
-        "Running both is how the largest deductions get built."
+        'A 401(k) and cash balance plan can build larger retirement savings, but contribution limits, deductible amounts, staff costs, and funding deadlines must all fit.'
     ),
     lead=(
-        "Stacking retirement plans means operating a defined contribution plan, typically a "
-        "solo 401(k), alongside a defined benefit or cash balance plan. The two are governed "
-        "by separate limits, so the combined deduction is far larger than either alone. For "
-        "a profitable owner in their fifties, the combination routinely supports $150,000 to "
-        "$250,000 in annual deductible contributions."
+        'Stacking retirement plans means operating a defined contribution plan, usually a 401(k), alongside a defined benefit or cash balance plan. Their benefit and contribution limits differ, but that does not make the maximum amounts automatically deductible together. An actuarial study and tax projection must establish a sustainable owner benefit, required employee funding, and the allowed deduction.'
     ),
     keywords=[
         "stacking retirement plans business owner",
         "combine 401k cash balance plan",
         "maximum retirement deduction business owner",
     ],
-    body=[
-        (
-            "Why Two Plans Beat One",
-            "<p>Defined contribution plans and defined benefit plans are limited by different "
-            "rules. A defined contribution plan is capped by an annual additions limit "
-            "expressed as a dollar amount. A defined benefit plan is not capped that way at "
-            "all; it is limited by the benefit it is designed to pay at retirement, and the "
-            "contribution is whatever an actuary determines is required to fund that benefit.</p>"
-            "<p>That actuarial sizing is what makes the combination powerful. An owner closer "
-            "to retirement has fewer years to fund the same benefit, so the required annual "
-            "contribution is much larger. Age becomes an asset rather than a constraint.</p>"
-        ),
-        (
-            "What the Numbers Look Like",
-            "<p>For a single owner with no employees and compensation supporting full "
-            "contributions, a rough shape by age:</p>"
-            "<div style=\"overflow-x:auto;\">"
-            "<table>"
-            "<thead><tr><th>Owner age</th><th>Solo 401(k)</th><th>Cash balance plan</th>"
-            "<th>Approximate combined</th></tr></thead>"
-            "<tbody>"
-            "<tr><td>40</td><td>Full DC limit</td><td>$80,000 - $120,000</td><td>$150,000 - $190,000</td></tr>"
-            "<tr><td>50</td><td>Full DC limit plus catch-up</td><td>$140,000 - $190,000</td><td>$215,000 - $265,000</td></tr>"
-            "<tr><td>60</td><td>Full DC limit plus catch-up</td><td>$220,000 - $300,000</td><td>$295,000 - $375,000</td></tr>"
-            "</tbody></table></div>"
-            "<p>These are illustrative ranges, not quotes. Actual figures come from an "
-            "actuarial study using the owner's age, compensation history, the benefit "
-            "targeted, and the plan's assumptions. The pattern that holds across all of them "
-            "is that the defined benefit component grows sharply with age while the defined "
-            "contribution component does not.</p>"
-        ),
-        (
-            "The Rules Governing the Combination",
-            "<p>Two plans can be run together, subject to constraints:</p>"
-            "<ul>"
-            "<li><strong>Combined deduction limits.</strong> Where both a defined "
-            "contribution and a defined benefit plan cover the same employees, the deductible "
-            "employer contribution to the defined contribution plan is generally limited, "
-            "though employee elective deferrals are not counted against that limit. Plan "
-            "design works around this deliberately.</li>"
-            "<li><strong>The defined benefit plan must be funded.</strong> Unlike "
-            "discretionary profit sharing, defined benefit contributions are a funding "
-            "obligation. A bad year still requires the contribution, and underfunding carries "
-            "excise tax exposure.</li>"
-            "<li><strong>Permanence.</strong> Plans are expected to be maintained for a "
-            "meaningful period. A plan established and terminated after two years to capture "
-            "deductions invites challenge.</li>"
-            "<li><strong>Coverage and nondiscrimination.</strong> With employees, both plans "
-            "must satisfy their testing requirements, and the combination is tested together "
-            "under rules that permit aggregation.</li>"
-            "</ul>"
-        ),
-        (
-            "The Employee Cost",
-            "<p>With employees, the analysis changes from what the owner can contribute to "
-            "what percentage of total contributions ends up with the owner.</p>"
-            "<p>A well-designed combination frequently directs 80 to 90 percent of total "
-            "contributions to the owner, using a cross-tested or new comparability design "
-            "that leans on the fact that older participants have fewer years to accumulate "
-            "benefits. The employee cost is real and must be modeled, but it is often far "
-            "lower than owners assume, and it is a deductible business expense that also "
-            "supports retention.</p>"
-            "<p>The modeling is the work. Two businesses with identical profit and different "
-            "employee demographics can have very different outcomes, and the only way to know "
-            "is a census-based study.</p>"
-        ),
-        (
-            "Deadlines That Cannot Be Missed",
-            "<p>A new defined benefit or cash balance plan generally must be established "
-            "before the plan year ends to generate a deduction for that year. Missing it "
-            "forfeits the entire year, with no remedy and no catch-up mechanism.</p>"
-            "<p>Because the design requires an actuarial study, a plan document, and often a "
-            "trust account, the practical lead time is weeks rather than days. An owner "
-            "starting this conversation in mid-December is generally too late for the current "
-            "year. Starting it in the third quarter is what makes the deduction "
-            "available.</p>"
-        ),
-        (
-            "Whether the Deferral Is Worth It",
-            "<p>These plans defer rather than eliminate tax, so the case rests on the rate "
-            "differential and on compounding. A deduction taken at 37 percent federal plus "
-            "state, against distributions later taken at a lower rate, is a real gain. So is "
-            "decades of compounding on amounts that were never taxed.</p>"
-            "<p>The case weakens for an owner who expects to be in the same bracket in "
-            "retirement, and for one who needs the capital in the business rather than locked "
-            "in a plan. The required funding obligation is a genuine commitment, and it "
-            "should be sized to a contribution level the business can sustain through a poor "
-            "year, not just a good one.</p>"
-        ),
-    ],
-    takeaways=[
-        "Defined contribution and defined benefit plans have separate limits, so both can run together.",
-        "The defined benefit contribution is sized actuarially and rises sharply with owner age.",
-        "Cross-tested designs often direct 80 to 90 percent of contributions to the owner.",
-        "New defined benefit plans generally must be established before the plan year ends.",
-        "Defined benefit contributions are a funding obligation, so size them for a bad year too.",
-    ],
-    faqs=[
-        (
-            "How much can a business owner deduct with stacked retirement plans?",
-            "<p>Depending on age, compensation, and employee census, commonly $150,000 to "
-            "$250,000 annually for an owner in their forties or fifties, and more for an "
-            "owner in their sixties. The defined benefit component drives the figure and is "
-            "sized by an actuary rather than by a fixed limit.</p>",
-        ),
-        (
-            "Can I have a 401(k) and a cash balance plan at the same time?",
-            "<p>Yes, and it is the standard structure for maximizing deductions. Combined "
-            "deduction limits apply to the employer contribution to the defined contribution "
-            "plan where both cover the same employees, but employee elective deferrals are "
-            "not counted against that limit, and plan design works around it deliberately.</p>",
-        ),
-        (
-            "What happens if I have a bad year and cannot fund the plan?",
-            "<p>Defined benefit contributions are a funding obligation rather than "
-            "discretionary, and underfunding carries excise tax exposure. Plans can be frozen "
-            "or amended prospectively, and the benefit formula can be set conservatively from "
-            "the outset. Sizing the plan to a sustainable contribution level is part of the "
-            "design.</p>",
-        ),
-        (
-            "How much do these plans cost to administer?",
-            "<p>A cash balance plan requires annual actuarial certification, a plan document, "
-            "and Form 5500 filing, typically several thousand dollars a year. Against a "
-            "deduction of $150,000 or more the ratio is strongly favorable, but the cost is "
-            "recurring and should be modeled as part of the decision.</p>",
-        ),
-    ],
+    body=[('Why Two Plans Beat One',
+  '<p>For 2026, the elective deferral limit is $24,500 and the defined contribution annual additions limit '
+  'is $72,000, excluding permitted catch-up contributions. The ordinary age-50-or-older catch-up is $8,000; '
+  'participants attaining ages 60 through 63 may use $11,250 instead, if permitted. Catch-up contributions '
+  'for participants whose prior-year wages from the sponsoring employer exceeded $150,000 generally must be '
+  'Roth in 2026. That wage test is not household income or net self-employment earnings, and Roth '
+  'contributions are not current deductions.</p><p>A defined benefit plan instead funds a promised '
+  'retirement benefit. The 2026 Section 415(b) annual-benefit dollar limit is $290,000, subject to '
+  'compensation, age, participation, and payment-form adjustments. That is not an annual contribution '
+  'allowance. An enrolled actuary calculates minimum required funding and the maximum deductible '
+  'contribution using the plan formula, assets, compensation history, and applicable '
+  'assumptions.</p><p>Older owners may have fewer years to fund a benefit, which can support larger annual '
+  'contributions. Age alone does not establish a permitted deduction.</p>'),
+ ('What the Numbers Look Like',
+  '<p>Illustrative 2026 arithmetic only: assume a 55-year-old sole proprietor has $300,000 of plan-eligible '
+  'compensation after the required self-employment adjustments, no eligible employees across related '
+  'businesses, no other deferrals, and no prior-year wages from this sponsor triggering Roth catch-up. '
+  'Assume an actuary separately validates a $200,000 cash balance contribution as both required or permitted '
+  'funding and deductible, and verifies the combined design.</p><div '
+  'style="overflow-x:auto;"><table><thead><tr><th>Component</th><th>Illustrative '
+  'amount</th><th>Condition</th></tr></thead><tbody><tr><td>401(k) elective '
+  'deferral</td><td>$24,500</td><td>Unused individual deferral room</td></tr><tr><td>Age-55 '
+  'catch-up</td><td>$8,000</td><td>Plan permits catch-up; assumed pre-tax '
+  'eligibility</td></tr><tr><td>Employer defined contribution</td><td>$18,000</td><td>6% of $300,000 '
+  'eligible compensation</td></tr><tr><td>Cash balance contribution</td><td>$200,000</td><td>Assumed '
+  'actuarial result, not an age-based entitlement</td></tr><tr><td>Total '
+  'contribution</td><td>$250,500</td><td>Subject to all funding and deduction '
+  'tests</td></tr></tbody></table></div><p>This is not a client result or a funding quote. It deliberately '
+  'does not assume the full $72,000 defined contribution limit can be stacked automatically. Actual '
+  'self-employed compensation and deduction calculations are interdependent and require the Publication 560 '
+  'worksheets and actuarial review. Current tax savings also depend on QBI, tax brackets, Roth treatment and '
+  'state law.</p>'),
+ ('The Rules Governing the Combination',
+  '<p>The 6% figure is not a universal contribution or deduction cap. Under Section 404(a)(7), employer '
+  'defined contribution amounts up to 6% of covered compensation are excluded from the combined deduction '
+  'calculation; when employer contributions exceed 6%, the excess enters the applicable combined test. '
+  'Employee elective deferrals are excluded. A PBGC-covered defined benefit plan is excluded from this '
+  'combined limit, but separate plan limits still apply. Have the actuary and tax preparer calculate both '
+  'the minimum funding and maximum deductible contribution.</p><p><strong>Coverage and '
+  'nondiscrimination.</strong> Review controlled groups and affiliated service groups under Section 414, '
+  'employee service, compensation and ownership before treating a business as owner-only. Where aggregation '
+  'is permitted for testing, both plans still must satisfy the applicable coverage, minimum participation '
+  'and nondiscrimination rules.</p><p><strong>Funding and permanence.</strong> A defined benefit plan is '
+  'intended as an ongoing retirement program. A weak year does not eliminate minimum funding, and an early '
+  'termination needs a legitimate facts-and-circumstances review. There is no three-year or five-year legal '
+  'safe harbor.</p>'),
+ ('The Employee Cost',
+  '<p>With employees, model total employer cash outlay, the benefits allocated to owners and staff, and '
+  'administration costs. Cross-tested designs can be useful when owners are older than staff, but no '
+  'standard owner allocation percentage is guaranteed.</p><p>For arithmetic only, $200,000 allocated to '
+  'owners and $50,000 to staff means owners receive 80% of $250,000 total contributions. That percentage '
+  'describes assumed inputs, not proof that a census will pass testing or that the contributions are '
+  'deductible. Two businesses with equal profit can have very different results.</p>'),
+ ('Deadlines That Cannot Be Missed',
+  '<p>Most qualified employer plans may be adopted by the employer tax-return due date, including '
+  'extensions, and treated as adopted for the prior tax year. Adoption, employee deferral elections, deposit '
+  'deadlines, and employer contribution deductibility are separate tests. Salary deferrals generally require '
+  'a timely election before compensation becomes available; adopting a plan later does not authorize '
+  'retroactive S-corporation payroll deferrals. A narrow first-year exception permits an individual who owns '
+  'the entire unincorporated business and is its only employee to adopt a new 401(k) and make first-year '
+  'elective deferrals by the unextended individual return deadline.</p><p>Defined benefit minimum funding is '
+  'generally due 8.5 months after the plan year ends, normally September 15 for a calendar-year plan. '
+  'Quarterly installments may apply. An October 15 extended individual tax-return deadline does not postpone '
+  'that funding deadline. Contributions paid by the applicable extended employer return deadline may be '
+  'deductible for the prior tax year when properly designated and within Section 404 limits; the funding and '
+  'deduction calculations must both be satisfied.</p><p>Starting early leaves time for actuarial design, '
+  'participant notices, elections, investment arrangements and cash planning. A December or post-year-end '
+  'inquiry is not automatically too late, but the administrator must verify every deadline before promising '
+  'a prior-year deduction.</p>'),
+ ('Whether the Deferral Is Worth It',
+  '<p>Pre-tax contributions generally defer rather than eliminate income tax. Compare current deductions, '
+  'any reduction in the QBI deduction, later ordinary-income distributions, investment risk, required staff '
+  'benefits and ongoing administration. Roth contributions do not produce current deductions.</p><p>A freeze '
+  'may stop future accruals prospectively but does not erase already earned benefits, existing funding '
+  'shortfalls, annual actuarial work or reporting. A termination can require additional funding, participant '
+  'notices and PBGC procedures where covered. Size the plan for a poor year and review a business sale '
+  'before committing capital.</p>')],
+    takeaways=['Separate plan limits do not guarantee that both maximum contributions are deductible together.',
+ 'The $290,000 limit in 2026 is a defined benefit annual-benefit ceiling, not a contribution limit.',
+ 'Employee costs require a complete census, related-employer review and actuarial testing.',
+ 'Adoption, employee deferral elections, minimum funding and tax-deduction deadlines are different.',
+ 'The 6% rule is an exclusion within the combined deduction calculation, not a universal cap.'],
+    faqs=[('How much can a business owner deduct with stacked retirement plans?',
+  '<p>The amount depends on eligible compensation, age, benefit formula, plan assets, employee census, other '
+  'plans and the Section 404 deduction calculations. The $250,500 illustration on this page assumes a '
+  'separately validated $200,000 cash balance contribution; it is not a quoted entitlement or client '
+  'result.</p>'),
+ ('Can I have a 401(k) and a cash balance plan at the same time?',
+  '<p>The 6% figure is not a universal contribution or deduction cap. Under Section 404(a)(7), employer '
+  'defined contribution amounts up to 6% of covered compensation are excluded from the combined deduction '
+  'calculation; when employer contributions exceed 6%, the excess enters the applicable combined test. '
+  'Employee elective deferrals are excluded. A PBGC-covered defined benefit plan is excluded from this '
+  'combined limit, but separate plan limits still apply. Have the actuary and tax preparer calculate both '
+  'the minimum funding and maximum deductible contribution.</p>'),
+ ('What happens if I have a bad year and cannot fund the plan?',
+  '<p>Minimum required funding can remain due despite a weak year. Prospective amendments or a freeze do not '
+  'erase earned benefits or funding shortfalls. Ask the actuary about funding, notice and termination '
+  'options before the deadline; underfunding can cause excise taxes.</p>'),
+ ('How much do these plans cost to administer?',
+  '<p>A cash balance plan needs ongoing actuarial work, a written plan and applicable annual returns, '
+  'typically several thousand dollars a year. These recurring costs, employee benefits and any PBGC premiums '
+  'should be modeled against the projected deduction. Owner-only Form 5500-EZ filing exceptions do not '
+  'remove the actuarial funding obligation.</p>')],
 )
 
 MEGA_ROTH = Spoke(
