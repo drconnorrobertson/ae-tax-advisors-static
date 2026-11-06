@@ -6,7 +6,7 @@ m=json.loads((DATA/'manifest.json').read_text());assert len(m['pages'])==100
 previous=json.loads((ROOT/'content/owner-faqs-20261028/manifest.json').read_text())['pages'];oldpaths={r['path']for r in previous}
 assert not oldpaths&{r['path']for r in m['pages']}
 urls=ET.fromstring((out/'sitemap-owner-faqs-20261028-b.xml').read_text());locs=[e.text for e in urls.iter()if e.tag.endswith('loc')];assert len(locs)==len(set(locs))==100
-blog=(out/'blog/index.html').read_text();sitemap=(out/'sitemap/index.html').read_text();errors=[];titles=set();questions=set();counts=[]
+blog=__import__('blog_archive').discovery_html(out);sitemap=(out/'sitemap/index.html').read_text();errors=[];titles=set();questions=set();counts=[]
 for r in m['pages']:
  s=(out/r['path'].strip('/')/'index.html').read_text();main=re.search(r'<main[^>]*>(.*?)</main>',s,re.S)[1]
  def check(ok,msg):

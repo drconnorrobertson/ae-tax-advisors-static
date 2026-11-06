@@ -169,6 +169,10 @@ def main():
   return out
  discovery={'blog/index.html':rows,'sitemap/index.html':rows,'business-owner-small-business-tax/index.html':[r for i,r in enumerate(rows)if i%10==0]}
  for file,selected in discovery.items():
+  if file=='blog/index.html':
+   from blog_archive import register_routes
+   register_routes(selected)
+   continue
   path=ROOT/file;s=path.read_text();s=re.sub(r'<!-- owner-faqs-20261029-d:start -->.*?<!-- owner-faqs-20261029-d:end -->','',s,flags=re.S)
   if file=='sitemap/index.html':s=s.replace('1865 pages in total.','1965 pages in total.')
   block='<!-- owner-faqs-20261029-d:start --><section class="content-section"><div class="container narrow"><h2>More specific business-owner questions</h2>'+links(selected)+'</div></section><!-- owner-faqs-20261029-d:end -->'

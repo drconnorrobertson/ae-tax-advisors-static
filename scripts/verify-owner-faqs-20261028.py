@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1];out=ROOT/(sys.argv[1] if len(sys.argv)>
 m=json.loads((ROOT/'content/owner-faqs-20261028/manifest.json').read_text());assert len(m['pages'])==100
 alltitles=set();allh1=set();errors=[];wordcounts=[]
 xml=(out/'sitemap-owner-faqs-20261028.xml').read_text();ET.fromstring(xml)
-blog=(out/'blog/index.html').read_text()
+blog=__import__('blog_archive').discovery_html(out)
 for r in m['pages']:
  path=r['path'];p=out/path.strip('/')/'index.html';s=p.read_text();main=re.search(r'<main[^>]*>(.*?)</main>',s,re.S)[1]
  def check(ok,msg):

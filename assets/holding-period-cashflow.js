@@ -16,11 +16,18 @@
   if (typeof module !== 'undefined' && module.exports) module.exports = { compare };
   if (!root.document) return;
   const form = root.document.getElementById('holding-period-form');
-  if (!form) return;
+  if (!form || form.dataset.localInitialized === 'true') return;
+  const installed = [];
+  function listen(target, type, handler) {
+    target.addEventListener(type, handler);
+    installed.push([target, type, handler]);
+  }
+  try {
+
   const output = root.document.getElementById('holding-period-result');
   const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
-  form.addEventListener('input', () => { output.textContent = 'Inputs changed. Compare again to update the result.'; });
-  form.addEventListener('submit', event => {
+  listen(form, 'input', () => { output.textContent = 'Inputs changed. Compare again to update the result.'; });
+  listen(form, 'submit', event => {
     event.preventDefault();
     const value = key => form.elements[key].value.trim() === '' ? NaN : Number(form.elements[key].value);
     try {
@@ -40,4 +47,19 @@
       root.document.dispatchEvent(new CustomEvent('ae:tool-complete', { detail: { tool: 'holding_period' } }));
     } catch (error) { output.textContent = error.message; }
   });
+
+  // All listeners are installed before controls become available. Submit handlers
+  // prevent native navigation before validation and calculation, even on errors.
+  form.querySelectorAll('[data-local-name]').forEach(el => { el.name = el.dataset.localName; });
+  form.querySelector('[data-local-controls]').disabled = false;
+  form.querySelectorAll('button[type="submit"]').forEach(button => { button.disabled = false; });
+  form.querySelector('[data-local-form-status]').textContent = 'Ready. This tool runs locally; answers are not sent.';
+  form.dataset.localInitialized = 'true';
+  } catch (error) {
+    installed.forEach(([target, type, handler]) => target.removeEventListener(type, handler));
+    form.querySelector('[data-local-controls]').disabled = true;
+    form.querySelectorAll('button[type="submit"]').forEach(button => { button.disabled = true; });
+    throw error;
+  }
+
 })(typeof window !== 'undefined' ? window : globalThis);

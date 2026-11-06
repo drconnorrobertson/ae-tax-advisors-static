@@ -1,0 +1,15 @@
+'use strict';
+const assert = require('node:assert/strict');
+const {estimate} = require('../assets/excess-business-loss-estimator.js');
+const run = (deductions, income, year=2026, status='joint') => estimate({deductions,income,year,status});
+assert.deepEqual(run(900000,200000),{threshold:512000,netLoss:700000,deferred:188000,remainingLoss:512000});
+assert.equal(run(900000,500000).deferred,0);
+assert.equal(run(100000,200000).remainingLoss,0);
+assert.equal(run(512000,0).deferred,0);
+assert.equal(run(512001,0).deferred,1);
+assert.equal(run(700000,0,2025).deferred,74000);
+assert.equal(run(700000,0,2026,'other').deferred,444000);
+for (const bad of [-1,NaN,Infinity,1e13,'4']) assert.throws(()=>run(bad,0));
+assert.throws(()=>run(0,0,2027));
+assert.throws(()=>run(0,0,2026,'bad'));
+console.log('PASS: EBL estimator thresholds, boundaries, zero-loss and invalid inputs.');

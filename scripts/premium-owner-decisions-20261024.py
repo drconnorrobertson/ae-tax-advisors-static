@@ -275,6 +275,10 @@ if __name__=='__main__':
  'sitemap/index.html':list(range(8)),
  'workbooks/business-sale/business-sale-letter-of-intent-review/index.html':[1]}
  for f,ids in destinations.items():
+  if f=='blog/index.html':
+   from blog_archive import register_routes
+   register_routes([PAGES[i] for i in ids])
+   continue
   file=ROOT/f;s=file.read_text();s=re.sub(r'<!-- owner-decisions:start -->.*?<!-- owner-decisions:end -->','',s,flags=re.S)
   block='<!-- owner-decisions:start -->'+section('Planning for your next ownership decision',[ul([a(PAGES[i]['path'],PAGES[i]['title']) for i in ids])])+'<!-- owner-decisions:end -->'
   if f=='blog/index.html':

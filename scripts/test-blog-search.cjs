@@ -1,0 +1,51 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+// Development-only dependency supplied outside the deployed site.
+if (!process.env.AE_JSDOM_PATH) throw new Error('Set AE_JSDOM_PATH to a local jsdom installation.');
+const { JSDOM } = require(process.env.AE_JSDOM_PATH);
+const script = fs.readFileSync(require('node:path').join(__dirname, '../assets/blog-search.js'), 'utf8');
+const html = '<form id="blog-search-form"><input id="blog-search-input"><select id="blog-category"><option value="">All</option><option value="Tax">Tax</option><option value="Estate">Estate</option></select><button>Search</button><button type="reset">Clear</button></form><p id="blog-result-status" role="status">Static archive</p><div id="blog-grid"><article class="blog-card"><a href="/blog/static/">Static article</a></article></div><nav id="blog-pagination"><a href="/blog/page/2/">Next</a></nav><button id="blog-load-more" hidden>Load more</button>';
+const data = Array.from({length: 80}, (_, i) => ({url: `/blog/article-${i}/`, title: `Bonus article ${i}`, description: 'Cost segregation guide', category: i < 60 ? 'Tax' : 'Estate', date: '2026-10-01'}));
+const tick = (ms = 0) => new Promise(resolve => setTimeout(resolve, ms));
+function setup(url = 'https://www.aetaxadvisors.com/blog/', response = data) {
+ const dom = new JSDOM(html, {url, runScripts: 'outside-only'}), w = dom.window;
+ let calls = 0;
+ w.fetch = async () => { calls++; if (response instanceof Error) throw response; return {ok:true, json:async () => response}; };
+ w.eval(script); w.document.dispatchEvent(new w.Event('DOMContentLoaded'));
+ const el = id => w.document.getElementById(id);
+ const submit = () => el('blog-search-form').dispatchEvent(new w.Event('submit', {bubbles:true, cancelable:true}));
+ return {dom, w, el, submit, calls: () => calls};
+}
+(async () => {
+ let x = setup(); await tick();
+ assert.equal(x.calls(), 0, 'No initial request');
+ const original = x.el('blog-grid').firstChild;
+ x.w.eval(script); await tick();
+ x.el('blog-search-input').value = 'BONUS segregation'; x.submit(); await tick();
+ assert.equal(x.calls(), 1, 'Duplicate initialization ignored');
+ assert.equal(x.el('blog-grid').children.length, 36);
+ assert.equal(x.el('blog-pagination').hidden, true);
+ assert.equal(x.el('blog-result-status').textContent, 'Showing 36 of 80 matching articles.');
+ assert.equal(x.w.document.activeElement, x.el('blog-result-status'));
+ assert.equal(new URL(x.w.location.href).searchParams.get('q'), 'BONUS segregation');
+ x.el('blog-load-more').click();
+ assert.equal(x.el('blog-grid').children.length, 72);
+ assert.equal(x.w.document.activeElement.getAttribute('href'), '/blog/article-36/');
+ x.el('blog-load-more').click(); assert.equal(x.el('blog-grid').children.length, 80); assert(x.el('blog-load-more').hidden);
+ x.el('blog-category').value='Estate'; x.el('blog-category').dispatchEvent(new x.w.Event('change')); await tick();
+ assert.equal(x.el('blog-grid').children.length,20); assert.equal(x.calls(),1);
+ assert.equal(new URL(x.w.location.href).searchParams.get('category'),'Estate');
+ x.w.history.back(); await tick(30); assert.equal(x.el('blog-category').value,''); assert.equal(x.el('blog-grid').children.length,36);
+ x.w.history.forward(); await tick(30); assert.equal(x.el('blog-grid').children.length,20);
+ x.el('blog-search-input').value='missing'; x.submit(); await tick(); assert.equal(x.el('blog-grid').children.length,0); assert.match(x.el('blog-result-status').textContent,/No articles/);
+ x.el('blog-search-form').reset(); await tick(10); assert.equal(x.el('blog-grid').firstChild,original); assert.equal(x.el('blog-pagination').hidden,false); assert.equal(x.w.location.search,'');
+ x.dom.window.close();
+ x = setup('https://www.aetaxadvisors.com/blog/?q=bonus&category=tAx'); await tick(); assert.equal(x.calls(),1); assert.equal(x.el('blog-grid').children.length,36); assert.match(x.el('blog-result-status').textContent,/of 60/); x.dom.window.close();
+ x = setup('https://www.aetaxadvisors.com/blog/?q=bonus',new Error('offline')); await tick(); assert.match(x.el('blog-grid').textContent,/Static/); assert.equal(x.el('blog-pagination').hidden,false); assert.match(x.el('blog-result-status').textContent,/retry/);
+ x.w.fetch=async()=>({ok:true,json:async()=>data}); x.submit(); await tick(); assert.equal(x.el('blog-grid').children.length,36); x.dom.window.close();
+ const unsafe = ['javascript:alert(1)','https://evil.test/blog/evil/','//evil.test/blog/evil/','/other/','/blog/../private/','/blog/valid/?secret=x','/blog/valid/#fragment','https://x:y@www.aetaxadvisors.com/blog/test/'];
+ x=setup('https://www.aetaxadvisors.com/blog/?q=bonus',data.slice(0,1).concat(unsafe.map(url=>({url,title:'bonus exploit'})),[{url:'/blog/text/',title:'bonus <img src=x onerror=alert(1)>',description:'<script>alert(1)</script>'}], data.slice(0,1))); await tick(); assert.equal(x.el('blog-grid').children.length,2); assert.equal(x.el('blog-grid').querySelector('img,script'),null); assert.match(x.el('blog-grid').textContent,/<img/); x.dom.window.close();
+ x=setup(); let resolve; x.w.fetch=()=>new Promise(r=>{resolve=r;}); x.el('blog-search-input').value='bonus';x.submit();x.el('blog-search-input').value='';x.el('blog-search-input').dispatchEvent(new x.w.Event('input'));resolve({ok:true,json:async()=>data});await tick();assert.match(x.el('blog-grid').textContent,/Static/);await tick(220);assert.equal(x.el('blog-pagination').hidden,false);x.dom.window.close();
+ x=setup('https://www.aetaxadvisors.com/blog/?q=bonus',{invalid:true}); await tick(); assert.match(x.el('blog-result-status').textContent,/retry/); x.dom.window.close();
+ console.log('PASS: lazy loading, combined search, category URL initialization, 36-item batches, focus, duplicate init, history back/forward, reset/static restoration, empty results, fetch retry, unsafe URLs, text escaping, deduplication, stale response, invalid JSON.');
+})().catch(error=>{console.error(error);process.exitCode=1;});

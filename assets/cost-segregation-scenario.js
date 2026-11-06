@@ -27,11 +27,18 @@
   if (typeof module !== 'undefined' && module.exports) module.exports = { estimate };
   if (!root.document) return;
   const form = root.document.getElementById('cost-seg-scenario');
-  if (!form) return;
+  if (!form || form.dataset.localInitialized === 'true') return;
+  const installed = [];
+  function listen(target, type, handler) {
+    target.addEventListener(type, handler);
+    installed.push([target, type, handler]);
+  }
+  try {
+
   const output = root.document.getElementById('scenario-result');
   const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
-  form.addEventListener('input', function () { output.textContent = 'Inputs changed. Select Calculate to update the scenario.'; });
-  form.addEventListener('submit', function (event) {
+  listen(form, 'input', function () { output.textContent = 'Inputs changed. Select Calculate to update the scenario.'; });
+  listen(form, 'submit', function (event) {
     event.preventDefault();
     const values = {};
     for (const key of ['price','land','reclass','life','month','rate','usable','fee']) {
@@ -56,4 +63,19 @@
       output.append(list);
     } catch (error) { output.textContent = error.message; }
   });
+
+  // All listeners are installed before controls become available. Submit handlers
+  // prevent native navigation before validation and calculation, even on errors.
+  form.querySelectorAll('[data-local-name]').forEach(el => { el.name = el.dataset.localName; });
+  form.querySelector('[data-local-controls]').disabled = false;
+  form.querySelectorAll('button[type="submit"]').forEach(button => { button.disabled = false; });
+  form.querySelector('[data-local-form-status]').textContent = 'Ready. This tool runs locally; answers are not sent.';
+  form.dataset.localInitialized = 'true';
+  } catch (error) {
+    installed.forEach(([target, type, handler]) => target.removeEventListener(type, handler));
+    form.querySelector('[data-local-controls]').disabled = true;
+    form.querySelectorAll('button[type="submit"]').forEach(button => { button.disabled = true; });
+    throw error;
+  }
+
 })(typeof window !== 'undefined' ? window : globalThis);

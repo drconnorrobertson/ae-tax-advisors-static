@@ -1,5 +1,14 @@
+(function () {
 'use strict';
 const form = document.querySelector('#intakeForm');
+if (!form || form.dataset.localInitialized === 'true') return;
+  const installed = [];
+  function listen(target, type, handler) {
+    target.addEventListener(type, handler);
+    installed.push([target, type, handler]);
+  }
+  try {
+
 const summaryCard = document.querySelector('#summaryCard');
 const summaryEl = document.querySelector('#summary');
 let summaryText = '';
@@ -10,7 +19,7 @@ const labels = {
   advisor: 'Current tax advisor', questions: 'Questions'
 };
 const dollars = value => value ? new Intl.NumberFormat('en-US', {style:'currency', currency:'USD', maximumFractionDigits:0}).format(Number(value)) : 'Not provided';
-form.addEventListener('submit', event => {
+listen(form, 'submit', event => {
   event.preventDefault();
   if (!form.reportValidity()) return;
   const data = Object.fromEntries(new FormData(form).entries());
@@ -28,19 +37,36 @@ form.addEventListener('submit', event => {
   summaryCard.scrollIntoView({behavior:'smooth', block:'start'});
 });
 for (const name of ['price', 'land', 'improvements']) {
-  form.elements[name].addEventListener('input', () => form.elements.land.setCustomValidity(''));
+listen(form.querySelector('[data-local-name="' + name + '"]'), 'input', () => form.elements.land.setCustomValidity(''));
 }
 function clearSummary() {
   summaryText = '';
   summaryEl.textContent = '';
   summaryCard.hidden = true;
 }
-form.addEventListener('input', clearSummary);
-form.addEventListener('change', clearSummary);
-form.addEventListener('reset', () => { clearSummary(); form.elements.land.setCustomValidity(''); });
-document.querySelector('#printBtn').addEventListener('click', () => window.print());
-document.querySelector('#downloadBtn').addEventListener('click', () => {
+listen(form, 'input', clearSummary);
+listen(form, 'change', clearSummary);
+listen(form, 'reset', () => { clearSummary(); form.elements.land.setCustomValidity(''); });
+listen(document.querySelector('#printBtn'), 'click', () => window.print());
+listen(document.querySelector('#downloadBtn'), 'click', () => {
   const url = URL.createObjectURL(new Blob([summaryText], {type:'text/plain'}));
   const a = document.createElement('a'); a.href = url; a.download = 'property-review-prep.txt'; a.click();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 });
+
+// All listeners are installed before controls become available. Submit handlers
+// prevent native navigation before validation and calculation, even on errors.
+form.querySelectorAll('[data-local-name]').forEach(el => { el.name = el.dataset.localName; });
+form.querySelector('[data-local-controls]').disabled = false;
+form.querySelectorAll('button[type="submit"]').forEach(button => { button.disabled = false; });
+form.querySelector('[data-local-form-status]').textContent = 'Ready. This tool runs locally; answers are not sent.';
+  form.dataset.localInitialized = 'true';
+  } catch (error) {
+    installed.forEach(([target, type, handler]) => target.removeEventListener(type, handler));
+    form.querySelector('[data-local-controls]').disabled = true;
+    form.querySelectorAll('button[type="submit"]').forEach(button => { button.disabled = true; });
+    throw error;
+  }
+
+
+})();
