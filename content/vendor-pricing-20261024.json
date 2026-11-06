@@ -4,19 +4,20 @@
     "name": "Tax Alchemy",
     "path": "/compare/tax-alchemy-pricing/",
     "category": "strategy",
-    "source": "https://taxalchemy.com/",
-    "fee": "Homepage: $32,000–$50,000 flat fee for planning and implementation. The separate FAQ publishes $20,000–$150,000.",
-    "qualification": "The published ranges differ. Confirm the program, included returns, and renewal price in writing. The FAQ describes a one-year commitment with optional renewal. Education-only products are separate.",
-    "reviewed": "2026-10-24",
+    "source": "https://taxalchemy.com/faqs/",
+    "fee": "Tax Alchemy's official FAQ publishes a $20,000–$150,000 flat-fee range for tax planning and implementation. Confirm the specific program and included work in a written quote.",
+    "qualification": "Its FAQ describes a one-year commitment with an option to renew. Separate education and promotional offers should not be treated as a universal advisory price. Earlier AE material cited another homepage range; this review uses the currently accessible FAQ rather than repeating an unverified current homepage price.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Tax Alchemy pricing",
       "Tax Alchemy cost",
       "Tax Alchemy fees"
     ],
-    "status": "Published ranges differ",
+    "status": "Published program fees — confirm scope",
     "kind": "published",
     "additionalSources": [
-      "https://taxalchemy.com/faqs/"
+      "https://start.taxalchemy.com/save-your-spot",
+      "https://join.taxalchemy.com/select-plan"
     ]
   },
   {
@@ -49,16 +50,19 @@
     "path": "/compare/keystone-cpa-pricing-vs-ae-tax/",
     "category": "realestate",
     "source": "https://www.keystonecpa.com/",
-    "fee": "Tax planning: $20,000 to $55,000 flat fee.",
-    "qualification": "The homepage FAQ separates planning from tax return preparation. Confirm the deliverables and payment schedule for your proposal.",
-    "reviewed": "2026-10-24",
+    "fee": "Keystone's homepage FAQ publishes a $20,000–$55,000 tax-planning range. Its services page separately lists Custom Tax Planning at $19,995 and Comprehensive Tax & Wealth Planning at $39,995. Confirm which current program your quote covers.",
+    "qualification": "These are distinct public offers, not a single universal minimum. The services page excludes annual filing and monthly bookkeeping from planning; ask whether other program or continuing-support options apply to you.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Keystone CPA pricing",
       "Keystone CPA cost",
       "Keystone CPA fees"
     ],
-    "status": "Published starting fee",
-    "kind": "published"
+    "status": "Published program fees — confirm scope",
+    "kind": "published",
+    "additionalSources": [
+      "https://www.keystonecpa.com/services"
+    ]
   },
   {
     "slug": "taxstra",
@@ -106,24 +110,22 @@
     "name": "Tax Goddess",
     "path": "/compare/tax-goddess-pricing/",
     "category": "strategy",
-    "source": "https://taxgoddess.com/",
-    "fee": "$4,000–$20,000+ per planning engagement",
-    "qualification": "A defined tax-planning project for a business owner or investor; filings, studies, legal work, and new projects are extra.",
-    "reviewed": "2026-10-24",
+    "source": "https://taxgoddess.com/strategic-tax-coaching/",
+    "fee": "The reviewed Tax Goddess FAQ describes hourly, task-based and fixed-fee arrangements without one universal numeric planning fee. Obtain a program-specific quote.",
+    "qualification": "The separate GPS agreement describes a 12-month term and automatic renewal unless notice is given at least 30 days before renewal. Check the agreement offered to you; do not apply GPS terms automatically to STC or other services.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Tax Goddess pricing",
       "Tax Goddess cost",
       "Tax Goddess fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses published planning tiers from Anomaly and Investor Friendly CPA and Keystone’s higher planning range. It is a comparable-service budget, not a measured average or this firm’s fee.",
-    "benchmarkSources": [
-      "https://www.anomalycpa.com/pricingcalculator",
-      "https://www.investorfriendlycpa.com/pricing-tax-planning",
-      "https://www.keystonecpa.com/"
-    ],
-    "estimateCategory": "planning"
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": [
+      "https://taxgoddess.com/faqs/",
+      "https://taxgoddess.com/gps-legacy/",
+      "https://taxgoddess.com/sps-tcs/"
+    ]
   },
   {
     "slug": "prime-path-advisory",
@@ -202,24 +204,20 @@
     "name": "Rainwater CPA (James Rainwater CPA LLC)",
     "path": "/compare/rainwater-cpa-pricing-vs-ae-tax/",
     "category": "business",
-    "source": "https://rainwatercpa.com/do-you-need-tax-planning-or-tax-preparation/",
-    "fee": "$4,000–$20,000+ per planning engagement",
-    "qualification": "A defined tax-planning project for a business owner or investor; filings, studies, legal work, and new projects are extra.",
-    "reviewed": "2026-10-24",
+    "source": "https://rainwatercpa.com/tax-planning-services/",
+    "fee": "A current numeric Rainwater CPA fee was not verified in the official pages reviewed. Request a written quote; an AE estimate for comparable work is not Rainwater's price.",
+    "qualification": "Price the planning period and meeting cadence alongside the implementation and filing work. Do not assume that a quarterly service means a particular monthly or annual fee.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Rainwater CPA (James Rainwater CPA LLC) pricing",
       "Rainwater CPA (James Rainwater CPA LLC) cost",
       "Rainwater CPA (James Rainwater CPA LLC) fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses published planning tiers from Anomaly and Investor Friendly CPA and Keystone’s higher planning range. It is a comparable-service budget, not a measured average or this firm’s fee.",
-    "benchmarkSources": [
-      "https://www.anomalycpa.com/pricingcalculator",
-      "https://www.investorfriendlycpa.com/pricing-tax-planning",
-      "https://www.keystonecpa.com/"
-    ],
-    "estimateCategory": "planning"
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": [
+      "https://rainwatercpa.com/do-you-need-tax-planning-or-tax-preparation/"
+    ]
   },
   {
     "slug": "p4-tax",
@@ -291,22 +289,21 @@
     "name": "Anderson Advisors",
     "path": "/compare/anderson-advisors-pricing/",
     "category": "legal",
-    "source": "https://andersonadvisors.com/",
-    "fee": "$3,000–$14,000 illustrative tax-work budget",
-    "qualification": "A hypothetical 10–40 hour tax/accounting advisory scope using $300–$350/hour; legal documents, court representation, government fees, and entity formation excluded.",
-    "reviewed": "2026-10-24",
+    "source": "https://andersonadvisors.com/tax-services/",
+    "fee": "A complete numeric Anderson Advisors engagement fee was not verified in the reviewed official pages. Request separate pricing for membership, tax work, entity services and legal deliverables.",
+    "qualification": "An illustrative hourly tax budget based on another firm is not Anderson's price or hourly rate. Avoid treating a membership, consultation or formation charge as the total project cost.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Anderson Advisors pricing",
       "Anderson Advisors cost",
       "Anderson Advisors fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "Calculation: 10 × $300 = $3,000; 40 × $350 = $14,000, using Bright Hill’s published tax planning rates as an external benchmark. This is not a legal-services price or this provider’s hourly rate.",
-    "benchmarkSources": [
-      "https://www.brighthilladvisors.com/pricing-and-fees/"
-    ],
-    "estimateCategory": "legal"
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": [
+      "https://andersonadvisors.com/",
+      "https://andersonadvisors.com/platinum-membership/"
+    ]
   },
   {
     "slug": "gelt",
