@@ -1049,23 +1049,19 @@
     "path": "/compare/cssi-pricing/",
     "category": "costseg",
     "source": "https://cssiservices.com/services/",
-    "fee": "$2,500–$5,000+ per property study",
-    "qualification": "A professionally reviewed or engineered study of a relatively straightforward property; complex commercial sites, travel, filings, and amendments are additional.",
-    "reviewed": "2026-10-24",
+    "fee": "Request a property-specific CSSI quote. The official service and cost segregation pages reviewed do not establish a universal fixed study fee.",
+    "qualification": "A calculator or preliminary savings estimate is not a fee schedule. Have CSSI price the property, inspection, analysis, report and support; separate other specialty projects.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "CSSI pricing",
       "CSSI cost",
       "CSSI fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses R.E. Cost Seg engineering from $2,320, CostSegEZ engineering from $2,500, and CostSegregation.com’s discussion of complex studies reaching $5,000 or more. Software-only products cost less.",
-    "benchmarkSources": [
-      "https://www.recostseg.com/",
-      "https://costsegez.com/",
-      "https://www.costsegregation.com/resources/cost-segregation-study-cost/"
-    ],
-    "estimateCategory": "costseg"
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": [
+      "https://cssiservices.com/services/cost-segregation/"
+    ]
   },
   {
     "slug": "capstan-tax-strategies",
@@ -1073,40 +1069,40 @@
     "path": "/compare/capstan-tax-strategies-pricing/",
     "category": "costseg",
     "source": "https://capstantax.com/",
-    "fee": "$2,500–$5,000+ per property study",
-    "qualification": "A professionally reviewed or engineered study of a relatively straightforward property; complex commercial sites, travel, filings, and amendments are additional.",
-    "reviewed": "2026-10-24",
+    "fee": "Request a property-specific Capstan Tax Strategies proposal. The official homepage, services and study pages reviewed do not establish a universal fixed study fee.",
+    "qualification": "Price the requested engineering study and any added fixed-asset, tangible-property or incentive analysis separately. Confirm inspection, records review, report delivery and follow-up.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Capstan Tax Strategies pricing",
       "Capstan Tax Strategies cost",
       "Capstan Tax Strategies fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses R.E. Cost Seg engineering from $2,320, CostSegEZ engineering from $2,500, and CostSegregation.com’s discussion of complex studies reaching $5,000 or more. Software-only products cost less.",
-    "benchmarkSources": [
-      "https://www.recostseg.com/",
-      "https://costsegez.com/",
-      "https://www.costsegregation.com/resources/cost-segregation-study-cost/"
-    ],
-    "estimateCategory": "costseg"
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": [
+      "https://capstantax.com/services/",
+      "https://capstantax.com/cost-segregation-study/"
+    ]
   },
   {
     "slug": "cost-seg-smart",
     "name": "Cost Seg Smart",
     "path": "/compare/cost-seg-smart-pricing/",
     "category": "software",
-    "source": "https://costsegsmart.com/pricing/",
-    "fee": "Studies start at $495. The pricing page lists most residential studies at $495 to $995 and commercial studies starting at $995.",
-    "qualification": "Confirm the specific property price and included support. Ask how the study findings reach your tax preparer and whether any filing work is separately contracted.",
-    "reviewed": "2026-10-24",
+    "source": "https://costsegsmart.com/",
+    "fee": "Cost Seg Smart advertises studies starting at $495. Its pricing page describes most residential studies as $495–$995 and commercial studies starting at $995; the selected property determines checkout pricing.",
+    "qualification": "The starting price is not a universal fee for every property. Confirm the property type and basis, renovation work, inspection requirements and applicable revision terms. The provider describes CPA coordination and written audit support; Form 3115 preparation is separately available.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Cost Seg Smart pricing",
       "Cost Seg Smart cost",
       "Cost Seg Smart fees"
     ],
-    "status": "Published starting fee",
-    "kind": "published"
+    "status": "Published program fees — confirm scope",
+    "kind": "published",
+    "additionalSources": [
+      "https://costsegsmart.com/pricing/"
+    ]
   },
   {
     "slug": "engineered-tax-services",
@@ -1179,16 +1175,19 @@
     "path": "/compare/re-cost-seg-pricing/",
     "category": "costseg",
     "source": "https://www.recostseg.com/",
-    "fee": "Rapid Report from $950; fully engineered residential studies from $2,320; commercial studies from $2,730+.",
-    "qualification": "Rapid Report is self-directed for qualifying residential properties of up to four units, under $1.2 million depreciable basis and under $80,000 improvements. Larger or complex properties require another scope.",
-    "reviewed": "2026-10-24",
+    "fee": "R.E. Cost Seg lists Rapid Reports from $950 per study. Fully Engineered Studies start at $2,320+ for residential and $2,730+ for commercial property.",
+    "qualification": "The Rapid Report page lists residential limits of less than 3,500 square feet per unit, up to four units, and a $1.2 million depreciable-basis maximum. The fully engineered option covers residential and commercial properties with a virtual or in-person visit. These are starting prices, not quotes for every property.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "RE Cost Seg pricing",
       "RE Cost Seg cost",
       "RE Cost Seg fees"
     ],
-    "status": "Published study starting fees",
-    "kind": "published"
+    "status": "Published program fees — confirm scope",
+    "kind": "published",
+    "additionalSources": [
+      "https://www.recostseg.com/services"
+    ]
   },
   {
     "slug": "cherry-bekaert",
@@ -1547,16 +1546,17 @@
     "path": "/compare/costsegez-pricing/",
     "category": "software",
     "source": "https://costsegez.com/",
-    "fee": "DIY study displayed at $595; engineer-reviewed study $895; fully engineered studies start at $2,500.",
-    "qualification": "DIY and reviewed paths have property and renovation limits. Audit protection is displayed as a $195 add-on for those paths; included for fully engineered studies. Confirm the current checkout price.",
-    "reviewed": "2026-10-24",
+    "fee": "CostSegEZ lists DIY at $595, Engineer Reviewed at $895, and Fully Engineered studies starting at $2,250 depending on complexity. Audit protection is listed as a $195 add-on for the two lower tiers and included for Fully Engineered.",
+    "qualification": "Compare the actual tier rather than applying the DIY price to all properties. Lower-tier property and renovation limits matter; the fully engineered tier covers residential and commercial properties and includes a virtual or in-person inspection. Ask what audit protection provides.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "CostSegEZ pricing",
       "CostSegEZ cost",
       "CostSegEZ fees"
     ],
-    "status": "Published study tiers",
-    "kind": "published"
+    "status": "Published program fees — confirm scope",
+    "kind": "published",
+    "additionalSources": []
   },
   {
     "slug": "costsegrx",

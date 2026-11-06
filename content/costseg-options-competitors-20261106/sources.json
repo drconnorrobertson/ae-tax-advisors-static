@@ -1,0 +1,272 @@
+{
+  "cssi": {
+    "name": "CSSI",
+    "sources": [
+      [
+        "https://cssiservices.com/services/",
+        "CSSI specialty service menu"
+      ],
+      [
+        "https://cssiservices.com/services/cost-segregation/",
+        "CSSI engineering-based cost segregation"
+      ]
+    ],
+    "summary": "CSSI’s official service page describes engineering-based cost segregation, R&D tax credits, and Section 179D work for property owners and businesses.",
+    "fit": "Property owners seeking engineering-based depreciation work and potentially a separate specialty incentive project.",
+    "alternative_intro": "Compare CSSI alternatives using the actual building and requested work. CSSI describes engineering-based cost segregation alongside R&D and Section 179D services. AE Tax Advisors offers standalone studies; Capstan offers specialty engineering and fixed-asset analysis; R.E. Cost Seg offers distinct study routes. Compare a matched study proposal before adding other services.",
+    "keep": "Keep CSSI on the shortlist when you want an engineering-based study or need to discuss cost segregation alongside another specialty tax service. Ask for a sample report for your property type and a clear handoff to your current CPA.",
+    "boundary": "The public service menu does not establish whether a specific quote includes filings, additional incentive analysis or representation. Confirm those responsibilities in the engagement.",
+    "fee": "Request a property-specific CSSI quote. The official service and cost segregation pages reviewed do not establish a universal fixed study fee.",
+    "fee_context": "A calculator or preliminary savings estimate is not a fee schedule. Have CSSI price the property, inspection, analysis, report and support; separate other specialty projects.",
+    "filing_answer": "Confirm which depreciation schedules and CPA responses the study includes, and separately assign any Form 3115 preparation, amendments or income-tax return work. Do not assume these are included or unavailable.",
+    "price_comparison": "Compare the selected study and review level for the same building. AE’s rate is based on square footage; a competitor’s starting price may depend on property type, basis or a different service tier.",
+    "vs_intro": "Compare CSSI alternatives using the actual building and requested work. CSSI describes engineering-based cost segregation alongside R&D and Section 179D services. AE Tax Advisors offers standalone studies; Capstan offers specialty engineering and fixed-asset analysis; R.E. Cost Seg offers distinct study routes. Compare a matched study proposal before adding other services.",
+    "scenario": "Suppose you own a warehouse with a substantial renovation history and also want to discuss energy-related work. Send each bidder the same supported cost records and ask for separate study and specialty-project scopes.",
+    "decision": "Choose based on the property analysis, deliverables and named preparer handoff. A broader service menu is useful only when those services fit your actual project.",
+    "ae_question": "What inspection, report schedules, CPA coordination and support does AE include for this property, and which tax filings require a separate engagement?",
+    "questions": [
+      "What inspection and engineering documentation will this property receive?",
+      "Which buildings and renovation records are included in the fixed quote?",
+      "Are R&D or energy-related projects separately contracted?",
+      "Who supplies final schedules, answers CPA questions and handles any filing work?"
+    ],
+    "cost_rows": [
+      [
+        "Study quote",
+        "Specify the building, renovation history, inspection and deliverable."
+      ],
+      [
+        "Related incentives",
+        "Request distinct scopes for any additional specialty analysis."
+      ],
+      [
+        "CPA handoff",
+        "Identify schedules, draft review and question handling."
+      ],
+      [
+        "Tax implementation",
+        "Assign forms, return changes and representation explicitly."
+      ]
+    ],
+    "peers": [
+      "capstan-tax-strategies",
+      "re-cost-seg"
+    ]
+  },
+  "capstan-tax-strategies": {
+    "name": "Capstan Tax Strategies",
+    "sources": [
+      [
+        "https://capstantax.com/",
+        "Capstan official website"
+      ],
+      [
+        "https://capstantax.com/services/",
+        "Capstan service menu"
+      ],
+      [
+        "https://capstantax.com/cost-segregation-study/",
+        "Capstan cost segregation studies"
+      ]
+    ],
+    "summary": "Capstan’s official menu includes cost segregation, R&D credits, energy incentives, unit-of-property and tangible-property analysis, and consulting.",
+    "fit": "Buyers needing a cost segregation specialist with fixed-asset, tangible-property or related incentive analysis.",
+    "alternative_intro": "Compare Capstan Tax Strategies alternatives by the technical work required. Capstan offers cost segregation and related specialty services. AE Tax Advisors offers standalone property studies; CSSI offers engineering-based cost segregation and other incentives; Cost Seg Smart publishes a remotely delivered study workflow. Request equivalent inspection and review scopes before comparing fees.",
+    "keep": "Keep Capstan on your shortlist when the project involves building components, repairs, unit-of-property questions or related specialty incentives. Ask which analyses belong in the study and which need a separate proposal.",
+    "boundary": "A specialist’s service menu does not make every service part of one study fee. Ask about the chosen study level, accountant coordination and the limits of support.",
+    "fee": "Request a property-specific Capstan Tax Strategies proposal. The official homepage, services and study pages reviewed do not establish a universal fixed study fee.",
+    "fee_context": "Price the requested engineering study and any added fixed-asset, tangible-property or incentive analysis separately. Confirm inspection, records review, report delivery and follow-up.",
+    "filing_answer": "Ask which documentation and accountant coordination the proposal includes, whether any method-change documentation or preparation is separately scoped, and who signs and files the tax return.",
+    "price_comparison": "Compare the selected study and review level for the same building. AE’s rate is based on square footage; a competitor’s starting price may depend on property type, basis or a different service tier.",
+    "vs_intro": "Compare Capstan Tax Strategies alternatives by the technical work required. Capstan offers cost segregation and related specialty services. AE Tax Advisors offers standalone property studies; CSSI offers engineering-based cost segregation and other incentives; Cost Seg Smart publishes a remotely delivered study workflow. Request equivalent inspection and review scopes before comparing fees.",
+    "scenario": "Suppose you acquired a retail building, replaced several systems and need to reconcile old asset records. Compare a study-only proposal with a proposal that also addresses the specific fixed-asset questions.",
+    "decision": "A proposal with the right technical work and a usable accountant handoff is more meaningful than a low starting price for a different product. Retain Capstan if its scoped specialty work best fits those needs.",
+    "ae_question": "What inspection, report schedules, CPA coordination and support does AE include for this property, and which tax filings require a separate engagement?",
+    "questions": [
+      "Which study level and property visit fit this building?",
+      "Does the quote include unit-of-property or tangible-property analysis?",
+      "Which depreciation and method-change documentation reaches my CPA?",
+      "What is separately priced, and what response support continues after delivery?"
+    ],
+    "cost_rows": [
+      [
+        "Engineering scope",
+        "Identify the study level, property visit and records reviewed."
+      ],
+      [
+        "Fixed-asset analysis",
+        "Separate added unit-of-property and tangible-property projects."
+      ],
+      [
+        "CPA documentation",
+        "Confirm final schedules and any method-change deliverables."
+      ],
+      [
+        "Other services",
+        "Price additional incentives, filings and support separately."
+      ]
+    ],
+    "peers": [
+      "cssi",
+      "cost-seg-smart"
+    ]
+  },
+  "re-cost-seg": {
+    "name": "R.E. Cost Seg",
+    "sources": [
+      [
+        "https://www.recostseg.com/",
+        "R.E. Cost Seg official service menu"
+      ],
+      [
+        "https://www.recostseg.com/services",
+        "R.E. Cost Seg study options and prices"
+      ]
+    ],
+    "summary": "R.E. Cost Seg lists Fully Engineered Studies, Rapid Reports, and Form 3115 Preparation. It describes coordination with the client’s CPA and delivery of fixed-asset schedules.",
+    "fit": "Owners choosing between a questionnaire-based Rapid Report and a fully engineered property study.",
+    "alternative_intro": "Compare R.E. Cost Seg alternatives after selecting a study route. Its Rapid Report uses a modeling approach with engineering review; its fully engineered option includes a virtual or in-person visit. AE Tax Advisors offers standalone studies; CostSegEZ has separate DIY, reviewed and fully engineered tiers; Cost Seg Smart prices its study service by property characteristics. Match eligibility and review depth first.",
+    "keep": "Keep R.E. Cost Seg on the shortlist when its Rapid Report meets your property limits or when its fully engineered option fits the building. Its menu also lists Form 3115 preparation, so ask for that scope rather than assuming it is unavailable.",
+    "boundary": "The Rapid Report and fully engineered option have different methods, input requirements and eligibility. Written audit-response assistance is not the same as tax-authority representation.",
+    "fee": "R.E. Cost Seg lists Rapid Reports from $950 per study. Fully Engineered Studies start at $2,320+ for residential and $2,730+ for commercial property.",
+    "fee_context": "The Rapid Report page lists residential limits of less than 3,500 square feet per unit, up to four units, and a $1.2 million depreciable-basis maximum. The fully engineered option covers residential and commercial properties with a virtual or in-person visit. These are starting prices, not quotes for every property.",
+    "filing_answer": "R.E. Cost Seg lists Form 3115 preparation as a service. Confirm its separate price and preparer responsibilities. Its study audit support covers written technical responses; representation and return preparation are outside that stated support scope.",
+    "price_comparison": "Compare the selected study and review level for the same building. AE’s rate is based on square footage; a competitor’s starting price may depend on property type, basis or a different service tier.",
+    "vs_intro": "Compare R.E. Cost Seg alternatives after selecting a study route. Its Rapid Report uses a modeling approach with engineering review; its fully engineered option includes a virtual or in-person visit. AE Tax Advisors offers standalone studies; CostSegEZ has separate DIY, reviewed and fully engineered tiers; Cost Seg Smart prices its study service by property characteristics. Match eligibility and review depth first.",
+    "scenario": "Suppose you own a duplex near the Rapid Report size limit and have substantial improvements. Ask R.E. Cost Seg to confirm eligibility and compare its selected route with a fully engineered proposal for the same records.",
+    "decision": "Choose the workflow that fits the building and the quality of records you can supply. A questionnaire-based starting price and a site-visit study quote do not describe identical work.",
+    "ae_question": "What inspection, report schedules, CPA coordination and support does AE include for this property, and which tax filings require a separate engagement?",
+    "questions": [
+      "Does each unit, total basis and renovation scope qualify for the Rapid Report?",
+      "Is the proposal for modeling with review or a fully engineered study?",
+      "Is Form 3115 preparation needed and separately priced?",
+      "What does audit support cover, and who handles return filing or representation?"
+    ],
+    "cost_rows": [
+      [
+        "Rapid Report",
+        "From $950; verify property, size and basis limits."
+      ],
+      [
+        "Fully engineered",
+        "From $2,320+ residential or $2,730+ commercial; confirm visit and report scope."
+      ],
+      [
+        "Method-change work",
+        "Ask for the separate Form 3115 service quote if needed."
+      ],
+      [
+        "Support boundaries",
+        "Confirm written study responses versus representation and return work."
+      ]
+    ],
+    "peers": [
+      "costsegez",
+      "cost-seg-smart"
+    ]
+  },
+  "cost-seg-smart": {
+    "name": "Cost Seg Smart",
+    "sources": [
+      [
+        "https://costsegsmart.com/",
+        "Cost Seg Smart study scope"
+      ],
+      [
+        "https://costsegsmart.com/pricing/",
+        "Cost Seg Smart published pricing and revision terms"
+      ]
+    ],
+    "summary": "Cost Seg Smart advertises engineering-based studies, CPA coordination, twelve months of revisions, and written audit support. Its homepage says Form 3115 preparation is available separately.",
+    "fit": "Owners evaluating a remotely delivered, property-specific study with CPA coordination and a published starting price.",
+    "alternative_intro": "Compare Cost Seg Smart alternatives on the selected property tier, input review and accountant handoff. AE Tax Advisors offers standalone studies; R.E. Cost Seg separates Rapid Reports from fully engineered studies; CostSegEZ separates DIY, engineer-reviewed and fully engineered tiers. A low advertised price is useful only if the selected route fits the property.",
+    "keep": "Keep Cost Seg Smart on your shortlist when its property-specific workflow, CPA coordination and stated support match your requirements. It advertises engineering-based analysis and offers Form 3115 preparation separately.",
+    "boundary": "Confirm how records are verified, whether a site visit is required, and which revision terms apply to the order date. The pricing page describes a revision-policy change effective November 17, 2026; obtain the applicable terms in writing.",
+    "fee": "Cost Seg Smart advertises studies starting at $495. Its pricing page describes most residential studies as $495–$995 and commercial studies starting at $995; the selected property determines checkout pricing.",
+    "fee_context": "The starting price is not a universal fee for every property. Confirm the property type and basis, renovation work, inspection requirements and applicable revision terms. The provider describes CPA coordination and written audit support; Form 3115 preparation is separately available.",
+    "filing_answer": "Cost Seg Smart states that Form 3115 preparation is available separately. Ask who evaluates whether it is needed, prices the preparation, answers CPA questions and completes the income-tax return.",
+    "price_comparison": "Compare the selected study and review level for the same building. AE’s rate is based on square footage; a competitor’s starting price may depend on property type, basis or a different service tier.",
+    "vs_intro": "Compare Cost Seg Smart alternatives on the selected property tier, input review and accountant handoff. AE Tax Advisors offers standalone studies; R.E. Cost Seg separates Rapid Reports from fully engineered studies; CostSegEZ separates DIY, engineer-reviewed and fully engineered tiers. A low advertised price is useful only if the selected route fits the property.",
+    "scenario": "Suppose you are comparing studies for a furnished rental with documented improvements. Ask each firm to confirm which fixtures and improvements are analyzed, what records support the allocations and what your preparer receives.",
+    "decision": "Evaluate record verification, component schedules and accountant support alongside the selected fee. Compare the actual study route, not an assumption that every online provider sells the same kind of report.",
+    "ae_question": "What inspection, report schedules, CPA coordination and support does AE include for this property, and which tax filings require a separate engagement?",
+    "questions": [
+      "What exact property tier and basis determine my study fee?",
+      "How are property inputs and improvement records verified?",
+      "What inspection and written audit-response support are included?",
+      "Which revision terms apply to my order and what does separate Form 3115 work cost?"
+    ],
+    "cost_rows": [
+      [
+        "Property tier",
+        "Studies from $495; most residential $495–$995 and commercial from $995, as advertised."
+      ],
+      [
+        "Inputs and inspection",
+        "Confirm data verification, renovations and any site-visit requirements."
+      ],
+      [
+        "Support and revisions",
+        "Request the terms applicable to the order date."
+      ],
+      [
+        "Filing work",
+        "Price Form 3115 preparation and return integration separately."
+      ]
+    ],
+    "peers": [
+      "re-cost-seg",
+      "costsegez"
+    ]
+  },
+  "costsegez": {
+    "name": "CostSegEZ",
+    "sources": [
+      [
+        "https://costsegez.com/",
+        "CostSegEZ published service tiers and prices"
+      ]
+    ],
+    "summary": "CostSegEZ publishes separate DIY, Engineer Reviewed and Fully Engineered study tiers. The lower tiers have property and renovation limits; the Fully Engineered option includes a virtual or in-person inspection.",
+    "fit": "Owners comparing DIY, engineer-reviewed and fully engineered routes with explicit property and renovation limits.",
+    "alternative_intro": "Compare CostSegEZ alternatives by service tier. Its DIY report, engineer-reviewed option and fully engineered study differ in eligibility and process. AE Tax Advisors offers standalone studies; R.E. Cost Seg separates Rapid Reports from fully engineered work; Cost Seg Smart publishes property-based study pricing. Compare the matching review level and total scope.",
+    "keep": "Keep CostSegEZ on your shortlist when a published tier fits the property and the CPA accepts its workflow. Its fully engineered option includes a virtual or in-person inspection, while its lower tiers have defined purchase-price and renovation limits.",
+    "boundary": "DIY eligibility excludes condos and requires a purchase price below $1 million with renovations below $10,000. Engineer Reviewed lists residential property below $1 million and renovations below $100,000. Confirm current eligibility before buying.",
+    "fee": "CostSegEZ lists DIY at $595, Engineer Reviewed at $895, and Fully Engineered studies starting at $2,250 depending on complexity. Audit protection is listed as a $195 add-on for the two lower tiers and included for Fully Engineered.",
+    "fee_context": "Compare the actual tier rather than applying the DIY price to all properties. Lower-tier property and renovation limits matter; the fully engineered tier covers residential and commercial properties and includes a virtual or in-person inspection. Ask what audit protection provides.",
+    "filing_answer": "Ask who evaluates any method-change requirement, prepares Form 3115 if needed and integrates the schedules into the return. A report tier and an audit-protection option do not establish that return preparation or representation is included.",
+    "price_comparison": "Compare the selected study and review level for the same building. AE’s rate is based on square footage; a competitor’s starting price may depend on property type, basis or a different service tier.",
+    "vs_intro": "Compare CostSegEZ alternatives by service tier. Its DIY report, engineer-reviewed option and fully engineered study differ in eligibility and process. AE Tax Advisors offers standalone studies; R.E. Cost Seg separates Rapid Reports from fully engineered work; Cost Seg Smart publishes property-based study pricing. Compare the matching review level and total scope.",
+    "scenario": "Suppose you own a condo with extensive renovations and initially budgeted for a DIY report. Check the exclusions first, then compare the eligible reviewed or fully engineered route with other firms’ proposals.",
+    "decision": "Choose an eligible tier with sufficient record review and a clear accountant handoff. A $595 DIY fee is not an equivalent quote for a fully engineered commercial study.",
+    "ae_question": "What inspection, report schedules, CPA coordination and support does AE include for this property, and which tax filings require a separate engagement?",
+    "questions": [
+      "Does my property meet this tier’s purchase-price and renovation limits?",
+      "Is a condo eligible for the tier I selected?",
+      "What inspection, engineer review and report schedules are included?",
+      "What does audit protection cover and who handles any separate tax forms?"
+    ],
+    "cost_rows": [
+      [
+        "DIY",
+        "Listed at $595; residential excluding condos, below $1 million purchase price and $10,000 renovations."
+      ],
+      [
+        "Engineer Reviewed",
+        "Listed at $895; residential below $1 million purchase price and $100,000 renovations."
+      ],
+      [
+        "Fully Engineered",
+        "Starts at $2,250 depending on complexity; confirm inspection and full scope."
+      ],
+      [
+        "Audit protection",
+        "Listed at $195 extra for lower tiers; included for Fully Engineered. Confirm terms."
+      ]
+    ],
+    "peers": [
+      "re-cost-seg",
+      "cost-seg-smart"
+    ]
+  }
+}
