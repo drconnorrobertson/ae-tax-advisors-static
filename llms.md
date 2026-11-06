@@ -141,3 +141,4 @@ $7,800 advisory engagement. No required recurring annual planning fee. Two payme
 - [AE Tax Advisors Reviews & Case Studies | Official Site](https://www.aetaxadvisors.com/ae-tax-advisors-reviews/): Read AE Tax Advisors reviews information, explore 28 anonymized planning stories, and compare advisory scope, fees and next steps before booking a call.
 
 AE publishes the comparison guides and offers services discussed in them. Best means engagement fit, not an independent award. Anonymized planning stories distinguish proposed work, contracted scope and completed reviews. Comparison worksheets do not establish tax eligibility.
+- [Selling a Business and Building: 1031 Planning | AE Tax](https://www.aetaxadvisors.com/blog/selling-business-and-building-1031-exchange/)

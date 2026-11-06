@@ -1,0 +1,52 @@
+{
+  "route": "/resources/cost-seg-roi-guide/",
+  "metadata": {
+    "title": "Cost Segregation ROI: Costs, Tax Benefits & Risks | AE Tax",
+    "description": "Evaluate cost segregation ROI using usable deductions, study fees, bonus eligibility and sale effects. Compare property facts and prepare for an AE consultation.",
+    "h1": "Cost Segregation ROI Guide: Model the Benefit Before You Buy"
+  },
+  "datePublished": "2026-09-18",
+  "dateModified": "2026-11-06",
+  "discovery": {
+    "sitemap_membership": "preserve existing",
+    "no_new_urls": true,
+    "canonical": "https://www.aetaxadvisors.com/resources/cost-seg-roi-guide/",
+    "add_to_reviewed_refresh_routes": true
+  },
+  "discovery_replacements": [
+    {
+      "path": "resources/index.html",
+      "base_sha256": "0032cd7ea150e497d20869295c88ce75dd5e551fa159cdb32bf9bbb022ef53a6",
+      "result_sha256": "db9f18b7f5c027955dc7cb36b35173413229e1b2a53604345385289f00956943",
+      "replacements": [
+        {
+          "old": "<a href=\"/resources/cost-seg-roi-guide/\">Cost segregation ROI guide</a>",
+          "new": "<a href=\"/resources/cost-seg-roi-guide/\">Cost Segregation ROI: Costs, Tax Benefits &amp; Risks | AE Tax</a>"
+        }
+      ]
+    },
+    {
+      "path": "sitemap/index.html",
+      "base_sha256": "ec44e65258e4b74cd05e71ec408f46917949dd98c490683112c425839ee11a45",
+      "result_sha256": "eef0805428fa193fc9f347ecda08eaa1a3c865548b458104f241679a63bb16f1",
+      "replacements": [
+        {
+          "old": "<a href=\"/resources/cost-seg-roi-guide/\">Cost Segregation ROI Guide: What to Expect by Property Type</a>",
+          "new": "<a href=\"/resources/cost-seg-roi-guide/\">Cost Segregation ROI: Costs, Tax Benefits &amp; Risks | AE Tax</a>"
+        }
+      ]
+    },
+    {
+      "path": "llms-full.txt",
+      "base_sha256": "40a65554109e9f1a3cac8289972f7c6030b4a926a27103cfdb54210d644970be",
+      "result_sha256": "d0f9461b43322fcdc79363d6372d21da59ca737111c99345694a705db5855f08",
+      "replacements": [
+        {
+          "old": "- [Cost Segregation ROI Guide -- Returns by Property Type](https://www.aetaxadvisors.com/resources/cost-seg-roi-guide/): A comprehensive breakdown of how cost segregation delivers returns for short-term rentals, long-term rentals, hotels, retail, office.",
+          "new": "- [Cost Segregation ROI: Costs, Tax Benefits & Risks | AE Tax](https://www.aetaxadvisors.com/resources/cost-seg-roi-guide/): Evaluate cost segregation ROI using usable deductions, study fees, bonus eligibility and sale effects. Compare property facts and prepare for an AE consultation."
+        }
+      ]
+    }
+  ],
+  "merge_instructions": "Copy page, test and route-specific content directory. Merge only this route into reviewed-content-lastmod and discovery-reviewed-copy. Union pages.json into review route lists. Apply exact discovery replacements without overwriting concurrent edits to shared files."
+}

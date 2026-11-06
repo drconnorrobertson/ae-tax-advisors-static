@@ -1399,5 +1399,18 @@
   "/rental-property-tax-planning/": {
     "title": "Rental Property Tax Planning for Business Owners | AE Tax",
     "description": "Plan rental losses, REPS eligibility, cost segregation and 1031 exchanges alongside business income. Know which deductions you can use and which records matter."
+  },
+  "/resources/cost-seg-roi-guide/": {
+    "title": "Cost Segregation ROI: Costs, Tax Benefits & Risks | AE Tax",
+    "description": "Evaluate cost segregation ROI using usable deductions, study fees, bonus eligibility and sale effects. Compare property facts and prepare for an AE consultation."
+  },
+  "/blog/grouping-elections-real-estate-irc-469/": {
+    "title": "Grouping Elections for Real Estate Under IRC 469 | AE Tax Advisors",
+    "description": "Review IRC 469 grouping, the REPS all-interests election, participation tests, suspended losses and sale tradeoffs before combining rental activities.",
+    "description_only": true
+  },
+  "/blog/selling-business-and-building-1031-exchange/": {
+    "title": "Selling a Business and Building: 1031 Planning | AE Tax",
+    "description": "Selling your business and its building together? Separate ownership, asset allocation, exchange funds and tax reserves before agreeing to the closing terms."
   }
 }

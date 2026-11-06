@@ -1,0 +1,55 @@
+{
+  "reviewed": "2026-11-06",
+  "sources": [
+    {
+      "url": "https://www.irs.gov/publications/p946",
+      "title": "Publication 946 (2025)",
+      "support": "Chapters 1, 3 and 4: correction route; acquired and placed in service after January 19, 2025; exclusions; GDS/ADS classes and MACRS methods. Read current version and relevant passages."
+    },
+    {
+      "url": "https://www.irs.gov/publications/p925",
+      "title": "Publication 925 (2025)",
+      "support": "Rental exceptions and material participation; basis, at-risk, passive and excess-business-loss limits. These do not determine the building recovery period."
+    },
+    {
+      "url": "https://www.irs.gov/publications/p527",
+      "title": "Publication 527 (2025)",
+      "support": "Land is not depreciable; allocation of land/building costs; personal-use dwelling limits."
+    },
+    {
+      "url": "https://www.irs.gov/publications/p544",
+      "title": "Publication 544 (2025)",
+      "support": "Structural components; adjusted basis, Sections 1245/1250 and disposition/recapture rules."
+    },
+    {
+      "url": "https://www.irs.gov/instructions/i3115",
+      "title": "Instructions for Form 3115 (12/2022)",
+      "support": "Part IV: negative 481(a) adjustment generally one year; current guidance and eligibility still must be checked."
+    },
+    {
+      "url": "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+      "title": "Publication 5653 (2-2025)",
+      "support": "Cover disclaimer, chapter 3.D (printed p32) no IRS preparation standards; chapters 4\u20135 documented classifications, cost support and basis reconciliation. Not study approval/audit-risk assurance."
+    },
+    {
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/irs-audits",
+      "title": "IRS audits",
+      "support": "Return selection and examination; does not support assurance that cost segregation cannot increase risk."
+    },
+    {
+      "url": "https://www.irs.gov/pub/irs-prior/i4562--2025.pdf",
+      "title": "2025 Instructions for Form 4562",
+      "support": "Bonus date change and qualification/elections; review original property dates."
+    },
+    {
+      "url": "https://www.irs.gov/pub/irs-drop/n-26-11.pdf",
+      "title": "Notice 2026-11",
+      "support": "Permanent 100% bonus eligibility and binding-contract/self-construction acquisition guidance."
+    },
+    {
+      "url": "https://www.irs.gov/irb/2025-24_IRB#REV-PROC-2025-23",
+      "title": "Revenue Procedure 2025-23",
+      "support": "Section 6.01 scope, exceptions, required statements and 481(a) computation; page directs preparer to subsequent modifications/current filing-year procedure."
+    }
+  ]
+}
