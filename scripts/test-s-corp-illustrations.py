@@ -13,6 +13,7 @@ from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
+import runpy
 import subprocess
 from urllib.parse import urlsplit
 from tax_review_build_normalization import normalize_baseline_html
@@ -201,6 +202,14 @@ assert 'not a complete net tax benefit or a fee quote' in pages[COMPARE]
 # sequence/tables even when another reviewed change corrects unrelated prose.
 service='services/s-corp-election/index.html'
 old_service=baseline(service);new_service=(ROOT/service).read_text()
+# The later buyer-FAQ batch removes one exact, undisplayed FAQPage. Allow only
+# that reviewed object's deletion, retaining every other dollar/table check.
+# The oracle rejects altered, duplicated, nested or body-visible FAQ content.
+faq_guard=runpy.run_path(str(REPO/'scripts/test-buyer-faq-markup.py'))
+if list(faq_guard['faq_nodes'](faq_guard['schemas'](old_service))):
+    old_service=faq_guard['remove_exact_faq'](
+        old_service,faq_guard['SPECS']['/services/s-corp-election/']['removed_faq_sha256'])
+assert not list(faq_guard['faq_nodes'](faq_guard['schemas'](new_service)))
 dollars=lambda s:re.findall(r'\$[\d,.]+',s)
 assert dollars(old_service)==dollars(new_service),'historical service values changed'
 assert re.findall(r'<table\b.*?</table>',old_service,re.S)==re.findall(r'<table\b.*?</table>',new_service,re.S),'historical service table changed'

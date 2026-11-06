@@ -10,6 +10,7 @@ import ast
 import html
 import json
 import re
+import runpy
 import subprocess
 import sys
 from tax_review_build_normalization import normalize_baseline_html
@@ -74,6 +75,39 @@ def baseline(path):
     else:
         value = subprocess.check_output(['git', 'show', args.baseline_ref + ':' + path], cwd=REPO, text=True)
     return normalize_baseline_html(value, POLICY, route="/" + path.removesuffix("index.html")) if args.built_output else value
+
+# The buyer-FAQ follow-up removed one exact, undisplayed service FAQPage.
+# Normalize only that signed object; every other dollar, table and link remains
+# subject to the existing preservation checks below. No broad route exemption.
+faq_guard = runpy.run_path(str(REPO / 'scripts/test-buyer-faq-markup.py'))
+BUYER_FAQ_ROUTE = '/services/s-corp-election/'
+
+def reviewed_buyer_faq_baseline(value, route):
+    if route != BUYER_FAQ_ROUTE:
+        return value
+    if not list(faq_guard['faq_nodes'](faq_guard['schemas'](value))):
+        return value
+    return faq_guard['remove_exact_faq'](
+        value, faq_guard['SPECS'][BUYER_FAQ_ROUTE]['removed_faq_sha256'])
+
+# Exercise the signed exception without writing fixtures or running generators.
+faq_original = baseline(BUYER_FAQ_ROUTE.strip('/') + '/index.html')
+faq_normalized = reviewed_buyer_faq_baseline(faq_original, BUYER_FAQ_ROUTE)
+assert reviewed_buyer_faq_baseline(faq_original, '/unrelated/') == faq_original
+assert reviewed_buyer_faq_baseline(faq_normalized, BUYER_FAQ_ROUTE) == faq_normalized
+faq_nodes = list(faq_guard['faq_nodes'](faq_guard['schemas'](faq_original)))
+if faq_nodes:
+    faq_target = faq_nodes[0]
+    faq_question = faq_target['mainEntity'][0]['name']
+    faq_answer = faq_target['mainEntity'][0]['acceptedAnswer']['text']
+    for label, changed in {
+        'changed signed question': faq_original.replace(faq_question, faq_question + ' Changed', 1),
+        'changed signed answer': faq_original.replace(faq_answer, 'Changed answer.', 1),
+        'duplicated FAQ': faq_original.replace('</head>', '<script type="application/ld+json">' + json.dumps(faq_target) + '</script></head>', 1),
+        'now displayed question': faq_original.replace('</body>', '<p>' + faq_question + '</p></body>', 1),
+    }.items():
+        assert changed != faq_original
+        faq_guard['rejected'](lambda: reviewed_buyer_faq_baseline(changed, BUYER_FAQ_ROUTE), label)
 
 def text(value):
     return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', value))).strip()
@@ -144,7 +178,9 @@ unchanged_preexisting_schema_summaries = 0
 for route in routes:
     path = route.strip('/') + '/index.html'
     current = (ROOT / path).read_text()
-    old = baseline(path)
+    old = reviewed_buyer_faq_baseline(baseline(path), route)
+    if route == BUYER_FAQ_ROUTE:
+        assert not list(faq_guard['faq_nodes'](faq_guard['schemas'](current))), 'Unsupported service FAQ was regenerated'
     page = Page(current)
     assert page.canonical == ['https://www.aetaxadvisors.com' + route], route
     assert page.canonical == Page(old).canonical and page.h1 == 1 and page.indexable, route

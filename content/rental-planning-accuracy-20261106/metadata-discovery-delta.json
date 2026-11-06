@@ -1,0 +1,77 @@
+{
+  "route": "/rental-property-tax-planning/",
+  "metadata": {
+    "title": "Rental Property Tax Planning for Business Owners | AE Tax",
+    "description": "Plan rental losses, REPS eligibility, cost segregation and 1031 exchanges alongside business income. Know which deductions you can use and which records matter."
+  },
+  "dateModified": "2026-11-06",
+  "datePublished": "2026-01-06",
+  "discovery": {
+    "add_to_reviewed_refresh_routes": true,
+    "sitemap_membership": "preserve existing",
+    "no_new_urls": true,
+    "canonical": "https://www.aetaxadvisors.com/rental-property-tax-planning/"
+  },
+  "discovery_replacements": [
+    {
+      "path": "llms-full.txt",
+      "base_sha256": "be5180e0275f1662b593f7ed5ddad49be85dc01270417b9b5f6e3df87ae20004",
+      "result_sha256": "40a65554109e9f1a3cac8289972f7c6030b4a926a27103cfdb54210d644970be",
+      "replacements": [
+        {
+          "old": "- [Rental property tax planning](https://www.aetaxadvisors.com/rental-property-tax-planning/)",
+          "new": "- [Rental Property Tax Planning for Business Owners | AE Tax](https://www.aetaxadvisors.com/rental-property-tax-planning/)"
+        },
+        {
+          "old": "- [Rental Property Tax Planning | Landlord Tax CPA (2026)](https://www.aetaxadvisors.com/rental-property-tax-planning/): Expert rental property tax planning for landlords. Depreciation, passive loss rules, REPS status, cost segregation, 1031 exchanges, and deduction strategies.",
+          "new": "- [Rental Property Tax Planning for Business Owners | AE Tax](https://www.aetaxadvisors.com/rental-property-tax-planning/): Plan rental losses, REPS eligibility, cost segregation and 1031 exchanges alongside business income. Know which deductions you can use and which records matter."
+        }
+      ]
+    },
+    {
+      "path": "llms.txt",
+      "base_sha256": "6e48ace68e5c5e53e8fca7f15cbe60d9cb4bafa701c629a1a5149ca3171453d2",
+      "result_sha256": "e92dec4db53b500853ce8ddf2873c18ce53198b2268e932498fc749f9a5e36dc",
+      "replacements": [
+        {
+          "old": "- [Rental property tax planning](https://www.aetaxadvisors.com/rental-property-tax-planning/)",
+          "new": "- [Rental Property Tax Planning for Business Owners | AE Tax](https://www.aetaxadvisors.com/rental-property-tax-planning/)"
+        }
+      ]
+    },
+    {
+      "path": "llms.md",
+      "base_sha256": "676f6952ab191c526b9c48aa8d1ada8dd8056a02454aa0263590d7361bcaea22",
+      "result_sha256": "ceaf99305e47444ab254b9d4a81acf65c05814caca0b0345153d6d68fb504386",
+      "replacements": [
+        {
+          "old": "- [Rental property tax planning](https://www.aetaxadvisors.com/rental-property-tax-planning/)",
+          "new": "- [Rental Property Tax Planning for Business Owners | AE Tax](https://www.aetaxadvisors.com/rental-property-tax-planning/)"
+        }
+      ]
+    },
+    {
+      "path": ".well-known/llms.txt",
+      "base_sha256": "676f6952ab191c526b9c48aa8d1ada8dd8056a02454aa0263590d7361bcaea22",
+      "result_sha256": "ceaf99305e47444ab254b9d4a81acf65c05814caca0b0345153d6d68fb504386",
+      "replacements": [
+        {
+          "old": "- [Rental property tax planning](https://www.aetaxadvisors.com/rental-property-tax-planning/)",
+          "new": "- [Rental Property Tax Planning for Business Owners | AE Tax](https://www.aetaxadvisors.com/rental-property-tax-planning/)"
+        }
+      ]
+    },
+    {
+      "path": "sitemap/index.html",
+      "base_sha256": "7ee28005413b50c23bb2dffa61ee088fcc685439c8d806014b27cd0db3aa1d42",
+      "result_sha256": "a9d50ffb1b284de382105aed879c6aac963febda1d4866849a226ce7fb239341",
+      "replacements": [
+        {
+          "old": "<li><a href=\"/rental-property-tax-planning/\">Rental Property Tax Planning for Landlords</a></li>",
+          "new": "<li><a href=\"/rental-property-tax-planning/\">Rental Property Tax Planning for Business Owners | AE Tax</a></li>"
+        }
+      ]
+    }
+  ],
+  "merge_instructions": "Merge only this route into discovery-reviewed-copy and reviewed-content-lastmod; union pages.json into seo-refresh routes. Apply exact replacements to discovery files; do not overwrite concurrently edited global files."
+}
