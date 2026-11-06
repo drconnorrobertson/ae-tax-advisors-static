@@ -1,0 +1,25 @@
+{
+  "route": "/blog/buying-out-dental-medical-practice-partner-tax-review/",
+  "new_route": false,
+  "description": "Buying out a dental or medical practice partner? Compare direct purchase, redemption and a final-owner LLC buyout, including basis and final-return records.",
+  "publication_date": "2026-10-24",
+  "reviewed_date": "2026-11-06",
+  "title": "Practice Partner Buyout Tax Review | AE Tax Advisors",
+  "source_owner": "Existing static source HTML. No broad content generator is needed.",
+  "scope": "Clarify direct purchase leaving one owner of a partnership-taxed LLC without replacing the continuing-partnership Section 743(b) or redemption Section 734(b) guides.",
+  "primary_sources": [
+    "https://www.irs.gov/pub/irs-irbs/irb99-06.pdf",
+    "https://www.irs.gov/publications/p541",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/single-member-limited-liability-companies",
+    "https://www.irs.gov/businesses/partnerships/faqs-for-internal-revenue-code-irc-sec-754-election-and-revocation",
+    "https://www.irs.gov/instructions/i1065"
+  ],
+  "sitemap": "sitemap.xml",
+  "catalog_title": "Buying Out a Practice Partner: Tax Review Before Agreement",
+  "catalog_category": "Tax Strategy",
+  "existing_supporting_guides": [
+    "/the-business-owners-guide-to-section-743b-basis-adjustments-after-partner-transfer/",
+    "/blog/partnership-cash-redemption-734b-depreciation/"
+  ],
+  "preserved_case_link": "/case-studies/dental-practice-business-rental-tax-roadmap/"
+}
