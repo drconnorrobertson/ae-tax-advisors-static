@@ -658,8 +658,8 @@
     "description": "High-net-worth business owners operating as S-Corporations have moved beyond the basic question of whether S-Corp status is beneficial. They have."
   },
   "/the-hidden-tax-benefits-of-hiring-family-members-in-your-business/": {
-    "title": "Tax Benefits of Hiring Family Members | AE Tax Advisors",
-    "description": "Employing family members creates tax advantages unavailable with non-family employees."
+    "title": "Tax Benefits of Hiring Family: 2026 Review | AE Tax Advisors",
+    "description": "See when family employment can help, and why spouse wages, child payroll exceptions, QBI and kiddie tax need a full household tax comparison."
   },
   "/s-corp-tax-strategy/": {
     "title": "S-Corp Tax Strategy for $500K+ Business Owners: The Complete Guide",
@@ -1295,5 +1295,57 @@
     "title": "Tax Strategy, Accounting & CFO Firms: Which Scope Fits?",
     "description": "Compare tax strategy, accounting and CFO firms for owners and growing businesses. Separate planning projects from monthly books, reporting and forecasts.",
     "description_only": true
+  },
+  "/real-estate-professional-status-reps/": {
+    "title": "Real Estate Professional Status REPS | AE Tax Advisors",
+    "description": "Evaluate REPS eligibility for a business owner with rentals: annual hours, spouse rules, material participation, grouping elections, and usable-loss limits."
+  },
+  "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status-reps/": {
+    "title": "The Business Owners Guide To Passive Loss (2026) | AE Tax Advisors",
+    "description": "Separate current rental losses from suspended carryovers. Review REPS qualification, rental grouping elections, disposition rules, and business-owner loss limits."
+  },
+  "/material-participation-real-estate-documentation/": {
+    "title": "Material Participation Real Estate | AE Tax Advisors",
+    "description": "Document the seven material participation tests correctly: owner and spouse hours, manager comparisons, historical evidence, grouping, and rental loss limits."
+  },
+  "/short-term-rental-tax-loophole-offset-w2-income/": {
+    "title": "Short Term Rental Tax Strategy for Business Owners (2026)",
+    "description": "Before buying an STR, test average guest stays, material participation, personal use, and loss limits to assess whether deductions can offset wages or business income."
+  },
+  "/short-term-rental-tax-planning-the-core-concepts-most-hosts-miss/": {
+    "title": "Short Term Rental Tax Planning The Core (2026) | AE Tax Advisors",
+    "description": "Coordinate multiple STRs with correct participation tests, grouping limits, NIIT and guest-service reporting, REPS distinctions, and usable-loss planning."
+  },
+  "/the-business-owners-guide-to-section-1031-like-kind-exchanges-and-tax-deferral/": {
+    "title": "1031 Exchange Rules, Debt and Cash Boot | AE Tax Advisors",
+    "description": "Plan a 1031 exchange before closing: compare cash boot, debt replacement, deadlines, reverse-exchange rules, and the basis carried into the next property."
+  },
+  "/the-business-owners-guide-to-section-1031-like-kind-exchanges-and-deferral-strategy/": {
+    "title": "1031 Exchange Strategy, Timing and Carryover Basis | AE Tax Advisors",
+    "description": "Review 1031 exchange timing, intermediary fees, cash and mortgage boot, reverse exchanges, and carryover basis before choosing replacement property."
+  },
+  "/1031-exchange-explained-defer-capital-gains/": {
+    "title": "1031 Exchange Explained: Gain, Boot and Tax Deferral",
+    "description": "Understand what a 1031 exchange can defer, how cash and debt affect taxable gain, and which deadlines, recapture, and state-tax rules need review."
+  },
+  "/blog/common-1031-exchange-mistakes/": {
+    "title": "7 Common 1031 Exchange Mistakes That Trigger a Taxable Event",
+    "description": "Avoid 1031 exchange mistakes involving deadlines, proceeds, cash boot, disqualified intermediaries, and related-party purchases before closing."
+  },
+  "/blog/1031-exchange-planning-timing/": {
+    "title": "1031 Exchange Timeline: Deadlines, QIs and Reverse Exchanges",
+    "description": "Build a 1031 exchange timeline around the 45-day identification period, earlier closing deadline, qualified intermediary, and reverse-exchange safe harbor."
+  },
+  "/the-complete-guide-to-hiring-family-members-in-your-business/": {
+    "title": "Hiring Family Members: Payroll Rules for 2026 | AE Tax Advisors",
+    "description": "Check child, spouse and parent payroll rules, FICA at 18, FUTA at 21, reasonable wages, withholding and records before hiring family in 2026."
+  },
+  "/the-ultimate-guide-to-hiring-family-members-in-your-business/": {
+    "title": "Family Employment Tax Planning in 2026 | AE Tax Advisors",
+    "description": "Compare the full tax cost of family payroll, spouse wages, child earnings and retirement contributions before putting relatives on the business payroll."
+  },
+  "/use-family-management-company/": {
+    "title": "Family Management Company: When It Helps | AE Tax Advisors",
+    "description": "Evaluate a family management company by actual services, related-party fees, payroll, spouse joint-return rules and costs before creating another entity."
   }
 }

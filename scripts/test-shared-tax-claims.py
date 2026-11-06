@@ -25,6 +25,7 @@ parser.add_argument('--policy-root', type=Path, default=REPO)
 parser.add_argument('--built-output', action='store_true', help='Allow only the exact documented release presentation/link transforms.')
 parser.add_argument('--include-s-corp-illustrations', action='store_true',
     help='Validate the reviewed five-route numerical cohort with its dedicated math/price checks.')
+parser.add_argument('--include-family-payroll', action='store_true', help='Run the dedicated family-payroll checks for its one overlapping route.')
 args = parser.parse_args()
 ROOT, POLICY = args.output_root.resolve(), args.policy_root.resolve()
 cohort = json.loads((REPO / 'content/shared-tax-claims-20261106.json').read_text())
@@ -50,6 +51,20 @@ if args.include_s_corp_illustrations:
     subprocess.run([sys.executable, str(REPO / 'scripts/test-s-corp-illustrations.py'),
         '--output-root', str(ROOT), '--policy-root', str(POLICY),
         '--baseline-ref', args.baseline_ref] + (['--built-output'] if args.built_output else []), check=True)
+family_routes = set()
+if args.include_family_payroll:
+    family = json.loads((REPO / 'content/family-payroll-accuracy-20261106.json').read_text())
+    family_all = {'/' + p.removesuffix('index.html') for p in family['pages']}
+    assert family_all == {
+        '/the-complete-guide-to-hiring-family-members-in-your-business/',
+        '/the-ultimate-guide-to-hiring-family-members-in-your-business/',
+        '/use-family-management-company/',
+        '/the-hidden-tax-benefits-of-hiring-family-members-in-your-business/',
+    }
+    family_routes = family_all.intersection(routes)
+    assert family_routes == {'/the-hidden-tax-benefits-of-hiring-family-members-in-your-business/'}
+    subprocess.run([sys.executable, str(REPO / 'scripts/test-family-payroll-guides.py'), str(ROOT)], check=True)
+followup_routes = illustration_routes | family_routes
 config = json.loads((POLICY / 'vercel.json').read_text())
 holds = json.loads((POLICY / 'discovery_review_holds.json').read_text())
 
@@ -147,7 +162,7 @@ for route in routes:
     assert all(x == cohort['reviewed_date'] for x in re.findall(r'Updated (\d{4}-\d\d-\d\d)', current)), route
     # Compare actual values and order, not a fixed list of known prices.
     dollars = lambda s: [x.rstrip('.,') for x in re.findall(r'\$\s*\d[\d,.]*(?:\s*(?:million|billion|thousand))?', html.unescape(s))]
-    if route not in illustration_routes:
+    if route not in followup_routes:
         assert dollars(old) == dollars(current), route + ' dollar sequence changed'
     for historical in re.findall(r'<a\b[^>]*href="[^"]*/case-studies/[^"]*"[^>]*>.*?</a>', old, re.S):
         assert current.count(historical) == old.count(historical), route + ' historical case link changed'
@@ -161,11 +176,12 @@ for route in routes:
     visible = text(re.sub(r'<script\b[^>]*>.*?</script>', '', current, flags=re.S))
     old_questions = {x['name']:x['acceptedAnswer']['text'] for x in old_schema if x.get('@type') == 'Question'}
     new_questions = {x['name']:x['acceptedAnswer']['text'] for x in new_schema if x.get('@type') == 'Question'}
-    assert old_questions.keys() == new_questions.keys(), route
+    if route not in family_routes:
+        assert old_questions.keys() == new_questions.keys(), route
     old_visible = text(re.sub(r'<script\b[^>]*>.*?</script>', '', old, flags=re.S))
     for question, answer in new_questions.items():
-        changed = old_questions[question] != answer
-        was_verbatim = text(question) in old_visible and text(old_questions[question]) in old_visible
+        changed = old_questions.get(question) != answer
+        was_verbatim = question in old_questions and text(question) in old_visible and text(old_questions[question]) in old_visible
         if changed or was_verbatim:
             assert text(question) in visible and text(answer) in visible, (route, 'FAQ parity', question)
             checked_answers += 1
@@ -174,30 +190,30 @@ for route in routes:
             # This focused correction preserves those untouched answers exactly.
             assert old_questions[question] == answer, (route, question)
             unchanged_preexisting_schema_summaries += 1
-        if route not in illustration_routes:
+        if route not in followup_routes:
             changed_answers += changed
     # Compare visible block positions to detect unexpected block insertions/deletions.
     old_body = re.sub(r'<script\b[^>]*>.*?</script>', '', old, flags=re.S)
     new_body = re.sub(r'<script\b[^>]*>.*?</script>', '', current, flags=re.S)
     blocks = lambda s: [text(x) for x in re.findall(r'<(?:p|li)\b[^>]*>.*?</(?:p|li)>', s, re.S)]
     before, after = blocks(old_body), blocks(new_body)
-    if route not in illustration_routes:
+    if route not in followup_routes:
         assert len(before) == len(after), route + ' block count changed'
     delta = [(a,b) for a,b in zip(before,after) if a != b and not a.startswith('By AE Tax Advisors Team')]
-    if route not in illustration_routes:
+    if route not in followup_routes:
         changed_blocks += len(delta)
     old_claims = old_3115 if route in cohort['groups']['form_3115'] else old_scorp
     for claim in old_claims:
         assert claim not in text(current), (route, 'stale claim', claim)
     if route in cohort['groups']['s_corp_shared_faq']:
         assert new_questions['Does an S-Corp election reduce income tax?'] == shared_answer, route
-        if route not in illustration_routes:
+        if route not in followup_routes:
             assert len(delta) == 1, route
     if route in cohort['groups']['form_3115']:
         assert 'open and closed' in visible and 'filing deadlines' in visible and 'deduction limits' in visible, route
         assert 'https://www.irs.gov/irb/2025-24_IRB#REV-PROC-2025-23' in current, route
-assert changed_answers == (18 if illustration_routes else 23), changed_answers
-assert changed_blocks == (40 if illustration_routes else 48), changed_blocks
+assert changed_answers == (18 if illustration_routes else 23) - len(family_routes), changed_answers
+assert changed_blocks == (40 if illustration_routes else 48) - len(family_routes), changed_blocks
 
 # Review follow-up: distinguish allocated income from cash distributions and
 # independently compare SE tax with employer/employee payroll tax.
@@ -231,4 +247,4 @@ protected = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', args
     '--', 'case-studies', 'case_engine.py', 'case_data.py'], cwd=REPO, text=True).splitlines()
 for filename in protected:
     assert (REPO / filename).read_bytes() == subprocess.check_output(['git', 'show', args.baseline_ref + ':' + filename], cwd=REPO), filename
-print(f'PASS: 25 active canonical routes; {changed_blocks} visible corrections and {changed_answers} changed FAQ answers outside {len(illustration_routes)} separately tested numerical routes; {checked_answers} verbatim FAQ answers checked ({unchanged_preexisting_schema_summaries} legacy summaries unchanged); prices, publication, cases, tables and existing links preserved; five source modules parse.')
+print(f'PASS: 25 active canonical routes; {changed_blocks} visible corrections and {changed_answers} changed FAQ answers outside {len(followup_routes)} separately tested follow-up routes; {checked_answers} verbatim FAQ answers checked ({unchanged_preexisting_schema_summaries} legacy summaries unchanged); prices, publication, cases, tables and existing links preserved; five source modules parse.')
