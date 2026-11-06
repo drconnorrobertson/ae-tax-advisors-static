@@ -16,7 +16,7 @@
     try {
       const url = new URL(link.href,location.href);
       if (calendar(url)) emit('ae_calendar_open',url);
-      else if (url.origin === location.origin && /^\/(discovery|book-connor-davis|book-jacques)\/?$/.test(url.pathname)) emit('ae_booking_cta_click',url);
+      else if (url.origin === location.origin && /^\/(discovery|cost-seg-discovery|book-connor-davis|book-jacques)\/?$/.test(url.pathname)) emit('ae_booking_cta_click',url);
     } catch {}
   },true);
   const seen = new WeakSet();

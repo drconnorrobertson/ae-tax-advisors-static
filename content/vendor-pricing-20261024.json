@@ -1113,65 +1113,65 @@
     "name": "Engineered Tax Services",
     "path": "/compare/engineered-tax-services-pricing/",
     "category": "costseg",
-    "source": "https://engineeredtaxservices.com/",
-    "fee": "$2,500–$5,000+ per property study",
-    "qualification": "A professionally reviewed or engineered study of a relatively straightforward property; complex commercial sites, travel, filings, and amendments are additional.",
-    "reviewed": "2026-10-24",
+    "source": "https://engineeredtaxservices.com/services/cost-segregation/",
+    "fee": "ETS describes a fixed study fee quoted after an initial benefit analysis. A universal numeric ETS study price was not verified in the official pages reviewed.",
+    "qualification": "Request a written property-specific quote. An example study fee or an industry-wide price range is not ETS' tariff or a quote for your building.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Engineered Tax Services pricing",
       "Engineered Tax Services cost",
       "Engineered Tax Services fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses R.E. Cost Seg engineering from $2,320, CostSegEZ engineering from $2,500, and CostSegregation.com’s discussion of complex studies reaching $5,000 or more. Software-only products cost less.",
-    "benchmarkSources": [
-      "https://www.recostseg.com/",
-      "https://costsegez.com/",
-      "https://www.costsegregation.com/resources/cost-segregation-study-cost/"
-    ],
-    "estimateCategory": "costseg"
+    "kind": "quote",
+    "status": "Fixed property quote required",
+    "additionalSources": [
+      "https://engineeredtaxservices.com/ets_resources/what-to-expect-from-a-cost-segregation-study-cs-how-much-does-it-cost/",
+      "https://engineeredtaxservices.com/"
+    ]
   },
   {
     "slug": "kbkg",
     "name": "KBKG",
     "path": "/compare/kbkg-pricing/",
     "category": "costseg",
-    "source": "https://www.kbkg.com/cost-segregation/kbkg_launches_cost_seg_pro",
-    "fee": "KBKG’s self-guided CostSegregation.com product starts at $495/report. Full-service engineering requires a separate quote.",
-    "qualification": "This is a published software-product price from KBKG’s launch announcement, not the fee for a fully engineered KBKG engagement. Current commercial software pricing starts at $1,295.",
-    "reviewed": "2026-10-24",
+    "source": "https://www.kbkg.com/cost-segregation",
+    "fee": "KBKG's linked CPA Handbook gives a general fixed-fee study range of $5,000–$15,000 by property size and type. Its separate software page displays a $495 residential report example for $750,000 of tax basis. Obtain a current quote for the selected service.",
+    "qualification": "The handbook range is general professional-study guidance; the software amount belongs to a separate product and selected property basis. Neither is a universal final price. Confirm inspection, review, support, property limits and preparer fees.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "KBKG pricing",
       "KBKG cost",
       "KBKG fees"
     ],
-    "status": "Published software starting fee",
-    "kind": "published"
+    "status": "Published professional range and separate software example",
+    "kind": "published",
+    "additionalSources": [
+      "https://www.kbkg.com/resource-library",
+      "https://3615782.fs1.hubspotusercontent-na1.net/hubfs/3615782/KBKG%20Brochures%20and%20One%20Pagers/CPA%20Handbook.pdf",
+      "https://www.kbkg.com/residential-costsegregator",
+      "https://www.kbkg.com/"
+    ]
   },
   {
     "slug": "madison-specs",
     "name": "Madison SPECS",
     "path": "/compare/madison-specs-pricing/",
     "category": "costseg",
-    "source": "https://www.madisonspecs.com/",
-    "fee": "$2,500–$5,000+ per property study",
-    "qualification": "A professionally reviewed or engineered study of a relatively straightforward property; complex commercial sites, travel, filings, and amendments are additional.",
-    "reviewed": "2026-10-24",
+    "source": "https://www.madisonspecs.com/faq",
+    "fee": "Madison SPECS' FAQ gives a typical study range of $4,000–$11,000, with each property priced individually using a fixed fee based on size and complexity.",
+    "qualification": "This is the provider's general range, not a guaranteed minimum, maximum or quote for your property. Request a proposal identifying inspection, reporting, support and any additional work.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Madison SPECS pricing",
       "Madison SPECS cost",
       "Madison SPECS fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses R.E. Cost Seg engineering from $2,320, CostSegEZ engineering from $2,500, and CostSegregation.com’s discussion of complex studies reaching $5,000 or more. Software-only products cost less.",
-    "benchmarkSources": [
-      "https://www.recostseg.com/",
-      "https://costsegez.com/",
-      "https://www.costsegregation.com/resources/cost-segregation-study-cost/"
-    ],
-    "estimateCategory": "costseg"
+    "kind": "published",
+    "status": "Published typical study range — property quote required",
+    "additionalSources": [
+      "https://www.madisonspecs.com/process",
+      "https://www.madisonspecs.com/"
+    ]
   },
   {
     "slug": "re-cost-seg",
@@ -1472,8 +1472,8 @@
     "path": "/compare/cost-segregation-authority-pricing/",
     "category": "costseg",
     "source": "https://csap.com/cost-segregation/",
-    "fee": "Studies begin at $3,000",
-    "qualification": "Published starting fee for a cost segregation study, not tax advisory or return preparation. CSA Partners says the fee varies with property size, complexity, available documentation, and engagement scope. Request a property-specific written quote.",
+    "fee": "CSA Partners publishes cost segregation studies beginning at $3,000. The final fee varies with property size, complexity, available documentation and engagement scope.",
+    "qualification": "This is a published starting study fee, not an all-inclusive tax advisory or return-preparation package. Request a written quote for the property and any additional work.",
     "reviewed": "2026-11-06",
     "keywords": [
       "Cost Segregation Authority pricing",
@@ -1484,9 +1484,8 @@
     "status": "Published starting study fee",
     "sourceVerifiedAsOf": "2026-11-06",
     "additionalSources": [
-      "https://csap.com/",
       "https://csap.com/terms-of-service/",
-      "https://csap.com/about-us/"
+      "https://csap.com/"
     ],
     "historicalComparableBudget": {
       "fee": "$2,500–$5,000+ per property study",
@@ -1872,24 +1871,21 @@
     "name": "Maven Cost Segregation",
     "path": "/compare/maven-cost-segregation-pricing/",
     "category": "costseg",
-    "source": "https://mavencostseg.com/",
-    "fee": "$2,500–$5,000+ per property study",
-    "qualification": "A professionally reviewed or engineered study of a relatively straightforward property; complex commercial sites, travel, filings, and amendments are additional.",
-    "reviewed": "2026-10-24",
+    "source": "https://www.mavencostseg.com/our-services/detailed-engineering-cost-segregation-studies/",
+    "fee": "Maven publishes general detailed-study ranges of $2,500–$4,000 for smaller properties and $5,000–$10,000+ for large or complex properties and portfolios. It separately publishes Form 3115 preparation at $995.",
+    "qualification": "These study ranges are not fixed property quotes. The Form 3115 fee is a separate service; a cost segregation study, if needed, is separately scoped. Confirm records, inspection, preparation, CPA coordination and support in the final proposal.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Maven Cost Segregation pricing",
       "Maven Cost Segregation cost",
       "Maven Cost Segregation fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses R.E. Cost Seg engineering from $2,320, CostSegEZ engineering from $2,500, and CostSegregation.com’s discussion of complex studies reaching $5,000 or more. Software-only products cost less.",
-    "benchmarkSources": [
-      "https://www.recostseg.com/",
-      "https://costsegez.com/",
-      "https://www.costsegregation.com/resources/cost-segregation-study-cost/"
-    ],
-    "estimateCategory": "costseg"
+    "kind": "published",
+    "status": "Published study ranges; Form 3115 priced separately",
+    "additionalSources": [
+      "https://www.mavencostseg.com/our-services/irs-form-3115-preparation/",
+      "https://mavencostseg.com/"
+    ]
   },
   {
     "slug": "mcguire-sponsel",

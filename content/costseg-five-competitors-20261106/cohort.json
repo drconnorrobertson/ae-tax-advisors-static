@@ -1,0 +1,17 @@
+{
+  "mode": "costseg",
+  "marker": "costseg-five-competitor-discovery",
+  "published": ["madison-specs", "kbkg", "cost-segregation-authority", "maven-cost-segregation"],
+  "new_comparisons": 3,
+  "refreshed_pair_comparisons": 4,
+  "hub_routes": ["/compare/", "/compare/best-cost-segregation-companies/", "/cost-segregation-study/", "/cost-segregation-study-cost-pricing/", "/real-estate-tax-planning/"],
+  "pairs": [
+    ["madison-specs", "engineered-tax-services", "madison-specs-vs-engineered-tax-services", "You own a commercial building and want an engineering study delivered to your existing CPA. Compare the inspection, cost-record review, draft findings and support package for that same property.", "Which property visit, engineering schedules, draft CPA review and post-delivery questions are included in each fixed quote?"],
+    ["engineered-tax-services", "kbkg", "engineered-tax-services-vs-kbkg", "You need professional engineering for a building with substantial improvements and may also need a separate incentive project. Compare the full-service proposals and keep any software option separate.", "Which engineering analysis and related specialty projects are included, and how will the study reach the preparer responsible for the return?"],
+    ["kbkg", "maven-cost-segregation", "kbkg-vs-maven-cost-segregation", "You are comparing study routes for a rental held for several years. Your preparer wants to know how inputs are verified and who will handle any method-change work after the study.", "Is the proposal for software or detailed engineering, and who prepares any Form 3115 package and coordinates final return integration?"],
+    ["cost-segregation-authority", "engineered-tax-services", "cost-segregation-authority-vs-engineered-tax-services", "You have several commercial properties and need engineering reports on a filing timetable. Compare the property-by-property scope, inspection arrangements, supporting documentation and named CPA contact.", "What does the quote cover for each property, and how are additional buildings, missing cost records, urgent delivery and accountant questions handled?"],
+    ["cost-segregation-authority", "maven-cost-segregation", "cost-segregation-authority-vs-maven-cost-segregation", "You want a study for an existing rental and need the report connected to the correct tax implementation. Compare study pricing and any separately offered preparation instead of assuming a study fee includes every filing.", "Which study, Form 3115 preparation if applicable, CPA coordination and audit-response services are in the total quote?"],
+    ["cost-segregation-authority", "madison-specs", "cost-segregation-authority-vs-madison-specs", "You want to retain your current CPA while ordering a multifamily property study. Compare inspection, component documentation, accountant review and post-report support for the same building.", "Will the CPA review draft findings, what schedules will be supplied, and who resolves questions before the tax return is filed?"],
+    ["cost-segregation-authority", "kbkg", "cost-segregation-authority-vs-kbkg", "You are deciding between an engineering proposal and a possible software route. Compare professional study scopes first, then evaluate software eligibility and preparer responsibilities as a separate option.", "Which inspection, input verification, engineering review, schedules and filing responsibilities are covered by the selected product or engagement?"]
+  ]
+}
