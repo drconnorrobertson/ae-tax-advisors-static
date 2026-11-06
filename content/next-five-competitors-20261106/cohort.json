@@ -1,0 +1,14 @@
+{
+  "marker": "next-five-competitor-discovery",
+  "published": ["wcg-cpas", "anomaly-cpa"],
+  "new_comparisons": 5,
+  "refreshed_pair_comparisons": 0,
+  "hub_routes": ["/compare/", "/compare/tax-planning-firms/", "/business-owner-small-business-tax/", "/real-estate-tax-planning/", "/compare/p4-tax-delerme-cpa-gelt/"],
+  "pairs": [
+    ["p4-tax", "delerme-cpa", "p4-tax-vs-delerme-cpa", "You own a company in more than one state and are considering an acquisition. Compare transaction and entity-planning needs with the continuing accounting and preparation work required after closing.", "Who evaluates the ownership and state-tax decisions before signing, and who maintains the records and prepares the resulting returns?"],
+    ["p4-tax", "anomaly-cpa", "p4-tax-vs-anomaly-cpa", "Your growing business needs both reliable financial reporting and advice about ownership or investor changes. Decide whether the central requirement is a recurring accounting team, a transaction-focused tax engagement or both.", "Which monthly reporting, equity or entity-planning tasks are included, and who coordinates the accounting records with the tax analysis?"],
+    ["taxstra", "wcg-cpas", "taxstra-vs-wcg-cpas", "You are an S-corporation owner with rental income and want a plan that stays connected to filing throughout the year. Compare a tailored annual proposal with a named advisory package using the same returns and property facts.", "Which returns, quarterly or scheduled reviews, updated projections and property decisions are included in the annual total?"],
+    ["anomaly-cpa", "wcg-cpas", "anomaly-cpa-vs-wcg-cpas", "Your business needs annual preparation, owner tax planning and accurate books. Compare separately selected accounting and tax tiers with a business-advisory package before deciding which price covers all three needs.", "What is the complete first-year cost after accounting, preparation, planning projects, cleanup and required add-ons are included?"],
+    ["delerme-cpa", "taxstra", "delerme-cpa-vs-taxstra", "You want a CPA relationship that connects bookkeeping, tax planning and owner returns. Compare the ongoing accounting work with the annual planning process, and make the preparation handoff explicit.", "Who maintains the books, who updates the written plan during the year, and who prepares each business and owner return?"]
+  ]
+}

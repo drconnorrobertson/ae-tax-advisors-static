@@ -1,0 +1,59 @@
+{
+  "marker": "five-competitor-discovery",
+  "pairs": [
+    [
+      "rainwater-cpa",
+      "keystone-cpa",
+      "rainwater-cpa-vs-keystone-cpa",
+      "Your company needs quarterly planning, and you also own rental property. Compare the company-level planning calendar with the property decisions and ask who combines them into the owner return.",
+      "Which projections will be updated during the year, and which property records and existing depreciation schedules will be reviewed?"
+    ],
+    [
+      "anderson-advisors",
+      "keystone-cpa",
+      "anderson-advisors-vs-keystone-cpa",
+      "You are buying another rental and have been advised to create an entity. Compare the legal ownership work with the tax analysis; they solve related but distinct problems.",
+      "Who reviews the legal structure, prepares any documents and determines how income and depreciation reach the tax return?"
+    ],
+    [
+      "rainwater-cpa",
+      "tax-goddess",
+      "rainwater-cpa-vs-tax-goddess",
+      "You run a profitable company and want more than an annual filing meeting. Compare a recurring review calendar with a strategy program, and make implementation assignments explicit.",
+      "Will the proposal deliver updated projections, a written strategy, implementation help, or a combination\u2014and how will completion be checked?"
+    ],
+    [
+      "anderson-advisors",
+      "tax-alchemy",
+      "anderson-advisors-vs-tax-alchemy",
+      "You own several entities and need to decide whether your first purchase should be legal structuring or a tax advisory engagement. Separate the two scopes before comparing headline prices.",
+      "Which legal documents, tax recommendations, elections and returns will each licensed professional deliver?"
+    ],
+    [
+      "rainwater-cpa",
+      "tax-alchemy",
+      "rainwater-cpa-vs-tax-alchemy",
+      "You need a tax plan and want help putting it into practice. Compare the planning period, meeting schedule and filing arrangement using the same financial statements and entity list.",
+      "Does the agreement cover implementation, which returns are prepared, and what happens after the initial service period?"
+    ],
+    [
+      "tax-alchemy",
+      "tax-goddess",
+      "tax-alchemy-vs-tax-goddess",
+      "You are comparing two tax strategy programs and want a provider to help execute the recommendations. Compare the actual advisory program rather than an educational product or a different continuing-support tier.",
+      "Which program is being quoted, who performs implementation and filing, and what renews after the first year?"
+    ]
+  ],
+  "published": [
+    "keystone-cpa",
+    "tax-alchemy"
+  ],
+  "new_comparisons": 4,
+  "refreshed_pair_comparisons": 2,
+  "hub_routes": [
+    "/compare/",
+    "/compare/tax-planning-firms/",
+    "/business-owner-small-business-tax/",
+    "/real-estate-tax-planning/"
+  ]
+}

@@ -69,24 +69,21 @@
     "name": "Taxstra PLLC",
     "path": "/compare/taxstra-pricing/",
     "category": "realestate",
-    "source": "https://taxstra.com/",
-    "fee": "$4,000–$20,000+ per planning engagement",
-    "qualification": "A defined tax-planning project for a business owner or investor; filings, studies, legal work, and new projects are extra.",
-    "reviewed": "2026-10-24",
+    "source": "https://taxstra.com/tax-planning/",
+    "fee": "Taxstra states that it quotes a flat annual planning fee based on the work involved. A current numeric fee was not verified in the official pages reviewed; request your written proposal.",
+    "qualification": "The proposal should identify the included planning, implementation and return preparation. Do not substitute an industry fee range or an old interview example for a current Taxstra quote.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Taxstra PLLC pricing",
       "Taxstra PLLC cost",
       "Taxstra PLLC fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses published planning tiers from Anomaly and Investor Friendly CPA and Keystone’s higher planning range. It is a comparable-service budget, not a measured average or this firm’s fee.",
-    "benchmarkSources": [
-      "https://www.anomalycpa.com/pricingcalculator",
-      "https://www.investorfriendlycpa.com/pricing-tax-planning",
-      "https://www.keystonecpa.com/"
-    ],
-    "estimateCategory": "planning"
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": [
+      "https://taxstra.com/services/",
+      "https://taxstra.com/"
+    ]
   },
   {
     "slug": "wcg-cpas",
@@ -94,16 +91,19 @@
     "path": "/compare/wcg-cpas-pricing/",
     "category": "business",
     "source": "https://wcginc.com/tax-center/business-advisory-services/",
-    "fee": "Vail: $4,500 per year. Telluride: $4,980 per year. Aspen: custom pricing.",
-    "qualification": "The business advisory page describes annual package prices paid as monthly subscriptions. Check which returns and accounting services your selected tier covers.",
-    "reviewed": "2026-10-24",
+    "fee": "WCG's Business Advisory page publishes Vail at $4,500 per year and Telluride at $4,980 per year, paid as monthly subscriptions. Aspen has custom pricing.",
+    "qualification": "These are named package prices. Ask which filings, projections and additional services your selected tier includes, and whether customization or multiple entities changes the quote.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "WCG CPAs pricing",
       "WCG CPAs cost",
       "WCG CPAs fees"
     ],
-    "status": "Published starting fee",
-    "kind": "published"
+    "status": "Published program fees — confirm scope",
+    "kind": "published",
+    "additionalSources": [
+      "https://wcginc.com/tax-support/tax-planning-services/"
+    ]
   },
   {
     "slug": "tax-goddess",
@@ -224,24 +224,21 @@
     "name": "P4 Tax",
     "path": "/compare/p4-tax-pricing/",
     "category": "strategy",
-    "source": "https://p4taxes.com/services/",
-    "fee": "$4,000–$20,000+ per planning engagement",
-    "qualification": "A defined tax-planning project for a business owner or investor; filings, studies, legal work, and new projects are extra.",
-    "reviewed": "2026-10-24",
+    "source": "https://p4taxes.com/services/tax-planning-services/",
+    "fee": "A current numeric P4 Tax advisory fee was not verified in the official pages reviewed. Request a written quote for your particular entities, investments and upcoming decisions.",
+    "qualification": "A generic tax-planning budget is not P4's price. Separate an initial review, a written planning project, compliance work and continuing support before comparing a quote.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "P4 Tax pricing",
       "P4 Tax cost",
       "P4 Tax fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses published planning tiers from Anomaly and Investor Friendly CPA and Keystone’s higher planning range. It is a comparable-service budget, not a measured average or this firm’s fee.",
-    "benchmarkSources": [
-      "https://www.anomalycpa.com/pricingcalculator",
-      "https://www.investorfriendlycpa.com/pricing-tax-planning",
-      "https://www.keystonecpa.com/"
-    ],
-    "estimateCategory": "planning"
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": [
+      "https://p4taxes.com/",
+      "https://p4taxes.com/services/"
+    ]
   },
   {
     "slug": "delerme-cpa",
@@ -249,23 +246,20 @@
     "path": "/compare/delerme-cpa-pricing/",
     "category": "business",
     "source": "https://www.delermecpa.com/",
-    "fee": "$400–$2,000+ per month; $4,800–$24,000+ over 12 months",
-    "qualification": "Recurring small-business bookkeeping and tax coordination for one entity with usable records; cleanup, complex industries, payroll, returns, and CFO work may add cost.",
-    "reviewed": "2026-10-24",
+    "fee": "A current numeric Delerme CPA fee was not verified in the official pages reviewed. Request a service-specific quote; a benchmark for another firm's monthly accounting is not Delerme's fee.",
+    "qualification": "Identify whether you are buying preparation alone, planning, bookkeeping, consulting or a combination. Confirm cleanup and implementation charges separately from any monthly support.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Delerme CPA pricing",
       "Delerme CPA cost",
       "Delerme CPA fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses Anomaly accounting from $400/month, Kruze bookkeeping at $650–$1,500/month, and Graphite accounting from $1,500/month. Scope and add-ons vary.",
-    "benchmarkSources": [
-      "https://www.anomalycpa.com/pricingcalculator",
-      "https://kruzeconsulting.com/pricing/",
-      "https://www.graphitefinancial.com/pricing"
-    ],
-    "estimateCategory": "books"
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": [
+      "https://www.delermecpa.com/tax-planning-services.htm",
+      "https://www.delermecpa.com/income-tax-preparation-services.htm"
+    ]
   },
   {
     "slug": "anomaly-cpa",
@@ -273,16 +267,19 @@
     "path": "/compare/anomaly-cpa-pricing/",
     "category": "strategy",
     "source": "https://www.anomalycpa.com/pricingcalculator",
-    "fee": "Tax strategy assessment from $4,000; advanced planning from $7,500. Ongoing tax support from $250/month (Core), $450/month (Concierge), or $2,000/month (VIP).",
-    "qualification": "The calculator separates projects from monthly accounting (from $400/month). Twelve months of the displayed tax tiers equals $3,000, $5,400, or $24,000 before accounting and project fees.",
-    "reviewed": "2026-10-24",
+    "fee": "Anomaly publishes planning assessment from $4,000 and advanced planning from $7,500. Ongoing tax support starts at $250, $450 or $2,000 per month by tier; monthly accounting starts at $400.",
+    "qualification": "The calculator lists starting amounts, not a fixed quote for your business. If selected for twelve months, the tax tiers alone total $3,000, $5,400 or $24,000 before accounting and projects. Confirm which services must be combined.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Anomaly CPA pricing",
       "Anomaly CPA cost",
       "Anomaly CPA fees"
     ],
-    "status": "Published starting fees",
-    "kind": "published"
+    "status": "Published program fees — confirm scope",
+    "kind": "published",
+    "additionalSources": [
+      "https://www.anomalycpa.com/"
+    ]
   },
   {
     "slug": "anderson-advisors",
