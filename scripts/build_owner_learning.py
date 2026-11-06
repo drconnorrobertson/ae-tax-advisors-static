@@ -237,27 +237,9 @@ def main():
       group=[p for p in posts if p['educational'] and p['category']==cat]
       hubbody+=T.section(cat,'<ul>'+''.join(f'<li><a href="{p["path"]}">{html.escape(p["title"])}</a></li>' for p in group)+'</ul>')
     T.write_page(HUB,T.build_page(title='How Tax Moves: 100 Illustrated Tax Lessons | AE Tax Advisors',description='100 illustrated lessons explain C corporations, S corporations, partnerships, payroll, two-entity transactions, property and tax payments.',path=HUB,body=hubbody,schemas=[{'@context':'https://schema.org','@type':'CollectionPage','name':'How Tax Moves','url':T.SITE+HUB,'mainEntity':{'@type':'ItemList','numberOfItems':100,'itemListElement':[{'@type':'ListItem','position':i+1,'name':p['title'],'url':T.SITE+p['path']} for i,p in enumerate([p for p in posts if p['educational']])]}}],published=DATE,modified=DATE,active_nav='/blog/',og_type='website'))
-    indexpath=ROOT/'blog/index.html';index=indexpath.read_text()
-    # Replace this batch on rerun without touching existing editorial cards.
-    index=re.sub(r'<!-- owner-learning:start -->.*?<!-- owner-learning:end -->','',index,flags=re.S)
-    cards=[]
-    for post in posts:
-      cards.append(f'<article class="blog-card" data-cat="{post["category"]}" data-text="{T.esc((post["title"]+" "+post["desc"]+" "+post["category"]).lower())}"><div class="blog-body"><div class="blog-meta"><span class="blog-cat">{post["category"]}</span><time class="blog-date" datetime="{DATE}">October 6, 2026</time></div><h3><a href="{post["path"]}">{html.escape(post["title"])}</a></h3><p>{html.escape(post["desc"])}</p><a href="{post["path"]}" class="blog-readmore">Read article</a></div></article>')
-    index=index.replace('<div class="blog-grid" id="blog-grid">','<div class="blog-grid" id="blog-grid">\n<!-- owner-learning:start -->'+''.join(cards)+'<!-- owner-learning:end -->',1)
-    total=index.count('class="blog-card"')
-    counts=collections.Counter(re.findall(r'class="blog-card" data-cat="([^"]+)"',index))
-    index=re.sub(r'(<button class="blog-chip" data-cat="([^"]+)"[^>]*>).*?</button>',lambda m:m[1]+('All' if m[2]=='all' else m[2])+f' ({total if m[2]=="all" else counts[m[2]]})</button>',index)
-    index=re.sub(r'\b629 articles\b',str(total)+' articles',index)
-    index=re.sub(r'(<p class="blog-count"[^>]*>).*?</p>',lambda m:m[1]+str(total)+' articles</p>',index)
-    def blog_schema(m):
-      d=json.loads(m[1])
-      if d.get('@type')=='Blog':
-        old=[e for e in d.get('blogPost',[]) if not any(x in e.get('url','') for x in ['/owner-faq-','/how-tax-moves-'])]
-        d['blogPost']=[{'@type':'BlogPosting','headline':p['title'],'url':T.SITE+p['path'],'datePublished':DATE} for p in posts]+old;d['dateModified']=DATE
-      return '<script type="application/ld+json">'+json.dumps(d)+'</script>'
-    index=re.sub(r'<script type="application/ld\+json">(.*?)</script>',blog_schema,index,flags=re.S)
-    index=index.replace('<div class="blog-grid" id="blog-grid">',f'<p><a href="{HUB}">Explore 100 illustrated How Tax Moves lessons</a></p>\n<div class="blog-grid" id="blog-grid">',1) if HUB not in index else index
-    indexpath.write_text(index)
+    # Explicitly approved authored batch; the archive renderer owns pagination.
+    from blog_archive import register_routes
+    register_routes(posts)
     # Advertised primary sitemap plus specialized blog and case-study discovery.
     ns='http://www.sitemaps.org/schemas/sitemap/0.9'; ET.register_namespace('',ns)
     for filename,newpaths in [('sitemap.xml',[p['path'] for p in posts]+[HUB]+['/'+str(p.parent)+'/' for p in (ROOT/'case-studies').glob('planning-*/index.html')]),('sitemap-blog.xml',[p['path'] for p in posts])]:

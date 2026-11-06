@@ -14,5 +14,6 @@ for (const command of [
   "python3 scripts/check-provider-triplets.py public",
   "python3 scripts/check-provider-content.py public",
   "node scripts/install-speed-insights.cjs public",
-  "node scripts/check-production-seo.cjs public"
+  "node scripts/check-production-seo.cjs public",
+  "python3 scripts/check-blog-archive.py public"
 ]) execSync(command, {cwd:root,stdio:'inherit'});

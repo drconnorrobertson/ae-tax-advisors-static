@@ -204,6 +204,10 @@ def expand():
   'retirement-exit-ma-tax-strategy/index.html':[r for i,r in enumerate(rows) if r['group'] in ['business-purchases','selling-business','retirement-plans'] and i%10<2],
   'services/reasonable-compensation/index.html':[r for r in rows if r['group']=='owner-pay']}
  for f,selected in discovery.items():
+  if f=='blog/index.html':
+   from blog_archive import register_routes
+   register_routes(selected)
+   continue
   p=ROOT/f;s=p.read_text()
   if f=='sitemap/index.html':s=s.replace('1565 pages in total.','1665 pages in total.')
   s=re.sub(r'<!-- owner-faqs-20261028:start -->.*?<!-- owner-faqs-20261028:end -->','',s,flags=re.S)
