@@ -3,7 +3,8 @@
 This does not edit output or normalize arbitrary markup/text. Mirrors only the
 known navigation caption, configured consolidation hrefs, and fixed footer
 changes in build-public.cjs / consolidate-content.cjs / improve-editorial-discovery.py,
-plus exact route-and-tag-specific CTAs from cost-seg-routing.cjs.
+plus exact route-and-tag-specific CTAs from cost-seg-routing.cjs and the
+known shared discovery CTA paragraph from normalize-shared-discovery-cta.cjs.
 """
 import json
 import re
@@ -11,8 +12,24 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 
+
+def normalize_shared_discovery_cta(value, policy_root):
+    """Mirror the staged paragraph-only transform, with the identical DOM gate."""
+    config = json.loads((Path(policy_root) / 'scripts/shared-discovery-cta.json').read_text())
+    old = r'\s+'.join(re.escape(word) for word in config['old_paragraph'].split())
+    anchors = '|'.join(re.escape(anchor) for anchor in config['anchors'])
+    prefix = (r'(<section class="content-section fade-in-section" style="background:var\(--light-bg\);">\s*'
+              r'<div class="container narrow center-text">\s*'
+              r'<h2(?: id="answer-section-9")?>Talk Through Your Situation</h2>\s*<p>)')
+    suffix = (r'(</p>\s*<div class="center-cta" style="margin-top:20px;">\s*(?:' + anchors +
+              r')\s*</div>\s*</div>\s*</section>)')
+    return re.sub(prefix + '(' + old + ')' + suffix,
+                  lambda m: m[1] + config['new_paragraph'] + m[3], value)
+
+
 def normalize_baseline_html(value, policy_root, route=None):
     policy_root = Path(policy_root)
+    value = normalize_shared_discovery_cta(value, policy_root)
     consolidation = json.loads((policy_root / 'scripts/content-consolidation.json').read_text())
     host = consolidation['host']
     mapping = consolidation['redirects']

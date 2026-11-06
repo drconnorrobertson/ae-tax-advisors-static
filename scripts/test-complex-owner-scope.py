@@ -40,8 +40,13 @@ assert 'multi-state-real-estate-tax-planning/index.html' in changed
 # transformation rather than requiring this batch to be deployed alone.
 for key in changed:
  expected=dict(oldcfg[key])
+ if key=='real-estate-tax-strategy-business-owners/index.html':
+  assert 'h1' not in expected
+  expected['h1']='Tax Planning for Business Owners With Rental Properties'
+  assert cfg[key]==expected, 'Combined-owner config changed beyond its reviewed H1'
+  continue
  duplicate='<h3>'+expected['heading']+'</h3>'
  assert expected['body'].count(duplicate)==1
  expected['body']=expected['body'].replace(duplicate,'')
  assert cfg[key]==expected,key+' changed beyond heading deduplication'
-print('PASS config narrow key, heading deduplication, cohort preservation')
+print('PASS config narrow keys, heading deduplication, exact combined-owner H1 and cohort preservation')

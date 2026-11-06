@@ -1347,5 +1347,17 @@
   "/use-family-management-company/": {
     "title": "Family Management Company: When It Helps | AE Tax Advisors",
     "description": "Evaluate a family management company by actual services, related-party fees, payroll, spouse joint-return rules and costs before creating another entity."
+  },
+  "/s-corp-qbi-deduction-maximization/": {
+    "title": "S-Corp QBI Deduction: Wages, UBIA and 2026 Limits",
+    "description": "Compare S-corp wages, QBI, qualified-property UBIA, SSTB rules and 2026 phase-in limits before changing compensation or retirement contributions."
+  },
+  "/the-business-owners-guide-to-section-199a-qualified-business-income-qbi-deduction/": {
+    "title": "Section 199A QBI Deduction: 2026 Business Owner Guide",
+    "description": "Check 2026 QBI thresholds, wage and UBIA limits, SSTB rules, aggregation, rental eligibility and cost-segregation examples before making tax decisions."
+  },
+  "/qbi-deduction-a-practical-guide-for-business-owners/": {
+    "title": "QBI Planning for Business Owners: Payroll, Property and 2026 Rules",
+    "description": "Compare payroll, spouse wages, property purchases and aggregation using conditional QBI examples. Review 2026 thresholds, rental rules and after-tax costs."
   }
 }

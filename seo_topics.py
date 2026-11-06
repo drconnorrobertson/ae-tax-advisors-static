@@ -246,18 +246,31 @@ FAQS: dict[str, list[tuple[str, str]]] = {
  ("What is a backdoor Roth contribution?",
   "A nondeductible traditional IRA contribution followed by a conversion to a Roth IRA, used by taxpayers above the Roth income limits. The pro-rata rule of Section 408(d)(2) aggregates all traditional IRA balances in computing the taxable portion, which is what makes the strategy work cleanly only when other pre-tax IRA balances are absent."),
 ],
-"qbi": [
- ("What is the Section 199A qualified business income deduction?",
-  "A deduction of up to 20% of qualified business income from a pass-through business, made permanent by the OBBBA. Below the taxable income thresholds it is simply 20% of QBI; above them it is limited by W-2 wages and the basis of qualified property."),
- ("What is a specified service trade or business?",
-  "A business in health, law, accounting, actuarial science, performing arts, consulting, athletics, financial services, brokerage, or any business whose principal asset is the reputation or skill of its employees or owners. Above the taxable income thresholds, the QBI deduction for these businesses phases out entirely."),
- ("How do W-2 wages limit the QBI deduction?",
-  "Above the thresholds, the deduction for a non-service business is limited to the greater of 50% of W-2 wages, or 25% of W-2 wages plus 2.5% of the unadjusted basis of qualified property. This is why minimizing an S-Corp salary can backfire."),
- ("Does rental real estate qualify for the QBI deduction?",
-  "It can, where the activity rises to the level of a trade or business. Revenue Procedure 2019-38 provides a safe harbor requiring separate books, 250 hours of rental services annually, and contemporaneous records. Triple-net leases are generally excluded from the safe harbor."),
- ("Do large depreciation deductions reduce my QBI deduction?",
-  "Yes. Depreciation reduces qualified business income, so a large first-year deduction can reduce the 20% deduction. For taxpayers inside the phase-in range the interaction is not intuitive and should be modeled before the depreciation elections are finalized."),
-],
+"qbi": [('What is the Section 199A qualified business income deduction?',
+  'Eligible noncorporate owners generally deduct up to 20% of QBI, subject to business-level limits, loss '
+  'netting, and a cap based on taxable income before QBI less net capital gain, including qualified '
+  'dividends. A separate $400 minimum applies beginning in 2026 to eligible taxpayers with at least $1,000 '
+  'of aggregate active qualified-business QBI.'),
+ ('What is a specified service trade or business?',
+  'SSTBs include defined service fields such as health, law, accounting, and consulting. The reputation or '
+  "skill category is limited to endorsements, licensing an individual's identity, and paid appearances. SSTB "
+  'eligibility phases out over the applicable taxable-income range; it does not disappear immediately above '
+  'the starting threshold.'),
+ ('How do W-2 wages limit the QBI deduction?',
+  'For a non-SSTB above the phase-in range, the business component generally cannot exceed the greater of '
+  '50% of allocable W-2 wages or 25% of those wages plus 2.5% of qualified-property UBIA, and cannot exceed '
+  '20% of QBI. The limitation phases in within the range. Zero wages can still leave capacity through '
+  'eligible UBIA.'),
+ ('Does rental real estate qualify for the QBI deduction?',
+  'It can qualify as a trade or business, through the rental safe harbor, or under applicable commonly '
+  'controlled self-rental rules. Real estate professional status is not required. The safe harbor includes '
+  'books, records, a statement, and 250 rental-service hours annually for newer enterprises or in three of '
+  'five years for enterprises at least four years old. Related-SSTB restrictions remain separate.'),
+ ('Do large depreciation deductions reduce my QBI deduction?',
+  'Depreciation attributable to a qualified business generally reduces QBI. Lower taxable income may improve '
+  'phase-in treatment, while lower QBI can reduce the business component. Depreciation does not itself '
+  'reduce UBIA, but cost segregation does not double-count or create new acquisition basis. Model the '
+  'complete return.')],
 "audit": [
  ("What should I do if I receive an IRS notice?",
   "Read it carefully for the specific issue and the response deadline, and do not ignore it. Many notices are automated matching notices that can be resolved with documentation. Responding within the stated window preserves your appeal rights and prevents automatic assessment."),
@@ -366,13 +379,13 @@ FAQS: dict[str, list[tuple[str, str]]] = {
  ("What does a tax advisory engagement include?",
   "Confirm deliverables in the signed scope: prior-year review, forward planning, implementation responsibilities and the period of support or audit-defense coverage. Returns, amendments, cost segregation and additional work are separately scoped and priced. An advisory engagement does not promise unlimited future planning or free annual filing."),
  ("How is tax planning different from tax preparation?",
-  "Preparation reports what already happened. Planning changes what happens, and nearly every meaningful strategy has a deadline that falls before year end. A return filed in April can only reflect decisions that were made months earlier."),
+  "Preparation reports activity under the applicable rules. Planning evaluates decisions and implementation requirements. Some actions must occur during the tax year, while others may be available by a filing deadline or under a specific relief procedure. A review cannot retroactively create facts or transactions that did not occur."),
  ("Do you work with clients outside Montana?",
   "Yes. We work with clients nationwide from our office in Billings, Montana. Federal strategy is identical across states, and we coordinate state-specific issues including pass-through entity tax elections, nexus, and residency wherever clients operate."),
  ("How do you charge for advisory work?",
   "Published standard advisory pricing is $7,800, paid as two $3,900 installments 30 days apart, with no required recurring annual planning fee. Returns, amendments, cost segregation and additional services are separately scoped and priced. Confirm current fees and deliverables in the written engagement."),
  ("How quickly can strategies be implemented?",
-  "It depends on the strategy. Entity elections, retirement plan adoption, and accountable plans can often be put in place quickly, while cost segregation studies typically take several weeks and material participation positions require a full year of documentation."),
+  "Timing depends on the decision, records, responsible professionals and applicable deadlines. Confirm election, plan-adoption, contribution and filing requirements separately. Participation positions depend on actual activity and supporting evidence for the relevant year, not a promised implementation period."),
 ],
 }
 

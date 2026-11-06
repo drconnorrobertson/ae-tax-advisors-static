@@ -56,3 +56,42 @@ for route,label,attrs in [
  assert normalize_baseline_html(changed,ROOT,route)==changed
  assert normalize_baseline_html(old,ROOT,route)!=expected.replace('/cost-seg-discovery/','/wrong-target/')
 print('PASS both exact cost-seg route/caption allowlists and unrelated-route rejection.')
+
+# Mirror only the exact shared discovery paragraph, never whole CTA/footer text.
+import json
+import subprocess
+from tax_review_build_normalization import normalize_shared_discovery_cta
+config=json.loads((ROOT/'scripts/shared-discovery-cta.json').read_text())
+def shared_fixture(anchor,heading=''):
+    return ('<section class="content-section fade-in-section" style="background:var(--light-bg);">\n'
+            '<div class="container narrow center-text">\n<h2'+heading+'>Talk Through Your Situation</h2>\n'
+            '<p>'+config['old_paragraph']+'</p>\n<div class="center-cta" style="margin-top:20px;">\n'+anchor+'\n</div>\n</div>\n</section>')
+fixtures=[]
+for anchor in config['anchors']:
+    for heading in ('',' id="answer-section-9"'):
+        old=shared_fixture(anchor,heading)
+        expected=old.replace(config['old_paragraph'],config['new_paragraph'])
+        assert normalize_shared_discovery_cta(old,ROOT)==expected
+        assert normalize_shared_discovery_cta(expected,ROOT)==expected
+        assert n(old)==expected
+        fixtures.extend([old,expected])
+old=shared_fixture(config['anchors'][0])
+for value in [old.replace('/discovery/','/unknown-booking/'),old.replace('Book a Call','Different caption'),
+              old.replace('center-text','other-class'),old.replace('Talk Through Your Situation','Client results'),
+              old.replace('<h2>','<h2 id="answer-section-10">'),
+              '<p>'+config['old_paragraph']+'</p>',
+              old.replace('</p>',' Client saved $50,000.</p>')]:
+    assert normalize_shared_discovery_cta(value,ROOT)==value
+    fixtures.append(value)
+expected=old.replace(config['old_paragraph'],config['new_paragraph'])
+for prefix,changed in [('<p>Fee $7,800.</p>','<p>Fee $9,800.</p>'),
+                      ('<p>Client saved $50,000.</p>','<p>Client saved $75,000.</p>'),
+                      ('<title>Original</title>','<title>Changed</title>'),
+                      ('<time>2026-08-17</time>','<time>2026-11-06</time>')]:
+    assert n(prefix+old)==prefix+expected
+    assert n(prefix+old)!=changed+expected
+# Ensure no drift between the Python preservation model and actual Node build.
+js="const fs=require('fs');const n=require('./scripts/normalize-shared-discovery-cta.cjs').normalizeSharedDiscoveryCta;process.stdout.write(JSON.stringify(JSON.parse(fs.readFileSync(0,'utf8')).map(s=>n(s).html)));"
+actual=json.loads(subprocess.check_output(['node','-e',js],input=json.dumps(fixtures),text=True,cwd=ROOT))
+assert actual==[normalize_shared_discovery_cta(s,ROOT) for s in fixtures]
+print('PASS: exact shared CTA mirror matches Node; arbitrary copy, links, headings, prices, case outcomes and dates remain detectable.')

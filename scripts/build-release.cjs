@@ -17,5 +17,6 @@ for (const command of [
   "node scripts/apply-reviewed-lastmod.cjs public",
   "node scripts/check-jsonld.cjs public",
   "node scripts/check-production-seo.cjs public",
-  "python3 scripts/check-blog-archive.py public"
+  "python3 scripts/check-blog-archive.py public",
+  "node scripts/check-shared-discovery-cta.cjs public"
 ]) execSync(command, {cwd:root,stdio:'inherit'});
