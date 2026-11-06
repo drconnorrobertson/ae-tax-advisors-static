@@ -178,27 +178,27 @@ FAQS: dict[str, list[tuple[str, str]]] = {
 ],
 "exchange_1031": [
  ("What are the 1031 exchange deadlines?",
-  "Two deadlines run from the closing of the relinquished property: 45 calendar days to identify replacement property in writing, and 180 calendar days to close on it. The 180-day period also cannot extend past the due date of your return including extensions, so filing an extension is often essential."),
+  "Identify replacement property in signed writing within 45 calendar days after transferring the relinquished property. Receive it by the earlier of 180 calendar days or the due date of the federal return for the transfer year, including extensions. Both periods run from the transfer, not consecutively. Applicable IRS relief may postpone deadlines; ordinary weekends, holidays, and financing delays do not."),
  ("Can I touch the sale proceeds during an exchange?",
   "No. The proceeds must be held by a qualified intermediary from closing through acquisition of the replacement property. Receiving or controlling the funds at any point, even briefly, disqualifies the exchange entirely."),
  ("What property qualifies for a 1031 exchange?",
-  "Real property held for investment or productive use in a trade or business. The definition is broad, so a rental house can be exchanged for a warehouse or raw land. Personal residences, property held primarily for sale such as flip inventory, and foreign real property do not qualify."),
+  "Both properties must be qualifying real property held for investment or business use. A rental house may be like-kind to a warehouse or raw land. Personal-use residences and property held primarily for sale do not qualify. U.S. real property is not like-kind to foreign real property, but foreign-to-foreign exchanges may qualify if the other requirements are met."),
  ("What is boot in a 1031 exchange?",
-  "Any value received that is not like-kind property, including cash, debt relief, or non-qualifying property. Boot is taxable to the extent of gain, so replacement property should be of equal or greater value with equal or greater debt to achieve full deferral."),
+  "Boot includes cash, non-like-kind property, and net debt relief after permitted offsets. Additional cash paid can replace debt, so equal replacement borrowing is not mandatory. A more expensive replacement or extra borrowing does not by itself erase cash retained. Recognized gain is generally limited to the lesser of realized gain or boot after eligible exchange expenses, with recapture rules reviewed separately."),
  ("Does a 1031 exchange defer depreciation recapture?",
-  "Yes. A properly structured exchange defers the entire gain including recapture into the replacement property. The deferred amount carries over in the replacement property's basis and is recognized on a later taxable sale, unless another exchange or a step-up at death intervenes."),
+  "A qualifying real-property exchange can defer gain attributable to depreciation, but full deferral is not automatic. Boot and the separate Section 1245 and Section 1250 recapture rules can require current recognition. Unrecaptured Section 1250 gain for individuals has a maximum 25% federal rate; it is not a flat 25% ordinary-income tax on all depreciation. Track deferred gain and carryover basis for a later taxable disposition."),
  ("Can I 1031 exchange a short-term rental?",
   "Yes, provided it is genuinely held for investment or business use rather than personal enjoyment. Significant personal use undermines the position, and the exchange must be structured before closing on the sale, not afterward."),
 ],
 "scorp": [
  ("How much does an S-Corp election save?",
-  "It saves 15.3% self-employment tax on profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. The election typically starts paying for itself once net profit exceeds roughly $60,000 to $80,000 per owner after compliance costs."),
+  "There is no fixed savings percentage. Compare Schedule SE tax after the 92.35% net-earnings adjustment with both employer and employee payroll taxes on supportable wages, accounting for the Social Security wage base, other earnings, filing status, and Additional Medicare Tax. Then model income-tax/QBI effects, state taxes, unemployment taxes, and compliance costs to estimate a net benefit."),
  ("Is there a 60/40 rule for S-Corp salary?",
   "No. There is no safe harbor percentage in the Code, regulations, or IRS guidance. Reasonable compensation is a facts-and-circumstances determination measured against what comparable businesses pay for comparable services, using the nine factors summarized in IRS Fact Sheet FS-2008-25."),
  ("What happens if my S-Corp salary is too low?",
   "The IRS recharacterizes distributions as wages, producing back employment taxes for both halves, failure to deposit and failure to file penalties, accuracy-related penalties, and interest across all open years. Adjustments spanning three years frequently exceed six figures."),
  ("Does an S-Corp election reduce income tax?",
-  "No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only, which is a common point of confusion."),
+  "An S election can reduce employment taxes on business profit remaining after reasonable compensation. Income-tax results can also change, including through the Section 199A qualified business income deduction, so compare the combined tax effect rather than assuming income tax is unchanged."),
  ("Can an LLC be taxed as an S-Corp?",
   "Yes. An LLC can elect S-Corp taxation by filing Form 2553 without converting to a corporation. The operating agreement, liability protection, and state law status are unaffected; only the federal tax characterization changes."),
  ("How does S-Corp salary interact with the QBI deduction?",
@@ -246,18 +246,31 @@ FAQS: dict[str, list[tuple[str, str]]] = {
  ("What is a backdoor Roth contribution?",
   "A nondeductible traditional IRA contribution followed by a conversion to a Roth IRA, used by taxpayers above the Roth income limits. The pro-rata rule of Section 408(d)(2) aggregates all traditional IRA balances in computing the taxable portion, which is what makes the strategy work cleanly only when other pre-tax IRA balances are absent."),
 ],
-"qbi": [
- ("What is the Section 199A qualified business income deduction?",
-  "A deduction of up to 20% of qualified business income from a pass-through business, made permanent by the OBBBA. Below the taxable income thresholds it is simply 20% of QBI; above them it is limited by W-2 wages and the basis of qualified property."),
- ("What is a specified service trade or business?",
-  "A business in health, law, accounting, actuarial science, performing arts, consulting, athletics, financial services, brokerage, or any business whose principal asset is the reputation or skill of its employees or owners. Above the taxable income thresholds, the QBI deduction for these businesses phases out entirely."),
- ("How do W-2 wages limit the QBI deduction?",
-  "Above the thresholds, the deduction for a non-service business is limited to the greater of 50% of W-2 wages, or 25% of W-2 wages plus 2.5% of the unadjusted basis of qualified property. This is why minimizing an S-Corp salary can backfire."),
- ("Does rental real estate qualify for the QBI deduction?",
-  "It can, where the activity rises to the level of a trade or business. Revenue Procedure 2019-38 provides a safe harbor requiring separate books, 250 hours of rental services annually, and contemporaneous records. Triple-net leases are generally excluded from the safe harbor."),
- ("Do large depreciation deductions reduce my QBI deduction?",
-  "Yes. Depreciation reduces qualified business income, so a large first-year deduction can reduce the 20% deduction. For taxpayers inside the phase-in range the interaction is not intuitive and should be modeled before the depreciation elections are finalized."),
-],
+"qbi": [('What is the Section 199A qualified business income deduction?',
+  'Eligible noncorporate owners generally deduct up to 20% of QBI, subject to business-level limits, loss '
+  'netting, and a cap based on taxable income before QBI less net capital gain, including qualified '
+  'dividends. A separate $400 minimum applies beginning in 2026 to eligible taxpayers with at least $1,000 '
+  'of aggregate active qualified-business QBI.'),
+ ('What is a specified service trade or business?',
+  'SSTBs include defined service fields such as health, law, accounting, and consulting. The reputation or '
+  "skill category is limited to endorsements, licensing an individual's identity, and paid appearances. SSTB "
+  'eligibility phases out over the applicable taxable-income range; it does not disappear immediately above '
+  'the starting threshold.'),
+ ('How do W-2 wages limit the QBI deduction?',
+  'For a non-SSTB above the phase-in range, the business component generally cannot exceed the greater of '
+  '50% of allocable W-2 wages or 25% of those wages plus 2.5% of qualified-property UBIA, and cannot exceed '
+  '20% of QBI. The limitation phases in within the range. Zero wages can still leave capacity through '
+  'eligible UBIA.'),
+ ('Does rental real estate qualify for the QBI deduction?',
+  'It can qualify as a trade or business, through the rental safe harbor, or under applicable commonly '
+  'controlled self-rental rules. Real estate professional status is not required. The safe harbor includes '
+  'books, records, a statement, and 250 rental-service hours annually for newer enterprises or in three of '
+  'five years for enterprises at least four years old. Related-SSTB restrictions remain separate.'),
+ ('Do large depreciation deductions reduce my QBI deduction?',
+  'Depreciation attributable to a qualified business generally reduces QBI. Lower taxable income may improve '
+  'phase-in treatment, while lower QBI can reduce the business component. Depreciation does not itself '
+  'reduce UBIA, but cost segregation does not double-count or create new acquisition basis. Model the '
+  'complete return.')],
 "audit": [
  ("What should I do if I receive an IRS notice?",
   "Read it carefully for the specific issue and the response deadline, and do not ignore it. Many notices are automated matching notices that can be resolved with documentation. Responding within the stated window preserves your appeal rights and prevents automatic assessment."),
@@ -366,13 +379,13 @@ FAQS: dict[str, list[tuple[str, str]]] = {
  ("What does a tax advisory engagement include?",
   "Confirm deliverables in the signed scope: prior-year review, forward planning, implementation responsibilities and the period of support or audit-defense coverage. Returns, amendments, cost segregation and additional work are separately scoped and priced. An advisory engagement does not promise unlimited future planning or free annual filing."),
  ("How is tax planning different from tax preparation?",
-  "Preparation reports what already happened. Planning changes what happens, and nearly every meaningful strategy has a deadline that falls before year end. A return filed in April can only reflect decisions that were made months earlier."),
+  "Preparation reports activity under the applicable rules. Planning evaluates decisions and implementation requirements. Some actions must occur during the tax year, while others may be available by a filing deadline or under a specific relief procedure. A review cannot retroactively create facts or transactions that did not occur."),
  ("Do you work with clients outside Montana?",
   "Yes. We work with clients nationwide from our office in Billings, Montana. Federal strategy is identical across states, and we coordinate state-specific issues including pass-through entity tax elections, nexus, and residency wherever clients operate."),
  ("How do you charge for advisory work?",
   "Published standard advisory pricing is $7,800, paid as two $3,900 installments 30 days apart, with no required recurring annual planning fee. Returns, amendments, cost segregation and additional services are separately scoped and priced. Confirm current fees and deliverables in the written engagement."),
  ("How quickly can strategies be implemented?",
-  "It depends on the strategy. Entity elections, retirement plan adoption, and accountable plans can often be put in place quickly, while cost segregation studies typically take several weeks and material participation positions require a full year of documentation."),
+  "Timing depends on the decision, records, responsible professionals and applicable deadlines. Confirm election, plan-adoption, contribution and filing requirements separately. Participation positions depend on actual activity and supporting evidence for the relevant year, not a promised implementation period."),
 ],
 }
 

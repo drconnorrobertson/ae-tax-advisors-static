@@ -2,13 +2,16 @@
 // Stage committed public content only. No generator is executed at deployment.
 require('node:child_process').execFileSync(process.execPath, [require('node:path').join(__dirname, 'search-intent.mjs'), '--write'], {stdio:'inherit'});
 const fs = require('node:fs');
+const {ensureSharedUx} = require('./ensure-shared-ux.cjs');
+const {normalizeSharedDiscoveryCta} = require('./normalize-shared-discovery-cta.cjs');
+let discoveryCtaPages = 0, discoveryCtaParagraphs = 0;
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const out = path.join(root, 'public');
 const forbidden = new Set(['public', 'scripts', 'research', 'node_modules']);
 const rootNames = new Set(['robots.txt', 'llms.txt', 'llms-full.txt', 'llms.md', 'feed.xml']);
 const reviewHolds = new Set(Object.keys(JSON.parse(fs.readFileSync(path.join(root, 'discovery_review_holds.json'), 'utf8'))));
-const jsonNames = new Set(['assets/ad-booking-config.json', 'compare/tax-advisory-firm-comparison.json', 'compare/competitor-pricing/prices.json']);
+const jsonNames = new Set(['assets/blog-search-index.json', 'assets/ad-booking-config.json', 'compare/tax-advisory-firm-comparison.json', 'compare/competitor-pricing/prices.json']);
 const toolScripts = new Set(['tools/property-review-prep/intake.js']);
 // Approved public worksheets only, not arbitrary source/research CSVs.
 const publicCsv = new Set(JSON.parse(fs.readFileSync(path.join(root, 'public-downloads.json'), 'utf8')));
@@ -62,7 +65,9 @@ function walk(dir) {
           if (footer.includes('<a href="/disclaimer/">')) return footer.replace('<a href="/disclaimer/">', disclosure + ' &middot; <a href="/disclaimer/">');
           return footer.replace('</footer>', '<p class="footer-legal-links">' + disclosure + '</p></footer>');
         });
-        fs.writeFileSync(target, html);
+        const fitCta = normalizeSharedDiscoveryCta(html);
+        if (fitCta.count) { discoveryCtaPages++; discoveryCtaParagraphs += fitCta.count; }
+        fs.writeFileSync(target, ensureSharedUx(fitCta.html));
       } else if (/^sitemap.*\.xml$/.test(relative)) {
         // Content generators must not silently promote pages awaiting review.
         const xml = fs.readFileSync(source, 'utf8').replace(/<url>[^]*?<\/url>/g, entry => {
@@ -80,7 +85,9 @@ function walk(dir) {
 function build() {
   fs.rmSync(out, {recursive: true, force: true});
   fs.mkdirSync(out);
+  discoveryCtaPages = 0; discoveryCtaParagraphs = 0;
   walk(root);
+  console.log(`Shared discovery fit copy: normalized ${discoveryCtaParagraphs} paragraphs across ${discoveryCtaPages} staged pages.`);
   console.log('Staged public HTML, assets, discovery files and verification keys in public/.');
 }
 if (require.main === module) build();

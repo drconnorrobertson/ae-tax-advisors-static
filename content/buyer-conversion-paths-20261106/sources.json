@@ -1,0 +1,41 @@
+{
+  "reviewed": "2026-11-06",
+  "sources": [
+    {
+      "url": "https://www.aetaxadvisors.com/discovery/",
+      "supports": "Complimentary 30-minute fit conversation; detailed work follows a paid engagement scope."
+    },
+    {
+      "url": "https://www.aetaxadvisors.com/services/",
+      "supports": "Existing advisory, implementation and separately scoped filing service destinations."
+    },
+    {
+      "url": "https://www.aetaxadvisors.com/cost-segregation-study/",
+      "supports": "Study feasibility, engineering/preparer handoff and separately defined responsibilities."
+    },
+    {
+      "url": "https://www.aetaxadvisors.com/contact/",
+      "supports": "Planning and preparation timing FAQ distinctions, reused without a deadline or participation-duration promise."
+    },
+    {
+      "url": "https://www.aetaxadvisors.com/cost-segregation-owner-occupied-commercial/",
+      "supports": "Direct business ownership, related-landlord analysis and deduction usability."
+    },
+    {
+      "url": "https://www.irs.gov/publications/p925",
+      "supports": "Activity classification, participation and loss limitations."
+    },
+    {
+      "url": "https://www.law.cornell.edu/cfr/text/26/1.469-2",
+      "supports": "Paragraph (f)(6): self-rental income recharacterization is not automatic nonpassive treatment of rental losses."
+    },
+    {
+      "url": "https://www.law.cornell.edu/cfr/text/26/1.469-4",
+      "supports": "Rental-business grouping conditions and appropriate economic unit."
+    },
+    {
+      "url": "https://www.irs.gov/publications/p946",
+      "supports": "Depreciating taxpayer, asset treatment and correction-method review."
+    }
+  ]
+}

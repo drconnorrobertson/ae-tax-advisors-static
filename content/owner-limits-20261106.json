@@ -1,0 +1,92 @@
+{
+  "review_date": "2026-11-06",
+  "tax_year": 2026,
+  "pages": [
+    {
+      "path": "tax-planning-for-doctors/index.html",
+      "canonical": "https://www.aetaxadvisors.com/tax-planning-for-doctors/",
+      "publication_dates": [
+        "2026-01-06"
+      ],
+      "faq_count": 4
+    },
+    {
+      "path": "best-entity-structure-medical-practice/index.html",
+      "canonical": "https://www.aetaxadvisors.com/best-entity-structure-medical-practice/",
+      "publication_dates": [
+        "2026-05-04"
+      ],
+      "faq_count": 4
+    },
+    {
+      "path": "blog/retirement-plan-strategies-s-corp-owners/index.html",
+      "canonical": "https://www.aetaxadvisors.com/blog/retirement-plan-strategies-s-corp-owners/",
+      "publication_dates": [
+        "2026-07-25"
+      ],
+      "faq_count": 4
+    },
+    {
+      "path": "blog/how-much-can-i-contribute-to-a-solo-401k/index.html",
+      "canonical": "https://www.aetaxadvisors.com/blog/how-much-can-i-contribute-to-a-solo-401k/",
+      "publication_dates": [
+        "2026-08-11"
+      ],
+      "faq_count": 4
+    },
+    {
+      "path": "blog/mega-backdoor-roth-for-business-owners/index.html",
+      "canonical": "https://www.aetaxadvisors.com/blog/mega-backdoor-roth-for-business-owners/",
+      "publication_dates": [
+        "2026-08-25"
+      ],
+      "faq_count": 4
+    }
+  ],
+  "sources": [
+    {
+      "title": "2026 retirement limits, IRS Notice 2025-67",
+      "url": "https://www.irs.gov/pub/irs-drop/n-25-67.pdf"
+    },
+    {
+      "title": "IRS Publication 560: plan rules and worksheets",
+      "url": "https://www.irs.gov/publications/p560"
+    },
+    {
+      "title": "IRS one-participant 401(k) rules",
+      "url": "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+    },
+    {
+      "title": "2026 income-tax tables, Rev. Proc. 2025-32",
+      "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+    },
+    {
+      "title": "Social Security contribution bases",
+      "url": "https://www.ssa.gov/oact/cola/cbb.html"
+    },
+    {
+      "title": "IRS self-employment tax",
+      "url": "https://www.irs.gov/taxtopics/tc554"
+    },
+    {
+      "title": "IRS Additional Medicare Tax questions",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/questions-and-answers-for-the-additional-medicare-tax"
+    },
+    {
+      "title": "IRS S-corp compensation",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues"
+    },
+    {
+      "title": "IRS after-tax retirement rollovers",
+      "url": "https://www.irs.gov/retirement-plans/rollovers-of-after-tax-contributions-in-retirement-plans"
+    },
+    {
+      "title": "IRS passive activity rules",
+      "url": "https://www.irs.gov/publications/p925"
+    },
+    {
+      "title": "IRS employee fringe benefits",
+      "url": "https://www.irs.gov/publications/p15b"
+    }
+  ]
+}

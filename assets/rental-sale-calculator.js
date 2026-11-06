@@ -35,7 +35,14 @@
   if (typeof module !== 'undefined' && module.exports) module.exports = {calculateSale};
   if (typeof document === 'undefined') return;
   const form = document.getElementById('rental-sale-form');
-  if (!form) return;
+  if (!form || form.dataset.localInitialized === 'true') return;
+  const installed = [];
+  function listen(target, type, handler) {
+    target.addEventListener(type, handler);
+    installed.push([target, type, handler]);
+  }
+  try {
+
   const output = document.getElementById('sale-output');
   const error = document.getElementById('sale-error');
   const money = n => new Intl.NumberFormat('en-US', {style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
@@ -53,8 +60,23 @@
       if (event) output.focus();
     } catch (e) { error.textContent = e.message; }
   }
-  form.addEventListener('submit',refresh);
-  form.addEventListener('input', () => { output.hidden = true; error.textContent = ''; });
-  form.addEventListener('reset', () => { output.hidden = true; error.textContent = ''; });
-  document.getElementById('sale-print').addEventListener('click', () => root.print());
+  listen(form, 'submit',refresh);
+  listen(form, 'input', () => { output.hidden = true; error.textContent = ''; });
+  listen(form, 'reset', () => { output.hidden = true; error.textContent = ''; });
+  listen(document.getElementById('sale-print'), 'click', () => root.print());
+
+  // All listeners are installed before controls become available. Submit handlers
+  // prevent native navigation before validation and calculation, even on errors.
+  form.querySelectorAll('[data-local-name]').forEach(el => { el.name = el.dataset.localName; });
+  form.querySelector('[data-local-controls]').disabled = false;
+  form.querySelectorAll('button[type="submit"]').forEach(button => { button.disabled = false; });
+  form.querySelector('[data-local-form-status]').textContent = 'Ready. This tool runs locally; answers are not sent.';
+  form.dataset.localInitialized = 'true';
+  } catch (error) {
+    installed.forEach(([target, type, handler]) => target.removeEventListener(type, handler));
+    form.querySelector('[data-local-controls]').disabled = true;
+    form.querySelectorAll('button[type="submit"]').forEach(button => { button.disabled = true; });
+    throw error;
+  }
+
 })(typeof window === 'undefined' ? globalThis : window);

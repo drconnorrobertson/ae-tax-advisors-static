@@ -401,21 +401,21 @@
 <section class="content-section" id="estimate"><div class="container narrow">
 <h2>Estimate Your Cost Segregation Tax Benefit</h2>
 <p>This calculator is for a new acquisition with components independently confirmed as eligible for 100% federal bonus depreciation. It does not determine eligibility or calculate a prior-year Form 3115 adjustment. Enter your own assumptions; property type does not establish a reclassification percentage or a recovery period.</p>
-<form id="cost-seg-scenario">
+<form id="cost-seg-scenario"><p data-local-form-status role="status">This local tool needs JavaScript. Controls become available when it is ready; answers are not sent.</p><fieldset data-local-controls disabled style="border:0;padding:0;margin:0;min-width:0"><legend>Local tool inputs</legend>
 <div class="scenario-grid">
-<label>Total acquisition basis before land ($)<input name="price" type="number" min="0" max="1000000000000" step="any" value="1000000" required></label>
-<label>Supported land allocation (%)<input name="land" type="number" min="0" max="100" step="any" value="20" required></label>
-<label>Assumed bonus-eligible reclassification (%)<input name="reclass" type="number" min="0" max="100" step="any" value="20" required></label>
-<label>Confirmed building recovery period<select name="life" required><option value="">Select after classification review</option><option value="27.5">27.5-year residential rental</option><option value="39">39-year nonresidential</option></select></label>
-<label>Month placed in service<select name="month" required><option value="1">January</option><option value="2">February</option><option value="3">March</option><option value="4">April</option><option value="5">May</option><option value="6">June</option><option value="7">July</option><option value="8">August</option><option value="9">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option></select></label>
-<label>Assumed federal marginal tax rate (%)<input name="rate" type="number" min="0" max="100" step="any" value="32" required></label>
-<label>Additional deduction usable this year (%)<input name="usable" type="number" min="0" max="100" step="any" value="0" required></label>
-<label>Your quoted study and implementation fee ($)<input name="fee" type="number" min="0" max="1000000000" step="any" placeholder="Enter quoted total" required></label>
+<label>Total acquisition basis before land ($)<input data-local-name="price" type="number" min="0" max="1000000000000" step="any" value="1000000" required></label>
+<label>Supported land allocation (%)<input data-local-name="land" type="number" min="0" max="100" step="any" value="20" required></label>
+<label>Assumed bonus-eligible reclassification (%)<input data-local-name="reclass" type="number" min="0" max="100" step="any" value="20" required></label>
+<label>Confirmed building recovery period<select data-local-name="life" required><option value="">Select after classification review</option><option value="27.5">27.5-year residential rental</option><option value="39">39-year nonresidential</option></select></label>
+<label>Month placed in service<select data-local-name="month" required><option value="1">January</option><option value="2">February</option><option value="3">March</option><option value="4">April</option><option value="5">May</option><option value="6">June</option><option value="7">July</option><option value="8">August</option><option value="9">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option></select></label>
+<label>Assumed federal marginal tax rate (%)<input data-local-name="rate" type="number" min="0" max="100" step="any" value="32" required></label>
+<label>Additional deduction usable this year (%)<input data-local-name="usable" type="number" min="0" max="100" step="any" value="0" required></label>
+<label>Your quoted study and implementation fee ($)<input data-local-name="fee" type="number" min="0" max="1000000000" step="any" placeholder="Enter quoted total" required></label>
 </div>
 <p id="scenario-scope">The 20% reclassification default is an illustration, not a typical result or property-specific estimate. Usable deduction starts at zero until you enter a reviewed assumption. Confirm basis, at-risk, passive-loss and other limitations. Short guest stays alone do not establish a 39-year recovery period. The fee is your input, not an AE quote.</p>
-<label class="scenario-check"><input name="eligible" type="checkbox" required> I am modeling qualifying assets eligible for 100% bonus depreciation, with no election out, and a confirmed GDS building classification.</label>
-<p><button class="btn-cta" type="submit">Calculate scenario</button></p>
-</form>
+<label class="scenario-check"><input data-local-name="eligible" type="checkbox" required> I am modeling qualifying assets eligible for 100% bonus depreciation, with no election out, and a confirmed GDS building classification.</label>
+<p><button class="btn-cta" type="submit" disabled>Calculate scenario</button></p>
+</fieldset></form>
 <div id="scenario-result" role="status" aria-live="polite">Choose the assumptions above to calculate. No personal information is collected or sent by this calculator.</div>
 <noscript><p>JavaScript is needed for interactive results. The calculation method and example below can be read without it.</p></noscript>
 <h3>Calculation method and a worked example</h3>
@@ -643,15 +643,15 @@
         <div class="container narrow">
             <h2>Compare holding-period cash flows</h2>
 <p>A large first-year deduction can still have limited holding-period value. Enter the incremental tax cash flows from a reviewed study-versus-no-study projection. This tool performs cash-flow arithmetic; it does not calculate depreciation, recapture, eligibility or taxes. Do not copy the first-year result into every year.</p>
-<form id="holding-period-form"><div class="scenario-grid">
-<label>Holding period (whole years)<input name="years" type="number" min="1" max="40" step="1" required></label>
-<label>Total up-front study and implementation fee ($)<input name="fee" type="number" min="0" max="1000000000000" step="any" required></label>
-<label>Additional tax at sale versus no study ($)<input name="exitTax" type="number" min="0" max="1000000000000" step="any" required></label>
-<label>Annual discount rate (%)<input name="discount" type="number" min="0" max="100" step="any" required></label></div>
+<form id="holding-period-form"><p data-local-form-status role="status">This local tool needs JavaScript. Controls become available when it is ready; answers are not sent.</p><fieldset data-local-controls disabled style="border:0;padding:0;margin:0;min-width:0"><legend>Local tool inputs</legend><div class="scenario-grid">
+<label>Holding period (whole years)<input data-local-name="years" type="number" min="1" max="40" step="1" required></label>
+<label>Total up-front study and implementation fee ($)<input data-local-name="fee" type="number" min="0" max="1000000000000" step="any" required></label>
+<label>Additional tax at sale versus no study ($)<input data-local-name="exitTax" type="number" min="0" max="1000000000000" step="any" required></label>
+<label>Annual discount rate (%)<input data-local-name="discount" type="number" min="0" max="100" step="any" required></label></div>
 <label for="holding-benefits">Year-by-year tax cash-flow differences ($), one number per year</label>
-<textarea id="holding-benefits" name="benefits" rows="5" required aria-describedby="holding-input-help" style="width:100%;padding:12px;font:inherit"></textarea>
+<textarea id="holding-benefits" data-local-name="benefits" rows="5" required aria-describedby="holding-input-help" style="width:100%;padding:12px;font:inherit"></textarea>
 <p id="holding-input-help">Use positive amounts for tax reductions and negative amounts for extra tax from lower later deductions. Enter one signed number for each holding year, separated by commas or newlines. Exclude fees and sale tax from these amounts because they are entered separately. Include actual usability, state effects and fee tax treatment in the professionally reviewed projection.</p>
-<button class="btn-cta" type="submit">Compare holding-period cash flows</button></form>
+<button class="btn-cta" type="submit" disabled>Compare holding-period cash flows</button></fieldset></form>
 <div id="holding-period-result" role="status" aria-live="polite">No assumptions have been filled in. Enter reviewed cash-flow differences to compare.</div>
 <h3>Worked cash-flow example</h3><p>For a hypothetical three-year hold with annual differences of $20,000, -$2,000 and -$2,000, an up-front fee of $3,000, additional sale tax of $10,000 and a 5% discount rate, the undiscounted difference is $3,000 and net present value is approximately $3,868. The example illustrates arithmetic, not a typical property result.</p>
 <p>Fees are paid at time zero. Annual tax differences and sale tax are assumed to occur at each year-end; sale tax occurs in the final year. Net present value equals the sum of each annual difference less that year’s sale tax, discounted by (1 + rate) raised to the year number, minus the up-front fee. Compare different holding periods by changing both the period and its reviewed cash-flow schedule.</p>

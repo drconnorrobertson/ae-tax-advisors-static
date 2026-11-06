@@ -125,24 +125,25 @@
     <div class="grid">
       <div class="card form-card">
         <h2>Property details</h2>
-        <form id="intakeForm">
+        <form id="intakeForm"><p data-local-form-status role="status">This local tool needs JavaScript. Controls become available when it is ready; answers are not sent.</p><fieldset data-local-controls disabled style="border:0;padding:0;margin:0;min-width:0"><legend>Local tool inputs</legend>
           <fieldset><legend>Property and timeline</legend><div class="fields">
-            <label>Property nickname or address <input name="property" maxlength="160" required placeholder="Property A"></label>
-            <label>Property type <select name="type" required><option value="">Select</option><option>Short term rental</option><option>Long term residential rental</option><option>Commercial property</option><option>Other</option></select></label>
-            <label>State <input name="state" maxlength="30" required placeholder="PA"></label>
-            <label>Placed in service date <input name="serviceDate" type="date"></label>
+            <label>Property nickname or address <input data-local-name="property" maxlength="160" required placeholder="Property A"></label>
+            <label>Property type <select data-local-name="type" required><option value="">Select</option><option>Short term rental</option><option>Long term residential rental</option><option>Commercial property</option><option>Other</option></select></label>
+            <label>State <input data-local-name="state" maxlength="30" required placeholder="PA"></label>
+            <label>Placed in service date <input data-local-name="serviceDate" type="date"></label>
           </div></fieldset>
           <fieldset><legend>Cost basis and current status</legend><div class="fields">
-            <label>Purchase price <input name="price" type="number" min="0" step="100" placeholder="500000"></label>
-            <label>Estimated land value <input name="land" type="number" min="0" step="100" placeholder="100000"></label>
-            <label>Improvements after purchase <input name="improvements" type="number" min="0" step="100" placeholder="0"></label>
-            <label>Prior cost segregation study? <select name="priorStudy"><option value="Unknown">Unknown</option><option>No</option><option>Yes</option></select></label>
-            <label>Depreciation started? <select name="depreciation"><option value="Unknown">Unknown</option><option>No</option><option>Yes</option></select></label>
-            <label>Current tax advisor <input name="advisor" maxlength="100" placeholder="Optional"></label>
+            <label>Purchase price <input data-local-name="price" type="number" min="0" step="100" placeholder="500000"></label>
+            <label>Estimated land value <input data-local-name="land" type="number" min="0" step="100" placeholder="100000"></label>
+            <label>Improvements after purchase <input data-local-name="improvements" type="number" min="0" step="100" placeholder="0"></label>
+            <label>Prior cost segregation study? <select data-local-name="priorStudy"><option value="Unknown">Unknown</option><option>No</option><option>Yes</option></select></label>
+            <label>Depreciation started? <select data-local-name="depreciation"><option value="Unknown">Unknown</option><option>No</option><option>Yes</option></select></label>
+            <label>Current tax advisor <input data-local-name="advisor" maxlength="100" placeholder="Optional"></label>
           </div></fieldset>
-          <label>Questions for the advisor <textarea name="questions" rows="4" maxlength="1000" placeholder="What would you like reviewed?"></textarea></label>
-          <div class="actions"><button type="submit">Prepare summary</button><button type="reset" class="secondary">Clear</button></div>
-        </form>
+          <label>Questions for the advisor <textarea data-local-name="questions" rows="4" maxlength="1000" placeholder="What would you like reviewed?"></textarea></label>
+          <div class="actions"><button type="submit" disabled>Prepare summary</button><button type="reset" class="secondary">Clear</button></div>
+        </fieldset></form>
+        <noscript><p>JavaScript is required to prepare a local summary. Your answers are not sent. You can review the document checklist below or discuss these questions during your call.</p></noscript>
       </div>
       <aside class="card">
         <h2>Documents to gather</h2>

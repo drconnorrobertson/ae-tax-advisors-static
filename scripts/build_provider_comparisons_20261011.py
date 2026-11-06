@@ -11,6 +11,21 @@ profiles=json.loads((DATA/'profiles.json').read_text())
 by={p['slug']:p for p in profiles}
 demand=json.loads((DATA/'demand.json').read_text())
 HUB='/compare/provider-comparison-library/'
+# Search descriptions are audience-specific; visible introductory copy stays unchanged.
+HUB_SEARCH_DESCRIPTIONS = {'/compare/business-owner-provider-shortlists/': 'Compare tax providers for business owners by '
+                                                 'planning, accounting, return preparation and '
+                                                 'specialist scope. Review sourced profiles and '
+                                                 'shortlist questions.',
+ '/compare/high-income-provider-shortlists/': 'Compare tax advisors for high-income professionals '
+                                              'and owners across tax planning, wealth coordination '
+                                              'and rental needs using sourced service profiles.',
+ '/compare/provider-comparison-library/': 'Search tax provider profiles and firm-to-firm '
+                                          'comparisons by service model. Use official sources and '
+                                          'scope questions to build your advisor shortlist.',
+ '/compare/real-estate-study-provider-shortlists/': 'Compare real estate tax advisors and cost '
+                                                    'segregation study providers by service scope, '
+                                                    'CPA coordination and filing responsibilities '
+                                                    'before requesting proposals.'}
 paths=[];manifest=[]
 def p(t):return '<p>'+E(t)+'</p>'
 def ul(items):return '<ul>'+''.join('<li>'+E(x)+'</li>' for x in items)+'</ul>'
@@ -52,11 +67,12 @@ for _,a,b in candidates:
 assert len(selected)==496,len(selected)
 assert len(degree)==len(profiles),(len(degree),len(profiles))
 def save(path,title,desc,body,sources):
+ metadata_desc=HUB_SEARCH_DESCRIPTIONS.get(path,desc)
  assert not (ROOT/path.strip('/')/'index.html').exists(),path
  trail=[('Home','/'),('Compare','/compare/'),('Provider comparison library',HUB),(title,path)]
- schemas=[T.article_schema(title=title,description=desc,url=T.SITE+path,published=DATE,modified=DATE,section='Tax Provider Comparisons',citations=sources),T.breadcrumb_schema(trail)]
+ schemas=[T.article_schema(title=title,description=metadata_desc,url=T.SITE+path,published=DATE,modified=DATE,section='Tax Provider Comparisons',citations=sources),T.breadcrumb_schema(trail)]
  header=T.page_header(h1=E(title),subtitle=E(desc),trail=[(E(n),u) for n,u in trail])
- T.write_page(path,T.build_page(title=title,description=desc,path=path,body=header+body,schemas=schemas,published=DATE,modified=DATE,active_nav='/compare/'))
+ T.write_page(path,T.build_page(title=title,description=metadata_desc,path=path,body=header+body,schemas=schemas,published=DATE,modified=DATE,active_nav='/compare/'))
  paths.append(path)
 def profile_block(f):
  body=p(f['summary'])+p('Relevant buyer: '+f['fit'])+p('Evaluation example: '+f['scenario'])

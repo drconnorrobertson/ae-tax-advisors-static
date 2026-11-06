@@ -144,7 +144,6 @@ POST_SLUGS = [
     "the-business-owners-guide-to-section-199a-qualified-business-income-qbi-deduction",
     "depreciation-tax-strategy-6",
     "the-business-owners-guide-to-section-163j-business-interest-limitation-rules",
-    "the-business-owners-guide-to-section-453-installment-sales-and-deferred-gain-recognition",
     "the-business-owners-guide-to-section-1202-qualified-small-business-stock-qsbs-exclusion",
     "the-business-owners-guide-to-section-721-nonrecognition-rules-and-partnership-contributions",
     "the-business-owners-guide-to-section-704b-capital-accounts-and-partner-allocations",

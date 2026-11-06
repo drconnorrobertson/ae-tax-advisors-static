@@ -14,7 +14,8 @@
     "/tax-filing-and-compliance-services/": "/services/",
     "/schedule-a-real-estate-tax-consultation/": "/discovery/",
     "/schedule-a-real-estate-tax-consultation-2/": "/discovery/",
-    "/mid-term-rental-tax-planning-and-preparation/": "/mid-term-rental-tax-accounting-setup/"
+    "/mid-term-rental-tax-planning-and-preparation/": "/mid-term-rental-tax-accounting-setup/",
+    "/the-business-owners-guide-to-section-453-installment-sales-and-deferred-gain-recognition/": "/the-business-owners-guide-to-installment-sales-and-deferred-gain-strategies/"
   },
   "reason": "Overlapping service-intent pages and generic numbered rental variants; retain substantive distinct guides."
 }

@@ -247,9 +247,9 @@ def definition(text: str) -> str:
 CTA_BLOCK = """    <section class="content-section fade-in-section" style="background:var(--light-bg);">
         <div class="container narrow center-text">
             <h2>Talk Through Your Situation</h2>
-            <p>Every situation turns on its own facts. Schedule a discovery call and we will
-            walk through what applies to you, what it is worth, and what it would take to
-            put it in place.</p>
+            <p>Discuss your priorities, upcoming decisions and whether a study or advisory
+            engagement fits. Detailed analysis, implementation or filing work follows
+            an agreed written scope.</p>
             <div class="center-cta" style="margin-top:20px;">
                 <a href="/discovery/" class="btn-cta btn-lg">Book a Call</a>
             </div>

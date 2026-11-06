@@ -1,0 +1,111 @@
+{
+  "review_date": "2026-11-06",
+  "tax_year": 2026,
+  "pages": [
+    {
+      "path": "airbnb-tax-deductions/index.html",
+      "sources": [
+        {
+          "title": "2026 Section 179 amounts: IRS Revenue Procedure 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        },
+        {
+          "title": "Depreciation eligibility and elections: IRS Publication 946",
+          "url": "https://www.irs.gov/publications/p946"
+        },
+        {
+          "title": "2026 standard mileage rates by period",
+          "url": "https://www.irs.gov/tax-professionals/standard-mileage-rates"
+        },
+        {
+          "title": "De minimis safe harbor requirements",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+        }
+      ]
+    },
+    {
+      "path": "for/high-income-500k/index.html",
+      "sources": [
+        {
+          "title": "2026 retirement and QCD limits: IRS Notice 2025-67",
+          "url": "https://www.irs.gov/pub/irs-drop/n-25-67.pdf"
+        },
+        {
+          "title": "Owner-only 401(k) eligibility and contributions",
+          "url": "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+        },
+        {
+          "title": "Combined retirement-plan deduction limits",
+          "url": "https://www.irs.gov/retirement-plans/combined-limits-under-irc-section-404a7"
+        },
+        {
+          "title": "S corporation retirement-plan compensation",
+          "url": "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+        },
+        {
+          "title": "Social Security annual wage bases",
+          "url": "https://www.ssa.gov/oact/cola/cbb.html"
+        },
+        {
+          "title": "Net Investment Income Tax eligibility",
+          "url": "https://www.irs.gov/newsroom/questions-and-answers-on-the-net-investment-income-tax"
+        }
+      ]
+    },
+    {
+      "path": "equipment-leasing-section-179/index.html",
+      "sources": [
+        {
+          "title": "2026 Section 179 amounts: IRS Revenue Procedure 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        },
+        {
+          "title": "Depreciation eligibility and elections: IRS Publication 946",
+          "url": "https://www.irs.gov/publications/p946"
+        }
+      ]
+    },
+    {
+      "path": "blog/trucking-company-equipment-depreciation-fleet/index.html",
+      "sources": [
+        {
+          "title": "2026 Section 179 amounts: IRS Revenue Procedure 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        },
+        {
+          "title": "Depreciation eligibility and elections: IRS Publication 946",
+          "url": "https://www.irs.gov/publications/p946"
+        }
+      ]
+    },
+    {
+      "path": "blog/how-to-maximize-retirement-contributions-as-s-corp-owner/index.html",
+      "sources": [
+        {
+          "title": "2026 retirement and QCD limits: IRS Notice 2025-67",
+          "url": "https://www.irs.gov/pub/irs-drop/n-25-67.pdf"
+        },
+        {
+          "title": "Social Security annual wage bases",
+          "url": "https://www.ssa.gov/oact/cola/cbb.html"
+        },
+        {
+          "title": "S corporation retirement-plan compensation",
+          "url": "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation"
+        },
+        {
+          "title": "Owner-only 401(k) eligibility and contributions",
+          "url": "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+        },
+        {
+          "title": "Combined retirement-plan deduction limits",
+          "url": "https://www.irs.gov/retirement-plans/combined-limits-under-irc-section-404a7"
+        },
+        {
+          "title": "Additional Medicare Tax rates and filing-status thresholds",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/questions-and-answers-for-the-additional-medicare-tax"
+        }
+      ]
+    }
+  ]
+}

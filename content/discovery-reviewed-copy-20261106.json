@@ -1,0 +1,1379 @@
+{
+  "/3-year-tax-lookback-cleanup/": {
+    "title": "Three-Year Tax Lookback and Records Cleanup | AE Tax Advisors",
+    "description": "Organize business and property records for a prior-year tax review. Define covered entities, missing documents, reconciliations and the handoff to your preparer."
+  },
+  "/about/": {
+    "title": "About AE Tax Advisors | Tax Advisory Firm in Billings, Montana",
+    "description": "AE Tax Advisors is a tax advisory firm headquartered in Billings, Montana, specializing in cost segregation studies, strategic tax planning, entity structuring..."
+  },
+  "/best-retirement-plan-business-owner-over-500k/": {
+    "title": "Retirement Planning Above $500K: Funding Decisions Before Choosing a Plan | AE Tax Advisors",
+    "description": "For profitable business owners, compare retirement funding with payroll, employee benefits, property purchases and reserves before choosing a larger deduction."
+  },
+  "/best-tax-advisor-for-high-net-worth-clients/": {
+    "title": "Choosing a Tax Advisor for High-Net-Worth Business Owners | AE Tax Advisors",
+    "description": "Compare tax-advisor credentials, written scope, fees and implementation responsibilities for business owners with real estate."
+  },
+  "/blog/business-interest-deduction-section-163j-2026/": {
+    "title": "Section 163(j) in 2026: ATI, $32M Test and Capitalized Interest",
+    "description": "Review the 2026 business-interest rules: $32 million receipts test, restored depreciation addback, capitalized-interest treatment and election review."
+  },
+  "/blog/cost-segregation-veterinary-clinics/": {
+    "title": "Veterinary Clinic Cost Segregation: Assets, QIP & Self-Rental",
+    "description": "Evaluate clinic equipment, kennels, imaging build-outs and QIP with documented asset classifications, self-rental limits and a coordinated implementation plan."
+  },
+  "/blog/excess-business-loss-limitation-461l-2026/": {
+    "title": "2026 Excess Business Loss Limit & Calculator | AE Tax Advisors",
+    "description": "Estimate the 2026 excess business loss adjustment using the $256,000 or $512,000 threshold. See Form 461 ordering rules, W-2 exclusions and business-owner examples."
+  },
+  "/blog/how-to-structure-multiple-businesses-for-tax-efficiency/": {
+    "title": "How Should I Structure Multiple Businesses for Tax Efficiency?",
+    "description": "Learn how to structure multiple businesses for maximum tax efficiency. Explore entity combinations, intercompany strategies, and income allocation techniques."
+  },
+  "/blog/": {
+    "title": "Tax Strategy Blog",
+    "description": "Browse page 1 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/10/": {
+    "title": "Tax Strategy Blog: Page 10",
+    "description": "Browse page 10 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/11/": {
+    "title": "Tax Strategy Blog: Page 11",
+    "description": "Browse page 11 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/12/": {
+    "title": "Tax Strategy Blog: Page 12",
+    "description": "Browse page 12 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/13/": {
+    "title": "Tax Strategy Blog: Page 13",
+    "description": "Browse page 13 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/14/": {
+    "title": "Tax Strategy Blog: Page 14",
+    "description": "Browse page 14 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/15/": {
+    "title": "Tax Strategy Blog: Page 15",
+    "description": "Browse page 15 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/16/": {
+    "title": "Tax Strategy Blog: Page 16",
+    "description": "Browse page 16 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/17/": {
+    "title": "Tax Strategy Blog: Page 17",
+    "description": "Browse page 17 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/18/": {
+    "title": "Tax Strategy Blog: Page 18",
+    "description": "Browse page 18 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/19/": {
+    "title": "Tax Strategy Blog: Page 19",
+    "description": "Browse page 19 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/2/": {
+    "title": "Tax Strategy Blog: Page 2",
+    "description": "Browse page 2 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/20/": {
+    "title": "Tax Strategy Blog: Page 20",
+    "description": "Browse page 20 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/21/": {
+    "title": "Tax Strategy Blog: Page 21",
+    "description": "Browse page 21 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/22/": {
+    "title": "Tax Strategy Blog: Page 22",
+    "description": "Browse page 22 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/23/": {
+    "title": "Tax Strategy Blog: Page 23",
+    "description": "Browse page 23 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/24/": {
+    "title": "Tax Strategy Blog: Page 24",
+    "description": "Browse page 24 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/25/": {
+    "title": "Tax Strategy Blog: Page 25",
+    "description": "Browse page 25 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/26/": {
+    "title": "Tax Strategy Blog: Page 26",
+    "description": "Browse page 26 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/27/": {
+    "title": "Tax Strategy Blog: Page 27",
+    "description": "Browse page 27 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/28/": {
+    "title": "Tax Strategy Blog: Page 28",
+    "description": "Browse page 28 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/29/": {
+    "title": "Tax Strategy Blog: Page 29",
+    "description": "Browse page 29 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/3/": {
+    "title": "Tax Strategy Blog: Page 3",
+    "description": "Browse page 3 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/30/": {
+    "title": "Tax Strategy Blog: Page 30",
+    "description": "Browse page 30 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/31/": {
+    "title": "Tax Strategy Blog: Page 31",
+    "description": "Browse page 31 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/32/": {
+    "title": "Tax Strategy Blog: Page 32",
+    "description": "Browse page 32 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/33/": {
+    "title": "Tax Strategy Blog: Page 33",
+    "description": "Browse page 33 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/34/": {
+    "title": "Tax Strategy Blog: Page 34",
+    "description": "Browse page 34 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/35/": {
+    "title": "Tax Strategy Blog: Page 35",
+    "description": "Browse page 35 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/4/": {
+    "title": "Tax Strategy Blog: Page 4",
+    "description": "Browse page 4 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/5/": {
+    "title": "Tax Strategy Blog: Page 5",
+    "description": "Browse page 5 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/6/": {
+    "title": "Tax Strategy Blog: Page 6",
+    "description": "Browse page 6 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/7/": {
+    "title": "Tax Strategy Blog: Page 7",
+    "description": "Browse page 7 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/8/": {
+    "title": "Tax Strategy Blog: Page 8",
+    "description": "Browse page 8 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/page/9/": {
+    "title": "Tax Strategy Blog: Page 9",
+    "description": "Browse page 9 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
+  },
+  "/blog/tax-planning-for-real-estate-agents-brokers/": {
+    "title": "Tax Planning for Real Estate Agents and Brokers | AE Tax Advisors",
+    "description": "Evaluate commission income, S corporation costs, vehicle records, team compensation and rental-property deductions before choosing an agent or brokerage tax plan."
+  },
+  "/blog/tax-strategy-for-auto-dealership-owners/": {
+    "title": "Tax Strategy for Auto Dealership Owners: Inventory, Interest and Facilities | AE Tax Advisors",
+    "description": "Coordinate dealership inventory accounting, floor-plan interest, facility depreciation and owner-level deduction limits before filing."
+  },
+  "/blog/tax-strategy-for-chiropractors/": {
+    "title": "Chiropractor Tax Strategy: Owner Pay, Retirement and Clinic Property | AE Tax Advisors",
+    "description": "Understand chiropractor S corporation compensation, employee retirement-plan costs, health-service QBI rules and deductions for an owner-held clinic."
+  },
+  "/blog/tax-strategy-for-construction-company-owners/": {
+    "title": "Construction Owner Tax Strategy: Contracts, Equipment and Shop Property | AE Tax Advisors",
+    "description": "How construction owners evaluate contract accounting, equipment deductions, self-rental losses and QBI without assuming every deduction reduces current tax."
+  },
+  "/blog/tax-strategy-for-ecommerce-business-owners/": {
+    "title": "Tax Strategy for E-Commerce Owners: Inventory, Payments and Warehouses | AE Tax Advisors",
+    "description": "Reconcile ecommerce income, inventory methods, fulfillment-state exposure and warehouse deductions before changing entity or retirement plans."
+  },
+  "/blog/tax-strategy-for-franchise-owners/": {
+    "title": "Franchise Owner Tax Strategy: Opening Costs, Build-Outs and Multiple Units | AE Tax Advisors",
+    "description": "Classify franchise fees, opening costs and build-outs, then coordinate multi-unit payroll, retirement plans and owner-held real estate."
+  },
+  "/blog/tax-strategy-for-law-firm-partners/": {
+    "title": "Law Firm Partner Tax Planning: Office Buildings, K-1s and QBI",
+    "description": "Coordinate law-firm K-1 income or S-corp wages with office-building ownership, self-rental losses, QBI limits, retirement funding and substantiated expenses."
+  },
+  "/blog/tax-strategy-for-medical-practice-owners/": {
+    "title": "Medical Practice Owner Tax Planning: Buy-Ins, QBI & Property | AE Tax Advisors",
+    "description": "Plan a medical practice buy-in, owner compensation, retirement funding and office real estate with clear basis, QBI and implementation questions."
+  },
+  "/blog/tax-strategy-for-real-estate-agents/": {
+    "title": "Real Estate Agent Tax Planning: Retirement, Records and Rentals | AE Tax Advisors",
+    "description": "Coordinate agent commissions, entity choice, 2026 retirement contributions, vehicle records and rental participation without assuming automatic deductions."
+  },
+  "/blog/tax-strategy-for-veterinary-practice-owners/": {
+    "title": "Veterinary Practice Tax Planning: Owner Pay, Property & Exit",
+    "description": "Coordinate veterinary practice owner compensation, staff retirement plans, clinic real estate and sale allocation before committing to tax or transaction decisions."
+  },
+  "/blog/tenancy-in-common-vs-llc-real-estate/": {
+    "title": "1031 Exchanges: Tenants in Common vs. LLC Partners",
+    "description": "Can an LLC do a 1031 exchange? Compare partnership-level exchanges, tenants-in-common interests and separate partner exits before selling real estate."
+  },
+  "/business-tax-advisor-vs-cpa/": {
+    "title": "Business Tax Advisor vs. CPA: What a Growing Company Actually Needs",
+    "description": "Compare tax preparation, proactive tax advisory, bookkeeping, controllership, and legal work so business owners know which professional should own each decision."
+  },
+  "/business-tax-second-opinion/": {
+    "title": "Business Tax Second Opinion: Review Your Entity, Return, and Tax Plan",
+    "description": "Get an independent business tax second opinion on prior returns, entity structure, owner compensation, basis, depreciation, and proposed tax strategies."
+  },
+  "/buying-dental-practice-and-building-tax-allocation/": {
+    "title": "Buying a Dental Practice and Building: Tax Allocation Review",
+    "description": "Buying a dental practice with its building? Separate practice assets, real estate, land, and debt before agreeing to the purchase-price allocation."
+  },
+  "/calculators/": {
+    "title": "Tax Calculators | AE Tax Advisors",
+    "description": "Free tax calculators: cost segregation savings, S-Corp election savings, and bonus depreciation versus Section 179 comparison."
+  },
+  "/cash-balance-plan-tax-deduction/": {
+    "title": "Cash Balance Plan Deduction: Feasibility, Funding and Employee Costs | AE Tax Advisors",
+    "description": "Evaluate a cash balance plan using an employee census, required funding, deductible range, employee costs and downside scenarios before committing."
+  },
+  "/compare/advise-re-vs-taxstra/": {
+    "title": "Advise RE vs Taxstra: Property Purchase and Owner Tax Decisions",
+    "description": "Compare Advise RE and Taxstra for pre-closing property and development work versus coordinated physician, business and rental tax planning."
+  },
+  "/compare/best-tax-advisors-s-corp-owners-rental-property/": {
+    "title": "Best S-Corp Tax Advisors for Owners With Rentals | AE Tax Advisors",
+    "description": "Compare S-corp tax advisors by owner compensation, payroll, retirement, basis records and coordination with rental properties and household returns."
+  },
+  "/compare/cssi-vs-ae-tax/": {
+    "title": "CSSI vs AE Tax Advisors: Pricing and Services | AE Tax Advisors",
+    "description": "Compare CSSI and AE Tax Advisors on pricing, service scope, and implementation. Published fees and AE budget estimates are clearly distinguished."
+  },
+  "/compare/madison-specs-alternatives/": {
+    "title": "Madison SPECS Alternatives: Study Provider or Tax Advisor? | AE Tax Advisors",
+    "description": "Compare Madison SPECS alternatives by study deliverables, Form 3115 responsibility, existing CPA coordination and broader business-owner tax planning scope."
+  },
+  "/compare/neil-jesani-advisors-vs-ae-tax/": {
+    "title": "Neil Jesani Advisors vs AE Tax Advisors: Pricing and Services | AE Tax Advisors",
+    "description": "Compare Neil Jesani Advisors and AE Tax Advisors on pricing, service scope, and implementation. Published fees and AE budget estimates are clearly distinguished."
+  },
+  "/compare/physician-tax-solutions-alternatives/": {
+    "title": "Physician Tax Solutions Alternatives for Practice Owners | AE Tax Advisors",
+    "description": "Considering Physician Tax Solutions? Compare its physician tax services with AE Tax Advisors on scope, client fit, implementation, and the questions to ask before signing."
+  },
+  "/compare/prime-path-advisory-alternatives/": {
+    "title": "Prime Path Advisory Alternatives & Service Review (2026)",
+    "description": "Review Prime Path Advisory services, implementation, fee questions and alternatives. Compare client fit and written scope with AE Tax Advisors."
+  },
+  "/compare/prime-path-advisory-vs-ae-tax/": {
+    "title": "Prime Path Advisory vs AE Tax Advisors: Scope and Fit",
+    "description": "Compare Prime Path Advisory and AE Tax Advisors by client fit, written deliverables, filing responsibilities, fees and engagement limits."
+  },
+  "/compare/rainwater-cpa-vs-ae-tax/": {
+    "title": "Rainwater CPA vs AE Tax Advisors: Business and Rental Tax Planning",
+    "description": "Compare Rainwater CPA and AE Tax Advisors for business-plus-rental tax planning, meeting cadence, cost segregation coordination, filing scope and proposal questions."
+  },
+  "/compare/seneca-cost-segregation-alternatives/": {
+    "title": "Seneca Alternatives: Commission the Study and Tax Handoff",
+    "description": "Compare Seneca study deliverables and alternatives, including CPA handoff, fixed-asset schedules, audit support and separately scoped return work."
+  },
+  "/compare/tax-alchemy-pricing/": {
+    "title": "Tax Alchemy Pricing: Published Ranges and Written Quote",
+    "description": "Compare Tax Alchemy\u2019s conflicting published fee ranges, one-year commitment, return-preparation scope and quote questions."
+  },
+  "/compare/tax-alchemy-vs-hall-cpa/": {
+    "title": "Tax Alchemy vs Hall CPA: Advisory and Filing Scope",
+    "description": "Compare Tax Alchemy and Hall CPA on advisory, return preparation, implementation, real-estate records and engagement terms."
+  },
+  "/compare/tax-strategists-of-america-vs-ae-tax/": {
+    "title": "Tax Strategists of America vs AE Tax Advisors: Implementation Handoff",
+    "description": "Compare Tax Strategists of America and AE on documentation, preparer handoff, implementation acceptance, filing scope and fees."
+  },
+  "/contact/": {
+    "title": "Contact Us | AE Tax Advisors",
+    "description": "Get in touch with AE Tax Advisors. Exclusively serving business owners, S-Corp and C-Corp operators, and real estate investors generating $500K+ in annual..."
+  },
+  "/cost-segregation-for-veterinary-clinics/": {
+    "title": "Cost Segregation for Veterinary Clinics: Study Scope & Fees",
+    "description": "Evaluate a veterinary clinic cost segregation study: ownership, asset records, self-rental limits, study fees and the handoff to your tax preparer."
+  },
+  "/cost-segregation-study/": {
+    "title": "Cost Segregation Services for Business & Rental Property | AE Tax Advisors",
+    "description": "Owners of investment or business property considering an engineered study, including owners evaluating a previously placed-in-service property."
+  },
+  "/cpa-compliance-shop-vs-tax-strategist/": {
+    "title": "Keep Your CPA: Add Pre-Closing Tax Planning | AE Tax Advisors",
+    "description": "Hiring a tax strategist before a business or property purchase? Define who handles projections, contracts, financing, valuation, bookkeeping and returns."
+  },
+  "/defined-benefit-plans-tax-shelter-high-income-business-owners/": {
+    "title": "Defined Benefit Plans: Administration, Funding and Exit Responsibilities | AE Tax Advisors",
+    "description": "Assign defined benefit plan administration, actuarial funding, employee coverage, annual filings and freeze or termination responsibilities before claiming deductions."
+  },
+  "/discovery/": {
+    "title": "Discuss Your Tax Advisory Needs",
+    "description": "Thirty minutes with a senior tax advisor to look at how your income is structured and where proactive planning may apply."
+  },
+  "/eliminating-federal-income-tax-through-a-form-3115-mega-catch-up-long-term-rental-optimization-and-multi-year-sequencing/": {
+    "title": "Form 3115 Mega Catch-Up, Long-Term Rental",
+    "description": "Form 3115 Mega Catch-Up, Long-Term Rental Optimization, and Multi-Year Income Sequencing - AE Tax Advisors provides proactive tax planning for high-income..."
+  },
+  "/eliminating-federal-income-tax-using-obscure-accounting-elections-compensation-arbitrage-and-timing-asymmetry/": {
+    "title": "Eliminating Federal Income Tax Using",
+    "description": "This case study reflects a real engagement with AE Tax Advisors. All identifying details have been anonymized. Dollar figures are rounded."
+  },
+  "/equipment-leasing-landing/": {
+    "title": "Turn equipment purchases into massive tax deductions.",
+    "description": "Review equipment ownership, business use, placed-in-service timing and Section 179 or bonus eligibility before modeling deductions. Free consultation."
+  },
+  "/form-3115-cost-segregation-lookback/": {
+    "title": "Form 3115 Cost Segregation Lookback | AE Tax Advisors",
+    "description": "Review Form 3115 eligibility, Section 481(a) adjustment timing and owner-level deduction limits before claiming missed depreciation."
+  },
+  "/form-3115-cost-segregation/": {
+    "title": "Form 3115 Preparation & Cost Segregation Lookback | AE Tax",
+    "description": "Review Form 3115 preparation for cost segregation lookback studies. Reconcile prior depreciation, determine the correction procedure and confirm filing scope."
+  },
+  "/how-much-does-a-tax-advisor-cost/": {
+    "title": "How Much Does a Tax Advisor Cost? | AE Tax Advisors",
+    "description": "AE Tax Advisors\u2019 standard advisory engagement is $7,800. Compare planning deliverables, separate return and study fees, payment terms and total scope."
+  },
+  "/how-to-file-amended-tax-return-form-1040-x-guide/": {
+    "title": "Form 1040-X: Refund Deadlines and Business-Owner Amendment Review | AE Tax Advisors",
+    "description": "Check refund deadlines, payment lookbacks and the right personal, entity or partnership correction procedure before filing Form 1040-X."
+  },
+  "/how-to-legally-combine-real-estate-and-business-ownership-for-tax-advantage/": {
+    "title": "Lease a Building to Your Business: Tax Coordination | AE",
+    "description": "Compare landlord income with tenant deductions, ownership choices, related-party rent timing and exit taxes before restructuring business real estate."
+  },
+  "/irs-audit-defense-business-owners/": {
+    "title": "IRS Audit Defense for Business Owners: Representation Scope | AE Tax Advisors",
+    "description": "Define IRS audit representation for business owners: notices, deadlines, authorized professionals, property records, fees and handoffs."
+  },
+  "/pricing/": {
+    "title": "Transparent Pricing",
+    "description": "Review AE Tax Advisors costs for advisory, cost segregation, returns and amendments. Compare included services, separate fees and written engagement scope."
+  },
+  "/reducing-real-estate-tax-exposure-through-short-term-rental-classification-and-bonus-depreciation/": {
+    "title": "Reducing Real Estate Tax Exposure Through",
+    "description": "Reducing Real Estate Tax Exposure Through STR Classification and Bonus Depreciation - AE Tax Advisors provides proactive tax planning for high-income..."
+  },
+  "/resources/amendment-self-assessment/": {
+    "title": "Business Tax Return Review Checklist | AE Tax Advisors",
+    "description": "Use ten evidence-based questions to prepare for a business tax second opinion. Local checklist, no refund score and no email required."
+  },
+  "/resources/tax-planning-checklist/": {
+    "title": "Annual Tax Planning Checklist for Business Owners & Property | AE Tax Advisors",
+    "description": "Assign quarterly tax decisions for business owners with real estate: filings, payroll, retirement plans, depreciation, estimated payments and implementation."
+  },
+  "/retirement-plan-design-s-corp-owners/": {
+    "title": "Retirement Plan Design for S Corporation Owners: Payroll and Advisor Handoff | AE Tax Advisors",
+    "description": "Coordinate reasonable compensation, employee eligibility, related businesses and actuarial modeling before changing S corporation payroll for a retirement plan."
+  },
+  "/retirement-planning-for-business-owners/": {
+    "title": "Retirement Planning for Business Owners With Employees and Property | AE Tax Advisors",
+    "description": "Compare retirement-plan requirements using employee eligibility, related businesses, compensation and cash flow. Define the tax advisor, payroll and administrator handoff."
+  },
+  "/services/cost-segregation-commercial/": {
+    "title": "Commercial Cost Segregation Studies: Scope and Filing Handoff | AE Tax Advisors",
+    "description": "Commission a commercial cost segregation study with clear property records, tenant-improvement boundaries, depreciation decisions and return-preparer responsibilities."
+  },
+  "/services/entity-structuring/": {
+    "title": "Multi-Entity Tax Planning and Entity Structuring | AE Tax Advisors",
+    "description": "Owners with multiple entities, related-party payments, new partners, or an acquisition who need tax coordination with their legal and accounting advisers."
+  },
+  "/tax-advisor-for-real-estate-agents/": {
+    "title": "Tax Advisor for Real Estate Agents With Rentals | AE",
+    "description": "Scope a coordinated review of real estate commissions, entity choices, owner pay and rental property. Confirm deliverables, filing roles and advisory fees."
+  },
+  "/tax-advisor-for-veterinarians/": {
+    "title": "Tax Advisor for Veterinary Practice Owners & Clinic Real Estate",
+    "description": "Coordinate veterinary practice tax planning, owner pay, staff retirement plans and clinic real estate. Review engagement scope and prepare for an AE consultation."
+  },
+  "/tax-mistakes-cost-business-owners-50k/": {
+    "title": "13 Tax Planning Mistakes for Business Owners With Real Estate | AE Tax Advisors",
+    "description": "Review owner pay, retirement plans, rental losses, QBI, depreciation and filing corrections without relying on generic tax-savings promises."
+  },
+  "/tax-planning-for-brokers/": {
+    "title": "Tax Planning for Brokers: Acquisitions & Property | AE",
+    "description": "Define tax advisory scope for insurance, mortgage and real estate brokerage owners: commission income, book acquisitions, staff plans and office property."
+  },
+  "/tax-planning-for-chiropractors/": {
+    "title": "Chiropractor Tax Advisory: Practice and Clinic Review",
+    "description": "Request a coordinated tax review for your chiropractic practice and clinic property, with compensation, QBI, staff benefits and written implementation scope."
+  },
+  "/tax-planning-for-high-net-worth-individuals-with-complex-partnership-and-k1-income/": {
+    "title": "Tax Planning for High-Net-Worth Individuals With Complex Partnership and K-1 Income",
+    "description": "Tax Planning for High-Net-Worth Individuals With Complex Partnership and K-1 Income - AE Tax Advisors provides proactive tax planning for high-income..."
+  },
+  "/tax-planning-for-high-net-worth-individuals-with-deferred-compensation-packages/": {
+    "title": "Tax Planning for High-Net-Worth Individuals With Deferred Compensation Packages",
+    "description": "Tax Planning for High-Net-Worth Individuals With Deferred Compensation Packages - AE Tax Advisors provides proactive tax planning for high-income..."
+  },
+  "/tax-planning-for-high-net-worth-individuals-with-international-investments/": {
+    "title": "Tax Planning for High-Net-Worth Individuals With International Investments",
+    "description": "Tax Planning for High-Net-Worth Individuals With International Investments - AE Tax Advisors provides proactive tax planning for high-income professionals,..."
+  },
+  "/tax-planning-for-high-net-worth-individuals-with-multi-state-income/": {
+    "title": "Tax Planning for High-Net-Worth Individuals With Multi-State Income",
+    "description": "Tax Planning for High-Net-Worth Individuals With Multi-State Income - AE Tax Advisors provides proactive tax planning for high-income professionals,..."
+  },
+  "/tax-planning-for-high-net-worth-individuals-with-multiple-business-entities/": {
+    "title": "Tax Planning for High-Net-Worth Individuals With Multiple Business Entities",
+    "description": "Tax Planning for High-Net-Worth Individuals With Multiple Business Entities - AE Tax Advisors provides proactive tax planning for high-income professionals,..."
+  },
+  "/tax-planning-real-estate-developers-builders/": {
+    "title": "Real Estate Developer Tax Planning: Projects, Entities and Exit Decisions | AE Tax Advisors",
+    "description": "Separate development inventory, rental investments and customer construction contracts before choosing tax methods, entities, allocations or a property exit."
+  },
+  "/tax-strategy-for-construction-companies/": {
+    "title": "Construction Company Tax Advisory: Owner and Property Review",
+    "description": "Scope a tax advisory review for a contractor with project income, crews, equipment and owned premises. Define decisions, records and written deliverables."
+  },
+  "/tax-strategy-for-franchise-owners/": {
+    "title": "Franchise Tax Advisory: Multi-Unit and Property Review",
+    "description": "Commission a coordinated franchise tax review before a new unit or property purchase. Define buildout, ownership, employee-plan and cash-flow deliverables."
+  },
+  "/the-business-owners-guide-to-section-163j-business-interest-limitation-rules/": {
+    "title": "Section 163(j) Interest Limit: Calculation and Carryforwards",
+    "description": "Calculate business interest capacity, test the $32 million 2026 exception, and track S-corp versus partnership carryforwards for owners with real estate."
+  },
+  "/the-business-owners-guide-to-section-163j-interest-deduction-limitation-and-real-estate-election/": {
+    "title": "Section 163(j) Real Property Election: ADS and Self-Rental",
+    "description": "Should your real estate business elect out of Section 163(j)? Review ADS, related-party leases, passive losses and the closed 2026 withdrawal window."
+  },
+  "/year-end-tax-planning-checklist/": {
+    "title": "Year-End Tax Review: 2026 Decisions and 2027 Forecast | AE Tax Advisors",
+    "description": "Scope a two-year tax review for profitable business owners with property: 2026 action deadlines, verified 2027 thresholds, retirement timing and usable losses."
+  },
+  "/blog/form-3115-missed-depreciation/": {
+    "title": "Form 3115: How to Claim Missed Depreciation on Existing Properties",
+    "description": "Review the correction procedure for missed depreciation, Form 3115 eligibility, Section 481(a) timing and owner-level loss limits before filing."
+  },
+  "/blog/lookback-cost-segregation-existing-property/": {
+    "title": "Lookback Cost Segregation",
+    "description": "Review the correction procedure for missed depreciation, Form 3115 eligibility, Section 481(a) timing and owner-level loss limits before filing."
+  },
+  "/blog/what-is-form-3115-and-how-does-it-relate-to-cost-segregation/": {
+    "title": "What Is Form 3115 and How Does It Relate to Cost Segregation? (2026)",
+    "description": "Review the correction procedure for missed depreciation, Form 3115 eligibility, Section 481(a) timing and owner-level loss limits before filing."
+  },
+  "/cost-segregation-for-warehouse/": {
+    "title": "Warehouse Cost Segregation Studies | AE Tax Advisors",
+    "description": "Evaluate supported asset classifications, filing responsibilities and usable deductions. The 14% to 26% range is illustrative, not a verified benchmark."
+  },
+  "/cost-segregation-for-office-building/": {
+    "title": "Cost Segregation for Office Buildings (2026) | AE Tax Advisors",
+    "description": "Evaluate supported asset classifications, filing responsibilities and usable deductions. The 15% to 26% range is illustrative, not a verified benchmark."
+  },
+  "/cost-segregation-for-dental-office/": {
+    "title": "Dental Office Cost Segregation Studies | AE Tax Advisors",
+    "description": "Evaluate supported asset classifications, filing responsibilities and usable deductions. The 24% to 35% range is illustrative, not a verified benchmark."
+  },
+  "/cost-segregation-for-retail/": {
+    "title": "Cost Segregation for Retail Property (2026) | AE Tax Advisors",
+    "description": "Evaluate supported asset classifications, filing responsibilities and usable deductions. The 20% to 31% range is illustrative, not a verified benchmark."
+  },
+  "/cost-segregation-for-medical-office/": {
+    "title": "Medical Office Cost Segregation Studies | AE Tax",
+    "description": "Evaluate supported asset classifications, filing responsibilities and usable deductions. The 22% to 33% range is illustrative, not a verified benchmark."
+  },
+  "/compare/the-real-estate-cpa-vs-ae-tax/": {
+    "title": "The Real Estate CPA vs AE Tax Advisors (2026)",
+    "description": "The Real Estate CPA (Hall CPA) and AE Tax Advisors compared: real estate tax focus, service model, community and education, pricing."
+  },
+  "/compare/moss-adams-vs-ae-tax/": {
+    "title": "Moss Adams vs AE Tax Advisors (2026)",
+    "description": "Moss Adams and AE Tax Advisors compared: firm scale, service breadth, typical client size, cost segregation capability, pricing model."
+  },
+  "/cost-segregation-car-wash/": {
+    "title": "Cost Segregation for Car Wash Facilities | AE Tax Advisors",
+    "description": "Evaluate car wash equipment, building costs, depreciation corrections and owner-level deduction limits before commissioning a cost segregation study."
+  },
+  "/blog/do-i-need-an-engineering-based-cost-segregation-study/": {
+    "title": "Engineering-Based Cost Segregation: What to Buy | AE Tax Advisors",
+    "description": "Choose a cost segregation study by its evidence, property scope and filing support. Compare methods and review the work behind the fee before engaging AE."
+  },
+  "/blog/what-happens-to-depreciation-when-i-sell-after-cost-segregation/": {
+    "title": "Cost Segregation Holding Period and Sale Tax | AE Tax Advisors",
+    "description": "How long should you hold property after cost segregation? Compare annual deductions, usable losses, study fees and sale tax in a three-year cash-flow example."
+  },
+  "/compare/diy-cost-segregation-vs-ae-tax/": {
+    "title": "DIY Cost Segregation vs. Professional Study | AE Tax Advisors",
+    "description": "Compare DIY cost segregation, software and professional studies. Check input validation, filing work, fees and when a business owner needs broader tax advice."
+  },
+  "/multi-state-real-estate-tax-planning/": {
+    "title": "Multistate Real Estate Tax Planning for Business Owners | AE Tax Advisors",
+    "description": "Coordinate property-source income, owner residency, entity filings, PTET decisions and state credits with a clear preparer handoff."
+  },
+  "/services/partnership-tax-preparation/": {
+    "title": "Partnership & Multi-Member LLC Tax Preparation | AE Tax Advisors",
+    "description": "Scope Form 1065, K-1s, capital and outside-basis handoffs, Section 754 elections, 743(b) adjustments and 704(c) contribution records."
+  },
+  "/retirement-exit-ma-tax-strategy/": {
+    "title": "Business Exit and Retirement Tax Planning | AE Tax Advisors",
+    "description": "Define business-sale tax modeling, allocation and Form 8594 responsibilities, seller-note timing, retained-building coordination and final return handoffs."
+  },
+  "/business-owner-tax-calculator/": {
+    "title": "Business Owner Tax Calculator: 2026 Income Scenarios | AE Tax Advisors",
+    "description": "Compare 2026 federal income-tax scenarios for an owner with business income and rentals using a reviewed taxable-income change. See preparer handoff steps.",
+    "description_only": true
+  },
+  "/tax-savings-calculator/": {
+    "title": "2026 Federal Income Tax Savings Scenario Calculator | AE Tax Advisors",
+    "description": "Estimate the 2026 federal ordinary-income tax difference from a reviewed deduction across tax brackets. This scenario tool does not calculate refunds.",
+    "description_only": true
+  },
+  "/bonus-depreciation-calculator/": {
+    "title": "How to Calculate Bonus Depreciation: 2026 Calculator",
+    "description": "Calculate 2026 bonus depreciation step by step, test eligible basis, compare Section 179 and MACRS, and map the deduction to Form 4562."
+  },
+  "/s-corp-tax-savings-calculator/": {
+    "title": "S-Corp Tax Savings Calculator (2026) | AE Tax Advisors",
+    "description": "Estimate the self-employment tax you would save by electing S-Corp treatment, net of payroll and compliance costs, based on your net profit and reasonable compensation."
+  },
+  "/compare/capstan-tax-strategies-vs-ae-tax/": {
+    "title": "Capstan Tax Strategies vs AE Tax Advisors: Renovation Scope",
+    "description": "Compare Capstan and AE for pre-renovation records, cost segregation, repairs, and disposition decisions. Clarify study scope, fees, and the return handoff."
+  },
+  "/compare/competitor-pricing/": {
+    "title": "Tax Advisor and Cost Segregation Pricing: 100 Providers | AE Tax Advisors",
+    "description": "Compare published fees and clearly labeled cost estimates for 100 tax, accounting, and cost segregation providers."
+  },
+  "/compare/cost-seg-authority-vs-ae-tax/": {
+    "title": "Cost Segregation Authority vs AE Tax Advisors: Study Scope",
+    "description": "Compare CSA Partners and AE on study fees, owner-level planning, and return implementation. Identify who delivers the report, tests deductions, and files."
+  },
+  "/compare/cost-segregation-authority-alternatives/": {
+    "title": "Cost Segregation Authority Alternatives: Which Scope Fits?",
+    "description": "Compare CSA alternatives for renovation records, building incentives, or owner-level tax planning. Choose a defined scope, handoff, and complete project budget."
+  },
+  "/compare/cost-segregation-authority-pricing/": {
+    "title": "Cost Segregation Authority Pricing: Studies From $3,000",
+    "description": "CSA Partners studies start at $3,000. Review the official price, quote drivers, separate filing costs, and the dated AE budget without confusing the two."
+  },
+  "/compare/engineered-tax-services-vs-ae-tax/": {
+    "title": "Engineered Tax Services vs AE Tax Advisors: Incentive Scope",
+    "description": "Compare ETS and AE on cost segregation, separate building incentives, current 179D and 45L dates, fees, and who owns the tax-return implementation."
+  },
+  "/best-entity-structure-medical-practice/": {
+    "title": "Medical Practice Entity Structure: 2026 Tax Comparison",
+    "description": "Compare medical practice entity choices using 2026 payroll rules, reasonable compensation, retirement funding, state requirements and exit costs."
+  },
+  "/blog/how-much-can-i-contribute-to-a-solo-401k/": {
+    "title": "Solo 401(k) Contribution Limits and Calculations (2026)",
+    "description": "Calculate 2026 solo 401(k) contributions using the correct employee limit, catch-up rules, self-employed worksheet and S-corp W-2 compensation."
+  },
+  "/blog/mega-backdoor-roth-for-business-owners/": {
+    "title": "Mega Backdoor Roth for Business Owners: 2026 Rules",
+    "description": "Review 2026 mega backdoor Roth capacity, after-tax plan features, employee testing, conversion tax and administrator questions before funding."
+  },
+  "/blog/retirement-plan-strategies-s-corp-owners/": {
+    "title": "S-Corp Retirement Plan Contributions and Limits (2026)",
+    "description": "Compare 2026 S-corp 401(k), SEP and cash balance plan decisions using W-2 compensation, employee coverage, contribution limits and implementation deadlines."
+  },
+  "/tax-planning-for-doctors/": {
+    "title": "Tax Planning for Physicians and Practice Owners (2026)",
+    "description": "Coordinate physician practice payroll, 2026 retirement limits, locum income and rental-loss eligibility with a clear implementation and preparer handoff."
+  },
+  "/blog/irc-1060-asset-classification-business-sellers/": {
+    "title": "IRC 1060 Asset Allocation for Business Sellers | AE Tax",
+    "description": "Review the seven IRC 1060 asset classes, goodwill and recapture rules, Form 8594, and the records to prepare before signing a business asset sale."
+  },
+  "/blog/section-179-vehicle-6000-pound-gvwr/": {
+    "title": "6,000 lb Vehicle Deduction: 2026 SUV Limit | AE Tax",
+    "description": "Check the $32,000 heavy-SUV Section 179 limit for 2026, bonus eligibility, weight rules, mileage records and ownership before buying a business vehicle."
+  },
+  "/resources/": {
+    "title": "Resources | AE Tax Advisors",
+    "description": "Resources - AE Tax Advisors provides proactive tax planning for business owners and practice owners earning $500K-$5M in annual profit."
+  },
+  "/best-tax-advisor-for-business-owners/": {
+    "title": "Choosing a Tax Advisor for Business Owners | AE Tax",
+    "description": "Compare business tax advisors by planning scope, implementation support, fee clarity and coordination with your CPA. Questions to ask before an engagement."
+  },
+  "/blog/can-i-get-a-refund-for-overpaying-self-employment-tax/": {
+    "title": "Can I Get a Refund for Overpaying Self-Employment Tax?",
+    "description": "Overpaid self-employment tax? Learn how to recover excess SE tax through amended returns, entity elections, and deduction strategies under IRC Section 1401."
+  },
+  "/blog/can-i-hire-my-kids-through-my-business-for-tax-savings/": {
+    "title": "Can I Hire My Kids Through My Business for Tax Savings?",
+    "description": "Learn how hiring your children through your business can create significant tax savings using IRC Section 3121(b)(3)(A) and shift income to lower brackets."
+  },
+  "/blog/how-much-can-i-save-by-electing-s-corp-status/": {
+    "title": "How Much Can I Save in Taxes by Electing S-Corp Status?",
+    "description": "See exactly how much you can save by electing S-Corp status at different income levels, with detailed tax calculations comparing sole proprietorship vs S-Corp."
+  },
+  "/blog/late-s-corp-election-can-i-still-file-form-2553/": {
+    "title": "Can I Still File a Late S-Corp Election with Form 2553?",
+    "description": "Missed the S-Corp election deadline? Learn how to file a late Form 2553 under IRS relief procedures and still get S-Corp treatment for the current tax year."
+  },
+  "/blog/late-s-corp-election-form-2553-strategies/": {
+    "title": "Late S-Corp Election: How to Fix a Missed Form 2553 Deadline (2026)",
+    "description": "For business owners and real estate investors operating through an LLC or C-Corp, electing S-Corp status can produce significant self-employment tax savings."
+  },
+  "/blog/merp-medical-expense-reimbursement-plan-s-corp/": {
+    "title": "MERP for S-Corp Owners: Turning Personal Medical Bills Into Business",
+    "description": "Medical expenses represent one of the largest personal costs that S-Corp owners face each year, yet most business owners continue paying these bills entirely."
+  },
+  "/blog/reasonable-compensation-s-corp-analysis/": {
+    "title": "Reasonable Compensation for S-Corp Owners",
+    "description": "One of the most powerful tax advantages of operating as an S-Corporation is the ability to split business income between salary and distributions."
+  },
+  "/blog/s-corp-vs-c-corp-comparison-high-earners/": {
+    "title": "S-Corp vs C-Corp: Which Entity Saves More for High-Earning Business",
+    "description": "Choosing between an S-Corporation and a C-Corporation is one of the most consequential tax decisions a high-earning business owner can make."
+  },
+  "/blog/s-corp-vs-llc-tax-differences-for-business-owners/": {
+    "title": "What Are the Tax Differences Between an S-Corp and an LLC?",
+    "description": "Compare the key tax differences between S-Corps and LLCs, including self-employment tax, QBI deductions, and how each structure affects your total tax burden."
+  },
+  "/blog/should-i-elect-s-corp-status-for-my-llc/": {
+    "title": "Should I Elect S-Corp Status for My LLC? | AE Tax Advisors",
+    "description": "Deciding whether to elect S-Corp status for your LLC? Learn the tax advantages, self-employment tax savings, and when S-Corp election makes financial sense."
+  },
+  "/blog/what-is-reasonable-compensation-for-s-corp-owners/": {
+    "title": "What Is Reasonable Compensation for S-Corp Owners? (2026)",
+    "description": "Understand the IRS reasonable compensation requirement for S-Corp owners, how to determine the right salary level, and what happens if you set it too low."
+  },
+  "/blog/what-triggers-irs-audit-s-corp/": {
+    "title": "What Triggers an IRS Audit for S-Corp Owners | AE Tax Advisors",
+    "description": "S-Corporations remain one of the most popular entity structures for business owners and real estate investors, largely because of the ability to split income."
+  },
+  "/blog/when-should-i-switch-from-llc-to-s-corp/": {
+    "title": "When Should I Switch from an LLC to an S-Corp? | AE Tax Advisors",
+    "description": "Learn the income thresholds, timing rules, and key factors that determine when switching from LLC to S-Corp taxation will save you the most money in taxes."
+  },
+  "/blog/when-to-convert-llc-to-s-corp/": {
+    "title": "When to Convert Your LLC to an S-Corp",
+    "description": "For business owners operating as a single-member or multi-member LLC, there is a critical inflection point where the default tax treatment begins costing."
+  },
+  "/how-to-legally-pay-yourself-from-your-business/": {
+    "title": "How To Legally Pay Yourself From Your (2026) | AE Tax Advisors",
+    "description": "Business owners often ask: what's the best way to take money out of my business?"
+  },
+  "/how-to-legally-reduce-self-employment-tax-through-entity-design/": {
+    "title": "How To Legally Reduce Self Employment Tax (2026) | AE Tax Advisors",
+    "description": "Self-employment tax (Social Security and Medicare taxes) represents one of the largest tax burdens for business owners operating as sole proprietors."
+  },
+  "/s-corp-tax-strategies-high-net-worth-business-owners/": {
+    "title": "S-Corp Tax Strategies High Net Worth (2026) | AE Tax Advisors",
+    "description": "High-net-worth business owners operating as S-Corporations have moved beyond the basic question of whether S-Corp status is beneficial. They have."
+  },
+  "/the-hidden-tax-benefits-of-hiring-family-members-in-your-business/": {
+    "title": "Tax Benefits of Hiring Family: 2026 Review | AE Tax Advisors",
+    "description": "See when family employment can help, and why spouse wages, child payroll exceptions, QBI and kiddie tax need a full household tax comparison."
+  },
+  "/s-corp-tax-strategy/": {
+    "title": "S-Corp Tax Strategy for $500K+ Business Owners: The Complete Guide",
+    "description": "How profitable business owners use the S-corp election to cut payroll tax, what reasonable compensation actually requires, and where the savings stop."
+  },
+  "/s-corp-vs-llc-tax-comparison-2026/": {
+    "title": "S-Corp vs LLC Tax Comparison 2026 | AE Tax Advisors",
+    "description": "The comparison most people make is the wrong one. An LLC is a legal entity, an S-Corp is a tax election."
+  },
+  "/services/s-corp-election/": {
+    "title": "S-Corp Election: Form 2553, Deadlines, and Tax Savings",
+    "description": "The S-Corp election is the single most common entity move for profitable owner-operated businesses."
+  },
+  "/blog/can-i-amend-my-tax-returns/": {
+    "title": "Can I Amend My Tax Returns? A Complete Guide to Recovering Missed Deductions | AE Tax Advisors",
+    "description": "Learn when and how to amend your tax returns using Form 1040-X. Understand the statute of limitations, common missed deductions, and when Form 3115 is the better option."
+  },
+  "/blog/form-3115-cost-segregation-catch-up/": {
+    "title": "How to Use Form 3115 for Cost Segregation Catch-Up (2026)",
+    "description": "Form 3115, Application for Change in Accounting Method, is one of the most powerful and underused tools available to real estate investors."
+  },
+  "/cost-segregation-complete-guide-2026/": {
+    "title": "Cost Segregation Complete Guide 2026 | AE Tax Advisors",
+    "description": "The definitive 2026 guide to cost segregation studies. Learn how engineering-based reclassification of building components accelerates depreciation, reduces taxes, and improves cash flow for real estate investors and business owners."
+  },
+  "/blog/section-179-deduction-2026-complete-guide/": {
+    "title": "Section 179 Deduction Guide (2026) | AE Tax Advisors",
+    "description": "2026 Section 179 limits: $2,560,000, a $4,090,000 phaseout threshold, and a $32,000 SUV cap. Compare income limits, bonus depreciation, and financing."
+  },
+  "/blog/defined-benefit-plan-vs-solo-401k/": {
+    "title": "Defined Benefit Plan vs. Solo 401(k)",
+    "description": "Compare 2026 solo 401(k) limits with actuarial pension funding, Roth catch-up rules, fees, and a combined-plan example before choosing a retirement plan."
+  },
+  "/blog/one-big-beautiful-bill-act-business-owners-2026/": {
+    "title": "What the One Big Beautiful Bill Act Means for Business Owners in 2026",
+    "description": "Review 2026 OBBBA rules: 20% QBI, a $40,400 SALT cap before phase-down, Section 179 limits, and bonus-depreciation eligibility for business owners."
+  },
+  "/blog/qbi-deduction-optimization-irc-199a/": {
+    "title": "Maximizing Your QBI Deduction: An S-Corp Owner's Guide to IRC 199A",
+    "description": "Plan the 2026 QBI deduction with the 20% rate, current income ranges, SSTB and wage limits, and retirement-contribution effects for S-Corp owners."
+  },
+  "/blog/tax-strategy-for-gym-fitness-studio-owners/": {
+    "title": "Tax Planning for Gym Owners Before Expansion | AE Tax Advisors",
+    "description": "Plan a gym buildout or second location with a review of membership receipts, equipment financing, lease improvements, payroll and employee retirement eligibility."
+  },
+  "/augusta-rule-business-owners/": {
+    "title": "The Augusta Rule for Business Owners (2026) | AE Tax Advisors",
+    "description": "Review Augusta Rule residence and rental-day tests, the ban on rental-expense deductions, and the separate requirements for a business rent deduction."
+  },
+  "/augusta-rule-for-business-owners-when-it-works-and-how-to-do-it-safely/": {
+    "title": "Augusta Rule Documentation and Rental-Day Checklist | AE Tax Advisors",
+    "description": "Check Augusta Rule personal-use and rental-day tests, meeting documentation, fair rent and reporting before renting a home to your business."
+  },
+  "/blog/augusta-rule-real-estate-investors-irc-280a/": {
+    "title": "The Augusta Rule for Real Estate Investors (IRC 280A(g)) (2026)",
+    "description": "Review Augusta Rule eligibility, business-rent documentation, reporting and S corporation tax examples that account for QBI and NIIT differences."
+  },
+  "/airbnb-tax-deductions/": {
+    "title": "Every Airbnb Tax Deduction You Can Claim in 2026 | AE Tax Advisors",
+    "description": "Complete guide to every Airbnb tax deduction available in 2026. IRC-cited list of 20+ deductions including mortgage interest, depreciation, cost segregation..."
+  },
+  "/for/high-income-500k/": {
+    "title": "Tax Strategies for Business Owners ($500K+) | AE Tax Advisors",
+    "description": "Earning $500,000 or more puts you in rare company. It also places you squarely in the crosshairs of the federal tax code."
+  },
+  "/equipment-leasing-section-179/": {
+    "title": "Section 179 Equipment Leasing Tax Strategy (2026) | AE Tax Advisors",
+    "description": "Review the 2026 Section 179 limits, equipment ownership, financing, vehicle rules and bonus depreciation before committing to an acquisition."
+  },
+  "/blog/trucking-company-equipment-depreciation-fleet/": {
+    "title": "Trucking Company Equipment Depreciation: Deduct Your Entire Fleet",
+    "description": "Compare 2026 Section 179 limits and bonus depreciation for trucking equipment, with ownership, acquisition timing, recapture and fleet cash-flow considerations."
+  },
+  "/blog/how-to-maximize-retirement-contributions-as-s-corp-owner/": {
+    "title": "How Do I Maximize Retirement Contributions as an S-Corp Owner?",
+    "description": "Learn how S-Corp owners can maximize retirement plan contributions. Understand W-2 salary optimization, profit-sharing, and advanced plan stacking strategies."
+  },
+  "/qsbs-section-1202-business-owners/": {
+    "title": "QSBS Exclusion Section 1202: How Business Owners Save Millions | AE Tax Advisors",
+    "description": "Check QSBS eligibility, acquisition-date limits, holding periods and sale structure. See the records business owners need before relying on Section 1202."
+  },
+  "/qsbs-exclusion-section-1202/": {
+    "title": "QSBS Exclusion: Section 1202 Rules by Stock Acquisition Date",
+    "description": "Review Section 1202 dollar limits, holding-period tiers, business eligibility and stock records before a sale. Includes older and newer stock rules."
+  },
+  "/blog/qualified-small-business-stock-section-1202/": {
+    "title": "Qualified Small Business Stock Section 1202 Exclusion (2026)",
+    "description": "QSBS eligibility by acquisition and issuance date, plus corrected founder-exit math, gifts, rollover requirements and records to review before a sale."
+  },
+  "/c-corporation-strategy/qualified-small-business-stock-section-1202/": {
+    "title": "Qualified Small Business Stock (QSBS) and IRC Section 1202",
+    "description": "Evaluate QSBS within a C corporation plan: original issuance, date-based limits, active-business requirements, state taxes and stock versus asset sales."
+  },
+  "/the-business-owners-guide-to-section-1202-qualified-small-business-stock-qsbs/": {
+    "title": "The Business Owner's Guide to Section 1202 (2026) | AE Tax Advisors",
+    "description": "Understand Section 1202 eligible-gain limits, corrected basis examples, holding periods, conversion traps and the records needed for a QSBS review."
+  },
+  "/the-business-owners-guide-to-section-1202-qualified-small-business-stock-qsbs-exclusion/": {
+    "title": "The Business Owners Guide To Section 1202 (2026) | AE Tax Advisors",
+    "description": "Check Section 1202 eligibility, historical stock examples, basis limits and loss treatment before relying on a QSBS exclusion for a business exit."
+  },
+  "/blog/how-tax-moves-how-does-c-corporation-income-tax-before-an-owner-takes-cash-work/": {
+    "title": "How does C corporation income tax before an owner takes cash work?",
+    "description": "The corporation computes its own taxable income and generally pays federal corporate income tax at 21%, with state and other applicable rules reviewed separately.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-c-corporation-dividend-and-its-second-tax-layer-work/": {
+    "title": "How does a C corporation dividend and its second tax layer work?",
+    "description": "A dividend generally comes from after-tax corporate earnings and is not a corporate deduction. Shareholder dividend tax rules can add a second tax layer.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-retaining-earnings-in-a-c-corporation-work/": {
+    "title": "How does retaining earnings in a C corporation work?",
+    "description": "Retaining cash leaves it inside the company for company purposes. Corporate tax can still apply to taxable profit; cash retention does not make the earnings untaxed.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-owner-payroll-as-a-c-corporation-expense-work/": {
+    "title": "How does owner payroll as a C corporation expense work?",
+    "description": "Reasonable compensation for actual services can generally be a corporate business expense, subject to applicable rules.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-c-corporation-capital-contribution-work/": {
+    "title": "How does a C corporation capital contribution work?",
+    "description": "A shareholder investment is generally capital funding, not customer income. It belongs in the ownership and basis records rather than the sales ledger.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-equipment-purchases-inside-a-c-corporation-work/": {
+    "title": "How does equipment purchases inside a C corporation work?",
+    "description": "The purchase exchanges cash for an asset. A current deduction depends on depreciation rules, eligible expensing, service date and use.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-corporate-loan-to-a-shareholder-work/": {
+    "title": "How does a corporate loan to a shareholder work?",
+    "description": "A genuine corporate loan creates shareholder debt. Repayment intent, terms, interest and actual conduct must support the loan.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-c-corporation-business-reserve-work/": {
+    "title": "How does a C corporation business reserve work?",
+    "description": "Corporate cash should be considered in light of actual business needs and applicable accumulation rules.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-c-corporation-loss-at-the-company-level-work/": {
+    "title": "How does a C corporation loss at the company level work?",
+    "description": "A C corporation operating loss generally stays with the corporation rather than passing through as the shareholder's personal deduction.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-the-transition-from-c-corporation-to-s-taxation-work/": {
+    "title": "How does the transition from C corporation to S taxation work?",
+    "description": "An S election changes the federal framework if eligibility and procedure requirements are met, but prior C corporation history can still matter.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-s-corporation-profit-on-an-owner-return-work/": {
+    "title": "How does S corporation profit on an owner return work?",
+    "description": "S corporation items pass to owners on Schedule K-1, subject to applicable limitations. Retaining corporate cash does not generally stop pass-through income.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-s-corporation-payroll-versus-distributions-work/": {
+    "title": "How does S corporation payroll versus distributions work?",
+    "description": "S corporation payroll pays for shareholder services. Distributions have separate basis rules; working shareholders must address reasonable compensation.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-an-s-corporation-stock-basis-increase-work/": {
+    "title": "How does an S corporation stock basis increase work?",
+    "description": "Allocated income generally increases stock basis, while distributions and other adjustments can reduce it.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-an-s-corporation-distribution-above-basis-work/": {
+    "title": "How does an S corporation distribution above basis work?",
+    "description": "A nondividend distribution is generally tax-free only to the extent of stock basis; an excess can create gain. Debt basis does not automatically shelter a distribution.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-s-corporation-loss-limitation-review-work/": {
+    "title": "How does S corporation loss limitation review work?",
+    "description": "Allocated losses must pass through stock and debt basis, at-risk, passive activity and excess business loss rules as applicable.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-shareholder-funding-for-business-expenses-work/": {
+    "title": "How does shareholder funding for business expenses work?",
+    "description": "Owner capital or a bona fide direct loan can fund S corporation operations. Funding is not itself an expense; classify what the business buys.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-s-corporation-health-insurance-reimbursement-work/": {
+    "title": "How does S corporation health insurance reimbursement work?",
+    "description": "More-than-2% shareholder premiums paid or reimbursed by the corporation have special wage and deduction treatment.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-debt-basis-when-only-one-shareholder-lends-work/": {
+    "title": "How does debt basis when only one shareholder lends work?",
+    "description": "A genuine direct loan can create debt basis for the lending shareholder under applicable rules. Other shareholders do not automatically get the same basis.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-an-s-corporation-tax-distribution-work/": {
+    "title": "How does an S corporation tax distribution work?",
+    "description": "An S corporation tax distribution generally remains an owner distribution, not a corporate income-tax deduction. State entity taxes need separate review.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-an-s-corporation-shareholder-loan-repayment-work/": {
+    "title": "How does an S corporation shareholder loan repayment work?",
+    "description": "A genuine loan repayment reduces the company debt and must be compared with the shareholder's adjusted debt basis. A distribution uses stock-basis rules.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-partnership-income-from-form-1065-to-the-partner-work/": {
+    "title": "How does partnership income from Form 1065 to the partner work?",
+    "description": "A partnership generally allocates items on Schedule K-1. Partners report their shares under applicable rules; cash distributions need not equal allocations.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-partnership-profit-allocation-versus-cash-distribution-work/": {
+    "title": "How does partnership profit allocation versus cash distribution work?",
+    "description": "Partnership profit allocations determine taxable shares. Cash distributions affect basis and can create gain when they exceed outside basis.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-guaranteed-payment-to-a-partner-work/": {
+    "title": "How does a guaranteed payment to a partner work?",
+    "description": "A qualifying guaranteed payment is determined without regard to partnership income. Its reporting and deduction or capitalization depend on the facts.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-partner-capital-contribution-work/": {
+    "title": "How does a partner capital contribution work?",
+    "description": "Cash or property contributed as capital funds the partnership and generally affects the contributing partner's outside basis.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-partnership-debt-in-outside-basis-work/": {
+    "title": "How does partnership debt in outside basis work?",
+    "description": "A partner's share of qualifying liabilities can affect outside basis. Liability type and allocation matter; basis is not the same as being at risk.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-partnership-losses-on-the-partner-return-work/": {
+    "title": "How does partnership losses on the partner return work?",
+    "description": "The partnership allocates the loss, but the partner must apply outside-basis, at-risk, passive and other applicable limitations.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-partnership-tax-distribution-work/": {
+    "title": "How does a partnership tax distribution work?",
+    "description": "The partnership can distribute cash under its governing agreement to fund partners' tax obligations. Taxable allocations and distribution treatment remain separate.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-participation-in-a-rental-partnership-work/": {
+    "title": "How does participation in a rental partnership work?",
+    "description": "The partnership allocates economic items under applicable rules, while material participation is generally evaluated for each owner.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-reimbursing-a-partner-business-expense-work/": {
+    "title": "How does reimbursing a partner business expense work?",
+    "description": "A reimbursement accounts for actual partnership business costs paid by a partner, while a guaranteed payment compensates under its own rules.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-buying-a-partnership-interest-rather-than-its-property-work/": {
+    "title": "How does buying a partnership interest rather than its property work?",
+    "description": "An interest purchase creates outside basis for the buyer, while the partnership owns its assets with inside basis.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-the-split-from-gross-wages-to-net-pay-work/": {
+    "title": "How does the split from gross wages to net pay work?",
+    "description": "Gross wages are reduced by applicable employee taxes and other authorized deductions to arrive at net pay. The employer remits withheld amounts under deposit rules.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-the-employer-share-of-payroll-taxes-work/": {
+    "title": "How does the employer share of payroll taxes work?",
+    "description": "The employer can owe payroll taxes in addition to the employee amounts withheld from wages. Rates, wage bases and special rules depend on the tax and year.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-remitting-payroll-withholding-to-the-irs-work/": {
+    "title": "How does remitting payroll withholding to the IRS work?",
+    "description": "Amounts withheld must be deposited and reported according to the employer's applicable schedule.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-payroll-for-a-sole-s-corporation-shareholder-work/": {
+    "title": "How does payroll for a sole S corporation shareholder work?",
+    "description": "A single working shareholder still needs supported wage treatment and applicable employment-tax reporting. Reasonable compensation is based on actual services.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-bonus-payment-through-payroll-work/": {
+    "title": "How does a bonus payment through payroll work?",
+    "description": "A cash bonus generally has withholding and payroll tax treatment. Supplemental-wage withholding need not equal the employee's final income-tax rate.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-an-employee-401-k-payroll-deferral-work/": {
+    "title": "How does an employee 401(k) payroll deferral work?",
+    "description": "An eligible elected deferral is withheld from compensation and sent to the plan under applicable requirements.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-employee-versus-contractor-payment-classification-work/": {
+    "title": "How does employee versus contractor payment classification work?",
+    "description": "The worker's actual relationship determines whether employee payroll or independent-contractor treatment applies.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-employee-reimbursement-versus-additional-wages-work/": {
+    "title": "How does employee reimbursement versus additional wages work?",
+    "description": "A properly substantiated reimbursement under an accountable arrangement can be treated differently from wages. Nonaccountable payments generally need wage treatment.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-paying-a-spouse-through-business-payroll-work/": {
+    "title": "How does paying a spouse through business payroll work?",
+    "description": "A spouse must perform genuine services, and compensation and payroll treatment depend on the entity and applicable family-employment rules. Record duties and actual pay.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-reconciling-form-941-and-w-2-totals-work/": {
+    "title": "How does reconciling Form 941 and W-2 totals work?",
+    "description": "Quarterly payroll reporting and annual employee reporting should connect to the payroll records, with differences investigated and corrected appropriately.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-real-management-fee-between-two-entities-work/": {
+    "title": "How does a real management fee between two entities work?",
+    "description": "Management fees require actual services and a supportable arrangement. Review payer deduction or capitalization, related-party rules and recipient income.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-related-party-pricing-in-a-two-entity-arrangement-work/": {
+    "title": "How does related-party pricing in a two-entity arrangement work?",
+    "description": "Controlled transactions must be supportable under applicable pricing and allocation rules.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-separating-property-ownership-from-operations-work/": {
+    "title": "How does separating property ownership from operations work?",
+    "description": "Separate ownership can distinguish operating activity from property ownership, but tax classification and related-party use still matter.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-shared-payroll-cost-allocation-between-entities-work/": {
+    "title": "How does shared payroll cost allocation between entities work?",
+    "description": "Actual employees, services and cost allocation must be documented. Employment, benefit-plan, agency and related-employer rules need review before centralizing payroll.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-royalty-between-commonly-owned-companies-work/": {
+    "title": "How does a royalty between commonly owned companies work?",
+    "description": "A royalty needs genuine intellectual-property rights, actual use, supportable pricing and consistent reporting. Legal ownership and development history matter.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-loan-between-commonly-owned-entities-work/": {
+    "title": "How does a loan between commonly owned entities work?",
+    "description": "A bona fide loan creates a payable for one entity and a receivable for the other. Principal is generally a balance-sheet movement rather than a service expense.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-parent-capital-contribution-to-a-subsidiary-work/": {
+    "title": "How does a parent capital contribution to a subsidiary work?",
+    "description": "Equity funding increases the investment and capital records; it is not a deductible fee for services merely because money leaves the parent account.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-paying-a-vendor-from-the-wrong-entity-account-work/": {
+    "title": "How does paying a vendor from the wrong entity account work?",
+    "description": "Identify which entity incurred the obligation and whether the other entity paid as an agent, lender or investor.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-transfer-between-two-commonly-owned-llcs-work/": {
+    "title": "How does a transfer between two commonly owned LLCs work?",
+    "description": "Tax treatment of transfers between commonly owned LLCs depends on federal classification. Disregarded entities can differ from separate taxpayers.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-owner-cash-extraction-in-a-two-entity-plan-work/": {
+    "title": "How does owner cash extraction in a two-entity plan work?",
+    "description": "Follow the cash through both entities and then the owner payment. A payer deduction may create recipient income, and a corporate dividend can add shareholder tax.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-rental-income-reporting-from-tenant-to-owner-work/": {
+    "title": "How does rental income reporting from tenant to owner work?",
+    "description": "Reconcile gross rent and other rental receipts with property expenses and depreciation, then apply applicable limitations on the owner return.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-rental-mortgage-principal-and-interest-split-work/": {
+    "title": "How does a rental mortgage principal and interest split work?",
+    "description": "Principal reduces debt, while qualifying interest can be a rental expense under applicable rules.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-noncash-depreciation-against-rental-income-work/": {
+    "title": "How does noncash depreciation against rental income work?",
+    "description": "Depreciation allocates qualifying property basis over time or under eligible acceleration rules. It can create a tax expense without a current cash payment.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-depreciation-after-home-to-rental-conversion-work/": {
+    "title": "How does depreciation after home-to-rental conversion work?",
+    "description": "Establish the rental service date and apply the conversion basis rules, which can use the lower of adjusted basis or fair market value for depreciation.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-rental-improvement-on-the-asset-schedule-work/": {
+    "title": "How does a rental improvement on the asset schedule work?",
+    "description": "A capital improvement is generally added to an asset schedule rather than deducted as an ordinary repair. Identify its cost, classification and service date.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-rental-security-deposit-accounting-work/": {
+    "title": "How does rental security deposit accounting work?",
+    "description": "A refundable deposit is generally tracked as a liability until returned or applied under the lease. Advance rent is different.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-vacation-rental-personal-use-allocation-work/": {
+    "title": "How does vacation rental personal-use allocation work?",
+    "description": "Personal and rental use can require expense allocation and trigger special vacation-home limitations.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-short-term-rental-loss-on-the-household-return-work/": {
+    "title": "How does a short-term rental loss on the household return work?",
+    "description": "Classify the activity, evaluate participation and apply basis, at-risk, passive and other relevant limits.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-property-manager-fees-and-net-remittances-work/": {
+    "title": "How does property manager fees and net remittances work?",
+    "description": "The manager may collect rent, deduct fees and remit net cash, but the owner must reconcile gross income and qualifying expenses.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-rental-sale-gain-versus-net-closing-cash-work/": {
+    "title": "How does rental sale gain versus net closing cash work?",
+    "description": "Tax gain generally uses amount realized and adjusted basis, while closing cash also reflects mortgage payoff and settlement items.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-an-employer-retirement-plan-contribution-work/": {
+    "title": "How does an employer retirement plan contribution work?",
+    "description": "The employer funds the retirement account under the plan rules, with deduction timing, limits and employee requirements reviewed separately.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-pretax-employee-salary-deferral-work/": {
+    "title": "How does a pretax employee salary deferral work?",
+    "description": "Eligible pretax salary deferrals generally reduce current federal income-tax wages, while employment-tax treatment must be applied separately.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-roth-401-k-payroll-deferral-work/": {
+    "title": "How does a Roth 401(k) payroll deferral work?",
+    "description": "A designated Roth deferral generally uses compensation included in current taxable income. Qualified withdrawal treatment differs from pretax money.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-cash-balance-plan-funding-obligation-work/": {
+    "title": "How does a cash balance plan funding obligation work?",
+    "description": "A cash balance plan is a defined benefit plan with actuarial calculations and ongoing funding requirements.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-retirement-coverage-after-hiring-employees-work/": {
+    "title": "How does retirement coverage after hiring employees work?",
+    "description": "Eligible common-law employees can change an owner-only plan's participation and testing requirements.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-s-corporation-salary-for-retirement-contributions-work/": {
+    "title": "How does S corporation salary for retirement contributions work?",
+    "description": "Eligible compensation, generally W-2 wages, supports S corporation retirement plan calculations. Distributions do not create compensation for this purpose.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-sep-employer-contribution-work/": {
+    "title": "How does a SEP employer contribution work?",
+    "description": "A SEP generally involves employer contributions under its eligibility and allocation rules; it is not the same mechanism as employee 401(k) salary deferrals.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-retirement-coverage-across-two-companies-work/": {
+    "title": "How does retirement coverage across two companies work?",
+    "description": "Controlled-group and affiliated-service-group rules can require businesses to be considered together.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-retirement-funding-alongside-business-expansion-work/": {
+    "title": "How does retirement funding alongside business expansion work?",
+    "description": "Funding moves cash out of business liquidity and into the plan, even when a deduction lowers current tax.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-retirement-contribution-correction-with-payroll-work/": {
+    "title": "How does a retirement contribution correction with payroll work?",
+    "description": "The correction depends on whether the problem is an excess deferral, annual addition, employer deduction or operational error.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-an-accountable-plan-reimbursement-work/": {
+    "title": "How does an accountable plan reimbursement work?",
+    "description": "The employee substantiates a qualifying business cost and returns excess advances; the company records the reimbursement under the applicable rules.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-an-owner-paid-expense-for-the-correct-entity-work/": {
+    "title": "How does an owner-paid expense for the correct entity work?",
+    "description": "Identify which taxpayer incurred the business obligation, then document reimbursement, contribution or another appropriate arrangement.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-mixed-use-vehicle-expense-allocation-work/": {
+    "title": "How does mixed-use vehicle expense allocation work?",
+    "description": "Separate business, commuting and personal use, then apply an eligible expense method consistently. A company payment does not make all miles business-related.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-the-business-meal-deduction-review-work/": {
+    "title": "How does the business meal deduction review work?",
+    "description": "The business purpose and substantiation must support the underlying expense, and applicable deduction limits still apply.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-travel-advances-and-expense-reconciliation-work/": {
+    "title": "How does travel advances and expense reconciliation work?",
+    "description": "Substantiated qualifying costs under an accountable arrangement can receive different treatment from a nonaccountable allowance.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-depreciation-versus-immediate-expensing-work/": {
+    "title": "How does depreciation versus immediate expensing work?",
+    "description": "Depreciation recovers qualifying asset cost under tax rules over time or eligible acceleration provisions. Expensing requires its own eligibility and election analysis.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-business-interest-versus-principal-repayment-work/": {
+    "title": "How does business interest versus principal repayment work?",
+    "description": "Qualifying business interest can have expense treatment, subject to limits and tracing. Principal repayment reduces debt and generally is not an expense.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-an-expense-correction-across-business-and-personal-returns-work/": {
+    "title": "How does an expense correction across business and personal returns work?",
+    "description": "An expense adjustment can change entity income, owner allocations, basis and the household calculation.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-home-office-eligibility-before-reimbursement-work/": {
+    "title": "How does home office eligibility before reimbursement work?",
+    "description": "A home office needs eligible use and supporting records; reimbursement and individual deduction treatment depend on the owner's employment and entity facts.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-preventing-duplicate-owner-reimbursements-work/": {
+    "title": "How does preventing duplicate owner reimbursements work?",
+    "description": "Document each business expense, purpose and prior payment or reimbursement. One cost should not be reimbursed or deducted twice because both owners used it.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-an-owner-loan-on-the-business-balance-sheet-work/": {
+    "title": "How does an owner loan on the business balance sheet work?",
+    "description": "A genuine advance creates a business payable and an owner receivable. Principal funding is not customer income or a wage expense.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-owner-equity-funding-versus-a-business-loan-work/": {
+    "title": "How does owner equity funding versus a business loan work?",
+    "description": "Capital is an ownership investment, while a genuine loan creates a repayment obligation. The economic facts and documentation determine treatment.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-repayment-of-a-loan-with-reduced-debt-basis-work/": {
+    "title": "How does repayment of a loan with reduced debt basis work?",
+    "description": "An S corporation loss deduction can reduce basis in qualifying shareholder debt. Loan repayment can then be taxable; reconcile any basis restoration.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-shareholder-guarantee-versus-a-direct-loan-work/": {
+    "title": "How does a shareholder guarantee versus a direct loan work?",
+    "description": "A guarantee commits the owner to possible repayment but generally does not itself create S corporation debt basis. A bona fide direct advance has different facts.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-shareholder-loan-interest-reporting-work/": {
+    "title": "How does shareholder loan interest reporting work?",
+    "description": "Interest is separate from principal and can create income to the lender, with payer deduction treatment subject to applicable rules.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-stock-basis-versus-company-bank-cash-work/": {
+    "title": "How does stock basis versus company bank cash work?",
+    "description": "Stock basis reflects owner investment and prescribed tax adjustments. Company cash from borrowing, earnings or other events does not establish that basis.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-stock-contribution-before-a-distribution-work/": {
+    "title": "How does a stock contribution before a distribution work?",
+    "description": "A genuine capital contribution generally increases stock basis, while a later distribution must be evaluated under the applicable ordering and distribution rules.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-intercompany-loan-principal-repayment-work/": {
+    "title": "How does intercompany loan principal repayment work?",
+    "description": "Principal repayment settles a liability; it is not generally a deductible operating expense.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-classification-of-company-paid-personal-bills-work/": {
+    "title": "How does classification of company-paid personal bills work?",
+    "description": "Identify whether the payment is compensation, a distribution, a bona fide loan or another supported item.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-loan-schedule-in-the-business-return-work/": {
+    "title": "How does a loan schedule in the business return work?",
+    "description": "Opening principal, advances, repayments, interest and ending balances should reconcile with the books and supporting agreements. Tax basis can differ from principal.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-estimated-tax-versus-payroll-withholding-work/": {
+    "title": "How does estimated tax versus payroll withholding work?",
+    "description": "Estimated payments are made directly toward the owner's tax liability, while payroll withholding is taken from compensation and remitted through the employer.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-tax-reserve-followed-by-an-owner-payment-work/": {
+    "title": "How does a tax reserve followed by an owner payment work?",
+    "description": "A business tax reserve is not a deduction. Classify the transfer to the owner correctly; the estimated payment reduces tax due, not operating profit.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-tax-safe-harbor-versus-final-liability-work/": {
+    "title": "How does a tax safe harbor versus final liability work?",
+    "description": "A safe harbor can protect against an underpayment penalty when its requirements are met. The final tax return still calculates actual liability from current facts.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-annualized-income-for-estimated-installments-work/": {
+    "title": "How does annualized income for estimated installments work?",
+    "description": "The annualized income installment method considers uneven income and deductions. It requires timely records and the applicable calculation, not simply delayed payments.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-rental-sale-in-a-new-payment-projection-work/": {
+    "title": "How does a rental sale in a new payment projection work?",
+    "description": "A sale can add gain and depreciation-related amounts to the household return. Mortgage payoff affects cash, not the same tax calculation.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-tax-payments-during-a-filing-extension-work/": {
+    "title": "How does tax payments during a filing extension work?",
+    "description": "An extension generally changes the filing timeline without automatically extending the tax payment deadline.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-a-prior-year-overpayment-applied-forward-work/": {
+    "title": "How does a prior-year overpayment applied forward work?",
+    "description": "A properly elected carryforward applies an overpayment toward the next year's tax, with credit timing determined under applicable rules.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-quarterly-books-in-an-owner-tax-projection-work/": {
+    "title": "How does quarterly books in an owner tax projection work?",
+    "description": "A reliable projection starts with reconciled business results and adds tax adjustments and household items.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-spouse-withholding-for-joint-business-income-work/": {
+    "title": "How does spouse withholding for joint business income work?",
+    "description": "On a joint return, household withholding can help cover combined tax. Review withholding, annual rules and other income before reducing estimated payments.",
+    "description_only": true
+  },
+  "/blog/how-tax-moves-how-does-paying-an-individual-final-tax-balance-work/": {
+    "title": "How does paying an individual final tax balance work?",
+    "description": "A personal federal income-tax payment generally is not a business deduction. It settles the owner's liability after the return computation.",
+    "description_only": true
+  },
+  "/compare/business-owner-provider-shortlists/": {
+    "title": "Business Owner Tax Provider Shortlists",
+    "description": "Compare tax providers for business owners by planning, accounting, return preparation and specialist scope. Review sourced profiles and shortlist questions.",
+    "description_only": true
+  },
+  "/compare/high-income-provider-shortlists/": {
+    "title": "High-Income Tax Advisor Shortlists",
+    "description": "Compare tax advisors for high-income professionals and owners across tax planning, wealth coordination and rental needs using sourced service profiles.",
+    "description_only": true
+  },
+  "/compare/provider-comparison-library/": {
+    "title": "Tax Provider Comparison Library",
+    "description": "Search tax provider profiles and firm-to-firm comparisons by service model. Use official sources and scope questions to build your advisor shortlist.",
+    "description_only": true
+  },
+  "/compare/real-estate-study-provider-shortlists/": {
+    "title": "Real Estate Tax and Study Provider Shortlists",
+    "description": "Compare real estate tax advisors and cost segregation study providers by service scope, CPA coordination and filing responsibilities before requesting proposals.",
+    "description_only": true
+  },
+  "/compare/physician-business-real-estate-tax-advisors/": {
+    "title": "Tax Advisors for Physicians With Businesses & Rental Property",
+    "description": "Compare tax advisors for physicians with practice, locum or rental income. Review coordination needs, implementation scope and questions to ask each firm.",
+    "description_only": true
+  },
+  "/compare/tax-planning-implementation-firms/": {
+    "title": "Tax Planning Implementation Firms: Compare Who Does the Work",
+    "description": "Compare tax planning firms by implementation support, preparer handoffs and filing responsibilities. Identify who carries out each step before hiring.",
+    "description_only": true
+  },
+  "/compare/tax-strategy-accounting-cfo-firms/": {
+    "title": "Tax Strategy, Accounting & CFO Firms: Which Scope Fits?",
+    "description": "Compare tax strategy, accounting and CFO firms for owners and growing businesses. Separate planning projects from monthly books, reporting and forecasts.",
+    "description_only": true
+  },
+  "/real-estate-professional-status-reps/": {
+    "title": "Real Estate Professional Status REPS | AE Tax Advisors",
+    "description": "Evaluate REPS eligibility for a business owner with rentals: annual hours, spouse rules, material participation, grouping elections, and usable-loss limits."
+  },
+  "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status-reps/": {
+    "title": "The Business Owners Guide To Passive Loss (2026) | AE Tax Advisors",
+    "description": "Separate current rental losses from suspended carryovers. Review REPS qualification, rental grouping elections, disposition rules, and business-owner loss limits."
+  },
+  "/material-participation-real-estate-documentation/": {
+    "title": "Material Participation Real Estate | AE Tax Advisors",
+    "description": "Document the seven material participation tests correctly: owner and spouse hours, manager comparisons, historical evidence, grouping, and rental loss limits."
+  },
+  "/short-term-rental-tax-loophole-offset-w2-income/": {
+    "title": "Short Term Rental Tax Strategy for Business Owners (2026)",
+    "description": "Before buying an STR, test average guest stays, material participation, personal use, and loss limits to assess whether deductions can offset wages or business income."
+  },
+  "/short-term-rental-tax-planning-the-core-concepts-most-hosts-miss/": {
+    "title": "Short Term Rental Tax Planning The Core (2026) | AE Tax Advisors",
+    "description": "Coordinate multiple STRs with correct participation tests, grouping limits, NIIT and guest-service reporting, REPS distinctions, and usable-loss planning."
+  },
+  "/the-business-owners-guide-to-section-1031-like-kind-exchanges-and-tax-deferral/": {
+    "title": "1031 Exchange Rules, Debt and Cash Boot | AE Tax Advisors",
+    "description": "Plan a 1031 exchange before closing: compare cash boot, debt replacement, deadlines, reverse-exchange rules, and the basis carried into the next property."
+  },
+  "/the-business-owners-guide-to-section-1031-like-kind-exchanges-and-deferral-strategy/": {
+    "title": "1031 Exchange Strategy, Timing and Carryover Basis | AE Tax Advisors",
+    "description": "Review 1031 exchange timing, intermediary fees, cash and mortgage boot, reverse exchanges, and carryover basis before choosing replacement property."
+  },
+  "/1031-exchange-explained-defer-capital-gains/": {
+    "title": "1031 Exchange Explained: Gain, Boot and Tax Deferral",
+    "description": "Understand what a 1031 exchange can defer, how cash and debt affect taxable gain, and which deadlines, recapture, and state-tax rules need review."
+  },
+  "/blog/common-1031-exchange-mistakes/": {
+    "title": "7 Common 1031 Exchange Mistakes That Trigger a Taxable Event",
+    "description": "Avoid 1031 exchange mistakes involving deadlines, proceeds, cash boot, disqualified intermediaries, and related-party purchases before closing."
+  },
+  "/blog/1031-exchange-planning-timing/": {
+    "title": "1031 Exchange Timeline: Deadlines, QIs and Reverse Exchanges",
+    "description": "Build a 1031 exchange timeline around the 45-day identification period, earlier closing deadline, qualified intermediary, and reverse-exchange safe harbor."
+  },
+  "/the-complete-guide-to-hiring-family-members-in-your-business/": {
+    "title": "Hiring Family Members: Payroll Rules for 2026 | AE Tax Advisors",
+    "description": "Check child, spouse and parent payroll rules, FICA at 18, FUTA at 21, reasonable wages, withholding and records before hiring family in 2026."
+  },
+  "/the-ultimate-guide-to-hiring-family-members-in-your-business/": {
+    "title": "Family Employment Tax Planning in 2026 | AE Tax Advisors",
+    "description": "Compare the full tax cost of family payroll, spouse wages, child earnings and retirement contributions before putting relatives on the business payroll."
+  },
+  "/use-family-management-company/": {
+    "title": "Family Management Company: When It Helps | AE Tax Advisors",
+    "description": "Evaluate a family management company by actual services, related-party fees, payroll, spouse joint-return rules and costs before creating another entity."
+  },
+  "/s-corp-qbi-deduction-maximization/": {
+    "title": "S-Corp QBI Deduction: Wages, UBIA and 2026 Limits",
+    "description": "Compare S-corp wages, QBI, qualified-property UBIA, SSTB rules and 2026 phase-in limits before changing compensation or retirement contributions."
+  },
+  "/the-business-owners-guide-to-section-199a-qualified-business-income-qbi-deduction/": {
+    "title": "Section 199A QBI Deduction: 2026 Business Owner Guide",
+    "description": "Check 2026 QBI thresholds, wage and UBIA limits, SSTB rules, aggregation, rental eligibility and cost-segregation examples before making tax decisions."
+  },
+  "/qbi-deduction-a-practical-guide-for-business-owners/": {
+    "title": "QBI Planning for Business Owners: Payroll, Property and 2026 Rules",
+    "description": "Compare payroll, spouse wages, property purchases and aggregation using conditional QBI examples. Review 2026 thresholds, rental rules and after-tax costs."
+  },
+  "/the-business-owners-guide-to-installment-sales-and-deferred-gain-strategies/": {
+    "title": "The Business Owners Guide To Installment Sales And Deferred Gain Strategies",
+    "description": "Installment-sale planning for business and property owners: down-payment gain, recapture, interest, buyer risk and the records needed before signing."
+  },
+  "/1031-exchange-planning/": {
+    "title": "1031 Exchange Planning",
+    "description": "Plan a 1031 exchange with the right deadlines, boot calculation and replacement basis. Review the $580,000 basis example before cost segregation."
+  },
+  "/structuring-your-business-for-sale/": {
+    "title": "How to Structure Your Business for Sale: Entity Changes That Save Tax",
+    "description": "Compare business-sale structures, corporate property transfers and retaining versus selling the building. Model tax costs before signing an LOI."
+  },
+  "/business-exit-tax-planning-minimize-taxes-selling-company/": {
+    "title": "Business Exit Tax Planning: Minimize Taxes When Selling Your Company",
+    "description": "Compare asset and stock sales, Section 338 elections, allocation and seller financing. Build an after-tax proceeds model before accepting an offer."
+  }
+}

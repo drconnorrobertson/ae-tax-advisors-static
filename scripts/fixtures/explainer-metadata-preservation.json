@@ -1,0 +1,702 @@
+{
+  "/blog/how-tax-moves-how-does-c-corporation-income-tax-before-an-owner-takes-cash-work/": {
+    "metadata_masked_sha256": "e65fe7f007d436bd4e077ee46becd0e2fcd6c8e4698966304faf0145287fc91b",
+    "body_sha256": "85e06bb6263ad3bce6c609e57309315c62181827414d923a0d9ba7110c41dcf1",
+    "source_answer_sha256": "e31d7b3db21332c81fc962972972a374d493d697526db93a2f7e9da2a3e983f1",
+    "original_title": "How does C corporation income tax before an owner takes cash work?",
+    "description_sha256": "9b34bbcdf98aacc3f23c67f977ced04fc660f59bdf7bb8081463ab5da131ac61"
+  },
+  "/blog/how-tax-moves-how-does-a-c-corporation-dividend-and-its-second-tax-layer-work/": {
+    "metadata_masked_sha256": "35c8d2e5e9c964ad5c93a94fb6dde2f2aadf53fbf337c3bceaebed9de253cfb2",
+    "body_sha256": "a13264ad419d10baf35ad3e56cdd1ed29fc1a4f094de190b470a62947287c52f",
+    "source_answer_sha256": "82bde3c207fe435fe7f5c19a68c4514cd79c78a19759241399191588b5f9974e",
+    "original_title": "How does a C corporation dividend and its second tax layer work?",
+    "description_sha256": "928c32290cc6c34a5453491bc59f3c5135d2b8224e5b3c18c3a69c8da74f81f2"
+  },
+  "/blog/how-tax-moves-how-does-retaining-earnings-in-a-c-corporation-work/": {
+    "metadata_masked_sha256": "fdfbccfc32cdeb692a2eca502a5a76ede5f2bad3769badbe5dbb2c81c821b29b",
+    "body_sha256": "00514c5d7c2e5387dae48b6cf2bd91e85f2e566907fb029d3e823b25834a0dfd",
+    "source_answer_sha256": "b766f6691f213cb5260cb808a6d586d4cc037e1e3e72df02d772dea30bc68a4e",
+    "original_title": "How does retaining earnings in a C corporation work?",
+    "description_sha256": "d068b6b4056022083a3cf3235b2de6d4c02dd04c38d7d2ef26d20a99c63df5fc"
+  },
+  "/blog/how-tax-moves-how-does-owner-payroll-as-a-c-corporation-expense-work/": {
+    "metadata_masked_sha256": "4e533a1afcd2707aec5deab8eb4765fa1a5be0845d5c66406de97841ce792541",
+    "body_sha256": "6cc871805afdf28e3ab9e8fbcfa4e9fc358cb19fa416f5d431895a3c68c118bb",
+    "source_answer_sha256": "fbae279a40b5a2a38a84949a4940623064aa269698dcd76fbf39f755917a59ff",
+    "original_title": "How does owner payroll as a C corporation expense work?",
+    "description_sha256": "c5e99e07be659f1cc52f64f95ce5f940805bfe728bc3cdbe756d8e45e0f35b91"
+  },
+  "/blog/how-tax-moves-how-does-a-c-corporation-capital-contribution-work/": {
+    "metadata_masked_sha256": "2a77e6ca7118658650e012738ae0de19a234f6dc8135462e6649789d63cc6207",
+    "body_sha256": "6825e025242fc59803ff492dc5eb458abaea3c7ee5ab0d3ad5ad5740aa654cd6",
+    "source_answer_sha256": "7044351ac8e4a70f281d5a0c1fc95408b9c593cbe858a26d883bd3ac40eef882",
+    "original_title": "How does a C corporation capital contribution work?",
+    "description_sha256": "dfb427eea783c558956cb649fe97f835c9cf2e182e85cab19cd2c204f0e932fd"
+  },
+  "/blog/how-tax-moves-how-does-equipment-purchases-inside-a-c-corporation-work/": {
+    "metadata_masked_sha256": "d70a1604aeb20a3368a82eb37bb05492cb4277b21c5ed9db160ba4e2d55b21f8",
+    "body_sha256": "4cfeb0844a652b016a490f4ab04bee0d0265bdcf8d9a28a3ce47129789ba0c37",
+    "source_answer_sha256": "0797121af473a8ced3ff3732e352cb8598eb02b1b58587c93d4bc68ea3715bfe",
+    "original_title": "How does equipment purchases inside a C corporation work?",
+    "description_sha256": "dedaf954afba64a95b78608c6d6b12bc9940889dcd8037dee4452d133ecafafd"
+  },
+  "/blog/how-tax-moves-how-does-a-corporate-loan-to-a-shareholder-work/": {
+    "metadata_masked_sha256": "346252c336f291f075b8854d13b088c79d4d87b1c7d3252257afa34376ba6480",
+    "body_sha256": "ee749895f0233d9f8494ec15da5bcc1062dce752096d514076359de5ebea986b",
+    "source_answer_sha256": "c85552c0db819115678b08798fdddddfabf3dacd49a42bd489d11e675d24e5fd",
+    "original_title": "How does a corporate loan to a shareholder work?",
+    "description_sha256": "39696a76e013ca687030c490a18b68dbd05cea44ed6b47ec1a68e766c91cbcf9"
+  },
+  "/blog/how-tax-moves-how-does-a-c-corporation-business-reserve-work/": {
+    "metadata_masked_sha256": "d08fb06706226d7f5d6f96cbc61a6363174f2ed61ea847994f1a8eec9b7f957f",
+    "body_sha256": "088cc8e48bfbce670adfb77395a4421680fb3d65db2afbcce8f4ca7f933a335e",
+    "source_answer_sha256": "fab07cc46431bf133d4e1d4e77f5f4e994a4d1e3270b6740a82b66d4a2b16119",
+    "original_title": "How does a C corporation business reserve work?",
+    "description_sha256": "8acffb0703bdd9580eac516914657de70d2c07ef8e5071a3f3ee38c2f28fae92"
+  },
+  "/blog/how-tax-moves-how-does-a-c-corporation-loss-at-the-company-level-work/": {
+    "metadata_masked_sha256": "b96ee62582e058b33d769ec4ddfef64faab61366e8676953b68e3e404191b48e",
+    "body_sha256": "6d23fd7bcbed5c793ec303ffd9a48a03f2ecc488be74cd4edbe8fe1d290ff88f",
+    "source_answer_sha256": "027ec639fe400e235d4274ed73e60e56c8612e059fa9ce7cf2a78a197911473c",
+    "original_title": "How does a C corporation loss at the company level work?",
+    "description_sha256": "ae705652930fcef89e16d903d25e207cf24900e9098fed86284ba5dbc5b52451"
+  },
+  "/blog/how-tax-moves-how-does-the-transition-from-c-corporation-to-s-taxation-work/": {
+    "metadata_masked_sha256": "52322fbede1c35128f05fe0c6c63b09cf317ed3c15a8c9f9f34882da45a667d5",
+    "body_sha256": "28f522ff09517ef4141ebab1b7acf77058f010cc2cc58ab9de51cf4f13ac2fb2",
+    "source_answer_sha256": "3eeca59eb1d92d55e1241e7e4f79b4230718edcb38a356f27f7199c6cf16bf9b",
+    "original_title": "How does the transition from C corporation to S taxation work?",
+    "description_sha256": "aafca16a1c61a376b2dd80a4ecf9bc33e59d7267ffd1ce9b97b98c93420c7b3b"
+  },
+  "/blog/how-tax-moves-how-does-s-corporation-profit-on-an-owner-return-work/": {
+    "metadata_masked_sha256": "9071c0fa12177c9d30ae7efa44c3017fc094892ae8a36067b69399f4a017b210",
+    "body_sha256": "d4c136af0b7e7fbd276b16f005ed4598f4122e3c4a97eab1147d9d0ff5181dfa",
+    "source_answer_sha256": "514a6c0feebb7dde07815b4360fe6eead5b03a30d36f08895146e101d6ef38a3",
+    "original_title": "How does S corporation profit on an owner return work?",
+    "description_sha256": "df9ee92b84410a29494e487a4f0ed91d624c56bcf143d048ae2c5a444a99ca95"
+  },
+  "/blog/how-tax-moves-how-does-s-corporation-payroll-versus-distributions-work/": {
+    "metadata_masked_sha256": "019238f9a9314253d8353c936bed19c2d0413720d49a40ecff949658890a995e",
+    "body_sha256": "4baa4789bfe2ce3687bfe4b8f6236c9d232ba1c6ba085a1addd119adf5543166",
+    "source_answer_sha256": "27adeaed5980d1b1bfe60488ebb579576024d99f42034658f95294a05bbca212",
+    "original_title": "How does S corporation payroll versus distributions work?",
+    "description_sha256": "e38ba76fa86ba68f715a17aa5874e1331f016145299ecc91178e242b52083a34"
+  },
+  "/blog/how-tax-moves-how-does-an-s-corporation-stock-basis-increase-work/": {
+    "metadata_masked_sha256": "fca6b8b69000953f62fde086a5478b3e25d451343f312ffb98a1653ece70b05c",
+    "body_sha256": "6900c29a5b132504f1573ecd794f051ac379d200af87b84dfd570b64d221e7d3",
+    "source_answer_sha256": "ae0c7627a379a308a629259eabff1fe8e1bec88b5e119b0ae03c1129c5662646",
+    "original_title": "How does an S corporation stock basis increase work?",
+    "description_sha256": "f15d37c5b2f3295c3901d9f7aaadb7e60af962e5dea7340f0e42deda746ca85b"
+  },
+  "/blog/how-tax-moves-how-does-an-s-corporation-distribution-above-basis-work/": {
+    "metadata_masked_sha256": "aeb95a6487ba95a6ae365e724949cf3f6dc091a3fffb9f5f002d570911d6c334",
+    "body_sha256": "99fe9b4798aaddc038aac845717c95209c8dca4350d9c8680dfe4d8469c57020",
+    "source_answer_sha256": "e755687b99c2f916cf9c0450881115b10b03b09156ae138464b6d8659c0bf682",
+    "original_title": "How does an S corporation distribution above basis work?",
+    "description_sha256": "8f047d99ae444c0e508bddcfc12c13760188b393d08d31aa90bb7c0c4cbf1a04"
+  },
+  "/blog/how-tax-moves-how-does-s-corporation-loss-limitation-review-work/": {
+    "metadata_masked_sha256": "e318508cb9aaad6e9882527dbdd1002832a6f2ac1595531e68c488b01ea9e4aa",
+    "body_sha256": "f1430813438af6d6c35dabcf3cecde198cf0d53ee2e7edcdcdc825ee60a12547",
+    "source_answer_sha256": "8003d4b95950a394dc3261b6fbc0a7562a21da7f5ab618ff785f20fd51b02705",
+    "original_title": "How does S corporation loss limitation review work?",
+    "description_sha256": "4bfc3dd178001fda191a5f1dca23621ccb0e62434784bab8ba36d8807a090329"
+  },
+  "/blog/how-tax-moves-how-does-shareholder-funding-for-business-expenses-work/": {
+    "metadata_masked_sha256": "67e9884bd352184f05d2c95a28f90ff129241043e0f5e3153f2a3973afe92d80",
+    "body_sha256": "286fabea0d13a65316b0385339ed87e06653734409f76b84281dcbc75722d650",
+    "source_answer_sha256": "8b7a78820d08860fb84f4745954a3921ff41ee9f7b3d0fb1b1087df6cb46744c",
+    "original_title": "How does shareholder funding for business expenses work?",
+    "description_sha256": "dfcaef5bd4a07afa7acdc52b505885edd25a83e1d864b1680d781aff874fc305"
+  },
+  "/blog/how-tax-moves-how-does-s-corporation-health-insurance-reimbursement-work/": {
+    "metadata_masked_sha256": "8954a036d797c956c9057add9d977892ad67f8e6da54a7771fe2d1e4546eee75",
+    "body_sha256": "e3ebae9aed7fd8bc722abbe8a6fa8519d1b2857188407dc4ab1e3df690d6b0b4",
+    "source_answer_sha256": "c8e0c12b89be5f1c89988eb1be3e2111d276e04f6f1760fb364a9a57d2d33c9b",
+    "original_title": "How does S corporation health insurance reimbursement work?",
+    "description_sha256": "74ec4ec176247cac2b65f3cde7c35a7304893b167820efdefcf4b6d72904f0ba"
+  },
+  "/blog/how-tax-moves-how-does-debt-basis-when-only-one-shareholder-lends-work/": {
+    "metadata_masked_sha256": "854e4d714f4e2ddf2e24af49eb20c6bec22bfcd8e911be64f49d4eff0aee7440",
+    "body_sha256": "75c760eeb1d4aa2084035e5353104545a34a490a67b49d148d41bf720c95f454",
+    "source_answer_sha256": "29762c47bb8eccfa0a876f7fc3a3dbfdbbb413fa66da38f2d5916cf21473eb28",
+    "original_title": "How does debt basis when only one shareholder lends work?",
+    "description_sha256": "e67f0ef60eb83f22bf5bad98290fd6ea53f0082cb7c5dcf20c2a07152be54645"
+  },
+  "/blog/how-tax-moves-how-does-an-s-corporation-tax-distribution-work/": {
+    "metadata_masked_sha256": "c99920d275953c2aa6cc791a54ae65c7f3981c1907e3f1c21ffd6a01016f4db0",
+    "body_sha256": "8bfce3e8495ce347b4af4c58942a80108f717ccca6034cf0ea03772c2d11cc91",
+    "source_answer_sha256": "2b4894ba22c188293ed89655ede816572519bceed6bb91a0fcc9e13284f1eaac",
+    "original_title": "How does an S corporation tax distribution work?",
+    "description_sha256": "61df11814914be4d1fea2ca31bb6cfd1ce9f1a6bd2b30f80172ab719547bee70"
+  },
+  "/blog/how-tax-moves-how-does-an-s-corporation-shareholder-loan-repayment-work/": {
+    "metadata_masked_sha256": "3692b12ee0853f47562b1a453fdf6306fca25f44569f4b38a12ca1979f339e9c",
+    "body_sha256": "f319b856da18d369df4455b17f04a6cdc7dfe894d92e833b21ebce0820c16780",
+    "source_answer_sha256": "6d56a7331928f8d8b68f519e7ff3996378c3f754606f0d02a567c32636eafced",
+    "original_title": "How does an S corporation shareholder loan repayment work?",
+    "description_sha256": "9c4332e14c418e9d8b82ba08437953643c9c9045c6109449c1515034e97da4e6"
+  },
+  "/blog/how-tax-moves-how-does-partnership-income-from-form-1065-to-the-partner-work/": {
+    "metadata_masked_sha256": "1a1a2cbce020371bc5f359fd0dfaa5fe1aa109097a7162a6da6c751e56bd50fb",
+    "body_sha256": "8253321ff5000ad730fb747af1b552173d187acdf8a839f070ff3ca11e8d75d5",
+    "source_answer_sha256": "29a1750fab8ef35ab44b90bf459b6e079fc04817e04a88861eb61063320e88be",
+    "original_title": "How does partnership income from Form 1065 to the partner work?",
+    "description_sha256": "fcae111a896e527bac12a99ee7ad659f8fe05b7461a2ed1299335caa17502415"
+  },
+  "/blog/how-tax-moves-how-does-partnership-profit-allocation-versus-cash-distribution-work/": {
+    "metadata_masked_sha256": "4a64279bff5fa519fe428ddfd2dfcaa9b5a438ef463c06083bdeff0e02d3a42f",
+    "body_sha256": "87762eafd9d750acacaff499d37c1926c41d16efafaee7f3e1a51043926b2fbe",
+    "source_answer_sha256": "e6ecad984179b365430c437d6d5f07668e07bd1ead42f2b9dd33335880701902",
+    "original_title": "How does partnership profit allocation versus cash distribution work?",
+    "description_sha256": "ad305d5669b3be5af7919267f29ccf3cf9ec937a57a747252d1dfb94123b684c"
+  },
+  "/blog/how-tax-moves-how-does-a-guaranteed-payment-to-a-partner-work/": {
+    "metadata_masked_sha256": "928a8ed7e43d2f19890917aad1cd1580b8159baa3aa61a55066ca28742f8b8dc",
+    "body_sha256": "efac3587ed30dde47240ded34ad3b52e54f644f6541989e3afe5bf122262f97c",
+    "source_answer_sha256": "b32bdc87accf1e53a22334aa24d5a44c9f24e46600f0e5c23964bd77dc016ebc",
+    "original_title": "How does a guaranteed payment to a partner work?",
+    "description_sha256": "6b387508be73f5580194f10bab38c90979a367672bab998040ef12e0b139f17f"
+  },
+  "/blog/how-tax-moves-how-does-a-partner-capital-contribution-work/": {
+    "metadata_masked_sha256": "97b57308acd7b144a3090921b561d6c64bb5b75ade5bf0b535b48a8b3c86ef89",
+    "body_sha256": "76fc0545e5632a2fb63b78b8e9f2180684c46a89d8643fb69eeeb3158efb8cb7",
+    "source_answer_sha256": "beaca8875ff32cdf5a213f6a486dda71c615f537ea3e87f831b80921f0af8a54",
+    "original_title": "How does a partner capital contribution work?",
+    "description_sha256": "561867d9b43d8ce3c11ae18cd68a9ac0e4ae9a8a0aaccffa145534cbef879794"
+  },
+  "/blog/how-tax-moves-how-does-partnership-debt-in-outside-basis-work/": {
+    "metadata_masked_sha256": "c5f2b1753aeebc7ba364ff46c5dcc9edf0268e73df03a00b68c70ee42d8869d7",
+    "body_sha256": "306490e1950931d0ad47eca305e71c6ec71e97f5e8b3835093c96bd7465a50c5",
+    "source_answer_sha256": "760611644844ba1e007c69fe781859b4c93fc60bde21331b28a7bb9d95df3e71",
+    "original_title": "How does partnership debt in outside basis work?",
+    "description_sha256": "5eb65f4e128d5089a26bd3477510723984cec50bb07cf57542fcc226a90df549"
+  },
+  "/blog/how-tax-moves-how-does-partnership-losses-on-the-partner-return-work/": {
+    "metadata_masked_sha256": "6ab9842d968716c6fbfba7206a330d08c636b0a28d8c14add4c262ba1fb28926",
+    "body_sha256": "bc6f34838a335301572ba761db68c22cf6251bc6c9d6d36e4ff0e21f77ee4608",
+    "source_answer_sha256": "6615977853329f3ed06a030b3cd680210b443a26780cf2bbdcfa11bfba517925",
+    "original_title": "How does partnership losses on the partner return work?",
+    "description_sha256": "d9b5f59058764df88559a7778c279b09865e4ed15d86d4663452d2a84ffd1f0d"
+  },
+  "/blog/how-tax-moves-how-does-a-partnership-tax-distribution-work/": {
+    "metadata_masked_sha256": "52ebb41a2147db35da5c8b8c811b8f3d65c14d073ab4ae74af31583a6560d9f5",
+    "body_sha256": "93a54f8478e006c58abaa9d0eaa3e26f81c1a5e16ddb8212c61cfdafce6c65c8",
+    "source_answer_sha256": "acbc496bbf406384f9a38944165ef5ae803d0f971c80d2ab88590126b44288a9",
+    "original_title": "How does a partnership tax distribution work?",
+    "description_sha256": "8410ac240a5929ba16d958a45bdece7d0b69e58c38912e86c7ac58fe3ef817af"
+  },
+  "/blog/how-tax-moves-how-does-participation-in-a-rental-partnership-work/": {
+    "metadata_masked_sha256": "cec8fa3b0377293e58aa9a75806d5000c9d37a6120ff148b15a0ee51bf9cb0f2",
+    "body_sha256": "9e78fbfd08e6cc7c9318a2c9916f94daa9aa03d1ad90ea334cba39037e636dd7",
+    "source_answer_sha256": "bd5cedb0215c5ce6ae4fa0cc1315887a55dc0cd75ee5bf9d0be7a49b62627099",
+    "original_title": "How does participation in a rental partnership work?",
+    "description_sha256": "458b266078eb4b9c5271ad0e301a857177c47cc7c1f5177e9f879df76e1b501f"
+  },
+  "/blog/how-tax-moves-how-does-reimbursing-a-partner-business-expense-work/": {
+    "metadata_masked_sha256": "f40587037af72dc12cb513ffc1d0f14e59f6ff36f57691c458c18e98103d1e4e",
+    "body_sha256": "86298f1121a8cc9a6b3ffc6dfb1cd0acb9bf686fe1b91990ed30fb51d482c5d4",
+    "source_answer_sha256": "69c0f88b5874d74fbfc8cc24e48bde47423202e95a826440489d80dcb4c82220",
+    "original_title": "How does reimbursing a partner business expense work?",
+    "description_sha256": "b2368a1bc13d9a4ff3e1fe23e3eef9cd98470ab1f92fcb5dcd0147fefb6c6d6a"
+  },
+  "/blog/how-tax-moves-how-does-buying-a-partnership-interest-rather-than-its-property-work/": {
+    "metadata_masked_sha256": "fb38990060e9cfddf0e776d835e2fd4a0c1eda744e3f7212e7cababfd2d19962",
+    "body_sha256": "da510837dd8f9f0dcc9bad9e1628a6642b73261259e460a83639c467ef6d80a6",
+    "source_answer_sha256": "5e79b4218e49771e2ab90c0d563cfdc1c84e6b45da12c8b8cbd1eb3d33b3346a",
+    "original_title": "How does buying a partnership interest rather than its property work?",
+    "description_sha256": "52cc7b8c8b90307d26cae4b42e6ef4be648f38bbb637d9ea9baac2dc79b6bd19"
+  },
+  "/blog/how-tax-moves-how-does-the-split-from-gross-wages-to-net-pay-work/": {
+    "metadata_masked_sha256": "d91b90516d7cf2ac34315b5756110ed2cba505cb9a4784452f58b8ed9d55f5d8",
+    "body_sha256": "ee167dece8ea50f02dd7dff2f3cd8ccf3dd656bb575ce66ca6e689193df4b35f",
+    "source_answer_sha256": "5ade40a05f31ee56ed78d63a836572af0e00244e66abcd1980b5d983f6faeecb",
+    "original_title": "How does the split from gross wages to net pay work?",
+    "description_sha256": "d25fd2ab9f6ec26a236efd2f951bf400fcc38ebdf62c73b84ce69b109f12ddc3"
+  },
+  "/blog/how-tax-moves-how-does-the-employer-share-of-payroll-taxes-work/": {
+    "metadata_masked_sha256": "0ea7f225c54d2d0d1c5e1050f1d9d0defe241d74a73b6cca37e501e2c7391768",
+    "body_sha256": "fc0e39f515ea70862e34c330f277529e4e8d5bc345aa278bb1f3e924b1c87f7f",
+    "source_answer_sha256": "8e326f401c18e1e9e778317149a053907482736655e7a1ac0cd3117b039ab51a",
+    "original_title": "How does the employer share of payroll taxes work?",
+    "description_sha256": "bdb2ffc31e52952b0834f820bccb3411eb31cb02f8db53a44d5659bd9f79ceeb"
+  },
+  "/blog/how-tax-moves-how-does-remitting-payroll-withholding-to-the-irs-work/": {
+    "metadata_masked_sha256": "ec4f6bae2821f768147b77fe581c72e008226c55aade0f019823bf94c276984e",
+    "body_sha256": "f132c2a31757c7e943f45d5aac837e4d057fff4852703d78081d8ac3ecad3a83",
+    "source_answer_sha256": "f7aa9b0ab78d6e05e1b4c1858cc19c4017a45063357b863f30bbb21951ca04ed",
+    "original_title": "How does remitting payroll withholding to the IRS work?",
+    "description_sha256": "ea64474b177ddc0df9ecd2634dd37d1db83b3609ea07eebda829fa39f5ab56bc"
+  },
+  "/blog/how-tax-moves-how-does-payroll-for-a-sole-s-corporation-shareholder-work/": {
+    "metadata_masked_sha256": "9cc3935026a964d9df5e90ad02592307823f30b8b89b8a8c4ae20efecb52971b",
+    "body_sha256": "dc2c374d17bbe6b15b3f7195b6001963d3b7dc0b2441e30af38568c0abb2272c",
+    "source_answer_sha256": "2c9576598daa6833ee8698546c44f5ba81d91097c2d32129e167af19c2680c83",
+    "original_title": "How does payroll for a sole S corporation shareholder work?",
+    "description_sha256": "f5c78c97c697ec9c05ee906ff5ef832db8adf2b3ff699aa577c72bf73695f768"
+  },
+  "/blog/how-tax-moves-how-does-a-bonus-payment-through-payroll-work/": {
+    "metadata_masked_sha256": "e6555adf7a93716f7703423eb53c2c964ea0cb02adc40fdb4364d65dbabdf921",
+    "body_sha256": "851b717f51b472519986f5cfb4754bf936d9227937313dd8efe18bc4a67078cb",
+    "source_answer_sha256": "5cbb76b7b5957b53189bdff1cc38bafe38aa06f8ef5a4707dd8f9ef628aeffab",
+    "original_title": "How does a bonus payment through payroll work?",
+    "description_sha256": "a60f6e6b47000e0a140d50dcb1e549680a8d5412e606bf6b59fd0859d320cf4f"
+  },
+  "/blog/how-tax-moves-how-does-an-employee-401-k-payroll-deferral-work/": {
+    "metadata_masked_sha256": "86ae9415dc88e848bd76c0e4ee18a786c27e0068eb3bfb67fc188ebce2e2bf01",
+    "body_sha256": "22c5640d74c83edde970b2e5a8a4760c7c621a5e5a7797854b79f79272eab654",
+    "source_answer_sha256": "bdac6bf47e426ae19147db0ad01bdc87ebe2afbd3c689581135f49188c6698eb",
+    "original_title": "How does an employee 401(k) payroll deferral work?",
+    "description_sha256": "6eeac8f4e80d3f5ba954bf7f06a1b0dd4c5ffbcf875a2dd8f226a1248c4d07f6"
+  },
+  "/blog/how-tax-moves-how-does-employee-versus-contractor-payment-classification-work/": {
+    "metadata_masked_sha256": "c9314b2d02345ba90ce88d91939e4cc6418e135b38d84466cfe67cd88becb4fd",
+    "body_sha256": "8bca9d6e1d784c4023e321234285e59937b2a1705276499f6fcd829afe9cba9a",
+    "source_answer_sha256": "e605d9d68c3c4400f43ea9f6068a449d3b3072864ec6b3f280375a3a9d45b860",
+    "original_title": "How does employee versus contractor payment classification work?",
+    "description_sha256": "a2c9d87dd397b8ae761c127c5b927cf36572e91187b378774046400a75104b13"
+  },
+  "/blog/how-tax-moves-how-does-employee-reimbursement-versus-additional-wages-work/": {
+    "metadata_masked_sha256": "639a554049673843733f7428f8455f9f5f34b2ab818709b37b8f41693321bd3e",
+    "body_sha256": "d15069ebc19ce67eb21a51fcd30491ca4e0976638aae68d3fe6889f1b232272b",
+    "source_answer_sha256": "c111661a2916cddab25c47a1a7833453d667e5705c891387755d04b943518c02",
+    "original_title": "How does employee reimbursement versus additional wages work?",
+    "description_sha256": "40eb24773013ea2ec4900a23d70d6736fe2db170fe2cdc621fa24fba041a0b1c"
+  },
+  "/blog/how-tax-moves-how-does-paying-a-spouse-through-business-payroll-work/": {
+    "metadata_masked_sha256": "29ce22279cc23d1c8287ca9a7129fbb15098c1b7a12c81a77f23af233eef7e26",
+    "body_sha256": "3803046acc4934cdfff006b9e72ca51bcd185328fb064fc4d1f54aee0132eef3",
+    "source_answer_sha256": "35807238c6a3591bca314eb8c238da1f43e02ac6913372705e78ff551e400b0f",
+    "original_title": "How does paying a spouse through business payroll work?",
+    "description_sha256": "43960c95af2e912776c8cb8d4f11c44097adf395a4f68c172a30953c6c15da15"
+  },
+  "/blog/how-tax-moves-how-does-reconciling-form-941-and-w-2-totals-work/": {
+    "metadata_masked_sha256": "f1c99f3d5aeca166b2a5524eb2ca53413a0159ce95cd86399010867ee4ec3332",
+    "body_sha256": "777ebbcb507b239d4849a4211d316e0fa4eb610ccca06e5f89526f9ffa5b2674",
+    "source_answer_sha256": "1ad686143892a2dd7135b062c51134daf24b22b7c594eaf69a6af8858240a339",
+    "original_title": "How does reconciling Form 941 and W-2 totals work?",
+    "description_sha256": "3362059c88f146259cd1e857c73d9ce3fbc6c869b9b3d6525b539fef03bfd3aa"
+  },
+  "/blog/how-tax-moves-how-does-a-real-management-fee-between-two-entities-work/": {
+    "metadata_masked_sha256": "5c6ad37ca3c660010325a009434545b49dbca26ddf228004c0e607eba39258ce",
+    "body_sha256": "265e6d0110f77ab81c666ab96f682cf05fe261b935bafe3e67d64a227bb541cf",
+    "source_answer_sha256": "fd37bc3728d8a66f95124ff20f1da01652a6649486747c787a2699a39bf6b7d2",
+    "original_title": "How does a real management fee between two entities work?",
+    "description_sha256": "ee6082865d87d67ce402a51dd8d43fb782bc8e81e691cf033fc48d47406e1973"
+  },
+  "/blog/how-tax-moves-how-does-related-party-pricing-in-a-two-entity-arrangement-work/": {
+    "metadata_masked_sha256": "dcb6d2ca62381b2e78badc0f8a78b0039849390046828987092e618d67d1971e",
+    "body_sha256": "a1fe2b613a4cbd2ab70fbc23b27e260c28496d0a54529ab15861ff7a915aeec2",
+    "source_answer_sha256": "d3669ad9511eda4e1cd39ac88444f983bd6423ea4129e36f19e4c704be04fe89",
+    "original_title": "How does related-party pricing in a two-entity arrangement work?",
+    "description_sha256": "c8a64066b2cc67d76ac683fbe1b93b7f9ef80fce57fff9ae3d37a9e8f60d4ccc"
+  },
+  "/blog/how-tax-moves-how-does-separating-property-ownership-from-operations-work/": {
+    "metadata_masked_sha256": "a532de40ebd971b2b60af7b224539790eb936f2e2ec77ad4afc4c0098181be61",
+    "body_sha256": "5e103b40d74b1a1090aef3d8ab30c315bdce7b69fa0f1f8ee2cc082a521f3bc9",
+    "source_answer_sha256": "cdd2652108f9d38a2d66abb3f090c647a32fefa8ff16805aa14fb8f67017120a",
+    "original_title": "How does separating property ownership from operations work?",
+    "description_sha256": "d9b09249c549482e05693829c7ddaf686cbc4489db70d175264083d1e1cc14e0"
+  },
+  "/blog/how-tax-moves-how-does-shared-payroll-cost-allocation-between-entities-work/": {
+    "metadata_masked_sha256": "34019b18abae36cdc61e744e42a3208ac4bd561555a867723f291159e4dd0490",
+    "body_sha256": "050722871c974c84d991edde2e8d609aff6dc0d1d65b34d9d2a02de2918dac67",
+    "source_answer_sha256": "17b78f0b12232c2e5ea3adfd874ce7f951abc303e0dafd2830919441416e01fa",
+    "original_title": "How does shared payroll cost allocation between entities work?",
+    "description_sha256": "0c1334fae87d0f5cc8aac3124989c1f0f48d6f8b2789dba8c8a30cf673afcf9b"
+  },
+  "/blog/how-tax-moves-how-does-a-royalty-between-commonly-owned-companies-work/": {
+    "metadata_masked_sha256": "72865f5c6a336853e413341ac18bdf50b8068ce98774148edfa2ce2016c80012",
+    "body_sha256": "0b19ac3f79dfed72dc0d002ea42c6153fe42fe149d8b0a468c8c9cd2f3c75d89",
+    "source_answer_sha256": "019f10b9df2cdf008615a4a8ea6b802b7b4f32c48de65a1986da26812eb86006",
+    "original_title": "How does a royalty between commonly owned companies work?",
+    "description_sha256": "d069e21fb0b26a7d9e43fc17379d762be6e7d9eadfc4d0c8ca00444ec3099660"
+  },
+  "/blog/how-tax-moves-how-does-a-loan-between-commonly-owned-entities-work/": {
+    "metadata_masked_sha256": "686e795eb8b4af36d5170c32a92c278ef55903908bcacfd440007c60ca26b42b",
+    "body_sha256": "45d46b7adf2d1158b5430b0d21b794ce04f60194ef1f4eb1ea8ed43cbc937b94",
+    "source_answer_sha256": "f99efe580de6e0d31ae9b12b15b6f67b1151d24d36716896c96e4c24990c700c",
+    "original_title": "How does a loan between commonly owned entities work?",
+    "description_sha256": "805d4fd04260c6c6cad80ddd48eed77316010bf448ab9bb71d34ea7c3f951857"
+  },
+  "/blog/how-tax-moves-how-does-a-parent-capital-contribution-to-a-subsidiary-work/": {
+    "metadata_masked_sha256": "abad8300c1068466151abd25a446067f38bcd3c3fb3d6f52db06142f07002437",
+    "body_sha256": "e240ed984864be828b3ffa2028f03a8bd147689a6c1c91c47014668684f23809",
+    "source_answer_sha256": "4844d932cc7bdbb82a10dd26552701e901f80c7b81f4cd5fe5dcca78fea99e90",
+    "original_title": "How does a parent capital contribution to a subsidiary work?",
+    "description_sha256": "f5c4c9b3f55ea3b87dcad07e55b17c4aa9de141653ea0244b4ebbdbd54d5c896"
+  },
+  "/blog/how-tax-moves-how-does-paying-a-vendor-from-the-wrong-entity-account-work/": {
+    "metadata_masked_sha256": "e4d119cc674f7d5c18f7a8cdf3023f301975cadb34b562c0833b95dee1ed40d6",
+    "body_sha256": "f96ac5135099c1ee8456903b4c81fcba6925e4ca02669bfe8268f7d42d46413c",
+    "source_answer_sha256": "a756bf89d214402ed6ae4c81911f8ec5b92822f16df46b40b792819a1dfbbc97",
+    "original_title": "How does paying a vendor from the wrong entity account work?",
+    "description_sha256": "cadcedd808eabdf095b3dcd4ca9a5fbd116b118f84ef69d70d36c475ab2b2a3a"
+  },
+  "/blog/how-tax-moves-how-does-a-transfer-between-two-commonly-owned-llcs-work/": {
+    "metadata_masked_sha256": "c5546a31a46f9393b973a4d7c8459060c1df37fab98886c3e59b6c28a65d97c4",
+    "body_sha256": "2fb22571a06029c50e75892d6b31ae6c92541c0ecfda13940b589e1fe926e5e7",
+    "source_answer_sha256": "a7d789846a6ef2993cacd4a0dd2442bee6d9e6afe3ac774e9f1792701b10916b",
+    "original_title": "How does a transfer between two commonly owned LLCs work?",
+    "description_sha256": "6e37040523a8c7d4865e083e679668905823bcbcad60bf4bb10e201a50d0c958"
+  },
+  "/blog/how-tax-moves-how-does-owner-cash-extraction-in-a-two-entity-plan-work/": {
+    "metadata_masked_sha256": "8d44fd3649440acce9e9b2c6100c1f88c79b51a7dda07d765d025308f0a2dd95",
+    "body_sha256": "674292d4f7429c4166c4d49c9c9026575b549560428ae6a06755e3758cdd2eac",
+    "source_answer_sha256": "64f4b41afcdff69742c9d736c91d695fbad5c691ddc1711587244d764504ad5c",
+    "original_title": "How does owner cash extraction in a two-entity plan work?",
+    "description_sha256": "f440f2f5c0e9dbf57ed8306e19d10939109e212ab6d4278ff441396d785ce1cf"
+  },
+  "/blog/how-tax-moves-how-does-rental-income-reporting-from-tenant-to-owner-work/": {
+    "metadata_masked_sha256": "8194fd22dc23dd8b00b60f9d849e4108c350acb9ca745149e52c20d00f370208",
+    "body_sha256": "e8333e847598e0ba58d913f094be3e3ca62790fdaccc8fd9788a1d0cc54c9530",
+    "source_answer_sha256": "a91ec414a8645b2d7559b0df57f8ef26568ed21e987a0c50b0b0695024dc501d",
+    "original_title": "How does rental income reporting from tenant to owner work?",
+    "description_sha256": "0f8edd7e00f5b82a909d7a5cf16fae5edeb94a5add51cc1bcedf74cc9a05228c"
+  },
+  "/blog/how-tax-moves-how-does-a-rental-mortgage-principal-and-interest-split-work/": {
+    "metadata_masked_sha256": "f5d8b4a1c6c44a036d41934782cbda33d980f311a7efd69c385739a8bb2ae629",
+    "body_sha256": "c31c14cf0ee8966563006d0852f2c628ba946711b02101fa25100aa2146e230b",
+    "source_answer_sha256": "f58b945c6a4bbfe45ebfe96c7058d31d13e010557b5101a7b39986fc844f12d7",
+    "original_title": "How does a rental mortgage principal and interest split work?",
+    "description_sha256": "365b140051647d6e4e1291582c4ac580fa17d526feb87b3b293d3923bd86ac78"
+  },
+  "/blog/how-tax-moves-how-does-noncash-depreciation-against-rental-income-work/": {
+    "metadata_masked_sha256": "3510f6986b7de51efd648ec333c515c4b6b154a16bc2ca111f0bd84952e9ae07",
+    "body_sha256": "9d4689a409ef39ac535eca30bc9435cbea23ced34fd8a8095f3ab2ee4214fc73",
+    "source_answer_sha256": "aa8b800f80616c4f26b1073d111fcbcc2024bba3fe3734c2d48251750452b9b5",
+    "original_title": "How does noncash depreciation against rental income work?",
+    "description_sha256": "e842b4c343e18303ad3a3f195695231de914e671e030a86416efc00e63e3910b"
+  },
+  "/blog/how-tax-moves-how-does-depreciation-after-home-to-rental-conversion-work/": {
+    "metadata_masked_sha256": "810fcac1919cd507a849be4f929bbc17b19beb4bcced0fd9ce09c00488a91aef",
+    "body_sha256": "1d0a16a5a5b64eba36dcae5c718643df61dda839ae818a17efe44f2d08e71506",
+    "source_answer_sha256": "cdb4b4f70d26fa609c480302ee00791951a4d7c0b8e8b11f557cc5a613ecd6c4",
+    "original_title": "How does depreciation after home-to-rental conversion work?",
+    "description_sha256": "4019886d718c0dd70daac19a6064847918f4fe02db4ec4b362fcf28c38c42a08"
+  },
+  "/blog/how-tax-moves-how-does-a-rental-improvement-on-the-asset-schedule-work/": {
+    "metadata_masked_sha256": "9ba929ff23e517c8e79dd3329686adcf4c3f92553c04da95895c6f42029a7247",
+    "body_sha256": "392878c2cf436a11f6a998ada1905518d99b1a586fb355a845227874451dfc5b",
+    "source_answer_sha256": "064d2e09a0281e3b0e2e07d53318c8208b95688522d450ec28a3d13bcd9c2cf3",
+    "original_title": "How does a rental improvement on the asset schedule work?",
+    "description_sha256": "0f504319938daf73738a3811ae63edef796b74ad82c7c4458e4c33023b4d9bbf"
+  },
+  "/blog/how-tax-moves-how-does-rental-security-deposit-accounting-work/": {
+    "metadata_masked_sha256": "af132a44d13fda87600500d853a523ddc64a667b4a32d9749ecf68906d7a4517",
+    "body_sha256": "06aa8b6e52b8ed913631b6f71a6bc3c3e05bcb63560b7315e1d0fb21822eb0c4",
+    "source_answer_sha256": "c335973ffc6dff089842b2cdf694fa7a5be0c73126d5e34d2811004c324b4455",
+    "original_title": "How does rental security deposit accounting work?",
+    "description_sha256": "fd99da9a1e53a96b7a4150e9b10915192098c46f6349180149260dbfa807b420"
+  },
+  "/blog/how-tax-moves-how-does-vacation-rental-personal-use-allocation-work/": {
+    "metadata_masked_sha256": "cfc3338ebf44ec4b35bed317653f4a5b250a490305510a827befcd1337fb0211",
+    "body_sha256": "830b5e5db88ff9801b7e621f75bb58bc5f7dc70ee23d0419309df1d14e7bfbc9",
+    "source_answer_sha256": "f143841c0f1f519a920356c5616b01bf456dd5ddf15f620c4e0e1f25975642d1",
+    "original_title": "How does vacation rental personal-use allocation work?",
+    "description_sha256": "e42e27a91cff9f4c835b8df930e1a3b40db898dce178d8334b2a23edf15d8e3a"
+  },
+  "/blog/how-tax-moves-how-does-a-short-term-rental-loss-on-the-household-return-work/": {
+    "metadata_masked_sha256": "b38b9df5b277113302282b2af3c158b6a5240b372eef6d3d8758cdfbfc65ac7e",
+    "body_sha256": "46626a33049b6765a217de08369017b62ec1392ce88d981fe7216b0d85a2ab76",
+    "source_answer_sha256": "6d14b4696d2a036edc9815861409546b045a7720fd479142c02727bd1c38799d",
+    "original_title": "How does a short-term rental loss on the household return work?",
+    "description_sha256": "5e38d624667c9a57401ff914d0a09a26db4623486f2253e24cb9fe5434f15dac"
+  },
+  "/blog/how-tax-moves-how-does-property-manager-fees-and-net-remittances-work/": {
+    "metadata_masked_sha256": "f13d1b49787db645245a5753e9061d39ddb47808a1407edbc2b858b4d767a6dc",
+    "body_sha256": "a4b14018e6ff9cb1e76800eea29f985a826a79a46ab8cdd7eae3e6dd30224abb",
+    "source_answer_sha256": "4e6dd0ea717da89f86027f4020bc9252d3de05e5d9944f64775538873695e35c",
+    "original_title": "How does property manager fees and net remittances work?",
+    "description_sha256": "88fe22db01be928589a5509ce3cba01db1af07e35b3041f3a9ad16ebcf2a76a9"
+  },
+  "/blog/how-tax-moves-how-does-rental-sale-gain-versus-net-closing-cash-work/": {
+    "metadata_masked_sha256": "6be69d5edb2863537ca85af39d9b42996360e0ceb1a1e295e1662ada95e0338b",
+    "body_sha256": "781f56cec28ce5dd799a46e5d3bd3646579ccc8cde353a8c266795853be03b12",
+    "source_answer_sha256": "ecc6f09e724d28866702b0a85164f29a3e7ed33fcb2bff07eee4f2a38862d2f6",
+    "original_title": "How does rental sale gain versus net closing cash work?",
+    "description_sha256": "bdc2cce56a60b1d8ff3f4dd77d2ef891513051b32efbaa9d6223a85376dc7980"
+  },
+  "/blog/how-tax-moves-how-does-an-employer-retirement-plan-contribution-work/": {
+    "metadata_masked_sha256": "b2e125121a6fb5608102ecd3571a406604538fa948c62f5640ddc7cd8858fdf8",
+    "body_sha256": "b77ee1ab4ecf1c50393cf8124f230a9dc013dcba4b57ca0bb2e97d662a0af7c1",
+    "source_answer_sha256": "7aab46e95f8b5b4f3c9b9faca56bea709266c5dbc6401d30aca1421397a1bbfb",
+    "original_title": "How does an employer retirement plan contribution work?",
+    "description_sha256": "691a9d0cb410cb0519b900f9e6b002359f1ed418229f621c6ab8964228682e63"
+  },
+  "/blog/how-tax-moves-how-does-a-pretax-employee-salary-deferral-work/": {
+    "metadata_masked_sha256": "1f6f271a095d1981cc66b7ba64351b400fe69497a194f29806fb45cf1c5009bf",
+    "body_sha256": "65be3b30060f3294a235f4568e54131f6a66741e328ce7c7a6356285587e7e61",
+    "source_answer_sha256": "b79d85ee38d31bab4947d8bbb210940b908eb4133c8e4a0f82357f69e517149e",
+    "original_title": "How does a pretax employee salary deferral work?",
+    "description_sha256": "84f61cc3395841e6f902fbf4eef551673aa63f0ec472daf7f6e054d3ed3ecb33"
+  },
+  "/blog/how-tax-moves-how-does-a-roth-401-k-payroll-deferral-work/": {
+    "metadata_masked_sha256": "38df315a5faf8f600396aeaa776245ca923de4ace567b517f899ffd6928793f9",
+    "body_sha256": "fde8f98cc72c86d18ead3db3019362911950e240b858938de8229ec851420766",
+    "source_answer_sha256": "fdaae4410e3c207ed999cc78c3e9682a5c1584daf0848ade1438069a87422a8b",
+    "original_title": "How does a Roth 401(k) payroll deferral work?",
+    "description_sha256": "3fe859d75ded4e5ad9b57a3844da19218567f8cb65b415e2df09af8dbc4c12b7"
+  },
+  "/blog/how-tax-moves-how-does-a-cash-balance-plan-funding-obligation-work/": {
+    "metadata_masked_sha256": "f506a4c0aa4f5bf1c601f880f3f83679abecc90cd8be2695c79a6a3806fd0eb9",
+    "body_sha256": "82423ba38cf46eb93db21896427b4450d3aeae4edb98c1a89c14679f9c61910e",
+    "source_answer_sha256": "a3740e7c7df740b0f837515ee9b748b1805b7341491b2ea9f29bc6636a35e115",
+    "original_title": "How does a cash balance plan funding obligation work?",
+    "description_sha256": "cd3966251a6700adb6efc0127d711a3bbf25bf4d67268d4597ae008ba547ea24"
+  },
+  "/blog/how-tax-moves-how-does-retirement-coverage-after-hiring-employees-work/": {
+    "metadata_masked_sha256": "21895b563b3efb9ad1b52496b23e06b394573f8b257a29c03deaffdf3082363a",
+    "body_sha256": "fa6bd0ae16295fa23681e70df2a3afc1960da07e4a929665a6d772726383f2d4",
+    "source_answer_sha256": "fe775463eb27c574deafa9241818510d06eea9ee51fc8ca452bc53a2db21af3c",
+    "original_title": "How does retirement coverage after hiring employees work?",
+    "description_sha256": "13df9d023505c913be618b30a5be4641e144e590c8876e592c76c48be587da3f"
+  },
+  "/blog/how-tax-moves-how-does-s-corporation-salary-for-retirement-contributions-work/": {
+    "metadata_masked_sha256": "053df9bd6d16b69d9c381cc40cdc675abd4387e8c9a927bc0a9ad4397d7c9cf6",
+    "body_sha256": "e0ce6e368cf4038f2a590019e21e3e16e1539ead7a34ca401f36d7e359c69d05",
+    "source_answer_sha256": "b7be4b53eb71abd2df01aefd581ccae704ea360238c66075ae8ee1c269241ac0",
+    "original_title": "How does S corporation salary for retirement contributions work?",
+    "description_sha256": "327ad29c540c63b65550819a4416821ce6aea6c7b84b04cd4dce36df45d87889"
+  },
+  "/blog/how-tax-moves-how-does-a-sep-employer-contribution-work/": {
+    "metadata_masked_sha256": "ab7cc01faac9a89dcc4923b455803d8dfbb0556b8249817d0de1e14b8dee732a",
+    "body_sha256": "83ec59600408a2c294ae8ce9f4dfd0ac71691e0cd9f3cd69e9fbfaa28945fa54",
+    "source_answer_sha256": "dc3d63b67d7c094714f648bf658d362310aec0562b146edbcb17132ac4aacc8f",
+    "original_title": "How does a SEP employer contribution work?",
+    "description_sha256": "99a43a1a06ff9acc83064527e618e30edf95766d6641476581ffad40a692a1bb"
+  },
+  "/blog/how-tax-moves-how-does-retirement-coverage-across-two-companies-work/": {
+    "metadata_masked_sha256": "c87170e75551f9f26b8bddc86c80ea33462eef2afc27b12ec344ba2ae84e10fb",
+    "body_sha256": "8e012982f77aa198525e3a5123b05238a2d5db167cffb2a6425710295e32fefa",
+    "source_answer_sha256": "201a7dd09897b32553a955fd91d7f9c0dc18ffec0ddb69a889209afea6447c41",
+    "original_title": "How does retirement coverage across two companies work?",
+    "description_sha256": "0dc531935dc0ea2e69c8706cfb9b5d9f336443d1b0022936e2178f033cd238e2"
+  },
+  "/blog/how-tax-moves-how-does-retirement-funding-alongside-business-expansion-work/": {
+    "metadata_masked_sha256": "a09e3341be4c5fec6cd450d061c354e9ebffb7fc1475bc25f5d876e28af3eddd",
+    "body_sha256": "0e88832d41b11466a4d7dfc2c84789bb6a5a3b1027f63f9c34daea96c3aa1195",
+    "source_answer_sha256": "f3d601dd2e112afc5719383df998d467ba46c2fc2f104a20d14c643d8478b442",
+    "original_title": "How does retirement funding alongside business expansion work?",
+    "description_sha256": "457e319116f4c8211c0c8fc204f3a4770845184e2f63a90b6e72c84254fb96c2"
+  },
+  "/blog/how-tax-moves-how-does-a-retirement-contribution-correction-with-payroll-work/": {
+    "metadata_masked_sha256": "5ac82d659d9b2e69c113561077effb399e6b43796121e3bfe319a7a217d8900a",
+    "body_sha256": "d6f745883c6bc95e8e0841a9a5a3caf67e4cd300c2a5d4f1424f4da920cd803e",
+    "source_answer_sha256": "da723b60c1448e7e044429f56256ef979cb9515de201345d4ecf8959eca29d88",
+    "original_title": "How does a retirement contribution correction with payroll work?",
+    "description_sha256": "b5d541ea83f5bf6113d07014bf1e014ccb602c355ec680bc91028365a996c9fd"
+  },
+  "/blog/how-tax-moves-how-does-an-accountable-plan-reimbursement-work/": {
+    "metadata_masked_sha256": "75433db264d82017cfefdd4f601ef303f05eeacbf9a41da34725f3a65f123410",
+    "body_sha256": "62bcba379b1a031f8324f41db61847960dfe1ff54d747d0db42959e1300e3c5a",
+    "source_answer_sha256": "21b5ed26fcdb39fd283917b04bcf7088a6dc4618b66f96c42bd92a8a1c6a109a",
+    "original_title": "How does an accountable plan reimbursement work?",
+    "description_sha256": "5580c64c1375d693f035b2418da534afb3558c184926926d0ee250748d8bcc5a"
+  },
+  "/blog/how-tax-moves-how-does-an-owner-paid-expense-for-the-correct-entity-work/": {
+    "metadata_masked_sha256": "cefedd3ed0ed081d0914685b5bb2ba18eb14972e0a9b014394aa98a733e19667",
+    "body_sha256": "ba3ed4180215a2743c37dbf16da04fddfd7a98b64e0bb821fdc603bf18c01b73",
+    "source_answer_sha256": "131055695fe437d99ace6eb3f782972470e675d82830b439a80a12a16b662ef4",
+    "original_title": "How does an owner-paid expense for the correct entity work?",
+    "description_sha256": "4429012eccd624d1ef2202fed0c3255ecb8f39cae34ff8565d1bbd903c94c248"
+  },
+  "/blog/how-tax-moves-how-does-mixed-use-vehicle-expense-allocation-work/": {
+    "metadata_masked_sha256": "8d26adb018edda4d510665a43932c05064cc6ed27d9aca3f4d2dc1234cc9f58d",
+    "body_sha256": "1a7f8ec2ef632cd6f18ba25acb35e121c3b91d208004d7f7d7823b454b3fb7de",
+    "source_answer_sha256": "2a83c60f1254c175df7eeafbd279dc61695d10e6d3ba1b052c114c6b4b64397a",
+    "original_title": "How does mixed-use vehicle expense allocation work?",
+    "description_sha256": "f794e52b9a7eb0c30034f6d349c00d6891c88ace7406f7616327285b79e0fb35"
+  },
+  "/blog/how-tax-moves-how-does-the-business-meal-deduction-review-work/": {
+    "metadata_masked_sha256": "4ea3afebe40115d4da6ec05bc3cf906875c47386a1ccfd463e24d359665e8d25",
+    "body_sha256": "70882887c8627c6ab13a6579b9f5d4b735e717d243d85c987f543170255da3dc",
+    "source_answer_sha256": "36df5a8bef2d9d7b32e4889341b50ab691f59e83d1fb10932f706c1ed46844a1",
+    "original_title": "How does the business meal deduction review work?",
+    "description_sha256": "75ce39aa5642fcf09c54bf9f9369b484122f1c0a0157ea122ef9840ccf972fe8"
+  },
+  "/blog/how-tax-moves-how-does-travel-advances-and-expense-reconciliation-work/": {
+    "metadata_masked_sha256": "b44a5052253ac6e9c3ee8e16786b0f15d7ab3d17951370bac66f9c09337d4ccd",
+    "body_sha256": "9360cadcc544ce41f6b5c717a004d951fb7fff6f1b2db949fd6964141ecbc590",
+    "source_answer_sha256": "96ed56a075cdd530e1145cd82a59a2b3f8f9d3be13fa21ff1fcd7f7e7c8735ca",
+    "original_title": "How does travel advances and expense reconciliation work?",
+    "description_sha256": "dea74ee960b97b7cf7c87ead75d0b7a73be8cd4ba52bff1fd028094d7a9d068d"
+  },
+  "/blog/how-tax-moves-how-does-depreciation-versus-immediate-expensing-work/": {
+    "metadata_masked_sha256": "f01355fb8b32340128dc7f04f950f3f1b30d2eb10add9cf4b7131bad082217e7",
+    "body_sha256": "ecf79003fdcd563b5bbdb7be74ba66af92fc763ebc71f1cdb69ce838ddb62791",
+    "source_answer_sha256": "308d04203e8edd2f190d06c2847fdd01330d1a807d86e525a5e3cc026cec8672",
+    "original_title": "How does depreciation versus immediate expensing work?",
+    "description_sha256": "4b76050589f9e508628577d264ceaf51b184cd26d7be902369d0a28de40a19aa"
+  },
+  "/blog/how-tax-moves-how-does-business-interest-versus-principal-repayment-work/": {
+    "metadata_masked_sha256": "460cc75cc962844f7cbf0ec302baa1088117172d6911acaad848d8ad4d20c760",
+    "body_sha256": "6c67938e4c7f72b22d2b556e1d924f128d4fb395c8285ecfa0bf68b83d907e86",
+    "source_answer_sha256": "ebb1a938916d54497a93e46c3266a5135a71cf26e751bd2b499bff1881137b21",
+    "original_title": "How does business interest versus principal repayment work?",
+    "description_sha256": "cfaa00cf14dc59cf8c7247285a96e97af9e82b68f9b14e413e3eba11d94e2e14"
+  },
+  "/blog/how-tax-moves-how-does-an-expense-correction-across-business-and-personal-returns-work/": {
+    "metadata_masked_sha256": "9e28b9bfe25f1ae6fda32687a6871cf5fa77148f1ffc6e9e72d16227e15206ca",
+    "body_sha256": "ced6103b921cffab5f34aa97c734aedafc81a8c5b2b78da3442de5e709c10d08",
+    "source_answer_sha256": "6dc95dc4fcda5ca17a05dc3b263310745ff27f8e30f664795bd664b19a8765ad",
+    "original_title": "How does an expense correction across business and personal returns work?",
+    "description_sha256": "927211b2fc4f3532f4af6bc67982ed6e206ba1305daf2f1e5fbde52a94726dd7"
+  },
+  "/blog/how-tax-moves-how-does-home-office-eligibility-before-reimbursement-work/": {
+    "metadata_masked_sha256": "21d261b280374acee700b18f046e6c29243fdec75edafe10ae890647658a4090",
+    "body_sha256": "2e03828c275965cd9a9ebb22e156a70a4c3ac96f71e92f2cb865b8217ae1ad76",
+    "source_answer_sha256": "8dc29e774ad8ac08d0d423332a37e18a95f839daef5f2ebcba752747a2b75ea0",
+    "original_title": "How does home office eligibility before reimbursement work?",
+    "description_sha256": "9c56d7d73093e61de5bdc7352730bd45156d5ba124649a81580dc790fc16d390"
+  },
+  "/blog/how-tax-moves-how-does-preventing-duplicate-owner-reimbursements-work/": {
+    "metadata_masked_sha256": "e780352b6ebb65dcee8cbc8a2a9196108cf244717d28dcaf3546b2941d3960df",
+    "body_sha256": "b560ed428dfce0d8169a5804dd5d860ee24429536d55c96b59f86cc525113970",
+    "source_answer_sha256": "75d88c4aef033269d317e24dc7bfca86a9b41cf6b3b9e58e5a277dabb75795d4",
+    "original_title": "How does preventing duplicate owner reimbursements work?",
+    "description_sha256": "fad06f709b4ba4ceee2760aaf8f714665bc4958dc49e7e6ea2f5bd09e17123cf"
+  },
+  "/blog/how-tax-moves-how-does-an-owner-loan-on-the-business-balance-sheet-work/": {
+    "metadata_masked_sha256": "ec8ce1f49ebe5e7ab96ebf3cf262942132240e2a2c96ee69086a9376def4222a",
+    "body_sha256": "ebdc0ededdafce075aa9c0bb433ba4e51a3156ade56aa3226dbdc47d6cb72c68",
+    "source_answer_sha256": "9d80b2ecb62a42ebf82d57e873f510a21461778815b6dff42479e2ce8ceaf36b",
+    "original_title": "How does an owner loan on the business balance sheet work?",
+    "description_sha256": "a3d22df611f7be46d63b25b21840f53036e1c32cbd424b10ef7308b94f5a093b"
+  },
+  "/blog/how-tax-moves-how-does-owner-equity-funding-versus-a-business-loan-work/": {
+    "metadata_masked_sha256": "73934f1e5930f5801d15e92f881270042bb29aa45a8716168c8dd8641b3112df",
+    "body_sha256": "20d91eedda5298221abfac708352e0b9a6756ec8976d4fb598471629e958ed57",
+    "source_answer_sha256": "57b16fdd6d2c745db5651ebb41cff7e4c39be09cbdbc07cb2d09e1ca1d72e355",
+    "original_title": "How does owner equity funding versus a business loan work?",
+    "description_sha256": "453a63302ab8b5c2810b17edd488cf8deed8f0355a517029f3c71e350a67dff2"
+  },
+  "/blog/how-tax-moves-how-does-repayment-of-a-loan-with-reduced-debt-basis-work/": {
+    "metadata_masked_sha256": "5662969bb74872b39c06f6a35fb77a98c444b8c0e4de68e2cc5ec5ee2a8fc7ac",
+    "body_sha256": "9ae7b0e3efd99746a3a09716f76b8945250882efb1802f4d729a6aef9cddc5ce",
+    "source_answer_sha256": "0b223a2fc63115292c507f508e2468721e348548e50b91b69fa5c66973f820fb",
+    "original_title": "How does repayment of a loan with reduced debt basis work?",
+    "description_sha256": "ff82568c9c3efa0238524d3db612766e639b5b3d058be24daada9b4185a5dabb"
+  },
+  "/blog/how-tax-moves-how-does-a-shareholder-guarantee-versus-a-direct-loan-work/": {
+    "metadata_masked_sha256": "7ca22b19e8dae8331f4d2f8dfbe6fb1a0c03c663d973d783fb02fc55b27b6b14",
+    "body_sha256": "70a4c65498844f0f60712339985a3cce44d63c38029f2ad66b1e14aad36ef967",
+    "source_answer_sha256": "4a4ed7d0e00f50388f9b69fd8804cf4fd611a66fa9ecf2bf3a9c7acbbde55b13",
+    "original_title": "How does a shareholder guarantee versus a direct loan work?",
+    "description_sha256": "b408180b746db8c41e8926a0e504b65d70b1e849c99b5abdf87bfedbe264bed4"
+  },
+  "/blog/how-tax-moves-how-does-shareholder-loan-interest-reporting-work/": {
+    "metadata_masked_sha256": "859c422e67a253b6544a27349b76c4e0382e97bdecda4d8cbbe460a836c01c3a",
+    "body_sha256": "e2b2dec00340cb4b18a9d4024c651e5f766f314f1ad22ac460b3cdd5b668d9a2",
+    "source_answer_sha256": "9ccdaee07a04071d64ae68d31aab7d0452f6d5d0c1aaebe5077f7b78a44198a1",
+    "original_title": "How does shareholder loan interest reporting work?",
+    "description_sha256": "8d5266c03696233b155ad4a6d0095fb54971178faf9fd1ed7dbd3af1df4e9f48"
+  },
+  "/blog/how-tax-moves-how-does-stock-basis-versus-company-bank-cash-work/": {
+    "metadata_masked_sha256": "a8df4c1ded9d5f003666ed8c29abaeb6e8ea427b508153f95cb8eb8ed6844a7c",
+    "body_sha256": "7b9ec0b465eaae71a6b7bb99fe021d93c27cc3fffe0b307ede8ee0df895feea1",
+    "source_answer_sha256": "e830fcff64958a5d364d14cbd9a7f7e9c28ed265b1267c82774f49c2679990cd",
+    "original_title": "How does stock basis versus company bank cash work?",
+    "description_sha256": "8cf9f34b9d6117783c050d24897b3f980a854b65cc2dd263e52c72257c542247"
+  },
+  "/blog/how-tax-moves-how-does-a-stock-contribution-before-a-distribution-work/": {
+    "metadata_masked_sha256": "98b4391b856f122f898b9c15992a5c7e80d6eb81c49a892be0d570560c0f8b91",
+    "body_sha256": "8e8fe6b51dabcdfdba601cf40d8de0af96b08af28179354c5b2004e3ddd53bb4",
+    "source_answer_sha256": "1ee042b8c776334ea6e6d785663919a0877dcb7eddde8cb23879f34d192ec977",
+    "original_title": "How does a stock contribution before a distribution work?",
+    "description_sha256": "8fc34d6f44d662402fd5da723d660b121985f30089d61aca56a4a8c00901f9b4"
+  },
+  "/blog/how-tax-moves-how-does-intercompany-loan-principal-repayment-work/": {
+    "metadata_masked_sha256": "d75b1bc41730a9af2c6115779ab9267d417c9f696bd93a9a93f9b1f0b4d7c018",
+    "body_sha256": "e0be1aaa4a1a8c27465d603e5a24ce114d9e2562a8cfe1b8a425bbd5ad0cf2a7",
+    "source_answer_sha256": "bc02f2cf2e18524a4d0f0c8e58213d454b02945e2ced3638362b6a9ac16c701f",
+    "original_title": "How does intercompany loan principal repayment work?",
+    "description_sha256": "f941cc915a10022e40f534dd892d65f920c247687b0e7cbc4708a850e708b3c1"
+  },
+  "/blog/how-tax-moves-how-does-classification-of-company-paid-personal-bills-work/": {
+    "metadata_masked_sha256": "8e66ff3b134e6eaf00c030153478c57044e265c1282a32fb8a10454d1dfb7cea",
+    "body_sha256": "a8406d472de65e49cc591aea96b92ebe07c68fe9d16bb3b29d602f30f3d045bf",
+    "source_answer_sha256": "e3418ff1b503ab15c7ce6cf5ee27991a0d25fa0ec230ee5922d7fdfcf48199fe",
+    "original_title": "How does classification of company-paid personal bills work?",
+    "description_sha256": "b9ca5496786d69a273dc42bfc741b74e2c68f0f1c1a2bf56bfff85092c83ce27"
+  },
+  "/blog/how-tax-moves-how-does-a-loan-schedule-in-the-business-return-work/": {
+    "metadata_masked_sha256": "bbbac0b6caecd2363a9073a8e5bad61d7fc8c124b8de55268cf4730961c8cec8",
+    "body_sha256": "cff94bfbb82d86a96338defc1ed24f9d31b3ea900e6e0b5484e96ec6486e82c0",
+    "source_answer_sha256": "f02dcb08414880d84f195453e125b076e615a01579b9bad5084889d29524c9c2",
+    "original_title": "How does a loan schedule in the business return work?",
+    "description_sha256": "5ea7fa5d93fe9cf84f641cca9e881c4b30663acfdcc67cf7ba5bf4e75519f536"
+  },
+  "/blog/how-tax-moves-how-does-estimated-tax-versus-payroll-withholding-work/": {
+    "metadata_masked_sha256": "48bdba2055bf5157dcfae700a8593cf0daa89f53ae7d57f8e5a0ab6ce6dba3dd",
+    "body_sha256": "e028cc694f03575ce68d850e6306c34da9d519608f99e3daa2d9cab87cebb94e",
+    "source_answer_sha256": "934cb8e29c9e3486468321eebc6a6123eddefb213d2315c886dcbd91d7c34552",
+    "original_title": "How does estimated tax versus payroll withholding work?",
+    "description_sha256": "d7b83e2e5f81f35e65de9d3d04d745cf856269c47eb47538150caed62f034b2c"
+  },
+  "/blog/how-tax-moves-how-does-a-tax-reserve-followed-by-an-owner-payment-work/": {
+    "metadata_masked_sha256": "a6a9285a3050a845dea5e910596ce6a847aad8473c4003a1772400d3419e4ad4",
+    "body_sha256": "685c23bc2ba2c5c8565973f8bcce2f6e6f6c91951cd8f936bf537d78654f01cc",
+    "source_answer_sha256": "14a7dc72a752393626b0478c982747d4d24935726e5f22d4716d06eaaecf8675",
+    "original_title": "How does a tax reserve followed by an owner payment work?",
+    "description_sha256": "435915f1db9b1bf61ab2f2a33b55f29bf8c3d71b31d502525ad12c5a69c7103b"
+  },
+  "/blog/how-tax-moves-how-does-a-tax-safe-harbor-versus-final-liability-work/": {
+    "metadata_masked_sha256": "122245a52aeae41e97346aeddd2e74ea2bdca02f2e2b86c826da16720a313eed",
+    "body_sha256": "f2a6f01868880e54b9100bbddc8d5cab1876f7170f44022df07532d9e8823881",
+    "source_answer_sha256": "9a2d4b78cede9b66879b7ee5b13a8d4938348a7a31d3369f38a8b4f685ac9cc6",
+    "original_title": "How does a tax safe harbor versus final liability work?",
+    "description_sha256": "5babd50eed87ac4585c54bb3fd987516a0f628722e6eface4b48f14c6ac760e1"
+  },
+  "/blog/how-tax-moves-how-does-annualized-income-for-estimated-installments-work/": {
+    "metadata_masked_sha256": "f9b0364fe010a59f10a254c5abae57894e83acf45125d3eb598fb14018b8a84b",
+    "body_sha256": "59bd33b46edea5b811674263b206d31160abcc9eebc8b7dfc4352052b362869b",
+    "source_answer_sha256": "ee64b2d6e3f216248bb3e6e79833c2ed6f1d044676eeb43a00976d11b8f80aa3",
+    "original_title": "How does annualized income for estimated installments work?",
+    "description_sha256": "5e1ac2bef1f92c74f9e48b34d760deeedf61dbb9ad67d871a6495c021ac78580"
+  },
+  "/blog/how-tax-moves-how-does-a-rental-sale-in-a-new-payment-projection-work/": {
+    "metadata_masked_sha256": "834e38f360bb05eae42d4f108a455a631e148cfc54df421ee8f008221f8d878e",
+    "body_sha256": "c6e62887cf73bfbe1173ea960a791503532272ab877147270234246caf072e67",
+    "source_answer_sha256": "4a2b61b9bb0ae11bf15c5137f0c160c3bbf91b715756e380e29adb0d092cfa49",
+    "original_title": "How does a rental sale in a new payment projection work?",
+    "description_sha256": "72a5bce9d1b8ffcfd98bad23a2db95e62864362efc42fcbd725f9795fa14ea75"
+  },
+  "/blog/how-tax-moves-how-does-tax-payments-during-a-filing-extension-work/": {
+    "metadata_masked_sha256": "5c183dc4632cd6f632320e506bc4f26ccabc40d113dab9882bcb8d5c876182ca",
+    "body_sha256": "42fcad83af5b76a6efb693f5073c053b5179201fffcd25db610a75e2b3bf263f",
+    "source_answer_sha256": "ba916871ada720fb6b85346865a68213dd4ee6cf4edca4e635b810b1bf82d537",
+    "original_title": "How does tax payments during a filing extension work?",
+    "description_sha256": "60d239f3fca6aef1397fa765ed1f423dfbdade7f94e2f81373e6f4f5bf27535c"
+  },
+  "/blog/how-tax-moves-how-does-a-prior-year-overpayment-applied-forward-work/": {
+    "metadata_masked_sha256": "adb81b73dc0cdb7c19cad13e190e2ef4d51b99455107dc0788d97f787d847eff",
+    "body_sha256": "b322621f17462dfd8002146923de92c41e557da50b8d445e47869fee492e831d",
+    "source_answer_sha256": "04fedae90d984737dd3dda4d8ac3d2d7c56b71df0b50ba9ef5b0883e1fdec158",
+    "original_title": "How does a prior-year overpayment applied forward work?",
+    "description_sha256": "f60c30708ebb77fbc51907737a14985cb7bc8d37495a036fa7c67bf7672573b0"
+  },
+  "/blog/how-tax-moves-how-does-quarterly-books-in-an-owner-tax-projection-work/": {
+    "metadata_masked_sha256": "fd1ea5e1a29911614255da39d59f95d2cb00acb0271cdde416082a35d61db4a7",
+    "body_sha256": "cc8e5b79571c509161a7a2a05dc5d379ef60f09c02abc236f776261859d93951",
+    "source_answer_sha256": "d34ced2de46789f4ae82c2c18933d793635dcd93867a3a114b6cee86f45aa2a7",
+    "original_title": "How does quarterly books in an owner tax projection work?",
+    "description_sha256": "726f712791dfd90a3b6583c9d1dfd13b9726c8767188bb878346f5ef73ce3dc1"
+  },
+  "/blog/how-tax-moves-how-does-spouse-withholding-for-joint-business-income-work/": {
+    "metadata_masked_sha256": "c32e1a73ea100cb1fd6ca9a7410b8738658b63cf124e34e96f254adb7100f22c",
+    "body_sha256": "013bd24649fe2c3dc55e99d175d6b63cb72461160bca64e285eff4e28bb30bd9",
+    "source_answer_sha256": "f9dae40b64d767606821fb50c4fe1ad19f6e94a8a6f323ccf457e6ae2f667cc5",
+    "original_title": "How does spouse withholding for joint business income work?",
+    "description_sha256": "ada22e70f5606252a6a6a23b404859fc366c58eba3794ebf2c62ecc7bd9b3035"
+  },
+  "/blog/how-tax-moves-how-does-paying-an-individual-final-tax-balance-work/": {
+    "metadata_masked_sha256": "06817330a7018a94fc492a486a36b211bc530b5e115419a8b008e6b9b4fd6187",
+    "body_sha256": "80d92e5840e4200959c5fd19ba6cf7b441a72aeb2195a8c00e7109cee0eeba98",
+    "source_answer_sha256": "e77611da5bee16fdc65a619082c901031c636fee09ec0faaf6bca280525f383a",
+    "original_title": "How does paying an individual final tax balance work?",
+    "description_sha256": "91fadbfcb4af2393b5b238926d4fe8a804750aad004019e0f86847f562149e8b"
+  }
+}

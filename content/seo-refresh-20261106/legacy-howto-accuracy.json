@@ -1,0 +1,65 @@
+[
+  {
+    "path": "cost-segregation-for-warehouse/index.html",
+    "dateModified": "2026-11-06",
+    "scope": "Targeted correction-procedure, study-evidence and sale-treatment text; existing pricing, provider positioning and publication retained.",
+    "releaseRoute": "/cost-segregation-for-warehouse/",
+    "includeInDiscovery": true
+  },
+  {
+    "path": "cost-segregation-for-office-building/index.html",
+    "dateModified": "2026-11-06",
+    "scope": "Targeted correction-procedure, study-evidence and sale-treatment text; existing pricing, provider positioning and publication retained.",
+    "releaseRoute": "/cost-segregation-for-office-building/",
+    "includeInDiscovery": true
+  },
+  {
+    "path": "cost-segregation-for-dental-office/index.html",
+    "dateModified": "2026-11-06",
+    "scope": "Targeted correction-procedure, study-evidence and sale-treatment text; existing pricing, provider positioning and publication retained.",
+    "releaseRoute": "/cost-segregation-for-dental-office/",
+    "includeInDiscovery": true
+  },
+  {
+    "path": "cost-segregation-for-car-wash/index.html",
+    "dateModified": "2026-11-06",
+    "scope": "Targeted correction-procedure, study-evidence and sale-treatment text; existing pricing, provider positioning and publication retained.",
+    "releaseRoute": "/cost-segregation-car-wash/",
+    "includeInDiscovery": false
+  },
+  {
+    "path": "cost-segregation-for-retail/index.html",
+    "dateModified": "2026-11-06",
+    "scope": "Targeted correction-procedure, study-evidence and sale-treatment text; existing pricing, provider positioning and publication retained.",
+    "releaseRoute": "/cost-segregation-for-retail/",
+    "includeInDiscovery": true
+  },
+  {
+    "path": "cost-segregation-for-medical-office/index.html",
+    "dateModified": "2026-11-06",
+    "scope": "Targeted correction-procedure, study-evidence and sale-treatment text; existing pricing, provider positioning and publication retained.",
+    "releaseRoute": "/cost-segregation-for-medical-office/",
+    "includeInDiscovery": true
+  },
+  {
+    "path": "compare/the-real-estate-cpa-vs-ae-tax/index.html",
+    "dateModified": "2026-11-06",
+    "scope": "Targeted correction-procedure, study-evidence and sale-treatment text; existing pricing, provider positioning and publication retained.",
+    "releaseRoute": "/compare/the-real-estate-cpa-vs-ae-tax/",
+    "includeInDiscovery": true
+  },
+  {
+    "path": "compare/moss-adams-vs-ae-tax/index.html",
+    "dateModified": "2026-11-06",
+    "scope": "Targeted correction-procedure, study-evidence and sale-treatment text; existing pricing, provider positioning and publication retained.",
+    "releaseRoute": "/compare/moss-adams-vs-ae-tax/",
+    "includeInDiscovery": true
+  },
+  {
+    "path": "cost-segregation-car-wash/index.html",
+    "releaseRoute": "/cost-segregation-car-wash/",
+    "includeInDiscovery": true,
+    "dateModified": "2026-11-06",
+    "scope": "Canonical car-wash procedure, illustration and FAQ corrections; existing historical service claims preserved."
+  }
+]

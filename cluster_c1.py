@@ -340,160 +340,171 @@ MULTI_MEMBER_LLC = Spoke(
 )
 
 QBI_MAX = Spoke(
-    slug="s-corp-qbi-deduction-maximization",
-    label="S-Corp QBI deduction maximization",
-    title="S-Corp QBI Deduction Maximization: Tuning Wages Against Section 199A",
-    description=(
-        "Officer wages cut payroll tax but also cut QBI. How profitable S-corps find "
-        "the compensation level that optimizes both at once under Section 199A."
-    ),
-    h1="S-Corp QBI Deduction Maximization",
-    subtitle=(
-        "Every dollar of officer wage saves income tax and costs QBI. Above the "
-        "income thresholds, wages start creating the deduction instead."
-    ),
-    lead=(
-        "S-corp QBI maximization is the process of setting officer compensation at the "
-        "level that produces the largest combined benefit from the Section 199A qualified "
-        "business income deduction and the payroll tax structure. It matters because wages "
-        "cut both ways: they reduce the qualified business income the deduction is computed "
-        "on, but above the income thresholds they are also what unlocks the deduction "
-        "through the W-2 wage limitation."
-    ),
-    keywords=[
-        "s corp qbi deduction",
-        "section 199a s corp wages",
-        "qbi w2 wage limitation",
-    ],
-    body=[
-        (
-            "The Two Regimes of Section 199A",
-            "<p>Section 199A behaves as two different rules depending on where taxable "
-            "income falls relative to the annual thresholds, which are indexed each year.</p>"
-            "<p><strong>Below the threshold</strong>, the deduction is simply 20 percent of "
-            "qualified business income, with no wage test at all. Officer wages are pure "
-            "cost in this range: every dollar moved from distribution to wage reduces QBI by "
-            "a dollar, cutting the deduction by twenty cents, and adds payroll tax on top.</p>"
-            "<p><strong>Above the threshold</strong>, the deduction is capped at the greater "
-            "of 50 percent of the business's W-2 wages, or 25 percent of W-2 wages plus 2.5 "
-            "percent of the unadjusted basis of qualified property. Here wages are what "
-            "creates deduction capacity. A business paying no wages has a cap of zero and "
-            "gets no deduction at all, regardless of how profitable it is.</p>"
-        ),
-        (
-            "Why the Optimum Is a Curve, Not a Rule",
-            "<p>Above the threshold the two effects run in opposite directions. Raising "
-            "wages lifts the wage cap, which can increase the allowable deduction. It also "
-            "lowers QBI, which lowers the twenty percent figure the cap is being applied to. "
-            "The benefit rises, peaks, and then falls.</p>"
-            "<p>Under the 50-percent-of-wages test, the two lines cross when W-2 wages reach "
-            "roughly two-sevenths of the business's pre-wage profit. Below that point the "
-            "wage cap is binding and additional wages help. Above it, the cap is no longer "
-            "the constraint and additional wages only shrink QBI while adding payroll tax. "
-            "That crossing point is the mathematical target, and the reasonable compensation "
-            "requirement is the floor it has to respect.</p>"
-        ),
-        (
-            "The Specified Service Business Problem",
-            "<p>A specified service trade or business, which includes health, law, "
-            "accounting, consulting, financial services, athletics, performing arts, and any "
-            "business whose principal asset is the reputation or skill of its owners, is "
-            "treated differently. Once taxable income passes the threshold, the SSTB "
-            "deduction phases out over a defined range and then disappears entirely.</p>"
-            "<p>For an SSTB owner fully above the phase-out, no amount of wage tuning "
-            "restores the deduction, and the optimization question changes completely. The "
-            "lever becomes reducing taxable income below the phase-out range through "
-            "retirement plan contributions, depreciation, or entity separation, rather than "
-            "adjusting the wage line.</p>"
-        ),
-        (
-            "Aggregation and Separating the Non-Service Business",
-            "<p>Where a practice has genuinely distinct non-service operations, such as a "
-            "real estate holding entity leasing premises to the practice or an administrative "
-            "services company, those operations may qualify for their own QBI treatment even "
-            "when the service business does not.</p>"
-            "<p>This is legitimate when the separated business is real: it has its own "
-            "economics, its own contracts, and terms that would hold up between unrelated "
-            "parties. It is not legitimate when it exists only to relabel service income. "
-            "The regulations contain specific anti-abuse rules aimed at exactly that, "
-            "including rules that treat income from a related party as tainted where the "
-            "arrangement is principally a device.</p>"
-        ),
-        (
-            "How the Retirement Plan Interacts",
-            "<p>Retirement plan contributions reduce taxable income, which can pull an owner "
-            "back below the threshold or the SSTB phase-out. This is often the highest-value "
-            "move available to a service business owner, because it can restore a deduction "
-            "that wage tuning alone cannot reach.</p>"
-            "<p>The interaction runs both ways and has to be modeled together. Employer "
-            "contributions reduce QBI at the entity level, while the deduction on the "
-            "personal return reduces taxable income used for the threshold test. Modeling "
-            "the compensation figure, the plan design, and the deduction in isolation "
-            "reliably produces the wrong answer.</p>"
-        ),
-        (
-            "The Order of Operations That Works",
-            "<p>The sequence matters more than any single input:</p>"
-            "<ol>"
-            "<li>Determine the reasonable compensation floor from the role and market data. "
-            "This is not negotiable and it constrains everything downstream.</li>"
-            "<li>Project taxable income and locate it against the current thresholds, "
-            "including the SSTB phase-out range if applicable.</li>"
-            "<li>If below the threshold, keep wages at the documented floor.</li>"
-            "<li>If above and not an SSTB, solve for the wage level where the W-2 cap stops "
-            "binding, then take the higher of that figure and the floor.</li>"
-            "<li>If above and an SSTB, shift the work to reducing taxable income rather than "
-            "tuning wages.</li>"
-            "<li>Re-run the model with retirement plan contributions included, since they "
-            "move the threshold test.</li>"
-            "</ol>"
-        ),
-    ],
-    takeaways=[
-        "Below the income thresholds there is no wage test, so wages only reduce the QBI deduction.",
-        "Above the thresholds, W-2 wages create the deduction capacity; zero wages means a zero cap.",
-        "Under the 50-percent test the optimum sits near wages equal to two-sevenths of pre-wage profit.",
-        "Reasonable compensation is a floor on the optimization, never something the math overrides.",
-        "For SSTB owners above the phase-out, reducing taxable income beats tuning the wage line.",
-    ],
-    faqs=[
-        (
-            "Do S-corp wages increase or decrease the QBI deduction?",
-            "<p>Both, depending on income level. Wages always reduce qualified business "
-            "income dollar for dollar. Above the taxable income thresholds they also raise "
-            "the W-2 wage limitation, which can increase the allowable deduction by more "
-            "than the QBI reduction costs. Below the thresholds no wage test applies, so the "
-            "effect is purely negative.</p>",
-        ),
-        (
-            "What is the optimal wage level for QBI purposes?",
-            "<p>Where the 50-percent-of-W-2-wages test governs, the benefit peaks near wages "
-            "equal to two-sevenths of pre-wage profit. That figure is only a target, not a "
-            "conclusion: the documented reasonable compensation amount is a floor, and if it "
-            "sits above the calculated optimum, it controls.</p>",
-        ),
-        (
-            "Can an S-corp owner in a service business still claim QBI?",
-            "<p>Yes, if taxable income stays below the specified service business phase-out "
-            "range. Within the range the deduction is reduced proportionally, and above it "
-            "the deduction is unavailable for the service income. Reducing taxable income "
-            "with retirement contributions or depreciation is the usual route back.</p>",
-        ),
-        (
-            "Does paying wages to a spouse help the wage limitation?",
-            "<p>It can, since all W-2 wages of the business count toward the limitation, not "
-            "only the owner's. The wages must be for services actually performed and set at "
-            "a reasonable rate. Wages paid for no genuine work are disallowed and undermine "
-            "the compensation position for every other owner.</p>",
-        ),
-        (
-            "Should the deduction change how compensation is set?",
-            "<p>It should inform the figure within the defensible range, not replace the "
-            "analysis that produces it. Reasonable compensation is determined by the role, "
-            "the hours, and the market. Section 199A can justify choosing the upper end of a "
-            "defensible range, but it cannot justify a figure outside it.</p>",
-        ),
-    ],
+    slug='s-corp-qbi-deduction-maximization',
+    label='S-Corp QBI deduction maximization',
+    title='S-Corp QBI Deduction: Wages, UBIA and 2026 Limits',
+    description=('Compare S-corp wages, QBI, qualified-property UBIA, SSTB rules and 2026 phase-in limits before '
+     'changing compensation or retirement contributions.'),
+    h1='S-Corp QBI Deduction Maximization',
+    subtitle=('Model reasonable compensation, retirement contributions, qualified property, and the 2026 QBI '
+     'limits together before changing payroll.'),
+    lead=("An S-corp QBI review starts with reasonable compensation and the owner's taxable income, not a "
+     'target salary ratio. Wages can reduce qualified business income while supporting a wage limit '
+     'that applies only as income rises. Qualified-property UBIA, service-business restrictions, '
+     'retirement contributions, and the overall taxable-income cap can change the answer.'),
+    keywords=['s corp qbi deduction', 'section 199a s corp wages', 'qbi w2 wage limitation'],
+    body=[('The 2026 Thresholds and Phase-In Rules',
+      '<p>Use <strong>taxable income before the QBI deduction</strong>, not revenue, gross profit, or '
+      'QBI alone. For tax years beginning in 2026, the threshold and end of the phase-in range '
+      'are:</p><ul><li><strong>Married filing jointly:</strong> $403,500 to $553,500, a $150,000 '
+      'range.</li><li><strong>Married filing separately:</strong> $201,775 to $276,775, a $75,000 '
+      'range.</li><li><strong>All other returns, including single and head of household:</strong> '
+      '$201,750 to $276,750, a $75,000 range.</li></ul><p>At or below the threshold, the W-2 wage/UBIA '
+      'limit and SSTB restriction do not apply. Within the range, the wage/property limit phases in '
+      'and only an applicable percentage of SSTB QBI, wages, and UBIA is counted. At the upper '
+      'endpoint, the non-SSTB wage/property limit is fully effective and the SSTB applicable '
+      'percentage is zero. The overall taxable-income limitation still matters. These are the 2026 '
+      'amounts in <a href="https://www.irs.gov/pub/irs-drop/rp-25-32.pdf">Revenue Procedure 2025-32, '
+      'section 4.26</a>.</p><p>For a non-SSTB above the phase-in range, the business component '
+      'generally is the <strong>lesser of 20% of QBI or the greater of 50% of properly allocable W-2 '
+      'wages and 25% of those wages plus 2.5% of UBIA of qualified property</strong>. UBIA means '
+      'unadjusted basis immediately after acquisition. After business loss netting and any qualified '
+      'REIT/PTP component, the regular deduction is generally capped at 20% of the amount remaining '
+      'after subtracting net capital gain, including qualified dividends, from taxable income before '
+      'the QBI deduction. A deduction reduces taxable income; it is not a dollar-for-dollar tax '
+      'credit.</p><p>Beginning in 2026, Section 199A(i) separately provides a $400 minimum deduction '
+      'for an applicable taxpayer with at least $1,000 of aggregate QBI from active qualified trades '
+      'or businesses. Active means material participation under Section 469. This limited floor does '
+      'not make an excluded SSTB a qualified business or remove other eligibility requirements. The '
+      'examples here address the regular calculation, not that minimum.</p>'),
+     ('Why Two-Sevenths Is Not a Salary Recommendation',
+      '<p>Reasonable compensation for services is a legal constraint, not a number chosen to fit a '
+      'deduction. Shareholder wages are taxable compensation, while pass-through profit is generally '
+      'taxable whether or not cash is distributed. Increasing salary shifts income between those '
+      'categories and adds relevant employment-tax costs; it does not automatically save income '
+      "tax.</p><p>In a deliberately simplified non-SSTB model, let P be profit before the owner's "
+      'wages and W be those wages. Assume no other wages, payroll deductions, UBIA, phase-in, losses, '
+      'retirement contributions, or taxable-income constraint. The regular business component is the '
+      'lesser of 20% × (P − W) and 50% × W. The lines cross at W = 2P/7.</p><p>For P = $700,000, W = '
+      '$200,000 leaves $500,000 of QBI and both tests at $100,000. At W = $150,000, the component is '
+      '$75,000; at W = $250,000, it is $90,000. This is a deduction-only illustration, not the '
+      'total-tax optimum. Employee wages, employer payroll tax, Social Security wage limits, Medicare, '
+      'benefits, and actual compensation requirements change the result.</p>'),
+     ('Zero Wages Do Not Always Mean Zero Capacity',
+      '<p>Assume a qualifying non-SSTB owner is above the phase-in range, has $400,000 of QBI, no '
+      'allocable W-2 wages, and $2,000,000 of eligible UBIA. The wage/property limit is $50,000, not '
+      'zero. The tentative business component is the lesser of $80,000 and $50,000: $50,000, before '
+      'the overall cap and other adjustments. This does not permit an S-corp shareholder who performs '
+      'services to skip required reasonable compensation.</p><p>Qualified property is depreciable '
+      'tangible property held by and available for use in the business at year-end, used at some point '
+      'during the year to produce QBI, and still within its Section 199A depreciable period. Land does '
+      'not qualify. That period ends on the <strong>later of 10 years after first placed in service or '
+      'the last day of the last full year of the applicable recovery period</strong>, determined '
+      'without ADS. It is not a test of whether more than one year of useful life remains.</p><p>UBIA '
+      'is generally measured before depreciation, including bonus depreciation and Section 179, '
+      'subject to the detailed acquisition and allocation rules. Ordinary calendar-year UBIA is not '
+      'prorated by purchase month: eligible equipment placed in service in January or December and '
+      'held at year-end can count for that tax year. Buying equipment without placing it in service is '
+      'not enough, and short-year, transfer, and anti-abuse rules can alter the analysis. See <a '
+      'href="https://www.ecfr.gov/current/title-26/section-1.199A-2">Treasury Regulation '
+      '1.199A-2</a>.</p>'),
+     ('Specified Service Businesses and Related Rentals',
+      '<p>SSTBs include defined services in health, law, accounting, actuarial science, performing '
+      'arts, consulting, athletics, financial services, and securities brokerage, plus specified '
+      'investing, trading, and dealing activities. Engineering and architecture are excluded from the '
+      'listed service fields. Real estate brokerage and direct real-property management are not '
+      'automatically SSTBs under the securities-brokerage or investment-management '
+      'categories.</p><p>The separate <strong>reputation or skill</strong> category is narrow: income '
+      "from endorsements, licensing an individual's identity, or paid appearances. A business does not "
+      'become an SSTB merely because its owner is skilled or well known. Apply the actual definitions '
+      'and any de minimis rules in <a '
+      'href="https://www.ecfr.gov/current/title-26/section-1.199A-5">Treasury Regulation '
+      '1.199A-5</a>.</p><p>A separate rental or management company is not a workaround for the SSTB '
+      'limits. Under Treasury Regulation 1.199A-5(c)(2), where there is <strong>50% or more common '
+      'ownership</strong>, including applicable direct, indirect, and related-party attribution, the '
+      'portion of a business providing property or services to the commonly owned SSTB is treated as a '
+      'separate SSTB with respect to the related parties. Real contracts, fair-market rent, and '
+      'genuine services do not switch off this rule.</p><p>For example, a commonly owned building '
+      "company leasing the entire building to the owners' law practice falls under the rule. If part "
+      'is leased to unrelated tenants, analyze that unrelated portion separately. Rental qualification '
+      'and the Section 469 self-rental rule are separate questions; neither overrides the Section 199A '
+      'related-SSTB restriction.</p>'),
+     ('When Aggregation Can Combine Wages and Property',
+      '<p>Aggregation under <a href="https://www.ecfr.gov/current/title-26/section-1.199A-4">Treasury '
+      'Regulation 1.199A-4</a> is optional and requires more than owning several entities. The same '
+      'person or group must own at least 50% of each business, directly or by the applicable '
+      'attribution rules, for a majority of the tax year including its last day. Items must be '
+      'reported for tax years ending on the same date, and none of the aggregated businesses can be an '
+      'SSTB. At least two of these three operational links must exist:</p><ul><li>The businesses '
+      'provide the same or customarily offered-together products or services.</li><li>They share '
+      'facilities or significant centralized business elements, such as personnel, accounting, or '
+      'purchasing.</li><li>They operate in coordination with, or reliance on, one '
+      'another.</li></ul><p>Document the qualifying facts and annual disclosures, including Schedule B '
+      '(Form 8995-A) when required. Continue an aggregation consistently in later years while it '
+      'qualifies. Changes in facts can require a new analysis, and a newly created or acquired '
+      'qualifying business may be added. It is not freely reversible, but it is not an unconditional '
+      'forever election requiring IRS consent for every factual change.</p>'),
+     ('How Retirement Contributions Affect Both Tests',
+      "<p>Distinguish an S-corp employee's elective salary deferral from an employer contribution. A "
+      "traditional employee 401(k) deferral generally lowers the employee's federal taxable wages but "
+      'is part of gross salary already deducted by the S-corp, not a second business deduction. It '
+      'generally remains within the Section 199A W-2 wage definition under the permitted calculation '
+      'methods. A Roth elective deferral does not lower current federal taxable income.</p><p>An '
+      'S-corp employer retirement contribution generally reduces pass-through profit and QBI. It is '
+      'not also deducted a second time by the shareholder on the individual return. Deductible '
+      'self-employed retirement contributions, health insurance, and the deductible part of '
+      'self-employment tax attributable to a sole proprietorship or partnership can reduce that '
+      "owner's QBI. Lower taxable income may improve phase-in treatment even when QBI falls, so "
+      'compare the complete return, plan limits, staff costs, and cash commitments.</p>'),
+     ('What to Bring to a QBI and Salary Review',
+      '<p>Bring the current profit-and-loss statement, prior return and QBI loss carryforwards, '
+      'ownership chart, payroll and W-2 records, reasonable-compensation support, asset register with '
+      'placed-in-service dates and UBIA, and retirement-plan documents. Compare the regular deduction, '
+      'federal and state taxes, payroll costs, and after-tax cash across defensible scenarios. Confirm '
+      'the actual scope and cost of any advisory work before proceeding.</p>'),
+     ('Sources and Review Date',
+      '<p>Reviewed November 6, 2026. Primary references: <a '
+      'href="https://www.law.cornell.edu/uscode/text/26/199A">IRC Section 199A</a>, <a '
+      'href="https://www.irs.gov/pub/irs-drop/rp-25-32.pdf">Revenue Procedure 2025-32 (2026 '
+      'thresholds)</a>, <a href="https://www.ecfr.gov/current/title-26/section-1.199A-5">SSTB '
+      'regulations</a>, <a href="https://www.ecfr.gov/current/title-26/section-1.199A-4">aggregation '
+      'regulations</a>, <a href="https://www.ecfr.gov/current/title-26/section-1.199A-2">wage and UBIA '
+      'regulations</a>, <a href="https://www.irs.gov/pub/irs-drop/rp-19-38.pdf">rental safe '
+      'harbor</a>, <a href="https://www.irs.gov/instructions/i8995a">Form 8995-A instructions</a>. The '
+      'linked Form 8995-A instructions are currently labeled 2025; their filing-year dollar amounts '
+      'and phase-in widths must not be reused as 2026 figures. Examples are hypothetical federal '
+      'illustrations, not reported client outcomes or promised savings.</p>')],
+    takeaways=['Use 2026 taxable income before the QBI deduction to locate the phase-in range.',
+     'Zero wages can still leave capacity from 2.5% of eligible UBIA; reasonable compensation remains '
+     'required.',
+     'Two-sevenths is a simplified deduction crossing point, not a total-tax salary target.',
+     'The related-SSTB rule applies at 50% or more common ownership even with genuine contracts.',
+     'Model employee deferrals and employer retirement contributions separately, without a double '
+     'deduction.'],
+    faqs=[('Do S-corp wages increase or decrease the QBI deduction?',
+      '<p>Deductible wages reduce business profit and QBI; shareholder wages are not QBI to the '
+      'recipient. Properly allocable W-2 wages may also support the wage limit when it applies. The '
+      'overall result depends on the phase-in range, qualified-property UBIA, SSTB status, and the '
+      'taxable-income cap.</p>'),
+     ('What is the optimal wage level for QBI purposes?',
+      '<p>Two-sevenths of pre-wage profit is only the crossing point in a simplified model with no '
+      'other wages, payroll expense, UBIA, phase-in, or other deductions, and a fully applicable 50% '
+      'wage limit. It maximizes that simplified QBI component, not total tax savings. Reasonable '
+      'compensation and the full return control.</p>'),
+     ('Can an S-corp owner in a service business still claim QBI?',
+      '<p>An SSTB can produce eligible QBI at or below the taxable-income threshold. Within the '
+      'phase-in range only an applicable percentage of its QBI, wages, and UBIA is considered, and the '
+      'SSTB percentage is zero at the upper endpoint. A commonly owned rental or management entity '
+      'does not automatically escape these rules.</p>'),
+     ('Does paying wages to a spouse help the wage limitation?',
+      '<p>Reasonable wages for genuine services may count if properly allocable and timely reported. '
+      'They also reduce QBI and can create payroll taxes and retirement-plan obligations. A spouse '
+      'does not need to own the business to be an employee. Count only qualifying wages, without '
+      'duplication across businesses.</p>'),
+     ('Should the deduction change how compensation is set?',
+      '<p>Compare defensible compensation scenarios after documenting duties, hours, and market pay. '
+      'QBI can inform the comparison, but it cannot replace reasonable compensation, justify '
+      'unsupported wages, or establish that a larger deduction leaves the owner with more cash.</p>')],
 )
 
 # ---------------------------------------------------------------------------
@@ -517,10 +528,12 @@ CLUSTER = Cluster(
     lead=(
         "S-corp tax strategy is the use of an S corporation election to divide a business "
         "owner's profit into two streams that are taxed differently: wages, which carry "
-        "Social Security and Medicare tax, and distributions, which do not. Both streams "
-        "remain subject to ordinary income tax. The saving is confined to payroll tax, and "
-        "it is bounded by the requirement that the owner first pay themselves reasonable "
-        "compensation for the services they actually perform."
+        "Social Security and Medicare tax, and distributions, which do not. Wages and "
+        "allocated business income generally enter the owner's income-tax calculation; "
+        "cash distributions have separate basis and distribution rules. "
+        "Employment-tax savings depend on paying "
+        "reasonable compensation for the services the owner performs; income-tax effects, "
+        "including Section 199A, must also be modeled."
     ),
     keywords=[
         "s corp tax strategy",
@@ -540,11 +553,10 @@ CLUSTER = Cluster(
             "generally exposed to self-employment tax. Under Subchapter S, only what the "
             "owner is paid as wages carries Social Security and Medicare tax. Profit taken "
             "as a distribution is exempt from those taxes.</p>"
-            "<p>Income tax does not change. A dollar of profit is taxed at the owner's "
-            "marginal rate either way. Anyone describing an S-corp election as a way to "
-            "reduce income tax is describing something else, usually the Section 199A "
-            "deduction, which is available to pass-through businesses regardless of whether "
-            "they elect S status.</p>"
+            "<p>Business profit generally remains subject to the owner's individual "
+            "income-tax rates. However, compensation and the Section 199A qualified "
+            "business income deduction can change the income-tax result, even though "
+            "Section 199A is also available to other eligible pass-through businesses.</p>"
         ),
         (
             "The Math at $500,000 to $1,000,000 of Profit",
@@ -709,7 +721,7 @@ CLUSTER = Cluster(
         ),
     ],
     takeaways=[
-        "An S-corp election saves payroll tax only; it does not change income tax rates.",
+        "An S-corp election can reduce employment taxes; income-tax effects must also be modeled.",
         "Above the Social Security wage base the saving is the Medicare component, not 15.3 percent.",
         "Reasonable compensation is the binding constraint and has no percentage safe harbor.",
         "Above the Section 199A thresholds, wages create deduction capacity rather than destroying it.",

@@ -141,7 +141,7 @@ SCORP_CALC = {
  "h1": "S-Corp Tax Savings Calculator",
  "title": "S-Corp Tax Savings Calculator (2026)",
  "desc": "Estimate the self-employment tax you would save by electing S-Corp treatment, net of payroll and compliance costs, based on your net profit and reasonable compensation.",
- "definition": "An S-Corp tax savings calculator estimates the employment tax difference between default pass-through taxation, where all net profit is subject to self-employment tax, and S-Corp taxation, where only reasonable W-2 wages are subject to payroll tax. The saving is 15.3% on the amount characterized as distribution up to the Social Security wage base, and 2.9% to 3.8% above it. An S election reduces employment tax only, never income tax.",
+ "definition": "An S-Corp tax savings calculator estimates the employment tax difference between default pass-through taxation, where all net profit is subject to self-employment tax, and S-Corp taxation, where only reasonable W-2 wages are subject to payroll tax. The saving is 15.3% on the amount characterized as distribution up to the Social Security wage base, and 2.9% to 3.8% above it. This calculator estimates employment-tax savings; income-tax effects, including Section 199A, must be modeled separately.",
  "form": [
    ("sc-profit", "Net business profit", "180000", "Before any owner wage, after all other expenses.", "number", None, "1000"),
    ("sc-wage", "Planned reasonable compensation", "95000", "Priced from market wage data for the roles you perform, not a percentage rule.", "number", None, "1000"),
@@ -194,7 +194,7 @@ SCORP_CALC = {
              ("sc-gross","Gross employment tax saved")],
  "headline": ("sc-net", "Net annual saving after costs"),
  "extra_out": ("sc-verdict", ""),
- "note": "This estimates employment tax only. An S election does not reduce income tax. Two factors can reverse the answer: an unsupported wage invites a reasonable compensation adjustment with back payroll tax, penalties, and interest across every open year; and above the Section 199A taxable income thresholds, the qualified business income deduction for a non-service business is limited by W-2 wages, so a lower salary can cost more in lost deduction than it saves in payroll tax. State payroll taxes, unemployment insurance, and state entity-level fees are not included.",
+ "note": "This estimates employment tax only. Compensation and Section 199A can also change income-tax results. Two factors can reverse the answer: an unsupported wage invites a reasonable compensation adjustment with back payroll tax, penalties, and interest across every open year; and above the Section 199A taxable income thresholds, the qualified business income deduction for a non-service business is limited by W-2 wages, so a lower salary can cost more in lost deduction than it saves in payroll tax. State payroll taxes, unemployment insurance, and state entity-level fees are not included.",
  "faqs": [
    ("At what profit does an S-Corp election make sense?",
     "<p>Generally once net profit reliably exceeds roughly $60,000 to $80,000 per owner. Below that, the added cost of a separate 1120-S return, payroll processing, and state filings tends to exceed the employment tax saved.</p>"),

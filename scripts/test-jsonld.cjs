@@ -1,0 +1,11 @@
+'use strict';
+const assert = require('node:assert/strict');
+const {inspect} = require('./check-jsonld.cjs');
+assert.deepEqual(inspect('<script defer type="application/ld+json">{"@type":"Article"}</script>', 'good'), {blocks:1,errors:[]});
+assert.deepEqual(inspect("<SCRIPT TYPE='APPLICATION/LD+JSON'>[{\"@type\":\"WebPage\"}]</SCRIPT>", 'array'), {blocks:1,errors:[]});
+assert.equal(inspect('<script type=application/ld+json>{}</script>', 'unquoted').blocks, 1);
+assert.equal(inspect('<script type="application/json">invalid</script>', 'other').blocks, 0);
+assert.equal(inspect('<script data-type="application/ld+json">invalid</script>', 'data attribute').blocks, 0);
+for (const bad of ['{"x":}', 'null', 'true', '"Article"', '']) assert.equal(inspect(`<script type="application/ld+json">${bad}</script>`, 'bad').errors.length, 1);
+assert.equal(inspect('<script type="application/ld+json">{}</script><script type="application/ld+json">{</script>', 'mixed').errors.length, 1);
+console.log('PASS JSON-LD syntax guard fixtures: valid documents, attributes, ignored other scripts, malformed and scalar documents.');

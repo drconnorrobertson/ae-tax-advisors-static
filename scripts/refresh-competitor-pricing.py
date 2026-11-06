@@ -33,7 +33,8 @@ for r in rows:
  if r.get('kind')!='published':
   key=estimate_key(r);fee,scope,basis,sources=ESTIMATES[key]
   r.update(kind='estimate',status='AE budget estimate — comparable service',fee=fee,qualification=scope,estimateBasis=basis,benchmarkSources=sources,estimateCategory=key)
- r['reviewed']=DATE
+ # CSA has a later, individually verified starting fee; do not backdate it.
+ r['reviewed']=r.get('sourceVerifiedAsOf',DATE) if r['slug']=='cost-segregation-authority' else DATE
  if r['slug']=='tax-alchemy':r['additionalSources']=['https://taxalchemy.com/faqs/']
 DATA.write_text(json.dumps(rows,indent=2,ensure_ascii=False)+'\n')
 
@@ -50,15 +51,22 @@ def card(r):
  b+=p(r['qualification'])
  if not published:b+=p(r['estimateBasis'])+'<p><strong>Estimate benchmarks:</strong> '+anchors(r['benchmarkSources'])+'</p>'
  b+='<p><strong>Provider source:</strong> '+anchors([r['source']]+r.get('additionalSources',[]))+'</p>'
+ if r['slug']=='cost-segregation-authority' and published and r.get('historicalComparableBudget'):
+  b+=p('The terms identify Cost Segregation Authority, LLC as doing business under the CSA Partners name.')
+  old=r['historicalComparableBudget']
+  b+='<details><summary>Historical AE comparable-work budget, reviewed October 24, 2026</summary>'
+  b+=p(old['fee'])+p(old['disclosure'])+p(old['qualification'])+p(old['estimateBasis'])
+  b+='<p><strong>Historical estimate benchmarks:</strong> '+anchors(old['benchmarkSources'])+'</p></details>'
  if r['slug']=='tax-alchemy':
   b+=p('Against AE’s $7,800 standard advisory fee, the homepage range is $24,200–$42,200 higher in initial fees. The FAQ’s wider range is $12,200–$142,200 higher. These are fee differences between differently scoped offers; confirm the same work in both proposals.')
  elif r['slug']=='keystone-cpa':
   b+=p('The published planning range is $12,200–$47,200 above AE’s $7,800 standard advisory fee. This arithmetic does not establish identical deliverables or an annual recurring charge.')
- b+=p('Reviewed October 24, 2026. USD. AE Tax Advisors publishes this commercial comparison and also offers tax services. Starting prices, examples, and estimates require confirmation for your facts.')
+ review='CSA starting study fee verified November 6, 2026.' if r['slug']=='cost-segregation-authority' and published and r.get('sourceVerifiedAsOf')=='2026-11-06' else 'Reviewed October 24, 2026.'
+ b+=p(review+' USD. AE Tax Advisors publishes this commercial comparison and also offers tax services. Starting prices, examples, and estimates require confirmation for your facts.')
  b+='<p><a href="/compare/competitor-pricing/#estimate-methodology">How the prices and estimates were calculated</a> · <a href="/pricing/">AE’s pricing and separately scoped services</a></p>'
  return section(r['name']+': pricing and estimated cost',b,'competitor-price-review')
-def metadata(text,sources):
- text=re.sub(r'(<meta property="article:modified_time" content=")[^"]+',r'\g<1>'+DATE+'T00:00:00-04:00',text)
+def metadata(text,sources,reviewed=DATE):
+ text=re.sub(r'(<meta property="article:modified_time" content=")[^"]+',r'\g<1>'+reviewed+'T00:00:00-04:00',text)
  def schema(m):
   obj=json.loads(m[1])
   def walk(v):
@@ -66,7 +74,7 @@ def metadata(text,sources):
     for item in v:walk(item)
    if isinstance(v,dict):
     if v.get('@type') in ('Article','WebPage','Dataset'):
-     v['dateModified']=DATE
+     v['dateModified']=reviewed
      if v.get('@type')=='Article':
       old=v.get('citation',[]);old=[old] if isinstance(old,str) else old
       v['citation']=list(dict.fromkeys(old+sources))
@@ -98,12 +106,12 @@ for r in rows:
    # Remove the old assertion that there is no verified numeric price in this overview.
    text=text.replace('This overview does not publish an unverified numeric competitor fee.','See the sourced pricing review above for published fees and their scope.')
    text=text.replace('A numeric fee was not verified in the official sources reviewed.','See the current sourced pricing review above.')
-  text=metadata(text,[r['source']]+r.get('additionalSources',[])+r.get('benchmarkSources',[]))
+  text=metadata(text,[r['source']]+r.get('additionalSources',[])+r.get('benchmarkSources',[]),r['reviewed'] if r['slug']=='cost-segregation-authority' else DATE)
   f.write_text(text);changed.add('/'+f.relative_to(ROOT).parent.as_posix()+'/')
 
 published=sum(r['kind']=='published' for r in rows)
 intro=section('Published prices, annual costs, and transparent estimates',
- p(f'{len(rows)} providers: {published} with sourced published prices and {len(rows)-published} with AE budget estimates for defined comparable work. Every row shows a numeric cost and its evidence type. Reviewed October 24, 2026. All amounts are USD.')+
+ p(f'{len(rows)} providers: {published} with sourced published prices and {len(rows)-published} with AE budget estimates for defined comparable work. Every row shows a numeric cost and its evidence type. Directory-wide review: October 24, 2026. CSA Partners’ starting study fee was separately verified and updated November 6, 2026. All amounts are USD.')+
  p('AE’s standard advisory engagement is $7,800, with no required annual planning renewal. Returns, amendments, studies, and additional services are separately priced. Compare the complete scope before choosing a provider.')+
  '<div class="pricing-highlights">'+
  '<article><h3>Tax Alchemy</h3><p class="pricing-fee">$32,000–$50,000</p><p>Homepage planning range; FAQ separately lists $20,000–$150,000.</p><a href="/compare/tax-alchemy-pricing/">Review both sources and scope</a></article>'+
@@ -116,13 +124,14 @@ for r in sorted(rows,key=lambda r:r['name']):
  label=r['status'] if r['kind']=='published' else 'AE budget estimate (not a provider quote)'
  source_urls=[r['source']]+r.get('additionalSources',[]) if r['kind']=='published' else r['benchmarkSources']
  cov=coverage[r['slug']]
+ evidence_note='<br><small>Study only; scope and quote vary. Verified November 6, 2026.</small>' if r['slug']=='cost-segregation-authority' and r['kind']=='published' and r.get('sourceVerifiedAsOf')=='2026-11-06' else ''
  research_links='<br><small><a href="'+cov['alternative_url'].replace('https://www.aetaxadvisors.com','')+'">Alternatives</a> · <a href="'+cov['comparison_url'].replace('https://www.aetaxadvisors.com','')+'">Compare with AE</a></small>'
  text+=' '+LABELS[r['category']]
- table_rows.append('<tr data-provider="'+E(text.lower(),quote=True)+'" data-kind="'+r['kind']+'" data-category="'+r['category']+'"><th scope="row"><a href="'+r['path']+'">'+E(r['name'])+' pricing</a>'+research_links+'</th><td>'+E(LABELS[r['category']])+'</td><td>'+E(r['fee'])+'</td><td><strong>'+E(label)+'</strong><br>'+('<a href="'+E(source_urls[0],quote=True)+'" rel="noopener">Official price source</a>' if r['kind']=='published' else '<a href="'+r['path']+'#competitor-price-review">Scope and estimate basis</a>')+'</td></tr>')
+ table_rows.append('<tr data-provider="'+E(text.lower(),quote=True)+'" data-kind="'+r['kind']+'" data-category="'+r['category']+'"><th scope="row"><a href="'+r['path']+'">'+E(r['name'])+' pricing</a>'+research_links+'</th><td>'+E(LABELS[r['category']])+'</td><td>'+E(r['fee'])+'</td><td><strong>'+E(label)+'</strong>'+evidence_note+'<br>'+('<a href="'+E(source_urls[0],quote=True)+'" rel="noopener">Official price source</a>' if r['kind']=='published' else '<a href="'+r['path']+'#competitor-price-review">Scope and estimate basis</a>')+'</td></tr>')
 filters='<div class="pricing-filters"><label>Search providers<input id="provider-search" type="search" placeholder="Name, service, or price"></label><label>Evidence<select id="provider-evidence"><option value="">All prices and estimates</option><option value="published">Published prices</option><option value="estimate">AE budget estimates</option></select></label><label>Service category<select id="provider-category"><option value="">All categories</option>'+''.join('<option value="'+c+'">'+E(LABELS[c])+'</option>' for c in sorted({r['category'] for r in rows},key=lambda c:LABELS[c]))+'</select></label></div>'
 directory=section('Find a provider and compare the cost',filters+'<p id="provider-count" aria-live="polite">'+str(len(rows))+' providers</p><div class="pricing-table-scroll" role="region" aria-label="Provider pricing comparison" tabindex="0"><table><caption>Fees and budget estimates cover different services. Read each guide for billing terms, exclusions, and sources.</caption><thead><tr><th scope="col">Provider</th><th scope="col">Service</th><th scope="col">Price or estimated budget</th><th scope="col">Evidence</th></tr></thead><tbody id="provider-rows">'+''.join(table_rows)+'</tbody></table></div><script src="/assets/competitor-pricing.js" defer></script>')
 method=section('How the prices and estimates were calculated',
- p('Published prices come from official provider pages reviewed on October 24, 2026. Starting prices are floors, not fixed quotes. Promotional prices may expire. Published examples and averages are identified separately. Revenue thresholds, projected tax savings, deposits, and marketing “values” are not substituted for engagement fees.')+
+ p('Published prices come from official provider pages reviewed on October 24, 2026, except CSA Partners’ starting study fee, separately verified November 6, 2026. Starting prices are floors, not fixed quotes. Promotional prices may expire. Published examples and averages are identified separately. Revenue thresholds, projected tax savings, deposits, and marketing “values” are not substituted for engagement fees.')+
  p('For providers without a verified fee, AE supplies an estimate for a defined comparable scope. The estimate comes from peer fee schedules or an explicit hours-times-rate calculation. It is not an estimate based on a private quote from the named firm, not a statistical market average, and not evidence that the named firm is expensive. The actual proposal may be higher or lower.')+
  ''.join('<details><summary>'+E(key.title())+' estimate: '+E(v[0])+'</summary>'+p(v[1])+p(v[2])+'<p>'+anchors(v[3])+'</p></details>' for key,v in ESTIMATES.items())+
  p('Annualized amounts are twelve times a monthly fee and do not assert a required twelve-month contract. Add required bookkeeping, onboarding, returns, payroll, cleanup, studies, and implementation to compare the same first-year work. A one-time planning engagement and a recurring service relationship may include different deliverables.')+
