@@ -60,3 +60,11 @@ for f in ['llms-full.txt','llms.txt','llms.md','.well-known/llms.txt']:
   if any(route in line for route in ['/blog/form-3115-missed-depreciation/','/blog/lookback-cost-segregation-existing-property/','/blog/what-is-form-3115-and-how-does-it-relate-to-cost-segregation/']):
    assert 'No amended returns needed' not in line and 'entire catch-up' not in line and 'in one year' not in line
 print('PASS resources FAQ parity and related catch-up discovery summaries')
+
+# Metadata-only cohorts update descriptions without changing existing link labels.
+key='/metadata-only-fixture/'
+mod.COPY[key]={'title':'Unused replacement label','description':'A complete reviewed description.','description_only':True}
+assert mod.sync_markdown('- [Keep exact label](https://www.aetaxadvisors.com/metadata-only-fixture/): Old snippet\n')=='- [Keep exact label](https://www.aetaxadvisors.com/metadata-only-fixture/): A complete reviewed description.\n'
+assert mod.sync_labels('<a href="/metadata-only-fixture/">Keep exact label</a>')=='<a href="/metadata-only-fixture/">Keep exact label</a>'
+del mod.COPY[key]
+print('PASS metadata-only description updates preserve discovery labels.')

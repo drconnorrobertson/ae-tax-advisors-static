@@ -701,700 +701,700 @@
   },
   {
     "title": "How does C corporation income tax before an owner takes cash work?",
-    "desc": "The corporation computes its own taxable income and generally pays federal corporate income tax at 21%, with state and other applicable rules reviewed.",
+    "desc": "The corporation computes its own taxable income and generally pays federal corporate income tax at 21%, with state and other applicable rules reviewed separately.",
     "path": "/blog/how-tax-moves-how-does-c-corporation-income-tax-before-an-owner-takes-cash-work/",
     "category": "C-Corp Planning",
     "educational": true
   },
   {
     "title": "How does a C corporation dividend and its second tax layer work?",
-    "desc": "A dividend generally comes from after-tax corporate earnings and is not a corporate deduction. The shareholder applies the dividend rules on the personal.",
+    "desc": "A dividend generally comes from after-tax corporate earnings and is not a corporate deduction. Shareholder dividend tax rules can add a second tax layer.",
     "path": "/blog/how-tax-moves-how-does-a-c-corporation-dividend-and-its-second-tax-layer-work/",
     "category": "C-Corp Planning",
     "educational": true
   },
   {
     "title": "How does retaining earnings in a C corporation work?",
-    "desc": "Retaining cash leaves it inside the company for company purposes. Corporate tax can still apply to taxable profit; cash retention does not make the.",
+    "desc": "Retaining cash leaves it inside the company for company purposes. Corporate tax can still apply to taxable profit; cash retention does not make the earnings untaxed.",
     "path": "/blog/how-tax-moves-how-does-retaining-earnings-in-a-c-corporation-work/",
     "category": "C-Corp Planning",
     "educational": true
   },
   {
     "title": "How does owner payroll as a C corporation expense work?",
-    "desc": "Reasonable compensation for actual services can generally be a corporate business expense, subject to applicable rules. The owner reports wages, and the.",
+    "desc": "Reasonable compensation for actual services can generally be a corporate business expense, subject to applicable rules.",
     "path": "/blog/how-tax-moves-how-does-owner-payroll-as-a-c-corporation-expense-work/",
     "category": "C-Corp Planning",
     "educational": true
   },
   {
     "title": "How does a C corporation capital contribution work?",
-    "desc": "A shareholder investment is generally capital funding, not customer income. It belongs in the ownership and basis records rather than the sales ledger..",
+    "desc": "A shareholder investment is generally capital funding, not customer income. It belongs in the ownership and basis records rather than the sales ledger.",
     "path": "/blog/how-tax-moves-how-does-a-c-corporation-capital-contribution-work/",
     "category": "C-Corp Planning",
     "educational": true
   },
   {
     "title": "How does equipment purchases inside a C corporation work?",
-    "desc": "The purchase exchanges cash for an asset. A current deduction depends on depreciation rules, eligible expensing, service date and use. Spending money is.",
+    "desc": "The purchase exchanges cash for an asset. A current deduction depends on depreciation rules, eligible expensing, service date and use.",
     "path": "/blog/how-tax-moves-how-does-equipment-purchases-inside-a-c-corporation-work/",
     "category": "C-Corp Planning",
     "educational": true
   },
   {
     "title": "How does a corporate loan to a shareholder work?",
-    "desc": "A genuine loan creates a receivable for the corporation and a debt obligation for the shareholder. Repayment intent, terms, interest and actual conduct.",
+    "desc": "A genuine corporate loan creates shareholder debt. Repayment intent, terms, interest and actual conduct must support the loan.",
     "path": "/blog/how-tax-moves-how-does-a-corporate-loan-to-a-shareholder-work/",
     "category": "C-Corp Planning",
     "educational": true
   },
   {
     "title": "How does a C corporation business reserve work?",
-    "desc": "Corporate cash should be considered in light of actual business needs and applicable accumulation rules. Specific expansion or working-capital plans.",
+    "desc": "Corporate cash should be considered in light of actual business needs and applicable accumulation rules.",
     "path": "/blog/how-tax-moves-how-does-a-c-corporation-business-reserve-work/",
     "category": "C-Corp Planning",
     "educational": true
   },
   {
     "title": "How does a C corporation loss at the company level work?",
-    "desc": "A C corporation operating loss generally stays with the corporation rather than passing through as the shareholder's personal deduction. Corporate loss.",
+    "desc": "A C corporation operating loss generally stays with the corporation rather than passing through as the shareholder's personal deduction.",
     "path": "/blog/how-tax-moves-how-does-a-c-corporation-loss-at-the-company-level-work/",
     "category": "C-Corp Planning",
     "educational": true
   },
   {
     "title": "How does the transition from C corporation to S taxation work?",
-    "desc": "An S election changes the federal framework if eligibility and procedure requirements are met, but prior C corporation history can still matter. Review.",
+    "desc": "An S election changes the federal framework if eligibility and procedure requirements are met, but prior C corporation history can still matter.",
     "path": "/blog/how-tax-moves-how-does-the-transition-from-c-corporation-to-s-taxation-work/",
     "category": "C-Corp Planning",
     "educational": true
   },
   {
     "title": "How does S corporation profit on an owner return work?",
-    "desc": "The corporation reports business items and allocates them to shareholders on Schedule K-1. Owners then report applicable items on their individual.",
+    "desc": "S corporation items pass to owners on Schedule K-1, subject to applicable limitations. Retaining corporate cash does not generally stop pass-through income.",
     "path": "/blog/how-tax-moves-how-does-s-corporation-profit-on-an-owner-return-work/",
     "category": "S-Corp Planning",
     "educational": true
   },
   {
     "title": "How does S corporation payroll versus distributions work?",
-    "desc": "Payroll pays for shareholder services and produces wages and employment-tax reporting. A distribution is an ownership payment with its own basis rules..",
+    "desc": "S corporation payroll pays for shareholder services. Distributions have separate basis rules; working shareholders must address reasonable compensation.",
     "path": "/blog/how-tax-moves-how-does-s-corporation-payroll-versus-distributions-work/",
     "category": "S-Corp Planning",
     "educational": true
   },
   {
     "title": "How does an S corporation stock basis increase work?",
-    "desc": "Allocated income generally increases stock basis, while distributions and other adjustments can reduce it. The calculation is shareholder-specific and.",
+    "desc": "Allocated income generally increases stock basis, while distributions and other adjustments can reduce it.",
     "path": "/blog/how-tax-moves-how-does-an-s-corporation-stock-basis-increase-work/",
     "category": "S-Corp Planning",
     "educational": true
   },
   {
     "title": "How does an S corporation distribution above basis work?",
-    "desc": "A nondividend distribution is generally tax-free only to the extent of stock basis; an excess can create gain. Debt basis does not automatically shelter a.",
+    "desc": "A nondividend distribution is generally tax-free only to the extent of stock basis; an excess can create gain. Debt basis does not automatically shelter a distribution.",
     "path": "/blog/how-tax-moves-how-does-an-s-corporation-distribution-above-basis-work/",
     "category": "S-Corp Planning",
     "educational": true
   },
   {
     "title": "How does S corporation loss limitation review work?",
-    "desc": "Allocated losses must pass through stock and debt basis, at-risk, passive activity and excess business loss rules as applicable. The K-1 starts the.",
+    "desc": "Allocated losses must pass through stock and debt basis, at-risk, passive activity and excess business loss rules as applicable.",
     "path": "/blog/how-tax-moves-how-does-s-corporation-loss-limitation-review-work/",
     "category": "S-Corp Planning",
     "educational": true
   },
   {
     "title": "How does shareholder funding for business expenses work?",
-    "desc": "An owner can contribute capital or make a bona fide direct loan, and the company can use the cash for actual operations. Funding is not itself an expense;.",
+    "desc": "Owner capital or a bona fide direct loan can fund S corporation operations. Funding is not itself an expense; classify what the business buys.",
     "path": "/blog/how-tax-moves-how-does-shareholder-funding-for-business-expenses-work/",
     "category": "S-Corp Planning",
     "educational": true
   },
   {
     "title": "How does S corporation health insurance reimbursement work?",
-    "desc": "More-than-2% shareholder premiums paid or reimbursed by the corporation have special wage and deduction treatment. Verify establishment of the.",
+    "desc": "More-than-2% shareholder premiums paid or reimbursed by the corporation have special wage and deduction treatment.",
     "path": "/blog/how-tax-moves-how-does-s-corporation-health-insurance-reimbursement-work/",
     "category": "S-Corp Planning",
     "educational": true
   },
   {
     "title": "How does debt basis when only one shareholder lends work?",
-    "desc": "A genuine direct shareholder loan can create debt basis for the lending shareholder under applicable rules. It does not automatically give the other.",
+    "desc": "A genuine direct loan can create debt basis for the lending shareholder under applicable rules. Other shareholders do not automatically get the same basis.",
     "path": "/blog/how-tax-moves-how-does-debt-basis-when-only-one-shareholder-lends-work/",
     "category": "S-Corp Planning",
     "educational": true
   },
   {
     "title": "How does an S corporation tax distribution work?",
-    "desc": "An S corporation may distribute cash to help owners pay tax on allocated income. The payment generally remains a shareholder distribution and does not.",
+    "desc": "An S corporation tax distribution generally remains an owner distribution, not a corporate income-tax deduction. State entity taxes need separate review.",
     "path": "/blog/how-tax-moves-how-does-an-s-corporation-tax-distribution-work/",
     "category": "S-Corp Planning",
     "educational": true
   },
   {
     "title": "How does an S corporation shareholder loan repayment work?",
-    "desc": "A genuine loan repayment reduces the company debt and must be compared with the shareholder's adjusted debt basis. A distribution uses stock-basis rules..",
+    "desc": "A genuine loan repayment reduces the company debt and must be compared with the shareholder's adjusted debt basis. A distribution uses stock-basis rules.",
     "path": "/blog/how-tax-moves-how-does-an-s-corporation-shareholder-loan-repayment-work/",
     "category": "S-Corp Planning",
     "educational": true
   },
   {
     "title": "How does partnership income from Form 1065 to the partner work?",
-    "desc": "A partnership generally files an information return and allocates items on Schedule K-1. The partner reports the applicable share, with character and.",
+    "desc": "A partnership generally allocates items on Schedule K-1. Partners report their shares under applicable rules; cash distributions need not equal allocations.",
     "path": "/blog/how-tax-moves-how-does-partnership-income-from-form-1065-to-the-partner-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does partnership profit allocation versus cash distribution work?",
-    "desc": "A profit allocation determines the partner's share of taxable items under the governing rules. A distribution moves cash or property and affects basis,.",
+    "desc": "Partnership profit allocations determine taxable shares. Cash distributions affect basis and can create gain when they exceed outside basis.",
     "path": "/blog/how-tax-moves-how-does-partnership-profit-allocation-versus-cash-distribution-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does a guaranteed payment to a partner work?",
-    "desc": "A qualifying guaranteed payment is determined without regard to partnership income. Its reporting and deduction or capitalization depend on the facts..",
+    "desc": "A qualifying guaranteed payment is determined without regard to partnership income. Its reporting and deduction or capitalization depend on the facts.",
     "path": "/blog/how-tax-moves-how-does-a-guaranteed-payment-to-a-partner-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does a partner capital contribution work?",
-    "desc": "Cash or property contributed as capital funds the partnership and generally affects the contributing partner's outside basis. The partnership's property.",
+    "desc": "Cash or property contributed as capital funds the partnership and generally affects the contributing partner's outside basis.",
     "path": "/blog/how-tax-moves-how-does-a-partner-capital-contribution-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does partnership debt in outside basis work?",
-    "desc": "A partner's share of qualifying partnership liabilities can affect outside basis. Liability type and allocation rules matter, and basis is not the same as.",
+    "desc": "A partner's share of qualifying liabilities can affect outside basis. Liability type and allocation matter; basis is not the same as being at risk.",
     "path": "/blog/how-tax-moves-how-does-partnership-debt-in-outside-basis-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does partnership losses on the partner return work?",
-    "desc": "The partnership allocates the loss, but the partner must apply outside-basis, at-risk, passive and other applicable limitations. Tax capital alone does.",
+    "desc": "The partnership allocates the loss, but the partner must apply outside-basis, at-risk, passive and other applicable limitations.",
     "path": "/blog/how-tax-moves-how-does-partnership-losses-on-the-partner-return-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does a partnership tax distribution work?",
-    "desc": "The partnership can distribute cash under its governing agreement to fund partners' tax obligations. Taxable allocations and distribution treatment remain.",
+    "desc": "The partnership can distribute cash under its governing agreement to fund partners' tax obligations. Taxable allocations and distribution treatment remain separate.",
     "path": "/blog/how-tax-moves-how-does-a-partnership-tax-distribution-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does participation in a rental partnership work?",
-    "desc": "The partnership allocates economic items under applicable rules, while material participation is generally evaluated for each owner. One partner's active.",
+    "desc": "The partnership allocates economic items under applicable rules, while material participation is generally evaluated for each owner.",
     "path": "/blog/how-tax-moves-how-does-participation-in-a-rental-partnership-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does reimbursing a partner business expense work?",
-    "desc": "A reimbursement accounts for actual partnership business costs paid by a partner, while a guaranteed payment compensates under its own rules. Agreement.",
+    "desc": "A reimbursement accounts for actual partnership business costs paid by a partner, while a guaranteed payment compensates under its own rules.",
     "path": "/blog/how-tax-moves-how-does-reimbursing-a-partner-business-expense-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does buying a partnership interest rather than its property work?",
-    "desc": "An interest purchase creates outside basis for the buyer, while the partnership owns its assets with inside basis. Certain elections and adjustments can.",
+    "desc": "An interest purchase creates outside basis for the buyer, while the partnership owns its assets with inside basis.",
     "path": "/blog/how-tax-moves-how-does-buying-a-partnership-interest-rather-than-its-property-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does the split from gross wages to net pay work?",
-    "desc": "Gross wages are reduced by applicable employee taxes and other authorized deductions to arrive at net pay. The employer remits withheld amounts under.",
+    "desc": "Gross wages are reduced by applicable employee taxes and other authorized deductions to arrive at net pay. The employer remits withheld amounts under deposit rules.",
     "path": "/blog/how-tax-moves-how-does-the-split-from-gross-wages-to-net-pay-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does the employer share of payroll taxes work?",
-    "desc": "The employer can owe payroll taxes in addition to the employee amounts withheld from wages. Rates, wage bases and special rules depend on the tax and.",
+    "desc": "The employer can owe payroll taxes in addition to the employee amounts withheld from wages. Rates, wage bases and special rules depend on the tax and year.",
     "path": "/blog/how-tax-moves-how-does-the-employer-share-of-payroll-taxes-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does remitting payroll withholding to the IRS work?",
-    "desc": "Amounts withheld must be deposited and reported according to the employer's applicable schedule. Running payroll and filing a return are not substitutes.",
+    "desc": "Amounts withheld must be deposited and reported according to the employer's applicable schedule.",
     "path": "/blog/how-tax-moves-how-does-remitting-payroll-withholding-to-the-irs-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does payroll for a sole S corporation shareholder work?",
-    "desc": "A single working shareholder still needs supported wage treatment and applicable employment-tax reporting. Reasonable compensation is based on actual.",
+    "desc": "A single working shareholder still needs supported wage treatment and applicable employment-tax reporting. Reasonable compensation is based on actual services.",
     "path": "/blog/how-tax-moves-how-does-payroll-for-a-sole-s-corporation-shareholder-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does a bonus payment through payroll work?",
-    "desc": "A cash bonus is generally compensation, with applicable withholding and payroll tax treatment. Supplemental-wage withholding methods do not necessarily.",
+    "desc": "A cash bonus generally has withholding and payroll tax treatment. Supplemental-wage withholding need not equal the employee's final income-tax rate.",
     "path": "/blog/how-tax-moves-how-does-a-bonus-payment-through-payroll-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does an employee 401(k) payroll deferral work?",
-    "desc": "An eligible elected deferral is withheld from compensation and sent to the plan under applicable requirements. Pretax and Roth income-tax treatment.",
+    "desc": "An eligible elected deferral is withheld from compensation and sent to the plan under applicable requirements.",
     "path": "/blog/how-tax-moves-how-does-an-employee-401-k-payroll-deferral-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does employee versus contractor payment classification work?",
-    "desc": "The worker's actual relationship determines whether employee payroll or independent-contractor treatment applies. Behavioral control, financial control.",
+    "desc": "The worker's actual relationship determines whether employee payroll or independent-contractor treatment applies.",
     "path": "/blog/how-tax-moves-how-does-employee-versus-contractor-payment-classification-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does employee reimbursement versus additional wages work?",
-    "desc": "A properly substantiated reimbursement under an accountable arrangement can be treated differently from wages. Nonaccountable payments generally need wage.",
+    "desc": "A properly substantiated reimbursement under an accountable arrangement can be treated differently from wages. Nonaccountable payments generally need wage treatment.",
     "path": "/blog/how-tax-moves-how-does-employee-reimbursement-versus-additional-wages-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does paying a spouse through business payroll work?",
-    "desc": "A spouse must perform genuine services, and compensation and payroll treatment depend on the entity and applicable family-employment rules. Record duties.",
+    "desc": "A spouse must perform genuine services, and compensation and payroll treatment depend on the entity and applicable family-employment rules. Record duties and actual pay.",
     "path": "/blog/how-tax-moves-how-does-paying-a-spouse-through-business-payroll-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does reconciling Form 941 and W-2 totals work?",
-    "desc": "Quarterly payroll reporting and annual employee reporting should connect to the payroll records, with differences investigated and corrected.",
+    "desc": "Quarterly payroll reporting and annual employee reporting should connect to the payroll records, with differences investigated and corrected appropriately.",
     "path": "/blog/how-tax-moves-how-does-reconciling-form-941-and-w-2-totals-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does a real management fee between two entities work?",
-    "desc": "One entity performs actual services for another under a supportable arrangement. The payer evaluates deduction or capitalization and related-party rules,.",
+    "desc": "Management fees require actual services and a supportable arrangement. Review payer deduction or capitalization, related-party rules and recipient income.",
     "path": "/blog/how-tax-moves-how-does-a-real-management-fee-between-two-entities-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does related-party pricing in a two-entity arrangement work?",
-    "desc": "Controlled transactions must be supportable under applicable pricing and allocation rules. Identify what was provided, who performed it and what an.",
+    "desc": "Controlled transactions must be supportable under applicable pricing and allocation rules.",
     "path": "/blog/how-tax-moves-how-does-related-party-pricing-in-a-two-entity-arrangement-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does separating property ownership from operations work?",
-    "desc": "Separate ownership can distinguish operating activity from property ownership, but tax classification and related-party use still matter. Rent paid by the.",
+    "desc": "Separate ownership can distinguish operating activity from property ownership, but tax classification and related-party use still matter.",
     "path": "/blog/how-tax-moves-how-does-separating-property-ownership-from-operations-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does shared payroll cost allocation between entities work?",
-    "desc": "Actual employees, services and cost allocation must be documented. Employment, benefit-plan, agency and related-employer rules need review before.",
+    "desc": "Actual employees, services and cost allocation must be documented. Employment, benefit-plan, agency and related-employer rules need review before centralizing payroll.",
     "path": "/blog/how-tax-moves-how-does-shared-payroll-cost-allocation-between-entities-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does a royalty between commonly owned companies work?",
-    "desc": "A royalty needs genuine intellectual-property rights, actual use, supportable pricing and consistent reporting. Legal ownership and development history.",
+    "desc": "A royalty needs genuine intellectual-property rights, actual use, supportable pricing and consistent reporting. Legal ownership and development history matter.",
     "path": "/blog/how-tax-moves-how-does-a-royalty-between-commonly-owned-companies-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does a loan between commonly owned entities work?",
-    "desc": "A bona fide loan creates a payable for one entity and a receivable for the other. Principal is generally a balance-sheet movement rather than a service.",
+    "desc": "A bona fide loan creates a payable for one entity and a receivable for the other. Principal is generally a balance-sheet movement rather than a service expense.",
     "path": "/blog/how-tax-moves-how-does-a-loan-between-commonly-owned-entities-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does a parent capital contribution to a subsidiary work?",
-    "desc": "Equity funding increases the investment and capital records; it is not a deductible fee for services merely because money leaves the parent account..",
+    "desc": "Equity funding increases the investment and capital records; it is not a deductible fee for services merely because money leaves the parent account.",
     "path": "/blog/how-tax-moves-how-does-a-parent-capital-contribution-to-a-subsidiary-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does paying a vendor from the wrong entity account work?",
-    "desc": "Identify which entity incurred the obligation and whether the other entity paid as an agent, lender or investor. Reconcile an appropriate intercompany.",
+    "desc": "Identify which entity incurred the obligation and whether the other entity paid as an agent, lender or investor.",
     "path": "/blog/how-tax-moves-how-does-paying-a-vendor-from-the-wrong-entity-account-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does a transfer between two commonly owned LLCs work?",
-    "desc": "First determine whether each LLC is disregarded, a partnership or a corporation for federal tax purposes. Transfers between disregarded entities of the.",
+    "desc": "Tax treatment of transfers between commonly owned LLCs depends on federal classification. Disregarded entities can differ from separate taxpayers.",
     "path": "/blog/how-tax-moves-how-does-a-transfer-between-two-commonly-owned-llcs-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does owner cash extraction in a two-entity plan work?",
-    "desc": "Follow the cash through both entities and then the owner payment. A payer deduction may create recipient income, and a corporate dividend can add.",
+    "desc": "Follow the cash through both entities and then the owner payment. A payer deduction may create recipient income, and a corporate dividend can add shareholder tax.",
     "path": "/blog/how-tax-moves-how-does-owner-cash-extraction-in-a-two-entity-plan-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does rental income reporting from tenant to owner work?",
-    "desc": "Reconcile gross rent and other rental receipts with property expenses and depreciation, then apply applicable limitations on the owner return. The bank.",
+    "desc": "Reconcile gross rent and other rental receipts with property expenses and depreciation, then apply applicable limitations on the owner return.",
     "path": "/blog/how-tax-moves-how-does-rental-income-reporting-from-tenant-to-owner-work/",
     "category": "Rental Property",
     "educational": true
   },
   {
     "title": "How does a rental mortgage principal and interest split work?",
-    "desc": "Principal reduces debt, while qualifying interest can be a rental expense under applicable rules. Escrow components and actual tax or insurance payments.",
+    "desc": "Principal reduces debt, while qualifying interest can be a rental expense under applicable rules.",
     "path": "/blog/how-tax-moves-how-does-a-rental-mortgage-principal-and-interest-split-work/",
     "category": "Rental Property",
     "educational": true
   },
   {
     "title": "How does noncash depreciation against rental income work?",
-    "desc": "Depreciation allocates qualifying property basis over time or under eligible acceleration rules. It can create a tax expense without a current cash.",
+    "desc": "Depreciation allocates qualifying property basis over time or under eligible acceleration rules. It can create a tax expense without a current cash payment.",
     "path": "/blog/how-tax-moves-how-does-noncash-depreciation-against-rental-income-work/",
     "category": "Rental Property",
     "educational": true
   },
   {
     "title": "How does depreciation after home-to-rental conversion work?",
-    "desc": "Establish the rental service date and apply the conversion basis rules, which can use the lower of adjusted basis or fair market value for depreciation..",
+    "desc": "Establish the rental service date and apply the conversion basis rules, which can use the lower of adjusted basis or fair market value for depreciation.",
     "path": "/blog/how-tax-moves-how-does-depreciation-after-home-to-rental-conversion-work/",
     "category": "Rental Property",
     "educational": true
   },
   {
     "title": "How does a rental improvement on the asset schedule work?",
-    "desc": "A capital improvement is generally added to an asset schedule rather than deducted as an ordinary repair. Identify its cost, classification and service.",
+    "desc": "A capital improvement is generally added to an asset schedule rather than deducted as an ordinary repair. Identify its cost, classification and service date.",
     "path": "/blog/how-tax-moves-how-does-a-rental-improvement-on-the-asset-schedule-work/",
     "category": "Rental Property",
     "educational": true
   },
   {
     "title": "How does rental security deposit accounting work?",
-    "desc": "A refundable deposit is generally tracked as a liability until returned or applied under the lease. Advance rent is different. If part is retained for.",
+    "desc": "A refundable deposit is generally tracked as a liability until returned or applied under the lease. Advance rent is different.",
     "path": "/blog/how-tax-moves-how-does-rental-security-deposit-accounting-work/",
     "category": "Rental Property",
     "educational": true
   },
   {
     "title": "How does vacation rental personal-use allocation work?",
-    "desc": "Personal and rental use can require expense allocation and trigger special vacation-home limitations. Maintain a day-by-day use record and classify family.",
+    "desc": "Personal and rental use can require expense allocation and trigger special vacation-home limitations.",
     "path": "/blog/how-tax-moves-how-does-vacation-rental-personal-use-allocation-work/",
     "category": "Rental Property",
     "educational": true
   },
   {
     "title": "How does a short-term rental loss on the household return work?",
-    "desc": "Classify the activity, evaluate participation and apply basis, at-risk, passive and other relevant limits. Short guest stays or a cost segregation.",
+    "desc": "Classify the activity, evaluate participation and apply basis, at-risk, passive and other relevant limits.",
     "path": "/blog/how-tax-moves-how-does-a-short-term-rental-loss-on-the-household-return-work/",
     "category": "Rental Property",
     "educational": true
   },
   {
     "title": "How does property manager fees and net remittances work?",
-    "desc": "The manager may collect rent, deduct fees and remit net cash, but the owner must reconcile gross income and qualifying expenses. The manager's operating.",
+    "desc": "The manager may collect rent, deduct fees and remit net cash, but the owner must reconcile gross income and qualifying expenses.",
     "path": "/blog/how-tax-moves-how-does-property-manager-fees-and-net-remittances-work/",
     "category": "Rental Property",
     "educational": true
   },
   {
     "title": "How does rental sale gain versus net closing cash work?",
-    "desc": "Tax gain generally uses amount realized and adjusted basis, while closing cash also reflects mortgage payoff and settlement items. Depreciation history.",
+    "desc": "Tax gain generally uses amount realized and adjusted basis, while closing cash also reflects mortgage payoff and settlement items.",
     "path": "/blog/how-tax-moves-how-does-rental-sale-gain-versus-net-closing-cash-work/",
     "category": "Rental Property",
     "educational": true
   },
   {
     "title": "How does an employer retirement plan contribution work?",
-    "desc": "The employer funds the retirement account under the plan rules, with deduction timing, limits and employee requirements reviewed separately. The.",
+    "desc": "The employer funds the retirement account under the plan rules, with deduction timing, limits and employee requirements reviewed separately.",
     "path": "/blog/how-tax-moves-how-does-an-employer-retirement-plan-contribution-work/",
     "category": "Retirement Planning",
     "educational": true
   },
   {
     "title": "How does a pretax employee salary deferral work?",
-    "desc": "Eligible pretax salary deferrals generally reduce current federal income-tax wages, while employment-tax treatment must be applied separately. The money.",
+    "desc": "Eligible pretax salary deferrals generally reduce current federal income-tax wages, while employment-tax treatment must be applied separately.",
     "path": "/blog/how-tax-moves-how-does-a-pretax-employee-salary-deferral-work/",
     "category": "Retirement Planning",
     "educational": true
   },
   {
     "title": "How does a Roth 401(k) payroll deferral work?",
-    "desc": "A designated Roth deferral generally uses compensation included in current taxable income. Qualified withdrawal treatment differs from pretax money. Both.",
+    "desc": "A designated Roth deferral generally uses compensation included in current taxable income. Qualified withdrawal treatment differs from pretax money.",
     "path": "/blog/how-tax-moves-how-does-a-roth-401-k-payroll-deferral-work/",
     "category": "Retirement Planning",
     "educational": true
   },
   {
     "title": "How does a cash balance plan funding obligation work?",
-    "desc": "A cash balance plan is a defined benefit plan with actuarial calculations and ongoing funding requirements. Funding and deductible contribution amounts.",
+    "desc": "A cash balance plan is a defined benefit plan with actuarial calculations and ongoing funding requirements.",
     "path": "/blog/how-tax-moves-how-does-a-cash-balance-plan-funding-obligation-work/",
     "category": "Retirement Planning",
     "educational": true
   },
   {
     "title": "How does retirement coverage after hiring employees work?",
-    "desc": "Eligible common-law employees can change an owner-only plan's participation and testing requirements. Hiring needs a plan review rather than an assumption.",
+    "desc": "Eligible common-law employees can change an owner-only plan's participation and testing requirements.",
     "path": "/blog/how-tax-moves-how-does-retirement-coverage-after-hiring-employees-work/",
     "category": "Retirement Planning",
     "educational": true
   },
   {
     "title": "How does S corporation salary for retirement contributions work?",
-    "desc": "The shareholder-employee's eligible compensation, generally W-2 wages, supports plan calculations under the applicable terms. S corporation distributions.",
+    "desc": "Eligible compensation, generally W-2 wages, supports S corporation retirement plan calculations. Distributions do not create compensation for this purpose.",
     "path": "/blog/how-tax-moves-how-does-s-corporation-salary-for-retirement-contributions-work/",
     "category": "Retirement Planning",
     "educational": true
   },
   {
     "title": "How does a SEP employer contribution work?",
-    "desc": "A SEP generally involves employer contributions under its eligibility and allocation rules; it is not the same mechanism as employee 401(k) salary.",
+    "desc": "A SEP generally involves employer contributions under its eligibility and allocation rules; it is not the same mechanism as employee 401(k) salary deferrals.",
     "path": "/blog/how-tax-moves-how-does-a-sep-employer-contribution-work/",
     "category": "Retirement Planning",
     "educational": true
   },
   {
     "title": "How does retirement coverage across two companies work?",
-    "desc": "Controlled-group and affiliated-service-group rules can require businesses to be considered together. Separate entity names do not automatically create.",
+    "desc": "Controlled-group and affiliated-service-group rules can require businesses to be considered together.",
     "path": "/blog/how-tax-moves-how-does-retirement-coverage-across-two-companies-work/",
     "category": "Retirement Planning",
     "educational": true
   },
   {
     "title": "How does retirement funding alongside business expansion work?",
-    "desc": "Funding moves cash out of business liquidity and into the plan, even when a deduction lowers current tax. Compare the net tax benefit with the actual.",
+    "desc": "Funding moves cash out of business liquidity and into the plan, even when a deduction lowers current tax.",
     "path": "/blog/how-tax-moves-how-does-retirement-funding-alongside-business-expansion-work/",
     "category": "Retirement Planning",
     "educational": true
   },
   {
     "title": "How does a retirement contribution correction with payroll work?",
-    "desc": "The correction depends on whether the problem is an excess deferral, annual addition, employer deduction or operational error. Payroll and plan reporting.",
+    "desc": "The correction depends on whether the problem is an excess deferral, annual addition, employer deduction or operational error.",
     "path": "/blog/how-tax-moves-how-does-a-retirement-contribution-correction-with-payroll-work/",
     "category": "Retirement Planning",
     "educational": true
   },
   {
     "title": "How does an accountable plan reimbursement work?",
-    "desc": "The employee substantiates a qualifying business cost and returns excess advances; the company records the reimbursement under the applicable rules..",
+    "desc": "The employee substantiates a qualifying business cost and returns excess advances; the company records the reimbursement under the applicable rules.",
     "path": "/blog/how-tax-moves-how-does-an-accountable-plan-reimbursement-work/",
     "category": "Business Deductions",
     "educational": true
   },
   {
     "title": "How does an owner-paid expense for the correct entity work?",
-    "desc": "Identify which taxpayer incurred the business obligation, then document reimbursement, contribution or another appropriate arrangement. The payer account.",
+    "desc": "Identify which taxpayer incurred the business obligation, then document reimbursement, contribution or another appropriate arrangement.",
     "path": "/blog/how-tax-moves-how-does-an-owner-paid-expense-for-the-correct-entity-work/",
     "category": "Business Deductions",
     "educational": true
   },
   {
     "title": "How does mixed-use vehicle expense allocation work?",
-    "desc": "Separate business, commuting and personal use, then apply an eligible expense method consistently. A company payment does not make all miles.",
+    "desc": "Separate business, commuting and personal use, then apply an eligible expense method consistently. A company payment does not make all miles business-related.",
     "path": "/blog/how-tax-moves-how-does-mixed-use-vehicle-expense-allocation-work/",
     "category": "Business Deductions",
     "educational": true
   },
   {
     "title": "How does the business meal deduction review work?",
-    "desc": "The business purpose and substantiation must support the underlying expense, and applicable deduction limits still apply. Paying with a corporate card.",
+    "desc": "The business purpose and substantiation must support the underlying expense, and applicable deduction limits still apply.",
     "path": "/blog/how-tax-moves-how-does-the-business-meal-deduction-review-work/",
     "category": "Business Deductions",
     "educational": true
   },
   {
     "title": "How does travel advances and expense reconciliation work?",
-    "desc": "Substantiated qualifying costs under an accountable arrangement can receive different treatment from a nonaccountable allowance. Return excess amounts and.",
+    "desc": "Substantiated qualifying costs under an accountable arrangement can receive different treatment from a nonaccountable allowance.",
     "path": "/blog/how-tax-moves-how-does-travel-advances-and-expense-reconciliation-work/",
     "category": "Business Deductions",
     "educational": true
   },
   {
     "title": "How does depreciation versus immediate expensing work?",
-    "desc": "Depreciation recovers qualifying asset cost under tax rules over time or eligible acceleration provisions. Expensing requires its own eligibility and.",
+    "desc": "Depreciation recovers qualifying asset cost under tax rules over time or eligible acceleration provisions. Expensing requires its own eligibility and election analysis.",
     "path": "/blog/how-tax-moves-how-does-depreciation-versus-immediate-expensing-work/",
     "category": "Business Deductions",
     "educational": true
   },
   {
     "title": "How does business interest versus principal repayment work?",
-    "desc": "Interest on a qualifying business borrowing can have expense treatment, subject to applicable limits and tracing. Principal repayment reduces the debt.",
+    "desc": "Qualifying business interest can have expense treatment, subject to limits and tracing. Principal repayment reduces debt and generally is not an expense.",
     "path": "/blog/how-tax-moves-how-does-business-interest-versus-principal-repayment-work/",
     "category": "Business Deductions",
     "educational": true
   },
   {
     "title": "How does an expense correction across business and personal returns work?",
-    "desc": "An expense adjustment can change entity income, owner allocations, basis and the household calculation. Verify the appropriate correction procedure and.",
+    "desc": "An expense adjustment can change entity income, owner allocations, basis and the household calculation.",
     "path": "/blog/how-tax-moves-how-does-an-expense-correction-across-business-and-personal-returns-work/",
     "category": "Business Deductions",
     "educational": true
   },
   {
     "title": "How does home office eligibility before reimbursement work?",
-    "desc": "A home office needs eligible use and supporting records; reimbursement and individual deduction treatment depend on the owner's employment and entity.",
+    "desc": "A home office needs eligible use and supporting records; reimbursement and individual deduction treatment depend on the owner's employment and entity facts.",
     "path": "/blog/how-tax-moves-how-does-home-office-eligibility-before-reimbursement-work/",
     "category": "Business Deductions",
     "educational": true
   },
   {
     "title": "How does preventing duplicate owner reimbursements work?",
-    "desc": "Each submission should identify the actual expense, business purpose and prior payment or reimbursement. One cost should not be reimbursed or deducted.",
+    "desc": "Document each business expense, purpose and prior payment or reimbursement. One cost should not be reimbursed or deducted twice because both owners used it.",
     "path": "/blog/how-tax-moves-how-does-preventing-duplicate-owner-reimbursements-work/",
     "category": "Business Deductions",
     "educational": true
   },
   {
     "title": "How does an owner loan on the business balance sheet work?",
-    "desc": "A genuine advance creates a business payable and an owner receivable. Principal funding is not customer income or a wage expense. Record terms, actual.",
+    "desc": "A genuine advance creates a business payable and an owner receivable. Principal funding is not customer income or a wage expense.",
     "path": "/blog/how-tax-moves-how-does-an-owner-loan-on-the-business-balance-sheet-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does owner equity funding versus a business loan work?",
-    "desc": "Capital is an ownership investment, while a genuine loan creates a repayment obligation. The economic facts and documentation determine treatment. Their.",
+    "desc": "Capital is an ownership investment, while a genuine loan creates a repayment obligation. The economic facts and documentation determine treatment.",
     "path": "/blog/how-tax-moves-how-does-owner-equity-funding-versus-a-business-loan-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does repayment of a loan with reduced debt basis work?",
-    "desc": "An S corporation loss deduction can reduce basis in qualifying shareholder debt. Later repayment can therefore produce taxable income even though it.",
+    "desc": "An S corporation loss deduction can reduce basis in qualifying shareholder debt. Loan repayment can then be taxable; reconcile any basis restoration.",
     "path": "/blog/how-tax-moves-how-does-repayment-of-a-loan-with-reduced-debt-basis-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does a shareholder guarantee versus a direct loan work?",
-    "desc": "A guarantee commits the owner to possible repayment but generally does not itself create S corporation debt basis. A bona fide direct advance has.",
+    "desc": "A guarantee commits the owner to possible repayment but generally does not itself create S corporation debt basis. A bona fide direct advance has different facts.",
     "path": "/blog/how-tax-moves-how-does-a-shareholder-guarantee-versus-a-direct-loan-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does shareholder loan interest reporting work?",
-    "desc": "Interest is separate from principal and can create income to the lender, with payer deduction treatment subject to applicable rules. Use supportable terms.",
+    "desc": "Interest is separate from principal and can create income to the lender, with payer deduction treatment subject to applicable rules.",
     "path": "/blog/how-tax-moves-how-does-shareholder-loan-interest-reporting-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does stock basis versus company bank cash work?",
-    "desc": "Stock basis is an owner tax calculation based on investment and prescribed adjustments. A company cash balance can result from borrowing, earnings or.",
+    "desc": "Stock basis reflects owner investment and prescribed tax adjustments. Company cash from borrowing, earnings or other events does not establish that basis.",
     "path": "/blog/how-tax-moves-how-does-stock-basis-versus-company-bank-cash-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does a stock contribution before a distribution work?",
-    "desc": "A genuine capital contribution generally increases stock basis, while a later distribution must be evaluated under the applicable ordering and.",
+    "desc": "A genuine capital contribution generally increases stock basis, while a later distribution must be evaluated under the applicable ordering and distribution rules.",
     "path": "/blog/how-tax-moves-how-does-a-stock-contribution-before-a-distribution-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does intercompany loan principal repayment work?",
-    "desc": "Principal repayment settles a liability; it is not generally a deductible operating expense. Interest and any service charges are different transactions.",
+    "desc": "Principal repayment settles a liability; it is not generally a deductible operating expense.",
     "path": "/blog/how-tax-moves-how-does-intercompany-loan-principal-repayment-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does classification of company-paid personal bills work?",
-    "desc": "Identify whether the payment is compensation, a distribution, a bona fide loan or another supported item. Personal spending is not an ordinary company.",
+    "desc": "Identify whether the payment is compensation, a distribution, a bona fide loan or another supported item.",
     "path": "/blog/how-tax-moves-how-does-classification-of-company-paid-personal-bills-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does a loan schedule in the business return work?",
-    "desc": "Opening principal, advances, repayments, interest and ending balances should reconcile with the books and supporting agreements. Tax basis can differ from.",
+    "desc": "Opening principal, advances, repayments, interest and ending balances should reconcile with the books and supporting agreements. Tax basis can differ from principal.",
     "path": "/blog/how-tax-moves-how-does-a-loan-schedule-in-the-business-return-work/",
     "category": "Entity Structuring",
     "educational": true
   },
   {
     "title": "How does estimated tax versus payroll withholding work?",
-    "desc": "Estimated payments are made directly toward the owner's tax liability, while payroll withholding is taken from compensation and remitted through the.",
+    "desc": "Estimated payments are made directly toward the owner's tax liability, while payroll withholding is taken from compensation and remitted through the employer.",
     "path": "/blog/how-tax-moves-how-does-estimated-tax-versus-payroll-withholding-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does a tax reserve followed by an owner payment work?",
-    "desc": "A reserve is a cash-planning decision, not a tax deduction. When funds are transferred from an entity to an owner, classify the transfer correctly before.",
+    "desc": "A business tax reserve is not a deduction. Classify the transfer to the owner correctly; the estimated payment reduces tax due, not operating profit.",
     "path": "/blog/how-tax-moves-how-does-a-tax-reserve-followed-by-an-owner-payment-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does a tax safe harbor versus final liability work?",
-    "desc": "A safe harbor can protect against an underpayment penalty when its requirements are met. The final tax return still calculates actual liability from.",
+    "desc": "A safe harbor can protect against an underpayment penalty when its requirements are met. The final tax return still calculates actual liability from current facts.",
     "path": "/blog/how-tax-moves-how-does-a-tax-safe-harbor-versus-final-liability-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does annualized income for estimated installments work?",
-    "desc": "The annualized income installment method considers uneven income and deductions over the relevant periods. It requires timely records and the applicable.",
+    "desc": "The annualized income installment method considers uneven income and deductions. It requires timely records and the applicable calculation, not simply delayed payments.",
     "path": "/blog/how-tax-moves-how-does-annualized-income-for-estimated-installments-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does a rental sale in a new payment projection work?",
-    "desc": "A sale can add gain and depreciation-related amounts to the household return. Mortgage payoff affects cash, not the same tax calculation. Update the.",
+    "desc": "A sale can add gain and depreciation-related amounts to the household return. Mortgage payoff affects cash, not the same tax calculation.",
     "path": "/blog/how-tax-moves-how-does-a-rental-sale-in-a-new-payment-projection-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does tax payments during a filing extension work?",
-    "desc": "An extension generally changes the filing timeline without automatically extending the tax payment deadline. Estimate the remaining balance by the.",
+    "desc": "An extension generally changes the filing timeline without automatically extending the tax payment deadline.",
     "path": "/blog/how-tax-moves-how-does-tax-payments-during-a-filing-extension-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does a prior-year overpayment applied forward work?",
-    "desc": "A properly elected carryforward applies an overpayment toward the next year's tax, with credit timing determined under applicable rules. Confirm the.",
+    "desc": "A properly elected carryforward applies an overpayment toward the next year's tax, with credit timing determined under applicable rules.",
     "path": "/blog/how-tax-moves-how-does-a-prior-year-overpayment-applied-forward-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does quarterly books in an owner tax projection work?",
-    "desc": "A reliable projection starts with reconciled business results and adds tax adjustments and household items. Book profit, taxable income and available cash.",
+    "desc": "A reliable projection starts with reconciled business results and adds tax adjustments and household items.",
     "path": "/blog/how-tax-moves-how-does-quarterly-books-in-an-owner-tax-projection-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does spouse withholding for joint business income work?",
-    "desc": "On a joint return, household withholding can help cover the combined tax. Review the actual withholding amount, annual rules and other income before.",
+    "desc": "On a joint return, household withholding can help cover combined tax. Review withholding, annual rules and other income before reducing estimated payments.",
     "path": "/blog/how-tax-moves-how-does-spouse-withholding-for-joint-business-income-work/",
     "category": "Tax Compliance",
     "educational": true
   },
   {
     "title": "How does paying an individual final tax balance work?",
-    "desc": "A personal federal income-tax payment generally is not a business deduction. It settles the owner's liability after the return computation. Entity-level.",
+    "desc": "A personal federal income-tax payment generally is not a business deduction. It settles the owner's liability after the return computation.",
     "path": "/blog/how-tax-moves-how-does-paying-an-individual-final-tax-balance-work/",
     "category": "Tax Compliance",
     "educational": true

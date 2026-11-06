@@ -19,6 +19,20 @@ DATE = '2026-10-01'
 FIRMS = json.loads(Path(__file__).with_name('competitor_name_profiles_20261001.json').read_text())
 E = html.escape
 HUB = '/compare/tax-planning-firms/'
+# Metadata overrides do not change the already-built visible guide body.
+GUIDE_SEARCH_DESCRIPTIONS = {'/compare/physician-business-real-estate-tax-advisors/': 'Compare tax advisors for physicians '
+                                                          'with practice, locum or rental income. '
+                                                          'Review coordination needs, '
+                                                          'implementation scope and questions to '
+                                                          'ask each firm.',
+ '/compare/tax-planning-implementation-firms/': 'Compare tax planning firms by implementation '
+                                                'support, preparer handoffs and filing '
+                                                'responsibilities. Identify who carries out each '
+                                                'step before hiring.',
+ '/compare/tax-strategy-accounting-cfo-firms/': 'Compare tax strategy, accounting and CFO firms '
+                                                'for owners and growing businesses. Separate '
+                                                'planning projects from monthly books, reporting '
+                                                'and forecasts.'}
 CHANGED = []
 
 def path(f):
@@ -70,6 +84,7 @@ def faqs(f):
     ]
 
 def save(page_path, title, description, body, firms, faqs=None):
+    description = GUIDE_SEARCH_DESCRIPTIONS.get(page_path, description)
     url = T.SITE + page_path
     citations = list(dict.fromkeys(u for f in firms for u in sources(f)))
     schemas = [T.article_schema(title=title, description=description, url=url, published=DATE, modified=DATE, section='Tax Advisor Comparison', about=[{'@type': 'Organization', 'name': f['name'], 'url': f['source']} for f in firms], citations=citations), T.breadcrumb_schema([('Home', '/'), ('Compare firms', '/compare/'), (title, page_path)])]

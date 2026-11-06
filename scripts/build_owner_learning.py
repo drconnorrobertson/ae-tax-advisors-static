@@ -10,6 +10,32 @@ def slug(s):return re.sub('[^a-z0-9]+','-',s.lower()).strip('-')
 def p(s):return '<p>'+html.escape(s)+'</p>'
 def add_section(body,title,text):return body+T.section(title,p(text))
 
+def complete_description(answer, max_chars=170):
+    """Use complete leading sentences; the length target never cuts a sentence.
+
+    This handles the authored lesson prose, including common tax abbreviations.
+    Keep an overlong first sentence intact for editorial review rather than
+    manufacturing a finished-looking fragment with an appended full stop.
+    """
+    answer = ' '.join(answer.split())
+    if not answer:
+        return ''
+    ends = []
+    for match in re.finditer(r'[.!?](?=\s|$)', answer):
+        token = answer[:match.end()].rsplit(' ', 1)[-1]
+        if re.fullmatch(r'(?:[A-Za-z]\.){2,}', token) or token.lower() in {
+            'e.g.', 'i.e.', 'mr.', 'ms.', 'mrs.', 'dr.', 'sec.', 'no.', 'fig.'
+        }:
+            continue
+        ends.append(match.end())
+    if not ends:
+        return answer
+    end = ends[0]
+    # Two sentences are enough for a concise search description.
+    if len(ends) > 1 and ends[1] <= max_chars:
+        end = ends[1]
+    return answer[:end]
+
 # Four-node drawings describe the actual mechanism, not a generic tax-saving arrow.
 # A dashed connector is information or a review; a solid connector is cash.
 FLOWS={
@@ -190,6 +216,10 @@ def sources(category,url):
 
 def main():
     posts=[]
+    # Reviewed descriptions for existing explainers; never regenerate their text
+    # from a character slice. New lessons fall back to complete sentences.
+    reviewed_path = ROOT/'content/explainer-metadata-20261106/routes.json'
+    reviewed = {p['path']: p['description'] for p in json.loads(reviewed_path.read_text())}
     assert sum(len(g[3]) for g in GROUPS)==100
     assert sum(len(g[3]) for g in SERIES)==100
     existingtitles={re.sub('<[^>]*>','',m[1]).strip().lower() for f in (ROOT/'blog').glob('*/index.html') if (m:=re.search(r'<h1[^>]*>(.*?)</h1>',f.read_text(),re.S)) and not f.parent.name.startswith(('owner-faq-','how-tax-moves-'))}
@@ -200,7 +230,11 @@ def main():
           assert question.lower() not in existingtitles,question
           ident=('how-tax-moves-' if educational else 'owner-faq-')+slug(question)
           path='/blog/'+ident+'/'
-          desc=answer[:155].rsplit(' ',1)[0]+'.'
+          if educational:
+              desc=reviewed.get(path, complete_description(answer))
+          else:
+              # Existing FAQ workflow is outside this explainer-only repair.
+              desc=answer[:155].rsplit(' ',1)[0]+'.'
           url=T.SITE+path
           body=T.page_header(h1=html.escape(question),subtitle='Illustrated tax movement lesson for business and real estate owners.' if educational else 'A practical tax FAQ for business and real estate owners.',trail=[('Home','/'),('Blog','/blog/'),(question,path)])
           body+=T.section('The direct answer',p(answer))

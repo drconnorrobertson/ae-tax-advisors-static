@@ -12,12 +12,13 @@ def sync_markdown(s):
   route=m['route'];d=COPY.get(route)
   if not d:return m[0]
   suffix=': '+d['description'] if m['description'] is not None else ''
-  return m['prefix']+'['+d['title']+']('+m['url']+')'+suffix
+  label=m['title'] if d.get('description_only') else d['title']
+  return m['prefix']+'['+label+']('+m['url']+')'+suffix
  return re.sub(r'(?P<prefix>^- )\[(?P<title>[^\]\n]*)\]\((?P<url>https://www\.aetaxadvisors\.com(?P<route>/[^)\s]*))\)(?P<description>: [^\n]*)?',replace,s,flags=re.M)
 def sync_labels(s):
  def replace(m):
   d=COPY.get(m[2])
-  if not d:return m[0]
+  if not d or d.get('description_only'):return m[0]
   return m[1]+html.escape(d['title'])+m[4]
  return re.sub(r'(<a\b[^>]*href="(/[^"]+)"[^>]*>)([^<]*)(</a>)',replace,s)
 def apply():
