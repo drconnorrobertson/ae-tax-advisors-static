@@ -702,5 +702,61 @@
   "/blog/tax-strategy-for-gym-fitness-studio-owners/": {
     "title": "Tax Planning for Gym Owners Before Expansion | AE Tax Advisors",
     "description": "Plan a gym buildout or second location with a review of membership receipts, equipment financing, lease improvements, payroll and employee retirement eligibility."
+  },
+  "/augusta-rule-business-owners/": {
+    "title": "The Augusta Rule for Business Owners (2026) | AE Tax Advisors",
+    "description": "Review Augusta Rule residence and rental-day tests, the ban on rental-expense deductions, and the separate requirements for a business rent deduction."
+  },
+  "/augusta-rule-for-business-owners-when-it-works-and-how-to-do-it-safely/": {
+    "title": "Augusta Rule Documentation and Rental-Day Checklist | AE Tax Advisors",
+    "description": "Check Augusta Rule personal-use and rental-day tests, meeting documentation, fair rent and reporting before renting a home to your business."
+  },
+  "/blog/augusta-rule-real-estate-investors-irc-280a/": {
+    "title": "The Augusta Rule for Real Estate Investors (IRC 280A(g)) (2026)",
+    "description": "Review Augusta Rule eligibility, business-rent documentation, reporting and S corporation tax examples that account for QBI and NIIT differences."
+  },
+  "/airbnb-tax-deductions/": {
+    "title": "Every Airbnb Tax Deduction You Can Claim in 2026 | AE Tax Advisors",
+    "description": "Complete guide to every Airbnb tax deduction available in 2026. IRC-cited list of 20+ deductions including mortgage interest, depreciation, cost segregation..."
+  },
+  "/for/high-income-500k/": {
+    "title": "Tax Strategies for Business Owners ($500K+) | AE Tax Advisors",
+    "description": "Earning $500,000 or more puts you in rare company. It also places you squarely in the crosshairs of the federal tax code."
+  },
+  "/equipment-leasing-section-179/": {
+    "title": "Section 179 Equipment Leasing Tax Strategy (2026) | AE Tax Advisors",
+    "description": "Review the 2026 Section 179 limits, equipment ownership, financing, vehicle rules and bonus depreciation before committing to an acquisition."
+  },
+  "/blog/trucking-company-equipment-depreciation-fleet/": {
+    "title": "Trucking Company Equipment Depreciation: Deduct Your Entire Fleet",
+    "description": "Compare 2026 Section 179 limits and bonus depreciation for trucking equipment, with ownership, acquisition timing, recapture and fleet cash-flow considerations."
+  },
+  "/blog/how-to-maximize-retirement-contributions-as-s-corp-owner/": {
+    "title": "How Do I Maximize Retirement Contributions as an S-Corp Owner?",
+    "description": "Learn how S-Corp owners can maximize retirement plan contributions. Understand W-2 salary optimization, profit-sharing, and advanced plan stacking strategies."
+  },
+  "/qsbs-section-1202-business-owners/": {
+    "title": "QSBS Exclusion Section 1202: How Business Owners Save Millions | AE Tax Advisors",
+    "description": "Check QSBS eligibility, acquisition-date limits, holding periods and sale structure. See the records business owners need before relying on Section 1202."
+  },
+  "/qsbs-exclusion-section-1202/": {
+    "title": "QSBS Exclusion: Section 1202 Rules by Stock Acquisition Date",
+    "description": "Review Section 1202 dollar limits, holding-period tiers, business eligibility and stock records before a sale. Includes older and newer stock rules."
+  },
+  "/blog/qualified-small-business-stock-section-1202/": {
+    "title": "Qualified Small Business Stock Section 1202 Exclusion (2026)",
+    "description": "QSBS eligibility by acquisition and issuance date, plus corrected founder-exit math, gifts, rollover requirements and records to review before a sale."
+  },
+  "/c-corporation-strategy/qualified-small-business-stock-section-1202/": {
+    "title": "Qualified Small Business Stock (QSBS) and IRC Section 1202",
+    "description": "Evaluate QSBS within a C corporation plan: original issuance, date-based limits, active-business requirements, state taxes and stock versus asset sales."
+  },
+  "/the-business-owners-guide-to-section-1202-qualified-small-business-stock-qsbs/": {
+    "title": "The Business Owner's Guide to Section 1202 (2026) | AE Tax Advisors",
+    "description": "Understand Section 1202 eligible-gain limits, corrected basis examples, holding periods, conversion traps and the records needed for a QSBS review."
+  },
+  "/the-business-owners-guide-to-section-1202-qualified-small-business-stock-qsbs-exclusion/": {
+    "title": "The Business Owners Guide To Section 1202 (2026) | AE Tax Advisors",
+    "description": "Check Section 1202 eligibility, historical stock examples, basis limits and loss treatment before relying on a QSBS exclusion for a business exit."
   }
 }

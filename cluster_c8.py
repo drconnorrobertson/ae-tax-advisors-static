@@ -14,223 +14,223 @@ from cluster_common import Cluster, Spoke
 P = "exit-tax-planning-business-owners"
 
 QSBS = Spoke(
-    slug="qsbs-exclusion-section-1202",
-    label="QSBS: excluding capital gain under Section 1202",
-    title="QSBS Exclusion: Exclude Up to $10M in Capital Gains (Section 1202)",
-    description=(
-        "How qualified small business stock works, the five tests the stock has to "
-        "pass, the holding period, what the 2025 law changed, and how the per-issuer "
-        "cap gets multiplied with non-grantor trusts."
-    ),
-    h1="QSBS Exclusion: How to Exclude Up to $10M in Capital Gains Under Section 1202",
-    subtitle=(
-        "The single largest exclusion available to a business owner on a sale, and "
-        "the one with the most ways to fail a test years before the exit."
-    ),
-    lead=(
-        "The qualified small business stock exclusion under Internal Revenue Code Section 1202 "
-        "allows an individual to exclude the greater of $10 million or 10 times basis of gain on "
-        "the sale of stock in a qualifying domestic C corporation held more than five years. For "
-        "stock issued after July 4, 2025, the 2025 tax act raised that per-issuer ceiling to $15 "
-        "million and added a partial exclusion at three and four years. The exclusion is not "
-        "elective and not retroactive: the stock either satisfied every test at issuance and "
-        "throughout the holding period, or it did not."
-    ),
-    keywords=[
-        "qsbs exclusion",
-        "section 1202 qualified small business stock",
-        "exclude capital gains business sale",
-        "qsbs stacking trusts",
-    ],
-    body=[
-        (
-            "What Section 1202 Actually Does",
-            "<p>Section 1202 excludes gain from federal income tax entirely. It is not a "
-            "deferral and not a rate reduction. Gain that qualifies is never taxed, is not "
-            "subject to the 3.8 percent net investment income tax, and for stock acquired "
-            "after September 27, 2010 carries no alternative minimum tax preference.</p>"
-            "<p>The ceiling applies per taxpayer, per issuing corporation. An owner with "
-            "qualifying stock in two unrelated companies has a separate cap for each. That per "
-            "taxpayer framing is what makes the planning in the trust section below possible, "
-            "and it is the difference between excluding $10 million and excluding $40 million on "
-            "the same sale.</p>"
-            "<p>State treatment is separate. Most states follow the federal exclusion, several "
-            "modify it, and a small number disallow it outright. The state answer has to be "
-            "checked against the state of residence at the time of sale, which is itself a "
-            "planning variable when a move is already under consideration.</p>"
-        ),
-        (
-            "The Five Tests the Stock Has to Pass",
-            "<p>All five apply. Failing any one disqualifies the entire position.</p>"
-            "<p><strong>1. Domestic C corporation.</strong> The issuer must be a C corporation "
-            "for substantially all of the holding period. S corporation stock never qualifies, "
-            "and neither does an LLC interest or partnership interest.</p>"
-            "<p><strong>2. Original issuance.</strong> The stock must be acquired directly from "
-            "the corporation for money, property, or services. Stock bought from another "
-            "shareholder does not qualify, though stock received by gift or inheritance can "
-            "carry the original holder's status forward.</p>"
-            "<p><strong>3. The gross assets test.</strong> The corporation's aggregate gross "
-            "assets must not have exceeded $50 million at any point before, and immediately "
-            "after, the stock was issued. The 2025 act raised this to $75 million for stock "
-            "issued after July 4, 2025. Assets are measured at adjusted basis, not fair market "
-            "value, with contributed property measured at fair market value on contribution.</p>"
-            "<p><strong>4. The active business test.</strong> At least 80 percent of assets by "
-            "value must be used in the active conduct of a qualified trade or business "
-            "throughout substantially all of the holding period. Cash and investments held "
-            "beyond reasonable working capital needs count against this, which is why a company "
-            "that accumulates a large investment portfolio can fail the test in the years before "
-            "a sale without anyone noticing.</p>"
-            "<p><strong>5. The holding period.</strong> More than five years, running from "
-            "issuance.</p>"
-        ),
-        (
-            "What the 2025 Law Changed",
-            "<p>The changes apply to stock issued after July 4, 2025. Stock issued on or before "
-            "that date keeps the prior rules in full, which means many owners now hold two "
-            "tranches governed by different regimes.</p>"
-            "<div style=\"overflow-x:auto;\">"
-            "<table>"
-            "<thead><tr><th>Provision</th><th>Stock issued on or before 7/4/2025</th>"
-            "<th>Stock issued after 7/4/2025</th></tr></thead>"
-            "<tbody>"
-            "<tr><td>Per-issuer cap</td><td>$10 million or 10x basis</td>"
-            "<td>$15 million or 10x basis, indexed from 2027</td></tr>"
-            "<tr><td>Gross assets ceiling</td><td>$50 million</td><td>$75 million</td></tr>"
-            "<tr><td>Held 3 years</td><td>No exclusion</td><td>50 percent excluded</td></tr>"
-            "<tr><td>Held 4 years</td><td>No exclusion</td><td>75 percent excluded</td></tr>"
-            "<tr><td>Held 5 years or more</td><td>100 percent excluded</td>"
-            "<td>100 percent excluded</td></tr>"
-            "</tbody></table></div>"
-            "<p>The tiered exclusion is the practical change. Under the old rules an owner who "
-            "sold at four years and eleven months received nothing. Under the new rules the same "
-            "sale excludes 75 percent of the gain, which changes how hard a seller should push "
-            "to delay a closing.</p>"
-        ),
-        (
-            "Which Businesses Qualify, and Which Are Excluded by Name",
-            "<p>The statute excludes several categories outright, regardless of size or "
-            "structure: health, law, engineering, architecture, accounting, actuarial science, "
-            "performing arts, consulting, athletics, financial services, and brokerage services, "
-            "where the principal asset is the reputation or skill of one or more employees. Also "
-            "excluded are banking and insurance, farming, businesses eligible for percentage "
-            "depletion, and any hotel, motel, or restaurant.</p>"
-            "<p>That list eliminates a meaningful share of professional service firms, which is "
-            "why Section 1202 rarely drives the plan for a medical or legal practice. Software, "
-            "manufacturing, distribution, consumer products, technology services, and most "
-            "product businesses do qualify.</p>"
-            "<p>The line is not always obvious. A business that sells a technology product but "
-            "delivers substantial implementation services can look like consulting on one set of "
-            "facts and a product company on another. Where the answer is close, the file should "
-            "document why the principal asset is the product rather than the people, and that "
-            "documentation is far easier to assemble at issuance than during diligence.</p>"
-        ),
-        (
-            "The S Corporation Problem",
-            "<p>Most profitable owner-operated businesses are S corporations, and S corporation "
-            "stock is permanently outside Section 1202. This is the most common reason the "
-            "exclusion is unavailable to exactly the owner who would benefit most.</p>"
-            "<p>Converting an S corporation to a C corporation starts a new five-year clock, and "
-            "the basis of the stock deemed issued on conversion is the fair market value of the "
-            "assets at that date. Only appreciation after the conversion is eligible. An owner "
-            "converting a business already worth $12 million excludes nothing on that $12 "
-            "million and starts qualifying only on growth from there.</p>"
-            "<p>The conversion also means the corporation pays 21 percent on its earnings, and "
-            "distributions are taxed again as dividends. That cost is real and recurring, so the "
-            "conversion only makes sense where the expected exclusion outweighs several years of "
-            "double taxation. Working that comparison is the reason the entity decision belongs "
-            "in a model rather than a rule of thumb. Our "
-            "<a href=\"/entity-structuring-business-owners/\">entity structuring guide</a> covers "
-            "the same trade-off from the operating side.</p>"
-        ),
-        (
-            "Stacking and Packing: Multiplying the Cap",
-            "<p>Because the cap is per taxpayer, giving shares to additional taxpayers before a "
-            "sale multiplies it. Two techniques do this.</p>"
-            "<p><strong>Stacking</strong> transfers shares to non-grantor trusts, each of which "
-            "is a separate taxpayer with its own exclusion. A founder with $60 million of "
-            "qualifying gain and a $15 million cap might gift shares to three irrevocable "
-            "non-grantor trusts for children, producing four caps and excluding the full "
-            "amount. The trusts must be genuinely non-grantor, funded well before any binding "
-            "agreement, and drafted with different beneficiaries to avoid being treated as a "
-            "single trust under the multiple trust rules.</p>"
-            "<p><strong>Packing</strong> uses the 10 times basis alternative. A shareholder who "
-            "contributes appreciated property to the corporation in exchange for stock takes a "
-            "Section 1202 basis equal to the property's fair market value, so a $5 million "
-            "contribution supports $50 million of excluded gain rather than $15 million.</p>"
-            "<p>Both require lead time. Gifts made after a letter of intent is signed invite an "
-            "assignment of income argument, and gifts made in the same year as a sale face a "
-            "valuation that is hard to discount when the sale price is already known. Two years "
-            "of separation is comfortable, one year is workable, and thirty days is not.</p>"
-        ),
-        (
-            "What It Is Worth",
-            "<p>Consider a founder selling qualifying stock for $18 million with a basis near "
-            "zero, resident in a state that follows the federal exclusion.</p>"
-            "<div style=\"overflow-x:auto;\">"
-            "<table>"
-            "<thead><tr><th>Scenario</th><th>Taxable gain</th><th>Federal tax at 23.8 percent</th></tr></thead>"
-            "<tbody>"
-            "<tr><td>No QSBS</td><td>$18,000,000</td><td>$4,284,000</td></tr>"
-            "<tr><td>QSBS, one $15M cap</td><td>$3,000,000</td><td>$714,000</td></tr>"
-            "<tr><td>QSBS stacked across four taxpayers</td><td>$0</td><td>$0</td></tr>"
-            "</tbody></table></div>"
-            "<p>The gap between the second and third rows is entirely a function of work done "
-            "years earlier. Nothing about the sale itself changes. This is the clearest example "
-            "on the site of why exit planning has to start before the exit is on the calendar, "
-            "and it is covered in sequence in the "
-            "<a href=\"/exit-tax-planning-business-owners/\">exit tax planning guide</a>.</p>"
-        ),
-    ],
-    takeaways=[
-        "Section 1202 excludes gain permanently, with no net investment income tax and no AMT preference.",
-        "S corporation stock never qualifies, and converting starts a new five-year clock at current value.",
-        "Stock issued after July 4, 2025 gets a $15 million cap and partial exclusions at three and four years.",
-        "Health, law, accounting, consulting, financial services, and restaurants are excluded by statute.",
-        "The cap is per taxpayer, so non-grantor trusts funded well before a sale multiply it.",
-        "Every test is evaluated at issuance and across the holding period, not at closing.",
-    ],
-    faqs=[
-        (
-            "Can I get QSBS treatment if my company is an LLC or S corporation?",
-            "<p>Not on the interest you hold now. Section 1202 applies only to stock in a "
-            "domestic C corporation. An LLC can convert to a C corporation and issue qualifying "
-            "stock, but the five-year clock starts at conversion and only appreciation after "
-            "that date is eligible, because basis is set at the fair market value of the "
-            "contributed assets.</p>",
-        ),
-        (
-            "What happens if I sell before five years?",
-            "<p>For stock issued after July 4, 2025, a sale at three years excludes 50 percent "
-            "of the gain and at four years excludes 75 percent. For older stock, a sale before "
-            "five years excludes nothing. In either case a Section 1045 rollover can preserve "
-            "the position by reinvesting the proceeds in other qualified small business stock "
-            "within 60 days, with the original holding period carrying over.</p>",
-        ),
-        (
-            "Does the exclusion apply to an asset sale?",
-            "<p>No. Section 1202 applies to the sale of stock. If the buyer insists on buying "
-            "assets, the corporation recognizes the gain and the exclusion is lost, which is "
-            "one of the few situations where a seller should hold firm on structure. See "
-            "<a href=\"/structuring-your-business-for-sale/\">how to structure your business for "
-            "sale</a> for how that negotiation usually resolves.</p>",
-        ),
-        (
-            "How many trusts can I use to stack the exclusion?",
-            "<p>There is no statutory limit, but each trust must be a separate taxpayer with a "
-            "genuine, distinct beneficial interest and its own purpose. Trusts created on the "
-            "same day with the same terms and the same beneficiary invite consolidation under "
-            "the multiple trust rules. In practice three to five trusts with different primary "
-            "beneficiaries is a defensible structure and ten identical ones is not.</p>",
-        ),
-        (
-            "Do I need to do anything to claim the exclusion?",
-            "<p>It is reported on the return in the year of sale, but the substantiation is "
-            "built over the life of the company: the issuance documents, the gross assets "
-            "calculation at each issuance, and evidence the active business test was met "
-            "throughout. Companies that never assembled that file end up reconstructing it under "
-            "diligence pressure, and buyers price the uncertainty.</p>",
-        ),
-    ],
+    slug='qsbs-exclusion-section-1202',
+    label='QSBS: excluding capital gain under Section 1202',
+    title='QSBS Exclusion: Section 1202 Rules by Stock Acquisition Date',
+    description=('Review Section 1202 dollar limits, holding-period tiers, business eligibility and stock records '
+ 'before a sale. Includes older and newer stock rules.'),
+    h1='QSBS Exclusion: Section 1202 Limits, Holding Periods and Eligibility',
+    subtitle=('Review the stock records, business activities and planned sale before relying on a Section 1202 '
+ 'exclusion.'),
+    lead=('Section 1202 can exclude part or all of eligible gain when a noncorporate taxpayer sells '
+ "qualifying domestic C corporation stock. Start with the stock's acquisition and issuance dates: "
+ 'the 2025 law changed the holding periods, per-issuer dollar limit and gross-assets ceiling for '
+ 'newer stock. Entity status, original issuance, business activity, redemptions and records still '
+ 'determine whether the stock qualifies.'),
+    keywords=['qsbs exclusion',
+ 'section 1202 qualified small business stock',
+ 'exclude capital gains business sale',
+ 'qsbs stacking trusts'],
+    body=[('What Section 1202 Actually Does',
+  '<p>Section 1202 excludes the qualifying percentage of eligible gain rather than deferring it. '
+  'Excluded gain is not subject to net investment income tax. Stock acquired after September 27, '
+  '2010 has no Section 1202 AMT preference, but taxable gain, partial-exclusion rates and state '
+  'tax still require separate analysis.</p><p>The eligible-gain ceiling is the greater of the '
+  "remaining per-issuer dollar limit or 10 times the adjusted basis of that issuer's QSBS sold "
+  'during the tax year, ignoring additions to basis after original issuance. The dollar limit is '
+  '$10 million for stock acquired on or before July 4, 2025, or $15 million for stock acquired '
+  'after July 4, 2025 (the 2026 amount, with inflation adjustments beginning after 2026). Prior '
+  'eligible gain from the same issuer reduces the dollar limit; mixed old and new lots require '
+  'coordination, not two independent allowances. Apply the applicable exclusion percentage to the '
+  'eligible gain after this limit. A married couple filing jointly does not receive two dollar '
+  'limits merely because each spouse owns shares.</p><p>State treatment is separate. Most states '
+  'follow the federal exclusion, several modify it, and a small number disallow it outright. The '
+  'state answer has to be checked against the state of residence at the time of sale, which is '
+  'itself a planning variable when a move is already under consideration.</p>'),
+ ('The Five Tests the Stock Has to Pass',
+  '<p>All five apply. Failing any one disqualifies the entire position.</p><p><strong>1. Domestic '
+  'C corporation.</strong> The issuer must be a C corporation for substantially all of the holding '
+  'period. S corporation stock never qualifies, and neither does an LLC interest or partnership '
+  'interest.</p><p><strong>2. Original issuance.</strong> The stock must be acquired directly from '
+  'the corporation for money, property, or services. Stock bought from another shareholder does '
+  "not qualify, though stock received by gift or inheritance can carry the original holder's "
+  'status forward.</p><p><strong>3. The gross assets test.</strong> For stock issued on or before '
+  'July 4, 2025, aggregate gross assets must not exceed $50 million; for stock issued after July '
+  '4, 2025, the ceiling is $75 million in 2026. The test covers the corporation and any '
+  'predecessor at all times after August 9, 1993 and before issuance, and immediately after '
+  'issuance including the new proceeds. Parent-subsidiary controlled-group rules also apply. Gross '
+  'assets generally mean cash plus adjusted tax basis of other property, with contributed property '
+  'measured using fair market value at contribution. Enterprise valuation is not the same '
+  'measure.</p><p><strong>4. The active business test.</strong> At least 80% of assets by value '
+  'must be used in one or more qualified active trades or businesses during substantially all of '
+  'the holding period. This is an asset test, not an 80% gross-income or revenue test. Reasonably '
+  'required working capital and qualifying investment funds expected to be used within two years '
+  'for research or increased working capital can count, but after the corporation has existed for '
+  'at least two years no more than 50% of its assets may qualify solely under the working-capital '
+  'rule. Separate limits apply to portfolio securities and nonbusiness real '
+  'estate.</p><p><strong>5. The holding period.</strong> Stock acquired on or before July 4, 2025 '
+  'must be held for more than five years. Qualifying stock acquired after September 27, 2010 and '
+  'on or before July 4, 2025 can receive a 100% exclusion. For stock acquired after July 4, 2025, '
+  'the exclusion is 50% after at least three years, 75% after at least four years, and 100% after '
+  'at least five years. These percentages apply to eligible gain after the per-issuer limit, not '
+  'automatically to all sale proceeds. Acquisition dates reflect applicable holding-period tacking '
+  'rules.</p>'),
+ ('What the 2025 Law Changed',
+  '<p>Use acquisition date, including applicable tacking, for the dollar cap and holding-period '
+  'tiers. Use issuance date for the corporate gross-assets test. A gift, inheritance or qualifying '
+  'rollover does not automatically move older stock into the newer regime.</p><div '
+  'style="overflow-x:auto;"><table><thead><tr><th>Rule</th><th>On or before July 4, '
+  '2025</th><th>After July 4, 2025</th></tr></thead><tbody><tr><td>Acquisition-date dollar limit, '
+  'before reductions</td><td>$10 million</td><td>$15 million in 2026; indexed after '
+  '2026</td></tr><tr><td>Alternative eligible-gain ceiling</td><td>10 times qualifying basis, if '
+  'greater</td><td>10 times qualifying basis, if greater</td></tr><tr><td>Issuance-date '
+  'gross-assets ceiling</td><td>$50 million</td><td>$75 million in 2026</td></tr><tr><td>Holding '
+  'period and percentage</td><td>More than five years; 100% for qualifying acquisitions after '
+  'September 27, 2010</td><td>At least three years: 50%; at least four: 75%; at least five: '
+  '100%</td></tr></tbody></table></div><p>Earlier acquisitions can have 50% or 75% exclusion '
+  'treatment. Apply the percentage only after the eligible-gain ceiling. New shares first acquired '
+  'in July 2025 cannot earn a three-year exclusion in 2026; the earliest new-stock three-year '
+  'anniversary is in 2028.</p>'),
+ ('Which Businesses Qualify, and Which Are Excluded by Name',
+  '<p>Section 1202(e)(3) excludes services in health, law, engineering, architecture, accounting, '
+  'actuarial science, performing arts, consulting, athletics, financial services and brokerage '
+  'services, plus any business whose principal asset is the reputation or skill of employees. The '
+  'named service exclusions do not depend on that additional reputation-or-skill category. '
+  'Banking, insurance, financing, leasing, investing, farming, specified extraction businesses, '
+  'and hotels, motels, restaurants and similar businesses are also excluded. A software or '
+  'manufacturing label does not establish eligibility; review the actual activities and asset '
+  'use.</p><p>These exclusions often rule out medical, legal, accounting and consulting practices. '
+  'Manufacturing, software and product businesses may qualify if their actual activities and asset '
+  'use meet the statute.</p><p>Mixed technology and services businesses need an analysis of actual '
+  'activities, asset use and the named statutory exclusions. A product label or proprietary '
+  'software does not automatically overcome consulting or another excluded service category.</p>'),
+ ('The S Corporation Problem',
+  '<p>Most profitable owner-operated businesses are S corporations, and S corporation stock is '
+  'permanently outside Section 1202. This is the most common reason the exclusion is unavailable '
+  'to exactly the owner who would benefit most.</p><p>Revoking an S election does not turn '
+  'existing S corporation shares into QSBS and does not create a deemed new stock issuance. A '
+  'genuine new original issuance by an eligible domestic C corporation must be analyzed '
+  'separately. Incorporating an LLC taxed as a partnership or disregarded entity can involve '
+  'qualifying original-issue C corporation stock in exchange for property, if all requirements are '
+  'met. The qualifying holding period generally starts at that incorporation, and Section 1202(i) '
+  'prevents pre-contribution appreciation from becoming excludable gain.</p><p>A C corporation '
+  'generally pays 21% federal tax on taxable income, and taxable dividends create a second '
+  'shareholder layer. Compare these costs with the potential exclusion and realistic sale '
+  'structure. Our <a href="/entity-structuring-business-owners/">entity structuring guide</a> '
+  'covers the operating-side trade-offs.</p>'),
+ ('Stacking and Packing: Multiplying the Cap',
+  '<p>A qualifying gift or transfer at death can preserve the original issuance treatment and '
+  'holding period under Section 1202(h); it does not reset old stock into the post-July 4, 2025 '
+  'regime. Separate noncorporate taxpayers may have separate per-issuer limits, but a married '
+  'couple filing jointly does not get two dollar limits merely by holding shares separately. '
+  'Grantor trusts do not create additional income-tax taxpayers. Non-grantor trusts require review '
+  'of ownership, trust aggregation, completed gifts, valuation, gift-tax reporting and '
+  'assignment-of-income risk. There is no universal safe number of trusts or waiting '
+  'period.</p><p><strong>Stacking</strong> can involve genuine gifts to separate non-grantor '
+  'trusts. A $60 million eligible-gain illustration using four $15 million dollar limits assumes '
+  'qualifying post-July 4, 2025 acquisition dates, a future sale after at least five years, valid '
+  'separate taxpayers, sufficient gain allocated to each and no reductions for prior issuer gain. '
+  'It is not available merely by creating three trusts or choosing different '
+  'beneficiaries.</p><p><strong>Packing</strong> concerns the 10-times-basis alternative. Property '
+  'exchanged for original-issue stock has special Section 1202 fair-market-value rules, and '
+  'pre-contribution appreciation is not transformed into excludable gain. Later basis additions to '
+  'existing shares are disregarded for this ceiling. A proposed contribution needs a valuation and '
+  'eligibility review, not just multiplication by ten.</p><p>Gift and trust planning should be '
+  'evaluated before sale commitments. Assignment-of-income, step-transaction and trust-aggregation '
+  'rules turn on the facts; there is no one-year or two-year safe harbor and no safe number of '
+  'trusts.</p>'),
+ ('What It Is Worth',
+  '<p><strong>Future hypothetical, not a 2026 sale:</strong> Assume $18 million of eligible gain, '
+  'negligible basis, stock acquired after July 4, 2025 and held at least five years, all '
+  'eligibility tests met, and no prior issuer gain. For comparability, use the unindexed $15 '
+  'million base dollar limit and an assumed 23.8% rate on taxable excess gain. Actual future '
+  'indexed limits and tax rates must be checked; state tax is excluded from this table.</p><div '
+  'style="overflow-x:auto;"><table><thead><tr><th>Scenario</th><th>Taxable gain</th><th>Federal '
+  'tax at 23.8 percent</th></tr></thead><tbody><tr><td>No '
+  'QSBS</td><td>$18,000,000</td><td>$4,284,000</td></tr><tr><td>QSBS, one $15M '
+  'cap</td><td>$3,000,000</td><td>$714,000</td></tr><tr><td>QSBS across four valid separate '
+  'taxpayers (conditional)</td><td>$0</td><td>$0</td></tr></tbody></table></div><p>The final row '
+  'assumes valid completed transfers, separate noncorporate taxpayers, adequate eligible gain '
+  'allocated to each and all anti-abuse requirements met. It is not a promised trust outcome. '
+  'Compare the costs and control consequences before acting; the <a '
+  'href="/exit-tax-planning-business-owners/">exit tax planning guide</a> explains the sequence of '
+  'decisions.</p>'),
+ ('Before You Rely on a QSBS Exclusion',
+  '<p>Bring formation documents and tax elections, the cap table and each issuance agreement, '
+  'option or convertible-instrument records, consideration and stock basis, historical balance '
+  'sheets and contributed-property valuations, active-business records, redemption history, prior '
+  'Section 1202 claims, trust or gift documents, state residency details, and the proposed sale '
+  'timeline. Ask for a written lot-by-lot eligibility analysis and a stock-sale versus asset-sale '
+  'comparison before relying on an exclusion.</p><p>A rental or leasing business does not become '
+  'eligible merely by converting to a C corporation; Section 1202(e) also limits nonbusiness real '
+  'estate. A useful first engagement should identify which share lots may qualify, missing '
+  'evidence, the remaining issuer limit, state differences and the proposed transaction structure. '
+  'Confirm the written scope, responsible tax and legal advisers, timing and fees before '
+  'proceeding. <a href="/discovery/">Request a QSBS eligibility review</a>.</p>'),
+ ('Official Sources',
+  '<p>Tax-law review: November 6, 2026. The statute governs newer-stock tiers; the 2025 IRS return '
+  'instructions also describe eligibility and reporting for that return year. This guide is '
+  'general information, not a determination that your stock qualifies.</p><ul><li><a '
+  'href="https://uscode.house.gov/us/usc/119-120/t26/s1202/">Current Section 1202 statute: dates, '
+  'caps and eligibility</a></li><li><a '
+  'href="https://uscode.house.gov/us/usc/119-118/t26/s1045/">Section 1045 rollover '
+  'statute</a></li><li><a href="https://www.irs.gov/instructions/i1040sd">IRS Schedule D '
+  'instructions: QSBS eligibility and reporting</a></li><li><a '
+  'href="https://www.irs.gov/publications/p550">IRS Publication 550: stock gains, losses and '
+  'holding periods</a></li><li><a '
+  'href="https://www.ftb.ca.gov/forms/2025/2025-540-ca-instructions.html">California Schedule CA '
+  'instructions: federal adjustments</a></li></ul>')],
+    takeaways=['Excluded gain is not deferred or subject to NIIT; acquisition date determines the percentage and '
+ 'AMT treatment.',
+ 'Revoking an S election does not convert existing shares into QSBS; genuine original-issue C '
+ 'corporation stock requires separate review.',
+ 'Stock acquired after July 4, 2025 uses the $15 million base dollar limit and three-, four- and '
+ 'five-year tiers; issuance date controls the asset ceiling.',
+ 'Health, law, accounting, consulting, financial services, and restaurants are excluded by '
+ 'statute.',
+ 'Separate taxpayers may have separate limits, but spouses filing jointly and grantor trusts do '
+ 'not automatically add dollar caps.',
+ 'Test issuance requirements, holding-period conditions and sale facts at the relevant times; keep '
+ 'a lot-by-lot record.'],
+    faqs=[('Can I get QSBS treatment if my company is an LLC or S corporation?',
+  '<p>Revoking an S election does not turn existing S corporation shares into QSBS and does not '
+  'create a deemed new stock issuance. A genuine new original issuance by an eligible domestic C '
+  'corporation must be analyzed separately. Incorporating an LLC taxed as a partnership or '
+  'disregarded entity can involve qualifying original-issue C corporation stock in exchange for '
+  'property, if all requirements are met. The qualifying holding period generally starts at that '
+  'incorporation, and Section 1202(i) prevents pre-contribution appreciation from becoming '
+  'excludable gain.</p>'),
+ ('What happens if I sell before five years?',
+  '<p>Stock acquired on or before July 4, 2025 must be held for more than five years. Qualifying '
+  'stock acquired after September 27, 2010 and on or before July 4, 2025 can receive a 100% '
+  'exclusion. For stock acquired after July 4, 2025, the exclusion is 50% after at least three '
+  'years, 75% after at least four years, and 100% after at least five years. These percentages '
+  'apply to eligible gain after the per-issuer limit, not automatically to all sale proceeds. '
+  'Acquisition dates reflect applicable holding-period tacking rules. Section 1045 may defer gain '
+  'when a noncorporate taxpayer sells QSBS held for more than six months, elects rollover '
+  'treatment, and buys replacement QSBS during the 60-day period beginning on the sale date. Full '
+  'deferral generally requires reinvesting the amount realized, not just the gain. Deferred gain '
+  'reduces replacement-stock basis; applicable holding-period tacking must be analyzed. A rollover '
+  'does not automatically secure a later Section 1202 exclusion or increase its cap.</p>'),
+ ('Does the exclusion apply to an asset sale?',
+  "<p>Section 1202 does not exclude the corporation's gain from selling its assets. A later "
+  'liquidating distribution can require a separate shareholder-level QSBS analysis, but it does '
+  'not erase corporate tax. Model the asset sale, distribution and stock-sale alternatives before '
+  'agreeing to a structure. See <a href="/structuring-your-business-for-sale/">how to structure '
+  'your business for sale</a>.</p>'),
+ ('How many trusts can I use to stack the exclusion?',
+  '<p>A qualifying gift or transfer at death can preserve the original issuance treatment and '
+  'holding period under Section 1202(h); it does not reset old stock into the post-July 4, 2025 '
+  'regime. Separate noncorporate taxpayers may have separate per-issuer limits, but a married '
+  'couple filing jointly does not get two dollar limits merely by holding shares separately. '
+  'Grantor trusts do not create additional income-tax taxpayers. Non-grantor trusts require review '
+  'of ownership, trust aggregation, completed gifts, valuation, gift-tax reporting and '
+  'assignment-of-income risk. There is no universal safe number of trusts or waiting period.</p>'),
+ ('Do I need to do anything to claim the exclusion?',
+  '<p>It is reported on the return in the year of sale, but the substantiation is built over the '
+  'life of the company: the issuance documents, the gross assets calculation at each issuance, and '
+  'evidence the active business test was met throughout. Companies that never assembled that file '
+  'end up reconstructing it under diligence pressure, and buyers price the uncertainty.</p>')],
 )
 
 INSTALLMENT = Spoke(

@@ -373,81 +373,231 @@ ARTICLES = [
 "cta_body": "Co-ownership structures should anticipate that partners will eventually want different things. Bring your ownership structure and timeline and we will map the exit paths.",
 },
 
-{
-"slug": "qualified-small-business-stock-section-1202",
-"title": "Qualified Small Business Stock: The Section 1202 Exclusion Most Owners Never Claim",
-"meta_title": "Qualified Small Business Stock Section 1202 Exclusion (2026) | AE Tax Advisors",
-"meta_desc": "QSBS can exclude up to $10 million or more of gain entirely. C corp requirements, five-year holding, stacking, and the 2025 law changes explained.",
-"category": C, "date": D,
-"intro": [
-"Section 1202 allows a non-corporate shareholder to exclude up to 100% of gain on the sale of qualified small business stock, capped at the greater of $10,000,000 or ten times basis. That is a complete exclusion from federal tax, not a deferral.",
-"It is one of the most valuable provisions in the code and among the least used, because it requires a C corporation, a five-year hold, and decisions made at formation that most founders make without knowing the provision exists.",
-],
-"sections": [
-("The Core Requirements", [
-"The stock must be issued by a domestic C corporation. S corporation stock never qualifies, and stock acquired while the company was an S corporation does not qualify even after a later conversion. Only stock issued after the conversion can qualify.",
-"The stock must be acquired at original issuance from the corporation, in exchange for money, property other than stock, or services. Purchasing shares from an existing shareholder does not qualify, which is a common and expensive surprise for early employees buying from founders.",
-"The corporation's aggregate gross assets must not have exceeded $50,000,000 at any time before and immediately after issuance. Legislation enacted in 2025 raised this threshold to $75,000,000 for stock issued after the effective date, with the per-issuer gain cap increasing correspondingly to $15,000,000. Which threshold applies depends on when the stock was issued, so the analysis is issuance-date specific.",
-"At least 80% of assets by value must be used in the active conduct of a qualified trade or business throughout substantially all of the holding period.",
-"The holding period is five years for the full exclusion. The 2025 legislation added a tiered exclusion for stock issued after the effective date, allowing 50% exclusion at three years and 75% at four years, with 100% at five.",
-]),
-("The Excluded Businesses", [
-"IRC Sec. 1202(e)(3) excludes a list of businesses, and it overlaps substantially with the Sec. 199A specified service list but is not identical.",
-"Excluded are businesses involving services in health, law, engineering, architecture, accounting, actuarial science, performing arts, consulting, athletics, financial services, and brokerage services, where the principal asset is the reputation or skill of employees. Also excluded are banking, insurance, financing, leasing, and investing businesses, farming, businesses involving oil, gas, or mineral extraction eligible for percentage depletion, and hotels, motels, restaurants, and similar businesses.",
-"Note that engineering and architecture are excluded here while they are permitted under Sec. 199A. The lists are different and must be checked separately.",
-"Technology companies, manufacturers, consumer products, software, and most product businesses qualify. Service firms generally do not.",
-]),
-("Stacking and Packing", [
-"The per-taxpayer cap applies per issuer. Gifting stock to family members, or to non-grantor trusts for their benefit, multiplies the exclusion because each recipient has their own $10,000,000 or $15,000,000 cap.",
-"Under IRC Sec. 1202(h), a recipient by gift takes the transferor's holding period and basis and is treated as having acquired the stock in the same manner. This is the mechanism that makes stacking work.",
-"A founder with $60,000,000 of anticipated gain who gifts stock to four non-grantor trusts for children well before an exit can potentially exclude far more than the individual cap. The trusts must be genuinely non-grantor for this to work, since a grantor trust's income is taxed to the grantor and does not create a separate cap.",
-"Packing refers to increasing basis to raise the ten-times-basis alternative cap. A shareholder contributing $4,000,000 of property to the corporation at issuance has a $40,000,000 alternative cap rather than the $10,000,000 floor. Basis for this purpose is generally the amount paid, and contributed property is valued at fair market value at contribution under IRC Sec. 1202(i).",
-]),
-("The Redemption Traps", [
-"Two anti-abuse rules disqualify stock based on the corporation's redemption activity, and they catch ordinary transactions regularly.",
-"Under IRC Sec. 1202(c)(3)(A), stock is not QSBS if the corporation purchased any of its stock from the taxpayer or a related person within a four-year window beginning two years before issuance.",
-"Under IRC Sec. 1202(c)(3)(B), stock is not QSBS if the corporation made significant redemptions, exceeding 5% of aggregate stock value, within a two-year window beginning one year before issuance.",
-"A company that buys back shares from a departing founder and then issues new shares to an incoming investor within a year may have inadvertently disqualified the new shares. De minimis exceptions exist under the regulations, and redemptions from terminating employees have a specific exception, but the rules are unforgiving and should be checked before any buyback.",
-]),
-("Section 1045 Rollover", [
-"Where stock is sold before the five-year holding period is satisfied, IRC Sec. 1045 permits a rollover of gain into replacement QSBS purchased within 60 days. The holding period tacks.",
-"This preserves the exclusion for a founder whose company is acquired at year three. Reinvesting the proceeds into another qualifying company continues the clock rather than resetting it.",
-"The election is made on a timely filed return and requires the replacement stock to itself be QSBS, which means the acquisition target must satisfy all the same requirements.",
-]),
-("State Conformity Is Not Universal", [
-"The exclusion is federal. States conform inconsistently. California does not conform and taxes QSBS gain in full. Pennsylvania, Mississippi, and Alabama also do not conform.",
-"For a founder in California with $10,000,000 of excluded federal gain, the state tax at 13.3% is approximately $1,330,000 on gain that is entirely tax free federally.",
-"This drives real planning. Establishing residency in a conforming or no-tax state well before an exit, or holding stock in a non-grantor trust sited in a favorable state, can preserve the state-level benefit. Both require lead time and genuine substance, and states with aggressive residency audit programs will examine the facts closely.",
-]),
-("Worked Example: Founder Exit", [
-"A founder incorporates a software company as a C corporation in 2021, contributing $180,000 of cash and property at issuance for 4,000,000 shares. Company gross assets never exceed $28,000,000.",
-"In 2023 the founder gifts 800,000 shares to each of two non-grantor trusts for their children, sited in a no-income-tax state with an independent trustee.",
-"In 2027 the company is acquired for $96,000,000. The founder's remaining 2,400,000 shares produce $57,600,000 of gain and each trust's 800,000 shares produce $19,200,000 of gain.",
-"The five-year holding period is satisfied. The founder excludes $10,000,000. Each trust excludes $10,000,000, for $20,000,000 across the two.",
-"Total excluded gain is $30,000,000, against $27,600,000 of the founder's gain and $18,400,000 across the trusts remaining taxable at long-term capital gain rates.",
-"Federal tax saved through the exclusion, at 23.8% including net investment income tax, is approximately $7,140,000. The gifting decision made four years before the exit accounts for $4,760,000 of that.",
-]),
-],
-"faqs": [
-("Does S corporation stock qualify for Section 1202?",
- "No. QSBS must be issued by a domestic C corporation. Stock held while the company was an S corporation never qualifies, even after conversion. Only shares issued after the conversion to C corporation status can qualify, and the five-year clock starts then."),
-("How much gain can I exclude?",
- "The greater of $10,000,000 per issuer or ten times your basis in the stock. Legislation enacted in 2025 raised the cap to $15,000,000 for stock issued after the effective date, along with raising the gross asset threshold from $50 million to $75 million."),
-("Can I multiply the exclusion by gifting stock?",
- "Yes. The cap applies per taxpayer per issuer, and under IRC Sec. 1202(h) a donee takes your holding period and is treated as acquiring the stock as you did. Gifts to non-grantor trusts for family members each carry their own cap. The trusts must be genuinely non-grantor."),
-("What if I sell before five years?",
- "IRC Sec. 1045 allows a rollover of gain into replacement QSBS purchased within 60 days, with the holding period tacking. For stock issued after the 2025 effective date, a tiered exclusion also applies: 50% at three years and 75% at four years."),
-("Do states honor the Section 1202 exclusion?",
- "Not all of them. California does not conform and taxes the gain in full, as do Pennsylvania, Mississippi, and Alabama. For a California founder with $10 million excluded federally, state tax can still exceed $1.3 million. Residency and trust siting planning requires years of lead time."),
-],
-"related": [
-("/blog/when-does-it-make-sense-to-form-a-c-corporation/", "When forming a C corporation makes sense"),
-("/blog/stock-sale-vs-asset-sale-tax-implications/", "Stock sale versus asset sale"),
-("/blog/s-corp-to-c-corp-conversion-when-it-makes-sense/", "S corp to C corp conversion"),
-],
-"cta_head": "The Decisions That Matter Happen at Formation",
-"cta_body": "QSBS planning is worth millions and expires quietly if the entity type or issuance timing is wrong. Bring your cap table and formation history.",
-},
+{'slug': 'qualified-small-business-stock-section-1202',
+ 'title': 'Qualified Small Business Stock: The Section 1202 Exclusion Most Owners Never Claim',
+ 'meta_title': 'Qualified Small Business Stock Section 1202 Exclusion (2026) | AE Tax Advisors',
+ 'meta_desc': 'QSBS eligibility by acquisition and issuance date, plus corrected founder-exit math, gifts, '
+              'rollover requirements and records to review before a sale.',
+ 'category': 'Entity Structuring',
+ 'date': '2026-08-10',
+ 'intro': ['Section 1202 can exclude part or all of eligible gain when a noncorporate taxpayer sells '
+           "qualifying domestic C corporation stock. Start with the stock's acquisition and issuance dates: "
+           'the 2025 law changed the holding periods, per-issuer dollar limit and gross-assets ceiling for '
+           'newer stock. Entity status, original issuance, business activity, redemptions and records still '
+           'determine whether the stock qualifies. The eligible-gain ceiling is the greater of the remaining '
+           "per-issuer dollar limit or 10 times the adjusted basis of that issuer's QSBS sold during the tax "
+           'year, ignoring additions to basis after original issuance. The dollar limit is $10 million for '
+           'stock acquired on or before July 4, 2025, or $15 million for stock acquired after July 4, 2025 '
+           '(the 2026 amount, with inflation adjustments beginning after 2026). Prior eligible gain from the '
+           'same issuer reduces the dollar limit; mixed old and new lots require coordination, not two '
+           'independent allowances. Apply the applicable exclusion percentage to the eligible gain after '
+           'this limit.',
+           'The most useful first step is to establish eligibility by stock lot before estimating savings. '
+           "An operating company's legal form, ownership history, financing documents and intended sale "
+           'structure can change the result.'],
+ 'sections': [('The Core Requirements',
+               ['The stock must be issued by a domestic C corporation. S corporation stock never qualifies, '
+                'and stock acquired while the company was an S corporation does not qualify even after a '
+                'later conversion. Only stock issued after the conversion can qualify.',
+                'The stock must be acquired at original issuance from the corporation, in exchange for '
+                'money, property other than stock, or services. Purchasing shares from an existing '
+                'shareholder does not qualify, which is a common and expensive surprise for early employees '
+                'buying from founders.',
+                'For stock issued on or before July 4, 2025, aggregate gross assets must not exceed $50 '
+                'million; for stock issued after July 4, 2025, the ceiling is $75 million in 2026. The test '
+                'covers the corporation and any predecessor at all times after August 9, 1993 and before '
+                'issuance, and immediately after issuance including the new proceeds. Parent-subsidiary '
+                'controlled-group rules also apply. Gross assets generally mean cash plus adjusted tax basis '
+                'of other property, with contributed property measured using fair market value at '
+                'contribution. Enterprise valuation is not the same measure.',
+                'At least 80% of assets by value must be used in the active conduct of a qualified trade or '
+                'business throughout substantially all of the holding period.',
+                'Stock acquired on or before July 4, 2025 must be held for more than five years. Qualifying '
+                'stock acquired after September 27, 2010 and on or before July 4, 2025 can receive a 100% '
+                'exclusion. For stock acquired after July 4, 2025, the exclusion is 50% after at least three '
+                'years, 75% after at least four years, and 100% after at least five years. These percentages '
+                'apply to eligible gain after the per-issuer limit, not automatically to all sale proceeds. '
+                'Acquisition dates reflect applicable holding-period tacking rules.']),
+              ('The Excluded Businesses',
+               ['IRC Sec. 1202(e)(3) excludes a list of businesses, and it overlaps substantially with the '
+                'Sec. 199A specified service list but is not identical.',
+                'Section 1202(e)(3) excludes services in health, law, engineering, architecture, accounting, '
+                'actuarial science, performing arts, consulting, athletics, financial services and brokerage '
+                'services, plus any business whose principal asset is the reputation or skill of employees. '
+                'The named service exclusions do not depend on that additional reputation-or-skill category. '
+                'Banking, insurance, financing, leasing, investing, farming, specified extraction '
+                'businesses, and hotels, motels, restaurants and similar businesses are also excluded. A '
+                'software or manufacturing label does not establish eligibility; review the actual '
+                'activities and asset use.',
+                'Note that engineering and architecture are excluded here while they are permitted under '
+                'Sec. 199A. The lists are different and must be checked separately.',
+                'Technology and manufacturing businesses can qualify, but eligibility depends on actual '
+                'operations and all statutory tests, not an industry label.']),
+              ('Stacking and Packing',
+               ['A qualifying gift or transfer at death can preserve the original issuance treatment and '
+                'holding period under Section 1202(h); it does not reset old stock into the post-July 4, '
+                '2025 regime. Separate noncorporate taxpayers may have separate per-issuer limits, but a '
+                'married couple filing jointly does not get two dollar limits merely by holding shares '
+                'separately. Grantor trusts do not create additional income-tax taxpayers. Non-grantor '
+                'trusts require review of ownership, trust aggregation, completed gifts, valuation, gift-tax '
+                'reporting and assignment-of-income risk. There is no universal safe number of trusts or '
+                'waiting period.',
+                "Under IRC Sec. 1202(h), a recipient by gift takes the transferor's holding period and basis "
+                'and is treated as having acquired the stock in the same manner. This is the mechanism that '
+                'makes stacking work.',
+                'A separate non-grantor trust may have its own issuer limit only when the ownership and '
+                'transfer are effective for tax purposes. A gift retains the original acquisition regime; a '
+                '2021 share does not get the $15 million base limit because it is given away after July 4, '
+                '2025. No number of trusts or elapsed time guarantees the result.',
+                'The 10-times-basis alternative can be larger than the remaining dollar limit. A $4,000,000 '
+                'qualifying original-issue basis can support a $40,000,000 eligible-gain ceiling. '
+                'Contributed property has special Section 1202(i) fair-market-value and '
+                'pre-contribution-appreciation rules, and later basis additions are ignored for this '
+                'ceiling.']),
+              ('The Redemption Traps',
+               ["Two anti-abuse rules disqualify stock based on the corporation's redemption activity, and "
+                'they catch ordinary transactions regularly.',
+                'Under IRC Sec. 1202(c)(3)(A), stock is not QSBS if the corporation purchased any of its '
+                'stock from the taxpayer or a related person within a four-year window beginning two years '
+                'before issuance.',
+                'Under IRC Sec. 1202(c)(3)(B), stock is not QSBS if the corporation made significant '
+                'redemptions, exceeding 5% of aggregate stock value, within a two-year window beginning one '
+                'year before issuance.',
+                'A company that buys back shares from a departing founder and then issues new shares to an '
+                'incoming investor within a year may have inadvertently disqualified the new shares. De '
+                'minimis exceptions exist under the regulations, and redemptions from terminating employees '
+                'have a specific exception, but the rules are unforgiving and should be checked before any '
+                'buyback.']),
+              ('Section 1045 Rollover',
+               ['Section 1045 may defer gain when a noncorporate taxpayer sells QSBS held for more than six '
+                'months, elects rollover treatment, and buys replacement QSBS during the 60-day period '
+                'beginning on the sale date. Full deferral generally requires reinvesting the amount '
+                'realized, not just the gain. Deferred gain reduces replacement-stock basis; applicable '
+                'holding-period tacking must be analyzed. A rollover does not automatically secure a later '
+                'Section 1202 exclusion or increase its cap.',
+                'A sale before the applicable holding period is met may warrant a rollover analysis, but the '
+                'replacement stock and later sale must independently satisfy the relevant requirements. '
+                'Reinvestment carries investment risk and does not guarantee an exclusion.',
+                'The election is made on a timely filed return and requires the replacement stock to itself '
+                'be QSBS, which means the acquisition target must satisfy all the same requirements.']),
+              ('State Conformity Is Not Universal',
+               ['State treatment must be checked for the sale year, residency, sourcing and any trust. '
+                'California does not conform to the federal Section 1202 exclusion. A federal exclusion '
+                'therefore does not establish a zero state-tax result, and the 2025 federal expansion should '
+                'not be assumed to apply in every state. A change of residence or trust location is not an '
+                'automatic cure for state tax.',
+                'For a California founder with $10,000,000 excluded federally, a 13.3% marginal-rate '
+                'illustration equals $1,330,000. This is a simplified rate illustration, not a calculation '
+                "using California's progressive brackets or the taxpayer's full return.",
+                'Review residency, sourcing and trust facts with state-tax counsel before transferring '
+                'shares or moving. A favorable trust jurisdiction alone does not determine the state '
+                'taxation of a settlor, beneficiary or sale.']),
+              ('Worked Example: Founder Exit',
+               ['<strong>Hypothetical historical-cohort example:</strong> A founder incorporates a '
+                'qualifying software C corporation in 2021 and contributes $180,000 in cash and property for '
+                '4,000,000 shares. Assume $180,000 is both tax basis and the relevant Section 1202 basis, no '
+                'pre-contribution built-in appreciation, and the corporation meets all eligibility '
+                'requirements. Its gross assets never exceed $28,000,000.',
+                'In 2023 the founder gives 800,000 shares to each of two genuine separate non-grantor '
+                'trusts. Assume the gifts are effective, do not assign an already-fixed sale right, and each '
+                'trust qualifies as a separate taxpayer. Each trust receives $36,000 of allocated basis; the '
+                'founder retains $108,000.',
+                'In 2027 all 4,000,000 shares sell for $96,000,000 after more than five years. The founder '
+                'receives $57,600,000 of proceeds, less $108,000 basis, for $57,492,000 gain. Each trust '
+                'receives $19,200,000 of proceeds, less $36,000 basis, for $19,164,000 gain. Transaction '
+                'costs are omitted.',
+                'The 2021 acquisition date remains controlling after the gifts. Assuming no prior issuer '
+                'gain, the founder and each trust have a $10,000,000 dollar limit, larger than their '
+                'respective 10-times-basis ceilings. Each excludes $10,000,000, for $30,000,000 excluded in '
+                'total.',
+                'Total gain is $95,820,000. After $30,000,000 of exclusions, taxable gain is $65,820,000: '
+                '$47,492,000 for the founder plus $9,164,000 for each trust ($18,328,000 across both). State '
+                'tax and all trust requirements must be analyzed separately.',
+                'At an assumed 23.8% federal rate, the $30,000,000 exclusion represents $7,140,000 of '
+                "illustrated federal tax savings; the two trusts' $20,000,000 exclusions account for "
+                '$4,760,000. These are scenario calculations, not a client result or a prediction of 2027 '
+                'rates.']),
+              ('Before You Rely on a QSBS Exclusion',
+               ['<p>Bring formation documents and tax elections, the cap table and each issuance agreement, '
+                'option or convertible-instrument records, consideration and stock basis, historical balance '
+                'sheets and contributed-property valuations, active-business records, redemption history, '
+                'prior Section 1202 claims, trust or gift documents, state residency details, and the '
+                'proposed sale timeline. Ask for a written lot-by-lot eligibility analysis and a stock-sale '
+                'versus asset-sale comparison before relying on an exclusion.</p><p>A rental or leasing '
+                'business does not become eligible merely by converting to a C corporation; Section 1202(e) '
+                'also limits nonbusiness real estate. A useful first engagement should identify which share '
+                'lots may qualify, missing evidence, the remaining issuer limit, state differences and the '
+                'proposed transaction structure. Confirm the written scope, responsible tax and legal '
+                'advisers, timing and fees before proceeding. <a href="/discovery/">Request a QSBS '
+                'eligibility review</a>.</p>']),
+              ('Official Sources',
+               ['<p>Tax-law review: November 6, 2026. The statute governs newer-stock tiers; the 2025 IRS '
+                'return instructions also describe eligibility and reporting for that return year. This '
+                'guide is general information, not a determination that your stock qualifies.</p><ul><li><a '
+                'href="https://uscode.house.gov/us/usc/119-120/t26/s1202/">Current Section 1202 statute: '
+                'dates, caps and eligibility</a></li><li><a '
+                'href="https://uscode.house.gov/us/usc/119-118/t26/s1045/">Section 1045 rollover '
+                'statute</a></li><li><a href="https://www.irs.gov/instructions/i1040sd">IRS Schedule D '
+                'instructions: QSBS eligibility and reporting</a></li><li><a '
+                'href="https://www.irs.gov/publications/p550">IRS Publication 550: stock gains, losses and '
+                'holding periods</a></li><li><a '
+                'href="https://www.ftb.ca.gov/forms/2025/2025-540-ca-instructions.html">California Schedule '
+                'CA instructions: federal adjustments</a></li></ul>'])],
+ 'faqs': [('Does S corporation stock qualify for Section 1202?',
+           'Revoking an S election does not turn existing S corporation shares into QSBS and does not create '
+           'a deemed new stock issuance. A genuine new original issuance by an eligible domestic C '
+           'corporation must be analyzed separately. Incorporating an LLC taxed as a partnership or '
+           'disregarded entity can involve qualifying original-issue C corporation stock in exchange for '
+           'property, if all requirements are met. The qualifying holding period generally starts at that '
+           'incorporation, and Section 1202(i) prevents pre-contribution appreciation from becoming '
+           'excludable gain.'),
+          ('How much gain can I exclude?',
+           'The eligible-gain ceiling is the greater of the remaining per-issuer dollar limit or 10 times '
+           "the adjusted basis of that issuer's QSBS sold during the tax year, ignoring additions to basis "
+           'after original issuance. The dollar limit is $10 million for stock acquired on or before July 4, '
+           '2025, or $15 million for stock acquired after July 4, 2025 (the 2026 amount, with inflation '
+           'adjustments beginning after 2026). Prior eligible gain from the same issuer reduces the dollar '
+           'limit; mixed old and new lots require coordination, not two independent allowances. Apply the '
+           'applicable exclusion percentage to the eligible gain after this limit. Stock acquired on or '
+           'before July 4, 2025 must be held for more than five years. Qualifying stock acquired after '
+           'September 27, 2010 and on or before July 4, 2025 can receive a 100% exclusion. For stock '
+           'acquired after July 4, 2025, the exclusion is 50% after at least three years, 75% after at least '
+           'four years, and 100% after at least five years. These percentages apply to eligible gain after '
+           'the per-issuer limit, not automatically to all sale proceeds. Acquisition dates reflect '
+           'applicable holding-period tacking rules.'),
+          ('Can I multiply the exclusion by gifting stock?',
+           'A qualifying gift or transfer at death can preserve the original issuance treatment and holding '
+           'period under Section 1202(h); it does not reset old stock into the post-July 4, 2025 regime. '
+           'Separate noncorporate taxpayers may have separate per-issuer limits, but a married couple filing '
+           'jointly does not get two dollar limits merely by holding shares separately. Grantor trusts do '
+           'not create additional income-tax taxpayers. Non-grantor trusts require review of ownership, '
+           'trust aggregation, completed gifts, valuation, gift-tax reporting and assignment-of-income risk. '
+           'There is no universal safe number of trusts or waiting period.'),
+          ('What if I sell before five years?',
+           'Stock acquired on or before July 4, 2025 must be held for more than five years. Qualifying stock '
+           'acquired after September 27, 2010 and on or before July 4, 2025 can receive a 100% exclusion. '
+           'For stock acquired after July 4, 2025, the exclusion is 50% after at least three years, 75% '
+           'after at least four years, and 100% after at least five years. These percentages apply to '
+           'eligible gain after the per-issuer limit, not automatically to all sale proceeds. Acquisition '
+           'dates reflect applicable holding-period tacking rules. Section 1045 may defer gain when a '
+           'noncorporate taxpayer sells QSBS held for more than six months, elects rollover treatment, and '
+           'buys replacement QSBS during the 60-day period beginning on the sale date. Full deferral '
+           'generally requires reinvesting the amount realized, not just the gain. Deferred gain reduces '
+           'replacement-stock basis; applicable holding-period tacking must be analyzed. A rollover does not '
+           'automatically secure a later Section 1202 exclusion or increase its cap.'),
+          ('Do states honor the Section 1202 exclusion?',
+           'State treatment must be checked for the sale year, residency, sourcing and any trust. California '
+           'does not conform to the federal Section 1202 exclusion. A federal exclusion therefore does not '
+           'establish a zero state-tax result, and the 2025 federal expansion should not be assumed to apply '
+           'in every state. A change of residence or trust location is not an automatic cure for state '
+           'tax.')],
+ 'related': [('/blog/when-does-it-make-sense-to-form-a-c-corporation/',
+              'When forming a C corporation makes sense'),
+             ('/blog/stock-sale-vs-asset-sale-tax-implications/', 'Stock sale versus asset sale'),
+             ('/blog/s-corp-to-c-corp-conversion-when-it-makes-sense/', 'S corp to C corp conversion')],
+ 'cta_head': 'The Decisions That Matter Happen at Formation',
+ 'cta_body': 'QSBS planning is worth millions and expires quietly if the entity type or issuance timing is '
+             'wrong. Bring your cap table and formation history.'},
 ]
 
 if __name__ == "__main__":
