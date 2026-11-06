@@ -115,7 +115,24 @@ def card(e):
     date = f'<time class="blog-date" datetime="{e["date"]}">{e["date"]}</time>' if e['date'] else ''
     return f'<article class="blog-card"><div class="blog-body"><div class="blog-meta"><span class="blog-cat">{esc(e["category"])}</span>{date}</div><h3><a href="{e["url"]}">{esc(e["title"])}</a></h3><p>{esc(e["description"])}</p></div></article>'
 
+def external_companion_block(text):
+    """Preserve the independently authored, explicitly marked landing section."""
+    start, end = '<!-- external-companions:start -->', '<!-- external-companions:end -->'
+    if start not in text and end not in text:
+        return ''
+    if text.count(start) != 1 or text.count(end) != 1:
+        raise ValueError('Ambiguous external companion section markers')
+    left, right = text.index(start), text.index(end)
+    if right <= left:
+        raise ValueError('Reversed external companion section markers')
+    block = text[left:right + len(end)]
+    if re.search(r'</?main\b', block, re.I):
+        raise ValueError('External companion section cannot contain main boundaries')
+    return block
+
 def render():
+    landing = ROOT / 'blog/index.html'
+    companions = external_companion_block(landing.read_text()) if landing.exists() else ''
     entries = load(); unique = set()
     for e in entries:
         checked = article(e['url'], e['category'])
@@ -138,6 +155,8 @@ def render():
         nav += (f' <a rel="next" href="{archive_path(page+1)}">Next</a>' if page < pages else '')
         schema = {'@context':'https://schema.org','@type':'CollectionPage','name':heading,'url':SITE+route,'mainEntity':{'@type':'ItemList','numberOfItems':len(visible),'itemListElement':[{'@type':'ListItem','position':i+1,'url':SITE+e['url'],'name':e['title']} for i,e in enumerate(visible)]}}
         body = f'''<main id="main-content" tabindex="-1"><section class="page-header"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/blog/">Blog</a>{f' › Page {page}' if page>1 else ''}</nav><h1>{html.escape(heading)}</h1><p>{len(entries)} articles for business owners and real estate investors. Page {page} of {pages}.</p><p><a href="/business-owner-tax-planning/">Business owner planning</a> · <a href="/real-estate-tax-planning/">Real estate planning</a> · <a href="/cost-segregation-study/">Cost segregation</a> · <a href="/tax-movement-explained/">Illustrated tax lessons</a> · <a href="/feed.xml">Article feed</a></p><p><a href="/editorial-policy/">How we review tax content</a> · <a href="/tax-return-mistakes/">Return-review guides and checklist</a></p></div></section><section class="content-section"><div class="container"><form id="blog-search-form" action="{route}" method="get" role="search"><div class="blog-toolbar"><label for="blog-search-input">Search all articles</label><input class="blog-search" type="search" id="blog-search-input" name="q" placeholder="Topic, strategy or IRC section"><label for="blog-category">Category</label><select id="blog-category" name="category">{options}</select><button type="submit">Search</button><button type="reset">Clear filters</button></div></form><noscript><p>Interactive search requires JavaScript. Browse every article using the numbered archive links below.</p></noscript><p id="blog-result-status" role="status" aria-live="polite" tabindex="-1">Showing articles {(page-1)*PAGE_SIZE+1}–{min(page*PAGE_SIZE,len(entries))} of {len(entries)}.</p><div class="blog-grid" id="blog-grid">{''.join(card(e) for e in visible)}</div><button id="blog-load-more" class="blog-more" type="button" hidden>Show more results</button><nav id="blog-pagination" class="blog-pagination" aria-label="Blog archive pages">{nav}</nav></div></section></main>'''
+        if page == 1 and companions:
+            body = re.sub(r'(<main\b[^>]*>)', lambda match: match[0] + companions, body, count=1)
         output = template.replace('{{TITLE}}',html.escape(title)).replace('{{DESCRIPTION}}',html.escape(description,quote=True)).replace('{{CANONICAL}}',SITE+route).replace('{{SCHEMA}}',json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')).replace('{{MAIN}}',body)
         target = ROOT/route.strip('/')/'index.html'; target.parent.mkdir(parents=True,exist_ok=True); target.write_text(output)
     # Only remove obsolete generated archive pages, never editorial directories.
