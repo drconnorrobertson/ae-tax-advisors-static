@@ -57,6 +57,7 @@ for path in pages:
         if obj.get('@type') == 'Article' and obj.get('dateModified') != '2026-11-06': errors.append(path + ': modified date')
         if obj.get('@type') in ('Review', 'AggregateRating'): errors.append(path + ': unsupported review rating')
     if 'AE Tax Advisors provides tax planning' not in text: errors.append(path + ': AE service positioning')
+    if text.count('src="/assets/booking-events.js"') != 1: errors.append(path + ': booking event hook')
     if 'alternatives/' in path:
         if text.count('id="provider-review"') != 1: errors.append(path + ': review anchor')
         if text.find('Which ') > text.find('id="provider-review"'): errors.append(path + ': shortlist not first')

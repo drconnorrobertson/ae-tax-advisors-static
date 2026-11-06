@@ -67,7 +67,7 @@ def save(path, title, desc, body, slugs, faqs=None, intent=None):
         schemas.append(T.faq_schema([(q, p(a)) for q, a in faqs]))
     body += sources(slugs)
     body += T.related_section([(route(s, k), providers[s]['name'] + label) for s in slugs for k, label in [('alternative', ' alternatives'), ('pricing', ' pricing'), ('comparison', ' vs AE Tax Advisors')]] + [('/compare/', 'Browse tax advisor comparisons'), ('/pricing/', 'AE service pricing'), ('/case-studies/', 'AE case studies and their limitations')])
-    doc = T.build_page(title=title + ' | AE Tax Advisors', description=desc, path=path, body=head + body, schemas=schemas, published=published, modified=DATE, active_nav='/compare/', extra_head='<link rel="stylesheet" href="/assets/competitor-pricing.css?v=20261024">')
+    doc = T.build_page(title=title + ' | AE Tax Advisors', description=desc, path=path, body=head + body, schemas=schemas, published=published, modified=DATE, active_nav='/compare/', extra_head='<link rel="stylesheet" href="/assets/competitor-pricing.css?v=20261024">\n<script defer src="/assets/booking-events.js"></script>')
     file.parent.mkdir(parents=True, exist_ok=True)
     file.write_text(doc)
     written.append(path)
