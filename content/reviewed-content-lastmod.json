@@ -213,5 +213,22 @@
   "/compare/p4-tax-vs-anomaly-cpa/": "2026-11-06",
   "/compare/taxstra-vs-wcg-cpas/": "2026-11-06",
   "/compare/anomaly-cpa-vs-wcg-cpas/": "2026-11-06",
-  "/compare/delerme-cpa-vs-taxstra/": "2026-11-06"
+  "/compare/delerme-cpa-vs-taxstra/": "2026-11-06",
+  "/compare/madison-specs-pricing/": "2026-11-06",
+  "/compare/madison-specs-vs-ae-tax/": "2026-11-06",
+  "/compare/engineered-tax-services-alternatives/": "2026-11-06",
+  "/compare/engineered-tax-services-pricing/": "2026-11-06",
+  "/compare/kbkg-alternatives/": "2026-11-06",
+  "/compare/kbkg-pricing/": "2026-11-06",
+  "/compare/kbkg-vs-ae-tax/": "2026-11-06",
+  "/compare/maven-cost-segregation-alternatives/": "2026-11-06",
+  "/compare/maven-cost-segregation-pricing/": "2026-11-06",
+  "/compare/maven-cost-segregation-vs-ae-tax/": "2026-11-06",
+  "/compare/madison-specs-vs-engineered-tax-services/": "2026-11-06",
+  "/compare/engineered-tax-services-vs-kbkg/": "2026-11-06",
+  "/compare/kbkg-vs-maven-cost-segregation/": "2026-11-06",
+  "/compare/cost-segregation-authority-vs-engineered-tax-services/": "2026-11-06",
+  "/compare/cost-segregation-authority-vs-maven-cost-segregation/": "2026-11-06",
+  "/compare/cost-segregation-authority-vs-madison-specs/": "2026-11-06",
+  "/compare/cost-segregation-authority-vs-kbkg/": "2026-11-06"
 }
