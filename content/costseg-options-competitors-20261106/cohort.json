@@ -1,0 +1,69 @@
+{
+  "mode": "costseg",
+  "marker": "costseg-options-competitor-discovery",
+  "published": [
+    "re-cost-seg",
+    "cost-seg-smart",
+    "costsegez"
+  ],
+  "new_comparisons": 3,
+  "refreshed_pair_comparisons": 4,
+  "hub_routes": [
+    "/compare/",
+    "/compare/best-cost-segregation-companies/",
+    "/cost-segregation-study/",
+    "/cost-segregation-study-cost-pricing/",
+    "/real-estate-tax-planning/"
+  ],
+  "pairs": [
+    [
+      "capstan-tax-strategies",
+      "cssi",
+      "capstan-tax-strategies-vs-cssi",
+      "You need a study for a renovated commercial building and may also need a separate incentive project. Compare the engineering scope, asset records and accountant handoff before adding specialty services.",
+      "Which study route fits this property, what evidence supports the allocations, and which schedules, CPA responses and separately priced filings are included?"
+    ],
+    [
+      "capstan-tax-strategies",
+      "re-cost-seg",
+      "capstan-tax-strategies-vs-re-cost-seg",
+      "You are weighing specialty engineering against a provider with multiple study routes. Ask which route fits the building and request equivalent inspection, analysis and CPA deliverables.",
+      "Which study route fits this property, what evidence supports the allocations, and which schedules, CPA responses and separately priced filings are included?"
+    ],
+    [
+      "capstan-tax-strategies",
+      "cost-seg-smart",
+      "capstan-tax-strategies-vs-cost-seg-smart",
+      "You want to compare a specialty engineering proposal with a remotely delivered study service. Start with the property records, inspection requirements and report detail rather than headline price.",
+      "Which study route fits this property, what evidence supports the allocations, and which schedules, CPA responses and separately priced filings are included?"
+    ],
+    [
+      "capstan-tax-strategies",
+      "costsegez",
+      "capstan-tax-strategies-vs-costsegez",
+      "You own property that may not fit an entry-level report tier. Compare a Capstan study proposal with the eligible CostSegEZ tier, including inspection, engineering review and support.",
+      "Which study route fits this property, what evidence supports the allocations, and which schedules, CPA responses and separately priced filings are included?"
+    ],
+    [
+      "re-cost-seg",
+      "costsegez",
+      "re-cost-seg-vs-costsegez",
+      "You own a small rental and are choosing between a Rapid Report, DIY or engineer-reviewed workflow. Check the different size, basis, purchase-price and renovation limits before comparing the selected fees.",
+      "Which tier is my property eligible for, how are my inputs reviewed, and what inspection, support and accountant handoff does that tier include?"
+    ],
+    [
+      "cost-seg-smart",
+      "costsegez",
+      "cost-seg-smart-vs-costsegez",
+      "You want a property-specific study with a predictable budget. Compare Cost Seg Smart’s selected property price with the eligible CostSegEZ tier, including review depth, revisions and audit-response terms.",
+      "What does my selected fee buy in data verification, engineer review, revisions, written support and separately priced preparation?"
+    ],
+    [
+      "re-cost-seg",
+      "cost-seg-smart",
+      "re-cost-seg-vs-cost-seg-smart",
+      "You hold a rental with improvements and want a report your existing CPA can implement. Compare the selected study method, documentation requirements and any separately offered Form 3115 preparation.",
+      "Which study method fits my building and records, what supporting schedules reach my CPA, and what is the complete study-plus-preparation quote?"
+    ]
+  ]
+}
