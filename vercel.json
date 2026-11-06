@@ -1146,6 +1146,16 @@
       "source": "/mid-term-rental-tax-planning-and-preparation",
       "destination": "/mid-term-rental-tax-accounting-setup/",
       "statusCode": 301
+    },
+    {
+      "source": "/the-business-owners-guide-to-section-453-installment-sales-and-deferred-gain-recognition/",
+      "destination": "/the-business-owners-guide-to-installment-sales-and-deferred-gain-strategies/",
+      "permanent": true
+    },
+    {
+      "source": "/the-business-owners-guide-to-section-453-installment-sales-and-deferred-gain-recognition",
+      "destination": "/the-business-owners-guide-to-installment-sales-and-deferred-gain-strategies/",
+      "permanent": true
     }
   ],
   "headers": [

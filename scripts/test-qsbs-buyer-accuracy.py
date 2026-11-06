@@ -9,7 +9,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from decimal import Decimal as D
 from urllib.parse import urlsplit,unquote
-import ast,html,importlib.util,json,re,subprocess,sys
+import ast,hashlib,html,importlib.util,json,re,subprocess,sys
 
 REPO=Path(__file__).resolve().parents[1]
 ROOT=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else REPO
@@ -165,11 +165,29 @@ check('June 1, 2026 is exactly five years' in E and 'June 2, 2026 sale can satis
 check(D(5000000)*D('.238')==1190000,'$5M federal savings')
 check('generally limited to $3,000 ($1,500 if married filing separately)' in E,'Capital-loss rule preserved')
 
-# Generator scope: AST outside only one definition/article must remain identical.
+# A separately reviewed sale cohort may update STRUCTURE in the same module.
+# Require its exact approved definition and dedicated source/staged checks before
+# excluding it; every other non-QSBS definition remains strictly preserved.
+allow_sale_structure=(REPO/'content/sale-buyer-accuracy-20261106/pages.json').exists()
+if allow_sale_structure:
+ sale_routes=json.loads((REPO/'content/sale-buyer-accuracy-20261106/pages.json').read_text())
+ check(sale_routes==['/the-business-owners-guide-to-installment-sales-and-deferred-gain-strategies/','/1031-exchange-planning/','/structuring-your-business-for-sale/','/business-exit-tax-planning-minimize-taxes-selling-company/'],'Exact reviewed sale cohort')
+ def structure_signature(source):
+  nodes=[n for n in ast.parse(source).body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='STRUCTURE' for t in n.targets)]
+  assert len(nodes)==1
+  return hashlib.sha256(ast.dump(nodes[0],include_attributes=False).encode()).hexdigest()
+ source=(REPO/'cluster_c8.py').read_text()
+ expected_structure='9fb97321e4373c3d5714859760aa5e26809170632b0b053080c292010c1b3300'
+ check(structure_signature(source)==expected_structure,'Reviewed sale STRUCTURE definition preserved')
+ for old,new in [('Doing it years earlier does not','Doing it years earlier does'),('Section 751','Section 999')]:
+  changed=source.replace(old,new)
+  check(changed!=source and structure_signature(changed)!=expected_structure,'Changed sale definition must be rejected')
+ subprocess.run([sys.executable,str(REPO/'scripts/test-sale-buyer-guides.py'),str(ROOT)],check=True)
+# Generator scope: all remaining definitions/articles must remain identical.
 def normalized_module(source,kind):
  tree=ast.parse(source)
  if kind=='cluster':
-  tree.body=[n for n in tree.body if not(isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='QSBS' for t in n.targets))]
+  tree.body=[n for n in tree.body if not(isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id in ({'QSBS','STRUCTURE'} if allow_sale_structure else {'QSBS'}) for t in n.targets))]
  else:
   arr=next(n.value for n in tree.body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='ARTICLES' for t in n.targets))
   arr.elts=[n for n in arr.elts if not any(isinstance(k,ast.Constant) and k.value=='slug' and isinstance(v,ast.Constant) and v.value=='qualified-small-business-stock-section-1202' for k,v in zip(n.keys,n.values))]
