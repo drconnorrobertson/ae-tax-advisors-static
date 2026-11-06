@@ -1,0 +1,68 @@
+{
+  "mode": "costseg",
+  "marker": "next-costseg-competitor-discovery",
+  "published": [
+    "basis-cost-segregation",
+    "my-cost-segregation"
+  ],
+  "new_comparisons": 3,
+  "refreshed_pair_comparisons": 4,
+  "hub_routes": [
+    "/compare/",
+    "/compare/best-cost-segregation-companies/",
+    "/cost-segregation-study/",
+    "/cost-segregation-study-cost-pricing/",
+    "/real-estate-tax-planning/"
+  ],
+  "pairs": [
+    [
+      "basis-cost-segregation",
+      "mcguire-sponsel",
+      "basis-cost-segregation-vs-mcguire-sponsel",
+      "You are comparing a residential-only remote study with a site-inspected specialty engagement. Confirm whether the building fits BASIS’s base scope before comparing investigation and cost.",
+      "Does this property qualify for your selected service, what site or remote investigation occurs, and what schedules and accountant support does the price include?"
+    ],
+    [
+      "basis-cost-segregation",
+      "duffy-duffy-cost-segregation",
+      "basis-cost-segregation-vs-duffy-duffy-cost-segregation",
+      "You are weighing a remote residential workflow against a commercial engineering specialist. Establish property eligibility and investigation requirements first, then compare the complete report and preparer handoff.",
+      "Does the same building fit both proposals, and how do inspection evidence, component analysis, review and preparer responsibilities differ?"
+    ],
+    [
+      "basis-cost-segregation",
+      "cost-segregation-guys",
+      "basis-cost-segregation-vs-cost-segregation-guys",
+      "You own an eligible residential rental but want to compare remote intake with a virtual or on-site engineering proposal. Include owner effort, engineer review and CPA handoff in the decision.",
+      "What property information do I supply, what does your team investigate or verify, and which support and filing tasks are excluded from the study fee?"
+    ],
+    [
+      "basis-cost-segregation",
+      "my-cost-segregation",
+      "basis-cost-segregation-vs-my-cost-segregation",
+      "You want an online residential study with professional review. Compare BASIS’s base workflow with the applicable My Cost Segregation tier, including property-value limits, inspection evidence and accountant delivery.",
+      "Which tier fits this property, who reviews the inputs, and what do the fee, revision terms and preparer handoff actually cover?"
+    ],
+    [
+      "mcguire-sponsel",
+      "duffy-duffy-cost-segregation",
+      "mcguire-sponsel-vs-duffy-duffy-cost-segregation",
+      "You are requesting a commercial study for a renovated office building and plan to retain your CPA. Compare the engineering investigation, cost reconciliation and draft accountant review for the same property.",
+      "Which buildings and improvements will be investigated, what supports the component allocations, and who resolves CPA questions before the report is used?"
+    ],
+    [
+      "mcguire-sponsel",
+      "cost-segregation-guys",
+      "mcguire-sponsel-vs-cost-segregation-guys",
+      "You are choosing a study method for a multifamily property with incomplete renovation records. Compare a site-inspected proposal with the selected virtual or on-site proposal and ask how each handles missing records.",
+      "What inspection and evidence collection will this property receive, how are missing costs resolved, and what schedules and support does the fixed quote cover?"
+    ],
+    [
+      "cost-segregation-guys",
+      "my-cost-segregation",
+      "cost-segregation-guys-vs-my-cost-segregation",
+      "You want a rental-property report and are comparing a virtual or on-site study with a self-serve or reviewed photo-based workflow. Select the eligible tier before comparing total cost and owner effort.",
+      "Who supplies and verifies the inputs, which human review and inspection occur, and what does each selected tier deliver to the CPA?"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "selection": "Five existing cost segregation providers omitted from the four researched November 6 rollout cohorts. Existing URLs preserve authority; new comparisons fill absent pair routes. Selection is based on coverage and differentiated service models, not unverified search-volume or ranking estimates.",
+  "providers": [
+    "mcguire-sponsel",
+    "duffy-duffy-cost-segregation",
+    "basis-cost-segregation",
+    "cost-segregation-guys",
+    "my-cost-segregation"
+  ],
+  "checked": "2026-11-06",
+  "existing_pairs_refreshed": 4,
+  "missing_pairs_added": 3,
+  "baseline": {
+    "core_pages_exist": 15,
+    "fee_evidence_rechecked": 5
+  },
+  "new_pair_routes": [
+    "/compare/mcguire-sponsel-vs-duffy-duffy-cost-segregation/",
+    "/compare/mcguire-sponsel-vs-cost-segregation-guys/",
+    "/compare/cost-segregation-guys-vs-my-cost-segregation/"
+  ]
+}
