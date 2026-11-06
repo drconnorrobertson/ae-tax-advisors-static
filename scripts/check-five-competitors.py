@@ -12,8 +12,11 @@ from urllib.parse import urljoin, urlsplit, unquote
 REPO = Path(__file__).resolve().parents[1]
 ROOT = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else REPO
 BASE = 'https://www.aetaxadvisors.com'
-pages = json.loads((REPO / 'content/five-competitors-20261106/pages.json').read_text())
-sources = json.loads((REPO / 'content/five-competitors-20261106/sources.json').read_text())
+COHORT = sys.argv[2] if len(sys.argv) > 2 else 'five-competitors-20261106'
+assert re.fullmatch(r'[a-z0-9-]+', COHORT)
+DATA = REPO / 'content' / COHORT
+pages = json.loads((DATA / 'pages.json').read_text())
+sources = json.loads((DATA / 'sources.json').read_text())
 config = json.loads((REPO / 'vercel.json').read_text())
 redirects = {r['source']: r['destination'] for r in config['redirects'] if not re.search(r'[:*()]', r['source'])}
 sitemaps = {e.text for f in ROOT.glob('sitemap*.xml') for e in ET.parse(f).findall('.//{*}loc')}
@@ -84,5 +87,10 @@ directory = json.loads((ROOT / 'compare/competitor-pricing/prices.json').read_te
 for r in directory['providers']:
     if r['slug'] in sources:
         if r['fee'] != sources[r['slug']]['fee'] or r['reviewed'] != '2026-11-06': errors.append(r['slug'] + ': stale directory evidence')
+if (DATA / 'preservation.json').exists():
+    import hashlib
+    for path, digest in json.loads((DATA / 'preservation.json').read_text()).items():
+        if hashlib.sha256((REPO / path.strip('/') / 'index.html').read_bytes()).hexdigest() != digest:
+            errors.append(path + ': prior cohort source changed')
 assert not errors, '\n'.join(errors)
 print(json.dumps({'pages': len(pages), 'internal_links_checked': links_checked, 'errors': errors}))
