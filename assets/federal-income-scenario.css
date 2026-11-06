@@ -1,0 +1,11 @@
+[data-federal-scenario] fieldset { border:1px solid #cbd5e1; border-radius:8px; padding:1.25rem; min-width:0; }
+[data-federal-scenario] legend { font-weight:700; padding:0 .4rem; }
+[data-federal-scenario] label { display:block; font-weight:600; margin-bottom:.4rem; }
+[data-federal-scenario] input[type=number], [data-federal-scenario] select { display:block; width:100%; max-width:100%; padding:.65rem; font:inherit; color:inherit; border:1px solid #64748b; border-radius:4px; background:#fff; box-sizing:border-box; }
+[data-federal-scenario] small { display:block; margin-top:.4rem; line-height:1.5; }
+[data-federal-scenario] button { margin:.4rem .4rem .4rem 0; padding:.7rem 1rem; }
+[data-federal-scenario] button:disabled { opacity:.6; cursor:not-allowed; }
+#federal-result { margin-top:1.5rem; padding:1rem; border:1px solid #cbd5e1; border-radius:8px; }
+#federal-result dt { font-weight:600; margin-top:.7rem; }
+#federal-result dd { margin-left:0; font-size:1.1rem; }
+#federal-error { color:#9f1239; }

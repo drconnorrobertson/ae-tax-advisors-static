@@ -15,7 +15,7 @@
     <meta property="og:site_name" content="AE Tax Advisors">
     <meta property="og:image" content="https://www.aetaxadvisors.com/assets/ae-tax-logo.png">
     <meta property="article:published_time" content="2026-08-15T00:00:00-06:00">
-    <meta property="article:modified_time" content="2026-08-15T00:00:00-06:00">
+    <meta property="article:modified_time" content="2026-11-06T00:00:00Z">
     <meta property="article:author" content="AE Tax Advisors Team">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="S-Corp Tax Savings Calculator (2026) | AE Tax Advisors">
@@ -61,7 +61,7 @@
       "name": "At what profit does an S-Corp election make sense?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Generally once net profit reliably exceeds roughly $60,000 to $80,000 per owner. Below that, the added cost of a separate 1120-S return, payroll processing, and state filings tends to exceed the employment tax saved."
+        "text": "There is no universal profit threshold. A $60,000 to $80,000 profit range is not an eligibility rule or verified break-even benchmark. Compare supportable compensation, employer payroll taxes, added costs, other earnings and income-tax effects before deciding."
       }
     },
     {
@@ -77,7 +77,7 @@
       "name": "Does an S-Corp reduce my income tax?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Profit is taxed at the same ordinary rates either way. The election reduces self-employment and payroll tax only."
+        "text": "An S election can change income-tax results through deductible expenses, QBI, retirement contributions and health-benefit treatment. This calculator compares employment taxes only and does not estimate those income-tax effects or total household savings."
       }
     },
     {
@@ -85,7 +85,7 @@
       "name": "Should I put rental property in an S-Corp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Generally no. Rental income is not subject to self-employment tax, so there is nothing to save, and distributing appreciated property out of an S corporation triggers gain as though it had been sold at fair market value."
+        "text": "Ordinary real-estate rental income is generally excluded from self-employment tax, but exceptions can apply, including certain service-intensive activities. Do not use this operating-business comparison to choose a rental holding entity. Distributing appreciated property from an S corporation generally triggers corporate-level gain passed through to shareholders; obtain a separate ownership and exit review."
       }
     }
   ]
@@ -301,7 +301,7 @@
   "description": "Estimate the self-employment tax you would save by electing S-Corp treatment, net of payroll and compliance costs, based on your net profit and reasonable compensation.",
   "url": "https://www.aetaxadvisors.com/s-corp-tax-savings-calculator/",
   "datePublished": "2026-08-15",
-  "dateModified": "2026-08-15",
+  "dateModified": "2026-11-06T00:00:00Z",
   "inLanguage": "en-US",
   "author": {
     "@type": "Organization",
@@ -413,7 +413,7 @@
 
     <section class="content-section fade-in-section">
         <div class="container narrow">
-            <p class="definition-lead">An S-Corp tax savings calculator estimates the employment tax difference between default pass-through taxation, where all net profit is subject to self-employment tax, and S-Corp taxation, where only reasonable W-2 wages are subject to payroll tax. The saving is 15.3% on the amount characterized as distribution up to the Social Security wage base, and 2.9% to 3.8% above it. An S election reduces employment tax only, never income tax.</p>
+            <p class="definition-lead">This calculator compares modeled federal employment taxes for a sole proprietor and an S corporation owner performing services. Sole-proprietor self-employment tax generally uses 92.35% of net profit; S corporation payroll taxes apply to wages, including reasonable compensation. The difference is not a flat percentage of distributions. Income tax, QBI, retirement contributions, health benefits and state treatment can also change with the election and are outside this employment-tax comparison.</p>
         </div>
     </section>
 
@@ -424,7 +424,7 @@
                 <div class="calc-row">
             <div class="calc-field">
                 <label for="sc-profit">Net business profit</label>
-                <span class="hint">Before any owner wage, after all other expenses.</span>
+                <span class="hint">Before owner wages, employer payroll taxes and the added compliance costs entered below; after other operating expenses.</span>
                 <input type="number" id="sc-profit" value="180000" inputmode="decimal" step="1000">
             </div>
             <div class="calc-field">
@@ -434,8 +434,8 @@
             </div>
             <div class="calc-field">
                 <label for="sc-base">Social Security wage base</label>
-                <span class="hint">Adjusts annually. Confirm the current figure before relying on it.</span>
-                <input type="number" id="sc-base" value="184500" inputmode="decimal" step="100">
+                <span class="hint">2026 base: $184,500. This model uses the 2026 wage base.</span>
+                <input type="number" id="sc-base" value="184500" readonly inputmode="decimal" step="100">
             </div>
             <div class="calc-field">
                 <label for="sc-costs">Added annual compliance cost</label>
@@ -447,23 +447,24 @@
                 <span class="hint">Sets the additional Medicare tax threshold.</span>
                 <select id="sc-filing">
                     <option value="250000" selected>Married filing jointly</option>
-                    <option value="200000">Single / head of household</option>
+                    <option value="200000">Single / head of household / qualifying surviving spouse</option><option value="125000">Married filing separately</option>
                 </select>
             </div>
                 </div>
-                <div class="calc-out">
+<div class="calc-field"><label for="sc-other">Other wages or self-employment earnings?</label><select id="sc-other"><option value="unknown">Confirm before calculating</option><option value="none">None for this owner; none for spouse if filing jointly</option><option value="yes">Yes, or household facts need review</option></select><span class="hint">Other earnings can affect Social Security coordination and Additional Medicare tax. Those cases need a separate calculation.</span></div>
+                <div class="calc-out" aria-live="polite">
                     <h3>Estimated Result</h3>
                     <div class="calc-lines">
-                <div class="calc-line"><span>Self-employment tax as an LLC / sole prop</span><span id="sc-se">&mdash;</span></div>
-                <div class="calc-line"><span>Payroll tax as an S-Corp</span><span id="sc-pr">&mdash;</span></div>
-                <div class="calc-line"><span>Profit distributed free of employment tax</span><span id="sc-dist">&mdash;</span></div>
+                <div class="calc-line"><span>Sole-proprietor self-employment and Additional Medicare tax</span><span id="sc-se">&mdash;</span></div>
+                <div class="calc-line"><span>S corporation FICA (both shares) plus owner Additional Medicare tax</span><span id="sc-pr">&mdash;</span></div>
+                <div class="calc-line"><span>Modeled business profit after wages, employer FICA and added costs</span><span id="sc-dist">&mdash;</span></div>
                 <div class="calc-line"><span>Gross employment tax saved</span><span id="sc-gross">&mdash;</span></div>
-                        <div class="calc-line headline"><span>Net annual saving after costs</span>
+                        <div class="calc-line headline"><span>Modeled employment-tax difference after added costs</span>
                         <span id="sc-net">&mdash;</span></div>
                     </div>
             <p class="calc-note" id="sc-verdict" style="color:rgba(255,255,255,.85);margin-top:14px;"></p>
                 </div>
-                <p class="calc-note">This estimates employment tax only. An S election does not reduce income tax. Two factors can reverse the answer: an unsupported wage invites a reasonable compensation adjustment with back payroll tax, penalties, and interest across every open year; and above the Section 199A taxable income thresholds, the qualified business income deduction for a non-service business is limited by W-2 wages, so a lower salary can cost more in lost deduction than it saves in payroll tax. State payroll taxes, unemployment insurance, and state entity-level fees are not included.</p>
+                <p class="calc-note">This comparison assumes one working owner with no other wages or self-employment earnings and, on a joint return, no spouse earnings. It includes both FICA shares and the owner’s Additional Medicare tax liability, not payroll withholding. Additional Medicare tax has no employer matching share. Remaining business profit subtracts employer FICA and entered compliance costs, not employee withholding, and is not a promised distribution or spendable cash. Income tax, QBI, retirement and health-benefit interactions are not modeled. QBI can depend on taxable income, business type, W-2 wages and qualifying property. State taxes, unemployment insurance and other unentered costs are excluded. Negative remaining profit indicates a modeled business loss, not distributable income. Reasonable compensation must be supported independently; this tool does not validate the wage.</p>
             </div>
             <div class="center-cta" style="margin-top:22px;">
                 <a href="/discovery/" class="btn-cta btn-lg">Review Your S-Corp Savings</a>
@@ -476,7 +477,7 @@
             <h2>Frequently Asked Questions</h2>
             <div class="faq-item">
                 <h3>At what profit does an S-Corp election make sense?</h3>
-                <p>Generally once net profit reliably exceeds roughly $60,000 to $80,000 per owner. Below that, the added cost of a separate 1120-S return, payroll processing, and state filings tends to exceed the employment tax saved.</p>
+                <p>There is no universal profit threshold. A $60,000 to $80,000 profit range is not an eligibility rule or verified break-even benchmark. Compare supportable compensation, employer payroll taxes, added costs, other earnings and income-tax effects before deciding.</p>
             </div>
             <div class="faq-item">
                 <h3>What reasonable compensation should I enter?</h3>
@@ -484,18 +485,18 @@
             </div>
             <div class="faq-item">
                 <h3>Does an S-Corp reduce my income tax?</h3>
-                <p>No. Profit is taxed at the same ordinary rates either way. The election reduces self-employment and payroll tax only.</p>
+                <p>An S election can change income-tax results through deductible expenses, QBI, retirement contributions and health-benefit treatment. This calculator compares employment taxes only and does not estimate those income-tax effects or total household savings.</p>
             </div>
             <div class="faq-item">
                 <h3>Should I put rental property in an S-Corp?</h3>
-                <p>Generally no. Rental income is not subject to self-employment tax, so there is nothing to save, and distributing appreciated property out of an S corporation triggers gain as though it had been sold at fair market value.</p>
+                <p>Ordinary real-estate rental income is generally excluded from self-employment tax, but exceptions can apply, including certain service-intensive activities. Do not use this operating-business comparison to choose a rental holding entity. Distributing appreciated property from an S corporation generally triggers corporate-level gain passed through to shareholders; obtain a separate ownership and exit review.</p>
             </div>
         </div>
     </section>
 
     <section class="content-section fade-in-section">
         <div class="container narrow">
-            <h2>Related Reading</h2>
+            <h2>Primary sources and review limits</h2><p>Model reviewed November 6, 2026. See <a href="https://www.ssa.gov/oact/cola/cbb.html">SSA contribution and benefit bases</a>, <a href="https://www.irs.gov/taxtopics/tc554">IRS self-employment tax guidance</a>, <a href="https://www.irs.gov/taxtopics/tc560">IRS Additional Medicare tax guidance</a> and <a href="https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues">IRS S corporation compensation and medical-insurance guidance</a>.</p><h2>Related Reading</h2>
             <ul class="related-links">
                 <li><a href="/cost-segregation-study/">Cost Segregation Study: How It Works</a></li>
                 <li><a href="/bonus-depreciation-2026-obbba/">Bonus Depreciation 2026 Under the OBBBA</a></li>
@@ -639,17 +640,19 @@
 
       function fmt(n){ return (n<0?'-$':'$') + Math.abs(Math.round(n)).toLocaleString('en-US'); }
       function calc(){
-        var profit = Math.max(+document.getElementById('sc-profit').value || 0, 0);
-        var wage = Math.max(+document.getElementById('sc-wage').value || 0, 0);
-        var base = Math.max(+document.getElementById('sc-base').value || 0, 0);
-        var costs = Math.max(+document.getElementById('sc-costs').value || 0, 0);
-        var thresh = +document.getElementById('sc-filing').value || 250000;
-        if (wage > profit) wage = profit;
+        var outputIds=['sc-se','sc-pr','sc-dist','sc-gross','sc-net'];
+        function invalid(message){outputIds.forEach(function(id){document.getElementById(id).textContent='—';});document.getElementById('sc-verdict').textContent=message;}
+        function read(id){var raw=document.getElementById(id).value.trim(), n=Number(raw);return raw!=='' && Number.isFinite(n) && n>=0 && n<=1e12 ? n : null;}
+        var profit=read('sc-profit'), wage=read('sc-wage'), costs=read('sc-costs'), base=184500;
+        var thresh=Number(document.getElementById('sc-filing').value);
+        if([profit,wage,costs].some(function(n){return n===null;}) || [125000,200000,250000].indexOf(thresh)===-1){invalid('Enter valid nonnegative amounts and a supported filing status.');return;}
+        if(document.getElementById('sc-other').value!=='none'){invalid('This model requires confirmation of no other owner earnings or spouse earnings on a joint return. Other earnings require separate Social Security and Additional Medicare coordination.');return;}
+        if(wage===0 && profit>0){invalid('Enter independently supported compensation for the working owner. Zero wages cannot be used here to illustrate avoiding all payroll tax.');return;}
 
-        // Sole prop / partnership: SE tax on 92.35% of profit
+        // Sole proprietor illustration: SE tax on 92.35% of profit
         var seBase = profit * 0.9235;
-        var seSS = Math.min(seBase, base) * 0.124;
-        var seMed = seBase * 0.029;
+        var seSS = seBase >= 400 ? Math.min(seBase, base) * 0.124 : 0;
+        var seMed = seBase >= 400 ? seBase * 0.029 : 0;
         var seAdd = Math.max(seBase - thresh, 0) * 0.009;
         var seTotal = seSS + seMed + seAdd;
 
@@ -661,20 +664,19 @@
 
         var gross = seTotal - prTotal;
         var net = gross - costs;
-        var distribution = profit - wage;
+        var employerFICA = Math.min(wage, base) * 0.062 + wage * 0.0145;
+        var remainingProfit = profit - wage - employerFICA - costs;
 
         document.getElementById('sc-se').textContent = fmt(seTotal);
         document.getElementById('sc-pr').textContent = fmt(prTotal);
-        document.getElementById('sc-dist').textContent = fmt(distribution);
+        document.getElementById('sc-dist').textContent = fmt(remainingProfit);
         document.getElementById('sc-gross').textContent = fmt(gross);
         document.getElementById('sc-net').textContent = fmt(net);
         var verdict = document.getElementById('sc-verdict');
-        if (net > 1500) verdict.textContent = 'An S election likely pays for itself at this profit level.';
-        else if (net > 0) verdict.textContent = 'Marginal. The saving is real but thin against the added complexity.';
-        else verdict.textContent = 'At this profit level the compliance cost exceeds the saving.';
+        verdict.textContent = (remainingProfit < 0 ? 'The entered wages, employer FICA and added costs exceed modeled business profit. ' : '') + 'This is an employment-tax comparison under the stated assumptions, not total tax savings or a recommendation to elect S status. Confirm reasonable compensation, income-tax effects and implementation costs separately.';
       }
  
-      var ids = ['sc-profit', 'sc-wage', 'sc-base', 'sc-costs', 'sc-filing'];
+      var ids = ['sc-profit', 'sc-wage', 'sc-base', 'sc-costs', 'sc-filing', 'sc-other'];
       ids.forEach(function(id){
         var el = document.getElementById(id);
         if(el){ el.addEventListener('input', calc); el.addEventListener('change', calc); }

@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-06",
+  "routes": [
+    "/tax-savings-calculator/",
+    "/business-owner-tax-calculator/"
+  ],
+  "model": "2026 federal ordinary income rate schedules only",
+  "source": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+}

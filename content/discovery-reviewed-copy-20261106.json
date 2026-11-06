@@ -510,5 +510,73 @@
   "/retirement-exit-ma-tax-strategy/": {
     "title": "Plan the tax consequences before the deal sets them.",
     "description": "Define business-sale tax modeling, allocation and Form 8594 responsibilities, seller-note timing, retained-building coordination and final return handoffs."
+  },
+  "/business-owner-tax-calculator/": {
+    "title": "Business Owner Tax Calculator: 2026 Income Scenarios",
+    "description": "Compare baseline and proposed 2026 taxable ordinary income using reviewed deductions. No assumed strategy eligibility, payroll savings or amendment refunds."
+  },
+  "/tax-savings-calculator/": {
+    "title": "2026 Federal Income Tax Savings Scenario Calculator",
+    "description": "Compare baseline and proposed 2026 taxable ordinary income using reviewed deductions. No assumed strategy eligibility, payroll savings or amendment refunds."
+  },
+  "/bonus-depreciation-calculator/": {
+    "title": "How Do You Calculate Bonus Depreciation in 2026?",
+    "description": "Calculate 2026 bonus depreciation step by step, test eligible basis, compare Section 179 and MACRS, and map the deduction to Form 4562."
+  },
+  "/s-corp-tax-savings-calculator/": {
+    "title": "S-Corp Tax Savings Calculator",
+    "description": "Estimate the self-employment tax you would save by electing S-Corp treatment, net of payroll and compliance costs, based on your net profit and reasonable compensation."
+  },
+  "/compare/capstan-tax-strategies-vs-ae-tax/": {
+    "title": "Capstan Tax Strategies vs AE Tax Advisors: Renovation Records and Study Scope",
+    "description": "Compare Capstan and AE for pre-renovation records, cost segregation, repairs, and disposition decisions. Clarify study scope, fees, and the return handoff."
+  },
+  "/compare/competitor-pricing/": {
+    "title": "Tax Advisor and Cost Segregation Pricing: 100 Providers",
+    "description": "Compare published fees and clearly labeled cost estimates for 100 tax, accounting, and cost segregation providers."
+  },
+  "/compare/cost-seg-authority-vs-ae-tax/": {
+    "title": "Cost Segregation Authority vs AE Tax Advisors: Study and Tax Implementation",
+    "description": "Compare CSA Partners and AE on study fees, owner-level planning, and return implementation. Identify who delivers the report, tests deductions, and files."
+  },
+  "/compare/cost-segregation-authority-alternatives/": {
+    "title": "Cost Segregation Authority Alternatives for Different Property Decisions",
+    "description": "Compare CSA alternatives for renovation records, building incentives, or owner-level tax planning. Choose a defined scope, handoff, and complete project budget."
+  },
+  "/compare/cost-segregation-authority-pricing/": {
+    "title": "Cost Segregation Authority Pricing: Published Starting Fee and Quote Scope",
+    "description": "CSA Partners studies start at $3,000. Review the official price, quote drivers, separate filing costs, and the dated AE budget without confusing the two."
+  },
+  "/compare/engineered-tax-services-vs-ae-tax/": {
+    "title": "Engineered Tax Services vs AE Tax Advisors: Building Studies and Incentive Timing",
+    "description": "Compare ETS and AE on cost segregation, separate building incentives, current 179D and 45L dates, fees, and who owns the tax-return implementation."
+  },
+  "/best-entity-structure-medical-practice/": {
+    "title": "What Is the Best Entity Structure for a Medical Practice?",
+    "description": "Compare medical practice entity choices using 2026 payroll rules, reasonable compensation, retirement funding, state requirements and exit costs."
+  },
+  "/blog/how-much-can-i-contribute-to-a-solo-401k/": {
+    "title": "How Much Can I Contribute to a Solo 401(k) in 2026?",
+    "description": "Calculate 2026 solo 401(k) contributions using the correct employee limit, catch-up rules, self-employed worksheet and S-corp W-2 compensation."
+  },
+  "/blog/mega-backdoor-roth-for-business-owners/": {
+    "title": "What Is the Mega Backdoor Roth and Can Business Owners Use It?",
+    "description": "Review 2026 mega backdoor Roth capacity, after-tax plan features, employee testing, conversion tax and administrator questions before funding."
+  },
+  "/blog/retirement-plan-strategies-s-corp-owners/": {
+    "title": "Retirement Plan Strategies for S-Corp Owners: Solo 401(k), SEP IRA, and Defined Benefit Plans",
+    "description": "Compare 2026 S-corp 401(k), SEP and cash balance plan decisions using W-2 compensation, employee coverage, contribution limits and implementation deadlines."
+  },
+  "/tax-planning-for-doctors/": {
+    "title": "Tax Planning for Physicians & Medical Professionals",
+    "description": "Coordinate physician practice payroll, 2026 retirement limits, locum income and rental-loss eligibility with a clear implementation and preparer handoff."
+  },
+  "/blog/irc-1060-asset-classification-business-sellers/": {
+    "title": "IRC 1060 Asset Classification: What Every Business Seller Needs to Know",
+    "description": "Review the seven IRC 1060 asset classes, goodwill and recapture rules, Form 8594, and the records to prepare before signing a business asset sale."
+  },
+  "/blog/section-179-vehicle-6000-pound-gvwr/": {
+    "title": "The 6,000 Pound Vehicle Rule: Section 179 and Bonus Depreciation on SUVs and Trucks",
+    "description": "Check the $32,000 heavy-SUV Section 179 limit for 2026, bonus eligibility, weight rules, mileage records and ownership before buying a business vehicle."
   }
 }

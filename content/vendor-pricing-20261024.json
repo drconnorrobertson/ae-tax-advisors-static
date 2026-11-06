@@ -1477,24 +1477,35 @@
     "name": "Cost Segregation Authority",
     "path": "/compare/cost-segregation-authority-pricing/",
     "category": "costseg",
-    "source": "https://csap.com/",
-    "fee": "$2,500–$5,000+ per property study",
-    "qualification": "A professionally reviewed or engineered study of a relatively straightforward property; complex commercial sites, travel, filings, and amendments are additional.",
-    "reviewed": "2026-10-24",
+    "source": "https://csap.com/cost-segregation/",
+    "fee": "Studies begin at $3,000",
+    "qualification": "Published starting fee for a cost segregation study, not tax advisory or return preparation. CSA Partners says the fee varies with property size, complexity, available documentation, and engagement scope. Request a property-specific written quote.",
+    "reviewed": "2026-11-06",
     "keywords": [
       "Cost Segregation Authority pricing",
       "Cost Segregation Authority cost",
       "Cost Segregation Authority fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses R.E. Cost Seg engineering from $2,320, CostSegEZ engineering from $2,500, and CostSegregation.com’s discussion of complex studies reaching $5,000 or more. Software-only products cost less.",
-    "benchmarkSources": [
-      "https://www.recostseg.com/",
-      "https://costsegez.com/",
-      "https://www.costsegregation.com/resources/cost-segregation-study-cost/"
+    "kind": "published",
+    "status": "Published starting study fee",
+    "sourceVerifiedAsOf": "2026-11-06",
+    "additionalSources": [
+      "https://csap.com/",
+      "https://csap.com/terms-of-service/",
+      "https://csap.com/about-us/"
     ],
-    "estimateCategory": "costseg"
+    "historicalComparableBudget": {
+      "fee": "$2,500–$5,000+ per property study",
+      "qualification": "A professionally reviewed or engineered study of a relatively straightforward property; complex commercial sites, travel, filings, and amendments are additional.",
+      "reviewed": "2026-10-24",
+      "estimateBasis": "AE’s rounded budgeting band uses R.E. Cost Seg engineering from $2,320, CostSegEZ engineering from $2,500, and CostSegregation.com’s discussion of complex studies reaching $5,000 or more. Software-only products cost less.",
+      "benchmarkSources": [
+        "https://www.recostseg.com/",
+        "https://costsegez.com/",
+        "https://www.costsegregation.com/resources/cost-segregation-study-cost/"
+      ],
+      "disclosure": "Historical AE comparable-work budget, not a published CSA fee or quote. Retained separately from the subsequently verified CSA starting study fee."
+    }
   },
   {
     "slug": "cost-segregation-guys",
