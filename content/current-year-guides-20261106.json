@@ -1,0 +1,162 @@
+{
+  "review_date": "2026-11-06",
+  "tax_year": 2026,
+  "pages": [
+    {
+      "path": "s-corp-tax-optimization-complete-guide/index.html",
+      "canonical": "https://aetaxadvisors.com/s-corp-tax-optimization-complete-guide/",
+      "publication_dates": [
+        "2026-10-03"
+      ],
+      "faq_count": 6,
+      "sources": [
+        {
+          "title": "2026 QBI thresholds: IRS Revenue Procedure 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        },
+        {
+          "title": "2026 retirement contribution and benefit limits: IRS Notice 2025-67",
+          "url": "https://www.irs.gov/pub/irs-drop/n-25-67.pdf"
+        },
+        {
+          "title": "Qualified income and deductible items: IRS QBI guidance",
+          "url": "https://www.irs.gov/newsroom/qualified-business-income-deduction"
+        },
+        {
+          "title": "2026 business-mileage rates by period: IRS mileage table",
+          "url": "https://www.irs.gov/tax-professionals/standard-mileage-rates"
+        },
+        {
+          "title": "2026 Social Security wage base: SSA annual table",
+          "url": "https://www.ssa.gov/oact/cola/cbb.html"
+        },
+        {
+          "title": "Reasonable pay and shareholder health insurance: IRS S corporation guidance",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues"
+        },
+        {
+          "title": "SEP and qualified-plan rules: IRS Publication 560",
+          "url": "https://www.irs.gov/publications/p560"
+        },
+        {
+          "title": "Employee home-office reimbursement exclusion: Revenue Procedure 2013-13",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-13-13.pdf"
+        },
+        {
+          "title": "Return deadlines and penalties: IRS Form 1120-S instructions",
+          "url": "https://www.irs.gov/instructions/i1120s"
+        }
+      ],
+      "discovery_handling": "preserve_existing_canonical_and_discovery",
+      "canonical_host": "aetaxadvisors.com"
+    },
+    {
+      "path": "blog/section-179-deduction-2026-complete-guide/index.html",
+      "canonical": "https://www.aetaxadvisors.com/blog/section-179-deduction-2026-complete-guide/",
+      "publication_dates": [
+        "2026-08-04"
+      ],
+      "faq_count": 5,
+      "sources": [
+        {
+          "title": "2026 Section 179 and SUV limits: IRS Revenue Procedure 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        },
+        {
+          "title": "Property eligibility, elections, vehicles, and bonus depreciation: IRS Publication 946",
+          "url": "https://www.irs.gov/publications/p946"
+        }
+      ]
+    },
+    {
+      "path": "blog/defined-benefit-plan-vs-solo-401k/index.html",
+      "canonical": "https://www.aetaxadvisors.com/blog/defined-benefit-plan-vs-solo-401k/",
+      "publication_dates": [
+        "2026-09-06"
+      ],
+      "faq_count": 7,
+      "sources": [
+        {
+          "title": "2026 retirement limits and Roth catch-up wage threshold: IRS Notice 2025-67",
+          "url": "https://www.irs.gov/pub/irs-drop/n-25-67.pdf"
+        },
+        {
+          "title": "Owner-only eligibility and contribution calculations: IRS one-participant 401(k) guidance",
+          "url": "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+        },
+        {
+          "title": "Retirement plan deductions and self-employed worksheets: IRS Publication 560",
+          "url": "https://www.irs.gov/publications/p560"
+        },
+        {
+          "title": "Coordinating defined benefit and defined contribution deductions: IRS section 404(a)(7) guidance",
+          "url": "https://www.irs.gov/retirement-plans/combined-limits-under-irc-section-404a7"
+        },
+        {
+          "title": "Asset exemption and final-year reporting: IRS Form 5500-EZ instructions",
+          "url": "https://www.irs.gov/pub/irs-pdf/i5500ez.pdf"
+        }
+      ]
+    },
+    {
+      "path": "blog/one-big-beautiful-bill-act-business-owners-2026/index.html",
+      "canonical": "https://www.aetaxadvisors.com/blog/one-big-beautiful-bill-act-business-owners-2026/",
+      "publication_dates": [
+        "2026-06-23"
+      ],
+      "faq_count": 5,
+      "sources": [
+        {
+          "title": "2026 QBI and Section 179 amounts: IRS Revenue Procedure 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        },
+        {
+          "title": "QBI calculation and business deductions: IRS guidance",
+          "url": "https://www.irs.gov/newsroom/qualified-business-income-deduction"
+        },
+        {
+          "title": "2026 SALT caps, MAGI thresholds, and floors: IRS Form 1040-ES correction",
+          "url": "https://www.irs.gov/forms-pubs/correction-to-state-and-local-income-tax-deduction-amount-in-the-2026-form-1040-es"
+        },
+        {
+          "title": "2026 estimated-tax and deduction guidance: IRS Publication 505",
+          "url": "https://www.irs.gov/publications/p505"
+        },
+        {
+          "title": "Depreciation eligibility, acquisition timing, and elections: IRS Publication 946",
+          "url": "https://www.irs.gov/publications/p946"
+        },
+        {
+          "title": "SALT cap phase-down method: IRS Schedule A instructions (use the 2026 amounts above)",
+          "url": "https://www.irs.gov/instructions/i1040sca"
+        }
+      ]
+    },
+    {
+      "path": "blog/qbi-deduction-optimization-irc-199a/index.html",
+      "canonical": "https://www.aetaxadvisors.com/blog/qbi-deduction-optimization-irc-199a/",
+      "publication_dates": [
+        "2026-06-28"
+      ],
+      "faq_count": 4,
+      "sources": [
+        {
+          "title": "2026 taxable-income thresholds and phase-in endpoints: IRS Revenue Procedure 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        },
+        {
+          "title": "QBI calculation and retirement-plan deductions: IRS guidance",
+          "url": "https://www.irs.gov/newsroom/qualified-business-income-deduction"
+        },
+        {
+          "title": "SSTB, aggregation, property, and rental rules: IRS Form 8995-A instructions",
+          "url": "https://www.irs.gov/instructions/i8995a"
+        },
+        {
+          "title": "Rental safe-harbor requirements: IRS Revenue Procedure 2019-38",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-19-38.pdf"
+        }
+      ]
+    }
+  ]
+}

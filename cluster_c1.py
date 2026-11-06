@@ -517,10 +517,12 @@ CLUSTER = Cluster(
     lead=(
         "S-corp tax strategy is the use of an S corporation election to divide a business "
         "owner's profit into two streams that are taxed differently: wages, which carry "
-        "Social Security and Medicare tax, and distributions, which do not. Both streams "
-        "remain subject to ordinary income tax. The saving is confined to payroll tax, and "
-        "it is bounded by the requirement that the owner first pay themselves reasonable "
-        "compensation for the services they actually perform."
+        "Social Security and Medicare tax, and distributions, which do not. Wages and "
+        "allocated business income generally enter the owner's income-tax calculation; "
+        "cash distributions have separate basis and distribution rules. "
+        "Employment-tax savings depend on paying "
+        "reasonable compensation for the services the owner performs; income-tax effects, "
+        "including Section 199A, must also be modeled."
     ),
     keywords=[
         "s corp tax strategy",
@@ -540,11 +542,10 @@ CLUSTER = Cluster(
             "generally exposed to self-employment tax. Under Subchapter S, only what the "
             "owner is paid as wages carries Social Security and Medicare tax. Profit taken "
             "as a distribution is exempt from those taxes.</p>"
-            "<p>Income tax does not change. A dollar of profit is taxed at the owner's "
-            "marginal rate either way. Anyone describing an S-corp election as a way to "
-            "reduce income tax is describing something else, usually the Section 199A "
-            "deduction, which is available to pass-through businesses regardless of whether "
-            "they elect S status.</p>"
+            "<p>Business profit generally remains subject to the owner's individual "
+            "income-tax rates. However, compensation and the Section 199A qualified "
+            "business income deduction can change the income-tax result, even though "
+            "Section 199A is also available to other eligible pass-through businesses.</p>"
         ),
         (
             "The Math at $500,000 to $1,000,000 of Profit",
@@ -709,7 +710,7 @@ CLUSTER = Cluster(
         ),
     ],
     takeaways=[
-        "An S-corp election saves payroll tax only; it does not change income tax rates.",
+        "An S-corp election can reduce employment taxes; income-tax effects must also be modeled.",
         "Above the Social Security wage base the saving is the Medicare component, not 15.3 percent.",
         "Reasonable compensation is the binding constraint and has no percentage safe harbor.",
         "Above the Section 199A thresholds, wages create deduction capacity rather than destroying it.",

@@ -1,0 +1,31 @@
+{
+  "reviewed_date": "2026-11-06",
+  "groups": {
+    "employment_tax_examples": [
+      "/how-to-legally-reduce-self-employment-tax-through-entity-design/",
+      "/s-corp-tax-strategies-high-net-worth-business-owners/",
+      "/blog/late-s-corp-election-form-2553-strategies/",
+      "/blog/can-i-get-a-refund-for-overpaying-self-employment-tax/"
+    ],
+    "comparison_clarifications": [
+      "/s-corp-vs-llc-tax-comparison-2026/"
+    ]
+  },
+  "sources": [
+    "https://www.irs.gov/pub/irs-pdf/f1040sse.pdf",
+    "https://www.irs.gov/instructions/i1040sse",
+    "https://www.irs.gov/publications/p15",
+    "https://www.irs.gov/taxtopics/tc560",
+    "https://www.ssa.gov/oact/cola/cbb.html",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
+    "https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-s-corporation",
+    "https://www.irs.gov/publications/p560",
+    "https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+    "https://www.irs.gov/instructions/i2553",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+    "https://www.irs.gov/instructions/i8832",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-stock-and-debt-basis",
+    "https://www.ftb.ca.gov/file/business/types/corporations/s-corporations.html",
+    "https://www.irs.gov/newsroom/qualified-business-income-deduction"
+  ]
+}

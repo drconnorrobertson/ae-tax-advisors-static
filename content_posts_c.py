@@ -21,8 +21,8 @@ POSTS = [
  ("Where the Savings Actually Come From", [
   "Under default treatment, all net earnings from self-employment are subject to SE tax at 15.3%, comprising 12.4% Social Security up to the annual wage base and 2.9% Medicare with no cap, plus the 0.9% additional Medicare tax above $200,000 single or $250,000 married filing jointly. Half of the SE tax is deductible above the line.",
   "Under S-Corp treatment, only the owner's W-2 wages are subject to payroll tax. Distributions of remaining profit are not subject to SE tax or payroll tax.",
-  "The saving is therefore 15.3% of the amount characterized as distribution rather than wages, up to the wage base, and 2.9% to 3.8% above it. It is not a saving on income tax. The profit is taxed at ordinary rates either way.",
-  "That last point is worth emphasizing because it is widely misunderstood. An S election does not reduce income tax. It reduces employment tax only.",
+  "Employment-tax savings must be calculated by comparing self-employment tax under default treatment with employer and employee payroll taxes on reasonable S-Corp wages. The self-employment calculation generally applies the 92.35% net-earnings adjustment; both calculations must account for the Social Security wage base, other wages and applicable Medicare taxes. Income-tax effects, including Section 199A, must be modeled separately.",
+  "The S election does not make business profit tax-free. It changes employment-tax treatment, while compensation and Section 199A can also change income-tax results.",
  ]),
  ("A Numerical Comparison at Several Income Levels", [
   "<div class=\"ae-table-scroll\" style=\"overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%\"><table><thead><tr><th>Net profit</th><th>SE tax as LLC</th><th>Reasonable wage</th><th>Payroll tax as S-Corp</th><th>Gross saving</th><th>Net of ~$3,000 costs</th></tr></thead><tbody>"
@@ -32,8 +32,9 @@ POSTS = [
   "<tr><td>$350,000</td><td>~$32,911</td><td>$150,000</td><td>~$22,950</td><td>~$9,961</td><td>~$6,961</td></tr>"
   "<tr><td>$700,000</td><td>~$45,193</td><td>$220,000</td><td>~$29,258</td><td>~$15,935</td><td>~$12,935</td></tr>"
   "</tbody></table></div>",
+  "Table assumptions: tax year 2026; married filing jointly; one business owner with no other wages or self-employment income and a spouse with no wages or self-employment income. The calculations use the $184,500 Social Security wage base and the $250,000 joint-return Additional Medicare Tax threshold. Net profit is before owner wages and employer payroll taxes. Wage amounts are hypothetical inputs, not reasonable-compensation findings or a percentage-of-profit safe harbor. The SE tax column includes applicable Additional Medicare Tax, and the payroll column includes both employer and employee FICA plus any applicable Additional Medicare Tax. Employer payroll taxes reduce remaining business profit. Gross saving excludes income-tax/QBI effects, state taxes, unemployment taxes, and compliance costs. The final column subtracts only the illustrative ~$3,000 cost allowance; it is not a complete net tax benefit or a fee quote.",
   "These are approximations using the 2026 Social Security wage base and standard rates, and they ignore state payroll taxes and unemployment insurance, which reduce the benefit somewhat. Confirm current-year figures before relying on them.",
-  "Two patterns are visible. Below roughly $60,000 of profit, the compliance cost exceeds the saving. And the saving does not scale linearly, because above the Social Security wage base only the Medicare portion is at stake, so the marginal benefit per dollar shifted drops from 15.3% to 2.9% or 3.8%.",
+  "At the $60,000 profit and $40,000 wage assumptions shown, the illustrative compliance cost exceeds the gross saving. This is not a universal breakeven point. Savings depend on the 92.35% self-employment net-earnings adjustment, supportable wages, the Social Security wage base, other earnings, filing status, and applicable Medicare taxes. Calculate both tax regimes separately rather than multiplying an assumed distribution by a flat rate.",
  ]),
  ("The Costs You Are Trading Against", [
   "An S-Corp requires a separate return on Form 1120-S with K-1s to shareholders, actual payroll with quarterly Forms 941, annual Form 940, W-2 and W-3 filings, and state payroll registration and returns.",
@@ -47,9 +48,9 @@ POSTS = [
  ]),
  ("Interaction With the Section 199A Deduction", [
   "The qualified business income deduction under Section 199A, made permanent by the OBBBA, allows up to a 20% deduction against qualified business income, and it interacts with the wage decision in a way that cuts against minimizing wages.",
-  "Below the taxable income thresholds, the deduction is simply 20% of QBI and W-2 wages are irrelevant. Above the thresholds, the deduction is limited to the greater of 50% of W-2 wages, or 25% of W-2 wages plus 2.5% of the unadjusted basis of qualified property.",
-  "For a specified service trade or business, including health, law, accounting, consulting, athletics, financial services, and any business whose principal asset is the reputation or skill of its employees or owners, the deduction phases out entirely above the thresholds regardless of wages.",
-  "For non-service businesses above the thresholds, wages are the constraint on the deduction. Reducing your W-2 wage to save payroll tax can reduce the 199A deduction by more than the payroll tax saved. This is the single most common modeling error we correct on new engagements, and it flips the answer at higher income levels.",
+  "The deduction is generally up to 20% of QBI, subject to limits including taxable income less net capital gain. Owner W-2 compensation is not QBI, and deductible employer payroll costs can reduce QBI even below the taxable-income thresholds. The wage-and-property limitations phase in over the applicable range above those thresholds; they do not switch on in full immediately.",
+  "For a specified service trade or business, such as many health, law, accounting, consulting, or financial-service businesses, Section 199A eligibility phases out over the applicable taxable-income range. Above that range, an owner generally cannot claim a QBI deduction from the specified service business, even if it pays W-2 wages. Check the actual business classification and current-year thresholds.",
+  "For a business that is not a specified service trade or business, the fully applicable limitation generally uses the greater of 50% of W-2 wages or 25% of W-2 wages plus 2.5% of qualifying property basis. Reducing owner wages can lower this limit while also changing QBI, so payroll-tax and income-tax effects must be modeled together. A lower salary does not automatically improve the total tax result.",
  ]),
  ("When to Elect, and When Not To", [
   "Elect when net profit reliably exceeds roughly $80,000 per owner, the business is not a real estate holding entity, ownership is simple and eligible, and you are prepared to run genuine payroll.",
@@ -61,9 +62,9 @@ POSTS = [
  ("Is an S-Corp better than an LLC?",
   "<p>The question conflates two different things. An LLC is a state law entity and an S-Corp is a federal tax election, and an LLC can elect S-Corp taxation. The real question is whether to make the election, which generally pays off once net profit exceeds roughly $60,000 to $80,000 per owner.</p>"),
  ("How much does an S-Corp election actually save?",
-  "<p>It saves 15.3% self-employment tax on the profit characterized as distribution rather than wages, up to the Social Security wage base, and 2.9% to 3.8% above it. On $180,000 of profit with a $95,000 reasonable wage, the gross saving is roughly $10,900 before compliance costs of $2,000 to $4,000.</p>"),
+  "<p>There is no fixed savings percentage. Under the table's 2026 married-filing-jointly assumptions, $180,000 of profit and an assumed $95,000 wage produce roughly $10,900 of gross employment-tax savings before compliance costs of $2,000 to $4,000. Actual net benefit requires a supportable salary and modeling of remaining business profit after employer payroll taxes, income-tax/QBI effects, state taxes, and unemployment taxes.</p>"),
  ("Does an S-Corp reduce income tax?",
-  "<p>No. Profit is taxed at the same ordinary rates whether it flows through an LLC or an S-Corp. The election reduces employment tax only. Any advisor describing S-Corp savings as income tax savings is describing it incorrectly.</p>"),
+  "<p>An S election can reduce employment taxes on business profit remaining after reasonable compensation. Income-tax results can also change, including through the Section 199A qualified business income deduction, so compare the combined tax effect rather than assuming income tax is unchanged.</p>"),
  ("Should I put rental real estate in an S-Corp?",
   "<p>Generally no. Rental income is not subject to self-employment tax to begin with, so there is nothing to save, and distributing appreciated property out of an S-Corp triggers gain as though it had been sold. An LLC taxed as a partnership avoids both problems.</p>"),
  ("Can minimizing my S-Corp wage backfire?",
@@ -78,7 +79,7 @@ POSTS = [
 ],
 "takeaways": [
  "An LLC can elect S-Corp taxation; the two are layers, not alternatives.",
- "The election saves employment tax only, never income tax.",
+ "An S election can reduce employment taxes; income-tax effects must also be modeled.",
  "Breakeven is roughly $60,000 to $80,000 of net profit per owner after compliance costs.",
  "Above the Section 199A thresholds, a lower wage can cost more in lost QBI deduction than it saves in payroll tax.",
  "Appreciating real estate does not belong in an S-Corp because distributions trigger gain.",

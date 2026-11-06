@@ -34,16 +34,16 @@ case studies and outcomes should be read with their own methodology and limitati
 - [Tax advisor engagement comparison worksheet](https://www.aetaxadvisors.com/tools/tax-advisor-engagement-scorecard/)
 - [STR logs and quarterly review documentation kit](https://www.aetaxadvisors.com/guides/str-documentation-kit/)
 - [Tax-return mistakes: 18 business and rental owner review guides](https://www.aetaxadvisors.com/tax-return-mistakes/)
-- [About AE Tax Advisors](https://www.aetaxadvisors.com/about/)
+- [About AE Tax Advisors | Tax Advisory Firm in Billings, Montana](https://www.aetaxadvisors.com/about/)
 - [Transparent Pricing](https://www.aetaxadvisors.com/pricing/)
 - [Discuss Your Tax Advisory Needs](https://www.aetaxadvisors.com/discovery/)
 - [Business owner tax planning](https://www.aetaxadvisors.com/business-owner-small-business-tax/)
 - [Real estate owner tax planning](https://www.aetaxadvisors.com/real-estate-tax-planning/)
-- [Cost Segregation Studies and Tax Planning for Property Owners](https://www.aetaxadvisors.com/cost-segregation-study/)
+- [Cost Segregation Services for Business & Rental Property | AE Tax Advisors](https://www.aetaxadvisors.com/cost-segregation-study/)
 - [Compare study pricing and scope](https://www.aetaxadvisors.com/cost-segregation-study-cost-pricing/)
 - [Cost segregation scenario calculator and methodology](https://www.aetaxadvisors.com/cost-segregation-calculator/)
 - [Documents needed before a study](https://www.aetaxadvisors.com/cost-segregation-documents-checklist/)
-- [Form 3115 for Cost Segregation and Missed Depreciation](https://www.aetaxadvisors.com/form-3115-cost-segregation/)
+- [Form 3115 Preparation & Cost Segregation Lookback | AE Tax](https://www.aetaxadvisors.com/form-3115-cost-segregation/)
 - [Short-term rental tax planning](https://www.aetaxadvisors.com/short-term-rental-tax-strategy/)
 - [Physician and medical practice tax planning](https://www.aetaxadvisors.com/physician-tax-planning/)
 - [Real estate investor tax advisory and CPA support](https://www.aetaxadvisors.com/real-estate-investor-cpa/)
@@ -51,7 +51,7 @@ case studies and outcomes should be read with their own methodology and limitati
 - [Billings headquarters and local tax advisory](https://www.aetaxadvisors.com/locations/billings/)
 - [Rental property tax planning](https://www.aetaxadvisors.com/rental-property-tax-planning/)
 - [Business equipment and Section 179](https://www.aetaxadvisors.com/equipment-leasing-section-179/)
-- [Retirement Planning for Business Owners With Employees and Property](https://www.aetaxadvisors.com/retirement-planning-for-business-owners/)
+- [Retirement Planning for Business Owners With Employees and Property | AE Tax Advisors](https://www.aetaxadvisors.com/retirement-planning-for-business-owners/)
 - [Editorial policy, sources and limitations](https://www.aetaxadvisors.com/editorial-policy/)
 - [Tax Strategy Blog](https://www.aetaxadvisors.com/blog/)
 
@@ -118,7 +118,7 @@ $7,800 advisory engagement. No required recurring annual planning fee. Two payme
 
 ## Excess business loss guides
 
-- [How Does the Excess Business Loss Limitation Work in 2026?](https://www.aetaxadvisors.com/blog/excess-business-loss-limitation-461l-2026/): Understand the 2026 Section 461(l) limits, Form 461, business income and NOL carryforwards before using an owner-level loss.
+- [2026 Excess Business Loss Limit & Calculator | AE Tax Advisors](https://www.aetaxadvisors.com/blog/excess-business-loss-limitation-461l-2026/): Estimate the 2026 excess business loss adjustment using the $256,000 or $512,000 threshold. See Form 461 ordering rules, W-2 exclusions and business-owner examples.
 - [Can Excess Business Losses Offset W-2 Income?](https://www.aetaxadvisors.com/blog/excess-business-loss-w2-income/): See why W-2 wages do not increase the Section 461(l) allowance and how a large business loss can leave a high-income employee with taxable income.
 - [Excess Business Loss Limits for Short-Term Rental Owners](https://www.aetaxadvisors.com/blog/excess-business-loss-short-term-rental/): Learn why a nonpassive short-term rental loss can still be limited by Section 461(l), with a 2026 example and a rental-record checklist.
 - [Cost Segregation and Excess Business Loss: How Much Can You Use?](https://www.aetaxadvisors.com/blog/excess-business-loss-cost-segregation/): Compare a cost segregation deduction with the loss actually usable in 2026, including business income, Section 461(l) and carryforward timing.
@@ -131,7 +131,7 @@ $7,800 advisory engagement. No required recurring annual planning fee. Two payme
 - [Best Short Term Rental Tax Company & Advisors | AE Tax](https://www.aetaxadvisors.com/compare/best-tax-advisors-short-term-rental-owners/): Choose an Airbnb tax accountant or STR tax advisor by comparing participation review, cost segregation, filing support, fees and documented planning work.
 - [Best STR & Airbnb Cost Segregation Companies | AE Tax](https://www.aetaxadvisors.com/compare/best-cost-segregation-companies-short-term-rentals/): Compare STR and Airbnb cost segregation companies by study scope, furnishing reconciliation, pricing, preparer handoff and support after delivery.
 - [Best Tax Advisors for Business Owners With Rentals | AE Tax](https://www.aetaxadvisors.com/compare/best-tax-advisors-business-owners-buying-rental-property/): Compare tax advisors for business owners with rentals: coordinated projections, entity review, depreciation, retirement planning and implementation scope.
-- [Best S-Corp Tax Advisors for Owners With Rental Property](https://www.aetaxadvisors.com/compare/best-tax-advisors-s-corp-owners-rental-property/): Compare S-corp tax advisors by owner compensation, payroll, retirement, basis records and coordination with rental properties and household returns.
+- [Best S-Corp Tax Advisors for Owners With Rentals | AE Tax Advisors](https://www.aetaxadvisors.com/compare/best-tax-advisors-s-corp-owners-rental-property/): Compare S-corp tax advisors by owner compensation, payroll, retirement, basis records and coordination with rental properties and household returns.
 - [Best CPA for Multiple Rental Properties | AE Tax](https://www.aetaxadvisors.com/compare/best-cpas-multiple-rental-properties/): Choose a CPA for multiple rental properties by comparing property records, entity returns, K-1s, loss carryforwards, study coordination and transition fees.
 - [Best Tax Advisors for Physicians With Rentals | AE Tax](https://www.aetaxadvisors.com/compare/best-tax-advisors-physicians-rental-property/): Compare physician tax advisors for practice income, W-2 wages, rental properties, spouse participation, retirement funding and coordinated household planning.
 - [Cost Segregation Companies With Tax Filing Support | AE Tax](https://www.aetaxadvisors.com/compare/best-cost-segregation-companies-tax-filing-support/): Compare cost segregation companies with tax filing support: study delivery, depreciation schedules, Form 3115 review, return preparation and separate fees.

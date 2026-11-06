@@ -1,22 +1,22 @@
 {
   "/3-year-tax-lookback-cleanup/": {
-    "title": "Three-Year Tax Lookback and Records Cleanup",
+    "title": "Three-Year Tax Lookback and Records Cleanup | AE Tax Advisors",
     "description": "Organize business and property records for a prior-year tax review. Define covered entities, missing documents, reconciliations and the handoff to your preparer."
   },
   "/about/": {
-    "title": "About AE Tax Advisors",
+    "title": "About AE Tax Advisors | Tax Advisory Firm in Billings, Montana",
     "description": "AE Tax Advisors is a tax advisory firm headquartered in Billings, Montana, specializing in cost segregation studies, strategic tax planning, entity structuring..."
   },
   "/best-retirement-plan-business-owner-over-500k/": {
-    "title": "Retirement Planning Above $500K: Funding Decisions Before Choosing a Plan",
+    "title": "Retirement Planning Above $500K: Funding Decisions Before Choosing a Plan | AE Tax Advisors",
     "description": "For profitable business owners, compare retirement funding with payroll, employee benefits, property purchases and reserves before choosing a larger deduction."
   },
   "/best-tax-advisor-for-high-net-worth-clients/": {
-    "title": "Choosing a Tax Advisor for High-Net-Worth Business Owners",
+    "title": "Choosing a Tax Advisor for High-Net-Worth Business Owners | AE Tax Advisors",
     "description": "Compare tax-advisor credentials, written scope, fees and implementation responsibilities for business owners with real estate."
   },
   "/blog/business-interest-deduction-section-163j-2026/": {
-    "title": "Section 163(j) Business Interest Deduction Limit: The 2026 Rules for Leveraged Businesses",
+    "title": "Section 163(j) in 2026: ATI, $32M Test and Capitalized Interest",
     "description": "Review the 2026 business-interest rules: $32 million receipts test, restored depreciation addback, capitalized-interest treatment and election review."
   },
   "/blog/cost-segregation-veterinary-clinics/": {
@@ -24,8 +24,8 @@
     "description": "Evaluate clinic equipment, kennels, imaging build-outs and QIP with documented asset classifications, self-rental limits and a coordinated implementation plan."
   },
   "/blog/excess-business-loss-limitation-461l-2026/": {
-    "title": "How Does the Excess Business Loss Limitation Work in 2026?",
-    "description": "Understand the 2026 Section 461(l) limits, Form 461, business income and NOL carryforwards before using an owner-level loss."
+    "title": "2026 Excess Business Loss Limit & Calculator | AE Tax Advisors",
+    "description": "Estimate the 2026 excess business loss adjustment using the $256,000 or $512,000 threshold. See Form 461 ordering rules, W-2 exclusions and business-owner examples."
   },
   "/blog/how-to-structure-multiple-businesses-for-tax-efficiency/": {
     "title": "How Should I Structure Multiple Businesses for Tax Efficiency?",
@@ -172,27 +172,27 @@
     "description": "Browse page 9 of 35: tax planning articles for business owners and real estate investors. Explore depreciation, entities, retirement and filing decisions."
   },
   "/blog/tax-planning-for-real-estate-agents-brokers/": {
-    "title": "Tax Planning for Real Estate Agents and Brokers",
+    "title": "Tax Planning for Real Estate Agents and Brokers | AE Tax Advisors",
     "description": "Evaluate commission income, S corporation costs, vehicle records, team compensation and rental-property deductions before choosing an agent or brokerage tax plan."
   },
   "/blog/tax-strategy-for-auto-dealership-owners/": {
-    "title": "Tax Strategy for Auto Dealership Owners",
-    "description": "LIFO reserves, floor plan interest, entity structure across rooftops, reasonable compensation, retirement plan design, and cost segregation on dealership facilities."
+    "title": "Tax Strategy for Auto Dealership Owners: Inventory, Interest and Facilities | AE Tax Advisors",
+    "description": "Coordinate dealership inventory accounting, floor-plan interest, facility depreciation and owner-level deduction limits before filing."
   },
   "/blog/tax-strategy-for-chiropractors/": {
-    "title": "Chiropractor Tax Strategy: Owner Pay, Retirement and Clinic Property",
+    "title": "Chiropractor Tax Strategy: Owner Pay, Retirement and Clinic Property | AE Tax Advisors",
     "description": "Understand chiropractor S corporation compensation, employee retirement-plan costs, health-service QBI rules and deductions for an owner-held clinic."
   },
   "/blog/tax-strategy-for-construction-company-owners/": {
-    "title": "Construction Owner Tax Strategy: Contracts, Equipment and Shop Property",
+    "title": "Construction Owner Tax Strategy: Contracts, Equipment and Shop Property | AE Tax Advisors",
     "description": "How construction owners evaluate contract accounting, equipment deductions, self-rental losses and QBI without assuming every deduction reduces current tax."
   },
   "/blog/tax-strategy-for-ecommerce-business-owners/": {
-    "title": "Tax Strategy for E-Commerce Business Owners",
-    "description": "Inventory accounting, nexus, entity structure, reasonable compensation, retirement plans, and full QBI eligibility for online retailers."
+    "title": "Tax Strategy for E-Commerce Owners: Inventory, Payments and Warehouses | AE Tax Advisors",
+    "description": "Reconcile ecommerce income, inventory methods, fulfillment-state exposure and warehouse deductions before changing entity or retirement plans."
   },
   "/blog/tax-strategy-for-franchise-owners/": {
-    "title": "Franchise Owner Tax Strategy: Opening Costs, Build-Outs and Multiple Units",
+    "title": "Franchise Owner Tax Strategy: Opening Costs, Build-Outs and Multiple Units | AE Tax Advisors",
     "description": "Classify franchise fees, opening costs and build-outs, then coordinate multi-unit payroll, retirement plans and owner-held real estate."
   },
   "/blog/tax-strategy-for-law-firm-partners/": {
@@ -200,11 +200,11 @@
     "description": "Coordinate law-firm K-1 income or S-corp wages with office-building ownership, self-rental losses, QBI limits, retirement funding and substantiated expenses."
   },
   "/blog/tax-strategy-for-medical-practice-owners/": {
-    "title": "Medical Practice Owner Tax Planning: Buy-Ins, QBI & Property",
+    "title": "Medical Practice Owner Tax Planning: Buy-Ins, QBI & Property | AE Tax Advisors",
     "description": "Plan a medical practice buy-in, owner compensation, retirement funding and office real estate with clear basis, QBI and implementation questions."
   },
   "/blog/tax-strategy-for-real-estate-agents/": {
-    "title": "Real Estate Agent Tax Planning: Retirement, Records and Rentals",
+    "title": "Real Estate Agent Tax Planning: Retirement, Records and Rentals | AE Tax Advisors",
     "description": "Coordinate agent commissions, entity choice, 2026 retirement contributions, vehicle records and rental participation without assuming automatic deductions."
   },
   "/blog/tax-strategy-for-veterinary-practice-owners/": {
@@ -212,7 +212,7 @@
     "description": "Coordinate veterinary practice owner compensation, staff retirement plans, clinic real estate and sale allocation before committing to tax or transaction decisions."
   },
   "/blog/tenancy-in-common-vs-llc-real-estate/": {
-    "title": "1031 exchanges for tenants in common and LLC partners",
+    "title": "1031 Exchanges: Tenants in Common vs. LLC Partners",
     "description": "Can an LLC do a 1031 exchange? Compare partnership-level exchanges, tenants-in-common interests and separate partner exits before selling real estate."
   },
   "/business-tax-advisor-vs-cpa/": {
@@ -224,15 +224,15 @@
     "description": "Get an independent business tax second opinion on prior returns, entity structure, owner compensation, basis, depreciation, and proposed tax strategies."
   },
   "/buying-dental-practice-and-building-tax-allocation/": {
-    "title": "I am buying a dental practice and its building. How should we allocate the price?",
+    "title": "Buying a Dental Practice and Building: Tax Allocation Review",
     "description": "Buying a dental practice with its building? Separate practice assets, real estate, land, and debt before agreeing to the purchase-price allocation."
   },
   "/calculators/": {
-    "title": "Tax Calculators",
+    "title": "Tax Calculators | AE Tax Advisors",
     "description": "Free tax calculators: cost segregation savings, S-Corp election savings, and bonus depreciation versus Section 179 comparison."
   },
   "/cash-balance-plan-tax-deduction/": {
-    "title": "Cash Balance Plan Deduction: Feasibility, Funding and Employee Costs",
+    "title": "Cash Balance Plan Deduction: Feasibility, Funding and Employee Costs | AE Tax Advisors",
     "description": "Evaluate a cash balance plan using an employee census, required funding, deductible range, employee costs and downside scenarios before committing."
   },
   "/compare/advise-re-vs-taxstra/": {
@@ -240,27 +240,27 @@
     "description": "Compare Advise RE and Taxstra for pre-closing property and development work versus coordinated physician, business and rental tax planning."
   },
   "/compare/best-tax-advisors-s-corp-owners-rental-property/": {
-    "title": "Best S-Corp Tax Advisors for Owners With Rental Property",
+    "title": "Best S-Corp Tax Advisors for Owners With Rentals | AE Tax Advisors",
     "description": "Compare S-corp tax advisors by owner compensation, payroll, retirement, basis records and coordination with rental properties and household returns."
   },
   "/compare/cssi-vs-ae-tax/": {
-    "title": "CSSI vs AE Tax Advisors: Pricing and Services",
+    "title": "CSSI vs AE Tax Advisors: Pricing and Services | AE Tax Advisors",
     "description": "Compare CSSI and AE Tax Advisors on pricing, service scope, and implementation. Published fees and AE budget estimates are clearly distinguished."
   },
   "/compare/madison-specs-alternatives/": {
-    "title": "Madison SPECS Alternatives: Study Provider or Tax Advisor?",
+    "title": "Madison SPECS Alternatives: Study Provider or Tax Advisor? | AE Tax Advisors",
     "description": "Compare Madison SPECS alternatives by study deliverables, Form 3115 responsibility, existing CPA coordination and broader business-owner tax planning scope."
   },
   "/compare/neil-jesani-advisors-vs-ae-tax/": {
-    "title": "Neil Jesani Advisors vs AE Tax Advisors: Pricing and Services",
+    "title": "Neil Jesani Advisors vs AE Tax Advisors: Pricing and Services | AE Tax Advisors",
     "description": "Compare Neil Jesani Advisors and AE Tax Advisors on pricing, service scope, and implementation. Published fees and AE budget estimates are clearly distinguished."
   },
   "/compare/physician-tax-solutions-alternatives/": {
-    "title": "Physician Tax Solutions Alternatives for Physicians and Practice Owners (2026)",
+    "title": "Physician Tax Solutions Alternatives for Practice Owners | AE Tax Advisors",
     "description": "Considering Physician Tax Solutions? Compare its physician tax services with AE Tax Advisors on scope, client fit, implementation, and the questions to ask before signing."
   },
   "/compare/prime-path-advisory-alternatives/": {
-    "title": "Prime Path Advisory Alternatives and Service Review",
+    "title": "Prime Path Advisory Alternatives & Service Review (2026)",
     "description": "Review Prime Path Advisory services, implementation, fee questions and alternatives. Compare client fit and written scope with AE Tax Advisors."
   },
   "/compare/prime-path-advisory-vs-ae-tax/": {
@@ -268,7 +268,7 @@
     "description": "Compare Prime Path Advisory and AE Tax Advisors by client fit, written deliverables, filing responsibilities, fees and engagement limits."
   },
   "/compare/rainwater-cpa-vs-ae-tax/": {
-    "title": "Rainwater CPA vs AE Tax Advisors for Business Owners With Rentals",
+    "title": "Rainwater CPA vs AE Tax Advisors: Business and Rental Tax Planning",
     "description": "Compare Rainwater CPA and AE Tax Advisors for business-plus-rental tax planning, meeting cadence, cost segregation coordination, filing scope and proposal questions."
   },
   "/compare/seneca-cost-segregation-alternatives/": {
@@ -288,7 +288,7 @@
     "description": "Compare Tax Strategists of America and AE on documentation, preparer handoff, implementation acceptance, filing scope and fees."
   },
   "/contact/": {
-    "title": "Contact AE Tax Advisors",
+    "title": "Contact Us | AE Tax Advisors",
     "description": "Get in touch with AE Tax Advisors. Exclusively serving business owners, S-Corp and C-Corp operators, and real estate investors generating $500K+ in annual..."
   },
   "/cost-segregation-for-veterinary-clinics/": {
@@ -296,15 +296,15 @@
     "description": "Evaluate a veterinary clinic cost segregation study: ownership, asset records, self-rental limits, study fees and the handoff to your tax preparer."
   },
   "/cost-segregation-study/": {
-    "title": "Cost Segregation Studies and Tax Planning for Property Owners",
+    "title": "Cost Segregation Services for Business & Rental Property | AE Tax Advisors",
     "description": "Owners of investment or business property considering an engineered study, including owners evaluating a previously placed-in-service property."
   },
   "/cpa-compliance-shop-vs-tax-strategist/": {
-    "title": "Keep Your CPA: Add Pre-Closing Tax Planning",
+    "title": "Keep Your CPA: Add Pre-Closing Tax Planning | AE Tax Advisors",
     "description": "Hiring a tax strategist before a business or property purchase? Define who handles projections, contracts, financing, valuation, bookkeeping and returns."
   },
   "/defined-benefit-plans-tax-shelter-high-income-business-owners/": {
-    "title": "Defined Benefit Plans: Administration, Funding and Exit Responsibilities",
+    "title": "Defined Benefit Plans: Administration, Funding and Exit Responsibilities | AE Tax Advisors",
     "description": "Assign defined benefit plan administration, actuarial funding, employee coverage, annual filings and freeze or termination responsibilities before claiming deductions."
   },
   "/discovery/": {
@@ -324,27 +324,27 @@
     "description": "Review equipment ownership, business use, placed-in-service timing and Section 179 or bonus eligibility before modeling deductions. Free consultation."
   },
   "/form-3115-cost-segregation-lookback/": {
-    "title": "Form 3115 Cost Segregation Lookback: Catching Up Missed Depreciation",
+    "title": "Form 3115 Cost Segregation Lookback | AE Tax Advisors",
     "description": "Review Form 3115 eligibility, Section 481(a) adjustment timing and owner-level deduction limits before claiming missed depreciation."
   },
   "/form-3115-cost-segregation/": {
-    "title": "Form 3115 for Cost Segregation and Missed Depreciation",
+    "title": "Form 3115 Preparation & Cost Segregation Lookback | AE Tax",
     "description": "Review Form 3115 preparation for cost segregation lookback studies. Reconcile prior depreciation, determine the correction procedure and confirm filing scope."
   },
   "/how-much-does-a-tax-advisor-cost/": {
-    "title": "How Much Does a Tax Advisor Cost?",
+    "title": "How Much Does a Tax Advisor Cost? | AE Tax Advisors",
     "description": "AE Tax Advisors\u2019 standard advisory engagement is $7,800. Compare planning deliverables, separate return and study fees, payment terms and total scope."
   },
   "/how-to-file-amended-tax-return-form-1040-x-guide/": {
-    "title": "Form 1040-X: Refund Deadlines and Business-Owner Amendment Review",
+    "title": "Form 1040-X: Refund Deadlines and Business-Owner Amendment Review | AE Tax Advisors",
     "description": "Check refund deadlines, payment lookbacks and the right personal, entity or partnership correction procedure before filing Form 1040-X."
   },
   "/how-to-legally-combine-real-estate-and-business-ownership-for-tax-advantage/": {
-    "title": "Leasing a Building to Your Business: Reconcile the Tax Result",
+    "title": "Lease a Building to Your Business: Tax Coordination | AE",
     "description": "Compare landlord income with tenant deductions, ownership choices, related-party rent timing and exit taxes before restructuring business real estate."
   },
   "/irs-audit-defense-business-owners/": {
-    "title": "IRS Audit Defense for Business Owners: Representation Scope",
+    "title": "IRS Audit Defense for Business Owners: Representation Scope | AE Tax Advisors",
     "description": "Define IRS audit representation for business owners: notices, deadlines, authorized professionals, property records, fees and handoffs."
   },
   "/pricing/": {
@@ -356,31 +356,31 @@
     "description": "Reducing Real Estate Tax Exposure Through STR Classification and Bonus Depreciation - AE Tax Advisors provides proactive tax planning for high-income..."
   },
   "/resources/amendment-self-assessment/": {
-    "title": "Business Tax Return Review: 10-Question Readiness Checklist",
+    "title": "Business Tax Return Review Checklist | AE Tax Advisors",
     "description": "Use ten evidence-based questions to prepare for a business tax second opinion. Local checklist, no refund score and no email required."
   },
   "/resources/tax-planning-checklist/": {
-    "title": "Annual Tax Planning Checklist for Business Owners & Property",
+    "title": "Annual Tax Planning Checklist for Business Owners & Property | AE Tax Advisors",
     "description": "Assign quarterly tax decisions for business owners with real estate: filings, payroll, retirement plans, depreciation, estimated payments and implementation."
   },
   "/retirement-plan-design-s-corp-owners/": {
-    "title": "Retirement Plan Design for S Corporation Owners: Payroll and Advisor Handoff",
+    "title": "Retirement Plan Design for S Corporation Owners: Payroll and Advisor Handoff | AE Tax Advisors",
     "description": "Coordinate reasonable compensation, employee eligibility, related businesses and actuarial modeling before changing S corporation payroll for a retirement plan."
   },
   "/retirement-planning-for-business-owners/": {
-    "title": "Retirement Planning for Business Owners With Employees and Property",
+    "title": "Retirement Planning for Business Owners With Employees and Property | AE Tax Advisors",
     "description": "Compare retirement-plan requirements using employee eligibility, related businesses, compensation and cash flow. Define the tax advisor, payroll and administrator handoff."
   },
   "/services/cost-segregation-commercial/": {
-    "title": "Commercial Cost Segregation Studies: Scope and Filing Handoff",
+    "title": "Commercial Cost Segregation Studies: Scope and Filing Handoff | AE Tax Advisors",
     "description": "Commission a commercial cost segregation study with clear property records, tenant-improvement boundaries, depreciation decisions and return-preparer responsibilities."
   },
   "/services/entity-structuring/": {
-    "title": "Multi-Entity Tax Planning and Entity Structuring",
+    "title": "Multi-Entity Tax Planning and Entity Structuring | AE Tax Advisors",
     "description": "Owners with multiple entities, related-party payments, new partners, or an acquisition who need tax coordination with their legal and accounting advisers."
   },
   "/tax-advisor-for-real-estate-agents/": {
-    "title": "Tax Advisor for Real Estate Agents Who Own Rentals",
+    "title": "Tax Advisor for Real Estate Agents With Rentals | AE",
     "description": "Scope a coordinated review of real estate commissions, entity choices, owner pay and rental property. Confirm deliverables, filing roles and advisory fees."
   },
   "/tax-advisor-for-veterinarians/": {
@@ -388,11 +388,11 @@
     "description": "Coordinate veterinary practice tax planning, owner pay, staff retirement plans and clinic real estate. Review engagement scope and prepare for an AE consultation."
   },
   "/tax-mistakes-cost-business-owners-50k/": {
-    "title": "13 Tax Planning Mistakes for Business Owners With Real Estate",
+    "title": "13 Tax Planning Mistakes for Business Owners With Real Estate | AE Tax Advisors",
     "description": "Review owner pay, retirement plans, rental losses, QBI, depreciation and filing corrections without relying on generic tax-savings promises."
   },
   "/tax-planning-for-brokers/": {
-    "title": "Tax Advisory for Brokerage Owners: Commissions, Acquisitions & Property",
+    "title": "Tax Planning for Brokers: Acquisitions & Property | AE",
     "description": "Define tax advisory scope for insurance, mortgage and real estate brokerage owners: commission income, book acquisitions, staff plans and office property."
   },
   "/tax-planning-for-chiropractors/": {
@@ -420,7 +420,7 @@
     "description": "Tax Planning for High-Net-Worth Individuals With Multiple Business Entities - AE Tax Advisors provides proactive tax planning for high-income professionals,..."
   },
   "/tax-planning-real-estate-developers-builders/": {
-    "title": "Real Estate Developer Tax Planning: Projects, Entities and Exit Decisions",
+    "title": "Real Estate Developer Tax Planning: Projects, Entities and Exit Decisions | AE Tax Advisors",
     "description": "Separate development inventory, rental investments and customer construction contracts before choosing tax methods, entities, allocations or a property exit."
   },
   "/tax-strategy-for-construction-companies/": {
@@ -440,7 +440,7 @@
     "description": "Should your real estate business elect out of Section 163(j)? Review ADS, related-party leases, passive losses and the closed 2026 withdrawal window."
   },
   "/year-end-tax-planning-checklist/": {
-    "title": "Year-End Tax Review: 2026 Decisions and 2027 Forecast",
+    "title": "Year-End Tax Review: 2026 Decisions and 2027 Forecast | AE Tax Advisors",
     "description": "Scope a two-year tax review for profitable business owners with property: 2026 action deadlines, verified 2027 thresholds, retirement timing and usable losses."
   },
   "/blog/form-3115-missed-depreciation/": {
@@ -456,127 +456,251 @@
     "description": "Review the correction procedure for missed depreciation, Form 3115 eligibility, Section 481(a) timing and owner-level loss limits before filing."
   },
   "/cost-segregation-for-warehouse/": {
-    "title": "Cost Segregation for Warehouses and Distribution Facilities",
+    "title": "Warehouse Cost Segregation Studies | AE Tax Advisors",
     "description": "Evaluate supported asset classifications, filing responsibilities and usable deductions. The 14% to 26% range is illustrative, not a verified benchmark."
   },
   "/cost-segregation-for-office-building/": {
-    "title": "Cost Segregation for Office Buildings",
+    "title": "Cost Segregation for Office Buildings (2026) | AE Tax Advisors",
     "description": "Evaluate supported asset classifications, filing responsibilities and usable deductions. The 15% to 26% range is illustrative, not a verified benchmark."
   },
   "/cost-segregation-for-dental-office/": {
-    "title": "Cost Segregation for Dental Offices",
+    "title": "Dental Office Cost Segregation Studies | AE Tax Advisors",
     "description": "Evaluate supported asset classifications, filing responsibilities and usable deductions. The 24% to 35% range is illustrative, not a verified benchmark."
   },
   "/cost-segregation-for-retail/": {
-    "title": "Cost Segregation for Retail and Strip Centers",
+    "title": "Cost Segregation for Retail Property (2026) | AE Tax Advisors",
     "description": "Evaluate supported asset classifications, filing responsibilities and usable deductions. The 20% to 31% range is illustrative, not a verified benchmark."
   },
   "/cost-segregation-for-medical-office/": {
-    "title": "Cost Segregation for Medical Office Buildings",
+    "title": "Medical Office Cost Segregation Studies | AE Tax",
     "description": "Evaluate supported asset classifications, filing responsibilities and usable deductions. The 22% to 33% range is illustrative, not a verified benchmark."
   },
   "/compare/the-real-estate-cpa-vs-ae-tax/": {
-    "title": "The Real Estate CPA vs AE Tax Advisors",
+    "title": "The Real Estate CPA vs AE Tax Advisors (2026)",
     "description": "The Real Estate CPA (Hall CPA) and AE Tax Advisors compared: real estate tax focus, service model, community and education, pricing."
   },
   "/compare/moss-adams-vs-ae-tax/": {
-    "title": "Moss Adams vs AE Tax Advisors for Real Estate Tax Strategy",
+    "title": "Moss Adams vs AE Tax Advisors (2026)",
     "description": "Moss Adams and AE Tax Advisors compared: firm scale, service breadth, typical client size, cost segregation capability, pricing model."
   },
   "/cost-segregation-car-wash/": {
-    "title": "Cost Segregation for Car Wash Facilities",
+    "title": "Cost Segregation for Car Wash Facilities | AE Tax Advisors",
     "description": "Evaluate car wash equipment, building costs, depreciation corrections and owner-level deduction limits before commissioning a cost segregation study."
   },
   "/blog/do-i-need-an-engineering-based-cost-segregation-study/": {
-    "title": "Do I Need an Engineering-Based Cost Segregation Study?",
+    "title": "Engineering-Based Cost Segregation: What to Buy | AE Tax Advisors",
     "description": "Choose a cost segregation study by its evidence, property scope and filing support. Compare methods and review the work behind the fee before engaging AE."
   },
   "/blog/what-happens-to-depreciation-when-i-sell-after-cost-segregation/": {
-    "title": "Is Cost Segregation Worth It If You Plan to Sell?",
+    "title": "Cost Segregation Holding Period and Sale Tax | AE Tax Advisors",
     "description": "How long should you hold property after cost segregation? Compare annual deductions, usable losses, study fees and sale tax in a three-year cash-flow example."
   },
   "/compare/diy-cost-segregation-vs-ae-tax/": {
-    "title": "Can I Do My Own Cost Segregation Study?",
+    "title": "DIY Cost Segregation vs. Professional Study | AE Tax Advisors",
     "description": "Compare DIY cost segregation, software and professional studies. Check input validation, filing work, fees and when a business owner needs broader tax advice."
   },
   "/multi-state-real-estate-tax-planning/": {
-    "title": "Multistate Real Estate Tax Planning for Business Owners",
+    "title": "Multistate Real Estate Tax Planning for Business Owners | AE Tax Advisors",
     "description": "Coordinate property-source income, owner residency, entity filings, PTET decisions and state credits with a clear preparer handoff."
   },
   "/services/partnership-tax-preparation/": {
-    "title": "Partnership & Multi-Member LLC Tax Preparation",
+    "title": "Partnership & Multi-Member LLC Tax Preparation | AE Tax Advisors",
     "description": "Scope Form 1065, K-1s, capital and outside-basis handoffs, Section 754 elections, 743(b) adjustments and 704(c) contribution records."
   },
   "/retirement-exit-ma-tax-strategy/": {
-    "title": "Plan the tax consequences before the deal sets them.",
+    "title": "Business Exit and Retirement Tax Planning | AE Tax Advisors",
     "description": "Define business-sale tax modeling, allocation and Form 8594 responsibilities, seller-note timing, retained-building coordination and final return handoffs."
   },
   "/business-owner-tax-calculator/": {
-    "title": "Business Owner Tax Calculator: 2026 Income Scenarios",
+    "title": "Business Owner Tax Calculator: 2026 Income Scenarios | AE Tax Advisors",
     "description": "Compare baseline and proposed 2026 taxable ordinary income using reviewed deductions. No assumed strategy eligibility, payroll savings or amendment refunds."
   },
   "/tax-savings-calculator/": {
-    "title": "2026 Federal Income Tax Savings Scenario Calculator",
+    "title": "2026 Federal Income Tax Savings Scenario Calculator | AE Tax Advisors",
     "description": "Compare baseline and proposed 2026 taxable ordinary income using reviewed deductions. No assumed strategy eligibility, payroll savings or amendment refunds."
   },
   "/bonus-depreciation-calculator/": {
-    "title": "How Do You Calculate Bonus Depreciation in 2026?",
+    "title": "How to Calculate Bonus Depreciation: 2026 Calculator",
     "description": "Calculate 2026 bonus depreciation step by step, test eligible basis, compare Section 179 and MACRS, and map the deduction to Form 4562."
   },
   "/s-corp-tax-savings-calculator/": {
-    "title": "S-Corp Tax Savings Calculator",
+    "title": "S-Corp Tax Savings Calculator (2026) | AE Tax Advisors",
     "description": "Estimate the self-employment tax you would save by electing S-Corp treatment, net of payroll and compliance costs, based on your net profit and reasonable compensation."
   },
   "/compare/capstan-tax-strategies-vs-ae-tax/": {
-    "title": "Capstan Tax Strategies vs AE Tax Advisors: Renovation Records and Study Scope",
+    "title": "Capstan Tax Strategies vs AE Tax Advisors: Renovation Scope",
     "description": "Compare Capstan and AE for pre-renovation records, cost segregation, repairs, and disposition decisions. Clarify study scope, fees, and the return handoff."
   },
   "/compare/competitor-pricing/": {
-    "title": "Tax Advisor and Cost Segregation Pricing: 100 Providers",
+    "title": "Tax Advisor and Cost Segregation Pricing: 100 Providers | AE Tax Advisors",
     "description": "Compare published fees and clearly labeled cost estimates for 100 tax, accounting, and cost segregation providers."
   },
   "/compare/cost-seg-authority-vs-ae-tax/": {
-    "title": "Cost Segregation Authority vs AE Tax Advisors: Study and Tax Implementation",
+    "title": "Cost Segregation Authority vs AE Tax Advisors: Study Scope",
     "description": "Compare CSA Partners and AE on study fees, owner-level planning, and return implementation. Identify who delivers the report, tests deductions, and files."
   },
   "/compare/cost-segregation-authority-alternatives/": {
-    "title": "Cost Segregation Authority Alternatives for Different Property Decisions",
+    "title": "Cost Segregation Authority Alternatives: Which Scope Fits?",
     "description": "Compare CSA alternatives for renovation records, building incentives, or owner-level tax planning. Choose a defined scope, handoff, and complete project budget."
   },
   "/compare/cost-segregation-authority-pricing/": {
-    "title": "Cost Segregation Authority Pricing: Published Starting Fee and Quote Scope",
+    "title": "Cost Segregation Authority Pricing: Studies From $3,000",
     "description": "CSA Partners studies start at $3,000. Review the official price, quote drivers, separate filing costs, and the dated AE budget without confusing the two."
   },
   "/compare/engineered-tax-services-vs-ae-tax/": {
-    "title": "Engineered Tax Services vs AE Tax Advisors: Building Studies and Incentive Timing",
+    "title": "Engineered Tax Services vs AE Tax Advisors: Incentive Scope",
     "description": "Compare ETS and AE on cost segregation, separate building incentives, current 179D and 45L dates, fees, and who owns the tax-return implementation."
   },
   "/best-entity-structure-medical-practice/": {
-    "title": "What Is the Best Entity Structure for a Medical Practice?",
+    "title": "Medical Practice Entity Structure: 2026 Tax Comparison",
     "description": "Compare medical practice entity choices using 2026 payroll rules, reasonable compensation, retirement funding, state requirements and exit costs."
   },
   "/blog/how-much-can-i-contribute-to-a-solo-401k/": {
-    "title": "How Much Can I Contribute to a Solo 401(k) in 2026?",
+    "title": "Solo 401(k) Contribution Limits and Calculations (2026)",
     "description": "Calculate 2026 solo 401(k) contributions using the correct employee limit, catch-up rules, self-employed worksheet and S-corp W-2 compensation."
   },
   "/blog/mega-backdoor-roth-for-business-owners/": {
-    "title": "What Is the Mega Backdoor Roth and Can Business Owners Use It?",
+    "title": "Mega Backdoor Roth for Business Owners: 2026 Rules",
     "description": "Review 2026 mega backdoor Roth capacity, after-tax plan features, employee testing, conversion tax and administrator questions before funding."
   },
   "/blog/retirement-plan-strategies-s-corp-owners/": {
-    "title": "Retirement Plan Strategies for S-Corp Owners: Solo 401(k), SEP IRA, and Defined Benefit Plans",
+    "title": "S-Corp Retirement Plan Contributions and Limits (2026)",
     "description": "Compare 2026 S-corp 401(k), SEP and cash balance plan decisions using W-2 compensation, employee coverage, contribution limits and implementation deadlines."
   },
   "/tax-planning-for-doctors/": {
-    "title": "Tax Planning for Physicians & Medical Professionals",
+    "title": "Tax Planning for Physicians and Practice Owners (2026)",
     "description": "Coordinate physician practice payroll, 2026 retirement limits, locum income and rental-loss eligibility with a clear implementation and preparer handoff."
   },
   "/blog/irc-1060-asset-classification-business-sellers/": {
-    "title": "IRC 1060 Asset Classification: What Every Business Seller Needs to Know",
+    "title": "IRC 1060 Asset Allocation for Business Sellers | AE Tax",
     "description": "Review the seven IRC 1060 asset classes, goodwill and recapture rules, Form 8594, and the records to prepare before signing a business asset sale."
   },
   "/blog/section-179-vehicle-6000-pound-gvwr/": {
-    "title": "The 6,000 Pound Vehicle Rule: Section 179 and Bonus Depreciation on SUVs and Trucks",
+    "title": "6,000 lb Vehicle Deduction: 2026 SUV Limit | AE Tax",
     "description": "Check the $32,000 heavy-SUV Section 179 limit for 2026, bonus eligibility, weight rules, mileage records and ownership before buying a business vehicle."
+  },
+  "/resources/": {
+    "title": "Resources | AE Tax Advisors",
+    "description": "Resources - AE Tax Advisors provides proactive tax planning for business owners and practice owners earning $500K-$5M in annual profit."
+  },
+  "/best-tax-advisor-for-business-owners/": {
+    "title": "Choosing a Tax Advisor for Business Owners | AE Tax",
+    "description": "Compare business tax advisors by planning scope, implementation support, fee clarity and coordination with your CPA. Questions to ask before an engagement."
+  },
+  "/blog/can-i-get-a-refund-for-overpaying-self-employment-tax/": {
+    "title": "Can I Get a Refund for Overpaying Self-Employment Tax?",
+    "description": "Overpaid self-employment tax? Learn how to recover excess SE tax through amended returns, entity elections, and deduction strategies under IRC Section 1401."
+  },
+  "/blog/can-i-hire-my-kids-through-my-business-for-tax-savings/": {
+    "title": "Can I Hire My Kids Through My Business for Tax Savings?",
+    "description": "Learn how hiring your children through your business can create significant tax savings using IRC Section 3121(b)(3)(A) and shift income to lower brackets."
+  },
+  "/blog/how-much-can-i-save-by-electing-s-corp-status/": {
+    "title": "How Much Can I Save in Taxes by Electing S-Corp Status?",
+    "description": "See exactly how much you can save by electing S-Corp status at different income levels, with detailed tax calculations comparing sole proprietorship vs S-Corp."
+  },
+  "/blog/late-s-corp-election-can-i-still-file-form-2553/": {
+    "title": "Can I Still File a Late S-Corp Election with Form 2553?",
+    "description": "Missed the S-Corp election deadline? Learn how to file a late Form 2553 under IRS relief procedures and still get S-Corp treatment for the current tax year."
+  },
+  "/blog/late-s-corp-election-form-2553-strategies/": {
+    "title": "Late S-Corp Election: How to Fix a Missed Form 2553 Deadline (2026)",
+    "description": "For business owners and real estate investors operating through an LLC or C-Corp, electing S-Corp status can produce significant self-employment tax savings."
+  },
+  "/blog/merp-medical-expense-reimbursement-plan-s-corp/": {
+    "title": "MERP for S-Corp Owners: Turning Personal Medical Bills Into Business",
+    "description": "Medical expenses represent one of the largest personal costs that S-Corp owners face each year, yet most business owners continue paying these bills entirely."
+  },
+  "/blog/reasonable-compensation-s-corp-analysis/": {
+    "title": "Reasonable Compensation for S-Corp Owners",
+    "description": "One of the most powerful tax advantages of operating as an S-Corporation is the ability to split business income between salary and distributions."
+  },
+  "/blog/s-corp-vs-c-corp-comparison-high-earners/": {
+    "title": "S-Corp vs C-Corp: Which Entity Saves More for High-Earning Business",
+    "description": "Choosing between an S-Corporation and a C-Corporation is one of the most consequential tax decisions a high-earning business owner can make."
+  },
+  "/blog/s-corp-vs-llc-tax-differences-for-business-owners/": {
+    "title": "What Are the Tax Differences Between an S-Corp and an LLC?",
+    "description": "Compare the key tax differences between S-Corps and LLCs, including self-employment tax, QBI deductions, and how each structure affects your total tax burden."
+  },
+  "/blog/should-i-elect-s-corp-status-for-my-llc/": {
+    "title": "Should I Elect S-Corp Status for My LLC? | AE Tax Advisors",
+    "description": "Deciding whether to elect S-Corp status for your LLC? Learn the tax advantages, self-employment tax savings, and when S-Corp election makes financial sense."
+  },
+  "/blog/what-is-reasonable-compensation-for-s-corp-owners/": {
+    "title": "What Is Reasonable Compensation for S-Corp Owners? (2026)",
+    "description": "Understand the IRS reasonable compensation requirement for S-Corp owners, how to determine the right salary level, and what happens if you set it too low."
+  },
+  "/blog/what-triggers-irs-audit-s-corp/": {
+    "title": "What Triggers an IRS Audit for S-Corp Owners | AE Tax Advisors",
+    "description": "S-Corporations remain one of the most popular entity structures for business owners and real estate investors, largely because of the ability to split income."
+  },
+  "/blog/when-should-i-switch-from-llc-to-s-corp/": {
+    "title": "When Should I Switch from an LLC to an S-Corp? | AE Tax Advisors",
+    "description": "Learn the income thresholds, timing rules, and key factors that determine when switching from LLC to S-Corp taxation will save you the most money in taxes."
+  },
+  "/blog/when-to-convert-llc-to-s-corp/": {
+    "title": "When to Convert Your LLC to an S-Corp",
+    "description": "For business owners operating as a single-member or multi-member LLC, there is a critical inflection point where the default tax treatment begins costing."
+  },
+  "/how-to-legally-pay-yourself-from-your-business/": {
+    "title": "How To Legally Pay Yourself From Your (2026) | AE Tax Advisors",
+    "description": "Business owners often ask: what's the best way to take money out of my business?"
+  },
+  "/how-to-legally-reduce-self-employment-tax-through-entity-design/": {
+    "title": "How To Legally Reduce Self Employment Tax (2026) | AE Tax Advisors",
+    "description": "Self-employment tax (Social Security and Medicare taxes) represents one of the largest tax burdens for business owners operating as sole proprietors."
+  },
+  "/s-corp-tax-strategies-high-net-worth-business-owners/": {
+    "title": "S-Corp Tax Strategies High Net Worth (2026) | AE Tax Advisors",
+    "description": "High-net-worth business owners operating as S-Corporations have moved beyond the basic question of whether S-Corp status is beneficial. They have."
+  },
+  "/the-hidden-tax-benefits-of-hiring-family-members-in-your-business/": {
+    "title": "Tax Benefits of Hiring Family Members | AE Tax Advisors",
+    "description": "Employing family members creates tax advantages unavailable with non-family employees."
+  },
+  "/s-corp-tax-strategy/": {
+    "title": "S-Corp Tax Strategy for $500K+ Business Owners: The Complete Guide",
+    "description": "How profitable business owners use the S-corp election to cut payroll tax, what reasonable compensation actually requires, and where the savings stop."
+  },
+  "/s-corp-vs-llc-tax-comparison-2026/": {
+    "title": "S-Corp vs LLC Tax Comparison 2026 | AE Tax Advisors",
+    "description": "The comparison most people make is the wrong one. An LLC is a legal entity, an S-Corp is a tax election."
+  },
+  "/services/s-corp-election/": {
+    "title": "S-Corp Election: Form 2553, Deadlines, and Tax Savings",
+    "description": "The S-Corp election is the single most common entity move for profitable owner-operated businesses."
+  },
+  "/blog/can-i-amend-my-tax-returns/": {
+    "title": "Can I Amend My Tax Returns? A Complete Guide to Recovering Missed Deductions | AE Tax Advisors",
+    "description": "Learn when and how to amend your tax returns using Form 1040-X. Understand the statute of limitations, common missed deductions, and when Form 3115 is the better option."
+  },
+  "/blog/form-3115-cost-segregation-catch-up/": {
+    "title": "How to Use Form 3115 for Cost Segregation Catch-Up (2026)",
+    "description": "Form 3115, Application for Change in Accounting Method, is one of the most powerful and underused tools available to real estate investors."
+  },
+  "/cost-segregation-complete-guide-2026/": {
+    "title": "Cost Segregation Complete Guide 2026 | AE Tax Advisors",
+    "description": "The definitive 2026 guide to cost segregation studies. Learn how engineering-based reclassification of building components accelerates depreciation, reduces taxes, and improves cash flow for real estate investors and business owners."
+  },
+  "/blog/section-179-deduction-2026-complete-guide/": {
+    "title": "Section 179 Deduction Guide (2026) | AE Tax Advisors",
+    "description": "2026 Section 179 limits: $2,560,000, a $4,090,000 phaseout threshold, and a $32,000 SUV cap. Compare income limits, bonus depreciation, and financing."
+  },
+  "/blog/defined-benefit-plan-vs-solo-401k/": {
+    "title": "Defined Benefit Plan vs. Solo 401(k)",
+    "description": "Compare 2026 solo 401(k) limits with actuarial pension funding, Roth catch-up rules, fees, and a combined-plan example before choosing a retirement plan."
+  },
+  "/blog/one-big-beautiful-bill-act-business-owners-2026/": {
+    "title": "What the One Big Beautiful Bill Act Means for Business Owners in 2026",
+    "description": "Review 2026 OBBBA rules: 20% QBI, a $40,400 SALT cap before phase-down, Section 179 limits, and bonus-depreciation eligibility for business owners."
+  },
+  "/blog/qbi-deduction-optimization-irc-199a/": {
+    "title": "Maximizing Your QBI Deduction: An S-Corp Owner's Guide to IRC 199A",
+    "description": "Plan the 2026 QBI deduction with the 20% rate, current income ranges, SSTB and wage limits, and retirement-contribution effects for S-Corp owners."
+  },
+  "/blog/tax-strategy-for-gym-fitness-studio-owners/": {
+    "title": "Tax Planning for Gym Owners Before Expansion | AE Tax Advisors",
+    "description": "Plan a gym buildout or second location with a review of membership receipts, equipment financing, lease improvements, payroll and employee retirement eligibility."
   }
 }
