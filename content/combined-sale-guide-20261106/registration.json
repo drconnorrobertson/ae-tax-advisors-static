@@ -1,0 +1,83 @@
+{
+  "route": "/blog/selling-business-and-building-1031-exchange/",
+  "publication_date": "2026-11-06",
+  "source_owner": "Static source HTML. No broad content generator is needed.",
+  "catalog": {
+    "url": "/blog/selling-business-and-building-1031-exchange/",
+    "title": "Selling Your Business and Building Together: Can You 1031 the Real Estate?",
+    "description": "Selling your business and its building together? Separate ownership, asset allocation, exchange funds and tax reserves before agreeing to the closing terms.",
+    "category": "Exit Planning",
+    "date": "2026-11-06"
+  },
+  "xml_sitemaps": [
+    {
+      "file": "sitemap.xml",
+      "loc": "https://www.aetaxadvisors.com/blog/selling-business-and-building-1031-exchange/",
+      "lastmod": "2026-11-06"
+    },
+    {
+      "file": "sitemap-blog.xml",
+      "loc": "https://www.aetaxadvisors.com/blog/selling-business-and-building-1031-exchange/",
+      "lastmod": "2026-11-06"
+    }
+  ],
+  "reviewed_lastmod": {
+    "/blog/selling-business-and-building-1031-exchange/": "2026-11-06"
+  },
+  "reviewed_discovery_copy": {
+    "/blog/selling-business-and-building-1031-exchange/": {
+      "title": "Selling a Business and Building: 1031 Planning | AE Tax",
+      "description": "Selling your business and its building together? Separate ownership, asset allocation, exchange funds and tax reserves before agreeing to the closing terms."
+    }
+  },
+  "discovery_link": {
+    "url": "https://www.aetaxadvisors.com/blog/selling-business-and-building-1031-exchange/",
+    "label": "Selling a Business and Building: 1031 Planning | AE Tax"
+  },
+  "inbound_links": [
+    {
+      "file": "blog/selling-business-keeping-building-tax-planning/index.html",
+      "anchor": "<p>This guide is for established owners whose company occupies a building they own, directly or through another entity. Start the review while sale and lease terms are still negotiable. Ask for a combined after-tax cash forecast, supported by separate records for the business sale and retained property.</p>",
+      "position": "after",
+      "addition": "<p>If the buyer also wants the property, compare <a href=\"/blog/selling-business-and-building-1031-exchange/\">selling the business and building together, including a possible exchange of qualifying real estate</a>, before choosing the retained-building route.</p>"
+    },
+    {
+      "file": "blog/tax-planning-before-signing-letter-of-intent/index.html",
+      "anchor": "<p>For a covered asset acquisition, the allocation connects the negotiated price with the assets reported by each party. Have the tax team review proposed equipment, inventory and intangible allocations before they become an unexplained exhibit in the final agreement.</p>",
+      "position": "after",
+      "addition": "<p>When the offer includes your company’s premises, use the <a href=\"/blog/selling-business-and-building-1031-exchange/\">combined business-and-building sale worksheet</a> to identify the property seller, allocation and exchange funds before agreeing to closing terms.</p>"
+    },
+    {
+      "file": "blog/business-purchase-price-allocation-assets/index.html",
+      "anchor": "<h2>The tax treatment</h2>",
+      "position": "before",
+      "addition": "<p>For a sale that includes both operating assets and real estate, the <a href=\"/blog/selling-business-and-building-1031-exchange/\">business-and-building sale guide</a> explains how the allocation connects to a potential Section 1031 exchange and separate closing funds.</p>"
+    }
+  ],
+  "primary_sources": [
+    {
+      "title": "IRS: sale of a business",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/sale-of-a-business"
+    },
+    {
+      "title": "IRS Form 8594 instructions: allocation and exchange exceptions",
+      "url": "https://www.irs.gov/instructions/i8594"
+    },
+    {
+      "title": "IRS Form 8824 instructions: qualifying property, deadlines and recapture",
+      "url": "https://www.irs.gov/instructions/i8824"
+    },
+    {
+      "title": "IRS Publication 544: dispositions and deferred exchanges",
+      "url": "https://www.irs.gov/publications/p544"
+    },
+    {
+      "title": "IRS Publication 3402: LLC tax classification and ownership changes",
+      "url": "https://www.irs.gov/publications/p3402"
+    },
+    {
+      "title": "IRS Publication 537: installment sales",
+      "url": "https://www.irs.gov/publications/p537"
+    }
+  ]
+}
