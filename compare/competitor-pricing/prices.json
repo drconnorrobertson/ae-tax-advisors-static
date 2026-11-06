@@ -1329,16 +1329,20 @@
       "path": "/compare/basis-cost-segregation-pricing/",
       "category": "software",
       "source": "https://basiscostseg.com/pricing",
-      "fee": "Residential base price $1,795/property; the pricing page advertises a $1,295 sale price through December 31.",
-      "qualification": "The $500 reduction has offer conditions. Confirm property eligibility, checkout price, and expiry time. Filing and comprehensive tax planning are separate from the study.",
-      "reviewed": "2026-10-24",
+      "fee": "BASIS displays a $1,795 residential base price and a $1,295 promotional price through December 31, 2026 at 11:59 p.m. CST. Confirm the checkout price and eligibility; optional services cost extra.",
+      "qualification": "This is a one-time fee per qualifying residential property. The reviewed pricing page excludes tax-return preparation, Form 3115 preparation, IRS representation and separate prior-year or post-purchase renovation services from the base price. Promotions may change.",
+      "reviewed": "2026-11-06",
       "keywords": [
         "BASIS Cost Segregation pricing",
         "BASIS Cost Segregation cost",
         "BASIS Cost Segregation fees"
       ],
-      "status": "Published base and promotional fee",
-      "kind": "published"
+      "status": "Published program fees — confirm scope",
+      "kind": "published",
+      "additionalSources": [
+        "https://basiscostseg.com/customer-services-agreement",
+        "https://basiscostseg.com/"
+      ]
     },
     {
       "slug": "beach-life-cpa",
@@ -1510,23 +1514,20 @@
       "path": "/compare/cost-segregation-guys-pricing/",
       "category": "costseg",
       "source": "https://costsegregationguys.com/",
-      "fee": "$2,500–$5,000+ per property study",
-      "qualification": "A professionally reviewed or engineered study of a relatively straightforward property; complex commercial sites, travel, filings, and amendments are additional.",
-      "reviewed": "2026-10-24",
+      "fee": "Request a property-specific Cost Segregation Guys quote. Its FAQ says cost depends on property complexity, size and type, and describes upfront quotes rather than a universal fixed study fee.",
+      "qualification": "Ask the quote to identify the chosen virtual or in-person process, buildings, improvements, report schedules and support. Relative-price advertising does not establish the actual fee or comparable scope for your property.",
+      "reviewed": "2026-11-06",
       "keywords": [
         "Cost Segregation Guys pricing",
         "Cost Segregation Guys cost",
         "Cost Segregation Guys fees"
       ],
-      "kind": "estimate",
-      "status": "AE budget estimate — comparable service",
-      "estimateBasis": "AE’s rounded budgeting band uses R.E. Cost Seg engineering from $2,320, CostSegEZ engineering from $2,500, and CostSegregation.com’s discussion of complex studies reaching $5,000 or more. Software-only products cost less.",
-      "benchmarkSources": [
-        "https://www.recostseg.com/",
-        "https://costsegez.com/",
-        "https://www.costsegregation.com/resources/cost-segregation-study-cost/"
-      ],
-      "estimateCategory": "costseg"
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": [
+        "https://costsegregationguys.com/faqs/",
+        "https://costsegregationguys.com/form-3115/"
+      ]
     },
     {
       "slug": "costseg-express",
@@ -1627,23 +1628,19 @@
       "path": "/compare/duffy-duffy-cost-segregation-pricing/",
       "category": "costseg",
       "source": "https://costsegexperts.com/",
-      "fee": "$2,500–$5,000+ per property study",
-      "qualification": "A professionally reviewed or engineered study of a relatively straightforward property; complex commercial sites, travel, filings, and amendments are additional.",
-      "reviewed": "2026-10-24",
+      "fee": "Duffy + Duffy invites owners to request a no-cost analysis and a fee quote. The official homepage and CPA page reviewed do not publish a universal fixed study fee.",
+      "qualification": "Request a written quote for the exact building and study scope. Separate the preliminary estimate of potential tax deferrals from the fee for investigation, analysis, schedules and follow-up.",
+      "reviewed": "2026-11-06",
       "keywords": [
         "Duffy + Duffy Cost Segregation pricing",
         "Duffy + Duffy Cost Segregation cost",
         "Duffy + Duffy Cost Segregation fees"
       ],
-      "kind": "estimate",
-      "status": "AE budget estimate — comparable service",
-      "estimateBasis": "AE’s rounded budgeting band uses R.E. Cost Seg engineering from $2,320, CostSegEZ engineering from $2,500, and CostSegregation.com’s discussion of complex studies reaching $5,000 or more. Software-only products cost less.",
-      "benchmarkSources": [
-        "https://www.recostseg.com/",
-        "https://costsegez.com/",
-        "https://www.costsegregation.com/resources/cost-segregation-study-cost/"
-      ],
-      "estimateCategory": "costseg"
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": [
+        "https://costsegexperts.com/cpas.cfm"
+      ]
     },
     {
       "slug": "duncan-carter-tax-advisory",
@@ -1897,41 +1894,41 @@
       "name": "McGuire Sponsel",
       "path": "/compare/mcguire-sponsel-pricing/",
       "category": "costseg",
-      "source": "https://mcguiresponsel.com/",
-      "fee": "$2,500–$5,000+ per property study",
-      "qualification": "A professionally reviewed or engineered study of a relatively straightforward property; complex commercial sites, travel, filings, and amendments are additional.",
-      "reviewed": "2026-10-24",
+      "source": "https://mcguiresponsel.com/fixed-asset-services/cost-segregation/",
+      "fee": "Request a property-specific McGuire Sponsel quote. Its official cost segregation page offers a free quote and estimate but does not establish a universal fixed study fee.",
+      "qualification": "A preliminary benefit estimate is different from the professional fee. Specify the property visit, buildings, construction records, improvements, deliverable and CPA coordination before comparing totals.",
+      "reviewed": "2026-11-06",
       "keywords": [
         "McGuire Sponsel pricing",
         "McGuire Sponsel cost",
         "McGuire Sponsel fees"
       ],
-      "kind": "estimate",
-      "status": "AE budget estimate — comparable service",
-      "estimateBasis": "AE’s rounded budgeting band uses R.E. Cost Seg engineering from $2,320, CostSegEZ engineering from $2,500, and CostSegregation.com’s discussion of complex studies reaching $5,000 or more. Software-only products cost less.",
-      "benchmarkSources": [
-        "https://www.recostseg.com/",
-        "https://costsegez.com/",
-        "https://www.costsegregation.com/resources/cost-segregation-study-cost/"
-      ],
-      "estimateCategory": "costseg"
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": [
+        "https://mcguiresponsel.com/about/"
+      ]
     },
     {
       "slug": "my-cost-segregation",
       "name": "My Cost Segregation",
       "path": "/compare/my-cost-segregation-pricing/",
       "category": "costseg",
-      "source": "https://www.mycostsegregation.com/pricing/",
-      "fee": "Self-service starts at $497; professional review starts at $2,500.",
-      "qualification": "The pricing page changes prices by property value and service path. Confirm property eligibility and the level of review rather than treating the lowest starting fee as a quote for every building.",
-      "reviewed": "2026-10-24",
+      "source": "https://mycostsegregation.com/pricing/",
+      "fee": "My Cost Segregation lists residential Self-Serve from $497 and Expert Reviewed from $2,500. Commercial Self-Serve starts at $1,497 and Commercial Reviewed at $3,500. Prices scale with property value; larger assignments require a scoped quote.",
+      "qualification": "These are starting prices for different tiers. Property at $1.5 million or more requires a reviewed tier. Ask for the exact property-value band, review process, revision terms and any separately priced preparation or extra work.",
+      "reviewed": "2026-11-06",
       "keywords": [
         "My Cost Segregation pricing",
         "My Cost Segregation cost",
         "My Cost Segregation fees"
       ],
-      "status": "Published starting fee",
-      "kind": "published"
+      "status": "Published program fees — confirm scope",
+      "kind": "published",
+      "additionalSources": [
+        "https://mycostsegregation.com/how-it-works/",
+        "https://mycostsegregation.com/audit-defense/"
+      ]
     },
     {
       "slug": "pwc",
@@ -2150,6 +2147,11 @@
     "capstan-tax-strategies": "2026-11-06",
     "re-cost-seg": "2026-11-06",
     "cost-seg-smart": "2026-11-06",
-    "costsegez": "2026-11-06"
+    "costsegez": "2026-11-06",
+    "mcguire-sponsel": "2026-11-06",
+    "duffy-duffy-cost-segregation": "2026-11-06",
+    "basis-cost-segregation": "2026-11-06",
+    "cost-segregation-guys": "2026-11-06",
+    "my-cost-segregation": "2026-11-06"
   }
 }

@@ -1,0 +1,284 @@
+{
+  "mcguire-sponsel": {
+    "name": "McGuire Sponsel",
+    "sources": [
+      [
+        "https://mcguiresponsel.com/fixed-asset-services/cost-segregation/",
+        "McGuire Sponsel cost segregation scope"
+      ],
+      [
+        "https://mcguiresponsel.com/about/",
+        "McGuire Sponsel specialty tax services"
+      ]
+    ],
+    "summary": "McGuire Sponsel describes cost segregation using engineering and tax expertise, a site inspection for every study, and a focus on the CPA-client relationship.",
+    "fit": "Owners and CPA firms seeking site-inspected studies for acquisitions, new construction, renovations or complex asset records.",
+    "alternative_intro": "Compare McGuire Sponsel alternatives using the property investigation and CPA workflow you need. McGuire Sponsel describes a site inspection for every study. AE Tax Advisors offers standalone studies; Duffy + Duffy offers engineering-based analysis; Cost Segregation Guys advertises virtual or in-person studies. Ask each firm to quote the inspection and deliverables for the same building.",
+    "keep": "Keep McGuire Sponsel on the shortlist when you need a specialty team working alongside your CPA, especially for a building purchase, construction project, renovation or substantial asset schedule. Its published approach combines engineering and tax expertise.",
+    "boundary": "The listed prospect criteria describe typical opportunities, not guaranteed eligibility or tax benefits. Confirm the scope of any related fixed-asset or incentive work rather than assuming it is included in the study.",
+    "fee": "Request a property-specific McGuire Sponsel quote. Its official cost segregation page offers a free quote and estimate but does not establish a universal fixed study fee.",
+    "fee_context": "A preliminary benefit estimate is different from the professional fee. Specify the property visit, buildings, construction records, improvements, deliverable and CPA coordination before comparing totals.",
+    "filing_answer": "The public cost segregation page emphasizes the CPA-client relationship. Ask which schedules and method-change documentation the proposal includes, whether any Form 3115 preparation is separately available, and who signs and files the return.",
+    "price_comparison": "Compare a quote for the same property and report scope. AE’s published rate uses square footage; a fixed residential fee, value-based software tier and custom engineering proposal may cover different work.",
+    "vs_intro": "Compare McGuire Sponsel alternatives using the property investigation and CPA workflow you need. McGuire Sponsel describes a site inspection for every study. AE Tax Advisors offers standalone studies; Duffy + Duffy offers engineering-based analysis; Cost Segregation Guys advertises virtual or in-person studies. Ask each firm to quote the inspection and deliverables for the same building.",
+    "scenario": "Suppose you bought a manufacturing building with a long fixed-asset ledger and several prior renovations. Ask each bidder to explain the site investigation, reconciliation of improvements and report package for your existing CPA.",
+    "decision": "Choose the firm whose investigation, asset reconciliation and accountant handoff fit that project. A custom site-inspected study should be evaluated against another matched engineering proposal.",
+    "ae_question": "What property investigation, component schedules, support and preparer handoff does AE include, and which implementation tasks require separate scope?",
+    "questions": [
+      "Does the fee include a site inspection for every building in this engagement?",
+      "How will existing asset records and renovation costs be reconciled?",
+      "Which schedules, draft findings and CPA responses are delivered?",
+      "Are method-change preparation, return work or related incentive projects separately priced?"
+    ],
+    "cost_rows": [
+      [
+        "Property investigation",
+        "Define each building, inspection and supporting cost record."
+      ],
+      [
+        "Asset reconciliation",
+        "Specify existing schedules and renovation review."
+      ],
+      [
+        "CPA workflow",
+        "Confirm draft findings, final schedules and question handling."
+      ],
+      [
+        "Additional tax work",
+        "Separately assign forms, return implementation and other specialty projects."
+      ]
+    ],
+    "peers": [
+      "duffy-duffy-cost-segregation",
+      "cost-segregation-guys"
+    ]
+  },
+  "duffy-duffy-cost-segregation": {
+    "name": "Duffy + Duffy Cost Segregation",
+    "sources": [
+      [
+        "https://costsegexperts.com/",
+        "Duffy + Duffy engineering-based studies"
+      ],
+      [
+        "https://costsegexperts.com/cpas.cfm",
+        "Duffy + Duffy CPA services and quotes"
+      ]
+    ],
+    "summary": "Duffy + Duffy describes engineering-based cost segregation involving CPAs, construction engineers and estimators, including work on commercial and LEED-certified buildings.",
+    "fit": "Commercial property owners seeking engineering-based analysis and a specialty report for their existing accountant.",
+    "alternative_intro": "Compare Duffy + Duffy Cost Segregation alternatives around the commercial building and records involved. AE Tax Advisors offers standalone studies; McGuire Sponsel describes a site-inspected engineering approach; Cost Segregation Guys offers virtual or in-person workflows. Compare component investigation, final schedules and CPA support for equivalent work.",
+    "keep": "Keep Duffy + Duffy on your shortlist for an engineering-based commercial study, including a new or existing building or a LEED-certified project. Its website describes a team with accounting, engineering and estimating experience.",
+    "boundary": "Do not treat a commercial engineering proposal as interchangeable with a residential self-serve report. Confirm property eligibility, investigation, accountant questions and any related energy or construction analysis.",
+    "fee": "Duffy + Duffy invites owners to request a no-cost analysis and a fee quote. The official homepage and CPA page reviewed do not publish a universal fixed study fee.",
+    "fee_context": "Request a written quote for the exact building and study scope. Separate the preliminary estimate of potential tax deferrals from the fee for investigation, analysis, schedules and follow-up.",
+    "filing_answer": "Ask who reviews the report with your CPA, what depreciation schedules are supplied, and whether method-change documentation, Form 3115 preparation or return work is part of a separate engagement. The reviewed pages do not establish those inclusions.",
+    "price_comparison": "Compare a quote for the same property and report scope. AE’s published rate uses square footage; a fixed residential fee, value-based software tier and custom engineering proposal may cover different work.",
+    "vs_intro": "Compare Duffy + Duffy Cost Segregation alternatives around the commercial building and records involved. AE Tax Advisors offers standalone studies; McGuire Sponsel describes a site-inspected engineering approach; Cost Segregation Guys offers virtual or in-person workflows. Compare component investigation, final schedules and CPA support for equivalent work.",
+    "scenario": "Suppose you completed an energy-efficient office building and already have a CPA handling the return. Compare the engineering study, treatment of construction records and any separately scoped energy-related work.",
+    "decision": "Keep the provider whose proposal addresses the building’s technical details and your preparer’s required documentation. Compare the study fee and any additional specialty work separately.",
+    "ae_question": "What property investigation, component schedules, support and preparer handoff does AE include, and which implementation tasks require separate scope?",
+    "questions": [
+      "What inspection and engineering investigation are included for this building?",
+      "How are construction records and building components documented?",
+      "Who answers my CPA’s questions and supplies the final schedules?",
+      "Are energy-related analysis, forms or tax-return services separately contracted?"
+    ],
+    "cost_rows": [
+      [
+        "Commercial study",
+        "Define the property, engineering investigation and report package."
+      ],
+      [
+        "Construction records",
+        "Identify plans, invoices, improvements and cost reconciliation."
+      ],
+      [
+        "CPA handoff",
+        "Specify schedules and post-report questions."
+      ],
+      [
+        "Separate projects",
+        "Clarify energy-related analysis, forms and return work."
+      ]
+    ],
+    "peers": [
+      "mcguire-sponsel",
+      "cost-segregation-guys"
+    ]
+  },
+  "basis-cost-segregation": {
+    "name": "BASIS Cost Segregation",
+    "sources": [
+      [
+        "https://basiscostseg.com/pricing",
+        "BASIS current residential pricing"
+      ],
+      [
+        "https://basiscostseg.com/customer-services-agreement",
+        "BASIS residential service scope"
+      ],
+      [
+        "https://basiscostseg.com/",
+        "BASIS official website"
+      ]
+    ],
+    "summary": "BASIS describes an online residential study prepared with purpose-built software and reviewed by cost segregation engineers. Its base service is remote and does not include a physical site visit.",
+    "fit": "Owners of eligible residential rentals who want a published study fee and engineer review of an online intake workflow.",
+    "alternative_intro": "Compare BASIS Cost Segregation alternatives after confirming residential eligibility. BASIS publishes a remote, engineer-reviewed study workflow. AE Tax Advisors offers standalone studies; My Cost Segregation separates self-serve and professionally reviewed tiers; Cost Segregation Guys offers virtual or in-person studies. Compare investigation, owner effort and preparer handoff.",
+    "keep": "Keep BASIS on the shortlist when your rental fits its residential-only scope and you can supply accurate online property information. It advertises engineer review, a report package and three years of limited report-related support.",
+    "boundary": "Its agreement excludes commercial properties and apartment buildings with more than four units from the base study. Direct CPA coordination and delivery are not base inclusions; confirm any separately offered add-on. Report support differs from representation.",
+    "fee": "BASIS displays a $1,795 residential base price and a $1,295 promotional price through December 31, 2026 at 11:59 p.m. CST. Confirm the checkout price and eligibility; optional services cost extra.",
+    "fee_context": "This is a one-time fee per qualifying residential property. The reviewed pricing page excludes tax-return preparation, Form 3115 preparation, IRS representation and separate prior-year or post-purchase renovation services from the base price. Promotions may change.",
+    "filing_answer": "BASIS’s base agreement excludes Form 3115 and tax-return preparation, direct CPA coordination and representation unless separately offered and purchased. The customer normally forwards the report to the preparer; confirm the applicable add-on scope before ordering.",
+    "price_comparison": "Compare a quote for the same property and report scope. AE’s published rate uses square footage; a fixed residential fee, value-based software tier and custom engineering proposal may cover different work.",
+    "vs_intro": "Compare BASIS Cost Segregation alternatives after confirming residential eligibility. BASIS publishes a remote, engineer-reviewed study workflow. AE Tax Advisors offers standalone studies; My Cost Segregation separates self-serve and professionally reviewed tiers; Cost Segregation Guys offers virtual or in-person studies. Compare investigation, owner effort and preparer handoff.",
+    "scenario": "Suppose you own a four-unit rental plus a detached guest house and want a reviewed online report. Confirm eligibility and added review before comparing the base fee with a study proposal covering every structure.",
+    "decision": "Select a workflow that accepts the property facts and gives your preparer the required evidence. A residential base fee does not price a commercial or unusually complex assignment.",
+    "ae_question": "What property investigation, component schedules, support and preparer handoff does AE include, and which implementation tasks require separate scope?",
+    "questions": [
+      "Does my property, unit count and any detached structure fit the base scope?",
+      "What owner-supplied information is reviewed and what investigation is performed?",
+      "Does the promotion apply at checkout and what add-ons are required?",
+      "Who sends the report to my CPA, and which forms or coordination services are separately available?"
+    ],
+    "cost_rows": [
+      [
+        "Residential base",
+        "Displayed $1,795; promotional $1,295 through December 31, 2026, subject to checkout."
+      ],
+      [
+        "Property eligibility",
+        "Confirm rental use, unit count and unusual structures."
+      ],
+      [
+        "Added analysis",
+        "Separately scope renovations, prior-year work or other available modules."
+      ],
+      [
+        "Preparer handoff",
+        "Base report delivery does not include tax filing or direct CPA coordination."
+      ]
+    ],
+    "peers": [
+      "my-cost-segregation",
+      "cost-segregation-guys"
+    ]
+  },
+  "cost-segregation-guys": {
+    "name": "Cost Segregation Guys",
+    "sources": [
+      [
+        "https://costsegregationguys.com/",
+        "Cost Segregation Guys study process"
+      ],
+      [
+        "https://costsegregationguys.com/faqs/",
+        "Cost Segregation Guys fees and property questions"
+      ],
+      [
+        "https://costsegregationguys.com/form-3115/",
+        "Cost Segregation Guys method-change information"
+      ]
+    ],
+    "summary": "Cost Segregation Guys advertises fully engineered studies with virtual or in-person options, a final report and fixed-asset schedule for the CPA, and audit support.",
+    "fit": "Owners comparing virtual and on-site study options across rental and commercial property types.",
+    "alternative_intro": "Compare Cost Segregation Guys alternatives by inspection method, component detail and accountant handoff. AE Tax Advisors offers standalone studies; McGuire Sponsel describes a site inspection for every study; My Cost Segregation separates self-serve from professionally reviewed workflows. Ask for the same building and report scope before comparing fees.",
+    "keep": "Keep Cost Segregation Guys on the shortlist when you want to discuss virtual or in-person engineering and a report with a fixed-asset schedule for your CPA. Its public materials cover rental and commercial property types.",
+    "boundary": "The website’s marketing savings, relative-price and turnaround claims are not independent evidence of your project’s outcome. Confirm the selected study route, current delivery date and audit-support terms in the proposal.",
+    "fee": "Request a property-specific Cost Segregation Guys quote. Its FAQ says cost depends on property complexity, size and type, and describes upfront quotes rather than a universal fixed study fee.",
+    "fee_context": "Ask the quote to identify the chosen virtual or in-person process, buildings, improvements, report schedules and support. Relative-price advertising does not establish the actual fee or comparable scope for your property.",
+    "filing_answer": "The site has Form 3115 information and describes report schedules for the CPA. Confirm who evaluates and prepares any required method-change filing, whether that work is offered separately, and who files the income-tax return.",
+    "price_comparison": "Compare a quote for the same property and report scope. AE’s published rate uses square footage; a fixed residential fee, value-based software tier and custom engineering proposal may cover different work.",
+    "vs_intro": "Compare Cost Segregation Guys alternatives by inspection method, component detail and accountant handoff. AE Tax Advisors offers standalone studies; McGuire Sponsel describes a site inspection for every study; My Cost Segregation separates self-serve from professionally reviewed workflows. Ask for the same building and report scope before comparing fees.",
+    "scenario": "Suppose you have a small hotel with recent improvements and are deciding between virtual and on-site investigation. Ask both firms what evidence each process captures and how the report reconciles to your cost records.",
+    "decision": "Choose the study method and support package that fit the records and building. Require a written scope and complete fee rather than choosing from a broad savings or speed claim.",
+    "ae_question": "What property investigation, component schedules, support and preparer handoff does AE include, and which implementation tasks require separate scope?",
+    "questions": [
+      "Is the quote for virtual investigation or an on-site visit?",
+      "What records, building components and improvements will be reviewed?",
+      "What final report, fixed-asset file and CPA responses are supplied?",
+      "What does audit support cover and who prices any separate method-change or return work?"
+    ],
+    "cost_rows": [
+      [
+        "Study method",
+        "Price the actual virtual or in-person process."
+      ],
+      [
+        "Property scope",
+        "List buildings, improvements and required cost documentation."
+      ],
+      [
+        "Report support",
+        "Confirm schedules, accountant questions and written support terms."
+      ],
+      [
+        "Tax implementation",
+        "Assign any Form 3115 and income-tax return work separately."
+      ]
+    ],
+    "peers": [
+      "mcguire-sponsel",
+      "my-cost-segregation"
+    ]
+  },
+  "my-cost-segregation": {
+    "name": "My Cost Segregation",
+    "sources": [
+      [
+        "https://mycostsegregation.com/pricing/",
+        "My Cost Segregation published tier pricing"
+      ],
+      [
+        "https://mycostsegregation.com/how-it-works/",
+        "My Cost Segregation study workflow"
+      ],
+      [
+        "https://mycostsegregation.com/audit-defense/",
+        "My Cost Segregation support pledge"
+      ]
+    ],
+    "summary": "My Cost Segregation publishes Self-Serve and professionally reviewed study tiers using property records and dated photos. It describes a tax-director signature on every study, with input and photo checks in reviewed tiers.",
+    "fit": "Owners comparing value-based self-serve pricing with a separately priced professional review workflow.",
+    "alternative_intro": "Compare My Cost Segregation alternatives by the purchased review level. AE Tax Advisors offers standalone studies; BASIS offers a remote residential workflow with engineer review; Cost Segregation Guys offers virtual or in-person studies. A Self-Serve starting price does not describe the same investigation or review as every professional study.",
+    "keep": "Keep My Cost Segregation on the shortlist if its property-value tiers, photo-based intake and selected review process fit your property. Confirm whether your preparer wants professional input and photo review before selecting the tier.",
+    "boundary": "The pricing page requires a reviewed tier for property valued at $1.5 million or more and a custom scope for larger properties. Confirm property classification, price band, review depth, revision window and delivery timing.",
+    "fee": "My Cost Segregation lists residential Self-Serve from $497 and Expert Reviewed from $2,500. Commercial Self-Serve starts at $1,497 and Commercial Reviewed at $3,500. Prices scale with property value; larger assignments require a scoped quote.",
+    "fee_context": "These are starting prices for different tiers. Property at $1.5 million or more requires a reviewed tier. Ask for the exact property-value band, review process, revision terms and any separately priced preparation or extra work.",
+    "filing_answer": "Ask whether any method-change preparation or return integration is included in the selected tier or separately available. A signed study, a professional review and an audit-support pledge do not by themselves establish who prepares or files tax forms.",
+    "price_comparison": "Compare a quote for the same property and report scope. AE’s published rate uses square footage; a fixed residential fee, value-based software tier and custom engineering proposal may cover different work.",
+    "vs_intro": "Compare My Cost Segregation alternatives by the purchased review level. AE Tax Advisors offers standalone studies; BASIS offers a remote residential workflow with engineer review; Cost Segregation Guys offers virtual or in-person studies. A Self-Serve starting price does not describe the same investigation or review as every professional study.",
+    "scenario": "Suppose your rental is close to the $1.5 million review threshold and your CPA wants verified photographs and input checks. Compare the eligible reviewed tier with other firms’ investigation and support proposals.",
+    "decision": "Choose the tier and provider with a documented process your preparer can use. Compare the actual price band and human review scope rather than the cheapest advertised starting amount.",
+    "ae_question": "What property investigation, component schedules, support and preparer handoff does AE include, and which implementation tasks require separate scope?",
+    "questions": [
+      "Which residential or commercial value band applies to my property?",
+      "Does this tier include professional checks of inputs and photos?",
+      "What delivery and revision terms apply after a complete intake?",
+      "What are the audit-support limits, and who handles separately scoped tax forms?"
+    ],
+    "cost_rows": [
+      [
+        "Residential tiers",
+        "Self-Serve from $497; Expert Reviewed from $2,500."
+      ],
+      [
+        "Commercial tiers",
+        "Self-Serve from $1,497; Commercial Reviewed from $3,500."
+      ],
+      [
+        "Value threshold",
+        "At $1.5 million or more, a reviewed tier and scoped price apply."
+      ],
+      [
+        "Additional work",
+        "Confirm revisions, support limits and any separately offered preparation."
+      ]
+    ],
+    "peers": [
+      "basis-cost-segregation",
+      "cost-segregation-guys"
+    ]
+  }
+}
