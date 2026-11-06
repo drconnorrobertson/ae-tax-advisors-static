@@ -2,6 +2,7 @@
 // Stage committed public content only. No generator is executed at deployment.
 require('node:child_process').execFileSync(process.execPath, [require('node:path').join(__dirname, 'search-intent.mjs'), '--write'], {stdio:'inherit'});
 const fs = require('node:fs');
+const {ensureSharedUx} = require('./ensure-shared-ux.cjs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const out = path.join(root, 'public');
@@ -62,7 +63,7 @@ function walk(dir) {
           if (footer.includes('<a href="/disclaimer/">')) return footer.replace('<a href="/disclaimer/">', disclosure + ' &middot; <a href="/disclaimer/">');
           return footer.replace('</footer>', '<p class="footer-legal-links">' + disclosure + '</p></footer>');
         });
-        fs.writeFileSync(target, html);
+        fs.writeFileSync(target, ensureSharedUx(html));
       } else if (/^sitemap.*\.xml$/.test(relative)) {
         // Content generators must not silently promote pages awaiting review.
         const xml = fs.readFileSync(source, 'utf8').replace(/<url>[^]*?<\/url>/g, entry => {
