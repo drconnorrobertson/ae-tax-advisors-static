@@ -1412,5 +1412,31 @@
   "/blog/selling-business-and-building-1031-exchange/": {
     "title": "Selling a Business and Building: 1031 Planning | AE Tax",
     "description": "Selling your business and its building together? Separate ownership, asset allocation, exchange funds and tax reserves before agreeing to the closing terms."
+  },
+  "/blog/selling-business-keeping-building-tax-planning/": {
+    "title": "Selling a Business, Keeping the Building | AE Tax",
+    "description": "Keeping the building after a business sale? Review lease cash flow, passive losses, NIIT and QBI, with records for the sale year and the year after closing."
+  },
+  "/blog/rental-losses-offset-business-income/": {
+    "title": "Can Rental Losses Offset Business or Sale Income? | AE Tax",
+    "description": "Test rental losses against operating income or business-sale gains. Separate new deductions from carryforwards and apply basis, at-risk and other loss limits."
+  },
+  "/blog/tax-planning-timeline-before-selling-business/": {
+    "title": "Business Sale Tax Planning Timeline | AE Tax",
+    "description": "Build a business-sale tax timeline around stock dates, deal structure, installment payments and rental-loss limits. Prepare records before signing sale terms."
+  },
+  "/blog/retirement-plan-before-business-sale/": {
+    "title": "Retirement Plan Before a Business Sale | AE Tax",
+    "description": "Review sale-year compensation, retirement contributions, employee costs, plan sponsorship and funding deadlines before selling your business.",
+    "description_only": true
+  },
+  "/blog/can-i-set-up-a-retirement-plan-after-year-end/": {
+    "title": "Can I Set Up a Retirement Plan After the Tax Year Ends?",
+    "description": "Compare SEP, 401(k), SIMPLE IRA and cash balance plan deadlines, including retroactive adoption, first-year deferrals and separate funding rules.",
+    "description_only": true
+  },
+  "/blog/buying-out-dental-medical-practice-partner-tax-review/": {
+    "title": "Practice Partner Buyout Tax Review | AE Tax Advisors",
+    "description": "Buying out a dental or medical practice partner? Compare direct purchase, redemption and a final-owner LLC buyout, including basis and final-return records."
   }
 }

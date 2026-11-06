@@ -1,0 +1,84 @@
+{
+  "reviewed": "2026-11-06",
+  "routes": [
+    {
+      "route": "/blog/selling-business-keeping-building-tax-planning/",
+      "datePublished": "2026-10-24",
+      "title": "Selling a Business, Keeping the Building | AE Tax",
+      "description": "Keeping the building after a business sale? Review lease cash flow, passive losses, NIIT and QBI, with records for the sale year and the year after closing.",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/sale-of-a-business",
+        "https://www.irs.gov/instructions/i8594",
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/instructions/i8960",
+        "https://www.irs.gov/instructions/i8995",
+        "https://www.irs.gov/pub/irs-drop/rp-19-38.pdf",
+        "https://www.irs.gov/newsroom/qualified-business-income-deduction"
+      ],
+      "preservation": {
+        "source": {
+          "header": "8eef47e32c2b9958f8515c905cc0944c78e549be301de5ac5f50ca2f6a26c7ca",
+          "footer": "812fdf80aaf4cc9d1dbab287d113cd6e705111053c13a4f8cd60489c818d202e"
+        },
+        "public": {
+          "header": "02195cba0bcd18d300b8369806b546cf36fb14e329dfcdd84f6d29f02d67bdd5",
+          "footer": "e12a6d280bfceb5cd471df4d3d1ed23708118dd03d366f66c3dd6951dd060408"
+        }
+      },
+      "baseline_sha256": "99a9cbbb3b02b18b4a47241064f7ba880aa174f2c91baecfdb7271667d7e5e94"
+    },
+    {
+      "route": "/blog/rental-losses-offset-business-income/",
+      "datePublished": "2026-09-26",
+      "title": "Can Rental Losses Offset Business or Sale Income? | AE Tax",
+      "description": "Test rental losses against operating income or business-sale gains. Separate new deductions from carryforwards and apply basis, at-risk and other loss limits.",
+      "sources": [
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/publications/p542",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/sale-of-a-business",
+        "https://www.irs.gov/instructions/i461"
+      ],
+      "preservation": {
+        "source": {
+          "header": "02195cba0bcd18d300b8369806b546cf36fb14e329dfcdd84f6d29f02d67bdd5",
+          "footer": "aa83db1e1b87b94920072d063c0e85c35bd986e34cd2be9a0b8f86c2e245e138"
+        },
+        "public": {
+          "header": "02195cba0bcd18d300b8369806b546cf36fb14e329dfcdd84f6d29f02d67bdd5",
+          "footer": "6bae455ac9956f42add7aaba27acc33dc7507b789c5cc611458d0c0ada0dd06b"
+        }
+      },
+      "baseline_sha256": "065d922c5483f1f9c6ff93c876785d21cad54b299ead983da8ff1350011104fd"
+    },
+    {
+      "route": "/blog/tax-planning-timeline-before-selling-business/",
+      "datePublished": "2026-06-26",
+      "title": "Business Sale Tax Planning Timeline | AE Tax",
+      "description": "Build a business-sale tax timeline around stock dates, deal structure, installment payments and rental-loss limits. Prepare records before signing sale terms.",
+      "sources": [
+        "https://uscode.house.gov/us/usc/119-120/t26/s1202/",
+        "https://uscode.house.gov/us/usc/119-118/t26/s1045/",
+        "https://www.irs.gov/publications/p537",
+        "https://www.irs.gov/publications/p544",
+        "https://www.irs.gov/publications/p925",
+        "https://www.irs.gov/instructions/i461",
+        "https://www.irs.gov/instructions/i8023"
+      ],
+      "preservation": {
+        "source": {
+          "header": "0a25538a6ee17f54ee1bc342c445762107a5d0cbad4c519eea9e0305e4620736",
+          "footer": "aa83db1e1b87b94920072d063c0e85c35bd986e34cd2be9a0b8f86c2e245e138",
+          "related": "9b24a8f29917dea586279486fb0b6daef2fee08a2b9fe409498d6031ec4539a3"
+        },
+        "public": {
+          "header": "578e6cc041117a8e7e6424734cacbbc3f026f7fcca80615f0d8d61259aae34ab",
+          "footer": "6bae455ac9956f42add7aaba27acc33dc7507b789c5cc611458d0c0ada0dd06b",
+          "related": "da46ca13793d842f346958a798dea13312fde7a661bcda95d2fff73c354b75ac"
+        }
+      },
+      "baseline_sha256": "d4d0ed971124e3e5a32353889ad5bbe5e01dd4ce193b77f76eb38cd880234d16"
+    }
+  ]
+}

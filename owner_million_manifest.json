@@ -398,7 +398,7 @@
   {
     "id": 45,
     "question": "Can I set up a retirement plan after the tax year ends?",
-    "answer": "It depends on the plan and the year. Some employer-funded plans can be adopted by a filing deadline under current law, while employee deferral elections and salary reductions have different timing requirements. Verify the precise plan document and deadline.",
+    "answer": "Often yes: a SEP or eligible qualified employer plan can be adopted after year-end by the applicable return deadline, including extensions. Deferrals have separate rules, including a narrow first-year sole-proprietor exception with an unextended deadline. Defined benefit funding can be due earlier than the extended return.",
     "slug": "can-i-set-up-a-retirement-plan-after-year-end",
     "url": "/blog/can-i-set-up-a-retirement-plan-after-year-end/",
     "group": "Retirement and benefits",
@@ -443,7 +443,7 @@
   {
     "id": 50,
     "question": "What happens to my retirement plan if I sell my company next year?",
-    "answer": "A sale can require plan termination, successor sponsorship, vesting, funding, and employee notices depending on the transaction. Review plan documents and buyer terms before signing a sale agreement or terminating staff.",
+    "answer": "A sale can change plan sponsorship, employee coverage, vesting and funding obligations. Reconcile eligible compensation separately from sale proceeds, then confirm who will sponsor the plan and pay each obligation before signing or closing.",
     "slug": "retirement-plan-before-business-sale",
     "url": "/blog/retirement-plan-before-business-sale/",
     "group": "Retirement and benefits",
