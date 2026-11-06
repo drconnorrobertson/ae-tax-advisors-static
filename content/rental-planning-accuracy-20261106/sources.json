@@ -1,0 +1,33 @@
+{
+  "reviewed": "2026-11-06",
+  "sources": [
+    {
+      "url": "https://www.irs.gov/publications/p925",
+      "supports": "REPS, employee and spousal hours, material participation, limitation ordering, grouping/disclosures and prior passive losses"
+    },
+    {
+      "url": "https://www.irs.gov/publications/p527",
+      "supports": "Rental-use basis, land allocation, depreciation and personal-use rules"
+    },
+    {
+      "url": "https://www.irs.gov/pub/irs-drop/n-26-11.pdf",
+      "supports": "Acquired and placed-in-service after January 19, 2025; bonus eligibility and transitional rules"
+    },
+    {
+      "url": "https://www.irs.gov/publications/p544",
+      "supports": "Deferred exchange deadlines, actual/constructive receipt, partial boot and replacement basis"
+    },
+    {
+      "url": "https://www.irs.gov/instructions/i8960",
+      "supports": "NIIT lesser-of computation, filing-status thresholds, REPS trade/business condition and safe harbor"
+    },
+    {
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations",
+      "supports": "Repairs, de minimis/routine-maintenance/small-taxpayer safe harbors and partial dispositions"
+    },
+    {
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records",
+      "supports": "Retention periods, property basis and limited seven-year rule"
+    }
+  ]
+}

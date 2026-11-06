@@ -49,7 +49,7 @@ case studies and outcomes should be read with their own methodology and limitati
 - [Real estate investor tax advisory and CPA support](https://www.aetaxadvisors.com/real-estate-investor-cpa/)
 - [S-corporation owner salary documentation](https://www.aetaxadvisors.com/reasonable-compensation/)
 - [Billings headquarters and local tax advisory](https://www.aetaxadvisors.com/locations/billings/)
-- [Rental property tax planning](https://www.aetaxadvisors.com/rental-property-tax-planning/)
+- [Rental Property Tax Planning for Business Owners | AE Tax](https://www.aetaxadvisors.com/rental-property-tax-planning/)
 - [Section 179 Equipment Leasing Tax Strategy (2026) | AE Tax Advisors](https://www.aetaxadvisors.com/equipment-leasing-section-179/)
 - [Retirement Planning for Business Owners With Employees and Property | AE Tax Advisors](https://www.aetaxadvisors.com/retirement-planning-for-business-owners/)
 - [Editorial policy, sources and limitations](https://www.aetaxadvisors.com/editorial-policy/)
