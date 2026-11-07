@@ -1,7 +1,7 @@
 {
   "reviewed": "2026-10-24",
-  "provider_count": 120,
-  "page_count": 360,
+  "provider_count": 125,
+  "page_count": 375,
   "providers": [
     {
       "slug": "tax-alchemy",
@@ -1441,6 +1441,66 @@
       "review_owner": "Provider service profile on dedicated alternatives page",
       "comparison_action": "distinct canonical comparison",
       "official_source": "https://www.claconnect.com/en/services/tax",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "armanino",
+      "brand": "Armanino",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/armanino-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/armanino-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/armanino-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/armanino-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.armanino.com/services/tax-accounting/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "eide-bailly",
+      "brand": "Eide Bailly",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/eide-bailly-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/eide-bailly-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/eide-bailly-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/eide-bailly-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.eidebailly.com/services/tax/tax-consulting-and-planning",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "sikich",
+      "brand": "Sikich",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/sikich-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/sikich-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/sikich-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/sikich-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.sikich.com/accounting-audit-tax-consulting/tax-services/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "doeren-mayhew",
+      "brand": "Doeren Mayhew",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/doeren-mayhew-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/doeren-mayhew-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/doeren-mayhew-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/doeren-mayhew-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.doeren.com/tax-compliance-planning-services",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "rehmann",
+      "brand": "Rehmann",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/rehmann-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/rehmann-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/rehmann-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/rehmann-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.rehmann.com/solutions/tax/",
       "editorial_date": "2026-11-07"
     }
   ],
