@@ -1,0 +1,56 @@
+{
+  "mode": "costseg",
+  "date": "2026-11-07",
+  "marker": "costseg-final-competitor-discovery",
+  "published": [
+    "cost-seg-atlas",
+    "costseg-express",
+    "costsegregation-com"
+  ],
+  "new_comparisons": 5,
+  "refreshed_pair_comparisons": 0,
+  "hub_routes": [
+    "/compare/",
+    "/compare/best-cost-segregation-companies/",
+    "/cost-segregation-study/",
+    "/cost-segregation-study-cost-pricing/",
+    "/real-estate-tax-planning/"
+  ],
+  "pairs": [
+    [
+      "cost-seg-atlas",
+      "costseg-express",
+      "cost-seg-atlas-vs-costseg-express",
+      "You are comparing low-cost automated outputs for a rental and plan to have a qualified preparer evaluate the work. Separate the analysis or planning-report fee from evidence collection, review and sign-off.",
+      "What input evidence, professional review and unresolved work remain after I download the product, and who takes responsibility before tax filing?"
+    ],
+    [
+      "cost-seg-atlas",
+      "costsegregation-com",
+      "cost-seg-atlas-vs-costsegregation-com",
+      "You want a software workflow for a property within the applicable limits. Compare output purpose, property eligibility, accountant access, evidence exports and professional review availability.",
+      "What does the product deliver at my property’s price, who verifies the inputs, and is independent professional review available now?"
+    ],
+    [
+      "costseg-express",
+      "costsegregation-com",
+      "costseg-express-vs-costsegregation-com",
+      "You own a rental and are comparing an instant planning PDF with a self-guided platform. Use the actual supported building basis and the preparer’s evidence requirements before comparing prices.",
+      "Does my property fit the product, what supporting schedules and corrections are included, and what work must my preparer do separately?"
+    ],
+    [
+      "costsegrx",
+      "ics-tax",
+      "costsegrx-vs-ics-tax",
+      "You need a professional study for a building held for several years and want your existing CPA to implement the result. Compare engineering investigation, input responsibilities and method-change preparation.",
+      "Who verifies the property basis, prepares the study and any necessary Form 3115, and resolves accountant questions before filing?"
+    ],
+    [
+      "ics-tax",
+      "costsegregation-com",
+      "ics-tax-vs-costsegregation-com",
+      "You are deciding between specialty professional work and a self-guided software product. Establish eligibility and the professional investigation needed before comparing the total cost of a completed report and return handoff.",
+      "Which inspection, input verification, method-change preparation and CPA support belong to this purchase, and which need a separate engagement?"
+    ]
+  ]
+}

@@ -1458,16 +1458,19 @@
     "path": "/compare/cost-seg-atlas-pricing/",
     "category": "software",
     "source": "https://costseg.2911tech.com/pricing",
-    "fee": "Advertised AI study price: $395.",
-    "qualification": "Review the report methodology, property eligibility, human review, and return handoff. The advertised report price is not the price of a comprehensive advisory engagement.",
-    "reviewed": "2026-10-24",
+    "fee": "Cost Seg Atlas advertises a flat $395 AI analysis price. Professional review is marked paused, with partner CPA or engineer availability pending. Complex commercial and portfolio work requires scope confirmation.",
+    "qualification": "The $395 amount belongs to the automated analysis product. It is not an established price for professional inspection, independent review, a signed study or tax-return preparation. Obtain a separate scope for any remaining professional work.",
+    "reviewed": "2026-11-07",
     "keywords": [
       "Cost Seg Atlas pricing",
       "Cost Seg Atlas cost",
       "Cost Seg Atlas fees"
     ],
-    "status": "Published starting fee",
-    "kind": "published"
+    "status": "Published program fees — confirm scope",
+    "kind": "published",
+    "additionalSources": [
+      "https://costseg.2911tech.com/"
+    ]
   },
   {
     "slug": "cost-segregation-authority",
@@ -1530,16 +1533,17 @@
     "path": "/compare/costseg-express-pricing/",
     "category": "software",
     "source": "https://www.costseg.express/",
-    "fee": "Advertised automated study price: $99.",
-    "qualification": "Confirm property eligibility, review level, report deliverables, and filing assistance. An inexpensive report and a professional tax engagement are different purchases.",
-    "reviewed": "2026-10-24",
+    "fee": "CostSeg Express advertises a flat $99 fee for its instantly generated rental-property PDF report.",
+    "qualification": "This is the advertised report price, not an established quote for a site-inspected engineering engagement, licensed review or tax-return preparation. Confirm current checkout terms, eligibility, report corrections and any support.",
+    "reviewed": "2026-11-07",
     "keywords": [
       "CostSeg Express pricing",
       "CostSeg Express cost",
       "CostSeg Express fees"
     ],
-    "status": "Published starting fee",
-    "kind": "published"
+    "status": "Published program fees — confirm scope",
+    "kind": "published",
+    "additionalSources": []
   },
   {
     "slug": "costsegez",
@@ -1565,16 +1569,19 @@
     "path": "/compare/costsegrx-pricing/",
     "category": "costseg",
     "source": "https://www.costsegrx.com/",
-    "fee": "Residential cost segregation pricing starts at $895.",
-    "qualification": "Final price depends on scope. Multifamily and other properties require a proposal. Confirm the level of engineering, support, and whether Form 3115 assistance includes actual preparation.",
-    "reviewed": "2026-10-24",
+    "fee": "Request a property-specific CostSegRx quote. The official homepage and FAQ reviewed offer free estimates but do not establish a universal fixed study fee.",
+    "qualification": "A free benefit estimate is different from the study fee. Price the investigation, engineering preparation, accounting review, schedules and support for the actual property. Identify any separately purchased preparation or additional work.",
+    "reviewed": "2026-11-07",
     "keywords": [
       "CostSegRx pricing",
       "CostSegRx cost",
       "CostSegRx fees"
     ],
-    "status": "Published study starting fee",
-    "kind": "published"
+    "status": "Current quote required",
+    "kind": "quote",
+    "additionalSources": [
+      "https://www.costsegrx.com/faq"
+    ]
   },
   {
     "slug": "costsegregation-com",
@@ -1582,16 +1589,17 @@
     "path": "/compare/costsegregation-com-pricing/",
     "category": "software",
     "source": "https://www.costsegregation.com/",
-    "fee": "Residential studies from $495; commercial from $1,295, with pricing based on tax basis.",
-    "qualification": "The homepage displays $495 for a $500,000 residential tax basis and $1,295 for a $1 million commercial tax basis. Properties above $1.5 million building basis require a custom professional-services quote.",
-    "reviewed": "2026-10-24",
+    "fee": "CostSegregation.com displays a $495 residential report example at $500,000 tax basis and a $1,295 commercial example at $1 million tax basis. Pricing varies with the selected basis; properties above $1.5 million in building basis require a professional quote.",
+    "qualification": "These displayed examples are not universal fees. Compare the selected property type and building basis, exclusions for land, support terms and any separately scoped professional services. Keep the software purchase separate from the KBKG professional-service proposal.",
+    "reviewed": "2026-11-07",
     "keywords": [
       "CostSegregation.com pricing",
       "CostSegregation.com cost",
       "CostSegregation.com fees"
     ],
-    "status": "Published study starting fees",
-    "kind": "published"
+    "status": "Published program fees — confirm scope",
+    "kind": "published",
+    "additionalSources": []
   },
   {
     "slug": "crescent-cpa-advisors",
@@ -1779,24 +1787,20 @@
     "name": "ICS Tax",
     "path": "/compare/ics-tax-pricing/",
     "category": "costseg",
-    "source": "https://ics-tax.com/",
-    "fee": "$2,500–$5,000+ per property study",
-    "qualification": "A professionally reviewed or engineered study of a relatively straightforward property; complex commercial sites, travel, filings, and amendments are additional.",
-    "reviewed": "2026-10-24",
+    "source": "https://ics-tax.com/cost-segregation/",
+    "fee": "Request a property-specific ICS Tax proposal. The reviewed study and proposal pages offer a free consultation or benefit estimate but do not establish a universal fixed study fee.",
+    "qualification": "Have the proposal identify the property investigation, records or cost estimation, report schedules, necessary Form 3115 work and support. Separate a free estimate from the contracted fee and ask which additional tax services have their own prices.",
+    "reviewed": "2026-11-07",
     "keywords": [
       "ICS Tax pricing",
       "ICS Tax cost",
       "ICS Tax fees"
     ],
-    "kind": "estimate",
-    "status": "AE budget estimate — comparable service",
-    "estimateBasis": "AE’s rounded budgeting band uses R.E. Cost Seg engineering from $2,320, CostSegEZ engineering from $2,500, and CostSegregation.com’s discussion of complex studies reaching $5,000 or more. Software-only products cost less.",
-    "benchmarkSources": [
-      "https://www.recostseg.com/",
-      "https://costsegez.com/",
-      "https://www.costsegregation.com/resources/cost-segregation-study-cost/"
-    ],
-    "estimateCategory": "costseg"
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": [
+      "https://ics-tax.com/proposal-cost-segregation/"
+    ]
   },
   {
     "slug": "incite-tax",

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-07",
+  "reason": "Five existing provider entries omitted from the previous researched cohorts, covering automated analyses, self-guided software, engineering review and specialty implementation. All five core triplets exist; the five selected pair comparisons were absent. No keyword volume or ranking priority is claimed.",
+  "providers": [
+    "cost-seg-atlas",
+    "costseg-express",
+    "costsegrx",
+    "costsegregation-com",
+    "ics-tax"
+  ],
+  "existing_core_pages": 15,
+  "new_pair_pages": 5
+}
