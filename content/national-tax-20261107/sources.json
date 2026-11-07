@@ -1,0 +1,252 @@
+{
+  "eisneramper": {
+    "name": "EisnerAmper",
+    "sources": [
+      [
+        "https://www.eisneramper.com/services/tax-services/",
+        "EisnerAmper official tax services"
+      ]
+    ],
+    "summary": "EisnerAmper describes domestic and international tax compliance, advisory and advocacy, including private-client services for families and closely held businesses.",
+    "fit": "Business owners comparing a broader accounting relationship with a defined tax advisory engagement.",
+    "alternative_intro": "Compare EisnerAmper alternatives by business complexity, specialist access, team responsibility and the services included in the engagement. AE Tax Advisors offers defined business-owner and rental-property tax planning; the firms below merit evaluation for a matching scope.",
+    "keep": "Keep EisnerAmper on your shortlist when its published specialty services and proposed team fit your entities, owners and deadlines.",
+    "boundary": "A national service menu does not establish the availability, staff or price of your particular engagement. Ask for a written scope; do not assume the firm lacks proactive planning.",
+    "fee": "Request a current EisnerAmper proposal. The reviewed tax service page does not establish a universal individual or business engagement price.",
+    "fee_context": "Identify planning, return preparation, state filings, implementation, specialty work and future support as separate line items.",
+    "filing_answer": "Confirm who prepares, reviews and files each entity and owner return and which planning recommendations are implemented within the proposed fee.",
+    "price_comparison": "Compare the complete engagement rather than subtracting a planning-only fee from a broader compliance and accounting proposal.",
+    "vs_intro": "EisnerAmper describes domestic and international tax compliance, advisory and advocacy, including private-client services for families and closely held businesses. Compare its proposed team and service scope with a written AE advisory proposal.",
+    "scenario": "A closely held business owner with family trusts and international exposure.",
+    "decision": "Choose the firm and named team with the expertise, implementation assignments and service cadence your situation requires.",
+    "ae_question": "Which owner and entity decisions does AE address, who implements them and what filing or specialty work is separately scoped?",
+    "questions": [
+      "Which partner coordinates business, family and international tax work?",
+      "Which planning decisions and deliverables are included?",
+      "Who implements advice and files each affected return?",
+      "What changes, recurring charges or specialty projects require extra fees?"
+    ],
+    "cost_rows": [
+      [
+        "Planning",
+        "Define decisions, written deliverables and meeting cadence."
+      ],
+      [
+        "Compliance",
+        "List entity, owner, state and international filings."
+      ],
+      [
+        "Implementation",
+        "Assign elections, bookkeeping changes and outside specialists."
+      ],
+      [
+        "Continuing support",
+        "Specify support period, recurring charges and future projects."
+      ]
+    ],
+    "peers": [
+      "withum",
+      "cohnreznick"
+    ]
+  },
+  "withum": {
+    "name": "Withum",
+    "sources": [
+      [
+        "https://www.withum.com/service/tax/",
+        "Withum official tax services"
+      ]
+    ],
+    "summary": "Withum lists business, private-client, international, state and local tax services alongside controversy and specialty credits.",
+    "fit": "Business owners comparing a broader accounting relationship with a defined tax advisory engagement.",
+    "alternative_intro": "Compare Withum alternatives by business complexity, specialist access, team responsibility and the services included in the engagement. AE Tax Advisors offers defined business-owner and rental-property tax planning; the firms below merit evaluation for a matching scope.",
+    "keep": "Keep Withum on your shortlist when its published specialty services and proposed team fit your entities, owners and deadlines.",
+    "boundary": "A national service menu does not establish the availability, staff or price of your particular engagement. Ask for a written scope; do not assume the firm lacks proactive planning.",
+    "fee": "Request a current Withum proposal. The reviewed tax service page does not establish a universal individual or business engagement price.",
+    "fee_context": "Identify planning, return preparation, state filings, implementation, specialty work and future support as separate line items.",
+    "filing_answer": "Confirm who prepares, reviews and files each entity and owner return and which planning recommendations are implemented within the proposed fee.",
+    "price_comparison": "Compare the complete engagement rather than subtracting a planning-only fee from a broader compliance and accounting proposal.",
+    "vs_intro": "Withum lists business, private-client, international, state and local tax services alongside controversy and specialty credits. Compare its proposed team and service scope with a written AE advisory proposal.",
+    "scenario": "A growing operating business entering several states while its owner buys rental property.",
+    "decision": "Choose the firm and named team with the expertise, implementation assignments and service cadence your situation requires.",
+    "ae_question": "Which owner and entity decisions does AE address, who implements them and what filing or specialty work is separately scoped?",
+    "questions": [
+      "Who coordinates multistate business filings with the owner’s planning?",
+      "Which planning decisions and deliverables are included?",
+      "Who implements advice and files each affected return?",
+      "What changes, recurring charges or specialty projects require extra fees?"
+    ],
+    "cost_rows": [
+      [
+        "Planning",
+        "Define decisions, written deliverables and meeting cadence."
+      ],
+      [
+        "Compliance",
+        "List entity, owner, state and international filings."
+      ],
+      [
+        "Implementation",
+        "Assign elections, bookkeeping changes and outside specialists."
+      ],
+      [
+        "Continuing support",
+        "Specify support period, recurring charges and future projects."
+      ]
+    ],
+    "peers": [
+      "cohnreznick",
+      "plante-moran"
+    ]
+  },
+  "cohnreznick": {
+    "name": "CohnReznick",
+    "sources": [
+      [
+        "https://www.cohnreznick.com/services/tax",
+        "CohnReznick official tax services"
+      ]
+    ],
+    "summary": "CohnReznick lists federal, state and local, international, tax-credit, exempt-organization, private-client and trust and estate tax services.",
+    "fit": "Business owners comparing a broader accounting relationship with a defined tax advisory engagement.",
+    "alternative_intro": "Compare CohnReznick alternatives by business complexity, specialist access, team responsibility and the services included in the engagement. AE Tax Advisors offers defined business-owner and rental-property tax planning; the firms below merit evaluation for a matching scope.",
+    "keep": "Keep CohnReznick on your shortlist when its published specialty services and proposed team fit your entities, owners and deadlines.",
+    "boundary": "A national service menu does not establish the availability, staff or price of your particular engagement. Ask for a written scope; do not assume the firm lacks proactive planning.",
+    "fee": "Request a current CohnReznick proposal. The reviewed tax service page does not establish a universal individual or business engagement price.",
+    "fee_context": "Identify planning, return preparation, state filings, implementation, specialty work and future support as separate line items.",
+    "filing_answer": "Confirm who prepares, reviews and files each entity and owner return and which planning recommendations are implemented within the proposed fee.",
+    "price_comparison": "Compare the complete engagement rather than subtracting a planning-only fee from a broader compliance and accounting proposal.",
+    "vs_intro": "CohnReznick lists federal, state and local, international, tax-credit, exempt-organization, private-client and trust and estate tax services. Compare its proposed team and service scope with a written AE advisory proposal.",
+    "scenario": "A real estate partnership with several investors and a separate family estate-planning need.",
+    "decision": "Choose the firm and named team with the expertise, implementation assignments and service cadence your situation requires.",
+    "ae_question": "Which owner and entity decisions does AE address, who implements them and what filing or specialty work is separately scoped?",
+    "questions": [
+      "Which team owns partnership compliance and private-client coordination?",
+      "Which planning decisions and deliverables are included?",
+      "Who implements advice and files each affected return?",
+      "What changes, recurring charges or specialty projects require extra fees?"
+    ],
+    "cost_rows": [
+      [
+        "Planning",
+        "Define decisions, written deliverables and meeting cadence."
+      ],
+      [
+        "Compliance",
+        "List entity, owner, state and international filings."
+      ],
+      [
+        "Implementation",
+        "Assign elections, bookkeeping changes and outside specialists."
+      ],
+      [
+        "Continuing support",
+        "Specify support period, recurring charges and future projects."
+      ]
+    ],
+    "peers": [
+      "plante-moran",
+      "cliftonlarsonallen"
+    ]
+  },
+  "plante-moran": {
+    "name": "Plante Moran",
+    "sources": [
+      [
+        "https://www.plantemoran.com/services/tax",
+        "Plante Moran official tax services"
+      ]
+    ],
+    "summary": "Plante Moran lists personal, corporate, international, transaction, state and local, tax controversy and credit services.",
+    "fit": "Business owners comparing a broader accounting relationship with a defined tax advisory engagement.",
+    "alternative_intro": "Compare Plante Moran alternatives by business complexity, specialist access, team responsibility and the services included in the engagement. AE Tax Advisors offers defined business-owner and rental-property tax planning; the firms below merit evaluation for a matching scope.",
+    "keep": "Keep Plante Moran on your shortlist when its published specialty services and proposed team fit your entities, owners and deadlines.",
+    "boundary": "A national service menu does not establish the availability, staff or price of your particular engagement. Ask for a written scope; do not assume the firm lacks proactive planning.",
+    "fee": "Request a current Plante Moran proposal. The reviewed tax service page does not establish a universal individual or business engagement price.",
+    "fee_context": "Identify planning, return preparation, state filings, implementation, specialty work and future support as separate line items.",
+    "filing_answer": "Confirm who prepares, reviews and files each entity and owner return and which planning recommendations are implemented within the proposed fee.",
+    "price_comparison": "Compare the complete engagement rather than subtracting a planning-only fee from a broader compliance and accounting proposal.",
+    "vs_intro": "Plante Moran lists personal, corporate, international, transaction, state and local, tax controversy and credit services. Compare its proposed team and service scope with a written AE advisory proposal.",
+    "scenario": "A business owner preparing an acquisition while considering a future exit and personal tax changes.",
+    "decision": "Choose the firm and named team with the expertise, implementation assignments and service cadence your situation requires.",
+    "ae_question": "Which owner and entity decisions does AE address, who implements them and what filing or specialty work is separately scoped?",
+    "questions": [
+      "Who connects acquisition tax diligence with owner and exit planning?",
+      "Which planning decisions and deliverables are included?",
+      "Who implements advice and files each affected return?",
+      "What changes, recurring charges or specialty projects require extra fees?"
+    ],
+    "cost_rows": [
+      [
+        "Planning",
+        "Define decisions, written deliverables and meeting cadence."
+      ],
+      [
+        "Compliance",
+        "List entity, owner, state and international filings."
+      ],
+      [
+        "Implementation",
+        "Assign elections, bookkeeping changes and outside specialists."
+      ],
+      [
+        "Continuing support",
+        "Specify support period, recurring charges and future projects."
+      ]
+    ],
+    "peers": [
+      "cliftonlarsonallen",
+      "eisneramper"
+    ]
+  },
+  "cliftonlarsonallen": {
+    "name": "CLA (CliftonLarsonAllen)",
+    "sources": [
+      [
+        "https://www.claconnect.com/en/services/tax",
+        "CLA (CliftonLarsonAllen) official tax services"
+      ]
+    ],
+    "summary": "CLA describes business and individual tax planning and filing, including local and international needs.",
+    "fit": "Business owners comparing a broader accounting relationship with a defined tax advisory engagement.",
+    "alternative_intro": "Compare CLA (CliftonLarsonAllen) alternatives by business complexity, specialist access, team responsibility and the services included in the engagement. AE Tax Advisors offers defined business-owner and rental-property tax planning; the firms below merit evaluation for a matching scope.",
+    "keep": "Keep CLA (CliftonLarsonAllen) on your shortlist when its published specialty services and proposed team fit your entities, owners and deadlines.",
+    "boundary": "A national service menu does not establish the availability, staff or price of your particular engagement. Ask for a written scope; do not assume the firm lacks proactive planning.",
+    "fee": "Request a current CLA (CliftonLarsonAllen) proposal. The reviewed tax service page does not establish a universal individual or business engagement price.",
+    "fee_context": "Identify planning, return preparation, state filings, implementation, specialty work and future support as separate line items.",
+    "filing_answer": "Confirm who prepares, reviews and files each entity and owner return and which planning recommendations are implemented within the proposed fee.",
+    "price_comparison": "Compare the complete engagement rather than subtracting a planning-only fee from a broader compliance and accounting proposal.",
+    "vs_intro": "CLA describes business and individual tax planning and filing, including local and international needs. Compare its proposed team and service scope with a written AE advisory proposal.",
+    "scenario": "A family-owned company coordinating business filings with owners in multiple states.",
+    "decision": "Choose the firm and named team with the expertise, implementation assignments and service cadence your situation requires.",
+    "ae_question": "Which owner and entity decisions does AE address, who implements them and what filing or specialty work is separately scoped?",
+    "questions": [
+      "Who owns the business-to-personal handoff and state filing calendar?",
+      "Which planning decisions and deliverables are included?",
+      "Who implements advice and files each affected return?",
+      "What changes, recurring charges or specialty projects require extra fees?"
+    ],
+    "cost_rows": [
+      [
+        "Planning",
+        "Define decisions, written deliverables and meeting cadence."
+      ],
+      [
+        "Compliance",
+        "List entity, owner, state and international filings."
+      ],
+      [
+        "Implementation",
+        "Assign elections, bookkeeping changes and outside specialists."
+      ],
+      [
+        "Continuing support",
+        "Specify support period, recurring charges and future projects."
+      ]
+    ],
+    "peers": [
+      "eisneramper",
+      "withum"
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "reviewed": "2026-10-24",
-  "provider_count": 110,
-  "page_count": 330,
+  "provider_count": 120,
+  "page_count": 360,
   "providers": [
     {
       "slug": "tax-alchemy",
@@ -1321,6 +1321,126 @@
       "review_owner": "Provider service profile on dedicated alternatives page",
       "comparison_action": "distinct canonical comparison",
       "official_source": "https://www.rentalwriteoff.com/pricing",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "virtual-cost-segregation",
+      "brand": "Virtual Cost Segregation",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/virtual-cost-segregation-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/virtual-cost-segregation-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/virtual-cost-segregation-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/virtual-cost-segregation-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://virtualcostsegregation.com/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "diy-cost-seg",
+      "brand": "DIY Cost Seg",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/diy-cost-seg-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/diy-cost-seg-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/diy-cost-seg-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/diy-cost-seg-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://diycostseg.com/get-your-report/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "remote-cost-seg",
+      "brand": "Remote Cost Seg",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/remote-cost-seg-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/remote-cost-seg-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/remote-cost-seg-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/remote-cost-seg-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://remotecostseg.com/residential-properties/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "cost-segregation-initiatives",
+      "brand": "Cost Segregation Initiatives",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/cost-segregation-initiatives-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/cost-segregation-initiatives-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/cost-segregation-initiatives-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/cost-segregation-initiatives-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://costseganalysts.com/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "segwize",
+      "brand": "SegWize",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/segwize-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/segwize-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/segwize-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/segwize-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://segwize.com/faq",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "eisneramper",
+      "brand": "EisnerAmper",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/eisneramper-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/eisneramper-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/eisneramper-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/eisneramper-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.eisneramper.com/services/tax-services/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "withum",
+      "brand": "Withum",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/withum-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/withum-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/withum-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/withum-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.withum.com/service/tax/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "cohnreznick",
+      "brand": "CohnReznick",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/cohnreznick-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/cohnreznick-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/cohnreznick-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/cohnreznick-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.cohnreznick.com/services/tax",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "plante-moran",
+      "brand": "Plante Moran",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/plante-moran-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/plante-moran-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/plante-moran-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/plante-moran-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.plantemoran.com/services/tax",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "cliftonlarsonallen",
+      "brand": "CLA (CliftonLarsonAllen)",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/cliftonlarsonallen-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/cliftonlarsonallen-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/cliftonlarsonallen-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/cliftonlarsonallen-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.claconnect.com/en/services/tax",
       "editorial_date": "2026-11-07"
     }
   ],

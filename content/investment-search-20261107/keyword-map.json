@@ -1,0 +1,65 @@
+{
+  "reviewed": "2026-11-07",
+  "targets": {
+    "solar tax credit investment": "/solar-tax-credit-investment/",
+    "solar tax credit ownership vs purchase": "/solar-tax-credit-investment-vs-credit-purchase/",
+    "heavy equipment leasing investment depreciation tax": "/heavy-equipment-leasing-investment-tax/",
+    "heavy equipment leasing investment due diligence": "/heavy-equipment-leasing-investment-due-diligence/",
+    "short term rental loophole": "/short-term-rental-tax-loophole-2026/"
+  },
+  "sources": {
+    "48e": {
+      "url": "https://www.irs.gov/credits-deductions/clean-electricity-investment-credit",
+      "label": "IRS: clean electricity investment credit"
+    },
+    "construction": {
+      "url": "https://www.irs.gov/irb/2025-36_IRB",
+      "label": "IRS Notice 2025-42: solar construction and termination rules"
+    },
+    "pfe": {
+      "url": "https://www.irs.gov/newsroom/treasury-irs-provide-guidance-for-certain-energy-tax-credits-regarding-material-assistance-provided-by-prohibited-foreign-entities-under-the-one-big-beautiful-bill",
+      "label": "IRS: prohibited foreign entity guidance and Notice 2026-15"
+    },
+    "25d": {
+      "url": "https://www.irs.gov/credits-deductions/residential-clean-energy-credit",
+      "label": "IRS: residential clean energy credit"
+    },
+    "3468": {
+      "url": "https://www.irs.gov/instructions/i3468",
+      "label": "IRS Form 3468 instructions: investment credit and basis"
+    },
+    "4255": {
+      "url": "https://www.irs.gov/instructions/i4255",
+      "label": "IRS Form 4255 instructions: credit recapture"
+    },
+    "4562": {
+      "url": "https://www.irs.gov/instructions/i4562",
+      "label": "IRS Form 4562 instructions: bonus depreciation and solar classification changes"
+    },
+    "transfer": {
+      "url": "https://www.irs.gov/credits-deductions/elective-pay-and-transferability-frequently-asked-questions-transferability",
+      "label": "IRS: tax-credit transferability questions"
+    },
+    "925": {
+      "url": "https://www.irs.gov/publications/p925",
+      "label": "IRS Publication 925: passive activity, participation and at-risk rules"
+    },
+    "946": {
+      "url": "https://www.irs.gov/publications/p946",
+      "label": "IRS Publication 946: depreciation and leased property"
+    },
+    "704": {
+      "url": "https://www.irs.gov/taxtopics/tc704",
+      "label": "IRS Topic 704: depreciation"
+    },
+    "lease": {
+      "url": "https://www.irs.gov/faqs/small-business-self-employed-other-business/income-expenses/income-expenses-7",
+      "label": "IRS: lease versus conditional sales contract"
+    },
+    "527": {
+      "url": "https://www.irs.gov/publications/p527",
+      "label": "IRS Publication 527: residential rental and personal-use rules"
+    }
+  },
+  "ranking_status": "Publication and crawl eligibility only; Google rankings and indexing not verified."
+}

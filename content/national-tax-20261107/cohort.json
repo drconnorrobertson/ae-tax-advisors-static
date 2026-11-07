@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-07",
+  "marker": "national-tax-20261107",
+  "published": [],
+  "new_comparisons": 5,
+  "refreshed_pair_comparisons": 0,
+  "hub_routes": [
+    "/compare/",
+    "/services/tax-planning/",
+    "/year-round-business-tax-planning/",
+    "/real-estate-tax-planning/"
+  ],
+  "pairs": [
+    [
+      "eisneramper",
+      "withum",
+      "eisneramper-vs-withum",
+      "A closely held business owner with family trusts and international exposure.",
+      "Which services, professional review, implementation and ongoing support are included for the same records and deadline?"
+    ],
+    [
+      "withum",
+      "cohnreznick",
+      "withum-vs-cohnreznick",
+      "A growing operating business entering several states while its owner buys rental property.",
+      "Which services, professional review, implementation and ongoing support are included for the same records and deadline?"
+    ],
+    [
+      "cohnreznick",
+      "plante-moran",
+      "cohnreznick-vs-plante-moran",
+      "A real estate partnership with several investors and a separate family estate-planning need.",
+      "Which services, professional review, implementation and ongoing support are included for the same records and deadline?"
+    ],
+    [
+      "plante-moran",
+      "cliftonlarsonallen",
+      "plante-moran-vs-cliftonlarsonallen",
+      "A business owner preparing an acquisition while considering a future exit and personal tax changes.",
+      "Which services, professional review, implementation and ongoing support are included for the same records and deadline?"
+    ],
+    [
+      "cliftonlarsonallen",
+      "eisneramper",
+      "cliftonlarsonallen-vs-eisneramper",
+      "A family-owned company coordinating business filings with owners in multiple states.",
+      "Which services, professional review, implementation and ongoing support are included for the same records and deadline?"
+    ]
+  ]
+}

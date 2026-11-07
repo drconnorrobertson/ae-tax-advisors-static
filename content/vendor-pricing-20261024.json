@@ -2314,5 +2314,175 @@
     "additionalSources": [
       "https://www.rentalwriteoff.com/faq"
     ]
+  },
+  {
+    "slug": "virtual-cost-segregation",
+    "name": "Virtual Cost Segregation",
+    "path": "/compare/virtual-cost-segregation-pricing/",
+    "category": "costseg",
+    "source": "https://virtualcostsegregation.com/",
+    "fee": "Virtual Cost Segregation publishes $2,200 per study and a 10% discount for three or more properties.",
+    "qualification": "The homepage lists audit support under its terms and prior-year catch-up work. Confirm records, revisions and the actual property scope.",
+    "reviewed": "2026-11-07",
+    "keywords": [
+      "Virtual Cost Segregation pricing",
+      "Virtual Cost Segregation fees"
+    ],
+    "kind": "published",
+    "status": "Published program fees — confirm scope",
+    "additionalSources": []
+  },
+  {
+    "slug": "diy-cost-seg",
+    "name": "DIY Cost Seg",
+    "path": "/compare/diy-cost-seg-pricing/",
+    "category": "costseg",
+    "source": "https://diycostseg.com/get-your-report/",
+    "fee": "Request the current report or concierge price from DIY Cost Seg. The reviewed report-selection page does not establish a universal completed-study fee.",
+    "qualification": "Compare the selected residential, commercial or concierge scope, corrections and support. Do not use an unverified third-party starting price.",
+    "reviewed": "2026-11-07",
+    "keywords": [
+      "DIY Cost Seg pricing",
+      "DIY Cost Seg fees"
+    ],
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": []
+  },
+  {
+    "slug": "remote-cost-seg",
+    "name": "Remote Cost Seg",
+    "path": "/compare/remote-cost-seg-pricing/",
+    "category": "costseg",
+    "source": "https://remotecostseg.com/residential-properties/",
+    "fee": "Remote Cost Seg advertises residential studies starting at $2,500. The final quote depends on size, complexity, records and analysis scope.",
+    "qualification": "The proposal governs property review, engineering analysis, asset identification, classification, documentation and delivery. Confirm inspection and support terms.",
+    "reviewed": "2026-11-07",
+    "keywords": [
+      "Remote Cost Seg pricing",
+      "Remote Cost Seg fees"
+    ],
+    "kind": "published",
+    "status": "Published program fees — confirm scope",
+    "additionalSources": []
+  },
+  {
+    "slug": "cost-segregation-initiatives",
+    "name": "Cost Segregation Initiatives",
+    "path": "/compare/cost-segregation-initiatives-pricing/",
+    "category": "costseg",
+    "source": "https://costseganalysts.com/",
+    "fee": "Request a property-specific Cost Segregation Initiatives quote. Its reviewed homepage does not establish a universal fixed study fee.",
+    "qualification": "Give bidders the same building, records and deadlines. Identify inspection, report detail, accountant questions and separately priced services.",
+    "reviewed": "2026-11-07",
+    "keywords": [
+      "Cost Segregation Initiatives pricing",
+      "Cost Segregation Initiatives fees"
+    ],
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": []
+  },
+  {
+    "slug": "segwize",
+    "name": "SegWize",
+    "path": "/compare/segwize-pricing/",
+    "category": "costseg",
+    "source": "https://segwize.com/faq",
+    "fee": "SegWize’s FAQ advertises a $550 flat fee for its DIY cost segregation offering.",
+    "qualification": "The public FAQ summary does not establish all inspection, professional review, support or preparation inclusions. Verify the complete purchased scope.",
+    "reviewed": "2026-11-07",
+    "keywords": [
+      "SegWize pricing",
+      "SegWize fees"
+    ],
+    "kind": "published",
+    "status": "Published program fees — confirm scope",
+    "additionalSources": []
+  },
+  {
+    "slug": "eisneramper",
+    "name": "EisnerAmper",
+    "path": "/compare/eisneramper-pricing/",
+    "category": "national",
+    "source": "https://www.eisneramper.com/services/tax-services/",
+    "fee": "Request a current EisnerAmper proposal. The reviewed tax service page does not establish a universal individual or business engagement price.",
+    "qualification": "Identify planning, return preparation, state filings, implementation, specialty work and future support as separate line items.",
+    "reviewed": "2026-11-07",
+    "keywords": [
+      "EisnerAmper pricing",
+      "EisnerAmper fees"
+    ],
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": []
+  },
+  {
+    "slug": "withum",
+    "name": "Withum",
+    "path": "/compare/withum-pricing/",
+    "category": "national",
+    "source": "https://www.withum.com/service/tax/",
+    "fee": "Request a current Withum proposal. The reviewed tax service page does not establish a universal individual or business engagement price.",
+    "qualification": "Identify planning, return preparation, state filings, implementation, specialty work and future support as separate line items.",
+    "reviewed": "2026-11-07",
+    "keywords": [
+      "Withum pricing",
+      "Withum fees"
+    ],
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": []
+  },
+  {
+    "slug": "cohnreznick",
+    "name": "CohnReznick",
+    "path": "/compare/cohnreznick-pricing/",
+    "category": "national",
+    "source": "https://www.cohnreznick.com/services/tax",
+    "fee": "Request a current CohnReznick proposal. The reviewed tax service page does not establish a universal individual or business engagement price.",
+    "qualification": "Identify planning, return preparation, state filings, implementation, specialty work and future support as separate line items.",
+    "reviewed": "2026-11-07",
+    "keywords": [
+      "CohnReznick pricing",
+      "CohnReznick fees"
+    ],
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": []
+  },
+  {
+    "slug": "plante-moran",
+    "name": "Plante Moran",
+    "path": "/compare/plante-moran-pricing/",
+    "category": "national",
+    "source": "https://www.plantemoran.com/services/tax",
+    "fee": "Request a current Plante Moran proposal. The reviewed tax service page does not establish a universal individual or business engagement price.",
+    "qualification": "Identify planning, return preparation, state filings, implementation, specialty work and future support as separate line items.",
+    "reviewed": "2026-11-07",
+    "keywords": [
+      "Plante Moran pricing",
+      "Plante Moran fees"
+    ],
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": []
+  },
+  {
+    "slug": "cliftonlarsonallen",
+    "name": "CLA (CliftonLarsonAllen)",
+    "path": "/compare/cliftonlarsonallen-pricing/",
+    "category": "national",
+    "source": "https://www.claconnect.com/en/services/tax",
+    "fee": "Request a current CLA (CliftonLarsonAllen) proposal. The reviewed tax service page does not establish a universal individual or business engagement price.",
+    "qualification": "Identify planning, return preparation, state filings, implementation, specialty work and future support as separate line items.",
+    "reviewed": "2026-11-07",
+    "keywords": [
+      "CLA (CliftonLarsonAllen) pricing",
+      "CLA (CliftonLarsonAllen) fees"
+    ],
+    "kind": "quote",
+    "status": "Current quote required",
+    "additionalSources": []
   }
 ]
