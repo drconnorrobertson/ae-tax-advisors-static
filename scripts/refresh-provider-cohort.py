@@ -195,7 +195,7 @@ for row in directory['providers']:
 published = sum(r['kind'] == 'published' for r in directory['providers'])
 estimates = sum(r['kind'] == 'estimate' for r in directory['providers'])
 quotes = sum(r['kind'] == 'quote' for r in directory['providers'])
-text = re.sub(r'100 providers:.*?(?:Every row shows a numeric cost and its evidence type\.|a benchmark estimate is not the named provider’s fee\.)', f'100 providers: {published} with sourced published prices, {estimates} with labeled AE comparable-work estimates and {quotes} requiring a current quote. Read each row’s evidence type; a benchmark estimate is not the named provider’s fee.', text, count=1, flags=re.S)
+text = re.sub(r'\d+ providers:.*?(?:Every row shows a numeric cost and its evidence type\.|a benchmark estimate is not the named provider’s fee\.)', f'{len(directory["providers"])} providers: {published} with sourced published prices, {estimates} with labeled AE comparable-work estimates and {quotes} requiring a current quote. Read each row’s evidence type; a benchmark estimate is not the named provider’s fee.', text, count=1, flags=re.S)
 if 'tax-alchemy' in providers:
     text = re.sub(r'<article><h3>Tax Alchemy</h3>.*?</article>', '<article><h3>Tax Alchemy</h3><p class="pricing-fee">$20,000–$150,000</p><p>Official FAQ advisory range, checked November 6, 2026. Confirm included implementation and filing.</p>' + link(route('tax-alchemy', 'pricing'), 'Review current fee evidence') + '</article>', text, count=1, flags=re.S)
 text = text.replace('<option value="">All prices and estimates</option>', '<option value="">All evidence types</option>')

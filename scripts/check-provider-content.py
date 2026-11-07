@@ -22,4 +22,4 @@ for r in providers:
    plain=html.unescape(re.sub('<[^>]+>',' ',text));plain=re.sub(r'\s+',' ',plain)
    if re.search(r'no Form 3115|does not prepare (?:the )?Form 3115|Typical turnaround Weeks Days|does not pass clients to junior',plain,re.I):errors.append(path+': stale unsupported assertion')
 assert not errors,'\n'.join(errors)
-print('PASS: 300 intent-specific page identities and descriptions; 16 corrected official-source service comparisons.')
+print(f'PASS: {len(providers)*3} intent-specific page identities and descriptions; 16 corrected official-source service comparisons.')
