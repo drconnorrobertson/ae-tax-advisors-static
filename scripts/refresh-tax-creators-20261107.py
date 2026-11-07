@@ -53,7 +53,7 @@ for x in people:
 x=by['jasmine-dilucci']
 for path in [x['alternative'],x['comparison']]:
  f=ROOT/path.strip('/')/'index.html';s=f.read_text();marker='creator-name-context-20261107';s=re.sub('<!-- '+marker+':start -->.*?<!-- '+marker+':end -->','',s,flags=re.S)
- block='<!-- '+marker+':start -->'+section('Research the person and the contracted service',x['profile'],x['scenario'],DISC)+'<p class="container narrow">'+link(x['sources'][0][0],'Official Jasmine DiLucci team biography')+'</p>'+T.related_section([(x['review'],'Jasmine DiLucci reviews and service profile'),(hub,'Compare tax creators by name')])+'<!-- '+marker+':end -->';assert '</main>'in s;s=s.replace('</main>',block+'</main>',1);f.write_text(s);pages.append(path)
+ block='<!-- '+marker+':start -->'+section('Research the person and the contracted service',x['profile'],x['scenario'],DISC)+'<p class="container narrow">'+link(x['sources'][0][0],'Official Jasmine DiLucci team biography')+'</p>'+T.related_section([(x['review'],'Jasmine DiLucci reviews and service profile'),(hub,'Compare tax creators by name')])+'<script defer src="/assets/booking-events.js"></script>'+'<!-- '+marker+':end -->';assert '</main>'in s;s=s.replace('</main>',block+'</main>',1);f.write_text(s);pages.append(path)
 # Separate list intents: names and firms, property investors, creative businesses and education products.
 def list_body(xs,explanation):
  body=section('How this list was selected',explanation,DISC,'Selection requires a reviewed official identity or offering page and relevance to a U.S.-facing tax or financial education buying decision. This is a researched coverage set, not an exhaustive list, audience ranking or independent recommendation. Search volumes and Google positions are not verified.')

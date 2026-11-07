@@ -15,6 +15,7 @@ for path in paths:
  if [a.get('href')for t,a in p.tags if t=='link'and a.get('rel')=='canonical']!=[base+path]:errors.append(path+': canonical')
  if base+path not in urls:errors.append(path+': sitemap')
  if any('noindex'in a.get('content','').lower()for t,a in p.tags if t=='meta'and a.get('name')=='robots'):errors.append(path+': noindex')
+ if s.count('src="/assets/booking-events.js"')!=1:errors.append(path+': booking hook')
  title=re.search('<title>(.*?)</title>',s,re.S)[1]
  if title in titles:errors.append(path+': duplicate title')
  titles.add(title)
