@@ -1,7 +1,7 @@
 {
   "reviewed": "2026-10-24",
-  "provider_count": 105,
-  "page_count": 315,
+  "provider_count": 110,
+  "page_count": 330,
   "providers": [
     {
       "slug": "tax-alchemy",
@@ -1261,6 +1261,66 @@
       "review_owner": "Provider service profile on dedicated alternatives page",
       "comparison_action": "distinct canonical comparison",
       "official_source": "https://www.costsegusa.com/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "segpro-solutions",
+      "brand": "SegPro Solutions",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/segpro-solutions-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/segpro-solutions-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/segpro-solutions-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/segpro-solutions-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://segprosolutions.com/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "cost-seg-america",
+      "brand": "Cost Seg America",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/cost-seg-america-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/cost-seg-america-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/cost-seg-america-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/cost-seg-america-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.costsegamerica.com/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "wecostseg",
+      "brand": "WeCostSeg",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/wecostseg-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/wecostseg-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/wecostseg-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/wecostseg-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.wecostseg.com/pricing/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "modern-cfo",
+      "brand": "Modern CFO",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/modern-cfo-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/modern-cfo-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/modern-cfo-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/modern-cfo-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.freecostseg.com/",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "rentalwriteoff",
+      "brand": "RentalWriteOff",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/rentalwriteoff-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/rentalwriteoff-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/rentalwriteoff-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/rentalwriteoff-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.rentalwriteoff.com/pricing",
       "editorial_date": "2026-11-07"
     }
   ],

@@ -2224,6 +2224,101 @@
       "additionalSources": [
         "https://www.costsegusa.com/cost-seg/cost-segregation-study/cost-segregation-info/"
       ]
+    },
+    {
+      "slug": "segpro-solutions",
+      "name": "SegPro Solutions",
+      "path": "/compare/segpro-solutions-pricing/",
+      "category": "costseg",
+      "source": "https://segprosolutions.com/",
+      "fee": "Request a property-specific SegPro Solutions proposal. The reviewed homepage and study service page do not establish a universal fixed study fee.",
+      "qualification": "Separate the study quote from energy-credit work, added buildings, travel, support and any preparation. Send every bidder the same building records and deadline.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "SegPro Solutions pricing",
+        "SegPro Solutions fees"
+      ],
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": [
+        "https://segprosolutions.com/cost-segregation/"
+      ]
+    },
+    {
+      "slug": "cost-seg-america",
+      "name": "Cost Seg America",
+      "path": "/compare/cost-seg-america-pricing/",
+      "category": "costseg",
+      "source": "https://www.costsegamerica.com/",
+      "fee": "Request a property-specific Cost Seg America quote. Its homepage describes an upfront flat fee in the proposal, but does not establish a universal fixed study price.",
+      "qualification": "The homepage’s discussion of a $2,900 study concerns comparison marketing, not a published Cost Seg America rate card. Ask for the actual quote, inspection, report schedules and support inclusions.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "Cost Seg America pricing",
+        "Cost Seg America fees"
+      ],
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": [
+        "https://www.costsegamerica.com/form-3115"
+      ]
+    },
+    {
+      "slug": "wecostseg",
+      "name": "WeCostSeg",
+      "path": "/compare/wecostseg-pricing/",
+      "category": "costseg",
+      "source": "https://www.wecostseg.com/pricing/",
+      "fee": "WeCostSeg advertises Rapid Reports from $795 for residential property under $800,000 basis, Fully Engineered Residential from $2,495 up to $2 million basis, and Fully Engineered Commercial from $2,995.",
+      "qualification": "These are tier-specific starting prices. The inspected tiers describe virtual or in-person visits. The pricing page lists five years of written audit support and excludes CPA tax-preparation fees, certain remote-commercial travel and Tax Court representation.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "WeCostSeg pricing",
+        "WeCostSeg fees"
+      ],
+      "kind": "published",
+      "status": "Published program fees — confirm scope",
+      "additionalSources": [
+        "https://www.wecostseg.com/faq/"
+      ]
+    },
+    {
+      "slug": "modern-cfo",
+      "name": "Modern CFO",
+      "path": "/compare/modern-cfo-pricing/",
+      "category": "costseg",
+      "source": "https://www.freecostseg.com/",
+      "fee": "Modern CFO publishes residential and small-property fees of $1,200–$2,500, standard commercial $2,500–$6,000, and large or complex $6,000–$12,000. More complex assignments above the bands are individually quoted.",
+      "qualification": "The fee table is based on property type and engineering scope, with building size affecting the work. It describes engineer-signed reports and audit support; confirm the actual property quote, inspection and separately scoped preparation.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "Modern CFO pricing",
+        "Modern CFO fees"
+      ],
+      "kind": "published",
+      "status": "Published program fees — confirm scope",
+      "additionalSources": [
+        "https://www.freecostseg.com/resources/cost-seg-study-cost/"
+      ]
+    },
+    {
+      "slug": "rentalwriteoff",
+      "name": "RentalWriteOff",
+      "path": "/compare/rentalwriteoff-pricing/",
+      "category": "costseg",
+      "source": "https://www.rentalwriteoff.com/pricing",
+      "fee": "RentalWriteOff advertises a one-time $899 fee per property for its residential study service, available for rentals up to four units.",
+      "qualification": "The pricing page lists expert review, depreciation schedules, documentation, audit support under its terms and Form 3115 for eligible look-back studies. Confirm eligibility, complete intake requirements and any work outside that residential scope.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "RentalWriteOff pricing",
+        "RentalWriteOff fees"
+      ],
+      "kind": "published",
+      "status": "Published program fees — confirm scope",
+      "additionalSources": [
+        "https://www.rentalwriteoff.com/faq"
+      ]
     }
   ],
   "cohortReviewed": {
@@ -2261,6 +2356,11 @@
     "elb-consulting": "2026-11-07",
     "seneca-cost-segregation": "2026-11-07",
     "segregation-holding": "2026-11-07",
-    "cost-recovery-usa": "2026-11-07"
+    "cost-recovery-usa": "2026-11-07",
+    "segpro-solutions": "2026-11-07",
+    "cost-seg-america": "2026-11-07",
+    "wecostseg": "2026-11-07",
+    "modern-cfo": "2026-11-07",
+    "rentalwriteoff": "2026-11-07"
   }
 }

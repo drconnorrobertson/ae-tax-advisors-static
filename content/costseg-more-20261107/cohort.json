@@ -1,0 +1,56 @@
+{
+  "mode": "costseg",
+  "date": "2026-11-07",
+  "marker": "costseg-more-discovery",
+  "published": [
+    "wecostseg",
+    "modern-cfo",
+    "rentalwriteoff"
+  ],
+  "new_comparisons": 5,
+  "refreshed_pair_comparisons": 0,
+  "hub_routes": [
+    "/compare/",
+    "/compare/best-cost-segregation-companies/",
+    "/cost-segregation-study/",
+    "/cost-segregation-study-cost-pricing/",
+    "/real-estate-tax-planning/"
+  ],
+  "pairs": [
+    [
+      "segpro-solutions",
+      "cost-seg-america",
+      "segpro-solutions-vs-cost-seg-america",
+      "You need a commercial study and want to evaluate component documentation and CPA handoff. Compare the investigation and final schedules using the same building.",
+      "Which investigation, professional review, report schedules, method-change preparation and accountant support does this property-specific quote include?"
+    ],
+    [
+      "wecostseg",
+      "rentalwriteoff",
+      "wecostseg-vs-rentalwriteoff",
+      "You own a duplex and need a study for a prior acquisition. Compare the eligible study tier, evidence review and included or extra Form 3115 preparation.",
+      "Which investigation, professional review, report schedules, method-change preparation and accountant support does this property-specific quote include?"
+    ],
+    [
+      "modern-cfo",
+      "wecostseg",
+      "modern-cfo-vs-wecostseg",
+      "You are comparing scope-based engineering fee bands with tier-based property limits. Confirm the actual inspection, review and report work before comparing prices.",
+      "Which investigation, professional review, report schedules, method-change preparation and accountant support does this property-specific quote include?"
+    ],
+    [
+      "modern-cfo",
+      "cost-seg-america",
+      "modern-cfo-vs-cost-seg-america",
+      "You need a study for a commercial property with incomplete asset records. Compare component evidence, engineering review and the final package your CPA will use.",
+      "Which investigation, professional review, report schedules, method-change preparation and accountant support does this property-specific quote include?"
+    ],
+    [
+      "rentalwriteoff",
+      "modern-cfo",
+      "rentalwriteoff-vs-modern-cfo",
+      "You want a reviewed residential study and must choose a remote four-unit service or a scope-based engineering proposal. Compare records, review and method-change preparation.",
+      "Which investigation, professional review, report schedules, method-change preparation and accountant support does this property-specific quote include?"
+    ]
+  ]
+}
