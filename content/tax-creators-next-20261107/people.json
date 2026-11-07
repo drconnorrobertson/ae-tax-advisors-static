@@ -1,0 +1,209 @@
+{
+  "reviewed": "2026-11-07",
+  "baseline_commit": "3acbba2adf9f01e67cdd4b55f6ce507becfe3f8e",
+  "people": [
+    {
+      "slug": "thomas-castelli",
+      "name": "Thomas Castelli",
+      "brand": "Hall CPA / Tax Smart REI",
+      "group": "real-estate",
+      "sources": [
+        [
+          "https://www.therealestatecpa.com/thomas-castelli-cpa/",
+          "Thomas Castelli partner biography and podcast role"
+        ],
+        [
+          "https://www.taxsmartinvestors.com/",
+          "Tax Smart investor education and community"
+        ]
+      ],
+      "profile": "Hall CPA identifies Thomas Castelli as a partner and tax strategist who hosts the Tax Smart REI podcast. Tax Smart Investors describes investor education and community access.",
+      "offering": "Compare investor education and community access with a separately defined Hall CPA advisory and filing engagement.",
+      "scenario": "You own rentals personally and through a partnership and want to review a new acquisition. Ask which entity and owner analyses are included and who implements the final depreciation and filing decisions.",
+      "questions": [
+        "Is the purchase investor education or a Hall CPA engagement?",
+        "Who reviews entity and owner-level tax limitations?",
+        "Which projections, elections and return tasks are included?",
+        "What advisor access and implementation deadlines are contracted?"
+      ],
+      "peer_slugs": [
+        "amanda-han",
+        "eric-freeman"
+      ],
+      "firm": "hall-cpa",
+      "boundary": "Confirm the current contracting entity, assigned team and any direct creator involvement in the written engagement.",
+      "fee": "Request a current written quote for the selected service. The reviewed official pages do not establish a universal fixed fee covering planning, implementation and filing.",
+      "alternative": "/compare/thomas-castelli-alternatives/",
+      "comparison": "/compare/thomas-castelli-vs-ae-tax/",
+      "review": "/compare/thomas-castelli-reviews/"
+    },
+    {
+      "slug": "clint-coons",
+      "name": "Clint Coons",
+      "brand": "Anderson Business Advisors",
+      "group": "real-estate",
+      "sources": [
+        [
+          "https://andersonadvisors.com/clint-coons/",
+          "Clint Coons founder role and asset-protection education"
+        ],
+        [
+          "https://clintcoons.com/services/",
+          "Workshop service description"
+        ]
+      ],
+      "profile": "Anderson Business Advisors identifies Clint Coons as an attorney and founder focused on real estate asset protection and business planning. His site describes investor workshops.",
+      "offering": "Distinguish workshop access, entity implementation and legal work from tax advice and return preparation.",
+      "scenario": "You plan to move rental assets into an entity structure. Compare document drafting, title and lender coordination, ongoing entity obligations and tax-return consequences rather than buying an LLC package from a webinar alone.",
+      "questions": [
+        "Is this a workshop or an individualized legal engagement?",
+        "Who drafts documents and coordinates property transfers?",
+        "Which tax planning and filing work is included?",
+        "What maintenance, registered-agent or membership fees continue?"
+      ],
+      "peer_slugs": [
+        "mark-j-kohler",
+        "tom-wheelwright"
+      ],
+      "firm": "anderson-advisors",
+      "boundary": "Confirm the legal scope and actual assigned attorney. AE’s standard tax advisory engagement does not replace legal drafting, asset-protection counsel or entity administration.",
+      "fee": "Request a current written quote for the selected service. The reviewed official pages do not establish a universal fixed fee covering planning, implementation and filing.",
+      "alternative": "/compare/clint-coons-alternatives/",
+      "comparison": "/compare/clint-coons-vs-ae-tax/",
+      "review": "/compare/clint-coons-reviews/"
+    },
+    {
+      "slug": "karla-dennis",
+      "name": "Karla Dennis",
+      "brand": "KDA Inc.",
+      "group": "business",
+      "sources": [
+        [
+          "https://kdainc.com/about-kda/the-dennis-family/",
+          "Karla Dennis founder and public education biography"
+        ],
+        [
+          "https://kdainc.com/",
+          "KDA tax strategy, preparation and accounting services"
+        ]
+      ],
+      "profile": "KDA’s official family page identifies Karla Dennis with its founding and public tax education. The firm describes strategy, preparation, accounting and related services.",
+      "offering": "Compare a KDA planning proposal with separately identified bookkeeping, payroll, entity and return work.",
+      "scenario": "You run a profitable service company with payroll and a rental on the side. Ask how business and personal projections connect with ongoing books and who completes elections and returns.",
+      "questions": [
+        "Which KDA entity and professional contract with me?",
+        "Are accounting and payroll required or separately quoted?",
+        "Who implements planning and prepares the affected returns?",
+        "What meetings, support period and renewal charges apply?"
+      ],
+      "peer_slugs": [
+        "jasmine-dilucci",
+        "john-briggs"
+      ],
+      "firm": null,
+      "boundary": "Karla Dennis, Karlton Dennis and their linked business offerings are distinct name searches. Confirm the exact KDA or other service contract; do not assume every family-linked brand supplies the same engagement.",
+      "fee": "Request a current written quote for the selected service. The reviewed official pages do not establish a universal fixed fee covering planning, implementation and filing.",
+      "alternative": "/compare/karla-dennis-alternatives/",
+      "comparison": "/compare/karla-dennis-vs-ae-tax/",
+      "review": "/compare/karla-dennis-reviews/"
+    },
+    {
+      "slug": "shauna-wekherlien",
+      "name": "Shauna Wekherlien",
+      "brand": "Tax Goddess",
+      "group": "business",
+      "sources": [
+        [
+          "https://taxgoddess.com/growth-team/",
+          "Shauna Wekherlien founder introduction and client criteria"
+        ],
+        [
+          "https://taxgoddess.com/strategic-tax-coaching-program/",
+          "Strategic Tax Coaching program"
+        ]
+      ],
+      "profile": "Tax Goddess identifies Shauna A. Wekherlien as its founder and describes Strategic Tax Coaching for business owners and investors.",
+      "offering": "Confirm program eligibility, advisor access and implementation responsibilities rather than treating a tax-coaching proposal as an all-inclusive filing package.",
+      "scenario": "You have high business income and several investment entities. Request a proposal listing the taxpayer-specific analysis, planning recommendations, implementation owners and separate preparation or specialty projects.",
+      "questions": [
+        "Do I meet the current client and program criteria?",
+        "Which entities and investment decisions are analyzed?",
+        "Who implements the recommendations and files each return?",
+        "What founder access, support and additional fees are contracted?"
+      ],
+      "peer_slugs": [
+        "karlton-dennis",
+        "jasmine-dilucci"
+      ],
+      "firm": "tax-goddess",
+      "boundary": "Tax Goddess publishes marketing savings and ranking claims that AE has not independently verified. Confirm current client criteria and scope; no advertised tax rate or outcome is adopted as a forecast here.",
+      "fee": "Request a current written quote for the selected service. The reviewed official pages do not establish a universal fixed fee covering planning, implementation and filing.",
+      "alternative": "/compare/shauna-wekherlien-alternatives/",
+      "comparison": "/compare/shauna-wekherlien-vs-ae-tax/",
+      "review": "/compare/shauna-wekherlien-reviews/"
+    },
+    {
+      "slug": "sharon-winsmith",
+      "name": "Sharon Winsmith",
+      "brand": "Winverse and educational consultations",
+      "group": "education",
+      "sources": [
+        [
+          "https://sharonwinsmith.com/about-sharon/",
+          "Sharon Winsmith biography and education model"
+        ],
+        [
+          "https://sharonwinsmith.com/consult/",
+          "Consultation prices and educational scope"
+        ]
+      ],
+      "profile": "Sharon Winsmith’s site describes Winverse wealth education and separately priced consultations. It identifies her background as a tax attorney.",
+      "offering": "The consultation page labels calls educational and informational and states that they do not create an attorney-client relationship or supply legal, tax or investment advice.",
+      "scenario": "You want to discuss a proposed structure before asking your own professionals to implement it. Compare the educational discussion with the separate advisory, legal documentation and return-preparation work you still need.",
+      "questions": [
+        "Is this a membership or a specific consultation?",
+        "What records will be reviewed before the session?",
+        "What written output or follow-up is included?",
+        "Which separate professionals implement and file the resulting work?"
+      ],
+      "peer_slugs": [
+        "tom-wheelwright",
+        "brian-kim"
+      ],
+      "firm": null,
+      "boundary": "Do not equate an educational consultation with an individualized legal or tax advisory engagement. Her consultation terms expressly distinguish them.",
+      "fee": "The consultation page lists a one-hour Zoom session at $1,500, a two-hour session at $2,500 and a full-day onsite session at $10,000. Confirm current inclusions, travel and follow-up; these are different educational consultation scopes, not a universal tax preparation fee.",
+      "alternative": "/compare/sharon-winsmith-alternatives/",
+      "comparison": "/compare/sharon-winsmith-vs-ae-tax/",
+      "review": "/compare/sharon-winsmith-reviews/"
+    }
+  ],
+  "pairs": [
+    [
+      "thomas-castelli",
+      "amanda-han",
+      "You own rental properties and a partnership interest and need investor-level planning connected to the final returns. Compare individual advisory, community access, preparation and implementation."
+    ],
+    [
+      "clint-coons",
+      "mark-j-kohler",
+      "You need real estate entity documents and tax coordination. Compare the contracted legal work, property-transfer tasks, ongoing entity maintenance and separate tax engagement."
+    ],
+    [
+      "karla-dennis",
+      "karlton-dennis",
+      "You found related names in tax content but need the exact KDA or Tax Alchemy contract. Compare current providers and deliverables; family or brand connections do not establish interchangeable services or independent bidders."
+    ],
+    [
+      "shauna-wekherlien",
+      "karlton-dennis",
+      "You want a tax plan for business income and investments. Compare program eligibility, implementation responsibilities, assigned advisors and complete fees rather than advertised savings."
+    ],
+    [
+      "sharon-winsmith",
+      "tom-wheelwright",
+      "You want to learn tax and wealth concepts and also need to know who can implement them. Compare educational access and consultation terms with a separately engaged advisor."
+    ]
+  ],
+  "selection": "Five names absent from the 19-person creator inventory and existing compare routes. Official identity and public education/service sources reviewed. No search-volume or follower-based priority claim."
+}

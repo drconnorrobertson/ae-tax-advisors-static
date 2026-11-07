@@ -1,0 +1,43 @@
+{
+  "new_people": 5,
+  "total_people": 24,
+  "new_person_guides": 15,
+  "pair_comparisons": 5,
+  "new_listicles": 2,
+  "updated_hub_and_lists": 3,
+  "affected_pages": [
+    "/compare/thomas-castelli-alternatives/",
+    "/compare/thomas-castelli-vs-ae-tax/",
+    "/compare/thomas-castelli-reviews/",
+    "/compare/clint-coons-alternatives/",
+    "/compare/clint-coons-vs-ae-tax/",
+    "/compare/clint-coons-reviews/",
+    "/compare/karla-dennis-alternatives/",
+    "/compare/karla-dennis-vs-ae-tax/",
+    "/compare/karla-dennis-reviews/",
+    "/compare/shauna-wekherlien-alternatives/",
+    "/compare/shauna-wekherlien-vs-ae-tax/",
+    "/compare/shauna-wekherlien-reviews/",
+    "/compare/sharon-winsmith-alternatives/",
+    "/compare/sharon-winsmith-vs-ae-tax/",
+    "/compare/sharon-winsmith-reviews/",
+    "/compare/tax-influencer-alternatives/",
+    "/compare/real-estate-tax-educators/",
+    "/compare/tax-education-vs-advisory/",
+    "/compare/tax-planning-creators-for-business-owners/",
+    "/compare/tax-attorney-creators-and-education/",
+    "/compare/thomas-castelli-vs-amanda-han/",
+    "/compare/clint-coons-vs-mark-j-kohler/",
+    "/compare/karla-dennis-vs-karlton-dennis/",
+    "/compare/shauna-wekherlien-vs-karlton-dennis/",
+    "/compare/sharon-winsmith-vs-tom-wheelwright/"
+  ],
+  "service_hubs": [
+    "/compare/",
+    "/services/tax-planning/",
+    "/year-round-business-tax-planning/",
+    "/real-estate-tax-planning/"
+  ],
+  "provider_directory_count": 125,
+  "query_volume_verified": false
+}
