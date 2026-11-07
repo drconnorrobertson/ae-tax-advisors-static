@@ -1,0 +1,264 @@
+{
+  "cost-seg-atlas": {
+    "name": "Cost Seg Atlas",
+    "sources": [
+      [
+        "https://costseg.2911tech.com/pricing",
+        "Cost Seg Atlas pricing and review availability"
+      ],
+      [
+        "https://costseg.2911tech.com/",
+        "Cost Seg Atlas official product"
+      ]
+    ],
+    "summary": "Cost Seg Atlas advertises AI-generated cost segregation analyses, evidence-linked schedules and an examination-package export. Its pricing page says professional review is paused and describes outputs as educational analyses rather than signed studies.",
+    "fit": "Owners and preparers evaluating an automated analysis workflow while arranging any required professional investigation and sign-off separately.",
+    "alternative_intro": "Compare Cost Seg Atlas alternatives by the work still needed after an automated analysis. AE Tax Advisors offers standalone studies; CostSeg Express advertises an instant rental-property report; CostSegregation.com offers self-guided software with property-basis limits. Atlas currently says professional review is paused, so do not treat its advertised fee as a signed professional study.",
+    "keep": "Keep Cost Seg Atlas on the shortlist if you want to evaluate an evidence-linked analysis and export workflow with a qualified preparer. Confirm how uploaded records, photographs, methodology choices and gaps will be investigated before a report is used.",
+    "boundary": "The pricing page describes educational analyses and says a qualified preparer must complete remaining work before a filing position is taken. Professional review is marked paused; verify availability directly rather than assuming a future review service can be purchased now.",
+    "fee": "Cost Seg Atlas advertises a flat $395 AI analysis price. Professional review is marked paused, with partner CPA or engineer availability pending. Complex commercial and portfolio work requires scope confirmation.",
+    "fee_context": "The $395 amount belongs to the automated analysis product. It is not an established price for professional inspection, independent review, a signed study or tax-return preparation. Obtain a separate scope for any remaining professional work.",
+    "filing_answer": "Atlas lists a Section 481(a) look-back calculator and fixed-asset exports. A calculator is not Form 3115 preparation or filing. Assign professional review, required forms and return implementation explicitly, particularly while its review service is paused.",
+    "price_comparison": "Compare the selected product or professional study for the same building. AE’s square-foot study rate and a software report fee may include different investigation, review and support. Request the complete scope and any separately priced implementation.",
+    "vs_intro": "Compare Cost Seg Atlas alternatives by the work still needed after an automated analysis. AE Tax Advisors offers standalone studies; CostSeg Express advertises an instant rental-property report; CostSegregation.com offers self-guided software with property-basis limits. Atlas currently says professional review is paused, so do not treat its advertised fee as a signed professional study.",
+    "scenario": "Suppose you generated an analysis for a renovated rental but the completeness report lists unresolved items. Ask your preparer what evidence, investigation and sign-off remain, then compare the full cost with an engaged study provider.",
+    "decision": "Choose based on the completed evidence and professional responsibilities, not solely the download price or an automated completeness score. A score does not establish a tax filing conclusion.",
+    "ae_question": "What property investigation, report schedules, support and accountant handoff does AE include, and which forms and filing services need a separate scope?",
+    "questions": [
+      "Is independent professional review available now, and who signs the final work?",
+      "What property evidence and unresolved gaps require additional investigation?",
+      "What does the $395 product include versus separately engaged professional work?",
+      "Who prepares any Form 3115 and evaluates how the report is used on the return?"
+    ],
+    "cost_rows": [
+      [
+        "Automated analysis",
+        "Advertised flat $395 for the analysis product."
+      ],
+      [
+        "Professional review",
+        "Marked paused; confirm current availability separately."
+      ],
+      [
+        "Complex property",
+        "Confirm portfolio and complex commercial scope."
+      ],
+      [
+        "Tax implementation",
+        "Arrange any inspection, sign-off, preparation and filing separately."
+      ]
+    ],
+    "peers": [
+      "costseg-express",
+      "costsegregation-com"
+    ]
+  },
+  "costseg-express": {
+    "name": "CostSeg Express",
+    "sources": [
+      [
+        "https://www.costseg.express/",
+        "CostSeg Express fee, workflow and planning-document scope"
+      ]
+    ],
+    "summary": "CostSeg Express advertises an instant PDF report for rental properties from owner-entered information, with no site visit. Its homepage describes the output as a planning document to discuss with a licensed CPA before filing.",
+    "fit": "Rental owners evaluating a low-cost planning report and willing to confirm investigation, review and filing responsibilities with a preparer.",
+    "alternative_intro": "Compare CostSeg Express alternatives by report purpose and professional review. AE Tax Advisors offers standalone studies; Cost Seg Atlas advertises automated analyses with review currently paused; CostSegregation.com provides self-guided software with a stated property-basis ceiling. Compare the remaining preparer work alongside the product fee.",
+    "keep": "Keep CostSeg Express on your shortlist if an instant rental-property planning report fits the preliminary work you need. Ask to see the output and have your preparer confirm what additional documentation and analysis are necessary.",
+    "boundary": "The homepage states no site visit is required and calls the studies planning documents. Its broad savings and tax-treatment claims do not establish your eligibility or results. Confirm the property facts, review process and support rather than equating instant delivery with completed tax implementation.",
+    "fee": "CostSeg Express advertises a flat $99 fee for its instantly generated rental-property PDF report.",
+    "fee_context": "This is the advertised report price, not an established quote for a site-inspected engineering engagement, licensed review or tax-return preparation. Confirm current checkout terms, eligibility, report corrections and any support.",
+    "filing_answer": "Ask who reviews the generated classifications, reconciles the property records and prepares any required method-change forms. The reviewed homepage does not establish that Form 3115 preparation, representation or return filing is included.",
+    "price_comparison": "Compare the selected product or professional study for the same building. AE’s square-foot study rate and a software report fee may include different investigation, review and support. Request the complete scope and any separately priced implementation.",
+    "vs_intro": "Compare CostSeg Express alternatives by report purpose and professional review. AE Tax Advisors offers standalone studies; Cost Seg Atlas advertises automated analyses with review currently paused; CostSegregation.com provides self-guided software with a stated property-basis ceiling. Compare the remaining preparer work alongside the product fee.",
+    "scenario": "Suppose you want a report for a furnished rental and have both purchase records and later improvements. Compare the instant product with a professional proposal by asking who verifies each input and resolves missing records.",
+    "decision": "Choose a workflow your preparer can support with evidence and a clear division of responsibilities. Do not assume a low report price buys the same investigation as a professional study.",
+    "ae_question": "What property investigation, report schedules, support and accountant handoff does AE include, and which forms and filing services need a separate scope?",
+    "questions": [
+      "What property types and improvement situations does the $99 product accept?",
+      "Who checks owner-entered records and component classifications?",
+      "What corrections, accountant questions and support are included?",
+      "Who supplies any additional professional review, forms and tax filing?"
+    ],
+    "cost_rows": [
+      [
+        "PDF product",
+        "Advertised flat $99 report fee."
+      ],
+      [
+        "Investigation",
+        "Homepage states no site visit; confirm any professional review."
+      ],
+      [
+        "Support",
+        "Ask about corrections and accountant questions."
+      ],
+      [
+        "Filing",
+        "Separately assign evidence review, method-change preparation and returns."
+      ]
+    ],
+    "peers": [
+      "cost-seg-atlas",
+      "costsegregation-com"
+    ]
+  },
+  "costsegrx": {
+    "name": "CostSegRx",
+    "sources": [
+      [
+        "https://www.costsegrx.com/",
+        "CostSegRx engineering and accounting review"
+      ],
+      [
+        "https://www.costsegrx.com/faq",
+        "CostSegRx documentation and owner responsibilities"
+      ]
+    ],
+    "summary": "CostSegRx describes studies prepared by engineers and reviewed by its accounting team, with CPA-ready schedules and audit support. Its FAQ assigns land allocation and real-estate cost-basis inputs to the owner.",
+    "fit": "Property owners seeking engineering preparation and accounting review with a documented handoff to their CPA.",
+    "alternative_intro": "Compare CostSegRx alternatives using the investigation and accountant support required for the property. AE Tax Advisors offers standalone studies; ICS Tax describes specialty studies and necessary Form 3115 work; CostSegregation.com provides a self-guided software route. Match the professional service level before comparing fees.",
+    "keep": "Keep CostSegRx on your shortlist when you want engineering preparation and accounting-team review. Ask how the property is investigated, how input questions are resolved and what final schedules your preparer receives.",
+    "boundary": "Its FAQ says the owner supplies the land allocation and cost basis. Confirm who helps verify those inputs. The presence of a Form 3115 Wizard resource does not establish the scope or price of professional preparation.",
+    "fee": "Request a property-specific CostSegRx quote. The official homepage and FAQ reviewed offer free estimates but do not establish a universal fixed study fee.",
+    "fee_context": "A free benefit estimate is different from the study fee. Price the investigation, engineering preparation, accounting review, schedules and support for the actual property. Identify any separately purchased preparation or additional work.",
+    "filing_answer": "CostSegRx publishes look-back information and links to a Form 3115 Wizard. Ask whether professional form preparation is included or separately available, who reviews it, and who integrates the schedules into the return.",
+    "price_comparison": "Compare the selected product or professional study for the same building. AE’s square-foot study rate and a software report fee may include different investigation, review and support. Request the complete scope and any separately priced implementation.",
+    "vs_intro": "Compare CostSegRx alternatives using the investigation and accountant support required for the property. AE Tax Advisors offers standalone studies; ICS Tax describes specialty studies and necessary Form 3115 work; CostSegregation.com provides a self-guided software route. Match the professional service level before comparing fees.",
+    "scenario": "Suppose you acquired a mixed-use property and have incomplete records for land value and later improvements. Ask the study provider and CPA to agree on supported inputs before the engineering analysis begins.",
+    "decision": "Choose the proposal with clear ownership of input verification, engineering conclusions and return implementation. A report cannot resolve unsupported owner inputs merely by being delivered to a CPA.",
+    "ae_question": "What property investigation, report schedules, support and accountant handoff does AE include, and which forms and filing services need a separate scope?",
+    "questions": [
+      "What inspection and engineering investigation will this property receive?",
+      "Who confirms the land allocation, cost basis and improvement records?",
+      "What accounting review, schedules and CPA responses are included?",
+      "Is professional Form 3115 preparation offered, included or separately priced?"
+    ],
+    "cost_rows": [
+      [
+        "Professional study",
+        "Obtain a property-specific investigation and report quote."
+      ],
+      [
+        "Input responsibilities",
+        "Owner supplies land allocation and cost basis per the FAQ; agree on verification."
+      ],
+      [
+        "CPA package",
+        "Confirm schedules, accounting review and support."
+      ],
+      [
+        "Method-change work",
+        "Distinguish the wizard resource from separately contracted preparation."
+      ]
+    ],
+    "peers": [
+      "ics-tax",
+      "costsegregation-com"
+    ]
+  },
+  "costsegregation-com": {
+    "name": "CostSegregation.com",
+    "sources": [
+      [
+        "https://www.costsegregation.com/",
+        "CostSegregation.com software pricing and property limits"
+      ]
+    ],
+    "summary": "CostSegregation.com describes self-guided software with property-data assistance, an option to invite a CPA, downloadable reports, report corrections and a Section 481(a) calculation schedule. Properties above $1.5 million in building basis are referred for a professional quote.",
+    "fit": "Owners and tax preparers evaluating self-guided software for properties within the stated building-basis limit.",
+    "alternative_intro": "Compare CostSegregation.com alternatives by the work bought: self-guided software or a professionally scoped study. AE Tax Advisors offers standalone studies; Cost Seg Atlas advertises automated analyses; CostSegRx describes engineering preparation with accounting review. CostSegregation.com’s larger-property referral is a separate professional quote, not the software fee.",
+    "keep": "Keep CostSegregation.com on your shortlist when the property fits its basis limit and your preparer accepts the self-guided workflow. It advertises report corrections, audit support and a Section 481(a) calculation schedule; confirm the applicable terms.",
+    "boundary": "The website limits the software to properties up to $1.5 million in building basis excluding land. Its larger-property link goes to KBKG professional services. A calculation schedule and CPA invitation do not establish that return preparation is included.",
+    "fee": "CostSegregation.com displays a $495 residential report example at $500,000 tax basis and a $1,295 commercial example at $1 million tax basis. Pricing varies with the selected basis; properties above $1.5 million in building basis require a professional quote.",
+    "fee_context": "These displayed examples are not universal fees. Compare the selected property type and building basis, exclusions for land, support terms and any separately scoped professional services. Keep the software purchase separate from the KBKG professional-service proposal.",
+    "filing_answer": "The platform lists a Section 481(a) calculation schedule and an option to invite the CPA. Ask who reviews the inputs, prepares any Form 3115 and signs and files the income-tax return; those responsibilities are not established by a software report.",
+    "price_comparison": "Compare the selected product or professional study for the same building. AE’s square-foot study rate and a software report fee may include different investigation, review and support. Request the complete scope and any separately priced implementation.",
+    "vs_intro": "Compare CostSegregation.com alternatives by the work bought: self-guided software or a professionally scoped study. AE Tax Advisors offers standalone studies; Cost Seg Atlas advertises automated analyses; CostSegRx describes engineering preparation with accounting review. CostSegregation.com’s larger-property referral is a separate professional quote, not the software fee.",
+    "scenario": "Suppose your commercial property is close to the software’s $1.5 million building-basis limit. Confirm the supported basis with your CPA, then compare the eligible software route or professional referral with a matched study proposal.",
+    "decision": "Choose based on eligibility, input verification and the work your preparer will complete. A displayed software example is not a quote for a larger property or a full professional engagement.",
+    "ae_question": "What property investigation, report schedules, support and accountant handoff does AE include, and which forms and filing services need a separate scope?",
+    "questions": [
+      "Does my building basis excluding land fit the software limit?",
+      "What fee appears for this property type and selected basis?",
+      "Who verifies inputs and handles corrections or audit-support requests?",
+      "Who prepares required forms, and is larger-property work a separate professional proposal?"
+    ],
+    "cost_rows": [
+      [
+        "Residential example",
+        "Displayed $495 at $500,000 tax basis; confirm selected basis pricing."
+      ],
+      [
+        "Commercial example",
+        "Displayed $1,295 at $1 million tax basis."
+      ],
+      [
+        "Property ceiling",
+        "Software up to $1.5 million building basis excluding land; larger properties quoted professionally."
+      ],
+      [
+        "Implementation",
+        "Separate software schedules from tax-form preparation and filing."
+      ]
+    ],
+    "peers": [
+      "cost-seg-atlas",
+      "costsegrx"
+    ]
+  },
+  "ics-tax": {
+    "name": "ICS Tax",
+    "sources": [
+      [
+        "https://ics-tax.com/cost-segregation/",
+        "ICS Tax study services and support"
+      ],
+      [
+        "https://ics-tax.com/proposal-cost-segregation/",
+        "ICS Tax proposal and Form 3115 scope"
+      ]
+    ],
+    "summary": "ICS Tax describes specialty cost segregation studies, construction-cost estimation where historical records are unavailable, audit support and necessary Form 3115 work on its proposal page.",
+    "fit": "Owners and preparers seeking a specialty study engagement with explicit discussion of method-change preparation and support.",
+    "alternative_intro": "Compare ICS Tax alternatives using the property study and implementation work required. AE Tax Advisors offers standalone studies; CostSegRx describes engineering and accounting review; CostSegregation.com offers self-guided software. ICS’s proposal page explicitly includes necessary Form 3115 work in its service description, so ask for the exact engagement scope.",
+    "keep": "Keep ICS Tax on your shortlist when you need a specialty study, have incomplete historical construction records or want to discuss method-change preparation alongside the report. Its published materials describe construction-cost estimation and free audit support.",
+    "boundary": "A general service description does not define the fee, every return task or the limits of support. Confirm inspection, necessary Form 3115 preparation, accountant coordination and any representation responsibilities in the signed scope.",
+    "fee": "Request a property-specific ICS Tax proposal. The reviewed study and proposal pages offer a free consultation or benefit estimate but do not establish a universal fixed study fee.",
+    "fee_context": "Have the proposal identify the property investigation, records or cost estimation, report schedules, necessary Form 3115 work and support. Separate a free estimate from the contracted fee and ask which additional tax services have their own prices.",
+    "filing_answer": "ICS’s proposal page says its team will complete necessary Form 3115 work and provide free audit support. Confirm that preparation in the written scope, who reviews and files the form, who integrates the study into the return and what support covers.",
+    "price_comparison": "Compare the selected product or professional study for the same building. AE’s square-foot study rate and a software report fee may include different investigation, review and support. Request the complete scope and any separately priced implementation.",
+    "vs_intro": "Compare ICS Tax alternatives using the property study and implementation work required. AE Tax Advisors offers standalone studies; CostSegRx describes engineering and accounting review; CostSegregation.com offers self-guided software. ICS’s proposal page explicitly includes necessary Form 3115 work in its service description, so ask for the exact engagement scope.",
+    "scenario": "Suppose you own an older apartment building and lack original construction invoices. Ask how the provider estimates component costs, documents the basis reconciliation and handles any necessary method-change preparation with your CPA.",
+    "decision": "Choose the engagement with a supported reconstruction method and a clear report-to-return handoff. Compare equivalent professional work rather than subtracting a software download fee from a specialty proposal.",
+    "ae_question": "What property investigation, report schedules, support and accountant handoff does AE include, and which forms and filing services need a separate scope?",
+    "questions": [
+      "What investigation and cost-estimation method will this property use?",
+      "How are missing historical construction records addressed?",
+      "Does the written quote include necessary Form 3115 preparation and CPA review?",
+      "What report support is included and who handles filing or representation?"
+    ],
+    "cost_rows": [
+      [
+        "Property study",
+        "Request a fixed scope for the property investigation and report."
+      ],
+      [
+        "Missing records",
+        "Identify cost estimation and reconciliation deliverables."
+      ],
+      [
+        "Form 3115",
+        "Confirm the necessary preparation described on the proposal page in the written quote."
+      ],
+      [
+        "Support and filing",
+        "Define audit-support limits, final CPA handoff and return responsibilities."
+      ]
+    ],
+    "peers": [
+      "costsegrx",
+      "costsegregation-com"
+    ]
+  }
+}

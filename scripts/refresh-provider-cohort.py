@@ -16,6 +16,9 @@ if len(sys.argv) != 2 or not re.fullmatch(r'[a-z0-9-]+', sys.argv[1]):
     raise SystemExit('Usage: refresh-provider-cohort.py COHORT_DIRECTORY_NAME')
 DATA = ROOT / 'content' / sys.argv[1]
 config = json.loads((DATA / 'cohort.json').read_text())
+DATE = config.get('date', DATE)
+from datetime import date
+REVIEW_DATE = date.fromisoformat(DATE).strftime('%B %-d, %Y')
 STUDY = config.get('mode') == 'costseg'
 providers = json.loads((DATA / 'sources.json').read_text())
 ownership = {r['slug']: r for r in json.loads((ROOT / 'content/provider-page-ownership-20261024.json').read_text())['providers']}
@@ -43,7 +46,7 @@ if STUDY:
     AE_TERMS = 'Request a property-specific study quote and identify the report deliverables, preparer handoff and audit-support terms. Confirm any Form 3115 preparation and return filing separately; a study fee is not an all-inclusive tax engagement.'
 
 def disclosure():
-    return p('Published by AE Tax Advisors, a competing service provider. This is a commercial comparison of public service information, not an independent ranking or firsthand customer review. Sources checked November 6, 2026; confirm current availability and fees directly.')
+    return p(f'Published by AE Tax Advisors, a competing service provider. This is a commercial comparison of public service information, not an independent ranking or firsthand customer review. Sources checked {REVIEW_DATE}; confirm current availability and fees directly.')
 
 def nav(s, intent):
     return '<nav class="provider-guide-nav container narrow" aria-label="' + E(providers[s]['name']) + ' guides">' + ''.join('<a href="' + route(s, k) + '"' + (' aria-current="page"' if k == intent else '') + '>' + label + '</a>' for k, label in [('pricing', 'Pricing and fees'), ('alternative', 'Alternatives'), ('comparison', 'Compare with AE')]) + '</nav>'
@@ -56,7 +59,7 @@ def sources(slugs):
         # Preserve the directory's established official-source link.
         items.append((ownership[s]['official_source'], d['name'] + ' directory source'))
     items += [(T.SITE + '/pricing/', 'AE fees and scope'), (T.SITE + '/compare/tax-advisor-comparison-methodology/', 'AE comparison methodology')]
-    return T.section('Official sources and research date', p('Service descriptions are attributed to the linked provider websites. AE has not independently verified advertised savings, customer outcomes or service delivery. A public service menu does not establish the contents of your engagement.') + '<ul>' + ''.join('<li>' + link(u, label) + '</li>' for u, label in dict(items).items()) + '</ul>' + p('Researched November 6, 2026 by AE Tax Advisors. No customer star rating or universal winner is assigned.'))
+    return T.section('Official sources and research date', p('Service descriptions are attributed to the linked provider websites. AE has not independently verified advertised savings, customer outcomes or service delivery. A public service menu does not establish the contents of your engagement.') + '<ul>' + ''.join('<li>' + link(u, label) + '</li>' for u, label in dict(items).items()) + '</ul>' + p(f'Researched {REVIEW_DATE} by AE Tax Advisors. No customer star rating or universal winner is assigned.'))
 
 def save(path, title, desc, body, slugs, faqs=None, intent=None):
     file = ROOT / path.strip('/') / 'index.html'

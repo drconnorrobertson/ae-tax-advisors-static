@@ -15,6 +15,7 @@ BASE = 'https://www.aetaxadvisors.com'
 COHORT = sys.argv[2] if len(sys.argv) > 2 else 'five-competitors-20261106'
 assert re.fullmatch(r'[a-z0-9-]+', COHORT)
 DATA = REPO / 'content' / COHORT
+DATE = json.loads((DATA / 'cohort.json').read_text()).get('date', '2026-11-06')
 pages = json.loads((DATA / 'pages.json').read_text())
 sources = json.loads((DATA / 'sources.json').read_text())
 config = json.loads((REPO / 'vercel.json').read_text())
@@ -57,7 +58,7 @@ for path in pages:
     if len(page.ids) != len(set(page.ids)): errors.append(path + ': duplicate anchor')
     for raw in re.findall(r'<script type="application/ld\+json">(.*?)</script>', text, re.S):
         obj = json.loads(raw)
-        if obj.get('@type') == 'Article' and obj.get('dateModified') != '2026-11-06': errors.append(path + ': modified date')
+        if obj.get('@type') == 'Article' and obj.get('dateModified') != DATE: errors.append(path + ': modified date')
         if obj.get('@type') in ('Review', 'AggregateRating'): errors.append(path + ': unsupported review rating')
     if 'AE Tax Advisors provides tax planning' not in text: errors.append(path + ': AE service positioning')
     if text.count('src="/assets/booking-events.js"') != 1: errors.append(path + ': booking event hook')
@@ -91,7 +92,7 @@ for path in pages:
 directory = json.loads((ROOT / 'compare/competitor-pricing/prices.json').read_text())
 for r in directory['providers']:
     if r['slug'] in sources:
-        if r['fee'] != sources[r['slug']]['fee'] or r['reviewed'] != '2026-11-06': errors.append(r['slug'] + ': stale directory evidence')
+        if r['fee'] != sources[r['slug']]['fee'] or r['reviewed'] != DATE: errors.append(r['slug'] + ': stale directory evidence')
 if (DATA / 'preservation.json').exists():
     import hashlib
     for path, digest in json.loads((DATA / 'preservation.json').read_text()).items():
