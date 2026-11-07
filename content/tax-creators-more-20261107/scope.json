@@ -1,0 +1,43 @@
+{
+  "new_people": 5,
+  "total_people": 29,
+  "new_person_guides": 15,
+  "pair_comparisons": 5,
+  "new_listicles": 2,
+  "updated_hub_and_lists": 3,
+  "affected_pages": [
+    "/compare/jj-the-cpa-alternatives/",
+    "/compare/jj-the-cpa-vs-ae-tax/",
+    "/compare/jj-the-cpa-reviews/",
+    "/compare/jeff-badu-alternatives/",
+    "/compare/jeff-badu-vs-ae-tax/",
+    "/compare/jeff-badu-reviews/",
+    "/compare/michel-valbrun-alternatives/",
+    "/compare/michel-valbrun-vs-ae-tax/",
+    "/compare/michel-valbrun-reviews/",
+    "/compare/tiffany-phillips-alternatives/",
+    "/compare/tiffany-phillips-vs-ae-tax/",
+    "/compare/tiffany-phillips-reviews/",
+    "/compare/megan-gorman-alternatives/",
+    "/compare/megan-gorman-vs-ae-tax/",
+    "/compare/megan-gorman-reviews/",
+    "/compare/tax-influencer-alternatives/",
+    "/compare/tax-education-vs-advisory/",
+    "/compare/tax-planning-creators-for-business-owners/",
+    "/compare/tax-educator-memberships-vs-client-services/",
+    "/compare/tax-and-wealth-planning-creators/",
+    "/compare/jj-the-cpa-vs-tom-wheelwright/",
+    "/compare/jeff-badu-vs-carter-cofield/",
+    "/compare/michel-valbrun-vs-karlton-dennis/",
+    "/compare/tiffany-phillips-vs-karla-dennis/",
+    "/compare/megan-gorman-vs-mitchell-baldridge/"
+  ],
+  "service_hubs": [
+    "/compare/",
+    "/services/tax-planning/",
+    "/year-round-business-tax-planning/",
+    "/real-estate-tax-planning/"
+  ],
+  "provider_directory_count": 125,
+  "query_volume_verified": false
+}

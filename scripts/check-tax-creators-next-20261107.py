@@ -54,7 +54,8 @@ import hashlib
 for path,digest in json.loads((data/'preservation.json').read_text()).items():
  if hashlib.sha256((repo/path.strip('/')/'index.html').read_bytes()).hexdigest()!=digest:errors.append(path+': preserved source changed')
 hub=(root/'compare/tax-influencer-alternatives/index.html').read_text()
-if hub.count('data-firm-card')!=24:errors.append('directory: expected 24 creator cards')
+expected_creators=len({x['slug'] for source in repo.glob('content/tax-creators*/people.json') for x in json.loads(source.read_text())['people']})
+if hub.count('data-firm-card')!=expected_creators:errors.append('directory: creator inventory count')
 for x in people:
  if not all(x[k] in hub for k in ['alternative','comparison','review']):errors.append(x['slug']+': directory links')
 for path in [by for by in paths if 'sharon-winsmith' in by]:
