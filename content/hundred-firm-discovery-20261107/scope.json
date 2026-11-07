@@ -1,0 +1,7 @@
+{
+  "providers": 100,
+  "core_pages": 300,
+  "new_search_hub": "/compare/tax-firm-alternatives/",
+  "excluded_policy": "Existing provider-exclusion guard remains mandatory. No excluded provider is present in this manifest.",
+  "basis": "Existing provider profiles supply buyer scenarios and questions. No new provider service or fee verification date is claimed by this decision-support addition."
+}

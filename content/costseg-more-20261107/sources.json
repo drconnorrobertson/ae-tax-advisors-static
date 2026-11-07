@@ -1,0 +1,272 @@
+{
+  "segpro-solutions": {
+    "name": "SegPro Solutions",
+    "sources": [
+      [
+        "https://segprosolutions.com/",
+        "SegPro Solutions service and property menu"
+      ],
+      [
+        "https://segprosolutions.com/cost-segregation/",
+        "SegPro cost segregation study services"
+      ]
+    ],
+    "summary": "SegPro Solutions describes property-specific cost segregation and separate energy-credit services for investors, builders and developers across rental and commercial property types.",
+    "fit": "Owners seeking a study for rental or commercial property, potentially with a separately scoped energy-incentive project.",
+    "alternative_intro": "Compare SegPro Solutions alternatives using the property, study method and preparer workflow you need. AE Tax Advisors offers standalone cost segregation studies. The other firms below have overlapping property services, but their quotes may include different investigation, schedules and support. Request the same building and deliverables before comparing prices.",
+    "keep": "Keep SegPro on your shortlist when its property coverage and component analysis fit the building. Ask whether a separate energy-credit engagement is relevant rather than assuming it belongs in every study.",
+    "boundary": "Its reviewed service pages do not establish every inspection, support or filing inclusion. Confirm those tasks in writing; marketing savings and customer testimonials do not establish your project’s result.",
+    "fee": "Request a property-specific SegPro Solutions proposal. The reviewed homepage and study service page do not establish a universal fixed study fee.",
+    "fee_context": "Separate the study quote from energy-credit work, added buildings, travel, support and any preparation. Send every bidder the same building records and deadline.",
+    "filing_answer": "Ask which asset schedules, CPA coordination and any Form 3115 preparation are included or separately available. A service menu does not establish that forms or returns are prepared as part of the study.",
+    "price_comparison": "AE publishes a square-foot study rate; compare the actual professional investigation and report scope before comparing totals. Price any additional specialty analysis, forms, filing or representation separately.",
+    "vs_intro": "SegPro Solutions describes property-specific cost segregation and separate energy-credit services for investors, builders and developers across rental and commercial property types. Compare that public service model with AE’s written proposal for the same property and report deliverables.",
+    "scenario": "Suppose you own a retail building with a major systems upgrade. Ask each firm to price the study and any separately recommended energy analysis using the same records.",
+    "decision": "Choose the proposal with a clear engineering scope, usable schedules and named accountant handoff. Keep additional incentive projects separate when comparing study fees.",
+    "ae_question": "What investigation, schedules, CPA coordination and support does AE include for this property, and which tax implementation services require separate scope?",
+    "questions": [
+      "Which investigation and component analysis fit this building?",
+      "Are energy-credit services separately scoped?",
+      "What final schedules and CPA responses are included?",
+      "Who prepares any required forms and files the tax return?"
+    ],
+    "cost_rows": [
+      [
+        "Property study",
+        "Identify buildings, improvements, inspection method and report schedules."
+      ],
+      [
+        "Records and analysis",
+        "Specify missing records, cost reconciliation and any added technical review."
+      ],
+      [
+        "Preparer handoff",
+        "Identify draft review, fixed-asset files and accountant question handling."
+      ],
+      [
+        "Separate tax work",
+        "Define any Form 3115 preparation, returns, amendments or representation."
+      ]
+    ],
+    "peers": [
+      "cost-seg-america",
+      "wecostseg"
+    ]
+  },
+  "cost-seg-america": {
+    "name": "Cost Seg America",
+    "sources": [
+      [
+        "https://www.costsegamerica.com/",
+        "Cost Seg America study and report scope"
+      ],
+      [
+        "https://www.costsegamerica.com/form-3115",
+        "Cost Seg America look-back workflow"
+      ]
+    ],
+    "summary": "Cost Seg America describes component-level engineering, fixed-asset and depreciation schedules, methodology documentation and study-related audit support. Its look-back workflow assigns Form 3115 preparation and filing to the client’s CPA.",
+    "fit": "Commercial property owners seeking a component-detail engineering report and explicit study-to-CPA responsibilities.",
+    "alternative_intro": "Compare Cost Seg America alternatives using the property, study method and preparer workflow you need. AE Tax Advisors offers standalone cost segregation studies. The other firms below have overlapping property services, but their quotes may include different investigation, schedules and support. Request the same building and deliverables before comparing prices.",
+    "keep": "Keep Cost Seg America on your shortlist when you want to evaluate its component-level investigation and engineering documentation. Ask to review a redacted comparable report and the written terms for ongoing support.",
+    "boundary": "AE has not independently verified the provider’s comparative methodology, audit record or outcome claims. Confirm the contracted investigation and support terms rather than relying on a marketing guarantee.",
+    "fee": "Request a property-specific Cost Seg America quote. Its homepage describes an upfront flat fee in the proposal, but does not establish a universal fixed study price.",
+    "fee_context": "The homepage’s discussion of a $2,900 study concerns comparison marketing, not a published Cost Seg America rate card. Ask for the actual quote, inspection, report schedules and support inclusions.",
+    "filing_answer": "Cost Seg America’s look-back workflow says the CPA reviews the study and Section 481(a) calculation, then prepares and files Form 3115. Confirm that handoff with your preparer and identify any separate fees.",
+    "price_comparison": "AE publishes a square-foot study rate; compare the actual professional investigation and report scope before comparing totals. Price any additional specialty analysis, forms, filing or representation separately.",
+    "vs_intro": "Cost Seg America describes component-level engineering, fixed-asset and depreciation schedules, methodology documentation and study-related audit support. Its look-back workflow assigns Form 3115 preparation and filing to the client’s CPA. Compare that public service model with AE’s written proposal for the same property and report deliverables.",
+    "scenario": "Suppose you need a study for a self-storage property held for several years. Compare component evidence, reconciliation to existing depreciation records and the package your CPA needs for method-change work.",
+    "decision": "Choose the engagement with clear engineering documentation and responsibility for each implementation step. Price the professional study and CPA preparation as distinct workstreams.",
+    "ae_question": "What investigation, schedules, CPA coordination and support does AE include for this property, and which tax implementation services require separate scope?",
+    "questions": [
+      "What investigation and component-detail schedules are included?",
+      "Who reconciles the report with existing depreciation records?",
+      "What does the CPA need to prepare and file Form 3115?",
+      "What are the written audit-support terms and exclusions?"
+    ],
+    "cost_rows": [
+      [
+        "Property study",
+        "Identify buildings, improvements, inspection method and report schedules."
+      ],
+      [
+        "Records and analysis",
+        "Specify missing records, cost reconciliation and any added technical review."
+      ],
+      [
+        "Preparer handoff",
+        "Identify draft review, fixed-asset files and accountant question handling."
+      ],
+      [
+        "Separate tax work",
+        "Define any Form 3115 preparation, returns, amendments or representation."
+      ]
+    ],
+    "peers": [
+      "segpro-solutions",
+      "modern-cfo"
+    ]
+  },
+  "wecostseg": {
+    "name": "WeCostSeg",
+    "sources": [
+      [
+        "https://www.wecostseg.com/pricing/",
+        "WeCostSeg published study tiers"
+      ],
+      [
+        "https://www.wecostseg.com/faq/",
+        "WeCostSeg scope and support questions"
+      ]
+    ],
+    "summary": "WeCostSeg publishes separate Rapid Report, Fully Engineered Residential and Fully Engineered Commercial tiers with different property limits, inspection and method-change preparation inclusions.",
+    "fit": "Owners comparing an engineer-reviewed rapid route with an inspected residential or commercial study.",
+    "alternative_intro": "Compare WeCostSeg alternatives using the property, study method and preparer workflow you need. AE Tax Advisors offers standalone cost segregation studies. The other firms below have overlapping property services, but their quotes may include different investigation, schedules and support. Request the same building and deliverables before comparing prices.",
+    "keep": "Keep WeCostSeg on your shortlist when one of its study tiers fits the property and the required review level. Confirm eligibility and any inspection travel before comparing the advertised starting fee.",
+    "boundary": "Rapid Report and fully engineered tiers buy different work. Its pricing page distinguishes Form 3115 inclusions by tier; confirm the selected package in writing rather than assuming the lowest fee includes every service.",
+    "fee": "WeCostSeg advertises Rapid Reports from $795 for residential property under $800,000 basis, Fully Engineered Residential from $2,495 up to $2 million basis, and Fully Engineered Commercial from $2,995.",
+    "fee_context": "These are tier-specific starting prices. The inspected tiers describe virtual or in-person visits. The pricing page lists five years of written audit support and excludes CPA tax-preparation fees, certain remote-commercial travel and Tax Court representation.",
+    "filing_answer": "WeCostSeg’s Rapid Report tier lists Form 3115 preparation as extra, while Fully Engineered Residential includes it for look-back studies. Confirm commercial-tier preparation, filing responsibility and the exact scope with the provider and CPA.",
+    "price_comparison": "AE publishes a square-foot study rate; compare the actual professional investigation and report scope before comparing totals. Price any additional specialty analysis, forms, filing or representation separately.",
+    "vs_intro": "WeCostSeg publishes separate Rapid Report, Fully Engineered Residential and Fully Engineered Commercial tiers with different property limits, inspection and method-change preparation inclusions. Compare that public service model with AE’s written proposal for the same property and report deliverables.",
+    "scenario": "Suppose your rental is near the Rapid Report basis limit and has substantial improvements. Ask which tier applies, then compare the complete study-plus-preparation quote with other firms.",
+    "decision": "Choose the eligible tier with the evidence, inspection and preparer services needed. Compare the actual package rather than using the $795 starting price for a different property class.",
+    "ae_question": "What investigation, schedules, CPA coordination and support does AE include for this property, and which tax implementation services require separate scope?",
+    "questions": [
+      "Which tier and basis limit apply to this property?",
+      "Is the inspection virtual or in person and is travel extra?",
+      "Does the chosen tier include Form 3115 preparation?",
+      "Who files the forms and what are the support exclusions?"
+    ],
+    "cost_rows": [
+      [
+        "Property study",
+        "Identify buildings, improvements, inspection method and report schedules."
+      ],
+      [
+        "Records and analysis",
+        "Specify missing records, cost reconciliation and any added technical review."
+      ],
+      [
+        "Preparer handoff",
+        "Identify draft review, fixed-asset files and accountant question handling."
+      ],
+      [
+        "Separate tax work",
+        "Define any Form 3115 preparation, returns, amendments or representation."
+      ]
+    ],
+    "peers": [
+      "rentalwriteoff",
+      "modern-cfo"
+    ]
+  },
+  "modern-cfo": {
+    "name": "Modern CFO",
+    "sources": [
+      [
+        "https://www.freecostseg.com/",
+        "Modern CFO study workflow"
+      ],
+      [
+        "https://www.freecostseg.com/resources/cost-seg-study-cost/",
+        "Modern CFO published engineering fee bands"
+      ]
+    ],
+    "summary": "Modern CFO at FreeCostSeg.com describes technology-assisted data gathering with engineer review, signed engineering reports and audit support. Its pricing uses engineering scope and building size rather than property value alone.",
+    "fit": "Owners seeking engineer-reviewed reports with published scope-based fee bands.",
+    "alternative_intro": "Compare Modern CFO alternatives using the property, study method and preparer workflow you need. AE Tax Advisors offers standalone cost segregation studies. The other firms below have overlapping property services, but their quotes may include different investigation, schedules and support. Request the same building and deliverables before comparing prices.",
+    "keep": "Keep Modern CFO on your shortlist when its engineering workflow and scope-based quote fit the building. Ask how records are gathered, which inspection is required and what the engineer signs.",
+    "boundary": "FreeCostSeg.com is the website for Modern CFO’s study offering; a free calculator does not mean the completed study is free. Confirm the selected band and any custom scope.",
+    "fee": "Modern CFO publishes residential and small-property fees of $1,200–$2,500, standard commercial $2,500–$6,000, and large or complex $6,000–$12,000. More complex assignments above the bands are individually quoted.",
+    "fee_context": "The fee table is based on property type and engineering scope, with building size affecting the work. It describes engineer-signed reports and audit support; confirm the actual property quote, inspection and separately scoped preparation.",
+    "filing_answer": "Ask whether required Form 3115 preparation, Section 481(a) work and return integration are included or separately available. A signed engineering report is not by itself an engagement to prepare or file tax forms.",
+    "price_comparison": "AE publishes a square-foot study rate; compare the actual professional investigation and report scope before comparing totals. Price any additional specialty analysis, forms, filing or representation separately.",
+    "vs_intro": "Modern CFO at FreeCostSeg.com describes technology-assisted data gathering with engineer review, signed engineering reports and audit support. Its pricing uses engineering scope and building size rather than property value alone. Compare that public service model with AE’s written proposal for the same property and report deliverables.",
+    "scenario": "Suppose you own a 16-unit building and are comparing a scope-based commercial fee with a property-value-based quote. Require both proposals to identify investigation, asset schedules and CPA support.",
+    "decision": "Choose based on the engineering and preparer deliverables for the same property. A public fee band helps budgeting but does not replace a written scope.",
+    "ae_question": "What investigation, schedules, CPA coordination and support does AE include for this property, and which tax implementation services require separate scope?",
+    "questions": [
+      "Which fee band fits the property type and building size?",
+      "What investigation and engineer sign-off are included?",
+      "What schedules, data sources and support reach the CPA?",
+      "Are method-change preparation and return work separately scoped?"
+    ],
+    "cost_rows": [
+      [
+        "Property study",
+        "Identify buildings, improvements, inspection method and report schedules."
+      ],
+      [
+        "Records and analysis",
+        "Specify missing records, cost reconciliation and any added technical review."
+      ],
+      [
+        "Preparer handoff",
+        "Identify draft review, fixed-asset files and accountant question handling."
+      ],
+      [
+        "Separate tax work",
+        "Define any Form 3115 preparation, returns, amendments or representation."
+      ]
+    ],
+    "peers": [
+      "wecostseg",
+      "cost-seg-america"
+    ]
+  },
+  "rentalwriteoff": {
+    "name": "RentalWriteOff",
+    "sources": [
+      [
+        "https://www.rentalwriteoff.com/pricing",
+        "RentalWriteOff price and residential scope"
+      ],
+      [
+        "https://www.rentalwriteoff.com/faq",
+        "RentalWriteOff remote review and preparer handoff"
+      ]
+    ],
+    "summary": "RentalWriteOff publishes an expert-reviewed, remote residential study service for rentals up to four units, including schedules, documentation and Form 3115 for eligible look-back studies.",
+    "fit": "Owners of eligible residential rentals up to four units seeking a remote reviewed report with a flat fee.",
+    "alternative_intro": "Compare RentalWriteOff alternatives using the property, study method and preparer workflow you need. AE Tax Advisors offers standalone cost segregation studies. The other firms below have overlapping property services, but their quotes may include different investigation, schedules and support. Request the same building and deliverables before comparing prices.",
+    "keep": "Keep RentalWriteOff on your shortlist when your residential property fits its four-unit limit and its remote evidence workflow meets your CPA’s needs. Confirm eligible look-back preparation before ordering.",
+    "boundary": "The published scope is residential rentals up to four units. It uses appraisal or listing photographs with additional evidence as needed; do not apply this fee to a larger commercial assignment.",
+    "fee": "RentalWriteOff advertises a one-time $899 fee per property for its residential study service, available for rentals up to four units.",
+    "fee_context": "The pricing page lists expert review, depreciation schedules, documentation, audit support under its terms and Form 3115 for eligible look-back studies. Confirm eligibility, complete intake requirements and any work outside that residential scope.",
+    "filing_answer": "RentalWriteOff explicitly includes Form 3115 for eligible look-back studies. The report goes to the CPA or preparer, who can ask questions directly; confirm who reviews, signs and files the final return and form.",
+    "price_comparison": "AE publishes a square-foot study rate; compare the actual professional investigation and report scope before comparing totals. Price any additional specialty analysis, forms, filing or representation separately.",
+    "vs_intro": "RentalWriteOff publishes an expert-reviewed, remote residential study service for rentals up to four units, including schedules, documentation and Form 3115 for eligible look-back studies. Compare that public service model with AE’s written proposal for the same property and report deliverables.",
+    "scenario": "Suppose you own a duplex purchased several years ago and need a reviewed report plus method-change preparation. Confirm eligibility and compare the complete remote study package with other firms’ proposals.",
+    "decision": "Choose the provider whose accepted property scope and evidence process fit the rental. Compare the included look-back work with separately priced preparation in other quotes.",
+    "ae_question": "What investigation, schedules, CPA coordination and support does AE include for this property, and which tax implementation services require separate scope?",
+    "questions": [
+      "Does the property fit the residential four-unit scope?",
+      "What photographs and records are needed for review?",
+      "Does this look-back study qualify for included Form 3115?",
+      "Who reviews and files the completed form and return?"
+    ],
+    "cost_rows": [
+      [
+        "Property study",
+        "Identify buildings, improvements, inspection method and report schedules."
+      ],
+      [
+        "Records and analysis",
+        "Specify missing records, cost reconciliation and any added technical review."
+      ],
+      [
+        "Preparer handoff",
+        "Identify draft review, fixed-asset files and accountant question handling."
+      ],
+      [
+        "Separate tax work",
+        "Define any Form 3115 preparation, returns, amendments or representation."
+      ]
+    ],
+    "peers": [
+      "wecostseg",
+      "modern-cfo"
+    ]
+  }
+}
