@@ -1,0 +1,209 @@
+{
+  "reviewed": "2026-11-07",
+  "baseline_commit": "05843376e0418b7c944292ca93f402927b347a2e",
+  "people": [
+    {
+      "slug": "jj-the-cpa",
+      "name": "JJ the CPA (Joshua Jenson)",
+      "brand": "JJ the CPA education and private practice",
+      "group": "education",
+      "sources": [
+        [
+          "https://www.jjthecpa.com/",
+          "Joshua Jenson official educator and practice biography"
+        ],
+        [
+          "https://www.jjthecpa.com/mastermind",
+          "Tax Consulting Group program and dated meeting schedule"
+        ]
+      ],
+      "profile": "Joshua Jenson’s official site identifies him as JJ the CPA, a tax educator, CPE instructor and founder of a private CPA practice.",
+      "offering": "Distinguish professional education, group tax discussion and a separate private client engagement. A program for tax professionals does not automatically include your business return or individual plan.",
+      "scenario": "You follow JJ’s tax updates and want help with an S corporation. First decide whether you need training for your preparer, a group program or a private engagement reviewing your own records.",
+      "questions": [
+        "Is this professional education, a group or private client work?",
+        "What current program dates and access terms apply?",
+        "Who reviews my records and delivers an individual plan?",
+        "Which implementation and return-preparation tasks are contracted?"
+      ],
+      "peer_slugs": [
+        "tom-wheelwright",
+        "sharon-winsmith"
+      ],
+      "firm": null,
+      "boundary": "The reviewed Tax Consulting Group page lists meetings ending April 13, 2026. Confirm current availability and terms rather than treating that dated schedule as an open program.",
+      "fee": "The reviewed Tax Consulting Group page advertises a $997 membership with a meeting schedule ending April 13, 2026. This is dated program evidence, not a current private-client or annual service quote; confirm the latest program and fee.",
+      "alternative": "/compare/jj-the-cpa-alternatives/",
+      "comparison": "/compare/jj-the-cpa-vs-ae-tax/",
+      "review": "/compare/jj-the-cpa-reviews/"
+    },
+    {
+      "slug": "jeff-badu",
+      "name": "Jeff Badu",
+      "brand": "Badu Tax Services",
+      "group": "business",
+      "sources": [
+        [
+          "https://www.badutaxservices.com/about-us",
+          "Jeff Badu founder role and tax services"
+        ],
+        [
+          "https://www.badutaxservices.com/",
+          "Preparation, planning, representation and education menu"
+        ]
+      ],
+      "profile": "Badu Tax Services identifies Jeff Badu as founder and CEO and lists tax preparation, planning and representation for individuals and businesses.",
+      "offering": "The site also links a wealth education course. Compare the course purchase with the specific planning, preparation or representation engagement.",
+      "scenario": "You own a business, rental property and an unresolved tax notice. Ask how the proposal separates forward planning, filings and representation deadlines, and which team performs each task.",
+      "questions": [
+        "Which business and owner returns are included?",
+        "Is representation a separate scope from planning?",
+        "Does a course purchase include any individual client work?",
+        "Who is assigned and what recurring or additional fees apply?"
+      ],
+      "peer_slugs": [
+        "john-briggs",
+        "jasmine-dilucci"
+      ],
+      "firm": null,
+      "boundary": "Use the exact Badu Tax Services contract and assigned team when comparing proposals. A public education product or marketed savings figure does not establish individual results or all-inclusive support.",
+      "fee": "Request a current written proposal. The reviewed official pages do not establish a universal fixed fee covering every planning, accounting and filing task.",
+      "alternative": "/compare/jeff-badu-alternatives/",
+      "comparison": "/compare/jeff-badu-vs-ae-tax/",
+      "review": "/compare/jeff-badu-reviews/"
+    },
+    {
+      "slug": "michel-valbrun",
+      "name": "Michel Valbrun",
+      "brand": "Michel Valbrun / Valbrun Group",
+      "group": "business",
+      "sources": [
+        [
+          "https://www.michelvalbrun.com/hero-page1588902401991",
+          "Michel Valbrun public biography and service descriptions"
+        ],
+        [
+          "https://valbrungroup.com/schedules",
+          "Linked Valbrun Group consultation route"
+        ]
+      ],
+      "profile": "Michel Valbrun’s public site describes tax planning, accounting, consulting, speaking and business education, with links to a Valbrun Group consultation page.",
+      "offering": "Identify the current professional service and contracting entity separately from books, challenges and educational material.",
+      "scenario": "You saw a tax-saving presentation and need a practical business plan tied to your books. Confirm current engagement availability, the actual advisor and the written deliverables before using an older sales page to estimate the scope.",
+      "questions": [
+        "Which current entity and professional provide the service?",
+        "Is this education, accounting or an individual tax plan?",
+        "Who implements recommendations and prepares returns?",
+        "What are the current fee, availability and support terms?"
+      ],
+      "peer_slugs": [
+        "karlton-dennis",
+        "karla-dennis"
+      ],
+      "firm": null,
+      "boundary": "The reviewed public pages include older marketing material and do not establish current client availability or engagement terms. Confirm these directly; no marketed savings or audit assurance is adopted as a verified outcome.",
+      "fee": "Request a current written proposal. The reviewed official pages do not establish a universal fixed fee covering every planning, accounting and filing task.",
+      "alternative": "/compare/michel-valbrun-alternatives/",
+      "comparison": "/compare/michel-valbrun-vs-ae-tax/",
+      "review": "/compare/michel-valbrun-reviews/"
+    },
+    {
+      "slug": "tiffany-phillips",
+      "name": "Tiffany Phillips",
+      "brand": "Phillips Business Group",
+      "group": "business",
+      "sources": [
+        [
+          "https://phillipsbusinessgroup.com/about-me/",
+          "Tiffany Phillips biography, book and podcast"
+        ],
+        [
+          "https://phillipsbusinessgroup.com/services/",
+          "Advisory implementation, preparation and additional services"
+        ]
+      ],
+      "profile": "Phillips Business Group identifies Tiffany Phillips as a CPA and tax strategist, author and host of the Small Business Finance Podcast.",
+      "offering": "Its service page describes advisory planning with implementation, business and personal preparation, estimated tax planning and quarterly reviews. Additional accounting and CFO services are separately described.",
+      "scenario": "You run a growing company and want one team to coordinate strategy and filings. Compare the written implementation, return list, quarterly review schedule and any bookkeeping prerequisites with other proposals.",
+      "questions": [
+        "Which implementation tasks and returns are included?",
+        "Who handles estimates and quarterly strategy reviews?",
+        "Are bookkeeping or CFO services separately engaged?",
+        "What records, deadlines, support and total fees apply?"
+      ],
+      "peer_slugs": [
+        "karla-dennis",
+        "jasmine-dilucci"
+      ],
+      "firm": null,
+      "boundary": "The service page describes implementation and preparation; do not infer they are unavailable. Confirm the actual contract and exclusions, and do not treat marketing savings or audit-proof language as a guaranteed result.",
+      "fee": "Request a current written proposal. The reviewed official pages do not establish a universal fixed fee covering every planning, accounting and filing task.",
+      "alternative": "/compare/tiffany-phillips-alternatives/",
+      "comparison": "/compare/tiffany-phillips-vs-ae-tax/",
+      "review": "/compare/tiffany-phillips-reviews/"
+    },
+    {
+      "slug": "megan-gorman",
+      "name": "Megan Gorman",
+      "brand": "Chequers Financial Management",
+      "group": "wealth",
+      "sources": [
+        [
+          "https://www.simonandschuster.net/authors/Megan-Gorman/227414916",
+          "Official publisher biography and public education"
+        ],
+        [
+          "https://www.chequersfinancial.com/",
+          "Chequers tax, financial and wealth-management scope"
+        ]
+      ],
+      "profile": "Megan Gorman’s official publisher biography identifies her as Chequers Financial Management’s founder and managing partner and a writer on personal finance and income tax.",
+      "offering": "Chequers describes personal CFO, active tax planning, family-enterprise, executive and investment-management services. Compare that broader relationship with a defined tax advisory engagement.",
+      "scenario": "You have executive compensation, investments and family wealth decisions. Separate tax projections and filings from portfolio management, estate counsel and family-office work before comparing fees.",
+      "questions": [
+        "Which tax and executive-compensation tasks are contracted?",
+        "Is investment management required or separately engaged?",
+        "Who coordinates return preparation and estate counsel?",
+        "How are advisory, asset-management and other fees charged?"
+      ],
+      "peer_slugs": [
+        "mitchell-baldridge",
+        "carter-cofield"
+      ],
+      "firm": null,
+      "boundary": "AE’s standard advisory fee is not a substitute for investment management, custody or a family-office engagement. Confirm client eligibility, the fee basis and which professionals supply each service.",
+      "fee": "Request a current written proposal. The reviewed official pages do not establish a universal fixed fee covering every planning, accounting and filing task.",
+      "alternative": "/compare/megan-gorman-alternatives/",
+      "comparison": "/compare/megan-gorman-vs-ae-tax/",
+      "review": "/compare/megan-gorman-reviews/"
+    }
+  ],
+  "pairs": [
+    [
+      "jj-the-cpa",
+      "tom-wheelwright",
+      "You need tax education and must distinguish professional CPE or group discussion from investor education and a separate advisor engagement. Confirm current dates, audience and individual implementation."
+    ],
+    [
+      "jeff-badu",
+      "carter-cofield",
+      "Compare the actual Badu Tax Services or Cofield Advisors contract for your business. Cofield’s reviewed team page also identifies Jeff Badu with tax operations; these public connections do not establish independent bidders or interchangeable services."
+    ],
+    [
+      "michel-valbrun",
+      "karlton-dennis",
+      "You discovered tax planning through public content and want a current engagement. Compare the actual advisor, record review, implementation, preparation and support, and verify current offers rather than using older marketing copy."
+    ],
+    [
+      "tiffany-phillips",
+      "karla-dennis",
+      "You want planning connected to business and personal filings. Compare written implementation assignments, bookkeeping needs, review cadence and complete ongoing fees."
+    ],
+    [
+      "megan-gorman",
+      "mitchell-baldridge",
+      "You have business wealth, investments and executive or family planning decisions. Separate tax advice from broader financial planning, investment management, property studies and other specialist projects."
+    ]
+  ],
+  "selection": "Five absent identities confirmed against the 24-creator inventory and existing compare routes. Official public role and offering sources; no search-volume ranking."
+}
