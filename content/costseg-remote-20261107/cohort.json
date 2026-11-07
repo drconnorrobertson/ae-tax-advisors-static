@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-07",
+  "marker": "costseg-remote-20261107",
+  "published": [
+    "virtual-cost-segregation",
+    "remote-cost-seg",
+    "segwize"
+  ],
+  "new_comparisons": 5,
+  "refreshed_pair_comparisons": 0,
+  "hub_routes": [
+    "/compare/",
+    "/compare/best-cost-segregation-companies/",
+    "/cost-segregation-study/",
+    "/cost-segregation-study-cost-pricing/",
+    "/real-estate-tax-planning/"
+  ],
+  "pairs": [
+    [
+      "virtual-cost-segregation",
+      "diy-cost-seg",
+      "virtual-cost-segregation-vs-diy-cost-seg",
+      "You own three furnished rentals acquired in different years. Compare remote evidence requirements and method-change work for each property.",
+      "Which services, professional review, implementation and ongoing support are included for the same records and deadline?"
+    ],
+    [
+      "diy-cost-seg",
+      "remote-cost-seg",
+      "diy-cost-seg-vs-remote-cost-seg",
+      "You have complete duplex records but need help assessing which entries require professional judgment. Compare the self-service and concierge scope.",
+      "Which services, professional review, implementation and ongoing support are included for the same records and deadline?"
+    ],
+    [
+      "remote-cost-seg",
+      "cost-segregation-initiatives",
+      "remote-cost-seg-vs-cost-segregation-initiatives",
+      "You own a renovated rental with several improvement phases. Ask how the engineer reconciles the original acquisition and later invoices.",
+      "Which services, professional review, implementation and ongoing support are included for the same records and deadline?"
+    ],
+    [
+      "cost-segregation-initiatives",
+      "segwize",
+      "cost-segregation-initiatives-vs-segwize",
+      "You own an owner-occupied commercial building with tenant improvements. Compare which costs and records the investigation covers.",
+      "Which services, professional review, implementation and ongoing support are included for the same records and deadline?"
+    ],
+    [
+      "segwize",
+      "virtual-cost-segregation",
+      "segwize-vs-virtual-cost-segregation",
+      "You own one short-term rental and want to compare a DIY report with an engineering engagement. Ask your accountant which evidence and review are needed.",
+      "Which services, professional review, implementation and ongoing support are included for the same records and deadline?"
+    ]
+  ],
+  "mode": "costseg"
+}

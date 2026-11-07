@@ -1,0 +1,252 @@
+{
+  "virtual-cost-segregation": {
+    "name": "Virtual Cost Segregation",
+    "sources": [
+      [
+        "https://virtualcostsegregation.com/",
+        "Virtual study pricing and report scope"
+      ]
+    ],
+    "summary": "Virtual Cost Segregation describes residential rental studies completed from photos and building records, with itemized assets and accountant-ready schedules.",
+    "fit": "Residential investors comparing remote engineering documentation and portfolio pricing.",
+    "alternative_intro": "Compare Virtual Cost Segregation alternatives using the property, study method and preparer workflow you need. AE Tax Advisors offers standalone cost segregation studies. The other firms below have overlapping property services, but their quotes may include different investigation, schedules and support. Request the same building and deliverables before comparing prices.",
+    "keep": "Keep Virtual Cost Segregation on your shortlist for a residential property with sufficient remote evidence. Discuss the report and accountant handoff before ordering.",
+    "boundary": "The advertised scope is residential investment property. Confirm eligibility for unusual buildings and the written support terms.",
+    "fee": "Virtual Cost Segregation publishes $2,200 per study and a 10% discount for three or more properties.",
+    "fee_context": "The homepage lists audit support under its terms and prior-year catch-up work. Confirm records, revisions and the actual property scope.",
+    "filing_answer": "The homepage offers Form 3115 on request and assigns filing to the client’s CPA. Confirm preparation, review and filing responsibilities in writing.",
+    "price_comparison": "AE publishes a square-foot study rate; compare the actual professional investigation and report scope before comparing totals. Price any additional specialty analysis, forms, filing or representation separately.",
+    "vs_intro": "Virtual Cost Segregation describes residential rental studies completed from photos and building records, with itemized assets and accountant-ready schedules. Compare that public service model with AE’s written proposal for the same property and report deliverables.",
+    "scenario": "You own three furnished rentals acquired in different years. Compare remote evidence requirements and method-change work for each property.",
+    "decision": "Choose using usable asset schedules, eligible preparation and the complete portfolio quote.",
+    "ae_question": "What investigation, schedules, CPA coordination and support does AE include for this property, and which tax implementation services require separate scope?",
+    "questions": [
+      "Which properties qualify?",
+      "What records support component values?",
+      "Who prepares and files Form 3115?",
+      "What does written audit support cover?"
+    ],
+    "cost_rows": [
+      [
+        "Property study",
+        "Identify buildings, improvements, inspection method and report schedules."
+      ],
+      [
+        "Records and analysis",
+        "Specify missing records, cost reconciliation and any added technical review."
+      ],
+      [
+        "Preparer handoff",
+        "Identify draft review, fixed-asset files and accountant question handling."
+      ],
+      [
+        "Separate tax work",
+        "Define any Form 3115 preparation, returns, amendments or representation."
+      ]
+    ],
+    "peers": [
+      "remote-cost-seg",
+      "diy-cost-seg"
+    ]
+  },
+  "diy-cost-seg": {
+    "name": "DIY Cost Seg",
+    "sources": [
+      [
+        "https://diycostseg.com/get-your-report/",
+        "DIY Cost Seg report and concierge menu"
+      ]
+    ],
+    "summary": "DIY Cost Seg lists residential reports, commercial reports and a separate concierge route, with additional correction and audit-support resources.",
+    "fit": "Owners deciding between entering report information themselves and requesting concierge assistance.",
+    "alternative_intro": "Compare DIY Cost Seg alternatives using the property, study method and preparer workflow you need. AE Tax Advisors offers standalone cost segregation studies. The other firms below have overlapping property services, but their quotes may include different investigation, schedules and support. Request the same building and deliverables before comparing prices.",
+    "keep": "Keep DIY Cost Seg on your shortlist when you want to evaluate a self-service report or concierge route. Ask for a sample output and the review scope.",
+    "boundary": "The report selection page does not establish every review or inspection inclusion. Confirm the chosen route and current checkout total.",
+    "fee": "Request the current report or concierge price from DIY Cost Seg. The reviewed report-selection page does not establish a universal completed-study fee.",
+    "fee_context": "Compare the selected residential, commercial or concierge scope, corrections and support. Do not use an unverified third-party starting price.",
+    "filing_answer": "Ask whether the selected report includes Form 3115 preparation, what professional review occurs and who files forms and returns.",
+    "price_comparison": "AE publishes a square-foot study rate; compare the actual professional investigation and report scope before comparing totals. Price any additional specialty analysis, forms, filing or representation separately.",
+    "vs_intro": "DIY Cost Seg lists residential reports, commercial reports and a separate concierge route, with additional correction and audit-support resources. Compare that public service model with AE’s written proposal for the same property and report deliverables.",
+    "scenario": "You have complete duplex records but need help assessing which entries require professional judgment. Compare the self-service and concierge scope.",
+    "decision": "Choose based on the property evidence, review and accountant acceptance of the deliverables.",
+    "ae_question": "What investigation, schedules, CPA coordination and support does AE include for this property, and which tax implementation services require separate scope?",
+    "questions": [
+      "Which report route fits my property?",
+      "Who reviews the inputs and classifications?",
+      "What do corrections and support cost?",
+      "Who prepares any method-change form?"
+    ],
+    "cost_rows": [
+      [
+        "Property study",
+        "Identify buildings, improvements, inspection method and report schedules."
+      ],
+      [
+        "Records and analysis",
+        "Specify missing records, cost reconciliation and any added technical review."
+      ],
+      [
+        "Preparer handoff",
+        "Identify draft review, fixed-asset files and accountant question handling."
+      ],
+      [
+        "Separate tax work",
+        "Define any Form 3115 preparation, returns, amendments or representation."
+      ]
+    ],
+    "peers": [
+      "segwize",
+      "virtual-cost-segregation"
+    ]
+  },
+  "remote-cost-seg": {
+    "name": "Remote Cost Seg",
+    "sources": [
+      [
+        "https://remotecostseg.com/residential-properties/",
+        "Residential study scope and starting price"
+      ]
+    ],
+    "summary": "Remote Cost Seg describes engineering-based residential studies, asset classification and supporting reports for the owner’s tax professional.",
+    "fit": "Residential owners seeking an engineered report with a property-specific proposal.",
+    "alternative_intro": "Compare Remote Cost Seg alternatives using the property, study method and preparer workflow you need. AE Tax Advisors offers standalone cost segregation studies. The other firms below have overlapping property services, but their quotes may include different investigation, schedules and support. Request the same building and deliverables before comparing prices.",
+    "keep": "Keep Remote Cost Seg on your shortlist when you need engineering analysis and a defined accountant handoff for a rental property.",
+    "boundary": "The residential starting price is not a universal commercial fee or a promise that every tax service is included.",
+    "fee": "Remote Cost Seg advertises residential studies starting at $2,500. The final quote depends on size, complexity, records and analysis scope.",
+    "fee_context": "The proposal governs property review, engineering analysis, asset identification, classification, documentation and delivery. Confirm inspection and support terms.",
+    "filing_answer": "The residential page describes working with your CPA. Confirm any Form 3115 preparation, final filing and return integration separately.",
+    "price_comparison": "AE publishes a square-foot study rate; compare the actual professional investigation and report scope before comparing totals. Price any additional specialty analysis, forms, filing or representation separately.",
+    "vs_intro": "Remote Cost Seg describes engineering-based residential studies, asset classification and supporting reports for the owner’s tax professional. Compare that public service model with AE’s written proposal for the same property and report deliverables.",
+    "scenario": "You own a renovated rental with several improvement phases. Ask how the engineer reconciles the original acquisition and later invoices.",
+    "decision": "Choose the proposal with an explicit investigation, report and accountant implementation plan.",
+    "ae_question": "What investigation, schedules, CPA coordination and support does AE include for this property, and which tax implementation services require separate scope?",
+    "questions": [
+      "What inspection fits this building?",
+      "How are later improvements reconciled?",
+      "What support reaches my CPA?",
+      "Which preparation and filing work is separate?"
+    ],
+    "cost_rows": [
+      [
+        "Property study",
+        "Identify buildings, improvements, inspection method and report schedules."
+      ],
+      [
+        "Records and analysis",
+        "Specify missing records, cost reconciliation and any added technical review."
+      ],
+      [
+        "Preparer handoff",
+        "Identify draft review, fixed-asset files and accountant question handling."
+      ],
+      [
+        "Separate tax work",
+        "Define any Form 3115 preparation, returns, amendments or representation."
+      ]
+    ],
+    "peers": [
+      "virtual-cost-segregation",
+      "cost-segregation-initiatives"
+    ]
+  },
+  "cost-segregation-initiatives": {
+    "name": "Cost Segregation Initiatives",
+    "sources": [
+      [
+        "https://costseganalysts.com/",
+        "Cost Segregation Initiatives commercial study services"
+      ]
+    ],
+    "summary": "Cost Segregation Initiatives describes commercial property studies for developers, investors, owner users and financiers.",
+    "fit": "Commercial owners comparing a specialty property study engagement.",
+    "alternative_intro": "Compare Cost Segregation Initiatives alternatives using the property, study method and preparer workflow you need. AE Tax Advisors offers standalone cost segregation studies. The other firms below have overlapping property services, but their quotes may include different investigation, schedules and support. Request the same building and deliverables before comparing prices.",
+    "keep": "Keep Cost Segregation Initiatives on your shortlist when evaluating commercial component analysis and the professional team for your building.",
+    "boundary": "Confirm the engagement identity, investigation, supporting schedules and support contract. General experience claims do not establish your project’s result.",
+    "fee": "Request a property-specific Cost Segregation Initiatives quote. Its reviewed homepage does not establish a universal fixed study fee.",
+    "fee_context": "Give bidders the same building, records and deadlines. Identify inspection, report detail, accountant questions and separately priced services.",
+    "filing_answer": "Confirm who prepares any Form 3115, reconciles existing schedules and files the completed tax return.",
+    "price_comparison": "AE publishes a square-foot study rate; compare the actual professional investigation and report scope before comparing totals. Price any additional specialty analysis, forms, filing or representation separately.",
+    "vs_intro": "Cost Segregation Initiatives describes commercial property studies for developers, investors, owner users and financiers. Compare that public service model with AE’s written proposal for the same property and report deliverables.",
+    "scenario": "You own an owner-occupied commercial building with tenant improvements. Compare which costs and records the investigation covers.",
+    "decision": "Choose the engagement with a documented component analysis and assigned accountant handoff.",
+    "ae_question": "What investigation, schedules, CPA coordination and support does AE include for this property, and which tax implementation services require separate scope?",
+    "questions": [
+      "Which building costs are investigated?",
+      "What records and inspection are required?",
+      "Which schedules will my accountant receive?",
+      "Who handles preparation and filing?"
+    ],
+    "cost_rows": [
+      [
+        "Property study",
+        "Identify buildings, improvements, inspection method and report schedules."
+      ],
+      [
+        "Records and analysis",
+        "Specify missing records, cost reconciliation and any added technical review."
+      ],
+      [
+        "Preparer handoff",
+        "Identify draft review, fixed-asset files and accountant question handling."
+      ],
+      [
+        "Separate tax work",
+        "Define any Form 3115 preparation, returns, amendments or representation."
+      ]
+    ],
+    "peers": [
+      "remote-cost-seg",
+      "virtual-cost-segregation"
+    ]
+  },
+  "segwize": {
+    "name": "SegWize",
+    "sources": [
+      [
+        "https://segwize.com/faq",
+        "SegWize DIY report FAQ and advertised fee"
+      ]
+    ],
+    "summary": "SegWize’s FAQ describes DIY cost segregation for short-term rental hosts and small landlords.",
+    "fit": "Small rental owners assessing a DIY report against a professionally scoped study.",
+    "alternative_intro": "Compare SegWize alternatives using the property, study method and preparer workflow you need. AE Tax Advisors offers standalone cost segregation studies. The other firms below have overlapping property services, but their quotes may include different investigation, schedules and support. Request the same building and deliverables before comparing prices.",
+    "keep": "Keep SegWize on your shortlist when a DIY workflow fits the property and you can confirm the evidence and review your preparer requires.",
+    "boundary": "The FAQ’s advertised turnaround is a marketing statement, not an independently verified delivery commitment. Confirm current report, review and support terms.",
+    "fee": "SegWize’s FAQ advertises a $550 flat fee for its DIY cost segregation offering.",
+    "fee_context": "The public FAQ summary does not establish all inspection, professional review, support or preparation inclusions. Verify the complete purchased scope.",
+    "filing_answer": "Ask whether Form 3115 preparation is included or available separately and who reviews, signs and files any form. A DIY report alone does not establish a filing engagement.",
+    "price_comparison": "AE publishes a square-foot study rate; compare the actual professional investigation and report scope before comparing totals. Price any additional specialty analysis, forms, filing or representation separately.",
+    "vs_intro": "SegWize’s FAQ describes DIY cost segregation for short-term rental hosts and small landlords. Compare that public service model with AE’s written proposal for the same property and report deliverables.",
+    "scenario": "You own one short-term rental and want to compare a DIY report with an engineering engagement. Ask your accountant which evidence and review are needed.",
+    "decision": "Choose based on documented asset support and preparer requirements, not the advertised price or speed alone.",
+    "ae_question": "What investigation, schedules, CPA coordination and support does AE include for this property, and which tax implementation services require separate scope?",
+    "questions": [
+      "Does the report fit this property?",
+      "Who reviews component classifications?",
+      "What does audit support include?",
+      "Is Form 3115 preparation separate?"
+    ],
+    "cost_rows": [
+      [
+        "Property study",
+        "Identify buildings, improvements, inspection method and report schedules."
+      ],
+      [
+        "Records and analysis",
+        "Specify missing records, cost reconciliation and any added technical review."
+      ],
+      [
+        "Preparer handoff",
+        "Identify draft review, fixed-asset files and accountant question handling."
+      ],
+      [
+        "Separate tax work",
+        "Define any Form 3115 preparation, returns, amendments or representation."
+      ]
+    ],
+    "peers": [
+      "diy-cost-seg",
+      "remote-cost-seg"
+    ]
+  }
+}
