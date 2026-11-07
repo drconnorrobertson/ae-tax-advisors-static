@@ -1,0 +1,54 @@
+{
+  "mode": "costseg",
+  "date": "2026-11-07",
+  "marker": "costseg-expansion-discovery",
+  "published": [
+    "seneca-cost-segregation"
+  ],
+  "new_comparisons": 5,
+  "refreshed_pair_comparisons": 0,
+  "hub_routes": [
+    "/compare/",
+    "/compare/best-cost-segregation-companies/",
+    "/cost-segregation-study/",
+    "/cost-segregation-study-cost-pricing/",
+    "/real-estate-tax-planning/"
+  ],
+  "pairs": [
+    [
+      "source-advisors",
+      "elb-consulting",
+      "source-advisors-vs-elb-consulting",
+      "You need a study for a commercial building and may also need construction or fixed-asset analysis. Price the engineering study and each additional project separately.",
+      "What investigation, supporting records, final schedules, accountant coordination and separately priced preparation does the quote cover for this exact property?"
+    ],
+    [
+      "source-advisors",
+      "seneca-cost-segregation",
+      "source-advisors-vs-seneca-cost-segregation",
+      "You own several rentals and want your existing CPA to implement the reports. Compare property investigation, records reconciliation, accountant coordination and support.",
+      "What investigation, supporting records, final schedules, accountant coordination and separately priced preparation does the quote cover for this exact property?"
+    ],
+    [
+      "elb-consulting",
+      "cost-recovery-usa",
+      "elb-consulting-vs-cost-recovery-usa",
+      "You bought an industrial property with later improvements. Compare the property study and separately scoped construction or tangible-property analysis using the same records.",
+      "What investigation, supporting records, final schedules, accountant coordination and separately priced preparation does the quote cover for this exact property?"
+    ],
+    [
+      "segregation-holding",
+      "source-advisors",
+      "segregation-holding-vs-source-advisors",
+      "You need an on-site commercial study and want to evaluate post-delivery support. Compare investigation, report schedules, follow-up terms and accountant handoff in writing.",
+      "What investigation, supporting records, final schedules, accountant coordination and separately priced preparation does the quote cover for this exact property?"
+    ],
+    [
+      "seneca-cost-segregation",
+      "cost-recovery-usa",
+      "seneca-cost-segregation-vs-cost-recovery-usa",
+      "You are choosing an engineering study for a rental with prior-year depreciation and improvements. Compare the property-specific quote, inspection and method-change responsibilities.",
+      "What investigation, supporting records, final schedules, accountant coordination and separately priced preparation does the quote cover for this exact property?"
+    ]
+  ]
+}

@@ -2129,6 +2129,101 @@
       "additionalSources": [
         "https://taxhive.com/services/strategic-tax-planning/"
       ]
+    },
+    {
+      "slug": "source-advisors",
+      "name": "Source Advisors",
+      "path": "/compare/source-advisors-pricing/",
+      "category": "costseg",
+      "source": "https://sourceadvisors.com/cost-segregation/",
+      "fee": "Request a property-specific Source Advisors proposal. The reviewed cost segregation service page offers proposals and estimates but does not establish a universal fixed study fee.",
+      "qualification": "A preliminary benefit estimate is different from the professional fee. Specify the property investigation, building records, report, accountant handoff and support. Additional fixed-asset or form-preparation services need explicit scope.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "Source Advisors pricing",
+        "Source Advisors fees"
+      ],
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": [
+        "https://sourceadvisors.com/cpa/form-preparation-services/",
+        "https://sourceadvisors.com/news/source-advisors-grows-cost-segregation-and-energy-solution-divisions-with-recent-merger/"
+      ]
+    },
+    {
+      "slug": "elb-consulting",
+      "name": "ELB Consulting",
+      "path": "/compare/elb-consulting-pricing/",
+      "category": "costseg",
+      "source": "https://elbcostseg.com/",
+      "fee": "Request a property-specific ELB Consulting quote. Its official website invites a free proposal; the reviewed homepage and proposal form do not establish a universal fixed study fee.",
+      "qualification": "The proposal form requests acquisition or in-service timing, purchase or construction cost, land value, building type and square footage. Supply matching facts to other bidders and separate the engineering fee from additional specialty work.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "ELB Consulting pricing",
+        "ELB Consulting fees"
+      ],
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": [
+        "https://elbcostseg.com/get-a-quote/"
+      ]
+    },
+    {
+      "slug": "seneca-cost-segregation",
+      "name": "Seneca Cost Segregation",
+      "path": "/compare/seneca-cost-segregation-pricing/",
+      "category": "costseg",
+      "source": "https://www.senecacostseg.com/",
+      "fee": "Seneca’s Georgia guide lists typical residential study fees of $3,000–$5,000, standard commercial $5,000–$15,000, and complex commercial $10,000–$20,000+. Other regional pages show different ranges; request a current property-specific quote.",
+      "qualification": "These are provider-published regional guidelines, not a binding national rate card. Property type, size, tenants, available documentation and inspection method affect the quote. Confirm support and separately scoped tax preparation.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "Seneca Cost Segregation pricing",
+        "Seneca Cost Segregation fees"
+      ],
+      "kind": "published",
+      "status": "Published program fees — confirm scope",
+      "additionalSources": [
+        "https://www.senecacostseg.com/cost-segregation-georgia/",
+        "https://www.senecacostseg.com/feeds/service/cost-segregation-study-mo"
+      ]
+    },
+    {
+      "slug": "segregation-holding",
+      "name": "Segregation Holding",
+      "path": "/compare/segregation-holding-pricing/",
+      "category": "costseg",
+      "source": "https://segregationholding.com/",
+      "fee": "Request a property-specific Segregation Holding quote. The reviewed homepage offers a free preliminary property analysis and cost-benefit report, but does not establish a universal fixed study fee.",
+      "qualification": "The website labels the free preliminary analysis as a $495 value. That is not a published fee for a completed study. Obtain the actual study quote and identify inspection, CPA coordination, follow-up services and support terms.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "Segregation Holding pricing",
+        "Segregation Holding fees"
+      ],
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": []
+    },
+    {
+      "slug": "cost-recovery-usa",
+      "name": "Cost Recovery USA (CostSegUSA)",
+      "path": "/compare/cost-recovery-usa-pricing/",
+      "category": "costseg",
+      "source": "https://www.costsegusa.com/",
+      "fee": "Request a property-specific Cost Recovery USA quote. The reviewed official homepage and property-type information page do not establish a universal fixed study fee.",
+      "qualification": "Have the proposal distinguish the property study from tangible-property regulation analysis, disposition work, R&D projects and any tax preparation. Provide the same building, records and deadline to each bidder.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "Cost Recovery USA (CostSegUSA) pricing",
+        "Cost Recovery USA (CostSegUSA) fees"
+      ],
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": [
+        "https://www.costsegusa.com/cost-seg/cost-segregation-study/cost-segregation-info/"
+      ]
     }
   ],
   "cohortReviewed": {
@@ -2161,6 +2256,11 @@
     "costseg-express": "2026-11-07",
     "costsegrx": "2026-11-07",
     "costsegregation-com": "2026-11-07",
-    "ics-tax": "2026-11-07"
+    "ics-tax": "2026-11-07",
+    "source-advisors": "2026-11-07",
+    "elb-consulting": "2026-11-07",
+    "seneca-cost-segregation": "2026-11-07",
+    "segregation-holding": "2026-11-07",
+    "cost-recovery-usa": "2026-11-07"
   }
 }

@@ -19,8 +19,11 @@ class Page(HTMLParser):
   if tag=='meta' and a.get('http-equiv','').lower()=='refresh':self.redirect=True
 manifest=json.loads((REPO/'content/provider-page-ownership-20261024.json').read_text())
 providers=manifest['providers'];errors=[];urls=set();titles={}
-assert len(providers)==100
-assert len({r['slug'] for r in providers})==100
+baseline=manifest.get('baseline_provider_slugs', [r['slug'] for r in providers])
+assert len(baseline)==100 and 'tax-hive' in baseline
+assert set(baseline)<=set(r['slug'] for r in providers)
+assert len(providers)==manifest['provider_count'] and len(providers)>=100
+assert len({r['slug'] for r in providers})==len(providers)
 assert not EXCLUDED.search(json.dumps(manifest))
 for folder in ('content','_gen'):
  for f in (REPO/folder).rglob('*'):
@@ -48,10 +51,10 @@ for r in providers:
   title=re.search(r'<title>(.*?)</title>',text,re.S)[1]
   if title in titles:errors.append(url+': duplicate title with '+titles[title])
   titles[title]=url
-assert len(urls)==300
+assert len(urls)==manifest['page_count']==3*len(providers)
 price_data=json.loads((ROOT/'compare/competitor-pricing/prices.json').read_text())
-assert len(price_data['providers'])==100
+assert len(price_data['providers'])==len(providers)
 assert {r['slug'] for r in price_data['providers']}=={r['slug'] for r in providers}
 assert not EXCLUDED.search(json.dumps(price_data))
 assert not errors,'\n'.join(errors)
-print('PASS: 100 providers, 300 distinct self-canonical indexable pages, official sources, reciprocal links, unique titles, JSON-LD, sitemaps, and exclusion policy.')
+print(f'PASS: {len(providers)} providers, {len(urls)} distinct self-canonical indexable pages, official sources, reciprocal links, unique titles, JSON-LD, sitemaps, and exclusion policy.')
