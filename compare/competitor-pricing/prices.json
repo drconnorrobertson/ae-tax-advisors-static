@@ -2489,6 +2489,95 @@
       "kind": "quote",
       "status": "Current quote required",
       "additionalSources": []
+    },
+    {
+      "slug": "armanino",
+      "name": "Armanino",
+      "path": "/compare/armanino-pricing/",
+      "category": "national",
+      "source": "https://www.armanino.com/services/tax-accounting/",
+      "fee": "Request a current Armanino proposal. The official service pages reviewed do not establish a universal fixed fee for an individual or business tax engagement.",
+      "qualification": "Identify each taxpayer, return, planning deliverable and implementation task. Separate specialty consulting, accounting, filing, amendments and future support in the total.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "Armanino pricing",
+        "Armanino fees"
+      ],
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": [
+        "https://www.armanino.com/services/tax-accounting/business-tax/"
+      ]
+    },
+    {
+      "slug": "eide-bailly",
+      "name": "Eide Bailly",
+      "path": "/compare/eide-bailly-pricing/",
+      "category": "national",
+      "source": "https://www.eidebailly.com/services/tax/tax-consulting-and-planning",
+      "fee": "Request a current Eide Bailly proposal. The official service pages reviewed do not establish a universal fixed fee for an individual or business tax engagement.",
+      "qualification": "Identify each taxpayer, return, planning deliverable and implementation task. Separate specialty consulting, accounting, filing, amendments and future support in the total.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "Eide Bailly pricing",
+        "Eide Bailly fees"
+      ],
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": []
+    },
+    {
+      "slug": "sikich",
+      "name": "Sikich",
+      "path": "/compare/sikich-pricing/",
+      "category": "national",
+      "source": "https://www.sikich.com/accounting-audit-tax-consulting/tax-services/",
+      "fee": "Request a current Sikich proposal. The official service pages reviewed do not establish a universal fixed fee for an individual or business tax engagement.",
+      "qualification": "Identify each taxpayer, return, planning deliverable and implementation task. Separate specialty consulting, accounting, filing, amendments and future support in the total.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "Sikich pricing",
+        "Sikich fees"
+      ],
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": []
+    },
+    {
+      "slug": "doeren-mayhew",
+      "name": "Doeren Mayhew",
+      "path": "/compare/doeren-mayhew-pricing/",
+      "category": "national",
+      "source": "https://www.doeren.com/tax-compliance-planning-services",
+      "fee": "Request a current Doeren Mayhew proposal. The official service pages reviewed do not establish a universal fixed fee for an individual or business tax engagement.",
+      "qualification": "Identify each taxpayer, return, planning deliverable and implementation task. Separate specialty consulting, accounting, filing, amendments and future support in the total.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "Doeren Mayhew pricing",
+        "Doeren Mayhew fees"
+      ],
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": [
+        "https://www.doeren.com/services/tax/individual-tax"
+      ]
+    },
+    {
+      "slug": "rehmann",
+      "name": "Rehmann",
+      "path": "/compare/rehmann-pricing/",
+      "category": "national",
+      "source": "https://www.rehmann.com/solutions/tax/",
+      "fee": "Request a current Rehmann proposal. The official service pages reviewed do not establish a universal fixed fee for an individual or business tax engagement.",
+      "qualification": "Identify each taxpayer, return, planning deliverable and implementation task. Separate specialty consulting, accounting, filing, amendments and future support in the total.",
+      "reviewed": "2026-11-07",
+      "keywords": [
+        "Rehmann pricing",
+        "Rehmann fees"
+      ],
+      "kind": "quote",
+      "status": "Current quote required",
+      "additionalSources": []
     }
   ],
   "cohortReviewed": {
@@ -2541,6 +2630,11 @@
     "withum": "2026-11-07",
     "cohnreznick": "2026-11-07",
     "plante-moran": "2026-11-07",
-    "cliftonlarsonallen": "2026-11-07"
+    "cliftonlarsonallen": "2026-11-07",
+    "armanino": "2026-11-07",
+    "eide-bailly": "2026-11-07",
+    "sikich": "2026-11-07",
+    "doeren-mayhew": "2026-11-07",
+    "rehmann": "2026-11-07"
   }
 }

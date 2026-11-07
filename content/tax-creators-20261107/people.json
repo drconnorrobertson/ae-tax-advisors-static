@@ -1,0 +1,550 @@
+{
+  "reviewed": "2026-11-07",
+  "people": [
+    {
+      "slug": "mark-j-kohler",
+      "name": "Mark J. Kohler",
+      "brand": "KKOS Lawyers and Main Street education",
+      "group": "business",
+      "sources": [
+        [
+          "https://markjkohler.com/about",
+          "Mark J. Kohler biography and service links"
+        ]
+      ],
+      "profile": "Mark J. Kohler’s official site links tax and legal planning, business education, an advisor network and retirement-account resources.",
+      "offering": "Compare the legal engagement, education product and referred advisor as separate purchases.",
+      "scenario": "You need an entity plan and legal documents as well as tax advice. Identify who drafts documents and who prepares the affected returns; a class or referral is not the same engagement.",
+      "questions": [
+        "Is this legal advice, education or an advisor referral?",
+        "Who will provide the individual tax plan?",
+        "Are document drafting and implementation included?",
+        "Who prepares returns and what costs recur?"
+      ],
+      "firm": null,
+      "boundary": "The site lists several affiliated offerings. Confirm the actual contracting entity and whether Mark personally performs any contracted work.",
+      "alternative": "/compare/mark-j-kohler-alternatives/",
+      "comparison": "/compare/mark-kohler-vs-ae-tax/",
+      "review": "/compare/mark-j-kohler-reviews/"
+    },
+    {
+      "slug": "tom-wheelwright",
+      "name": "Tom Wheelwright",
+      "brand": "WealthAbility and TFW Advisors referral",
+      "group": "education",
+      "sources": [
+        [
+          "https://www.wealthability.com/tom/",
+          "Tom Wheelwright biography and educational work"
+        ],
+        [
+          "https://www.wealthability.com/advisor/",
+          "WealthAbility education and TFW Advisors referral"
+        ]
+      ],
+      "profile": "Tom Wheelwright’s WealthAbility site provides tax and wealth education and directs people seeking an advisor to TFW Advisors.",
+      "offering": "Distinguish a book, event or educational program from a separately contracted advisor relationship.",
+      "scenario": "You read Tax-Free Wealth and now need a written plan for your own entities. Ask which advisor will review your returns, implement elections and coordinate filing rather than assuming a resource-library subscription covers that work.",
+      "questions": [
+        "Which advisor and entity contract with me?",
+        "Is the purchase education or individualized advice?",
+        "Who implements the recommendations and files returns?",
+        "What continuing access and renewal terms apply?"
+      ],
+      "firm": null,
+      "boundary": "WealthAbility states that it provides educational resources rather than tax, legal or accounting advice. Its advisor page refers clients to TFW Advisors; confirm that separate engagement.",
+      "alternative": "/compare/tom-wheelwright-alternatives/",
+      "comparison": "/compare/tom-wheelwright-vs-ae-tax/",
+      "review": "/compare/tom-wheelwright-reviews/"
+    },
+    {
+      "slug": "karlton-dennis",
+      "name": "Karlton Dennis",
+      "brand": "Tax Alchemy",
+      "group": "real-estate",
+      "sources": [
+        [
+          "https://karltondennis.com/",
+          "Karlton Dennis official site and Tax Alchemy links"
+        ]
+      ],
+      "profile": "Karlton Dennis’s site teaches tax strategy for business owners and real estate investors and links client inquiries to Tax Alchemy.",
+      "offering": "Distinguish free classes and the STR ebook from a Tax Alchemy advisory proposal.",
+      "scenario": "You saw an STR tax video and want an actual loss-offset analysis. Ask who checks customer stays, participation, financing and the return implementation before paying for a planning engagement.",
+      "questions": [
+        "Does the engagement include a taxpayer-specific loss model?",
+        "Who checks participation and at-risk limits?",
+        "Who implements elections and prepares returns?",
+        "Which support, study or filing work is extra?"
+      ],
+      "firm": "tax-alchemy",
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/karlton-dennis-alternatives/",
+      "comparison": "/compare/karlton-dennis-vs-ae-tax/",
+      "review": "/compare/karlton-dennis-reviews/"
+    },
+    {
+      "slug": "jasmine-dilucci",
+      "name": "Jasmine DiLucci",
+      "brand": "DiLucci CPA Firm",
+      "group": "business",
+      "sources": [
+        [
+          "https://dilucci.com/our-team/",
+          "Jasmine DiLucci team biography and role"
+        ]
+      ],
+      "profile": "DiLucci CPA Firm’s team page describes Jasmine DiLucci’s work across tax planning, accounting and tax resolution.",
+      "offering": "Identify whether you need a forward-looking plan, ongoing books and compliance, or help with an existing IRS matter.",
+      "scenario": "You have profitable business income and an unresolved notice. Compare separate planning and resolution scopes, deadlines and representation assignments rather than assuming one fee covers both.",
+      "questions": [
+        "Does this proposal address planning, compliance or resolution?",
+        "Who is assigned to any notice or representation matter?",
+        "What records and deadlines are prerequisites?",
+        "Which implementation and return work is separately priced?"
+      ],
+      "firm": "jasmine-dilucci",
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/jasmine-dilucci-alternatives/",
+      "comparison": "/compare/jasmine-dilucci-vs-ae-tax/",
+      "review": "/compare/jasmine-dilucci-reviews/"
+    },
+    {
+      "slug": "amanda-han",
+      "name": "Amanda Han",
+      "brand": "Keystone CPA",
+      "group": "real-estate",
+      "sources": [
+        [
+          "https://www.keystonecpa.com/About-Us",
+          "Amanda Han and Matthew MacFarland biographies"
+        ],
+        [
+          "https://www.keystonecpa.com/",
+          "Keystone CPA client and service scope"
+        ]
+      ],
+      "profile": "Keystone CPA identifies Amanda Han as a managing director and describes planning for property investors, business owners and high-income earners.",
+      "offering": "Compare the firm’s custom planning engagement with educational resources and separately scoped tax preparation.",
+      "scenario": "You own rentals alongside wage income and want to assess a new acquisition. Ask who models usable losses and reviews participation and owner-level limits using your actual records.",
+      "questions": [
+        "Who reviews my portfolio and loss limitations?",
+        "Is return preparation included or separate?",
+        "What recommendations are implemented by the team?",
+        "What founder access and support period are contracted?"
+      ],
+      "firm": "keystone-cpa",
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/amanda-han-alternatives/",
+      "comparison": "/compare/amanda-han-vs-ae-tax/",
+      "review": "/compare/amanda-han-reviews/"
+    },
+    {
+      "slug": "matt-macfarland",
+      "name": "Matt MacFarland",
+      "brand": "Keystone CPA",
+      "group": "real-estate",
+      "sources": [
+        [
+          "https://www.keystonecpa.com/About-Us",
+          "Matthew MacFarland biography"
+        ],
+        [
+          "https://www.keystonecpa.com/Books-Podcasts",
+          "Keystone books, podcasts and educational work"
+        ]
+      ],
+      "profile": "Keystone CPA identifies Matthew MacFarland as a managing director with real estate and high-net-worth tax planning experience.",
+      "offering": "Confirm the firm engagement and assigned team; a podcast appearance or coauthored book does not establish personal advisor access.",
+      "scenario": "You hold rental properties through several entities and need acquisition and owner-return planning. Request an entity-by-entity implementation calendar and preparation scope.",
+      "questions": [
+        "Which entities and owner returns are covered?",
+        "Who implements the entity and property recommendations?",
+        "Does the proposal include preparation or a separate fee?",
+        "What direct advisor access is in the agreement?"
+      ],
+      "firm": "keystone-cpa",
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/matt-macfarland-alternatives/",
+      "comparison": "/compare/matt-macfarland-vs-ae-tax/",
+      "review": "/compare/matt-macfarland-reviews/"
+    },
+    {
+      "slug": "brandon-hall",
+      "name": "Brandon Hall",
+      "brand": "Hall CPA / The Real Estate CPA",
+      "group": "real-estate",
+      "sources": [
+        [
+          "https://www.therealestatecpa.com/brandon-hall-cpa/",
+          "Brandon Hall founder biography"
+        ],
+        [
+          "https://www.therealestatecpa.com/company-profile/",
+          "Hall CPA services and client types"
+        ]
+      ],
+      "profile": "Hall CPA identifies Brandon Hall as founder and CEO and describes tax, accounting and property-study services for real estate and business clients.",
+      "offering": "Compare advisory, tax preparation, accounting and study engagements as separate scopes.",
+      "scenario": "You are moving from a few rentals into a syndication. Compare partner reporting, entity accounting and owner-level planning, and ask who coordinates K-1 deadlines.",
+      "questions": [
+        "Which investor and partnership returns are included?",
+        "Who coordinates the books and K-1 calendar?",
+        "Are property studies and advisory separately scoped?",
+        "Which professionals review the final implementation?"
+      ],
+      "firm": "hall-cpa",
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/brandon-hall-alternatives/",
+      "comparison": "/compare/brandon-hall-vs-ae-tax/",
+      "review": "/compare/brandon-hall-reviews/"
+    },
+    {
+      "slug": "toby-mathis",
+      "name": "Toby Mathis",
+      "brand": "Anderson Business Advisors",
+      "group": "real-estate",
+      "sources": [
+        [
+          "https://andersonadvisors.com/tobymathis-2/",
+          "Toby Mathis founder biography and education"
+        ]
+      ],
+      "profile": "Anderson Business Advisors identifies Toby Mathis as a founder and attorney and publishes tax and asset-protection education.",
+      "offering": "Distinguish workshops, legal or entity work, tax planning and return preparation in the proposal.",
+      "scenario": "You want entity protection for rentals and a tax plan for business income. Ask which documents are drafted, which tax decisions are analyzed and which professionals handle annual filings.",
+      "questions": [
+        "Is this workshop access or a client engagement?",
+        "Who drafts and maintains the entities?",
+        "Which tax planning and filing services are included?",
+        "What membership and future-service charges apply?"
+      ],
+      "firm": "anderson-advisors",
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/toby-mathis-alternatives/",
+      "comparison": "/compare/toby-mathis-vs-ae-tax/",
+      "review": "/compare/toby-mathis-reviews/"
+    },
+    {
+      "slug": "john-briggs",
+      "name": "John Briggs",
+      "brand": "Incite Tax",
+      "group": "business",
+      "sources": [
+        [
+          "https://incitetax.com/",
+          "John Briggs founder message and service menu"
+        ],
+        [
+          "https://incitetax.com/profit-first/",
+          "Profit First cash-management service"
+        ]
+      ],
+      "profile": "Incite Tax identifies John Briggs as founder and lists tax, bookkeeping, CFO, resolution and Profit First services.",
+      "offering": "Cash-management work, books, tax strategy and filings need defined deliverables even when purchased together.",
+      "scenario": "Your gym has rising revenue but little cash left after expenses. Compare tax planning with cash-allocation coaching and ongoing bookkeeping before selecting the package.",
+      "questions": [
+        "Does the scope include cash-allocation coaching?",
+        "Who maintains and reviews the books?",
+        "Are planning, returns and resolution separate?",
+        "What recurring meetings and charges are required?"
+      ],
+      "firm": "incite-tax",
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/john-briggs-alternatives/",
+      "comparison": "/compare/john-briggs-vs-ae-tax/",
+      "review": "/compare/john-briggs-reviews/"
+    },
+    {
+      "slug": "carter-cofield",
+      "name": "Carter Cofield",
+      "brand": "Cofield Advisors",
+      "group": "creative",
+      "sources": [
+        [
+          "https://www.cofieldadvisors.com/aboutus",
+          "Carter Cofield role and creative-business service team"
+        ]
+      ],
+      "profile": "Cofield Advisors identifies Carter Cofield as owner and lead advisor and describes financial, business and tax support for creative entrepreneurs.",
+      "offering": "Ask how tax preparation, planning, bookkeeping and entity work are assigned across the team.",
+      "scenario": "You receive brand sponsorships and entertainment income through more than one entity. Compare the bookkeeping, owner-pay and tax work needed for those revenue sources.",
+      "questions": [
+        "Who reconciles brand and platform revenue?",
+        "Which tax and bookkeeping tasks are included?",
+        "Who handles formation and continuing entity work?",
+        "What service cadence and complete fee are proposed?"
+      ],
+      "firm": null,
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/carter-cofield-alternatives/",
+      "comparison": "/compare/carter-cofield-vs-ae-tax/",
+      "review": "/compare/carter-cofield-reviews/"
+    },
+    {
+      "slug": "duke-alexander-moore",
+      "name": "Duke Alexander Moore",
+      "brand": "Duke Tax / Duke Loves Taxes",
+      "group": "creative",
+      "sources": [
+        [
+          "https://duke.tax/blog/author/duke",
+          "Duke Alexander Moore creator biography"
+        ],
+        [
+          "https://duke.tax/",
+          "Duke Tax advisory and bookkeeping membership scope"
+        ]
+      ],
+      "profile": "Duke Tax identifies Duke Alexander Moore as its CEO and a content creator and focuses its services on creators and entrepreneurs.",
+      "offering": "The site distinguishes advisory access by membership tier; confirm the tier, books, preparation and consultation inclusions.",
+      "scenario": "You are a full-time creator with platform income, sponsorships and an assistant. Ask which membership handles books, planning, payroll coordination and returns.",
+      "questions": [
+        "Which tier includes individualized advisory?",
+        "What platform and sponsorship records are needed?",
+        "Are returns and payroll coordination included?",
+        "What are the current tier fee and renewal terms?"
+      ],
+      "firm": null,
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/duke-alexander-moore-alternatives/",
+      "comparison": "/compare/duke-alexander-moore-vs-ae-tax/",
+      "review": "/compare/duke-alexander-moore-reviews/"
+    },
+    {
+      "slug": "sheneya-wilson",
+      "name": "Sheneya Wilson",
+      "brand": "Fola Financial / The People’s CPA",
+      "group": "creative",
+      "sources": [
+        [
+          "https://thepeoplescpa.me/about/",
+          "Sheneya Wilson educational and founder biography"
+        ],
+        [
+          "https://folafinancial.com/about/",
+          "Fola Financial founder and service scope"
+        ]
+      ],
+      "profile": "Fola Financial identifies Sheneya Wilson as founder and CEO and describes planning, preparation, accounting and financial education.",
+      "offering": "Education, consultation, entity filing and ongoing accounting are distinct purchases to confirm.",
+      "scenario": "You are a creative entrepreneur adding a new business line. Compare the planning consultation with the recurring accounting and filing support needed after launch.",
+      "questions": [
+        "Is this an education product or client service?",
+        "Which entities and filings are covered?",
+        "Who implements the new-business recommendations?",
+        "What support continues after the consultation?"
+      ],
+      "firm": null,
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/sheneya-wilson-alternatives/",
+      "comparison": "/compare/sheneya-wilson-vs-ae-tax/",
+      "review": "/compare/sheneya-wilson-reviews/"
+    },
+    {
+      "slug": "amy-northard",
+      "name": "Amy Northard",
+      "brand": "The Accountants for Creatives",
+      "group": "creative",
+      "sources": [
+        [
+          "https://amynorthardcpa.com/about/",
+          "Amy Northard founder biography"
+        ],
+        [
+          "https://amynorthardcpa.com/",
+          "Creative-business tax, bookkeeping and CFO services"
+        ]
+      ],
+      "profile": "Amy Northard’s firm describes tax planning, preparation, bookkeeping and fractional CFO services for creative businesses.",
+      "offering": "Compare a recurring accounting relationship with a specific planning engagement and separately identified CFO work.",
+      "scenario": "Your design studio has irregular project revenue and subcontractors. Ask how the books, estimated tax projections and cash-flow planning connect throughout the year.",
+      "questions": [
+        "Who maintains the books between filing seasons?",
+        "Does the scope include estimated tax projections?",
+        "Which CFO and planning work is separate?",
+        "What deadlines and records does the team require?"
+      ],
+      "firm": null,
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/amy-northard-alternatives/",
+      "comparison": "/compare/amy-northard-vs-ae-tax/",
+      "review": "/compare/amy-northard-reviews/"
+    },
+    {
+      "slug": "logan-allec",
+      "name": "Logan Allec",
+      "brand": "Choice Tax Relief",
+      "group": "tax-debt",
+      "sources": [
+        [
+          "https://loganallec.com/about/",
+          "Logan Allec founder biography and educational channel"
+        ],
+        [
+          "https://www.choicetaxrelief.com/",
+          "Choice Tax Relief representation and compliance services"
+        ]
+      ],
+      "profile": "Logan Allec’s official site identifies him as Choice Tax Relief’s founder; the firm lists tax-debt resolution and related filing services.",
+      "offering": "Tax-debt representation needs a different scope from forward-looking business-owner planning.",
+      "scenario": "You have unfiled returns and a collection notice. Prioritize deadlines, representation and missing filings before comparing a future tax-planning project.",
+      "questions": [
+        "Who represents me and monitors collection deadlines?",
+        "Which missing returns are included?",
+        "What financial analysis supports the proposed resolution?",
+        "What are the representation fee and exclusions?"
+      ],
+      "firm": null,
+      "boundary": "Choice Tax Relief’s resolution services are not interchangeable with AE’s standard advisory engagement. Confirm AE accepts the specific representation scope before treating it as an alternative.",
+      "alternative": "/compare/logan-allec-alternatives/",
+      "comparison": "/compare/logan-allec-vs-ae-tax/",
+      "review": "/compare/logan-allec-reviews/"
+    },
+    {
+      "slug": "brian-kim",
+      "name": "Brian Kim",
+      "brand": "ClearValue Tax education",
+      "group": "education",
+      "sources": [
+        [
+          "https://clearvaluemoney.com/team",
+          "ClearValue team and Brian Kim editorial role"
+        ],
+        [
+          "https://clearvaluebooks.com/videos",
+          "Brian Kim and ClearValue Tax educational videos"
+        ]
+      ],
+      "profile": "ClearValue’s sites identify Brian Kim with public money education and the ClearValue Tax video channel.",
+      "offering": "An educational channel is different from a contracted tax preparation or advisory service.",
+      "scenario": "You learned a tax concept from a video and now need an analysis of your own return. Compare educational resources with a named professional’s written engagement rather than assuming the channel provides client services.",
+      "questions": [
+        "Does the proposed product include individualized tax advice?",
+        "Who is the actual professional and contracting entity?",
+        "Will anyone review my records and tax limitations?",
+        "Who implements recommendations and files returns?"
+      ],
+      "firm": null,
+      "boundary": "The reviewed education and team pages do not establish an offer of individualized tax representation or preparation by Brian Kim. Do not infer client availability from the channel name.",
+      "alternative": "/compare/brian-kim-alternatives/",
+      "comparison": "/compare/brian-kim-vs-ae-tax/",
+      "review": "/compare/brian-kim-reviews/"
+    },
+    {
+      "slug": "mitchell-baldridge",
+      "name": "Mitchell Baldridge",
+      "brand": "Baldridge-related advisory and R.E. Cost Seg",
+      "group": "business",
+      "sources": [
+        [
+          "https://www.mitchellbaldridge.com/",
+          "Mitchell Baldridge business and education menu"
+        ],
+        [
+          "https://www.recostseg.com/team/mitchell-baldridge",
+          "R.E. Cost Seg team biography"
+        ]
+      ],
+      "profile": "Mitchell Baldridge’s site links tax and financial planning, accounting, transaction diligence and R.E. Cost Seg as different service routes.",
+      "offering": "Choose the business and deliverable you need rather than treating all linked services as one package.",
+      "scenario": "You are acquiring a business that owns real estate. Separate earnings diligence, ongoing books, entity tax advice and the property study in the proposal.",
+      "questions": [
+        "Which firm contracts for this project?",
+        "Is this planning, accounting, diligence or a study?",
+        "Who coordinates the separate reports with my CPA?",
+        "Which fees and continuing obligations belong to each service?"
+      ],
+      "firm": "re-cost-seg",
+      "boundary": "R.E. Cost Seg is one service route in a broader menu, not a substitute name for every advisory or accounting service. Confirm the current entity and work scope.",
+      "alternative": "/compare/mitchell-baldridge-alternatives/",
+      "comparison": "/compare/mitchell-baldridge-vs-ae-tax/",
+      "review": "/compare/mitchell-baldridge-reviews/"
+    },
+    {
+      "slug": "eric-freeman",
+      "name": "Eric Freeman",
+      "brand": "Tax Strategies for Everyone / BeachFleischman",
+      "group": "real-estate",
+      "sources": [
+        [
+          "https://taxstrategiesforeveryone.com/about-eric/",
+          "Eric Freeman biography, educational work and professional role"
+        ]
+      ],
+      "profile": "Eric Freeman’s official educational biography describes real estate and partnership tax work and identifies his role at BeachFleischman.",
+      "offering": "Distinguish book and video education from a separate professional engagement for the transaction.",
+      "scenario": "You are reviewing a partnership buyout and a property exchange. Ask for the transaction analysis, basis records, election responsibilities and return scope in writing.",
+      "questions": [
+        "Who provides the transaction-specific advice?",
+        "Which partnership and property records are needed?",
+        "Who documents basis and handles required elections?",
+        "What implementation and filing work is separate?"
+      ],
+      "firm": null,
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/eric-freeman-alternatives/",
+      "comparison": "/compare/eric-freeman-vs-ae-tax/",
+      "review": "/compare/eric-freeman-reviews/"
+    },
+    {
+      "slug": "ryan-pineda",
+      "name": "Ryan Pineda",
+      "brand": "Education and TrueBooks referral page",
+      "group": "real-estate",
+      "sources": [
+        [
+          "https://ryanpineda.com/",
+          "Ryan Pineda coaching and media services"
+        ],
+        [
+          "https://app.truebookscpa.com/ryanpineda",
+          "TrueBooks page for Ryan Pineda referrals"
+        ]
+      ],
+      "profile": "Ryan Pineda’s site offers coaching and media engagements. A TrueBooks page bearing his name describes office hours, tax advisory and preparation.",
+      "offering": "Compare coaching separately from the engagement with the tax professionals named in the TrueBooks proposal.",
+      "scenario": "You follow Ryan’s investing content and want tax support for a flipping business and rentals. Identify the tax team, accounting scope and separate education purchase before choosing.",
+      "questions": [
+        "Is this coaching or a TrueBooks tax engagement?",
+        "Who signs the agreement and reviews my tax facts?",
+        "Are bookkeeping, planning and preparation included?",
+        "What access and ongoing fees are contracted?"
+      ],
+      "firm": null,
+      "boundary": "The reviewed pages do not establish that Ryan personally prepares returns or provides the contracted tax advice. Confirm the current service provider and assigned tax professional.",
+      "alternative": "/compare/ryan-pineda-alternatives/",
+      "comparison": "/compare/ryan-pineda-vs-ae-tax/",
+      "review": "/compare/ryan-pineda-reviews/"
+    },
+    {
+      "slug": "matt-bontrager",
+      "name": "Matt Bontrager",
+      "brand": "TrueBooks",
+      "group": "real-estate",
+      "sources": [
+        [
+          "https://app.truebookscpa.com/ryanpineda",
+          "TrueBooks service descriptions and Matt Bontrager biography"
+        ]
+      ],
+      "profile": "TrueBooks’ referral page identifies Matt Bontrager as managing partner and lists office hours, advisory and tax preparation for investors and entrepreneurs.",
+      "offering": "Compare access to group office hours with individual advisory and the actual preparation engagement.",
+      "scenario": "You need ongoing numbers for a real estate business as well as a tax plan. Ask which package reconciles the books and who handles owner and entity returns.",
+      "questions": [
+        "Is advice delivered in office hours or one-to-one?",
+        "Who maintains and reviews the business books?",
+        "Which owner and business returns are included?",
+        "What deadlines and extra implementation fees apply?"
+      ],
+      "firm": null,
+      "boundary": "Confirm the exact product, contracting firm, assigned professional and availability of personal involvement before enrolling.",
+      "alternative": "/compare/matt-bontrager-alternatives/",
+      "comparison": "/compare/matt-bontrager-vs-ae-tax/",
+      "review": "/compare/matt-bontrager-reviews/"
+    }
+  ],
+  "selection": "Nineteen US-facing tax and adjacent financial educators with official identity and offering sources. A researched coverage set, not an exhaustive list or an audience/traffic ranking.",
+  "traffic": "Search volume and Google ranking not verified; no follower counts used as keyword volume.",
+  "baseline_commit": "11cdbd719d46ceaa3401fd272091a6879c956a8a"
+}

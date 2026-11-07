@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-07",
+  "marker": "normal-tax-next-20261107",
+  "published": [],
+  "new_comparisons": 5,
+  "refreshed_pair_comparisons": 0,
+  "hub_routes": [
+    "/compare/",
+    "/services/tax-planning/",
+    "/year-round-business-tax-planning/",
+    "/real-estate-tax-planning/"
+  ],
+  "pairs": [
+    [
+      "armanino",
+      "eide-bailly",
+      "armanino-vs-eide-bailly",
+      "You run a growing company entering a second state and need the owner return coordinated with entity filings. Ask whether the proposal includes nexus analysis, planning and filing rather than treating them as a single undefined service.",
+      "Which planning, accounting, filing and specialist tasks are included for this same situation?"
+    ],
+    [
+      "eide-bailly",
+      "sikich",
+      "eide-bailly-vs-sikich",
+      "You plan a large equipment purchase while reviewing your accounting method and owner compensation. Require a work plan that distinguishes technical analysis, elections, tax projections and return preparation.",
+      "Which planning, accounting, filing and specialist tasks are included for this same situation?"
+    ],
+    [
+      "sikich",
+      "doeren-mayhew",
+      "sikich-vs-doeren-mayhew",
+      "You operate a manufacturing business with outsourced books and an upcoming acquisition. Compare the proposed accounting handoff, tax projections, transaction specialists and owner-level work before selecting an engagement.",
+      "Which planning, accounting, filing and specialist tasks are included for this same situation?"
+    ],
+    [
+      "doeren-mayhew",
+      "rehmann",
+      "doeren-mayhew-vs-rehmann",
+      "You own a family business and are reviewing investment income and trust distributions. Ask for a proposal that names the entity, individual and fiduciary returns and assigns the planning decisions between teams.",
+      "Which planning, accounting, filing and specialist tasks are included for this same situation?"
+    ],
+    [
+      "rehmann",
+      "armanino",
+      "rehmann-vs-armanino",
+      "You own an operating company and a commercial property and want to review fixed assets while planning an ownership transition. Compare the core return engagement with any separately scoped property study or estate work.",
+      "Which planning, accounting, filing and specialist tasks are included for this same situation?"
+    ]
+  ]
+}
