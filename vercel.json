@@ -3,6 +3,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status/",
+      "destination": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status-reps/",
+      "permanent": true
+    },
+    {
+      "source": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status",
+      "destination": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status-reps/",
+      "permanent": true
+    },
+    {
       "source": "/for/",
       "destination": "/tax-strategies-by-profession/",
       "permanent": true
