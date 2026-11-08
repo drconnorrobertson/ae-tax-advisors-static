@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/how-it-works/"
+    },
+    {
+      "url": "/pricing/"
+    },
+    {
+      "url": "/ae-tax-advisors-reviews/"
+    },
+    {
+      "url": "/why-switch-to-ae-tax-advisors/"
+    },
+    {
+      "url": "/best-tax-advisor-for-business-owners/"
+    },
+    {
+      "url": "/resources/tax-deadline-calendar/"
+    },
+    {
+      "url": "/tax-planning-checklist-by-quarter/"
+    },
+    {
+      "url": "/cost-segregation-study/"
+    },
+    {
+      "url": "/rental-property-tax-planning/"
+    }
+  ],
+  "basis": "Main-content inbound-link audit of 718 historical discovered URLs; add relevant reader paths for low-link guides and remove one stray calendar sentence."
+}

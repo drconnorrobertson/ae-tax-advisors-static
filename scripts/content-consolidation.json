@@ -25,7 +25,8 @@
     "/search/": "/blog/",
     "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status/": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status-reps/",
     "/blog/s-corp-vs-c-corp-comparison-high-earners/": "/blog/s-corp-vs-c-corp-high-income/",
-    "/blog/offset-w2-income-real-estate/": "/blog/how-to-offset-w2-income-with-real-estate-losses/"
+    "/blog/offset-w2-income-real-estate/": "/blog/how-to-offset-w2-income-with-real-estate-losses/",
+    "/testimonials/": "/ae-tax-advisors-reviews/"
   },
   "reason": "Overlapping service-intent pages and generic numbered rental variants; retain substantive distinct guides."
 }
