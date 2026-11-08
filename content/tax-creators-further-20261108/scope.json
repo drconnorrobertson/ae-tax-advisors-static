@@ -1,0 +1,43 @@
+{
+  "new_people": 5,
+  "total_people": 49,
+  "new_person_guides": 15,
+  "pair_comparisons": 5,
+  "new_listicles": 2,
+  "updated_hub_and_lists": 3,
+  "affected_pages": [
+    "/compare/dawn-brolin-alternatives/",
+    "/compare/dawn-brolin-vs-ae-tax/",
+    "/compare/dawn-brolin-reviews/",
+    "/compare/danielle-hayden-alternatives/",
+    "/compare/danielle-hayden-vs-ae-tax/",
+    "/compare/danielle-hayden-reviews/",
+    "/compare/shannon-weinstein-alternatives/",
+    "/compare/shannon-weinstein-vs-ae-tax/",
+    "/compare/shannon-weinstein-reviews/",
+    "/compare/eric-pierre-alternatives/",
+    "/compare/eric-pierre-vs-ae-tax/",
+    "/compare/eric-pierre-reviews/",
+    "/compare/jody-padar-alternatives/",
+    "/compare/jody-padar-vs-ae-tax/",
+    "/compare/jody-padar-reviews/",
+    "/compare/tax-influencer-alternatives/",
+    "/compare/tax-education-vs-advisory/",
+    "/compare/cfo-creators-vs-tax-advisors/",
+    "/compare/accounting-practice-coaches-vs-tax-services/",
+    "/compare/business-finance-podcasters-tax-service-scope/",
+    "/compare/dawn-brolin-vs-jody-padar/",
+    "/compare/danielle-hayden-vs-nayo-carter-gray/",
+    "/compare/shannon-weinstein-vs-hannah-smolinski/",
+    "/compare/eric-pierre-vs-megan-gorman/",
+    "/compare/jody-padar-vs-jackie-meyer/"
+  ],
+  "service_hubs": [
+    "/compare/",
+    "/services/tax-planning/",
+    "/year-round-business-tax-planning/",
+    "/real-estate-tax-planning/"
+  ],
+  "provider_directory_count": 125,
+  "query_volume_verified": false
+}

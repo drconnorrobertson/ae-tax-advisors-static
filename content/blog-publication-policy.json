@@ -1,0 +1,7 @@
+{
+  "effectiveDate": "2026-11-08",
+  "baseline": "content/blog-publication-history-20261108.json",
+  "baselineCommit": "59fa8a6c9cf7c8b65d0f632363d67d38f1c138eb",
+  "rule": "At most one new blog article per actual publication date; do not backdate or publish future scheduled items. Preserve inherited dates and record corrections only after evidence review.",
+  "existingHistory": "Historic duplicate dates are preserved, not represented as unique or retroactively rescheduled."
+}
