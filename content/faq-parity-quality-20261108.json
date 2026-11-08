@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/short-term-rentals/",
+      "removedStaleQuestions": [
+        "What is the short-term rental tax loophole?"
+      ]
+    },
+    {
+      "url": "/tax-planning-vs-tax-preparation/",
+      "removedStaleQuestions": [
+        "How much can tax planning actually save a business owner?"
+      ]
+    },
+    {
+      "url": "/blog/how-long-does-an-amended-tax-return-take-to-process/",
+      "removedStaleQuestions": [
+        "Can Where's My Amended Return track a business amended return?"
+      ]
+    },
+    {
+      "url": "/blog/cost-segregation-study-airbnb-property-owners/",
+      "removedStaleQuestions": [
+        "Is my Airbnb 27.5-year or 39-year property?"
+      ]
+    },
+    {
+      "url": "/blog/cost-segregation-multifamily-apartment-buildings/",
+      "removedStaleQuestions": [
+        "How much of an apartment building can be reclassified?",
+        "Can a passive multifamily investor use the depreciation loss?",
+        "How does partnership debt affect my ability to deduct the loss?",
+        "Should I do the study before or after a value-add renovation?",
+        "Can I still do a study on a building I bought several years ago?"
+      ]
+    },
+    {
+      "url": "/blog/can-i-deduct-the-cost-of-a-cost-segregation-study/",
+      "removedStaleQuestions": [
+        "Are cost segregation study fees capitalized or deductible?",
+        "Where do I deduct the fee?",
+        "Is a purchase price allocation done before closing deductible?"
+      ]
+    },
+    {
+      "url": "/blog/does-cost-segregation-work-on-inherited-property/",
+      "removedStaleQuestions": [
+        "Does the depreciation schedule start over when I inherit?",
+        "Is inherited property eligible for bonus depreciation?"
+      ]
+    },
+    {
+      "url": "/blog/mid-year-tax-planning-business-owners-2026/",
+      "removedStaleQuestions": [
+        "What is the most impactful mid-year tax move for a business owner in 2026?",
+        "What is the Augusta Rule and is it still viable in 2026?"
+      ]
+    },
+    {
+      "url": "/blog/cost-segregation-short-term-rental-airbnb-properties/",
+      "removedStaleQuestions": [
+        "Why are short-term rentals depreciated over 39 years instead of 27.5?"
+      ]
+    },
+    {
+      "url": "/blog/mid-term-rental-tax-strategy-30-day/",
+      "removedStaleQuestions": [
+        "Is a mid-term rental depreciated over 27.5 or 39 years?"
+      ]
+    },
+    {
+      "url": "/blog/cost-segregation-complete-guide/",
+      "removedStaleQuestions": [
+        "How do you report cost segregation on a tax return?"
+      ]
+    },
+    {
+      "url": "/blog/obbba-tax-planning-checklist-business-owners-2026/",
+      "removedStaleQuestions": [
+        "How does permanent 100% bonus depreciation change tax planning for business owners?"
+      ]
+    },
+    {
+      "url": "/blog/augusta-rule-rent-your-home-to-your-business/",
+      "removedStaleQuestions": [
+        "What documentation do I need for the Augusta Rule?"
+      ]
+    },
+    {
+      "url": "/corrected-k1-after-amended-1120s/",
+      "removedStaleQuestions": [
+        "I received a corrected S corporation K-1 after filing. Do I need to amend my tax return?",
+        "Can I ignore a corrected K-1 when it does not change current tax?"
+      ]
+    },
+    {
+      "url": "/compare/your-current-cpa-vs-ae-tax/",
+      "removedStaleQuestions": [
+        "What does AE Tax Advisors charge?",
+        "What is the difference between tax preparation and tax planning?",
+        "Does AE Tax Advisors review prior-year returns?",
+        "What is cost segregation and why does it matter?",
+        "Will switching CPAs trigger an IRS audit?"
+      ]
+    },
+    {
+      "url": "/compare/pinnacle-tax-group-vs-ae-tax/",
+      "removedStaleQuestions": [
+        "Is Pinnacle Tax Group good?",
+        "Pinnacle Tax Group vs AE Tax Advisors: which is better?"
+      ]
+    },
+    {
+      "url": "/glossary/",
+      "removedStaleQuestions": [
+        "What is a 1031 Exchange?",
+        "What is Accelerated Depreciation?",
+        "What is an Accountable Plan?",
+        "What is the Accrual Method?",
+        "What is Active Income?",
+        "What is Adjusted Gross Income?",
+        "What is the Alternative Minimum Tax?",
+        "What is an Amended Return?",
+        "What is Amortization?",
+        "What are At-Risk Rules?",
+        "What is the Augusta Rule?",
+        "What is a Backdoor Roth IRA?",
+        "What is Basis?",
+        "What is a Beneficial Owner?",
+        "What is Bonus Depreciation?",
+        "What is Boot in a 1031 Exchange?",
+        "What is the Built-In Gains Tax?",
+        "What is Business Use Percentage?",
+        "What is a C-Corporation?",
+        "What are Capital Gains?",
+        "What is Capitalization?",
+        "What is a Carryforward?",
+        "What is a Cash Balance Plan?",
+        "What is Catch-Up Depreciation?",
+        "What is a Charitable Remainder Trust?",
+        "What is Constructive Receipt?",
+        "What is Cost Basis?",
+        "What is Cost Recovery?",
+        "What is Cost Segregation?",
+        "What is Deferred Compensation?",
+        "What is a Defined Benefit Plan?",
+        "What is Depreciation?",
+        "What is Depreciation Recapture?",
+        "What is a Disregarded Entity?",
+        "What is a Distribution?",
+        "What is Domicile?",
+        "What is Double Taxation?",
+        "What is Earned Income?",
+        "What is the Economic Substance Doctrine?",
+        "What is the Effective Tax Rate?",
+        "What is an EIN?",
+        "What is Entity Structuring?",
+        "What are Estimated Tax Payments?",
+        "What is Estimated Useful Life?",
+        "What is an Exclusion?",
+        "What is Fair Market Value?",
+        "What is FICA?",
+        "What is Filing Status?",
+        "What is a Fiscal Year?",
+        "What is Form 1040?",
+        "What is Form 1065?",
+        "What is Form 1120-S?",
+        "What is Form 3115?",
+        "What are Fringe Benefits?",
+        "What is a General Partner?",
+        "What is Goodwill?",
+        "What is a Grantor Trust?",
+        "What is Gross Income?",
+        "What is the Half-Year Convention?",
+        "What is a Holding Company?",
+        "What is the Home Office Deduction?",
+        "What is an Installment Sale?",
+        "What is Investment Interest Expense?",
+        "What is the IRC?",
+        "What are Itemized Deductions?",
+        "What is a K-1?",
+        "What is a Like-Kind Exchange?",
+        "What is an LLC?",
+        "What is MACRS?",
+        "What is the Marginal Tax Rate?",
+        "What is Material Participation?",
+        "What is a MERP?",
+        "What is Modified Adjusted Gross Income?",
+        "What is a Multi-Member LLC?",
+        "What is the Net Investment Income Tax?",
+        "What is Nexus?",
+        "What is Nonqualified Deferred Compensation?",
+        "What is Nonrecourse Debt?",
+        "What is the OBBBA?",
+        "What is an Opportunity Zone?",
+        "What does Ordinary and Necessary mean?",
+        "What is Ordinary Income?",
+        "What is a Partnership Agreement?",
+        "What is a Passive Activity Loss?",
+        "What is Passive Income?",
+        "What is a Pass-Through Entity?",
+        "What does Placed in Service mean?",
+        "What is PTET?",
+        "What is the QBI Deduction?",
+        "What is Qualified Business Income?",
+        "What is Qualified Improvement Property?",
+        "What is a Qualified Opportunity Fund?",
+        "What is Real Estate Professional Status?",
+        "What is Real Property?",
+        "What is Reasonable Compensation?",
+        "What is Recapture?",
+        "What is a Related Party?",
+        "What is a Required Minimum Distribution?",
+        "What are Retained Earnings?",
+        "What is a Revenue Ruling?",
+        "What is an S-Corporation?",
+        "What is a Safe Harbor?",
+        "What is Schedule C?",
+        "What is Schedule E?",
+        "What is Schedule K-1?",
+        "What is the Section 121 Exclusion?",
+        "What is Section 179?",
+        "What is Section 199A?",
+        "What is Section 280A?",
+        "What is Section 1031?",
+        "What is Section 1245?",
+        "What is Section 1250?",
+        "What is Self-Employment Tax?",
+        "What is a SEP IRA?",
+        "What is a Short-Term Rental?",
+        "What is a Single-Member LLC?",
+        "What is a Solo 401(k)?",
+        "What is an SSTB?",
+        "What is the Standard Deduction?",
+        "What is Step-Up in Basis?",
+        "What is Straight-Line Depreciation?",
+        "What is Substantial Authority?",
+        "What is Tax Advisory?",
+        "What is a Tax Bracket?",
+        "What is a Tax Credit?",
+        "What is a Tax Deduction?",
+        "What is Tax Deferral?",
+        "What does Tax-Exempt mean?",
+        "What is Tax Planning?",
+        "What is Tax Preparation?",
+        "What is a Trustee?",
+        "What is the Underpayment Penalty?",
+        "What is Useful Life?",
+        "What is Withholding?"
+      ]
+    },
+    {
+      "url": "/partnership-aar-vs-amended-return/",
+      "removedStaleQuestions": [
+        "Can a partnership file an amended return instead of an AAR?",
+        "Does a BBA partnership issue amended K-1s with an AAR?"
+      ]
+    },
+    {
+      "url": "/how-much-does-tax-advisor-save-roi/",
+      "removedStaleQuestions": [
+        "How much does a tax advisor typically save a business owner?",
+        "What is the typical ROI on tax advisory fees?",
+        "Is a tax advisor worth it if I already have a CPA?",
+        "What strategies generate the biggest tax savings?",
+        "When is a tax advisor NOT worth the investment?",
+        "How do tax savings compound over time?"
+      ]
+    },
+    {
+      "url": "/cost-segregation-complete-guide-2026/",
+      "removedStaleQuestions": [
+        "Who qualifies for a cost segregation study?",
+        "Can I do a cost segregation study on a property I have owned for several years?"
+      ]
+    },
+    {
+      "url": "/deferred-equity-compensation/",
+      "removedStaleQuestions": [
+        "When should I exercise my stock options?"
+      ]
+    }
+  ],
+  "policy": "Preserve visible content and matching FAQ entries; remove only claims not present on the rendered page."
+}
