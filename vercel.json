@@ -3,6 +3,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/blog/offset-w2-income-real-estate/",
+      "destination": "/blog/how-to-offset-w2-income-with-real-estate-losses/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/offset-w2-income-real-estate",
+      "destination": "/blog/how-to-offset-w2-income-with-real-estate-losses/",
+      "permanent": true
+    },
+    {
       "source": "/blog/s-corp-vs-c-corp-comparison-high-earners/",
       "destination": "/blog/s-corp-vs-c-corp-high-income/",
       "permanent": true
@@ -344,11 +354,6 @@
     },
     {
       "source": "/blog/how-to-offset-w2-income-with-real-estate-losses/",
-      "destination": "/short-term-rental-tax-strategy/",
-      "statusCode": 301
-    },
-    {
-      "source": "/blog/offset-w2-income-real-estate/",
       "destination": "/short-term-rental-tax-strategy/",
       "statusCode": 301
     },
