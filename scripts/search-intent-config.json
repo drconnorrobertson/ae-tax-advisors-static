@@ -1246,7 +1246,9 @@
     "description": "Review when real estate losses may offset W-2 income, including rental exceptions, participation, basis, at-risk amounts and other deduction limits."
   },
   "blog/tax-planning-business-owners-making-500k/index.html": {
-    "description": "Coordinate entity choice, owner compensation, retirement contributions and depreciation for a business earning $500K, using the full tax projection."
+    "title": "Tax Planning at $500K: Which Business-Owner Decision Comes First?",
+    "description": "Prioritize tax planning at $500K by identifying income sources, upcoming transactions, compensation, employee plans and usable deductions.",
+    "h1": "Tax Planning at $500K: Which Business-Owner Decision Comes First?"
   },
   "blog/tax-strategy-for-financial-advisors/index.html": {
     "description": "Review tax planning for financial advisors, including S corporation compensation, SSTB and QBI limits, retirement plans and state considerations."
@@ -1554,5 +1556,30 @@
     "title": "Airline Pilot Tax Planning: State Wages, Per Diem and Side Income",
     "description": "Review airline wage sourcing, residency, reimbursements, side businesses and rental losses using the applicable employment and tax rules.",
     "h1": "Airline Pilot Tax Planning: State Wages, Per Diem and Side Income"
+  },
+  "blog/cost-segregation-mixed-use-buildings/index.html": {
+    "title": "Mixed-Use Cost Segregation: Rental Income, Building Life and Components",
+    "description": "Classify a mixed-use building using actual dwelling-unit rental income and asset evidence before assigning depreciation lives or estimating bonus.",
+    "h1": "Mixed-Use Cost Segregation: Rental Income, Building Life and Components"
+  },
+  "blog/cost-segregation-new-jersey-state-tax-rules/index.html": {
+    "title": "New Jersey Cost Segregation: Depreciation and 2026 Loss Rules",
+    "description": "Reconcile New Jersey depreciation, income categories and the 2026 alternative-business-calculation limits before projecting study benefits.",
+    "h1": "New Jersey Cost Segregation: Depreciation and 2026 Loss Rules"
+  },
+  "blog/form-3115-tax-strategy-cpa-not-telling-you/index.html": {
+    "title": "Form 3115 for Missed Depreciation: Questions to Ask Your CPA",
+    "description": "Ask whether a depreciation error is an accounting-method change, which procedure applies and how a Section 481(a) adjustment would affect your return.",
+    "h1": "Form 3115 for Missed Depreciation: Questions to Ask Your CPA"
+  },
+  "blog/why-your-cpa-costing-money-rental-properties/index.html": {
+    "title": "Rental Property CPA Review: Check Scope, Depreciation and Loss Limits",
+    "description": "Evaluate rental tax service using records, depreciation schedules, participation analysis and clear implementation responsibilities.",
+    "h1": "Rental Property CPA Review: Check Scope, Depreciation and Loss Limits"
+  },
+  "blog/why-your-cpa-is-costing-you-thousands/index.html": {
+    "title": "Is Your CPA Engagement Missing Tax Planning? A Scope Review",
+    "description": "Compare preparation and planning responsibilities, request evidence for proposed savings and evaluate whether a second opinion would help.",
+    "h1": "Is Your CPA Engagement Missing Tax Planning? A Scope Review"
   }
 }
