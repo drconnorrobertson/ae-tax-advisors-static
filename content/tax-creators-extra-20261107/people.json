@@ -1,0 +1,213 @@
+{
+  "reviewed": "2026-11-07",
+  "baseline_commit": "2d1f3d842ae602d93406b220b02f7932e03298b7",
+  "people": [
+    {
+      "slug": "nesha-pai",
+      "name": "Nesha Pai",
+      "brand": "Pai CPA",
+      "group": "accounting",
+      "sources": [
+        [
+          "https://www.paicpapllc.com/meet-our-team",
+          "Pai CPA founder and team"
+        ],
+        [
+          "https://www.paicpapllc.com/how-we-help",
+          "Accounting scope, published fees and preparation boundary"
+        ],
+        [
+          "https://www.neshapai.com/podcast",
+          "Nesha Pai public podcast and hiatus notice"
+        ]
+      ],
+      "profile": "Nesha Pai is identified as Pai CPA’s founder and managing member. Her public platform also includes speaking and a podcast, whose reviewed page marks the show on hiatus.",
+      "offering": "Pai CPA describes monthly accounting, financial reporting, accounting setup and coaching. Its service page expressly separates income tax filings through a Tax CPA from its own one-state sales tax preparation.",
+      "scenario": "Your books need cleanup before a tax plan. Compare monthly close, cleanup and tax-preparer coordination, then separately assign income tax filing and individualized planning.",
+      "questions": [
+        "Who prepares income tax returns under a separate contract?",
+        "What monthly accounting and sales tax tasks are included?",
+        "What cleanup costs and meeting access apply?",
+        "Who implements and checks any planning recommendations?"
+      ],
+      "peer_slugs": [
+        "tiffany-phillips",
+        "amy-northard"
+      ],
+      "firm": null,
+      "boundary": "The reviewed service page says Pai CPA does not do income tax filings and coordinates with a Tax CPA. Do not infer that accounting support includes an income tax return or that podcast access is client service.",
+      "fee": "The reviewed service page lists accounting starting at $700/month, setup at $1,000 and coaching at $350/hour; cleanup is extra. These are distinct accounting offers, not a universal planning-and-filing package. Confirm current terms.",
+      "alternative": "/compare/nesha-pai-alternatives/",
+      "comparison": "/compare/nesha-pai-vs-ae-tax/",
+      "review": "/compare/nesha-pai-reviews/"
+    },
+    {
+      "slug": "jackie-meyer",
+      "name": "Jackie Meyer",
+      "brand": "TaxPlanIQ / Jackie Meyer education",
+      "group": "education",
+      "sources": [
+        [
+          "https://jackiemeyercpa.com/",
+          "Official author, speaking and firm-owner education"
+        ],
+        [
+          "https://www.taxplaniq.com/founders-story",
+          "TaxPlanIQ founder story and 2022 firm sale"
+        ],
+        [
+          "https://www.taxplaniq.com/about",
+          "TaxPlanIQ software and professional audience"
+        ]
+      ],
+      "profile": "Jackie Meyer’s official site describes an author, speaker and TaxPlanIQ founder whose resources serve accounting firm owners. TaxPlanIQ’s founder story says she sold Meyer Tax in 2022.",
+      "offering": "Compare professional tax-planning software, firm-owner education and speaking with a separate taxpayer engagement. A software subscription is a tool used by an advisor, rather than the advisor’s contract to prepare your return.",
+      "scenario": "You follow Jackie’s planning content but need help with your own company. Establish whether you are buying software for a practice, professional training or a named firm’s taxpayer service.",
+      "questions": [
+        "Is the buyer a tax practice or an individual taxpayer?",
+        "Which software, training and support are included?",
+        "Which professional reviews and signs off on my personal facts?",
+        "Is client advice or return preparation separately contracted?"
+      ],
+      "peer_slugs": [
+        "jj-the-cpa",
+        "tom-wheelwright"
+      ],
+      "firm": null,
+      "boundary": "Current founder education and software should not be presented as proof Jackie personally accepts private tax clients. Verify the current contracting entity; older Meyer Tax materials predate the stated sale.",
+      "fee": "Request the current product-specific software or education price and renewal terms. The reviewed biography and founder pages do not establish a fixed private taxpayer engagement fee.",
+      "alternative": "/compare/jackie-meyer-alternatives/",
+      "comparison": "/compare/jackie-meyer-vs-ae-tax/",
+      "review": "/compare/jackie-meyer-reviews/"
+    },
+    {
+      "slug": "wendy-barlin",
+      "name": "Wendy Barlin",
+      "brand": "Wendy Barlin education / Roth&Co",
+      "group": "business",
+      "sources": [
+        [
+          "https://rothcocpa.com/team/wendy-barlin-cpa/",
+          "Roth&Co current role and accounting scope"
+        ],
+        [
+          "https://wendybarlin.com/shop/",
+          "Public digital workshops and prices"
+        ]
+      ],
+      "profile": "Roth&Co identifies Wendy Barlin as its Director of Client Accounting Services and an author with tax and accounting experience.",
+      "offering": "The firm biography covers outsourced bookkeeping, payroll, reporting, tax compliance, CFO and advisory services. Her separate shop offers digital workshops about business deductions and incorporation.",
+      "scenario": "You bought a deductions workshop and now need ongoing financial reporting and tax compliance. Compare the workshop purchase with a current Roth&Co proposal, assigned team and implementation scope.",
+      "questions": [
+        "Which firm contracts for the client service?",
+        "Which bookkeeping, payroll and tax tasks are included?",
+        "Does the workshop include any personal record review?",
+        "How are CFO, advisory and filing fees scoped?"
+      ],
+      "peer_slugs": [
+        "tiffany-phillips",
+        "nesha-pai"
+      ],
+      "firm": null,
+      "boundary": "The personal shop includes older About Profit ownership language, while the Roth&Co biography describes a firm sale in 2021 and a current Roth&Co role. Confirm the current entity rather than equating those descriptions.",
+      "fee": "The personal shop advertises a $97 tax-strategies workshop and $37 incorporation session. Those education prices do not quote Roth&Co client accounting, advisory or tax compliance; confirm availability and current terms.",
+      "alternative": "/compare/wendy-barlin-alternatives/",
+      "comparison": "/compare/wendy-barlin-vs-ae-tax/",
+      "review": "/compare/wendy-barlin-reviews/"
+    },
+    {
+      "slug": "hannah-cole",
+      "name": "Hannah Cole",
+      "brand": "Sunlight Tax",
+      "group": "creative",
+      "sources": [
+        [
+          "https://www.sunlighttax.com/",
+          "Sunlight Tax education, consultations and business setup"
+        ],
+        [
+          "https://sunlighttax.substack.com/",
+          "Hannah Cole tax education and podcast resources"
+        ]
+      ],
+      "profile": "Hannah Cole’s Sunlight Tax site identifies her as a tax professional, artist, educator and podcast host serving self-employed people.",
+      "offering": "The public site offers books, workshops, education, limited one-to-one consultations and a two-day solo business setup intensive. The intensive describes tax tracking, estimated payment calculations and bookkeeping setup.",
+      "scenario": "You are a self-employed artist choosing between learning to maintain your own systems and hiring a team. Compare education, consultation and setup deliverables separately from recurring income tax filing.",
+      "questions": [
+        "Does this include education, consultation or hands-on setup?",
+        "Who reviews my figures and estimated payment calculation?",
+        "Which follow-up and ongoing bookkeeping tasks are included?",
+        "Are income tax returns and legal work separately contracted?"
+      ],
+      "peer_slugs": [
+        "amy-northard",
+        "jasmine-dilucci"
+      ],
+      "firm": null,
+      "boundary": "The reviewed site includes individual consultations and setup assistance; do not describe it as education only. Confirm availability, professional responsibilities and whether ongoing filing is actually part of the chosen agreement.",
+      "fee": "Request the current price for the specific book, workshop, consultation or intensive. The reviewed public overview does not establish one fixed fee for ongoing planning, bookkeeping and return preparation.",
+      "alternative": "/compare/hannah-cole-alternatives/",
+      "comparison": "/compare/hannah-cole-vs-ae-tax/",
+      "review": "/compare/hannah-cole-reviews/"
+    },
+    {
+      "slug": "barbara-weltman",
+      "name": "Barbara Weltman",
+      "brand": "Big Ideas for Small Business",
+      "group": "education",
+      "sources": [
+        [
+          "https://bigideasforsmallbusiness.com/wp-content/uploads/2025/07/eBook-2025-150plus-Tax-Deductions-Updated-July25.pdf",
+          "Official 2025 tax deductions publication and author biography"
+        ]
+      ],
+      "profile": "Barbara Weltman’s official small-business tax publication identifies her as an attorney, author and publisher of Big Ideas for Small Business and Idea of the Day.",
+      "offering": "Her public work includes small-business tax books and educational publishing. A published deductions guide provides general information; it does not establish a private legal, planning or filing engagement.",
+      "scenario": "You use a small-business tax guide and want to apply an idea to your actual books. Identify the tax year and ask an engaged professional to review eligibility, documentation and implementation.",
+      "questions": [
+        "Which tax year and update date does the publication address?",
+        "Is any individualized advice actually included?",
+        "Who reviews my records and implements the recommendation?",
+        "Do I need a separate tax advisor, preparer or attorney?"
+      ],
+      "peer_slugs": [
+        "hannah-cole",
+        "mark-j-kohler"
+      ],
+      "firm": null,
+      "boundary": "The cited guide is revised July 2025. Treat it as dated educational evidence, not a complete statement of 2026 law or proof of private-client availability. No current attorney-client engagement is inferred.",
+      "fee": "The reviewed official publication does not establish a current fee for private legal advice, tax planning or filing. Price any book or education purchase separately from a professional engagement.",
+      "alternative": "/compare/barbara-weltman-alternatives/",
+      "comparison": "/compare/barbara-weltman-vs-ae-tax/",
+      "review": "/compare/barbara-weltman-reviews/"
+    }
+  ],
+  "pairs": [
+    [
+      "nesha-pai",
+      "tiffany-phillips",
+      "Compare outsourced accounting with an advisory-and-preparation proposal. Pai’s reviewed page uses a separate Tax CPA for income tax filings; Phillips describes preparation and implementation. Assign each task explicitly."
+    ],
+    [
+      "jackie-meyer",
+      "jj-the-cpa",
+      "Compare professional software and firm-owner resources with professional education and dated group programs. Neither purchase automatically supplies a private taxpayer engagement."
+    ],
+    [
+      "wendy-barlin",
+      "tiffany-phillips",
+      "Compare an education purchase and current firm relationship with a business planning and filing proposal. Request the same accounting, compliance, CFO and implementation work."
+    ],
+    [
+      "hannah-cole",
+      "amy-northard",
+      "A creative business may need self-service education, individual setup help or an accounting engagement. Compare the exact current contract, return list and recordkeeping responsibilities."
+    ],
+    [
+      "barbara-weltman",
+      "hannah-cole",
+      "Compare dated small-business tax publishing with self-employed education, consultations and setup assistance. Check tax years and distinguish reading material from individual professional work."
+    ]
+  ],
+  "selection": "Five name-specific identities missing from the 29-creator inventory; existing TaxPlanIQ firm guide retained and connected. Official source research, not a traffic ranking."
+}
