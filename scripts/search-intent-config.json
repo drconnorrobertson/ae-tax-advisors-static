@@ -954,5 +954,20 @@
     "title": "LLC Charging Orders by State: Protection and Tax Questions",
     "description": "Compare Wyoming, Delaware and Florida charging-order rules and review ownership, creditor rights, tax classification and state obligations.",
     "h1": "LLC Charging Orders by State: Protection and Tax Questions"
+  },
+  "blog/how-to-structure-multiple-businesses-for-tax-efficiency/index.html": {
+    "title": "Multiple-Business Tax Structure: Compare the Whole Owner Return",
+    "description": "Map ownership, entity elections, related-party payments, QBI and compliance costs before separating or combining businesses.",
+    "h1": "Multiple-Business Tax Structure: Compare the Whole Owner Return"
+  },
+  "high-income-tax-strategy/index.html": {
+    "title": "High-Income Business Owner Tax Strategy: Build a Usable Plan",
+    "description": "Coordinate entity choice, compensation, retirement plans, depreciation and state elections using the full owner-return projection.",
+    "h1": "High-Income Business Owner Tax Strategy: Build a Usable Plan"
+  },
+  "crypto-tax-business-owners/index.html": {
+    "title": "Crypto Tax for Business Owners: Payments, Basis and Reporting",
+    "description": "Reconcile digital-asset payments, rewards, disposals, broker forms and entity ownership before filing business and owner tax returns.",
+    "h1": "Crypto Tax for Business Owners: Payments, Basis and Reporting"
   }
 }
