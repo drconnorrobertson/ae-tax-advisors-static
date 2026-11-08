@@ -1765,5 +1765,15 @@
     "title": "Office Building Cost Segregation: Tenant Work, Parking and QIP",
     "description": "Review office-building equipment, tenant improvements, parking structures and QIP requirements before assigning depreciation lives.",
     "h1": "Office Building Cost Segregation: Tenant Work, Parking and QIP"
+  },
+  "blog/tax-strategy-for-physicians/index.html": {
+    "title": "Physician Tax Planning: Employment, Practice Income and Property",
+    "description": "Coordinate physician wages, practice compensation, retirement plans and property deductions without assuming every high-income doctor has the same options.",
+    "h1": "Physician Tax Planning: Employment, Practice Income and Property"
+  },
+  "blog/tax-strategy-for-saas-founders/index.html": {
+    "title": "SaaS Founder Tax Planning: QSBS, Research Costs and Compensation",
+    "description": "Review SaaS entity choice, stock eligibility, research expenditures and payroll using actual issuance dates, contracts and operating plans.",
+    "h1": "SaaS Founder Tax Planning: QSBS, Research Costs and Compensation"
   }
 }

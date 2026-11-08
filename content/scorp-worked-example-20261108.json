@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/blog/how-much-can-i-save-by-electing-s-corp-status/"
+    }
+  ],
+  "calculation": {
+    "soleTax": "14129.55",
+    "employerTax": "4590.00",
+    "combinedPayrollTax": "9180.00",
+    "beforeIncomeTaxBenefitAfterAdmin": "2949.55"
+  }
+}
