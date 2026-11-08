@@ -1,0 +1,13 @@
+{
+  "pages": [
+    {
+      "url": "/cost-segregation-hotels/",
+      "action": "Permanent redirect of thin canonical alias"
+    },
+    {
+      "url": "/services/cost-segregation-hotels/",
+      "action": "Preserve substantive canonical service page"
+    }
+  ],
+  "reason": "GSC crawled-not-indexed example; source alias has only 19 body words and already declares the service canonical."
+}

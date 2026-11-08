@@ -3,6 +3,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/cost-segregation-hotels/",
+      "destination": "/services/cost-segregation-hotels/",
+      "permanent": true
+    },
+    {
+      "source": "/cost-segregation-hotels",
+      "destination": "/services/cost-segregation-hotels/",
+      "permanent": true
+    },
+    {
       "source": "/blog/material-participation-tests-str-owners/",
       "destination": "/blog/material-participation-tests-str-owners-irc-469/",
       "permanent": true
