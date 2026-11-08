@@ -1251,7 +1251,9 @@
     "h1": "Tax Planning at $500K: Which Business-Owner Decision Comes First?"
   },
   "blog/tax-strategy-for-financial-advisors/index.html": {
-    "description": "Review tax planning for financial advisors, including S corporation compensation, SSTB and QBI limits, retirement plans and state considerations."
+    "title": "Financial Advisor Tax Planning: QBI, Compensation and Succession",
+    "description": "Evaluate financial-services QBI limits, supported owner compensation, retirement-plan costs and the tax structure of an advisory-firm transition.",
+    "h1": "Financial Advisor Tax Planning: QBI, Compensation and Succession"
   },
   "blog/rental-property-converted-home-basis/index.html": {
     "description": "Determine depreciation basis when a personal home becomes a rental and preserve the separate cost and value records needed for a later sale."
@@ -1596,5 +1598,25 @@
     "title": "Business Sale Purchase Price Allocation: Form 8594 and Tax Character",
     "description": "Review asset values, depreciation recapture, goodwill and buyer-seller reporting before agreeing to a business sale allocation.",
     "h1": "Business Sale Purchase Price Allocation: Form 8594 and Tax Character"
+  },
+  "blog/lookback-cost-segregation-existing-property/index.html": {
+    "title": "Lookback Cost Segregation: Existing Property, Records and Form 3115",
+    "description": "Evaluate an existing property study using original service dates, historical depreciation and the applicable accounting-method correction procedure.",
+    "h1": "Lookback Cost Segregation: Existing Property, Records and Form 3115"
+  },
+  "blog/can-i-take-bonus-depreciation-on-a-used-property/index.html": {
+    "title": "Bonus Depreciation on Used Property: Acquisition and Component Tests",
+    "description": "Check prior use, related parties, basis rules and original service dates before assuming used-property components qualify for bonus depreciation.",
+    "h1": "Bonus Depreciation on Used Property: Acquisition and Component Tests"
+  },
+  "blog/real-cost-of-not-doing-cost-segregation/index.html": {
+    "title": "Is Cost Segregation Worth the Fee? Compare Timing, Loss Limits and Recapture",
+    "description": "Compare a cost segregation study with the existing depreciation schedule using usable deductions, fees, holding period and future tax consequences.",
+    "h1": "Is Cost Segregation Worth the Fee? Compare Timing, Loss Limits and Recapture"
+  },
+  "blog/tax-strategy-for-salon-and-spa-owners/index.html": {
+    "title": "Salon and Spa Tax Planning: Worker Status, Tips and Build-Outs",
+    "description": "Review worker classification, the beauty-service tip credit effective date, retail records and supported build-out depreciation.",
+    "h1": "Salon and Spa Tax Planning: Worker Status, Tips and Build-Outs"
   }
 }
