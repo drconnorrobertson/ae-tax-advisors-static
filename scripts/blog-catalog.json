@@ -51,7 +51,7 @@
   {
     "url": "/blog/15-year-land-improvements-depreciation/",
     "title": "Do Land Improvements Qualify for Bonus Depreciation?",
-    "description": "Learn when 15-year land improvements qualify for bonus depreciation, which site costs do not qualify, and how to report the deduction on Form 4562.",
+    "description": "Check when land improvements qualify for bonus depreciation, how 15-year MACRS works, and which site costs need classification and basis support.",
     "category": "Depreciation",
     "date": "2026-08-13"
   },
@@ -1157,7 +1157,7 @@
   {
     "url": "/blog/can-i-amend-my-tax-returns/",
     "title": "Can I Amend My Tax Returns? A Complete Guide to Recovering Missed Deductions",
-    "description": "Learn when and how to amend your tax returns using Form 1040-X. Understand the statute of limitations, common missed deductions, and when Form 3115 is the better option.",
+    "description": "Learn when to use Form 1040-X, how refund deadlines apply, what records to prepare and when missed depreciation may need Form 3115 instead.",
     "category": "Business Deductions",
     "date": "2026-09-06"
   },
@@ -1177,8 +1177,8 @@
   },
   {
     "url": "/blog/can-i-deduct-leased-equipment-capital-vs-operating-lease/",
-    "title": "Can I Deduct Leased Equipment? Capital Lease vs Operating Lease Tax Rules",
-    "description": "Yes, leased equipment is deductible. The real question is which of two very different deductions you get.",
+    "title": "Can You Deduct Equipment Lease Payments? Tax Lease vs. Purchase",
+    "description": "Learn when equipment payments are deductible rent, when a lease is a conditional purchase, and how depreciation, interest and buyouts differ.",
     "category": "Equipment and Section 179",
     "date": "2026-08-07"
   },
@@ -1192,7 +1192,7 @@
   {
     "url": "/blog/can-i-deduct-travel-expenses-to-manage-rental-property/",
     "title": "Can I Deduct Travel Expenses to Manage My Rental Property?",
-    "description": "Learn when and how you can deduct travel expenses for rental property management, including mileage, airfare, lodging, and IRS documentation requirements.",
+    "description": "Learn when rental-property travel may be deductible, the 2026 mileage rates, personal-trip limits, records and acquisition-travel distinctions.",
     "category": "Rental Property",
     "date": "2026-07-22"
   },
@@ -1234,7 +1234,7 @@
   {
     "url": "/blog/can-i-pay-my-spouse-through-my-business/",
     "title": "Can I Pay My Spouse Through My Business?",
-    "description": "Yes, if the spouse actually works in the business and the compensation is reasonable for the work performed.",
+    "description": "Compare spouse wages, payroll taxes, retirement capacity and medical-benefit restrictions before adding a spouse to your business payroll.",
     "category": "General Tax Planning",
     "date": "2026-08-11"
   },
@@ -1283,7 +1283,7 @@
   {
     "url": "/blog/can-my-s-corp-pay-for-my-health-insurance/",
     "title": "Can My S-Corp Pay for My Health Insurance Premiums?",
-    "description": "Learn how an S corporation handles health insurance for a more-than-2% owner, including W-2 reporting, reimbursement and deduction requirements.",
+    "description": "Learn how an S-corp can pay or reimburse owner health insurance, report premiums on Form W-2, and evaluate the shareholder deduction.",
     "category": "S-Corp Planning",
     "date": "2026-08-02"
   },
@@ -2480,7 +2480,7 @@
   {
     "url": "/blog/do-i-need-payroll-if-i-have-an-s-corp/",
     "title": "Do I Need to Run Payroll if I Have an S-Corp?",
-    "description": "Yes, S-Corp owners who work in the business must run payroll. Learn the IRS requirements, penalties for non-compliance, and how to set up payroll correctly.",
+    "description": "Find out when an S-corp owner needs payroll, which filings and deposits matter, and how to review distributions paid without reasonable wages.",
     "category": "S-Corp Planning",
     "date": "2026-08-05"
   },
@@ -2661,8 +2661,8 @@
   },
   {
     "url": "/blog/equipment-depreciation-schedules-macrs-recovery-periods/",
-    "title": "Equipment Depreciation Schedules: MACRS Recovery Periods by Asset Type",
-    "description": "A reference table of MACRS recovery periods for construction, medical, restaurant, trucking, manufacturing, and technology assets, plus the conventions and what...",
+    "title": "Equipment Depreciation Schedules: Choosing a MACRS Recovery Period",
+    "description": "Choose an equipment recovery period using asset and industry classifications. Review GDS, ADS, conventions, bonus depreciation and prior-year corrections.",
     "category": "Depreciation",
     "date": "2026-08-08"
   },
@@ -3313,7 +3313,7 @@
   {
     "url": "/blog/how-do-s-corp-distributions-work-and-are-they-taxed/",
     "title": "How Do S-Corp Distributions Work and Are They Taxed?",
-    "description": "See when S-corp distributions are taxable, why stock basis matters, and how owner distributions differ from wages and shareholder loan repayments.",
+    "description": "Understand when S-corp distributions are tax-free, when excess distributions create gain, and why stock basis, loan repayments and owner wages differ.",
     "category": "S-Corp Planning",
     "date": "2026-08-08"
   },
@@ -4082,8 +4082,8 @@
   },
   {
     "url": "/blog/how-to-avoid-capital-gains-tax-when-selling-rental-property/",
-    "title": "How Can I Avoid Capital Gains Tax When Selling a Rental Property?",
-    "description": "See how 1031 exchanges, installment sales, Section 121, losses, and basis planning can reduce or defer tax before you sell a rental property.",
+    "title": "How to Reduce or Defer Tax When Selling Rental Property",
+    "description": "Compare rental-property sale tax options: 1031 exchanges, installment sales, basis adjustments and home-sale exclusions. See a worked gain calculation.",
     "category": "Rental Property",
     "date": "2026-08-14"
   },
@@ -4104,7 +4104,7 @@
   {
     "url": "/blog/how-to-deduct-a-home-office-through-your-s-corp/",
     "title": "How Do I Deduct a Home Office Through My S-Corp?",
-    "description": "Learn how S-Corp owners can deduct home office expenses through an accountable plan under IRC Section 62(c) and avoid losing deductions after TCJA changes.",
+    "description": "Review how an S-corp can reimburse qualifying home-office costs, which records matter, and why the individual simplified deduction is not automatic.",
     "category": "S-Corp Planning",
     "date": "2026-08-16"
   },
@@ -4419,7 +4419,7 @@
   {
     "url": "/blog/irc-1041-tax-free-spousal-transfers/",
     "title": "IRC 1041: How Tax-Free Spousal Transfers Work During Divorce",
-    "description": "When business owners and real estate investors face divorce, one of the most consequential tax provisions they will encounter is IRC Section 1041.",
+    "description": "Understand Section 1041 spousal property transfers, carryover basis, divorce timing, third-party transfers and the nonresident-alien recipient exception.",
     "category": "General Tax Planning",
     "date": "2026-07-29"
   },
@@ -4559,7 +4559,7 @@
   {
     "url": "/blog/landlord-guide-depreciation-27-5-vs-39-year/",
     "title": "The Landlord's Guide to Depreciation (27.5 vs 39 Year Recovery)",
-    "description": "For rental property investors, depreciation is the single most valuable tax benefit in the code.",
+    "description": "Compare residential and nonresidential rental depreciation, the transient-use test, placed-in-service timing and correction of an earlier recovery period.",
     "category": "Rental Property",
     "date": "2026-08-13"
   },
@@ -6133,17 +6133,10 @@
   },
   {
     "url": "/blog/passive-activity-loss-rules-for-real-estate-investors/",
-    "title": "What Are the Passive Activity Loss Rules for Real Estate Investors?",
-    "description": "Understand how IRC Section 469 passive activity loss rules affect real estate investors, including the $25,000 allowance, REPS exception, and loss carryforward.",
+    "title": "Section 469 Passive Activity Loss Rules for Real Estate Investors",
+    "description": "Understand Section 469 rental losses, the $25,000 allowance, real estate professional status, short-term rentals and suspended losses on sale or gift.",
     "category": "Material Participation",
     "date": "2026-08-25"
-  },
-  {
-    "url": "/blog/passive-activity-loss-rules-investor-guide/",
-    "title": "Passive Activity Loss Rules Every Investor Must Know",
-    "description": "You buy a rental property. After mortgage interest, property taxes, insurance, maintenance, and depreciation, the property shows a tax loss of $40,000.",
-    "category": "Material Participation",
-    "date": "2026-08-15"
   },
   {
     "url": "/blog/passive-activity-loss-rules-rental-property/",
@@ -6435,7 +6428,7 @@
   {
     "url": "/blog/rd-tax-credit-section-41-guide/",
     "title": "The R&D Tax Credit Under Section 41: Who Actually Qualifies",
-    "description": "The research credit reaches far beyond laboratories. The four-part test, the funded research exclusion, payroll offset, and documentation requirements.",
+    "description": "Review the four-part research test, qualified expenses, funded research, the payroll credit and Section 174A coordination before claiming the R&D credit.",
     "category": "Tax Credits",
     "date": "2026-08-11"
   },
@@ -7240,7 +7233,7 @@
   {
     "url": "/blog/safe-harbor-rule-for-estimated-tax-payments/",
     "title": "Estimated Tax Safe Harbor: Thresholds and Payment Timing",
-    "description": "Compare the 90%, 100% and 110% federal estimated tax safe harbors. Learn why installment timing matters, how withholding works, and when a balance remains due.",
+    "description": "Calculate the federal estimated-tax safe harbor, understand the $150,000 AGI threshold, and compare timely payments with year-end withholding.",
     "category": "Tax Compliance",
     "date": "2026-08-11"
   },
@@ -7583,7 +7576,7 @@
   {
     "url": "/blog/solo-401k-maximum-contribution-2026/",
     "title": "Solo 401(k) Maximum Contributions for 2026",
-    "description": "How much you can put into a solo 401(k) in 2026, how the employee and employer pieces are calculated for an S-Corp versus a sole proprietor, and the deadlines...",
+    "description": "Review 2026 solo 401(k) employee and employer limits, $8,000 or $11,250 catch-ups, Roth rules and different calculations for S-corps and sole proprietors.",
     "category": "Retirement Planning",
     "date": "2026-06-23"
   },
@@ -8395,7 +8388,7 @@
   {
     "url": "/blog/what-is-a-grouping-election-for-rental-properties/",
     "title": "What Is a Grouping Election for Rental Properties?",
-    "description": "Learn how the grouping election under Treas. Reg. 1.469-9(g) lets real estate professionals treat multiple rentals as one activity for material participation.",
+    "description": "Understand the Section 1.469-9(g) rental aggregation election, material participation, late-election relief and consequences when selling one property.",
     "category": "Material Participation",
     "date": "2026-09-05"
   },
@@ -8444,14 +8437,14 @@
   {
     "url": "/blog/what-is-reasonable-compensation-for-s-corp-owners/",
     "title": "What Is Reasonable Compensation for S-Corp Owners?",
-    "description": "Understand the IRS reasonable compensation requirement for S-Corp owners, how to determine the right salary level, and what happens if you set it too low.",
+    "description": "Determine reasonable S-corp owner pay using duties, hours and compensation evidence. Learn why a 60/40 split is not an IRS safe harbor.",
     "category": "S-Corp Planning",
     "date": "2026-09-08"
   },
   {
     "url": "/blog/what-is-the-25000-rental-loss-allowance/",
     "title": "What Is the $25,000 Rental Loss Allowance and Do I Qualify?",
-    "description": "Learn about the $25,000 rental real estate loss allowance under IRC 469(i), including active participation requirements and MAGI phase-out thresholds.",
+    "description": "Check active participation, the $100,000–$150,000 MAGI phaseout, married-filing-separately rules and what happens to suspended rental losses.",
     "category": "General Tax Planning",
     "date": "2026-09-09"
   },
@@ -8478,8 +8471,8 @@
   },
   {
     "url": "/blog/what-is-the-de-minimis-safe-harbor-election/",
-    "title": "Can a Landlord Use the De Minimis Safe Harbor Without a Written Policy?",
-    "description": "Understand the de minimis safe harbor election, $2,500 and $5,000 thresholds, book policy and filing requirements. Review IRS sources and AE’s checklist.",
+    "title": "De Minimis Safe Harbor Election: Thresholds, Policy and Filing",
+    "description": "Understand the $2,500 de minimis safe harbor, the $5,000 AFS threshold, annual election timing and the difference from routine maintenance.",
     "category": "Rental Property",
     "date": "2026-08-10"
   },

@@ -134,5 +134,145 @@
     "title": "STR Tax Loophole: 7-Day Rule & Participation Tests",
     "description": "Understand the short-term rental tax loophole: average stays, material participation, cost segregation, loss limits and records needed to offset W-2 income.",
     "h1": "STR Tax Loophole: When Short-Term Rental Losses Can Offset W-2 Income"
+  },
+  "resources/tax-deadline-calendar/index.html": {
+    "title": "2027 Tax Deadlines: Filing, Extensions & 2026 Payments",
+    "description": "See the April 15, 2027 tax deadline, business return dates and remaining 2026 payments. Separate filing extensions, payment deadlines and year-end actions.",
+    "h1": "2027 Tax Deadlines and Remaining 2026 Payments"
+  },
+  "blog/what-is-the-de-minimis-safe-harbor-election/index.html": {
+    "title": "De Minimis Safe Harbor Election: $2,500 Rules",
+    "description": "Understand the $2,500 de minimis safe harbor, the $5,000 AFS threshold, annual election timing and the difference from routine maintenance.",
+    "h1": "De Minimis Safe Harbor Election: Thresholds, Policy and Filing"
+  },
+  "blog/how-do-s-corp-distributions-work-and-are-they-taxed/index.html": {
+    "title": "Are S-Corp Distributions Taxable? Stock Basis & Salary",
+    "description": "Understand when S-corp distributions are tax-free, when excess distributions create gain, and why stock basis, loan repayments and owner wages differ."
+  },
+  "blog/can-my-s-corp-pay-for-my-health-insurance/index.html": {
+    "title": "Can My S-Corp Pay My Health Insurance? W-2 Rules",
+    "description": "Learn how an S-corp can pay or reimburse owner health insurance, report premiums on Form W-2, and evaluate the shareholder deduction."
+  },
+  "blog/safe-harbor-rule-for-estimated-tax-payments/index.html": {
+    "title": "Estimated Tax Safe Harbor: 90%, 100% and 110% Rules",
+    "description": "Calculate the federal estimated-tax safe harbor, understand the $150,000 AGI threshold, and compare timely payments with year-end withholding."
+  },
+  "the-smart-way-to-file-taxes-if-you-work-multiple-jobs/index.html": {
+    "title": "Taxes With Two Jobs: Filing W-2s and Fixing Withholding",
+    "description": "File multiple W-2s on one return, coordinate Form W-4, check excess Social Security withholding and plan payments for a second job or freelance income.",
+    "h1": "How to File Taxes With Two or More Jobs"
+  },
+  "blog/can-i-deduct-leased-equipment-capital-vs-operating-lease/index.html": {
+    "title": "Equipment Lease Tax Deductions: Rent vs. Purchase",
+    "description": "Learn when equipment payments are deductible rent, when a lease is a conditional purchase, and how depreciation, interest and buyouts differ.",
+    "h1": "Can You Deduct Equipment Lease Payments? Tax Lease vs. Purchase"
+  },
+  "c-corporation-strategy/corporate-losses-nol-rules/index.html": {
+    "title": "C Corporation NOL Rules: 80% Limit & Carryforwards",
+    "description": "Understand corporate NOL carryforwards, loss-year ordering, the 80% limit and Section 382 ownership changes before valuing or using a tax loss.",
+    "h1": "C Corporation Net Operating Losses: Carryforwards and the 80% Limit"
+  },
+  "qbi-deduction-guide/index.html": {
+    "title": "2026 QBI Deduction: Income Limits, Rentals & S-Corps",
+    "description": "Check 2026 QBI income thresholds, the $400 minimum, rental safe-harbor requirements and the effect of S-corp owner wages.",
+    "h1": "QBI Deduction for 2026: Income Limits, Rentals and Owner Pay"
+  },
+  "understanding-adjusted-gross-income-and-how-to-reduce-it/index.html": {
+    "title": "Does the Standard Deduction Reduce AGI? | AGI Guide",
+    "description": "No\u2014the standard deduction reduces taxable income after AGI. See which adjustments can lower AGI and how business losses, QBI and modified AGI differ.",
+    "h1": "Does the Standard Deduction Reduce AGI? How Adjusted Gross Income Works"
+  },
+  "blog/what-is-reasonable-compensation-for-s-corp-owners/index.html": {
+    "title": "Reasonable S-Corp Salary: How to Set Owner Compensation",
+    "description": "Determine reasonable S-corp owner pay using duties, hours and compensation evidence. Learn why a 60/40 split is not an IRS safe harbor."
+  },
+  "blog/do-i-need-payroll-if-i-have-an-s-corp/index.html": {
+    "title": "Does an S-Corp Need Payroll? Owner Salary & Filing Rules",
+    "description": "Find out when an S-corp owner needs payroll, which filings and deposits matter, and how to review distributions paid without reasonable wages."
+  },
+  "blog/passive-activity-loss-rules-for-real-estate-investors/index.html": {
+    "title": "Section 469 Passive Loss Rules: Rentals, STRs & Carryovers",
+    "description": "Understand Section 469 rental losses, the $25,000 allowance, real estate professional status, short-term rentals and suspended losses on sale or gift.",
+    "h1": "Section 469 Passive Activity Loss Rules for Real Estate Investors"
+  },
+  "blog/what-is-the-25000-rental-loss-allowance/index.html": {
+    "title": "$25,000 Rental Loss Allowance: MAGI Limits & Eligibility",
+    "description": "Check active participation, the $100,000\u2013$150,000 MAGI phaseout, married-filing-separately rules and what happens to suspended rental losses."
+  },
+  "blog/what-is-a-grouping-election-for-rental-properties/index.html": {
+    "title": "Rental Property Grouping Election: REPS & Material Participation",
+    "description": "Understand the Section 1.469-9(g) rental aggregation election, material participation, late-election relief and consequences when selling one property."
+  },
+  "blog/how-to-deduct-a-home-office-through-your-s-corp/index.html": {
+    "title": "S-Corp Home Office Deduction: Reimbursement & Records",
+    "description": "Review how an S-corp can reimburse qualifying home-office costs, which records matter, and why the individual simplified deduction is not automatic."
+  },
+  "blog/equipment-depreciation-schedules-macrs-recovery-periods/index.html": {
+    "title": "Equipment Depreciation: MACRS Lives by Asset Type",
+    "description": "Choose an equipment recovery period using asset and industry classifications. Review GDS, ADS, conventions, bonus depreciation and prior-year corrections.",
+    "h1": "Equipment Depreciation Schedules: Choosing a MACRS Recovery Period"
+  },
+  "blog/landlord-guide-depreciation-27-5-vs-39-year/index.html": {
+    "title": "27.5 vs. 39-Year Depreciation: Rental Property Rules",
+    "description": "Compare residential and nonresidential rental depreciation, the transient-use test, placed-in-service timing and correction of an earlier recovery period."
+  },
+  "blog/rd-tax-credit-section-41-guide/index.html": {
+    "title": "Section 41 R&D Tax Credit: Eligibility, Costs & Records",
+    "description": "Review the four-part research test, qualified expenses, funded research, the payroll credit and Section 174A coordination before claiming the R&D credit."
+  },
+  "airbnb-tax-deductions/index.html": {
+    "title": "Airbnb Tax Deductions 2026: 21 Expenses to Review",
+    "description": "Review 21 Airbnb expense categories, repairs versus improvements, personal-use limits, depreciation, platform fees and records for your 2026 return.",
+    "h1": "Airbnb Tax Deductions for 2026: Expenses, Depreciation and Records"
+  },
+  "how-to-legally-pay-family-members-through-your-business/index.html": {
+    "title": "Paying Family Members: Wages, Payroll Tax & Records",
+    "description": "Learn how to pay family members for real work, apply entity-specific payroll rules, distinguish contractor and owner payments, and document reasonable pay.",
+    "h1": "How to Pay Family Members Through Your Business Legally"
+  },
+  "blog/solo-401k-maximum-contribution-2026/index.html": {
+    "title": "Solo 401(k) Limits for 2026: $72,000 Plus Catch-Up",
+    "description": "Review 2026 solo 401(k) employee and employer limits, $8,000 or $11,250 catch-ups, Roth rules and different calculations for S-corps and sole proprietors."
+  },
+  "blog/can-i-pay-my-spouse-through-my-business/index.html": {
+    "title": "Can I Pay My Spouse Through My Business? Tax & Payroll",
+    "description": "Compare spouse wages, payroll taxes, retirement capacity and medical-benefit restrictions before adding a spouse to your business payroll."
+  },
+  "blog/can-i-deduct-travel-expenses-to-manage-rental-property/index.html": {
+    "title": "Rental Property Travel Deductions: Mileage & Mixed Trips",
+    "description": "Learn when rental-property travel may be deductible, the 2026 mileage rates, personal-trip limits, records and acquisition-travel distinctions."
+  },
+  "blog/irc-1041-tax-free-spousal-transfers/index.html": {
+    "title": "Section 1041: Divorce Property Transfers & Carryover Basis",
+    "description": "Understand Section 1041 spousal property transfers, carryover basis, divorce timing, third-party transfers and the nonresident-alien recipient exception."
+  },
+  "blog/can-i-amend-my-tax-returns/index.html": {
+    "title": "Can I Amend My Tax Return? Corrections & Missed Deductions",
+    "description": "Learn when to use Form 1040-X, how refund deadlines apply, what records to prepare and when missed depreciation may need Form 3115 instead."
+  },
+  "blog/how-far-back-can-i-amend-a-tax-return/index.html": {
+    "title": "How Far Back Can You Amend a Tax Return? | AE Tax Advisors",
+    "description": "Understand the general three-year or two-year federal refund deadline, refund limits and records needed before amending. Review AE\u2019s amendment FAQ."
+  },
+  "blog/can-amending-my-return-trigger-an-irs-audit/index.html": {
+    "title": "Does Amending a Tax Return Increase Audit Risk?",
+    "description": "The IRS says an amendment does not affect selection of the original return, but the amendment is screened. See when to amend and what documentation to file."
+  },
+  "blog/15-year-land-improvements-depreciation/index.html": {
+    "title": "Land Improvements: 15-Year Depreciation & Bonus Rules",
+    "description": "Check when land improvements qualify for bonus depreciation, how 15-year MACRS works, and which site costs need classification and basis support."
+  },
+  "blog/what-is-an-accountable-plan-for-s-corp-owners/index.html": {
+    "title": "What Is an Accountable Plan and How Does It Work for S-Corp Owners?",
+    "description": "Understand how an accountable plan under IRC Section 62(c) lets S-Corp owners deduct business expenses tax-free without increasing W-2 wages or payroll taxes."
+  },
+  "the-business-owners-guide-to-section-743b-basis-adjustments-after-partner-transfer/index.html": {
+    "title": "Section 743(b) Basis Adjustment After a Partner Transfer",
+    "description": "Understand buyer-specific Section 743(b) adjustments, Section 754 elections, asset allocation, K-1 reporting and cost-segregation treatment.",
+    "h1": "Section 743(b) Basis Adjustments After a Partnership Interest Transfer"
+  },
+  "form-3115-cost-segregation/index.html": {
+    "title": "Form 3115 for Cost Segregation: Steps, Records & Filing",
+    "description": "Review how Form 3115 applies to cost segregation, required records, Schedule E, Section 481(a), filing responsibilities and when an amendment may be needed."
   }
 }

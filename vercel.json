@@ -3,6 +3,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/blog/passive-activity-loss-rules-investor-guide/",
+      "destination": "/blog/passive-activity-loss-rules-for-real-estate-investors/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/passive-activity-loss-rules-investor-guide",
+      "destination": "/blog/passive-activity-loss-rules-for-real-estate-investors/",
+      "permanent": true
+    },
+    {
       "source": "/privacy",
       "destination": "/privacy-policy/",
       "permanent": true
