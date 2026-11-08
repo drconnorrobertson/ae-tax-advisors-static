@@ -589,5 +589,30 @@
     "title": "Holding Company for Multiple Businesses: Tax and Cost Review",
     "description": "Evaluate ownership, intercompany transactions, S corporation eligibility and recurring costs before adding a holding company.",
     "h1": "Holding Company for Multiple Businesses: Tax and Cost Review"
+  },
+  "blog/str-loophole-short-term-rental-tax/index.html": {
+    "title": "STR Tax Strategy Checklist: From Booking Records to the Return",
+    "description": "Use a step-by-step STR tax review covering customer use, participation, basis, depreciation, loss limits and filing records.",
+    "h1": "STR Tax Strategy Checklist: From Booking Records to the Return"
+  },
+  "blog/what-is-the-str-tax-loophole-and-how-does-it-work/index.html": {
+    "title": "STR Tax Loophole Explained: How the Rules Fit Together",
+    "description": "Understand the interaction of average customer use, material participation, depreciation and loss limitations before relying on an STR wage offset.",
+    "h1": "STR Tax Loophole Explained: How the Rules Fit Together"
+  },
+  "blog/rental-property-fence-depreciation/index.html": {
+    "title": "Rental Property Fence: Repairs, Depreciation and Bonus Rules",
+    "description": "Distinguish a fence repair from a capital improvement, then check the recovery period, bonus eligibility and rental-loss limits.",
+    "h1": "Rental Property Fence: Repairs, Depreciation and Bonus Rules"
+  },
+  "blog/cost-segregation-basics-rental-properties/index.html": {
+    "title": "Cost Segregation for Rentals: Is a Study Worthwhile?",
+    "description": "Evaluate rental basis, asset evidence, loss capacity, filing method and sale plans before ordering a cost segregation study.",
+    "h1": "Cost Segregation for Rentals: Is a Study Worthwhile?"
+  },
+  "blog/straight-line-vs-accelerated-depreciation/index.html": {
+    "title": "Straight-Line vs Accelerated Depreciation: Compare Timing",
+    "description": "Compare deduction timing with explicit tax-rate and discount assumptions, then account for loss limits, elections and sale consequences.",
+    "h1": "Straight-Line vs Accelerated Depreciation: Compare Timing"
   }
 }

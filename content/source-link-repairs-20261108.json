@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "url": "/the-business-owners-guide-to-section-707-transactions-between-partner-and-partnership/",
+      "action": "Replaced an HTTP-404 primary reference with a verified IRS source"
+    },
+    {
+      "url": "/blog/what-is-the-750-hour-rule-for-real-estate-professionals/",
+      "action": "Replaced an HTTP-404 primary reference with a verified IRS source"
+    },
+    {
+      "url": "/blog/late-s-corp-election-form-2553-strategies/",
+      "action": "Replaced an HTTP-404 primary reference with a verified IRS source"
+    },
+    {
+      "url": "/how-to-maximize-qbi-deduction/",
+      "action": "Replaced an HTTP-404 primary reference with a verified IRS source"
+    },
+    {
+      "url": "/blog/what-is-the-qbi-deduction-and-how-does-it-work-for-s-corps/",
+      "action": "Replaced an HTTP-404 primary reference with a verified IRS source"
+    },
+    {
+      "url": "/blog/material-participation-tests-str-owners-irc-469/",
+      "action": "Replaced an HTTP-404 primary reference with a verified IRS source"
+    }
+  ],
+  "references": {
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section199A&num=0&edition=prelim": "https://www.irs.gov/newsroom/qualified-business-income-deduction",
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section707&num=0&edition=prelim": "https://www.irs.gov/publications/p541",
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section469&num=0&edition=prelim": "https://www.irs.gov/publications/p925",
+    "https://www.irs.gov/instructions/i8832": "https://www.irs.gov/forms-pubs/about-form-8832"
+  }
+}
