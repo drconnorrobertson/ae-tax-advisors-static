@@ -614,5 +614,25 @@
     "title": "Straight-Line vs Accelerated Depreciation: Compare Timing",
     "description": "Compare deduction timing with explicit tax-rate and discount assumptions, then account for loss limits, elections and sale consequences.",
     "h1": "Straight-Line vs Accelerated Depreciation: Compare Timing"
+  },
+  "blog/equipment-leasing-vs-buying-tax-comparison/index.html": {
+    "title": "Equipment Leasing vs Buying: Tax Ownership and Cash Flow",
+    "description": "Compare true rentals with financed equipment purchases using total payments, depreciation eligibility, interest and after-tax cash flow.",
+    "h1": "Equipment Leasing vs Buying: Tax Ownership and Cash Flow"
+  },
+  "blog/construction-company-heavy-equipment-write-off/index.html": {
+    "title": "Heavy Equipment Write-Offs: Contractor Tax Checklist",
+    "description": "Review tax ownership, service dates, depreciation eligibility, truck limits and S corporation basis before claiming a heavy equipment deduction.",
+    "h1": "Heavy Equipment Write-Offs: Contractor Tax Checklist"
+  },
+  "blog/late-s-corp-election-can-i-still-file-form-2553/index.html": {
+    "title": "Missed Form 2553? Check Late S Election Eligibility",
+    "description": "Review the effective date, reporting history, reasonable cause and shareholder consents before seeking late S corporation election relief.",
+    "h1": "Missed Form 2553? Check Late S Election Eligibility"
+  },
+  "blog/merp-medical-expense-reimbursement-plan-s-corp/index.html": {
+    "title": "S-Corp Medical Reimbursements: Premiums vs Out-of-Pocket Costs",
+    "description": "Distinguish more-than-2% shareholder health-insurance deductions from HRA reimbursements and ordinary personal medical expenses.",
+    "h1": "S-Corp Medical Reimbursements: Premiums vs Out-of-Pocket Costs"
   }
 }
