@@ -419,5 +419,35 @@
     "title": "Estimated Tax Cash-Flow Planning for Business Owners",
     "description": "Build a practical individual estimated-tax plan using safe harbors, withholding, income changes and a separate reserve for the balance due.",
     "h1": "Estimated Tax Cash-Flow Planning for Business Owners"
+  },
+  "blog/form-3115-missed-depreciation/index.html": {
+    "title": "Form 3115 for Missed Depreciation: Filing & Catch-Up Rules",
+    "description": "Understand Form 3115 eligibility, historical depreciation rates, the Section 481(a) calculation and duplicate filing requirements before correcting a rental.",
+    "h1": "Form 3115 for Missed Depreciation: Filing & Catch-Up Rules"
+  },
+  "blog/what-happens-if-i-never-took-depreciation-on-my-rental/index.html": {
+    "title": "Never Depreciated a Rental? Basis, Corrections & Sale Timing",
+    "description": "Missed rental depreciation can still reduce tax basis. Learn what records to reconstruct, when Form 3115 may apply and how a sale changes the correction review.",
+    "h1": "Never Depreciated a Rental? Basis, Corrections & Sale Timing"
+  },
+  "blog/when-should-i-switch-from-llc-to-s-corp/index.html": {
+    "title": "When to Elect S-Corp Taxation for an LLC",
+    "description": "Compare reasonable compensation, payroll costs, state taxes and election timing before changing an LLC to S corporation tax treatment.",
+    "h1": "When to Elect S-Corp Taxation for an LLC"
+  },
+  "the-business-owners-guide-to-section-707-transactions-between-partner-and-partnership/index.html": {
+    "title": "Section 707: Partner Payments, Loans & Disguised Sales",
+    "description": "Classify partner payments under Section 707 before claiming deductions: distinguish guaranteed payments, separate-capacity transactions, loans and disguised sales.",
+    "h1": "Section 707: Partner Payments, Loans & Disguised Sales"
+  },
+  "blog/irc-section-168-accelerated-depreciation-explained/index.html": {
+    "title": "Section 168 Depreciation: MACRS and Bonus Rules",
+    "description": "Understand Section 168 recovery periods, depreciation methods and the restored bonus rate, including why older acquisitions can follow different rules.",
+    "h1": "Section 168 Depreciation: MACRS and Bonus Rules"
+  },
+  "blog/what-is-the-750-hour-rule-for-real-estate-professionals/index.html": {
+    "title": "The 750-Hour Real Estate Professional Rule: Both Tests",
+    "description": "Learn why real estate professional status requires more than 750 qualifying hours, more than half of work services, and separate rental participation analysis.",
+    "h1": "The 750-Hour Real Estate Professional Rule: Both Tests"
   }
 }
