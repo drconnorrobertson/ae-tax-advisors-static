@@ -1209,7 +1209,9 @@
     "description": "Allocate rental purchase costs between nondepreciable land and improvements using supported values, then reconcile the basis and depreciation schedule."
   },
   "ohio/index.html": {
-    "description": "Review Ohio cost segregation, state depreciation adjustments and pass-through planning with the property records and the owner\u2019s filing position."
+    "title": "Ohio Cost Segregation: State Add-Backs and Tax Planning",
+    "description": "Review Ohio depreciation add-backs, later deductions, owner reporting and pass-through elections alongside the federal cost segregation study.",
+    "h1": "Ohio Cost Segregation: State Add-Backs and Tax Planning"
   },
   "about/index.html": {
     "description": "Meet AE Tax Advisors and learn how the firm scopes tax planning, return preparation and cost segregation for business owners and real estate investors."
@@ -1274,5 +1276,25 @@
     "title": "FreeTaxUSA Alternatives: Software, Support or a Tax Preparer",
     "description": "Compare FreeTaxUSA with assisted filing and professional engagements by supported forms, state returns, recordkeeping needs and who does the work.",
     "h1": "FreeTaxUSA Alternatives: Software, Support or a Tax Preparer"
+  },
+  "rental-losses-and-passive-activity-rules-why-your-tax-loss-might-not-reduce-taxes-yet/index.html": {
+    "title": "Why Your Rental Loss Is Suspended: Find the Limiting Rule",
+    "description": "Trace a rental loss through basis, at-risk and passive-activity limits, then track the correct carryforward and release conditions.",
+    "h1": "Why Your Rental Loss Is Suspended: Find the Limiting Rule"
+  },
+  "blog/deducting-str-losses-against-w2-income/index.html": {
+    "title": "Deducting STR Losses Against W-2 Income: The Return Checklist",
+    "description": "Test the rental exception, participation, property deduction and owner-level limits before treating an STR loss as a wage offset.",
+    "h1": "Deducting STR Losses Against W-2 Income: The Return Checklist"
+  },
+  "material-participation/index.html": {
+    "title": "Material Participation: Choose a Test and Support the Hours",
+    "description": "Review the seven participation alternatives, spouse and contractor time, grouping and records without assuming hours alone release a loss.",
+    "h1": "Material Participation: Choose a Test and Support the Hours"
+  },
+  "blog/should-i-amend-my-return-or-wait-for-next-year/index.html": {
+    "title": "Amend a Tax Return or Correct Next Year? Choose the Right Procedure",
+    "description": "Distinguish year-specific return errors, accounting-method changes, entity corrections and refund deadlines before choosing a filing path.",
+    "h1": "Amend a Tax Return or Correct Next Year? Choose the Right Procedure"
   }
 }
