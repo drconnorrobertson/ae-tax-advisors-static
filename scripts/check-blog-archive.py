@@ -27,6 +27,7 @@ def resolve_migrated(routes):
 assert resolve_migrated(original)<=expected
 search=json.loads((out/'assets/blog-search-index.json').read_text())
 assert {e['url']for e in search}==expected and len(search)==len(expected)
+assert {e['url']:e for e in search}=={e['url']:e for e in entries}, 'Blog search metadata is stale; run scripts/blog_archive.py after catalog edits'
 assert collections.Counter(e['category'] for e in search)==collections.Counter(e['category'] for e in entries)
 pages=(len(entries)+archive.PAGE_SIZE-1)//archive.PAGE_SIZE
 seen=[];titles=set();canonicals=set();max_size=0
