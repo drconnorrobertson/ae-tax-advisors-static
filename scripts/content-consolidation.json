@@ -35,7 +35,13 @@
     "/who-founded-ae-tax-advisors/": "/about/",
     "/what-is-a-tax-strategy-session-what-to-expect-when-you-work-with-ae-tax-advisors/": "/how-it-works/",
     "/tax-basics-that-build-trust/": "/blog/",
-    "/modern-tax-education-strategy-insights/": "/blog/"
+    "/modern-tax-education-strategy-insights/": "/blog/",
+    "/cost-segregation-for-self-storage/": "/blog/cost-segregation-self-storage-facilities/",
+    "/services/cost-segregation-self-storage/": "/blog/cost-segregation-self-storage-facilities/",
+    "/blog/s-corp-to-c-corp-conversion-when-it-makes-sense/": "/blog/can-i-convert-my-s-corp-to-a-c-corp-for-tax-savings/",
+    "/blog/real-estate-professional-status-qualification-guide/": "/blog/what-is-real-estate-professional-status-and-how-do-i-qualify/",
+    "/tax-planning-surgeons-surgical-specialists/": "/blog/tax-strategy-for-surgeons/",
+    "/salt-deduction-cap-workarounds-high-income-taxpayers/": "/ptet-election-by-state/"
   },
   "reason": "Overlapping service-intent pages and generic numbered rental variants; retain substantive distinct guides."
 }

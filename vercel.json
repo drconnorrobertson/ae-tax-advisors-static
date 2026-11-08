@@ -3,6 +3,66 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/salt-deduction-cap-workarounds-high-income-taxpayers/",
+      "destination": "/ptet-election-by-state/",
+      "permanent": true
+    },
+    {
+      "source": "/salt-deduction-cap-workarounds-high-income-taxpayers",
+      "destination": "/ptet-election-by-state/",
+      "permanent": true
+    },
+    {
+      "source": "/tax-planning-surgeons-surgical-specialists/",
+      "destination": "/blog/tax-strategy-for-surgeons/",
+      "permanent": true
+    },
+    {
+      "source": "/tax-planning-surgeons-surgical-specialists",
+      "destination": "/blog/tax-strategy-for-surgeons/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/real-estate-professional-status-qualification-guide/",
+      "destination": "/blog/what-is-real-estate-professional-status-and-how-do-i-qualify/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/real-estate-professional-status-qualification-guide",
+      "destination": "/blog/what-is-real-estate-professional-status-and-how-do-i-qualify/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-to-c-corp-conversion-when-it-makes-sense/",
+      "destination": "/blog/can-i-convert-my-s-corp-to-a-c-corp-for-tax-savings/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-to-c-corp-conversion-when-it-makes-sense",
+      "destination": "/blog/can-i-convert-my-s-corp-to-a-c-corp-for-tax-savings/",
+      "permanent": true
+    },
+    {
+      "source": "/services/cost-segregation-self-storage/",
+      "destination": "/blog/cost-segregation-self-storage-facilities/",
+      "permanent": true
+    },
+    {
+      "source": "/services/cost-segregation-self-storage",
+      "destination": "/blog/cost-segregation-self-storage-facilities/",
+      "permanent": true
+    },
+    {
+      "source": "/cost-segregation-for-self-storage/",
+      "destination": "/blog/cost-segregation-self-storage-facilities/",
+      "permanent": true
+    },
+    {
+      "source": "/cost-segregation-for-self-storage",
+      "destination": "/blog/cost-segregation-self-storage-facilities/",
+      "permanent": true
+    },
+    {
       "source": "/modern-tax-education-strategy-insights/",
       "destination": "/blog/",
       "permanent": true

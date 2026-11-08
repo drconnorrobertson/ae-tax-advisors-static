@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/cost-segregation-for-self-storage/",
+      "destination": "/blog/cost-segregation-self-storage-facilities/"
+    },
+    {
+      "url": "/services/cost-segregation-self-storage/",
+      "destination": "/blog/cost-segregation-self-storage-facilities/"
+    },
+    {
+      "url": "/blog/s-corp-to-c-corp-conversion-when-it-makes-sense/",
+      "destination": "/blog/can-i-convert-my-s-corp-to-a-c-corp-for-tax-savings/"
+    },
+    {
+      "url": "/blog/real-estate-professional-status-qualification-guide/",
+      "destination": "/blog/what-is-real-estate-professional-status-and-how-do-i-qualify/"
+    },
+    {
+      "url": "/tax-planning-surgeons-surgical-specialists/",
+      "destination": "/blog/tax-strategy-for-surgeons/"
+    },
+    {
+      "url": "/salt-deduction-cap-workarounds-high-income-taxpayers/",
+      "destination": "/ptet-election-by-state/"
+    }
+  ],
+  "reason": "Consolidate overlapping conversion, REPS, surgeon and SALT/PTET explanations into current substantive guides; remove obsolete thresholds and unsupported outcomes."
+}
