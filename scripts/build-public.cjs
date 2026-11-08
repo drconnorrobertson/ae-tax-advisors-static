@@ -3,6 +3,7 @@
 require('node:child_process').execFileSync(process.execPath, [require('node:path').join(__dirname, 'search-intent.mjs'), '--write'], {stdio:'inherit'});
 const fs = require('node:fs');
 const {ensureSharedUx} = require('./ensure-shared-ux.cjs');
+const {polish} = require('./ensure-sitewide-polish.cjs');
 const {normalizeSharedDiscoveryCta} = require('./normalize-shared-discovery-cta.cjs');
 let discoveryCtaPages = 0, discoveryCtaParagraphs = 0;
 const path = require('node:path');
@@ -67,7 +68,7 @@ function walk(dir) {
         });
         const fitCta = normalizeSharedDiscoveryCta(html);
         if (fitCta.count) { discoveryCtaPages++; discoveryCtaParagraphs += fitCta.count; }
-        fs.writeFileSync(target, ensureSharedUx(fitCta.html));
+        fs.writeFileSync(target, polish(ensureSharedUx(fitCta.html)));
       } else if (/^sitemap.*\.xml$/.test(relative)) {
         // Content generators must not silently promote pages awaiting review.
         const xml = fs.readFileSync(source, 'utf8').replace(/<url>[^]*?<\/url>/g, entry => {

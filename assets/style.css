@@ -3213,3 +3213,8 @@ main section.section:not(.content-section):not(.page-header) p { margin-bottom: 
 a.btn.btn-primary { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 14px 24px; background: #bba36a; color: #102231; font-weight: 700; text-decoration: none; border: 1px solid #bba36a; border-radius: 3px; line-height: 1.4; }
 a.btn.btn-primary:hover { background: #d2bd88; }
 a.btn.btn-primary:focus-visible { outline: 3px solid #786330; outline-offset: 4px; }
+
+/* Shared crawlable planning-library navigation; wraps on small screens. */
+.planning-library-links{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 24px;padding:20px 24px;border-top:1px solid rgba(255,255,255,.15);font-size:.875rem;line-height:1.6}
+.planning-library-links a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.planning-library-links a:focus-visible{outline:3px solid #c4a462;outline-offset:4px}
