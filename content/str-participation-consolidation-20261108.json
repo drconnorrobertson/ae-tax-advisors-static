@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/blog/material-participation-tests-str-owners-irc-469/",
+      "title": "STR Material Participation: All 7 Tests and the Records You Need",
+      "description": "Check all seven material participation tests for short-term rentals, including the 100-hour comparison, spouse hours, grouping and practical documentation."
+    }
+  ],
+  "redirect": {
+    "from": "/blog/material-participation-tests-str-owners/",
+    "to": "/blog/material-participation-tests-str-owners-irc-469/"
+  },
+  "reason": "Combine redundant seven-test coverage into a corrected primary guide; retain original publication date on the surviving article."
+}
