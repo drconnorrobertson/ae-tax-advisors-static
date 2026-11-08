@@ -674,7 +674,7 @@
   {
     "url": "/blog/business-partner-expenses-unreimbursed/",
     "title": "Can a partner deduct expenses paid personally for a partnership?",
-    "description": "An unreimbursed partnership expense may be deductible by a partner when the partnership agreement requires the partner to bear it and reimbursement...",
+    "description": "Review when a partner’s unreimbursed expenses may be deductible, including agreement requirements, reimbursement rights and supporting records.",
     "category": "Entity Structuring",
     "date": "2026-09-22"
   },
@@ -1122,7 +1122,7 @@
   {
     "url": "/blog/c-corp-tax-strategy-business-owners/",
     "title": "C-Corp Tax Strategy for Business Owners: The 21% Rate Advantage (2026)",
-    "description": "How business owners use a C-Corp at the flat 21% rate: income shifting, the closely held corporation exception under IRC 469(a)(2), tax-free MERP medical...",
+    "description": "Compare C corporation tax planning with distributions, retained earnings, benefits, passive-loss rules and the owner’s eventual exit in view.",
     "category": "C-Corp Planning",
     "date": "2026-03-24"
   },
@@ -2816,7 +2816,7 @@
   {
     "url": "/blog/family-limited-partnership-tax-and-estate-benefits/",
     "title": "Family Limited Partnerships: Valuation Discounts, Control, and IRS Scrutiny",
-    "description": "A family limited partnership lets a senior generation transfer assets to children and grandchildren at a discount to underlying value while retaining...",
+    "description": "Review family limited partnership ownership, valuation, transfers and estate-planning requirements before assuming a discount or tax benefit.",
     "category": "Entity Structuring",
     "date": "2026-08-10"
   },
@@ -4762,7 +4762,7 @@
   {
     "url": "/blog/medical-equipment-tax-deductions-section-179/",
     "title": "Medical Equipment Tax Deductions: Section 179 for Healthcare Practices",
-    "description": "Imaging, dental chairs, surgical equipment, and lasers can be fully expensed in Year 1. The complications for practices are entity structure, the QBI...",
+    "description": "Review medical equipment classification, Section 179, bonus depreciation and practice ownership before relying on an equipment purchase deduction.",
     "category": "Equipment and Section 179",
     "date": "2026-08-05"
   },
@@ -6638,7 +6638,7 @@
   {
     "url": "/blog/rental-property-converted-home-basis/",
     "title": "What basis applies when a home becomes a rental?",
-    "description": "For depreciation after a personal residence converts to rental use, the starting basis is generally the lower of adjusted basis or fair market value...",
+    "description": "Determine depreciation basis when a personal home becomes a rental and preserve the separate cost and value records needed for a later sale.",
     "category": "Rental Property",
     "date": "2026-09-22"
   },
@@ -6729,7 +6729,7 @@
   {
     "url": "/blog/rental-property-land-value-allocation/",
     "title": "How do you split a rental purchase between land and building?",
-    "description": "Land is not depreciable, so the purchase price and qualifying acquisition costs must be allocated between land and depreciable improvements on a reasonable...",
+    "description": "Allocate rental purchase costs between nondepreciable land and improvements using supported values, then reconcile the basis and depreciation schedule.",
     "category": "Rental Property",
     "date": "2026-09-22"
   },
@@ -7184,7 +7184,7 @@
   {
     "url": "/blog/s-corp-tax-optimization-guide/",
     "title": "S-Corp Tax Optimization: Everything Business Owners Need to Know (2026)",
-    "description": "The complete 2026 guide to S-Corp tax optimization: when to elect, reasonable compensation, the QBI deduction, retirement plan stacking, accountable plans...",
+    "description": "Review S corporation elections, reasonable compensation, QBI, retirement plans and reimbursements as one coordinated owner-return decision.",
     "category": "S-Corp Planning",
     "date": "2026-03-17"
   },
@@ -7464,7 +7464,7 @@
   {
     "url": "/blog/short-term-rental-tax-strategy-guide/",
     "title": "Short-Term Rental Tax Strategy: The Complete Guide to the STR Loophole (2026)",
-    "description": "The complete 2026 guide to short-term rental tax strategy: the 7-day rule under IRC 469, material participation tests, cost segregation for STRs, offsetting W-2...",
+    "description": "Review short-term rental tax planning from average-stay tests and participation records to depreciation, personal use and deduction limitations.",
     "category": "Short-Term Rentals",
     "date": "2026-03-10"
   },
@@ -7660,7 +7660,7 @@
   {
     "url": "/blog/str-loophole-7-day-rule-explained/",
     "title": "The STR Loophole Explained: How the 7-Day Rule Saves Thousands",
-    "description": "The passive activity loss rules under IRC Sec. 469 are one of the biggest obstacles real estate investors face when trying to use rental losses to reduce...",
+    "description": "Learn how average guest stays affect the STR rental exception and why material participation and other loss limits still need separate review.",
     "category": "Short-Term Rentals",
     "date": "2026-08-07"
   },
@@ -7723,7 +7723,7 @@
   {
     "url": "/blog/str-tax-strategy-beginners-guide/",
     "title": "Short-Term Rental Tax Strategy for First-Time Investors",
-    "description": "A plain-English walkthrough of the STR tax strategy for first-time investors: what has to be true for it to work, what to do before you buy, and the mistakes...",
+    "description": "Start STR tax planning with the property facts, guest stays, participation and loss limits before relying on a cost segregation deduction.",
     "category": "Short-Term Rentals",
     "date": "2026-06-02"
   },
@@ -7842,7 +7842,7 @@
   {
     "url": "/blog/tax-planning-business-owners-making-500k/",
     "title": "Tax Planning for Business Owners Making $500K or More",
-    "description": "At $500K of income the default strategies stop working. Here is the planning stack that actually moves the number: entity design, compensation, retirement...",
+    "description": "Coordinate entity choice, owner compensation, retirement contributions and depreciation for a business earning $500K, using the full tax projection.",
     "category": "General Tax Planning",
     "date": "2026-04-07"
   },
@@ -7989,7 +7989,7 @@
   {
     "url": "/blog/tax-strategy-for-financial-advisors/",
     "title": "Tax Strategy for Financial Advisors: The SSTB Problem and What Works Around It",
-    "description": "Financial advisors face a specific structural disadvantage. Investment advisory and wealth management are explicitly specified service trades or businesses...",
+    "description": "Review tax planning for financial advisors, including S corporation compensation, SSTB and QBI limits, retirement plans and state considerations.",
     "category": "Working With Us",
     "date": "2026-08-10"
   },
