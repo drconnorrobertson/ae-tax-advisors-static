@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/compare/moss-adams-alternatives/",
+      "title": "Moss Adams Alternatives: Compare the Current Baker Tilly Offering",
+      "description": "Moss Adams now operates under Baker Tilly. Compare the current engagement with alternative tax advisors using scope, team and written fees."
+    },
+    {
+      "url": "/compare/moss-adams-vs-ae-tax/",
+      "title": "Moss Adams / Baker Tilly vs AE Tax Advisors: Compare Scope",
+      "description": "Compare the combined Baker Tilly offering with AE Tax Advisors by required work, engagement team, filing responsibilities and current fees."
+    }
+  ],
+  "linkOnlyPages": [
+    "/compare/tax-goddess-pricing/",
+    "/compare/kpmg-alternatives/",
+    "/compare/tax-alchemy-vs-tax-goddess/",
+    "/compare/rainwater-cpa-vs-tax-goddess/",
+    "/compare/tax-alchemy-alternatives/",
+    "/compare/tax-goddess-vs-ae-tax/",
+    "/compare/rainwater-cpa-alternatives/",
+    "/compare/tax-goddess-alternatives/"
+  ],
+  "basis": "Current official Baker Tilly combination page; current KPMG tax service URL; retain live Tax Goddess STC and GPS terms sources while removing the dead legacy-list entry."
+}
