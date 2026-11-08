@@ -1,0 +1,201 @@
+{
+  "reviewed": "2026-11-08",
+  "baseline_commit": "cf26d85a062d5d6787dbd4f57741f231e260b2ae",
+  "people": [
+    {
+      "slug": "jeffrey-levine",
+      "name": "Jeffrey Levine",
+      "brand": "Kitces education and speaking",
+      "group": "education",
+      "sources": [
+        [
+          "https://www.kitces.com/speaking/jeffrey-levine/",
+          "Jeffrey Levine official tax and retirement speaking profile"
+        ]
+      ],
+      "profile": "Kitces presents Jeffrey Levine as a speaker specializing in advanced tax and retirement planning. Its session menu covers Roth conversions, IRA beneficiaries and tax-planning principles for financial advisors.",
+      "offering": "The reviewed offering is professional speaking and education. A conference presentation or CE purchase is distinct from a private taxpayer engagement with a separately identified provider.",
+      "scenario": "You want to apply an advanced Roth or pass-through deduction presentation to your own return. Identify who reviews your records and implements the idea rather than treating event access as personal advice.",
+      "questions": [
+        "Is this speaking, CE or private client work?",
+        "Who accepts responsibility for my individual facts?",
+        "Which entity provides any planning or filing service?",
+        "What event, education and professional fees are separate?"
+      ],
+      "peer_slugs": [
+        "michael-kitces",
+        "steven-jarvis"
+      ],
+      "firm": null,
+      "boundary": "A speaker biography and technical session menu do not establish personal client access, tax-return preparation or current availability for a taxpayer engagement. Confirm the actual contracting entity and support scope.",
+      "fee": "The reviewed speaker page lists $8,000–$14,000 for in-person speaking and $3,000–$4,000 for virtual speaking. Those are event prices, not personal tax-planning or filing quotes; confirm current event terms.",
+      "alternative": "/compare/jeffrey-levine-alternatives/",
+      "comparison": "/compare/jeffrey-levine-vs-ae-tax/",
+      "review": "/compare/jeffrey-levine-reviews/"
+    },
+    {
+      "slug": "michael-kitces",
+      "name": "Michael Kitces",
+      "brand": "Kitces.com / Nerd’s Eye View",
+      "group": "education",
+      "sources": [
+        [
+          "https://www.kitces.com/about-michael/",
+          "Michael Kitces official education and publishing biography"
+        ]
+      ],
+      "profile": "Michael Kitces’s official biography describes financial planning education, professional speaking, The Kitces Report and the Nerd’s Eye View blog, including his background in taxation.",
+      "offering": "The platform provides research, webinars and financial-advisor resources and identifies separate businesses serving consumers or professionals. Education access is different from engaging a particular firm to advise on or file your taxes.",
+      "scenario": "You read technical tax research and want coordinated business and retirement decisions. Separate learning or professional membership from an engagement that reviews your complete records and assigns implementation.",
+      "questions": [
+        "Is the buyer an advisor, event organizer or taxpayer?",
+        "Which research, CE or training product is being purchased?",
+        "Which firm accepts any personal client work?",
+        "Who prepares returns and follows through on implementation?"
+      ],
+      "peer_slugs": [
+        "jeffrey-levine",
+        "dominique-molina"
+      ],
+      "firm": null,
+      "boundary": "A company connection or public research article does not establish a personal engagement with Michael. Confirm the current provider and service; do not assume every affiliated company has the same contract or prepares tax returns.",
+      "fee": "The reviewed biography does not establish one universal education, membership or private-client fee. Request the current price for the exact product and a separate proposal from the actual advisory firm.",
+      "alternative": "/compare/michael-kitces-alternatives/",
+      "comparison": "/compare/michael-kitces-vs-ae-tax/",
+      "review": "/compare/michael-kitces-reviews/"
+    },
+    {
+      "slug": "sean-mullaney",
+      "name": "Sean Mullaney",
+      "brand": "FI Tax Guy / Mullaney Financial & Tax",
+      "group": "retirement",
+      "sources": [
+        [
+          "https://fitaxguy.com/about-me/",
+          "Sean Mullaney official author, advice-only and tax education biography"
+        ],
+        [
+          "https://www.mullaneyfinancial.com/",
+          "Retirement planning scope and published fee"
+        ]
+      ],
+      "profile": "Sean Mullaney’s FI Tax Guy biography describes an advice-only financial planner, author and tax educator focused on financial independence, with a separate practice at Mullaney Financial & Tax.",
+      "offering": "The firm describes retirement financial planning covering tax strategy, Social Security, drawdown, investment allocation, estate arrangement review, insurance review and cash-flow needs.",
+      "scenario": "You are approaching early retirement with business income and want a tax-aware drawdown plan. Compare the complete financial-planning scope with a defined tax advisory project and separately assign execution and filing.",
+      "questions": [
+        "Which retirement and tax projections are delivered?",
+        "Who executes allocation or conversion recommendations?",
+        "Is return preparation included or separately contracted?",
+        "What follow-up, support period and additional fees apply?"
+      ],
+      "peer_slugs": [
+        "mike-piper",
+        "ed-slott"
+      ],
+      "firm": null,
+      "boundary": "Advice-only planning recommendations are not portfolio management, legal drafting or an automatic tax-preparation contract. The reviewed overview does not establish that every implementation or filing task is included; confirm the engagement.",
+      "fee": "The reviewed Mullaney Financial & Tax homepage lists a $7,800 financial-planning fee. Although that matches AE’s standard advisory amount numerically, the described services differ; compare deliverables, support and implementation rather than treating equal prices as equivalent scope.",
+      "alternative": "/compare/sean-mullaney-alternatives/",
+      "comparison": "/compare/sean-mullaney-vs-ae-tax/",
+      "review": "/compare/sean-mullaney-reviews/"
+    },
+    {
+      "slug": "mike-piper",
+      "name": "Mike Piper",
+      "brand": "Oblivious Investor / Michael Piper, LLC",
+      "group": "retirement",
+      "sources": [
+        [
+          "https://obliviousinvestor.com/about/",
+          "Mike Piper official tax and retirement education biography"
+        ],
+        [
+          "https://michaelrpiper.com/",
+          "Advice-only practice scope and tax preparation boundary"
+        ],
+        [
+          "https://michaelrpiper.com/services-fees/",
+          "Three-month engagement, fee and ongoing-service limitations"
+        ]
+      ],
+      "profile": "Mike Piper’s Oblivious Investor site identifies a CPA, author and creator of the Open Social Security calculator with tax, investing and retirement education.",
+      "offering": "His separate practice describes advice-only financial planning for retirees and near-retirees, including Roth conversions, withdrawal strategy, Social Security and investment recommendations. It expressly does not provide tax preparation or place portfolio trades.",
+      "scenario": "You are a financial DIYer wanting a retirement review and tax-aware withdrawal plan. Compare a time-limited advice-only engagement with ongoing management or filing services, and keep the assigned preparer involved.",
+      "questions": [
+        "Which analysis and recommendations are included?",
+        "Who executes trades or conversion instructions?",
+        "Who files the tax return and reconciles tax records?",
+        "What happens when the three-month engagement ends?"
+      ],
+      "peer_slugs": [
+        "sean-mullaney",
+        "megan-gorman"
+      ],
+      "firm": null,
+      "boundary": "The reviewed service page says new ongoing relationships are not currently accepted and later re-engagement is subject to availability. The homepage identifies rental real estate, equity compensation and international taxation among areas outside its strongest expertise. Confirm fit without generalizing this to the quality of its retirement service.",
+      "fee": "The reviewed service page lists $7,000 paid up front for a three-month engagement. It is not an annual management fee or tax-preparation package. Confirm current availability, support cutoff and any future new-engagement price.",
+      "alternative": "/compare/mike-piper-alternatives/",
+      "comparison": "/compare/mike-piper-vs-ae-tax/",
+      "review": "/compare/mike-piper-reviews/"
+    },
+    {
+      "slug": "justin-miller",
+      "name": "Justin Miller",
+      "brand": "Evercore Wealth Management and Trust",
+      "group": "wealth",
+      "sources": [
+        [
+          "https://www.evercore.com/team/justin-miller/",
+          "Justin Miller official current firm role, tax and estate planning biography"
+        ]
+      ],
+      "profile": "Evercore identifies Justin Miller as a partner and national director of wealth planning at Evercore Wealth Management and a managing director of Evercore Trust Company. His biography describes tax and estate planning publications and speaking.",
+      "offering": "The official profile describes advice to individuals and multigenerational families on estate, taxation, trust and wealth strategies, working collaboratively with accountants, attorneys and other advisors.",
+      "scenario": "You have family wealth, trusts and business succession issues. Compare the wealth and fiduciary relationship with the exact tax-planning, legal and return-preparation contracts involved.",
+      "questions": [
+        "Which entity supplies wealth planning or fiduciary services?",
+        "Who provides legal documents and files affected returns?",
+        "Are investment, trust and custody services required or separate?",
+        "What eligibility, fee basis and assigned-team terms apply?"
+      ],
+      "peer_slugs": [
+        "megan-gorman",
+        "eric-pierre"
+      ],
+      "firm": null,
+      "boundary": "A tax attorney background and wealth-planning role do not establish a private legal engagement or all-inclusive tax filing under one fee. AE’s defined advisory is not a replacement for investment management, fiduciary administration or a complete trust relationship.",
+      "fee": "The reviewed professional biography does not establish a fixed fee for the complete relationship. Request current wealth, trust, investment and tax-service fees from each actual provider; do not compare a full fiduciary relationship with a tax-plan price alone.",
+      "alternative": "/compare/justin-miller-alternatives/",
+      "comparison": "/compare/justin-miller-vs-ae-tax/",
+      "review": "/compare/justin-miller-reviews/"
+    }
+  ],
+  "pairs": [
+    [
+      "jeffrey-levine",
+      "michael-kitces",
+      "Both public profiles are connected to the Kitces education platform. Compare the particular speaker or education purchase rather than presenting them as necessarily independent firms or interchangeable taxpayer services."
+    ],
+    [
+      "michael-kitces",
+      "dominique-molina",
+      "Compare advisor research, training, certification and education using the intended audience and selected product. A professional learning purchase does not supply a personal taxpayer engagement."
+    ],
+    [
+      "sean-mullaney",
+      "mike-piper",
+      "Compare advice-only financial planning by tax projections, retirement analysis, execution assignments and support period. A $7,800 proposal and $7,000 three-month engagement describe different actual scopes; confirm both."
+    ],
+    [
+      "mike-piper",
+      "ed-slott",
+      "Compare a private time-limited advice-only engagement with retirement education and advisor introductions. Neither automatically provides income tax preparation or portfolio management."
+    ],
+    [
+      "justin-miller",
+      "megan-gorman",
+      "Compare family wealth and fiduciary work with personal CFO and tax services. Identify the entity, asset or trust fee basis, legal work and return-preparation assignments before comparing costs."
+    ]
+  ],
+  "selection": "Five absent identities confirmed against the 49-name inventory and compare routes. Official tax/retirement education and actual offerings; no measured search-demand ranking."
+}
