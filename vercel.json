@@ -3,6 +3,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/blog/s-corp-vs-c-corp-comparison-high-earners/",
+      "destination": "/blog/s-corp-vs-c-corp-high-income/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-vs-c-corp-comparison-high-earners",
+      "destination": "/blog/s-corp-vs-c-corp-high-income/",
+      "permanent": true
+    },
+    {
       "source": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status/",
       "destination": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status-reps/",
       "permanent": true
