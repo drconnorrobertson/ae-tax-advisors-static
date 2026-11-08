@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/guides/owner-tax-decisions/",
+      "links": [
+        "/business-equipment-delivered-not-installed-year-end/",
+        "/business-owner-large-accruals-before-signing-return/",
+        "/multi-unit-franchise-acquisition-tax-allocation/"
+      ]
+    },
+    {
+      "url": "/real-estate-depreciation/",
+      "links": [
+        "/commercial-property-seller-repair-credit-tax-basis/",
+        "/short-term-rental-open-while-pool-unfinished-depreciation/",
+        "/self-storage-expansion-cost-segregation-tax-review/"
+      ]
+    },
+    {
+      "url": "/compare/",
+      "links": [
+        "/compare/amanda-han-vs-brandon-hall/",
+        "/compare/duke-alexander-moore-vs-carter-cofield/",
+        "/compare/karlton-dennis-vs-jasmine-dilucci/",
+        "/compare/mark-j-kohler-vs-tom-wheelwright/",
+        "/compare/ryan-pineda-vs-brandon-hall/"
+      ]
+    },
+    {
+      "url": "/guides/",
+      "links": [
+        "/business-owners-can-cut/",
+        "/crypto-tax-business-owners/",
+        "/how-to-deduct-business-gifts-bonuses-and-incentives/",
+        "/the-business-owners-guide-to-section-465-at-risk-limitations-and-loss-recapture/",
+        "/tax-planning-checklist-by-quarter/"
+      ]
+    },
+    {
+      "url": "/about/",
+      "links": [
+        "/why-switch-to-ae-tax-advisors/",
+        "/partners/"
+      ]
+    },
+    {
+      "url": "/resources/",
+      "links": [
+        "/business-owner-tax-calculator/"
+      ]
+    }
+  ],
+  "basis": "Main-content graph identified these useful pages as only linked from the HTML sitemap. Add topical navigation, not a sitewide link dump."
+}
