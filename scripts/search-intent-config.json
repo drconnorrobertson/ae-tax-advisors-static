@@ -1217,7 +1217,9 @@
     "description": "Meet AE Tax Advisors and learn how the firm scopes tax planning, return preparation and cost segregation for business owners and real estate investors."
   },
   "c-corporation-strategy/advanced-c-corporation-tax-planning/index.html": {
-    "description": "Review C corporation ownership, related-party transactions, retained earnings and exit consequences before choosing a multi-entity tax structure."
+    "title": "Advanced C Corporation Tax Planning: Related Entities and Retained Earnings",
+    "description": "Evaluate related-party pricing, controlled groups, retained earnings, credits and international rules before adding entities to a C corporation structure.",
+    "h1": "Advanced C Corporation Tax Planning: Related Entities and Retained Earnings"
   },
   "contact/index.html": {
     "description": "Contact AE Tax Advisors to discuss tax planning, return preparation or cost segregation. Confirm your needs, service scope and next steps."
@@ -1336,5 +1338,20 @@
     "title": "Real Estate Syndication K-1: Income, Losses and Distributions",
     "description": "Reconcile a syndication K-1 with outside basis, debt, passive losses, cash distributions, state filings and sale reporting.",
     "h1": "Real Estate Syndication K-1: Income, Losses and Distributions"
+  },
+  "blog/can-i-amend-my-tax-return-to-claim-missed-deductions/index.html": {
+    "title": "Missed Tax Deductions: When an Amended Return Can Help",
+    "description": "Check eligibility, records, refund deadlines and accounting-method rules before amending a return for a missed deduction.",
+    "h1": "Missed Tax Deductions: When an Amended Return Can Help"
+  },
+  "blog/protecting-s-corp-basis-during-divorce/index.html": {
+    "title": "S-Corp Stock in Divorce: Basis, Distributions and Transfer Records",
+    "description": "Separate stock value from tax basis and review distributions, shareholder loans and S corporation eligibility before a divorce transfer.",
+    "h1": "S-Corp Stock in Divorce: Basis, Distributions and Transfer Records"
+  },
+  "reasonable-compensation-s-corp-irs/index.html": {
+    "title": "Reasonable Compensation for S-Corp Owners: IRS Factors and Records",
+    "description": "Set a supportable S corporation salary using duties, time, comparable pay and business income sources, then document and review it annually.",
+    "h1": "Reasonable Compensation for S-Corp Owners: IRS Factors and Records"
   }
 }
