@@ -829,5 +829,20 @@
     "title": "Separate LLC for Each Rental? Tax, Lending and Liability Tradeoffs",
     "description": "Decide how many rental LLCs to use by comparing ownership, state costs, lender consent, insurance and tax reporting\u2014not a promised tax saving.",
     "h1": "Separate LLC for Each Rental? Tax, Lending and Liability Tradeoffs"
+  },
+  "blog/passive-activity-loss-rules-rental-property/index.html": {
+    "title": "Active Participation in Rental Property: The $25,000 Allowance",
+    "description": "Learn what active participation means, how it differs from material participation, and when the rental real estate loss allowance phases out.",
+    "h1": "Active Participation in Rental Property: The $25,000 Allowance"
+  },
+  "blog/augusta-rule-rent-home-to-business/index.html": {
+    "title": "Renting Your Home to Your Business: Augusta Rule Implementation",
+    "description": "Check residence use, total rental days, business purpose, fair rent and entity status before claiming a home-rental exclusion and business deduction.",
+    "h1": "Renting Your Home to Your Business: Augusta Rule Implementation"
+  },
+  "blog/cost-segregation-airbnb-year-1-depreciation/index.html": {
+    "title": "Airbnb Cost Segregation: Calculate First-Year Depreciation",
+    "description": "Build an Airbnb depreciation estimate from supported basis, asset lives, acquisition dates, placed-in-service timing and usable loss limits.",
+    "h1": "Airbnb Cost Segregation: Calculate First-Year Depreciation"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/blog/cost-segregation-airbnb-year-1-depreciation/",
+      "title": "Airbnb Cost Segregation: Calculate First-Year Depreciation",
+      "description": "Build an Airbnb depreciation estimate from supported basis, asset lives, acquisition dates, placed-in-service timing and usable loss limits."
+    }
+  ]
+}
