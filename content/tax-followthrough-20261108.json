@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/blog/what-retirement-plan-gives-the-largest-tax-deduction/",
+      "title": "Which Retirement Plan Can Support the Largest Deduction?",
+      "description": "Compare retirement contribution capacity with actual deductibility, employee costs and funding commitments before choosing a large-contribution plan."
+    },
+    {
+      "url": "/c-corporation-strategy/dividends-distributions-double-tax/",
+      "title": "C-Corp Dividends: Double Tax, Salary and Distribution Rules",
+      "description": "Understand corporate profit tax, shareholder dividend tax, reasonable compensation and return of capital before comparing C corporation withdrawals."
+    },
+    {
+      "url": "/blog/oil-and-gas-working-interest-tax-deduction/",
+      "title": "Oil and Gas Working Interests: Tax Rules and Loss Limits",
+      "description": "Review liability structure, drilling-cost elections, loss limitations, AMT and later income before relying on an oil-and-gas working-interest deduction."
+    },
+    {
+      "url": "/blog/trucking-company-equipment-depreciation-fleet/",
+      "action": "Made FAQ offset claim consistent with the reviewed fleet model"
+    },
+    {
+      "url": "/blog/what-is-form-3115-and-how-does-it-relate-to-cost-segregation/",
+      "action": "Clarified automatic-change duplicate filing destination and added current IRS instructions"
+    },
+    {
+      "url": "/blog/form-3115-cost-segregation-catch-up/",
+      "action": "Clarified automatic-change duplicate filing destination and added current IRS instructions"
+    },
+    {
+      "url": "/blog/3115-change-accounting-method-playbook/",
+      "action": "Clarified automatic-change duplicate filing destination and added current IRS instructions"
+    },
+    {
+      "url": "/blog/str-amended-returns/",
+      "action": "Clarified automatic-change duplicate filing destination and added current IRS instructions"
+    },
+    {
+      "url": "/case-studies/amended-returns-missed-cost-seg/",
+      "action": "Clarified automatic-change duplicate filing destination and added current IRS instructions"
+    }
+  ]
+}

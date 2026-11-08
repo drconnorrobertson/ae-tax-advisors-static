@@ -504,5 +504,20 @@
     "title": "Can a Retirement Plan Support $300,000 of Contributions?",
     "description": "Evaluate a large retirement contribution proposal using wages, actuarial calculations, employee costs and combined deduction limits.",
     "h1": "Can a Retirement Plan Support $300,000 of Contributions?"
+  },
+  "blog/what-retirement-plan-gives-the-largest-tax-deduction/index.html": {
+    "title": "Which Retirement Plan Can Support the Largest Deduction?",
+    "description": "Compare retirement contribution capacity with actual deductibility, employee costs and funding commitments before choosing a large-contribution plan.",
+    "h1": "Which Retirement Plan Can Support the Largest Deduction?"
+  },
+  "c-corporation-strategy/dividends-distributions-double-tax/index.html": {
+    "title": "C-Corp Dividends: Double Tax, Salary and Distribution Rules",
+    "description": "Understand corporate profit tax, shareholder dividend tax, reasonable compensation and return of capital before comparing C corporation withdrawals.",
+    "h1": "C-Corp Dividends: Double Tax, Salary and Distribution Rules"
+  },
+  "blog/oil-and-gas-working-interest-tax-deduction/index.html": {
+    "title": "Oil and Gas Working Interests: Tax Rules and Loss Limits",
+    "description": "Review liability structure, drilling-cost elections, loss limitations, AMT and later income before relying on an oil-and-gas working-interest deduction.",
+    "h1": "Oil and Gas Working Interests: Tax Rules and Loss Limits"
   }
 }
