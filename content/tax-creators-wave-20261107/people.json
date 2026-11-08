@@ -1,0 +1,213 @@
+{
+  "reviewed": "2026-11-07",
+  "baseline_commit": "d4aa6568b5faf3c227c9fac55658f773c2113f1d",
+  "people": [
+    {
+      "slug": "courtney-epps",
+      "name": "Courtney Epps",
+      "brand": "OTB Tax",
+      "group": "business",
+      "sources": [
+        [
+          "https://otbtax.com/",
+          "Courtney Epps public biography, education and introductory session"
+        ],
+        [
+          "https://otbtax.com/services/",
+          "OTB Tax service categories"
+        ]
+      ],
+      "profile": "OTB Tax identifies Courtney Epps as its founder, tax strategist, author and speaker. The public site connects her education platform with an accounting and tax service business.",
+      "offering": "The site describes accounting, payroll and tax services alongside strategy sessions, books, courses and events. Compare the initial session with the complete professional engagement.",
+      "scenario": "You discovered a home-business deduction video and need your business books, payroll and tax filings coordinated. Ask what the initial session produces and which later services require another agreement.",
+      "questions": [
+        "What written deliverable does the initial strategy session provide?",
+        "Which accounting, payroll and returns are included in the full proposal?",
+        "Who implements recommendations and checks eligibility?",
+        "What continuing support, renewals and additional fees apply?"
+      ],
+      "peer_slugs": [
+        "tiffany-phillips",
+        "karlton-dennis"
+      ],
+      "firm": null,
+      "boundary": "A preliminary session and an education purchase do not establish an all-inclusive planning, implementation or filing contract. Ask the assigned team to document the scope and evaluate your facts; no marketed savings are adopted as a guaranteed result.",
+      "fee": "The reviewed homepage advertises a $99 tax strategy session. That introductory session price is not a quote for a complete ongoing accounting, planning and filing engagement. Confirm current availability and subsequent fees.",
+      "alternative": "/compare/courtney-epps-alternatives/",
+      "comparison": "/compare/courtney-epps-vs-ae-tax/",
+      "review": "/compare/courtney-epps-reviews/"
+    },
+    {
+      "slug": "andrew-poulos",
+      "name": "Andrew Poulos",
+      "brand": "Poulos Accounting & Consulting",
+      "group": "resolution",
+      "sources": [
+        [
+          "https://www.poulosaccounting.com/",
+          "Poulos Accounting public services and media work"
+        ],
+        [
+          "https://www.poulosaccounting.com/our-team/",
+          "Andrew Poulos biography, education and professional role"
+        ]
+      ],
+      "profile": "Poulos Accounting identifies Andrew Poulos as an enrolled agent, author, speaker and host of Financial Smarts Network. Its team page describes his public tax and financial education work.",
+      "offering": "The firm describes bookkeeping, payroll, preparation, business consulting and IRS audit and collection representation. These are separate tasks that should be assigned in the engagement.",
+      "scenario": "You saw a tax segment and have both current business returns and a payroll tax notice. Compare forward planning, compliance and representation with their own deadlines and deliverables.",
+      "questions": [
+        "Who reviews the notice and takes responsibility for the response deadline?",
+        "Which current returns and bookkeeping tasks are included?",
+        "Is audit or collection representation a separate agreement?",
+        "Who performs the work and how are fees and additional scope charged?"
+      ],
+      "peer_slugs": [
+        "logan-allec",
+        "eric-green"
+      ],
+      "firm": null,
+      "boundary": "A media appearance or educational course does not establish personal access to Andrew or a representation engagement. Confirm the assigned professional, authorization and actual notice scope before changing providers.",
+      "fee": "The reviewed homepage and team biography do not establish a universal fixed project fee. Request separate written pricing for accounting, preparation, planning and any IRS representation.",
+      "alternative": "/compare/andrew-poulos-alternatives/",
+      "comparison": "/compare/andrew-poulos-vs-ae-tax/",
+      "review": "/compare/andrew-poulos-reviews/"
+    },
+    {
+      "slug": "eric-green",
+      "name": "Eric Green",
+      "brand": "Tax Rep Network / Green & Sklarz",
+      "group": "resolution",
+      "sources": [
+        [
+          "https://ericgreentax.com/",
+          "Eric Green public speaking, books and podcast"
+        ],
+        [
+          "https://taxrepnetwork.com/about",
+          "Professional network and legal-practice distinction"
+        ],
+        [
+          "https://taxrepnetwork.com/membership",
+          "Practitioner membership tiers and price evidence"
+        ]
+      ],
+      "profile": "Eric Green’s official platform describes a tax attorney, author, speaker and Tax Rep Network podcast host. Tax Rep Network identifies his separate role as a Green & Sklarz partner.",
+      "offering": "Tax Rep Network provides training, software, practitioner resources and case support for tax professionals. A taxpayer legal representation matter requires a separate engagement with the actual legal provider.",
+      "scenario": "You need help with an IRS collection matter after hearing a podcast. First determine whether you are a practitioner buying case support or a taxpayer seeking representation; those are different contracts.",
+      "questions": [
+        "Am I buying practitioner education or taxpayer representation?",
+        "Which entity and professional accept my actual matter?",
+        "What notice, audit, collection or litigation tasks are covered?",
+        "Which membership, legal, expert or additional fees apply?"
+      ],
+      "peer_slugs": [
+        "andrew-poulos",
+        "logan-allec"
+      ],
+      "firm": null,
+      "boundary": "Professional membership and case support do not automatically make the subscriber’s client Eric’s legal client. AE’s general advisory scope also should not be treated as a substitute for criminal tax counsel or litigation.",
+      "fee": "The membership page lists Essential at $37/month and Professional at $399/month. Its Accelerator card shows $1,500/month while the FAQ asks buyers to contact the team for details; confirm that premium program’s current terms. None of these is a taxpayer legal representation quote.",
+      "alternative": "/compare/eric-green-alternatives/",
+      "comparison": "/compare/eric-green-vs-ae-tax/",
+      "review": "/compare/eric-green-reviews/"
+    },
+    {
+      "slug": "dominique-molina",
+      "name": "Dominique Molina",
+      "brand": "American Institute of Certified Tax Planners",
+      "group": "education",
+      "sources": [
+        [
+          "https://certifiedtaxcoach.org/dmolina/",
+          "Dominique Molina official biography and education platforms"
+        ]
+      ],
+      "profile": "AICTP identifies Dominique Molina as its co-founder and president, a speaker and author. Her biography describes professional training and educational publishing through Think Outside The Tax Box and MidasIQ.",
+      "offering": "The site offers tax-planning education and certification plus routes to find a tax planner. A member’s professional engagement is distinct from buying education or receiving a directory introduction.",
+      "scenario": "You follow proactive planning content and want to engage a planner. Separate the training organization, publication subscription and actual firm that will review your business records.",
+      "questions": [
+        "Is this professional education, a publication or a client engagement?",
+        "Who is the contracting planner and assigned professional?",
+        "Which implementation tasks and affected returns are included?",
+        "What training, membership and client-service fees are separate?"
+      ],
+      "peer_slugs": [
+        "jackie-meyer",
+        "tom-wheelwright"
+      ],
+      "firm": null,
+      "boundary": "A private training or certification program is not proof of a government license, personal service access or a particular tax outcome. Confirm the actual professional’s credentials and engagement; the biography does not establish current private-client availability with Dominique.",
+      "fee": "The reviewed biography does not establish a fixed taxpayer-service fee. Request current pricing for the specific education product and a separate written proposal from the engaged planner.",
+      "alternative": "/compare/dominique-molina-alternatives/",
+      "comparison": "/compare/dominique-molina-vs-ae-tax/",
+      "review": "/compare/dominique-molina-reviews/"
+    },
+    {
+      "slug": "ed-slott",
+      "name": "Ed Slott",
+      "brand": "Ed Slott and Company",
+      "group": "retirement",
+      "sources": [
+        [
+          "https://irahelp.com/edslott",
+          "Official Ed Slott author and educator biography"
+        ],
+        [
+          "https://irahelp.com/about-us/",
+          "Education company and product boundary"
+        ],
+        [
+          "https://irahelp.com/find-an-advisor/",
+          "Advisor directory terms and responsibility distinction"
+        ]
+      ],
+      "profile": "Ed Slott and Company describes Ed Slott as a CPA, retirement tax educator, author and public speaker. His platform includes IRA education and an advisor-training network.",
+      "offering": "The company describes education for consumers and financial professionals and says it neither sells nor endorses a particular financial product. Its advisor directory introduces separate advisors whose services require their own review and engagement.",
+      "scenario": "You watched retirement tax education and want a Roth conversion analysis connected to your business income. Compare educational resources with a named advisor’s projection, implementation and filing responsibilities.",
+      "questions": [
+        "Who contracts for my personal retirement tax analysis?",
+        "Is the purchase education, advisor training or a professional service?",
+        "Who coordinates tax projections, custodian instructions and filing?",
+        "Are investment management, insurance or other product fees separate?"
+      ],
+      "peer_slugs": [
+        "megan-gorman",
+        "tom-wheelwright"
+      ],
+      "firm": null,
+      "boundary": "An advisor-directory listing is not an engagement with Ed Slott. The directory terms disclaim responsibility for listed advisors’ services. AE’s defined tax advisory is not a substitute for custody, investment management or complete retirement financial planning.",
+      "fee": "The reviewed biography, company overview and directory terms do not establish a universal private-client tax planning fee. Price education and any separately engaged advisor services on their own terms.",
+      "alternative": "/compare/ed-slott-alternatives/",
+      "comparison": "/compare/ed-slott-vs-ae-tax/",
+      "review": "/compare/ed-slott-reviews/"
+    }
+  ],
+  "pairs": [
+    [
+      "courtney-epps",
+      "tiffany-phillips",
+      "Compare an introductory strategy session with a complete business advisory and filing proposal. Ask for the same bookkeeping, payroll, implementation and returns before comparing total fees."
+    ],
+    [
+      "andrew-poulos",
+      "eric-green",
+      "Compare taxpayer accounting and representation with practitioner training and legal representation supplied under a separate contract. Identify who owns the notice deadline and actual taxpayer matter."
+    ],
+    [
+      "eric-green",
+      "logan-allec",
+      "A taxpayer with a collection problem should compare the engaged representation provider, not a professional education membership against a resolution fee. Ask which entity accepts the case and which stages are included."
+    ],
+    [
+      "dominique-molina",
+      "jackie-meyer",
+      "Compare professional planning education, credentials, software and publications by their intended buyer. An advisor tool or training purchase does not itself create a taxpayer engagement."
+    ],
+    [
+      "ed-slott",
+      "megan-gorman",
+      "Compare retirement tax education and advisor introductions with a broader personal CFO or wealth relationship. Separate tax analysis, portfolio work, custody and filing in the actual proposal."
+    ]
+  ],
+  "selection": "Five absent identities confirmed against the 34-creator inventory and compare routes. Official public education, media and service sources; no search-volume ranking."
+}
