@@ -1316,5 +1316,25 @@
     "title": "Business Meals and Travel Deductions: Separate the Expense Types",
     "description": "Document business travel and meals, exclude personal costs and apply entertainment and meal limits to the correct category.",
     "h1": "Business Meals and Travel Deductions: Separate the Expense Types"
+  },
+  "blog/how-to-convert-long-term-rental-to-short-term-rental-for-taxes/index.html": {
+    "title": "LTR to STR Conversion: Tax Records and Transition Decisions",
+    "description": "Review actual rental use, guest stays, participation, depreciation history and suspended losses before converting an LTR to an STR.",
+    "h1": "LTR to STR Conversion: Tax Records and Transition Decisions"
+  },
+  "blog/tax-planning-strategies-for-doctors-and-physicians/index.html": {
+    "title": "Physician Tax Planning: W-2, Locum Tenens and Practice Income",
+    "description": "Coordinate physician wages, independent-contractor work, retirement plans and practice ownership using the actual compensation and records.",
+    "h1": "Physician Tax Planning: W-2, Locum Tenens and Practice Income"
+  },
+  "blog/s-corp-vs-c-corp-high-income/index.html": {
+    "title": "S-Corp vs C-Corp at High Income: Compare Owner Cash and Exit Tax",
+    "description": "Compare wages, distributions, QBI, retained earnings, state tax and exit consequences before choosing S or C corporation treatment.",
+    "h1": "S-Corp vs C-Corp at High Income: Compare Owner Cash and Exit Tax"
+  },
+  "blog/how-does-syndication-k1-income-affect-my-taxes/index.html": {
+    "title": "Real Estate Syndication K-1: Income, Losses and Distributions",
+    "description": "Reconcile a syndication K-1 with outside basis, debt, passive losses, cash distributions, state filings and sale reporting.",
+    "h1": "Real Estate Syndication K-1: Income, Losses and Distributions"
   }
 }
