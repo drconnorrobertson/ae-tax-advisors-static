@@ -9,7 +9,22 @@ entries=archive.load();expected={e['url'] for e in entries};assert len(expected)
 migration=json.loads((ROOT/'scripts/blog-archive-migration.json').read_text())
 original={e['canonical'] for e in migration['routes'] if 'canonical' in e}
 additional={e['canonical'] for e in migration['routes'] if e.get('origin')=='additional-approved-link'}
-assert len(original)==1232 and len(additional)==409 and original<=expected
+assert len(original)==1232 and len(additional)==409
+# Historical migration coverage survives an explicit editorial consolidation.
+# A missing card is acceptable only with a permanent host redirect to a current
+# canonical article; simply deleting it from the catalog must still fail.
+host_redirects=json.loads((ROOT/'vercel.json').read_text()).get('redirects',[])
+def resolve_migrated(routes):
+ resolved=set()
+ for route in routes:
+  if route in expected:
+   resolved.add(route);continue
+  assert any(r.get('source')==route and r.get('permanent') is True for r in host_redirects), 'Missing permanent consolidation redirect: '+route
+  destination=archive.article(route)['url']
+  assert destination in expected, 'Consolidated destination absent from archive: '+route
+  resolved.add(destination)
+ return resolved
+assert resolve_migrated(original)<=expected
 search=json.loads((out/'assets/blog-search-index.json').read_text())
 assert {e['url']for e in search}==expected and len(search)==len(expected)
 assert collections.Counter(e['category'] for e in search)==collections.Counter(e['category'] for e in entries)
@@ -42,7 +57,7 @@ for number in range(1,pages+1):
   f=out/urlsplit(html.unescape(href)).path.lstrip('/')
   assert f.is_file() or (f/'index.html').is_file() or f.with_suffix('.html').is_file(),href
 assert set(seen)==expected and len(seen)==len(expected),'Coverage missing or duplicated'
-assert additional<=set(seen),'Noncard migration links lost'
+assert resolve_migrated(additional)<=set(seen),'Noncard migration links lost'
 for e in entries: assert archive.article(e['url'],e['category'])['url']==e['url']
 ns={'s':archive.NS};xml=ET.parse(out/'sitemap-blog-archive.xml');locs={e.text for e in xml.findall('s:url/s:loc',ns)}
 assert locs==canonicals
