@@ -41,11 +41,15 @@
   },
   "tax-planning-for-high-net-worth-individuals-facing-large-capital-gains-events/index.html": {
     "heading": "Coordinate this decision with your broader tax plan",
-    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE\u2019s fees and engagement scope</a> before deciding what support to request.</p>"
+    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE\u2019s fees and engagement scope</a> before deciding what support to request.</p>",
+    "title": "Tax Planning For High Net Worth Individuals Facing Large Capital",
+    "description": "Tax Planning for Capital Gains Events: Business Sales and Equity Exits. Review eligibility, timing and the records needed for a supported tax decision."
   },
   "tax-planning-for-high-net-worth-individuals-with-private-equity-income/index.html": {
     "heading": "Coordinate this decision with your broader tax plan",
-    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE\u2019s fees and engagement scope</a> before deciding what support to request.</p>"
+    "body": "<p>Specialist decisions should be evaluated alongside your other income, entities, property and filing responsibilities. Review <a href=\"/high-net-worth-tax-compliance-and-planning-services/\">high-net-worth tax planning services</a> and <a href=\"/pricing/\">AE\u2019s fees and engagement scope</a> before deciding what support to request.</p>",
+    "title": "Tax Planning For High Net Worth Individuals With Private Equity Income",
+    "description": "Tax Planning for Private Equity Income. Review eligibility, timing and the records needed for a supported tax decision."
   },
   "tax-planning-for-high-net-worth-individuals-with-complex-partnership-and-k1-income/index.html": {
     "heading": "Coordinate this decision with your broader tax plan",
@@ -984,5 +988,181 @@
     "title": "How to Report Cost Segregation on a Tax Return",
     "description": "Turn a cost segregation study into asset schedules, depreciation forms and supported owner deductions; distinguish current-year reporting from lookback changes.",
     "h1": "How to Report Cost Segregation on a Tax Return"
+  },
+  "accountable-plan/index.html": {
+    "title": "Set Up an Accountable Plan: Reimbursements and Payroll Controls",
+    "description": "Build a reimbursement process around business connection, timely substantiation, excess repayment and consistent payroll treatment.",
+    "h1": "Set Up an Accountable Plan: Reimbursements and Payroll Controls"
+  },
+  "accountable-plans-the-right-way-to-reimburse-yourself-from-your-business/index.html": {
+    "title": "Accountable Plan Documentation: What to Submit and Retain",
+    "description": "Prepare receipts, business-purpose records, allocations and payment evidence for employee and owner-employee reimbursements.",
+    "h1": "Accountable Plan Documentation: What to Submit and Retain"
+  },
+  "blog/restaurant-equipment-tax-write-off-commercial-kitchen/index.html": {
+    "title": "Restaurant Equipment Write-Offs: Assets, QIP and Deduction Limits",
+    "description": "Classify kitchen equipment and buildout costs, review lease ownership and compare Section 179 with eligible bonus depreciation.",
+    "h1": "Restaurant Equipment Write-Offs: Assets, QIP and Deduction Limits"
+  },
+  "blog/do-i-need-to-collect-sales-tax-on-airbnb-rental-income/index.html": {
+    "title": "Airbnb Occupancy and Sales Taxes: What Hosts Must Verify",
+    "description": "Check location-specific lodging taxes, platform collection, direct bookings and continuing filing duties for each short-term rental.",
+    "h1": "Airbnb Occupancy and Sales Taxes: What Hosts Must Verify"
+  },
+  "tax-implications-divorce-high-net-worth-individuals/index.html": {
+    "title": "Tax Implications Divorce High Net Worth | AE Tax Advisors",
+    "description": "Tax Implications of Divorce for High-Net-Worth Individuals. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-optimization-strategies-for-high-net-worth-entrepreneurs/index.html": {
+    "title": "Tax Optimization Strategies For High Net (2026) | AE Tax Advisors",
+    "description": "Tax Optimization Strategies for High-Net-Worth Entrepreneurs. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "s-corp-vs-llc-tax-savings/index.html": {
+    "title": "S-Corp Vs LLC Tax Savings (2026) | AE Tax Advisors",
+    "description": "S-Corp vs. LLC: Which Saves More Taxes for Your Business. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "qualified-business-income-deduction-20-percent-pass-through/index.html": {
+    "title": "Qualified Business Income Deduction 20 (2026) | AE Tax Advisors",
+    "description": "The Qualified Business Income Deduction: Maximize Your 20% Pass-Through Tax Break. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "repairs-improvements-rule-changes/index.html": {
+    "title": "Repairs Improvements Rule Changes (2026) | AE Tax Advisors",
+    "description": "Repairs vs. Improvements: Understanding Rule Changes and Deduction Strategy. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "set-accountable-plan-business/index.html": {
+    "title": "Accountable Plan for Business Owners | AE Tax Advisors",
+    "description": "Set Up an Accountable Plan in Your Business: Tax-Free Reimbursements. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "short-term-rental-tax-planning-the-playbook-most-hosts-never-use/index.html": {
+    "title": "Short Term Rental Tax Planning The Playbook Most Hosts Never Use",
+    "description": "Short-Term Rental Tax Planning: The Playbook Most Hosts Never Use. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-planning-for-high-net-worth-families-with-generational-wealth-strategies/index.html": {
+    "title": "Tax Planning For High Net Worth Families (2026) | AE Tax Advisors",
+    "description": "Tax Planning for High-Net-Worth Families: Generational Wealth Strategies. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-planning-for-high-net-worth-individuals-transitioning-into-retirement/index.html": {
+    "title": "Tax Planning For High Net Worth Individuals Transitioning Into (2026)",
+    "description": "Tax Planning for Transitioning Into Retirement. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "real-estate-professional-status-what-it-is-and-what-the-irs-looks-for/index.html": {
+    "title": "Real Estate Professional Status: IRS Tests | AE Tax Advisors",
+    "description": "Real Estate Professional Status: What It Is and What the IRS Examines. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "real-estate-professional-status-reps-how-to-qualify/index.html": {
+    "title": "Real Estate Professional Status REPS How To Qualify (2026)",
+    "description": "Real Estate Professional Status for REPs: How to Qualify and Document. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-planning-for-high-net-worth-individuals-with-multiple-streams-of-passive-income/index.html": {
+    "title": "Tax Planning For High Net Worth Individuals With Multiple Streams Of",
+    "description": "Tax Planning for Multiple Streams of Passive Income. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "s-corp-election-timing-deadlines-late-relief-and-how-to-fix-mistakes/index.html": {
+    "title": "S-Corp Election Timing Deadlines Late | AE Tax Advisors",
+    "description": "S-Corp Election Timing, Deadlines, Late Relief, and How to Fix Mistakes. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "retirement-tax-planning-minimize-taxes-retirement-income/index.html": {
+    "title": "Retirement Tax Planning Minimize Taxes (2026) | AE Tax Advisors",
+    "description": "Retirement Tax Planning: Minimize Taxes on Your Retirement Income. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "short-term-rental-tax-planning-playbook/index.html": {
+    "title": "Short Term Rental Tax Planning Playbook (2026) | AE Tax Advisors",
+    "description": "Short-Term Rental Tax Planning Playbook: Maximize Deductions. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-credits-vs-deductions-which-saves-you-more/index.html": {
+    "title": "Tax Credits Vs Deductions Which Saves You (2026) | AE Tax Advisors",
+    "description": "Tax Credits vs. Deductions: Which Saves You More Money. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-planning-for-high-net-worth-individuals-with-complex-investment-portfolios/index.html": {
+    "title": "Tax Planning For High Net Worth Individuals With Complex Investment",
+    "description": "Tax Planning for Complex Investment Portfolios. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "deferred-compensation-planning-high-income-executives/index.html": {
+    "title": "Deferred Compensation Planning High Income (2026) | AE Tax Advisors",
+    "description": "Deferred Compensation Planning for High-Income Executives. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "deduct-vehicle-right-way/index.html": {
+    "title": "Deduct Vehicle Right Way | AE Tax Advisors",
+    "description": "Deduct Your Vehicle the Right Way. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "pay-kids-family-business/index.html": {
+    "title": "Pay Your Kids From a Family Business | AE Tax Advisors",
+    "description": "Pay Your Kids in Your Family Business: Tax Strategy & Compliance. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-planning-strategy/index.html": {
+    "title": "Tax Planning Strategy (2026) | AE Tax Advisors",
+    "description": "Tax Planning Strategy: Building Your Personalized Tax Reduction Plan. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "qualified-opportunity-zones-2026-tax-benefits/index.html": {
+    "title": "Qualified Opportunity Zones 2026 Tax | AE Tax Advisors",
+    "description": "Qualified Opportunity Zones: 2026 Tax Benefits and Strategic Deployment. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-savings-strategy/index.html": {
+    "title": "Tax Savings Strategy (2026) | AE Tax Advisors",
+    "description": "Tax Savings Strategy: Proven Year-Round Tactics. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "real-estate-bookkeeping/index.html": {
+    "title": "Real Estate Bookkeeping | AE Tax Advisors",
+    "description": "Real Estate Bookkeeping: Building Systems That Support Tax Planning. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-deductions-rental-property-owners-complete-checklist/index.html": {
+    "title": "Tax Deductions Rental Property Owners | AE Tax Advisors",
+    "description": "Tax Deductions for Rental Property Owners: Complete Checklist. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "retirement-tax-planning-for-high-net-worth-couples/index.html": {
+    "title": "Retirement Tax Planning For High Net Worth (2026) | AE Tax Advisors",
+    "description": "Retirement Tax Planning for High-Net-Worth Couples: Coordination Strategies. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "s-corp-election-timing-late-relief/index.html": {
+    "title": "S-Corp Election Timing Late Relief | AE Tax Advisors",
+    "description": "S-Corp Election Timing and Late Relief: Rescue Options for Missed Deadlines. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "plan-quarterly-taxes-without/index.html": {
+    "title": "Plan Quarterly Taxes Without | AE Tax Advisors",
+    "description": "How to Plan Your Quarterly Taxes Without Surprises. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-benefits-owning-rental-property-high-income-investors/index.html": {
+    "title": "Tax Benefits Owning Rental Property High | AE Tax Advisors",
+    "description": "Tax Benefits of Owning Rental Property: A Guide for High-Income Investors. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-planning-strategies-for-high-net-worth-individuals-with-business-exit-events/index.html": {
+    "title": "Tax Planning Strategies for Business Exit Events (2026)",
+    "description": "Tax Planning Strategies for Business Exit Events. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-planning-for-high-net-worth-individuals-with-significant-real-estate-holdings/index.html": {
+    "title": "Tax Planning For High Net Worth Individuals With Significant Real",
+    "description": "Tax Planning for Significant Real Estate Holdings. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "passive-activity-loss-rules-why-i-own-real-estate-is-not-enough/index.html": {
+    "title": "Passive Activity Loss Rules Why I Own Real (2026) | AE Tax Advisors",
+    "description": "Passive Activity Loss Rules: Why Ownership Alone Isn't Enough. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-loss-carryforward-prior-year-losses-reduce-taxes/index.html": {
+    "title": "Tax Loss Carryforward Prior Year Losses | AE Tax Advisors",
+    "description": "Tax Loss Carryforward: How Prior Year Losses Reduce Your Taxes. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "deduct-home-office-correctly/index.html": {
+    "title": "Deduct Home Office Correctly | AE Tax Advisors",
+    "description": "Deduct Home Office Correctly. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-planning-for-high-net-worth-individuals-with-stock-options-and-equity-compensation/index.html": {
+    "title": "Tax Planning For High Net Worth Individuals With Stock Options (2026)",
+    "description": "Tax Planning for Stock Options and Equity Compensation. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-estate-planning-high/index.html": {
+    "title": "Tax Estate Planning High (2026) | AE Tax Advisors",
+    "description": "Tax and Estate Planning for High-Net-Worth Individuals. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-planning-strategies-for-high-net-worth-trust-and-estate/index.html": {
+    "title": "Tax Planning Strategies For High Net Worth (2026) | AE Tax Advisors",
+    "description": "Tax Planning Strategies for Trust and Estate Planning. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "should-hire-professional-tax/index.html": {
+    "title": "Should Hire Professional Tax | AE Tax Advisors",
+    "description": "Should You Hire a Professional Tax Advisor? The Real ROI. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "tax-planning-for-high-net-worth-individuals-with-multiple-properties/index.html": {
+    "title": "Tax Planning For High Net Worth Individuals With Multiple Properties",
+    "description": "Tax Planning for Multiple Properties. Review eligibility, timing and the records needed for a supported tax decision."
   }
 }
