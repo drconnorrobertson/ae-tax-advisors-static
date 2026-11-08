@@ -1164,5 +1164,45 @@
   "tax-planning-for-high-net-worth-individuals-with-multiple-properties/index.html": {
     "title": "Tax Planning For High Net Worth Individuals With Multiple Properties",
     "description": "Tax Planning for Multiple Properties. Review eligibility, timing and the records needed for a supported tax decision."
+  },
+  "top-deductions-most-small/index.html": {
+    "title": "Small-Business Tax Deductions: What to Review Before Filing",
+    "description": "Review common business deductions with the records, eligibility rules and limits needed to support the return.",
+    "h1": "Small-Business Tax Deductions: What to Review Before Filing"
+  },
+  "business-owners-can-cut/index.html": {
+    "title": "Business Tax Reduction Plan: Compare Costs and Cash Flow",
+    "description": "Build a supported tax-reduction plan using a consistent baseline, actual eligibility, implementation costs and future tax effects.",
+    "h1": "Business Tax Reduction Plan: Compare Costs and Cash Flow"
+  },
+  "1099s-small-businesses-simple/index.html": {
+    "title": "1099 Income for Small Businesses: Reconcile Payments and Expenses",
+    "description": "Reconcile tax forms with gross receipts, business records, expenses and estimated payments before filing self-employment income.",
+    "h1": "1099 Income for Small Businesses: Reconcile Payments and Expenses"
+  },
+  "10-common-tax-mistakes-most-professionals-make-every-year/index.html": {
+    "title": "10 Tax-Return Mistakes Professionals Should Check",
+    "description": "Review income, expenses, elections, owner payments and filing records for common errors before submitting a professional\u2019s tax returns.",
+    "h1": "10 Tax-Return Mistakes Professionals Should Check"
+  },
+  "blog/tax-strategy-for-day-traders/index.html": {
+    "title": "Day Trader Taxes: Status, Section 475 and Election Timing",
+    "description": "Separate trader status from mark-to-market accounting, preserve election evidence and review trading, investment and loss reporting.",
+    "h1": "Day Trader Taxes: Status, Section 475 and Election Timing"
+  },
+  "blog/how-to-use-depreciation-to-reduce-taxes-on-rental-income/index.html": {
+    "title": "Rental Depreciation: From Property Basis to the Usable Deduction",
+    "description": "Calculate rental depreciation using supported basis, service dates and asset classes, then apply personal-use and loss limitations.",
+    "h1": "Rental Depreciation: From Property Basis to the Usable Deduction"
+  },
+  "blog/what-is-a-series-llc-and-should-i-use-one/index.html": {
+    "title": "Series LLC for Real Estate: State Rules, Tax Filings and Costs",
+    "description": "Review a series LLC against separate entities using property locations, legal requirements, lender acceptance and tax filing obligations.",
+    "h1": "Series LLC for Real Estate: State Rules, Tax Filings and Costs"
+  },
+  "blog/irc-469-closely-held-c-corp-passive-losses/index.html": {
+    "title": "Closely Held C-Corp Passive Losses: The Section 469(e)(2) Rule",
+    "description": "Test corporate status, net active income, passive credits and other limits before relying on the closely held C corporation exception.",
+    "h1": "Closely Held C-Corp Passive Losses: The Section 469(e)(2) Rule"
   }
 }
