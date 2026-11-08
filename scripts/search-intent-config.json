@@ -1225,7 +1225,9 @@
     "description": "Contact AE Tax Advisors to discuss tax planning, return preparation or cost segregation. Confirm your needs, service scope and next steps."
   },
   "blog/medical-equipment-tax-deductions-section-179/index.html": {
-    "description": "Review medical equipment classification, Section 179, bonus depreciation and practice ownership before relying on an equipment purchase deduction."
+    "title": "Medical Equipment Deductions: Section 179, Bonus and Practice Basis",
+    "description": "Review equipment ownership, installation, Section 179 limits, bonus eligibility and shareholder basis before projecting a medical-practice deduction.",
+    "h1": "Medical Equipment Deductions: Section 179, Bonus and Practice Basis"
   },
   "blog/str-loophole-7-day-rule-explained/index.html": {
     "description": "Learn how average guest stays affect the STR rental exception and why material participation and other loss limits still need separate review."
@@ -1388,5 +1390,45 @@
     "title": "Pennsylvania Cost Segregation: Bonus, Section 179 and State Basis",
     "description": "Model Pennsylvania cost segregation separately from federal depreciation, including bonus nonconformity, current Section 179 rules and state basis.",
     "h1": "Pennsylvania Cost Segregation: Bonus, Section 179 and State Basis"
+  },
+  "blog/cost-segregation-car-wash-facilities/index.html": {
+    "title": "Car Wash Cost Segregation: Equipment, Utilities and Site Records",
+    "description": "Evaluate car wash cost segregation using equipment invoices, building functions, dedicated utilities, land allocation and owner-level loss limits.",
+    "h1": "Car Wash Cost Segregation: Equipment, Utilities and Site Records"
+  },
+  "blog/cost-segregation-golf-courses-country-clubs/index.html": {
+    "title": "Golf Course Cost Segregation: Land, Greens and Improvement Basis",
+    "description": "Separate golf course land from depreciable greens, drainage, irrigation, buildings and equipment using construction and valuation evidence.",
+    "h1": "Golf Course Cost Segregation: Land, Greens and Improvement Basis"
+  },
+  "blog/cost-segregation-rv-parks-campgrounds/index.html": {
+    "title": "RV Park Cost Segregation: Site Assets, Guest Stays and Loss Limits",
+    "description": "Review campground land, site improvements, utility systems and buildings alongside actual guest stays, participation and deduction limits.",
+    "h1": "RV Park Cost Segregation: Site Assets, Guest Stays and Loss Limits"
+  },
+  "blog/str-placed-in-service-year-end-timeline/index.html": {
+    "title": "STR Placed-in-Service Date: Year-End Readiness and Evidence",
+    "description": "Establish when an STR and its separate assets were ready and available for rent using permits, installation records, listings and actual conditions.",
+    "h1": "STR Placed-in-Service Date: Year-End Readiness and Evidence"
+  },
+  "s-corp-vs-c-corp-vs-llc/index.html": {
+    "title": "S-Corp vs C-Corp vs LLC: Tax Classification and Owner Decisions",
+    "description": "Compare LLC legal structure with S and C corporation taxation using compensation, distributions, benefits, state costs and exit plans.",
+    "h1": "S-Corp vs C-Corp vs LLC: Tax Classification and Owner Decisions"
+  },
+  "the-ultimate-guide-to-business-asset-disposal-and-replacement/index.html": {
+    "title": "Business Asset Disposal and Replacement: Basis, Recapture and Reporting",
+    "description": "Calculate business asset sale results from adjusted basis, depreciation and allocation before modeling a replacement purchase or installment agreement.",
+    "h1": "Business Asset Disposal and Replacement: Basis, Recapture and Reporting"
+  },
+  "compare/kpmg-alternatives/index.html": {
+    "title": "KPMG Alternatives: Enterprise Tax or Owner Planning?",
+    "description": "Compare KPMG alternatives by company tax complexity, international work, transaction scope and the owner-level planning you actually need.",
+    "h1": "KPMG Alternatives: Enterprise Tax or Owner Planning?"
+  },
+  "compare/aprio-alternatives/index.html": {
+    "title": "Aprio Alternatives: Business Support and Owner Tax Planning",
+    "description": "Compare Aprio alternatives around recurring accounting, business-tax work, advisory projects and responsibility for the owner\u2019s personal tax plan.",
+    "h1": "Aprio Alternatives: Business Support and Owner Tax Planning"
   }
 }
