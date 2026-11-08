@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/blog/offset-w2-income-real-estate/",
+      "destination": "/blog/how-to-offset-w2-income-with-real-estate-losses/"
+    }
+  ],
+  "redirects": [
+    {
+      "from": "/blog/offset-w2-income-real-estate/",
+      "to": "/blog/how-to-offset-w2-income-with-real-estate-losses/"
+    }
+  ],
+  "reason": "Duplicate general wage-offset intent; retained guide has corrected loss limits and requirements.",
+  "gsc": {
+    "retained": {
+      "impressions": 1462,
+      "clicks": 15,
+      "position": 5.7
+    },
+    "retired": {
+      "impressions": 852,
+      "clicks": 6,
+      "position": 5.7
+    }
+  },
+  "retainedDistinctPage": "/blog/str-vs-ltr-tax-treatment-differences/ remains distinct classification guidance from /blog/str-vs-ltr-which-saves-more-tax/ investment comparison."
+}
