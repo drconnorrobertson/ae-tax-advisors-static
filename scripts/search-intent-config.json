@@ -1233,7 +1233,9 @@
     "description": "Learn how average guest stays affect the STR rental exception and why material participation and other loss limits still need separate review."
   },
   "blog/s-corp-tax-optimization-guide/index.html": {
-    "description": "Review S corporation elections, reasonable compensation, QBI, retirement plans and reimbursements as one coordinated owner-return decision."
+    "title": "S-Corp Tax Planning: Compensation, Basis, Benefits and Filing",
+    "description": "Coordinate reasonable wages, distributions, basis, QBI, benefits, retirement plans and state obligations in an S corporation tax plan.",
+    "h1": "S-Corp Tax Planning: Compensation, Basis, Benefits and Filing"
   },
   "connecticut/index.html": {
     "title": "Connecticut Cost Segregation and Tax Planning: State Adjustments",
@@ -1482,5 +1484,30 @@
     "title": "How to Pay Yourself: Draws, Wages and Distributions by Entity",
     "description": "Match owner payments to the business\u2019s tax classification, then coordinate payroll, basis, benefits and cash needs.",
     "h1": "How to Pay Yourself: Draws, Wages and Distributions by Entity"
+  },
+  "blog/partial-asset-disposition-overlooked-tax-strategy/index.html": {
+    "title": "Partial Asset Disposition: Replaced Components, Basis and Election Timing",
+    "description": "Review the replaced component, remaining basis, disposition year and election requirements before claiming a partial asset disposition loss.",
+    "h1": "Partial Asset Disposition: Replaced Components, Basis and Election Timing"
+  },
+  "blog/cost-segregation-vs-straight-line-depreciation/index.html": {
+    "title": "Cost Segregation vs Straight-Line Depreciation: Timing and Usable Deductions",
+    "description": "Compare cost segregation with building depreciation using supported asset allocations, first-year conventions, loss limits and sale assumptions.",
+    "h1": "Cost Segregation vs Straight-Line Depreciation: Timing and Usable Deductions"
+  },
+  "blog/tax-strategy-for-marketing-agency-owners/index.html": {
+    "title": "Marketing Agency Tax Planning: Media Costs, QBI and Workforce Records",
+    "description": "Review agency media-buying contracts, service mix, worker classification, owner compensation and retirement-plan costs before projecting savings.",
+    "h1": "Marketing Agency Tax Planning: Media Costs, QBI and Workforce Records"
+  },
+  "blog/how-to-write-off-a-vehicle-through-your-business/index.html": {
+    "title": "Business Vehicle Write-Offs: Method, Ownership and 2026 Records",
+    "description": "Choose an eligible vehicle deduction method, document business use and apply the correct 2026 mileage period and depreciation limits.",
+    "h1": "Business Vehicle Write-Offs: Method, Ownership and 2026 Records"
+  },
+  "blog/qualified-opportunity-zone-business-sale-proceeds/index.html": {
+    "title": "Opportunity Zones After a Business Sale: 2026 and 2027 Timing",
+    "description": "Separate eligible business-sale gains, investment deadlines and the 2026-to-2027 Opportunity Zone transition before choosing a fund.",
+    "h1": "Opportunity Zones After a Business Sale: 2026 and 2027 Timing"
   }
 }
