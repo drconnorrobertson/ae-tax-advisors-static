@@ -1,0 +1,2 @@
+'use strict';
+(()=>{const input=document.getElementById('rental-question-search'),count=document.getElementById('rental-question-count'),rows=[...document.querySelectorAll('[data-rental-question]')];if(!input||!count)return;input.addEventListener('input',()=>{const terms=input.value.toLowerCase().trim().split(/\s+/).filter(Boolean);let visible=0;rows.forEach(row=>{row.hidden=!terms.every(term=>row.textContent.toLowerCase().includes(term));if(!row.hidden)visible++;});count.textContent=visible+' of '+rows.length+' questions';});})();

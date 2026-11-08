@@ -1,0 +1,756 @@
+{
+  "reviewed": "2026-11-08",
+  "methodology": "100 researched planning questions selected from recurring IRS rule distinctions and AE existing question coverage; no measured search-volume rank or GSC data claim.",
+  "groups": [
+    {
+      "slug": "str-tax-basics",
+      "title": "STR Tax Basics: Rental Classification and W-2 Income",
+      "rule": "An STR label is not a tax election. Establish the activity classification before evaluating participation and usable losses.",
+      "scenario": "An owner with wage income has weekend guests, outsourced cleaning and a projected depreciation loss. Review the actual annual stays and operations before assuming the loss offsets wages.",
+      "records": [
+        "Annual reservation export with cancellations and actual stays",
+        "Service descriptions and management agreement",
+        "Owner income projection and prior rental returns"
+      ],
+      "sources": [
+        "925",
+        "527"
+      ],
+      "qa": [
+        [
+          "What is the short-term rental tax loophole?",
+          "The phrase usually refers to combining a rental-activity exception under the passive activity rules with material participation. It is not a separate deduction or an automatic election. Depreciation, property expenses and all loss limits must still be established using the owner’s actual operations."
+        ],
+        [
+          "Can an Airbnb loss offset W-2 income?",
+          "Potentially, if the activity is nonpassive for that owner and the deduction survives basis, at-risk, personal-use and other applicable limits. A short booking length alone is insufficient. Model the usable deduction on the full return before comparing the loss to wage income."
+        ],
+        [
+          "Is every vacation rental an STR for federal taxes?",
+          "No. Platform labels and local permits do not determine federal passive-activity classification. Average customer use, services and other exceptions matter. A property called a vacation rental can still be a rental activity, and personal-use rules can independently limit deductions."
+        ],
+        [
+          "Do I need an LLC to use STR tax rules?",
+          "An LLC does not create qualifying stays, participation or deductible basis. Ownership structure affects reporting and liability planning, but the federal activity analysis depends on facts. Review the legal owner and tax classification separately with the actual operating arrangements."
+        ],
+        [
+          "Is tax savings the same as a depreciation deduction?",
+          "No. A deduction reduces taxable income if usable; a tax credit reduces tax under its own rules. An illustrative $50,000 deduction at a 32% marginal rate yields $16,000 of potential federal tax reduction, not $50,000 of cash profit. State rules and limitations can change the result."
+        ]
+      ]
+    },
+    {
+      "slug": "average-stay-tests",
+      "title": "Seven-Day and Thirty-Day STR Tests",
+      "rule": "The seven-day test uses an average period of customer use, not a maximum length for every individual reservation.",
+      "scenario": "One extended booking changes a property’s annual average even though most guests stay weekends. Compute the average from records rather than changing the description of the rental.",
+      "records": [
+        "Actual occupied rental periods and total days",
+        "Revenue by property class where relevant",
+        "Guest service contracts and service logs"
+      ],
+      "sources": [
+        "925"
+      ],
+      "qa": [
+        [
+          "How do I calculate average guest stay?",
+          "For the basic single-property calculation, divide total days in all rental periods by the number of rentals during the tax year. Use actual customer-use records and reconcile extended or combined periods. More than one class of property can require the revenue-weighted method described in Publication 925."
+        ],
+        [
+          "Does every reservation have to be seven days or less?",
+          "No. The exception generally asks whether average customer use is seven days or less. Some stays can be longer if the properly calculated annual average still meets the test. Keep the supporting reservation detail; an advertised minimum stay is not the calculation."
+        ],
+        [
+          "Does a 30-day average automatically qualify?",
+          "No. The 30-day-or-less exception also requires significant personal services. Evaluate the frequency, labor, nature and value of services under the passive rules. Ordinary maintenance or services excluded by the rule do not become significant merely because guests appreciate them."
+        ],
+        [
+          "Do vacant nights count as rental days in the average?",
+          "Unoccupied available nights do not add customer-use days or create new customer rentals. Distinguish availability from actual rental periods. Keep the booking ledger and use the precise customer-use rules rather than dividing occupied days by all calendar nights."
+        ],
+        [
+          "What if my average stay exceeds seven days?",
+          "Test the other rental-activity exceptions if the facts support them. If none applies, the rental real estate passive rules generally become relevant, including any real estate professional analysis. Do not report a nonpassive loss just because most individual reservations were short."
+        ]
+      ]
+    },
+    {
+      "slug": "material-participation-tests",
+      "title": "STR Material Participation: Tests and Limits",
+      "rule": "Material participation is tested under the applicable annual rules after activity classification. More than 100 hours alone is not the same as passing a test.",
+      "scenario": "A host logs 140 hours but a manager works 300. The host cannot simply use the more-than-100-hour, no-one-more test without evaluating the other person’s work.",
+      "records": [
+        "Dated task log and supporting messages",
+        "Manager, cleaner and contractor hours",
+        "Prior participation history and any grouping statements"
+      ],
+      "sources": [
+        "925"
+      ],
+      "qa": [
+        [
+          "What is the 500-hour material participation test?",
+          "One test is participation for more than 500 hours during the year. Exactly 500 is not more than 500. Only qualifying participation counts; the test does not automatically permit all rental losses and does not substitute for the separate activity-classification analysis."
+        ],
+        [
+          "Is 100 hours enough for an STR?",
+          "Not by itself. One test requires more than 100 hours and participation at least as much as any other individual, including a nonowner. Exactly 100 fails the numerical threshold for that test. Other tests may apply, but each has separate conditions."
+        ],
+        [
+          "Can I qualify if I perform substantially all the work?",
+          "Possibly, under the substantially-all participation test. It is a facts-and-circumstances question; outsourcing material operations can affect the conclusion. Keep records of other workers rather than assuming owner involvement is substantially all because the owner makes final decisions."
+        ],
+        [
+          "Can prior years of participation help this year?",
+          "Certain tests consider participation in prior years, including five of the preceding ten years. They are not a blanket exemption for all former landlords. Review the exact activity, continuity and applicable test under Publication 925 before relying on historical hours."
+        ],
+        [
+          "Can I group all my rentals to meet the hours test?",
+          "Not automatically. General activity grouping, rental grouping restrictions and the real estate professional election are distinct rules. A valid grouping must be supported and consistent. Review mixed STR and LTR activities before adding all hours together; a spreadsheet total does not create an election."
+        ]
+      ]
+    },
+    {
+      "slug": "hours-spouses-managers",
+      "title": "Counting Owner, Spouse and Manager Hours",
+      "rule": "Count genuine operating participation and substantiate who did the work. Investor-only activities and artificial duplicate entries are not a reliable basis for participation.",
+      "scenario": "Two spouses perform guest messaging while a cleaner handles turnovers. The file must distinguish actual work, shared tasks and the contractor’s participation.",
+      "records": [
+        "Calendars, work orders and contemporaneous task details",
+        "Spouse task records",
+        "Vendor invoices plus available time information"
+      ],
+      "sources": [
+        "925"
+      ],
+      "qa": [
+        [
+          "Can my spouse’s STR hours count?",
+          "A spouse’s participation generally counts for material participation even if the spouse owns no interest and even if the couple does not file jointly. This does not allow the spouses to combine hours to make one spouse a real estate professional; that qualification has a separate individual test."
+        ],
+        [
+          "Do property research and investment seminars count?",
+          "Investor-type work, such as reviewing financial statements or studying investments, generally does not count unless directly involved in day-to-day management or operations under the applicable rules. Identify the actual task rather than relabeling research as management. Acquisition and pre-opening work need separate review."
+        ],
+        [
+          "Do cleaner hours count against my 100-hour test?",
+          "They can matter when evaluating whether any other individual participated more than you. The comparison is with individuals, not simply the cleaning company’s aggregate bill. Collect reasonable support for who performed the work and avoid assuming every contractor hour is either irrelevant or automatically pooled."
+        ],
+        [
+          "Can I materially participate with a property manager?",
+          "A manager does not automatically prevent every material participation test, but outsourced work affects the facts and can defeat the more-than-100-hour comparison. Evaluate another applicable test if supported, the manager’s actual duties and any restrictions on management activities under the facts-and-circumstances test."
+        ],
+        [
+          "Is a year-end reconstructed time log sufficient?",
+          "Reasonable evidence can establish participation, but vague estimates and invented hours are weak support. Reconstruct from dated bookings, messages, invoices and calendars, showing actual tasks and duration. Do not create false records or count simultaneous work twice simply to reach a threshold."
+        ]
+      ]
+    },
+    {
+      "slug": "personal-use-vacation-home",
+      "title": "STR Personal Use and Vacation-Home Limits",
+      "rule": "Personal use is a separate limitation from average stays and material participation. A property can pass an STR test and still face vacation-home expense limits.",
+      "scenario": "A family uses a profitable beach rental for several weeks. Their operating hours do not erase the need to count personal days and allocate expenses.",
+      "records": [
+        "Owner and family use calendar",
+        "Fair-market rents and guest payments",
+        "Maintenance records and mixed-use expense allocation"
+      ],
+      "sources": [
+        "527",
+        "415"
+      ],
+      "qa": [
+        [
+          "How many personal days can I use my STR?",
+          "A dwelling is treated as used as a home if personal use exceeds the greater of 14 days or 10% of days rented at a fair rental price. This is not a universal safe allowance for unlimited deductions. Expense allocation and other rules still apply below that threshold."
+        ],
+        [
+          "Do family stays count as personal use?",
+          "Often yes, including certain family or owner use, even when some payment is made. Specific exceptions may apply, such as a family member using the property as a main home while paying fair rent. Review Publication 527 rather than assuming every paid family stay is a qualifying rental day."
+        ],
+        [
+          "Are maintenance trips personal-use days?",
+          "Days spent substantially full time repairing and maintaining the property are treated differently from vacation days under the rental personal-use rules. Document the work, who performed it and the time involved. A short repair during a family holiday does not convert the whole trip into maintenance."
+        ],
+        [
+          "What is the fewer-than-15-days rental rule?",
+          "If a dwelling is used as a home and rented fewer than 15 days during the year, the special rule generally excludes that rental income and disallows rental expense deductions. It is not a way to claim a cost segregation loss on a home rented only briefly."
+        ],
+        [
+          "Can cost segregation bypass vacation-home limits?",
+          "No. Classification of assets and the amount of depreciation are separate from whether a deduction is usable. Calculate rental and personal allocations and any home-use limits first. A study does not turn personal-use expenses into business deductions or guarantee an operating loss deduction."
+        ]
+      ]
+    },
+    {
+      "slug": "schedule-c-e-services",
+      "title": "Schedule C, Schedule E and STR Services",
+      "rule": "The passive-activity rental exceptions and the reporting or self-employment-tax treatment are separate analyses. A seven-day average does not automatically require Schedule C.",
+      "scenario": "A host provides only accommodation and between-guest cleaning. Compare that with daily maid service and meals before choosing the return schedule.",
+      "records": [
+        "Guest-facing service menu and actual delivery records",
+        "Cleaning timing and service contracts",
+        "Entity classification and prior reporting"
+      ],
+      "sources": [
+        "527",
+        "414",
+        "925"
+      ],
+      "qa": [
+        [
+          "Does an STR always go on Schedule C?",
+          "No. Short stays alone do not automatically change the reporting schedule. Rental real estate without substantial guest-convenience services is generally reported on Schedule E for an individual. Partnerships and other entities have their own return reporting, so identify both services and ownership."
+        ],
+        [
+          "When do substantial services require Schedule C?",
+          "Services primarily for a tenant’s convenience, such as regular maid or linen service, can require Schedule C treatment for an individual and may create self-employment tax. Ordinary heat, light, trash collection or cleaning common areas are different. Review what guests actually receive, not just listing language."
+        ],
+        [
+          "Is my STR income subject to self-employment tax?",
+          "It depends on the operation and services, not merely the Airbnb platform or material participation. Ordinary real estate rents generally receive different treatment from a hospitality business providing substantial services. Determine the facts and correct reporting before estimating self-employment tax."
+        ],
+        [
+          "Does turnover cleaning alone make it a hotel business?",
+          "Between-guest cleaning should not automatically be equated with regular in-stay maid service. Analyze the actual timing and nature of services under the relevant tax rule. The significant-services exception for passive classification and substantial-services reporting analysis should each be documented."
+        ],
+        [
+          "Can a property be nonpassive on Schedule E?",
+          "Yes, the return schedule does not alone determine passive status. A rental-activity exception plus material participation can produce nonpassive treatment while substantial-service reporting requirements are separately evaluated. Document both decisions instead of treating Schedule C as the election that makes losses deductible."
+        ]
+      ]
+    },
+    {
+      "slug": "real-estate-professional-ltr",
+      "title": "LTRs, Real Estate Professional Status and STRs",
+      "rule": "Rental real estate generally has passive treatment unless an exception applies. Real estate professional status requires qualification and material participation; it does not make every loss deductible.",
+      "scenario": "A full-time employee owns an LTR and a short-stay property. The owner must analyze each activity rather than transferring one property’s favorable status to all rentals.",
+      "records": [
+        "Work hours for every trade or business",
+        "Rental participation logs and election statements",
+        "Passive loss carryforward schedules"
+      ],
+      "sources": [
+        "925"
+      ],
+      "qa": [
+        [
+          "Do I need real estate professional status for an STR?",
+          "Not necessarily. A qualifying short-stay activity may fall outside the passive definition of a rental activity, after which material participation is relevant. If the rental exception does not apply, rental real estate rules and any real estate professional status analysis become important."
+        ],
+        [
+          "What are the real estate professional hour requirements?",
+          "Generally, more than half of the personal services in trades or businesses during the year must be in qualifying real property trades or businesses in which the taxpayer materially participates, and those services must exceed 750 hours. Employee services have an ownership restriction. Review the individual taxpayer’s facts."
+        ],
+        [
+          "Can spouses combine hours to qualify as real estate professionals?",
+          "On a joint return, one spouse must independently satisfy the qualifying requirements. Spouse participation can count for determining material participation in an activity, but combining spouses’ hours to satisfy one individual’s 750-hour and more-than-half tests is not the same rule."
+        ],
+        [
+          "Can an old LTR cost segregation loss offset my wages?",
+          "A study can increase depreciation without changing passive classification. A passive LTR loss generally cannot offset wages except through applicable exceptions or other permitted treatment. Review real estate professional status, material participation, any special allowance and all limits before projecting current savings."
+        ],
+        [
+          "What happens to passive losses when an LTR becomes an STR?",
+          "Prior suspended passive losses do not automatically become freely deductible against wages because current operations change. Former-passive-activity rules can allow offsets against income from that activity, while other releases have conditions. Track historical carryforwards separately from the current year’s activity classification."
+        ]
+      ]
+    },
+    {
+      "slug": "cost-segregation-components",
+      "title": "What a Cost Segregation Study Actually Reclassifies",
+      "rule": "Cost segregation allocates existing depreciable basis among substantiated asset classes. It does not create new purchase basis or make land depreciable.",
+      "scenario": "A buyer receives a proposal claiming a fixed percentage of every rental is five-year property. Request an asset-based reconciliation rather than relying on a promised deduction.",
+      "records": [
+        "Closing statement, appraisal and land allocation",
+        "Building plans, photos and asset inventory",
+        "Invoices and original depreciation schedules"
+      ],
+      "sources": [
+        "atg",
+        "946",
+        "527"
+      ],
+      "qa": [
+        [
+          "What is cost segregation for a rental property?",
+          "It is an analysis allocating eligible property costs among assets with different tax lives and methods instead of depreciating all costs as one building. The analysis must support asset identification, costs and classifications. A quality study reconciles to the owner’s tax basis and the return preparer’s depreciation schedules."
+        ],
+        [
+          "Can I depreciate the land in a cost segregation study?",
+          "No. Land is not depreciable. Establish a reasonable land-versus-improvement allocation using support for the property rather than assigning zero land to increase deductions. A condo also requires reviewing the owner’s interest in common land and other components, not assuming no land basis."
+        ],
+        [
+          "Which rental assets can have shorter recovery periods?",
+          "Depending on function and facts, certain personal property and land improvements may have shorter recovery periods than the building. Furniture, some equipment and qualifying site improvements need their own identification and basis. A description such as carpet, electrical or landscaping does not by itself establish every tax classification."
+        ],
+        [
+          "Can a study put the whole building in five-year property?",
+          "A residential building’s structural costs generally remain long-life real property; nonresidential classification can differ. The study must distinguish building structure from eligible components. Reject a universal promised allocation and ask the preparer to explain the legal and factual support for each material category."
+        ],
+        [
+          "Is the IRS audit technique guide an approval of my study?",
+          "No. Publication 5653 is an examiner’s guide and expressly is not an official pronouncement of law or the Service’s position. Its methodology discussion is useful context, but the actual tax treatment depends on applicable law, records and the specific property. No vendor is automatically IRS approved by using it."
+        ]
+      ]
+    },
+    {
+      "slug": "bonus-depreciation-current-rules",
+      "title": "Bonus Depreciation in 2026: Dates and Asset Eligibility",
+      "rule": "100% bonus is not a 100% deduction for every dollar spent on a building. Acquisition, placed-in-service timing, qualifying asset classes and elections all matter.",
+      "scenario": "A property closes in 2026 but an earlier binding contract may affect acquisition timing. Record the contract history before applying a headline rate.",
+      "records": [
+        "Binding contract and amendments",
+        "Closing and readiness records",
+        "Asset classes and prior bonus elections"
+      ],
+      "sources": [
+        "bonus",
+        "946",
+        "4562"
+      ],
+      "qa": [
+        [
+          "Is 100% bonus depreciation available in 2026?",
+          "Current federal law generally restores 100% bonus for eligible property acquired and placed in service after January 19, 2025, subject to detailed acquisition, eligibility and election rules. Older acquisition dates can fall under prior phase-down rules. Do not apply the new rate merely because the study is written in 2026."
+        ],
+        [
+          "Does the rental building itself qualify for bonus?",
+          "The building generally does not qualify under the ordinary 20-years-or-less property rule. Eligible shorter-life components identified by a supported study may qualify, along with qualifying separately acquired assets. Determine recovery periods first, then test bonus eligibility asset by asset."
+        ],
+        [
+          "Can used rental components qualify for bonus?",
+          "Potentially, if the statutory used-property acquisition conditions are met. Prior use by the taxpayer, related-party acquisitions and certain carryover-basis transactions can prevent qualification. A used building purchase is not automatically excluded, but neither does every transfer of an old property create eligible new basis."
+        ],
+        [
+          "Can I elect out of bonus depreciation?",
+          "There is an election out for classes of property, subject to timing and procedural rules. Consider multi-year taxable income, state treatment and future sale taxes before electing. An election generally cannot be selectively applied to one convenient asset within the same class without the applicable authority."
+        ],
+        [
+          "Is the bonus rate based on the study completion year?",
+          "No. The relevant acquisition and original placed-in-service facts and elections control the historical depreciation calculation. A later look-back study does not make old assets newly acquired. Separate newly installed improvements from the original building components before modeling any current-year bonus deduction."
+        ]
+      ]
+    },
+    {
+      "slug": "placed-in-service-timing",
+      "title": "Placed in Service: First Guest, Readiness and Year-End",
+      "rule": "Depreciation generally starts when property is ready and available for its intended income-producing use. Paying for it is not the same as placing it in service.",
+      "scenario": "A furnished rental is advertised in December but cannot legally host guests until a January inspection. The file must establish actual readiness, not just the listing date.",
+      "records": [
+        "Permits and occupancy approvals",
+        "Dated readiness photos and availability calendar",
+        "Closing, delivery and installation invoices"
+      ],
+      "sources": [
+        "527",
+        "946"
+      ],
+      "qa": [
+        [
+          "Do I need a first guest before depreciation starts?",
+          "Not always. Ready-and-available rental property can be placed in service before the first customer arrives. Support the intended rental use and actual readiness with objective records. A listing for an unfinished or unavailable property does not establish the same facts."
+        ],
+        [
+          "Does buying a property before December 31 guarantee a deduction?",
+          "No. Closing, furnishing, permits and operational readiness may occur on different dates. Determine when each asset is ready and available for intended use. A deposit or purchase contract alone does not produce depreciation before the placed-in-service requirements are met."
+        ],
+        [
+          "Can furniture have a different service date from the building?",
+          "Yes. Track separately delivered and installed assets when appropriate. Furniture held in storage or equipment awaiting installation may not be ready for intended use. Separate original acquisition, later additions and replacements so the depreciation schedule reflects each asset’s actual facts."
+        ],
+        [
+          "What if renovations continue after guests arrive?",
+          "Different portions or assets may have different readiness dates, and the renovation itself may be a capital improvement. Document which property was available for rental and which work remained. Do not depreciate unfinished improvements solely because another part of the property earned revenue."
+        ],
+        [
+          "Can I pay for a study after year-end?",
+          "The study’s completion date is not necessarily the property’s service date. A later report may support the correct return or an eligible accounting-method change, subject to filing and procedural rules. Coordinate the study and return deadlines rather than treating payment for the report as the depreciation event."
+        ]
+      ]
+    },
+    {
+      "slug": "old-ltr-lookback",
+      "title": "Cost Segregation on an Old LTR",
+      "rule": "An older property may support a look-back study, but the calculation uses historical basis, dates, methods and elections. A 2026 study does not reset the property’s age.",
+      "scenario": "An owner has rented a house since 2018 and depreciated the full building on one schedule. Compare corrected historical depreciation with deductions already allowed or allowable.",
+      "records": [
+        "Purchase and historical land allocation",
+        "All depreciation schedules and returns since service",
+        "Improvements, prior elections and passive loss records"
+      ],
+      "sources": [
+        "946",
+        "3115",
+        "atg",
+        "925"
+      ],
+      "qa": [
+        [
+          "Can I do cost segregation on a rental bought years ago?",
+          "Often it is worth reviewing, even after multiple rental years. The study must reconstruct the original depreciable basis and classify assets as of their relevant service dates. Eligibility, procedural restrictions, remaining basis and usable losses determine whether a look-back project makes sense."
+        ],
+        [
+          "Does an old LTR need a new purchase to qualify?",
+          "No new purchase is inherently required to examine whether existing depreciation is incorrect. However, a later study does not create a new acquisition or automatically qualify the original property for today’s bonus rate. Use the original acquisition and service history."
+        ],
+        [
+          "Can I catch up depreciation from closed tax years?",
+          "An eligible method change can account for cumulative depreciation differences through a Section 481(a) adjustment, subject to applicable procedures. That is different from amending every closed year. The preparer must determine whether the issue is a method change and whether the requested change qualifies."
+        ],
+        [
+          "Will an old LTR study release all passive losses?",
+          "No. Increasing depreciation and releasing suspended passive losses are separate matters. A current adjustment can still be limited under the passive rules, and prior carryforwards retain their own treatment. Model current usability instead of presenting the entire calculated adjustment as a current refund."
+        ],
+        [
+          "How old is too old for a cost segregation study?",
+          "There is no single age cutoff that guarantees value or rejection. Consider original service dates, remaining recoverable basis, remaining holding period, available records, study and filing fees, usable losses and sale taxes. A property nearing full depreciation or an imminent sale may offer less net benefit."
+        ]
+      ]
+    },
+    {
+      "slug": "old-str-lookback",
+      "title": "Cost Segregation on an Existing STR",
+      "rule": "A look-back study and current participation cannot rewrite the property’s historical operations. Preserve each year’s activity and depreciation records.",
+      "scenario": "An owner operated a vacation rental since 2021 but first tracked participation carefully this year. Review historical depreciation separately from the evidence supporting nonpassive treatment.",
+      "records": [
+        "Prior reservations and personal-use records",
+        "Depreciation schedules and elections",
+        "Annual participation and ownership history"
+      ],
+      "sources": [
+        "925",
+        "527",
+        "946",
+        "3115"
+      ],
+      "qa": [
+        [
+          "Can I cost segregate an STR I already own?",
+          "Yes, an existing STR can be evaluated for a study. The tax preparer must reconcile historical basis, assets, prior deductions and applicable method-change procedures. Current short stays do not establish that all earlier depreciation or activity classifications were reported incorrectly."
+        ],
+        [
+          "Can I use current bonus rules on my 2021 STR?",
+          "Not merely by ordering a study now. The original assets retain their acquisition and service dates and relevant elections for the historical calculation. New improvements may have different dates. Evaluate each asset rather than applying the current rate to the entire remaining building basis."
+        ],
+        [
+          "Does current material participation make my catch-up loss nonpassive?",
+          "Do not assume that result. Review the adjustment’s attribution, current and former activity status, grouping, prior suspended losses and applicable passive rules. The accounting-method calculation and the usable-loss analysis require coordinated review before claiming an offset against wages."
+        ],
+        [
+          "What if I never kept guest-stay records?",
+          "Retrieve platform exports, booking calendars, bank deposits and management records. Reconstruct real rental periods and personal use with reliable evidence. A study does not replace those records, and a favorable tax position should not be based on invented occupancy or participation facts."
+        ],
+        [
+          "Can I correct prior STR reporting at the same time?",
+          "Possibly, but classification, depreciation methods, reporting errors and elections have different correction procedures. Ask for a written issue list showing which items belong on an amended return, method-change application or current return. One Form 3115 does not automatically fix every past reporting problem."
+        ]
+      ]
+    },
+    {
+      "slug": "form-3115-catchup",
+      "title": "Form 3115 and Section 481(a) Catch-Up Depreciation",
+      "rule": "An accounting-method change is a procedural filing, not simply a study attachment. Eligibility, designated change, timing, statements and duplicate-copy requirements must be checked.",
+      "scenario": "A completed engineering report arrives near the return deadline. The preparer still needs time to reconcile asset schedules, compute the adjustment and prepare the proper application.",
+      "records": [
+        "Complete filed depreciation history",
+        "Study reconciliation and corrected method schedules",
+        "Return deadline, extensions and prior method changes"
+      ],
+      "sources": [
+        "3115",
+        "946",
+        "procedures"
+      ],
+      "qa": [
+        [
+          "What does Form 3115 do for cost segregation?",
+          "It requests consent to change an accounting method when required and applicable. For eligible depreciation changes, the process can incorporate a cumulative Section 481(a) adjustment. The filer must identify the correct change, eligibility and procedural requirements rather than treating every study as an automatic approval."
+        ],
+        [
+          "What is a Section 481(a) adjustment?",
+          "It accounts for amounts needed to prevent duplication or omission when changing methods. In depreciation work, it compares the relevant cumulative treatment under the old and new methods. The study’s reclassified basis is not itself the adjustment; prior depreciation and year-of-change treatment must be reconciled."
+        ],
+        [
+          "Is a negative adjustment always deducted all at once?",
+          "A negative adjustment is generally taken in the year of change under applicable procedures, while positive adjustments generally have a different period and exceptions. First establish eligibility and the correct calculation. Other loss limitations may defer use even when the method-change rules recognize the deduction that year."
+        ],
+        [
+          "Does Form 3115 require an IRS user fee?",
+          "Eligible automatic-consent changes generally do not require a user fee, while nonautomatic applications generally do. Professional preparation fees are separate. Confirm the current change category and exceptions; a vendor saying the form is free does not establish the entire project cost or eligibility."
+        ],
+        [
+          "When is the Form 3115 duplicate copy due?",
+          "Automatic-change procedures generally require attachment to the timely filed original return, including extensions, plus a duplicate copy under the current instructions and procedure. Timing and delivery rules differ by filing route. Confirm the current authorized submission method and deadline rather than using an old mailing address or a study delivery date."
+        ]
+      ]
+    },
+    {
+      "slug": "amendments-method-errors",
+      "title": "Amended Return or Form 3115?",
+      "rule": "An isolated error, an established impermissible method and an election issue can require different remedies. Do not choose the form solely by which appears easiest.",
+      "scenario": "A rental owner missed one depreciation year while another used the wrong life for ten years. Build separate correction paths rather than submitting identical forms.",
+      "records": [
+        "All affected returns and detailed schedules",
+        "Election statements and prior applications",
+        "Refund deadlines and partnership reporting status"
+      ],
+      "sources": [
+        "946",
+        "3115",
+        "procedures"
+      ],
+      "qa": [
+        [
+          "Should I amend returns after a cost segregation study?",
+          "Sometimes, but an established method issue may require Form 3115 instead. Review the number of affected returns, type of error, adoption rules and available relief. A study provider’s report is not a determination that an amendment is permitted for every year."
+        ],
+        [
+          "Is one missed year different from several years?",
+          "It can be. The rules distinguish errors and method adoption; consistently using an impermissible depreciation method can establish an accounting method. Specific depreciation rules and exceptions apply, so do not mechanically conclude that any one-year issue is amendable or every two-year issue is automatic."
+        ],
+        [
+          "Can Form 3115 reverse a bonus election?",
+          "A depreciation-method change is not a universal mechanism to revoke or make elections. Bonus elections and late-election relief have their own authority and deadlines. Review the actual filed election and current relief before computing a catch-up amount using a different bonus assumption."
+        ],
+        [
+          "Can a partnership simply file an amended return?",
+          "A partnership’s correction route depends on its audit regime and applicable exceptions. An administrative adjustment request may be required instead of an amended partnership return. Coordinate partnership-level corrections, partner statements and any method-change requirements before promising a direct owner refund."
+        ],
+        [
+          "Can I claim missed depreciation without a study?",
+          "Some corrections can be supported by records without a new cost segregation analysis, but the proper correction procedure still matters. Determine the actual error and needed evidence. Paying for a study is not always the first step if the issue is a missing schedule or a duplicated asset."
+        ]
+      ]
+    },
+    {
+      "slug": "ltr-str-conversions",
+      "title": "Converting an LTR to an STR or Back",
+      "rule": "A change in guest operations does not automatically restart depreciation or release passive losses. Identify changes in use, classification, methods and income separately.",
+      "scenario": "A landlord switches from annual leases to weekend bookings using the same building and then buys new furnishings. The old structure and new furniture need separate histories.",
+      "records": [
+        "Original and converted operating calendars",
+        "Historical basis and asset schedules",
+        "New furnishings, services and personal use"
+      ],
+      "sources": [
+        "527",
+        "925",
+        "946"
+      ],
+      "qa": [
+        [
+          "Does converting an LTR to an STR restart depreciation?",
+          "Not automatically. The same owned assets retain their history; a change in use can require reviewing applicable recovery periods or methods under the change-in-use rules. Do not assign a fresh purchase value or full new bonus deduction to the original building merely because marketing changed."
+        ],
+        [
+          "Can new STR furniture qualify separately?",
+          "Yes, new purchases have their own basis, acquisition and service dates and eligibility tests. Distinguish them from assets already included in the building or prior schedules. A later furnishing budget should not be counted twice in both a study allocation and separate expense or asset entry."
+        ],
+        [
+          "What if I convert an STR back to long-term renting?",
+          "Review the new activity classification, current participation, asset use and any depreciation-method implications. Prior nonpassive status does not automatically persist, and historical carryforwards must be tracked correctly. Use actual annual operations rather than a permanent STR label."
+        ],
+        [
+          "Does changing property managers change the tax result?",
+          "It can affect operational facts and participation evidence, but changing vendors is not itself a tax election or new service date for the building. Review actual tasks and hours for that year, the booking pattern and whether services changed."
+        ],
+        [
+          "Can I use an appraisal to reset basis on conversion?",
+          "A new appraisal does not generally reset an existing rental’s tax basis to market value. Personal-to-rental conversions have special lower-of-basis-or-value depreciation rules; ordinary LTR-to-STR operational changes are different. Preserve original purchase basis, improvements and depreciation adjustments."
+        ]
+      ]
+    },
+    {
+      "slug": "former-home-rental-basis",
+      "title": "Former Homes Converted to Rentals: Basis and Use",
+      "rule": "Personal-to-rental conversion requires a separate depreciation-basis calculation. Market appreciation does not automatically become depreciable rental basis.",
+      "scenario": "A former home worth more than its original cost becomes a rental after a move. Establish adjusted cost and conversion-date value before ordering a study.",
+      "records": [
+        "Original settlement and capital improvements",
+        "Conversion-date fair market value evidence",
+        "Personal occupancy, rental readiness and land allocation"
+      ],
+      "sources": [
+        "527",
+        "946",
+        "544"
+      ],
+      "qa": [
+        [
+          "What is depreciation basis for a former home?",
+          "Generally the lesser of adjusted basis or fair market value at conversion to rental use, with nondepreciable land excluded. The basis for computing later gain or loss can differ. Obtain both figures and supporting adjustments rather than using the current listing price as tax basis."
+        ],
+        [
+          "Can I cost segregate a converted primary residence?",
+          "Potentially, using the correct conversion depreciation basis and supported asset allocations. A study does not override the lower-of rule or allow depreciation for personal-use years. Review original acquisition, conversion dates and bonus eligibility independently before projecting accelerated deductions."
+        ],
+        [
+          "Is my new mortgage the rental’s depreciation basis?",
+          "No. Loan principal is financing, not a standalone basis determination. A refinance can provide cash without increasing the original property’s depreciable basis. Capital improvements funded by the borrowing may create separate basis if properly documented; trace the actual use of funds."
+        ],
+        [
+          "Can I deduct costs while the home is still personal?",
+          "Personal expenses generally do not become rental deductions simply because conversion is planned. Capital improvements, startup issues and readiness dates need classification. Document when income-producing use began and separate personal carrying costs from deductible rental expenses."
+        ],
+        [
+          "Does the home-sale exclusion erase depreciation taxes?",
+          "Not automatically. The home-sale exclusion has ownership, use and other limits, and gain attributable to depreciation after May 6, 1997 generally cannot be excluded under that rule. Rental use and nonqualified-use provisions need separate analysis; model sale consequences before claiming a large deduction."
+        ]
+      ]
+    },
+    {
+      "slug": "repairs-improvements-replacements",
+      "title": "Rental Repairs, Improvements and Replaced Components",
+      "rule": "Repair expense, capital improvement and disposition treatment are separate decisions. Cost segregation does not make every renovation immediately deductible.",
+      "scenario": "An owner replaces a roof, buys appliances and repaints a rental. Different items may require capitalization, ordinary expense or a supported asset disposition analysis.",
+      "records": [
+        "Itemized invoices and scope of work",
+        "Original asset schedules and replacement dates",
+        "Relevant capitalization policies and elections"
+      ],
+      "sources": [
+        "527",
+        "946",
+        "atg"
+      ],
+      "qa": [
+        [
+          "Are all rental renovations deductible immediately?",
+          "No. Betterments, restorations and adaptations can require capitalization under the tangible-property rules. Some ordinary repairs may be currently deductible. Assess each unit of property and the actual work rather than classifying an entire contractor invoice by its label."
+        ],
+        [
+          "Can a new roof be five-year property?",
+          "A rental building roof generally is a structural building component rather than ordinary five-year personal property. Determine capitalization, applicable building recovery period and any specific exception based on actual property type. A cost segregation study cannot simply reclassify a roof to obtain bonus."
+        ],
+        [
+          "How do I avoid counting appliances twice?",
+          "Reconcile the original study allocation, separately purchased assets and expenses. If an appliance’s basis is already included in the purchase allocation, recording the same cost again creates a duplicate. Later replacements need their own cost and disposition review for the retired asset."
+        ],
+        [
+          "Can I deduct the remaining basis of a replaced component?",
+          "A partial disposition election or other disposition rule may apply if requirements are met and remaining basis can be substantiated. Timing and elections matter. Do not delete a component from the depreciation schedule without documenting the disposition and applicable authority."
+        ],
+        [
+          "Does the de minimis safe harbor replace cost segregation?",
+          "No. That safe harbor concerns qualifying expenditures under its accounting-policy, amount and election requirements. It does not permit allocating an acquired building into arbitrary small invoices or expensing all improvements. Review separately purchased assets and the annual election with the return preparer."
+        ]
+      ]
+    },
+    {
+      "slug": "loss-limits-state-tax",
+      "title": "Usable Rental Losses: Basis, At-Risk and Passive Limits",
+      "rule": "A technically correct depreciation amount may still be deferred. Evaluate entity basis, at-risk, passive, excess-business-loss and state rules in the applicable order.",
+      "scenario": "A highly leveraged owner expects a large study adjustment but has little at-risk capacity and passive losses. The projected deduction is not the same as a current refund.",
+      "records": [
+        "Entity basis and debt records",
+        "At-risk analysis and suspended loss schedules",
+        "Household projection and state adjustments"
+      ],
+      "sources": [
+        "925",
+        "461",
+        "946"
+      ],
+      "qa": [
+        [
+          "Why did my cost segregation loss not reduce this year’s tax?",
+          "It may be limited by personal-use, basis, at-risk, passive or other applicable rules. Review the return schedules showing where the amount was suspended. A carryforward is different from a disallowed asset classification, so identify the limitation before ordering another study."
+        ],
+        [
+          "Does all mortgage debt count as at-risk basis?",
+          "No. Financing terms and the taxpayer’s exposure matter. Qualified nonrecourse financing can receive special treatment for certain real estate, while other nonrecourse or protected arrangements may not. Do not assume property equity, debt principal, entity basis and at-risk amount are identical."
+        ],
+        [
+          "Can an excess business loss limit an STR deduction?",
+          "Yes, when the activity and taxpayer are within Section 461(l), the annual limitation can defer otherwise allowable business losses after other applicable limitations. Thresholds vary by year and filing status. Use the relevant Form 461 instructions rather than quoting one threshold for every return."
+        ],
+        [
+          "Do states allow the same bonus depreciation as federal law?",
+          "Not always. States can decouple, require additions and later subtractions or apply different effective dates. Maintain separate federal and state schedules for each asset and owner’s filing jurisdictions. Federal tax savings should not be presented as a verified combined federal-state benefit without that review."
+        ],
+        [
+          "Can suspended losses still have future value?",
+          "Possibly, depending on the limitation, future income, disposition and carryforward rules. Track each category separately. Discount the timing and uncertainty in the economic model rather than valuing every suspended dollar as cash tax saved today. Some limitations have different release mechanisms."
+        ]
+      ]
+    },
+    {
+      "slug": "selling-recapture-exchanges",
+      "title": "Selling After Cost Segregation: Recapture and Exit",
+      "rule": "Accelerating depreciation changes basis and can affect the character and timing of later gain. Model the exit alongside the first-year deduction.",
+      "scenario": "A buyer plans to sell the rental next year. Compare the current deduction with sale allocations, potential recapture, suspended losses and study costs before proceeding.",
+      "records": [
+        "Asset-by-asset basis and depreciation",
+        "Expected sales price and supported allocation",
+        "Holding period, suspended losses and exchange plan"
+      ],
+      "sources": [
+        "544",
+        "925"
+      ],
+      "qa": [
+        [
+          "Do I pay back depreciation when I sell?",
+          "Sale tax is not simply a repayment invoice, but depreciation reduces adjusted basis and can create recapture or other taxable gain under asset-specific rules. Personal property and buildings can have different character. Model sales proceeds and allocations rather than applying one blanket recapture rate to all assets."
+        ],
+        [
+          "Is all depreciation recapture taxed at 25%?",
+          "No. Section 1245 ordinary-income recapture can apply to certain personal property; unrecaptured Section 1250 gain has a different maximum-rate framework for individuals. The actual outcome depends on asset classification, gain and taxpayer facts. Do not use 25% as a universal rate for every segregated asset."
+        ],
+        [
+          "Is a study worthwhile if I sell next year?",
+          "It may offer limited timing value or a different overall result once sale taxes, professional fees and usable-loss limits are included. Run a hold-versus-sale model. A large current deduction is not proof of net economic savings over a short holding period."
+        ],
+        [
+          "Does a 1031 exchange defer all segregated assets?",
+          "Section 1031 generally applies to qualifying real property, not every item of personal property. Exchange classification, depreciation classification and sale allocation require coordinated analysis. Furniture and other assets may create taxable proceeds or recapture even when the real estate qualifies for exchange treatment."
+        ],
+        [
+          "Are all suspended passive losses released on a sale?",
+          "A fully taxable disposition of the entire interest to an unrelated person can trigger release under the passive rules, subject to their conditions. Partial sales, related-party transactions, installments and tax-deferred exchanges can differ. Basis, at-risk and other suspended amounts have separate rules."
+        ]
+      ]
+    },
+    {
+      "slug": "study-cost-documents-provider",
+      "title": "Study Fees, Documents and Provider Due Diligence",
+      "rule": "Evaluate the report and filing implementation together. A study quote that excludes return work is not directly comparable to an all-inclusive project.",
+      "scenario": "Two vendors quote different prices, but only one explains basis reconciliation and the tax preparer handoff. Compare scope before deciding which is less expensive.",
+      "records": [
+        "Written scope, property details and fee proposal",
+        "Sample report, methodology and reviewer roles",
+        "Preparer handoff and amendment or Form 3115 responsibilities"
+      ],
+      "sources": [
+        "atg",
+        "3115",
+        "946"
+      ],
+      "qa": [
+        [
+          "How much should a cost segregation study cost?",
+          "Fees depend on property complexity, records, methodology and scope. Ask whether inspection, reconciliation, revisions and examination support are included. AE’s quoted study model is $1 per square foot with a $2,000 minimum, subject to written scope; return and method-change preparation must be confirmed separately."
+        ],
+        [
+          "What documents should I send for a look-back study?",
+          "Start with the original closing statement, land allocation support, all depreciation schedules, improvement invoices, plans and available photos. Include prior elections and ownership changes. Send sensitive records through the provider’s secure intake rather than public forms or ordinary comments."
+        ],
+        [
+          "Does every study require an in-person inspection?",
+          "The appropriate methodology depends on property facts and available documentation. Ask how the provider identifies quantities, condition, use and costs, and what limitations a remote approach creates. An inspection by itself does not establish a correct tax classification or guarantee IRS acceptance."
+        ],
+        [
+          "What does audit support actually include?",
+          "Ask whether support covers report explanations, information requests, technical responses, representation, legal fees or only a short vendor call. Define the responsible professional, duration and additional costs in writing. A promise of audit support is not an assurance no examination or adjustment will occur."
+        ],
+        [
+          "Who puts the report on my tax return?",
+          "The engaged return preparer must reconcile and implement the report using the proper schedules, elections and correction procedure. The study provider may supply calculations without filing the return or Form 3115. Assign responsibility and deadlines before purchasing so a completed report does not sit unused."
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "reviewed": "2026-11-08",
+  "baseline_commit": "59fa8a6c9cf7c8b65d0f632363d67d38f1c138eb",
+  "people": [
+    {
+      "slug": "dawn-brolin",
+      "name": "Dawn Brolin",
+      "brand": "Team Brolin / Powerful Accounting",
+      "group": "education",
+      "sources": [
+        [
+          "https://dawnbrolin.com/",
+          "Official practice-owner education and CEO biography"
+        ],
+        [
+          "https://dawnbrolin.com/about-dawn/",
+          "Practice background, coaching and books"
+        ]
+      ],
+      "profile": "Dawn Brolin\u2019s own site identifies her as Powerful Accounting\u2019s CEO, an author, speaker and creator of Team Brolin.",
+      "offering": "Her public site emphasizes accounting-practice coaching, technology workflows, books and speaking. Identify any separate taxpayer engagement with the actual accounting firm.",
+      "scenario": "You follow workflow education and need either help running a tax practice or help with your own taxes. Separate those purchases before comparing proposals.",
+      "questions": [
+        "Is the buyer an accounting practice or a taxpayer?",
+        "Does the purchase cover coaching, technology or client tax work?",
+        "Which entity and professional accept my engagement?",
+        "What implementation, filing and support are included?"
+      ],
+      "peer_slugs": [
+        "jody-padar",
+        "jackie-meyer"
+      ],
+      "firm": null,
+      "boundary": "A coaching program and CEO biography do not establish a current private-client service menu or personal access. Confirm the actual firm contract before treating practice coaching as taxpayer advice.",
+      "fee": "The reviewed public pages do not establish a universal fixed fee for this combination of services. Request current product-specific pricing, renewal terms and a written professional scope.",
+      "alternative": "/compare/dawn-brolin-alternatives/",
+      "comparison": "/compare/dawn-brolin-vs-ae-tax/",
+      "review": "/compare/dawn-brolin-reviews/"
+    },
+    {
+      "slug": "danielle-hayden",
+      "name": "Danielle Hayden",
+      "brand": "Kickstart Accounting / KSA Tax Partners",
+      "group": "business",
+      "sources": [
+        [
+          "https://kickstartaccountinginc.com/danielle-hayden/",
+          "Official author and finance-education biography"
+        ],
+        [
+          "https://kickstartaccountinginc.com/sign-up-for-services/",
+          "Bookkeeping, optional CFO and tax scopes"
+        ],
+        [
+          "https://kickstartaccountinginc.com/get-started/",
+          "Tax-partner and existing-preparer coordination"
+        ]
+      ],
+      "profile": "Kickstart identifies Danielle Hayden as its CEO, former corporate CFO and author of the Profit Planner series, with public business-finance education.",
+      "offering": "The current signup page presents Kickstart Bookkeeping with optional Envision CFO and KSA Tax Partners services. Another service FAQ distinguishes internal bookkeeping from tax preparation through the sister company and allows coordination with an existing preparer.",
+      "scenario": "You need monthly books and tax planning after hearing a finance podcast. Compare the selected bookkeeping package with optional CFO and tax work, including the contracting entities.",
+      "questions": [
+        "Which bookkeeping package and optional services are selected?",
+        "Which entity performs tax planning and preparation?",
+        "Can the team coordinate with my existing preparer?",
+        "Which cleanup, implementation and recurring costs apply?"
+      ],
+      "peer_slugs": [
+        "nayo-carter-gray",
+        "tiffany-phillips"
+      ],
+      "firm": null,
+      "boundary": "Do not infer tax preparation is unavailable merely because an older or separate FAQ says not internally. The signup page describes a tax option; confirm current entities, shared-contract terms and exact return scope.",
+      "fee": "The reviewed public pages do not establish a universal fixed fee for this combination of services. Request current product-specific pricing, renewal terms and a written professional scope.",
+      "alternative": "/compare/danielle-hayden-alternatives/",
+      "comparison": "/compare/danielle-hayden-vs-ae-tax/",
+      "review": "/compare/danielle-hayden-reviews/"
+    },
+    {
+      "slug": "shannon-weinstein",
+      "name": "Shannon Weinstein",
+      "brand": "Keep What You Earn",
+      "group": "business",
+      "sources": [
+        [
+          "https://www.keepwhatyouearn.com/about-shannon",
+          "Official founder and podcast biography"
+        ],
+        [
+          "https://www.keepwhatyouearn.com/fractional-cfo",
+          "CFO, tax compliance and implementation scope"
+        ]
+      ],
+      "profile": "Keep What You Earn identifies Shannon Weinstein as a CPA, fractional CFO, founder and podcast host, with a focus on medical aesthetic practices.",
+      "offering": "The CFO page describes forecasting, accounting, business income tax preparation and filing, pro forma tax returns and strategy implementation, along with finance leadership and ongoing meetings.",
+      "scenario": "You run a med spa and need coordinated books, forecasts and tax compliance. Compare the complete recurring finance-team engagement with a separately scoped tax advisory project.",
+      "questions": [
+        "Which business and owner returns are included?",
+        "Who implements tax strategies and documents eligibility?",
+        "What reporting and CFO meetings are delivered?",
+        "How are ongoing fees, cleanup and additional scope charged?"
+      ],
+      "peer_slugs": [
+        "hannah-smolinski",
+        "tiffany-phillips"
+      ],
+      "firm": null,
+      "boundary": "The reviewed page expressly includes business filing and tax implementation. Confirm individual-return scope and the specific engagement rather than describing this as CFO education only. No podcast ranking or savings claim is independently verified here.",
+      "fee": "The reviewed public pages do not establish a universal fixed fee for this combination of services. Request current product-specific pricing, renewal terms and a written professional scope.",
+      "alternative": "/compare/shannon-weinstein-alternatives/",
+      "comparison": "/compare/shannon-weinstein-vs-ae-tax/",
+      "review": "/compare/shannon-weinstein-reviews/"
+    },
+    {
+      "slug": "eric-pierre",
+      "name": "Eric Pierre",
+      "brand": "Pierre Accounting",
+      "group": "wealth",
+      "sources": [
+        [
+          "https://www.pierreaccounting.com/about-us/",
+          "Official founder, client focus and tax advisory biography"
+        ]
+      ],
+      "profile": "Pierre Accounting identifies Eric L. Pierre as its founder and CEO and describes a firm focused on clients with complex financial lives.",
+      "offering": "Its public overview describes year-round strategic counsel, business and owner tax coordination, executive compensation and tax complexity for athletes and entertainers.",
+      "scenario": "You have business ownership, stock compensation and multiple-state income. Compare the exact tax analysis, return list and specialist coordination rather than a broad financial-legacy description.",
+      "questions": [
+        "Which entities, states and international tasks are included?",
+        "Who reviews executive compensation and basis records?",
+        "What planning implementation and filing work are contracted?",
+        "Are legal, investment or other specialist services separate?"
+      ],
+      "peer_slugs": [
+        "megan-gorman",
+        "mitchell-baldridge"
+      ],
+      "firm": null,
+      "boundary": "An integrated tax or estate strategy description does not establish legal drafting, portfolio management or every specialist service under one fee. Confirm the assigned team, client eligibility and engagement scope.",
+      "fee": "The reviewed public pages do not establish a universal fixed fee for this combination of services. Request current product-specific pricing, renewal terms and a written professional scope.",
+      "alternative": "/compare/eric-pierre-alternatives/",
+      "comparison": "/compare/eric-pierre-vs-ae-tax/",
+      "review": "/compare/eric-pierre-reviews/"
+    },
+    {
+      "slug": "jody-padar",
+      "name": "Jody Padar",
+      "brand": "The Radical CPA",
+      "group": "education",
+      "sources": [
+        [
+          "https://theradicalcpa.com/about",
+          "Official current professional education and venture roles"
+        ],
+        [
+          "https://theradicalcpa.com/advisory",
+          "Advisory audience and scope"
+        ],
+        [
+          "https://www.radical.cpa/",
+          "Official newsletter and educational publishing"
+        ]
+      ],
+      "profile": "Jody Padar\u2019s official platform presents The Radical CPA as a speaker, advisor and author working with firms, software companies and venture-backed teams.",
+      "offering": "Her current biography describes professional education and technology work through XcelLabs and Navi. Compare firm transformation and professional coaching with a separate taxpayer planning engagement.",
+      "scenario": "You learned about value pricing or AI workflows but need your own business return reviewed. Establish whether you are buying professional education, firm consulting or personal client tax work.",
+      "questions": [
+        "Is the engagement for a firm, software business or taxpayer?",
+        "Which coaching, education and transformation deliverables are included?",
+        "Who accepts responsibility for personal tax advice?",
+        "Is filing and implementation a separate contract?"
+      ],
+      "peer_slugs": [
+        "dawn-brolin",
+        "jackie-meyer"
+      ],
+      "firm": null,
+      "boundary": "Historical CPA-firm experience and professional advisory branding do not establish current private taxpayer availability. Use the current engagement terms and intended audience rather than an older role description.",
+      "fee": "The reviewed public pages do not establish a universal fixed fee for this combination of services. Request current product-specific pricing, renewal terms and a written professional scope.",
+      "alternative": "/compare/jody-padar-alternatives/",
+      "comparison": "/compare/jody-padar-vs-ae-tax/",
+      "review": "/compare/jody-padar-reviews/"
+    }
+  ],
+  "pairs": [
+    [
+      "dawn-brolin",
+      "jody-padar",
+      "Compare practice coaching, workflow, professional education and firm transformation before treating either as a taxpayer service."
+    ],
+    [
+      "danielle-hayden",
+      "nayo-carter-gray",
+      "Compare selected bookkeeping, optional CFO and tax preparation under the exact entity contracts and complete fees."
+    ],
+    [
+      "shannon-weinstein",
+      "hannah-smolinski",
+      "Compare recurring CFO ownership, tax filing and implementation explicitly; confirm the relationship with existing tax preparers."
+    ],
+    [
+      "eric-pierre",
+      "megan-gorman",
+      "Compare complex tax counsel with a broader wealth relationship; separate legal and investment services from tax planning and filing."
+    ],
+    [
+      "jody-padar",
+      "jackie-meyer",
+      "Compare professional education, firm advisory and software with taxpayer services under their own contracts."
+    ]
+  ],
+  "selection": "Five absent identities against 44-name inventory; verified official offerings, no measured demand ranking."
+}

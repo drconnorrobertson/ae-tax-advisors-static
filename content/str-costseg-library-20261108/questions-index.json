@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "What is the short-term rental tax loophole?",
+    "topic": "STR Tax Basics: Rental Classification and W-2 Income",
+    "url": "/guides/str-tax-cost-segregation/str-tax-basics/#q1"
+  },
+  {
+    "id": 2,
+    "question": "Can an Airbnb loss offset W-2 income?",
+    "topic": "STR Tax Basics: Rental Classification and W-2 Income",
+    "url": "/guides/str-tax-cost-segregation/str-tax-basics/#q2"
+  },
+  {
+    "id": 3,
+    "question": "Is every vacation rental an STR for federal taxes?",
+    "topic": "STR Tax Basics: Rental Classification and W-2 Income",
+    "url": "/guides/str-tax-cost-segregation/str-tax-basics/#q3"
+  },
+  {
+    "id": 4,
+    "question": "Do I need an LLC to use STR tax rules?",
+    "topic": "STR Tax Basics: Rental Classification and W-2 Income",
+    "url": "/guides/str-tax-cost-segregation/str-tax-basics/#q4"
+  },
+  {
+    "id": 5,
+    "question": "Is tax savings the same as a depreciation deduction?",
+    "topic": "STR Tax Basics: Rental Classification and W-2 Income",
+    "url": "/guides/str-tax-cost-segregation/str-tax-basics/#q5"
+  },
+  {
+    "id": 6,
+    "question": "How do I calculate average guest stay?",
+    "topic": "Seven-Day and Thirty-Day STR Tests",
+    "url": "/guides/str-tax-cost-segregation/average-stay-tests/#q6"
+  },
+  {
+    "id": 7,
+    "question": "Does every reservation have to be seven days or less?",
+    "topic": "Seven-Day and Thirty-Day STR Tests",
+    "url": "/guides/str-tax-cost-segregation/average-stay-tests/#q7"
+  },
+  {
+    "id": 8,
+    "question": "Does a 30-day average automatically qualify?",
+    "topic": "Seven-Day and Thirty-Day STR Tests",
+    "url": "/guides/str-tax-cost-segregation/average-stay-tests/#q8"
+  },
+  {
+    "id": 9,
+    "question": "Do vacant nights count as rental days in the average?",
+    "topic": "Seven-Day and Thirty-Day STR Tests",
+    "url": "/guides/str-tax-cost-segregation/average-stay-tests/#q9"
+  },
+  {
+    "id": 10,
+    "question": "What if my average stay exceeds seven days?",
+    "topic": "Seven-Day and Thirty-Day STR Tests",
+    "url": "/guides/str-tax-cost-segregation/average-stay-tests/#q10"
+  },
+  {
+    "id": 11,
+    "question": "What is the 500-hour material participation test?",
+    "topic": "STR Material Participation: Tests and Limits",
+    "url": "/guides/str-tax-cost-segregation/material-participation-tests/#q11"
+  },
+  {
+    "id": 12,
+    "question": "Is 100 hours enough for an STR?",
+    "topic": "STR Material Participation: Tests and Limits",
+    "url": "/guides/str-tax-cost-segregation/material-participation-tests/#q12"
+  },
+  {
+    "id": 13,
+    "question": "Can I qualify if I perform substantially all the work?",
+    "topic": "STR Material Participation: Tests and Limits",
+    "url": "/guides/str-tax-cost-segregation/material-participation-tests/#q13"
+  },
+  {
+    "id": 14,
+    "question": "Can prior years of participation help this year?",
+    "topic": "STR Material Participation: Tests and Limits",
+    "url": "/guides/str-tax-cost-segregation/material-participation-tests/#q14"
+  },
+  {
+    "id": 15,
+    "question": "Can I group all my rentals to meet the hours test?",
+    "topic": "STR Material Participation: Tests and Limits",
+    "url": "/guides/str-tax-cost-segregation/material-participation-tests/#q15"
+  },
+  {
+    "id": 16,
+    "question": "Can my spouse\u2019s STR hours count?",
+    "topic": "Counting Owner, Spouse and Manager Hours",
+    "url": "/guides/str-tax-cost-segregation/hours-spouses-managers/#q16"
+  },
+  {
+    "id": 17,
+    "question": "Do property research and investment seminars count?",
+    "topic": "Counting Owner, Spouse and Manager Hours",
+    "url": "/guides/str-tax-cost-segregation/hours-spouses-managers/#q17"
+  },
+  {
+    "id": 18,
+    "question": "Do cleaner hours count against my 100-hour test?",
+    "topic": "Counting Owner, Spouse and Manager Hours",
+    "url": "/guides/str-tax-cost-segregation/hours-spouses-managers/#q18"
+  },
+  {
+    "id": 19,
+    "question": "Can I materially participate with a property manager?",
+    "topic": "Counting Owner, Spouse and Manager Hours",
+    "url": "/guides/str-tax-cost-segregation/hours-spouses-managers/#q19"
+  },
+  {
+    "id": 20,
+    "question": "Is a year-end reconstructed time log sufficient?",
+    "topic": "Counting Owner, Spouse and Manager Hours",
+    "url": "/guides/str-tax-cost-segregation/hours-spouses-managers/#q20"
+  },
+  {
+    "id": 21,
+    "question": "How many personal days can I use my STR?",
+    "topic": "STR Personal Use and Vacation-Home Limits",
+    "url": "/guides/str-tax-cost-segregation/personal-use-vacation-home/#q21"
+  },
+  {
+    "id": 22,
+    "question": "Do family stays count as personal use?",
+    "topic": "STR Personal Use and Vacation-Home Limits",
+    "url": "/guides/str-tax-cost-segregation/personal-use-vacation-home/#q22"
+  },
+  {
+    "id": 23,
+    "question": "Are maintenance trips personal-use days?",
+    "topic": "STR Personal Use and Vacation-Home Limits",
+    "url": "/guides/str-tax-cost-segregation/personal-use-vacation-home/#q23"
+  },
+  {
+    "id": 24,
+    "question": "What is the fewer-than-15-days rental rule?",
+    "topic": "STR Personal Use and Vacation-Home Limits",
+    "url": "/guides/str-tax-cost-segregation/personal-use-vacation-home/#q24"
+  },
+  {
+    "id": 25,
+    "question": "Can cost segregation bypass vacation-home limits?",
+    "topic": "STR Personal Use and Vacation-Home Limits",
+    "url": "/guides/str-tax-cost-segregation/personal-use-vacation-home/#q25"
+  },
+  {
+    "id": 26,
+    "question": "Does an STR always go on Schedule C?",
+    "topic": "Schedule C, Schedule E and STR Services",
+    "url": "/guides/str-tax-cost-segregation/schedule-c-e-services/#q26"
+  },
+  {
+    "id": 27,
+    "question": "When do substantial services require Schedule C?",
+    "topic": "Schedule C, Schedule E and STR Services",
+    "url": "/guides/str-tax-cost-segregation/schedule-c-e-services/#q27"
+  },
+  {
+    "id": 28,
+    "question": "Is my STR income subject to self-employment tax?",
+    "topic": "Schedule C, Schedule E and STR Services",
+    "url": "/guides/str-tax-cost-segregation/schedule-c-e-services/#q28"
+  },
+  {
+    "id": 29,
+    "question": "Does turnover cleaning alone make it a hotel business?",
+    "topic": "Schedule C, Schedule E and STR Services",
+    "url": "/guides/str-tax-cost-segregation/schedule-c-e-services/#q29"
+  },
+  {
+    "id": 30,
+    "question": "Can a property be nonpassive on Schedule E?",
+    "topic": "Schedule C, Schedule E and STR Services",
+    "url": "/guides/str-tax-cost-segregation/schedule-c-e-services/#q30"
+  },
+  {
+    "id": 31,
+    "question": "Do I need real estate professional status for an STR?",
+    "topic": "LTRs, Real Estate Professional Status and STRs",
+    "url": "/guides/str-tax-cost-segregation/real-estate-professional-ltr/#q31"
+  },
+  {
+    "id": 32,
+    "question": "What are the real estate professional hour requirements?",
+    "topic": "LTRs, Real Estate Professional Status and STRs",
+    "url": "/guides/str-tax-cost-segregation/real-estate-professional-ltr/#q32"
+  },
+  {
+    "id": 33,
+    "question": "Can spouses combine hours to qualify as real estate professionals?",
+    "topic": "LTRs, Real Estate Professional Status and STRs",
+    "url": "/guides/str-tax-cost-segregation/real-estate-professional-ltr/#q33"
+  },
+  {
+    "id": 34,
+    "question": "Can an old LTR cost segregation loss offset my wages?",
+    "topic": "LTRs, Real Estate Professional Status and STRs",
+    "url": "/guides/str-tax-cost-segregation/real-estate-professional-ltr/#q34"
+  },
+  {
+    "id": 35,
+    "question": "What happens to passive losses when an LTR becomes an STR?",
+    "topic": "LTRs, Real Estate Professional Status and STRs",
+    "url": "/guides/str-tax-cost-segregation/real-estate-professional-ltr/#q35"
+  },
+  {
+    "id": 36,
+    "question": "What is cost segregation for a rental property?",
+    "topic": "What a Cost Segregation Study Actually Reclassifies",
+    "url": "/guides/str-tax-cost-segregation/cost-segregation-components/#q36"
+  },
+  {
+    "id": 37,
+    "question": "Can I depreciate the land in a cost segregation study?",
+    "topic": "What a Cost Segregation Study Actually Reclassifies",
+    "url": "/guides/str-tax-cost-segregation/cost-segregation-components/#q37"
+  },
+  {
+    "id": 38,
+    "question": "Which rental assets can have shorter recovery periods?",
+    "topic": "What a Cost Segregation Study Actually Reclassifies",
+    "url": "/guides/str-tax-cost-segregation/cost-segregation-components/#q38"
+  },
+  {
+    "id": 39,
+    "question": "Can a study put the whole building in five-year property?",
+    "topic": "What a Cost Segregation Study Actually Reclassifies",
+    "url": "/guides/str-tax-cost-segregation/cost-segregation-components/#q39"
+  },
+  {
+    "id": 40,
+    "question": "Is the IRS audit technique guide an approval of my study?",
+    "topic": "What a Cost Segregation Study Actually Reclassifies",
+    "url": "/guides/str-tax-cost-segregation/cost-segregation-components/#q40"
+  },
+  {
+    "id": 41,
+    "question": "Is 100% bonus depreciation available in 2026?",
+    "topic": "Bonus Depreciation in 2026: Dates and Asset Eligibility",
+    "url": "/guides/str-tax-cost-segregation/bonus-depreciation-current-rules/#q41"
+  },
+  {
+    "id": 42,
+    "question": "Does the rental building itself qualify for bonus?",
+    "topic": "Bonus Depreciation in 2026: Dates and Asset Eligibility",
+    "url": "/guides/str-tax-cost-segregation/bonus-depreciation-current-rules/#q42"
+  },
+  {
+    "id": 43,
+    "question": "Can used rental components qualify for bonus?",
+    "topic": "Bonus Depreciation in 2026: Dates and Asset Eligibility",
+    "url": "/guides/str-tax-cost-segregation/bonus-depreciation-current-rules/#q43"
+  },
+  {
+    "id": 44,
+    "question": "Can I elect out of bonus depreciation?",
+    "topic": "Bonus Depreciation in 2026: Dates and Asset Eligibility",
+    "url": "/guides/str-tax-cost-segregation/bonus-depreciation-current-rules/#q44"
+  },
+  {
+    "id": 45,
+    "question": "Is the bonus rate based on the study completion year?",
+    "topic": "Bonus Depreciation in 2026: Dates and Asset Eligibility",
+    "url": "/guides/str-tax-cost-segregation/bonus-depreciation-current-rules/#q45"
+  },
+  {
+    "id": 46,
+    "question": "Do I need a first guest before depreciation starts?",
+    "topic": "Placed in Service: First Guest, Readiness and Year-End",
+    "url": "/guides/str-tax-cost-segregation/placed-in-service-timing/#q46"
+  },
+  {
+    "id": 47,
+    "question": "Does buying a property before December 31 guarantee a deduction?",
+    "topic": "Placed in Service: First Guest, Readiness and Year-End",
+    "url": "/guides/str-tax-cost-segregation/placed-in-service-timing/#q47"
+  },
+  {
+    "id": 48,
+    "question": "Can furniture have a different service date from the building?",
+    "topic": "Placed in Service: First Guest, Readiness and Year-End",
+    "url": "/guides/str-tax-cost-segregation/placed-in-service-timing/#q48"
+  },
+  {
+    "id": 49,
+    "question": "What if renovations continue after guests arrive?",
+    "topic": "Placed in Service: First Guest, Readiness and Year-End",
+    "url": "/guides/str-tax-cost-segregation/placed-in-service-timing/#q49"
+  },
+  {
+    "id": 50,
+    "question": "Can I pay for a study after year-end?",
+    "topic": "Placed in Service: First Guest, Readiness and Year-End",
+    "url": "/guides/str-tax-cost-segregation/placed-in-service-timing/#q50"
+  },
+  {
+    "id": 51,
+    "question": "Can I do cost segregation on a rental bought years ago?",
+    "topic": "Cost Segregation on an Old LTR",
+    "url": "/guides/str-tax-cost-segregation/old-ltr-lookback/#q51"
+  },
+  {
+    "id": 52,
+    "question": "Does an old LTR need a new purchase to qualify?",
+    "topic": "Cost Segregation on an Old LTR",
+    "url": "/guides/str-tax-cost-segregation/old-ltr-lookback/#q52"
+  },
+  {
+    "id": 53,
+    "question": "Can I catch up depreciation from closed tax years?",
+    "topic": "Cost Segregation on an Old LTR",
+    "url": "/guides/str-tax-cost-segregation/old-ltr-lookback/#q53"
+  },
+  {
+    "id": 54,
+    "question": "Will an old LTR study release all passive losses?",
+    "topic": "Cost Segregation on an Old LTR",
+    "url": "/guides/str-tax-cost-segregation/old-ltr-lookback/#q54"
+  },
+  {
+    "id": 55,
+    "question": "How old is too old for a cost segregation study?",
+    "topic": "Cost Segregation on an Old LTR",
+    "url": "/guides/str-tax-cost-segregation/old-ltr-lookback/#q55"
+  },
+  {
+    "id": 56,
+    "question": "Can I cost segregate an STR I already own?",
+    "topic": "Cost Segregation on an Existing STR",
+    "url": "/guides/str-tax-cost-segregation/old-str-lookback/#q56"
+  },
+  {
+    "id": 57,
+    "question": "Can I use current bonus rules on my 2021 STR?",
+    "topic": "Cost Segregation on an Existing STR",
+    "url": "/guides/str-tax-cost-segregation/old-str-lookback/#q57"
+  },
+  {
+    "id": 58,
+    "question": "Does current material participation make my catch-up loss nonpassive?",
+    "topic": "Cost Segregation on an Existing STR",
+    "url": "/guides/str-tax-cost-segregation/old-str-lookback/#q58"
+  },
+  {
+    "id": 59,
+    "question": "What if I never kept guest-stay records?",
+    "topic": "Cost Segregation on an Existing STR",
+    "url": "/guides/str-tax-cost-segregation/old-str-lookback/#q59"
+  },
+  {
+    "id": 60,
+    "question": "Can I correct prior STR reporting at the same time?",
+    "topic": "Cost Segregation on an Existing STR",
+    "url": "/guides/str-tax-cost-segregation/old-str-lookback/#q60"
+  },
+  {
+    "id": 61,
+    "question": "What does Form 3115 do for cost segregation?",
+    "topic": "Form 3115 and Section 481(a) Catch-Up Depreciation",
+    "url": "/guides/str-tax-cost-segregation/form-3115-catchup/#q61"
+  },
+  {
+    "id": 62,
+    "question": "What is a Section 481(a) adjustment?",
+    "topic": "Form 3115 and Section 481(a) Catch-Up Depreciation",
+    "url": "/guides/str-tax-cost-segregation/form-3115-catchup/#q62"
+  },
+  {
+    "id": 63,
+    "question": "Is a negative adjustment always deducted all at once?",
+    "topic": "Form 3115 and Section 481(a) Catch-Up Depreciation",
+    "url": "/guides/str-tax-cost-segregation/form-3115-catchup/#q63"
+  },
+  {
+    "id": 64,
+    "question": "Does Form 3115 require an IRS user fee?",
+    "topic": "Form 3115 and Section 481(a) Catch-Up Depreciation",
+    "url": "/guides/str-tax-cost-segregation/form-3115-catchup/#q64"
+  },
+  {
+    "id": 65,
+    "question": "When is the Form 3115 duplicate copy due?",
+    "topic": "Form 3115 and Section 481(a) Catch-Up Depreciation",
+    "url": "/guides/str-tax-cost-segregation/form-3115-catchup/#q65"
+  },
+  {
+    "id": 66,
+    "question": "Should I amend returns after a cost segregation study?",
+    "topic": "Amended Return or Form 3115?",
+    "url": "/guides/str-tax-cost-segregation/amendments-method-errors/#q66"
+  },
+  {
+    "id": 67,
+    "question": "Is one missed year different from several years?",
+    "topic": "Amended Return or Form 3115?",
+    "url": "/guides/str-tax-cost-segregation/amendments-method-errors/#q67"
+  },
+  {
+    "id": 68,
+    "question": "Can Form 3115 reverse a bonus election?",
+    "topic": "Amended Return or Form 3115?",
+    "url": "/guides/str-tax-cost-segregation/amendments-method-errors/#q68"
+  },
+  {
+    "id": 69,
+    "question": "Can a partnership simply file an amended return?",
+    "topic": "Amended Return or Form 3115?",
+    "url": "/guides/str-tax-cost-segregation/amendments-method-errors/#q69"
+  },
+  {
+    "id": 70,
+    "question": "Can I claim missed depreciation without a study?",
+    "topic": "Amended Return or Form 3115?",
+    "url": "/guides/str-tax-cost-segregation/amendments-method-errors/#q70"
+  },
+  {
+    "id": 71,
+    "question": "Does converting an LTR to an STR restart depreciation?",
+    "topic": "Converting an LTR to an STR or Back",
+    "url": "/guides/str-tax-cost-segregation/ltr-str-conversions/#q71"
+  },
+  {
+    "id": 72,
+    "question": "Can new STR furniture qualify separately?",
+    "topic": "Converting an LTR to an STR or Back",
+    "url": "/guides/str-tax-cost-segregation/ltr-str-conversions/#q72"
+  },
+  {
+    "id": 73,
+    "question": "What if I convert an STR back to long-term renting?",
+    "topic": "Converting an LTR to an STR or Back",
+    "url": "/guides/str-tax-cost-segregation/ltr-str-conversions/#q73"
+  },
+  {
+    "id": 74,
+    "question": "Does changing property managers change the tax result?",
+    "topic": "Converting an LTR to an STR or Back",
+    "url": "/guides/str-tax-cost-segregation/ltr-str-conversions/#q74"
+  },
+  {
+    "id": 75,
+    "question": "Can I use an appraisal to reset basis on conversion?",
+    "topic": "Converting an LTR to an STR or Back",
+    "url": "/guides/str-tax-cost-segregation/ltr-str-conversions/#q75"
+  },
+  {
+    "id": 76,
+    "question": "What is depreciation basis for a former home?",
+    "topic": "Former Homes Converted to Rentals: Basis and Use",
+    "url": "/guides/str-tax-cost-segregation/former-home-rental-basis/#q76"
+  },
+  {
+    "id": 77,
+    "question": "Can I cost segregate a converted primary residence?",
+    "topic": "Former Homes Converted to Rentals: Basis and Use",
+    "url": "/guides/str-tax-cost-segregation/former-home-rental-basis/#q77"
+  },
+  {
+    "id": 78,
+    "question": "Is my new mortgage the rental\u2019s depreciation basis?",
+    "topic": "Former Homes Converted to Rentals: Basis and Use",
+    "url": "/guides/str-tax-cost-segregation/former-home-rental-basis/#q78"
+  },
+  {
+    "id": 79,
+    "question": "Can I deduct costs while the home is still personal?",
+    "topic": "Former Homes Converted to Rentals: Basis and Use",
+    "url": "/guides/str-tax-cost-segregation/former-home-rental-basis/#q79"
+  },
+  {
+    "id": 80,
+    "question": "Does the home-sale exclusion erase depreciation taxes?",
+    "topic": "Former Homes Converted to Rentals: Basis and Use",
+    "url": "/guides/str-tax-cost-segregation/former-home-rental-basis/#q80"
+  },
+  {
+    "id": 81,
+    "question": "Are all rental renovations deductible immediately?",
+    "topic": "Rental Repairs, Improvements and Replaced Components",
+    "url": "/guides/str-tax-cost-segregation/repairs-improvements-replacements/#q81"
+  },
+  {
+    "id": 82,
+    "question": "Can a new roof be five-year property?",
+    "topic": "Rental Repairs, Improvements and Replaced Components",
+    "url": "/guides/str-tax-cost-segregation/repairs-improvements-replacements/#q82"
+  },
+  {
+    "id": 83,
+    "question": "How do I avoid counting appliances twice?",
+    "topic": "Rental Repairs, Improvements and Replaced Components",
+    "url": "/guides/str-tax-cost-segregation/repairs-improvements-replacements/#q83"
+  },
+  {
+    "id": 84,
+    "question": "Can I deduct the remaining basis of a replaced component?",
+    "topic": "Rental Repairs, Improvements and Replaced Components",
+    "url": "/guides/str-tax-cost-segregation/repairs-improvements-replacements/#q84"
+  },
+  {
+    "id": 85,
+    "question": "Does the de minimis safe harbor replace cost segregation?",
+    "topic": "Rental Repairs, Improvements and Replaced Components",
+    "url": "/guides/str-tax-cost-segregation/repairs-improvements-replacements/#q85"
+  },
+  {
+    "id": 86,
+    "question": "Why did my cost segregation loss not reduce this year\u2019s tax?",
+    "topic": "Usable Rental Losses: Basis, At-Risk and Passive Limits",
+    "url": "/guides/str-tax-cost-segregation/loss-limits-state-tax/#q86"
+  },
+  {
+    "id": 87,
+    "question": "Does all mortgage debt count as at-risk basis?",
+    "topic": "Usable Rental Losses: Basis, At-Risk and Passive Limits",
+    "url": "/guides/str-tax-cost-segregation/loss-limits-state-tax/#q87"
+  },
+  {
+    "id": 88,
+    "question": "Can an excess business loss limit an STR deduction?",
+    "topic": "Usable Rental Losses: Basis, At-Risk and Passive Limits",
+    "url": "/guides/str-tax-cost-segregation/loss-limits-state-tax/#q88"
+  },
+  {
+    "id": 89,
+    "question": "Do states allow the same bonus depreciation as federal law?",
+    "topic": "Usable Rental Losses: Basis, At-Risk and Passive Limits",
+    "url": "/guides/str-tax-cost-segregation/loss-limits-state-tax/#q89"
+  },
+  {
+    "id": 90,
+    "question": "Can suspended losses still have future value?",
+    "topic": "Usable Rental Losses: Basis, At-Risk and Passive Limits",
+    "url": "/guides/str-tax-cost-segregation/loss-limits-state-tax/#q90"
+  },
+  {
+    "id": 91,
+    "question": "Do I pay back depreciation when I sell?",
+    "topic": "Selling After Cost Segregation: Recapture and Exit",
+    "url": "/guides/str-tax-cost-segregation/selling-recapture-exchanges/#q91"
+  },
+  {
+    "id": 92,
+    "question": "Is all depreciation recapture taxed at 25%?",
+    "topic": "Selling After Cost Segregation: Recapture and Exit",
+    "url": "/guides/str-tax-cost-segregation/selling-recapture-exchanges/#q92"
+  },
+  {
+    "id": 93,
+    "question": "Is a study worthwhile if I sell next year?",
+    "topic": "Selling After Cost Segregation: Recapture and Exit",
+    "url": "/guides/str-tax-cost-segregation/selling-recapture-exchanges/#q93"
+  },
+  {
+    "id": 94,
+    "question": "Does a 1031 exchange defer all segregated assets?",
+    "topic": "Selling After Cost Segregation: Recapture and Exit",
+    "url": "/guides/str-tax-cost-segregation/selling-recapture-exchanges/#q94"
+  },
+  {
+    "id": 95,
+    "question": "Are all suspended passive losses released on a sale?",
+    "topic": "Selling After Cost Segregation: Recapture and Exit",
+    "url": "/guides/str-tax-cost-segregation/selling-recapture-exchanges/#q95"
+  },
+  {
+    "id": 96,
+    "question": "How much should a cost segregation study cost?",
+    "topic": "Study Fees, Documents and Provider Due Diligence",
+    "url": "/guides/str-tax-cost-segregation/study-cost-documents-provider/#q96"
+  },
+  {
+    "id": 97,
+    "question": "What documents should I send for a look-back study?",
+    "topic": "Study Fees, Documents and Provider Due Diligence",
+    "url": "/guides/str-tax-cost-segregation/study-cost-documents-provider/#q97"
+  },
+  {
+    "id": 98,
+    "question": "Does every study require an in-person inspection?",
+    "topic": "Study Fees, Documents and Provider Due Diligence",
+    "url": "/guides/str-tax-cost-segregation/study-cost-documents-provider/#q98"
+  },
+  {
+    "id": 99,
+    "question": "What does audit support actually include?",
+    "topic": "Study Fees, Documents and Provider Due Diligence",
+    "url": "/guides/str-tax-cost-segregation/study-cost-documents-provider/#q99"
+  },
+  {
+    "id": 100,
+    "question": "Who puts the report on my tax return?",
+    "topic": "Study Fees, Documents and Provider Due Diligence",
+    "url": "/guides/str-tax-cost-segregation/study-cost-documents-provider/#q100"
+  }
+]
