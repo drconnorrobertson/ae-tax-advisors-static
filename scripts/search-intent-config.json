@@ -1529,5 +1529,30 @@
     "title": "Medical Office Cost Segregation: Specialized Systems and Tenant Costs",
     "description": "Review medical-office ownership, buildout costs, dedicated equipment systems and bonus eligibility before relying on accelerated depreciation.",
     "h1": "Medical Office Cost Segregation: Specialized Systems and Tenant Costs"
+  },
+  "maryland/index.html": {
+    "title": "Maryland Cost Segregation and Tax Planning: State Rules",
+    "description": "Review Maryland depreciation adjustments, state and local taxes, capital-gain surtax and 2026 PTE elections alongside federal deductions.",
+    "h1": "Maryland Cost Segregation and Tax Planning: State Rules"
+  },
+  "south-carolina/index.html": {
+    "title": "South Carolina Cost Segregation and 2026 Tax Planning",
+    "description": "Review South Carolina\u2019s 2026 rates, AGI starting point, depreciation adjustments and eligible active-business tax elections.",
+    "h1": "South Carolina Cost Segregation and 2026 Tax Planning"
+  },
+  "blog/mid-term-rental-tax-strategy-30-day/index.html": {
+    "title": "Mid-Term Rental Tax Rules: Stay Length, Services and Deductions",
+    "description": "Review actual customer-use periods, services, depreciation and loss limits for furnished mid-term rentals without assuming STR treatment.",
+    "h1": "Mid-Term Rental Tax Rules: Stay Length, Services and Deductions"
+  },
+  "blog/tax-strategy-for-insurance-agency-owners/index.html": {
+    "title": "Insurance Agency Tax Planning: Commissions, QBI and Book Sales",
+    "description": "Coordinate commission timing, owner compensation, QBI, acquisition amortization and sale allocation for an insurance agency.",
+    "h1": "Insurance Agency Tax Planning: Commissions, QBI and Book Sales"
+  },
+  "blog/tax-strategy-for-airline-pilots/index.html": {
+    "title": "Airline Pilot Tax Planning: State Wages, Per Diem and Side Income",
+    "description": "Review airline wage sourcing, residency, reimbursements, side businesses and rental losses using the applicable employment and tax rules.",
+    "h1": "Airline Pilot Tax Planning: State Wages, Per Diem and Side Income"
   }
 }
