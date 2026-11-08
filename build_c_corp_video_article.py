@@ -131,7 +131,8 @@ SCHEMAS = [
         "name": "C Corp Strategy for $1M+ Owners",
         "description": "How high-profit owners can evaluate a C corporation for reinvestment while managing double taxation and compliance risks.",
         "thumbnailUrl": T.SITE + POSTER,
-        "uploadDate": DATE,
+        # First publication merge 1783165afeffdbca497e5bf2431b17f6ef1661d1.
+        "uploadDate": "2026-09-27T19:20:40-04:00",
         "duration": "PT3M28S",
         "contentUrl": T.SITE + VIDEO,
         "publisher": {"@type": "Organization", "name": T.BRAND, "url": T.SITE + "/"},
