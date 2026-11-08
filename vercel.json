@@ -3,6 +3,26 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/the-smart-way-to-handle-business-vehicle-deductions/",
+      "destination": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/",
+      "permanent": true
+    },
+    {
+      "source": "/the-smart-way-to-handle-business-vehicle-deductions",
+      "destination": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/",
+      "permanent": true
+    },
+    {
+      "source": "/the-smart-way-to-deduct-vehicle-expenses-for-business/",
+      "destination": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/",
+      "permanent": true
+    },
+    {
+      "source": "/the-smart-way-to-deduct-vehicle-expenses-for-business",
+      "destination": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/",
+      "permanent": true
+    },
+    {
       "source": "/cost-segregation-hotels/",
       "destination": "/services/cost-segregation-hotels/",
       "permanent": true

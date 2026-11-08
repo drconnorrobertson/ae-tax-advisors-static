@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/vehicle-deductions-mileage-logs/",
+      "title": "IRS Mileage Log Requirements: What to Record and Keep",
+      "description": "Document business purpose, trip dates, mileage and total use, then apply the correct vehicle deduction method and 2026 rate period."
+    },
+    {
+      "url": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/",
+      "title": "Standard Mileage vs Actual Expenses: Compare Vehicle Methods",
+      "description": "Compare the eligible vehicle methods, 2026 split-year rates, depreciation history, lease rules and business-use records before filing."
+    }
+  ],
+  "redirects": [
+    {
+      "from": "/the-smart-way-to-handle-business-vehicle-deductions/",
+      "to": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/"
+    },
+    {
+      "from": "/the-smart-way-to-deduct-vehicle-expenses-for-business/",
+      "to": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/"
+    }
+  ],
+  "evidence": "GSC: method comparison 1,616 impressions; mileage logs 1,910 impressions. Distinct query intent retained."
+}

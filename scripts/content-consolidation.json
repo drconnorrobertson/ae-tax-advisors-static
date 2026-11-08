@@ -18,7 +18,9 @@
     "/the-business-owners-guide-to-section-453-installment-sales-and-deferred-gain-recognition/": "/the-business-owners-guide-to-installment-sales-and-deferred-gain-strategies/",
     "/blog/passive-activity-loss-rules-investor-guide/": "/blog/passive-activity-loss-rules-for-real-estate-investors/",
     "/blog/material-participation-tests-str-owners/": "/blog/material-participation-tests-str-owners-irc-469/",
-    "/cost-segregation-hotels/": "/services/cost-segregation-hotels/"
+    "/cost-segregation-hotels/": "/services/cost-segregation-hotels/",
+    "/the-smart-way-to-handle-business-vehicle-deductions/": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/",
+    "/the-smart-way-to-deduct-vehicle-expenses-for-business/": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/"
   },
   "reason": "Overlapping service-intent pages and generic numbered rental variants; retain substantive distinct guides."
 }
