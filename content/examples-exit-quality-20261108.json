@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/blog/investor-saved-127k-cost-segregation-study/",
+      "title": "Cost Segregation Planning Example: Deduction vs Tax Savings",
+      "description": "Follow an illustrative cost segregation comparison that separates accelerated deductions, usable tax benefits and future recapture."
+    },
+    {
+      "url": "/blog/multi-property-portfolio-restructuring-saves-200k/",
+      "title": "Multi-Property Restructuring Example: Basis, Debt and Costs",
+      "description": "Evaluate a portfolio reorganization without assuming that adding entities or studies creates a fixed tax saving."
+    },
+    {
+      "url": "/blog/from-62k-tax-bill-to-zero/",
+      "title": "Rental Tax Planning Example: Why a Deduction May Not Erase the Bill",
+      "description": "Model a projected tax bill using usable deductions, actual rates and loss limits instead of assuming a rental purchase eliminates tax."
+    },
+    {
+      "url": "/blog/1031-exchange-alternatives/",
+      "title": "1031 Exchange Alternatives: Compare Tax, Liquidity and Risk",
+      "description": "Evaluate a taxable sale, installment treatment, charitable planning and eligible reinvestment without assuming an alternative eliminates tax."
+    }
+  ],
+  "inboundLabelFiles": [
+    "blog/page/33/index.html",
+    "blog/one-big-beautiful-bill-act-business-owners-2026/index.html",
+    "blog/entity-restructuring-multi-property-portfolios/index.html",
+    "blog/cost-segregation-sfr-buy-and-hold-rentals/index.html",
+    "blog/cost-segregation-sfr-portfolio-10-properties/index.html",
+    "blog/cost-segregation-complete-guide/index.html",
+    "blog/cost-segregation-single-family-rental-portfolios/index.html",
+    "blog/building-tax-efficient-portfolio-from-scratch/index.html",
+    "blog/first-year-investor-guide-tax-optimized-real-estate/index.html",
+    "blog/post-divorce-entity-restructuring/index.html",
+    "case-studies/multi-entity-real-estate-operating/index.html"
+  ]
+}
