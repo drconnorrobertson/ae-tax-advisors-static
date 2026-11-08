@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/blog/can-i-deduct-furniture-and-supplies-for-my-airbnb/",
+      "action": "Repair confirmed dead primary-source references"
+    },
+    {
+      "url": "/blog/can-i-set-up-a-retirement-plan-after-year-end/",
+      "action": "Repair confirmed dead primary-source references"
+    },
+    {
+      "url": "/blog/commercial-tenant-landlord-lease-surrender-payment-tax/",
+      "action": "Repair confirmed dead primary-source references"
+    },
+    {
+      "url": "/blog/cost-segregation-complete-guide/",
+      "action": "Repair confirmed dead primary-source references"
+    },
+    {
+      "url": "/blog/cost-segregation-pennsylvania-state-tax-rules/",
+      "action": "Repair confirmed dead primary-source references"
+    },
+    {
+      "url": "/blog/how-far-back-can-i-amend-a-tax-return/",
+      "action": "Repair confirmed dead primary-source references"
+    },
+    {
+      "url": "/blog/oil-and-gas-working-interest-tax-deduction/",
+      "action": "Repair confirmed dead primary-source references"
+    },
+    {
+      "url": "/c-corporation-strategy/accumulated-earnings-tax/",
+      "action": "Repair confirmed dead primary-source references"
+    },
+    {
+      "url": "/c-corporation-strategy/corporate-losses-nol-rules/",
+      "action": "Repair confirmed dead primary-source references"
+    },
+    {
+      "url": "/cost-segregation-airbnb/",
+      "action": "Repair confirmed dead primary-source references"
+    },
+    {
+      "url": "/tax-mistakes-cost-business-owners-50k/",
+      "action": "Repair confirmed dead primary-source references"
+    },
+    {
+      "url": "/the-business-owners-guide-to-section-736-payments-to-retiring-or-deceased-partners/",
+      "action": "Repair confirmed dead primary-source references"
+    }
+  ],
+  "files": [
+    "cost-segregation-airbnb/index.html",
+    "the-business-owners-guide-to-section-736-payments-to-retiring-or-deceased-partners/index.html",
+    "tax-mistakes-cost-business-owners-50k/index.html",
+    "blog/oil-and-gas-working-interest-tax-deduction/index.html",
+    "blog/cost-segregation-pennsylvania-state-tax-rules/index.html",
+    "blog/cost-segregation-complete-guide/index.html",
+    "blog/can-i-set-up-a-retirement-plan-after-year-end/index.html",
+    "blog/how-far-back-can-i-amend-a-tax-return/index.html",
+    "blog/can-i-deduct-furniture-and-supplies-for-my-airbnb/index.html",
+    "blog/commercial-tenant-landlord-lease-surrender-payment-tax/index.html",
+    "scripts/test-sale-year-retirement.py",
+    "c-corporation-strategy/accumulated-earnings-tax/index.html",
+    "c-corporation-strategy/corporate-losses-nol-rules/index.html"
+  ],
+  "replacements": {
+    "https://uscode.house.gov/view.xhtml?edition=2023&req=granuleid%3AUSC-2023-title26-chapter1-subchapterB-part6": "https://uscode.house.gov/us/usc/t26/s168/",
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section736&num=0&edition=prelim": "https://uscode.house.gov/us/usc/t26/s736/",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/research-credit": "https://www.irs.gov/businesses/research-credit",
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section263&num=0&edition=prelim": "https://uscode.house.gov/us/usc/t26/s263/",
+    "https://www.irs.gov/businesses/cost-segregation-audit-techniques-guide": "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+    "https://www.irs.gov/businesses/cost-segregation-audit-techniques-guide-table-of-contents": "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+    "https://uscode.house.gov/us/usc/119-121/t26/s401/": "https://uscode.house.gov/us/usc/t26/s401/",
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section6511&num=0&edition=prelim": "https://uscode.house.gov/us/usc/t26/s6511/",
+    "https://www.irs.gov/pub/irs-drop/rp-2026-17.pdf": "https://www.irs.gov/irb/2026-06_IRB",
+    "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title26-section1241": "https://uscode.house.gov/us/usc/t26/s1241/",
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section535&num=0&edition=prelim": "https://uscode.house.gov/us/usc/t26/s535/",
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section534&num=0&edition=prelim": "https://uscode.house.gov/us/usc/t26/s534/",
+    "https://uscode.house.gov/us/usc/119-121/t26/s382/": "https://uscode.house.gov/us/usc/t26/s382/"
+  },
+  "ssa403": "Not changed: access block is not evidence of a dead link"
+}
