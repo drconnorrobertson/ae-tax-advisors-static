@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/physician-retirement-planning/",
+      "title": "Physician Retirement Planning: Employed, Locum and Practice Income",
+      "description": "Coordinate physician retirement contributions across hospital employment, independent work and practice ownership without double-counting limits.",
+      "datePublished": "2026-05-05"
+    },
+    {
+      "url": "/attorney-retirement-planning/",
+      "title": "Attorney Retirement Planning: Partners, Employees and Plan Funding",
+      "description": "Review law-firm retirement contributions using partner status, earned income, staff coverage and actuarial funding requirements.",
+      "datePublished": "2026-05-05"
+    },
+    {
+      "url": "/consultant-retirement-planning/",
+      "title": "Consultant Retirement Planning: Variable Income and Multiple Plans",
+      "description": "Compare consultant retirement options using eligible compensation, other employment plans, staff and cash-flow commitments.",
+      "datePublished": "2026-05-05"
+    },
+    {
+      "url": "/surgeon-retirement-planning/",
+      "title": "Surgeon Retirement Planning: Practice Pay, Ownership and Funding",
+      "description": "Coordinate surgical-practice retirement planning across wages, partnership income, staff obligations and future practice transitions.",
+      "datePublished": "2026-05-05"
+    }
+  ]
+}

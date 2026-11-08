@@ -1645,5 +1645,40 @@
     "title": "IT Consultant and Developer Taxes: QBI, Research and State Sourcing",
     "description": "Review actual service delivery, research contracts, entity costs and state sourcing before projecting an independent technology business tax benefit.",
     "h1": "IT Consultant and Developer Taxes: QBI, Research and State Sourcing"
+  },
+  "backdoor-roth-ira-high-earners-access-roth-benefits/index.html": {
+    "title": "Backdoor Roth IRA: Nondeductible Basis, Conversion Tax and Form 8606",
+    "description": "Review contribution eligibility, IRA aggregation, year-end balances and Form 8606 before completing a backdoor Roth conversion.",
+    "h1": "Backdoor Roth IRA: Nondeductible Basis, Conversion Tax and Form 8606"
+  },
+  "dentist-retirement-planning/index.html": {
+    "title": "Retirement Plans for Dentists: 401(k), Cash Balance and Staff Costs",
+    "description": "Compare dental-practice retirement plans using compensation, employee coverage, actuarial funding and the full cost of plan administration.",
+    "h1": "Retirement Plans for Dentists: 401(k), Cash Balance and Staff Costs"
+  },
+  "tax-planning-for-high-net-worth-real-estate-investors/index.html": {
+    "title": "High-Net-Worth Real Estate Tax Planning: Basis, Losses and Exits",
+    "description": "Coordinate property-level depreciation, owner loss limitations, exchange requirements and state reporting across a real estate portfolio.",
+    "h1": "High-Net-Worth Real Estate Tax Planning: Basis, Losses and Exits"
+  },
+  "physician-retirement-planning/index.html": {
+    "title": "Physician Retirement Planning: Employed, Locum and Practice Income",
+    "description": "Coordinate physician retirement contributions across hospital employment, independent work and practice ownership without double-counting limits.",
+    "h1": "Physician Retirement Planning: Employed, Locum and Practice Income"
+  },
+  "attorney-retirement-planning/index.html": {
+    "title": "Attorney Retirement Planning: Partners, Employees and Plan Funding",
+    "description": "Review law-firm retirement contributions using partner status, earned income, staff coverage and actuarial funding requirements.",
+    "h1": "Attorney Retirement Planning: Partners, Employees and Plan Funding"
+  },
+  "consultant-retirement-planning/index.html": {
+    "title": "Consultant Retirement Planning: Variable Income and Multiple Plans",
+    "description": "Compare consultant retirement options using eligible compensation, other employment plans, staff and cash-flow commitments.",
+    "h1": "Consultant Retirement Planning: Variable Income and Multiple Plans"
+  },
+  "surgeon-retirement-planning/index.html": {
+    "title": "Surgeon Retirement Planning: Practice Pay, Ownership and Funding",
+    "description": "Coordinate surgical-practice retirement planning across wages, partnership income, staff obligations and future practice transitions.",
+    "h1": "Surgeon Retirement Planning: Practice Pay, Ownership and Funding"
   }
 }
