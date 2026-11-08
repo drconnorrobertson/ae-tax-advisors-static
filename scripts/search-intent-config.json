@@ -1581,5 +1581,20 @@
     "title": "Is Your CPA Engagement Missing Tax Planning? A Scope Review",
     "description": "Compare preparation and planning responsibilities, request evidence for proposed savings and evaluate whether a second opinion would help.",
     "h1": "Is Your CPA Engagement Missing Tax Planning? A Scope Review"
+  },
+  "blog/str-loss-limitation-basis-at-risk-passive/index.html": {
+    "title": "STR Loss Limitations: Basis, At Risk, Passive Activity and Excess Losses",
+    "description": "Follow the separate loss limitations before projecting an STR wage offset, and distinguish entity basis from amounts at risk.",
+    "h1": "STR Loss Limitations: Basis, At Risk, Passive Activity and Excess Losses"
+  },
+  "blog/how-much-can-i-save-by-electing-s-corp-status/index.html": {
+    "title": "S Corporation Tax Savings: Model Salary, Payroll Costs and QBI",
+    "description": "Estimate S corporation savings using consistent profit assumptions, reasonable compensation, payroll taxes, administration and income-tax effects.",
+    "h1": "S Corporation Tax Savings: Model Salary, Payroll Costs and QBI"
+  },
+  "blog/purchase-price-allocation-optimization-business-sale/index.html": {
+    "title": "Business Sale Purchase Price Allocation: Form 8594 and Tax Character",
+    "description": "Review asset values, depreciation recapture, goodwill and buyer-seller reporting before agreeing to a business sale allocation.",
+    "h1": "Business Sale Purchase Price Allocation: Form 8594 and Tax Character"
   }
 }
