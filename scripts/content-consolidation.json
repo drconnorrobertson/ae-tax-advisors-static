@@ -41,7 +41,16 @@
     "/blog/s-corp-to-c-corp-conversion-when-it-makes-sense/": "/blog/can-i-convert-my-s-corp-to-a-c-corp-for-tax-savings/",
     "/blog/real-estate-professional-status-qualification-guide/": "/blog/what-is-real-estate-professional-status-and-how-do-i-qualify/",
     "/tax-planning-surgeons-surgical-specialists/": "/blog/tax-strategy-for-surgeons/",
-    "/salt-deduction-cap-workarounds-high-income-taxpayers/": "/ptet-election-by-state/"
+    "/salt-deduction-cap-workarounds-high-income-taxpayers/": "/ptet-election-by-state/",
+    "/pay-kids-family-business/": "/blog/hire-children-family-business-tax-rules/",
+    "/blog/can-i-hire-my-kids-through-my-business-for-tax-savings/": "/blog/hire-children-family-business-tax-rules/",
+    "/set-accountable-plan-business/": "/accountable-plan/",
+    "/short-term-rental-tax-planning-playbook/": "/str-tax-loophole/",
+    "/real-estate-professional-status-what-it-is-and-what-the-irs-looks-for/": "/blog/what-is-real-estate-professional-status-and-how-do-i-qualify/",
+    "/reps-qualification-through-spouse/": "/blog/can-my-spouse-qualify-for-real-estate-professional-status/",
+    "/estate-planning-tax-strategies-business-owners/": "/estate-trust-wealth-transfer/",
+    "/estate-tax-planning-advice-for-high-net-worth-families/": "/estate-trust-wealth-transfer/",
+    "/estate-tax-planning-strategies-high-net-worth-families/": "/estate-trust-wealth-transfer/"
   },
   "reason": "Overlapping service-intent pages and generic numbered rental variants; retain substantive distinct guides."
 }
