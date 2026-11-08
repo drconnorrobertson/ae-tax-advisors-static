@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/best-cpa-for-real-estate-investors/",
+      "changes": [
+        {
+          "old": "Most CPAs are not equipped to handle the tax complexities of real estate investing",
+          "new": "Real estate tax work can require specialized scope and supporting records",
+          "count": 1
+        },
+        {
+          "old": "Most CPAs Are Not Equipped for Real Estate",
+          "new": "Confirm the Scope of Real Estate Tax Work",
+          "count": 1
+        },
+        {
+          "old": "Most CPAs will accurately file a Schedule E for your rental properties",
+          "new": "A Schedule E engagement should identify rental income, deductions and reporting responsibilities",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "/blog/form-3115-tax-strategy-cpa-not-telling-you/",
+      "changes": [
+        {
+          "old": "Most CPAs encounter it rarely if ever",
+          "new": "Ask the preparer about experience with the applicable accounting-method change",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "/blog/why-your-cpa-costing-money-rental-properties/",
+      "changes": [
+        {
+          "old": "most CPAs only provide the first one",
+          "new": "the engagement may cover one without the other",
+          "count": 1
+        },
+        {
+          "old": "Most CPAs either do not know about Form 3115 or do not want the complexity of filing it",
+          "new": "Form 3115 preparation may require a separate scope and an accounting-method review",
+          "count": 1
+        },
+        {
+          "old": "Most CPAs are not equipped to integrate tax planning, legal structuring, and business strategy",
+          "new": "Ask who coordinates tax planning with any separately required legal and business advice",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "/blog/why-your-cpa-is-costing-you-thousands/",
+      "changes": [
+        {
+          "old": "Most CPAs do not do this",
+          "new": "Ask whether this work is included in the engagement",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "/compare/",
+      "changes": [
+        {
+          "old": "Most CPAs file returns rather than reduce taxes",
+          "new": "Confirm whether the engagement includes tax planning as well as return preparation",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "/how-it-works/",
+      "changes": [
+        {
+          "old": "Most CPAs look backward",
+          "new": "Return preparation documents the completed tax year",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "/tax-planning-vs-tax-preparation/",
+      "changes": [
+        {
+          "old": "Most CPAs Only Do Preparation",
+          "new": "Check Whether Planning Is Included",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "/why-switch-to-ae-tax-advisors/",
+      "changes": [
+        {
+          "old": "Most CPAs operate as compliance professionals",
+          "new": "Return preparation and forward-looking tax planning may be separately scoped",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "basis": "Remove unsupported industry-wide assertions in indexable published pages; retain specific engagement questions and original publication dates."
+}
