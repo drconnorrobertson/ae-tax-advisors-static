@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/ohio/",
+      "title": "Ohio Cost Segregation: State Add-Backs and Tax Planning",
+      "description": "Review Ohio depreciation add-backs, later deductions, owner reporting and pass-through elections alongside the federal cost segregation study.",
+      "datePublished": "2026-01-06"
+    },
+    {
+      "url": "/rental-losses-and-passive-activity-rules-why-your-tax-loss-might-not-reduce-taxes-yet/",
+      "title": "Why Your Rental Loss Is Suspended: Find the Limiting Rule",
+      "description": "Trace a rental loss through basis, at-risk and passive-activity limits, then track the correct carryforward and release conditions.",
+      "datePublished": "2025-02-20T00:00:00-04:00"
+    },
+    {
+      "url": "/blog/deducting-str-losses-against-w2-income/",
+      "title": "Deducting STR Losses Against W-2 Income: The Return Checklist",
+      "description": "Test the rental exception, participation, property deduction and owner-level limits before treating an STR loss as a wage offset.",
+      "datePublished": "2026-08-10"
+    }
+  ]
+}
