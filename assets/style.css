@@ -420,7 +420,7 @@ header {
     font-size: 14px;
     font-weight: 600;
     color: var(--dark);
-    opacity: 0.6;
+    opacity: 1;
     letter-spacing: 0.02em;
 }
 .featured-sep { color: #ddd; font-size: 14px; }
