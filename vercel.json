@@ -3,6 +3,96 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/estate-tax-planning-strategies-high-net-worth-families/",
+      "destination": "/estate-trust-wealth-transfer/",
+      "permanent": true
+    },
+    {
+      "source": "/estate-tax-planning-strategies-high-net-worth-families",
+      "destination": "/estate-trust-wealth-transfer/",
+      "permanent": true
+    },
+    {
+      "source": "/estate-tax-planning-advice-for-high-net-worth-families/",
+      "destination": "/estate-trust-wealth-transfer/",
+      "permanent": true
+    },
+    {
+      "source": "/estate-tax-planning-advice-for-high-net-worth-families",
+      "destination": "/estate-trust-wealth-transfer/",
+      "permanent": true
+    },
+    {
+      "source": "/estate-planning-tax-strategies-business-owners/",
+      "destination": "/estate-trust-wealth-transfer/",
+      "permanent": true
+    },
+    {
+      "source": "/estate-planning-tax-strategies-business-owners",
+      "destination": "/estate-trust-wealth-transfer/",
+      "permanent": true
+    },
+    {
+      "source": "/reps-qualification-through-spouse/",
+      "destination": "/blog/can-my-spouse-qualify-for-real-estate-professional-status/",
+      "permanent": true
+    },
+    {
+      "source": "/reps-qualification-through-spouse",
+      "destination": "/blog/can-my-spouse-qualify-for-real-estate-professional-status/",
+      "permanent": true
+    },
+    {
+      "source": "/real-estate-professional-status-what-it-is-and-what-the-irs-looks-for/",
+      "destination": "/blog/what-is-real-estate-professional-status-and-how-do-i-qualify/",
+      "permanent": true
+    },
+    {
+      "source": "/real-estate-professional-status-what-it-is-and-what-the-irs-looks-for",
+      "destination": "/blog/what-is-real-estate-professional-status-and-how-do-i-qualify/",
+      "permanent": true
+    },
+    {
+      "source": "/short-term-rental-tax-planning-playbook/",
+      "destination": "/str-tax-loophole/",
+      "permanent": true
+    },
+    {
+      "source": "/short-term-rental-tax-planning-playbook",
+      "destination": "/str-tax-loophole/",
+      "permanent": true
+    },
+    {
+      "source": "/set-accountable-plan-business/",
+      "destination": "/accountable-plan/",
+      "permanent": true
+    },
+    {
+      "source": "/set-accountable-plan-business",
+      "destination": "/accountable-plan/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/can-i-hire-my-kids-through-my-business-for-tax-savings/",
+      "destination": "/blog/hire-children-family-business-tax-rules/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/can-i-hire-my-kids-through-my-business-for-tax-savings",
+      "destination": "/blog/hire-children-family-business-tax-rules/",
+      "permanent": true
+    },
+    {
+      "source": "/pay-kids-family-business/",
+      "destination": "/blog/hire-children-family-business-tax-rules/",
+      "permanent": true
+    },
+    {
+      "source": "/pay-kids-family-business",
+      "destination": "/blog/hire-children-family-business-tax-rules/",
+      "permanent": true
+    },
+    {
       "source": "/salt-deduction-cap-workarounds-high-income-taxpayers/",
       "destination": "/ptet-election-by-state/",
       "permanent": true

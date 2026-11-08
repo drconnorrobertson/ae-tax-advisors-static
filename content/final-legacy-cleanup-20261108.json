@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/pay-kids-family-business/",
+      "destination": "/blog/hire-children-family-business-tax-rules/"
+    },
+    {
+      "url": "/blog/can-i-hire-my-kids-through-my-business-for-tax-savings/",
+      "destination": "/blog/hire-children-family-business-tax-rules/"
+    },
+    {
+      "url": "/set-accountable-plan-business/",
+      "destination": "/accountable-plan/"
+    },
+    {
+      "url": "/short-term-rental-tax-planning-playbook/",
+      "destination": "/str-tax-loophole/"
+    },
+    {
+      "url": "/real-estate-professional-status-what-it-is-and-what-the-irs-looks-for/",
+      "destination": "/blog/what-is-real-estate-professional-status-and-how-do-i-qualify/"
+    },
+    {
+      "url": "/reps-qualification-through-spouse/",
+      "destination": "/blog/can-my-spouse-qualify-for-real-estate-professional-status/"
+    },
+    {
+      "url": "/estate-planning-tax-strategies-business-owners/",
+      "destination": "/estate-trust-wealth-transfer/"
+    },
+    {
+      "url": "/estate-tax-planning-advice-for-high-net-worth-families/",
+      "destination": "/estate-trust-wealth-transfer/"
+    },
+    {
+      "url": "/estate-tax-planning-strategies-high-net-worth-families/",
+      "destination": "/estate-trust-wealth-transfer/"
+    }
+  ],
+  "reason": "Consolidate duplicate and generic family-employment, accountable-plan, STR, REPS and estate introductions into reviewed substantive destinations."
+}
