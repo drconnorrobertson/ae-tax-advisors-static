@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/testimonials/",
+      "destination": "/ae-tax-advisors-reviews/"
+    }
+  ],
+  "redirects": [
+    {
+      "from": "/testimonials/",
+      "to": "/ae-tax-advisors-reviews/"
+    }
+  ],
+  "reason": "Empty testimonial landing page had no testimonials, unrelated audit FAQs and only a sitemap inbound link. Route its overlapping review intent to the existing substantive AE review hub. Historical GSC source export retained; canonical recovery mapping updated."
+}
