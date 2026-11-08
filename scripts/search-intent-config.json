@@ -1353,5 +1353,40 @@
     "title": "Reasonable Compensation for S-Corp Owners: IRS Factors and Records",
     "description": "Set a supportable S corporation salary using duties, time, comparable pay and business income sources, then document and review it annually.",
     "h1": "Reasonable Compensation for S-Corp Owners: IRS Factors and Records"
+  },
+  "blog/str-vs-ltr-which-saves-more-tax/index.html": {
+    "title": "STR vs LTR Tax Comparison: Loss Limits, Depreciation and Cash Flow",
+    "description": "Compare short- and long-term rental taxes using actual participation, property classification, loss limits, operating costs and exit assumptions.",
+    "h1": "STR vs LTR Tax Comparison: Loss Limits, Depreciation and Cash Flow"
+  },
+  "blog/how-to-offset-w2-income-with-real-estate-losses/index.html": {
+    "title": "Can Real Estate Losses Offset W-2 Income? Tests and Limits",
+    "description": "Review passive-loss exceptions, real estate professional status, short-term rental participation and owner-level limits before claiming a wage offset.",
+    "h1": "Can Real Estate Losses Offset W-2 Income? Tests and Limits"
+  },
+  "blog/augusta-rule-how-to-rent-home-to-business/index.html": {
+    "title": "Augusta Rule Implementation: Rental Days, Rates and Business Records",
+    "description": "Build an Augusta Rule file with residence eligibility, actual rental days, comparable rates, business purpose, payment records and reporting review.",
+    "h1": "Augusta Rule Implementation: Rental Days, Rates and Business Records"
+  },
+  "blog/rental-property-co-owner-expense-sharing/index.html": {
+    "title": "Rental Co-Owners: Splitting Income, Expenses and Tax Records",
+    "description": "Reconcile rental ownership, payment arrangements, reimbursements and possible partnership reporting before dividing income and deductions.",
+    "h1": "Rental Co-Owners: Splitting Income, Expenses and Tax Records"
+  },
+  "blog/business-s-corp-shareholder-health-insurance/index.html": {
+    "title": "S-Corp Shareholder Health Insurance: W-2 and Deduction Review",
+    "description": "Coordinate more-than-2% shareholder health premiums, corporate payment, W-2 reporting and personal deduction eligibility.",
+    "h1": "S-Corp Shareholder Health Insurance: W-2 and Deduction Review"
+  },
+  "blog/business-promotional-giveaways-tax/index.html": {
+    "title": "Promotional Giveaways: Advertising, Gifts and Recipient Records",
+    "description": "Classify promotional items, client gifts, employee awards and prizes before deducting costs or deciding information reporting.",
+    "h1": "Promotional Giveaways: Advertising, Gifts and Recipient Records"
+  },
+  "blog/cost-segregation-pennsylvania-state-tax-rules/index.html": {
+    "title": "Pennsylvania Cost Segregation: Bonus, Section 179 and State Basis",
+    "description": "Model Pennsylvania cost segregation separately from federal depreciation, including bonus nonconformity, current Section 179 rules and state basis.",
+    "h1": "Pennsylvania Cost Segregation: Bonus, Section 179 and State Basis"
   }
 }
