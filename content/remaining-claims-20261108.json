@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/c-corporation-strategy/accumulated-earnings-tax/",
+      "title": "Accumulated Earnings Tax: The 20% Tax and Business-Needs Review",
+      "description": "Understand accumulated taxable income, the earnings credit, reasonable business needs and Section 534 procedures before relying on retained earnings."
+    },
+    {
+      "url": "/blog/how-to-respond-to-an-irs-cp2000-notice/",
+      "title": "How to Respond to a CP2000 Notice: Records and Deadlines",
+      "description": "A CP2000 proposes return changes. Compare the records, reply by the notice deadline and distinguish the response process from a later deficiency notice."
+    },
+    {
+      "url": "/blog/how-to-qualify-for-material-participation-on-airbnb-property/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/what-deductions-are-most-commonly-missed-on-tax-returns/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/do-i-report-airbnb-income-if-i-rent-less-than-14-days/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/can-i-deduct-rental-property-losses-against-w2-income/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/how-to-restructure-my-business-entity-for-lower-taxes/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/how-to-reduce-taxes-on-rsu-income/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/how-to-rent-your-home-to-your-business-tax-free/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/should-i-use-a-holding-company-for-my-businesses/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/how-far-back-can-i-amend-a-tax-return/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/can-i-use-cost-segregation-to-offset-w2-income/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/what-deductions-can-i-take-on-my-airbnb-property/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/what-is-reasonable-compensation-for-s-corp-owners/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/what-retirement-plan-gives-the-largest-tax-deduction/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/can-i-hire-my-kids-through-my-business-for-tax-savings/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/do-i-need-a-real-estate-cpa-or-can-i-use-a-regular-accountant/",
+      "action": "Removed unsupported broad overpayment claim"
+    },
+    {
+      "url": "/blog/how-much-does-a-cost-segregation-study-cost/",
+      "action": "Replaced unsupported generic reclassification forecast in matching visible FAQ and schema"
+    },
+    {
+      "url": "/str-material-participation/",
+      "action": "Differentiated record-preparation intent from the consolidated seven-test guide"
+    }
+  ]
+}
