@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "redirects": [
+    {
+      "from": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status/",
+      "to": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status-reps/"
+    }
+  ],
+  "reason": "Same business-owner REPS/passive-loss intent. Retained guide has corrected tests, grouping, carryforward and substantiation treatment. Duplicate contained false 750-hour material-participation test and contradictory examples.",
+  "gsc": {
+    "period": "2026-09-18 through 2026-11-06",
+    "retained": {
+      "impressions": 1356,
+      "clicks": 7,
+      "position": 6.8
+    },
+    "retired": {
+      "impressions": 985,
+      "clicks": 3,
+      "position": 8.5
+    }
+  },
+  "pages": [
+    {
+      "url": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status/",
+      "destination": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status-reps/"
+    }
+  ]
+}
