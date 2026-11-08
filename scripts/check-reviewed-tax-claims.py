@@ -20,6 +20,7 @@ class Page(HTMLParser):
 root = Path(sys.argv[1] if len(sys.argv) > 1 else 'public')
 redirects = json.loads((Path(__file__).parent / 'content-consolidation.json').read_text())['redirects']
 patterns = {
+    'Unsupported repeated savings range': r'tax savings typically range from \$15,000|potential savings can range from \$5,000 to over \$75,000',
     'Unsupported typical annual savings': r'proper tax planning typically saves',
     'Unsupported deduction uplift': r'capture 30[–-]50% more in total deductions',
     'Unsupported broad overpayment claim': r'Most business owners and investors overpay their taxes by tens of thousands',
