@@ -1680,5 +1680,40 @@
     "title": "Surgeon Retirement Planning: Practice Pay, Ownership and Funding",
     "description": "Coordinate surgical-practice retirement planning across wages, partnership income, staff obligations and future practice transitions.",
     "h1": "Surgeon Retirement Planning: Practice Pay, Ownership and Funding"
+  },
+  "real-estate-investor-retirement-planning/index.html": {
+    "title": "Real Estate Investor Retirement Plans: Eligible Income Comes First",
+    "description": "Separate rental and investment income from eligible compensation before evaluating a SEP, 401(k) or cash balance plan.",
+    "h1": "Real Estate Investor Retirement Plans: Eligible Income Comes First"
+  },
+  "financial-advisor-retirement-planning/index.html": {
+    "title": "Financial Advisor Retirement Plans: Owner Benefits and Staff Funding",
+    "description": "Compare advisory-firm retirement plans using the staff census, compensation, funding commitments and succession plans.",
+    "h1": "Financial Advisor Retirement Plans: Owner Benefits and Staff Funding"
+  },
+  "veterinarian-retirement-planning/index.html": {
+    "title": "Veterinary Practice Retirement Plans: Staffing, Ownership and Cash Flow",
+    "description": "Evaluate veterinary retirement plans with the employee census, practice debt, owner compensation and projected cash flow.",
+    "h1": "Veterinary Practice Retirement Plans: Staffing, Ownership and Cash Flow"
+  },
+  "business-owner-retirement-planning/index.html": {
+    "title": "Business Owner Retirement Plans: Compensation, Coverage and Funding",
+    "description": "Compare retirement plans using eligible compensation, employee obligations, related businesses and long-term funding capacity.",
+    "h1": "Business Owner Retirement Plans: Compensation, Coverage and Funding"
+  },
+  "blog/cost-segregation-auto-repair-and-collision-centers/index.html": {
+    "title": "Auto Repair Cost Segregation: Lifts, Paint Booths and Building Systems",
+    "description": "Evaluate repair-shop equipment, dedicated systems, site improvements and building structure using supported costs and actual functions.",
+    "h1": "Auto Repair Cost Segregation: Lifts, Paint Booths and Building Systems"
+  },
+  "blog/cost-segregation-dental-offices/index.html": {
+    "title": "Dental Office Cost Segregation: Equipment, Utilities and QIP",
+    "description": "Review dental equipment, dedicated utilities, interior improvements and ownership before estimating depreciation or catch-up deductions.",
+    "h1": "Dental Office Cost Segregation: Equipment, Utilities and QIP"
+  },
+  "advanced-strategies-for-reducing-self-employment-tax/index.html": {
+    "title": "Self-Employment Tax Planning: Entity Pay, Benefits and Real Costs",
+    "description": "Separate self-employment tax from income tax when evaluating entity elections, retirement contributions, health coverage and reimbursements.",
+    "h1": "Self-Employment Tax Planning: Entity Pay, Benefits and Real Costs"
   }
 }
