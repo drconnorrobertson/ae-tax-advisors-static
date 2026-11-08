@@ -1256,6 +1256,16 @@
       "source": "/tools",
       "destination": "/resources/",
       "permanent": true
+    },
+    {
+      "source": "/blog/physician-tax-strategy-high-income/",
+      "destination": "/blog/tax-strategy-for-physicians/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/physician-tax-strategy-high-income",
+      "destination": "/blog/tax-strategy-for-physicians/",
+      "permanent": true
     }
   ],
   "headers": [
