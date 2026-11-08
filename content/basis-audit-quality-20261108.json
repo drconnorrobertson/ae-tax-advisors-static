@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/blog/non-compete-allocation-tax-treatment/",
+      "title": "Non-Compete Allocation: Seller Tax and Buyer Amortization",
+      "description": "Separate covenant payments, goodwill, consulting fees and asset-sale reporting before agreeing to a business-sale allocation."
+    },
+    {
+      "url": "/blog/shareholder-basis-tracking-s-corp-essentials/",
+      "title": "S-Corp Shareholder Basis: Stock, Loans and Distributions",
+      "description": "Reconcile stock basis, direct debt basis, distributions and suspended losses before claiming an S corporation deduction."
+    },
+    {
+      "url": "/blog/what-triggers-irs-audit-s-corp/",
+      "title": "S-Corp Audit Risks: Compensation, Basis and Records",
+      "description": "Review documented S corporation compliance issues without relying on invented IRS audit-score thresholds or guaranteed safe ratios."
+    }
+  ]
+}

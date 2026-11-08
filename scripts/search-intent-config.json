@@ -799,5 +799,20 @@
     "title": "AE Tax Advisors vs Online Tax Services: Compare Scope",
     "description": "Compare tax preparation, ongoing planning, implementation responsibilities and fees before choosing AE Tax Advisors or an online service.",
     "h1": "AE Tax Advisors vs Online Tax Services: Compare Scope"
+  },
+  "blog/non-compete-allocation-tax-treatment/index.html": {
+    "title": "Non-Compete Allocation: Seller Tax and Buyer Amortization",
+    "description": "Separate covenant payments, goodwill, consulting fees and asset-sale reporting before agreeing to a business-sale allocation.",
+    "h1": "Non-Compete Allocation: Seller Tax and Buyer Amortization"
+  },
+  "blog/shareholder-basis-tracking-s-corp-essentials/index.html": {
+    "title": "S-Corp Shareholder Basis: Stock, Loans and Distributions",
+    "description": "Reconcile stock basis, direct debt basis, distributions and suspended losses before claiming an S corporation deduction.",
+    "h1": "S-Corp Shareholder Basis: Stock, Loans and Distributions"
+  },
+  "blog/what-triggers-irs-audit-s-corp/index.html": {
+    "title": "S-Corp Audit Risks: Compensation, Basis and Records",
+    "description": "Review documented S corporation compliance issues without relying on invented IRS audit-score thresholds or guaranteed safe ratios.",
+    "h1": "S-Corp Audit Risks: Compensation, Basis and Records"
   }
 }
