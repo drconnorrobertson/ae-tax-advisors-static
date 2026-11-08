@@ -844,5 +844,20 @@
     "title": "Airbnb Cost Segregation: Calculate First-Year Depreciation",
     "description": "Build an Airbnb depreciation estimate from supported basis, asset lives, acquisition dates, placed-in-service timing and usable loss limits.",
     "h1": "Airbnb Cost Segregation: Calculate First-Year Depreciation"
+  },
+  "blog/cost-segregation-commercial-property-guide/index.html": {
+    "title": "Commercial Cost Segregation: Components, QIP and Sale Planning",
+    "description": "Review commercial property components, qualified improvements, loss limits and future sale consequences before commissioning a cost segregation study.",
+    "h1": "Commercial Cost Segregation: Components, QIP and Sale Planning"
+  },
+  "holding-company-vs-operating-company/index.html": {
+    "title": "Holding Company vs Operating Company: Structure and Tax Tradeoffs",
+    "description": "Compare asset ownership, related-company leases, tax classifications, self-rental rules and exit consequences before separating entities.",
+    "h1": "Holding Company vs Operating Company: Structure and Tax Tradeoffs"
+  },
+  "blog/what-repairs-vs-improvements-can-i-deduct-on-rental-property/index.html": {
+    "title": "Rental Repairs vs Improvements: Classification and Safe Harbors",
+    "description": "Apply betterment, restoration and adaptation rules, the correct unit of property and available safe harbors before deducting rental work.",
+    "h1": "Rental Repairs vs Improvements: Classification and Safe Harbors"
   }
 }
