@@ -19,6 +19,8 @@ for (const command of [
   "node scripts/reconcile-sitemap-indexes.cjs public",
   "node scripts/check-indexing-inventory.cjs public",
   "node scripts/check-jsonld.cjs public",
+  "node scripts/check-video-metadata.cjs public",
+  "python3 scripts/check-faq-parity.py public",
   "python3 scripts/check-reviewed-tax-claims.py public",
   "node scripts/check-production-seo.cjs public",
   "python3 scripts/check-blog-archive.py public",
