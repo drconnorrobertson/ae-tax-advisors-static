@@ -15,6 +15,8 @@ for (const command of [
   "python3 scripts/check-provider-content.py public",
   "node scripts/install-speed-insights.cjs public",
   "node scripts/apply-reviewed-lastmod.cjs public",
+  "node scripts/reconcile-sitemap-indexes.cjs public",
+  "node scripts/check-indexing-inventory.cjs public",
   "node scripts/check-jsonld.cjs public",
   "node scripts/check-production-seo.cjs public",
   "python3 scripts/check-blog-archive.py public",

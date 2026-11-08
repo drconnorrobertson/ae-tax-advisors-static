@@ -3,8 +3,19 @@
   if (window.__aeBookingEventsReady) return;
   window.__aeBookingEventsReady = true;
   const safePath = value => /^\/[a-z0-9/_.-]*$/i.test(value) ? value : '/';
+  // Stable content groups for the existing, first-party analytics integration.
+  const contentGroup = pathname => {
+    if (/solar/.test(pathname)) return 'solar-investment';
+    if (/equipment.*(leas|invest)|heavy-equipment/.test(pathname)) return 'equipment-investment';
+    if (/^\/compare\//.test(pathname)) return 'provider-comparisons';
+    if (/str-|short-term|airbnb/.test(pathname)) return 'short-term-rental';
+    if (/cost-seg|bonus-depreciation|macrs/.test(pathname)) return 'cost-segregation-depreciation';
+    if (/amend|1040/.test(pathname)) return 'amended-returns';
+    if (/^\/workbooks\//.test(pathname)) return 'workbooks';
+    return 'general-tax-planning';
+  };
   const emit = (name, destination) => {
-    const detail = {event:name,page_path:safePath(location.pathname),destination_host:destination.hostname,destination_path:safePath(destination.pathname)};
+    const detail = {event:name,content_group:contentGroup(location.pathname),page_path:safePath(location.pathname),destination_host:destination.hostname,destination_path:safePath(destination.pathname)};
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push(detail);
     document.dispatchEvent(new CustomEvent('ae:marketing-event',{detail}));

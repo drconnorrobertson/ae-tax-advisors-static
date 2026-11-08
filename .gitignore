@@ -1,3 +1,6 @@
 public/
 __pycache__/
 *.pyc
+
+# Local Search Console evidence stays outside published source and site output.
+/research/gsc-20261108/

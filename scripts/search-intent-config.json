@@ -109,5 +109,30 @@
   "cash-balance-plan-tax-deduction/index.html": {
     "heading": "Evaluate retirement funding alongside the business forecast",
     "body": "<!-- premium-path:start --><p>This guide can help you identify questions. If several decisions interact, review <a href=\"/physician-tax-planning/\">practice-owner advisory</a> to define the professional work needed.</p><p>For an initial conversation, summarize your business profit forecast, employee census, existing plans and available funding. Arrange secure document delivery with the team before sharing detailed financial records.</p><p><a href=\"/case-studies/retirement-plan-owner-with-employees-cash-flow/\">Read a relevant documented planning case</a>. Review the case facts and status; a recommendation or engagement scope does not establish completed implementation or realized savings.</p><p><strong>Strategic Tax Advisory: $7,800. Complex Tax Advisory: $9,800.</strong> Returns, amendments, cost segregation and additional work are separately scoped. Confirm deliverables, implementation responsibilities and the support period in your written agreement. <a href=\"/pricing/\">Review fees and engagement scope</a>.</p><p><a href=\"/discovery/\">Discuss your decision and engagement fit</a></p><!-- premium-path:end -->"
+  },
+  "blog/macrs-depreciation-schedule-explained/index.html": {
+    "title": "MACRS Depreciation Tables: 5, 7 & 15-Year Rates",
+    "description": "Find 5-, 7- and 15-year MACRS tables, a $10,000 worked example, and checks for half-year, mid-quarter, ADS and bonus depreciation.",
+    "h1": "MACRS Depreciation Tables: 5, 7, 15, 27.5 and 39 Years"
+  },
+  "blog/how-long-does-an-amended-tax-return-take-to-process/index.html": {
+    "title": "Amended Tax Return Processing Time: 8\u201312 Weeks?",
+    "description": "Check IRS Form 1040-X processing times, when your status appears, and what to do after 16 weeks. Follow the receipt and delay checklist.",
+    "h1": "How Long Does an Amended Tax Return Take to Process?"
+  },
+  "blog/how-to-avoid-capital-gains-tax-when-selling-rental-property/index.html": {
+    "title": "Selling Rental Property: Capital Gains Tax Options",
+    "description": "Compare rental-property sale tax options: 1031 exchanges, installment sales, basis adjustments and home-sale exclusions. See a worked gain calculation.",
+    "h1": "How to Reduce or Defer Tax When Selling Rental Property"
+  },
+  "bonus-depreciation-rental-property/index.html": {
+    "title": "Bonus Depreciation on Rental Property: 2026 Rules",
+    "description": "See which rental assets qualify for bonus depreciation, how acquisition dates affect the rate, and why a cost segregation deduction may be suspended.",
+    "h1": "Bonus Depreciation on Rental Property: Eligibility, Rates and Examples"
+  },
+  "str-tax-loophole/index.html": {
+    "title": "STR Tax Loophole: 7-Day Rule & Participation Tests",
+    "description": "Understand the short-term rental tax loophole: average stays, material participation, cost segregation, loss limits and records needed to offset W-2 income.",
+    "h1": "STR Tax Loophole: When Short-Term Rental Losses Can Offset W-2 Income"
   }
 }

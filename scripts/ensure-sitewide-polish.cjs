@@ -30,6 +30,8 @@ function polish(html) {
   return tag;
  });
  html=html.replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/gi,footer=>{
+  // Footer columns are peers of main content sections, so expose level-two headings.
+  footer=footer.replace(/<h4\b([^>]*)>([\s\S]*?)<\/h4>/gi,(_,attrs,body)=>'<h2'+attrs+' data-footer-heading>'+body+'</h2>');
   if(footer.includes('data-planning-libraries'))return footer;
   const links=guides.filter(([url])=>!footer.includes('href="'+url+'"'));
   if(!links.length)return footer;

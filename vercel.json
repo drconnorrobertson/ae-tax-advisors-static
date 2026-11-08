@@ -1156,6 +1156,106 @@
       "source": "/the-business-owners-guide-to-section-453-installment-sales-and-deferred-gain-recognition",
       "destination": "/the-business-owners-guide-to-installment-sales-and-deferred-gain-strategies/",
       "permanent": true
+    },
+    {
+      "source": "/vacation-rental-personal-use-depreciation/",
+      "destination": "/guides/str-tax-cost-segregation/personal-use-vacation-home/",
+      "permanent": true
+    },
+    {
+      "source": "/vacation-rental-personal-use-depreciation",
+      "destination": "/guides/str-tax-cost-segregation/personal-use-vacation-home/",
+      "permanent": true
+    },
+    {
+      "source": "/cost-segregation-existing-short-term-rental/",
+      "destination": "/guides/str-tax-cost-segregation/old-str-lookback/",
+      "permanent": true
+    },
+    {
+      "source": "/cost-segregation-existing-short-term-rental",
+      "destination": "/guides/str-tax-cost-segregation/old-str-lookback/",
+      "permanent": true
+    },
+    {
+      "source": "/str-cost-segregation-records-checklist/",
+      "destination": "/guides/str-documentation-kit/",
+      "permanent": true
+    },
+    {
+      "source": "/str-cost-segregation-records-checklist",
+      "destination": "/guides/str-documentation-kit/",
+      "permanent": true
+    },
+    {
+      "source": "/furnished-short-term-rental-depreciation/",
+      "destination": "/guides/str-tax-cost-segregation/cost-segregation-components/",
+      "permanent": true
+    },
+    {
+      "source": "/furnished-short-term-rental-depreciation",
+      "destination": "/guides/str-tax-cost-segregation/cost-segregation-components/",
+      "permanent": true
+    },
+    {
+      "source": "/is-cost-segregation-worth-it-short-term-rental/",
+      "destination": "/guides/str-tax-cost-segregation/study-cost-documents-provider/",
+      "permanent": true
+    },
+    {
+      "source": "/is-cost-segregation-worth-it-short-term-rental",
+      "destination": "/guides/str-tax-cost-segregation/study-cost-documents-provider/",
+      "permanent": true
+    },
+    {
+      "source": "/str-cost-segregation-study-assets/",
+      "destination": "/guides/str-tax-cost-segregation/cost-segregation-components/",
+      "permanent": true
+    },
+    {
+      "source": "/str-cost-segregation-study-assets",
+      "destination": "/guides/str-tax-cost-segregation/cost-segregation-components/",
+      "permanent": true
+    },
+    {
+      "source": "/str-cost-segregation-offset-w2-income/",
+      "destination": "/str-tax-loophole/",
+      "permanent": true
+    },
+    {
+      "source": "/str-cost-segregation-offset-w2-income",
+      "destination": "/str-tax-loophole/",
+      "permanent": true
+    },
+    {
+      "source": "/when-to-order-airbnb-cost-segregation/",
+      "destination": "/guides/str-tax-cost-segregation/placed-in-service-timing/",
+      "permanent": true
+    },
+    {
+      "source": "/when-to-order-airbnb-cost-segregation",
+      "destination": "/guides/str-tax-cost-segregation/placed-in-service-timing/",
+      "permanent": true
+    },
+    {
+      "source": "/str-renovation-cost-segregation/",
+      "destination": "/guides/str-tax-cost-segregation/repairs-improvements-replacements/",
+      "permanent": true
+    },
+    {
+      "source": "/str-renovation-cost-segregation",
+      "destination": "/guides/str-tax-cost-segregation/repairs-improvements-replacements/",
+      "permanent": true
+    },
+    {
+      "source": "/tools/",
+      "destination": "/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/tools",
+      "destination": "/resources/",
+      "permanent": true
     }
   ],
   "headers": [
@@ -1165,6 +1265,10 @@
         {
           "key": "Content-Type",
           "value": "application/rss+xml; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
         }
       ]
     },
@@ -1515,6 +1619,87 @@
     },
     {
       "source": "/compare/nth-degree-cpas-vs-tax-hive/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/downloads/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/compare/tax-advisory-firm-comparison.json",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/assets/cost-segregation-reconciliation-checklist.csv",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/assets/cost-segregation-study-review-checklist.csv",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/assets/equipment-placed-in-service-checklist.csv",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/assets/owner-tax-return-review-checklist.csv",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/assets/str-participation-log-template.csv",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/assets/business-tax-planning-checklist.csv",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/assets/cost-segregation-quote-comparison.csv",
       "headers": [
         {
           "key": "X-Robots-Tag",

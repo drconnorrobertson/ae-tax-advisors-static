@@ -16,3 +16,9 @@ measurement destination and verify its receipt before claiming production
 analytics collection. Do not substitute another company's measurement ID.
 
 Validation: `node scripts/test-booking-events.cjs`.
+
+Content groups added November 8, 2026: solar investment, equipment investment,
+provider comparisons, short-term rental, cost segregation/depreciation,
+amended returns, workbooks and general tax planning. Group is derived only
+from the sanitized page path. The current page group measures the click location;
+it does not claim persistent first-touch attribution or completed bookings.
