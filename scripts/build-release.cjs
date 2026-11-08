@@ -19,5 +19,7 @@ for (const command of [
   "node scripts/check-production-seo.cjs public",
   "python3 scripts/check-blog-archive.py public",
   "python3 scripts/check-blog-publication-policy.py public",
-  "node scripts/check-shared-discovery-cta.cjs public"
+  "node scripts/check-shared-discovery-cta.cjs public",
+  "node scripts/check-sitewide-polish.cjs public",
+  "node scripts/check-sitewide-links.cjs public"
 ]) execSync(command, {cwd:root,stdio:'inherit'});
