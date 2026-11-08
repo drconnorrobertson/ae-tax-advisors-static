@@ -1236,7 +1236,9 @@
     "description": "Review S corporation elections, reasonable compensation, QBI, retirement plans and reimbursements as one coordinated owner-return decision."
   },
   "connecticut/index.html": {
-    "description": "Review Connecticut cost segregation, state tax adjustments and pass-through planning using the property\u2019s records and the owner\u2019s filing facts."
+    "title": "Connecticut Cost Segregation and Tax Planning: State Adjustments",
+    "description": "Coordinate Connecticut bonus-depreciation addbacks, recovery schedules, pass-through entity elections and owner credits with federal tax planning.",
+    "h1": "Connecticut Cost Segregation and Tax Planning: State Adjustments"
   },
   "blog/offset-w2-income-real-estate/index.html": {
     "description": "Review when real estate losses may offset W-2 income, including rental exceptions, participation, basis, at-risk amounts and other deduction limits."
@@ -1465,5 +1467,20 @@
     "title": "Professional Athlete Tax Planning: Contracts, States and Endorsements",
     "description": "Coordinate athlete salary, signing bonuses, duty-day records, endorsements, retirement and cross-border tax obligations before signing or filing.",
     "h1": "Professional Athlete Tax Planning: Contracts, States and Endorsements"
+  },
+  "trusts-tax-planning-irrevocable-trusts-reduce-taxes/index.html": {
+    "title": "Irrevocable Trust Tax Planning: Income, Gifts and Estate Treatment",
+    "description": "Separate grantor-trust status, income distributions, gift reporting and estate inclusion before assuming an irrevocable trust reduces taxes.",
+    "h1": "Irrevocable Trust Tax Planning: Income, Gifts and Estate Treatment"
+  },
+  "blog/estimated-tax-payment-strategies-business-owners/index.html": {
+    "title": "Estimated Tax Payments for Business Owners: Timing and Safe Harbors",
+    "description": "Coordinate withholding, estimated payments, prior-year safe harbors and uneven income so each required installment is supported.",
+    "h1": "Estimated Tax Payments for Business Owners: Timing and Safe Harbors"
+  },
+  "how-to-legally-pay-yourself-from-your-business/index.html": {
+    "title": "How to Pay Yourself: Draws, Wages and Distributions by Entity",
+    "description": "Match owner payments to the business\u2019s tax classification, then coordinate payroll, basis, benefits and cash needs.",
+    "h1": "How to Pay Yourself: Draws, Wages and Distributions by Entity"
   }
 }

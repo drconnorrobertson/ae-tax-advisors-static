@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "redirects": [
+    {
+      "from": "/blog/s-corp-vs-c-corp-comparison-high-earners/",
+      "to": "/blog/s-corp-vs-c-corp-high-income/"
+    }
+  ],
+  "reason": "Same high-income S-vs-C comparison intent. Retain the recently corrected guide; remove outdated thresholds and unsupported tax calculations in duplicate.",
+  "gsc": {
+    "period": "2026-09-18 through 2026-11-06",
+    "retained": {
+      "impressions": 1369,
+      "clicks": 9,
+      "position": 7.8
+    },
+    "retired": {
+      "impressions": 919,
+      "clicks": 16,
+      "position": 18.4
+    }
+  },
+  "pages": [
+    {
+      "url": "/blog/s-corp-vs-c-corp-comparison-high-earners/",
+      "destination": "/blog/s-corp-vs-c-corp-high-income/"
+    }
+  ]
+}
