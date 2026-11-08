@@ -1,0 +1,213 @@
+{
+  "reviewed": "2026-11-08",
+  "baseline_commit": "4d49f4a7240cd8334ef76cf4931fe03acbb68054",
+  "people": [
+    {
+      "slug": "natalie-kolodij",
+      "name": "Natalie Kolodij",
+      "brand": "Kolodij Tax & Consulting",
+      "group": "realestate",
+      "sources": [
+        [
+          "https://www.kolotax.com/about",
+          "Natalie Kolodij official biography and teaching role"
+        ],
+        [
+          "https://www.kolotax.com/",
+          "Real estate filing, strategy, implementation and directory"
+        ]
+      ],
+      "profile": "Kolodij Tax & Consulting identifies Natalie Kolodij as an enrolled agent, real estate tax educator and founder of the Certified Real Estate Tax Strategist credential.",
+      "offering": "The firm describes a full-service package with a custom plan, quarterly calls, implementation and year-end tax filing. It also points to a separate directory of professionals trained in real estate taxation.",
+      "scenario": "You own rentals and need depreciation records, quarterly decisions and tax returns coordinated. Compare the direct firm engagement with a directory referral and assign property-level implementation and filing.",
+      "questions": [
+        "Is the contract with Kolodij Tax or a separately listed strategist?",
+        "Which properties, entities and returns are included?",
+        "Who implements recommendations and checks depreciation records?",
+        "What quarterly access, availability and full fees apply?"
+      ],
+      "peer_slugs": [
+        "amanda-han",
+        "thomas-castelli"
+      ],
+      "firm": null,
+      "boundary": "The reviewed firm page includes implementation and filing and advertises limited openings. Confirm current availability. A strategist-directory introduction does not guarantee Natalie personally performs the work or that all firms share one scope.",
+      "fee": "The reviewed official pages do not publish one fixed fee for every real estate engagement. Request the current quote for the property count, entities, quarterly work and return list.",
+      "alternative": "/compare/natalie-kolodij-alternatives/",
+      "comparison": "/compare/natalie-kolodij-vs-ae-tax/",
+      "review": "/compare/natalie-kolodij-reviews/"
+    },
+    {
+      "slug": "steven-jarvis",
+      "name": "Steven Jarvis",
+      "brand": "Retirement Tax Services",
+      "group": "retirement",
+      "sources": [
+        [
+          "https://retirementtaxservices.com/steven-jarvis-educating-advisors-at-scale/",
+          "Steven Jarvis official public education profile"
+        ],
+        [
+          "https://retirementtaxservices.com/",
+          "Advisor membership scope and fees"
+        ]
+      ],
+      "profile": "Retirement Tax Services describes Steven Jarvis’s public work through podcasts, articles and practical tax education for financial advisors.",
+      "offering": "The reviewed homepage markets advisor memberships with training, community and CPA tax-return reviews; higher-tier services include office hours and a strategy call. Compare those advisor-facing benefits with a separately agreed taxpayer service.",
+      "scenario": "Your financial advisor follows the RTS podcast and wants help evaluating a client tax return. Establish who contracts for the review, who may rely on it and who handles client advice, implementation and filing.",
+      "questions": [
+        "Is the buyer an advisor or a taxpayer?",
+        "What return reviews and office-hour access are included?",
+        "Who contracts for personal advice and return preparation?",
+        "Who implements recommendations and what renewals apply?"
+      ],
+      "peer_slugs": [
+        "ed-slott",
+        "eric-green"
+      ],
+      "firm": null,
+      "boundary": "Membership support for an advisor is not automatically a direct engagement with the advisor’s client. The reviewed site is not education only: its tiers include CPA return-review support. Confirm current taxpayer-service availability separately.",
+      "fee": "The reviewed RTS homepage lists Essentials at $297/month and Premiere at $597/month. These are advisor membership prices, not universal private taxpayer planning or tax-preparation quotes. Confirm current terms and scope.",
+      "alternative": "/compare/steven-jarvis-alternatives/",
+      "comparison": "/compare/steven-jarvis-vs-ae-tax/",
+      "review": "/compare/steven-jarvis-reviews/"
+    },
+    {
+      "slug": "david-mcknight",
+      "name": "David McKnight",
+      "brand": "Power of Zero / David McKnight & Company",
+      "group": "retirement",
+      "sources": [
+        [
+          "https://www.powerofzero.com/our-team",
+          "David McKnight official author and team biography"
+        ],
+        [
+          "https://www.powerofzero.com/",
+          "Advisor marketing program and consumer advisor route"
+        ]
+      ],
+      "profile": "Power of Zero identifies David McKnight as its president and author of retirement-oriented books including The Power of Zero and Tax-Free Income for Life.",
+      "offering": "The public platform distinguishes a program for financial advisors from a route for consumers seeking a Power of Zero advisor. Compare books and advisor education with the specific professional services and products offered under a separate agreement.",
+      "scenario": "You read about tax-free retirement and want to coordinate business income with retirement decisions. Ask for a documented analysis of your actual circumstances and separate tax advice from investment or insurance product decisions.",
+      "questions": [
+        "Am I purchasing education or engaging a specific advisor?",
+        "Who reviews my tax records and prepares projections?",
+        "Which advisory, investment or insurance fees and compensation apply?",
+        "Who coordinates implementation, custody and tax filing?"
+      ],
+      "peer_slugs": [
+        "ed-slott",
+        "megan-gorman"
+      ],
+      "firm": null,
+      "boundary": "A branded planning approach and advisor introduction do not establish personal access to David or a guaranteed tax-free outcome. AE advisory fees do not cover investment management, custody or insurance products; compare each proposal’s actual scope.",
+      "fee": "The reviewed homepage and team biography do not establish a single private-client fee. Request the actual advisor’s written fee schedule and any product compensation separately from book or training costs.",
+      "alternative": "/compare/david-mcknight-alternatives/",
+      "comparison": "/compare/david-mcknight-vs-ae-tax/",
+      "review": "/compare/david-mcknight-reviews/"
+    },
+    {
+      "slug": "hannah-smolinski",
+      "name": "Hannah Smolinski",
+      "brand": "Clara CFO Group",
+      "group": "business",
+      "sources": [
+        [
+          "https://claracfo.com/team/",
+          "Hannah Smolinski official team biography"
+        ],
+        [
+          "https://claracfo.com/faq/",
+          "Fractional CFO scope, pricing and existing tax-team coordination"
+        ]
+      ],
+      "profile": "Clara CFO Group identifies Hannah Smolinski as a CPA, founder and CEO. Its public platform includes educational resources, a podcast and YouTube links.",
+      "offering": "The firm describes fractional CFO work including forecasting, budgeting, reporting, KPI tracking, finance leadership and implementation support. Its FAQ says it works alongside existing accountants, bookkeepers and tax preparers.",
+      "scenario": "You learned from a finance video and now need cash-flow forecasts and a finance leader. Compare CFO ownership and meeting cadence with a tax plan; the same business may need both services.",
+      "questions": [
+        "Who owns forecasting, budgeting and finance-team leadership?",
+        "How does the CFO coordinate with my tax preparer?",
+        "Which system implementation and transaction support are included?",
+        "What monthly scope, reporting and additional fees apply?"
+      ],
+      "peer_slugs": [
+        "wendy-barlin",
+        "tiffany-phillips"
+      ],
+      "firm": null,
+      "boundary": "The FAQ describes CFO services for businesses generally in the $2M–$20M revenue range and coordination with existing tax professionals. Confirm fit and current scope; a CFO engagement should not be treated as an automatic replacement for tax preparation.",
+      "fee": "The reviewed FAQ says most clients invest $3,500–$10,000 per month depending on CFO ownership and complexity. That recurring CFO range is not a like-for-like quote for AE’s defined tax advisory engagement.",
+      "alternative": "/compare/hannah-smolinski-alternatives/",
+      "comparison": "/compare/hannah-smolinski-vs-ae-tax/",
+      "review": "/compare/hannah-smolinski-reviews/"
+    },
+    {
+      "slug": "nayo-carter-gray",
+      "name": "Nayo Carter-Gray",
+      "brand": "1st Step Accounting",
+      "group": "business",
+      "sources": [
+        [
+          "https://1ststepaccounting.com/about/",
+          "1st Step Accounting founder and firm identity"
+        ],
+        [
+          "https://1ststepaccounting.com/",
+          "Bookkeeping, preparation and proactive planning services"
+        ],
+        [
+          "https://1ststepaccounting.com/pricing/",
+          "Customized flat-fee proposal and filing scope"
+        ]
+      ],
+      "profile": "1st Step Accounting identifies Nayo Carter-Gray as its founder. Her public tax and accounting education is connected to a virtual business-service practice.",
+      "offering": "The firm describes bookkeeping, bookkeeping review, tax preparation, planning and financial guidance. The pricing page says services are selected and scoped in a customized flat-fee proposal.",
+      "scenario": "You want a virtual team to connect monthly books, business returns and projections. Compare the actual service selections and ask which tasks are one-time versus ongoing.",
+      "questions": [
+        "Which bookkeeping, planning and returns are selected?",
+        "Is the bookkeeping review separately priced?",
+        "Who handles cleanup, projections and implementation?",
+        "What deposit, ongoing support and scope-change terms apply?"
+      ],
+      "peer_slugs": [
+        "nesha-pai",
+        "tiffany-phillips"
+      ],
+      "firm": null,
+      "boundary": "The pricing page says some engagements include preparation and others focus on different services. Confirm your specific return list. A public course, discovery call or illustrative sample proposal is not a complete client engagement.",
+      "fee": "The reviewed pricing page describes customized flat fees quoted before work, with a deposit and agreed payment schedule. Its sample is illustrative and contains no universal dollar quote; request the current proposal for the services you select.",
+      "alternative": "/compare/nayo-carter-gray-alternatives/",
+      "comparison": "/compare/nayo-carter-gray-vs-ae-tax/",
+      "review": "/compare/nayo-carter-gray-reviews/"
+    }
+  ],
+  "pairs": [
+    [
+      "natalie-kolodij",
+      "amanda-han",
+      "Compare real estate tax proposals using the same properties, entities, depreciation records, implementation assignments, quarterly review schedule and year-end returns. Separate a direct engagement from a trained-professional directory introduction."
+    ],
+    [
+      "steven-jarvis",
+      "ed-slott",
+      "Compare advisor-facing education and CPA review support with IRA education and advisor introductions. Establish the buyer, return-review limits and separate taxpayer engagement before comparing fees."
+    ],
+    [
+      "david-mcknight",
+      "ed-slott",
+      "Compare retirement education, professional training and advisor introductions by actual deliverables. Identify the engaged advisor and any investment, insurance, tax or filing responsibilities."
+    ],
+    [
+      "hannah-smolinski",
+      "wendy-barlin",
+      "Compare fractional CFO ownership with accounting, compliance and advisory services under the actual firm contract. Assign forecasts, monthly books, payroll and tax filings separately."
+    ],
+    [
+      "nayo-carter-gray",
+      "nesha-pai",
+      "Compare customized virtual accounting proposals and their preparation responsibilities. 1st Step describes selected preparation services; Pai’s reviewed page uses a separate Tax CPA for income tax filings."
+    ]
+  ],
+  "selection": "Five absent identities confirmed against 39-creator inventory and compare routes. Official education and service sources; no measured search-demand ranking."
+}
