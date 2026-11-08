@@ -22,6 +22,7 @@ redirects = json.loads((Path(__file__).parent / 'content-consolidation.json').re
 patterns = {
     'Unsupported typical annual savings': r'proper tax planning typically saves',
     'Unsupported deduction uplift': r'capture 30[–-]50% more in total deductions',
+    'Unsupported broad overpayment claim': r'Most business owners and investors overpay their taxes by tens of thousands',
     'Blanket compliance promise': r'All strategies recommended by AE Tax Advisors are fully compliant',
     'Retirement contributions do not generally reduce FICA': r'Maximizing retirement plan contributions reduces W-2 income and the corresponding FICA taxes',
     'Outdated 2026 Section 179 ceiling': r'(?:Section 179[^<\n]{0,100}\$1,250,000[^<\n]{0,45}(?:for|in) 2026|Section 179[^<\n]{0,80}2026[^<\n]{0,80}\$1,250,000)',
