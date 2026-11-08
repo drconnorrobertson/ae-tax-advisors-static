@@ -3,6 +3,96 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/modern-tax-education-strategy-insights/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/modern-tax-education-strategy-insights",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/tax-basics-that-build-trust/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/tax-basics-that-build-trust",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-a-tax-strategy-session-what-to-expect-when-you-work-with-ae-tax-advisors/",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-a-tax-strategy-session-what-to-expect-when-you-work-with-ae-tax-advisors",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/who-founded-ae-tax-advisors/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/who-founded-ae-tax-advisors",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/choose-right-entity-type/",
+      "destination": "/s-corp-vs-llc-tax-comparison-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/choose-right-entity-type",
+      "destination": "/s-corp-vs-llc-tax-comparison-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/choose-right-high-net/",
+      "destination": "/how-to-choose-tax-advisor-ae-tax-advisors-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/choose-right-high-net",
+      "destination": "/how-to-choose-tax-advisor-ae-tax-advisors-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/need-tax-advisor-specializing/",
+      "destination": "/how-to-choose-tax-advisor-ae-tax-advisors-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/need-tax-advisor-specializing",
+      "destination": "/how-to-choose-tax-advisor-ae-tax-advisors-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/services/cost-segregation/",
+      "destination": "/cost-segregation-study/",
+      "permanent": true
+    },
+    {
+      "source": "/services/cost-segregation",
+      "destination": "/cost-segregation-study/",
+      "permanent": true
+    },
+    {
+      "source": "/cost-segregation-complete-guide-2026/",
+      "destination": "/blog/what-is-a-cost-segregation-study-and-how-does-it-work/",
+      "permanent": true
+    },
+    {
+      "source": "/cost-segregation-complete-guide-2026",
+      "destination": "/blog/what-is-a-cost-segregation-study-and-how-does-it-work/",
+      "permanent": true
+    },
+    {
       "source": "/testimonials/",
       "destination": "/ae-tax-advisors-reviews/",
       "permanent": true
@@ -459,11 +549,6 @@
     },
     {
       "source": "/cost-segregation-explained/",
-      "destination": "/cost-segregation-study/",
-      "statusCode": 301
-    },
-    {
-      "source": "/services/cost-segregation/",
       "destination": "/cost-segregation-study/",
       "statusCode": 301
     },

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/cost-segregation-complete-guide-2026/",
+      "destination": "/blog/what-is-a-cost-segregation-study-and-how-does-it-work/"
+    },
+    {
+      "url": "/services/cost-segregation/",
+      "destination": "/cost-segregation-study/"
+    }
+  ],
+  "reason": "Consolidate duplicate general study introduction and service page into the corrected educational guide and the existing detailed service page."
+}

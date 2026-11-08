@@ -26,7 +26,16 @@
     "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status/": "/the-business-owners-guide-to-passive-loss-rules-and-real-estate-professional-status-reps/",
     "/blog/s-corp-vs-c-corp-comparison-high-earners/": "/blog/s-corp-vs-c-corp-high-income/",
     "/blog/offset-w2-income-real-estate/": "/blog/how-to-offset-w2-income-with-real-estate-losses/",
-    "/testimonials/": "/ae-tax-advisors-reviews/"
+    "/testimonials/": "/ae-tax-advisors-reviews/",
+    "/cost-segregation-complete-guide-2026/": "/blog/what-is-a-cost-segregation-study-and-how-does-it-work/",
+    "/services/cost-segregation/": "/cost-segregation-study/",
+    "/need-tax-advisor-specializing/": "/how-to-choose-tax-advisor-ae-tax-advisors-guide/",
+    "/choose-right-high-net/": "/how-to-choose-tax-advisor-ae-tax-advisors-guide/",
+    "/choose-right-entity-type/": "/s-corp-vs-llc-tax-comparison-2026/",
+    "/who-founded-ae-tax-advisors/": "/about/",
+    "/what-is-a-tax-strategy-session-what-to-expect-when-you-work-with-ae-tax-advisors/": "/how-it-works/",
+    "/tax-basics-that-build-trust/": "/blog/",
+    "/modern-tax-education-strategy-insights/": "/blog/"
   },
   "reason": "Overlapping service-intent pages and generic numbered rental variants; retain substantive distinct guides."
 }

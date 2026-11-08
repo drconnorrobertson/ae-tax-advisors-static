@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/need-tax-advisor-specializing/",
+      "destination": "/how-to-choose-tax-advisor-ae-tax-advisors-guide/"
+    },
+    {
+      "url": "/choose-right-high-net/",
+      "destination": "/how-to-choose-tax-advisor-ae-tax-advisors-guide/"
+    },
+    {
+      "url": "/choose-right-entity-type/",
+      "destination": "/s-corp-vs-llc-tax-comparison-2026/"
+    },
+    {
+      "url": "/who-founded-ae-tax-advisors/",
+      "destination": "/about/"
+    },
+    {
+      "url": "/what-is-a-tax-strategy-session-what-to-expect-when-you-work-with-ae-tax-advisors/",
+      "destination": "/how-it-works/"
+    },
+    {
+      "url": "/tax-basics-that-build-trust/",
+      "destination": "/blog/"
+    },
+    {
+      "url": "/modern-tax-education-strategy-insights/",
+      "destination": "/blog/"
+    }
+  ],
+  "reason": "Consolidate three overlapping selection/entity introductions, company-history and process duplicates, and two empty topic archives into substantive destinations. Removes unsupported savings, certification and scope assertions without publishing duplicate replacement pages."
+}
