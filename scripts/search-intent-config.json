@@ -1785,5 +1785,15 @@
     "title": "Estimated Tax Payment Methods: Prior Year, Current Year and Annualized Income",
     "description": "Compare individual estimated-tax methods, installment timing, withholding credits and the balance still due after meeting a safe harbor.",
     "h1": "Estimated Tax Payment Methods: Prior Year, Current Year and Annualized Income"
+  },
+  "ae-tax-advisors-news-press-coverage/index.html": {
+    "title": "AE Tax Advisors: Media Resources and Company Information",
+    "description": "Find AE Tax Advisors company information, published service scope, team details and contact information for media inquiries.",
+    "h1": "AE Tax Advisors: Media Resources and Company Information"
+  },
+  "how-much-does-tax-advisor-save-roi/index.html": {
+    "title": "Tax Advisor ROI: Measure Fees, Savings and Tax Deferral",
+    "description": "Evaluate tax-advisory value using a supported baseline, actual costs, implementation and the distinction between savings and deferral.",
+    "h1": "Tax Advisor ROI: Measure Fees, Savings and Tax Deferral"
   }
 }
