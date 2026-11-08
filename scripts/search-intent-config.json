@@ -1795,5 +1795,35 @@
     "title": "Tax Advisor ROI: Measure Fees, Savings and Tax Deferral",
     "description": "Evaluate tax-advisory value using a supported baseline, actual costs, implementation and the distinction between savings and deferral.",
     "h1": "Tax Advisor ROI: Measure Fees, Savings and Tax Deferral"
+  },
+  "blog/what-is-a-cost-segregation-study-and-how-does-it-work/index.html": {
+    "title": "What Is a Cost Segregation Study? Process and Tax Limits",
+    "description": "Understand cost segregation study steps, asset classifications, bonus eligibility, existing-property corrections and whether the deductions are usable.",
+    "h1": "What Is a Cost Segregation Study? Process and Tax Limits"
+  },
+  "cost-segregation-landing/index.html": {
+    "title": "Cost Segregation Estimate: Start With Your Property Records",
+    "description": "Discuss whether a cost segregation study fits your property, available records and tax position before commissioning the work.",
+    "h1": "Cost Segregation Estimate: Start With Your Property Records"
+  },
+  "ae-tax-advisors-consultation/index.html": {
+    "title": "AE Tax Advisors Consultation: Preparation, Scope and Fees",
+    "description": "Prepare for an AE Tax Advisors discovery call with current records, open tax questions and a clear understanding of fees and next steps.",
+    "h1": "AE Tax Advisors Consultation: Preparation, Scope and Fees"
+  },
+  "tax-strategy/index.html": {
+    "title": "Tax Strategy for Business Owners: Decisions, Records and Timing",
+    "description": "Build a business tax strategy around entity choices, cash flow, supported deductions, payment projections and implementation responsibilities.",
+    "h1": "Tax Strategy for Business Owners: Decisions, Records and Timing"
+  },
+  "rental-tax-filing-cleanup-and-catch-up-support/index.html": {
+    "title": "Rental Tax Filing Cleanup: Records, Depreciation and Next Steps",
+    "description": "Organize late or incomplete rental returns, reconcile depreciation and identify the correct correction procedure with your tax preparer.",
+    "h1": "Rental Tax Filing Cleanup: Records, Depreciation and Next Steps"
+  },
+  "how-to-choose-tax-advisor-ae-tax-advisors-guide/index.html": {
+    "title": "How to Choose a Tax Advisor: Credentials, Scope and Fees",
+    "description": "Compare tax advisors by relevant experience, verified credentials, written scope, implementation responsibilities, fees and handoff requirements.",
+    "h1": "How to Choose a Tax Advisor: Credentials, Scope and Fees"
   }
 }
