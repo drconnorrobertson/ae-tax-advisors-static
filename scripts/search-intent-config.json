@@ -969,5 +969,20 @@
     "title": "Crypto Tax for Business Owners: Payments, Basis and Reporting",
     "description": "Reconcile digital-asset payments, rewards, disposals, broker forms and entity ownership before filing business and owner tax returns.",
     "h1": "Crypto Tax for Business Owners: Payments, Basis and Reporting"
+  },
+  "vehicle-deductions-mileage-logs/index.html": {
+    "title": "IRS Mileage Log Requirements: What to Record and Keep",
+    "description": "Document business purpose, trip dates, mileage and total use, then apply the correct vehicle deduction method and 2026 rate period.",
+    "h1": "IRS Mileage Log Requirements: What to Record and Keep"
+  },
+  "vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/index.html": {
+    "title": "Standard Mileage vs Actual Expenses: Compare Vehicle Methods",
+    "description": "Compare the eligible vehicle methods, 2026 split-year rates, depreciation history, lease rules and business-use records before filing.",
+    "h1": "Standard Mileage vs Actual Expenses: Compare Vehicle Methods"
+  },
+  "blog/cost-segregation-complete-guide/index.html": {
+    "title": "How to Report Cost Segregation on a Tax Return",
+    "description": "Turn a cost segregation study into asset schedules, depreciation forms and supported owner deductions; distinguish current-year reporting from lookback changes.",
+    "h1": "How to Report Cost Segregation on a Tax Return"
   }
 }
