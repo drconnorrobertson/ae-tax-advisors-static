@@ -1,0 +1,316 @@
+{
+  "reviewed": "2026-11-08",
+  "providers": {
+    "1800-accountant": {
+      "name": "1-800Accountant",
+      "source": "https://1800accountant.com/services/tax-advisory",
+      "summary": "Markets year-round small-business tax advice, dedicated advisor access and coordination with bookkeeping and return preparation."
+    },
+    "pilot": {
+      "name": "Pilot",
+      "source": "https://pilot.com/tax",
+      "summary": "Offers business tax preparation alongside bookkeeping, with published entity-based packages and additional-service pricing."
+    },
+    "baker-tilly": {
+      "name": "Baker Tilly",
+      "source": "https://www.bakertilly.com/services/tax",
+      "summary": "Lists business tax services and private-wealth tax planning and compliance."
+    },
+    "bdo": {
+      "name": "BDO",
+      "source": "https://www.bdo.com/services/tax/private-client-services",
+      "summary": "Lists private-client income, residency, estate and trust planning alongside its broader business tax practice."
+    },
+    "cbiz": {
+      "name": "CBIZ",
+      "source": "https://www.cbiz.com/services/tax",
+      "summary": "Lists business, international, state and local, specialized tax and private-client services."
+    },
+    "tax-alchemy": {
+      "name": "Tax Alchemy",
+      "source": "https://taxalchemy.com/about-us/",
+      "summary": "Describes customized tax planning, return review and audit support, with flat-rate pricing."
+    },
+    "hall-cpa": {
+      "name": "Hall CPA",
+      "source": "https://www.therealestatecpa.com/what-we-do/",
+      "summary": "Lists real-estate-focused advisory, accounting, tax preparation and resolution services."
+    },
+    "bottom-line-cpa": {
+      "name": "The Bottom Line CPA",
+      "source": "https://www.hellotbl.com/",
+      "summary": "Describes Xero accounting, Profit First advisory, personalized tax planning and annual tax preparation."
+    },
+    "compound-wealth-tax": {
+      "name": "Compound Wealth & Tax",
+      "source": "https://www.compoundwealthtax.com/",
+      "summary": "Lists tax planning and preparation, accounting, wealth management and business transaction services."
+    },
+    "basis-cost-segregation": {
+      "name": "BASIS Cost Segregation",
+      "source": "https://basiscostseg.com/customer-services-agreement",
+      "summary": "Describes an online residential study with professional review; its base agreement separates report support from tax filing and representation."
+    },
+    "kbkg": {
+      "name": "KBKG",
+      "source": "https://www.kbkg.com/",
+      "summary": "Lists cost segregation, R&D credits, energy incentives and other specialty tax services."
+    },
+    "re-cost-seg": {
+      "name": "R.E. Cost Seg",
+      "source": "https://www.recostseg.com/services",
+      "summary": "Offers a self-directed Rapid Report and a Fully Engineered Study with different property and information requirements."
+    },
+    "warren-averett": {
+      "name": "Warren Averett",
+      "source": "https://warrenaverett.com/insights/the-principles-of-proactive-tax-planning-five-considerations-for-business-owners/",
+      "summary": "Publishes proactive business tax guidance and lists planning, compliance, specialized tax and transaction services."
+    },
+    "anderson-advisors": {
+      "name": "Anderson Advisors",
+      "source": "https://andersonadvisors.com/",
+      "summary": "Lists tax planning, entity services, asset protection, estate planning, workshops and Platinum membership."
+    },
+    "mark-kohler": {
+      "name": "Mark J. Kohler",
+      "source": "https://markjkohler.com/",
+      "summary": "Links education, an advisor network, legal planning, registered-agent services and self-directed retirement offerings through distinct organizations."
+    },
+    "advise-re": {
+      "name": "Advise RE",
+      "source": "https://adviseretax.com/",
+      "summary": "Lists real estate tax advisory and preparation, construction advisory and buyer advisory."
+    },
+    "taxstra": {
+      "name": "Taxstra",
+      "source": "https://taxstra.com/",
+      "summary": "Lists business and individual tax preparation, planning, payroll and outsourced accounting, including physician and real estate work."
+    },
+    "keystone-cpa": {
+      "name": "Keystone CPA",
+      "source": "https://www.keystonecpa.com/",
+      "summary": "Describes an initial financial review followed by a written tax plan with strategies and implementation steps."
+    },
+    "cerebral-tax-advisors": {
+      "name": "Cerebral Tax Advisors",
+      "source": "https://www.cerebraltaxadvisors.com/",
+      "summary": "Markets planning and implementation for medical professionals and lists preparation, bookkeeping, representation and CFO services."
+    },
+    "sdo-cpa": {
+      "name": "SDO CPA",
+      "source": "https://www.sdocpa.com/",
+      "summary": "Lists business entity tax work, basis tracking, multi-entity coordination, bookkeeping and outsourced accounting."
+    },
+    "prime-path-advisory": {
+      "name": "Prime Path Advisory",
+      "source": "https://primepathadvisory.com/",
+      "summary": "Markets year-round planning, implementation and filing for founders, executives and high-RSU earners making $1 million or more."
+    },
+    "wcg-cpas": {
+      "name": "WCG CPAs",
+      "source": "https://wcginc.com/business-services/",
+      "summary": "Lists business tax preparation, S-corporation support, owner compensation, payroll, accounting and periodic business reviews."
+    },
+    "hacker-johnson-smith": {
+      "name": "Hacker, Johnson & Smith",
+      "source": "https://hackerjohnson.com/",
+      "summary": "Lists independent audit and tax services, with financial institution, insurance, nonprofit and manufacturing industry work."
+    },
+    "tax-hive": {
+      "name": "Tax Hive",
+      "source": "https://taxhive.com/",
+      "summary": "Lists strategic tax planning, business and individual returns, bookkeeping, audit response and entity services."
+    },
+    "kpmg": {
+      "name": "KPMG",
+      "source": "https://kpmg.com/us/en.html",
+      "summary": "Lists tax accounting and compliance, state and international tax, M&A tax and private-enterprise tax services."
+    }
+  },
+  "pairs": [
+    {
+      "a": "baker-tilly",
+      "b": "bdo",
+      "decision": "Who coordinates the company and the family?",
+      "scenario": "An owner plans a business sale while the family holds trusts and investments. A company tax engagement and a private-client engagement may both be needed. Compare how each proposal transfers transaction assumptions into the owners\u2019 personal forecasts.",
+      "questionA": "Identify the business-sale and private-wealth teams, and who reconciles their assumptions.",
+      "questionB": "Identify the private-client lead and how business tax findings enter the family-wide plan."
+    },
+    {
+      "a": "tax-alchemy",
+      "b": "hall-cpa",
+      "decision": "Broad owner planning or a property-centered engagement?",
+      "scenario": "An owner has an operating business and several rentals. Both firms describe planning, so a list of tax strategies is a weak differentiator. Compare which team will reconcile business income, property schedules and the personal return.",
+      "questionA": "Show the written plan\u2019s property and business scope and who completes each action.",
+      "questionB": "Show how the rental accounting and owner-level projection connect to the advisory engagement."
+    },
+    {
+      "a": "1800-accountant",
+      "b": "pilot",
+      "decision": "Advisor access or a company accounting-and-filing workflow?",
+      "scenario": "A founder already has monthly books but needs a corporate return and personal guidance. The choice depends on which part of that workflow is missing, not whether both sites mention tax.",
+      "questionA": "Specify the assigned advisor, consultation access and returns included in the chosen package.",
+      "questionB": "Specify bookkeeping prerequisites, corporate filings and any separate personal-return or consulting fees."
+    },
+    {
+      "a": "pilot",
+      "b": "tax-alchemy",
+      "decision": "Company compliance versus a defined planning project",
+      "scenario": "A growing company needs reliable books and filings, while its owner is considering a rental purchase. Separate the company\u2019s recurring accounting obligations from the owner\u2019s new planning decision before comparing quotes.",
+      "questionA": "Explain how the company package handles the founder\u2019s personal rental question.",
+      "questionB": "Explain which ongoing accounting and return services accompany the plan, and which remain elsewhere."
+    },
+    {
+      "a": "1800-accountant",
+      "b": "bottom-line-cpa",
+      "decision": "How will the tax forecast connect to the books?",
+      "scenario": "An online seller is profitable but never knows how much cash to reserve. One comparison is advisor access; another is how the accounting platform and cash-allocation process support the forecast. Ask for the actual monthly output.",
+      "questionA": "Show how current bookkeeping reaches the advisor and triggers revised payment guidance.",
+      "questionB": "Show how Xero reporting and Profit First allocations are reconciled to the current tax projection."
+    },
+    {
+      "a": "1800-accountant",
+      "b": "compound-wealth-tax",
+      "decision": "A business-tax package or combined tax and wealth work?",
+      "scenario": "An owner wants help with business estimates and a future liquidity event. Keep the ordinary return package separate from any investment-management relationship and transaction assignment when comparing cost and responsibility.",
+      "questionA": "Define the business advisory and filing package, including any transaction work outside it.",
+      "questionB": "Identify each tax, transaction and investment engagement, its provider and its separate fees."
+    },
+    {
+      "a": "basis-cost-segregation",
+      "b": "kbkg",
+      "decision": "A residential report purchase or a broader specialty assignment?",
+      "scenario": "An investor owns a duplex and a separate commercial property. First establish whether each property fits the offered study. Do not assume one residential product covers the commercial asset or that either study includes the owner\u2019s tax return.",
+      "questionA": "Confirm residential eligibility and exactly what report support and optional coordination are included.",
+      "questionB": "Quote the specific property study and identify any additional incentive or implementation work separately."
+    },
+    {
+      "a": "pilot",
+      "b": "tax-hive",
+      "decision": "Recurring compliance and strategic planning have different deliverables",
+      "scenario": "A startup already uses bookkeeping but the owner wants a proactive tax plan. Compare the year-round work product and implementation assignment, rather than treating a filed return as evidence that a separate planning project occurred.",
+      "questionA": "Separate corporate return preparation from optional planning and owner-level work.",
+      "questionB": "List the implementation tasks, filings and bookkeeping requirements attached to the plan."
+    },
+    {
+      "a": "1800-accountant",
+      "b": "warren-averett",
+      "decision": "Routine owner support or a specialist-led company project?",
+      "scenario": "A small company is adding another state and preparing for a financing. Identify whether the immediate need is ordinary business advice, multistate tax work or financial reporting. Price those assignments on the same basis.",
+      "questionA": "Identify covered states and the escalation process when an issue needs specialist analysis.",
+      "questionB": "Name the tax and any transaction specialists and define their specific written deliverables."
+    },
+    {
+      "a": "baker-tilly",
+      "b": "cbiz",
+      "decision": "How much of the broader service menu do you actually need?",
+      "scenario": "A family-owned company is evaluating succession and annual compliance. Both firms list several service lines. Ask each to separate required tax work from optional valuation, advisory or family services so a larger bundle does not obscure the decision.",
+      "questionA": "Separate the recurring tax engagement from succession and private-wealth projects.",
+      "questionB": "Separate business and private-client tax work from any additional advisory or valuation assignments."
+    },
+    {
+      "a": "anderson-advisors",
+      "b": "mark-kohler",
+      "decision": "Which organization will perform the legal, tax and education work?",
+      "scenario": "An investor wants an entity formed, a tax projection and practical education. Workshops, memberships, an advisor referral and a signed professional engagement are different purchases. Trace each proposed service to its contracting organization.",
+      "questionA": "List what membership covers and which legal, tax and entity services require separate engagements.",
+      "questionB": "Identify whether the purchase is education, a network referral or work performed by a named affiliated firm."
+    },
+    {
+      "a": "advise-re",
+      "b": "taxstra",
+      "decision": "Property transaction work or continuing tax and accounting?",
+      "scenario": "A physician is buying a building and considering a renovation. Evaluate pre-closing property or construction analysis separately from recurring physician, payroll and rental reporting. Ask who combines those decisions in one forecast.",
+      "questionA": "Define any buyer or construction-advisory work before closing and its relationship to the tax plan.",
+      "questionB": "Define coordination of physician income, entity payroll, the rental and ongoing accounting."
+    },
+    {
+      "a": "hall-cpa",
+      "b": "keystone-cpa",
+      "decision": "How does the written plan reach the property records?",
+      "scenario": "An investor wants a plan for several rentals and needs cleaner accounting. Compare the implementation calendar, ownership of depreciation schedules and any bookkeeping assignment. A written plan and ongoing accounting may have separate scopes.",
+      "questionA": "Identify how property accounting and preparation support the advisory plan.",
+      "questionB": "Identify each written-plan step, who executes it and whether record cleanup or filing is separate."
+    },
+    {
+      "a": "cerebral-tax-advisors",
+      "b": "tax-hive",
+      "decision": "A medical-income focus or a general business planning process?",
+      "scenario": "A physician receives employee wages and locum income and owns a rental. Compare the proposal against those three income streams. Read any advertised guarantee\u2019s conditions separately from the work required to implement the plan.",
+      "questionA": "Show the implementation and filing scope for W-2, locum and rental activities.",
+      "questionB": "Show how the selected planning package addresses the physician\u2019s mixed income and who completes each filing."
+    },
+    {
+      "a": "1800-accountant",
+      "b": "cerebral-tax-advisors",
+      "decision": "General small-business support or a physician-centered scope?",
+      "scenario": "A clinician is starting independent-contract work while keeping a hospital job. The comparison should address payroll, estimates and coordination with the household return. Ask for a proposal tied to that situation instead of relying on a general service list.",
+      "questionA": "Define advisory access and the specific business and individual returns covered.",
+      "questionB": "Define the medical-income planning, implementation and recurring services included for this profile."
+    },
+    {
+      "a": "sdo-cpa",
+      "b": "tax-hive",
+      "decision": "Entity records and basis tracking versus plan implementation",
+      "scenario": "Two owners operate through a partnership and a separate property entity. Their first task is reconciling owner transfers and K-1 information. Compare that work with the proposed planning project so recommendations use consistent starting records.",
+      "questionA": "Specify the basis and intercompany reconciliation and who maintains it after filing.",
+      "questionB": "Specify the records the plan assumes are correct and the separate work needed to repair them."
+    },
+    {
+      "a": "tax-hive",
+      "b": "warren-averett",
+      "decision": "A packaged tax plan or a broader company relationship?",
+      "scenario": "A profitable owner needs planning now and may acquire a competitor next year. Compare today\u2019s plan with the future transaction assignment. A promise of ongoing support should state which specialists, meetings and deliverables it covers.",
+      "questionA": "Explain implementation support and which future acquisition work would be outside the plan.",
+      "questionB": "Separate ordinary planning from transaction, multistate and other specialist work."
+    },
+    {
+      "a": "prime-path-advisory",
+      "b": "tax-hive",
+      "decision": "Executive equity income and business planning need different inputs",
+      "scenario": "An executive with substantial RSUs also has a side business. A package designed around business deductions may not describe equity compensation in enough detail. Confirm eligibility and ask both providers to scope the actual income sources.",
+      "questionA": "Confirm the income qualification and scope for RSUs, outside businesses and all affected returns.",
+      "questionB": "Confirm whether the business plan includes executive equity-compensation analysis or needs a separate assignment."
+    },
+    {
+      "a": "anderson-advisors",
+      "b": "kpmg",
+      "decision": "Legal entity implementation or a large-company tax assignment?",
+      "scenario": "An owner needs an entity structure reviewed while a company faces multistate or transaction work. These are related but different assignments. Ask whether the proposed team supplies the legal documents, the tax analysis, or coordination between separate providers.",
+      "questionA": "Identify the legal and entity deliverables, membership scope and separate tax work.",
+      "questionB": "Identify the company and owner tax scopes and how any external legal implementation is coordinated."
+    },
+    {
+      "a": "tax-alchemy",
+      "b": "wcg-cpas",
+      "decision": "A planning engagement or an operating tax-and-payroll package?",
+      "scenario": "An S-corporation owner has running payroll, rentals and a filing deadline. Compare which provider will own the compensation review and regular filings after the plan is delivered. Keep one-off strategy separate from recurring execution.",
+      "questionA": "Identify the compensation and rental recommendations and who implements them.",
+      "questionB": "Identify the payroll, reasonable-compensation, planning and filing components of the selected package."
+    },
+    {
+      "a": "compound-wealth-tax",
+      "b": "tax-hive",
+      "decision": "Tax planning alone or coordination with an investment relationship?",
+      "scenario": "An owner wants to reduce tax complexity before selling a business and reallocating investments. Ask whether the desired engagement includes investment advice, and make the fees and contracting entities visible before comparing the tax plan.",
+      "questionA": "Separate tax and transaction analysis from any wealth-management agreement.",
+      "questionB": "Define the tax-planning and execution scope and identify any investment work handled elsewhere."
+    },
+    {
+      "a": "1800-accountant",
+      "b": "hacker-johnson-smith",
+      "decision": "Owner tax advice does not replace required financial assurance",
+      "scenario": "A company\u2019s lender requests independent financial reporting while the owner needs tax advice. First define the lender\u2019s reporting requirement. Then compare tax services separately so the tax engagement is not mistaken for an audit or other assurance engagement.",
+      "questionA": "Identify the tax and bookkeeping work, and whether the lender\u2019s reporting need is outside the package.",
+      "questionB": "Identify the required assurance engagement, applicable independence requirements and separate tax scope."
+    },
+    {
+      "a": "basis-cost-segregation",
+      "b": "re-cost-seg",
+      "decision": "Compare the exact study product and property eligibility",
+      "scenario": "An owner has a small rental with renovations and incomplete invoices. Compare the intake requirements and review process for the particular product, not just the provider\u2019s lowest advertised price. Identify what happens when the property needs more investigation.",
+      "questionA": "Confirm residential eligibility, treatment of missing records and the base report\u2019s support limits.",
+      "questionB": "Confirm whether Rapid Report or Fully Engineered Study fits, and what additional documentation or site work is needed."
+    }
+  ]
+}
