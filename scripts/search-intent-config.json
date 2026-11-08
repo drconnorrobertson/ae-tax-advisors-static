@@ -1715,5 +1715,25 @@
     "title": "Self-Employment Tax Planning: Entity Pay, Benefits and Real Costs",
     "description": "Separate self-employment tax from income tax when evaluating entity elections, retirement contributions, health coverage and reimbursements.",
     "h1": "Self-Employment Tax Planning: Entity Pay, Benefits and Real Costs"
+  },
+  "blog/cost-segregation-restaurants-qip-treatment/index.html": {
+    "title": "Restaurant QIP: Tenant Improvements, Equipment and Ownership",
+    "description": "Test restaurant interior improvements for QIP eligibility and distinguish equipment, building structure and tenant-improvement ownership.",
+    "h1": "Restaurant QIP: Tenant Improvements, Equipment and Ownership"
+  },
+  "cost-segregation-for-restaurant/index.html": {
+    "title": "Restaurant Cost Segregation Study: Scope, Records and Implementation",
+    "description": "Compare a restaurant study proposal using ownership, asset schedules, deliverables, return implementation and the full fee.",
+    "h1": "Restaurant Cost Segregation Study: Scope, Records and Implementation"
+  },
+  "blog/tax-strategy-for-med-spa-owners/index.html": {
+    "title": "Med Spa Tax Planning: Devices, Medical Services and Retail Revenue",
+    "description": "Review med-spa equipment, service mix, ownership requirements, QBI limits and construction costs before forecasting deductions.",
+    "h1": "Med Spa Tax Planning: Devices, Medical Services and Retail Revenue"
+  },
+  "blog/tax-strategy-for-optometrists/index.html": {
+    "title": "Optometry Tax Planning: Optical Sales, Inventory and Equipment",
+    "description": "Review optometry service and retail activities, inventory accounting, equipment and retirement costs using practice-specific records.",
+    "h1": "Optometry Tax Planning: Optical Sales, Inventory and Equipment"
   }
 }
