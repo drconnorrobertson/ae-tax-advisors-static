@@ -1204,5 +1204,75 @@
     "title": "Closely Held C-Corp Passive Losses: The Section 469(e)(2) Rule",
     "description": "Test corporate status, net active income, passive credits and other limits before relying on the closely held C corporation exception.",
     "h1": "Closely Held C-Corp Passive Losses: The Section 469(e)(2) Rule"
+  },
+  "blog/rental-property-land-value-allocation/index.html": {
+    "description": "Allocate rental purchase costs between nondepreciable land and improvements using supported values, then reconcile the basis and depreciation schedule."
+  },
+  "ohio/index.html": {
+    "description": "Review Ohio cost segregation, state depreciation adjustments and pass-through planning with the property records and the owner\u2019s filing position."
+  },
+  "about/index.html": {
+    "description": "Meet AE Tax Advisors and learn how the firm scopes tax planning, return preparation and cost segregation for business owners and real estate investors."
+  },
+  "c-corporation-strategy/advanced-c-corporation-tax-planning/index.html": {
+    "description": "Review C corporation ownership, related-party transactions, retained earnings and exit consequences before choosing a multi-entity tax structure."
+  },
+  "contact/index.html": {
+    "description": "Contact AE Tax Advisors to discuss tax planning, return preparation or cost segregation. Confirm your needs, service scope and next steps."
+  },
+  "blog/medical-equipment-tax-deductions-section-179/index.html": {
+    "description": "Review medical equipment classification, Section 179, bonus depreciation and practice ownership before relying on an equipment purchase deduction."
+  },
+  "blog/str-loophole-7-day-rule-explained/index.html": {
+    "description": "Learn how average guest stays affect the STR rental exception and why material participation and other loss limits still need separate review."
+  },
+  "blog/s-corp-tax-optimization-guide/index.html": {
+    "description": "Review S corporation elections, reasonable compensation, QBI, retirement plans and reimbursements as one coordinated owner-return decision."
+  },
+  "connecticut/index.html": {
+    "description": "Review Connecticut cost segregation, state tax adjustments and pass-through planning using the property\u2019s records and the owner\u2019s filing facts."
+  },
+  "blog/offset-w2-income-real-estate/index.html": {
+    "description": "Review when real estate losses may offset W-2 income, including rental exceptions, participation, basis, at-risk amounts and other deduction limits."
+  },
+  "blog/tax-planning-business-owners-making-500k/index.html": {
+    "description": "Coordinate entity choice, owner compensation, retirement contributions and depreciation for a business earning $500K, using the full tax projection."
+  },
+  "blog/tax-strategy-for-financial-advisors/index.html": {
+    "description": "Review tax planning for financial advisors, including S corporation compensation, SSTB and QBI limits, retirement plans and state considerations."
+  },
+  "blog/rental-property-converted-home-basis/index.html": {
+    "description": "Determine depreciation basis when a personal home becomes a rental and preserve the separate cost and value records needed for a later sale."
+  },
+  "blog/short-term-rental-tax-strategy-guide/index.html": {
+    "description": "Review short-term rental tax planning from average-stay tests and participation records to depreciation, personal use and deduction limitations."
+  },
+  "wisconsin/index.html": {
+    "description": "Review Wisconsin cost segregation, state depreciation adjustments and entity planning before estimating the benefit of a property study."
+  },
+  "blog/business-partner-expenses-unreimbursed/index.html": {
+    "description": "Review when a partner\u2019s unreimbursed expenses may be deductible, including agreement requirements, reimbursement rights and supporting records."
+  },
+  "blog/str-tax-strategy-beginners-guide/index.html": {
+    "description": "Start STR tax planning with the property facts, guest stays, participation and loss limits before relying on a cost segregation deduction."
+  },
+  "blog/family-limited-partnership-tax-and-estate-benefits/index.html": {
+    "description": "Review family limited partnership ownership, valuation, transfers and estate-planning requirements before assuming a discount or tax benefit."
+  },
+  "new-jersey/index.html": {
+    "description": "Review New Jersey cost segregation, state depreciation differences and property-owner reporting before calculating a study\u2019s after-tax value."
+  },
+  "blog/c-corp-tax-strategy-business-owners/index.html": {
+    "description": "Compare C corporation tax planning with distributions, retained earnings, benefits, passive-loss rules and the owner\u2019s eventual exit in view."
+  },
+  "compare/h-r-block-alternatives/index.html": {
+    "title": "H&R Block Alternatives: Filing Help and Business Tax Advice",
+    "description": "Compare H&R Block alternatives by filing method, small-business services, preparer access and separately scoped tax planning.",
+    "h1": "H&R Block Alternatives: Filing Help and Business Tax Advice"
+  },
+  "compare/free-tax-usa-alternatives/index.html": {
+    "title": "FreeTaxUSA Alternatives: Software, Support or a Tax Preparer",
+    "description": "Compare FreeTaxUSA with assisted filing and professional engagements by supported forms, state returns, recordkeeping needs and who does the work.",
+    "h1": "FreeTaxUSA Alternatives: Software, Support or a Tax Preparer"
   }
 }

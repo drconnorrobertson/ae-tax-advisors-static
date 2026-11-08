@@ -20,7 +20,9 @@
     "/blog/material-participation-tests-str-owners/": "/blog/material-participation-tests-str-owners-irc-469/",
     "/cost-segregation-hotels/": "/services/cost-segregation-hotels/",
     "/the-smart-way-to-handle-business-vehicle-deductions/": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/",
-    "/the-smart-way-to-deduct-vehicle-expenses-for-business/": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/"
+    "/the-smart-way-to-deduct-vehicle-expenses-for-business/": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/",
+    "/for/": "/tax-strategies-by-profession/",
+    "/search/": "/blog/"
   },
   "reason": "Overlapping service-intent pages and generic numbered rental variants; retain substantive distinct guides."
 }

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-08",
+  "pages": [
+    {
+      "url": "/for/",
+      "destination": "/tax-strategies-by-profession/"
+    },
+    {
+      "url": "/search/",
+      "destination": "/blog/"
+    }
+  ],
+  "reason": "Recover two GSC-listed missing navigation URLs to their existing equivalent destinations; preserve child audience pages."
+}

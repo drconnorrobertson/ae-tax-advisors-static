@@ -3,6 +3,26 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/for/",
+      "destination": "/tax-strategies-by-profession/",
+      "permanent": true
+    },
+    {
+      "source": "/for",
+      "destination": "/tax-strategies-by-profession/",
+      "permanent": true
+    },
+    {
+      "source": "/search/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/search",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
       "source": "/the-smart-way-to-handle-business-vehicle-deductions/",
       "destination": "/vehicle-deductions-mileage-logs-actual-expenses-and-what-works-best/",
       "permanent": true
