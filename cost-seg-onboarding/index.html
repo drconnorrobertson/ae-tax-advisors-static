@@ -12,8 +12,9 @@
 main{max-width:1200px;margin:auto;padding:32px 24px 48px}.brand{display:block;text-align:center;margin-bottom:28px}.brand img{height:46px;width:auto}
 h1{text-align:center;font-family:Georgia,serif;font-size:clamp(28px,4vw,42px);line-height:1.2;margin:0 0 16px}
 .intro{text-align:center;color:#5a6472;max-width:680px;margin:0 auto 28px}.calendar{background:white;border:1px solid #e6e8ec;border-radius:12px;box-shadow:0 6px 22px rgba(27,42,74,.07)}
-iframe{display:block;width:100%;min-height:800px;border:none;overflow:hidden;border-radius:12px}.fallback{text-align:center;font-size:15px;color:#5a6472}a{color:#1b2a4a}.fallback a{font-weight:600}
-@media(max-width:600px){main{padding:24px 12px 36px}}
+/* Leave room for the booking calendar and intake; the provider can expand it further. */
+iframe{display:block;width:100%;height:1400px;min-height:1400px;border:none;overflow:hidden;border-radius:12px}.fallback{text-align:center;font-size:15px;color:#5a6472}a{color:#1b2a4a}.fallback a{font-weight:600}
+@media(max-width:600px){main{padding:24px 12px 36px}iframe{height:2000px;min-height:2000px}}
 </style>
 <script type="application/ld+json">
 {
@@ -38,7 +39,7 @@ iframe{display:block;width:100%;min-height:800px;border:none;overflow:hidden;bor
 <h1>Cost Seg Onboarding with Jacques</h1>
 <p class="intro">Choose a time for your cost segregation onboarding appointment and complete the property intake in the booking calendar below.</p>
 <div class="calendar">
-<iframe src="https://api.leadconnectorhq.com/widget/booking/G12WuNoigo48X5nU8sKe" id="cost-seg-onboarding-jacques" title="Cost Seg Onboarding with Jacques" style="width:100%;min-height:800px;border:none;overflow:hidden;" scrolling="no"></iframe>
+<iframe src="https://api.leadconnectorhq.com/widget/booking/G12WuNoigo48X5nU8sKe" id="cost-seg-onboarding-jacques" title="Cost Seg Onboarding with Jacques" scrolling="no"></iframe>
 </div>
 <p class="fallback">Calendar not loading? <a href="https://api.leadconnectorhq.com/widget/booking/G12WuNoigo48X5nU8sKe" target="_blank" rel="noopener">Open the booking calendar</a>.</p>
 </main>
