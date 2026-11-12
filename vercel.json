@@ -2058,7 +2058,7 @@
       ]
     }
   ],
-  "buildCommand": "node scripts/build-release.cjs",
+  "buildCommand": "node scripts/seo-production.cjs",
   "outputDirectory": "public",
   "rewrites": [
     {

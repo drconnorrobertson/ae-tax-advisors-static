@@ -1,0 +1,22 @@
+{
+  "title": "Business Owner & Real Estate Tax Planning | AE Tax Advisors",
+  "description": "Coordinate business ownership, rental property and tax implementation. Explore AE Tax Advisors services, property review preparation and engagement scope.",
+  "heading": "Coordinate your business, property and personal tax decisions",
+  "intro": "Start with the advisory work you need, then prepare the records behind the decision.",
+  "links": [
+    {
+      "href": "/business-owner-small-business-tax/",
+      "label": "Business owner tax planning"
+    },
+    {
+      "href": "/cost-segregation-study/",
+      "label": "Cost segregation services"
+    },
+    {
+      "href": "/real-estate-tax-planning/",
+      "label": "Real estate tax planning"
+    }
+  ],
+  "buildCommand": "node scripts/build-release.cjs",
+  "outputDirectory": "public"
+}
