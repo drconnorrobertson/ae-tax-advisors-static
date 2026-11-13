@@ -1,0 +1,411 @@
+{
+  "date": "2026-11-13",
+  "groups": [
+    {
+      "route": "/1031-exchange-guide/",
+      "title": "1031 exchange tax planning guide",
+      "sources": [
+        [
+          "IRS Form 8824 instructions",
+          "https://www.irs.gov/instructions/i8824"
+        ]
+      ],
+      "answers": [
+        {
+          "keyword": "1031 exchange rules 2026",
+          "question": "What are the 1031 exchange rules for 2026?",
+          "answer": "Identify replacement real estate in writing within 45 days. Receive it within 180 days or your return due date including extensions, whichever comes first. Arrange the intermediary before closing; review related-party and ownership issues."
+        },
+        {
+          "keyword": "defer capital gains real estate",
+          "question": "Can I defer capital gains on real estate?",
+          "answer": "A qualifying exchange of business or investment real property can postpone gain. A cash sale followed by a purchase generally does not qualify. Personal residences and property held primarily for sale need different treatment."
+        },
+        {
+          "keyword": "how does a 1031 exchange work to avoid taxes",
+          "question": "How does a 1031 exchange work to avoid taxes?",
+          "answer": "It generally defers eligible gain rather than erasing it. Replacement-property basis preserves deferred gain. Cash received or net debt relief can create taxable boot; model closing costs, financing and basis before committing."
+        },
+        {
+          "keyword": "what happens to depreciation recapture in a 1031 exchange",
+          "question": "What happens to depreciation recapture in a 1031 exchange?",
+          "answer": "Do not assume every depreciation-related amount disappears. Recapture and recognized gain depend on exchanged assets and boot. Reconcile the old depreciation schedule, replacement assets and Form 8824 calculation, particularly after cost segregation."
+        },
+        {
+          "keyword": "like-kind exchange real estate",
+          "question": "What counts as like-kind exchange real estate?",
+          "answer": "Qualifying business or investment real estate may differ in use or improvements. Review the real-property definition for separately classified components. U.S. real estate is not like-kind to foreign real estate."
+        }
+      ]
+    },
+    {
+      "route": "/retirement-planning-for-business-owners/",
+      "title": "Best retirement plans for business owners",
+      "sources": [
+        [
+          "IRS self-employed retirement plans",
+          "https://www.irs.gov/retirement-plans/retirement-plans-for-self-employed-people"
+        ],
+        [
+          "IRS one-participant 401(k)",
+          "https://www.irs.gov/retirement-plans/one-participant-401k-plans"
+        ],
+        [
+          "IRS defined benefit plans",
+          "https://www.irs.gov/retirement-plans/defined-benefit-plan"
+        ]
+      ],
+      "answers": [
+        {
+          "keyword": "what is the best retirement plan to reduce taxes as a business owner",
+          "question": "What is the best retirement plan to reduce taxes as a business owner?",
+          "answer": "Compare deductible contributions, employee costs, administration and reliable cash flow. An owner-only business may consider a solo 401(k); an employer with staff needs employee coverage analysis. Larger recurring profits may support a defined benefit design."
+        },
+        {
+          "keyword": "how much can a business owner contribute to a defined benefit plan",
+          "question": "How much can a business owner contribute to a defined benefit plan?",
+          "answer": "There is no universal contribution amount. An enrolled actuary calculates funding using age, compensation, promised benefits, plan assets and assumptions. Obtain a written illustration with required employee contributions and future funding obligations."
+        },
+        {
+          "keyword": "solo 401k vs sep ira",
+          "question": "Solo 401(k) vs SEP IRA: which fits an owner?",
+          "answer": "A solo 401(k) combines employee deferrals and employer contributions, subject to limits and compensation. A SEP generally uses employer contributions. Compare employee eligibility, other employer plans, filing requirements and contribution flexibility before choosing."
+        },
+        {
+          "keyword": "cash balance plan business owner",
+          "question": "When should a business owner consider a cash balance plan?",
+          "answer": "A cash balance plan is a defined benefit pension design. Evaluate it when recurring profits can support funding and administration over time. Include staff costs, actuarial fees and a lower-profit scenario in the comparison."
+        },
+        {
+          "keyword": "defined benefit plan self-employed",
+          "question": "Can a self-employed person use a defined benefit plan?",
+          "answer": "Yes, if the plan and earned income support it. Self-employment does not remove actuarial, funding or reporting requirements. Coordinate related businesses and any existing retirement plans before establishing a new plan."
+        }
+      ]
+    },
+    {
+      "route": "/rd-tax-credit-small-business/",
+      "title": "R&D tax credit for SaaS companies",
+      "sources": [
+        [
+          "IRS research credit",
+          "https://www.irs.gov/businesses/research-credit"
+        ],
+        [
+          "IRS Form 6765 instructions",
+          "https://www.irs.gov/instructions/i6765"
+        ]
+      ],
+      "answers": [
+        {
+          "keyword": "saas startup tax credits",
+          "question": "Which tax credits should a SaaS startup review?",
+          "answer": "Start with the Section 41 research credit and, if eligible, its qualified-small-business payroll tax election. Startup status alone does not establish eligibility. Separate research-credit qualification from the tax treatment of software development expenditures."
+        },
+        {
+          "keyword": "research and development credit small business",
+          "question": "Can a small business claim a research and development credit?",
+          "answer": "Size alone does not decide eligibility. Document a permitted business purpose, technological uncertainty and a process of experimentation. Routine maintenance, cosmetic changes and customer support should not automatically enter the qualifying-project pool."
+        },
+        {
+          "keyword": "r&d tax credit software company",
+          "question": "Can a software company claim the R&D tax credit?",
+          "answer": "Potentially. Evaluate each business component and development project rather than treating all engineering as research. Internal-use software has additional rules; funded development contracts require review of financial risk and rights."
+        },
+        {
+          "keyword": "what expenses qualify for the r&d tax credit in a saas company",
+          "question": "What expenses qualify for the R&D tax credit in a SaaS company?",
+          "answer": "Potential categories include qualifying employee wages, supplies and eligible contract research. Allocate expenses to substantiated qualified activities. Do not automatically include every cloud bill, contractor invoice, founder salary or foreign development expense."
+        },
+        {
+          "keyword": "how do i claim the r&d tax credit for my software business",
+          "question": "How do I claim the R&D tax credit for my software business?",
+          "answer": "Build project narratives and expense support, calculate the credit and complete Form 6765. Review Section 280C coordination and current reporting requirements. An eligible payroll-credit election also requires the applicable payroll reporting steps."
+        }
+      ]
+    },
+    {
+      "route": "/qbi-deduction-guide/",
+      "title": "QBI deduction for multiple entities",
+      "sources": [
+        [
+          "IRS Form 8995-A instructions",
+          "https://www.irs.gov/instructions/i8995a"
+        ]
+      ],
+      "answers": [
+        {
+          "keyword": "how do i maximize the qbi deduction with multiple businesses",
+          "question": "How do I maximize the QBI deduction with multiple businesses?",
+          "answer": "Compare separate and eligible aggregated calculations using each business\u2019s income, W-2 wages, qualified-property basis and losses. Model the household return and other deductions. More entities do not automatically create a larger deduction."
+        },
+        {
+          "keyword": "qbi aggregation rules",
+          "question": "What are the QBI aggregation rules?",
+          "answer": "Generally, the same person or group must own at least 50% for the required period; businesses need the same year-end, cannot be specified service businesses, and must satisfy at least two operational relationship factors. Annual disclosure and consistency matter."
+        },
+        {
+          "keyword": "qualified business income deduction",
+          "question": "How does the qualified business income deduction apply across entities?",
+          "answer": "Eligible pass-through income can qualify, subject to losses, taxable-income limits and other restrictions. An entity\u2019s legal name does not establish eligibility. Reconcile each K-1 and Section 199A statement before calculating the owner deduction."
+        },
+        {
+          "keyword": "can i aggregate s-corps for the qbi deduction",
+          "question": "Can I aggregate S-corps for the QBI deduction?",
+          "answer": "Potentially, when the underlying businesses satisfy all aggregation requirements. Common ownership alone is insufficient. Preserve entity-level aggregation decisions and report the owner\u2019s permitted aggregation consistently; shareholder wages are not QBI."
+        },
+        {
+          "keyword": "pass-through deduction multiple llcs",
+          "question": "How does the pass-through deduction work for multiple LLCs?",
+          "answer": "LLC tax classification and actual activities control. Identify eligible trades or businesses, reconcile losses and test aggregation. QBI aggregation does not merge the LLCs or replace passive-activity grouping elections."
+        }
+      ]
+    },
+    {
+      "route": "/cost-segregation-study/",
+      "title": "Cost segregation for rental property",
+      "sources": [
+        [
+          "IRS depreciation guidance",
+          "https://www.irs.gov/publications/p946"
+        ]
+      ],
+      "answers": [
+        {
+          "keyword": "bonus depreciation real estate",
+          "question": "How does bonus depreciation apply to real estate?",
+          "answer": "The building itself generally uses a longer recovery period. Eligible shorter-life assets identified through supportable classification may qualify for bonus depreciation. Acquisition dates, placed-in-service dates and elections determine treatment."
+        },
+        {
+          "keyword": "cost segregation study",
+          "question": "What should a cost segregation study deliver?",
+          "answer": "Request asset classifications, cost allocations, methodology and a reconciliation to depreciable basis. Ask how the preparer supports assumptions and interfaces with the tax return. A deduction forecast alone is not a complete implementation file."
+        },
+        {
+          "keyword": "is cost segregation worth it for a small landlord",
+          "question": "Is cost segregation worth it for a small landlord?",
+          "answer": "Compare study and filing costs with the present value of usable tax savings. Consider passive-loss limits, income, holding period, state treatment and sale consequences. A large paper deduction can produce little current cash benefit."
+        },
+        {
+          "keyword": "how does cost segregation work for rental property",
+          "question": "How does cost segregation work for rental property?",
+          "answer": "It separates supported shorter-life components from the building\u2019s basis and changes deduction timing. The return must coordinate the study with existing depreciation, elections and any accounting-method correction needed for prior years."
+        },
+        {
+          "keyword": "rental property depreciation",
+          "question": "How does rental property depreciation affect the decision?",
+          "answer": "Separate land from depreciable property, establish the service date and reconcile prior deductions. Compare the existing schedule with proposed classifications. Include eventual sale taxes and suspended-loss usage in the investment model."
+        }
+      ]
+    },
+    {
+      "route": "/blog/can-my-spouse-qualify-for-real-estate-professional-status/",
+      "title": "Spousal real estate professional status",
+      "sources": [
+        [
+          "IRS Schedule E instructions",
+          "https://www.irs.gov/instructions/i1040se"
+        ],
+        [
+          "IRS Publication 925",
+          "https://www.irs.gov/publications/p925"
+        ]
+      ],
+      "answers": [
+        {
+          "keyword": "real estate professional status irs",
+          "question": "What does IRS real estate professional status require?",
+          "answer": "One spouse must independently satisfy both the more-than-750-hour and more-than-half-of-personal-services tests in qualifying real property businesses. Rental losses also require material participation; status alone does not make every loss deductible."
+        },
+        {
+          "keyword": "reps tax strategy",
+          "question": "How does a REPS tax strategy work?",
+          "answer": "Start with actual work patterns and participation records, then test each rental or a valid grouping election. Review basis, at-risk and excess-business-loss limits after the passive-loss analysis. Buying property does not itself establish REPS."
+        },
+        {
+          "keyword": "what are the irs requirements for real estate professional status",
+          "question": "What are the IRS requirements for real estate professional status?",
+          "answer": "Track qualifying services, total work time and participation by activity. Employee real estate work generally counts only for a more-than-5% owner. Records should identify dates, work performed and time, rather than a reconstructed annual estimate."
+        },
+        {
+          "keyword": "spousal reps passive loss",
+          "question": "Can spousal REPS make rental losses nonpassive?",
+          "answer": "On a joint return, one spouse can independently qualify as a real estate professional. Spousal participation can count for material participation. The couple cannot simply combine their hours to meet one spouse\u2019s REPS qualification tests."
+        },
+        {
+          "keyword": "how can my spouse qualify as a real estate professional to reduce our taxes",
+          "question": "How can my spouse qualify as a real estate professional to reduce our taxes?",
+          "answer": "Compare genuine qualifying work with other employment, maintain records throughout the year and evaluate rental participation. Model whether losses are currently usable before paying for a study or restructuring work arrangements."
+        }
+      ]
+    },
+    {
+      "route": "/bonus-depreciation-2026-obbba/",
+      "title": "Bonus depreciation strategy 2026",
+      "sources": [
+        [
+          "IRS Publication 946",
+          "https://www.irs.gov/publications/p946"
+        ],
+        [
+          "IRS Notice 2026-11 guidance",
+          "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-the-additional-first-year-depreciation-deduction-amended-as-part-of-the-one-big-beautiful-bill"
+        ]
+      ],
+      "answers": [
+        {
+          "keyword": "accelerated depreciation commercial property",
+          "question": "What qualifies for accelerated depreciation on commercial property?",
+          "answer": "Supported shorter-life components and qualifying improvements may receive faster deductions than the building. Identify the statutory asset category first; a commercial building does not automatically qualify for a full first-year deduction."
+        },
+        {
+          "keyword": "bonus depreciation 2026",
+          "question": "What is the bonus depreciation rule for 2026?",
+          "answer": "Current law generally provides 100% bonus depreciation for eligible property acquired and placed in service after January 19, 2025. Earlier acquisitions can follow transition rules. Review binding-contract dates and eligibility instead of applying one rate to every asset."
+        },
+        {
+          "keyword": "100 percent bonus depreciation",
+          "question": "Does 100 percent bonus depreciation mean a full tax refund?",
+          "answer": "No. It is a deduction of eligible basis, not a dollar-for-dollar credit. Current tax savings depend on usable losses, applicable rates and state conformity. Include the effect on later depreciation and disposition taxes."
+        },
+        {
+          "keyword": "how does bonus depreciation work for business owners in 2026",
+          "question": "How does bonus depreciation work for business owners in 2026?",
+          "answer": "Confirm eligible basis and the acquisition and service dates, review elections, and report depreciation on the appropriate return. Model cash flow and deduction limits. Ordering or paying for equipment alone does not establish that it is placed in service."
+        },
+        {
+          "keyword": "can i use bonus depreciation on a property i already own",
+          "question": "Can I use bonus depreciation on a property I already own?",
+          "answer": "A later study does not reset the original acquisition or service date. Review the original-year rules, prior elections and depreciation method. Correcting prior depreciation may require an amended return or Form 3115, depending on the facts."
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-entity-structure-for-real-estate-investors/",
+      "title": "Entity structure for real estate investors",
+      "sources": [
+        [
+          "IRS LLC classifications",
+          "https://www.irs.gov/businesses/small-businesses-self-employed/limited-liability-company-llc"
+        ],
+        [
+          "IRS S corporations",
+          "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+        ]
+      ],
+      "answers": [
+        {
+          "keyword": "what is the best entity structure for a real estate investor",
+          "question": "What is the best entity structure for a real estate investor?",
+          "answer": "Start with rental operations, partners, financing, liability exposure and exit plans. Separate the state-law liability entity from its federal tax classification. Compare compliance costs and transfer consequences with counsel and the tax preparer."
+        },
+        {
+          "keyword": "real estate holding company structure",
+          "question": "How should a real estate holding company structure work?",
+          "answer": "Map each property, title holder, borrower and beneficial owner. A holding company can coordinate ownership, but it does not automatically improve deductions or eliminate liability. Review lender consent, insurance and state filing obligations."
+        },
+        {
+          "keyword": "management company rental property",
+          "question": "Should I create a management company for rental property?",
+          "answer": "Use a separate company when actual operations and business needs justify it. Document services, contracts and reasonable fees. Moving rent into a related management company does not by itself create tax savings or change passive-loss treatment."
+        },
+        {
+          "keyword": "should i put my rental properties in an llc or s-corp",
+          "question": "Should I put my rental properties in an LLC or S-corp?",
+          "answer": "An LLC is a legal form; S-corp status is a tax election. Compare default LLC taxation with corporate taxation before transferring appreciated property. Review basis, debt and future distribution consequences before changing title."
+        },
+        {
+          "keyword": "real estate llc vs s-corp",
+          "question": "Real estate LLC vs S-corp: what should I compare?",
+          "answer": "Compare annual filings, ownership flexibility, distributions, payroll needs and the expected sale. Distinguish long-term property ownership from an active management or flipping business. A structure suited to services may be unsuitable for holding appreciating real estate."
+        }
+      ]
+    },
+    {
+      "route": "/short-term-rental-tax-strategy/",
+      "title": "Short-term rental tax strategy",
+      "sources": [
+        [
+          "IRS Publication 925",
+          "https://www.irs.gov/publications/p925"
+        ],
+        [
+          "IRS Publication 527",
+          "https://www.irs.gov/publications/p527"
+        ]
+      ],
+      "answers": [
+        {
+          "keyword": "airbnb tax deductions",
+          "question": "Which Airbnb tax deductions should I track?",
+          "answer": "Keep support for operating expenses, platform fees, insurance, repairs, interest and depreciation. Separate improvements from repairs and allocate personal use. The booking platform\u2019s payout is not a complete tax ledger."
+        },
+        {
+          "keyword": "real estate professional status short-term rental",
+          "question": "Does a short-term rental require real estate professional status?",
+          "answer": "An activity with average customer use of seven days or less generally falls outside the passive-rule rental definition. Material participation must still be tested. This classification does not independently decide Schedule C reporting or self-employment tax."
+        },
+        {
+          "keyword": "what is the short-term rental tax strategy for high earners",
+          "question": "What is the short-term rental tax strategy for high earners?",
+          "answer": "Test average stay and material participation, then determine usable deductions. A qualifying nonpassive loss may offset other income, subject to other limits. Compare financing, operating results and sale taxes before relying on a projected first-year loss."
+        },
+        {
+          "keyword": "how can a short-term rental reduce my taxable income",
+          "question": "How can a short-term rental reduce my taxable income?",
+          "answer": "Allowable expenses and depreciation may exceed revenue. Whether that loss reduces current income depends on personal-use, basis, at-risk, passive-activity and excess-business-loss rules. Keep booking and participation records alongside the depreciation schedule."
+        },
+        {
+          "keyword": "short-term rental tax loophole",
+          "question": "Is the short-term rental tax loophole automatic?",
+          "answer": "No. The label describes a conditional interaction of tax rules. A short booking calendar, ownership alone or a cost segregation report does not establish a deductible nonpassive loss. Review actual use and work performed."
+        }
+      ]
+    },
+    {
+      "route": "/blog/s-corp-vs-c-corp-high-income/",
+      "title": "S-corp vs C-corp for business owners",
+      "sources": [
+        [
+          "IRS S corporations",
+          "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+        ],
+        [
+          "IRS Publication 542",
+          "https://www.irs.gov/publications/p542"
+        ],
+        [
+          "IRS officer compensation",
+          "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues"
+        ]
+      ],
+      "answers": [
+        {
+          "keyword": "s corp vs c corp taxes",
+          "question": "How do S-corp vs C-corp taxes compare?",
+          "answer": "An S corporation generally passes income to shareholders. A C corporation generally pays corporate income tax, with possible shareholder tax when profits are distributed. Compare combined federal and state costs, owner compensation and expected distributions."
+        },
+        {
+          "keyword": "c-corp conversion tax benefits",
+          "question": "What tax benefits should I test before a C-corp conversion?",
+          "answer": "Model retained earnings, investor requirements, employee benefits and a realistic exit. Potential stock-sale benefits have separate requirements. Include conversion costs and future distributions; a lower corporate rate alone does not establish total savings."
+        },
+        {
+          "keyword": "s-corp owner salary",
+          "question": "How should I set S-corp owner salary?",
+          "answer": "Use reasonable compensation for services, supported by duties, time and market evidence. Model payroll taxes, retirement contributions and QBI together. Distributions do not replace required compensation merely because the owner prefers less payroll."
+        },
+        {
+          "keyword": "what is the tax difference between an s-corp and c-corp",
+          "question": "What is the tax difference between an S-corp and C-corp?",
+          "answer": "Compare where income is taxed and when cash reaches owners. S status also has shareholder and stock restrictions. C-corp earnings can face two tax levels; S-corp pass-through income can create tax even without a distribution."
+        },
+        {
+          "keyword": "when should a business owner switch from s-corp to c-corp",
+          "question": "When should a business owner switch from S-corp to C-corp?",
+          "answer": "Consider a switch when documented financing, reinvestment or exit needs outweigh additional tax and compliance costs. Run multiyear projections, confirm the election and effective date, and review restrictions on later returning to S status."
+        }
+      ]
+    }
+  ]
+}

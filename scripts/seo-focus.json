@@ -15,6 +15,42 @@
     {
       "href": "/real-estate-tax-planning/",
       "label": "Real estate tax planning"
+    },
+    {
+      "href": "/1031-exchange-guide/",
+      "label": "1031 exchange tax planning guide"
+    },
+    {
+      "href": "/retirement-planning-for-business-owners/",
+      "label": "Best retirement plans for business owners"
+    },
+    {
+      "href": "/rd-tax-credit-small-business/",
+      "label": "R&D tax credit for SaaS companies"
+    },
+    {
+      "href": "/qbi-deduction-guide/",
+      "label": "QBI deduction for multiple entities"
+    },
+    {
+      "href": "/blog/can-my-spouse-qualify-for-real-estate-professional-status/",
+      "label": "Spousal real estate professional status"
+    },
+    {
+      "href": "/bonus-depreciation-2026-obbba/",
+      "label": "Bonus depreciation strategy 2026"
+    },
+    {
+      "href": "/blog/best-entity-structure-for-real-estate-investors/",
+      "label": "Entity structure for real estate investors"
+    },
+    {
+      "href": "/short-term-rental-tax-strategy/",
+      "label": "Short-term rental tax strategy"
+    },
+    {
+      "href": "/blog/s-corp-vs-c-corp-high-income/",
+      "label": "S-corp vs C-corp for business owners"
     }
   ],
   "buildCommand": "node scripts/build-release.cjs",
