@@ -23,3 +23,4 @@ for(const link of config.links){
  if(/<meta[^>]*content=["'][^"']*noindex/i.test(html))throw Error('Reading destination is noindex: '+link.href);
 }
 fs.writeFileSync(file,s);console.log('SEO focus applied: '+file);
+require('./improve-depreciation-paths.cjs').apply(root);
