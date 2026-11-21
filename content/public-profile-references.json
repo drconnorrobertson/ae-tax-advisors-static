@@ -1,7 +1,7 @@
 {
   "source": "origin/main:about/index.html#business-directory-profiles",
   "source_commit": "5e78af2ee908e3b196c1081c7d76ed4dc92f7748",
-  "count": 114,
+  "count": 115,
   "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied. SuperPages was added from a subsequent exact public-page browser verification.",
   "profiles": [
     {
@@ -1371,13 +1371,25 @@
       "campaign_category": "created",
       "campaign_summary": "AE submitted this listing on the free Basic plan. After the review period, its public business listing was approved and verified; the page identifies it as managed by the business owner.",
       "campaign_detail": "The public page shows AE\u2019s name, current phone, official website, factual founding year 2021, service information and business hours. Its visible street address omits Suite B even though the submitted address included it; use AE\u2019s full current official address below. The free public template displays no logo."
+    },
+    {
+      "platform": "BestRated.company",
+      "url": "https://bestrated.company/us/tax-preparers/billings/#co-ae-tax-advisors",
+      "slug": "bestrated",
+      "note": "BestRated.company includes an AE Tax Advisors business entry within its Billings tax-preparers directory, linking to AE\u2019s official website.",
+      "reviewed": "2026-11-21",
+      "status": "Public business entry approved and verified",
+      "evidence_note": "Root verified the public AE article, current phone, factual biography and exact official website links after email ownership confirmation on November 21, 2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE\u2019s free business entry was approved after ordinary email ownership confirmation. Its public company identity and official website backlinks were verified.",
+      "campaign_detail": "The fragment in this reference URL points to AE\u2019s specific entry on the shared Billings directory page. The entry shows the current phone and a factual 2021 founding-year and Billings biography. The directory\u2019s Verified label refers only to website, phone and email checks; it is not professional accreditation, license verification, an independent review rating or an endorsement adopted by AE. No account password or paid plan was required."
     }
   ],
-  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026. KADOexactvanitypubliccardverifiedbyrootbrowserNovember21,2026. PoplexactpubliccardverifiedbyrootbrowserNovember21,2026. Wave Connect exact public card verified by root browser November 21, 2026. NearSpotUSA exact existing public listing verified by root browser November 21, 2026. CityLocal Pro exact public profile verified by root browser November 21, 2026. Lynkle and Shajara exact public cards verified during the campaign November 21, 2026. Vizoryo claimed existing public listing verified by root browser November 21, 2026. HiHello exact public card verified by root browser November21,2026. OBCP exact public visitor profile verified by root browser November 21, 2026. Linq Business exact public card verified by social agent November21,2026. Hubnix and QREasy exact public profiles verified during campaign November21,2026. Cardova exact public card verified by root browser November21,2026 aftersecurityscan. BizBlinC exact public listing verified by social agent November21,2026. The Manifest exact existing public listing and official website destination verified by root browser November21,2026. SlideShare exact public Company profile verified by social agent November21,2026. OnBillings.com approved public directory listing verified by root browser November21,2026.",
+  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026. KADOexactvanitypubliccardverifiedbyrootbrowserNovember21,2026. PoplexactpubliccardverifiedbyrootbrowserNovember21,2026. Wave Connect exact public card verified by root browser November 21, 2026. NearSpotUSA exact existing public listing verified by root browser November 21, 2026. CityLocal Pro exact public profile verified by root browser November 21, 2026. Lynkle and Shajara exact public cards verified during the campaign November 21, 2026. Vizoryo claimed existing public listing verified by root browser November 21, 2026. HiHello exact public card verified by root browser November21,2026. OBCP exact public visitor profile verified by root browser November 21, 2026. Linq Business exact public card verified by social agent November21,2026. Hubnix and QREasy exact public profiles verified during campaign November21,2026. Cardova exact public card verified by root browser November21,2026 aftersecurityscan. BizBlinC exact public listing verified by social agent November21,2026. The Manifest exact existing public listing and official website destination verified by root browser November21,2026. SlideShare exact public Company profile verified by social agent November21,2026. OnBillings.com approved public directory listing verified by root browser November21,2026. BestRated.company exact public AE directory entry verified by root browser November21,2026.",
   "campaign_status_source": "directory-signup-progress.json goalProgress; per-platform facts from campaign records. This source contains no credentials.",
   "campaign_counts": {
     "presence_only": 38,
     "updated": 37,
-    "created": 39
+    "created": 40
   }
 }
