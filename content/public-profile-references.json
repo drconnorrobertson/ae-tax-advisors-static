@@ -1,7 +1,7 @@
 {
   "source": "origin/main:about/index.html#business-directory-profiles",
   "source_commit": "5e78af2ee908e3b196c1081c7d76ed4dc92f7748",
-  "count": 96,
+  "count": 98,
   "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied. SuperPages was added from a subsequent exact public-page browser verification.",
   "profiles": [
     {
@@ -1155,13 +1155,37 @@
       "campaign_category": "created",
       "campaign_summary": "AE created and verified this public digital business card during the directory campaign.",
       "campaign_detail": "The public card shows AE's current phone, team email, full Billings business address and official website link. The website link was opened and verified to reach AE's actual site. The company logo and an existing AE website banner are displayed; the personal-avatar position uses a default silhouette."
+    },
+    {
+      "platform": "KADO",
+      "url": "https://app.kadonetworks.com/kado/aetaxadvisors",
+      "slug": "kado",
+      "note": "AE's KADO public digital business card uses the aetaxadvisors vanity address. It displays the AE Tax Advisors company name and current business contacts.",
+      "reviewed": "2026-11-21",
+      "status": "Public profile created and verified",
+      "evidence_note": "RootbrowserverifiedvanityURL,AEidentity,currentcontacts,LinkedInandofficialwebsiteclickdestinationNovember21,2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE created and verified this public digital business card during the directory campaign.",
+      "campaign_detail": "The free public card shows (631) 614-5762, team@aetaxadvisors.com and the full Billings Suite B address. It includes the LinkedIn company link and an Official Website link that was opened and verified to reach AE's actual website. A logo has not yet been uploaded."
+    },
+    {
+      "platform": "Popl",
+      "url": "https://popl.co/card/SOkpAtJ3/1",
+      "slug": "popl",
+      "note": "AE's Popl public digital business card is identified by the SOkpAtJ3 card address. It displays AE Tax Advisors as the business and company name.",
+      "reviewed": "2026-11-21",
+      "status": "Public profile created and verified",
+      "evidence_note": "Rootbrowserverifiedfreeplan,publicAEcard,address,factual2021bio,Email/CallandofficialwebsiteclickdestinationNovember21,2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE created and verified this public digital business card during the directory campaign.",
+      "campaign_detail": "The free public card shows the full Billings Suite B address and a factual business introduction with the 2021 founding year. Email and Call buttons are available, and the website button was opened and verified to reach AE's actual website. The card uses the default banner; no uploaded logo is claimed."
     }
   ],
-  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026.",
+  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026. KADOexactvanitypubliccardverifiedbyrootbrowserNovember21,2026. PoplexactpubliccardverifiedbyrootbrowserNovember21,2026.",
   "campaign_status_source": "directory-signup-progress.json goalProgress; per-platform facts from campaign records. This source contains no credentials.",
   "campaign_counts": {
     "presence_only": 36,
     "updated": 36,
-    "created": 24
+    "created": 26
   }
 }
