@@ -1,0 +1,30 @@
+name: Tax Strategist Directory checks
+
+on:
+  pull_request:
+    branches: [tax-strategist-directory-site]
+  push:
+    branches: [tax-strategist-directory-site]
+
+permissions:
+  contents: read
+
+jobs:
+  directory-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Build and validate the directory
+        run: |
+          python build.py
+          node scripts/buyer-intent-release.cjs dist
+          python check.py
