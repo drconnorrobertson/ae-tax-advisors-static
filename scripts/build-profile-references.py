@@ -62,7 +62,7 @@ for row in ROWS:
     campaign_section='<section aria-labelledby="campaign-context"><h2 id="campaign-context">What AE verified on '+name+'</h2><p>'+e(row['campaign_summary'])+'</p>'+campaign_detail+'</section>'
     body=f'''<nav aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/profiles/">Public profiles</a> / {name}</nav>
 <p class="profile-kicker">AE public profile reference</p><h1>AE Tax Advisors on {name}</h1>
-<p>{e(row['note'])}</p><section class="profile-panel" aria-labelledby="external-profile"><h2 id="external-profile">Open the {name} profile</h2>
+<p>{e(row['note'])}</p><section class="profile-panel" aria-labelledby="external-profile"><h2 id="external-profile">Open {name} profile</h2>
 <p><a class="profile-button" href="{url}" target="_blank" rel="noopener">Visit AE on {name} <span aria-hidden="true">↗</span></a></p>
 <p class="profile-url"><strong>Exact external address:</strong> <a href="{url}">{url}</a></p>
 <p><strong>Reference status:</strong> {e(row['status'])}. Found during AE's profile verification campaign; reference inventory compiled November 21, 2026.</p></section>
