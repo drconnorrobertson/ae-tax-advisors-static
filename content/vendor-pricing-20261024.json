@@ -516,9 +516,9 @@
     "path": "/compare/collective-pricing/",
     "category": "solopreneur",
     "source": "https://www.collective.com/plans-and-pricing",
-    "fee": "Displayed monthly plans: LLC $199/month; S Corp $349/month.",
-    "qualification": "The page offers monthly and yearly billing selections. Confirm the selected billing term, entity eligibility, included returns, and any onboarding charges before annualizing a displayed price.",
-    "reviewed": "2026-10-24",
+    "fee": "Monthly billing: LLC $199/month; S Corp $349/month. Yearly billing: LLC $2,030/year; S Corp $3,560/year, paid once a year.",
+    "qualification": "The yearly toggle displays rounded monthly equivalents of $169 and $296; use the stated annual invoices, not twelve times those rounded labels. State filing fees and applicable add-ons are additional. Confirm eligibility, included returns, and renewal terms directly.",
+    "reviewed": "2026-11-20",
     "keywords": [
       "Collective pricing",
       "Collective cost",
