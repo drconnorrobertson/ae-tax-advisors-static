@@ -50,7 +50,9 @@
     "/reps-qualification-through-spouse/": "/blog/can-my-spouse-qualify-for-real-estate-professional-status/",
     "/estate-planning-tax-strategies-business-owners/": "/estate-trust-wealth-transfer/",
     "/estate-tax-planning-advice-for-high-net-worth-families/": "/estate-trust-wealth-transfer/",
-    "/estate-tax-planning-strategies-high-net-worth-families/": "/estate-trust-wealth-transfer/"
+    "/estate-tax-planning-strategies-high-net-worth-families/": "/estate-trust-wealth-transfer/",
+    "/compare/indinero-vs-lyfe-accounting/": "/compare/lyfe-accounting-vs-indinero/",
+    "/compare/indinero-vs-lyfe-accounting": "/compare/lyfe-accounting-vs-indinero/"
   },
   "reason": "Overlapping service-intent pages and generic numbered rental variants; retain substantive distinct guides."
 }
