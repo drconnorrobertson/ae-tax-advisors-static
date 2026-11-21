@@ -1573,5 +1573,21 @@
   "/compare/acrobat-pro-vs-studio/": "2026-11-21",
   "/compare/pandadoc-vs-proposify/": "2026-11-21",
   "/compare/docusign-vs-dropbox-sign/": "2026-11-21",
-  "/compare/pandadoc-vs-docusign/": "2026-11-21"
+  "/compare/pandadoc-vs-docusign/": "2026-11-21",
+  "/compare/stripe-checkout-vs-elements/": "2026-11-21",
+  "/compare/stripe-billing-vs-invoicing/": "2026-11-21",
+  "/compare/paypal-point-of-sale-vs-square/": "2026-11-21",
+  "/compare/helcim-virtual-terminal-vs-smart-terminal/": "2026-11-21",
+  "/compare/stripe-payment-links-vs-invoicing/": "2026-11-21",
+  "/compare/stripe-payment-links-vs-checkout/": "2026-11-21",
+  "/compare/stripe-checkout-full-page-vs-embedded-form/": "2026-11-21",
+  "/compare/square-payment-links-vs-invoices/": "2026-11-21",
+  "/compare/square-virtual-terminal-vs-invoices/": "2026-11-21",
+  "/compare/square-online-vs-payment-links/": "2026-11-21",
+  "/compare/paypal-invoicing-vs-payment-links/": "2026-11-21",
+  "/compare/helcim-payment-pages-vs-invoicing/": "2026-11-21",
+  "/compare/stripe-terminal-vs-square-terminal/": "2026-11-21",
+  "/compare/stripe-invoicing-vs-square-invoices/": "2026-11-21",
+  "/compare/paypal-invoicing-vs-square-invoices/": "2026-11-21",
+  "/compare/helcim-vs-square-virtual-terminal/": "2026-11-21"
 }
