@@ -53,7 +53,7 @@ function walk(dir) {
       const target = path.join(out, relative);
       fs.mkdirSync(path.dirname(target), {recursive: true});
       if (path.extname(relative).toLowerCase() === '.html') {
-        const html = fs.readFileSync(source, 'utf8').replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/gi, footer => {
+        const html = fs.readFileSync(source, 'utf8').replace(/https:\/\/www\.facebook\.com\/aetaxadvisors\/?(?=[\"'\s<])/g, 'https://www.facebook.com/profile.php?id=61587391173090').replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/gi, footer => {
           if (!footer.includes('>Upload My Documents</a>')) {
             const upload = '<a href="https://aetaxadvisors.taxdome.com/">Upload My Documents</a>';
             if (footer.includes('<a href="https://aetaxadvisors.taxdome.com/">Client Portal</a>')) footer = footer.replace('<a href="https://aetaxadvisors.taxdome.com/">Client Portal</a>', '<a href="https://aetaxadvisors.taxdome.com/">Client Portal</a>\n' + upload);
