@@ -1,7 +1,7 @@
 {
   "source": "origin/main:about/index.html#business-directory-profiles",
   "source_commit": "5e78af2ee908e3b196c1081c7d76ed4dc92f7748",
-  "count": 91,
+  "count": 92,
   "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied. SuperPages was added from a subsequent exact public-page browser verification.",
   "profiles": [
     {
@@ -1095,13 +1095,25 @@
       "campaign_category": "presence_only",
       "campaign_summary": "This reference verifies the existing public presence. A completed ownership claim or public correction is not asserted.",
       "campaign_detail": "The external listing still shows the older (406) 702-1445 phone and Monday-Sunday 7 AM-5 PM schedule. Its claim route is part of the shared YellowPages/Thryv process. Use AE's current official phone and Mountain Time hours below."
+    },
+    {
+      "platform": "UrlsTree",
+      "url": "https://aetaxadvisors.urlstree.com/",
+      "slug": "urlstree",
+      "note": "AE's UrlsTree link page on the aetaxadvisors subdomain. The concise business introduction and logo help identify the firm before following its official website link.",
+      "reviewed": "2026-11-21",
+      "status": "Public profile created and verified",
+      "evidence_note": "Root browser verified the AE logo, factual148-characterbio and official website destination on November21,2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE created and verified this public link page during the directory campaign.",
+      "campaign_detail": "The free public page displays the actual AE logo and a short business introduction. Its website link was opened and verified to reach AE's official website. Paid custom search-title and metadata options were not used."
     }
   ],
-  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026.",
+  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026.",
   "campaign_status_source": "directory-signup-progress.json goalProgress; per-platform facts from campaign records. This source contains no credentials.",
   "campaign_counts": {
     "presence_only": 35,
     "updated": 36,
-    "created": 20
+    "created": 21
   }
 }
