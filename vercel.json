@@ -3,6 +3,36 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/advanced-income-entity-planning",
+      "destination": "/services/entity-structuring/",
+      "permanent": true
+    },
+    {
+      "source": "/advanced-income-entity-planning/",
+      "destination": "/services/entity-structuring/",
+      "permanent": true
+    },
+    {
+      "source": "/s-corp-owner-pay",
+      "destination": "/services/reasonable-compensation/",
+      "permanent": true
+    },
+    {
+      "source": "/s-corp-owner-pay/",
+      "destination": "/services/reasonable-compensation/",
+      "permanent": true
+    },
+    {
+      "source": "/cost-segregation",
+      "destination": "/cost-segregation-study/",
+      "permanent": true
+    },
+    {
+      "source": "/cost-segregation/",
+      "destination": "/cost-segregation-study/",
+      "permanent": true
+    },
+    {
       "source": "/compare/indinero-vs-lyfe-accounting/",
       "destination": "/compare/lyfe-accounting-vs-indinero/",
       "statusCode": 301
