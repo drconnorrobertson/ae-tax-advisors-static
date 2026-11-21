@@ -10,7 +10,8 @@ const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const out = path.join(root, 'public');
 const forbidden = new Set(['public', 'scripts', 'research', 'node_modules']);
-const rootNames = new Set(['robots.txt', 'llms.txt', 'llms-full.txt', 'llms.md', 'feed.xml']);
+// Public ownership-verification file downloaded from the existing FreeListingUSA claim.
+const rootNames = new Set(['robots.txt', 'llms.txt', 'llms-full.txt', 'llms.md', 'feed.xml', 'FreeListingUSA2132950783a30f5899b7c3c4b25520cf.txt']);
 const reviewHolds = new Set(Object.keys(JSON.parse(fs.readFileSync(path.join(root, 'discovery_review_holds.json'), 'utf8'))));
 const jsonNames = new Set(['assets/blog-search-index.json', 'assets/ad-booking-config.json', 'compare/tax-advisory-firm-comparison.json', 'compare/competitor-pricing/prices.json']);
 const toolScripts = new Set(['tools/property-review-prep/intake.js']);
