@@ -1,7 +1,7 @@
 {
   "source": "origin/main:about/index.html#business-directory-profiles",
   "source_commit": "5e78af2ee908e3b196c1081c7d76ed4dc92f7748",
-  "count": 92,
+  "count": 93,
   "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied. SuperPages was added from a subsequent exact public-page browser verification.",
   "profiles": [
     {
@@ -1107,13 +1107,25 @@
       "campaign_category": "created",
       "campaign_summary": "AE created and verified this public link page during the directory campaign.",
       "campaign_detail": "The free public page displays the actual AE logo and a short business introduction. Its website link was opened and verified to reach AE's official website. Paid custom search-title and metadata options were not used."
+    },
+    {
+      "platform": "hi.bio",
+      "url": "https://hi.bio/!aetaxadvisors",
+      "slug": "hi-bio",
+      "note": "AE's hi.bio business profile uses the !aetaxadvisors address. The exclamation-mark prefix is part of the exact public business-profile URL; the display name is AE Tax Advisors Team.",
+      "reviewed": "2026-11-21",
+      "status": "Public profile created and verified",
+      "evidence_note": "Root browser verified the displayed AE business name, factualbio and working official website destination on November21,2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE created and verified this public business profile during the directory campaign.",
+      "campaign_detail": "The public page contains a factual business introduction with the 2021 founding year, Billings address, current phone and team email. Its Official Website link was opened and verified to reach AE's official website. The plain profile does not yet display an uploaded AE logo."
     }
   ],
-  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026.",
+  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026.",
   "campaign_status_source": "directory-signup-progress.json goalProgress; per-platform facts from campaign records. This source contains no credentials.",
   "campaign_counts": {
     "presence_only": 35,
     "updated": 36,
-    "created": 21
+    "created": 22
   }
 }
