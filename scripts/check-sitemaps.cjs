@@ -1,7 +1,7 @@
 'use strict';
 const fs = require('node:fs');
 const path = require('node:path');
-const root = path.resolve(__dirname, '..');
+const root = process.argv[2] ? path.resolve(process.argv[2]) : path.resolve(__dirname, '..');
 const config = JSON.parse(fs.readFileSync(path.join(root, 'vercel.json'), 'utf8'));
 const redirected = new Set((config.redirects || []).filter(r => !/[:*()]/.test(r.source)).map(r => r.source));
 const errors = [];
@@ -15,8 +15,11 @@ for (const filename of fs.readdirSync(root).filter(f => /^sitemap.*\.xml$/.test(
     }
     if (redirected.has(url.pathname)) errors.push(filename + ': redirecting URL ' + url.pathname);
     const file = path.join(root, url.pathname);
-    const target = fs.existsSync(file) && fs.statSync(file).isFile() ? file : path.join(file, 'index.html');
-    if (!fs.existsSync(target)) { errors.push(filename + ': missing file ' + url.pathname); continue; }
+    const candidates = [file, path.join(file, 'index.html')];
+    // Match Vercel cleanUrls routing for legacy /article.html source pages.
+    if (config.cleanUrls === true) candidates.push(file.replace(/\/$/, '') + '.html');
+    const target = candidates.find(candidate => fs.existsSync(candidate) && fs.statSync(candidate).isFile());
+    if (!target) { errors.push(filename + ': missing file ' + url.pathname); continue; }
     if (target.endsWith('.html')) {
       urls++;
       const html = fs.readFileSync(target, 'utf8');
