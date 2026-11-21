@@ -1,8 +1,8 @@
 {
   "source": "origin/main:about/index.html#business-directory-profiles",
   "source_commit": "5e78af2ee908e3b196c1081c7d76ed4dc92f7748",
-  "count": 89,
-  "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied.",
+  "count": 91,
+  "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied. SuperPages was added from a subsequent exact public-page browser verification.",
   "profiles": [
     {
       "url": "https://clutch.co/profile/ae-tax-advisors",
@@ -1071,12 +1071,36 @@
       "campaign_category": "presence_only",
       "campaign_summary": "This reference verifies the existing public presence. See any platform-specific note below for account-access or correction details; a completed public update is not asserted.",
       "campaign_detail": "The public page is explicitly marked unclaimed. Its automated summary is unreviewed and may contain inaccurate statements; AE does not adopt that summary or its client-count claims. Match the business using the official website and current contact information below."
+    },
+    {
+      "platform": "SuperPages",
+      "url": "https://www.superpages.com/billings-mt/bpp/ae-tax-advisors-580220400",
+      "slug": "superpages",
+      "note": "AE's existing Billings business listing on SuperPages, identified by the 580220400 business record. The official website link and Lake Elmo Drive address identify the intended firm. SuperPages, DexKnows and YellowPages share Thryv record 580220400; these are separate public websites, not independent underlying citation feeds.",
+      "reviewed": "2026-11-21",
+      "status": "Public presence verified; see campaign context",
+      "evidence_note": "Root browser verified the exact public profile, business name, address and official website backlink on November 21, 2026.",
+      "campaign_category": "presence_only",
+      "campaign_summary": "This reference verifies the existing public presence. See the platform-specific note below for account-access or correction details; a completed public update is not asserted.",
+      "campaign_detail": "The public record still shows the older (406) 702-1445 phone number, 2019 founding year and Monday-Sunday 7 AM-5 PM hours. Ownership recovery and corrections have not been completed. The claim route leads to the YellowPages/Thryv process, which remains pending. Use AE's current official contact information below."
+    },
+    {
+      "platform": "DexKnows",
+      "url": "https://www.dexknows.com/billings-mt/bp/ae-tax-advisors-580220400",
+      "slug": "dexknows",
+      "note": "AE's public Billings listing on DexKnows. This separate website uses the same Thryv business record, 580220400, as the SuperPages and YellowPages listings; it is not an independent account or a separate underlying citation feed.",
+      "reviewed": "2026-11-21",
+      "status": "Public presence verified; see campaign context",
+      "evidence_note": "Root browser verified exact public business name, Billings address and official website backlink on November 21, 2026.",
+      "campaign_category": "presence_only",
+      "campaign_summary": "This reference verifies the existing public presence. A completed ownership claim or public correction is not asserted.",
+      "campaign_detail": "The external listing still shows the older (406) 702-1445 phone and Monday-Sunday 7 AM-5 PM schedule. Its claim route is part of the shared YellowPages/Thryv process. Use AE's current official phone and Mountain Time hours below."
     }
   ],
-  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block.",
+  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026.",
   "campaign_status_source": "directory-signup-progress.json goalProgress; per-platform facts from campaign records. This source contains no credentials.",
   "campaign_counts": {
-    "presence_only": 33,
+    "presence_only": 35,
     "updated": 36,
     "created": 20
   }
