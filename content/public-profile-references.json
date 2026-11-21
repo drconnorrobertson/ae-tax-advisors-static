@@ -1,7 +1,7 @@
 {
   "source": "origin/main:about/index.html#business-directory-profiles",
   "source_commit": "5e78af2ee908e3b196c1081c7d76ed4dc92f7748",
-  "count": 116,
+  "count": 117,
   "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied. SuperPages was added from a subsequent exact public-page browser verification.",
   "profiles": [
     {
@@ -1395,13 +1395,25 @@
       "campaign_category": "created",
       "campaign_summary": "AE created and saved this free company card through basic team Google sign-in. The public business identity, contact information and official website anchor were verified.",
       "campaign_detail": "The public card identifies AE Tax Advisors with Tax Planning and Accounting services, current phone and team email, full Suite B address, exact official website link and social links. It also includes the business-confirmed WhatsApp contact link. No custom logo has been uploaded. This profile is on leenqin.com and should not be confused with similarly named platforms."
+    },
+    {
+      "platform": "Firmlocator",
+      "url": "https://firmlocator.com/us/c/ae-tax-advisors",
+      "slug": "firmlocator",
+      "note": "Firmlocator lists AE Tax Advisors under Accounting and Tax Services with current business contact details and a direct official website link.",
+      "reviewed": "2026-11-21",
+      "status": "Public company profile created and verified",
+      "evidence_note": "Root independently verified the active public company route, revealed current phone and email, and exact official website anchor on November 21, 2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE completed this free-forever company profile through basic team Google sign-in. Although the initial submission message mentioned review, the active public profile was independently verified before inclusion here.",
+      "campaign_detail": "The public listing displays AE\u2019s name, full Suite B address, factual founding year 2021, Monday\u2013Friday 7 AM\u20133 PM Mountain hours, current phone and team email, five social links and the official website. The map location was selected from the address suggestion. No company photo has been uploaded; the page uses a category-image fallback."
     }
   ],
-  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026. KADOexactvanitypubliccardverifiedbyrootbrowserNovember21,2026. PoplexactpubliccardverifiedbyrootbrowserNovember21,2026. Wave Connect exact public card verified by root browser November 21, 2026. NearSpotUSA exact existing public listing verified by root browser November 21, 2026. CityLocal Pro exact public profile verified by root browser November 21, 2026. Lynkle and Shajara exact public cards verified during the campaign November 21, 2026. Vizoryo claimed existing public listing verified by root browser November 21, 2026. HiHello exact public card verified by root browser November21,2026. OBCP exact public visitor profile verified by root browser November 21, 2026. Linq Business exact public card verified by social agent November21,2026. Hubnix and QREasy exact public profiles verified during campaign November21,2026. Cardova exact public card verified by root browser November21,2026 aftersecurityscan. BizBlinC exact public listing verified by social agent November21,2026. The Manifest exact existing public listing and official website destination verified by root browser November21,2026. SlideShare exact public Company profile verified by social agent November21,2026. OnBillings.com approved public directory listing verified by root browser November21,2026. BestRated.company exact public AE directory entry verified by root browser November21,2026. LeenqIn exact public company card verified by root browser November21,2026.",
+  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026. KADOexactvanitypubliccardverifiedbyrootbrowserNovember21,2026. PoplexactpubliccardverifiedbyrootbrowserNovember21,2026. Wave Connect exact public card verified by root browser November 21, 2026. NearSpotUSA exact existing public listing verified by root browser November 21, 2026. CityLocal Pro exact public profile verified by root browser November 21, 2026. Lynkle and Shajara exact public cards verified during the campaign November 21, 2026. Vizoryo claimed existing public listing verified by root browser November 21, 2026. HiHello exact public card verified by root browser November21,2026. OBCP exact public visitor profile verified by root browser November 21, 2026. Linq Business exact public card verified by social agent November21,2026. Hubnix and QREasy exact public profiles verified during campaign November21,2026. Cardova exact public card verified by root browser November21,2026 aftersecurityscan. BizBlinC exact public listing verified by social agent November21,2026. The Manifest exact existing public listing and official website destination verified by root browser November21,2026. SlideShare exact public Company profile verified by social agent November21,2026. OnBillings.com approved public directory listing verified by root browser November21,2026. BestRated.company exact public AE directory entry verified by root browser November21,2026. LeenqIn exact public company card verified by root browser November21,2026. Firmlocator exact active public company listing independently verified by root browser November21,2026.",
   "campaign_status_source": "directory-signup-progress.json goalProgress; per-platform facts from campaign records. This source contains no credentials.",
   "campaign_counts": {
     "presence_only": 38,
     "updated": 37,
-    "created": 41
+    "created": 42
   }
 }
