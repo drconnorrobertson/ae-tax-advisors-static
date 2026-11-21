@@ -1,7 +1,7 @@
 {
   "source": "origin/main:about/index.html#business-directory-profiles",
   "source_commit": "5e78af2ee908e3b196c1081c7d76ed4dc92f7748",
-  "count": 106,
+  "count": 109,
   "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied. SuperPages was added from a subsequent exact public-page browser verification.",
   "profiles": [
     {
@@ -1275,13 +1275,49 @@
       "campaign_category": "created",
       "campaign_summary": "AE created this free public business profile through the team Google account and verified its name, contact information and official website link.",
       "campaign_detail": "The visitor view shows AE\u2019s name, current phone and team email with a link to the official website. Its factual business biography includes the full Suite B address, founding year 2021 and Monday\u2013Friday 7 AM\u20133 PM Mountain hours. No logo has been uploaded. Use AE\u2019s official contact details below for current business information."
+    },
+    {
+      "platform": "Linq Business",
+      "url": "https://app.linq-business.com/p/me-g2moik72k04q",
+      "slug": "linq-business",
+      "note": "Linq Business hosts a public AE Tax Advisors digital business card with contact details and an official website link.",
+      "reviewed": "2026-11-21",
+      "status": "Public profile created and verified",
+      "evidence_note": "Social agent verified the public card, official website anchor and Your card is live confirmation on November 21, 2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE created this free public business card through the team Google account and verified its official website backlink.",
+      "campaign_detail": "The public card displays AE\u2019s name and company, current phone and team email. The factual biography includes founding year 2021 and the full Billings address. This reference concerns the linq-business.com platform and does not imply an affiliation with similarly named services."
+    },
+    {
+      "platform": "Hubnix",
+      "url": "https://hubnixco.cards/c/ae-tax-advisors-team",
+      "slug": "hubnix",
+      "note": "Hubnix hosts a public AE Tax Advisors digital business card with current contact information and official website and LinkedIn links.",
+      "reviewed": "2026-11-21",
+      "status": "Public profile created and verified",
+      "evidence_note": "Public card and exact official website anchor verified during the campaign on November 21, 2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE created this free public business card through the team Google account and verified its current contact information and official website backlink.",
+      "campaign_detail": "The public card shows AE\u2019s name and company, Proactive tax planning, current phone and team email, full Billings address, and direct official website and LinkedIn anchors. AE published one card on the free \u20ac0 plan. It uses a generic A avatar; no photo has been uploaded. Separate logo/header branding is a paid feature and was not purchased."
+    },
+    {
+      "platform": "QREasy",
+      "url": "https://www.qreasy.eu/aetaxadvisors",
+      "slug": "qreasy",
+      "note": "QREasy hosts a public AE Tax Advisors business card with direct contact, official website and LinkedIn links.",
+      "reviewed": "2026-11-21",
+      "status": "Public profile created and verified",
+      "evidence_note": "Public card and exact official website anchor verified during the campaign on November 21, 2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE created this free public business card through the team Google account and verified its current contact information and official website backlink.",
+      "campaign_detail": "The free one-page profile displays AE\u2019s name, current phone and team email. Its factual biography gives founding year 2021, the full Suite B address and Monday\u2013Friday 7 AM\u20133 PM Mountain hours, with weekends closed. The Save contact card uses AE\u2019s company identity. Unrelated template imagery was removed; no logo or header image has been uploaded."
     }
   ],
-  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026. KADOexactvanitypubliccardverifiedbyrootbrowserNovember21,2026. PoplexactpubliccardverifiedbyrootbrowserNovember21,2026. Wave Connect exact public card verified by root browser November 21, 2026. NearSpotUSA exact existing public listing verified by root browser November 21, 2026. CityLocal Pro exact public profile verified by root browser November 21, 2026. Lynkle and Shajara exact public cards verified during the campaign November 21, 2026. Vizoryo claimed existing public listing verified by root browser November 21, 2026. HiHello exact public card verified by root browser November21,2026. OBCP exact public visitor profile verified by root browser November 21, 2026.",
+  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026. KADOexactvanitypubliccardverifiedbyrootbrowserNovember21,2026. PoplexactpubliccardverifiedbyrootbrowserNovember21,2026. Wave Connect exact public card verified by root browser November 21, 2026. NearSpotUSA exact existing public listing verified by root browser November 21, 2026. CityLocal Pro exact public profile verified by root browser November 21, 2026. Lynkle and Shajara exact public cards verified during the campaign November 21, 2026. Vizoryo claimed existing public listing verified by root browser November 21, 2026. HiHello exact public card verified by root browser November21,2026. OBCP exact public visitor profile verified by root browser November 21, 2026. Linq Business exact public card verified by social agent November21,2026. Hubnix and QREasy exact public profiles verified during campaign November21,2026.",
   "campaign_status_source": "directory-signup-progress.json goalProgress; per-platform facts from campaign records. This source contains no credentials.",
   "campaign_counts": {
     "presence_only": 37,
     "updated": 37,
-    "created": 32
+    "created": 35
   }
 }
