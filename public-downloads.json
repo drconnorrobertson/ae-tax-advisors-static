@@ -537,5 +537,13 @@
   "downloads/iso-disposition-chronology.csv",
   "downloads/nso-exercise-basis-records.csv",
   "downloads/equity-award-work-location-record.csv",
-  "downloads/stock-option-termination-expiry-checklist.csv"
+  "downloads/stock-option-termination-expiry-checklist.csv",
+  "downloads/s-corp-prior-year-basis-file-request-register.csv",
+  "downloads/s-corp-formal-note-basis-evidence-schedule.csv",
+  "downloads/s-corp-reduced-basis-loan-repayment-review-packet.csv",
+  "downloads/s-corp-debt-basis-restoration-evidence-log.csv",
+  "downloads/s-corp-basis-ordering-election-history-file.csv",
+  "downloads/s-corp-partial-stock-sale-basis-cutoff-record.csv",
+  "downloads/s-corp-suspended-deduction-character-register.csv",
+  "downloads/multiple-s-corp-basis-document-boundary-check.csv"
 ]
