@@ -3,6 +3,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/compare/indinero-vs-lyfe-accounting/",
+      "destination": "/compare/lyfe-accounting-vs-indinero/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/indinero-vs-lyfe-accounting",
+      "destination": "/compare/lyfe-accounting-vs-indinero/",
+      "statusCode": 301
+    },
+    {
       "source": "/estate-tax-planning-strategies-high-net-worth-families/",
       "destination": "/estate-trust-wealth-transfer/",
       "permanent": true
