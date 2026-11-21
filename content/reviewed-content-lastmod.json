@@ -1491,5 +1491,13 @@
   "/resources/iso-disposition-chronology/": "2026-11-20",
   "/resources/nso-exercise-basis-records/": "2026-11-20",
   "/resources/equity-award-work-location-record/": "2026-11-20",
-  "/resources/stock-option-termination-expiry-checklist/": "2026-11-20"
+  "/resources/stock-option-termination-expiry-checklist/": "2026-11-20",
+  "/resources/s-corp-prior-year-basis-file-request-register/": "2026-11-21",
+  "/resources/s-corp-formal-note-basis-evidence-schedule/": "2026-11-21",
+  "/resources/s-corp-reduced-basis-loan-repayment-review-packet/": "2026-11-21",
+  "/resources/s-corp-debt-basis-restoration-evidence-log/": "2026-11-21",
+  "/resources/s-corp-basis-ordering-election-history-file/": "2026-11-21",
+  "/resources/s-corp-partial-stock-sale-basis-cutoff-record/": "2026-11-21",
+  "/resources/s-corp-suspended-deduction-character-register/": "2026-11-21",
+  "/resources/multiple-s-corp-basis-document-boundary-check/": "2026-11-21"
 }
