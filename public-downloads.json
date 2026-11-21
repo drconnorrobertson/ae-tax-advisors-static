@@ -521,5 +521,21 @@
   "downloads/owner-workbook-tax-advisor-onboarding-readiness-check.csv",
   "downloads/owner-workbook-tax-advisor-annual-work-calendar.csv",
   "downloads/owner-workbook-tax-advisor-engagement-renewal-review.csv",
-  "downloads/owner-workbook-tax-advisor-offboarding-handoff.csv"
+  "downloads/owner-workbook-tax-advisor-offboarding-handoff.csv",
+  "downloads/digital-asset-wallet-ownership-register.csv",
+  "downloads/digital-asset-own-wallet-transfer-trace.csv",
+  "downloads/digital-asset-disposal-lot-evidence.csv",
+  "downloads/digital-asset-missing-basis-review.csv",
+  "downloads/staking-reward-receipt-valuation-record.csv",
+  "downloads/digital-asset-exchange-proceeds-reconciliation.csv",
+  "downloads/digital-asset-transaction-fee-review.csv",
+  "downloads/digital-asset-gift-provenance-packet.csv",
+  "downloads/equity-award-plan-document-index.csv",
+  "downloads/rsu-vesting-sale-basis-reconciliation.csv",
+  "downloads/espp-purchase-sale-records.csv",
+  "downloads/iso-exercise-hold-decision-record.csv",
+  "downloads/iso-disposition-chronology.csv",
+  "downloads/nso-exercise-basis-records.csv",
+  "downloads/equity-award-work-location-record.csv",
+  "downloads/stock-option-termination-expiry-checklist.csv"
 ]
