@@ -2,6 +2,10 @@ public/
 __pycache__/
 *.pyc
 
+# Generated from content/public-profile-references.json before public staging.
+/profiles/
+/sitemap-profiles.xml
+
 # Local Search Console evidence stays outside published source and site output.
 /research/gsc-20261108/
 /research/top50-20261108/

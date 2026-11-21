@@ -1,5 +1,6 @@
 'use strict';
-// Stage committed public content only. No generator is executed at deployment.
+// Stage committed public content and the reviewed, data-driven profile references.
+require('node:child_process').execFileSync('python3', [require('node:path').join(__dirname, 'build-profile-references.py')], {stdio:'inherit'});
 require('node:child_process').execFileSync(process.execPath, [require('node:path').join(__dirname, 'search-intent.mjs'), '--write'], {stdio:'inherit'});
 const fs = require('node:fs');
 const {ensureSharedUx} = require('./ensure-shared-ux.cjs');

@@ -23,6 +23,7 @@ for (const command of [
   "python3 scripts/check-faq-parity.py public",
   "python3 scripts/check-reviewed-tax-claims.py public",
   "node scripts/check-production-seo.cjs public",
+  "python3 scripts/check-profile-references.py public",
   "python3 scripts/check-blog-archive.py public",
   "python3 scripts/check-blog-publication-policy.py public",
   "node scripts/check-shared-discovery-cta.cjs public",
