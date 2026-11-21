@@ -19,7 +19,7 @@ def resolve_migrated(routes):
  for route in routes:
   if route in expected:
    resolved.add(route);continue
-  assert any(r.get('source')==route and r.get('permanent') is True for r in host_redirects), 'Missing permanent consolidation redirect: '+route
+  assert any(r.get('source')==route and (r.get('permanent') is True or r.get('statusCode') in (301, 308)) for r in host_redirects), 'Missing permanent consolidation redirect: '+route
   destination=archive.article(route)['url']
   assert destination in expected, 'Consolidated destination absent from archive: '+route
   resolved.add(destination)
