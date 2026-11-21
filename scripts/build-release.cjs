@@ -18,6 +18,7 @@ for (const command of [
   "python3 scripts/sync-reviewed-page-metadata.py public",
   "node scripts/reconcile-sitemap-indexes.cjs public",
   "node scripts/check-indexing-inventory.cjs public",
+  "node scripts/apply-memo-v1.cjs public",
   "node scripts/check-jsonld.cjs public",
   "node scripts/check-video-metadata.cjs public",
   "python3 scripts/check-faq-parity.py public",
