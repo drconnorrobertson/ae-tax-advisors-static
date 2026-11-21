@@ -10,3 +10,6 @@
 
 /* Use body typography for all calls to action; preserve variant contrast. */
 .button,.hero-search button{font-family:"DM Sans",Arial,sans-serif;font-style:normal;letter-spacing:normal;text-align:center;white-space:normal;overflow-wrap:normal;max-width:100%;gap:8px}.button.secondary:hover{background:#e5ecdf;color:var(--ink)}.scope-band .button:hover{background:#c5e45b;color:var(--ink)}
+
+/* Native form controls stay readable at phone widths. */
+@media(max-width:650px){.hero-search input,.directory-toolbar input,.directory-toolbar select,.compare-table input,.compare-table textarea{font-size:16px;min-width:0}}
