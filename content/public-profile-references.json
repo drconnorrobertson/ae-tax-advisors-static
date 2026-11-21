@@ -1,7 +1,7 @@
 {
   "source": "origin/main:about/index.html#business-directory-profiles",
   "source_commit": "5e78af2ee908e3b196c1081c7d76ed4dc92f7748",
-  "count": 101,
+  "count": 104,
   "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied. SuperPages was added from a subsequent exact public-page browser verification.",
   "profiles": [
     {
@@ -1215,13 +1215,49 @@
       "campaign_category": "created",
       "campaign_summary": "AE created this public business profile during the campaign and verified its official website backlink.",
       "campaign_detail": "The public page shows the full Suite B address, current phone and a factual biography identifying 2021 as the founding year. No logo has been uploaded. Structured hours are empty; the biography contains the current business hours. Use the official contact information below for the latest details."
+    },
+    {
+      "platform": "Lynkle",
+      "url": "https://lynkle.com/aetaxadvisors",
+      "slug": "lynkle",
+      "note": "Lynkle hosts a public AE Tax Advisors business card with current contact information and an official website backlink.",
+      "reviewed": "2026-11-21",
+      "status": "Public profile created and verified",
+      "evidence_note": "Public profile and official website backlink verified during the campaign on November 21, 2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE created this free public business card during the campaign and verified its contact information and official website backlink.",
+      "campaign_detail": "The free public card displays AE\u2019s name and company, current phone and email, and full Billings address. It uses a default letter avatar; no logo has been uploaded. Lynkle presents Google/Bing searchability as a Pro option, so this public reference does not promise that the third-party card is searchable or indexed."
+    },
+    {
+      "platform": "Shajara",
+      "url": "https://www.shajara.co/aetaxadvisors",
+      "slug": "shajara",
+      "note": "Shajara hosts a public AE Tax Advisors business card linking to the official website.",
+      "reviewed": "2026-11-21",
+      "status": "Public profile created and verified",
+      "evidence_note": "Public profile and official website backlink verified during the campaign on November 21, 2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE created this free public business card during the campaign and verified its contact information and official website backlink.",
+      "campaign_detail": "The public card displays AE\u2019s name and company, current phone and email, and full Billings address. No logo has been uploaded; the card uses a default letter avatar. AE created the free profile through the team Google account."
+    },
+    {
+      "platform": "Vizoryo",
+      "url": "https://www.vizoryo.com/en/business/tax-consultant/billings/ae-tax-advisors",
+      "slug": "vizoryo",
+      "note": "Vizoryo lists AE Tax Advisors as a tax consultant in Billings and links to the official website.",
+      "reviewed": "2026-11-21",
+      "status": "Existing public listing claimed and verified",
+      "evidence_note": "Root verified the claimed public listing and platform Verified badge on November 21, 2026.",
+      "campaign_category": "updated",
+      "campaign_summary": "AE claimed this existing auto-indexed listing through the team Google account and email verification. The public platform badge was verified; this does not independently validate the page\u2019s automated content.",
+      "campaign_detail": "The public page shows AE\u2019s name, current phone, official website link and Billings location. The full street address is missing and listed hours of 09:00\u201319:00 Monday through Saturday differ from AE\u2019s actual Monday\u2013Friday 07:00\u201315:00 Mountain hours. The free claim does not provide editing access; the paid expansion was not accepted. AI-assisted descriptions and review-count claims were not independently verified and are not adopted here."
     }
   ],
-  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026. KADOexactvanitypubliccardverifiedbyrootbrowserNovember21,2026. PoplexactpubliccardverifiedbyrootbrowserNovember21,2026. Wave Connect exact public card verified by root browser November 21, 2026. NearSpotUSA exact existing public listing verified by root browser November 21, 2026. CityLocal Pro exact public profile verified by root browser November 21, 2026.",
+  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026. KADOexactvanitypubliccardverifiedbyrootbrowserNovember21,2026. PoplexactpubliccardverifiedbyrootbrowserNovember21,2026. Wave Connect exact public card verified by root browser November 21, 2026. NearSpotUSA exact existing public listing verified by root browser November 21, 2026. CityLocal Pro exact public profile verified by root browser November 21, 2026. Lynkle and Shajara exact public cards verified during the campaign November 21, 2026. Vizoryo claimed existing public listing verified by root browser November 21, 2026.",
   "campaign_status_source": "directory-signup-progress.json goalProgress; per-platform facts from campaign records. This source contains no credentials.",
   "campaign_counts": {
     "presence_only": 37,
-    "updated": 36,
-    "created": 28
+    "updated": 37,
+    "created": 30
   }
 }
