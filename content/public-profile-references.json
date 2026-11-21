@@ -1,7 +1,7 @@
 {
   "source": "origin/main:about/index.html#business-directory-profiles",
   "source_commit": "5e78af2ee908e3b196c1081c7d76ed4dc92f7748",
-  "count": 93,
+  "count": 94,
   "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied. SuperPages was added from a subsequent exact public-page browser verification.",
   "profiles": [
     {
@@ -1119,12 +1119,24 @@
       "campaign_category": "created",
       "campaign_summary": "AE created and verified this public business profile during the directory campaign.",
       "campaign_detail": "The public page contains a factual business introduction with the 2021 founding year, Billings address, current phone and team email. Its Official Website link was opened and verified to reach AE's official website. The plain profile does not yet display an uploaded AE logo."
+    },
+    {
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/user/AE_Tax_Advisors/",
+      "slug": "reddit",
+      "note": "AE's public Reddit identity uses the AE_Tax_Advisors username and displays the AE Tax Advisors name. The profile links to AE's official website and is listed as a moderator of the AETaxAdvisors community.",
+      "reviewed": "2026-11-21",
+      "status": "Public presence verified; see campaign context",
+      "evidence_note": "Root browser verified the exactpublicprofile,H1andactualofficialwebsitesociallinkNovember21,2026.",
+      "campaign_category": "presence_only",
+      "campaign_summary": "This reference verifies the existing Reddit public presence. Account sign-in and editing were not completed during this verification.",
+      "campaign_detail": "The associated community is r/AETaxAdvisors at https://www.reddit.com/r/AETaxAdvisors/. The profile and community are counted as one platform. Community posts are separate public discussions; this reference does not adopt or reproduce their tax claims. Use AE's official service information and discuss your own circumstances directly with the team."
     }
   ],
-  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026.",
+  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce.",
   "campaign_status_source": "directory-signup-progress.json goalProgress; per-platform facts from campaign records. This source contains no credentials.",
   "campaign_counts": {
-    "presence_only": 35,
+    "presence_only": 36,
     "updated": 36,
     "created": 22
   }
