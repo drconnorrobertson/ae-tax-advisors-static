@@ -1,7 +1,7 @@
 {
   "source": "origin/main:about/index.html#business-directory-profiles",
   "source_commit": "5e78af2ee908e3b196c1081c7d76ed4dc92f7748",
-  "count": 98,
+  "count": 100,
   "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied. SuperPages was added from a subsequent exact public-page browser verification.",
   "profiles": [
     {
@@ -1179,13 +1179,37 @@
       "campaign_category": "created",
       "campaign_summary": "AE created and verified this public digital business card during the directory campaign.",
       "campaign_detail": "The free public card shows the full Billings Suite B address and a factual business introduction with the 2021 founding year. Email and Call buttons are available, and the website button was opened and verified to reach AE's actual website. The card uses the default banner; no uploaded logo is claimed."
+    },
+    {
+      "platform": "Wave Connect",
+      "url": "https://app.wavecnct.com/ae.tax-advisors.ovnb",
+      "slug": "wave-connect",
+      "note": "AE's Wave Connect public digital business card uses the ae.tax-advisors.ovnb address. It displays AE Tax Advisors and the firm's full Billings business address.",
+      "reviewed": "2026-11-21",
+      "status": "Public profile created and verified",
+      "evidence_note": "Root browser verified AE identity, current email/phone, full address and actual direct official website anchor on November 21, 2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE created and verified this public digital business card during the directory campaign.",
+      "campaign_detail": "The free single card shows the current team email, phone number and Billings Suite B address, with a direct link to AE's official website. The avatar is a plain AT initial badge; an uploaded company logo is not asserted."
+    },
+    {
+      "platform": "NearSpotUSA",
+      "url": "https://nearspotusa.com/business/ae-tax-advisors-billings",
+      "slug": "nearspotusa",
+      "note": "AE's existing NearSpotUSA listing is in the Financial Advisors category for Billings. The business name, current phone, team email and official website link identify the intended company.",
+      "reviewed": "2026-11-21",
+      "status": "Public listing verified; unclaimed and unverified on the platform",
+      "evidence_note": "Root onsite search and public-detail browser verification found the exact existing AE listing on November 21, 2026.",
+      "campaign_category": "presence_only",
+      "campaign_summary": "This reference verifies an existing public listing. No ownership claim, account recovery or public correction was completed during this verification.",
+      "campaign_detail": "The public page is explicitly marked unclaimed and unverified. It shows the current phone and email with the Lake Elmo Drive address, but Suite B is missing. Its broad Financial Advisors category is a directory navigation label, not an assertion of investment-adviser registration. Use AE's full current address and service information below."
     }
   ],
-  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026. KADOexactvanitypubliccardverifiedbyrootbrowserNovember21,2026. PoplexactpubliccardverifiedbyrootbrowserNovember21,2026.",
+  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026. SpreadlyexactpublicbusinesscardverifiedbysocialagentNovember21,2026. KADOexactvanitypubliccardverifiedbyrootbrowserNovember21,2026. PoplexactpubliccardverifiedbyrootbrowserNovember21,2026. Wave Connect exact public card verified by root browser November 21, 2026. NearSpotUSA exact existing public listing verified by root browser November 21, 2026.",
   "campaign_status_source": "directory-signup-progress.json goalProgress; per-platform facts from campaign records. This source contains no credentials.",
   "campaign_counts": {
-    "presence_only": 36,
+    "presence_only": 37,
     "updated": 36,
-    "created": 26
+    "created": 27
   }
 }
