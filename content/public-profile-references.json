@@ -1,7 +1,7 @@
 {
   "source": "origin/main:about/index.html#business-directory-profiles",
   "source_commit": "5e78af2ee908e3b196c1081c7d76ed4dc92f7748",
-  "count": 94,
+  "count": 95,
   "scope": "86 exact public profile URLs from the published About page, plus three reconciled tracker profiles: LinkedIn, X and AdvisoryList. This is a campaign verification inventory; not a fresh same-day live check of every destination. Ownership and field accuracy are not implied. SuperPages was added from a subsequent exact public-page browser verification.",
   "profiles": [
     {
@@ -1131,13 +1131,25 @@
       "campaign_category": "presence_only",
       "campaign_summary": "This reference verifies the existing Reddit public presence. Account sign-in and editing were not completed during this verification.",
       "campaign_detail": "The associated community is r/AETaxAdvisors at https://www.reddit.com/r/AETaxAdvisors/. The profile and community are counted as one platform. Community posts are separate public discussions; this reference does not adopt or reproduce their tax claims. Use AE's official service information and discuss your own circumstances directly with the team."
+    },
+    {
+      "platform": "static.bio",
+      "url": "https://static.bio/aetaxadvisors",
+      "slug": "static-bio",
+      "note": "AE's static.bio page uses the aetaxadvisors address and displays the AE Tax Advisors name. It collects direct routes to the official website, LinkedIn company page and X account.",
+      "reviewed": "2026-11-21",
+      "status": "Public profile created and verified",
+      "evidence_note": "Root browser verified AEtitle,factualbusinessbioandthreeactualdirectanchorsonNovember21,2026.",
+      "campaign_category": "created",
+      "campaign_summary": "AE created and verified this public link profile during the directory campaign.",
+      "campaign_detail": "The public bio identifies the 2021 founding year, Billings location, current phone and team email. Its three direct links lead to AE's official website, LinkedIn and X. An uploaded logo has not been verified on this profile."
     }
   ],
-  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce.",
+  "additional_sources": "Root browser verified LinkedIn, X and AdvisoryList; all other URLs from published About profile block. SuperPages exact public profile verified by root browser November 21, 2026. DexKnows exact public page verified by root browser November 21, 2026. UrlsTree freepublicpageverifiedbyrootbrowserNovember21,2026. hi.bio exactbusinessprofileverifiedbyrootbrowserNovember21,2026. RedditprofileandcommunityverifiedbyrootbrowserNovember21,2026;countedonce. static.bioexactpublicprofileverifiedbyrootbrowserNovember21,2026.",
   "campaign_status_source": "directory-signup-progress.json goalProgress; per-platform facts from campaign records. This source contains no credentials.",
   "campaign_counts": {
     "presence_only": 36,
     "updated": 36,
-    "created": 22
+    "created": 23
   }
 }
