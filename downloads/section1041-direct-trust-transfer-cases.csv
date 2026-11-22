@@ -1,0 +1,6 @@
+fictional_case,assumed_transfer_route,assumed_fair_market_value,adjusted_basis_before_transfer,relevant_liabilities_assumed,modeled_recognized_gain,modeled_recipient_basis,reader_review
+A,direct_qualifying_spouse,400000,150000,210000,0,150000,
+B,qualifying_trust_ordinary_property,400000,150000,100000,0,150000,
+C,qualifying_trust_ordinary_property,400000,150000,150000,0,150000,
+D,qualifying_trust_ordinary_property,400000,150000,210000,60000,210000,
+E,qualifying_trust_ordinary_property,400000,150000,260000,110000,260000,
