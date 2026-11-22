@@ -7,6 +7,8 @@ on:
       - 'vercel.json'
       - 'scripts/normalize-internal-links.cjs'
       - 'scripts/check-sitemaps.cjs'
+      - 'scripts/build-profile-references.py'
+      - 'content/public-profile-references.json'
       - 'sitemap*.xml'
       - '.github/workflows/normalize-internal-links.yml'
   workflow_dispatch:
@@ -27,6 +29,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      # The sitemap indexes include build-generated profile references.
+      - name: Generate profile reference pages and sitemap
+        run: python3 scripts/build-profile-references.py
       - name: Normalize permanent redirect links
         run: node scripts/normalize-internal-links.cjs --write
       - name: Verify no stale links remain
