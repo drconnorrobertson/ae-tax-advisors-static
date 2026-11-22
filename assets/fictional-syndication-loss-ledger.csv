@@ -1,0 +1,9 @@
+record,amount_usd,classification,fictional
+initial_suspended_loss,148000,assumed passive carryforward,true
+passive_income_absorbed,34000,assumed eligible passive income,true
+remaining_suspended_loss,114000,arithmetic carryforward,true
+ordinary_recapture,61000,supplied ordinary gain component,true
+unrecaptured_1250,79000,supplied unrecaptured Section 1250 component,true
+other_gain,186000,supplied other gain; character review needed,true
+total_gain_components,326000,arithmetic total; not a single gain category,true
+difference_after_stated_loss,212000,arithmetic difference; not taxable income or tax,true
