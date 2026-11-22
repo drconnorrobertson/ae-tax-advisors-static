@@ -1,0 +1,5 @@
+fictional_case,assumed_property_value,assumed_adjusted_basis,assumed_sale_cash,fraction_sold,basis_allocated_to_sale,modeled_recognized_gain,contribution_remainder_value,contribution_remainder_basis,reader_review
+A,800000,320000,200000,25%,80000,120000,600000,240000,
+B,800000,320000,400000,50%,160000,240000,400000,160000,
+C,800000,320000,600000,75%,240000,360000,200000,80000,
+D,800000,320000,800000,100%,320000,480000,0,0,
