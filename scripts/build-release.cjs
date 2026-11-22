@@ -16,6 +16,7 @@ for (const command of [
   "node scripts/install-speed-insights.cjs public",
   "node scripts/apply-reviewed-lastmod.cjs public",
   "python3 scripts/sync-reviewed-page-metadata.py public",
+  "python3 scripts/sync-supported-article-dates.py public",
   "node scripts/reconcile-sitemap-indexes.cjs public",
   "node scripts/check-indexing-inventory.cjs public",
   "node scripts/apply-memo-v1.cjs public",
