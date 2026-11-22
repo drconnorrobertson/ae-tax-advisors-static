@@ -569,7 +569,62 @@
     },
     {
       "source": "/deferred-compensation-planning-high-income-executives/",
-      "destination": "/services/reasonable-compensation/",
+      "destination": "/guides/nonqualified-deferred-compensation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/deferred-compensation-planning-high-income-executives/index.html",
+      "destination": "/guides/nonqualified-deferred-compensation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/deferred-compensation-planning-high-income-executives",
+      "destination": "/guides/nonqualified-deferred-compensation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-planning-for-high-net-worth-individuals-with-deferred-compensation-packages/",
+      "destination": "/guides/nonqualified-deferred-compensation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-planning-for-high-net-worth-individuals-with-deferred-compensation-packages/index.html",
+      "destination": "/guides/nonqualified-deferred-compensation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tax-planning-for-high-net-worth-individuals-with-deferred-compensation-packages",
+      "destination": "/guides/nonqualified-deferred-compensation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tech-executive-deferred-compensation/",
+      "destination": "/guides/nonqualified-deferred-compensation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tech-executive-deferred-compensation/index.html",
+      "destination": "/guides/nonqualified-deferred-compensation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tech-executive-deferred-compensation",
+      "destination": "/guides/nonqualified-deferred-compensation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/business-owner-deferred-compensation/",
+      "destination": "/guides/nonqualified-deferred-compensation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/business-owner-deferred-compensation/index.html",
+      "destination": "/guides/nonqualified-deferred-compensation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/business-owner-deferred-compensation",
+      "destination": "/guides/nonqualified-deferred-compensation/",
       "statusCode": 301
     },
     {
@@ -588,11 +643,6 @@
       "statusCode": 301
     },
     {
-      "source": "/tax-planning-for-high-net-worth-individuals-with-deferred-compensation-packages/",
-      "destination": "/services/reasonable-compensation/",
-      "statusCode": 301
-    },
-    {
       "source": "/tax-planning-for-high-net-worth-individuals-with-stock-options-and-equity-compensation/",
       "destination": "/business-owner-tax-planning/",
       "statusCode": 301
@@ -605,11 +655,6 @@
     {
       "source": "/tech-executive-cost-segregation/",
       "destination": "/business-owner-cost-segregation/",
-      "statusCode": 301
-    },
-    {
-      "source": "/tech-executive-deferred-compensation/",
-      "destination": "/services/reasonable-compensation/",
       "statusCode": 301
     },
     {
@@ -650,11 +695,6 @@
     {
       "source": "/blog/can-i-deduct-rental-property-losses-against-w2-income/",
       "destination": "/short-term-rental-tax-strategy/",
-      "statusCode": 301
-    },
-    {
-      "source": "/business-owner-deferred-compensation/",
-      "destination": "/services/reasonable-compensation/",
       "statusCode": 301
     },
     {

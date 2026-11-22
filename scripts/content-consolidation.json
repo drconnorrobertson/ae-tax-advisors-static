@@ -53,7 +53,11 @@
     "/estate-tax-planning-strategies-high-net-worth-families/": "/estate-trust-wealth-transfer/",
     "/compare/indinero-vs-lyfe-accounting/": "/compare/lyfe-accounting-vs-indinero/",
     "/compare/indinero-vs-lyfe-accounting": "/compare/lyfe-accounting-vs-indinero/",
-    "/blog/cost-segregation-study-cost/": "/blog/how-much-does-a-cost-segregation-study-cost/"
+    "/blog/cost-segregation-study-cost/": "/blog/how-much-does-a-cost-segregation-study-cost/",
+    "/deferred-compensation-planning-high-income-executives/": "/guides/nonqualified-deferred-compensation/",
+    "/tax-planning-for-high-net-worth-individuals-with-deferred-compensation-packages/": "/guides/nonqualified-deferred-compensation/",
+    "/tech-executive-deferred-compensation/": "/guides/nonqualified-deferred-compensation/",
+    "/business-owner-deferred-compensation/": "/guides/nonqualified-deferred-compensation/"
   },
   "reason": "Overlapping service-intent pages and generic numbered rental variants; retain substantive distinct guides."
 }
