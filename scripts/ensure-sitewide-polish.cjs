@@ -3,11 +3,6 @@
 const dimensions = require('../content/site-image-dimensions.json');
 const config=require('../vercel.json');
 const redirects=new Map((config.redirects||[]).filter(x=>(x.permanent||[301,308].includes(x.statusCode))&&!/[:*()]/.test(x.source)&&x.destination.startsWith('/')).map(x=>[x.source,x.destination]));
-const guides = [
- ['/guides/str-tax-cost-segregation/', 'STR and cost segregation questions'],
- ['/compare/tax-influencer-alternatives/', 'Compare tax educators and service scopes'],
- ['/resources/', 'Planning tools and resources']
-];
 function attr(tag,name) { return tag.match(new RegExp('\\b'+name+'\\s*=\\s*(["\'])(.*?)\\1','i'))?.[2]; }
 function add(tag,values){return tag.replace(/\s*\/?>$/,end=>' '+values+end);}
 function normalize(href){
@@ -32,11 +27,8 @@ function polish(html) {
  html=html.replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/gi,footer=>{
   // Footer columns are peers of main content sections, so expose level-two headings.
   footer=footer.replace(/<h4\b([^>]*)>([\s\S]*?)<\/h4>/gi,(_,attrs,body)=>'<h2'+attrs+' data-footer-heading>'+body+'</h2>');
-  if(footer.includes('data-planning-libraries'))return footer;
-  const links=guides.filter(([url])=>!footer.includes('href="'+url+'"'));
-  if(!links.length)return footer;
-  const block='<nav class="planning-library-links" data-planning-libraries aria-label="Planning libraries">'+links.map(([url,label])=>`<a href="${url}">${label}</a>`).join('')+'</nav>';
-  return footer.replace(/<\/footer>/i,block+'$&');
+  // Retire the extra planning-library block, including copies in older source pages.
+  return footer.replace(/<nav\b(?=[^>]*\bdata-planning-libraries\b)[^>]*>[\s\S]*?<\/nav>/gi, '');
  });
  return html;
 }

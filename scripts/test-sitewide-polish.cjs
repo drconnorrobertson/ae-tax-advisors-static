@@ -6,4 +6,6 @@ assert.equal(polish('<img src="/assets/ae-tax-logo.png" width="180" height="60" 
 assert.match(polish('<a href="/cost-seg-estimator/?source=a&amp;ref=b#result">Estimate</a>'),/href="\/cost-segregation-calculator\/\?source=a&amp;ref=b#result"/);
 assert.equal(polish('<a href="https://example.com/cost-seg-estimator/">External</a>'),'<a href="https://example.com/cost-seg-estimator/">External</a>');
 assert.equal(polish('<a href="#question">Answer</a>'),'<a href="#question">Answer</a>');
+assert.equal(polish('<footer>Footer</footer>'), '<footer>Footer</footer>');
+assert.equal(polish('<footer><nav aria-label="Resources"><a href="/resources/">Resources</a></nav><nav class="planning-library-links" data-planning-libraries aria-label="Planning libraries"><a href="/resources/">Planning tools and resources</a></nav></footer>'), '<footer><nav aria-label="Resources"><a href="/resources/">Resources</a></nav></footer>');
 console.log('PASS shared image, navigation, redirect query/hash, noindex and idempotence regression cases');
