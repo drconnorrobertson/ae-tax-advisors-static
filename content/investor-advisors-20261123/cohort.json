@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-23",
+  "pairs": [
+    [
+      "tax-strategy-365",
+      "the-cpa-realtor",
+      "tax-strategy-365-vs-the-cpa-realtor",
+      "A salaried investor is buying a second rental. Compare a portfolio-lifecycle planning proposal with a package that includes personal filing and a year of support. The property schedule, next purchase date and work already completed should be the same in both requests.",
+      "Who checks participation evidence, coordinates the study and reports the result, and which of those steps are included?"
+    ],
+    [
+      "landmark-cpa-group",
+      "tax-strategy-365",
+      "landmark-cpa-group-vs-tax-strategy-365",
+      "A business owner is building a rental portfolio while preparing for a property sale. Both firms describe investor planning; compare the proposed cash forecast, transaction sequence and coordination with the existing business advisers.",
+      "How will you connect operating income, acquisition timing and the proposed sale in one written plan?"
+    ],
+    [
+      "the-investors-accountant",
+      "the-cpa-realtor",
+      "the-investors-accountant-vs-the-cpa-realtor",
+      "An investor needs several returns completed as well as planning for the next rental. Obtain a current Investors Accountant quote and compare it with the applicable CPA Realtor package plus separately priced business returns. Historical search snippets are not current proposals.",
+      "Which years, entities and planning meetings are covered, and what happens if the records need reconstruction?"
+    ],
+    [
+      "madsen-and-company",
+      "pocket-cpa",
+      "madsen-and-company-vs-pocket-cpa",
+      "An S-corporation owner wants coordinated payroll, retirement and rental planning. Madsen describes separate business and real estate planning paths; Pocket CPA emphasizes continuity between planning and preparation. Compare the actual assigned work and the projection-update calendar.",
+      "Who updates the household projection after payroll or business profit changes, and who implements the final reporting?"
+    ],
+    [
+      "savage-tax-advisory",
+      "landmark-cpa-group",
+      "savage-tax-advisory-vs-landmark-cpa-group",
+      "An entrepreneur wants recurring advice on the operating business, rentals and retirement. Savage publishes an advisory range and separate preparation starting fees; Landmark requires a scope-specific proposal in this review. Match the access level and work over two years.",
+      "What changes between the first and second year, including price, access and responsibility for implementation?"
+    ],
+    [
+      "kkos-lawyers",
+      "executive-tax-strategy",
+      "kkos-lawyers-vs-executive-tax-strategy",
+      "A business owner is considering entity changes before a major income event. A law-firm service and a tax-planning engagement can overlap without replacing each other. Separate document drafting, tax modeling, investment commitments and return preparation before comparing cost.",
+      "Which professional supplies the legal documents, which supplies the tax analysis and who is responsible for the completed filings?"
+    ]
+  ],
+  "hub_routes": [],
+  "marker": "investor-advisors-20261123",
+  "published": [
+    "the-cpa-realtor",
+    "savage-tax-advisory"
+  ],
+  "new_comparisons": 6,
+  "refreshed_pair_comparisons": 0
+}

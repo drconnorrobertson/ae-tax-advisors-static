@@ -1,7 +1,7 @@
 {
   "reviewed": "2026-10-24",
-  "provider_count": 125,
-  "page_count": 375,
+  "provider_count": 137,
+  "page_count": 411,
   "providers": [
     {
       "slug": "tax-alchemy",
@@ -1502,6 +1502,150 @@
       "comparison_action": "distinct canonical comparison",
       "official_source": "https://www.rehmann.com/solutions/tax/",
       "editorial_date": "2026-11-07"
+    },
+    {
+      "slug": "tax-strategy-365",
+      "brand": "Tax Strategy 365",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/tax-strategy-365-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/tax-strategy-365-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/tax-strategy-365-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/tax-strategy-365-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://taxstrategy365.com/services/",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "slug": "the-cpa-realtor",
+      "brand": "The CPA Realtor",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/the-cpa-realtor-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/the-cpa-realtor-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/the-cpa-realtor-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/the-cpa-realtor-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.thecparealtor.co/pricing",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "slug": "the-investors-accountant",
+      "brand": "The Investors Accountant",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/the-investors-accountant-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/the-investors-accountant-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/the-investors-accountant-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/the-investors-accountant-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://theinvestorsaccountant.com/",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "slug": "landmark-cpa-group",
+      "brand": "Landmark CPA Group",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/landmark-cpa-group-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/landmark-cpa-group-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/landmark-cpa-group-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/landmark-cpa-group-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://landmarkcpagroup.com/who-we-help/",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "slug": "madsen-and-company",
+      "brand": "Madsen and Company",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/madsen-and-company-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/madsen-and-company-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/madsen-and-company-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/madsen-and-company-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://www.madsencpa.com/tax-planning/",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "slug": "savage-tax-advisory",
+      "brand": "Savage Tax Advisory",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/savage-tax-advisory-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/savage-tax-advisory-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/savage-tax-advisory-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/savage-tax-advisory-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://savagetaxadvisory.com/faq/",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "slug": "andrew-kabatchnick-cpa",
+      "brand": "Andrew Kabatchnick CPA",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/andrew-kabatchnick-cpa-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/andrew-kabatchnick-cpa-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/andrew-kabatchnick-cpa-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/andrew-kabatchnick-cpa-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://andrew-cpa.com/",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "slug": "tarantino-cpa",
+      "brand": "Tarantino CPA",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/tarantino-cpa-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/tarantino-cpa-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/tarantino-cpa-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/tarantino-cpa-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://tarantino-cpa.com/services",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "slug": "executive-tax-strategy",
+      "brand": "Executive Tax Strategy",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/executive-tax-strategy-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/executive-tax-strategy-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/executive-tax-strategy-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/executive-tax-strategy-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://executivetaxstrategy.com/",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "slug": "tra-cpa",
+      "brand": "TRA CPA LLC",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/tra-cpa-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/tra-cpa-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/tra-cpa-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/tra-cpa-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://tracpallc.com/Tax-Advisory.html",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "slug": "pocket-cpa",
+      "brand": "Pocket CPA",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/pocket-cpa-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/pocket-cpa-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/pocket-cpa-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/pocket-cpa-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://pocketcpas.com/tax-planning-services/",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "slug": "kkos-lawyers",
+      "brand": "KKOS Lawyers",
+      "alternative_url": "https://www.aetaxadvisors.com/compare/kkos-lawyers-alternatives/",
+      "comparison_url": "https://www.aetaxadvisors.com/compare/kkos-lawyers-vs-ae-tax/",
+      "pricing_url": "https://www.aetaxadvisors.com/compare/kkos-lawyers-pricing/",
+      "review_url": "https://www.aetaxadvisors.com/compare/kkos-lawyers-alternatives/#provider-review",
+      "review_owner": "Provider service profile on dedicated alternatives page",
+      "comparison_action": "distinct canonical comparison",
+      "official_source": "https://kkoslawyers.com/services",
+      "editorial_date": "2026-11-23"
     }
   ],
   "new_alternatives": [

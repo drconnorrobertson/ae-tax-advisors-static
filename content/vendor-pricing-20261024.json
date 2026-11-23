@@ -2573,5 +2573,231 @@
     "kind": "quote",
     "status": "Current quote required",
     "additionalSources": []
+  },
+  {
+    "slug": "tax-strategy-365",
+    "name": "Tax Strategy 365",
+    "path": "/compare/tax-strategy-365-pricing/",
+    "category": "strategy",
+    "source": "https://taxstrategy365.com/services/",
+    "fee": "A current written quote is required for Tax Strategy 365. This review did not establish a current universal advisory price from the official pages reviewed.",
+    "qualification": "A missing public rate is not evidence of a high or low price. Give the firm your entity list, property schedule, required returns and timeline, and request an itemized proposal.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "Tax Strategy 365 pricing",
+      "Tax Strategy 365 cost",
+      "Tax Strategy 365 fees"
+    ],
+    "status": "Current quote required",
+    "kind": "quote",
+    "additionalSources": []
+  },
+  {
+    "slug": "the-cpa-realtor",
+    "name": "The CPA Realtor",
+    "path": "/compare/the-cpa-realtor-pricing/",
+    "category": "strategy",
+    "source": "https://www.thecparealtor.co/pricing",
+    "fee": "The CPA Realtor publishes Signature at $3,000 to $7,000 and Elite at $5,000 to $9,000 for the first year. Business returns are listed separately at $1,500 to $2,500 per return.",
+    "qualification": "Both packages describe 12 months of support and include personal return preparation. Returning-client pricing can differ. These package ranges are not planning-only prices or a quote for every taxpayer.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "The CPA Realtor pricing",
+      "The CPA Realtor cost",
+      "The CPA Realtor fees"
+    ],
+    "status": "Published program fees — confirm scope",
+    "kind": "published",
+    "additionalSources": []
+  },
+  {
+    "slug": "the-investors-accountant",
+    "name": "The Investors Accountant",
+    "path": "/compare/the-investors-accountant-pricing/",
+    "category": "strategy",
+    "source": "https://theinvestorsaccountant.com/",
+    "fee": "A current written quote is required for The Investors Accountant. This review did not establish a current universal advisory price from the official pages reviewed.",
+    "qualification": "A missing public rate is not evidence of a high or low price. Give the firm your entity list, property schedule, required returns and timeline, and request an itemized proposal.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "The Investors Accountant pricing",
+      "The Investors Accountant cost",
+      "The Investors Accountant fees"
+    ],
+    "status": "Current quote required",
+    "kind": "quote",
+    "additionalSources": [
+      "https://theinvestorsaccountant.com/service-pricing/"
+    ]
+  },
+  {
+    "slug": "landmark-cpa-group",
+    "name": "Landmark CPA Group",
+    "path": "/compare/landmark-cpa-group-pricing/",
+    "category": "strategy",
+    "source": "https://landmarkcpagroup.com/who-we-help/",
+    "fee": "A current written quote is required for Landmark CPA Group. This review did not establish a current universal advisory price from the official pages reviewed.",
+    "qualification": "A missing public rate is not evidence of a high or low price. Give the firm your entity list, property schedule, required returns and timeline, and request an itemized proposal.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "Landmark CPA Group pricing",
+      "Landmark CPA Group cost",
+      "Landmark CPA Group fees"
+    ],
+    "status": "Current quote required",
+    "kind": "quote",
+    "additionalSources": []
+  },
+  {
+    "slug": "madsen-and-company",
+    "name": "Madsen and Company",
+    "path": "/compare/madsen-and-company-pricing/",
+    "category": "strategy",
+    "source": "https://www.madsencpa.com/tax-planning/",
+    "fee": "A current written quote is required for Madsen and Company. This review did not establish a current universal advisory price from the official pages reviewed.",
+    "qualification": "A missing public rate is not evidence of a high or low price. Give the firm your entity list, property schedule, required returns and timeline, and request an itemized proposal.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "Madsen and Company pricing",
+      "Madsen and Company cost",
+      "Madsen and Company fees"
+    ],
+    "status": "Current quote required",
+    "kind": "quote",
+    "additionalSources": [
+      "https://www.madsencpa.com/real-estate-tax-planning/"
+    ]
+  },
+  {
+    "slug": "savage-tax-advisory",
+    "name": "Savage Tax Advisory",
+    "path": "/compare/savage-tax-advisory-pricing/",
+    "category": "strategy",
+    "source": "https://savagetaxadvisory.com/faq/",
+    "fee": "Savage Tax Advisory publishes first-year advisory fees of $6,500 to $25,000. Its FAQ lists separately billed return preparation starting at $1,500 for individuals and $2,000 for businesses.",
+    "qualification": "The FAQ says later-year advisory is usually similar, adjusted for changed circumstances or access. Preparation is available to ongoing advisory clients. Starting preparation prices and an advisory range do not establish your total.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "Savage Tax Advisory pricing",
+      "Savage Tax Advisory cost",
+      "Savage Tax Advisory fees"
+    ],
+    "status": "Published program fees — confirm scope",
+    "kind": "published",
+    "additionalSources": [
+      "https://savagetaxadvisory.com/"
+    ]
+  },
+  {
+    "slug": "andrew-kabatchnick-cpa",
+    "name": "Andrew Kabatchnick CPA",
+    "path": "/compare/andrew-kabatchnick-cpa-pricing/",
+    "category": "strategy",
+    "source": "https://andrew-cpa.com/",
+    "fee": "A current written quote is required for Andrew Kabatchnick CPA. This review did not establish a current universal advisory price from the official pages reviewed.",
+    "qualification": "A missing public rate is not evidence of a high or low price. Give the firm your entity list, property schedule, required returns and timeline, and request an itemized proposal.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "Andrew Kabatchnick CPA pricing",
+      "Andrew Kabatchnick CPA cost",
+      "Andrew Kabatchnick CPA fees"
+    ],
+    "status": "Current quote required",
+    "kind": "quote",
+    "additionalSources": []
+  },
+  {
+    "slug": "tarantino-cpa",
+    "name": "Tarantino CPA",
+    "path": "/compare/tarantino-cpa-pricing/",
+    "category": "strategy",
+    "source": "https://tarantino-cpa.com/services",
+    "fee": "A current written quote is required for Tarantino CPA. This review did not establish a current universal advisory price from the official pages reviewed.",
+    "qualification": "A missing public rate is not evidence of a high or low price. Give the firm your entity list, property schedule, required returns and timeline, and request an itemized proposal.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "Tarantino CPA pricing",
+      "Tarantino CPA cost",
+      "Tarantino CPA fees"
+    ],
+    "status": "Current quote required",
+    "kind": "quote",
+    "additionalSources": []
+  },
+  {
+    "slug": "executive-tax-strategy",
+    "name": "Executive Tax Strategy",
+    "path": "/compare/executive-tax-strategy-pricing/",
+    "category": "strategy",
+    "source": "https://executivetaxstrategy.com/",
+    "fee": "A current written quote is required for Executive Tax Strategy. This review did not establish a current universal advisory price from the official pages reviewed.",
+    "qualification": "A missing public rate is not evidence of a high or low price. Give the firm your entity list, property schedule, required returns and timeline, and request an itemized proposal.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "Executive Tax Strategy pricing",
+      "Executive Tax Strategy cost",
+      "Executive Tax Strategy fees"
+    ],
+    "status": "Current quote required",
+    "kind": "quote",
+    "additionalSources": []
+  },
+  {
+    "slug": "tra-cpa",
+    "name": "TRA CPA LLC",
+    "path": "/compare/tra-cpa-pricing/",
+    "category": "strategy",
+    "source": "https://tracpallc.com/Tax-Advisory.html",
+    "fee": "A current written quote is required for TRA CPA LLC. This review did not establish a current universal advisory price from the official pages reviewed.",
+    "qualification": "A missing public rate is not evidence of a high or low price. Give the firm your entity list, property schedule, required returns and timeline, and request an itemized proposal.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "TRA CPA LLC pricing",
+      "TRA CPA LLC cost",
+      "TRA CPA LLC fees"
+    ],
+    "status": "Current quote required",
+    "kind": "quote",
+    "additionalSources": [
+      "https://tracpallc.com/Real-Estate-Accounting.html"
+    ]
+  },
+  {
+    "slug": "pocket-cpa",
+    "name": "Pocket CPA",
+    "path": "/compare/pocket-cpa-pricing/",
+    "category": "strategy",
+    "source": "https://pocketcpas.com/tax-planning-services/",
+    "fee": "A current written quote is required for Pocket CPA. This review did not establish a current universal advisory price from the official pages reviewed.",
+    "qualification": "A missing public rate is not evidence of a high or low price. Give the firm your entity list, property schedule, required returns and timeline, and request an itemized proposal.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "Pocket CPA pricing",
+      "Pocket CPA cost",
+      "Pocket CPA fees"
+    ],
+    "status": "Current quote required",
+    "kind": "quote",
+    "additionalSources": []
+  },
+  {
+    "slug": "kkos-lawyers",
+    "name": "KKOS Lawyers",
+    "path": "/compare/kkos-lawyers-pricing/",
+    "category": "legal",
+    "source": "https://kkoslawyers.com/services",
+    "fee": "A current written quote is required for KKOS Lawyers. This review did not establish a current universal advisory price from the official pages reviewed.",
+    "qualification": "A missing public rate is not evidence of a high or low price. Give the firm your entity list, property schedule, required returns and timeline, and request an itemized proposal.",
+    "reviewed": "2026-11-23",
+    "keywords": [
+      "KKOS Lawyers pricing",
+      "KKOS Lawyers cost",
+      "KKOS Lawyers fees"
+    ],
+    "status": "Current quote required",
+    "kind": "quote",
+    "additionalSources": [
+      "https://kkoslawyers.com/pillar/tax-planning"
+    ]
   }
 ]
