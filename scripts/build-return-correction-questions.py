@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "short-term-rental-tax-questions": (
+        "Short-term rental tax questions",
+        "Short-term rental tax questions for property owners",
+        "Worked examples for personal use, booking activity, guest services, material participation and rental receipts.",
+        "Find the tax question that matches your booking records, guest service or participation decision.",
+        "/short-term-rental-tax-strategy/",
+    ),
     "return-correction-questions": (
         "Return correction questions",
         "Return correction questions for business and rental owners",
