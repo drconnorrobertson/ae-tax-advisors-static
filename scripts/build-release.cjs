@@ -5,6 +5,7 @@ const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 for (const command of [
   "node scripts/build-public.cjs",
+  "python3 scripts/build-property-records.py public",
   "node scripts/brand-check.mjs public",
   "node scripts/consolidate-content.cjs",
   "node scripts/check-nth-degree.cjs",
