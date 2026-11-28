@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "bonus-depreciation-eligibility-questions": (
+        "Bonus depreciation eligibility questions",
+        "Bonus depreciation eligibility and election questions",
+        "Worked examples on acquisition dates, used property, related purchases, ADS and Form 4562.",
+        "Review asset eligibility and election scope before calculating bonus depreciation.",
+        "/bonus-depreciation-rental-property/",
+    ),
     "partnership-adjustment-filing-questions": (
         "Partnership adjustment filing questions",
         "Partnership AAR filing and Form 8986 questions",
