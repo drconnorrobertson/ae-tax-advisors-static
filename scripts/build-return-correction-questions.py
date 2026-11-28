@@ -10,9 +10,9 @@ ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
     "rental-qbi-questions": (
         "Rental QBI questions",
-        "Rental real estate QBI safe harbor questions",
-        "Worked examples on service hours, managers, lease terms and enterprise records.",
-        "Reconcile eligible rental services, lease terms and the records supporting each enterprise.",
+        "Rental real estate QBI eligibility and deduction questions",
+        "Worked examples on rental service hours, lease terms, self-rentals, carryforwards and deduction limits.",
+        "Review rental eligibility, then work through the limits that determine the deduction.",
         "/qbi-deduction-guide/",
     ),
     "amended-return-deadline-questions": (
