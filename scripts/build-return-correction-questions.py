@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "macrs-convention-questions": (
+        "MACRS convention questions",
+        "MACRS mid-quarter and mid-month convention questions",
+        "Worked examples on the 40% test, same-year dispositions and rental building depreciation.",
+        "Use the asset dates and included basis to determine the convention and partial-year deduction.",
+        "/macrs-depreciation-schedule-2026/",
+    ),
     "section-179-deduction-questions": (
         "Section 179 deduction questions",
         "Section 179 limits, elections and recapture questions",
