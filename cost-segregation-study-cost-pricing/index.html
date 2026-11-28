@@ -231,7 +231,15 @@
     </section>
     <section class="content-section fade-in-section">
         <div class="container narrow">
-            <h2>Compare proposals using the same facts</h2><p>Our guide to <a href="/blog/how-much-does-a-cost-segregation-study-cost/">how much a cost segregation study costs</a> includes fee examples and an <a href="/assets/cost-segregation-quote-comparison.csv" download>editable quote comparison worksheet</a>. Use the same property facts and list separately priced work when comparing providers.</p>
+            <h2 id="study-fee-estimator">Estimate the standard study fee by square footage</h2>
+<p>Multiply the confirmed billable square footage by $1, with a $2,000 minimum per study. Use this estimator for one property.</p>
+<p><label for="cost-segregation-fee-square-feet">Billable square footage</label><br>
+<input id="cost-segregation-fee-square-feet" type="number" inputmode="numeric" min="1" max="10000000" step="1" placeholder="For example, 3,500" aria-describedby="cost-segregation-fee-scope" disabled></p>
+<p><output id="cost-segregation-fee-result" for="cost-segregation-fee-square-feet" aria-live="polite">Enter the billable square footage to see an estimate.</output></p>
+<p id="cost-segregation-fee-scope">This local estimate excludes separately scoped work. Confirm billable area, report scope and filing or implementation fees before you engage. <a href="/cost-seg-discovery/">Request a written cost segregation quote</a>.</p>
+<noscript><p>Use the published formula above to estimate the standard fee without JavaScript.</p></noscript>
+<script defer src="/assets/cost-segregation-study-fee.js"></script>
+<h2>Compare proposals using the same facts</h2><p>Our guide to <a href="/blog/how-much-does-a-cost-segregation-study-cost/">how much a cost segregation study costs</a> includes fee examples and an <a href="/assets/cost-segregation-quote-comparison.csv" download>editable quote comparison worksheet</a>. Use the same property facts and list separately priced work when comparing providers.</p>
 <p>Give each provider the same property details and ask them to state assumptions. If one estimate uses acquisition price including land and another uses depreciable basis, their projected percentages cannot be compared directly. The same is true when an estimate includes new renovation costs that another omits.</p><p>Ask for the total engagement cost, not a fee disconnected from return implementation. Confirm whether discounts, travel, additional buildings, amendments, state schedules or missing-record reconstruction change that cost.</p><p><a href="/cost-segregation-study/">Review AE's study process and deliverables</a> before comparing proposals. Use the <a href="/cost-segregation-documents-checklist/">documents checklist</a> to identify information a provider still needs.</p>
         </div>
     </section>
