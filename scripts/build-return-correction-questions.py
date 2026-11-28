@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-income-reporting-questions": (
+        "Rental income reporting questions",
+        "Rental income reporting questions for landlords",
+        "Worked examples for advance rent, lease cancellation payments, unpaid rent and noncash rent.",
+        "Reconcile each receipt with the lease, payment records and applicable reporting rule.",
+        "/rental-property-tax-planning/",
+    ),
     "cost-segregation-documentation-questions": (
         "Cost segregation documentation questions",
         "Cost segregation study documentation questions",
