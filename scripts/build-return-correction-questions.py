@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "business-property-tax-questions": (
+        "Business property tax questions",
+        "Tax questions for business owners who own or lease real estate",
+        "Worked examples for self-rentals, buildouts, depreciation schedules and business asset sales.",
+        "Review the records that connect your operating business with its property.",
+        "/rental-property-tax-planning/",
+    ),
     "short-term-rental-tax-questions": (
         "Short-term rental tax questions",
         "Short-term rental tax questions for property owners",
