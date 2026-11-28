@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "depreciation-method-filing-questions": (
+        "Depreciation method filing questions",
+        "Depreciation method filing and Form 3115 questions",
+        "Worked examples on depreciation correction history, study scope, filing evidence and adjustment schedules.",
+        "Trace the records behind the change from the original depreciation schedule through filing.",
+        "/form-3115-cost-segregation/",
+    ),
     "rental-loss-disposition-questions": (
         "Rental loss disposition questions",
         "Suspended rental loss questions for sales and transfers",
