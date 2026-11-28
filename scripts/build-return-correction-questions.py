@@ -8,6 +8,7 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "disaster-amended-return-questions": ("Disaster amended return FAQs", "Disaster Loss Elections and Amended Return FAQs", "Review prior-year disaster loss elections, filing dates, revocation, and insurance recovery.", "Work through the amended return decisions that can follow a federally declared disaster affecting rental property.", "/amended-tax-returns/"),
     "rental-casualty-tax-questions": ("Rental casualty tax FAQs", "Rental Property Casualty Loss and Insurance Tax FAQs", "Work through casualty losses, pending insurance claims, and rental property basis after restoration.", "Use these examples to reconcile property damage, insurance payments, and the tax basis of your rental.", "/rental-property-tax-planning/"),
     "rental-partial-disposition-questions": (
         "Rental partial disposition questions",
