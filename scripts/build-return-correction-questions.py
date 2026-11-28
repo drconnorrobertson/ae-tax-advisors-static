@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-partnership-basis-questions": (
+        "Rental partnership basis questions",
+        "Partnership basis and K-1 questions for rental property owners",
+        "Worked examples on K-1 capital, rental loss limits, inside basis, liabilities and distributions.",
+        "Trace the amounts reported by the partnership to the records maintained by each partner.",
+        "/tax-planning-for-high-net-worth-individuals-with-complex-partnership-and-k1-income/",
+    ),
     "real-estate-exchange-reporting-questions": (
         "Real estate exchange reporting questions",
         "1031 exchange deadlines, gain and basis questions",
