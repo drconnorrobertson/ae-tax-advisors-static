@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-financing-tax-questions": (
+        "Rental financing tax questions",
+        "Rental refinance and mortgage tax questions",
+        "Worked examples on tracing loan proceeds, refinance points, mortgage payments and appraisal fees.",
+        "Reconcile the loan records before classifying interest and other costs.",
+        "/rental-property-tax-planning/",
+    ),
     "rental-repair-capital-questions": (
         "Rental repair and capitalization questions",
         "Rental repair and capital improvement tax questions",
