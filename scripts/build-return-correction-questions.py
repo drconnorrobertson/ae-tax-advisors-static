@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "partnership-adjustment-filing-questions": (
+        "Partnership adjustment filing questions",
+        "Partnership AAR filing and Form 8986 questions",
+        "Worked examples on AAR transmission, signatures, partner changes and tiered partnership deadlines.",
+        "Follow the correction from the reviewed-year return to the required partner reporting.",
+        "/partnership-aar-vs-amended-return/",
+    ),
     "s-corporation-basis-questions": (
         "S corporation basis questions",
         "S corporation stock basis and shareholder loan questions",
