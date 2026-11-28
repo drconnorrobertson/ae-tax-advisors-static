@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "s-corporation-basis-questions": (
+        "S corporation basis questions",
+        "S corporation stock basis and shareholder loan questions",
+        "Worked examples on basis limits, loan guarantees, repayments, distributions and Form 7203.",
+        "Reconcile the shareholder records before applying the stock and debt basis rules.",
+        "/s-corp-tax-strategy/",
+    ),
     "rental-partnership-basis-questions": (
         "Rental partnership basis questions",
         "Partnership basis and K-1 questions for rental property owners",
