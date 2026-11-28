@@ -8,6 +8,7 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-casualty-tax-questions": ("Rental casualty tax FAQs", "Rental Property Casualty Loss and Insurance Tax FAQs", "Work through casualty losses, pending insurance claims, and rental property basis after restoration.", "Use these examples to reconcile property damage, insurance payments, and the tax basis of your rental.", "/rental-property-tax-planning/"),
     "rental-partial-disposition-questions": (
         "Rental partial disposition questions",
         "Rental building partial disposition and replacement questions",
