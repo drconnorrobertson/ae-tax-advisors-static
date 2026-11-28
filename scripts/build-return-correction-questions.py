@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-partial-disposition-questions": (
+        "Rental partial disposition questions",
+        "Rental building partial disposition and replacement questions",
+        "Worked examples on disposition dates, historical basis, filing and replacement schedules.",
+        "Follow the removed component from the fixed-asset register to the disposition calculation.",
+        "/depreciation-and-fixed-asset-review-for-rental-properties/",
+    ),
     "rental-active-participation-questions": (
         "Rental active participation questions",
         "Rental loss allowance and active participation questions",
