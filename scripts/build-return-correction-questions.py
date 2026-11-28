@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "amended-return-deadline-questions": (
+        "Amended return deadline questions",
+        "Amended return refund deadline and filing questions",
+        "Worked examples for early filing, extensions, corrected returns and paper amendments.",
+        "Separate the claim deadline, refundable payments and filing package before submitting Form 1040-X.",
+        "/amended-tax-returns/",
+    ),
     "macrs-convention-questions": (
         "MACRS convention questions",
         "MACRS mid-quarter and mid-month convention questions",
