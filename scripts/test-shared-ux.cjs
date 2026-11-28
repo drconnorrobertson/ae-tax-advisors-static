@@ -10,6 +10,16 @@ assert.match(enhanced, /<script defer src="\/assets\/site-ux.js" data-ae-navigat
 assert.equal(ensureSharedUx(enhanced), enhanced);
 assert.ok(enhanced.includes(header), 'inline handler and header unchanged');
 for (const untouched of [fixture.replace(header, ''), fixture.replace('aria-controls="primary-nav"','aria-controls="other"'), fixture.replace('id="primary-nav"','id="other"'), fixture.replace('</head>', '<script defer src="/assets/site-ux.js?v=1"></script></head>')]) assert.equal(ensureSharedUx(untouched), untouched);
+const costMenu = '<div class="nav-dropdown"><a href="/cost-segregation-airbnb/" class="nav-link">Cost Segregation <span class="arrow">▾</span></a><div class="dropdown-content"><a href="/cost-segregation-airbnb/" class="dropdown-item">Cost Seg for Airbnb/STR</a></div></div>';
+const menuFixture = fixture.replace('</nav>', costMenu + '</nav>');
+const routed = ensureSharedUx(menuFixture);
+assert.ok(routed.includes('<a href="/cost-segregation-study/" class="nav-link">Cost Segregation'));
+assert.ok(routed.includes('<a href="/cost-segregation-airbnb/" class="dropdown-item">Cost Seg for Airbnb/STR'));
+assert.equal(ensureSharedUx(routed), routed, 'route normalization is idempotent');
+const legacyMenu = ensureSharedUx(menuFixture.replace('aria-controls="primary-nav"', 'aria-label="Toggle menu"'));
+assert.ok(legacyMenu.includes('<a href="/cost-segregation-study/" class="nav-link">Cost Segregation'));
+assert.ok(!legacyMenu.includes('data-ae-navigation-only'), 'legacy button does not receive new event handlers');
+assert.ok(ensureSharedUx(menuFixture.replace('</head>', '<script defer src="/assets/site-ux.js"></script></head>')).includes(routed.match(/<nav[^>]*>.*?<\/nav>/)[0]), 'existing scripts do not block route normalization');
 const root = path.resolve(__dirname, '..');
 const discovery = fs.readFileSync(path.join(root, 'discovery/index.html'), 'utf8');
 assert.equal(ensureSharedUx(discovery), discovery, 'no-header discovery unchanged');

@@ -6,14 +6,24 @@ function attribute(tag, name) {
 }
 function ensureSharedUx(html) {
   const markup = html.replace(/<!--[\s\S]*?-->/g, '');
-  const scripts = markup.match(/<script\b[^>]*>/gi) || [];
-  if (scripts.some(tag => /^\/assets\/site-ux\.js(?:[?#]|$)/.test(attribute(tag, 'src')))) return html;
   const header = markup.match(/<header\b[^>]*>[\s\S]*?<\/header>/i);
   if (!header || !/<\/head\s*>/i.test(markup)) return html;
   const buttons = header[0].match(/<button\b[^>]*>/gi) || [];
   const navs = header[0].match(/<nav\b[^>]*>/gi) || [];
-  if (!buttons.some(tag => attribute(tag, 'class').split(/\s+/).includes('mobile-toggle') && attribute(tag, 'aria-controls') === 'primary-nav')) return html;
   if (!navs.some(tag => attribute(tag, 'id') === 'primary-nav' && attribute(tag, 'class').split(/\s+/).includes('nav-links'))) return html;
-  return html.replace(/<\/head\s*>/i, '<script defer src="/assets/site-ux.js" data-ae-navigation-only="true"></script>\n$&');
+  const updated = html.replace(/<nav\b[^>]*>[\s\S]*?<\/nav>/gi, (nav) => {
+    if (attribute(nav.match(/^<nav\b[^>]*>/i)[0], 'id') !== 'primary-nav') return nav;
+    return nav.replace(/<a\b[^>]*>\s*Cost Segregation\s*<span\b/gi, (link) => {
+      const tag = link.match(/^<a\b[^>]*>/i)[0];
+      if (!attribute(tag, 'class').split(/\s+/).includes('nav-link') ||
+          attribute(tag, 'href') !== '/cost-segregation-airbnb/') return link;
+      return link.replace(/(\bhref\s*=\s*)(["'])(\/cost-segregation-airbnb\/)\2/i,
+        (_, prefix, quote) => prefix + quote + '/cost-segregation-study/' + quote);
+    });
+  });
+  if (!buttons.some(tag => attribute(tag, 'class').split(/\s+/).includes('mobile-toggle') && attribute(tag, 'aria-controls') === 'primary-nav')) return updated;
+  const scripts = markup.match(/<script\b[^>]*>/gi) || [];
+  if (scripts.some(tag => /^\/assets\/site-ux\.js(?:[?#]|$)/.test(attribute(tag, 'src')))) return updated;
+  return updated.replace(/<\/head\s*>/i, '<script defer src="/assets/site-ux.js" data-ae-navigation-only="true"></script>\n$&');
 }
 module.exports = {ensureSharedUx};
