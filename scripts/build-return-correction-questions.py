@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-at-risk-tax-questions": (
+        "Rental at-risk tax questions",
+        "At-risk loss limitation questions for rental property owners",
+        "Worked examples on limit ordering, financing, loss protection, recapture and carryforwards.",
+        "Follow the loss through the at-risk calculation before applying the passive activity rules.",
+        "/passive-activity-loss-rules-real-estate/",
+    ),
     "real-estate-professional-hours-questions": (
         "Real estate professional hours questions",
         "Real estate professional status and participation hours questions",
