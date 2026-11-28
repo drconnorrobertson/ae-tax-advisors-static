@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-loss-disposition-questions": (
+        "Rental loss disposition questions",
+        "Suspended rental loss questions for sales and transfers",
+        "Worked examples for sales, installment reporting, exchanges, gifts and inherited rental property.",
+        "Follow the suspended loss balance through the transaction that changes ownership.",
+        "/passive-activity-loss-rules-real-estate/",
+    ),
     "business-property-tax-questions": (
         "Business property tax questions",
         "Tax questions for business owners who own or lease real estate",
