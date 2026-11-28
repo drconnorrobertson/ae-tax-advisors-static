@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-sale-reporting-questions": (
+        "Rental sale reporting questions",
+        "Tax reporting questions when a rental property sells",
+        "Worked examples for sale proceeds, mortgage payoff, adjusted basis and depreciation-related gain.",
+        "Reconcile the closing statement and asset schedules before computing gain.",
+        "/rental-property-sale-tax-calculator/",
+    ),
     "rental-at-risk-tax-questions": (
         "Rental at-risk tax questions",
         "At-risk loss limitation questions for rental property owners",
