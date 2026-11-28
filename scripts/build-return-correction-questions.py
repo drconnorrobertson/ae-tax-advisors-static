@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-placed-in-service-evidence-questions": (
+        "Rental placed-in-service evidence questions",
+        "Placed-in-service evidence questions for rentals",
+        "Worked examples on approvals, occupied acquisitions, phased renovations and year-end equipment.",
+        "Document when each property or asset was ready and available for its intended use.",
+        "/real-estate-depreciation/",
+    ),
     "rental-net-investment-income-questions": (
         "Rental net investment income questions",
         "Net investment income tax questions for rental owners",
