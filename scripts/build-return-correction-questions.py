@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "real-estate-exchange-reporting-questions": (
+        "Real estate exchange reporting questions",
+        "1031 exchange deadlines, gain and basis questions",
+        "Worked examples for identification, exchange deadlines, cash received and replacement property basis.",
+        "Reconcile the exchange records before reporting gain or preparing a replacement property depreciation schedule.",
+        "/1031-exchange-guide/",
+    ),
     "rental-sale-reporting-questions": (
         "Rental sale reporting questions",
         "Tax reporting questions when a rental property sells",
