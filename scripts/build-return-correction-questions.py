@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "cost-segregation-documentation-questions": (
+        "Cost segregation documentation questions",
+        "Cost segregation study documentation questions",
+        "Worked examples on estimated costs, indirect costs, component descriptions and asset schedules.",
+        "Review the evidence that connects a study’s allocations to your depreciation records.",
+        "/cost-segregation-study/",
+    ),
     "rental-financing-tax-questions": (
         "Rental financing tax questions",
         "Rental refinance and mortgage tax questions",
