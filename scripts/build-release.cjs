@@ -6,6 +6,7 @@ const root = path.resolve(__dirname, '..');
 for (const command of [
   "node scripts/build-public.cjs",
   "python3 scripts/build-property-records.py public",
+  "python3 scripts/build-return-correction-questions.py public",
   "node scripts/brand-check.mjs public",
   "node scripts/consolidate-content.cjs",
   "node scripts/check-nth-degree.cjs",
