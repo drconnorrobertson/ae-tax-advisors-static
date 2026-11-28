@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "real-estate-professional-hours-questions": (
+        "Real estate professional hours questions",
+        "Real estate professional status and participation hours questions",
+        "Worked examples on the 750-hour test, other work, employee ownership and spouse participation.",
+        "Separate the hours used to establish your status from those used to evaluate each rental activity.",
+        "/real-estate-professional-status/",
+    ),
     "rental-income-reporting-questions": (
         "Rental income reporting questions",
         "Rental income reporting questions for landlords",
