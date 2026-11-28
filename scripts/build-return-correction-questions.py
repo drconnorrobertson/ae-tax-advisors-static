@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-net-investment-income-questions": (
+        "Rental net investment income questions",
+        "Net investment income tax questions for rental owners",
+        "Worked examples on Form 8960, rental income, participation exclusions and gain at sale.",
+        "Determine what rental income or gain enters Form 8960 before applying the filing-status threshold.",
+        "/net-investment-income-tax-reduce-3-8-percent-surtax/",
+    ),
     "rental-qbi-questions": (
         "Rental QBI questions",
         "Rental real estate QBI eligibility and deduction questions",
