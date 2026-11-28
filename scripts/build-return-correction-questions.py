@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-conversion-tax-questions": (
+        "Rental conversion tax questions",
+        "Tax questions when a home changes between personal and rental use",
+        "Worked examples for conversion basis, rental availability, mixed use, depreciation and sale reporting.",
+        "Trace the dates and values that change the tax treatment when a home changes use.",
+        "/rental-property-tax-planning/",
+    ),
     "depreciation-method-filing-questions": (
         "Depreciation method filing questions",
         "Depreciation method filing and Form 3115 questions",
