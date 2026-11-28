@@ -17,16 +17,20 @@ if (comparison) {
       return;
     }
 
-    const leaseCost = leaseCash - leaseDeduction * rate / 100 - leaseResale;
-    const buyCost = buyCash - buyDeduction * rate / 100 - resale;
-    const difference = Math.round((leaseCost - buyCost) * 100) / 100;
+    const leaseCostCents = Math.round((leaseCash - leaseDeduction * rate / 100 - leaseResale) * 100);
+    const buyCostCents = Math.round((buyCash - buyDeduction * rate / 100 - resale) * 100);
+    const difference = (leaseCostCents - buyCostCents) / 100;
     const comparisonText = difference === 0 ? 'The modeled costs are equal.' :
       (difference > 0 ? 'Buying' : 'Leasing') + ' costs ' + dollars.format(Math.abs(difference)) + ' less in this scenario.';
-    output.textContent = 'Lease after tax: ' + dollars.format(leaseCost) +
-      '. Buy after tax: ' + dollars.format(buyCost) + '. ' + comparisonText;
+    output.textContent = 'Lease after tax: ' + dollars.format(leaseCostCents / 100) +
+      '. Buy after tax: ' + dollars.format(buyCostCents / 100) + '. ' + comparisonText;
   }
 
   comparison.addEventListener('submit', event => event.preventDefault());
   comparison.addEventListener('input', update);
+  comparison.querySelectorAll('[data-equipment-input]').forEach(input => {
+    input.name = input.dataset.equipmentInput;
+  });
+  comparison.querySelector('[data-equipment-controls]').disabled = false;
   update();
 }
