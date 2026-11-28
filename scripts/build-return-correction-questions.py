@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "section-179-deduction-questions": (
+        "Section 179 deduction questions",
+        "Section 179 limits, elections and recapture questions",
+        "Worked examples on Section 179 income limits, carryforwards, partial elections and qualified improvements.",
+        "Check the asset, election and taxpayer limits before reporting a Section 179 deduction.",
+        "/section-179-vs-bonus-depreciation-2026/",
+    ),
     "bonus-depreciation-eligibility-questions": (
         "Bonus depreciation eligibility questions",
         "Bonus depreciation eligibility and election questions",
