@@ -281,6 +281,13 @@ def generate(root, collection):
                 for q, a in [(title, direct), (question, answer)]
             ]}
             pages[route] = page(route, title, direct, body, [breadcrumbs(route, title, base, label), faq])
+    if collection == "amended-return-deadline-questions":
+        election = link(
+            "/guides/rental-repair-capital-questions/late-repair-capitalization-election-amended-return/",
+            "Can I make a missed repair capitalization election on an amended return?",
+        )
+        hub.append(f"<h2>Filing elections</h2><ul><li>{election}</li></ul>")
+
     pages[base] = page(base, hub_title, description,
                        f"<p>{escape(intro)}</p>" + "".join(hub),
                        [breadcrumbs(base, hub_title, base, label)])
