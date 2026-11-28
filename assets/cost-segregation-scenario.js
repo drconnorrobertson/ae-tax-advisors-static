@@ -19,10 +19,13 @@
     const without = basis / x.life * fraction;
     const withStudy = reclassified + (basis - reclassified) / x.life * fraction;
     const additional = withStudy - without;
+    const taxReductionIfFullyUsable = additional * x.rate / 100;
+    const breakEvenUsablePercent = x.fee === 0 ? 0
+      : taxReductionIfFullyUsable > 0 ? x.fee / taxReductionIfFullyUsable * 100 : null;
     const currentlyUsable = additional * x.usable / 100;
     const benefit = currentlyUsable * x.rate / 100;
     return { basis, reclassified, without, withStudy, additional, currentlyUsable,
-      benefit, net: benefit - x.fee };
+      benefit, net: benefit - x.fee, breakEvenUsablePercent };
   }
   if (typeof module !== 'undefined' && module.exports) module.exports = { estimate };
   if (!root.document) return;
@@ -37,6 +40,7 @@
 
   const output = root.document.getElementById('scenario-result');
   const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+  const percent = new Intl.NumberFormat('en-US', { style: 'percent', maximumFractionDigits: 1 });
   listen(form, 'input', function () { output.textContent = 'Inputs changed. Select Calculate to update the scenario.'; });
   listen(form, 'submit', function (event) {
     event.preventDefault();
@@ -58,6 +62,16 @@
       for (const key of Object.keys(labels)) {
         const term = root.document.createElement('dt'); term.textContent = labels[key];
         const value = root.document.createElement('dd'); value.textContent = money.format(result[key]);
+        list.append(term, value);
+      }
+      if (values.fee > 0) {
+        const term = root.document.createElement('dt');
+        term.textContent = 'Additional deduction that must be usable to cover the fee this year';
+        const value = root.document.createElement('dd');
+        const threshold = result.breakEvenUsablePercent;
+        value.textContent = threshold === null || threshold > 100
+          ? 'The modeled first-year federal tax reduction cannot cover the entered fee.'
+          : 'About ' + percent.format(threshold / 100);
         list.append(term, value);
       }
       output.append(list);
