@@ -75,6 +75,17 @@
         list.append(term, value);
       }
       output.append(list);
+      const alternateInput = form.elements.alternateReclass;
+      if (alternateInput && alternateInput.value.trim() !== '') {
+        const alternate = estimate({ ...values, reclass: Number(alternateInput.value) });
+        const comparison = root.document.createElement('p');
+        comparison.textContent = 'Alternate case at ' + percent.format(Number(alternateInput.value) / 100) +
+          ' reclassification: additional first-year deduction ' + money.format(alternate.additional) +
+          ', illustrative federal tax reduction ' + money.format(alternate.benefit) +
+          ', and current cash benefit after the entered fee ' + money.format(alternate.net) +
+          '. This changes the modeled after-fee result by ' + money.format(alternate.net - result.net) + '.';
+        output.append(comparison);
+      }
     } catch (error) { output.textContent = error.message; }
   });
 
