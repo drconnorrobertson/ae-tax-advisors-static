@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-qbi-questions": (
+        "Rental QBI questions",
+        "Rental real estate QBI safe harbor questions",
+        "Worked examples on service hours, managers, lease terms and enterprise records.",
+        "Reconcile eligible rental services, lease terms and the records supporting each enterprise.",
+        "/qbi-deduction-guide/",
+    ),
     "amended-return-deadline-questions": (
         "Amended return deadline questions",
         "Amended return refund deadline and filing questions",
