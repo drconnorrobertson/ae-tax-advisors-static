@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-repair-capital-questions": (
+        "Rental repair and capitalization questions",
+        "Rental repair and capital improvement tax questions",
+        "Worked examples on building systems, pre-existing defects and repair safe harbors.",
+        "Compare the work performed with the tax rules that determine how its cost is reported.",
+        "/rental-property-tax-planning/",
+    ),
     "rental-conversion-tax-questions": (
         "Rental conversion tax questions",
         "Tax questions when a home changes between personal and rental use",
