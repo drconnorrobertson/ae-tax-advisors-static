@@ -8,6 +8,13 @@ import sys
 
 ORIGIN = "https://www.aetaxadvisors.com"
 COLLECTIONS = {
+    "rental-active-participation-questions": (
+        "Rental active participation questions",
+        "Rental loss allowance and active participation questions",
+        "Worked examples on management decisions, ownership, income phaseouts and suspended rental losses.",
+        "Check active participation and filing status before calculating the rental loss allowance.",
+        "/passive-activity-loss-rules-real-estate/",
+    ),
     "rental-placed-in-service-evidence-questions": (
         "Rental placed-in-service evidence questions",
         "Placed-in-service evidence questions for rentals",
